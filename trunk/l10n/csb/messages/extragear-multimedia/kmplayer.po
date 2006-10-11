@@ -5,15 +5,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmplayer\n"
 "POT-Creation-Date: 2006-10-04 08:35+0200\n"
-"PO-Revision-Date: 2006-10-07 17:48+0200\n"
+"PO-Revision-Date: 2006-10-11 18:09+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: _translatorinfo.cpp:1
 msgid ""
@@ -273,7 +272,7 @@ msgid ""
 msgstr ""
 "Pòdôj pòlét, chtërnë przeczérëjë strëgã aùdio/wideò\n"
 "do sztandardowégò wińdzënia. Bãdze òno sparłãczone ze sztandardowim wéńdzeniém "
-"grôcza.\n"
+"òdgrëwôcza.\n"
 "\n"
 "Pòlét:"
 
@@ -364,8 +363,7 @@ msgstr "Ùrzãdzenié DVD:"
 
 #: kmplayerapp.cpp:1609
 msgid "Path to your DVD device, you must have read rights to this device"
-msgstr ""
-"Stegna przistãpù do ùrzãdzenia DVD. Abë grac nót je miec prawò òdczëtania z DVD"
+msgstr "Stegna przistãpù do ùrzãdzenia DVD. Abë grac nót je miec prawò òdczëtania z DVD"
 
 #: kmplayerapp.cpp:1636
 msgid "Optical Disks"
@@ -439,8 +437,7 @@ msgstr "Ùrzãdzenié VCD (CDROM):"
 
 #: kmplayerapp.cpp:1970
 msgid "Path to your CDROM/DVD device, you must have read rights to this device"
-msgstr ""
-"Stegna przistãpù do ùrzãdzenia CDROM/DVD. Abë grac nót je miec prawò do òdczëtu"
+msgstr "Stegna przistãpù do ùrzãdzenia CDROM/DVD. Abë grac nót je miec prawò do òdczëtu"
 
 #: kmplayerapp.cpp:1981 kmplayerapp.cpp:2041 kmplayerapp.cpp:2069
 msgid "VCD"
@@ -579,10 +576,8 @@ msgid "Failed to end ffserver process."
 msgstr "Zasztëkónié procesu ffserwer nie darzëło sã."
 
 #: kmplayerbroadcast.cpp:552
-msgid ""
-"Failed to start ffserver.\n"
-msgstr ""
-"Nie je mòżno zrëszëc ffserver.\n"
+msgid "Failed to start ffserver.\n"
+msgstr "Nie je mòżno zrëszëc ffserver.\n"
 
 #: kmplayerbroadcast.cpp:565
 msgid "Failed to start ffmpeg."
@@ -787,7 +782,7 @@ msgstr "Nagrëwarka %1 %2"
 
 #: kmplayerpartbase.cpp:1366
 msgid "Player %1 %2"
-msgstr "Grôcz %1 %2"
+msgstr "Òdgëwôcz %1 %2"
 
 #: kmplayerpartbase.cpp:1409
 msgid "Unknown"
@@ -955,8 +950,8 @@ msgid ""
 "You're about to remove this device from the Source menu.\n"
 "Continue?"
 msgstr ""
-"Rëmac to ùrzãdzenié z zdrojów menu?\n"
-" "
+"Rëmôsz to ùrzãdzenié z zdrojów menu.\n"
+"Dali?"
 
 #: kmplayertvsource.cpp:140
 msgid "Confirm"
@@ -1004,7 +999,7 @@ msgstr "TV: "
 
 #: kmplayertvsource.cpp:587
 msgid "Device already present."
-msgstr "Ùrzãdzenié ju je"
+msgstr "Ùrzãdzenié ju je."
 
 #: kmplayertvsource.cpp:598
 msgid "No device found."
@@ -1067,7 +1062,7 @@ msgstr "VDR"
 
 #: kmplayervdr.cpp:242
 msgid "Dis&connect"
-msgstr "Rozłączë"
+msgstr "&Rozłączë"
 
 #: kmplayervdr.cpp:243
 msgid "VDR Key Up"
@@ -1173,6 +1168,11 @@ msgid ""
 "\n"
 "VDR Command:"
 msgstr ""
+"Je mòżno przesłac pòlétë do VDR.\n"
+"Wpiszë 'HELP' abë òbaczëc lëstã przistãpnëch pòlétów.\n"
+"Òdpòwiesc VDR je mòżno òbezdrzëc w òknie terminala.\n"
+"\n"
+"Pòlét VDR:"
 
 #: kmplayervdr.cpp:693
 msgid "Port "
@@ -1216,11 +1216,11 @@ msgstr "felëjë"
 
 #: playlistview.cpp:196
 msgid "[attributes]"
-msgstr ""
+msgstr "[atribùtë]"
 
 #: playlistview.cpp:333
 msgid "&Copy to Clipboard"
-msgstr "Kòpiejë do schòwë"
+msgstr "&Kòpiejë do schòwë"
 
 #: playlistview.cpp:344
 msgid "&Show all"
@@ -1264,17 +1264,19 @@ msgstr "Òkno"
 
 #: pref.cpp:212
 msgid "Keep size ratio"
-msgstr ""
+msgstr "Ùtrzëmôj propòrcëjë"
 
 #: pref.cpp:213
 msgid ""
 "When checked, movie will keep its aspect ratio\n"
 "when window is resized"
 msgstr ""
+"Eżle na òptacëjô je włączonô to propòrcëjë miarów\n"
+"filmù nie zmieniają sã pò zmianié miarów òkna"
 
 #: pref.cpp:214
 msgid "Dock in system tray"
-msgstr ""
+msgstr "Dokùjë na systemòwim panelu"
 
 #: pref.cpp:215
 msgid ""
@@ -1282,44 +1284,48 @@ msgid ""
 "When clicked it will hide KMPlayer's main window and removing KMPlayer's "
 "taskbar button."
 msgstr ""
+"Eżle na òptacëjô je włączonô, ikòna programù KMplayer bãdze wsôdzona na systemòwim panelu.\n"
+"Przédne òkno programù a téż knąpa na lëstwie pòlétów bãdą zatacone."
 
 #: pref.cpp:216
 msgid "Auto resize to video sizes"
-msgstr ""
+msgstr "Aùtomatne skalowanié miarë"
 
 #: pref.cpp:217
 msgid ""
 "When checked, KMPlayer will resize to movie sizes\n"
 "when video starts"
 msgstr ""
+"Eżle na òptacëjô je włączonô, KMPlayer aùtomatnie zmienia\n"
+"propòrcëjë filmù pò jegò zrëszenim"
 
 #: pref.cpp:222
 msgid "Remember window size on exit"
-msgstr ""
+msgstr "Zapiszë wielgòsc òkna przë wińdzenim"
 
 #: pref.cpp:223
 msgid "Always start with fixed size"
-msgstr ""
+msgstr "Zrëszôj ze stałą miarą"
 
 #: pref.cpp:229
 msgid "Loop"
-msgstr ""
+msgstr "Zôdzerzga"
 
 #: pref.cpp:230
 msgid "Makes current movie loop"
-msgstr ""
+msgstr "Robi òdgrëwanié filmù w zôdzerzdżi"
 
 #: pref.cpp:231
 msgid "Allow framedrops"
-msgstr ""
+msgstr "Pòzwòlë na przepùszczanié ramów"
 
 #: pref.cpp:232
 msgid "Allow dropping frames for better audio and video synchronization"
-msgstr ""
+msgstr "Pòzwòlë na przepùszczanié ramów, żebë pòlepszëc synchronizacëjã òbrôzu ze zwãkã"
 
 #: pref.cpp:233
 msgid "Auto set volume on start"
-msgstr ""
+msgstr "Aùtomatnô równiô głosnoscë przë zrëszanim"
 
 #: pref.cpp:234
 msgid ""
@@ -1329,52 +1335,51 @@ msgstr ""
 
 #: pref.cpp:235
 msgid "Auto set colors on start"
-msgstr ""
+msgstr "Aùtomatny nastôw farwów przë zrëszanim"
 
 #: pref.cpp:236
-msgid ""
-"When a movie start, the colors will be set according the sliders for colors"
+msgid "When a movie start, the colors will be set according the sliders for colors"
 msgstr ""
 
 #: pref.cpp:238
 msgid "Control Panel"
-msgstr ""
+msgstr "Panel kòntrolë"
 
 #: pref.cpp:242
 msgid "Show config button"
-msgstr ""
+msgstr "Pòkażë knąpã nastôwów"
 
 #: pref.cpp:243
 msgid "Add a button that will popup a config menu"
-msgstr ""
+msgstr "Dodôj knąpã wëskrzëniwającą menu nastôwów"
 
 #: pref.cpp:244
 msgid "Show playlist button"
-msgstr ""
+msgstr "Pòkażë knąpã lëstë òdgrëwaniô"
 
 #: pref.cpp:245
 msgid "Add a playlist button to the control buttons"
-msgstr ""
+msgstr "Dodôj knąpã lëstë òdgëwaniô do kòntrolnëch knąpów"
 
 #: pref.cpp:246
 msgid "Show record button"
-msgstr ""
+msgstr "Pòkażë knąpã nagrëwaniô"
 
 #: pref.cpp:247
 msgid "Add a record button to the control buttons"
-msgstr ""
+msgstr "Dodôj knąpã nagrëwaniô do kòntrolnëch knąpów"
 
 #: pref.cpp:248
 msgid "Show broadcast button"
-msgstr ""
+msgstr "Pòkażë knąpã nadawaniô"
 
 #: pref.cpp:249
 msgid "Add a broadcast button to the control buttons"
-msgstr ""
+msgstr "Dodôj knąpã nadawaniô do kòntrolnëch knąpów"
 
 #: pref.cpp:256
 msgid "Forward/backward seek time:"
-msgstr ""
+msgstr "Czas przewijaniô do przódka/nazôd:"
 
 #: pref.cpp:276
 msgid "Colors"
@@ -1386,15 +1391,15 @@ msgstr "AaBbCc"
 
 #: pref.cpp:337
 msgid "Location:"
-msgstr ""
+msgstr "Pòłożenié:"
 
 #: pref.cpp:342
 msgid "Location of the playable item"
-msgstr ""
+msgstr "Pòłóżenié medium do òdgraniô"
 
 #: pref.cpp:345
 msgid "Sub title:"
-msgstr ""
+msgstr "Nôpisë:"
 
 #: pref.cpp:350
 msgid "Optional location of a file containing the subtitles of the URL above"
@@ -1643,3 +1648,4 @@ msgstr ""
 #, no-c-format
 msgid "VD&R"
 msgstr "VD&R"
+
