@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdesktop\n"
-"POT-Creation-Date: 2007-01-18 02:38+0100\n"
-"PO-Revision-Date: 2006-09-18 12:49+0200\n"
+"POT-Creation-Date: 2006-02-07 03:55+0100\n"
+"PO-Revision-Date: 2006-10-29 12:04+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
 "MIME-Version: 1.0\n"
@@ -37,9 +37,9 @@ msgid ""
 "_n: <nobr><qt>You will be automatically logged out in 1 second</qt></nobr>\n"
 "<nobr><qt>You will be automatically logged out in %n seconds</qt></nobr>"
 msgstr ""
-"<nobr><qt>Òstaniesz aùtomatno wëlogòwóny pò 1 sekùndze</qt></nobr>\n"
-"<nobr><qt>Òstaniesz aùtomatno wëlogòwóny pò %n sekùndach<qt></nobr>\n"
-"<nobr><qt>Òstaniesz aùtomatno wëlogòwóny pò %n sekùndach<qt></nobr>"
+"<nobr><qt>Òstaniesz aùtomatno wëlogòwóny pò %n sekùndze </qt></nobr>\n"
+"<nobr><qt>Òstaniesz aùtomatno wëlogòwóny pò %n sekùndach</qt></nobr>\n"
+"<nobr><qt>Òstaniesz aùtomatno wëlogòwóny pò %n sekùndach</qt></nobr>"
 
 #: lock/lockdlg.cc:82
 msgid "<nobr><b>The session is locked</b><br>"
@@ -91,7 +91,7 @@ msgstr ""
 "CTRL ë fùnkcëjnegò klawisza. Òkróm tegò panel KDE ë menu pùltu zamëkôją w se "
 "pòlétë przëłączaniô midzë sesëjama."
 
-#: krootwm.cc:842 lock/lockdlg.cc:539
+#: krootwm.cc:876 lock/lockdlg.cc:539
 msgid "&Start New Session"
 msgstr "&Zrëszë nową sesëjã"
 
@@ -117,22 +117,22 @@ msgstr "&Aktiwùjë"
 msgid "Start &New Session"
 msgstr "Zrëszë &nową sesëjã"
 
-#: lock/lockprocess.cc:740
+#: lock/lockprocess.cc:698
 msgid ""
 "Will not lock the session, as unlocking would be impossible:\n"
 msgstr ""
 "Nie je móżno zablokòwac sesëji, bò ji òdblokòwanié bëłobë niemòżebne:\n"
 
-#: lock/lockprocess.cc:744
+#: lock/lockprocess.cc:702
 msgid "Cannot start <i>kcheckpass</i>."
 msgstr "Nie je mòżno zrëszëc programë <i>kcheckpass</i>."
 
-#: lock/lockprocess.cc:745
+#: lock/lockprocess.cc:703
 msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not SetUID root."
 msgstr ""
 "Programa <i>kcheckpass</i> nie dzejô. Gwës nie je ùstôwionô jakno SetUID root."
 
-#: lock/lockprocess.cc:788
+#: lock/lockprocess.cc:746
 msgid "No appropriate greeter plugin configured."
 msgstr "Felëje pasownô skònfigùrowóny plugins witôcza."
 
@@ -156,31 +156,31 @@ msgstr "Blokada pùltu"
 msgid "Session Locker for KDesktop"
 msgstr "Blokada sesëji dlô KDesktop"
 
-#: desktop.cc:771
+#: desktop.cc:779
 msgid "Set as Primary Background Color"
 msgstr "Ùstôwi jakno pierszą farwã spòdlégò"
 
-#: desktop.cc:772
+#: desktop.cc:780
 msgid "Set as Secondary Background Color"
 msgstr "Ùstôwi jakno drëgą farwã spòdlégò"
 
-#: desktop.cc:789
+#: desktop.cc:797
 msgid "&Save to Desktop..."
 msgstr "&Zapiszë na pùlt..."
 
-#: desktop.cc:791
+#: desktop.cc:799
 msgid "Set as &Wallpaper"
 msgstr "Ùstôwi jakno &spòdlé"
 
-#: desktop.cc:799
+#: desktop.cc:807
 msgid "Enter a name for the image below:"
 msgstr "Pòdôj miono òbrôzka:"
 
-#: desktop.cc:808
+#: desktop.cc:816
 msgid "image.png"
 msgstr "image.png"
 
-#: desktop.cc:871
+#: desktop.cc:879
 msgid ""
 "Could not log out properly.\n"
 "The session manager cannot be contacted. You can try to force a shutdown by "
@@ -216,137 +216,137 @@ msgstr ""
 "Nie je mòżno ùsôdzëc katalogù %1; sprôwdze proszã prawa przistãpù abò "
 "skònfigùrëjë pùlt tak bë brëkòwôł jinszã stegnã."
 
-#: kdiconview.cc:437
+#: kdiconview.cc:434
 msgid "&Rename"
 msgstr "&Zmieni miono"
 
-#: kdiconview.cc:438
+#: kdiconview.cc:435
 msgid "&Properties"
 msgstr "&Swòjizna"
 
-#: kdiconview.cc:439
+#: kdiconview.cc:436
 msgid "&Move to Trash"
 msgstr "Przeniesë do &kòsza"
 
-#: krootwm.cc:133
+#: krootwm.cc:136
 msgid "Run Command..."
 msgstr "Zrëszë pòlét..."
 
-#: krootwm.cc:137
+#: krootwm.cc:140
 msgid "Configure Desktop..."
 msgstr "Kònfigùrëjë pùlt..."
 
-#: krootwm.cc:139 krootwm.cc:364
+#: krootwm.cc:142 krootwm.cc:367
 msgid "Disable Desktop Menu"
 msgstr "Wëłączë menu pùltu"
 
-#: krootwm.cc:143
+#: krootwm.cc:146
 msgid "Unclutter Windows"
 msgstr "Rozpartérujë òkna"
 
-#: krootwm.cc:145
+#: krootwm.cc:148
 msgid "Cascade Windows"
 msgstr "Òkna kaskadowò"
 
-#: krootwm.cc:151
+#: krootwm.cc:154
 msgid "By Name (Case Sensitive)"
 msgstr "wedle miona (z ùznaniém wiôlgòscë lëterów)"
 
-#: krootwm.cc:153
+#: krootwm.cc:156
 msgid "By Name (Case Insensitive)"
 msgstr "wedle miona (bez ùznaniô wiôlgòscë lëterów)"
 
-#: krootwm.cc:155
+#: krootwm.cc:158
 msgid "By Size"
 msgstr "wedle wiôlgòscë"
 
-#: krootwm.cc:157
+#: krootwm.cc:160
 msgid "By Type"
 msgstr "wedle ôrtu"
 
-#: krootwm.cc:159
+#: krootwm.cc:162
 msgid "By Date"
 msgstr "wedle datuma"
 
-#: krootwm.cc:162
+#: krootwm.cc:165
 msgid "Directories First"
 msgstr "nôpierwi katalodżi"
 
-#: krootwm.cc:165
+#: krootwm.cc:168
 msgid "Line Up Horizontally"
 msgstr "Wërównôj ikonë hòrizontalno"
 
-#: krootwm.cc:168
+#: krootwm.cc:171
 msgid "Line Up Vertically"
 msgstr "Wërównôj ikonë w glëjsze"
 
-#: krootwm.cc:171
+#: krootwm.cc:174
 msgid "Align to Grid"
 msgstr "Przëcygnij do mrzéżczi"
 
 #. i18n: file kdesktop.kcfg line 180
-#: krootwm.cc:175 rc.cpp:231
+#: krootwm.cc:178 rc.cpp:231
 #, no-c-format
 msgid "Lock in Place"
 msgstr "Zablokùjë na môlu"
 
-#: krootwm.cc:181
+#: krootwm.cc:184
 msgid "Refresh Desktop"
 msgstr "Òdswiéżë pùlt"
 
-#: kdesktopbindings.cpp:31 krootwm.cc:187
+#: kdesktopbindings.cpp:31 krootwm.cc:190
 msgid "Lock Session"
 msgstr "Zablokùjë sesëjã"
 
-#: krootwm.cc:192
+#: krootwm.cc:195
 msgid "Log Out \"%1\"..."
 msgstr "Wëlogùje brëkòwnika \"%1\"..."
 
-#: krootwm.cc:198
+#: krootwm.cc:201
 msgid "Start New Session"
 msgstr "Zrëszë nową sesëjã"
 
-#: krootwm.cc:202
+#: krootwm.cc:205
 msgid "Lock Current && Start New Session"
 msgstr "Zablokùjë aktualną sesëjã ë zrëszë nową"
 
-#: krootwm.cc:342 krootwm.cc:420
+#: krootwm.cc:345 krootwm.cc:423
 msgid "Sort Icons"
 msgstr "Zortujë ikònë"
 
-#: krootwm.cc:344
+#: krootwm.cc:347
 msgid "Line Up Icons"
 msgstr "Wërównôj ikònë"
 
-#: krootwm.cc:371
+#: krootwm.cc:374
 msgid "Enable Desktop Menu"
 msgstr "Włączë menu pùltu"
 
-#: krootwm.cc:430
+#: krootwm.cc:433
 msgid "Icons"
 msgstr "Ikònë"
 
-#: krootwm.cc:436 krootwm.cc:492
+#: krootwm.cc:439 krootwm.cc:495
 msgid "Windows"
 msgstr "Òkna"
 
-#: kdesktopbindings.cpp:26 krootwm.cc:452
+#: kdesktopbindings.cpp:26 krootwm.cc:455
 msgid "Switch User"
 msgstr "Przełączë brëkòwnika"
 
-#: krootwm.cc:481
+#: krootwm.cc:484
 msgid "Sessions"
 msgstr "Sesëje"
 
-#: krootwm.cc:485
+#: krootwm.cc:488
 msgid "New"
 msgstr "Nowi"
 
-#: kdesktopbindings.cpp:14 krootwm.cc:491
+#: kdesktopbindings.cpp:14 krootwm.cc:494
 msgid "Desktop"
 msgstr "Pùlt"
 
-#: krootwm.cc:830
+#: krootwm.cc:864
 msgid ""
 "<p>You have chosen to open another desktop session."
 "<br>The current session will be hidden and a new login screen will be "
@@ -363,27 +363,27 @@ msgstr ""
 "kòmbinacëjã Ctrl, Alt ë pasownëgò fùnkcëjnegò klawisza. Króm tegò w panelu KDE "
 "ë menu pùlpitu przistãpné je pòlét przełączeniô sesëji.</p>"
 
-#: krootwm.cc:841
+#: krootwm.cc:875
 msgid "Warning - New Session"
 msgstr "Bôczënk - nowô sesëjô"
 
-#: main.cc:46
+#: main.cc:45
 msgid "The KDE desktop"
 msgstr "Pùlt KDE"
 
-#: main.cc:52
+#: main.cc:51
 msgid "Use this if the desktop window appears as a real window"
 msgstr "Brëkùjë, eżle òkno pùltu pòkaziwô sã jakò prosté òkno"
 
-#: main.cc:53
-msgid "Obsolete"
-msgstr "Przestarzałi"
+#: main.cc:52
+msgid "Use this to disable the Autostart folder"
+msgstr "Brëkùjë do wëłączeniô katalogu aùtosztart"
 
-#: main.cc:54
+#: main.cc:53
 msgid "Wait for kded to finish building database"
 msgstr "Żdô aż kded skùńczi bùdowã bazë pòdôwków"
 
-#: main.cc:153
+#: main.cc:145
 msgid "KDesktop"
 msgstr "KDesktop"
 
@@ -427,7 +427,7 @@ msgstr "Wëłączë kòmpùtr bez pòcwierdzeniô"
 msgid "Reboot without Confirmation"
 msgstr "Zrëszë kòmpùtr znowa bez pòcwierdzeniô"
 
-#: minicli.cpp:93 minicli.cpp:639
+#: minicli.cpp:93 minicli.cpp:638
 msgid "&Options >>"
 msgstr "Ò&ptacëje >>"
 
@@ -449,7 +449,7 @@ msgstr ""
 msgid "Incorrect password; please try again."
 msgstr "Lëchô parola, proszã spróbòwac jesz rôz."
 
-#: minicli.cpp:538
+#: minicli.cpp:537
 msgid ""
 "<center><b>%1</b></center>\n"
 "You do not have permission to execute this command."
@@ -457,7 +457,7 @@ msgstr ""
 "<center><b>%1</b></center>\n"
 "Nie môsz przistãpù do zrëszëniô tegò pòlétu."
 
-#: minicli.cpp:566
+#: minicli.cpp:565
 msgid ""
 "<center><b>%1</b></center>\n"
 "Could not run the specified command."
@@ -465,7 +465,7 @@ msgstr ""
 "<center><b>%1</b></center>\n"
 "Nie je mòżno zrëszëc tegò pòlétu."
 
-#: minicli.cpp:578
+#: minicli.cpp:577
 msgid ""
 "<center><b>%1</b></center>\n"
 "The specified command does not exist."
@@ -473,11 +473,11 @@ msgstr ""
 "<center><b>%1</b></center>\n"
 "Felëje taczi pòlét."
 
-#: minicli.cpp:627
+#: minicli.cpp:626
 msgid "&Options <<"
 msgstr "Ò&ptacëje <<"
 
-#: minicli.cpp:832
+#: minicli.cpp:831
 msgid ""
 "Running a realtime application can be very dangerous. If the application "
 "misbehaves, the system might hang unrecoverably.\n"
@@ -487,11 +487,11 @@ msgstr ""
 "nie bãdze pòprôwno dzejac, mòże dońc do zawieszeniô systemë.\n"
 "Jes gwës tegò bë jic dali?"
 
-#: minicli.cpp:835
+#: minicli.cpp:834
 msgid "Warning - Run Command"
 msgstr "Bôczënk - zrëszë pòlét"
 
-#: minicli.cpp:835
+#: minicli.cpp:834
 msgid "&Run Realtime"
 msgstr "Z&rëszë w realnym czasë"
 
@@ -1086,6 +1086,3 @@ msgid ""
 msgstr ""
 "Włączë nã òptacëjã, bë wëgaszôcz ekranu bëł wëłączony òb czas òbzeraniô TV czë "
 "filmów."
-
-#~ msgid "Use this to disable the Autostart folder"
-#~ msgstr "Brëkùjë do wëłączeniô katalogu aùtosztart"

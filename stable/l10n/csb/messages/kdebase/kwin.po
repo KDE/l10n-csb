@@ -1,19 +1,18 @@
 # translation of kwin.po to Kashubian
 #
-# Michôł Òstrowsczi <michol@linuxcsb.org>, 2006.
+# Michôł Òstrowsczi <michol@linuxcsb.org>, 2006, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
-"POT-Creation-Date: 2007-02-03 02:28+0100\n"
-"PO-Revision-Date: 2006-10-31 12:10+0100\n"
+"POT-Creation-Date: 2006-02-28 03:44+0100\n"
+"PO-Revision-Date: 2007-02-06 18:11+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: _translatorinfo.cpp:1
 msgid ""
@@ -397,7 +396,7 @@ msgstr "Emùlacëjô mëszë"
 
 #: kwinbindings.cpp:138
 msgid "Kill Window"
-msgstr ""
+msgstr "Zabijë òkno"
 
 #: kwinbindings.cpp:139
 msgid "Window Screenshot"
@@ -411,17 +410,19 @@ msgstr "Zrzucënk pùltu"
 msgid "Block Global Shortcuts"
 msgstr "Zablokùjë òglowi skrodzënë"
 
-#: main.cpp:63
+#: main.cpp:62
 msgid ""
 "kwin: it looks like there's already a window manager running. kwin not "
 "started.\n"
 msgstr ""
+"kwin: wëzdrzi na to, że je ju zrëszony jiny menedżer òknów. kwin nie òstanié "
+"zrëszony.\n"
 
-#: main.cpp:78
+#: main.cpp:77
 msgid "kwin: failure during initialization; aborting"
 msgstr "kwin: felô òbczas inicjalizacëji, òprzestanié"
 
-#: main.cpp:99
+#: main.cpp:98
 msgid ""
 "kwin: unable to claim manager selection, another wm running? (try using "
 "--replace)\n"
@@ -429,27 +430,27 @@ msgstr ""
 "kwin nie mòże przejimnąc sprôwiania òknama. Czë dzejô ju jiny menedżera òknów? "
 "(proszã spróbòwac òptacëji --replace)\n"
 
-#: main.cpp:169
+#: main.cpp:168
 msgid "KDE window manager"
 msgstr "Menadżera òknów KDE"
 
-#: main.cpp:173
+#: main.cpp:172
 msgid "Disable configuration options"
 msgstr "Wëłączë òptacëjë kònfigùracëji"
 
-#: main.cpp:174
+#: main.cpp:173
 msgid "Replace already-running ICCCM2.0-compliant window manager"
 msgstr "Zastąpi ju dzejający menedżerã òknów zgódny z ICCCM2.0"
 
-#: killer/killer.cpp:49 main.cpp:250
+#: killer/killer.cpp:49 main.cpp:247
 msgid "KWin"
 msgstr "KWin"
 
-#: main.cpp:252
+#: main.cpp:249
 msgid "(c) 1999-2005, The KDE Developers"
 msgstr "(c) 1999-2005, The KDE Developers"
 
-#: main.cpp:256
+#: main.cpp:253
 msgid "Maintainer"
 msgstr "Òpiekùn"
 
@@ -545,12 +546,12 @@ msgstr "Na &pùlt"
 msgid "&All Desktops"
 msgstr "&Wszëtczé pùltë"
 
-#: workspace.cpp:1013 workspace.cpp:1033
+#: workspace.cpp:967 workspace.cpp:987
 #, c-format
 msgid "Desktop %1"
 msgstr "Pùlt %1"
 
-#: workspace.cpp:2383
+#: workspace.cpp:2345
 msgid ""
 "You have selected to show a window without its border.\n"
 "Without the border, you will not be able to enable the border again using the "
@@ -561,7 +562,7 @@ msgstr ""
 "Bez grańców òkna nie mdze mòżlewòtë włączeniô znowa grańców brëkùjąc mëszë; nót "
 "mdze brëkòwac menu òperacëji na òknie, jaczé wëwołôsz klawiszową skrodzëną %1."
 
-#: workspace.cpp:2395
+#: workspace.cpp:2357
 msgid ""
 "You have selected to show a window in fullscreen mode.\n"
 "If the application itself does not have an option to turn the fullscreen mode "
@@ -573,7 +574,7 @@ msgstr ""
 "do niegò brëkùjąc mëszë nie mdze mòżlewi, nót mdze brëkòwac menu òperacëji na "
 "òknie, jaczé wëwołôsz klawiszową skrodzëną %1."
 
-#: workspace.cpp:2432 workspace.cpp:2514
+#: workspace.cpp:2394 workspace.cpp:2464
 msgid ""
 "The Composite Manager could not be started.\\nMake sure you have \"kompmgr\" in "
 "a $PATH directory."
@@ -581,7 +582,7 @@ msgstr ""
 "Nie je mòżno zrëszëc pòmòcnegò menadżera.\\nProszã sprôwdzëc, czë \"kompmgr\" "
 "je w domëszlny stegnie $PATH."
 
-#: workspace.cpp:2492
+#: workspace.cpp:2444
 msgid ""
 "The Composite Manager crashed twice within a minute and is therefore disabled "
 "for this session."
@@ -589,11 +590,11 @@ msgstr ""
 "Òbsłëgùjący menadżera dwa razë òb minutã pòddôł sã awarëji ë dlôtë òstôł "
 "wëłączony z ti sesëji."
 
-#: workspace.cpp:2493 workspace.cpp:2515 workspace.cpp:2553
+#: workspace.cpp:2445 workspace.cpp:2465 workspace.cpp:2503
 msgid "Composite Manager Failure"
 msgstr "Fela pòmòcnegò menadżera"
 
-#: workspace.cpp:2532
+#: workspace.cpp:2482
 msgid ""
 "<qt><b>kompmgr failed to open the display</b>"
 "<br>There is probably an invalid display entry in your ~/.xcompmgrrc.</qt>"
@@ -601,15 +602,19 @@ msgstr ""
 "<qt><b>kompmgr nie zwëskôł przistãpù do ekranu</b> "
 "<br>Gwësno lopk ~/.xcompmgrrc zamëkô w se zmiłkòwi wpisënk.</qt>"
 
-#: workspace.cpp:2534
+#: workspace.cpp:2484
 msgid ""
 "<qt><b>kompmgr cannot find the Xrender extension</b>"
 "<br>You are using either an outdated or a crippled version of XOrg."
 "<br>Get XOrg &ge; 6.8 from www.freedesktop.org."
 "<br></qt>"
 msgstr ""
+"<qt><b>kompmgr nie mòże nalezc rozszérzeniô Xrender</b> "
+"<br>Abò brëkùjesz stôri abò òbkrojony wersëji XOrg."
+"<br>Proszã zainstalowac XOrg nowszi òd 6.8 z www.freedesktop.org"
+"<br><qt>"
 
-#: workspace.cpp:2536
+#: workspace.cpp:2486
 msgid ""
 "<qt><b>Composite extension not found</b>"
 "<br>You <i>must</i> use XOrg &ge; 6.8 for translucency and shadows to work."
@@ -619,13 +624,13 @@ msgid ""
 "<br>EndSection</i></qt>"
 msgstr ""
 
-#: workspace.cpp:2541
+#: workspace.cpp:2491
 msgid ""
 "<qt><b>Damage extension not found</b>"
 "<br>You <i>must</i> use XOrg &ge; 6.8 for translucency and shadows to work.</qt>"
 msgstr ""
 
-#: workspace.cpp:2543
+#: workspace.cpp:2493
 msgid ""
 "<qt><b>XFixes extension not found</b>"
 "<br>You <i>must</i> use XOrg &ge; 6.8 for translucency and shadows to work.</qt>"
@@ -721,3 +726,4 @@ msgstr "Domëslny plugins òbstrojenkù je ùszkòdzony ë nie je mòżno gò wl
 #: lib/kdecoration_plugins_p.cpp:159
 msgid "The library %1 is not a KWin plugin."
 msgstr "Biblioteka %1 nie je pluginsã KWin"
+
