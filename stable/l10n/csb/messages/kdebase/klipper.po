@@ -1,19 +1,18 @@
 # translation of klipper.po to Kashubian
 #
-# Michôł Òstrowsczi <michol@linuxcsb.org>, 2006.
+# Michôł Òstrowsczi <michol@linuxcsb.org>, 2006, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "POT-Creation-Date: 2006-06-17 03:59+0200\n"
-"PO-Revision-Date: 2006-11-23 17:22+0100\n"
+"PO-Revision-Date: 2007-02-08 17:20+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: _translatorinfo.cpp:1
 msgid ""
@@ -36,9 +35,8 @@ msgid "Ac&tions"
 msgstr "&Dzejania"
 
 #: configdialog.cpp:55
-#, fuzzy
 msgid "Global &Shortcuts"
-msgstr "Klawiszowe &skrodzënë"
+msgstr "Òglowi klawiszowe &skrodzënë"
 
 #: configdialog.cpp:99
 msgid "&Popup menu at mouse-cursor position"
@@ -108,6 +106,13 @@ msgid ""
 "<br>"
 "<br>You can configure the relationship between Clipboard and Selection.</qt>"
 msgstr ""
+"<qt>Przistãpne są dwa różne bùforë:"
+"<br>"
+"<br><b>Tacnik</b>, zafùlowóny przez zaznaczenié tekstu ë wcëscniãcé Ctrl+C abò "
+"\"Kòpiëjë\" w menu abò na lëstwie nôrzãdzów"
+"<br>"
+"<br><b>Zaznaczenié</b>, przistãpne zarôzkù pò zanzaczenim tekstu. Jedinym ôrtã wlemieniô tekstu z zaznaczeniô je wcësniãcé strzédny knąpë mëszë."
+"<br>Mòżlëwi je skònfigùrowanié wzôjny zanôleżnotë òbùch bùforów.</qt>"
 
 #: configdialog.cpp:138
 msgid "Sy&nchronize contents of the clipboard and the selection"
@@ -123,13 +128,13 @@ msgstr ""
 
 #: configdialog.cpp:145
 msgid "Separate clipboard and selection"
-msgstr ""
+msgstr "Rozdzél tacnik ë zaznaczenié"
 
 #: configdialog.cpp:148
 msgid ""
 "Using this option will only set the selection when highlighting something and "
 "the clipboard when choosing e.g. \"Copy\" in a menubar."
-msgstr ""
+msgstr "Wëbranié ti òptacëji sprawi, że bùfor zaznaczeniô mdze zmieniany blós przez zaznaczenié tekstu, a tacnik przez pòlét \"Kòpiéjë\", \"Wëtni\" ëtp."
 
 #: configdialog.cpp:155
 msgid "Tim&eout for action popups:"
@@ -155,11 +160,11 @@ msgstr ""
 
 #: configdialog.cpp:229
 msgid "Action &list (right click to add/remove commands):"
-msgstr ""
+msgstr "&Lësta dzejaniów (prawô knąpa mëszë dodôwô/rëmô pòlétë):"
 
 #: configdialog.cpp:233
 msgid "Regular Expression (see http://doc.trolltech.com/qregexp.html#details)"
-msgstr ""
+msgstr "Regùlarny wësłôw (zdrzë http://doc.trolltech.com/qregexp.html#details)"
 
 #: configdialog.cpp:234
 msgid "Description"
@@ -167,7 +172,7 @@ msgstr "Òpisënk"
 
 #: configdialog.cpp:286
 msgid "&Use graphical editor for editing regular expressions"
-msgstr ""
+msgstr "&Brëkùjë grafikòwégò editora regùlarnëch wësłowów"
 
 #: configdialog.cpp:295
 msgid "&Add Action"
@@ -182,7 +187,7 @@ msgstr "&Rëmôj dzejanié"
 msgid ""
 "Click on a highlighted item's column to change it. \"%s\" in a command will be "
 "replaced with the clipboard contents."
-msgstr ""
+msgstr "Klëkni na kòlumnie wëbrónégò elementa, bë ją zmienic. \"%s\" w pòléce òstanié zastãpióny zamkłoscą tacnika."
 
 #: configdialog.cpp:307
 msgid "Advanced..."
@@ -206,7 +211,7 @@ msgstr "<nowé pòlét>"
 
 #: configdialog.cpp:366
 msgid "Click here to set the regexp"
-msgstr ""
+msgstr "Klëkni tuwò bë òtaksowac regùlarny wësłów"
 
 #: configdialog.cpp:367
 msgid "<new action>"
@@ -231,6 +236,11 @@ msgid ""
 "window you want to examine. The first string it outputs after the equal sign is "
 "the one you need to enter here.</qt>"
 msgstr ""
+"<qt>Na òptacëjô pòzwôlô òtaksowac òkna, dlô chtërnëch Klipper nie mdze wëwòłiwôł \"dzejań\". Brëkùjë"
+"<br> "
+"<br>"
+"<center><b>xprop | grep WM_CLASS</b></center> "
+"<br>w terminalu, bë nalezc wôrtosc WM_CLASS danego òkna. Zôs klëkni na òknie programë, dlô chtërny chcesz wëłączëc dzejania. Napiszë tuwò pierszą wôrtosc pò céchù '='.</qt>"
 
 #: klipperbindings.cpp:29
 msgid "Clipboard"
@@ -242,7 +252,7 @@ msgstr "Pòkażë pòdrãczné menu Klippera"
 
 #: klipperbindings.cpp:32
 msgid "Manually Invoke Action on Current Clipboard"
-msgstr ""
+msgstr "Rãczno wëwòłôj dzejanié na zamkłoscë tacnika"
 
 #: klipperbindings.cpp:33
 msgid "Enable/Disable Clipboard Actions"
@@ -280,7 +290,7 @@ msgstr "Klipper - nôrzãdze tacnika"
 msgid ""
 "You can enable URL actions later by right-clicking on the Klipper icon and "
 "selecting 'Enable Actions'"
-msgstr ""
+msgstr "Mòżesz wëłãczëc dzejania URL pózdni, klëkając prawą knąpą mëszë na ikònie Klippera ë wëbierając 'Włączë dzejania'"
 
 #: toplevel.cpp:592
 msgid ""
@@ -351,3 +361,4 @@ msgstr "&Editëjë zamkłosc..."
 #: urlgrabber.cpp:262
 msgid "Edit Contents"
 msgstr "Editëjë zamkołosc"
+
