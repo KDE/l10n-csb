@@ -5,15 +5,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_media\n"
 "POT-Creation-Date: 2007-01-26 02:37+0100\n"
-"PO-Revision-Date: 2007-02-13 19:46+0100\n"
+"PO-Revision-Date: 2007-02-15 13:32+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: _translatorinfo.cpp:1
 msgid ""
@@ -160,10 +159,8 @@ msgstr "Biéżny zapisënk ë òdczët"
 #. i18n: file propsdlgplugin/propertiespagegui.ui line 167
 #: rc.cpp:49
 #, no-c-format
-msgid ""
-"Always flush all data to the hot plug devices immediately and don't cache it."
-msgstr ""
-"Wiedno zarôzkù zapisëjë pòdôwczi na wëmieniowi ùrzãdzenia, bez bùforowaniô."
+msgid "Always flush all data to the hot plug devices immediately and don't cache it."
+msgstr "Wiedno zarôzkù zapisëjë pòdôwczi na wëmieniowi ùrzãdzenia, bez bùforowaniô."
 
 #. i18n: file propsdlgplugin/propertiespagegui.ui line 175
 #: rc.cpp:52
@@ -222,6 +219,16 @@ msgid ""
 "system integrity,  however it can allow old data to appear in files after  a  "
 "crash  and  journal recovery."
 msgstr ""
+"<h2>Òpisanié tribu ksãgòwaniô dlô pòdôwków lopków. Metapòdôwczi są wiedno ksãgòwóné.</h2>\n"
+"           \n"
+"<h3><b>Wszëtczé pòdôwczi</b></h3>\n"
+"           Wszëtczé pòdôwczi są zapisywóné w dniewnikù przed zapisënkã w przédny systemie lopków. Je to nôwôlniészô metoda z nôwëższim bezpiékã pòdôwków.\n"
+"\n"
+"<h3><b>Ùrëchtowanié</b></h3>\n"
+"           Wszëtczé pòdôwczi są bezpòstrzédno przesélóné do przédny systemë lopków przed zapisënkã swòjich metapòdôwków do dniewnika.\n"
+"\n"
+"<h3><b>Pòdrãcznô pamiãc z bùforowaniém</b></h3>\n"
+"           Nie je ùtrzëmóné ùrëchtowanié pòdôwków - pòdôwczi mògą bëc zapisywóné w przédny systemie lopków pò zapisënkù swòjich metapòdôwków w dniewnikù. Trzimô sã ją za metodã ò nôwikszi przepùstnoce. Rãczë òna bënową spójnotã systemŧ lopków, równak mòże dopùscëwac zjôwianié sã stôrëch pòdôwków lopków pò awarëji systemë ë pò ùsôdzenim jich znowa na pòdspòdlim dniewnika."
 
 #. i18n: file propsdlgplugin/propertiespagegui.ui line 226
 #: rc.cpp:79
@@ -271,6 +278,19 @@ msgid ""
 "Display the short name as is; store a long name when the short name is not all "
 "upper case."
 msgstr ""
+"<h2>Òpisanié robienia ë wëskrzëniwaniô mionów lopków w systemie 8+3 céchów. Preferowóné są wiedno dłëdżé miona, eżlë taczé są.</h2>\n"
+"\n"
+"<h3><b>Môłé lëterë</b></h3>\n"
+"Òptacëjô na wëmùszô wëskrzëniwóné krótczéch mionów małima lëterama; zapisywóné są dłëdżé miona, eżlë krótczé miona nie są pisóné w całoscë wiôldżima lëterama.\n"
+"\n"
+"<h3><b>Windows 95</b></h3>\n"
+"Òptacëjô na wëmùszô wëskrzëniwónié krótczéch mionów wiôldżima lëterama; zapisywóné są dłëdżé miona, eżlë miona krótczé nie są pisóné w całoscë wiôldżima lëterama.\n"
+"\n"
+"<h3><b>Windows NT</b></h3>\n"
+"Òptacëjô na wëmùszô wëskrzëniwanié krótczéch mionów bez zjinaków; zapisiwóné są dłëdżé miona, eżlë krótczé miona nie są pisóné w całosce małima lëterama abò całoscë wiôldżima.\n"
+"\n"
+"<h3><b>Mieszane</b></h3>\n"
+"Òptacëjô na robi wëskrzëniwanié krótczéch mionów bez zjinaków; zapisywóné są dłëdżé miona, eżlë krótczé nie są pisóné w całoscë wiôldżima lëterama.."
 
 #. i18n: file propsdlgplugin/propertiespagegui.ui line 294
 #: rc.cpp:118
@@ -502,3 +522,4 @@ msgstr "Zapisanié zmian nie darzëło sã"
 #: propsdlgplugin/propsdlgshareplugin.cpp:67
 msgid "&Mounting"
 msgstr "&Mòntowanié"
+
