@@ -5,15 +5,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_ldap\n"
 "POT-Creation-Date: 2005-07-24 01:32+0200\n"
-"PO-Revision-Date: 2006-10-06 09:02+0200\n"
+"PO-Revision-Date: 2007-02-18 19:15+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: kio_ldap.cpp:86
 msgid ""
@@ -39,28 +38,30 @@ msgstr "Logòwanié LDAP"
 msgid "site:"
 msgstr "serwera:"
 
-#: kio_ldap.cpp:550 kio_ldap.cpp:685
+#: kio_ldap.cpp:550
+#: kio_ldap.cpp:685
 msgid "Invalid authorization information."
 msgstr "Zmiłkòwe pòdôwczi aùtorizacëji."
 
 #: kio_ldap.cpp:628
 #, c-format
 msgid "Cannot set LDAP protocol version %1"
-msgstr "Nie je mòżno nastôwic wersëji %1 protokòłu LDAP"
+msgstr "Nie mòże nastôwic wersëji %1 protokòłu LDAP"
 
 #: kio_ldap.cpp:645
 msgid "Cannot set size limit."
-msgstr "Nie je mòżno nastôwic ògrańczeniô miarë."
+msgstr "Nie mòże nastôwic ògrańczeniô miarë."
 
 #: kio_ldap.cpp:655
 msgid "Cannot set time limit."
-msgstr "Nie je mòżno nastôwic ògrańczeniô czasù."
+msgstr "Nie mòże nastôwic ògrańczeniô czasù."
 
 #: kio_ldap.cpp:664
 msgid "SASL authentication not compiled into the ldap ioslave."
 msgstr "Ùdowierzenié SASL nie òsta wkòmpilowóne do pluginsu protokòłu LDAP."
 
-#: kio_ldap.cpp:941 kio_ldap.cpp:1022
+#: kio_ldap.cpp:941
+#: kio_ldap.cpp:1022
 msgid "The LDIF parser failed."
 msgstr "Analizatora syntaksë LDIF zakùńczëł sã z felą."
 
@@ -68,3 +69,4 @@ msgstr "Analizatora syntaksë LDIF zakùńczëł sã z felą."
 #, c-format
 msgid "Invalid LDIF file in line %1."
 msgstr "Zmiłkòwi lopk LDIF w rézë %1."
+

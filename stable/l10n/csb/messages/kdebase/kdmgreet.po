@@ -5,15 +5,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdmgreet\n"
 "POT-Creation-Date: 2006-09-19 02:34+0200\n"
-"PO-Revision-Date: 2006-11-22 11:14+0100\n"
+"PO-Revision-Date: 2007-02-18 17:49+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: kdmconfig.cpp:139
 msgid "[fix kdmrc!]"
@@ -47,7 +46,7 @@ msgstr "Zalogòwóny pòd X na %1"
 
 #: krootimage.cpp:37
 msgid "Fancy desktop background for kdm"
-msgstr "Czekawi spòdlé pùltu dlô kdm"
+msgstr "Czekawé spòdlé pùltu dlô kdm"
 
 #: krootimage.cpp:42
 msgid "Name of the configuration file"
@@ -89,7 +88,8 @@ msgstr "&OK"
 msgid "&Refresh"
 msgstr "Ò&dswieżë"
 
-#: kchooser.cpp:95 kgreeter.cpp:660
+#: kchooser.cpp:95
+#: kgreeter.cpp:660
 msgid "&Menu"
 msgstr "&Menu"
 
@@ -100,7 +100,7 @@ msgstr "<nieznóny>"
 #: kchooser.cpp:215
 #, c-format
 msgid "Unknown host %1"
-msgstr "Nieznóny serwera %1"
+msgstr "Nieznónô serwera %1"
 
 #: kgreeter.cpp:361
 msgid "Custom"
@@ -119,7 +119,7 @@ msgid ""
 "Your saved session type '%1' is not valid any more.\n"
 "Please select a new one, otherwise 'default' will be used."
 msgstr ""
-"Twòjô zapisónô sesëjô '%1' nie je ju pòprownô.\n"
+"Twòjô zapisónô sesëjô '%1' nie je ju pòprównô.\n"
 "Proszã wëbrac jiną abò wëbrónô mdze 'domëslnô'."
 
 #: kgreeter.cpp:602
@@ -140,15 +140,18 @@ msgstr ""
 msgid "L&ogin"
 msgstr "W&logùjë"
 
-#: kgreeter.cpp:690 kgreeter.cpp:829
+#: kgreeter.cpp:690
+#: kgreeter.cpp:829
 msgid "Session &Type"
 msgstr "Ôr&t sesëji"
 
-#: kgreeter.cpp:695 kgreeter.cpp:835
+#: kgreeter.cpp:695
+#: kgreeter.cpp:835
 msgid "&Authentication Method"
 msgstr "&Metoda ùdowierzaniô"
 
-#: kgreeter.cpp:700 kgreeter.cpp:840
+#: kgreeter.cpp:700
+#: kgreeter.cpp:840
 msgid "&Remote Login"
 msgstr "&Zdôlne logòwanié"
 
@@ -178,7 +181,7 @@ msgstr "&Zrëszë serwerã X znowa"
 
 #: kgdialog.cpp:73
 msgid "Clos&e Connection"
-msgstr "Zasztëkôj &pòłączënié"
+msgstr "Zamkni &pòłączënié"
 
 #: kgdialog.cpp:84
 msgid "Co&nsole Login"
@@ -186,7 +189,7 @@ msgstr "&Trib kònsolë"
 
 #: kgdialog.cpp:87
 msgid "&Shutdown..."
-msgstr "&Zasztëkôj systemã..."
+msgstr "&Zamkni systemã..."
 
 #: kgdialog.cpp:227
 msgid ""
@@ -196,8 +199,7 @@ msgstr "%1 (%2)"
 
 #: kgverify.cpp:177
 msgid "No greeter widget plugin loaded. Check the configuration."
-msgstr ""
-"Felëjë pluginsa interfejsu przëwitaniô. Proszã sprôwdzëc kònfigùracëjã."
+msgstr "Felëjë pluginsa interfejsu przëwitaniô. Proszã sprôwdzëc kònfigùracëjã."
 
 #: kgverify.cpp:435
 msgid ""
@@ -209,7 +211,7 @@ msgstr ""
 
 #: kgverify.cpp:439
 msgid "You are required to change your password immediately (password aged)."
-msgstr "Proszã zarôzkù zmienic parolã (pòprzédnô parole je ju za baro stôrô)."
+msgstr "Proszã zarôzkù zmienic parolã (pòprzédnô parola je ju za baro stôrô)."
 
 #: kgverify.cpp:440
 msgid "You are required to change your password immediately (root enforced)."
@@ -281,15 +283,14 @@ msgstr ""
 msgid "Your password expires today."
 msgstr "Twòjô parola wëgasô dzysô."
 
-#: kgverify.cpp:558 kgverify.cpp:1005
+#: kgverify.cpp:558
+#: kgverify.cpp:1005
 msgid "Authentication failed"
 msgstr "Ùdowierzanié nie darzëło sã"
 
 #: kgverify.cpp:695
-msgid ""
-"Authenticated user (%1) does not match requested user (%2).\n"
-msgstr ""
-"Ùdowierzony brëkòwnik (%1) je jiny òd wëmôgònegò (%2).\n"
+msgid "Authenticated user (%1) does not match requested user (%2).\n"
+msgstr "Ùdowierzony brëkòwnik (%1) je jiny òd wëmôgònegò (%2).\n"
 
 #: kgverify.cpp:988
 #, c-format
@@ -319,19 +320,20 @@ msgstr "Na téma nie mòże bëc brëkòwónô przë metodze ùdowierzaniô '%1'
 
 #: kgverify.cpp:1093
 msgid "Changing authentication token"
-msgstr "Zmiana tokenu ùdowierzaniô"
+msgstr "Zmiana tokena ùdowierzaniô"
 
 #: kdmshutdown.cpp:92
 msgid "Root authorization required."
 msgstr "Wëmôgónë ùdowierzanié sprôwnika."
 
-#: kdmshutdown.cpp:123 kdmshutdown.cpp:516
+#: kdmshutdown.cpp:123
+#: kdmshutdown.cpp:516
 msgid "&Schedule..."
 msgstr "&Wëtëmùjë..."
 
 #: kdmshutdown.cpp:246
 msgid "Shutdown Type"
-msgstr "Ôrt zasztëkaniô systemù"
+msgstr "Ôrt zamkniãcô systemù"
 
 #: kdmshutdown.cpp:250
 msgid "&Turn off computer"
@@ -483,7 +485,7 @@ msgstr "przerwi swòje sesëjë"
 
 #: kdmshutdown.cpp:708
 msgid "cancel shutdown"
-msgstr "anulëjë zasztëkanié systemë"
+msgstr "anulëjë zamkniãcë systemë"
 
 #: themer/kdmlabel.cpp:170
 msgid "Language"
@@ -553,9 +555,10 @@ msgstr "%a %d %B"
 #: themer/kdmthemer.cpp:67
 #, c-format
 msgid "Cannot open theme file %1"
-msgstr "Nie je mòżno òtemknąc lopkù témë %1"
+msgstr "Nie mòże òtemknąc lopkù témë %1"
 
 #: themer/kdmthemer.cpp:71
 #, c-format
 msgid "Cannot parse theme file %1"
-msgstr "Nie je mòżno zanalizowac lopkù témë %1"
+msgstr "Nie mòże zanalizowac lopkù témë %1"
+

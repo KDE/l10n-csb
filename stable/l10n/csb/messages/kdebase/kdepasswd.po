@@ -4,15 +4,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdepasswd\n"
 "POT-Creation-Date: 2005-07-09 01:31+0200\n"
-"PO-Revision-Date: 2007-02-10 12:51+0100\n"
+"PO-Revision-Date: 2007-02-18 16:48+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: kdepasswd.cpp:24
 msgid "Change password of this user"
@@ -34,7 +33,8 @@ msgstr "Òpiekùn"
 msgid "You need to be root to change the password of other users."
 msgstr "Abë zmienic parolã jinëch brëkòwników mùsz bëc sprôwnikã."
 
-#: passwddlg.cpp:19 passwddlg.cpp:87
+#: passwddlg.cpp:19
+#: passwddlg.cpp:87
 msgid "Change Password"
 msgstr "Zmieni parolã"
 
@@ -42,7 +42,8 @@ msgstr "Zmieni parolã"
 msgid "Please enter your current password:"
 msgstr "Proszã pòdac terną parolã:"
 
-#: passwddlg.cpp:41 passwddlg.cpp:159
+#: passwddlg.cpp:41
+#: passwddlg.cpp:159
 msgid "Conversation with 'passwd' failed."
 msgstr "Nie darzëła so kòmùnikacëjô z programą 'passwd'."
 
@@ -56,7 +57,7 @@ msgstr "Zmiłkòwô parola. Proszã spróbòwac znowa."
 
 #: passwddlg.cpp:60
 msgid "Internal error: illegal return value from PasswdProcess::checkCurrent."
-msgstr "Bënowô fela: zmiłkòwô wôrtosc zwróconô z PasswdProcess::checkCurrent."
+msgstr "Bënowô fela: zmiłkòwô wôrtnota zwróconô z PasswdProcess::checkCurrent."
 
 #: passwddlg.cpp:89
 msgid "Please enter your new password:"
@@ -67,20 +68,12 @@ msgid "Please enter the new password for user <b>%1</b>:"
 msgstr "Proszã pòdac nową parolã dlô brëkòwnika <b>%1</b>:"
 
 #: passwddlg.cpp:108
-msgid ""
-"Your password is longer than 8 characters. On some systems, this can cause "
-"problems. You can truncate the password to 8 characters, or leave it as it is."
-msgstr ""
-"Twòjô parola mô wicy jakno 8 céchów. W niechtërnych systemach mòże to pòwòdowac "
-"problëmë. Mòżesz skrodzëc parolã do 8 céchów abò òstawic je tak jakno je."
+msgid "Your password is longer than 8 characters. On some systems, this can cause problems. You can truncate the password to 8 characters, or leave it as it is."
+msgstr "Twòjô parola mô wicy jakno 8 céchów. W niechtërnych systemach mòże to pòwòdowac problëmë. Mòżesz skrodzëc parolã do 8 céchów abò òstawic ją tak jakno je."
 
 #: passwddlg.cpp:111
-msgid ""
-"The password is longer than 8 characters. On some systems, this can cause "
-"problems. You can truncate the password to 8 characters, or leave it as it is."
-msgstr ""
-"Twòjô parola mô wicy jakno 8 céchów. W niechtërnych systemach mòże to pòwòdowac "
-"problëmë. Mòżesz skrodzëc parolã do 8 céchów abò òstawic je tak jakno je."
+msgid "The password is longer than 8 characters. On some systems, this can cause problems. You can truncate the password to 8 characters, or leave it as it is."
+msgstr "Twòjô parola mô wicy jakno 8 céchów. W niechtërnych systemach mòże to pòwòdowac problëmë. Mòżesz skrodzëc parolã do 8 céchów abò òstawic ją tak jakno je."
 
 #: passwddlg.cpp:115
 msgid "Password Too Long"
@@ -100,7 +93,7 @@ msgstr "Twòjô parola òsta zmienionô."
 
 #: passwddlg.cpp:148
 msgid "Your password has not been changed."
-msgstr "Twòjô parola nie òstô zmienionô."
+msgstr "Twòjô parola nie òsta zmienionô."
 
 #: _translatorinfo.cpp:1
 msgid ""
@@ -113,3 +106,4 @@ msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr "michol@linuxcsb.org"
+
