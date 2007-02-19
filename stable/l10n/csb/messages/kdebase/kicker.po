@@ -14,7 +14,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || "
+"n%100>=20) ? 1 : 2);\n"
 "n%100>=20) ? 1: 2);\n"
 
 #: buttons/browserbutton.cpp:71
@@ -34,8 +35,7 @@ msgstr "Przistãp do pùltu"
 msgid "Applications, tasks and desktop sessions"
 msgstr "Programë, dzejaniô ë sesëje pùltu"
 
-#: buttons/kbutton.cpp:44
-#: ui/k_mnu.cpp:76
+#: buttons/kbutton.cpp:44 ui/k_mnu.cpp:76
 msgid "K Menu"
 msgstr "Menu KDE"
 
@@ -79,19 +79,21 @@ msgstr "Aplet %1 nie òstôł nalazłi. Proszã sprôwdzëc instalacëjã."
 msgid "Applet Loading Error"
 msgstr "Fela wczëtaniô apletu"
 
-#: core/container_extension.cpp:1590
-#: core/container_extension.cpp:1603
+#: core/container_extension.cpp:1590 core/container_extension.cpp:1603
 msgid "Show panel"
 msgstr "Pòkôżë panel"
 
-#: core/container_extension.cpp:1594
-#: core/container_extension.cpp:1607
+#: core/container_extension.cpp:1594 core/container_extension.cpp:1607
 msgid "Hide panel"
 msgstr "Zatacë panel"
 
 #: core/extensionmanager.cpp:117
-msgid "The KDE panel (kicker) could not load the main panel due to a problem with your installation. "
-msgstr "Panel KDE (Kicker) nie mógł wczëtac przédnegò panelu. Proszã sprôwdzëc instalacëjã "
+msgid ""
+"The KDE panel (kicker) could not load the main panel due to a problem with your "
+"installation. "
+msgstr ""
+"Panel KDE (Kicker) nie mógł wczëtac przédnegò panelu. Proszã sprôwdzëc "
+"instalacëjã "
 
 #: core/extensionmanager.cpp:119
 msgid "Fatal Error!"
@@ -161,8 +163,7 @@ msgstr "Dodôj &nowi panel"
 msgid "Remove Pa&nel"
 msgstr "Rëmôj &panel"
 
-#: core/panelextension.cpp:366
-#: core/panelextension.cpp:382
+#: core/panelextension.cpp:366 core/panelextension.cpp:382
 msgid "&Lock Panels"
 msgstr "Za&blokùjë panele"
 
@@ -208,8 +209,7 @@ msgstr "&Rëmôj knąpã %1"
 msgid "&Remove %1"
 msgstr "&Rëmôj %1"
 
-#: ui/appletop_mnu.cpp:91
-#: ui/extensionop_mnu.cpp:43
+#: ui/appletop_mnu.cpp:91 ui/extensionop_mnu.cpp:43
 msgid "Report &Bug..."
 msgstr "Wiédzô ò &felë..."
 
@@ -222,8 +222,7 @@ msgstr "Ò &programie %1"
 msgid "&Configure %1 Button..."
 msgstr "&Kònfigùrëjë knąpã %1..."
 
-#: ui/appletop_mnu.cpp:130
-#: ui/extensionop_mnu.cpp:62
+#: ui/appletop_mnu.cpp:130 ui/extensionop_mnu.cpp:62
 msgid "&Configure %1..."
 msgstr "&Kònfigùrëjë %1..."
 
@@ -271,8 +270,7 @@ msgstr "Wëbierzë katalog"
 msgid "'%1' is not a valid folder."
 msgstr "'%1' nie je pòprôwnym katalogã."
 
-#: ui/browser_mnu.cpp:126
-#: ui/browser_mnu.cpp:135
+#: ui/browser_mnu.cpp:126 ui/browser_mnu.cpp:135
 msgid "Failed to Read Folder"
 msgstr "Fela czëtaniô katalogù"
 
@@ -300,8 +298,7 @@ msgstr "Dodôj jakno &URL menadżera lopków"
 msgid "Add as Quick&Browser"
 msgstr "Dodôj jaknò &chùtczé przezéranié"
 
-#: ui/exe_dlg.cpp:52
-#: ui/exe_dlg.cpp:56
+#: ui/exe_dlg.cpp:52 ui/exe_dlg.cpp:56
 msgid "Non-KDE Application Configuration"
 msgstr "Kònfigùracëjô programë nie-KDE"
 
@@ -362,8 +359,21 @@ msgid "Start New Session"
 msgstr "Zrëszë nową sesëjã"
 
 #: ui/k_mnu.cpp:397
-msgid "<p>You have chosen to open another desktop session.<br>The current session will be hidden and a new login screen will be displayed.<br>An F-key is assigned to each session; F%1 is usually assigned to the first session, F%2 to the second session and so on. You can switch between sessions by pressing Ctrl, Alt and the appropriate F-key at the same time. Additionally, the KDE Panel and Desktop menus have actions for switching between sessions.</p>"
-msgstr "<p>Môsz wëbróné zrëszënié nowi sesëji.<br> Aktualnô sesëjô òstónie zataconô ë wëskrzënioné bãdze òkno logòwaniô.<br> Do kòżdi sesëji przëpisóny je fùnkcëjny klawisz - zwëczajno je to F%1 dlô pierszi sesëji, F%2 dlô drëdżi itp. Sesëje mòże zmieniwac wcëskając kòmbinacëjã Ctrl, Alt ë pasownëgò fùnkcëjnegò klawisza. Króm tegò w panelu KDE ë menu pùlpitu przistãpny je pòlét przełączaniô sesëji.</p>"
+msgid ""
+"<p>You have chosen to open another desktop session."
+"<br>The current session will be hidden and a new login screen will be "
+"displayed."
+"<br>An F-key is assigned to each session; F%1 is usually assigned to the first "
+"session, F%2 to the second session and so on. You can switch between sessions "
+"by pressing Ctrl, Alt and the appropriate F-key at the same time. Additionally, "
+"the KDE Panel and Desktop menus have actions for switching between sessions.</p>"
+msgstr ""
+"<p>Môsz wëbróné zrëszënié nowi sesëji."
+"<br> Aktualnô sesëjô òstónie zataconô ë wëskrzënioné bãdze òkno logòwaniô."
+"<br> Do kòżdi sesëji przëpisóny je fùnkcëjny klawisz - zwëczajno je to F%1 dlô "
+"pierszi sesëji, F%2 dlô drëdżi itp. Sesëje mòże zmieniwac wcëskając kòmbinacëjã "
+"Ctrl, Alt ë pasownëgò fùnkcëjnegò klawisza. Króm tegò w panelu KDE ë menu "
+"pùlpitu przistãpny je pòlét przełączaniô sesëji.</p>"
 
 #: ui/k_mnu.cpp:408
 msgid "Warning - New Session"
@@ -394,9 +404,7 @@ msgid "Most Used Applications"
 msgstr "Nôczãsczi brëkòwóné programë"
 
 #. i18n: file ui/appletview.ui line 71
-#: rc.cpp:15
-#: ui/removeapplet_mnu.cpp:84
-#: ui/removebutton_mnu.cpp:92
+#: rc.cpp:15 ui/removeapplet_mnu.cpp:84 ui/removebutton_mnu.cpp:92
 #: ui/removeextension_mnu.cpp:93
 #, no-c-format
 msgid "All"
@@ -492,7 +500,8 @@ msgstr "&Szëkba:"
 #: rc.cpp:9
 #, no-c-format
 msgid "<qt>Type here some text to filter on the applet names and comments</qt>"
-msgstr "<qt>Tuwò wpisóny tekst służi jaknò filter w mionach ë dopòwiescach apletów</qt>"
+msgstr ""
+"<qt>Tuwò wpisóny tekst służi jaknò filter w mionach ë dopòwiescach apletów</qt>"
 
 #. i18n: file ui/appletview.ui line 62
 #: rc.cpp:12
@@ -521,8 +530,12 @@ msgstr "<qt>Wëbierzë kategòrëjã apletów, jaką chcesz ùzdrzec</qt>"
 #. i18n: file ui/appletview.ui line 123
 #: rc.cpp:27
 #, no-c-format
-msgid "<qt>This is the applet list. Select an applet and click on <b>Add to panel</b> to add it</qt>"
-msgstr "<qt>To je lësta apletów. Wëbierzë aplet ë klëknij <b>Dodôj do panelu</b>, bë gò dodac.</qt>"
+msgid ""
+"<qt>This is the applet list. Select an applet and click on <b>Add to panel</b> "
+"to add it</qt>"
+msgstr ""
+"<qt>To je lësta apletów. Wëbierzë aplet ë klëknij <b>Dodôj do panelu</b>"
+", bë gò dodac.</qt>"
 
 #. i18n: file ui/appletview.ui line 156
 #: rc.cpp:30
@@ -531,11 +544,14 @@ msgid "&Add to Panel"
 msgstr "&Dodôj do panelu"
 
 #. i18n: file ui/nonKDEButtonSettings.ui line 30
-#: rc.cpp:37
-#: rc.cpp:62
+#: rc.cpp:37 rc.cpp:62
 #, no-c-format
-msgid "Enter the name of the executable file to be run when this button is selected. If it is not in your $PATH then you will need to provide an absolute path."
-msgstr "Pòdôj miono wëkònëwólnegò lopkù do zrëszëniô, eżle bãdze wëbrónô na knąpa. Eżle lopk nie najdiwô sã na Twòji stegnie, mùszisz pòdac fùl stegnã."
+msgid ""
+"Enter the name of the executable file to be run when this button is selected. "
+"If it is not in your $PATH then you will need to provide an absolute path."
+msgstr ""
+"Pòdôj miono wëkònëwólnegò lopkù do zrëszëniô, eżle bãdze wëbrónô na knąpa. Eżle "
+"lopk nie najdiwô sã na Twòji stegnie, mùszisz pòdac fùl stegnã."
 
 #. i18n: file ui/nonKDEButtonSettings.ui line 38
 #: rc.cpp:40
@@ -544,8 +560,7 @@ msgid "Co&mmand line arguments (optional):"
 msgstr "&Argùmentë wiérztë pòlétów (optacëjno):"
 
 #. i18n: file ui/nonKDEButtonSettings.ui line 46
-#: rc.cpp:43
-#: rc.cpp:54
+#: rc.cpp:43 rc.cpp:54
 #, no-c-format
 msgid ""
 "Enter any command line options that should be passed to the command here.\n"
@@ -565,8 +580,12 @@ msgstr "Zrëszë w òknie &terminala"
 #. i18n: file ui/nonKDEButtonSettings.ui line 57
 #: rc.cpp:51
 #, no-c-format
-msgid "Select this option if the command is a command line application and you wish to be able to see its output when run."
-msgstr "Wëbierzë nã òpcëjã, eżle pòlét zrësziwô programã kònsolë a të chcesz òbôczëc skùtk jegò dzejaniô."
+msgid ""
+"Select this option if the command is a command line application and you wish to "
+"be able to see its output when run."
+msgstr ""
+"Wëbierzë nã òpcëjã, eżle pòlét zrësziwô programã kònsolë a të chcesz òbôczëc "
+"skùtk jegò dzejaniô."
 
 #. i18n: file ui/nonKDEButtonSettings.ui line 75
 #: rc.cpp:59
@@ -575,10 +594,7 @@ msgid "&Executable:"
 msgstr "&Wëkònëwólny lopk:"
 
 #. i18n: file ui/nonKDEButtonSettings.ui line 97
-#: rc.cpp:65
-#: rc.cpp:71
-#: rc.cpp:78
-#: rc.cpp:81
+#: rc.cpp:65 rc.cpp:71 rc.cpp:78 rc.cpp:81
 #, no-c-format
 msgid "Enter the name you would like to appear for this button here."
 msgstr "Pòdôj tekst wëskrzëniwóny na knąpie."
@@ -598,8 +614,14 @@ msgstr "Ò&pis:"
 #. i18n: file core/extensionSettings.kcfg line 14
 #: rc.cpp:84
 #, no-c-format
-msgid "Whether this panel actually exists or not. Primarily to work around the fact that KConfigXT won't write a config file unless there is at least one non-default entry."
-msgstr "Niezanôléżno òd tegò, czë panel je, czy téż gò ni ma. Przeznaczoné przédno do obéńdzeniô grańców w KConfigXT, chtëren nie zapisywô kònfigùracëjnëch lopków, eżle wszëtczé ùstôwczi są domëszlné."
+msgid ""
+"Whether this panel actually exists or not. Primarily to work around the fact "
+"that KConfigXT won't write a config file unless there is at least one "
+"non-default entry."
+msgstr ""
+"Niezanôléżno òd tegò, czë panel je, czy téż gò ni ma. Przeznaczoné przédno do "
+"obéńdzeniô grańców w KConfigXT, chtëren nie zapisywô kònfigùracëjnëch lopków, "
+"eżle wszëtczé ùstôwczi są domëszlné."
 
 #. i18n: file core/extensionSettings.kcfg line 18
 #: rc.cpp:87
@@ -702,4 +724,3 @@ msgstr "Miara"
 #, no-c-format
 msgid "Custom size"
 msgstr "Definiowónô miara"
-
