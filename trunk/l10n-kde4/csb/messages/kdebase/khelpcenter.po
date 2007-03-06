@@ -3,7 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
-"POT-Creation-Date: 2006-11-16 02:35+0100\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-02-20 08:25+0100\n"
 "PO-Revision-Date: 2007-02-18 18:01+0100\n"
 "Last-Translator: MMichôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -11,31 +12,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || "
-"n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 "(n%100<10 || n%100>=20) ? 1: 2);\n"
-
-#: _translatorinfo.cpp:1
-msgid ""
-"_: NAME OF TRANSLATORS\n"
-"Your names"
-msgstr "Michôł Òstrowsczi"
-
-#: _translatorinfo.cpp:3
-msgid ""
-"_: EMAIL OF TRANSLATORS\n"
-"Your emails"
-msgstr "michol@linuxcsb.org"
 
 #: application.cpp:57
 msgid "URL to display"
 msgstr "URL do wëskrzënieniô"
 
-#: application.cpp:63 navigator.cpp:466
+#: application.cpp:63 navigator.cpp:460
 msgid "KDE Help Center"
 msgstr "Centróm pòmòcë KDE"
 
-#: application.cpp:65 khc_indexbuilder.cpp:171
+#: application.cpp:65 khc_indexbuilder.cpp:174
 msgid "The KDE Help Center"
 msgstr "Centróm pòmòcë KDE"
 
@@ -56,190 +45,209 @@ msgid "Top-Level Documentation"
 msgstr "Pòdspòdlowô dokùmentacëja"
 
 #: docmetainfo.cpp:72
-msgid ""
-"_: doctitle (language)\n"
-"%1 (%2)"
-msgstr "%1 (%2)"
+#, qt-format
+msgctxt "doctitle (language)"
+msgid "%1 (%2)"
+msgstr ""
 
 #: docmetainfo.cpp:108
 msgid "English"
 msgstr "Anielsczi"
 
-#: fontdialog.cpp:39
+#: fontdialog.cpp:45
 msgid "Font Configuration"
 msgstr "Kònfigùracëjô fòntów"
 
-#: fontdialog.cpp:59
+#: fontdialog.cpp:68
 msgid "Sizes"
 msgstr "Miarë"
 
-#: fontdialog.cpp:65
+#: fontdialog.cpp:74
 msgid "M&inimum font size:"
 msgstr "&Minimalnô miara fòntu:"
 
-#: fontdialog.cpp:72
+#: fontdialog.cpp:81
 msgid "M&edium font size:"
 msgstr "&Strzédnô miara fòntu:"
 
-#: fontdialog.cpp:88
+#: fontdialog.cpp:91
+msgid "Fonts"
+msgstr ""
+
+#: fontdialog.cpp:97
 msgid "S&tandard font:"
 msgstr "&Pòdspòdlowi fònt:"
 
-#: fontdialog.cpp:94
+#: fontdialog.cpp:103
 msgid "F&ixed font:"
 msgstr "Fònt &sztabliné szérzë:"
 
-#: fontdialog.cpp:100
+#: fontdialog.cpp:109
 msgid "S&erif font:"
 msgstr "Sz&erifòwi fònt"
 
-#: fontdialog.cpp:106
+#: fontdialog.cpp:115
 msgid "S&ans serif font:"
 msgstr "&Bezszerifòwi fònt:"
 
-#: fontdialog.cpp:112
+#: fontdialog.cpp:121
 msgid "&Italic font:"
 msgstr "&Kùrsywa:"
 
-#: fontdialog.cpp:118
+#: fontdialog.cpp:127
 msgid "&Fantasy font:"
 msgstr "S&trójny fònt:"
 
-#: fontdialog.cpp:127
+#: fontdialog.cpp:136
 msgid "Encoding"
 msgstr "Kòdowanie"
 
-#: fontdialog.cpp:133
+#: fontdialog.cpp:142
 msgid "&Default encoding:"
 msgstr "&Domëszlné kòdowanié:"
 
-#: fontdialog.cpp:138 fontdialog.cpp:203
+#: fontdialog.cpp:147 fontdialog.cpp:215
 msgid "Use Language Encoding"
 msgstr "Brëkùjë kòdowania wëbrónegò jãzëka"
 
-#: fontdialog.cpp:142
+#: fontdialog.cpp:151
 msgid "&Font size adjustment:"
 msgstr "&Zmiana miarë fòntu:"
 
-#: glossary.cpp:87
+#: glossary.cpp:91
 msgid "By Topic"
 msgstr "Wedle témë"
 
-#: glossary.cpp:90 infotree.cpp:91
+#: glossary.cpp:94 infotree.cpp:92
 msgid "Alphabetically"
 msgstr "Alfabétno"
 
-#: glossary.cpp:147
+#: glossary.cpp:150
 msgid "Rebuilding cache..."
 msgstr "Aktualnianié bùfora..."
 
-#: glossary.cpp:177
+#: glossary.cpp:180
 msgid "Rebuilding cache... done."
 msgstr "Aktualnianié bùfora... parôt"
 
-#: glossary.cpp:272
+#: glossary.cpp:274
+#, fuzzy
+msgid "Error"
+msgstr "Fela: %1"
+
+#: glossary.cpp:275
 msgid ""
-"Unable to show selected glossary entry: unable to open file 'glossary.html.in'!"
+"Unable to show selected glossary entry: unable to open file 'glossary.html."
+"in'!"
 msgstr ""
 "Nie mòże wëskrzënic wëbrónégò môla słowôrzka: nie mòżé òtemknąc lopkù "
 "'glossary.html.in'!"
 
-#: glossary.cpp:277
+#: glossary.cpp:280
 msgid "See also: "
 msgstr "Zdrzë téż: "
 
-#: glossary.cpp:292
+#: glossary.cpp:295
 msgid "KDE Glossary"
 msgstr "Słowôrzk KDE"
 
-#: htmlsearchconfig.cpp:44
+#: htmlsearchconfig.cpp:51
 msgid "ht://dig"
 msgstr "ht://dig"
 
-#: htmlsearchconfig.cpp:51
+#: htmlsearchconfig.cpp:60
 msgid ""
-"The fulltext search feature makes use of the ht://dig HTML search engine. You "
-"can get ht://dig at the"
+"The fulltext search feature makes use of the ht://dig HTML search engine. "
+"You can get ht://dig at the"
 msgstr ""
 "Fùltekstowô szëkba brëkùje programë ht://dig.Programa na mòże zladowac z"
 
-#: htmlsearchconfig.cpp:57
+#: htmlsearchconfig.cpp:65
 msgid "Information about where to get the ht://dig package."
 msgstr "Wëdowédzô ò przistãpnoscë paczétu ht://dig."
 
-#: htmlsearchconfig.cpp:61
+#: htmlsearchconfig.cpp:69
 msgid "ht://dig home page"
 msgstr "Domôcô starna ht://dig "
 
-#: htmlsearchconfig.cpp:67
+#: htmlsearchconfig.cpp:75
 msgid "Program Locations"
 msgstr "Lokalizacëje programów"
 
-#: htmlsearchconfig.cpp:74
+#: htmlsearchconfig.cpp:84
 msgid "htsearch:"
 msgstr "htsearch:"
 
-#: htmlsearchconfig.cpp:80
+#: htmlsearchconfig.cpp:90
 msgid "Enter the URL of the htsearch CGI program."
 msgstr "Proszã pòdac adresã URL programë CGI htsearch."
 
-#: htmlsearchconfig.cpp:85
+#: htmlsearchconfig.cpp:95
 msgid "Indexer:"
 msgstr "Indexer:"
 
-#: htmlsearchconfig.cpp:91
+#: htmlsearchconfig.cpp:101
 msgid "Enter the path to your htdig indexer program here."
 msgstr "Proszã pòdac adresã URL indeksujący programë htdig."
 
-#: htmlsearchconfig.cpp:97
+#: htmlsearchconfig.cpp:107
 msgid "htdig database:"
 msgstr "Baza htdig:"
 
-#: htmlsearchconfig.cpp:103
+#: htmlsearchconfig.cpp:113
 msgid "Enter the path to the htdig database folder."
 msgstr "Proszã pòdac stegnã do katalogù bazë htdig."
 
-#: infotree.cpp:94
+#: infotree.cpp:95
 msgid "By Category"
 msgstr "Wedle kategòrëji"
 
-#: kcmhelpcenter.cpp:61
+#: kcmhelpcenter.cpp:72
 msgid "Change Index Folder"
 msgstr "Zmieni katalog indeksu"
 
-#: kcmhelpcenter.cpp:67 kcmhelpcenter.cpp:287
+#: kcmhelpcenter.cpp:80 kcmhelpcenter.cpp:307
 msgid "Index folder:"
 msgstr "Katalog indeksu:"
 
-#: kcmhelpcenter.cpp:97
+#: kcmhelpcenter.cpp:112
 msgid "Build Search Indices"
 msgstr "Bùdowanié indeksu szëkby"
 
-#: kcmhelpcenter.cpp:110
+#: kcmhelpcenter.cpp:125
 msgid "Index creation log:"
 msgstr "Dniewnik bùdowaniô indeksu:"
 
-#: kcmhelpcenter.cpp:175
+#: kcmhelpcenter.cpp:189
+msgid "Close"
+msgstr ""
+
+#: kcmhelpcenter.cpp:190
 msgid "Index creation finished."
 msgstr "Bùdowanié indeksu zakùńczoné."
 
-#: kcmhelpcenter.cpp:204
+#: kcmhelpcenter.cpp:192
+#, fuzzy
+msgid "Stop"
+msgstr "Òbrëmienié"
+
+#: kcmhelpcenter.cpp:218
 msgid "Details <<"
 msgstr "Detale <<"
 
-#: kcmhelpcenter.cpp:217
+#: kcmhelpcenter.cpp:231
 msgid "Details >>"
 msgstr "Detale >>"
 
-#: kcmhelpcenter.cpp:226
+#: kcmhelpcenter.cpp:246
 msgid "Build Search Index"
 msgstr "Zbùdujë indeks szëkbë"
 
-#: kcmhelpcenter.cpp:235
+#: kcmhelpcenter.cpp:255
 msgid "Build Index"
 msgstr "Zbùdujë indeks"
 
-#: kcmhelpcenter.cpp:267
+#: kcmhelpcenter.cpp:286
 msgid ""
 "To be able to search a document, there needs to exist a search\n"
 "index. The status column of the list below shows, if an index\n"
@@ -249,7 +257,7 @@ msgstr ""
 "zbùdowac indeks. Kòlumna stónu na lësce niżi òpisëje, czë\n"
 "dlô dónégò dokùmentu taczi indeks òbstoji.\n"
 
-#: kcmhelpcenter.cpp:270
+#: kcmhelpcenter.cpp:289
 msgid ""
 "To create an index check the box in the list and press the\n"
 "\"Build Index\" button.\n"
@@ -257,50 +265,56 @@ msgstr ""
 "Żebë zrobic indeks, zaznaczë pasowné pòle na lësce\n"
 "ë wcësni knąpã \"Zbùdujë indeks\".\n"
 
-#: kcmhelpcenter.cpp:278
+#: kcmhelpcenter.cpp:297
 msgid "Search Scope"
 msgstr "Òbrëmienié szëkbë"
 
-#: kcmhelpcenter.cpp:279
+#: kcmhelpcenter.cpp:298
 msgid "Status"
 msgstr "Stón"
 
-#: kcmhelpcenter.cpp:293
+#: kcmhelpcenter.cpp:313
 msgid "Change..."
 msgstr "Zmieni..."
 
-#: kcmhelpcenter.cpp:312
+#: kcmhelpcenter.cpp:335
+#, qt-format
 msgid "<qt>The folder <b>%1</b> does not exist; unable to create index.</qt>"
 msgstr "<qt>Katalog <b>%1</b> nie òbstoji. Nie mòże zbùdowac indeksu.</qt>"
 
-#: kcmhelpcenter.cpp:352
+#: kcmhelpcenter.cpp:372
+msgid "OK"
+msgstr ""
+
+#: kcmhelpcenter.cpp:375
 msgid "Missing"
 msgstr "Felënk"
 
-#: kcmhelpcenter.cpp:397
-msgid ""
-"Document '%1' (%2):\n"
-msgstr ""
-"Dokùment '%1' (%2):\n"
+#: kcmhelpcenter.cpp:419
+#, qt-format
+msgid "Document '%1' (%2):\n"
+msgstr "Dokùment '%1' (%2):\n"
 
-#: kcmhelpcenter.cpp:402
+#: kcmhelpcenter.cpp:424
 msgid "No document type."
 msgstr "Felënk ôrtu dokùmentu."
 
-#: kcmhelpcenter.cpp:408
+#: kcmhelpcenter.cpp:430
+#, qt-format
 msgid "No search handler available for document type '%1'."
 msgstr "Felënk fùnkcëji szëkbë dlô dokùmentów ôrtu '%1'."
 
-#: kcmhelpcenter.cpp:415
+#: kcmhelpcenter.cpp:437
+#, qt-format
 msgid "No indexing command specified for document type '%1'."
 msgstr "Felënk pòlétu do robieniô indeksu dlô dokùmentów ôrtu '%1'."
 
-#: kcmhelpcenter.cpp:530
+#: kcmhelpcenter.cpp:552
 msgid "Failed to build index."
 msgstr "Nie mòże zbùdowac indeksu."
 
-#: kcmhelpcenter.cpp:588
-#, c-format
+#: kcmhelpcenter.cpp:607
+#, qt-format
 msgid ""
 "Error executing indexing build command:\n"
 "%1"
@@ -308,159 +322,211 @@ msgstr ""
 "Felô òbczas zrëszaniô pòlétu bùdowaniô indeksu:\n"
 "%1"
 
-#: khc_indexbuilder.cpp:99
+#: khc_indexbuilder.cpp:100
+#, qt-format
 msgid "Unable to start command '%1'."
 msgstr "Nie mòże zrëszëc pòlétu '%1'."
 
-#: khc_indexbuilder.cpp:161
+#: khc_indexbuilder.cpp:164
 msgid "Document to be indexed"
 msgstr "Dokùment do indeksowaniô"
 
-#: khc_indexbuilder.cpp:162
+#: khc_indexbuilder.cpp:165
 msgid "Index directory"
 msgstr "Katalog indeksu:"
 
-#: khc_indexbuilder.cpp:169
+#: khc_indexbuilder.cpp:172
 msgid "KHelpCenter Index Builder"
 msgstr "Bùdowanié indeksu Centróm pòmòcë"
 
-#: khc_indexbuilder.cpp:173
+#: khc_indexbuilder.cpp:176
 msgid "(c) 2003, The KHelpCenter developers"
 msgstr "(c) 2003, Ùsôdzcë Centórm pòmòcë KDE"
 
-#: mainwindow.cpp:58
+#: mainwindow.cpp:72
 msgid "Search Error Log"
 msgstr "Przeszëkôj dniewnik felów"
 
-#: mainwindow.cpp:110
+#: mainwindow.cpp:130
 msgid "Preparing Index"
 msgstr "Rëchtowanié indeksu"
 
-#: mainwindow.cpp:158
+#: mainwindow.cpp:178
 msgid "Ready"
 msgstr "Parôt"
 
-#: mainwindow.cpp:215
+#: mainwindow.cpp:233
 msgid "Previous Page"
 msgstr "Pòprzédnô starna"
 
-#: mainwindow.cpp:217
+#: mainwindow.cpp:235
 msgid "Moves to the previous page of the document"
 msgstr "Wëskrzëniwô pòprzidną starnã dokùmentu"
 
-#: mainwindow.cpp:219
+#: mainwindow.cpp:239
 msgid "Next Page"
 msgstr "Pòstãpnô starna"
 
-#: mainwindow.cpp:221
+#: mainwindow.cpp:241
 msgid "Moves to the next page of the document"
 msgstr "Wëskrzëniwô pòstãpną starnã dokùmentu"
 
-#: mainwindow.cpp:224
+#: mainwindow.cpp:246
 msgid "Table of &Contents"
 msgstr "&Spisënk zamkłoscë"
 
-#: mainwindow.cpp:225
+#: mainwindow.cpp:247
 msgid "Table of contents"
 msgstr "Spisënk zamkłoscë"
 
-#: mainwindow.cpp:226
+#: mainwindow.cpp:248
 msgid "Go back to the table of contents"
 msgstr "Wrócë do spisënkù zamkłoscë"
 
-#: mainwindow.cpp:230
+#: mainwindow.cpp:254
 msgid "&Last Search Result"
 msgstr "Wëszłosc &slédné szëkbë"
 
-#: mainwindow.cpp:235
+#: mainwindow.cpp:259
 msgid "Build Search Index..."
 msgstr "Bùdowanié indeksu szëkbë..."
 
-#: mainwindow.cpp:243
+#: mainwindow.cpp:267
 msgid "Show Search Error Log"
 msgstr "Pòkôżë dniewnik felów"
 
-#: mainwindow.cpp:250
+#: mainwindow.cpp:274
 msgid "Configure Fonts..."
 msgstr "Kònfigùracëjô fòntów..."
 
-#: mainwindow.cpp:251
+#: mainwindow.cpp:278
 msgid "Increase Font Sizes"
 msgstr "Zwikszë wielgòsc fòntów"
 
-#: mainwindow.cpp:252
+#: mainwindow.cpp:283
 msgid "Decrease Font Sizes"
 msgstr "Zmniészé wielgòsc fòntów"
-
-#: navigator.cpp:107
-msgid "Clear search"
-msgstr "Wëczëszczë szëkbã"
 
 #: navigator.cpp:115
 msgid "&Search"
 msgstr "&Nalezë"
 
-#: navigator.cpp:187
+#: navigator.cpp:172
+#, fuzzy
+msgid "&Contents"
+msgstr "&Spisënk zamkłoscë"
+
+#: navigator.cpp:185
 msgid "Search Options"
 msgstr "Ùstôwë szëkbë"
 
-#: navigator.cpp:195
+#: navigator.cpp:193
 msgid "G&lossary"
 msgstr "&Słowôrzk"
 
-#: navigator.cpp:465
+#: navigator.cpp:459
 msgid "Start Page"
 msgstr "Przédnô starna"
 
-#: navigator.cpp:553
+#: navigator.cpp:547
 msgid "Unable to run search program."
 msgstr "Nie mòże zrëszëc szëkôrza."
 
-#: navigator.cpp:594
+#: navigator.cpp:587
 msgid "A search index does not yet exist. Do you want to create the index now?"
 msgstr "Felëje indeksu szëkbë. Ùsôdzëc gò terô?"
 
-#: navigator.cpp:598
+#: navigator.cpp:591
 msgid "Create"
 msgstr "Ùsôdzë"
 
-#: navigator.cpp:599
+#: navigator.cpp:592
 msgid "Do Not Create"
 msgstr "Nie ùsôdzôj"
 
-#. i18n: file khelpcenterui.rc line 25
-#: rc.cpp:12
-#, no-c-format
-msgid "&Go"
-msgstr "&Biéj"
-
+#. i18n: tag label
 #. i18n: file khelpcenter.kcfg line 11
-#: rc.cpp:18 rc.cpp:27
+#. i18n: tag label
+#. i18n: file ./khelpcenter.kcfg line 11
+#: rc.cpp:4 rc.cpp:38
 #, no-c-format
 msgid "Path to index directory."
 msgstr "Stegna do katalogù indeksu."
 
+#. i18n: tag whatsthis
 #. i18n: file khelpcenter.kcfg line 12
-#: rc.cpp:21 rc.cpp:30
+#. i18n: tag whatsthis
+#. i18n: file ./khelpcenter.kcfg line 12
+#: rc.cpp:8 rc.cpp:42
 #, no-c-format
 msgid "Path to directory containing search indices."
 msgstr "Stegna do katalogù mającegò indeksë szëkaniô."
 
+#. i18n: tag label
 #. i18n: file khelpcenter.kcfg line 26
-#: rc.cpp:24 rc.cpp:33
+#. i18n: tag label
+#. i18n: file ./khelpcenter.kcfg line 26
+#: rc.cpp:12 rc.cpp:46
 #, no-c-format
 msgid "Currently visible navigator tab"
 msgstr "Widzawnô załóżka przezérnika"
+
+#. i18n: tag text
+#. i18n: file khelpcenterui.rc line 5
+#: rc.cpp:16
+#, no-c-format
+msgid "&File"
+msgstr ""
+
+#. i18n: tag text
+#. i18n: file khelpcenterui.rc line 12
+#: rc.cpp:20
+#, no-c-format
+msgid "&Edit"
+msgstr ""
+
+#. i18n: tag text
+#. i18n: file khelpcenterui.rc line 20
+#: rc.cpp:24
+#, no-c-format
+msgid "&View"
+msgstr ""
+
+#. i18n: tag text
+#. i18n: file khelpcenterui.rc line 25
+#: rc.cpp:28
+#, no-c-format
+msgid "&Go"
+msgstr "&Biéj"
+
+#. i18n: tag text
+#. i18n: file khelpcenterui.rc line 40
+#: rc.cpp:32
+#, no-c-format
+msgid "Main Toolbar"
+msgstr ""
+
+#: rc.cpp:33
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: rc.cpp:34
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
 
 #: searchengine.cpp:76
 msgid "Error: No document type specified."
 msgstr "Fela: nie je pòdóny ôrt dokùmentu."
 
 #: searchengine.cpp:78
+#, qt-format
 msgid "Error: No search handler for document type '%1'."
 msgstr "Fela: felëje fùnkcji szëkaniô dlô dokùmentów ôrtu '%1'."
 
 #: searchengine.cpp:226
+#, qt-format
 msgid "Unable to initialize SearchHandler from file '%1'."
 msgstr "Nie mòże zainicjalizowac mòdułu szëkaniô z lopkù '%1'."
 
@@ -468,15 +534,17 @@ msgstr "Nie mòże zainicjalizowac mòdułu szëkaniô z lopkù '%1'."
 msgid "No valid search handler found."
 msgstr "Felëje mòdułów szëkbë."
 
-#: searchengine.cpp:306
+#: searchengine.cpp:305
+#, qt-format
 msgid "Search Results for '%1':"
 msgstr "Rezultatë szëkania '%1':"
 
-#: searchengine.cpp:311
+#: searchengine.cpp:310
 msgid "Search Results"
 msgstr "Rezultatë szëkania"
 
 #: searchhandler.cpp:132
+#, qt-format
 msgid "Error executing search command '%1'."
 msgstr "Fela òbczas zrëszania pòlétu szëkaniô '%1'."
 
@@ -485,74 +553,79 @@ msgid "No search command or URL specified."
 msgstr "Nie je pòdóny pòlét szëkbë abò URL."
 
 #: searchhandler.cpp:233
-#, c-format
+#, qt-format
 msgid "Error: %1"
 msgstr "Fela: %1"
 
-#: searchwidget.cpp:56
+#: searchwidget.cpp:65
 msgid "and"
 msgstr "ë"
 
-#: searchwidget.cpp:57
+#: searchwidget.cpp:66
 msgid "or"
 msgstr "abò"
 
-#: searchwidget.cpp:59
+#: searchwidget.cpp:68
 msgid "&Method:"
 msgstr "&Metoda:"
 
-#: searchwidget.cpp:73
+#: searchwidget.cpp:84
 msgid "Max. &results:"
 msgstr "Maks. &rezultatów:"
 
-#: searchwidget.cpp:87
+#: searchwidget.cpp:100
 msgid "&Scope selection:"
 msgstr "&Òbrëmienié szëkaniô:"
 
-#: searchwidget.cpp:94
+#: searchwidget.cpp:108
 msgid "Scope"
 msgstr "Òbrëmienié"
 
-#: searchwidget.cpp:97
+#: searchwidget.cpp:111
 msgid "Build Search &Index..."
 msgstr "&Bùdujë indeks szëkaniô..."
 
-#: searchwidget.cpp:352
+#: searchwidget.cpp:366
 msgid "Custom"
 msgstr "Swój"
 
-#: searchwidget.cpp:356
+#: searchwidget.cpp:368
+msgid "Default"
+msgstr ""
+
+#: searchwidget.cpp:370
 msgid "All"
 msgstr "Wszëtkò"
 
-#: searchwidget.cpp:358
+#: searchwidget.cpp:372
 msgid "None"
 msgstr "Felënk"
 
-#: searchwidget.cpp:360
+#: searchwidget.cpp:374
 msgid "unknown"
 msgstr "nieznóny"
 
-#: view.cpp:114
+#: view.cpp:119
 msgid "Conquer your Desktop!"
 msgstr "Kòntrolëjë swój desktop!"
 
-#: view.cpp:118
+#: view.cpp:123
 msgid "Help Center"
 msgstr "Centróm pòmòcë KDE"
 
-#: view.cpp:120
+#: view.cpp:125
 msgid "Welcome to the K Desktop Environment"
 msgstr "Witómë w òkrãżim KDE"
 
-#: view.cpp:121
+#: view.cpp:126
 msgid "The KDE team welcomes you to user-friendly UNIX computing"
 msgstr "Karno KDE witô w drësznym uniksowim òkrãżim"
 
-#: view.cpp:122
+#: view.cpp:127
 msgid ""
 "KDE is a powerful graphical desktop environment for UNIX workstations. A\n"
-"KDE desktop combines ease of use, contemporary functionality and outstanding\n"
+"KDE desktop combines ease of use, contemporary functionality and "
+"outstanding\n"
 "graphical design with the technological superiority of the UNIX operating\n"
 "system."
 msgstr ""
@@ -560,58 +633,76 @@ msgstr ""
 "Parłãczë letkòsc ùżëca, fùnkcjonalnotã ë snôżotã z mòcą òperacjowi systemë "
 "Unix."
 
-#: view.cpp:126
+#: view.cpp:131
 msgid "What is the K Desktop Environment?"
 msgstr "Co to je K Desktop Environment?"
 
-#: view.cpp:127
+#: view.cpp:132
 msgid "Contacting the KDE Project"
 msgstr "Łączba z Karnem KDE"
 
-#: view.cpp:128
+#: view.cpp:133
 msgid "Supporting the KDE Project"
 msgstr "Wspòmaganié projektu KDE"
 
-#: view.cpp:129
+#: view.cpp:134
 msgid "Useful links"
 msgstr "Przedôwne lënczi"
 
-#: view.cpp:130
+#: view.cpp:135
 msgid "Getting the most out of KDE"
 msgstr "Pòdspòdlowô wëdowiédza ò KDE"
 
-#: view.cpp:131
+#: view.cpp:136
 msgid "General Documentation"
 msgstr "Pòdspòdlowô dokùmentacëja"
 
-#: view.cpp:132
+#: view.cpp:137
 msgid "A Quick Start Guide to the Desktop"
 msgstr "Krótczé wprowadzenié do KDE"
 
-#: view.cpp:133
+#: view.cpp:138
 msgid "KDE Users' guide"
 msgstr "Ùczbòwnik brëkòwnika KDE"
 
-#: view.cpp:134
+#: view.cpp:139
 msgid "Frequently asked questions"
 msgstr "Czãsto zadôwóné pëtania"
 
-#: view.cpp:135
+#: view.cpp:140
 msgid "Basic Applications"
 msgstr "Pòdspòdlowé programë"
 
-#: view.cpp:136
+#: view.cpp:141
 msgid "The Kicker Desktop Panel"
 msgstr "Kicker - panel KDE"
 
-#: view.cpp:137
+#: view.cpp:142
 msgid "The KDE Control Center"
 msgstr "Centróm kòntroli KDE"
 
-#: view.cpp:138
+#: view.cpp:143
 msgid "The Konqueror File manager and Web Browser"
 msgstr "Konqueror - menadżer lopków ë przezérnik WWW"
 
-#: view.cpp:269
+#: view.cpp:267
 msgid "Copy Link Address"
 msgstr "Skòpiejë adresã lënkù"
+
+#~ msgid ""
+#~ "_: NAME OF TRANSLATORS\n"
+#~ "Your names"
+#~ msgstr "Michôł Òstrowsczi"
+
+#~ msgid ""
+#~ "_: EMAIL OF TRANSLATORS\n"
+#~ "Your emails"
+#~ msgstr "michol@linuxcsb.org"
+
+#~ msgid ""
+#~ "_: doctitle (language)\n"
+#~ "%1 (%2)"
+#~ msgstr "%1 (%2)"
+
+#~ msgid "Clear search"
+#~ msgstr "Wëczëszczë szëkbã"

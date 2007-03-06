@@ -4,7 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kio_smtp\n"
-"POT-Creation-Date: 2006-04-19 03:54+0200\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-02-13 08:19+0100\n"
 "PO-Revision-Date: 2007-02-18 19:41+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -12,18 +13,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || "
-"n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 
-#: command.cc:125
+#: command.cc:126
 msgid ""
-"The server rejected both EHLO and HELO commands as unknown or unimplemented.\n"
+"The server rejected both EHLO and HELO commands as unknown or "
+"unimplemented.\n"
 "Please contact the server's system administrator."
 msgstr ""
 "Serwera òdcëskô pòlétë EHLO ë HELO jakò nieznóne abò niezaimplementowóne.\n"
 "Proszã skòntaktowac sã ze sprôwnikã."
 
-#: command.cc:139
+#: command.cc:140
+#, qt-format
 msgid ""
 "Unexpected server response to %1 command.\n"
 "%2"
@@ -31,7 +34,7 @@ msgstr ""
 "Nieżdónô òdpòwiesc serwera na pòlét %1.\n"
 "%2"
 
-#: command.cc:159
+#: command.cc:160
 msgid ""
 "Your SMTP server does not support TLS. Disable TLS, if you want to connect "
 "without encryption."
@@ -39,7 +42,7 @@ msgstr ""
 "Twòjô serwera SMTP nie mô òbsłëdżi TLS. Wëłączë TLS, eżle chcesz pòłączëc sã "
 "bez zabezpiéczeniô."
 
-#: command.cc:173
+#: command.cc:174
 msgid ""
 "Your SMTP server claims to support TLS, but negotiation was unsuccessful.\n"
 "You can disable TLS in KDE using the crypto settings module."
@@ -48,19 +51,25 @@ msgstr ""
 "sã.\n"
 "Mòżesz wëłączëc TLS w KDE brëkùjąc nastôwów mòdułu kriptografëji."
 
-#: command.cc:178
+#: command.cc:179
 msgid "Connection Failed"
 msgstr "Pòłączënié nie darzëło sã"
 
-#: command.cc:229
+#: command.cc:185
+#, qt-format
+msgid "An error occurred during authentication: %1"
+msgstr ""
+
+#: command.cc:230
 msgid "Authentication support is not compiled into kio_smtp."
 msgstr "Òbsłëgô ùdowiérzaniô nie je wkòmpilowónô w plugins protokòłu kio_smtp."
 
-#: command.cc:258
+#: command.cc:259
 msgid "No authentication details supplied."
 msgstr "Nie są pòdóné detale do ùdowierzënia."
 
-#: command.cc:361
+#: command.cc:356
+#, qt-format
 msgid ""
 "Your SMTP server does not support %1.\n"
 "Choose a different authentication method.\n"
@@ -70,17 +79,17 @@ msgstr ""
 "Wëbiérzë jiną metodã ùdowierzaniô.\n"
 "%2"
 
-#: command.cc:365
-#, c-format
+#: command.cc:360
+#, fuzzy, qt-format
 msgid ""
 "Your SMTP server does not support authentication.\n"
-"  %2"
+"  %1"
 msgstr ""
 "Twòjô serwera SMTP nie òbłëgùje ùdowierzaniô.\n"
 "  %2"
 
-#: command.cc:369
-#, c-format
+#: command.cc:364
+#, qt-format
 msgid ""
 "Authentication failed.\n"
 "Most likely the password is wrong.\n"
@@ -90,12 +99,12 @@ msgstr ""
 "Gwësno parola je lëchò.\n"
 "%1"
 
-#: command.cc:507
+#: command.cc:502
 msgid "Could not read data from application."
 msgstr "Nie mòże òdczëtac pòdôwków z programë."
 
-#: command.cc:524
-#, c-format
+#: command.cc:519
+#, qt-format
 msgid ""
 "The message content was not accepted.\n"
 "%1"
@@ -103,8 +112,8 @@ msgstr ""
 "Zamkłosc wiadła nie òsta zaakceptowónô.\n"
 "%1"
 
-#: response.cc:105
-#, c-format
+#: response.cc:106
+#, qt-format
 msgid ""
 "The server responded:\n"
 "%1"
@@ -112,27 +121,29 @@ msgstr ""
 "Òdpòwiesc serwerë:\n"
 "%1"
 
-#: response.cc:108
+#: response.cc:109
+#, qt-format
 msgid "The server responded: \"%1\""
 msgstr "Serwera òdpòwiedzała: \"%1\""
 
-#: response.cc:111
+#: response.cc:112
 msgid "This is a temporary failure. You may try again later."
 msgstr "To je timczasowô fela. Mòżesz spróbòwac znowa pózdni."
 
-#: smtp.cc:188
+#: smtp.cc:196
 msgid "The application sent an invalid request."
 msgstr "Programa wësła zmiłkòwi żãdanié."
 
-#: smtp.cc:250
+#: smtp.cc:258
 msgid "The sender address is missing."
 msgstr "Adresa wësélôrza nie òsta pòdónô."
 
-#: smtp.cc:258
+#: smtp.cc:266
+#, qt-format
 msgid "SMTPProtocol::smtp_open failed (%1)"
 msgstr "Protokół SMTP::smtp_open nie darzëł sã (%1)"
 
-#: smtp.cc:266
+#: smtp.cc:274
 msgid ""
 "Your server does not support sending of 8-bit messages.\n"
 "Please use base64 or quoted-printable encoding."
@@ -140,12 +151,13 @@ msgstr ""
 "Twòjô serwera nie òbsłëgùje wësëłania 8-bitowëch wiadłow.\n"
 "Proszã brëkòwac kòdowania base64 abò quoted-printable."
 
-#: smtp.cc:345
+#: smtp.cc:353
+#, qt-format
 msgid "Invalid SMTP response (%1) received."
 msgstr "Dostónô zmiłkòwą òdpòwiesc SMTP (%1)."
 
-#: smtp.cc:532
-#, c-format
+#: smtp.cc:537
+#, qt-format
 msgid ""
 "The server did not accept the connection.\n"
 "%1"
@@ -153,12 +165,12 @@ msgstr ""
 "Serwera nie zaakceptowa pòłączenia.\n"
 "%1"
 
-#: smtp.cc:607
+#: smtp.cc:616
 msgid "Username and password for your SMTP account:"
 msgstr "Miono brëkòwnika ë parola dla kònta SMTP:"
 
 #: transactionstate.cc:53
-#, c-format
+#, qt-format
 msgid ""
 "The server did not accept a blank sender address.\n"
 "%1"
@@ -167,6 +179,7 @@ msgstr ""
 "%1"
 
 #: transactionstate.cc:56
+#, qt-format
 msgid ""
 "The server did not accept the sender address \"%1\".\n"
 "%2"
@@ -174,8 +187,8 @@ msgstr ""
 "Serwera nie zaakceptowa adresë wësëlôrza \"%1\".\n"
 "%2"
 
-#: transactionstate.cc:97
-#, c-format
+#: transactionstate.cc:101
+#, qt-format
 msgid ""
 "Message sending failed since the following recipients were rejected by the "
 "server:\n"
@@ -185,8 +198,8 @@ msgstr ""
 "serwerã:\n"
 "%1"
 
-#: transactionstate.cc:107
-#, c-format
+#: transactionstate.cc:106
+#, qt-format
 msgid ""
 "The attempt to start sending the message content failed.\n"
 "%1"
@@ -194,6 +207,6 @@ msgstr ""
 "Nie darzëła sã próba naczãca wësłania zamkłoscë wiadła.\n"
 "%1"
 
-#: transactionstate.cc:111
+#: transactionstate.cc:110
 msgid "Unhandled error condition. Please send a bug report."
 msgstr "Nieòbsłëgiwónô fela. Proszã wësłac zgłoszënk feli w programie."

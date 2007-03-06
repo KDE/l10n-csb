@@ -4,7 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kminipagerapplet\n"
-"POT-Creation-Date: 2006-11-15 02:35+0100\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-02-14 08:31+0100\n"
 "PO-Revision-Date: 2007-02-18 19:55+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -12,181 +13,211 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || "
-"n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 
-#: pagerapplet.cpp:681
+#: pagerapplet.cpp:641
 msgid "&Launch Pager"
 msgstr "&Zrëszë pòdzérk pùltów"
 
-#: pagerapplet.cpp:684
+#: pagerapplet.cpp:644
+#, qt-format
 msgid "&Rename Desktop \"%1\""
 msgstr "Zmieni &miono pùltu \"%1\""
 
-#: pagerapplet.cpp:690
-msgid "Pager Layout"
-msgstr "Ùkłôd pùltów"
-
-#: pagerapplet.cpp:694
+#: pagerapplet.cpp:654
 msgid "&Automatic"
 msgstr "&Aùtomatno"
 
-#: pagerapplet.cpp:695
-msgid ""
-"_: one row or column\n"
-"&1"
-msgstr "&1"
+#: pagerapplet.cpp:655
+msgctxt "one row or column"
+msgid "&1"
+msgstr ""
 
-#: pagerapplet.cpp:696
-msgid ""
-"_: two rows or columns\n"
-"&2"
-msgstr "&2"
+#: pagerapplet.cpp:656
+msgctxt "two rows or columns"
+msgid "&2"
+msgstr ""
 
-#: pagerapplet.cpp:697
-msgid ""
-"_: three rows or columns\n"
-"&3"
-msgstr "&3"
+#: pagerapplet.cpp:657
+msgctxt "three rows or columns"
+msgid "&3"
+msgstr ""
 
-#: pagerapplet.cpp:699
+#: pagerapplet.cpp:659
 msgid "&Rows"
 msgstr "&Réżczi"
 
-#: pagerapplet.cpp:700
+#: pagerapplet.cpp:660
 msgid "&Columns"
 msgstr "&Kòlumnë"
 
-#: pagerapplet.cpp:703
+#: pagerapplet.cpp:663
 msgid "&Window Thumbnails"
 msgstr "&Miniaturczi òknów"
 
-#: pagerapplet.cpp:704
+#: pagerapplet.cpp:664
 msgid "&Window Icons"
 msgstr "&Ikònë òknów"
 
-#: pagerapplet.cpp:706
-msgid "Text Label"
-msgstr "Tekstowi pòdpisënk"
-
-#: pagerapplet.cpp:707
+#: pagerapplet.cpp:667
 msgid "Desktop N&umber"
 msgstr "&Numer pùltu"
 
-#: pagerapplet.cpp:709
+#: pagerapplet.cpp:669
 msgid "Desktop N&ame"
 msgstr "&Miono pùltu"
 
-#: pagerapplet.cpp:711
+#: pagerapplet.cpp:671
 msgid "N&o Label"
 msgstr "&Felëje pòdpisënkù"
 
-#: pagerapplet.cpp:714
-msgid "Background"
-msgstr "Spódk"
-
-#: pagerapplet.cpp:715
+#: pagerapplet.cpp:675
 msgid "&Elegant"
 msgstr "&Szëkòwné"
 
-#: pagerapplet.cpp:717
+#: pagerapplet.cpp:677
 msgid "&Transparent"
 msgstr "&Przezérné"
 
-#: pagerapplet.cpp:719
+#: pagerapplet.cpp:679
 msgid "&Desktop Wallpaper"
 msgstr "&Tapéta"
 
-#: pagerapplet.cpp:722
+#: pagerapplet.cpp:682
 msgid "&Pager Options"
 msgstr "Ò&ptacëjë pòdzérkù"
 
-#: pagerapplet.cpp:725
+#: pagerapplet.cpp:685
 msgid "&Configure Desktops..."
 msgstr "&Kònfigùracëjô pùltu..."
 
-#: pagerbutton.cpp:801
-#, c-format
-msgid ""
-"_n: and 1 other\n"
-"and %n others"
+#: pagerbutton.cpp:718
+#, qt-format
+msgid "and %1 others"
 msgstr ""
-"ë jeden jiny\n"
-"ë %n jinë\n"
-"ë %n jinëch"
 
-#: pagerbutton.cpp:809
-#, c-format
-msgid ""
-"_n: One window:\n"
-"%n windows:"
-msgstr ""
-"1 òkno:\n"
-"%n òkna:\n"
-"%n òknów:"
+#: pagerbutton.cpp:726
+#, qt-format
+msgid "One window:"
+msgid_plural "%1 Windows:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
+#. i18n: tag label
 #. i18n: file pagersettings.kcfg line 12
-#: rc.cpp:3
+#: rc.cpp:4
 #, no-c-format
 msgid "None"
 msgstr "Felënk"
 
+#. i18n: tag label
 #. i18n: file pagersettings.kcfg line 15
-#: rc.cpp:6
+#: rc.cpp:8
 #, no-c-format
 msgid "Name"
 msgstr "Miono"
 
+#. i18n: tag label
 #. i18n: file pagersettings.kcfg line 18
-#: rc.cpp:9
+#: rc.cpp:12
 #, no-c-format
 msgid "Number"
 msgstr "Numer"
 
+#. i18n: tag label
 #. i18n: file pagersettings.kcfg line 22
-#: rc.cpp:12
+#: rc.cpp:16
 #, no-c-format
 msgid "Virtual desktop label type"
 msgstr "Ôrt pòdpisënkù wirtualnegò pùltu"
 
+#. i18n: tag label
 #. i18n: file pagersettings.kcfg line 28
-#: rc.cpp:15
+#: rc.cpp:20
 #, no-c-format
 msgid "Plain"
 msgstr "Zwëkòwi"
 
+#. i18n: tag label
 #. i18n: file pagersettings.kcfg line 31
-#: rc.cpp:18
+#: rc.cpp:24
 #, no-c-format
 msgid "Transparent"
 msgstr "Przezérny"
 
+#. i18n: tag label
 #. i18n: file pagersettings.kcfg line 34
-#: rc.cpp:21
+#: rc.cpp:28
 #, no-c-format
 msgid "Live"
 msgstr "Dinamiczy"
 
+#. i18n: tag label
 #. i18n: file pagersettings.kcfg line 38
-#: rc.cpp:24
+#: rc.cpp:32
 #, no-c-format
 msgid "Virtual desktop background type"
 msgstr "Ôrt spòdkù wirtualnegò pùltu"
 
+#. i18n: tag label
 #. i18n: file pagersettings.kcfg line 42
-#: rc.cpp:27
+#: rc.cpp:36
 #, no-c-format
 msgid "Number of rows to arrange the desktop previews into"
 msgstr "Lëczba réżków dlô pòdzérkù pùltu"
 
+#. i18n: tag label
 #. i18n: file pagersettings.kcfg line 49
-#: rc.cpp:30
+#: rc.cpp:40
 #, no-c-format
 msgid "Show desktop preview?"
 msgstr "Czë wëskrzëniwac pòdzérk pùltu?"
 
+#. i18n: tag label
 #. i18n: file pagersettings.kcfg line 54
-#: rc.cpp:33
+#: rc.cpp:44
 #, no-c-format
 msgid "Show window icons in previews?"
 msgstr "Czë wëskrzëniwac ikònë òknów w pòdzérkù?"
+
+#~ msgid "Pager Layout"
+#~ msgstr "Ùkłôd pùltów"
+
+#~ msgid ""
+#~ "_: one row or column\n"
+#~ "&1"
+#~ msgstr "&1"
+
+#~ msgid ""
+#~ "_: two rows or columns\n"
+#~ "&2"
+#~ msgstr "&2"
+
+#~ msgid ""
+#~ "_: three rows or columns\n"
+#~ "&3"
+#~ msgstr "&3"
+
+#~ msgid "Text Label"
+#~ msgstr "Tekstowi pòdpisënk"
+
+#~ msgid "Background"
+#~ msgstr "Spódk"
+
+#~ msgid ""
+#~ "_n: and 1 other\n"
+#~ "and %n others"
+#~ msgstr ""
+#~ "ë jeden jiny\n"
+#~ "ë %n jinë\n"
+#~ "ë %n jinëch"
+
+#~ msgid ""
+#~ "_n: One window:\n"
+#~ "%n windows:"
+#~ msgstr ""
+#~ "1 òkno:\n"
+#~ "%n òkna:\n"
+#~ "%n òknów:"

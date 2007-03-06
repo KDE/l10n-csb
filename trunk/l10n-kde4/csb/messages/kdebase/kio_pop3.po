@@ -4,7 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kio_pop3\n"
-"POT-Creation-Date: 2005-05-18 21:24+0200\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-01-03 08:16+0100\n"
 "PO-Revision-Date: 2007-02-18 19:28+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -12,22 +13,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || "
-"n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 
-#: pop3.cc:250
-msgid "PASS <your password>"
-msgstr "PASS <Twòjô parola>"
-
-#: pop3.cc:253
+#: pop3.cc:245
+#, qt-format
 msgid "The server said: \"%1\""
 msgstr "Òdpòwiesc serwera: \"%1\""
 
-#: pop3.cc:275
+#: pop3.cc:267
 msgid "The server terminated the connection."
 msgstr "Serwera przerwôła pòłączenié."
 
-#: pop3.cc:277
+#: pop3.cc:269
+#, qt-format
 msgid ""
 "Invalid response from server:\n"
 "\"%1\""
@@ -35,20 +34,19 @@ msgstr ""
 "Zmiłkòwô òdpòwiesc serwera:\n"
 "\"%1\""
 
-#: pop3.cc:306
-msgid ""
-"Could not send to server.\n"
-msgstr ""
-"Nie mòże wësłac do serwera.\n"
+#: pop3.cc:296
+msgid "Could not send to server.\n"
+msgstr "Nie mòże wësłac do serwera.\n"
 
-#: pop3.cc:361 pop3.cc:420 pop3.cc:617
+#: pop3.cc:349 pop3.cc:408 pop3.cc:599
 msgid "No authentication details supplied."
 msgstr "Nie są pòdóné detale do ùdowierzeniô."
 
-#: pop3.cc:398
+#: pop3.cc:386
+#, qt-format
 msgid ""
-"Login via APOP failed. The server %1 may not support APOP, although it claims "
-"to support it, or the password may be wrong.\n"
+"Login via APOP failed. The server %1 may not support APOP, although it "
+"claims to support it, or the password may be wrong.\n"
 "\n"
 "%2"
 msgstr ""
@@ -57,10 +55,16 @@ msgstr ""
 "\n"
 "%2"
 
-#: pop3.cc:586
+#: pop3.cc:446
+#, qt-format
+msgid "An error occurred during authentication: %1"
+msgstr ""
+
+#: pop3.cc:568
+#, qt-format
 msgid ""
-"Login via SASL (%1) failed. The server may not support %2, or the password may "
-"be wrong.\n"
+"Login via SASL (%1) failed. The server may not support %2, or the password "
+"may be wrong.\n"
 "\n"
 "%3"
 msgstr ""
@@ -69,7 +73,7 @@ msgstr ""
 "\n"
 "%3"
 
-#: pop3.cc:595
+#: pop3.cc:577
 msgid ""
 "Your POP3 server does not support SASL.\n"
 "Choose a different authentication method."
@@ -77,11 +81,12 @@ msgstr ""
 "Twójô serwera POP3 nie òbsłëgùje SASL.\n"
 "Wëbierzë jiną metodã ùdowierzaniô."
 
-#: pop3.cc:603
+#: pop3.cc:585
 msgid "SASL authentication is not compiled into kio_pop3."
 msgstr "Ùdowierzanié SASL nie je wkòmpilowóné w kio_pop3."
 
-#: pop3.cc:635 pop3.cc:684
+#: pop3.cc:617 pop3.cc:666
+#, qt-format
 msgid ""
 "Could not login to %1.\n"
 "\n"
@@ -89,7 +94,8 @@ msgstr ""
 "Nie mòże wlogòwac sã do %1.\n"
 "\n"
 
-#: pop3.cc:649
+#: pop3.cc:631
+#, qt-format
 msgid ""
 "Could not login to %1. The password may be wrong.\n"
 "\n"
@@ -99,11 +105,12 @@ msgstr ""
 "\n"
 "%2"
 
-#: pop3.cc:687
+#: pop3.cc:669
 msgid "The server terminated the connection immediately."
 msgstr "Serwera zarôzkù przerwała pòłączenié."
 
-#: pop3.cc:688
+#: pop3.cc:670
+#, qt-format
 msgid ""
 "Server does not respond properly:\n"
 "%1\n"
@@ -111,7 +118,7 @@ msgstr ""
 "Serwera nie òdpòwiedzała dosëzno:\n"
 "%1\n"
 
-#: pop3.cc:716
+#: pop3.cc:698
 msgid ""
 "Your POP3 server does not support APOP.\n"
 "Choose a different authentication method."
@@ -119,15 +126,15 @@ msgstr ""
 "Twòjô serwera POP3 nie òbsłëgùje APOP.\n"
 "Wëbierzë jiną metodã ùdowierzania."
 
-#: pop3.cc:736
+#: pop3.cc:718
 msgid ""
 "Your POP3 server claims to support TLS but negotiation was unsuccessful. You "
 "can disable TLS in KDE using the crypto settings module."
 msgstr ""
-"Twòjô serwera POP3 òbstoje, że òbsłëgùje TLS, leno aùtorizacëjô nie darzëła sã. "
-"Mòżesz wëłączëc TLS w mòdule Kriptografëjô w Centróm Kòntrolë."
+"Twòjô serwera POP3 òbstoje, że òbsłëgùje TLS, leno aùtorizacëjô nie darzëła "
+"sã. Mòżesz wëłączëc TLS w mòdule Kriptografëjô w Centróm Kòntrolë."
 
-#: pop3.cc:747
+#: pop3.cc:729
 msgid ""
 "Your POP3 server does not support TLS. Disable TLS, if you want to connect "
 "without encryption."
@@ -135,10 +142,13 @@ msgstr ""
 "Twòjô serwera POP3 nie òbsłëgùjë TLS. Wëłączë TLS, żebë pòłączëc sã bez "
 "szifrowaniô."
 
-#: pop3.cc:756
+#: pop3.cc:738
 msgid "Username and password for your POP3 account:"
 msgstr "Miono brëkòwnika ë parola dlô Twòjegò kònta POP3:"
 
-#: pop3.cc:956 pop3.cc:965 pop3.cc:1104
+#: pop3.cc:935 pop3.cc:944 pop3.cc:1079
 msgid "Unexpected response from POP3 server."
 msgstr "Nieżdônô òdpòwiesc òd serwera POP3."
+
+#~ msgid "PASS <your password>"
+#~ msgstr "PASS <Twòjô parola>"

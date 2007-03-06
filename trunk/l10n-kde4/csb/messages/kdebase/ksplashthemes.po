@@ -4,7 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksplashthemes\n"
-"POT-Creation-Date: 2006-08-24 02:34+0200\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2006-08-14 19:25+0200\n"
 "PO-Revision-Date: 2007-02-18 20:49+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -12,91 +13,95 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || "
-"n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 
-#: _translatorinfo.cpp:1
-msgid ""
-"_: NAME OF TRANSLATORS\n"
-"Your names"
-msgstr "Michôł Òstrowsczi"
-
-#: _translatorinfo.cpp:3
-msgid ""
-"_: EMAIL OF TRANSLATORS\n"
-"Your emails"
-msgstr "michol@linuxcsb.org"
-
-#: installer.cpp:107
+#: installer.cpp:120
 msgid "Add..."
 msgstr "Dodôj..."
 
-#: installer.cpp:115
+#: installer.cpp:124
+msgid "Remove"
+msgstr ""
+
+#: installer.cpp:128
 msgid "Test"
 msgstr "Testëjë"
 
-#: installer.cpp:300
+#: installer.cpp:310
+#, qt-format
 msgid "Delete folder %1 and its contents?"
 msgstr "Rëmnąc katalog %1 ë jegò zamkłosc?"
 
-#: installer.cpp:307
+#: installer.cpp:310
+msgid "&Delete"
+msgstr ""
+
+#: installer.cpp:317
+#, qt-format
 msgid "Failed to remove theme '%1'"
 msgstr "Nie mòże rëmnąc témë '%1'"
 
-#: installer.cpp:332 installer.cpp:397
+#: installer.cpp:342 installer.cpp:407
 msgid "(Could not load theme)"
 msgstr "(Nie mòże wladowac témë)"
 
-#: installer.cpp:364
-msgid "<b>Name:</b> %1<br>"
-msgstr "<b>Miono:</b> %1<br>"
-
-#: installer.cpp:364 installer.cpp:366 installer.cpp:368 installer.cpp:370
-#: installer.cpp:372
+#: installer.cpp:374 installer.cpp:376 installer.cpp:378 installer.cpp:380
+#: installer.cpp:382
 msgid "Unknown"
 msgstr "Nieznóny"
 
-#: installer.cpp:366
+#: installer.cpp:374
+#, qt-format
+msgid "<b>Name:</b> %1<br>"
+msgstr "<b>Miono:</b> %1<br>"
+
+#: installer.cpp:376
+#, qt-format
 msgid "<b>Description:</b> %1<br>"
 msgstr "<b>Òpisënk:</b> %1<br>"
 
-#: installer.cpp:368
+#: installer.cpp:378
+#, qt-format
 msgid "<b>Version:</b> %1<br>"
 msgstr "<b>Wersëjô:</b> %1<br>"
 
-#: installer.cpp:370
+#: installer.cpp:380
+#, qt-format
 msgid "<b>Author:</b> %1<br>"
 msgstr "<b>Ùsôdzca:</b> %1<br>"
 
-#: installer.cpp:372
+#: installer.cpp:382
+#, qt-format
 msgid "<b>Homepage:</b> %1<br>"
 msgstr "<b>Domôcô starna:</b> %1<br>"
 
-#: installer.cpp:379
+#: installer.cpp:389
+#, qt-format
 msgid "This theme requires the plugin %1 which is not installed."
 msgstr "Na téma wëmògô pluginsa %1 jaczi nie je zainstalowóny."
 
-#: installer.cpp:386
+#: installer.cpp:396
 msgid "Could not load theme configuration file."
 msgstr "Nie mòże wladowac kònfigùracëjowégò lopkù témë."
 
-#: installer.cpp:406
+#: installer.cpp:416
 msgid "No preview available."
 msgstr "Pòdzérk nieprzistãpny."
 
-#: installer.cpp:420
+#: installer.cpp:430
 msgid "KSplash Theme Files"
 msgstr "Lopczi témë KSplash"
 
-#: installer.cpp:421
+#: installer.cpp:431
 msgid "Add Theme"
 msgstr "Dodôj témã"
 
-#: installer.cpp:474
+#: installer.cpp:484
 msgid "Unable to start ksplashsimple."
 msgstr "Nie mòże zrëszëc ksplashsimple."
 
-#: installer.cpp:480
+#: installer.cpp:490
 msgid "Unable to start ksplash."
 msgstr "Nie mòże zrëszëc ksplash."
 
@@ -104,29 +109,49 @@ msgstr "Nie mòże zrëszëc ksplash."
 msgid "&Theme Installer"
 msgstr "&Instalatora témów"
 
-#: main.cpp:64
+#: main.cpp:66
 msgid "KDE splash screen theme manager"
 msgstr "Menedżera témów sztartowégò ekranu KDE"
 
-#: main.cpp:68
+#: main.cpp:70
 msgid "(c) 2003 KDE developers"
 msgstr "(c) 2003 Programiscë KDE"
 
-#: main.cpp:70
+#: main.cpp:72
 msgid "Original KSplash/ML author"
 msgstr "Ùsôdzca apartnegò KSplash/ML"
 
-#: main.cpp:71
+#: main.cpp:73
 msgid "KDE Theme Manager authors"
 msgstr "Ùsôdzcë menadżerë témów KDE"
 
-#: main.cpp:71
+#: main.cpp:73
 msgid "Original installer code"
 msgstr "Apartny kòd instalatora"
 
-#: main.cpp:84
+#: main.cpp:86
 msgid ""
 "<h1>Splash Screen Theme Manager </h1> Install and view splash screen themes."
 msgstr ""
 "<h1>Menadżera témów sztartowégò ekranu </h1> Instalëjë ë òbzérôj témã "
 "sztartowégò ekranu."
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#~ msgid ""
+#~ "_: NAME OF TRANSLATORS\n"
+#~ "Your names"
+#~ msgstr "Michôł Òstrowsczi"
+
+#~ msgid ""
+#~ "_: EMAIL OF TRANSLATORS\n"
+#~ "Your emails"
+#~ msgstr "michol@linuxcsb.org"

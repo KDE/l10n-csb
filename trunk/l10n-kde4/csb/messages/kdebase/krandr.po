@@ -4,7 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: krandr\n"
-"POT-Creation-Date: 2006-11-08 02:34+0100\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-02-13 08:19+0100\n"
 "PO-Revision-Date: 2007-02-18 20:40+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -12,53 +13,42 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || "
-"n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 
-#: _translatorinfo.cpp:1
+#: krandrmodule.cpp:88
+#, fuzzy
 msgid ""
-"_: NAME OF TRANSLATORS\n"
-"Your names"
-msgstr "Michôł Òstrowsczi"
-
-#: _translatorinfo.cpp:3
-msgid ""
-"_: EMAIL OF TRANSLATORS\n"
-"Your emails"
-msgstr "michol@linuxcsb.org"
-
-#: krandrmodule.cpp:82
-msgid ""
-"<qt>Your X server does not support resizing and rotating the display. Please "
+"Your X server does not support resizing and rotating the display. Please "
 "update to version 4.3 or greater. You need the X Resize And Rotate extension "
-"(RANDR) version 1.1 or greater to use this feature.</qt>"
+"(RANDR) version 1.1 or greater to use this feature."
 msgstr ""
 "<qt>Twòjô serwera X nie òbsłëgùjë zmiany miarë ë òbracania ekranu. Proszã "
 "ùaktualnic gò do wersëji 4.3 abò nowszi. Abë brëkòwac ti fùnkcëji nót je "
 "roszérzeniô X Resize And Rotate (RANDR) w wersëji 1.1 abò nowszi.</qt>"
 
-#: krandrmodule.cpp:91
+#: krandrmodule.cpp:103
 msgid "Settings for screen:"
 msgstr "Nastôwë dlô ekranu:"
 
-#: krandrmodule.cpp:95 krandrtray.cpp:83
-#, c-format
+#: krandrmodule.cpp:107 krandrtray.cpp:82
+#, qt-format
 msgid "Screen %1"
 msgstr "Ekran %1"
 
-#: krandrmodule.cpp:100
+#: krandrmodule.cpp:112
 msgid ""
-"The screen whose settings you would like to change can be selected using this "
-"drop-down list."
+"The screen whose settings you would like to change can be selected using "
+"this drop-down list."
 msgstr ""
 "Ekran, chtërnëgò nastôwë mòże zmieniwac, mòże bëc wëbróny przë pòmòcë ti "
 "rozwijny lëstë."
 
-#: krandrmodule.cpp:109
+#: krandrmodule.cpp:123
 msgid "Screen size:"
 msgstr "Miara ekranu:"
 
-#: krandrmodule.cpp:111
+#: krandrmodule.cpp:125
 msgid ""
 "The size, otherwise known as the resolution, of your screen can be selected "
 "from this drop-down list."
@@ -66,63 +56,65 @@ msgstr ""
 "Miara, znónô téż jakno rozdzelnota Twòjegò ekranu, mòże bëc wëbrónô z ti "
 "rozwijny lëstë."
 
-#: krandrmodule.cpp:117
+#: krandrmodule.cpp:133
 msgid "Refresh rate:"
 msgstr "Zamanówszosc òdswiéżaniô:"
 
-#: krandrmodule.cpp:119
+#: krandrmodule.cpp:135
 msgid ""
 "The refresh rate of your screen can be selected from this drop-down list."
 msgstr ""
 "Zamanówszosc òdswiéżania Twòjegò ekranu mòże bëc wëbrónô z ti rozwijny lëstë."
 
-#: krandrmodule.cpp:123
+#: krandrmodule.cpp:139
 msgid "Orientation (degrees counterclockwise)"
 msgstr "Òrientacëjô (gradë procëmno do rësznotë wskôzów zédżera)"
 
-#: krandrmodule.cpp:126
+#: krandrmodule.cpp:142
 msgid ""
 "The options in this section allow you to change the rotation of your screen."
 msgstr "Òptacëje w ti sekcëji pòzwalają zmienic òbrócënk Twòjegò ekranu."
 
-#: krandrmodule.cpp:128
+#: krandrmodule.cpp:144
 msgid "Apply settings on KDE startup"
 msgstr "Zastosëjë nastôwë przë starce KDE"
 
-#: krandrmodule.cpp:130
+#: krandrmodule.cpp:146
 msgid ""
-"If this option is enabled the size and orientation settings will be used when "
-"KDE starts."
+"If this option is enabled the size and orientation settings will be used "
+"when KDE starts."
 msgstr ""
-"Eżle ta òptacëjô je włączonô, nastôwë miarë ë òrientacëji bãdą brëkòwóné przë "
-"sztarce."
+"Eżle ta òptacëjô je włączonô, nastôwë miarë ë òrientacëji bãdą brëkòwóné "
+"przë sztarce."
 
-#: krandrmodule.cpp:135
+#: krandrmodule.cpp:153
 msgid "Allow tray application to change startup settings"
 msgstr ""
 "Zezwòlë programie w systemòwim zabiérnikù na zmianã pòczątkòwëch nastôwów"
 
-#: krandrmodule.cpp:137
+#: krandrmodule.cpp:155
 msgid ""
-"If this option is enabled, options set by the system tray applet will be saved "
-"and loaded when KDE starts instead of being temporary."
+"If this option is enabled, options set by the system tray applet will be "
+"saved and loaded when KDE starts instead of being temporary."
 msgstr ""
 "Eżle ta òptacëjô je włączonô, òptacëjë ùstawioné przez aplet systemòwégò "
-"zabiérnika, miast bëc timczasowima, bãdą zapisóné ë wladowóné przë sztarce KDE."
+"zabiérnika, miast bëc timczasowima, bãdą zapisóné ë wladowóné przë sztarce "
+"KDE."
 
-#: krandrmodule.cpp:174 krandrtray.cpp:149
+#: krandrmodule.cpp:194 krandrtray.cpp:149
+#, qt-format
 msgid "%1 x %2"
 msgstr "%1 x %2"
 
-#: krandrtray.cpp:45
+#: krandrtray.cpp:48
 msgid "Screen resize & rotate"
 msgstr "Zmiana miarë ë òrientacëji ekranu"
 
-#: krandrtray.cpp:69
+#: krandrtray.cpp:67
 msgid "Required X Extension Not Available"
 msgstr "Wëmògóné rozszérzenié X nie je przistãpne"
 
-#: krandrtray.cpp:94
+#: krandrtray.cpp:95
 msgid "Configure Display..."
 msgstr "Kònfigùracëjô ekranu..."
 
@@ -134,23 +126,26 @@ msgstr "Kònfigùracëjô ekranu òsta zmienionô"
 msgid "Screen Size"
 msgstr "Miara ekranu"
 
+#: krandrtray.cpp:163
+#, fuzzy
+msgid "Orientation"
+msgstr "nieznónô òrientacëjô"
+
 #: krandrtray.cpp:181
 msgid "Refresh Rate"
 msgstr "Zamanówszosc òdswiéżaniô"
 
-#: krandrtray.cpp:251
+#: krandrtray.cpp:250
 msgid "Configure Display"
 msgstr "Kònfigùracëjô ekranu"
 
-#: ktimerdialog.cpp:154
-#, c-format
-msgid ""
-"_n: 1 second remaining:\n"
-"%n seconds remaining:"
-msgstr ""
-"Òsta 1 sekùnda:\n"
-"Òstałë %n sekùndë:\n"
-"Òstało %n sekùndów:"
+#: ktimerdialog.cpp:167
+#, qt-format
+msgid "1 second remaining:"
+msgid_plural "%1 seconds remaining:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: main.cpp:32
 msgid "Application is being auto-started at KDE session start"
@@ -172,29 +167,31 @@ msgstr "Òpiekùn"
 msgid "Many fixes"
 msgstr "Wiele pòprawków"
 
-#: randr.cpp:159
+#: randr.cpp:162
 msgid "Confirm Display Setting Change"
 msgstr "Pòcwierdzë zmianã nastôwów ekranu"
 
-#: randr.cpp:163
+#: randr.cpp:166
 msgid "&Accept Configuration"
 msgstr "&Akceptëjë kònfigùracëjã"
 
-#: randr.cpp:164
+#: randr.cpp:167
 msgid "&Return to Previous Configuration"
 msgstr "&Wrócë do pòprzédny kònfigùracëji"
 
-#: randr.cpp:166
+#: randr.cpp:169
 msgid ""
 "Your screen orientation, size and refresh rate have been changed to the "
 "requested settings. Please indicate whether you wish to keep this "
-"configuration. In 15 seconds the display will revert to your previous settings."
+"configuration. In 15 seconds the display will revert to your previous "
+"settings."
 msgstr ""
-"Òrientacëjô, miara ë zamanówszosc òdswiéżania ekranu òstałe zmienioné na żądóny "
-"nastôwë. Proszã wskôzac czë zachówac aktualną kònfigùracëjã. Za 15 sekùndów "
-"ekran pòwrócë do pòprzédnëch nastôwów."
+"Òrientacëjô, miara ë zamanówszosc òdswiéżania ekranu òstałe zmienioné na "
+"żądóny nastôwë. Proszã wskôzac czë zachówac aktualną kònfigùracëjã. Za 15 "
+"sekùndów ekran pòwrócë do pòprzédnëch nastôwów."
 
-#: randr.cpp:197
+#: randr.cpp:199
+#, qt-format
 msgid ""
 "New configuration:\n"
 "Resolution: %1 x %2\n"
@@ -204,7 +201,8 @@ msgstr ""
 "Rozdzelnosc: %1 x %2\n"
 "Òrientacëjô: %3"
 
-#: randr.cpp:202
+#: randr.cpp:204
+#, qt-format
 msgid ""
 "New configuration:\n"
 "Resolution: %1 x %2\n"
@@ -215,76 +213,114 @@ msgstr ""
 "Rozdzelnosc: %1 x %2\n"
 "Òrientacëjô: %3 Zamanówszosc òdswiéżaniô: %4"
 
-#: randr.cpp:231 randr.cpp:248
+#: randr.cpp:233 randr.cpp:250
 msgid "Normal"
 msgstr "Zwëkòwô"
 
-#: randr.cpp:233
+#: randr.cpp:235
 msgid "Left (90 degrees)"
 msgstr "Lewô (90 gradów)"
 
-#: randr.cpp:235
+#: randr.cpp:237
 msgid "Upside-down (180 degrees)"
 msgstr "Òdwróconô (180 gradów)"
 
-#: randr.cpp:237
+#: randr.cpp:239
 msgid "Right (270 degrees)"
 msgstr "Prawô (270 gradów)"
 
-#: randr.cpp:239
+#: randr.cpp:241
 msgid "Mirror horizontally"
 msgstr "Hòrizontalné òdbicié"
 
-#: randr.cpp:241
+#: randr.cpp:243
 msgid "Mirror vertically"
 msgstr "Wertikalné òdbicié"
 
-#: randr.cpp:243 randr.cpp:274
+#: randr.cpp:245 randr.cpp:276
 msgid "Unknown orientation"
 msgstr "Nieznónô òrientacëjô"
 
-#: randr.cpp:250
+#: randr.cpp:252
 msgid "Rotated 90 degrees counterclockwise"
 msgstr "Òbróconô ò 90 gradów procëmno do rësznotë wskôzów zédżera"
 
-#: randr.cpp:252
+#: randr.cpp:254
 msgid "Rotated 180 degrees counterclockwise"
 msgstr "Òbróconô ò 180 gradów procëmno do rësznotë wskôzów zédżera"
 
-#: randr.cpp:254
+#: randr.cpp:256
 msgid "Rotated 270 degrees counterclockwise"
 msgstr "Òbróconô ò 270 gradów procëmno do rësznotë wskôzów zédżera"
 
-#: randr.cpp:259
+#: randr.cpp:261
 msgid "Mirrored horizontally and vertically"
 msgstr "Òdbitô hòrizontalno ë wertikalno"
 
-#: randr.cpp:261
+#: randr.cpp:263
 msgid "mirrored horizontally and vertically"
 msgstr "òdbitô hòrizontalno ë wertikalno"
 
-#: randr.cpp:264
+#: randr.cpp:266
 msgid "Mirrored horizontally"
 msgstr "Òdbitô hòrizontalno"
 
-#: randr.cpp:266
+#: randr.cpp:268
 msgid "mirrored horizontally"
 msgstr "òdbitô hòrizontalno"
 
-#: randr.cpp:269
+#: randr.cpp:271
 msgid "Mirrored vertically"
 msgstr "Òdbitô wertikalno"
 
-#: randr.cpp:271
+#: randr.cpp:273
 msgid "mirrored vertically"
 msgstr "òdbitô wertikalno"
 
-#: randr.cpp:276
+#: randr.cpp:278
 msgid "unknown orientation"
 msgstr "nieznónô òrientacëjô"
 
-#: randr.cpp:400 randr.cpp:405
-msgid ""
-"_: Refresh rate in Hertz (Hz)\n"
-"%1 Hz"
-msgstr "%1 Hz"
+#: randr.cpp:402 randr.cpp:407
+#, qt-format
+msgctxt "Refresh rate in Hertz (Hz)"
+msgid "%1 Hz"
+msgstr ""
+
+#: randr.cpp:570
+#, fuzzy, c-format, qt-format
+msgid "X Resize and Rotate extension version %1.%2"
+msgstr "Aplet systemòwégò zabiérnika zmianë miarë ë òrientacëji"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#~ msgid ""
+#~ "_: NAME OF TRANSLATORS\n"
+#~ "Your names"
+#~ msgstr "Michôł Òstrowsczi"
+
+#~ msgid ""
+#~ "_: EMAIL OF TRANSLATORS\n"
+#~ "Your emails"
+#~ msgstr "michol@linuxcsb.org"
+
+#~ msgid ""
+#~ "_n: 1 second remaining:\n"
+#~ "%n seconds remaining:"
+#~ msgstr ""
+#~ "Òsta 1 sekùnda:\n"
+#~ "Òstałë %n sekùndë:\n"
+#~ "Òstało %n sekùndów:"
+
+#~ msgid ""
+#~ "_: Refresh rate in Hertz (Hz)\n"
+#~ "%1 Hz"
+#~ msgstr "%1 Hz"

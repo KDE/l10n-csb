@@ -4,7 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmenuedit\n"
-"POT-Creation-Date: 2005-05-18 21:24+0200\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-03-03 08:19+0100\n"
 "PO-Revision-Date: 2006-11-23 16:39+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -12,28 +13,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%"
+"100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: _translatorinfo.cpp:1
-msgid ""
-"_: NAME OF TRANSLATORS\n"
-"Your names"
-msgstr "Michôł Òstrowsczi"
-
-#: _translatorinfo.cpp:3
-msgid ""
-"_: EMAIL OF TRANSLATORS\n"
-"Your emails"
-msgstr "michol@linuxcsb.org"
-
-#: basictab.cpp:78
+#: basictab.cpp:82
 msgid ""
 "Following the command, you can have several place holders which will be "
 "replaced with the actual values when the actual program is run:\n"
 "%f - a single file name\n"
-"%F - a list of files; use for applications that can open several local files at "
-"once\n"
+"%F - a list of files; use for applications that can open several local files "
+"at once\n"
 "%u - a single URL\n"
 "%U - a list of URLs\n"
 "%d - the folder of the file to open\n"
@@ -55,63 +44,65 @@ msgstr ""
 "%m - mała ikòna\n"
 "%c - nagłówk"
 
-#: basictab.cpp:90
+#: basictab.cpp:94
 msgid "Enable &launch feedback"
 msgstr "&Włączë òdkôzanié ò zrëszanim"
 
-#: basictab.cpp:91
+#: basictab.cpp:95
 msgid "&Place in system tray"
 msgstr "&Pòkażë w systemòwim zabiérnikù"
 
-#: basictab.cpp:94
+#: basictab.cpp:98
 msgid "&Name:"
 msgstr "&Miono:"
 
-#: basictab.cpp:95
+#: basictab.cpp:100
 msgid "&Description:"
 msgstr "Ò&pisënk:"
 
-#: basictab.cpp:96
+#: basictab.cpp:102
 msgid "&Comment:"
 msgstr "&Dopòwiesc:"
 
-#: basictab.cpp:97
+#: basictab.cpp:104
 msgid "Co&mmand:"
 msgstr "&Pòlét:"
 
-#: basictab.cpp:143
+#: basictab.cpp:154
 msgid "&Work path:"
 msgstr "&Robòczy katalog:"
 
-#: basictab.cpp:161
+#: basictab.cpp:174
 msgid "Run in term&inal"
 msgstr "Zrëszë w &terminalu"
 
-#: basictab.cpp:167
+#: basictab.cpp:182
 msgid "Terminal &options:"
 msgstr "Òp&tacëje terminala:"
 
-#: basictab.cpp:184
+#: basictab.cpp:202
 msgid "&Run as a different user"
 msgstr "&Zrëszë jakò jiny brëkòwnik"
 
-#: basictab.cpp:190
+#: basictab.cpp:210
 msgid "&Username:"
 msgstr "&Miono brëkòwnika:"
 
-#: basictab.cpp:221
+#: basictab.cpp:243
 msgid "Current shortcut &key:"
 msgstr "&Klawiszowô skrodzëna:"
 
-#: basictab.cpp:485
+#: basictab.cpp:510
+#, qt-format
 msgid ""
 "<qt>The key <b>%1</b> can not be used here because it is already used to "
 "activate <b>%2</b>."
 msgstr ""
-"<qt>Klawisza <b>%1</b> je ju zwëskónô do zrëszaniô programë <b>%2</b> "
-"ë nie mòże bëc ju wicy brëkòwónô."
+"<qt>Klawisza <b>%1</b> je ju zwëskónô do zrëszaniô programë <b>%2</b> ë nie "
+"mòże bëc ju wicy brëkòwónô."
 
-#: basictab.cpp:490
+#: basictab.cpp:515
+#, qt-format
 msgid ""
 "<qt>The key <b>%1</b> can not be used here because it is already in use."
 msgstr ""
@@ -137,19 +128,23 @@ msgstr "Pòprzédny òpiekùn"
 msgid "Original Author"
 msgstr "Apartny ùsôdzca"
 
-#: kmenuedit.cpp:65
+#: kmenuedit.cpp:68
 msgid "&New Submenu..."
 msgstr "&Nowé pòdmenu..."
 
-#: kmenuedit.cpp:66
+#: kmenuedit.cpp:71
 msgid "New &Item..."
 msgstr "Nowi &element..."
 
-#: kmenuedit.cpp:68
+#: kmenuedit.cpp:77
 msgid "New S&eparator"
 msgstr "Nowi &separator"
 
-#: kmenuedit.cpp:153
+#: kmenuedit.cpp:145
+msgid "&Delete"
+msgstr ""
+
+#: kmenuedit.cpp:172
 msgid ""
 "You have made changes to the Control Center.\n"
 "Do you want to save the changes or discard them?"
@@ -157,11 +152,11 @@ msgstr ""
 "Môsz wprowadzóné zmianë do Centróm Kòntrolë.\n"
 "Zapisac zmianë, czë je òprzestac?"
 
-#: kmenuedit.cpp:155
+#: kmenuedit.cpp:174
 msgid "Save Control Center Changes?"
 msgstr "Zapisac zmianë w Centróm kòntrolë?"
 
-#: kmenuedit.cpp:161
+#: kmenuedit.cpp:180
 msgid ""
 "You have made changes to the menu.\n"
 "Do you want to save the changes or discard them?"
@@ -169,7 +164,7 @@ msgstr ""
 "Môsz wprowadzóné zmianë do menu.\n"
 "Zapisac zmianë, czë je òprzestac?"
 
-#: kmenuedit.cpp:163
+#: kmenuedit.cpp:182
 msgid "Save Menu Changes?"
 msgstr "Zapisac zmianë w menu?"
 
@@ -190,30 +185,77 @@ msgid "KDE Menu Editor"
 msgstr "Editora menu KDE"
 
 #: menufile.cpp:100 menufile.cpp:113
-#, c-format
+#, qt-format
 msgid "Could not write to %1"
 msgstr "Nie je mòżno zapisac do %1"
 
-#: treeview.cpp:89
+#. i18n: tag text
+#. i18n: file kcontroleditui.rc line 6
+#. i18n: tag text
+#. i18n: file kmenueditui.rc line 6
+#: rc.cpp:4 rc.cpp:16
+#, no-c-format
+msgid "&File"
+msgstr ""
+
+#. i18n: tag text
+#. i18n: file kcontroleditui.rc line 15
+#. i18n: tag text
+#. i18n: file kmenueditui.rc line 16
+#: rc.cpp:8 rc.cpp:20
+#, no-c-format
+msgid "&Edit"
+msgstr ""
+
+#. i18n: tag text
+#. i18n: file kcontroleditui.rc line 29
+#. i18n: tag text
+#. i18n: file kmenueditui.rc line 30
+#: rc.cpp:12 rc.cpp:24
+#, no-c-format
+msgid "Main Toolbar"
+msgstr ""
+
+#: rc.cpp:25
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: rc.cpp:26
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: treeview.cpp:96
 msgid " [Hidden]"
 msgstr " [Zatacôné]"
 
-#: treeview.cpp:994
+#: treeview.cpp:996
 msgid "New Submenu"
 msgstr "Nowé pòdmenu"
 
-#: treeview.cpp:995
+#: treeview.cpp:997
 msgid "Submenu name:"
 msgstr "Miono pòdmenu:"
 
-#: treeview.cpp:1065
+#: treeview.cpp:1068
 msgid "New Item"
 msgstr "Nowi element"
 
-#: treeview.cpp:1066
+#: treeview.cpp:1069
 msgid "Item name:"
 msgstr "Miono elementu:"
 
-#: treeview.cpp:1546
+#: treeview.cpp:1550
 msgid "Menu changes could not be saved because of the following problem:"
 msgstr "Zmianë w menu nie mògłe òstac zapisóné przez felã:"
+
+#~ msgid ""
+#~ "_: NAME OF TRANSLATORS\n"
+#~ "Your names"
+#~ msgstr "Michôł Òstrowsczi"
+
+#~ msgid ""
+#~ "_: EMAIL OF TRANSLATORS\n"
+#~ "Your emails"
+#~ msgstr "michol@linuxcsb.org"

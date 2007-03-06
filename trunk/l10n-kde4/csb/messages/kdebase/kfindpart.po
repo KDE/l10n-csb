@@ -3,7 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
-"POT-Creation-Date: 2006-10-10 02:32+0200\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-02-20 08:25+0100\n"
 "PO-Revision-Date: 2007-02-18 17:52+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -11,64 +12,46 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || "
-"n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 
-#: _translatorinfo.cpp:1
-msgid ""
-"_: NAME OF TRANSLATORS\n"
-"Your names"
-msgstr "Michôł Òstrowsczi"
-
-#: _translatorinfo.cpp:3
-msgid ""
-"_: EMAIL OF TRANSLATORS\n"
-"Your emails"
-msgstr "michol@linuxcsb.org"
-
-#: kfind.cpp:72 kfinddlg.cpp:40
-msgid "&Find"
-msgstr "&Nalezë"
-
-#: kfinddlg.cpp:33
+#: kfinddlg.cpp:37
 msgid "Find Files/Folders"
 msgstr "Nalezë lopczi/katalodżi"
 
-#: kfinddlg.cpp:54
+#: kfinddlg.cpp:57
 msgid "AMiddleLengthText..."
 msgstr "AMiddleLengthText..."
 
-#: kfinddlg.cpp:55 kfinddlg.cpp:177
+#: kfinddlg.cpp:58 kfinddlg.cpp:179
 msgid "Ready."
 msgstr "Parôt."
 
-#: kfinddlg.cpp:112 kfinddlg.cpp:217
-#, c-format
-msgid ""
-"_n: one file found\n"
-"%n files found"
-msgstr ""
-"je nalazłé jeden lopk\n"
-"są nalazłé %n lopczi\n"
-"je nalazłëch %n lopków"
+#: kfinddlg.cpp:114 kfinddlg.cpp:219
+#, fuzzy, qt-format
+msgid "one file found"
+msgid_plural "%1 files found"
+msgstr[0] "Brëkùjë &indeksu lopków"
+msgstr[1] "Brëkùjë &indeksu lopków"
+msgstr[2] "Brëkùjë &indeksu lopków"
 
-#: kfinddlg.cpp:152
+#: kfinddlg.cpp:154
 msgid "Searching..."
 msgstr "Szëkba..."
 
-#: kfinddlg.cpp:179
+#: kfinddlg.cpp:181
 msgid "Aborted."
 msgstr "Òprzestónié."
 
-#: kfinddlg.cpp:182 kfinddlg.cpp:187 kfinddlg.cpp:193
+#: kfinddlg.cpp:184 kfinddlg.cpp:189 kfinddlg.cpp:195
 msgid "Error."
 msgstr "Fela."
 
-#: kfinddlg.cpp:183
+#: kfinddlg.cpp:185
 msgid "Please specify an absolute path in the \"Look in\" box."
 msgstr "Proszã pòdac bezògôdkòwą stegnã w pòlu \"Szëkôj w\"."
 
-#: kfinddlg.cpp:188
+#: kfinddlg.cpp:190
 msgid "Could not find the specified folder."
 msgstr "Nie mòże nalezc pòdónégò katalogù."
 
@@ -76,7 +59,7 @@ msgstr "Nie mòże nalezc pòdónégò katalogù."
 msgid "Find Component"
 msgstr "Kòmpònent szëkbë"
 
-#: kftabdlg.cpp:64
+#: kftabdlg.cpp:62
 msgid "&Named:"
 msgstr "&Miono:"
 
@@ -84,181 +67,170 @@ msgstr "&Miono:"
 msgid "You can use wildcard matching and \";\" for separating multiple names"
 msgstr "Mòże brëkòwac masków a téż \";\" dlô òddzéleniô wielu mionów"
 
-#: kftabdlg.cpp:68
+#: kftabdlg.cpp:69
 msgid "Look &in:"
 msgstr "&Szëkôj w:"
 
-#: kftabdlg.cpp:69
+#: kftabdlg.cpp:72
 msgid "Include &subfolders"
 msgstr "Przeszëkùj &pòdkatalodżi"
 
-#: kftabdlg.cpp:70
+#: kftabdlg.cpp:73
 msgid "Case s&ensitive search"
 msgstr "&Zdrzë na wielgòsc céchów"
 
-#: kftabdlg.cpp:71
+#: kftabdlg.cpp:74
 msgid "&Browse..."
 msgstr "&Przezérôj..."
 
-#: kftabdlg.cpp:72
+#: kftabdlg.cpp:75
 msgid "&Use files index"
 msgstr "Brëkùjë &indeksu lopków"
 
-#: kftabdlg.cpp:90
+#: kftabdlg.cpp:93
 msgid ""
-"<qt>Enter the filename you are looking for. "
-"<br>Alternatives may be separated by a semicolon \";\"."
-"<br>"
-"<br>The filename may contain the following special characters:"
-"<ul>"
-"<li><b>?</b> matches any single character</li>"
-"<li><b>*</b> matches zero or more of any characters</li>"
-"<li><b>[...]</b> matches any of the characters in braces</li></ul>"
-"<br>Example searches:"
-"<ul>"
-"<li><b>*.kwd;*.txt</b> finds all files ending with .kwd or .txt</li>"
-"<li><b>go[dt]</b> finds god and got</li>"
-"<li><b>Hel?o</b> finds all files that start with \"Hel\" and end with \"o\", "
-"having one character in between</li>"
-"<li><b>My Document.kwd</b> finds a file of exactly that name</li></ul></qt>"
+"<qt>Enter the filename you are looking for. <br>Alternatives may be "
+"separated by a semicolon \";\".<br><br>The filename may contain the "
+"following special characters:<ul><li><b>?</b> matches any single character</"
+"li><li><b>*</b> matches zero or more of any characters</li><li><b>[...]</b> "
+"matches any of the characters in braces</li></ul><br>Example searches:"
+"<ul><li><b>*.kwd;*.txt</b> finds all files ending with .kwd or .txt</"
+"li><li><b>go[dt]</b> finds god and got</li><li><b>Hel?o</b> finds all files "
+"that start with \"Hel\" and end with \"o\", having one character in between</"
+"li><li><b>My Document.kwd</b> finds a file of exactly that name</li></ul></"
+"qt>"
 msgstr ""
-"<qt>Proszã pòdac miono szëkónégò lopkù."
-"<br>Alternatiwne miona nót je rozdzélëc sprzeczidnikã \";\"."
-"<br>"
-"<br>Miono lopkù mòże miec zôstné specjalné céchë:"
-"<ul>"
-"<li><b>?</b>równo jaczi céch</li>"
-"<li><b>*</b>równo jaczi cąg céchów</li>"
-"<li><b>[...]</b>równo jaczi céch zamkłi w kwadratowëch klamrach</li></ul>"
-"<br>Przëmiôrë:"
-"<ul>"
-"<li><b>*.kwd;*.txt</b> szëkô wszëtczé lopczi, co kùńczą sã na .kwd abò .txt</li>"
-"<li><b>[st]wój</b> szëkô lopków \"swój\" ë \"twój\"</li>"
-"<li><b>Dok?ment</b> szëkô lopczi, chtërnëch miono naczinô sã na \"Dok\" a "
-"kùńczë \"ment\", a westrzódkù mô dokładno jeden równo jaczi céch.</li>"
-"<li><b>Mój.kwd</b> szëkô lopkù ò dokładno taczim mionie</li></ul></qt>"
+"<qt>Proszã pòdac miono szëkónégò lopkù.<br>Alternatiwne miona nót je "
+"rozdzélëc sprzeczidnikã \";\".<br><br>Miono lopkù mòże miec zôstné specjalné "
+"céchë:<ul><li><b>?</b>równo jaczi céch</li><li><b>*</b>równo jaczi cąg "
+"céchów</li><li><b>[...]</b>równo jaczi céch zamkłi w kwadratowëch klamrach</"
+"li></ul><br>Przëmiôrë:<ul><li><b>*.kwd;*.txt</b> szëkô wszëtczé lopczi, co "
+"kùńczą sã na .kwd abò .txt</li><li><b>[st]wój</b> szëkô lopków \"swój\" ë "
+"\"twój\"</li><li><b>Dok?ment</b> szëkô lopczi, chtërnëch miono naczinô sã na "
+"\"Dok\" a kùńczë \"ment\", a westrzódkù mô dokładno jeden równo jaczi céch.</"
+"li><li><b>Mój.kwd</b> szëkô lopkù ò dokładno taczim mionie</li></ul></qt>"
 
-#: kftabdlg.cpp:111
+#: kftabdlg.cpp:114
 msgid ""
-"<qt>This lets you use the files' index created by the <i>slocate</i> "
-"package to speed-up the search; remember to update the index from time to time "
+"<qt>This lets you use the files' index created by the <i>slocate</i> package "
+"to speed-up the search; remember to update the index from time to time "
 "(using <i>updatedb</i>).</qt>"
 msgstr ""
-"<qt>Ta òptacëjô pòzwôlô przeszëkac indeks lopków robiony przez programã <i>"
-"slocate</i>. Pòzwôlô to przërëchlëc szëkbã, leno indeks mùszi bëc aktualizowóny "
-"co sztërk (pòlétã <i>updatedb</i>).</qt>"
+"<qt>Ta òptacëjô pòzwôlô przeszëkac indeks lopków robiony przez programã "
+"<i>slocate</i>. Pòzwôlô to przërëchlëc szëkbã, leno indeks mùszi bëc "
+"aktualizowóny co sztërk (pòlétã <i>updatedb</i>).</qt>"
 
-#: kftabdlg.cpp:147
+#: kftabdlg.cpp:151
 msgid "Find all files created or &modified:"
 msgstr "Nalezë lopczi ùsôdzoné abò &mòdifikòwóné:"
 
-#: kftabdlg.cpp:149
+#: kftabdlg.cpp:153
 msgid "&between"
 msgstr "&midze"
 
-#: kftabdlg.cpp:150
+#: kftabdlg.cpp:154
 msgid "&during the previous"
 msgstr "&w cządze slédnëch"
 
-#: kftabdlg.cpp:151
+#: kftabdlg.cpp:155
 msgid "and"
 msgstr "a"
 
-#: kftabdlg.cpp:153
+#: kftabdlg.cpp:160
 msgid "minute(s)"
 msgstr "min."
 
-#: kftabdlg.cpp:154
+#: kftabdlg.cpp:161
 msgid "hour(s)"
 msgstr "gòdz."
 
-#: kftabdlg.cpp:155
+#: kftabdlg.cpp:162
 msgid "day(s)"
 msgstr "dni"
 
-#: kftabdlg.cpp:156
+#: kftabdlg.cpp:163
 msgid "month(s)"
 msgstr "miesãcy"
 
-#: kftabdlg.cpp:157
+#: kftabdlg.cpp:164
 msgid "year(s)"
 msgstr "lat"
 
-#: kftabdlg.cpp:168
+#: kftabdlg.cpp:182
 msgid "File &size is:"
 msgstr "&Miara lopkù:"
 
-#: kftabdlg.cpp:174
+#: kftabdlg.cpp:196
 msgid "Files owned by &user:"
 msgstr "Przenôlégô do &brëkòwnika:"
 
-#: kftabdlg.cpp:176
+#: kftabdlg.cpp:201
 msgid "Owned by &group:"
 msgstr "Przenôlégô do &grëpë:"
 
-#: kftabdlg.cpp:178
+#: kftabdlg.cpp:204
 msgid "(none)"
 msgstr "(felëje)"
 
-#: kftabdlg.cpp:179
+#: kftabdlg.cpp:205
 msgid "At Least"
 msgstr "przenômni"
 
-#: kftabdlg.cpp:180
+#: kftabdlg.cpp:206
 msgid "At Most"
 msgstr "co nôwicy"
 
-#: kftabdlg.cpp:181
+#: kftabdlg.cpp:207
 msgid "Equal To"
 msgstr "równy"
 
-#: kftabdlg.cpp:183
+#: kftabdlg.cpp:209
 msgid "Bytes"
 msgstr "bajtów"
 
-#: kftabdlg.cpp:184
+#: kftabdlg.cpp:210
 msgid "KB"
 msgstr "KB"
 
-#: kftabdlg.cpp:185
+#: kftabdlg.cpp:211
 msgid "MB"
 msgstr "MB"
 
-#: kftabdlg.cpp:186
+#: kftabdlg.cpp:212
 msgid "GB"
 msgstr "GB"
 
-#: kftabdlg.cpp:249
+#: kftabdlg.cpp:278
 msgid "File &type:"
 msgstr "Ôr&t lopkù:"
 
-#: kftabdlg.cpp:251
+#: kftabdlg.cpp:282
 msgid "C&ontaining text:"
 msgstr "&Zamëkający tekst:"
 
-#: kftabdlg.cpp:256
+#: kftabdlg.cpp:288
 msgid ""
 "<qt>If specified, only files that contain this text are found. Note that not "
 "all file types from the list above are supported. Please refer to the "
 "documentation for a list of supported file types.</qt>"
 msgstr ""
 "<qt>Eżlë pòdóny je tuwò jaczis tekst, nalazłé òstaną blós lopczi, jaczé "
-"zamëkają gò w se. Nie wszëtczé lopczi z lëstë wëżi mòże przeszëkac na nen ôrt. "
-"Lëstã òbsłëgiwónëch lopków jidze nalezc w dokùmentacëji.</qt>"
+"zamëkają gò w se. Nie wszëtczé lopczi z lëstë wëżi mòże przeszëkac na nen "
+"ôrt. Lëstã òbsłëgiwónëch lopków jidze nalezc w dokùmentacëji.</qt>"
 
-#: kftabdlg.cpp:264
+#: kftabdlg.cpp:296
 msgid "Case s&ensitive"
 msgstr "Zdrzë na wielgòsc &lëterów"
 
-#: kftabdlg.cpp:265
+#: kftabdlg.cpp:297
 msgid "Include &binary files"
 msgstr "Téż &binarné lopczi"
 
-#: kftabdlg.cpp:266
+#: kftabdlg.cpp:298
 msgid "Regular e&xpression"
 msgstr "&Regùlarny wësłów"
 
-#: kftabdlg.cpp:269
+#: kftabdlg.cpp:301
 msgid ""
 "<qt>This lets you search in any type of file, even those that usually do not "
 "contain text (for example program files and images).</qt>"
@@ -266,243 +238,297 @@ msgstr ""
 "<qt> Ta òptacëjô pòzwôlô przeszëkiwac równo jaczi lopczi, téż te, co zwëkòwò "
 "nie mają tekstu (np. programë ë òbrôzczi).</qt>"
 
-#: kftabdlg.cpp:277
+#: kftabdlg.cpp:309
 msgid "&Edit..."
 msgstr "&Editëjë..."
 
-#: kftabdlg.cpp:282
+#: kftabdlg.cpp:315
 msgid "fo&r:"
 msgstr "&dlô:"
 
-#: kftabdlg.cpp:283
+#: kftabdlg.cpp:317
 msgid "Search &metainfo sections:"
 msgstr "Przeszëkôj na&główk lopkù:"
 
-#: kftabdlg.cpp:286
+#: kftabdlg.cpp:321
 msgid "All Files & Folders"
 msgstr "Wszëtczé lopczi ë katalodżi"
 
-#: kftabdlg.cpp:288
+#: kftabdlg.cpp:322
+#, fuzzy
+msgid "Files"
+msgstr "Katalodżi"
+
+#: kftabdlg.cpp:323
 msgid "Folders"
 msgstr "Katalodżi"
 
-#: kftabdlg.cpp:289
+#: kftabdlg.cpp:324
 msgid "Symbolic Links"
 msgstr "Symbòlné lopczi"
 
-#: kftabdlg.cpp:290
+#: kftabdlg.cpp:325
 msgid "Special Files (Sockets, Device Files, ...)"
 msgstr "Specjalné lopczi (gniôzda, ùrzãdzenia, ...)"
 
-#: kftabdlg.cpp:291
+#: kftabdlg.cpp:326
 msgid "Executable Files"
 msgstr "Zrëszeniowé lopczi"
 
-#: kftabdlg.cpp:292
+#: kftabdlg.cpp:327
 msgid "SUID Executable Files"
 msgstr "Zrëszeniowé lopczi SUID"
 
-#: kftabdlg.cpp:293
+#: kftabdlg.cpp:328
 msgid "All Images"
 msgstr "Wszëtczé òbrôzczi"
 
-#: kftabdlg.cpp:294
+#: kftabdlg.cpp:329
 msgid "All Video"
 msgstr "Wszëtczé filmë"
 
-#: kftabdlg.cpp:295
+#: kftabdlg.cpp:330
 msgid "All Sounds"
 msgstr "Wszëtczé zwãczi"
 
-#: kftabdlg.cpp:343
+#: kftabdlg.cpp:378
 msgid "Name/&Location"
 msgstr "&Miono/katalog"
 
-#: kftabdlg.cpp:344
+#: kftabdlg.cpp:379
 msgid "C&ontents"
 msgstr "&Zamkłosc"
 
-#: kftabdlg.cpp:345
+#: kftabdlg.cpp:380
 msgid "&Properties"
 msgstr "&Swòjizna"
 
-#: kftabdlg.cpp:350
+#: kftabdlg.cpp:385
 msgid ""
-"<qt>Search within files' specific comments/metainfo"
-"<br>These are some examples:"
-"<br>"
-"<ul>"
-"<li><b>Audio files (mp3...)</b> Search in id3 tag for a title, an album</li>"
-"<li><b>Images (png...)</b> Search images with a special resolution, "
-"comment...</li></ul></qt>"
+"<qt>Search within files' specific comments/metainfo<br>These are some "
+"examples:<br><ul><li><b>Audio files (mp3...)</b> Search in id3 tag for a "
+"title, an album</li><li><b>Images (png...)</b> Search images with a special "
+"resolution, comment...</li></ul></qt>"
 msgstr ""
 "<qt>Przeszëkùje dodôwné wëdowiédzë zamkłé w nagłówkach niechtërnëch lopków, "
-"np.:"
-"<ul>"
-"<li><b>Lopczi aùdio (np. mp3):</b> zamëkają w se wëdowiédzã m. jin. ò albumie ë "
-"titlu.</li>"
-"<li><b>Òbrôzczi (np. png):</b> zamëkają w se wëdowiédzã m .jin. ò rozdzélnoce ë "
-"dopòwiescach.</li></ul></qt>"
+"np.:<ul><li><b>Lopczi aùdio (np. mp3):</b> zamëkają w se wëdowiédzã m. jin. "
+"ò albumie ë titlu.</li><li><b>Òbrôzczi (np. png):</b> zamëkają w se "
+"wëdowiédzã m .jin. ò rozdzélnoce ë dopòwiescach.</li></ul></qt>"
 
-#: kftabdlg.cpp:358
+#: kftabdlg.cpp:393
 msgid ""
-"<qt>If specified, search only in this field"
-"<br>"
-"<ul>"
-"<li><b>Audio files (mp3...)</b> This can be Title, Album...</li>"
-"<li><b>Images (png...)</b> Search only in Resolution, Bitdepth...</li></ul></qt>"
+"<qt>If specified, search only in this field<br><ul><li><b>Audio files "
+"(mp3...)</b> This can be Title, Album...</li><li><b>Images (png...)</b> "
+"Search only in Resolution, Bitdepth...</li></ul></qt>"
 msgstr ""
-"<qt>Mòże tuwò wëbrac przeszëkiwóne pòle nagłówka, np."
-"<ul>"
-"<li><b>Lopczi aùdio (np. mp3):</b> titel, albùm ëtd.</li>"
-"<li><b>Òbrôzczi (np. png):</b>rozdziélnota, głãbiô farwów ëtd.</li></ul></qt>"
+"<qt>Mòże tuwò wëbrac przeszëkiwóne pòle nagłówka, np.<ul><li><b>Lopczi aùdio "
+"(np. mp3):</b> titel, albùm ëtd.</li><li><b>Òbrôzczi (np. png):</"
+"b>rozdziélnota, głãbiô farwów ëtd.</li></ul></qt>"
 
-#: kftabdlg.cpp:552
+#: kftabdlg.cpp:580
 msgid "Unable to search within a period which is less than a minute."
 msgstr "Cząd mòdifikacëji mùszi bëc wikszi jakno minuta."
 
-#: kftabdlg.cpp:563
+#: kftabdlg.cpp:591
 msgid "The date is not valid."
 msgstr "Datum je niepòprôwné."
 
-#: kftabdlg.cpp:565
+#: kftabdlg.cpp:593
 msgid "Invalid date range."
 msgstr "Òbrëmienié datumów je niepòprówné."
 
-#: kftabdlg.cpp:567
+#: kftabdlg.cpp:595
 msgid "Unable to search dates in the future."
 msgstr "Nie mòże szëkac datum z przińdnotë."
 
-#: kftabdlg.cpp:628
+#: kftabdlg.cpp:657
 msgid "Size is too big. Set maximum size value?"
 msgstr "Miara je za wiôlgô. Ùstawic maksymalną wôrtosc?"
 
-#: kftabdlg.cpp:628
+#: kftabdlg.cpp:657
+#, fuzzy
+msgid "Error"
+msgstr "Fela."
+
+#: kftabdlg.cpp:657
 msgid "Set"
 msgstr "Ùstôwi"
 
-#: kftabdlg.cpp:628
+#: kftabdlg.cpp:657
 msgid "Do Not Set"
 msgstr "Nie ùstawiôj"
 
-#: kfwin.cpp:49
+#: kfwin.cpp:51
 msgid "Read-write"
 msgstr "Òdczët-zapisënk"
 
-#: kfwin.cpp:50
+#: kfwin.cpp:52
 msgid "Read-only"
 msgstr "Blós òdczët"
 
-#: kfwin.cpp:51
+#: kfwin.cpp:53
 msgid "Write-only"
 msgstr "Blós zapisënk"
 
-#: kfwin.cpp:52
+#: kfwin.cpp:54
 msgid "Inaccessible"
 msgstr "Nieprzistãpny"
 
-#: kfwin.cpp:115
+#: kfwin.cpp:117
 msgid "Name"
 msgstr "Miono"
 
-#: kfwin.cpp:116
+#: kfwin.cpp:118
 msgid "In Subfolder"
 msgstr "W pòdkatalogu"
 
-#: kfwin.cpp:117
+#: kfwin.cpp:119
 msgid "Size"
 msgstr "Miara"
 
-#: kfwin.cpp:119
+#: kfwin.cpp:121
 msgid "Modified"
 msgstr "Zmòdifikòwóny"
 
-#: kfwin.cpp:121
+#: kfwin.cpp:123
 msgid "Permissions"
 msgstr "Prawa przistãpù"
 
-#: kfwin.cpp:124
+#: kfwin.cpp:126
 msgid "First Matching Line"
 msgstr "Pierszô słëchającô réza"
 
-#: kfwin.cpp:194
+#: kfwin.cpp:195
 msgid "Save Results As"
 msgstr "Zapiszë wińdzenié jakno"
 
-#: kfwin.cpp:219
+#: kfwin.cpp:220
 msgid "Unable to save results."
 msgstr "Nie mòże zapisac rezultatu."
 
-#: kfwin.cpp:230 kfwin.cpp:231 kfwin.cpp:232
+#: kfwin.cpp:231 kfwin.cpp:232 kfwin.cpp:233
 msgid "KFind Results File"
 msgstr "Lopk szëkbë KFind"
 
-#: kfwin.cpp:259
-msgid ""
-"Results were saved to file\n"
-msgstr ""
-"Rezultat òstôł zapisóny do lopkù\n"
+#: kfwin.cpp:260
+msgid "Results were saved to file\n"
+msgstr "Rezultat òstôł zapisóny do lopkù\n"
 
 #: kfwin.cpp:289
-#, c-format
-msgid ""
-"_n: Do you really want to delete the selected file?\n"
-"Do you really want to delete the %n selected files?"
-msgstr ""
+#, fuzzy, qt-format
+msgid "Do you really want to delete the selected file?"
+msgid_plural "Do you really want to delete the %1 selected files?"
+msgstr[0] ""
+"Na gwës remnąc wëbróny lopk?\n"
+"Na gwës remnąc %n wëbróny lopczi?\n"
+"Na gwës remnąc %n wëbrónëch lopków?"
+msgstr[1] ""
+"Na gwës remnąc wëbróny lopk?\n"
+"Na gwës remnąc %n wëbróny lopczi?\n"
+"Na gwës remnąc %n wëbrónëch lopków?"
+msgstr[2] ""
 "Na gwës remnąc wëbróny lopk?\n"
 "Na gwës remnąc %n wëbróny lopczi?\n"
 "Na gwës remnąc %n wëbrónëch lopków?"
 
-#: kfwin.cpp:412
-msgid ""
-"_: Menu item\n"
-"Open"
-msgstr "Òtemkni"
+#: kfwin.cpp:411
+msgctxt "Menu item"
+msgid "Open"
+msgstr ""
 
-#: kfwin.cpp:413
+#: kfwin.cpp:412
 msgid "Open Folder"
 msgstr "Òtemkni katalog"
 
-#: kfwin.cpp:418
+#: kfwin.cpp:414 kfwin.cpp:424
+msgid "Copy"
+msgstr ""
+
+#: kfwin.cpp:415 kfwin.cpp:425
+msgid "Delete"
+msgstr ""
+
+#: kfwin.cpp:417
 msgid "Open With..."
 msgstr "Òtemkni w..."
 
-#: kfwin.cpp:424
+#: kfwin.cpp:419
+#, fuzzy
+msgid "Properties"
+msgstr "&Swòjizna"
+
+#: kfwin.cpp:423
 msgid "Selected Files"
 msgstr "Wëbróné lopczi"
 
-#: kquery.cpp:478
+#: kquery.cpp:499
 msgid "Error while using locate"
 msgstr "Fela òbczas ùżëcô programë locate"
 
-#: main.cpp:14
+#: main.cpp:12
 msgid "KDE file find utility"
 msgstr "Nôrzãdze do szëkby lopków"
 
-#: main.cpp:18
+#: main.cpp:16
 msgid "Path(s) to search"
 msgstr "Przeszëkiwónié stegnë"
 
-#: main.cpp:25
+#: main.cpp:23
 msgid "KFind"
 msgstr "KFind"
 
-#: main.cpp:27
+#: main.cpp:25
 msgid "(c) 1998-2003, The KDE Developers"
 msgstr "(c) 1998-2003, Ùsôdzcë KDE"
 
-#: main.cpp:29
+#: main.cpp:27
 msgid "Current Maintainer"
 msgstr "Aktualny òpiekùn"
 
-#: main.cpp:30
+#: main.cpp:28
 msgid "Developer"
 msgstr "Programista"
 
-#: main.cpp:31
+#: main.cpp:29
 msgid "UI Design & more search options"
 msgstr "Projekt interfejsu brëkòwnika ë wicy òptacëjów szëkbë"
 
-#: main.cpp:41
+#: main.cpp:39
 msgid "UI Design"
 msgstr "Projekt interfejsu brëkòwnika"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#~ msgid ""
+#~ "_: NAME OF TRANSLATORS\n"
+#~ "Your names"
+#~ msgstr "Michôł Òstrowsczi"
+
+#~ msgid ""
+#~ "_: EMAIL OF TRANSLATORS\n"
+#~ "Your emails"
+#~ msgstr "michol@linuxcsb.org"
+
+#~ msgid "&Find"
+#~ msgstr "&Nalezë"
+
+#~ msgid ""
+#~ "_n: one file found\n"
+#~ "%n files found"
+#~ msgstr ""
+#~ "je nalazłé jeden lopk\n"
+#~ "są nalazłé %n lopczi\n"
+#~ "je nalazłëch %n lopków"
+
+#~ msgid ""
+#~ "_: Menu item\n"
+#~ "Open"
+#~ msgstr "Òtemkni"

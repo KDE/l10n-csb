@@ -4,7 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: htmlsearch\n"
-"POT-Creation-Date: 2005-05-18 21:23+0200\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2006-08-14 19:25+0200\n"
 "PO-Revision-Date: 2007-02-25 00:24+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -15,21 +16,22 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "||n%100>=20) ? 1 : 2);\n"
 
-#: index.cpp:11
+#: index.cpp:12
 msgid "The language to index"
 msgstr "Jãzëk do zindeksowaniô"
 
-#: index.cpp:18
+#: index.cpp:19
 msgid "KHtmlIndex"
 msgstr "KHtmlIndex"
 
-#: index.cpp:20
+#: index.cpp:21
 msgid "KDE Index generator for help files."
 msgstr "Generator indeksa dlô lopków pòmòcë KDE"
 
-#: htmlsearch.cpp:124
+#: htmlsearch.cpp:123
+#, fuzzy
+msgctxt "List of words to exclude from index"
 msgid ""
-"_: List of words to exclude from index\n"
 "above:about:according:across:actually:\n"
 "adj:after:afterwards:again:against:all:\n"
 "almost:alone:along:already:also:although:\n"
@@ -135,35 +137,43 @@ msgstr ""
 "bez:bãdze:robòta:robic:robił:robòtë:robiąc:\n"
 "bëłbë:waji:jesz:të;wë:twój:waji:cebie:wajô"
 
-#: progressdialog.cpp:14
+#: progressdialog.cpp:15
 msgid "Generating Index"
 msgstr "Generowanié indeksa"
 
-#: progressdialog.cpp:19
+#: progressdialog.cpp:24
 msgid "Scanning for files"
 msgstr "Szëkba lopka"
 
-#: progressdialog.cpp:29
+#: progressdialog.cpp:34
 msgid "Extracting search terms"
 msgstr "Wëdzëlenié szëkónëch wësłowiów"
 
-#: progressdialog.cpp:38
+#: progressdialog.cpp:43
 msgid "Generating index..."
 msgstr "Generowanié indeksa..."
 
-#: progressdialog.cpp:52
-#, c-format
+#: progressdialog.cpp:57
+#, qt-format
 msgid "Files processed: %1"
 msgstr "%1 przerobionëch lopków"
 
-#: _translatorinfo.cpp:1
-msgid ""
-"_: NAME OF TRANSLATORS\n"
-"Your names"
-msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
 
-#: _translatorinfo.cpp:3
-msgid ""
-"_: EMAIL OF TRANSLATORS\n"
-"Your emails"
-msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#~ msgid ""
+#~ "_: NAME OF TRANSLATORS\n"
+#~ "Your names"
+#~ msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
+
+#~ msgid ""
+#~ "_: EMAIL OF TRANSLATORS\n"
+#~ "Your emails"
+#~ msgstr "mark@linuxcsb.org, michol@linuxcsb.org"

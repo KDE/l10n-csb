@@ -4,7 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kio_floppy\n"
-"POT-Creation-Date: 2005-09-21 02:57+0200\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-02-09 08:14+0100\n"
 "PO-Revision-Date: 2007-02-18 19:14+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -12,10 +13,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || "
-"n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 
-#: kio_floppy.cpp:200
+#: kio_floppy.cpp:201
+#, qt-format
 msgid ""
 "Could not access drive %1.\n"
 "The drive is still busy.\n"
@@ -25,7 +27,8 @@ msgstr ""
 "Nëk je wcyg zajãtô.\n"
 "Żdôj jaż zakùńczë robòtã ë spróbùjë znowa."
 
-#: kio_floppy.cpp:204 kio_floppy.cpp:1144
+#: kio_floppy.cpp:205 kio_floppy.cpp:1125
+#, qt-format
 msgid ""
 "Could not write to file %1.\n"
 "The disk in drive %2 is probably full."
@@ -33,7 +36,8 @@ msgstr ""
 "Nie mòże pisac do lopkù %1.\n"
 "Disk w nëkù %2 je gwësno fùl."
 
-#: kio_floppy.cpp:214
+#: kio_floppy.cpp:215
+#, qt-format
 msgid ""
 "Could not access %1.\n"
 "There is probably no disk in the drive %2"
@@ -41,16 +45,18 @@ msgstr ""
 "Felëje przistãpù do nëkù %1.\n"
 "Mést nie mô diskù w nëkù %2"
 
-#: kio_floppy.cpp:218
+#: kio_floppy.cpp:219
+#, qt-format
 msgid ""
 "Could not access %1.\n"
-"There is probably no disk in the drive %2 or you do not have enough permissions "
-"to access the drive."
+"There is probably no disk in the drive %2 or you do not have enough "
+"permissions to access the drive."
 msgstr ""
 "Felëje przistãpù do nëkù %1.\n"
 "Mést nie mô diskù w nëkù %2, abò felëjë praw sygającëch przistãpù do nëkù."
 
-#: kio_floppy.cpp:222
+#: kio_floppy.cpp:223
+#, qt-format
 msgid ""
 "Could not access %1.\n"
 "The drive %2 is not supported."
@@ -58,19 +64,21 @@ msgstr ""
 "Felëje przistãpù do nëkù %1.\n"
 "Nëk %2 nie je òbsłëgòwóny."
 
-#: kio_floppy.cpp:227
+#: kio_floppy.cpp:228
+#, qt-format
 msgid ""
 "Could not access %1.\n"
 "Make sure the floppy in drive %2 is a DOS-formatted floppy disk \n"
-"and that the permissions of the device file (e.g. /dev/fd0) are set correctly "
-"(e.g. rwxrwxrwx)."
+"and that the permissions of the device file (e.g. /dev/fd0) are set "
+"correctly (e.g. rwxrwxrwx)."
 msgstr ""
 "Felëje przistãpù do nëkù %1.\n"
 "Sprôwdzë, czë disk w nëkù %2 je sfòrmatowónym DOS-owim diskã\n"
 "ë czë prawa przistãpù do ùrzãdzeniô (np. /dev/fd0) są przënôléżno nastôwioné "
 "(np. rwxrwxrwx)."
 
-#: kio_floppy.cpp:231
+#: kio_floppy.cpp:232
+#, qt-format
 msgid ""
 "Could not access %1.\n"
 "The disk in drive %2 is probably not a DOS-formatted floppy disk."
@@ -78,7 +86,8 @@ msgstr ""
 "Felëje przistãpù do nëkù %1.\n"
 "Disk w nëkù %2 nie je mést sfòrmatowónym DOS-owim diskã."
 
-#: kio_floppy.cpp:235
+#: kio_floppy.cpp:236
+#, qt-format
 msgid ""
 "Access denied.\n"
 "Could not write to %1.\n"
@@ -88,7 +97,8 @@ msgstr ""
 "Nie mòże pisac do %1.\n"
 "Disk w nëkù %2 je mést zabezpieczony przed zapisënkã."
 
-#: kio_floppy.cpp:244
+#: kio_floppy.cpp:245
+#, qt-format
 msgid ""
 "Could not read boot sector for %1.\n"
 "There is probably not any disk in drive %2."
@@ -96,7 +106,8 @@ msgstr ""
 "Nie mòże òdczëtac sztartowégò sektora %1.\n"
 "Mést nie mô diskù w nëkù %2."
 
-#: kio_floppy.cpp:368
+#: kio_floppy.cpp:369
+#, qt-format
 msgid ""
 "Could not start program \"%1\".\n"
 "Ensure that the mtools package is installed correctly on your system."

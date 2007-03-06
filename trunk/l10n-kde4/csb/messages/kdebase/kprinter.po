@@ -4,7 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kprinter\n"
-"POT-Creation-Date: 2005-05-18 21:24+0200\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2006-10-02 07:52+0200\n"
 "PO-Revision-Date: 2007-02-18 20:38+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -12,8 +13,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || "
-"n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 
 #: main.cpp:29
 msgid "Make an internal copy of the files to print"
@@ -38,8 +39,8 @@ msgstr "Òptacëje drëkëra"
 #: main.cpp:37
 msgid "Job output mode (gui, console, none)"
 msgstr ""
-"Ôrt wińdzeniowi robòtë (\"gui\" - graficzny interfejs, \"console\" - terminal, "
-"\"none\" - felënk)"
+"Ôrt wińdzeniowi robòtë (\"gui\" - graficzny interfejs, \"console\" - "
+"terminal, \"none\" - felënk)"
 
 #: main.cpp:38
 msgid "Print system to use (lpd, cups)"
@@ -65,31 +66,31 @@ msgstr "KPrinter"
 msgid "A printer tool for KDE"
 msgstr "Nôrzãdze drëkòwaniô dlô KDE"
 
-#: printwrapper.cpp:61
+#: printwrapper.cpp:64
 msgid "Print Information"
 msgstr "Wëdowiédzô"
 
-#: printwrapper.cpp:62
+#: printwrapper.cpp:65
 msgid "Print Warning"
 msgstr "Òstrzéga"
 
-#: printwrapper.cpp:63
+#: printwrapper.cpp:66
 msgid "Print Error"
 msgstr "Fela drëkù"
 
-#: printwrapper.cpp:69
+#: printwrapper.cpp:72
 msgid "Print info"
 msgstr "Wëdowiédzô"
 
-#: printwrapper.cpp:69
+#: printwrapper.cpp:72
 msgid "Print warning"
 msgstr "Òstrzéga"
 
-#: printwrapper.cpp:69
+#: printwrapper.cpp:72
 msgid "Print error"
 msgstr "Fela drëkù"
 
-#: printwrapper.cpp:190
+#: printwrapper.cpp:188
 msgid ""
 "A file has been specified on the command line. Printing from STDIN will be "
 "disabled."
@@ -97,47 +98,48 @@ msgstr ""
 "W réze pòlétów pòdóny je lopk. Drëkòwanié ze sztandardowégò wińdzeniô bãdze "
 "wëłączoné."
 
-#: printwrapper.cpp:196
+#: printwrapper.cpp:194
 msgid ""
-"When using '--nodialog', you must at least specify one file to print or use the "
-"'--stdin' flag."
+"When using '--nodialog', you must at least specify one file to print or use "
+"the '--stdin' flag."
 msgstr ""
 "Czédë brëkùjesz '--nodialog', nót je òtaksowac przënômni jeden lopk do drëkù "
 "abò brëkòwac òptacëji '--stdin'."
 
-#: printwrapper.cpp:245
+#: printwrapper.cpp:243
 msgid "The specified printer or the default printer could not be found."
 msgstr "Nie je nalazłi pòdóny drëkër ani domëszlny drëkër."
 
-#: printwrapper.cpp:247
+#: printwrapper.cpp:245
 msgid "Operation aborted."
 msgstr "Òperacëjô òprzestónô."
 
-#: printwrapper.cpp:276
+#: printwrapper.cpp:275
 msgid "Unable to construct the print dialog."
 msgstr "Nie je mòżno òtemknąc òkna drëkù."
 
-#: printwrapper.cpp:317
+#: printwrapper.cpp:316
+#, qt-format
 msgid "Multiple files (%1)"
 msgstr "Wielorazowi lopczi (%1)"
 
-#: printwrapper.cpp:324
+#: printwrapper.cpp:323
 msgid "Nothing to print."
 msgstr "Nick nie mô do drëkù."
 
-#: printwrapper.cpp:349
+#: printwrapper.cpp:348
 msgid "Unable to open temporary file."
 msgstr "Nie je mòżno òtemknąc timczasowégò lopkù."
 
-#: printwrapper.cpp:364
+#: printwrapper.cpp:363
 msgid "Stdin is empty, no job sent."
 msgstr "Wéńdzenié je pùsté, nie wësłóno niżódny robòtë."
 
-#: printwrapper.cpp:376
-#, c-format
+#: printwrapper.cpp:375
+#, qt-format
 msgid "Unable to copy file %1."
 msgstr "Nie mòże skòpijowac lopkù %1."
 
-#: printwrapper.cpp:393
+#: printwrapper.cpp:392
 msgid "Error while printing files"
 msgstr "Fela òbczas drëkòwaniô lopkù"

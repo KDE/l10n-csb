@@ -4,7 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kappfinder\n"
-"POT-Creation-Date: 2005-05-18 21:23+0200\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-02-13 08:18+0100\n"
 "PO-Revision-Date: 2007-02-25 19:16+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -12,8 +13,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || "
-"n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 
 #: main.cpp:27
 msgid "KDE's application finder"
@@ -23,33 +24,43 @@ msgstr "Szëkôrz programów dlô KDE"
 msgid "Install .desktop files into directory <dir>"
 msgstr "instalëjë lopczi .desktop w katalogù <dir>"
 
-#: main.cpp:36 toplevel.cpp:50
+#: main.cpp:36 toplevel.cpp:49
 msgid "KAppfinder"
 msgstr "KAppfinder"
 
-#: toplevel.cpp:53
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: toplevel.cpp:58
 msgid ""
-"The application finder looks for non-KDE applications on your system and adds "
-"them to the KDE menu system. Click 'Scan' to begin, select the desired "
+"The application finder looks for non-KDE applications on your system and "
+"adds them to the KDE menu system. Click 'Scan' to begin, select the desired "
 "applications and then click 'Apply'."
 msgstr ""
 "Szëkôrz programów òdnajdôwô dodôwné programë z bùtna KDE w Twòji systemie ë "
 "dodôwô je do menu KDE. Klëkni 'Nalezë' bë wëszëkac programë, wëbierzë ne, "
 "chtërné chcesz dodac ë klëkni 'Ùżëjë'."
 
-#: toplevel.cpp:63
+#: toplevel.cpp:67
 msgid "Application"
 msgstr "Programa"
 
-#: toplevel.cpp:64
+#: toplevel.cpp:68
 msgid "Description"
 msgstr "Òpis"
 
-#: toplevel.cpp:65
+#: toplevel.cpp:69
 msgid "Command"
 msgstr "Pòlét"
 
-#: toplevel.cpp:76
+#: toplevel.cpp:78
 msgid "Summary:"
 msgstr "Zesëmòwnié:"
 
@@ -57,38 +68,54 @@ msgstr "Zesëmòwnié:"
 msgid "Scan"
 msgstr "Szëkôj"
 
-#: toplevel.cpp:85
+#: toplevel.cpp:81
+#, fuzzy
+msgid "Select All"
+msgstr "Rëmôj zaznaczenié"
+
+#: toplevel.cpp:82
 msgid "Unselect All"
 msgstr "Rëmôj zaznaczenié"
 
-#: toplevel.cpp:245
-#, c-format
-msgid ""
-"_n: Summary: found %n application\n"
-"Summary: found %n applications"
-msgstr ""
-"Nalazłô %n programa.\n"
-"Nalazłé %n programë.\n"
-"Nalazłëch %n programów."
+#: toplevel.cpp:239
+#, fuzzy, qt-format
+msgid "Summary: %1 application found"
+msgid_plural "Summary: %1 applications found"
+msgstr[0] "Szëkôrz programów dlô KDE"
+msgstr[1] "Szëkôrz programów dlô KDE"
+msgstr[2] "Szëkôrz programów dlô KDE"
 
-#: toplevel.cpp:288
-#, c-format
-msgid ""
-"_n: %n application was added to the KDE menu system.\n"
-"%n applications were added to the KDE menu system."
-msgstr ""
+#: toplevel.cpp:282
+#, fuzzy, qt-format
+msgid "%1 application was added to the KDE menu system."
+msgid_plural "%1 applications were added to the KDE menu system."
+msgstr[0] ""
+"Do menu KDE òstała dodanô %n programa.\n"
+"Do menu KDE òstałë dodané %n programë.\n"
+"Do menu KDE òstało dodané %n programów."
+msgstr[1] ""
+"Do menu KDE òstała dodanô %n programa.\n"
+"Do menu KDE òstałë dodané %n programë.\n"
+"Do menu KDE òstało dodané %n programów."
+msgstr[2] ""
 "Do menu KDE òstała dodanô %n programa.\n"
 "Do menu KDE òstałë dodané %n programë.\n"
 "Do menu KDE òstało dodané %n programów."
 
-#: _translatorinfo.cpp:1
-msgid ""
-"_: NAME OF TRANSLATORS\n"
-"Your names"
-msgstr "Mark Kwidzińsczi"
+#~ msgid ""
+#~ "_n: Summary: found %n application\n"
+#~ "Summary: found %n applications"
+#~ msgstr ""
+#~ "Nalazłô %n programa.\n"
+#~ "Nalazłé %n programë.\n"
+#~ "Nalazłëch %n programów."
 
-#: _translatorinfo.cpp:3
-msgid ""
-"_: EMAIL OF TRANSLATORS\n"
-"Your emails"
-msgstr "mark@linuxcsb.org"
+#~ msgid ""
+#~ "_: NAME OF TRANSLATORS\n"
+#~ "Your names"
+#~ msgstr "Mark Kwidzińsczi"
+
+#~ msgid ""
+#~ "_: EMAIL OF TRANSLATORS\n"
+#~ "Your emails"
+#~ msgstr "mark@linuxcsb.org"
