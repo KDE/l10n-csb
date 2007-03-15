@@ -14,7 +14,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 
 #: backtrace.cpp:84
 #, qt-format
@@ -44,7 +45,8 @@ msgstr "Wëbierzë miono lopkù"
 
 #: debugger.cpp:136
 #, qt-format
-msgid "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr "Lopk ò mionie \"%1\" ju je. Na gwës gò nôdpisac?"
 
 #: debugger.cpp:138
@@ -67,11 +69,16 @@ msgstr "Nie mòże ùsôdzëc pòprôwnegò szlachù dzejnotë."
 #: debugger.cpp:160
 msgid ""
 "This backtrace appears to be of no use.\n"
-"This is probably because your packages are built in a way which prevents creation of proper backtraces, or the stack frame was seriously corrupted in the crash.\n"
+"This is probably because your packages are built in a way which prevents "
+"creation of proper backtraces, or the stack frame was seriously corrupted in "
+"the crash.\n"
 "\n"
 msgstr ""
 "Nen szlach dzejnotë wëzdrzi na bezùżëtny.\n"
-"Je tak gwës dlôte, że Twòje paczétë òstałë ùsôdzoné na taczi ôrt, bë ùniemòżlëwić ùsôdzanié pòprôwnëch szlachów dzejnotë. Mòże to bëc równak sparłączoné téż z baro pòwôżną awarëją programë, jakô doprowadzëła do ùszkòdzeniô szlachù.\n"
+"Je tak gwës dlôte, że Twòje paczétë òstałë ùsôdzoné na taczi ôrt, bë "
+"ùniemòżlëwić ùsôdzanié pòprôwnëch szlachów dzejnotë. Mòże to bëc równak "
+"sparłączoné téż z baro pòwôżną awarëją programë, jakô doprowadzëła do "
+"ùszkòdzeniô szlachù.\n"
 "\n"
 
 #: debugger.cpp:169
@@ -89,12 +96,16 @@ msgstr ""
 #: debugger.cpp:194
 msgid ""
 "\n"
-"As the usage of these options is not recommended - because they can, in rare cases, be responsible for KDE problems - a backtrace will not be generated.\n"
-"You need to turn these options off and reproduce the problem again in order to get a backtrace.\n"
+"As the usage of these options is not recommended - because they can, in rare "
+"cases, be responsible for KDE problems - a backtrace will not be generated.\n"
+"You need to turn these options off and reproduce the problem again in order "
+"to get a backtrace.\n"
 msgstr ""
 "\n"
-"Brëkòwanié tëch òptacëji nie je zalécané - mògą òne w gwësnëch leżnoscah doprowadzëc do jiwrów z KDE - szlach nie òstôł ùsôdzony.\n"
-"Proszã wëłączëc te optacëje ë znowa doprowadzëc do awarëji programë, bë ùsôdzëc pòprôwny szlach.\n"
+"Brëkòwanié tëch òptacëji nie je zalécané - mògą òne w gwësnëch leżnoscah "
+"doprowadzëc do jiwrów z KDE - szlach nie òstôł ùsôdzony.\n"
+"Proszã wëłączëc te optacëje ë znowa doprowadzëc do awarëji programë, bë "
+"ùsôdzëc pòprôwny szlach.\n"
 
 #: debugger.cpp:199
 msgid "Backtrace will not be created."
@@ -118,7 +129,9 @@ msgstr "nieznóny"
 
 #: main.cpp:42
 msgid "KDE crash handler gives the user feedback if a program crashed"
-msgstr "Obsłużënk kriticznëch felów w KDE zezwôlô na przesłanié ùsôdzcom programë wëdowiédzë ò zmiłkach"
+msgstr ""
+"Obsłużënk kriticznëch felów w KDE zezwôlô na przesłanié ùsôdzcom programë "
+"wëdowiédzë ò zmiłkach"
 
 #: main.cpp:46
 msgid "The signal number that was caught"
@@ -165,10 +178,14 @@ msgid "The KDE Crash Handler"
 msgstr "Obsłużënk kriticznëch felów w KDE"
 
 #: rc.cpp:1
+#, fuzzy
+msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Michôł Òstrowsczi, Mark Kwidzińsczi"
 
 #: rc.cpp:2
+#, fuzzy
+msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "michol@linuxcsb.org, mark@linuxcsb.org"
 
@@ -206,15 +223,25 @@ msgstr "<p><b>Co mòże zrobic?</b></p><p>%1</p>"
 #: toplevel.cpp:131
 #, c-format
 msgid "<p><b>Application crashed</b></p><p>The program %appname crashed.</p>"
-msgstr "<p><b>Programa przerwónô</b></p><p>Programa %appname òstała przerwónô z felą.</p>"
+msgstr ""
+"<p><b>Programa przerwónô</b></p><p>Programa %appname òstała przerwónô z felą."
+"</p>"
 
 #: toplevel.cpp:150
 msgid ""
-"<p>Do you want to generate a backtrace? This will help the developers to figure out what went wrong.</p>\n"
-"<p>Unfortunately this will take some time on slow machines.</p><p><b>Note: A backtrace is not a substitute for a proper description of the bug and information on how to reproduce it. It is not possible to fix the bug without a proper description.</b></p>"
+"<p>Do you want to generate a backtrace? This will help the developers to "
+"figure out what went wrong.</p>\n"
+"<p>Unfortunately this will take some time on slow machines.</p><p><b>Note: A "
+"backtrace is not a substitute for a proper description of the bug and "
+"information on how to reproduce it. It is not possible to fix the bug "
+"without a proper description.</b></p>"
 msgstr ""
-"<p>Chcesz wëgenerowac szlach dzejnotë? Pòmòże to ùsôdzcom zrozmiec przëczënã felë.</p>\n"
-"<p>Mòże to równak zabrac përznã czasu na wolnëch kòmpùtrach.</p><p><b>Miej bôczënié, że sam szlach dzejnotów nie zastąpi pòprôwnegò òpisu felë ë wëdowiédzë ò nim. Zwëczajno nie dô sã pòprôwic feli bez dobregò òpisënkù.</b></p>"
+"<p>Chcesz wëgenerowac szlach dzejnotë? Pòmòże to ùsôdzcom zrozmiec przëczënã "
+"felë.</p>\n"
+"<p>Mòże to równak zabrac përznã czasu na wolnëch kòmpùtrach.</p><p><b>Miej "
+"bôczënié, że sam szlach dzejnotów nie zastąpi pòprôwnegò òpisu felë ë "
+"wëdowiédzë ò nim. Zwëczajno nie dô sã pòprôwic feli bez dobregò òpisënkù.</"
+"b></p>"
 
 #: toplevel.cpp:162
 msgid "Include Backtrace"
@@ -240,8 +267,8 @@ msgstr "Szlach dzejnotë je nieprzistãpny"
 #~ "_: NAME OF TRANSLATORS\n"
 #~ "Your names"
 #~ msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
+
 #~ msgid ""
 #~ "_: EMAIL OF TRANSLATORS\n"
 #~ "Your emails"
 #~ msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
-
