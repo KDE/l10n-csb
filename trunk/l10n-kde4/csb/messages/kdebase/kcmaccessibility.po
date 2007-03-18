@@ -5,7 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmaccessibility\n"
-"POT-Creation-Date: 2006-02-19 03:44+0100\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-03-07 07:30+0100\n"
 "PO-Revision-Date: 2007-03-17 10:05+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -13,56 +14,41 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 
-#: _translatorinfo.cpp:1
-msgid ""
-"_: NAME OF TRANSLATORS\n"
-"Your names"
-msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
-
-#: _translatorinfo.cpp:3
-msgid ""
-"_: EMAIL OF TRANSLATORS\n"
-"Your emails"
-msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
-
-#: accessibility.cpp:60
+#: accessibility.cpp:64
 msgid "kcmaccessiblity"
 msgstr "kcmaccessiblity"
 
-#: accessibility.cpp:60
+#: accessibility.cpp:64
 msgid "KDE Accessibility Tool"
 msgstr "Nôrzãdza przistãpù KDE"
 
-#: accessibility.cpp:62
+#: accessibility.cpp:66
 msgid "(c) 2000, Matthias Hoelzer-Kluepfel"
 msgstr "(c) 2000, Matthias Hoelzer-Kluepfel"
 
-#: accessibility.cpp:64
-#: accessibility.cpp:65
+#: accessibility.cpp:68 accessibility.cpp:69
 msgid "Author"
 msgstr "Ùsôdzca"
 
-#. i18n: file accessibilityconfigwidget.ui line 17
-#: rc.cpp:3
-#, no-c-format
-msgid "Accessibility"
-msgstr "Przistãp"
-
-#. i18n: file accessibilityconfigwidget.ui line 35
-#: rc.cpp:6
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 32
+#: rc.cpp:4
 #, no-c-format
 msgid "&Bell"
 msgstr "&Brzãczk"
 
-#. i18n: file accessibilityconfigwidget.ui line 46
-#: rc.cpp:9
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 43
+#: rc.cpp:8
 #, no-c-format
 msgid "&Audible Bell"
 msgstr "&Czëti brzãczk"
 
-#. i18n: file accessibilityconfigwidget.ui line 50
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 47
 #: rc.cpp:12
 #, no-c-format
 msgid ""
@@ -72,238 +58,313 @@ msgstr ""
 "Tuwò mòże skònfigùrowac czëti brzãczk.<br>\n"
 "To mòże bëc systemòwi ë/abò swój brzãczk."
 
-#. i18n: file accessibilityconfigwidget.ui line 61
-#: rc.cpp:16
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 58
+#: rc.cpp:17
 #, no-c-format
 msgid "Use &system bell"
 msgstr "Brëkùjë &systemòwegò brzãczka"
 
-#. i18n: file accessibilityconfigwidget.ui line 65
-#: rc.cpp:19
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 62
+#: rc.cpp:21
 #, no-c-format
 msgid ""
-"If this option is checked, the default system bell will be used. See the \"System Bell\" control module for how to customize the system bell.<br>\n"
+"If this option is checked, the default system bell will be used. See the "
+"\"System Bell\" control module for how to customize the system bell.<br>\n"
 "Normally, this is just a \"beep\"."
 msgstr ""
-"Eżlë na òptacëjô je włączonô, brëkòwóny bãdze systemòwi brzãczk. Mòże gò skònfigùrowac w mòdule \"Systemòwi brzãczk\".<br>\n"
+"Eżlë na òptacëjô je włączonô, brëkòwóny bãdze systemòwi brzãczk. Mòże gò "
+"skònfigùrowac w mòdule \"Systemòwi brzãczk\".<br>\n"
 "Zwëczajno je to prosti, pojedińczi zwãk."
 
-#. i18n: file accessibilityconfigwidget.ui line 73
-#: rc.cpp:23
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 70
+#: rc.cpp:26
 #, no-c-format
 msgid "Use &customized bell"
 msgstr "Brëkùjë &swòjegò brzãczka"
 
-#. i18n: file accessibilityconfigwidget.ui line 77
-#: rc.cpp:26
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 74
+#: rc.cpp:30
 #, no-c-format
 msgid ""
-"Check this option if you want to use a customized bell, playing a sound file. If you do this, you will probably want to turn off the system bell.<br>\n"
-"Please note that on slow machines this may cause a \"lag\" between the event causing the bell and the sound being played."
+"Check this option if you want to use a customized bell, playing a sound "
+"file. If you do this, you will probably want to turn off the system bell."
+"<br>\n"
+"Please note that on slow machines this may cause a \"lag\" between the event "
+"causing the bell and the sound being played."
 msgstr ""
-"Eżlë na òptacëjô je włączonô, brëkòwóny bãdze swój brzãczk, grôjący wëbróny zwãkòwi lopk. Zwëczajno wôrt je w nen czas wëłączëc systemòwi brzãczk. <br>\n"
-"Bôczënk: na wòlnëch kòmpùtrach mògą sã pòkôzac krótczé pauzë midzë zdarzeniém zrëszającëm brzãczk a graniém zwãkù."
+"Eżlë na òptacëjô je włączonô, brëkòwóny bãdze swój brzãczk, grôjący wëbróny "
+"zwãkòwi lopk. Zwëczajno wôrt je w nen czas wëłączëc systemòwi brzãczk. <br>\n"
+"Bôczënk: na wòlnëch kòmpùtrach mògą sã pòkôzac krótczé pauzë midzë "
+"zdarzeniém zrëszającëm brzãczk a graniém zwãkù."
 
-#. i18n: file accessibilityconfigwidget.ui line 113
-#: rc.cpp:30
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 110
+#: rc.cpp:35
 #, no-c-format
 msgid "Sound &to play:"
 msgstr "Zwãk &do graniô:"
 
-#. i18n: file accessibilityconfigwidget.ui line 119
-#: rc.cpp:33
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 116
+#: rc.cpp:39
 #, no-c-format
-msgid "If the option \"Use customized bell\" is enabled, you can choose a sound file here."
-msgstr "Eżlë je włączonô òptacëjô \"Brëkùjë swòjegò brzãczka\", to mòże tuwò wëbrac zwãkòwi lopk."
+msgid ""
+"If the option \"Use customized bell\" is enabled, you can choose a sound "
+"file here."
+msgstr ""
+"Eżlë je włączonô òptacëjô \"Brëkùjë swòjegò brzãczka\", to mòże tuwò wëbrac "
+"zwãkòwi lopk."
 
-#. i18n: file accessibilityconfigwidget.ui line 139
-#: rc.cpp:36
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 136
+#: rc.cpp:43
 #, no-c-format
 msgid "&Visible Bell"
 msgstr "&Widzawny brzãczk"
 
-#. i18n: file accessibilityconfigwidget.ui line 150
-#: rc.cpp:39
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 147
+#: rc.cpp:47
 #, no-c-format
 msgid "&Use visible bell"
 msgstr "Brëkùjë &widzawnegò brzãczka"
 
-#. i18n: file accessibilityconfigwidget.ui line 177
-#: rc.cpp:42
-#: rc.cpp:74
-#: rc.cpp:86
-#: rc.cpp:107
-#: rc.cpp:113
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 174
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 471
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 631
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 861
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 958
+#: rc.cpp:51 rc.cpp:93 rc.cpp:109 rc.cpp:137 rc.cpp:145
 #, no-c-format
 msgid " msec"
 msgstr " ms"
 
-#. i18n: file accessibilityconfigwidget.ui line 229
-#: rc.cpp:45
-#: rc.cpp:77
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 226
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 540
+#: rc.cpp:55 rc.cpp:97
 #, no-c-format
 msgid "&Duration:"
 msgstr "&Dérowanié:"
 
-#. i18n: file accessibilityconfigwidget.ui line 288
-#: rc.cpp:49
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 276
+#: rc.cpp:60
 #, no-c-format
 msgid "I&nvert screen"
 msgstr "Ò&brócë ekran"
 
-#. i18n: file accessibilityconfigwidget.ui line 310
-#: rc.cpp:52
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 298
+#: rc.cpp:64
 #, no-c-format
 msgid "F&lash screen:"
 msgstr "&Mërgòtanië ekranu:"
 
-#. i18n: file accessibilityconfigwidget.ui line 380
-#: rc.cpp:56
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 368
+#: rc.cpp:69
 #, no-c-format
 msgid "&Keyboard"
 msgstr "&Klawiatura"
 
-#. i18n: file accessibilityconfigwidget.ui line 391
-#: rc.cpp:59
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 379
+#: rc.cpp:73
 #, no-c-format
 msgid "S&ticky Keys"
 msgstr "&Przëlepioné klawisze"
 
-#. i18n: file accessibilityconfigwidget.ui line 402
-#: rc.cpp:62
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 390
+#: rc.cpp:77
 #, no-c-format
 msgid "Use &sticky keys"
 msgstr "Brëkùjë &przëlepioné klawisze"
 
-#. i18n: file accessibilityconfigwidget.ui line 438
-#: rc.cpp:65
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 426
+#: rc.cpp:81
 #, no-c-format
 msgid "&Lock with sticky keys"
 msgstr "&Blokùjë przëlepioné klawisze"
 
-#. i18n: file accessibilityconfigwidget.ui line 453
-#: rc.cpp:68
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 441
+#: rc.cpp:85
 #, no-c-format
 msgid "Slo&w Keys"
 msgstr "Pò&wólné klawisze"
 
-#. i18n: file accessibilityconfigwidget.ui line 464
-#: rc.cpp:71
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 452
+#: rc.cpp:89
 #, no-c-format
 msgid "&Use slow keys"
 msgstr "Brëkùjë pò&wólné klawisze"
 
-#. i18n: file accessibilityconfigwidget.ui line 567
-#: rc.cpp:80
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 555
+#: rc.cpp:101
 #, no-c-format
 msgid "&Bounce Keys"
 msgstr "Òd&bijającé klawisze"
 
-#. i18n: file accessibilityconfigwidget.ui line 578
-#: rc.cpp:83
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 566
+#: rc.cpp:105
 #, no-c-format
 msgid "Use bou&nce keys"
 msgstr "Brëkùjë òd&bijającé klawisze"
 
-#. i18n: file accessibilityconfigwidget.ui line 666
-#: rc.cpp:89
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 654
+#: rc.cpp:113
 #, no-c-format
 msgid "Du&ration:"
 msgstr "&Dérowanié:"
 
-#. i18n: file accessibilityconfigwidget.ui line 700
-#: rc.cpp:92
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 688
+#: rc.cpp:117
 #, no-c-format
 msgid "&Mouse"
 msgstr "&Mësz"
 
-#. i18n: file accessibilityconfigwidget.ui line 711
-#: rc.cpp:95
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 699
+#: rc.cpp:121
 #, no-c-format
 msgid "&Navigation"
 msgstr "&Nawigacëjô"
 
-#. i18n: file accessibilityconfigwidget.ui line 722
-#: rc.cpp:98
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 710
+#: rc.cpp:125
 #, no-c-format
 msgid "Mo&ve mouse with keyboard"
 msgstr "Rëszanié &mëszë z klawiaturë"
 
-#. i18n: file accessibilityconfigwidget.ui line 790
-#: rc.cpp:101
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 778
+#: rc.cpp:129
 #, no-c-format
 msgid "Ma&ximum speed:"
 msgstr "Ma&ksymalnô chùtkòsc:"
 
-#. i18n: file accessibilityconfigwidget.ui line 807
-#: rc.cpp:104
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 795
+#: rc.cpp:133
 #, no-c-format
 msgid "Acceleration &time:"
 msgstr "&Czas przëspieszeniô:"
 
-#. i18n: file accessibilityconfigwidget.ui line 945
-#: rc.cpp:110
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 933
+#: rc.cpp:141
 #, no-c-format
 msgid "&Repeat interval:"
 msgstr "Czãstolëwòsc &pòwtôrzaniô:"
 
-#. i18n: file accessibilityconfigwidget.ui line 993
-#: rc.cpp:116
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 981
+#: rc.cpp:149
 #, no-c-format
 msgid "Acceleration &profile:"
 msgstr "Pro&fil przëspieszeniô:"
 
-#. i18n: file accessibilityconfigwidget.ui line 1088
-#: rc.cpp:119
+#. i18n: tag string
+#. i18n: file accessibilityconfigwidget.ui line 1076
+#: rc.cpp:153
 #, no-c-format
 msgid "&Acceleration delay:"
 msgstr "Ò&pòzdzenié przëspieszeniô:"
 
+#. i18n: tag label
 #. i18n: file kcm_accessibility.kcfg line 9
-#: rc.cpp:122
+#: rc.cpp:157
 #, no-c-format
 msgid "If the simple PC speaker should be used"
 msgstr "Czë prosti głosnik PC mô òstac brëkòwóny"
 
+#. i18n: tag label
 #. i18n: file kcm_accessibility.kcfg line 13
-#: rc.cpp:125
+#: rc.cpp:161
 #, no-c-format
 msgid "Whether a custom sound should be used as bell"
 msgstr "Czë swój zwãk zwónka mô òstac brëkòwóny"
 
+#. i18n: tag label
 #. i18n: file kcm_accessibility.kcfg line 17
-#: rc.cpp:128
+#: rc.cpp:165
 #, no-c-format
 msgid "If the screen should blink when the bell is sounded"
 msgstr "Czë ekran mô mërgòtac, jak zwónk zazwòni"
 
+#. i18n: tag label
 #. i18n: file kcm_accessibility.kcfg line 23
-#: rc.cpp:131
+#: rc.cpp:169
 #, no-c-format
 msgid "The path to the custom sound, if it is used"
 msgstr "Stegna do swòjegò zwãkù"
 
+#. i18n: tag label
 #. i18n: file kcm_accessibility.kcfg line 28
-#: rc.cpp:134
+#: rc.cpp:173
 #, no-c-format
 msgid "If the screen should be flashed"
 msgstr "Czë ekran mô mërgòtac"
 
+#. i18n: tag label
 #. i18n: file kcm_accessibility.kcfg line 32
-#: rc.cpp:137
+#: rc.cpp:177
 #, no-c-format
 msgid "If the screen image should be inverted"
 msgstr "Czë òbrôz ekranu mô bëc òbrócony"
 
+#. i18n: tag label
 #. i18n: file kcm_accessibility.kcfg line 36
-#: rc.cpp:140
+#: rc.cpp:181
 #, no-c-format
 msgid "The color to flash the screen with"
 msgstr "Farwa mërgòtaniô ekranu"
 
+#. i18n: tag label
 #. i18n: file kcm_accessibility.kcfg line 40
-#: rc.cpp:143
+#: rc.cpp:185
 #, no-c-format
 msgid "For how long the flash is active"
 msgstr "Dérowanié mërgòtaniô"
 
+#: rc.cpp:186
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: rc.cpp:187
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#~ msgid ""
+#~ "_: NAME OF TRANSLATORS\n"
+#~ "Your names"
+#~ msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
+
+#~ msgid ""
+#~ "_: EMAIL OF TRANSLATORS\n"
+#~ "Your emails"
+#~ msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
+
+#~ msgid "Accessibility"
+#~ msgstr "Przistãp"
