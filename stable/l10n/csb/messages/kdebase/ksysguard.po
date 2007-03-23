@@ -11,29 +11,31 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || "
+"n%100>=20) ? 1 : 2);\n"
 
-#: KSysGuardApplet.cc:318
-#: WorkSheet.cc:94
+#: KSysGuardApplet.cc:318 WorkSheet.cc:94
 #, c-format
 msgid "Cannot open the file %1."
 msgstr "Nie mòże òtemknąc lopkù %1."
 
-#: KSysGuardApplet.cc:327
-#: WorkSheet.cc:102
+#: KSysGuardApplet.cc:327 WorkSheet.cc:102
 msgid "The file %1 does not contain valid XML."
 msgstr "Lopk %a zamëkô w se zmiłkòwi fòrmat XML."
 
 #: WorkSheet.cc:109
-msgid "The file %1 does not contain a valid worksheet definition, which must have a document type 'KSysGuardWorkSheet'."
-msgstr "Lopk %1 nie zamëkô w se bezzmiłkòwi definicëji robòczi bòdżi. Lopk mùszi bëc ôrtu 'KSysGuardWorkSheet'."
+msgid ""
+"The file %1 does not contain a valid worksheet definition, which must have a "
+"document type 'KSysGuardWorkSheet'."
+msgstr ""
+"Lopk %1 nie zamëkô w se bezzmiłkòwi definicëji robòczi bòdżi. Lopk mùszi bëc "
+"ôrtu 'KSysGuardWorkSheet'."
 
 #: WorkSheet.cc:125
 msgid "The file %1 has an invalid worksheet size."
 msgstr "Lopk %1 zamëkô w se zmiłkòwą miarã robòczi bòdżi."
 
-#: KSysGuardApplet.cc:476
-#: WorkSheet.cc:225
+#: KSysGuardApplet.cc:476 WorkSheet.cc:225
 #, c-format
 msgid "Cannot save file %1"
 msgstr "Nie mòże zapisac lopkù %1"
@@ -42,23 +44,19 @@ msgstr "Nie mòże zapisac lopkù %1"
 msgid "The clipboard does not contain a valid display description."
 msgstr "Tacnik nie mô bezzmiłkòwigò òpisënkù wëzdrzatkù."
 
-#: SensorDisplayLib/SensorDisplay.cc:104
-#: WorkSheet.cc:315
+#: SensorDisplayLib/SensorDisplay.cc:104 WorkSheet.cc:315
 msgid "It is impossible to connect to '%1'."
 msgstr "Pòłączenié z '%1' nie je mòżlewé."
 
-#: KSysGuardApplet.cc:209
-#: WorkSheet.cc:331
+#: KSysGuardApplet.cc:209 WorkSheet.cc:331
 msgid "Select Display Type"
 msgstr "Wëbiérzë ôrt prezentacëji pòdôwków"
 
-#: KSysGuardApplet.cc:210
-#: WorkSheet.cc:332
+#: KSysGuardApplet.cc:210 WorkSheet.cc:332
 msgid "&Signal Plotter"
 msgstr "&Ploter"
 
-#: KSysGuardApplet.cc:211
-#: WorkSheet.cc:333
+#: KSysGuardApplet.cc:211 WorkSheet.cc:333
 msgid "&Multimeter"
 msgstr "&Wskôzywôcz"
 
@@ -86,25 +84,21 @@ msgstr "Ùstôwë sekùndnika"
 msgid "Use update interval of worksheet"
 msgstr "Brëkùjë rozstãpù midze òdswiéżaniém robòczy bòdżi"
 
-#: KSGAppletSettings.cc:59
-#: WorkSheetSettings.cc:85
-#: ksgrd/TimerSettings.cc:46
+#: KSGAppletSettings.cc:59 WorkSheetSettings.cc:85 ksgrd/TimerSettings.cc:46
 msgid "Update interval:"
 msgstr "Rozstãp midze òdswiéżaniém:"
 
 #. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 68
-#: KSGAppletSettings.cc:64
-#: WorkSheetSettings.cc:91
-#: ksgrd/TimerSettings.cc:51
+#: KSGAppletSettings.cc:64 WorkSheetSettings.cc:91 ksgrd/TimerSettings.cc:51
 #: rc.cpp:21
 #, no-c-format
 msgid " sec"
 msgstr " sekùnda"
 
-#: WorkSheetSettings.cc:99
-#: ksgrd/TimerSettings.cc:54
+#: WorkSheetSettings.cc:99 ksgrd/TimerSettings.cc:54
 msgid "All displays of the sheet are updated at the rate specified here."
-msgstr "Wszëtczé ùzérôczë na ti bòdżi są aktalnioné z òtaksowóną tu czãstotlëwòtą."
+msgstr ""
+"Wszëtczé ùzérôczë na ti bòdżi są aktalnioné z òtaksowóną tu czãstotlëwòtą."
 
 #: ksgrd/HostConnector.cc:37
 msgid "Connect Host"
@@ -143,23 +137,33 @@ msgid "Daemon"
 msgstr "Demon"
 
 #: ksgrd/HostConnector.cc:77
-msgid "Select this if you want to connect to a ksysguard daemon that is running on the machine you want to connect to, and is listening for client requests."
-msgstr "Zaznaczë, eżlë chcesz dostôwac wëdowiédzã òd demona ksysguard dzejającégò na kòmpùtrze, z jaczim chcesz sã pòłączëc."
+msgid ""
+"Select this if you want to connect to a ksysguard daemon that is running on the "
+"machine you want to connect to, and is listening for client requests."
+msgstr ""
+"Zaznaczë, eżlë chcesz dostôwac wëdowiédzã òd demona ksysguard dzejającégò na "
+"kòmpùtrze, z jaczim chcesz sã pòłączëc."
 
 #: ksgrd/HostConnector.cc:80
 msgid "Custom command"
 msgstr "Pòlét brëkòwnika"
 
 #: ksgrd/HostConnector.cc:81
-msgid "Select this to use the command you entered below to start ksysguardd on the remote host."
-msgstr "Zaznaczë, abë brëkòwac pòlétu wpisywónégò niżi do zrëszaniô demona ksysguard na daleczim kòmpùtrze."
+msgid ""
+"Select this to use the command you entered below to start ksysguardd on the "
+"remote host."
+msgstr ""
+"Zaznaczë, abë brëkòwac pòlétu wpisywónégò niżi do zrëszaniô demona ksysguard na "
+"daleczim kòmpùtrze."
 
 #: ksgrd/HostConnector.cc:84
 msgid "Port:"
 msgstr "Pòrt:"
 
 #: ksgrd/HostConnector.cc:90
-msgid "Enter the port number on which the ksysguard daemon is listening for connections."
+msgid ""
+"Enter the port number on which the ksysguard daemon is listening for "
+"connections."
 msgstr "Wpiszë numer pòrtu, na jaczim demon ksysguard żdô na pòłączenia."
 
 #: ksgrd/HostConnector.cc:93
@@ -172,7 +176,9 @@ msgstr "Pòlét:"
 
 #: ksgrd/HostConnector.cc:105
 msgid "Enter the command that runs ksysguardd on the host you want to monitor."
-msgstr "Wpiszë pòlét, jaczi zrëszë demona ksysguard na wëbrónym do mònitorowaniô kòmpùtrze."
+msgstr ""
+"Wpiszë pòlét, jaczi zrëszë demona ksysguard na wëbrónym do mònitorowaniô "
+"kòmpùtrze."
 
 #: ksgrd/HostConnector.cc:109
 msgid "e.g. ssh -l root remote.host.org ksysguardd"
@@ -195,27 +201,20 @@ msgid "Second foreground color:"
 msgstr "Drëgô pierszoplanowô farwa:"
 
 #. i18n: file ./SensorDisplayLib/SensorLoggerSettingsWidget.ui line 107
-#: ksgrd/StyleSettings.cc:61
-#: rc.cpp:132
+#: ksgrd/StyleSettings.cc:61 rc.cpp:132
 #, no-c-format
 msgid "Alarm color:"
 msgstr "Farwa alarmù:"
 
 #. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 241
-#: SensorDisplayLib/DancingBarsSettings.cc:143
-#: SensorDisplayLib/LogFile.cc:90
-#: ksgrd/StyleSettings.cc:68
-#: rc.cpp:96
-#: rc.cpp:114
-#: rc.cpp:129
-#: rc.cpp:153
+#: SensorDisplayLib/DancingBarsSettings.cc:143 SensorDisplayLib/LogFile.cc:90
+#: ksgrd/StyleSettings.cc:68 rc.cpp:96 rc.cpp:114 rc.cpp:129 rc.cpp:153
 #, no-c-format
 msgid "Background color:"
 msgstr "Farwa spòdlégò:"
 
 #: SensorDisplayLib/DancingBarsSettings.cc:150
-#: SensorDisplayLib/FancyPlotterSettings.cc:176
-#: ksgrd/StyleSettings.cc:75
+#: SensorDisplayLib/FancyPlotterSettings.cc:176 ksgrd/StyleSettings.cc:75
 msgid "Font size:"
 msgstr "Miara fòntu:"
 
@@ -233,8 +232,7 @@ msgid "Color %1"
 msgstr "Farwa %1"
 
 #. i18n: file SystemLoad.sgrd line 5
-#: ksgrd/SensorManager.cc:50
-#: rc.cpp:184
+#: ksgrd/SensorManager.cc:50 rc.cpp:184
 msgid "CPU Load"
 msgstr "Òbladowanié procesora"
 
@@ -242,9 +240,7 @@ msgstr "Òbladowanié procesora"
 msgid "Idle Load"
 msgstr "Òbladowanié przë nierobnëch procesach"
 
-#: Workspace.cc:100
-#: Workspace.cc:109
-#: ksgrd/SensorManager.cc:52
+#: Workspace.cc:100 Workspace.cc:109 ksgrd/SensorManager.cc:52
 #: ksysguard.cc:171
 msgid "System Load"
 msgstr "Òbladownaié systemë"
@@ -262,14 +258,12 @@ msgid "Memory"
 msgstr "Pamiãc"
 
 #. i18n: file SystemLoad.sgrd line 13
-#: ksgrd/SensorManager.cc:56
-#: rc.cpp:188
+#: ksgrd/SensorManager.cc:56 rc.cpp:188
 msgid "Physical Memory"
 msgstr "Fizycznô pamiãc"
 
 #. i18n: file SystemLoad.sgrd line 21
-#: ksgrd/SensorManager.cc:57
-#: rc.cpp:190
+#: ksgrd/SensorManager.cc:57 rc.cpp:190
 msgid "Swap Memory"
 msgstr "Pamiãc wëmianë"
 
@@ -297,8 +291,7 @@ msgstr "Wòlnô pamiãc"
 msgid "Process Count"
 msgstr "Rechòwnik procesu"
 
-#: ksgrd/SensorManager.cc:64
-#: ksgrd/SensorManager.cc:148
+#: ksgrd/SensorManager.cc:64 ksgrd/SensorManager.cc:148
 msgid "Process Controller"
 msgstr "Kòntroléra procesu"
 
@@ -408,8 +401,7 @@ msgstr "Gniôzda"
 msgid "Total Number"
 msgstr "Całownô lëczba"
 
-#: ksgrd/SensorManager.cc:91
-#: ksgrd/SensorManager.cc:149
+#: ksgrd/SensorManager.cc:91 ksgrd/SensorManager.cc:149
 msgid "Table"
 msgstr "Tabela"
 
@@ -458,8 +450,7 @@ msgid "Interrupts"
 msgstr "Przerwania"
 
 #. i18n: file SystemLoad.sgrd line 10
-#: ksgrd/SensorManager.cc:103
-#: rc.cpp:186
+#: ksgrd/SensorManager.cc:103 rc.cpp:186
 msgid "Load Average (1 min)"
 msgstr "Strzédné òbladowanié (1 min)"
 
@@ -589,11 +580,14 @@ msgid ""
 msgstr "michol@linuxcsb.org"
 
 #: Workspace.cc:53
-msgid "This is your work space. It holds your worksheets. You need to create a new worksheet (Menu File->New) before you can drag sensors here."
-msgstr "To môl namienioné je na robòczé bòdżi. Abë zwëskac nôl na nowi ùzérocz, mùsz je ùsôdzëc nowi wëzdrzatk. Dlô tegò wëbiérzë z menu (Lopk->Nowi)."
+msgid ""
+"This is your work space. It holds your worksheets. You need to create a new "
+"worksheet (Menu File->New) before you can drag sensors here."
+msgstr ""
+"To môl namienioné je na robòczé bòdżi. Abë zwëskac nôl na nowi ùzérocz, mùsz je "
+"ùsôdzëc nowi wëzdrzatk. Dlô tegò wëbiérzë z menu (Lopk->Nowi)."
 
-#: Workspace.cc:105
-#: ksysguard.cc:176
+#: Workspace.cc:105 ksysguard.cc:176
 msgid "Process Table"
 msgstr "Tabela procesów"
 
@@ -602,8 +596,7 @@ msgstr "Tabela procesów"
 msgid "Sheet %1"
 msgstr "Bòga %1"
 
-#: Workspace.cc:165
-#: Workspace.cc:305
+#: Workspace.cc:165 Workspace.cc:305
 msgid ""
 "The worksheet '%1' contains unsaved data.\n"
 "Do you want to save the worksheet?"
@@ -611,8 +604,7 @@ msgstr ""
 "Robòczô bòga '%1' zamëkô w se niezapisóné pòdôwczi.\n"
 "Czë chcesz je zapisac?"
 
-#: Workspace.cc:181
-#: Workspace.cc:235
+#: Workspace.cc:181 Workspace.cc:235
 msgid "*.sgrd|Sensor Files"
 msgstr "*.sgrd|Lopk ùzérôcza"
 
@@ -620,8 +612,7 @@ msgstr "*.sgrd|Lopk ùzérôcza"
 msgid "Select Worksheet to Load"
 msgstr "Wëbiérzë robòczą bògã do wladowaniô"
 
-#: Workspace.cc:229
-#: Workspace.cc:269
+#: Workspace.cc:229 Workspace.cc:269
 msgid "You do not have a worksheet that could be saved."
 msgstr "Nie môsz robòczi bòdżi, jakô bë mògłô bëc zapisónô."
 
@@ -843,20 +834,15 @@ msgid "Range"
 msgstr "Kréz"
 
 #. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 25
-#: SensorDisplayLib/DancingBarsSettings.cc:50
-#: WorkSheetSettings.cc:48
-#: rc.cpp:48
-#: rc.cpp:102
-#: rc.cpp:120
-#: rc.cpp:144
+#: SensorDisplayLib/DancingBarsSettings.cc:50 WorkSheetSettings.cc:48
+#: rc.cpp:48 rc.cpp:102 rc.cpp:120 rc.cpp:144
 #, no-c-format
 msgid "Title"
 msgstr "Titel"
 
 #. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 36
 #: SensorDisplayLib/DancingBarsSettings.cc:54
-#: SensorDisplayLib/FancyPlotterSettings.cc:64
-#: rc.cpp:51
+#: SensorDisplayLib/FancyPlotterSettings.cc:64 rc.cpp:51
 #, no-c-format
 msgid "Enter the title of the display here."
 msgstr "Tu wprowadzë miono wëzdrzatkù."
@@ -872,8 +858,12 @@ msgstr "Minimalnô wôrtnota:"
 
 #: SensorDisplayLib/DancingBarsSettings.cc:67
 #: SensorDisplayLib/FancyPlotterSettings.cc:95
-msgid "Enter the minimum value for the display here. If both values are 0, automatic range detection is enabled."
-msgstr "Wprowadzë minimalną wôrtnotã dlô wëzdrzatkù. Eżlë òbie wôrtnotë są równe zero, włączóny je wëbiérk aùtomatnégò krézu."
+msgid ""
+"Enter the minimum value for the display here. If both values are 0, automatic "
+"range detection is enabled."
+msgstr ""
+"Wprowadzë minimalną wôrtnotã dlô wëzdrzatkù. Eżlë òbie wôrtnotë są równe zero, "
+"włączóny je wëbiérk aùtomatnégò krézu."
 
 #: SensorDisplayLib/DancingBarsSettings.cc:71
 #: SensorDisplayLib/FancyPlotterSettings.cc:99
@@ -882,20 +872,21 @@ msgstr "Maksymalnô wôrtnota:"
 
 #: SensorDisplayLib/DancingBarsSettings.cc:75
 #: SensorDisplayLib/FancyPlotterSettings.cc:105
-msgid "Enter the maximum value for the display here. If both values are 0, automatic range detection is enabled."
-msgstr "Wprowadzë maksymalną wôrtnotã dlô wëzdrzatkù. Eżlë òbie wôrtnotë są równe zero, włączóny je wëbiérk aùtomatnégò krézu."
+msgid ""
+"Enter the maximum value for the display here. If both values are 0, automatic "
+"range detection is enabled."
+msgstr ""
+"Wprowadzë maksymalną wôrtnotã dlô wëzdrzatkù. Eżlë òbie wôrtnotë są równe zero, "
+"włączóny je wëbiérk aùtomatnégò krézu."
 
 #. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 61
-#: SensorDisplayLib/DancingBarsSettings.cc:84
-#: rc.cpp:60
+#: SensorDisplayLib/DancingBarsSettings.cc:84 rc.cpp:60
 #, no-c-format
 msgid "Alarms"
 msgstr "Alarmë"
 
 #. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 78
-#: SensorDisplayLib/DancingBarsSettings.cc:87
-#: rc.cpp:24
-#: rc.cpp:75
+#: SensorDisplayLib/DancingBarsSettings.cc:87 rc.cpp:24 rc.cpp:75
 #, no-c-format
 msgid "Alarm for Minimum Value"
 msgstr "Alarm dlô minimalny wôrtnotë"
@@ -906,41 +897,31 @@ msgid "Enable alarm"
 msgstr "Włączë alarm"
 
 #. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 92
-#: SensorDisplayLib/DancingBarsSettings.cc:92
-#: rc.cpp:30
-#: rc.cpp:81
+#: SensorDisplayLib/DancingBarsSettings.cc:92 rc.cpp:30 rc.cpp:81
 #, no-c-format
 msgid "Enable the minimum value alarm."
 msgstr "Aktiwùjë minimaną wôrtnotã alarmù."
 
 #. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 120
-#: SensorDisplayLib/DancingBarsSettings.cc:95
-#: rc.cpp:33
-#: rc.cpp:84
+#: SensorDisplayLib/DancingBarsSettings.cc:95 rc.cpp:33 rc.cpp:84
 #, no-c-format
 msgid "Lower limit:"
 msgstr "Dolnô greńca:"
 
 #. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 144
-#: SensorDisplayLib/DancingBarsSettings.cc:105
-#: rc.cpp:36
-#: rc.cpp:63
+#: SensorDisplayLib/DancingBarsSettings.cc:105 rc.cpp:36 rc.cpp:63
 #, no-c-format
 msgid "Alarm for Maximum Value"
 msgstr "Alarm dlô maksymalny wôrtnotë"
 
 #. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 158
-#: SensorDisplayLib/DancingBarsSettings.cc:110
-#: rc.cpp:42
-#: rc.cpp:69
+#: SensorDisplayLib/DancingBarsSettings.cc:110 rc.cpp:42 rc.cpp:69
 #, no-c-format
 msgid "Enable the maximum value alarm."
 msgstr "Aktiwùjë maksymalną wôrtnotã alarmù."
 
 #. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 186
-#: SensorDisplayLib/DancingBarsSettings.cc:113
-#: rc.cpp:45
-#: rc.cpp:72
+#: SensorDisplayLib/DancingBarsSettings.cc:113 rc.cpp:45 rc.cpp:72
 #, no-c-format
 msgid "Upper limit:"
 msgstr "Górnô grëńca:"
@@ -958,8 +939,14 @@ msgid "Out-of-range color:"
 msgstr "Fara pòza krézã:"
 
 #: SensorDisplayLib/DancingBarsSettings.cc:154
-msgid "This determines the size of the font used to print a label underneath the bars. Bars are automatically suppressed if text becomes too large, so it is advisable to use a small font size here."
-msgstr "To òpisëjë miarã fòntu ùżëtégò w etikece niżi stołpków. Stołpczi są aùtomatno zmnészóné, eżlë tekst etiketë je za wiôldżi, téj wsôzóné je brëkòwóné w tim przëtrôfkù môłëch fòntów."
+msgid ""
+"This determines the size of the font used to print a label underneath the bars. "
+"Bars are automatically suppressed if text becomes too large, so it is advisable "
+"to use a small font size here."
+msgstr ""
+"To òpisëjë miarã fòntu ùżëtégò w etikece niżi stołpków. Stołpczi są aùtomatno "
+"zmnészóné, eżlë tekst etiketë je za wiôldżi, téj wsôzóné je brëkòwóné w tim "
+"przëtrôfkù môłëch fòntów."
 
 #: SensorDisplayLib/DancingBarsSettings.cc:161
 #: SensorDisplayLib/FancyPlotterSettings.cc:224
@@ -1049,8 +1036,14 @@ msgid "Automatic range detection"
 msgstr "Aùtomatny wëbiérk krézu"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:86
-msgid "Check this box if you want the display range to adapt dynamically to the currently displayed values; if you do not check this, you have to specify the range you want in the fields below."
-msgstr "Zaznaczë tã òptacëjã, eżlë chcesz, abë wielgòsc dijagramù dinamiczno dopasowała sã do wëskrzëniwónëch na nim wôrtnotów. Eżlë nie zaznaczësz ti òptacëji, nót je pòdac kréz w pòlach niżi."
+msgid ""
+"Check this box if you want the display range to adapt dynamically to the "
+"currently displayed values; if you do not check this, you have to specify the "
+"range you want in the fields below."
+msgstr ""
+"Zaznaczë tã òptacëjã, eżlë chcesz, abë wielgòsc dijagramù dinamiczno dopasowała "
+"sã do wëskrzëniwónëch na nim wôrtnotów. Eżlë nie zaznaczësz ti òptacëji, nót je "
+"pòdac kréz w pòlach niżi."
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:111
 msgid "Horizontal Scale"
@@ -1074,7 +1067,8 @@ msgstr "Wertikalné rézë"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:134
 msgid "Check this to activate the vertical lines if display is large enough."
-msgstr "Zaznaczë, eżlë chcesz włączëc wertikalné rézë, czëdë dijagram mdze za wiôldżi."
+msgstr ""
+"Zaznaczë, eżlë chcesz włączëc wertikalné rézë, czëdë dijagram mdze za wiôldżi."
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:137
 msgid "Distance:"
@@ -1094,7 +1088,9 @@ msgstr "Hòrizontalné rézë"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:151
 msgid "Check this to enable horizontal lines if display is large enough."
-msgstr "Zaznaczë, żelë chcesz włączëc hòriznotalné rézë, czedë dijagram mdze za wiôldżi."
+msgstr ""
+"Zaznaczë, żelë chcesz włączëc hòriznotalné rézë, czedë dijagram mdze za "
+"wiôldżi."
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:154
 msgid "Count:"
@@ -1105,8 +1101,7 @@ msgid "Enter the number of horizontal lines here."
 msgstr "Wprowadzë lëczbã hòrizontalnëch rézów."
 
 #. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 35
-#: SensorDisplayLib/FancyPlotterSettings.cc:168
-#: rc.cpp:141
+#: SensorDisplayLib/FancyPlotterSettings.cc:168 rc.cpp:141
 #, no-c-format
 msgid "Text"
 msgstr "Tekst"
@@ -1116,7 +1111,9 @@ msgid "Labels"
 msgstr "Eticzétë"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:173
-msgid "Check this box if horizontal lines should be decorated with the values they mark."
+msgid ""
+"Check this box if horizontal lines should be decorated with the values they "
+"mark."
 msgstr "Zaznaczë, żelë przë hòrizontalnëch rézach mô zjôwic sã wôrtnota."
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:185
@@ -1124,15 +1121,16 @@ msgid "Top bar"
 msgstr "Przédny stołpk"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:186
-msgid "Check this to active the display title bar. This is probably only useful for applet displays. The bar is only visible if the display is large enough."
-msgstr "Zaznaczë, żelë chcesz włączëc titel. Je to ùżëtné blós w przëtrôfkù apletówëch wëzdrzatków."
+msgid ""
+"Check this to active the display title bar. This is probably only useful for "
+"applet displays. The bar is only visible if the display is large enough."
+msgstr ""
+"Zaznaczë, żelë chcesz włączëc titel. Je to ùżëtné blós w przëtrôfkù apletówëch "
+"wëzdrzatków."
 
 #. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 206
-#: SensorDisplayLib/FancyPlotterSettings.cc:193
-#: rc.cpp:87
-#: rc.cpp:105
-#: rc.cpp:123
-#: rc.cpp:147
+#: SensorDisplayLib/FancyPlotterSettings.cc:193 rc.cpp:87 rc.cpp:105
+#: rc.cpp:123 rc.cpp:147
 #, no-c-format
 msgid "Colors"
 msgstr "Farwë"
@@ -1165,8 +1163,7 @@ msgstr "Przesënie w górã"
 msgid "Move Down"
 msgstr "Przesënie w dół"
 
-#: SensorDisplayLib/SensorLogger.cc:151
-#: SensorDisplayLib/SensorLoggerDlg.cc:28
+#: SensorDisplayLib/SensorLogger.cc:151 SensorDisplayLib/SensorLoggerDlg.cc:28
 msgid "Sensor Logger"
 msgstr "Registrator ùzérôcza"
 
@@ -1174,13 +1171,11 @@ msgstr "Registrator ùzérôcza"
 msgid "Launch &System Guard"
 msgstr "Zrëszë &Starżnika systemë"
 
-#: SensorDisplayLib/SensorDisplay.cc:166
-#: SensorDisplayLib/SensorLogger.cc:380
+#: SensorDisplayLib/SensorDisplay.cc:166 SensorDisplayLib/SensorLogger.cc:380
 msgid "&Properties"
 msgstr "&Swòjnotë"
 
-#: SensorDisplayLib/SensorDisplay.cc:167
-#: SensorDisplayLib/SensorLogger.cc:381
+#: SensorDisplayLib/SensorDisplay.cc:167 SensorDisplayLib/SensorLogger.cc:381
 msgid "&Remove Display"
 msgstr "&Rëmôj dijagram"
 
@@ -1197,16 +1192,25 @@ msgid "P&ause Update"
 msgstr "&Paùzowanié òdswiéżania"
 
 #: SensorDisplayLib/SensorDisplay.cc:240
-msgid "<qt><p>This is a sensor display. To customize a sensor display click and hold the right mouse button on either the frame or the display box and select the <i>Properties</i> entry from the popup menu. Select <i>Remove</i> to delete the display from the worksheet.</p>%1</qt>"
-msgstr "<qt><p>To je dijagram pòdôwków òdczëtónëch z ùzérôcza. Abë zmienic dijagram, klëkni ë trzëmôj prawą knąpã mëszë na ramie abò na dijagramie ë wëbiérzë <i>Swòjnotë</i> z kòntekstowégò menu. Wëbiérzë <i>Rëmôj</i>, abë rëmnąc dijagramã z wëzdrzatkù.</p>%1</qt>"
+msgid ""
+"<qt>"
+"<p>This is a sensor display. To customize a sensor display click and hold the "
+"right mouse button on either the frame or the display box and select the <i>"
+"Properties</i> entry from the popup menu. Select <i>Remove</i> "
+"to delete the display from the worksheet.</p>%1</qt>"
+msgstr ""
+"<qt>"
+"<p>To je dijagram pòdôwków òdczëtónëch z ùzérôcza. Abë zmienic dijagram, klëkni "
+"ë trzëmôj prawą knąpã mëszë na ramie abò na dijagramie ë wëbiérzë <i>"
+"Swòjnotë</i> z kòntekstowégò menu. Wëbiérzë <i>Rëmôj</i>"
+", abë rëmnąc dijagramã z wëzdrzatkù.</p>%1</qt>"
 
 #: SensorDisplayLib/SensorLogger.cc:136
 msgid "Logging"
 msgstr "Registerowanié"
 
 #. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 48
-#: SensorDisplayLib/SensorLogger.cc:137
-#: rc.cpp:18
+#: SensorDisplayLib/SensorLogger.cc:137 rc.cpp:18
 #, no-c-format
 msgid "Timer Interval"
 msgstr "Sztoper"
@@ -1240,8 +1244,7 @@ msgid "S&tart Logging"
 msgstr "&Nacznie registerowóné"
 
 #. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 94
-#: SensorDisplayLib/LogFile.cc:88
-#: rc.cpp:150
+#: SensorDisplayLib/LogFile.cc:88 rc.cpp:150
 #, no-c-format
 msgid "Foreground color:"
 msgstr "Pierszoplanowô farwa:"
@@ -1283,8 +1286,14 @@ msgid "Drop Sensor Here"
 msgstr "Pùszczë tuwò ùzérôcz"
 
 #: SensorDisplayLib/DummyDisplay.cc:38
-msgid "This is an empty space in a worksheet. Drag a sensor from the Sensor Browser and drop it here. A sensor display will appear that allows you to monitor the values of the sensor over time."
-msgstr "To je wòlny môl na robòczi bòdze. Chwôce ùzérôcz z przezérnika ùzérôczów ë pùszczë gò w tim môlu. Zjôwi sã prezentacëjô wôrtnotów dostowónych z tegò ùzérôcza w czase."
+msgid ""
+"This is an empty space in a worksheet. Drag a sensor from the Sensor Browser "
+"and drop it here. A sensor display will appear that allows you to monitor the "
+"values of the sensor over time."
+msgstr ""
+"To je wòlny môl na robòczi bòdze. Chwôce ùzérôcz z przezérnika ùzérôczów ë "
+"pùszczë gò w tim môlu. Zjôwi sã prezentacëjô wôrtnotów dostowónych z tegò "
+"ùzérôcza w czase."
 
 #: SensorDisplayLib/ProcessController.cc:54
 msgid "Name"
@@ -1424,15 +1433,13 @@ msgid "Invalid argument."
 msgstr "Zmiłkòwi argùment."
 
 #. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 89
-#: rc.cpp:27
-#: rc.cpp:78
+#: rc.cpp:27 rc.cpp:78
 #, no-c-format
 msgid "&Enable alarm"
 msgstr "&Włączë alarm"
 
 #. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 155
-#: rc.cpp:39
-#: rc.cpp:66
+#: rc.cpp:39 rc.cpp:66
 #, no-c-format
 msgid "E&nable alarm"
 msgstr "Włą&czë alarm"
@@ -1462,8 +1469,7 @@ msgid "Alarm digit color:"
 msgstr "Farwa cyfrë alarmù:"
 
 #. i18n: file ./SensorDisplayLib/ListViewSettingsWidget.ui line 82
-#: rc.cpp:108
-#: rc.cpp:126
+#: rc.cpp:108 rc.cpp:126
 #, no-c-format
 msgid "Text color:"
 msgstr "Farwa tekstu:"
@@ -1542,14 +1548,21 @@ msgstr "Wprowadzë w tim môlu titel bòdżi."
 msgid "&Dancing Bars"
 msgstr "&Rëchającé sã stołpczi"
 
-#: KSysGuardApplet.cc:242
-#: KSysGuardApplet.cc:394
-msgid "The KSysGuard applet does not support displaying of this type of sensor. Please choose another sensor."
-msgstr "Aplet KSysGuard nie ùmòżebniô zòbrôzowaniô pòdôwków ladowónëch z tegò ôrtu ùzérôcza. Wëbiérzë jiny ùzérôcz."
+#: KSysGuardApplet.cc:242 KSysGuardApplet.cc:394
+msgid ""
+"The KSysGuard applet does not support displaying of this type of sensor. Please "
+"choose another sensor."
+msgstr ""
+"Aplet KSysGuard nie ùmòżebniô zòbrôzowaniô pòdôwków ladowónëch z tegò ôrtu "
+"ùzérôcza. Wëbiérzë jiny ùzérôcz."
 
 #: KSysGuardApplet.cc:334
-msgid "The file %1 does not contain a valid applet definition, which must have a document type 'KSysGuardApplet'."
-msgstr "Lopk %1 nie zamëkô bezzmiłkòwégò òpisënkù apleta, chtërnegò ôrt mùszi miec wôrtnotã 'KSysGuardApplet'."
+msgid ""
+"The file %1 does not contain a valid applet definition, which must have a "
+"document type 'KSysGuardApplet'."
+msgstr ""
+"Lopk %1 nie zamëkô bezzmiłkòwégò òpisënkù apleta, chtërnegò ôrt mùszi miec "
+"wôrtnotã 'KSysGuardApplet'."
 
 #: KSysGuardApplet.cc:488
 msgid "Drag sensors from the KDE System Guard into this cell."
@@ -1568,8 +1581,18 @@ msgid "Drag sensors to empty cells of a worksheet or the panel applet."
 msgstr "Przecygni ùzérôczë na wòlny plac robòczy bòdżi abò apletu na panelu."
 
 #: SensorBrowser.cc:88
-msgid "The sensor browser lists the connected hosts and the sensors that they provide. Click and drag sensors into drop zones of a worksheet or the panel applet. A display will appear that visualizes the values provided by the sensor. Some sensor displays can display values of multiple sensors. Simply drag other sensors on to the display to add more sensors."
-msgstr "Lësta ùzérôczów ùprzistãpniónëch przez pòdłączoné kòmpùtrë. Klëkni ë przëcygni ùzérôcz na wòlny plac robòczy bòdżi abò apletu na panelu. Zjôwi sã wëzdrzatk pòkôzujący pòdôwczi ladowóné przez ùzérôcz. Niechtërné wëzdrzatczi mògą jednoczasno òbrôzowac pòdôwczi z czilu ùzérôczów. Zwëkòwò przecygni zôstné ùzérôczë, abë dodac je do wëzdrzatkù."
+msgid ""
+"The sensor browser lists the connected hosts and the sensors that they provide. "
+"Click and drag sensors into drop zones of a worksheet or the panel applet. A "
+"display will appear that visualizes the values provided by the sensor. Some "
+"sensor displays can display values of multiple sensors. Simply drag other "
+"sensors on to the display to add more sensors."
+msgstr ""
+"Lësta ùzérôczów ùprzistãpniónëch przez pòdłączoné kòmpùtrë. Klëkni ë przëcygni "
+"ùzérôcz na wòlny plac robòczy bòdżi abò apletu na panelu. Zjôwi sã wëzdrzatk "
+"pòkôzujący pòdôwczi ladowóné przez ùzérôcz. Niechtërné wëzdrzatczi mògą "
+"jednoczasno òbrôzowac pòdôwczi z czilu ùzérôczów. Zwëkòwò przecygni zôstné "
+"ùzérôczë, abë dodac je do wëzdrzatkù."
 
 #: SensorBrowser.cc:148
 msgid "Drag sensors to empty fields in a worksheet."
@@ -1579,8 +1602,7 @@ msgstr "Przecygnij ùzérôczë na wòlny placë robòczy bòdżi."
 msgid "KDE system guard"
 msgstr "Starżnik systemë KDE"
 
-#: ksysguard.cc:74
-#: ksysguard.cc:556
+#: ksysguard.cc:74 ksysguard.cc:556
 msgid "KDE System Guard"
 msgstr "KDE Starżnik Systemë"
 
@@ -1691,4 +1713,3 @@ msgstr ""
 "Òbsłëga Solaris\n"
 "Dzélczi pòchòdającé (za pòzwòleniém) z mòduła\n"
 "sunos5 nôrzãdza \"top\" Williama LeFebvre'a."
-
