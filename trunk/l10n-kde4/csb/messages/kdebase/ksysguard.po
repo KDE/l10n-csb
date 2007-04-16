@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2007-04-06 05:51+0200\n"
-"PO-Revision-Date: 2007-03-19 17:20+0100\n"
+"PO-Revision-Date: 2007-03-24 15:59+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
 "MIME-Version: 1.0\n"
@@ -21,9 +21,9 @@ msgid "Cannot open the file %1."
 msgstr "Nie mòże òtemknąc lopkù %1."
 
 #: WorkSheet.cc:100 KSysGuardApplet.cc:314
-#, fuzzy, qt-format
+#, qt-format
 msgid "The file %1 does not contain valid XML."
-msgstr "Lopk %a zamëkô w se zmiłkòwi fòrmat XML."
+msgstr "Lopk %1 zamëkô w se zmiłkòwi fòrmat XML."
 
 #: WorkSheet.cc:107
 #, qt-format
@@ -1004,7 +1004,7 @@ msgid ""
 "popup menu. Select <i>Remove</i> to delete the display from the worksheet.</"
 "p>%1</qt>"
 msgstr ""
-"<qt><p>To je dijagra pòdôwków òdczëtónëch z ùzérôcza. Abë zmienic dijagram, "
+"<qt><p>To je dijagram pòdôwków òdczëtónëch z ùzérôcza. Abë zmienic dijagram, "
 "klëkni ë trzëmôj prawą knąpã mëszë na ramie abò na dijagramie ë wëbiérzë "
 "<i>Swòjnotë</i> z kòntekstowégò menu. Wëbiérzë <i>Rëmôj</i>, abë rëmnąc "
 "dijagramã z wëzdrzatkù.</p>%1</qt>"
@@ -1069,7 +1069,6 @@ msgstr "Eticzéta"
 
 #: SensorDisplayLib/LogFile.cc:85
 #, fuzzy
-#| msgid "Log File Settings"
 msgid "File logging settings"
 msgstr "Ùstôwë lopkù log"
 
@@ -1177,7 +1176,6 @@ msgstr ""
 #. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 25
 #: rc.cpp:53
 #, fuzzy
-#| msgid "Title"
 msgid "&Title"
 msgstr "Titel"
 
@@ -1197,7 +1195,6 @@ msgstr "Pò&kôżë jednotã"
 #. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 85
 #: rc.cpp:71
 #, fuzzy
-#| msgid "Lower limit:"
 msgid "Lo&wer limit:"
 msgstr "Dolnô greńca:"
 
@@ -1205,7 +1202,6 @@ msgstr "Dolnô greńca:"
 #. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 144
 #: rc.cpp:80
 #, fuzzy
-#| msgid "Upper limit:"
 msgid "&Upper limit:"
 msgstr "Górnô grëńca:"
 
@@ -1245,7 +1241,6 @@ msgstr "Farwa alarmù:"
 #. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 23
 #: rc.cpp:125
 #, fuzzy
-#| msgid "Text"
 msgid "&Text"
 msgstr "Tekst"
 
@@ -1253,7 +1248,6 @@ msgstr "Tekst"
 #. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 31
 #: rc.cpp:128
 #, fuzzy
-#| msgid "Title"
 msgid "T&itle"
 msgstr "Titel"
 
@@ -1261,7 +1255,6 @@ msgstr "Titel"
 #. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 149
 #: rc.cpp:137
 #, fuzzy
-#| msgid "Filter"
 msgid "Fi&lter"
 msgstr "Filter"
 
@@ -1421,7 +1414,7 @@ msgstr "&Swòjnotë robòczy bòdżi"
 #: ksysguard.cc:387
 #, fuzzy, qt-format
 msgid " %1 processes "
-msgstr "Swòjé procesë"
+msgstr "Wszëtczé procesë"
 
 #: ksysguard.cc:392
 #, fuzzy, qt-format
@@ -1466,510 +1459,3 @@ msgstr ""
 "Dzélczi pòchòdającé (za pòzwòleniém) z mòduła\n"
 "sunos5 nôrzãdza \"top\" Williama LeFebvre'a."
 
-#, fuzzy
-#~ msgctxt "process status"
-#~ msgid "paging"
-#~ msgstr "Registerowanié"
-
-#, fuzzy
-#~ msgctxt "process status"
-#~ msgid "idle"
-#~ msgstr "Titel"
-
-#, fuzzy
-#~ msgid "User ID: %1"
-#~ msgstr "Brëkòwnik%"
-
-#, fuzzy
-#~ msgctxt "process heading"
-#~ msgid "User Name"
-#~ msgstr "Miono ùzérôcza"
-
-#, fuzzy
-#~ msgctxt "process heading"
-#~ msgid "CPU %"
-#~ msgstr "Procesor%1"
-
-#, fuzzy
-#~ msgctxt "process heading"
-#~ msgid "Virtual Size"
-#~ msgstr "Wertikalné rézë"
-
-#, fuzzy
-#~ msgctxt "process heading"
-#~ msgid "Memory"
-#~ msgstr "Pamiãc"
-
-#, fuzzy
-#~ msgctxt "process heading"
-#~ msgid "Shared Mem"
-#~ msgstr "Pòdrãcznô pamiãc"
-
-#, fuzzy
-#~ msgctxt "process heading"
-#~ msgid "Command"
-#~ msgstr "Pòlét"
-
-#, fuzzy
-#~ msgctxt "process heading"
-#~ msgid "Name"
-#~ msgstr "Miono"
-
-#, fuzzy
-#~ msgctxt "process heading"
-#~ msgid "Graphics Memory"
-#~ msgstr "Pamiãc wëmianë"
-
-#, fuzzy
-#~ msgctxt "process heading"
-#~ msgid "Application"
-#~ msgstr "Pamiãc programë"
-
-#~ msgid "Renice Process"
-#~ msgstr "Zmieni pioritet procesu"
-
-#, fuzzy
-#~ msgid "Renice process"
-#~ msgstr "Zmieni pioritet procesu"
-
-#, fuzzy
-#~ msgid "Kill process"
-#~ msgstr "Zabijë procesë"
-
-#, fuzzy
-#~ msgid "Hide column '%1'"
-#~ msgstr "Zatacë kòlumnã"
-
-#, fuzzy
-#~ msgid "Show column '%1'"
-#~ msgstr "Pòkôżë kòlumnã"
-
-#~ msgid "%1: Running Processes"
-#~ msgstr "%1:Dzejającé procesë"
-
-#~ msgid "You need to select a process first."
-#~ msgstr "Nót je nôpierwi zaznaczëc proces."
-
-#, fuzzy
-#~ msgid "Do you want to kill the selected process?"
-#~ msgid_plural "Do you want to kill the %1 selected processes?"
-#~ msgstr[0] ""
-#~ "Czë chcesz zakùńczëc wëbróny proces?\n"
-#~ "Czë chcesz zakùńczëc %n wëbróné procesë?\n"
-#~ "Czë chcesz zakùńczëc %n wëbrónëch procesów?"
-#~ msgstr[1] ""
-#~ "Czë chcesz zakùńczëc wëbróny proces?\n"
-#~ "Czë chcesz zakùńczëc %n wëbróné procesë?\n"
-#~ "Czë chcesz zakùńczëc %n wëbrónëch procesów?"
-#~ msgstr[2] ""
-#~ "Czë chcesz zakùńczëc wëbróny proces?\n"
-#~ "Czë chcesz zakùńczëc %n wëbróné procesë?\n"
-#~ "Czë chcesz zakùńczëc %n wëbrónëch procesów?"
-
-#~ msgid "Kill Process"
-#~ msgstr "Zabijë procesë"
-
-#~ msgid "Kill"
-#~ msgstr "Zabijë"
-
-#~ msgid "Error while attempting to kill process %1."
-#~ msgstr "Felô òbczas zakùńczeniô procesu %1."
-
-#~ msgid "Process %1 has already disappeared."
-#~ msgstr "Proces %1 nie òbstoji."
-
-#~ msgid "Invalid Signal."
-#~ msgstr "Zmiłkòwi sygnał."
-
-#, fuzzy
-#~ msgid "Error while attempting to renice process."
-#~ msgstr "Fela òbczas próbë zmianë prioriteta procesu %1."
-
-#, fuzzy
-#~ msgid "Insufficient permissions to renice process"
-#~ msgstr "Felënk praw do zmianë prioriteta procesu %1."
-
-#, fuzzy
-#~ msgid "Process has disappeared."
-#~ msgstr "Proces %1 nie òbstoji."
-
-#~ msgid "Error while attempting to renice process %1."
-#~ msgstr "Fela òbczas próbë zmianë prioriteta procesu %1."
-
-#, fuzzy
-#~ msgid "Process %1 has disappeared."
-#~ msgstr "Proces %1 nie òbstoji."
-
-#, fuzzy
-#~ msgid "All Processes, Simple"
-#~ msgstr "Wszëtczé procesë"
-
-#, fuzzy
-#~ msgid "All Processes, Hierarchical"
-#~ msgstr "Wszëtczé procesë"
-
-#~ msgid "System Processes"
-#~ msgstr "Systemòwé procesë"
-
-#~ msgid "User Processes"
-#~ msgstr "Procesë brëkòwnika"
-
-#~ msgid "Own Processes"
-#~ msgstr "Swòjé procesë"
-
-#, fuzzy
-#~ msgid "Show &Totals"
-#~ msgstr "Pòkôżë kòlumnã"
-
-#~ msgid "Global Style Settings"
-#~ msgstr "Òglowé ùstôwë sztélu"
-
-#~ msgid "Display Style"
-#~ msgstr "Sztél wëzdrzatkù"
-
-#~ msgid "First foreground color:"
-#~ msgstr "Pierszô pierszoplanowô farwa:"
-
-#~ msgid "Second foreground color:"
-#~ msgstr "Drëgô pierszoplanowô farwa:"
-
-#~ msgid "Sensor Colors"
-#~ msgstr "Farwa ùzérôcza"
-
-#~ msgid "Change Color..."
-#~ msgstr "Zmieni farwã..."
-
-#~ msgid "Color %1"
-#~ msgstr "Farwa %1"
-
-#, fuzzy
-#~ msgid "Font"
-#~ msgstr "Wôrtnota:"
-
-#~ msgid "Select Font..."
-#~ msgstr "Wëbiérzë fònt..."
-
-#, fuzzy
-#~ msgid "&Cancel"
-#~ msgstr "&Zmieni"
-
-#~ msgid "Configure &Style..."
-#~ msgstr "Kònfigùracëjô &sztélu..."
-
-#~ msgid "It is impossible to connect to '%1'."
-#~ msgstr "Pòłączenié z '%1' nie je mòżlewé."
-
-#~ msgid "S&ensorLogger"
-#~ msgstr "Re&gistratora ùzérôcza"
-
-#~ msgid "Idle Load"
-#~ msgstr "Òbladowanié przë nierobnëch procesach"
-
-#~ msgid ""
-#~ "_: CPU Load\n"
-#~ "Load"
-#~ msgstr "Òbladowanié"
-
-#~ msgid ""
-#~ "_: the unit 1 per second\n"
-#~ "1/s"
-#~ msgstr "1/s"
-
-#~ msgid ""
-#~ "_: the unit minutes\n"
-#~ "min"
-#~ msgstr "min"
-
-#~ msgid ""
-#~ "_: the frequency unit\n"
-#~ "MHz"
-#~ msgstr "MHz"
-
-#~ msgid "Timeout at host %1"
-#~ msgstr "Narëszenié czasu òdczëtu z kòmpùtra %1"
-
-#~ msgid "Network failure host %1"
-#~ msgstr "Felô sécë - kòmpùtr %1"
-
-#~ msgid ""
-#~ "_: NAME OF TRANSLATORS\n"
-#~ "Your names"
-#~ msgstr "Michôł Òstrowsczi"
-
-#~ msgid ""
-#~ "_: EMAIL OF TRANSLATORS\n"
-#~ "Your emails"
-#~ msgstr "michol@linuxcsb.org"
-
-#~ msgid "Process Table"
-#~ msgstr "Tabela procesów"
-
-#~ msgid "Save Current Worksheet As"
-#~ msgstr "Zapiszë biéżną robòczą bògã jakno"
-
-#~ msgid "Cannot find file ProcessTable.sgrd."
-#~ msgstr "Nie mòże nalezc lopkù ProcessTable.sgrd."
-
-#~ msgid ""
-#~ "_: process status\n"
-#~ "running"
-#~ msgstr "dzejający"
-
-#~ msgid ""
-#~ "_: process status\n"
-#~ "sleeping"
-#~ msgstr "ùspiony"
-
-#~ msgid ""
-#~ "_: process status\n"
-#~ "disk sleep"
-#~ msgstr "ùspiony disk"
-
-#~ msgid ""
-#~ "_: process status\n"
-#~ "zombie"
-#~ msgstr "zombi"
-
-#~ msgid ""
-#~ "_: process status\n"
-#~ "stopped"
-#~ msgstr "zatrzëmóny"
-
-#~ msgid ""
-#~ "_: process status\n"
-#~ "paging"
-#~ msgstr "stronicowóny"
-
-#~ msgid ""
-#~ "_: process status\n"
-#~ "idle"
-#~ msgstr "nierobny"
-
-#~ msgid "Remove Column"
-#~ msgstr "Rëmôj kòlumnã"
-
-#~ msgid "Add Column"
-#~ msgstr "Dodôj kòlumnã"
-
-#~ msgid "Help on Column"
-#~ msgstr "Pòmòc w kòlumnie"
-
-#~ msgid "Nice"
-#~ msgstr "Prioritet"
-
-#~ msgid "Select All Processes"
-#~ msgstr "Zaznaczë wszëtczé procesë"
-
-#~ msgid "Unselect All Processes"
-#~ msgstr "Òdznaczë wszëtczé procesë"
-
-#~ msgid "Select All Child Processes"
-#~ msgstr "Zaznaczë wszëtczé òtroczné procesë"
-
-#~ msgid "Unselect All Child Processes"
-#~ msgstr "Òdznaczë wszëtczé òtroczné procesë"
-
-#~ msgid "SIGABRT"
-#~ msgstr "SIGABRT"
-
-#~ msgid "SIGALRM"
-#~ msgstr "SIGALRM"
-
-#~ msgid "SIGCHLD"
-#~ msgstr "SIGCHLD"
-
-#~ msgid "SIGCONT"
-#~ msgstr "SIGCONT"
-
-#~ msgid "SIGFPE"
-#~ msgstr "SIGFPE"
-
-#~ msgid "SIGHUP"
-#~ msgstr "SIGHUP"
-
-#~ msgid "SIGILL"
-#~ msgstr "SIGILL"
-
-#~ msgid "SIGINT"
-#~ msgstr "SIGINT"
-
-#~ msgid "SIGKILL"
-#~ msgstr "SIGKILL"
-
-#~ msgid "SIGPIPE"
-#~ msgstr "SIGPIPE"
-
-#~ msgid "SIGQUIT"
-#~ msgstr "SIGQUIT"
-
-#~ msgid "SIGSEGV"
-#~ msgstr "SIGSEGV"
-
-#~ msgid "SIGSTOP"
-#~ msgstr "SIGSTOP"
-
-#~ msgid "SIGTERM"
-#~ msgstr "SIGTERM"
-
-#~ msgid "SIGTSTP"
-#~ msgstr "SIGTSTP"
-
-#~ msgid "SIGTTIN"
-#~ msgstr "SIGTTIN"
-
-#~ msgid "SIGTTOU"
-#~ msgstr "SIGTTOU"
-
-#~ msgid "SIGUSR1"
-#~ msgstr "SIGUSR1"
-
-#~ msgid "SIGUSR2"
-#~ msgstr "SIGUSR2"
-
-#~ msgid "Send Signal"
-#~ msgstr "Wëslë sygnał"
-
-#~ msgid "Renice Process..."
-#~ msgstr "Zmieni prioritet procesu..."
-
-#~ msgid ""
-#~ "_n: Do you really want to send signal %1 to the selected process?\n"
-#~ "Do you really want to send signal %1 to the %n selected processes?"
-#~ msgstr ""
-#~ "Czë na gwës chcesz wësłac sygnał %1 do wëbrónégò procesa?\n"
-#~ "Czë na gwës chcesz wësłac sygnał %1 do %n wëbrónych procesów?\n"
-#~ "Czë na gwës chcesz wësłac sygnał %1 do %n wëbranych procesów?"
-
-#~ msgid "Send"
-#~ msgstr "Wëslë"
-
-#~ msgid "Style"
-#~ msgstr "Sztél"
-
-#~ msgid "Graph Drawing Style"
-#~ msgstr "Grafikòwi sztél"
-
-#~ msgid "Basic polygons"
-#~ msgstr "Pòdspòdlowé wielonórtë"
-
-#~ msgid "Original - single line per data point"
-#~ msgstr "Òridżinalnié - pòjedińczô réza na le jeden pùnkt"
-
-#~ msgid "&Setup Update Interval..."
-#~ msgstr "&Rozstãp midze òdswiéżaniama..."
-
-#~ msgid "&Continue Update"
-#~ msgstr "&Kòntinuòwanié òdswiéżania"
-
-#~ msgid "P&ause Update"
-#~ msgstr "&Paùzowanié òdswiéżania"
-
-#~ msgid ""
-#~ "You are about to change the scheduling priority of\n"
-#~ "process %1. Be aware that only the Superuser (root)\n"
-#~ "can decrease the nice level of a process. The lower\n"
-#~ "the number is the higher the priority.\n"
-#~ "\n"
-#~ "Please enter the desired nice level:"
-#~ msgstr ""
-#~ "Zmieniwôsz terô pioritet procesu %1. Nót je wiedzëc,\n"
-#~ "że blós sprôwnik mòże zmniészëc wôrtnotã prioriteta\n"
-#~ "procesu. Jim mniészô lëczbòwô wôrtnota, tim wikszi\n"
-#~ "prioritet.\n"
-#~ "\n"
-#~ "Wpiszë wôrtnotã prioriteta:"
-
-#~ msgid "PID"
-#~ msgstr "PID"
-
-#~ msgid "PPID"
-#~ msgstr "PPID"
-
-#~ msgid "UID"
-#~ msgstr "UID"
-
-#~ msgid "GID"
-#~ msgstr "GID"
-
-#~ msgid "VmSize"
-#~ msgstr "WiôlgòscPW"
-
-#~ msgid "VmRss"
-#~ msgstr "DostóncziPW"
-
-#~ msgid "Login"
-#~ msgstr "Identyfikatora"
-
-#~ msgid "&Tree"
-#~ msgstr "&Drzéwiã"
-
-#~ msgid "&Refresh"
-#~ msgstr "Òds&wieżë"
-
-#~ msgid "&Kill"
-#~ msgstr "Za&bijë"
-
-#~ msgid "Do not ask again"
-#~ msgstr "Nie pëtôj znowa"
-
-#~ msgid "Insufficient permissions to kill process %1."
-#~ msgstr "Felënk praw do zamkniãcô procesu %1."
-
-#~ msgid "Invalid argument."
-#~ msgstr "Zmiłkòwi argùment."
-
-#~ msgid "CPU"
-#~ msgstr "CPU"
-
-#~ msgid "Mem"
-#~ msgstr "Pam"
-
-#~ msgid "Sensor Type"
-#~ msgstr "Ôrt ùzérôcza"
-
-#~ msgid "Drag sensors to empty fields in a worksheet."
-#~ msgstr "Przecygnij ùzérôczë na wòlny placë robòczy bòdżi."
-
-#~ msgid "KDE system guard"
-#~ msgstr "Starżnik systemë KDE"
-
-#~ msgid "88888 Processes"
-#~ msgstr "88888 Procesë"
-
-#~ msgid "Memory: 88888888888 kB used, 88888888888 kB free"
-#~ msgstr "Pamiãc: 88888888888 kB użëtych, 88888888888 kB wòlnych"
-
-#~ msgid "Swap: 888888888 kB used, 888888888 kB free"
-#~ msgstr "Pamiãc wëmianë: 888888888 kB użëtych, 888888888 kB wòlnych"
-
-#~ msgid "&Import Recent Worksheet"
-#~ msgstr "&Impòrtëjë slédną robòczą bògã"
-
-#~ msgid "C&onnect Host..."
-#~ msgstr "&Pòłączë z kòmpùtrã..."
-
-#~ msgid "D&isconnect Host"
-#~ msgstr "&Rozłączë z kòmpùtrã"
-
-#~ msgid "Load Standard Sheets"
-#~ msgstr "Wladëjë sztandardowé bòdżi"
-
-#~ msgid "Reset All Worksheets"
-#~ msgstr "Przëwrócë wszëtczé robòczé bòdżi"
-
-#~ msgid "Reset"
-#~ msgstr "Przëwrócë"
-
-#~ msgid ""
-#~ "_n: 1 Process\n"
-#~ "%n Processes"
-#~ msgstr ""
-#~ "%n proces\n"
-#~ "%n procesë\n"
-#~ "%n procesów"
-
-#~ msgid "Memory: %1 %2 used, %3 %4 free"
-#~ msgstr "Pamiãc: %1 %2 użëtych, %3 %4 wòlnych"
-
-#~ msgid "Swap: %1 %2 used, %3 %4 free"
-#~ msgstr "Pamiãc wëmianë: %1 %2 użëtych, %3 %4 wòlnych"
