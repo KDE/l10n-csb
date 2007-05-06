@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-05-01 05:47+0200\n"
+"POT-Creation-Date: 2007-05-06 05:47+0200\n"
 "PO-Revision-Date: 2007-02-18 20:28+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -16,1455 +16,2200 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
-#: SessionManager.cpp:138 konsole.cpp:3338
-#, fuzzy, qt-format
-msgid "New %1"
-msgstr "Nowé "
+#: ColorScheme.cpp:151
+msgid "Un-named Color Scheme"
+msgstr ""
 
-#: TESession.cpp:201
+#: ColorSchemeEditor.cpp:75
+msgid "Name"
+msgstr ""
+
+#: ColorSchemeEditor.cpp:75
+#, fuzzy
+#| msgid "VIM Colors"
+msgid "Color"
+msgstr "Farwë VIM"
+
+#: EditProfileDialog.cpp:246
+msgid "Select Initial Directory"
+msgstr ""
+
+#: EditProfileDialog.cpp:434 EditProfileDialog.cpp:443
+msgid "New Color Scheme"
+msgstr ""
+
+#: EditProfileDialog.cpp:436
+msgid "Edit Color Scheme"
+msgstr ""
+
+#: EditProfileDialog.cpp:559 EditProfileDialog.cpp:568
+msgid "New Key Binding List"
+msgstr ""
+
+#: EditProfileDialog.cpp:561
+msgid "Edit Key Binding List"
+msgstr ""
+
+#: EditProfileDialog.cpp:807
+msgid "Use Color Scheme"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 176
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 317
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 470
+#: EditProfileDialog.cpp:808 rc.cpp:63 rc.cpp:120 rc.cpp:174
+#, fuzzy
+msgid "Edit..."
+msgstr "&Editëjë..."
+
+#: EditTabTitleFormatDialog.cpp:31
+msgid "Program Name"
+msgstr ""
+
+#: EditTabTitleFormatDialog.cpp:32 EditTabTitleFormatDialog.cpp:39
+msgid "Profile Name"
+msgstr ""
+
+#: EditTabTitleFormatDialog.cpp:33
+msgid "Current Directory (Short)"
+msgstr ""
+
+#: EditTabTitleFormatDialog.cpp:34
+#, fuzzy
+msgid "Current Directory (Long)"
+msgstr "Zmieni robòczy katalog na 'dir'"
+
+#: EditTabTitleFormatDialog.cpp:40
+msgid "User Name"
+msgstr ""
+
+#: EditTabTitleFormatDialog.cpp:41
+msgid "Remote Host (Short)"
+msgstr ""
+
+#: EditTabTitleFormatDialog.cpp:42
+msgid "Remote Host (Long)"
+msgstr ""
+
+#: EditTabTitleFormatDialog.cpp:50
+msgid "Edit Tab Title Format"
+msgstr ""
+
+#: Filter.cpp:430
+#, qt-format
+msgid "Click to open '%1' in your browser."
+msgstr ""
+
+#: Filter.cpp:432
+#, qt-format
+msgid "Click to send an email to '%1'."
+msgstr ""
+
+#: Filter.cpp:521
+msgid "Open Link"
+msgstr ""
+
+#: Filter.cpp:522
+msgid "Copy Link Address"
+msgstr ""
+
+#: Filter.cpp:526
+msgid "Send Email To..."
+msgstr ""
+
+#: Filter.cpp:527
+msgid "Copy Email Address"
+msgstr ""
+
+#: HistorySizeDialog.cpp:45 SessionController.cpp:416
+#, fuzzy
+#| msgid "History Configuration"
+msgid "History Options"
+msgstr "Kònfigùracëjô historëji"
+
+#: HistorySizeDialog.cpp:58
+#, fuzzy
+#| msgid "Hist&ory..."
+msgid "No History"
+msgstr "Hist&orëjô..."
+
+#: HistorySizeDialog.cpp:59
+#, fuzzy
+#| msgid "&Find in History..."
+msgid "Fixed Size History"
+msgstr "&Naleze w historëji..."
+
+#: HistorySizeDialog.cpp:60
+#, fuzzy
+msgid "Unlimited History"
+msgstr "&Bez ògreńczeń"
+
+#: HistorySizeDialog.cpp:80
+msgid "lines"
+msgstr ""
+
+#: IncrementalSearchBar.cpp:57
+msgid "Find"
+msgstr "Naleze"
+
+#: IncrementalSearchBar.cpp:79
+msgid "Next"
+msgstr ""
+
+#: IncrementalSearchBar.cpp:88
+#, fuzzy
+#| msgid "Find Pre&vious"
+msgid "Previous"
+msgstr "Naleze &pòprzédny"
+
+#: IncrementalSearchBar.cpp:97
+msgid "Highlight all"
+msgstr ""
+
+#: IncrementalSearchBar.cpp:107
+msgid "Match Case"
+msgstr ""
+
+#: IncrementalSearchBar.cpp:115
+msgid "Match Regular Expression"
+msgstr ""
+
+#: IncrementalSearchBar.cpp:240
+msgid "Search reached bottom, continued from top."
+msgstr ""
+
+#: IncrementalSearchBar.cpp:245
+msgid "Search reached top, continued from bottom."
+msgstr ""
+
+#: KeyBindingEditor.cpp:44
+#, fuzzy
+#| msgid "Close Confirmation"
+msgid "Key Combination"
+msgstr "Pòcwierdzenié zamkniãcô"
+
+#: KeyBindingEditor.cpp:44
+#, fuzzy
+#| msgid "&Encoding"
+msgid "Binding"
+msgstr "&Kòdowanié"
+
+#: MainWindow.cpp:144
+msgid "New &Tab"
+msgstr ""
+
+#: MainWindow.cpp:150
+#, fuzzy
+#| msgid "New Sess&ion"
+msgid "New &Window"
+msgstr "&Nowô sesëjô"
+
+#: MainWindow.cpp:155
+#, fuzzy
+#| msgid "Save Sessions &Profile..."
+msgid "New from Profile..."
+msgstr "Zapiszë nastôwë &profilu..."
+
+#: MainWindow.cpp:159
+#, fuzzy
+#| msgid "Wor&d Connectors..."
+msgid "Remote Connection..."
+msgstr "&Zaznaczanié słów..."
+
+#: MainWindow.cpp:170
+#, fuzzy
+msgid "&Bookmarks"
+msgstr "Pòwłoka z załóżczi"
+
+#: MainWindow.cpp:179
+#, fuzzy
+msgid "Hide MenuBar"
+msgstr "Zatacë lëstew &menu"
+
+#: MainWindow.cpp:183
+msgid "&Merge Windows"
+msgstr ""
+
+#: MainWindow.cpp:191
+#, fuzzy
+#| msgid "Save Sessions &Profile..."
+msgid "Manage Profiles..."
+msgstr "Zapiszë nastôwë &profilu..."
+
+#: ManageProfilesDialog.cpp:196
+msgid "New Profile"
+msgstr ""
+
+#: PrintSettings.cpp:37
+#, fuzzy
+msgid "Options"
+msgstr "Òptacëje &kôrtów"
+
+#: PrintSettings.cpp:39
+msgid "Printer &friendly mode (black text, no background)"
+msgstr "&Trib drëszny dlô drëkëra (czôrny tekst, felënk spòdkù)"
+
+#: PrintSettings.cpp:41
+msgid "&Pixel for pixel"
+msgstr "&Piksel za piksel"
+
+#: PrintSettings.cpp:43
+msgid "Print &header"
+msgstr "Drëkùjë &nagłówk"
+
+#: RemoteConnectionDialog.cpp:39
+#, fuzzy
+#| msgid "Word Connectors"
+msgid "Connect"
+msgstr "Zaznaczanié słów"
+
+#: Session.cpp:146
+#, fuzzy
+#| msgid ""
+#| "Konsole is unable to open a PTY (pseudo teletype).  It is likely that "
+#| "this is due to an incorrect configuration of the PTY devices.  Konsole "
+#| "needs to have read/write access to the PTY devices."
 msgid ""
-"Konsole is unable to open a PTY (pseudo teletype).  It is likely that this "
-"is due to an incorrect configuration of the PTY devices.  Konsole needs to "
-"have read/write access to the PTY devices."
+"Konsole is unable to open a PTY (pseudo teletype).It is likely that this is "
+"due to an incorrect configurationof the PTY devices.  Konsole needs to have "
+"read/write accessto the PTY devices."
 msgstr ""
 "Kònsola nie bëła w sztądze òtemknąc ùrzãdzenia PTY. Gwësno je to sprawioné "
 "zmiłkòwą kònfigùracëjã ùrzãdzeniów PTY. Kònsola żãdô prawa òdczëtaniô ë "
 "zapisënkù do ùrzãdzeniów PTY."
 
-#: TESession.cpp:202
+#: Session.cpp:150
 msgid "A Fatal Error Has Occurred"
 msgstr "Wëstãpiła kriticznô fela"
 
-#: TESession.cpp:452
+#: Session.cpp:382
 #, qt-format
 msgid "Silence in session '%1'"
 msgstr "Cëchòsc w sesëji '%1'"
 
-#: TESession.cpp:471
+#: Session.cpp:399
 #, qt-format
 msgid "Bell in session '%1'"
 msgstr "Brzãczk w sesëji '%1'"
 
-#: TESession.cpp:482
+#: Session.cpp:410
 #, qt-format
 msgid "Activity in session '%1'"
 msgstr "Aktiwnota w sesëji '%1'"
 
-#: TESession.cpp:599
+#: Session.cpp:511
 msgid "<Finished>"
 msgstr "<Skùńczony>"
 
-#: TESession.cpp:608
+#: Session.cpp:520
 #, qt-format
 msgid "Session '%1' exited with status %2."
 msgstr "Sesëjô '%1' zakùńczëła dzejanié w stónie %2."
 
-#: TESession.cpp:612
+#: Session.cpp:524
 #, qt-format
 msgid "Session '%1' exited with signal %2 and dumped core."
 msgstr ""
 "Sesëjô '%1' zakùńczëła dzejanié sygnałã %2 ë òstawiła zdrzucënk pamiãcë."
 
-#: TESession.cpp:614
+#: Session.cpp:526
 #, qt-format
 msgid "Session '%1' exited with signal %2."
 msgstr "Sesëjô '%1' zakùńczëła dzejanié sygnałã %2."
 
-#: TESession.cpp:617
+#: Session.cpp:529
 #, qt-format
 msgid "Session '%1' exited unexpectedly."
 msgstr "Sesëja '%1' niespòdzajno zakùńczëła dzejanié."
 
-#: TESession.cpp:885
+#: Session.cpp:755
 msgid "ZModem Progress"
 msgstr "Pòstãp transmisëji ZModem"
 
-#: TEWidget.cpp:1098 TEWidget.cpp:1100
+#: SessionController.cpp:322
+msgid "&Close Tab"
+msgstr ""
+
+#: SessionController.cpp:329
+#, fuzzy
+msgid "&Copy"
+msgstr "Na &górze"
+
+#: SessionController.cpp:335
+msgid "&Paste"
+msgstr ""
+
+#: SessionController.cpp:341
+#, fuzzy
+#| msgid "&Terminate Task"
+msgid "&Rename Tab"
+msgstr "&Zakùńczë dzejanié"
+
+#: SessionController.cpp:346
+#, fuzzy
+msgid "Send Input to All"
+msgstr "Wëslë &wéńdzenié do wszëtczéch sesëji"
+
+#: SessionController.cpp:352
+#, fuzzy
+#| msgid "Clear &History"
+msgid "C&lear Display"
+msgstr "Wëczëszczë &historëjã"
+
+#: SessionController.cpp:356
+msgid "Clear and Reset"
+msgstr ""
+
+#: SessionController.cpp:361
+msgid "Monitor for &Activity"
+msgstr "Mònitorëje &aktiwnotã"
+
+#: SessionController.cpp:366
+msgid "Monitor for &Silence"
+msgstr "Mònitorëjë &nieaktiwnotã"
+
+#: SessionController.cpp:372
+msgid "Set Character Encoding"
+msgstr ""
+
+#: SessionController.cpp:379
+msgid "Increase Text Size"
+msgstr ""
+
+#: SessionController.cpp:385
+msgid "Decrease Text Size"
+msgstr ""
+
+#: SessionController.cpp:391
+#, fuzzy
+#| msgid "Clear &History"
+msgid "Search History"
+msgstr "Wëczëszczë &historëjã"
+
+#: SessionController.cpp:399
+#, fuzzy
+#| msgid "Find"
+msgid "Find Next"
+msgstr "Naleze"
+
+#: SessionController.cpp:406
+#, fuzzy
+#| msgid "Find Pre&vious"
+msgid "Find Previous"
+msgstr "Naleze &pòprzédny"
+
+#: SessionController.cpp:412
+#, fuzzy
+msgid "Save History"
+msgstr "Zapiszë historëjã"
+
+#: SessionController.cpp:421
+#, fuzzy
+#| msgid "Clear &History"
+msgid "Clear History"
+msgstr "Wëczëszczë &historëjã"
+
+#: SessionController.cpp:425
+#, fuzzy
+#| msgid "Clear &History"
+msgid "Clear History && Reset"
+msgstr "Wëczëszczë &historëjã"
+
+#: SessionController.cpp:431
+msgid "Edit Current Profile..."
+msgstr ""
+
+#: SessionController.cpp:496
+msgid "Rename Tab"
+msgstr ""
+
+#: SessionController.cpp:497
+msgid "Enter new tab text:"
+msgstr ""
+
+#: SessionController.cpp:870
+#, qt-format
+msgid "Save Output from %1"
+msgstr ""
+
+#: SessionController.cpp:881
+#, qt-format
+msgid "%1 is an invalid URL, the output could not be saved."
+msgstr ""
+
+#: SessionController.cpp:968
+#, qt-format
+msgid ""
+"A problem occurred when saving the output.\n"
+"%1"
+msgstr ""
+
+#: SessionManager.cpp:51
+#, fuzzy
+#| msgid "&Bell"
+msgid "Shell"
+msgstr "Z&wónk"
+
+#: TerminalDisplay.cpp:1250 TerminalDisplay.cpp:1252
 msgid "Size: XXX x XXX"
 msgstr "Miara: XXX x XXX"
 
-#: TEWidget.cpp:1106
+#: TerminalDisplay.cpp:1258
 #, qt-format
 msgid "Size: %1 x %2"
 msgstr "Miara: %1 x %2"
 
-#: TEWidget.cpp:2434
+#: TerminalDisplay.cpp:2859
 #, fuzzy
 msgid "Paste"
 msgstr "Papiér"
 
-#: TEWidget.cpp:2436
+#: TerminalDisplay.cpp:2861
 #, fuzzy
 msgid "Change Directory"
 msgstr "Zmieni robòczy katalog na 'dir'"
 
-#: TEWidget.cpp:2437
+#: TerminalDisplay.cpp:2862
 msgid "Move Here"
 msgstr ""
 
-#: TEWidget.cpp:2438
+#: TerminalDisplay.cpp:2863
 msgid "Copy Here"
 msgstr ""
 
-#: TEWidget.cpp:2439
+#: TerminalDisplay.cpp:2864
 msgid "Link Here"
 msgstr ""
 
-#: TEWidget.cpp:2562
+#: TerminalDisplay.cpp:2988
 msgid ""
 "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/XON\">suspended</"
 "a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
 msgstr ""
 
-#: konsole.cpp:459 konsole_part.cpp:491
-msgid "&Send Signal"
-msgstr "&Wëslë signal"
-
-#: konsole.cpp:460 konsole_part.cpp:321
-msgid "&Suspend Task"
-msgstr "&Zascygôj dzejanié"
-
-#: konsole.cpp:461 konsole_part.cpp:322
-msgid "&Continue Task"
-msgstr "&Kòntinuùjë dzejanié"
-
-#: konsole.cpp:462 konsole_part.cpp:323
-msgid "&Hangup"
-msgstr "&Rozłączë"
-
-#: konsole.cpp:463 konsole_part.cpp:324
-msgid "&Interrupt Task"
-msgstr "Ò&przestóń dzejanié"
-
-#: konsole.cpp:464 konsole_part.cpp:325
-msgid "&Terminate Task"
-msgstr "&Zakùńczë dzejanié"
-
-#: konsole.cpp:465 konsole_part.cpp:326
-msgid "&Kill Task"
-msgstr "Za&bijë dzejanié"
-
-#: konsole.cpp:466 konsole_part.cpp:327
-msgid "User Signal &1"
-msgstr "Sygnal brëkòwnika &1"
-
-#: konsole.cpp:467 konsole_part.cpp:328
-msgid "User Signal &2"
-msgstr "Sygnal brëkòwnika &2"
-
-#: konsole.cpp:542 konsole_part.cpp:403
-msgid "Sch&ema"
-msgstr "Sch&ema"
-
-#: konsole.cpp:551 konsole_part.cpp:394
-msgid "&Keyboard"
-msgstr "K&lawiatura"
-
-#: konsole.cpp:564
-msgid "&Tab Bar"
-msgstr "&Kôrtë"
-
-#: konsole.cpp:568 konsole.cpp:577 konsole_part.cpp:343
-msgid "&Hide"
-msgstr "&Zatacë"
-
-#: konsole.cpp:568
-msgid "&Top"
-msgstr "Na &górze"
-
-#: konsole.cpp:568
-msgid "&Bottom"
-msgstr ""
-
-#: konsole.cpp:573 konsole_part.cpp:338
-msgid "Sc&rollbar"
-msgstr "&Lëstew przewijaniô"
-
-#: konsole.cpp:577 konsole_part.cpp:343
-msgid "&Left"
-msgstr "Z &lewa"
-
-#: konsole.cpp:577 konsole_part.cpp:343
-msgid "&Right"
-msgstr "Z &prawa"
-
-#: konsole.cpp:590 konsole_part.cpp:349
-msgid "&Bell"
-msgstr "Z&wónk"
-
-#: konsole.cpp:595 konsole_part.cpp:353
-msgid "System &Bell"
-msgstr "Systemòwi z&wónk"
-
-#: konsole.cpp:596 konsole_part.cpp:354
-msgid "System &Notification"
-msgstr "&Systemòwé wiadło"
-
-#: konsole.cpp:597 konsole_part.cpp:355
-msgid "&Visible Bell"
-msgstr "&Widzawny zwónk"
-
-#: konsole.cpp:598 konsole_part.cpp:356
-msgid "N&one"
-msgstr "&Felënk"
-
-#: konsole.cpp:603 konsole_part.cpp:360
-msgid "Font"
-msgstr ""
-
-#: konsole.cpp:608 konsole_part.cpp:364
-msgid "&Enlarge Font"
-msgstr "&Zwikszë fònt"
-
-#: konsole.cpp:614 konsole_part.cpp:369
-msgid "&Shrink Font"
-msgstr "Z&miészë fònt"
-
-#: konsole.cpp:620 konsole_part.cpp:374
-msgid "Se&lect..."
-msgstr "Wë&biérzë..."
-
-#: konsole.cpp:627 konsole_part.cpp:380
-msgid "&Encoding"
-msgstr "&Kòdowanié"
-
-#: konsole.cpp:633 konsole_part.cpp:384
+#: ViewContainer.cpp:185
 #, fuzzy
-msgid "Default"
-msgstr "Kònsola domëszlno"
+msgid "New"
+msgstr "Nowé "
 
-#: konsole.cpp:648
-msgid "S&ize"
-msgstr "&Miara"
-
-#: konsole.cpp:652
-msgid "40x15 (&Small)"
-msgstr "40x15 (&môłi)"
-
-#: konsole.cpp:653
-msgid "80x24 (&VT100)"
-msgstr "80x24 (&VT100)"
-
-#: konsole.cpp:654
-msgid "80x25 (&IBM PC)"
-msgstr "80x25 (&IBM PC)"
-
-#: konsole.cpp:655
-msgid "80x40 (&XTerm)"
-msgstr "80x40 (&XTerm)"
-
-#: konsole.cpp:656
-msgid "80x52 (IBM V&GA)"
-msgstr "80x52 (IBM V&GA)"
-
-#: konsole.cpp:658
-msgid "&Custom..."
-msgstr "&Jine..."
-
-#: konsole.cpp:665
-msgid "Hist&ory..."
-msgstr "Hist&orëjô..."
-
-#: konsole.cpp:673 konsole_part.cpp:463
-msgid "&Save as Default"
-msgstr "&Zapiszë jakno domëszlné"
-
-#: konsole.cpp:700
-msgid "&Tip of the Day"
-msgstr "&Pòrada dnia"
-
-#: konsole.cpp:719 konsole_part.cpp:473
-msgid "Set Selection End"
-msgstr "Ùstôwi kùńc zaznaczeniô"
-
-#: konsole.cpp:727
-msgid "New Sess&ion"
-msgstr "&Nowô sesëjô"
-
-#: konsole.cpp:812
-msgid "Tab &Options"
-msgstr "Òptacëje &kôrtów"
-
-#: konsole.cpp:814
-msgid "&Text && Icons"
-msgstr "&Tekst ë ikònë"
-
-#: konsole.cpp:814
-msgid "Text &Only"
-msgstr "&Blós tekst"
-
-#: konsole.cpp:814
-msgid "&Icons Only"
-msgstr "Blós &ikònë"
-
-#: konsole.cpp:821
-msgid "&Dynamic Hide"
-msgstr "&Dinamiczné tacenié"
-
-#: konsole.cpp:827
-msgid "&Auto Resize Tabs"
-msgstr "&Aùtomatno zmiana miarë kôrtów"
-
-#: konsole.cpp:894
-msgid ""
-"Click for new standard session\n"
-"Click and hold for session menu"
-msgstr ""
-"Klëkni bë zrëszëc nową, sztandardową sesëjã\n"
-"Klëkni ë trzëmôj, bë pòkazac menu sesëji"
-
-#: konsole.cpp:904
-msgid "Close the current session"
-msgstr "Zamkni aktualną sesëjã"
-
-#: konsole.cpp:1009
-msgid "Session"
-msgstr "Sesëja"
-
-#: konsole.cpp:1010
-#, fuzzy
-msgid "Edit"
-msgstr "&Editëjë..."
-
-#: konsole.cpp:1011
-msgid "View"
-msgstr ""
-
-#: konsole.cpp:1013
-#, fuzzy
-msgid "Bookmarks"
-msgstr "Pòwłoka z załóżczi"
-
-#: konsole.cpp:1015
-msgid "Settings"
-msgstr "Nastôwë"
-
-#: konsole.cpp:1017
-msgid "Help"
-msgstr ""
-
-#: konsole.cpp:1021 konsole_part.cpp:479
-#, fuzzy
-msgid "&Copy"
-msgstr "Na &górze"
-
-#: konsole.cpp:1024 konsole_part.cpp:485
-msgid "&Paste"
-msgstr ""
-
-#: konsole.cpp:1028
-msgid "Paste Selection"
-msgstr "Wlëmij zaznaczënk"
-
-#: konsole.cpp:1033
-msgid "C&lear Terminal"
-msgstr "Wëczëszczë &terminal"
-
-#: konsole.cpp:1036
-msgid "&Reset && Clear Terminal"
-msgstr "Z&resetujë ë wëczëszczë terminal"
-
-#: konsole.cpp:1039
-msgid "&Find in History..."
-msgstr "&Naleze w historëji..."
-
-#: konsole.cpp:1044
-msgid "Find &Next"
-msgstr ""
-
-#: konsole.cpp:1049
-msgid "Find Pre&vious"
-msgstr "Naleze &pòprzédny"
-
-#: konsole.cpp:1054
-msgid "S&ave History As..."
-msgstr "&Zapiszë historëjã jakò..."
-
-#: konsole.cpp:1059
-msgid "Clear &History"
-msgstr "Wëczëszczë &historëjã"
-
-#: konsole.cpp:1064
-msgid "Clear All H&istories"
-msgstr "Wëczëszczë wszëtczé hi&storëjë"
-
-#: konsole.cpp:1068 konsole.cpp:4321
-msgid "&Detach Session"
-msgstr "Ò&dłączë sesëjã"
-
-#: konsole.cpp:1074 konsole.cpp:4327
-msgid "&Rename Session..."
-msgstr "&Zmieni miono sesëji..."
-
-#: konsole.cpp:1080
-msgid "&ZModem Upload..."
-msgstr "&Ladowanié ZModem..."
-
-#: konsole.cpp:1086 konsole.cpp:4331
-msgid "Monitor for &Activity"
-msgstr "Mònitorëje &aktiwnotã"
-
-#: konsole.cpp:1089 konsole.cpp:4335
-msgid "Stop Monitoring for &Activity"
-msgstr "Òprzestóń mònitorowanié &aktiwnotë"
-
-#: konsole.cpp:1091 konsole.cpp:4338
-msgid "Monitor for &Silence"
-msgstr "Mònitorëjë &nieaktiwnotã"
-
-#: konsole.cpp:1094 konsole.cpp:4342
-msgid "Stop Monitoring for &Silence"
-msgstr "Òprzestóń mònitorowanié &nieaktiwnotë"
-
-#: konsole.cpp:1096 konsole.cpp:4345
-msgid "Send &Input to All Sessions"
-msgstr "Wëslë &wéńdzenié do wszëtczéch sesëji"
-
-#: konsole.cpp:1100
-msgid "&Show Menu Bar"
-msgstr ""
-
-#: konsole.cpp:1103
-#, fuzzy
-msgid "&Hide Menu Bar"
-msgstr "Zatacë lëstew &menu"
-
-#: konsole.cpp:1110
-msgid "Save Sessions &Profile..."
-msgstr "Zapiszë nastôwë &profilu..."
-
-#: konsole.cpp:1121 konsole.cpp:2989 konsole.cpp:4414
-msgid "C&lose Session"
-msgstr "&Zamkni sesëjã"
-
-#: konsole.cpp:1124
-msgid "&Print Screen..."
-msgstr "&Drëkùjë ekran..."
-
-#: konsole.cpp:1127
-msgid "&Quit"
-msgstr ""
-
-#: konsole.cpp:1131
-msgid "New Session"
-msgstr "Nowô sesëjô"
-
-#: konsole.cpp:1137
-msgid "Activate Menu"
-msgstr "Włączë menu"
-
-#: konsole.cpp:1143
-msgid "List Sessions"
-msgstr "Lësta sesëji"
-
-#: konsole.cpp:1148
-msgid "Go to Previous Session"
-msgstr "Pòprzédnô sesëja"
-
-#: konsole.cpp:1155
-msgid "Go to Next Session"
-msgstr "Pòstãpnô sesëja"
-
-#: konsole.cpp:1163
-#, qt-format
-msgid "Switch to Session %1"
-msgstr "Przełączë na sesëjã %1"
-
-#: konsole.cpp:1169
-msgid "Enlarge Font"
-msgstr "Zwikszë fònt"
-
-#: konsole.cpp:1172
-msgid "Shrink Font"
-msgstr "Zmiészë fònt"
-
-#: konsole.cpp:1176
-msgid "Toggle Bidi"
-msgstr "Przełączë dwaczérenkòwi tekst"
-
-#: konsole.cpp:1227
-#, fuzzy
-msgid "Close sessions"
-msgstr "&Zamkni sesëjã"
-
-#: konsole.cpp:1233
-#, qt-format
-msgid ""
-"You are about to close %1 open sessions. \n"
-"Are you sure you want to continue?"
-msgstr ""
-
-#: konsole.cpp:1235
-msgid "Confirm close"
-msgstr ""
-
-#: konsole.cpp:1485
-msgid "Save Sessions Profile"
-msgstr "Zapiszë profil sesëji"
-
-#: konsole.cpp:1486
-msgid "Enter name under which the profile should be saved:"
-msgstr "Wpiszë miono, pòd jaczim zapisac profil:"
-
-#: konsole.cpp:1904
-msgid "Use the right mouse button to bring back the menu"
-msgstr "Brëkùjë prawy knąpë mëszë, abë przewrócëc menu"
-
-#: konsole.cpp:2016
-#, qt-format
-msgctxt "keyboard key %1, as first key out of a short key sequence %2)"
-msgid "%1, as first key of %2"
-msgstr ""
-
-#: konsole.cpp:2034
-msgid ""
-"You have chosen one or more Ctrl+<key> combinations to be used as shortcuts. "
-"As a result these key combinations will no longer be passed to the command "
-"shell or to applications that run inside Konsole. This can have the "
-"unintended consequence that functionality that would otherwise be bound to "
-"these key combinations is no longer accessible.\n"
-"\n"
-"You may wish to reconsider your choice of keys and use Alt+Ctrl+<key> or Ctrl"
-"+Shift+<key> instead.\n"
-"\n"
-"You are currently using the following Ctrl+<key> combinations:"
-msgstr ""
-"Môsz wëbróny przënômni jedną skrodzënã w sztaturze Ctrl+<klawisza>. Skùtkã "
-"tegò ne kòmbinacëje nie mdã przekôzëwóné do pòwłoczi ani niżódnëch programów "
-"zrëszanëch bënë Konsoli. Mòże to na nieżdóny ôrt ògrańczëc przistãp do "
-"fùnkcëji przëpisónëch do tëch klawiszów.\n"
-"\n"
-"Mòżesz zmienic wëbiérk skrodzënów, wëbiérając barżi kòmbinacëje ôrtu: Alt"
-"+Ctrl+<klawisza> abò Ctrl+Shift+<klawisza>.\n"
-"\n"
-"W ti sztãdze zdefiniowóné są pòstãpny skrodzënë sztaturë Ctrl+<klawisz>:"
-
-#: konsole.cpp:2044
-msgid "Choice of Shortcut Keys"
-msgstr "Wëbiérk klawiszowëch skrodzënów"
-
-#: konsole.cpp:2451
-#, qt-format
-msgctxt "abbreviation of number"
-msgid "%1 No. %2"
-msgstr ""
-
-#: konsole.cpp:2503
-msgid "Session List"
-msgstr "Lësta sesëji"
-
-#: konsole.cpp:2988
-#, fuzzy
-msgid "Are you sure you want to close this session?"
-msgstr "Na gwës chcesz zakùńczëc biérzną sesëjã?"
-
-#: konsole.cpp:2989
-msgid "Close Confirmation"
-msgstr "Pòcwierdzenié zamkniãcô"
-
-#: konsole.cpp:3221
-msgid ""
-"Enabling this option will cause each key press to be sent to all running "
-"sessions.  Are you sure you want to continue?"
-msgstr ""
-
-#: konsole.cpp:3223
-#, fuzzy
-msgid "Send Input to All Sessions"
-msgstr "Wëslë &wéńdzenié do wszëtczéch sesëji"
-
-#: konsole.cpp:3226
-msgid "Remember my answer and do not ask again."
-msgstr ""
-
-#: konsole.cpp:3424
-msgid "New Shell at Bookmark"
-msgstr "Nowô pòwłoka z załóżczi"
-
-#: konsole.cpp:3428
-msgid "Shell at Bookmark"
-msgstr "Pòwłoka z załóżczi"
-
-#: konsole.cpp:3439
-#, fuzzy, qt-format
-msgctxt "Screen is a program for controlling screens"
-msgid "Screen at %1"
-msgstr "Drëkùjë %1"
-
-#: konsole.cpp:3744
-msgid "Rename Session"
-msgstr "Zmieni miono sesëji"
-
-#: konsole.cpp:3745
-msgid "Session name:"
-msgstr "Miono sesëji:"
-
-#: konsole.cpp:3784 konsole_part.cpp:982
-msgid "History Configuration"
-msgstr "Kònfigùracëjô historëji"
-
-#: konsole.cpp:3795 konsole_part.cpp:991
-msgid "&Enable"
-msgstr "&Włączë"
-
-#: konsole.cpp:3798
-msgid "&Number of lines: "
-msgstr "&Lëczba rézów: "
-
-#: konsole.cpp:3804 konsole_part.cpp:1000
-#, fuzzy
-msgctxt "Unlimited (number of lines)"
-msgid "Unlimited"
-msgstr "&Bez ògreńczeń"
-
-#: konsole.cpp:3808 konsole_part.cpp:1002
-msgid "&Set Unlimited"
-msgstr "&Bez ògreńczeń"
-
-#: konsole.cpp:3984
-msgid ""
-"End of history reached.\n"
-"Continue from the beginning?"
-msgstr ""
-"Zwënégòwóny je kùńc historëji.\n"
-"Kòntinuòwac òd pòczątkù?"
-
-#: konsole.cpp:3985 konsole.cpp:3993 konsole.cpp:4005
-msgid "Find"
-msgstr "Naleze"
-
-#: konsole.cpp:3992
-msgid ""
-"Beginning of history reached.\n"
-"Continue from the end?"
-msgstr ""
-"Zwënégòwóny je zaczątk historëji.\n"
-"Kòntinuòwac òd kùńca?"
-
-#: konsole.cpp:4004
-#, qt-format
-msgid "Search string '%1' not found."
-msgstr "Ne je nalazłi tekst '%1'."
-
-#: konsole.cpp:4041
-msgid ""
-"A file with this name already exists.\n"
-"Do you want to overwrite it?"
-msgstr ""
-"Lopk ò tim mionie ju je.\n"
-"Chcesz gò nadpisac?"
-
-#: konsole.cpp:4041
-msgid "File Exists"
-msgstr "Lopk ju òbstoji"
-
-#: konsole.cpp:4041
-msgid "Overwrite"
-msgstr "Nadpiszë"
-
-#: konsole.cpp:4047
-msgid "Unable to write to file."
-msgstr "Nie mòże zapisac lopkù."
-
-#: konsole.cpp:4065
-msgid "Could not save history."
-msgstr "Nie jidze zapisac hisotrëji."
-
-#: konsole.cpp:4082
-#, fuzzy
-msgid "Save History As"
-msgstr "Zapiszë historëjã"
-
-#: konsole.cpp:4100
-msgid "<p>The current session already has a ZModem file transfer in progress."
-msgstr "<p>W biérzny sesëji dérô ju ladowanié lopkù w protokòle ZModem."
-
-#: konsole.cpp:4109
-msgid ""
-"<p>No suitable ZModem software was found on the system.\n"
-"<p>You may wish to install the 'rzsz' or 'lrzsz' package.\n"
-msgstr ""
-"<p>W systemie felëje gwësnegò òprogramòwania ZModem.\n"
-"<p>Proszã zainstalowac paczét 'rzsz' abò 'lrzsz'.\n"
-
-#: konsole.cpp:4116
-msgid "Select Files to Upload"
-msgstr "Wëbiérzë lopk do zladowania"
-
-#: konsole.cpp:4136
-msgid ""
-"<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
-"software was found on the system.\n"
-"<p>You may wish to install the 'rzsz' or 'lrzsz' package.\n"
-msgstr ""
-"<p>Wëkrëtô òsta próba transmisëji lopków w protokòle ZModem, leno w systemie "
-"felëje gwësnegò òprogramòwania ZModem.\n"
-"<p>Proszã zainstalowac paczét 'rzsz' abò 'lrzsz'.\n"
-
-#: konsole.cpp:4143
-msgid ""
-"A ZModem file transfer attempt has been detected.\n"
-"Please specify the folder you want to store the file(s):"
-msgstr ""
-"Wëkrëtô òsta próba transmisëji lopków w protokòle ZModem.\n"
-"Proszã wëbrac katalog do zapisaniégò zladowónëch lopków:"
-
-#: konsole.cpp:4146
-msgid "&Download"
-msgstr "&Zladënk"
-
-#: konsole.cpp:4147 konsole.cpp:4148
-msgid "Start downloading file to specified folder."
-msgstr "Nacznij zladowanié lopkù do wëbranégò katalogù."
-
-#: konsole.cpp:4164
-#, qt-format
-msgid "Print %1"
-msgstr "Drëkùjë %1"
-
-#: konsole.cpp:4193
-msgid "Size Configuration"
-msgstr "Kònfigùracëjô miarë"
-
-#: konsole.cpp:4211
-msgid "Number of columns:"
-msgstr "Lëczba kòlumnów:"
-
-#: konsole.cpp:4214 konsole_part.cpp:1007
-msgid "Number of lines:"
-msgstr "Lëczba rézów:"
-
-#: konsole.cpp:4398
+#: ViewContainer.cpp:232
 #, fuzzy
 msgid "Select &Tab Color"
 msgstr "Wëbierzë &farwã kôrtë..."
 
-#: konsole.cpp:4402
-msgid "Select &Tab Color..."
-msgstr "Wëbierzë &farwã kôrtë..."
+#: ViewManager.cpp:102
+msgid "Next View"
+msgstr ""
 
-#: konsole.cpp:4409
-msgid "Switch to Tab"
-msgstr "Przełączë na kôrtã"
+#: ViewManager.cpp:103
+msgid "Previous View"
+msgstr ""
 
-#: konsole_part.cpp:116 main.cpp:170
-msgid "Konsole"
-msgstr "Kònsola"
+#: ViewManager.cpp:104
+msgid "Next View Container"
+msgstr ""
 
-#: konsole_part.cpp:409
-msgid "&History..."
-msgstr "&Historëja..."
+#: ViewManager.cpp:109
+msgid "Split View Left/Right"
+msgstr ""
 
-#: konsole_part.cpp:415
-msgid "Li&ne Spacing"
-msgstr "&Interréza"
+#: ViewManager.cpp:116
+msgid "Split View Top/Bottom"
+msgstr ""
 
-#: konsole_part.cpp:421
-msgid "&0"
-msgstr "&0"
+#: ViewManager.cpp:121
+msgid "Close Active"
+msgstr ""
 
-#: konsole_part.cpp:422
-msgid "&1"
-msgstr "&1"
+#: ViewManager.cpp:128
+#, fuzzy
+#| msgid "C&lose Session"
+msgid "Close Others"
+msgstr "&Zamkni sesëjã"
 
-#: konsole_part.cpp:423
-msgid "&2"
-msgstr "&2"
+#: ViewManager.cpp:137
+#, fuzzy
+#| msgid "&Detach Session"
+msgid "&Detach View"
+msgstr "Ò&dłączë sesëjã"
 
-#: konsole_part.cpp:424
-msgid "&3"
-msgstr "&3"
-
-#: konsole_part.cpp:425
-msgid "&4"
-msgstr "&4"
-
-#: konsole_part.cpp:426
-msgid "&5"
-msgstr "&5"
-
-#: konsole_part.cpp:427
-msgid "&6"
-msgstr "&6"
-
-#: konsole_part.cpp:428
-msgid "&7"
-msgstr "&7"
-
-#: konsole_part.cpp:429
-msgid "&8"
-msgstr "&8"
-
-#: konsole_part.cpp:434
-msgid "Blinking &Cursor"
-msgstr "&Mërgający kùrsor"
-
-#: konsole_part.cpp:440
-msgid "Show Fr&ame"
-msgstr "Pòkazë &ramã"
-
-#: konsole_part.cpp:443
-msgid "Hide Fr&ame"
-msgstr "Zatacë &ramã"
-
-#: konsole_part.cpp:447
-msgid "Wor&d Connectors..."
-msgstr "&Zaznaczanié słów..."
-
-#: konsole_part.cpp:454
-msgid "&Use Konsole's Settings"
-msgstr "&Brëkùjë nastôwów kònsolë"
-
-#: konsole_part.cpp:497
-msgid "S&ettings"
-msgstr "&Nastôwë"
-
-#: konsole_part.cpp:503
-msgid "&Close Terminal Emulator"
-msgstr "&Zamknij emùlatorã terminala"
-
-#: konsole_part.cpp:930
-msgid "Word Connectors"
-msgstr "Zaznaczanié słów"
-
-#: konsole_part.cpp:931
-msgid ""
-"Characters other than alphanumerics considered part of a word when double "
-"clicking:"
-msgstr "Niealfanumericzne céchë, ùznôwané za dzélk słowa przë zaznaczanim:"
+#: ZModemDialog.cpp:37
+msgid "&Stop"
+msgstr "&Zatrzëmôj"
 
 #: kwrited.cpp:81
 #, qt-format
 msgid "KWrited - Listening on Device %1"
 msgstr "KWrited - nasłëchòwanié ùrządzenia %1"
 
-#: main.cpp:67
-#, fuzzy
-msgid "The KDE Terminal"
-msgstr "Wëczëszczë &terminal"
-
-#: main.cpp:71
-msgid "Set window class"
-msgstr "Nastôwi klasã òkna"
-
-#: main.cpp:72
-msgid "Start login shell"
-msgstr "Zrëszë sztartową pòwłokã"
-
-#: main.cpp:73
-msgid "Set the window title"
-msgstr "Nastôwi titel òkna"
-
-#: main.cpp:74
-msgid ""
-"Specify terminal type as set in the TERM\n"
-"environment variable"
+#. i18n: tag string
+#. i18n: file ColorSchemeEditor.ui line 13
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 13
+#. i18n: tag string
+#. i18n: file KeyBindingEditor.ui line 13
+#. i18n: tag string
+#. i18n: file ManageProfilesDialog.ui line 13
+#: rc.cpp:3 rc.cpp:15 rc.cpp:321 rc.cpp:327
+msgid "Form"
 msgstr ""
-"Wpiszë ôrt terminala, ùstôwiony w\n"
-"zmiennej TERM"
 
-#: main.cpp:75
-msgid "Do not close Konsole when command exits"
-msgstr "Nie zamekôj kònsolë pò zakùńczenim pòlétu"
+#. i18n: tag string
+#. i18n: file ColorSchemeEditor.ui line 21
+#. i18n: tag string
+#. i18n: file KeyBindingEditor.ui line 33
+#: rc.cpp:6 rc.cpp:324
+msgid "Description:"
+msgstr ""
 
-#: main.cpp:76
-msgid "Do not save lines in history"
-msgstr "Nie zapisëjë rézów w bùforze historëji"
+#. i18n: tag string
+#. i18n: file ColorSchemeEditor.ui line 41
+#: rc.cpp:9
+msgid "Background Transparency:"
+msgstr ""
 
-#: main.cpp:77
-msgid "Do not display menubar"
-msgstr "Nie wëskrzëniwôj menu"
+#. i18n: tag string
+#. i18n: file ColorSchemeEditor.ui line 61
+#: rc.cpp:12
+msgid "Percent"
+msgstr ""
 
-#: main.cpp:79
-msgid "Do not display tab bar"
-msgstr "Nie wëskrzëniwôj lëstwë kôrtów"
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 38
+#: rc.cpp:18
+msgid "General"
+msgstr ""
 
-#: main.cpp:80
-msgid "Do not display frame"
-msgstr "Nie wëskrzëniwôj ramë"
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 44
+#: rc.cpp:21
+msgid "Profile Name:"
+msgstr ""
 
-#: main.cpp:81
-msgid "Do not display scrollbar"
-msgstr "Nie wëskrzëniwôj lëstwë przewijaniô"
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 51
+#: rc.cpp:24
+msgid "A descriptive name for the profile"
+msgstr ""
 
-#: main.cpp:82
-msgid "Do not use Xft (anti-aliasing)"
-msgstr "Nie brëkùjë Xft (anti-aliasing)"
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 58
+#: rc.cpp:27
+msgid "Command:"
+msgstr ""
 
-#: main.cpp:83
-msgid "Terminal size in columns x lines"
-msgstr "Miara terminala, kòlumnë x rézë"
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 65
+#: rc.cpp:30
+msgid ""
+"The command to execute when new terminal sessions are created using this "
+"profile"
+msgstr ""
 
-#: main.cpp:84
-msgid "Terminal size is fixed"
-msgstr "Miara terminala je stała"
-
-#: main.cpp:85
-msgid "Start with given session type"
-msgstr "Sztartëjë z gwësnym ôrtã sesëji"
-
-#: main.cpp:86
-msgid "List available session types"
-msgstr "Pòkażë lëstã przistãpnëch ôrtów sesëji"
-
-#: main.cpp:87
-msgid "Set keytab to 'name'"
-msgstr "Ùsôdzë miono kôrtë jakno 'miono'"
-
-#: main.cpp:88
-msgid "List available keytabs"
-msgstr "Pòkażë przistãpny kôrtë"
-
-#: main.cpp:89
-msgid "Start with given session profile"
-msgstr "Sztartëjë z gwësnëm profilã sesëji"
-
-#: main.cpp:90
-msgid "List available session profiles"
-msgstr "Lësta przistãpnëch profilów sesëji"
-
-#: main.cpp:91
-msgid "Set schema to 'name' or use 'file'"
-msgstr "Ùsôdzë schemã na 'miono' abò brëkùjë lopkù 'lopk'"
-
-#: main.cpp:93
-msgid "List available schemata"
-msgstr "Pòkażë przistãpny schematë"
-
-#: main.cpp:95
-msgid "Change working directory to 'dir'"
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 72
+#: rc.cpp:33
+#, fuzzy
+msgid "Initial Directory:"
 msgstr "Zmieni robòczy katalog na 'dir'"
 
-#: main.cpp:96
-msgid "Execute 'command' instead of shell"
-msgstr "Zrëszë 'pòlét' w môl pòwłoczi"
-
-#: main.cpp:98
-msgid "Arguments for 'command'"
-msgstr "Argùmentë dlô 'pòlétu'"
-
-#: main.cpp:171
-msgid "(C) 1997-2006 , Konsole Developers"
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 79
+#: rc.cpp:36
+msgid ""
+"The initial working directory for new terminal sessions using this profile"
 msgstr ""
 
-#: main.cpp:172
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 86
+#: rc.cpp:39
+msgid "Browse for initial directory"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 89
+#: rc.cpp:42
+msgid "..."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 96
+#: rc.cpp:45
+msgid "Icon:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 121
+#: rc.cpp:48
+msgid "Select the icon displayed on tabs using this profile"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 150
+#: rc.cpp:51
+msgid "Tab Titles"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 159
+#: rc.cpp:54
+msgid "Tab Title Format:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 166
+#: rc.cpp:57
+msgid "Normal tab title format "
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 173
+#: rc.cpp:60
+msgid "Edit normal tab title format"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 183
+#: rc.cpp:66
+msgid "Remote Tab Title Format:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 190
+#: rc.cpp:69
+msgid ""
+"Tab title format used when a remote command (eg. connection to another "
+"computer via SSH) is being executed"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 197
+#: rc.cpp:72
+msgid "Edit tab title format used when executing remote commands"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 200
+#: rc.cpp:75
+#, fuzzy
+msgid "Edit.."
+msgstr "&Editëjë..."
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 210
+#: rc.cpp:78
+msgid "Window && Tab Bar Options"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 219
+#: rc.cpp:81
+msgid "Show or hide the menu bar in terminal windows using this profile"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 222
+#: rc.cpp:84
+#, fuzzy
+msgid "Show Menu Bar"
+msgstr "Zatacë lëstew &menu"
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 229
+#: rc.cpp:87
+msgid "Never show the tab bar"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 232
+#: rc.cpp:90
+msgid "Always hide tab bar"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 239
+#: rc.cpp:93
+msgid ""
+"Hide or show the tab bar automatically depending on the number of tabs open"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 242
+#: rc.cpp:96
+msgid "Show tab bar when more than one tab is open"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 249
+#: rc.cpp:99
+msgid "Always show the tab bar"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 252
+#: rc.cpp:102
+msgid "Always show tab bar"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 276
+#: rc.cpp:105
+msgid "Appearence"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 288
+#: rc.cpp:108
+msgid "Color Scheme and Background"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 304
+#: rc.cpp:111
+msgid "Create a new color scheme based upon the selected scheme"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 307
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 460
+#: rc.cpp:114 rc.cpp:168
+msgid "New..."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 314
+#: rc.cpp:117
+msgid "Edit the selected color scheme"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 324
+#: rc.cpp:123
+msgid "Delete the selected color scheme"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 327
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 480
+#: rc.cpp:126 rc.cpp:180
+msgid "Remove"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 334
+#: rc.cpp:129
+msgid "Use the selected color scheme for this profile"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 337
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 490
+#: rc.cpp:132 rc.cpp:186
+#, fuzzy
+#| msgid "Se&lect..."
+msgid "Select"
+msgstr "Wë&biérzë..."
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 360
+#: rc.cpp:135
+msgid "Font"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 371
+#: rc.cpp:138
+msgid "Preview:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 384
+#: rc.cpp:141
+msgid "FONT PREVIEW TEXT"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 395
+#: rc.cpp:144
+msgid "Text Size:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 402
+#: rc.cpp:147
+msgid "Small"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 409
+#: rc.cpp:150
+msgid "Adjust the font size used in this profile"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 425
+#: rc.cpp:153
+msgid "Large"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 432
+#: rc.cpp:156
+msgid "Change the font used in this profile"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 435
+#: rc.cpp:159
+msgid "Edit Font..."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 448
+#: rc.cpp:162
+#, fuzzy
+#| msgid "&Keyboard"
+msgid "Keyboard Setup"
+msgstr "K&lawiatura"
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 457
+#: rc.cpp:165
+msgid "Create a new key bindings list based upon the selected bindings"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 467
+#: rc.cpp:171
+msgid "Edit the selected key bindings list"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 477
+#: rc.cpp:177
+msgid "Delete the selected key bindings list"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 487
+#: rc.cpp:183
+msgid "Use the selected key bindings list in this profile"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 511
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 517
+#: rc.cpp:189 rc.cpp:192
+#, fuzzy
+#| msgid "Sc&rollbar"
+msgid "Scrolling"
+msgstr "&Lëstew przewijaniô"
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 526
+#: rc.cpp:195
+msgid "Disable scroll bar and do not remember previous output"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 529
+#: rc.cpp:198
+#, fuzzy
+#| msgid "Do not display scrollbar"
+msgid "Disable scrollback"
+msgstr "Nie wëskrzëniwôj lëstwë przewijaniô"
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 538
+#: rc.cpp:201
+msgid "Limit the remembered output to a fixed number of lines"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 541
+#: rc.cpp:204
+#, fuzzy
+#| msgid "&Number of lines: "
+msgid "Fixed number of lines: "
+msgstr "&Lëczba rézów: "
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 548
+#: rc.cpp:207
+msgid "Number of lines of output to remember"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 576
+#: rc.cpp:210
+msgid "Remember all output produced by the terminal"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 579
+#: rc.cpp:213
+#, fuzzy
+msgid "Unlimited scrollback"
+msgstr "&Bez ògreńczeń"
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 589
+#: rc.cpp:216
+#, fuzzy
+#| msgid "Sc&rollbar"
+msgid "Scroll Bar "
+msgstr "&Lëstew przewijaniô"
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 598
+#: rc.cpp:219
+msgid "Show the scroll bar on the left side of the terminal window"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 601
+#: rc.cpp:222
+msgid "Show on left side"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 608
+#: rc.cpp:225
+msgid "Show the scroll bar on the right side of the terminal window"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 611
+#: rc.cpp:228
+msgid "Show on right side"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 618
+#: rc.cpp:231
+msgid "Hide the scroll bar"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 621
+#: rc.cpp:234
+#, fuzzy
+#| msgid "&Hide"
+msgid "Hidden"
+msgstr "&Zatacë"
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 645
+#: rc.cpp:237
+msgid "Advanced"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 651
+#: rc.cpp:240
+#, fuzzy
+#| msgid "&Terminate Task"
+msgid "Terminal Features:"
+msgstr "&Zakùńczë dzejanié"
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 660
+#: rc.cpp:243
+msgid "Allow terminal programs to create blinking sections of text"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 663
+#: rc.cpp:246
+msgid "Allow blinking text"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 670
+#: rc.cpp:249
+msgid "Allow the output to be suspended by pressing Ctrl+S"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 673
+#: rc.cpp:252
+msgid "Enable flow control using Ctrl+S , Ctrl+Q"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 680
+#: rc.cpp:255
+msgid "Allow terminal programs to resize the window"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 683
+#: rc.cpp:258
+msgid "Allow programs to resize terminal window"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 693
+#: rc.cpp:261
+msgid "Interaction options:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 704
+#: rc.cpp:264
+msgid "Word characters for double-click selection: "
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 711
+#: rc.cpp:267
+#, fuzzy
+#| msgid ""
+#| "Characters other than alphanumerics considered part of a word when double "
+#| "clicking:"
+msgid ""
+"Characters which are considered part of a word when double-clicking to "
+"select whole words in the terminal"
+msgstr "Niealfanumericzne céchë, ùznôwané za dzélk słowa przë zaznaczanim:"
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 723
+#: rc.cpp:270
+#, fuzzy
+msgid "Cursor Options:"
+msgstr "Òptacëje &kôrtów"
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 732
+#: rc.cpp:273
+msgid "Make the cursor blink regularly"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 735
+#: rc.cpp:276
+#, fuzzy
+#| msgid "Blinking &Cursor"
+msgid "Blinking cursor"
+msgstr "&Mërgający kùrsor"
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 744
+#: rc.cpp:279
+msgid "Cursor shape:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 751
+#: rc.cpp:282
+msgid "Change the shape of the cursor"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 755
+#: rc.cpp:285
+msgid "Block"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 760
+#: rc.cpp:288
+msgid "I-Beam"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 765
+#: rc.cpp:291
+msgid "Underline"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 775
+#: rc.cpp:294
+msgid "Set the cursor to match the color of the character underneath it."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 778
+#: rc.cpp:297
+msgid "Set cursor color to match current character"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 787
+#: rc.cpp:300
+msgid "Use a custom, fixed color for the cursor"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 790
+#: rc.cpp:303
+msgid "Custom cursor color:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditProfileDialog.ui line 797
+#: rc.cpp:306
+msgid "Select the color used to draw the cursor"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditTabTitleFormatDialog.ui line 13
+#: rc.cpp:309
+msgid "Edit Tab Format"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditTabTitleFormatDialog.ui line 31
+#: rc.cpp:312
+msgid "Insert element:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditTabTitleFormatDialog.ui line 41
+#: rc.cpp:315
+msgid "Tab title format:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file EditTabTitleFormatDialog.ui line 57
+#: rc.cpp:318
+msgid ""
+"Tab titles can contain a mixture of plain text and dynamic elements which "
+"update automatically as the programs running in the terminal change."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ManageProfilesDialog.ui line 31
+#: rc.cpp:330
+msgid "Create a new profile based upon the selected profile"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ManageProfilesDialog.ui line 34
+#: rc.cpp:333
+#, fuzzy
+#| msgid "Save Sessions &Profile..."
+msgid "New Profile..."
+msgstr "Zapiszë nastôwë &profilu..."
+
+#. i18n: tag string
+#. i18n: file ManageProfilesDialog.ui line 44
+#: rc.cpp:336
+msgid "Edit the selected profile"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ManageProfilesDialog.ui line 47
+#: rc.cpp:339
+#, fuzzy
+#| msgid "Save Sessions &Profile..."
+msgid "Edit Profile..."
+msgstr "Zapiszë nastôwë &profilu..."
+
+#. i18n: tag string
+#. i18n: file ManageProfilesDialog.ui line 57
+#: rc.cpp:342
+msgid "Delete the selected profile"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ManageProfilesDialog.ui line 60
+#: rc.cpp:345
+msgid "Delete Profile"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ManageProfilesDialog.ui line 70
+#: rc.cpp:348
+msgid "Set the selected profile as the default for new terminal sessions"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ManageProfilesDialog.ui line 73
+#: rc.cpp:351
+#, fuzzy
+#| msgid "&Save as Default"
+msgid "Set as Default"
+msgstr "&Zapiszë jakno domëszlné"
+
+#. i18n: tag string
+#. i18n: file RemoteConnectionDialog.ui line 25
+#: rc.cpp:354
+#, fuzzy
+#| msgid "Word Connectors"
+msgid "Remote Connection"
+msgstr "Zaznaczanié słów"
+
+#. i18n: tag string
+#. i18n: file RemoteConnectionDialog.ui line 31
+#: rc.cpp:357
+msgid "Host:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file RemoteConnectionDialog.ui line 41
+#: rc.cpp:360
+msgid "User:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file RemoteConnectionDialog.ui line 58
+#: rc.cpp:363
+msgid "Lookup..."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file RemoteConnectionDialog.ui line 65
+#: rc.cpp:366
+msgid "Service:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file RemoteConnectionDialog.ui line 73
+#: rc.cpp:369
+msgid "SSH"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file RemoteConnectionDialog.ui line 78
+#: rc.cpp:372
+msgid "Secure FTP"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file RemoteConnectionDialog.ui line 86
+#: rc.cpp:375
+msgid "Background color:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file RemoteConnectionDialog.ui line 96
+#: rc.cpp:378
+msgid "Save as custom session"
+msgstr ""
+
+#: rc.cpp:379
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: rc.cpp:380
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: start.cpp:38
+msgid "TODO: More documentation"
+msgstr ""
+
+#: start.cpp:53
+msgid "Konsole"
+msgstr "Kònsola"
+
+#: start.cpp:55
+#, fuzzy
+#| msgid "&Close Terminal Emulator"
+msgid "Terminal emulator for KDE"
+msgstr "&Zamknij emùlatorã terminala"
+
+#: start.cpp:77
 msgid "Maintainer"
 msgstr "Òpiekùn"
 
-#: main.cpp:173
+#: start.cpp:78
 msgid "Author"
 msgstr "Ùsôdzca"
 
-#: main.cpp:175 main.cpp:178 main.cpp:181
+#: start.cpp:80 start.cpp:83 start.cpp:86
 #, fuzzy
 msgid "Bug fixes and general improvements"
 msgstr "rëmanié felów ë pòprawczi"
 
-#: main.cpp:184 main.cpp:220 main.cpp:223 main.cpp:226 main.cpp:229
+#: start.cpp:89 start.cpp:125 start.cpp:128 start.cpp:131 start.cpp:134
 #, fuzzy
 msgid "Bug fixes"
 msgstr "rëmanié felów"
 
-#: main.cpp:187
+#: start.cpp:92
 #, fuzzy
 msgid "Solaris support and history"
 msgstr "Wersëjô dlô Solarisa ë historëjô pòlétów"
 
-#: main.cpp:190
+#: start.cpp:95
 msgid "Bug fixes and improved startup performance"
 msgstr ""
 
-#: main.cpp:193
+#: start.cpp:98
 #, fuzzy
 msgid "Marking improvements"
 msgstr "rëmanié felów ë pòprawczi"
 
-#: main.cpp:196
+#: start.cpp:101
 #, fuzzy
 msgid ""
 "Embedded Konsole\n"
 "Toolbar and session names"
 msgstr "Miono sesëji ë lëstwë nôrzãdzy"
 
-#: main.cpp:200
+#: start.cpp:105
 msgid ""
 "Embedded Konsole\n"
 "General improvements"
 msgstr ""
 
-#: main.cpp:204
+#: start.cpp:109
 msgid "Visual effects"
 msgstr ""
 
-#: main.cpp:207
+#: start.cpp:112
 msgid ""
 "Code from the kvt project\n"
 "General improvements"
 msgstr ""
 
-#: main.cpp:211
+#: start.cpp:116
 #, fuzzy
 msgid "Schema and text selection improvements"
 msgstr "pòprawczi dlô zestôwków ë zaznaczenia"
 
-#: main.cpp:214
+#: start.cpp:119
 #, fuzzy
 msgid "SGI port"
 msgstr "Pòrt SGI"
 
-#: main.cpp:217
+#: start.cpp:122
 msgid "FreeBSD port"
 msgstr "Pòrt FreeBSD"
 
-#: main.cpp:231
+#: start.cpp:136
 msgid "Thanks to many others.\n"
 msgstr ""
 
-#: main.cpp:287
+#~ msgid "&Send Signal"
+#~ msgstr "&Wëslë signal"
+
+#~ msgid "&Suspend Task"
+#~ msgstr "&Zascygôj dzejanié"
+
+#~ msgid "&Continue Task"
+#~ msgstr "&Kòntinuùjë dzejanié"
+
+#~ msgid "&Hangup"
+#~ msgstr "&Rozłączë"
+
+#~ msgid "&Interrupt Task"
+#~ msgstr "Ò&przestóń dzejanié"
+
+#~ msgid "&Kill Task"
+#~ msgstr "Za&bijë dzejanié"
+
+#~ msgid "User Signal &1"
+#~ msgstr "Sygnal brëkòwnika &1"
+
+#~ msgid "User Signal &2"
+#~ msgstr "Sygnal brëkòwnika &2"
+
+#~ msgid "Sch&ema"
+#~ msgstr "Sch&ema"
+
+#~ msgid "&Tab Bar"
+#~ msgstr "&Kôrtë"
+
+#~ msgid "&Top"
+#~ msgstr "Na &górze"
+
+#~ msgid "&Left"
+#~ msgstr "Z &lewa"
+
+#~ msgid "&Right"
+#~ msgstr "Z &prawa"
+
+#~ msgid "System &Bell"
+#~ msgstr "Systemòwi z&wónk"
+
+#~ msgid "System &Notification"
+#~ msgstr "&Systemòwé wiadło"
+
+#~ msgid "&Visible Bell"
+#~ msgstr "&Widzawny zwónk"
+
+#~ msgid "N&one"
+#~ msgstr "&Felënk"
+
+#~ msgid "&Enlarge Font"
+#~ msgstr "&Zwikszë fònt"
+
+#~ msgid "&Shrink Font"
+#~ msgstr "Z&miészë fònt"
+
 #, fuzzy
-msgid "You can not use BOTH -ls and -e.\n"
-msgstr "Nie mòżesz brëkòwac DWUCH -ls ë -e.\n"
+#~ msgid "Default"
+#~ msgstr "Kònsola domëszlno"
 
-#: main.cpp:410
-msgid "expected --vt_sz <#columns>x<#lines> e.g. 80x40\n"
-msgstr "żdanié --vt_sz <#kòlumnë>x<#rézë> n.p. 80x40\n"
+#~ msgid "S&ize"
+#~ msgstr "&Miara"
 
-#: printsettings.cpp:32
+#~ msgid "40x15 (&Small)"
+#~ msgstr "40x15 (&môłi)"
+
+#~ msgid "80x24 (&VT100)"
+#~ msgstr "80x24 (&VT100)"
+
+#~ msgid "80x25 (&IBM PC)"
+#~ msgstr "80x25 (&IBM PC)"
+
+#~ msgid "80x40 (&XTerm)"
+#~ msgstr "80x40 (&XTerm)"
+
+#~ msgid "80x52 (IBM V&GA)"
+#~ msgstr "80x52 (IBM V&GA)"
+
+#~ msgid "&Custom..."
+#~ msgstr "&Jine..."
+
+#~ msgid "&Tip of the Day"
+#~ msgstr "&Pòrada dnia"
+
+#~ msgid "Set Selection End"
+#~ msgstr "Ùstôwi kùńc zaznaczeniô"
+
+#~ msgid "Tab &Options"
+#~ msgstr "Òptacëje &kôrtów"
+
+#~ msgid "&Text && Icons"
+#~ msgstr "&Tekst ë ikònë"
+
+#~ msgid "Text &Only"
+#~ msgstr "&Blós tekst"
+
+#~ msgid "&Icons Only"
+#~ msgstr "Blós &ikònë"
+
+#~ msgid "&Dynamic Hide"
+#~ msgstr "&Dinamiczné tacenié"
+
+#~ msgid "&Auto Resize Tabs"
+#~ msgstr "&Aùtomatno zmiana miarë kôrtów"
+
+#~ msgid ""
+#~ "Click for new standard session\n"
+#~ "Click and hold for session menu"
+#~ msgstr ""
+#~ "Klëkni bë zrëszëc nową, sztandardową sesëjã\n"
+#~ "Klëkni ë trzëmôj, bë pòkazac menu sesëji"
+
+#~ msgid "Close the current session"
+#~ msgstr "Zamkni aktualną sesëjã"
+
+#~ msgid "Session"
+#~ msgstr "Sesëja"
+
+#~ msgid "Settings"
+#~ msgstr "Nastôwë"
+
+#~ msgid "Paste Selection"
+#~ msgstr "Wlëmij zaznaczënk"
+
+#~ msgid "C&lear Terminal"
+#~ msgstr "Wëczëszczë &terminal"
+
+#~ msgid "&Reset && Clear Terminal"
+#~ msgstr "Z&resetujë ë wëczëszczë terminal"
+
+#~ msgid "S&ave History As..."
+#~ msgstr "&Zapiszë historëjã jakò..."
+
+#~ msgid "Clear All H&istories"
+#~ msgstr "Wëczëszczë wszëtczé hi&storëjë"
+
+#~ msgid "&Rename Session..."
+#~ msgstr "&Zmieni miono sesëji..."
+
+#~ msgid "&ZModem Upload..."
+#~ msgstr "&Ladowanié ZModem..."
+
+#~ msgid "Stop Monitoring for &Activity"
+#~ msgstr "Òprzestóń mònitorowanié &aktiwnotë"
+
+#~ msgid "Stop Monitoring for &Silence"
+#~ msgstr "Òprzestóń mònitorowanié &nieaktiwnotë"
+
+#~ msgid "Send &Input to All Sessions"
+#~ msgstr "Wëslë &wéńdzenié do wszëtczéch sesëji"
+
+#~ msgid "&Print Screen..."
+#~ msgstr "&Drëkùjë ekran..."
+
+#~ msgid "New Session"
+#~ msgstr "Nowô sesëjô"
+
+#~ msgid "Activate Menu"
+#~ msgstr "Włączë menu"
+
+#~ msgid "List Sessions"
+#~ msgstr "Lësta sesëji"
+
+#~ msgid "Go to Previous Session"
+#~ msgstr "Pòprzédnô sesëja"
+
+#~ msgid "Go to Next Session"
+#~ msgstr "Pòstãpnô sesëja"
+
+#~ msgid "Switch to Session %1"
+#~ msgstr "Przełączë na sesëjã %1"
+
+#~ msgid "Enlarge Font"
+#~ msgstr "Zwikszë fònt"
+
+#~ msgid "Shrink Font"
+#~ msgstr "Zmiészë fònt"
+
+#~ msgid "Toggle Bidi"
+#~ msgstr "Przełączë dwaczérenkòwi tekst"
+
 #, fuzzy
-msgid "Options"
-msgstr "Òptacëje &kôrtów"
-
-#: printsettings.cpp:34
-msgid "Printer &friendly mode (black text, no background)"
-msgstr "&Trib drëszny dlô drëkëra (czôrny tekst, felënk spòdkù)"
-
-#: printsettings.cpp:36
-msgid "&Pixel for pixel"
-msgstr "&Piksel za piksel"
-
-#: printsettings.cpp:38
-msgid "Print &header"
-msgstr "Drëkùjë &nagłówk"
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr ""
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr ""
-
-#: schema.cpp:174 schema.cpp:208
-msgid "[no title]"
-msgstr "[felënk titla]"
-
-#: schema.cpp:221
-msgid "Konsole Default"
-msgstr "Kònsola domëszlno"
-
-#: schemas.cpp:1
-msgid "Black on Light Color"
-msgstr "Czôrne na widnym spòdlém"
-
-#: schemas.cpp:2
-msgid "Black on Light Yellow"
-msgstr "Czôrne na widnożółtim spòdlim"
-
-#: schemas.cpp:3
-msgid "Black on White"
-msgstr "Czôrne na białim spòdlim"
-
-#: schemas.cpp:4
-msgid "Marble"
-msgstr "Marmùrowi"
-
-#: schemas.cpp:5
-msgid "Green on Black"
-msgstr "Zelony na czôrnym"
-
-#: schemas.cpp:6
-msgid "Green Tint"
-msgstr "Ceniowatosc zelonégò"
-
-#: schemas.cpp:7
-msgid "Green Tint with Transparent MC"
-msgstr "Ceniowatosc zelonégò z przezérnym MC"
-
-#: schemas.cpp:8
-msgid "Paper"
-msgstr "Papiér"
-
-#: schemas.cpp:9
-msgid "Linux Colors"
-msgstr "Farwë Linuksa"
-
-#: schemas.cpp:10
-msgid "Transparent Konsole"
-msgstr "Przezérnô Kònsola"
-
-#: schemas.cpp:11
-msgid "Transparent for MC"
-msgstr "Przezérny MC"
-
-#: schemas.cpp:12
-msgid "Transparent, Dark Background"
-msgstr "Przezérnë, cemny spòdlé"
-
-#: schemas.cpp:13
-msgid "Transparent, Light Background"
-msgstr "Przezérnë, widny spòdlé"
-
-#: schemas.cpp:14
-msgid "White on Black"
-msgstr "Białi na czôrnym"
-
-#: schemas.cpp:15
-msgid "XTerm Colors"
-msgstr "Farwë XTerma"
-
-#: schemas.cpp:16
-msgid "System Colors"
-msgstr "Systemòwi farwë"
-
-#: schemas.cpp:17
-msgid "VIM Colors"
-msgstr "Farwë VIM"
-
-#: schemas.cpp:18
-msgid "XTerm (XFree 4.x.x)"
-msgstr "XTerm (XFree 4.x.x)"
-
-#: schemas.cpp:19
-msgid "linux console"
-msgstr "kònsola linuksa"
-
-#: schemas.cpp:20
-msgid "Solaris"
-msgstr "Solaris"
-
-#: schemas.cpp:21
-msgid "vt100 (historical)"
-msgstr "vt100 (historëjowi)"
-
-#: schemas.cpp:22
-msgid "VT420PC"
-msgstr "VT420PC"
-
-#: schemas.cpp:23
-msgid "XTerm (XFree 3.x.x)"
-msgstr "XTerm (XFree 3.x.x)"
-
-#: tips.cpp:3
-msgid ""
-"<p>...that right-clicking on any tab allows for the changing of the tab text "
-"color?\n"
-msgstr ""
-"<p>...klëkającë prawą knąpą mëszë na kôrce mòżësz zmienic farwã tekstu "
-"kôrtë?\n"
-
-#: tips.cpp:8
-msgid ""
-"<p>...that the tab text color can be changed with the code \\e[28;COLORt "
-"(COLOR: 0-16,777,215)?\n"
-msgstr ""
-"<p>...farwa tekstu mòże bëc zmienionô kòdã \\e[28;FARWAt (FARWA: 0-"
-"16,777,215)?\n"
-
-#: tips.cpp:13
-msgid "<p>...that the code \\e[8;ROW;COLUMNt will resize Konsole?\n"
-msgstr "<p>...kòd \\e[8;RÉZË;KÒLUMNËt sprôwi zmianã miarë Kònsolë?\n"
-
-#: tips.cpp:18
-msgid ""
-"<p>...that you can start a new standard session by pressing the \"New\" "
-"button in the tabbar?\n"
-msgstr ""
-"<p>...mòżesz zrëszëc nową sesëjã Kònsolë, klëkającë na knąpã \"Nowi\" na "
-"lëstwie nôrzãdzów Kònsoli?\n"
-
-#: tips.cpp:23
-msgid ""
-"<p>...that pressing and holding the \"New\" button on the tabbar will "
-"display a menu of sessions to select?\n"
-msgstr ""
-"<p>...wcësniãcé a przëtrzëmanié knąpë \"Nowi\" na lëstwie nôrzãdzy Kònsoli "
-"pòzwòli ce na wëbiérk ôrtu sesëji do zrëszëniô?\n"
-
-#: tips.cpp:28
-msgid "<p>...that pressing Ctrl+Alt+N will start a new standard session?\n"
-msgstr "<p>...wcësniãcé Ctrl+Alt+N zrëszë nową sztandardową sesëjã?\n"
-
-#: tips.cpp:33
-msgid ""
-"<p>...that you can cycle through the Konsole sessions by holding down the "
-"Shift key and\n"
-"pressing the Left or Right Arrow keys?\n"
-msgstr ""
-"<p>...mòżesz przezérac sesëje Kònsolë wcëskającë Shift ë klawisze lewò abò "
-"prawò?\n"
-
-#: tips.cpp:39
-msgid ""
-"<p>...that you can get a 'Linux console-like' terminal? \n"
-"<p>Hide Konsole's menubar, tabbar and scrollbar, select the Linux font\n"
-"and the Linux Colors schema and apply the full-screen mode. You might also \n"
-"want to set the KDE panel to auto-hide.\n"
-msgstr ""
-"<p>...mòżesz skònfigùrowac Kònsolã, tak bë wëzdrzała jakno linuksowi "
-"terminal?\n"
-"<p>Wëłączë menu, lestëw nôrzãdzów ë przewijną lestëw, wëbiérzë fònt Linux ë "
-"zestôwk Farwë Linuksa a téż włączë fùlekranowi trib. Mòżesz téż włączëc "
-"aùtomatny tacënié panelu.\n"
-
-#: tips.cpp:47
-msgid ""
-"<p>...that you can rename your Konsole sessions by clicking with the right "
-"mouse\n"
-"button and selecting \"Rename session\"? The change will be reflected in "
-"the\n"
-"Konsole tabbar, making it easier to remember the content of the session.\n"
-msgstr ""
-"<p>...mòżesz zmienic miono sesëji Kònsoli, klëkającë prawą knąpą mëszë ë "
-"wëbiérającë pòlét \"Zmieni miono sesëji\"? Zmiana na òstanié ùznônô na "
-"lestwie nôrzãdzy, zletczając wdôrzenié zamkłoscë sesëji.\n"
-
-#: tips.cpp:54
-msgid ""
-"<p>...that you can rename a Konsole session by double-clicking its tab?\n"
-msgstr ""
-"<p>...mòżesz zmienic miono sesëji klëkając dwa razë na ji knąpie na lestwie "
-"nôrzãdzy?\n"
-
-#: tips.cpp:59
-msgid "<p>...that you can activate the menu with the Ctrl+Alt+M shortcut?\n"
-msgstr "<p>...mòżesz przińdz do menu skrodzëną Ctrl+Alt+M?\n"
-
-#: tips.cpp:64
-msgid ""
-"<p>...that you can rename your current Konsole session with the Ctrl+Alt+S "
-"shortcut?\n"
-msgstr "<p>...mòżesz zmienic miono terny sesëji skrodzëną Alt+Ctrl+S?\n"
-
-#: tips.cpp:69
-msgid ""
-"<p>...that you can create your own session types by using the session \n"
-"editor which you can find under \"Settings->Configure Konsole...\"?\n"
-msgstr ""
-"<p>...mòżesz ùsôdzëc swòje ôrtë sesëji brëkùjącë editora sesëji \"Nastôwë-"
-">Kònfigùracëjô Kònsolë...\"?\n"
-
-#: tips.cpp:75
-msgid ""
-"<p>...that you can create your own color schemes by using the schema editor\n"
-"which you can find under \"Settings->Configure Konsole...\"?\n"
-"</p>\n"
-msgstr ""
-"<p>...mòżesz ùsôdzëc swòje zestôwczi farwów przë pòmòcë editora farwów "
-"\"Nastôwë->Kònfigùracëjô Kònsoli...\"?\n"
-"</p>\n"
-
-#: tips.cpp:82
-msgid ""
-"<p>...that you can move a session by holding down the middle mouse button "
-"over the tab?\n"
-"</p>\n"
-msgstr ""
-"<p>...mòżesz przesënąc sesëjã trzëmając strzédną knąpã mëszë nad kôrtą?\n"
-"</p>\n"
-
-#: tips.cpp:88
-msgid ""
-"<p>...that you can reorder the session tabs with \"View->Move Session Left/"
-"Right\" menu\n"
-"commands or by holding down the Shift and Ctrl keys and pressing the Left or "
-"Right \n"
-"Arrow keys?\n"
-"</p>\n"
-msgstr ""
-"<p>...mòżesz zmienic pòsobicã knąpów sesëji na lestwie nôrzãdzów pòlétama "
-"\"Przeniesë sesëjã w lewò\" ë \"Przeniesë sesëjã w prawò\" z menu Wëzdrzatk "
-"abò wcëskając Shift+Ctrl+strzélkã prawò/lewò.\n"
-"</p>\n"
-
-#: tips.cpp:96
-msgid ""
-"<p>...that you can scroll pagewise in the history by holding down the Shift "
-"key \n"
-"and pressing the Page Up or Page Down keys?\n"
-msgstr ""
-"<p>...mòżesz przezérac historëjã starna pò starnie, trzëmając Shift ë "
-"wcëskając klawisz Page Up/Page Down?\n"
-
-#: tips.cpp:102
-msgid ""
-"<p>...that you can scroll linewise in the history by holding down the Shift "
-"key \n"
-"and pressing the Up or Down Arrow keys?\n"
-msgstr ""
-"<p>...mòżesz przezérac historëjã réza pò réze, trzëmając Shift ë wcëskając "
-"klawisze góra/dół?\n"
-
-#: tips.cpp:108
-msgid ""
-"<p>...that you can insert the clipboard by holding down the Shift key and \n"
-"pressing the Insert key?\n"
-msgstr "<p>...mòżesz wlemic zamkłosc schòwë brëkùjąc skrodzënë Shift+Insert?\n"
-
-#: tips.cpp:114
-msgid ""
-"<p>...that you can insert the X selection by holding down the Shift and\n"
-"Ctrl keys and pressing the Insert key?\n"
-msgstr ""
-"<p>...mòżesz wstawic zaznaczony tekst X wcëskając klawisze Shift+Ctrl"
-"+Insert?\n"
-
-#: tips.cpp:120
-msgid ""
-"<p>...that pressing Ctrl while pasting the selection with the middle mouse\n"
-"button will append a carriage return after pasting the selection buffer?\n"
-msgstr ""
-"<p>...wcësniãcé Ctrl òbczas wlemianiô zanzaczonégò tekstu strzédną knąpą "
-"mëszë sprôwi dodanié céchù kùńca rézë pò wlemionym teksce?\n"
-
-#: tips.cpp:126
-msgid ""
-"<p>...that you can turn off the terminal size hint under \"Settings-"
-">Configure Konsole...\"?\n"
-msgstr ""
-"<p>...mòżesz wëłączëc wëdowiédzã ò miarach terminala w menu \"Nastôwë-"
-">Kònfigùracëjô Kònsoli...\"?\n"
-
-#: tips.cpp:131
-msgid ""
-"<p>...that pressing Ctrl while selecting text will let Konsole ignore line "
-"breaks?\n"
-msgstr ""
-"<p>...wcësniãcé Ctrl òbczas zaznaczania tekstu sprôwi òpùszczenié céchów "
-"kùńca rézë?\n"
-
-#: tips.cpp:136
-msgid ""
-"<p>...that pressing the Ctrl and Alt keys while selecting text will let "
-"Konsole select columns?\n"
-msgstr ""
-"<p>...wcësniãcé Ctrl ë Alt òbczas zaznaczania tekstu pòzwôlô na zaznaczenié "
-"kòlumnów?\n"
-
-#: tips.cpp:141
-msgid ""
-"<p>...that when a program evaluates the right mouse button you can still\n"
-"get the right mouse button pop-up menu while pressing the Shift key?\n"
-msgstr ""
-"<p>...nawetka czej programa òbsłëgiwô prawą knąpã mëszë, mòżesz wëwòłac "
-"knąpã menu wcëskając dodôwno klawiszã Shift?\n"
-
-#: tips.cpp:147
-msgid ""
-"<p>...that when a program evaluates the left mouse button you can still "
-"select\n"
-"text while pressing the Shift key?\n"
-msgstr ""
-"<p>...nawetka czej programa òbsłëgiwô lewą knąpã mëszë, mòżesz zaznaczëc "
-"tekst, wcëskając dodôwno klawiszã Shift?\n"
-
-#: tips.cpp:153
-msgid ""
-"<p>...that you can let Konsole set the current directory as the window "
-"title?\n"
-"For Bash, put 'export PS1=$PS1\"\\[\\e]0;\\H:\\w\\a\\]\"' in your ~/."
-"bashrc .\n"
-msgstr ""
-"<p>...mòżesz skònfigùrowac Kònsolã tak, abë wëskrzëniwôłô w title òkna miono "
-"ternegò katalogù?\n"
-"Dlô Basha wpiszë 'export PS1=$PS1\"\\[\\e]0;\\H:\\w\\a\\]\"' w lopkù ~/."
-"bashrc .\n"
-
-#: tips.cpp:159
-msgid ""
-"<p>...that you can let Konsole set the current directory as the session "
-"name?\n"
-"For Bash, put 'export PS1=$PS1\"\\[\\e]30;\\H:\\w\\a\\]\"' in your ~/."
-"bashrc .\n"
-msgstr ""
-"<p>...mòżesz skònfigùrowac Kònsolã tak, abë wëskrzëniwôłô w title sesëji "
-"miono ternegò katalogù?\n"
-"Dlô Basha wpiszë 'export PS1=$PS1\"\\[\\e]0;\\H:\\w\\a\\]\"' w lopkù ~/."
-"bashrc .\n"
-
-#: tips.cpp:165
-msgid ""
-"<p>...that if you let your shell pass the current directory to Konsole "
-"within the prompt\n"
-"variable, e.g. for Bash with 'export PS1=$PS1\"\\[\\e]31;\\w\\a\\]\"' in "
-"your ~/.bashrc, then\n"
-"Konsole can bookmark it, and session management will remember your current "
-"working directory\n"
-"on non-Linux systems too?\n"
-msgstr ""
-"<p>...mòżesz skònfigùrowac pòwłokã tak, abë przësélała do Kònsoli miono "
-"ternegò katalogù (np. dlô Basha wpiszë 'export PS1=$PS1\"\\[\\e]31;\\w\\a\\]"
-"\"' w lopkù ~/.bashrc), co pòzwòle wdôrzenié twòjegò ternegò robòczegò "
-"katalogù téż na nie linuksowëch systemach?\n"
-
-#: tips.cpp:173
-msgid ""
-"<p>...that double-clicking will select a whole word?\n"
-"<p>When you don't release the mouse button after the second click you\n"
-"can extend your selection by additional words when moving the mouse.\n"
-msgstr ""
-"<p>...dwaklëkniãcé zaznaczë całowné słowò?\n"
-"<p>Eżle nie pùszczësz knąpë mëszë pò drëdżim klëkniãcym, bãdzësz mògł\n"
-"zwikszëc zaznaczënié ò dodôwny słowa rëszając mëszą.\n"
-
-#: tips.cpp:180
-msgid ""
-"<p>...that triple-clicking will select a whole line?\n"
-"<p>When you don't release the mouse button after the third click you\n"
-"can extend your selection by additional lines when moving the mouse.\n"
-msgstr ""
-"<p>...trzëklik zaznaczë całowną rézã?\n"
-"<p>Eżle nie pùszczësz knãpë mëszë pò trzecym wcësniãcym, bãdzesz mógł\n"
-"zwikszëc zaznaczenié ò dodôwné rézë rëszając mëszą.\n"
-
-#: tips.cpp:187
-msgid ""
-"<p>...that if you drag &amp; drop a URL into a Konsole window you are "
-"presented with a\n"
-"menu giving the option to copy or move the specified file into the current "
-"working directory,\n"
-"as well as just pasting the URL as text.\n"
-"<p>This works with any type of URL which KDE supports.\n"
-msgstr ""
-"<p>...eżle przecygniesz ë pùszczësz adresã URL do òkna Kònsoli,\n"
-"òbaczësz menu z òptacëjama kòpiérowaniô abò przesëniãcô wëbrónégò lopkù do "
-"ternegò katalogù\n"
-"a téż zwëkòwégò wlemiania URL jakno tekstu.\n"
-"<p>Fùnkcëjô na dzejô ze wszëtczéma ôrtama URL, jaczé mają òbsłëgã w KDE.\n"
-
-#: tips.cpp:195
-msgid ""
-"<p>...that the \"Settings->Configure Shortcuts...\" dialog allows you to "
-"define keyboard shortcuts for actions\n"
-"not shown in the menu, like activating menu, changing font and for listing "
-"and switching sessions?\n"
-msgstr ""
-"<p>...òkno \"Nastôwë->Kònfigùracëjô skrodzënów...\" pòzwôlô na kònfigùracëjã "
-"skrodzënów\n"
-"dlô dzejaniów nieprzistãpnëch z menu, taczich jakno aktiwòwanié menu, zmiana "
-"fòntu,\n"
-"czë wëskrzëniwanié lestë abò przełączanié sesëji?\n"
-
-#: tips.cpp:201
-msgid ""
-"<p>...that right-clicking over the \"New\" button in the left corner of the "
-"tabbar or in an empty tabbar space displays a menu where you can set several "
-"tab options?\n"
-msgstr ""
-"<p>...klëkniãcé prawą knąpą mëszë na knąpie \"Nowi\" w lewim górnym nórce "
-"lëstwë wëskrzëni menu, w jaczim przistãpne są różne òptacëje kôrtów?\n"
-
-#: zmodem_dialog.cpp:32
-msgid "&Stop"
-msgstr "&Zatrzëmôj"
+#~ msgid "Close sessions"
+#~ msgstr "&Zamkni sesëjã"
+
+#~ msgid "Save Sessions Profile"
+#~ msgstr "Zapiszë profil sesëji"
+
+#~ msgid "Enter name under which the profile should be saved:"
+#~ msgstr "Wpiszë miono, pòd jaczim zapisac profil:"
+
+#~ msgid "Use the right mouse button to bring back the menu"
+#~ msgstr "Brëkùjë prawy knąpë mëszë, abë przewrócëc menu"
+
+#~ msgid ""
+#~ "You have chosen one or more Ctrl+<key> combinations to be used as "
+#~ "shortcuts. As a result these key combinations will no longer be passed to "
+#~ "the command shell or to applications that run inside Konsole. This can "
+#~ "have the unintended consequence that functionality that would otherwise "
+#~ "be bound to these key combinations is no longer accessible.\n"
+#~ "\n"
+#~ "You may wish to reconsider your choice of keys and use Alt+Ctrl+<key> or "
+#~ "Ctrl+Shift+<key> instead.\n"
+#~ "\n"
+#~ "You are currently using the following Ctrl+<key> combinations:"
+#~ msgstr ""
+#~ "Môsz wëbróny przënômni jedną skrodzënã w sztaturze Ctrl+<klawisza>. "
+#~ "Skùtkã tegò ne kòmbinacëje nie mdã przekôzëwóné do pòwłoczi ani niżódnëch "
+#~ "programów zrëszanëch bënë Konsoli. Mòże to na nieżdóny ôrt ògrańczëc "
+#~ "przistãp do fùnkcëji przëpisónëch do tëch klawiszów.\n"
+#~ "\n"
+#~ "Mòżesz zmienic wëbiérk skrodzënów, wëbiérając barżi kòmbinacëje ôrtu: Alt"
+#~ "+Ctrl+<klawisza> abò Ctrl+Shift+<klawisza>.\n"
+#~ "\n"
+#~ "W ti sztãdze zdefiniowóné są pòstãpny skrodzënë sztaturë Ctrl+<klawisz>:"
+
+#~ msgid "Choice of Shortcut Keys"
+#~ msgstr "Wëbiérk klawiszowëch skrodzënów"
+
+#~ msgid "Session List"
+#~ msgstr "Lësta sesëji"
+
+#, fuzzy
+#~ msgid "Are you sure you want to close this session?"
+#~ msgstr "Na gwës chcesz zakùńczëc biérzną sesëjã?"
+
+#~ msgid "New Shell at Bookmark"
+#~ msgstr "Nowô pòwłoka z załóżczi"
+
+#~ msgid "Shell at Bookmark"
+#~ msgstr "Pòwłoka z załóżczi"
+
+#, fuzzy
+#~ msgctxt "Screen is a program for controlling screens"
+#~ msgid "Screen at %1"
+#~ msgstr "Drëkùjë %1"
+
+#~ msgid "Rename Session"
+#~ msgstr "Zmieni miono sesëji"
+
+#~ msgid "Session name:"
+#~ msgstr "Miono sesëji:"
+
+#~ msgid "&Enable"
+#~ msgstr "&Włączë"
+
+#~ msgid "&Set Unlimited"
+#~ msgstr "&Bez ògreńczeń"
+
+#~ msgid ""
+#~ "End of history reached.\n"
+#~ "Continue from the beginning?"
+#~ msgstr ""
+#~ "Zwënégòwóny je kùńc historëji.\n"
+#~ "Kòntinuòwac òd pòczątkù?"
+
+#~ msgid ""
+#~ "Beginning of history reached.\n"
+#~ "Continue from the end?"
+#~ msgstr ""
+#~ "Zwënégòwóny je zaczątk historëji.\n"
+#~ "Kòntinuòwac òd kùńca?"
+
+#~ msgid "Search string '%1' not found."
+#~ msgstr "Ne je nalazłi tekst '%1'."
+
+#~ msgid ""
+#~ "A file with this name already exists.\n"
+#~ "Do you want to overwrite it?"
+#~ msgstr ""
+#~ "Lopk ò tim mionie ju je.\n"
+#~ "Chcesz gò nadpisac?"
+
+#~ msgid "File Exists"
+#~ msgstr "Lopk ju òbstoji"
+
+#~ msgid "Overwrite"
+#~ msgstr "Nadpiszë"
+
+#~ msgid "Unable to write to file."
+#~ msgstr "Nie mòże zapisac lopkù."
+
+#~ msgid "Could not save history."
+#~ msgstr "Nie jidze zapisac hisotrëji."
+
+#~ msgid ""
+#~ "<p>The current session already has a ZModem file transfer in progress."
+#~ msgstr "<p>W biérzny sesëji dérô ju ladowanié lopkù w protokòle ZModem."
+
+#~ msgid ""
+#~ "<p>No suitable ZModem software was found on the system.\n"
+#~ "<p>You may wish to install the 'rzsz' or 'lrzsz' package.\n"
+#~ msgstr ""
+#~ "<p>W systemie felëje gwësnegò òprogramòwania ZModem.\n"
+#~ "<p>Proszã zainstalowac paczét 'rzsz' abò 'lrzsz'.\n"
+
+#~ msgid "Select Files to Upload"
+#~ msgstr "Wëbiérzë lopk do zladowania"
+
+#~ msgid ""
+#~ "<p>A ZModem file transfer attempt has been detected, but no suitable "
+#~ "ZModem software was found on the system.\n"
+#~ "<p>You may wish to install the 'rzsz' or 'lrzsz' package.\n"
+#~ msgstr ""
+#~ "<p>Wëkrëtô òsta próba transmisëji lopków w protokòle ZModem, leno w "
+#~ "systemie felëje gwësnegò òprogramòwania ZModem.\n"
+#~ "<p>Proszã zainstalowac paczét 'rzsz' abò 'lrzsz'.\n"
+
+#~ msgid ""
+#~ "A ZModem file transfer attempt has been detected.\n"
+#~ "Please specify the folder you want to store the file(s):"
+#~ msgstr ""
+#~ "Wëkrëtô òsta próba transmisëji lopków w protokòle ZModem.\n"
+#~ "Proszã wëbrac katalog do zapisaniégò zladowónëch lopków:"
+
+#~ msgid "&Download"
+#~ msgstr "&Zladënk"
+
+#~ msgid "Start downloading file to specified folder."
+#~ msgstr "Nacznij zladowanié lopkù do wëbranégò katalogù."
+
+#~ msgid "Print %1"
+#~ msgstr "Drëkùjë %1"
+
+#~ msgid "Size Configuration"
+#~ msgstr "Kònfigùracëjô miarë"
+
+#~ msgid "Number of columns:"
+#~ msgstr "Lëczba kòlumnów:"
+
+#~ msgid "Number of lines:"
+#~ msgstr "Lëczba rézów:"
+
+#~ msgid "Select &Tab Color..."
+#~ msgstr "Wëbierzë &farwã kôrtë..."
+
+#~ msgid "Switch to Tab"
+#~ msgstr "Przełączë na kôrtã"
+
+#~ msgid "&History..."
+#~ msgstr "&Historëja..."
+
+#~ msgid "Li&ne Spacing"
+#~ msgstr "&Interréza"
+
+#~ msgid "&0"
+#~ msgstr "&0"
+
+#~ msgid "&1"
+#~ msgstr "&1"
+
+#~ msgid "&2"
+#~ msgstr "&2"
+
+#~ msgid "&3"
+#~ msgstr "&3"
+
+#~ msgid "&4"
+#~ msgstr "&4"
+
+#~ msgid "&5"
+#~ msgstr "&5"
+
+#~ msgid "&6"
+#~ msgstr "&6"
+
+#~ msgid "&7"
+#~ msgstr "&7"
+
+#~ msgid "&8"
+#~ msgstr "&8"
+
+#~ msgid "Show Fr&ame"
+#~ msgstr "Pòkazë &ramã"
+
+#~ msgid "Hide Fr&ame"
+#~ msgstr "Zatacë &ramã"
+
+#~ msgid "&Use Konsole's Settings"
+#~ msgstr "&Brëkùjë nastôwów kònsolë"
+
+#~ msgid "S&ettings"
+#~ msgstr "&Nastôwë"
+
+#, fuzzy
+#~ msgid "The KDE Terminal"
+#~ msgstr "Wëczëszczë &terminal"
+
+#~ msgid "Set window class"
+#~ msgstr "Nastôwi klasã òkna"
+
+#~ msgid "Start login shell"
+#~ msgstr "Zrëszë sztartową pòwłokã"
+
+#~ msgid "Set the window title"
+#~ msgstr "Nastôwi titel òkna"
+
+#~ msgid ""
+#~ "Specify terminal type as set in the TERM\n"
+#~ "environment variable"
+#~ msgstr ""
+#~ "Wpiszë ôrt terminala, ùstôwiony w\n"
+#~ "zmiennej TERM"
+
+#~ msgid "Do not close Konsole when command exits"
+#~ msgstr "Nie zamekôj kònsolë pò zakùńczenim pòlétu"
+
+#~ msgid "Do not save lines in history"
+#~ msgstr "Nie zapisëjë rézów w bùforze historëji"
+
+#~ msgid "Do not display menubar"
+#~ msgstr "Nie wëskrzëniwôj menu"
+
+#~ msgid "Do not display tab bar"
+#~ msgstr "Nie wëskrzëniwôj lëstwë kôrtów"
+
+#~ msgid "Do not display frame"
+#~ msgstr "Nie wëskrzëniwôj ramë"
+
+#~ msgid "Do not use Xft (anti-aliasing)"
+#~ msgstr "Nie brëkùjë Xft (anti-aliasing)"
+
+#~ msgid "Terminal size in columns x lines"
+#~ msgstr "Miara terminala, kòlumnë x rézë"
+
+#~ msgid "Terminal size is fixed"
+#~ msgstr "Miara terminala je stała"
+
+#~ msgid "Start with given session type"
+#~ msgstr "Sztartëjë z gwësnym ôrtã sesëji"
+
+#~ msgid "List available session types"
+#~ msgstr "Pòkażë lëstã przistãpnëch ôrtów sesëji"
+
+#~ msgid "Set keytab to 'name'"
+#~ msgstr "Ùsôdzë miono kôrtë jakno 'miono'"
+
+#~ msgid "List available keytabs"
+#~ msgstr "Pòkażë przistãpny kôrtë"
+
+#~ msgid "Start with given session profile"
+#~ msgstr "Sztartëjë z gwësnëm profilã sesëji"
+
+#~ msgid "List available session profiles"
+#~ msgstr "Lësta przistãpnëch profilów sesëji"
+
+#~ msgid "Set schema to 'name' or use 'file'"
+#~ msgstr "Ùsôdzë schemã na 'miono' abò brëkùjë lopkù 'lopk'"
+
+#~ msgid "List available schemata"
+#~ msgstr "Pòkażë przistãpny schematë"
+
+#~ msgid "Change working directory to 'dir'"
+#~ msgstr "Zmieni robòczy katalog na 'dir'"
+
+#~ msgid "Execute 'command' instead of shell"
+#~ msgstr "Zrëszë 'pòlét' w môl pòwłoczi"
+
+#~ msgid "Arguments for 'command'"
+#~ msgstr "Argùmentë dlô 'pòlétu'"
+
+#, fuzzy
+#~ msgid "You can not use BOTH -ls and -e.\n"
+#~ msgstr "Nie mòżesz brëkòwac DWUCH -ls ë -e.\n"
+
+#~ msgid "expected --vt_sz <#columns>x<#lines> e.g. 80x40\n"
+#~ msgstr "żdanié --vt_sz <#kòlumnë>x<#rézë> n.p. 80x40\n"
+
+#~ msgid "[no title]"
+#~ msgstr "[felënk titla]"
+
+#~ msgid "Konsole Default"
+#~ msgstr "Kònsola domëszlno"
+
+#~ msgid "Black on Light Color"
+#~ msgstr "Czôrne na widnym spòdlém"
+
+#~ msgid "Black on Light Yellow"
+#~ msgstr "Czôrne na widnożółtim spòdlim"
+
+#~ msgid "Black on White"
+#~ msgstr "Czôrne na białim spòdlim"
+
+#~ msgid "Marble"
+#~ msgstr "Marmùrowi"
+
+#~ msgid "Green on Black"
+#~ msgstr "Zelony na czôrnym"
+
+#~ msgid "Green Tint"
+#~ msgstr "Ceniowatosc zelonégò"
+
+#~ msgid "Green Tint with Transparent MC"
+#~ msgstr "Ceniowatosc zelonégò z przezérnym MC"
+
+#~ msgid "Paper"
+#~ msgstr "Papiér"
+
+#~ msgid "Linux Colors"
+#~ msgstr "Farwë Linuksa"
+
+#~ msgid "Transparent Konsole"
+#~ msgstr "Przezérnô Kònsola"
+
+#~ msgid "Transparent for MC"
+#~ msgstr "Przezérny MC"
+
+#~ msgid "Transparent, Dark Background"
+#~ msgstr "Przezérnë, cemny spòdlé"
+
+#~ msgid "Transparent, Light Background"
+#~ msgstr "Przezérnë, widny spòdlé"
+
+#~ msgid "White on Black"
+#~ msgstr "Białi na czôrnym"
+
+#~ msgid "XTerm Colors"
+#~ msgstr "Farwë XTerma"
+
+#~ msgid "System Colors"
+#~ msgstr "Systemòwi farwë"
+
+#~ msgid "XTerm (XFree 4.x.x)"
+#~ msgstr "XTerm (XFree 4.x.x)"
+
+#~ msgid "linux console"
+#~ msgstr "kònsola linuksa"
+
+#~ msgid "Solaris"
+#~ msgstr "Solaris"
+
+#~ msgid "vt100 (historical)"
+#~ msgstr "vt100 (historëjowi)"
+
+#~ msgid "VT420PC"
+#~ msgstr "VT420PC"
+
+#~ msgid "XTerm (XFree 3.x.x)"
+#~ msgstr "XTerm (XFree 3.x.x)"
+
+#~ msgid ""
+#~ "<p>...that right-clicking on any tab allows for the changing of the tab "
+#~ "text color?\n"
+#~ msgstr ""
+#~ "<p>...klëkającë prawą knąpą mëszë na kôrce mòżësz zmienic farwã tekstu "
+#~ "kôrtë?\n"
+
+#~ msgid ""
+#~ "<p>...that the tab text color can be changed with the code \\e[28;COLORt "
+#~ "(COLOR: 0-16,777,215)?\n"
+#~ msgstr ""
+#~ "<p>...farwa tekstu mòże bëc zmienionô kòdã \\e[28;FARWAt (FARWA: 0-"
+#~ "16,777,215)?\n"
+
+#~ msgid "<p>...that the code \\e[8;ROW;COLUMNt will resize Konsole?\n"
+#~ msgstr "<p>...kòd \\e[8;RÉZË;KÒLUMNËt sprôwi zmianã miarë Kònsolë?\n"
+
+#~ msgid ""
+#~ "<p>...that you can start a new standard session by pressing the \"New\" "
+#~ "button in the tabbar?\n"
+#~ msgstr ""
+#~ "<p>...mòżesz zrëszëc nową sesëjã Kònsolë, klëkającë na knąpã \"Nowi\" na "
+#~ "lëstwie nôrzãdzów Kònsoli?\n"
+
+#~ msgid ""
+#~ "<p>...that pressing and holding the \"New\" button on the tabbar will "
+#~ "display a menu of sessions to select?\n"
+#~ msgstr ""
+#~ "<p>...wcësniãcé a przëtrzëmanié knąpë \"Nowi\" na lëstwie nôrzãdzy "
+#~ "Kònsoli pòzwòli ce na wëbiérk ôrtu sesëji do zrëszëniô?\n"
+
+#~ msgid "<p>...that pressing Ctrl+Alt+N will start a new standard session?\n"
+#~ msgstr "<p>...wcësniãcé Ctrl+Alt+N zrëszë nową sztandardową sesëjã?\n"
+
+#~ msgid ""
+#~ "<p>...that you can cycle through the Konsole sessions by holding down the "
+#~ "Shift key and\n"
+#~ "pressing the Left or Right Arrow keys?\n"
+#~ msgstr ""
+#~ "<p>...mòżesz przezérac sesëje Kònsolë wcëskającë Shift ë klawisze lewò "
+#~ "abò prawò?\n"
+
+#~ msgid ""
+#~ "<p>...that you can get a 'Linux console-like' terminal? \n"
+#~ "<p>Hide Konsole's menubar, tabbar and scrollbar, select the Linux font\n"
+#~ "and the Linux Colors schema and apply the full-screen mode. You might "
+#~ "also \n"
+#~ "want to set the KDE panel to auto-hide.\n"
+#~ msgstr ""
+#~ "<p>...mòżesz skònfigùrowac Kònsolã, tak bë wëzdrzała jakno linuksowi "
+#~ "terminal?\n"
+#~ "<p>Wëłączë menu, lestëw nôrzãdzów ë przewijną lestëw, wëbiérzë fònt Linux "
+#~ "ë zestôwk Farwë Linuksa a téż włączë fùlekranowi trib. Mòżesz téż włączëc "
+#~ "aùtomatny tacënié panelu.\n"
+
+#~ msgid ""
+#~ "<p>...that you can rename your Konsole sessions by clicking with the "
+#~ "right mouse\n"
+#~ "button and selecting \"Rename session\"? The change will be reflected in "
+#~ "the\n"
+#~ "Konsole tabbar, making it easier to remember the content of the session.\n"
+#~ msgstr ""
+#~ "<p>...mòżesz zmienic miono sesëji Kònsoli, klëkającë prawą knąpą mëszë ë "
+#~ "wëbiérającë pòlét \"Zmieni miono sesëji\"? Zmiana na òstanié ùznônô na "
+#~ "lestwie nôrzãdzy, zletczając wdôrzenié zamkłoscë sesëji.\n"
+
+#~ msgid ""
+#~ "<p>...that you can rename a Konsole session by double-clicking its tab?\n"
+#~ msgstr ""
+#~ "<p>...mòżesz zmienic miono sesëji klëkając dwa razë na ji knąpie na "
+#~ "lestwie nôrzãdzy?\n"
+
+#~ msgid "<p>...that you can activate the menu with the Ctrl+Alt+M shortcut?\n"
+#~ msgstr "<p>...mòżesz przińdz do menu skrodzëną Ctrl+Alt+M?\n"
+
+#~ msgid ""
+#~ "<p>...that you can rename your current Konsole session with the Ctrl+Alt"
+#~ "+S shortcut?\n"
+#~ msgstr "<p>...mòżesz zmienic miono terny sesëji skrodzëną Alt+Ctrl+S?\n"
+
+#~ msgid ""
+#~ "<p>...that you can create your own session types by using the session \n"
+#~ "editor which you can find under \"Settings->Configure Konsole...\"?\n"
+#~ msgstr ""
+#~ "<p>...mòżesz ùsôdzëc swòje ôrtë sesëji brëkùjącë editora sesëji \"Nastôwë-"
+#~ ">Kònfigùracëjô Kònsolë...\"?\n"
+
+#~ msgid ""
+#~ "<p>...that you can create your own color schemes by using the schema "
+#~ "editor\n"
+#~ "which you can find under \"Settings->Configure Konsole...\"?\n"
+#~ "</p>\n"
+#~ msgstr ""
+#~ "<p>...mòżesz ùsôdzëc swòje zestôwczi farwów przë pòmòcë editora farwów "
+#~ "\"Nastôwë->Kònfigùracëjô Kònsoli...\"?\n"
+#~ "</p>\n"
+
+#~ msgid ""
+#~ "<p>...that you can move a session by holding down the middle mouse button "
+#~ "over the tab?\n"
+#~ "</p>\n"
+#~ msgstr ""
+#~ "<p>...mòżesz przesënąc sesëjã trzëmając strzédną knąpã mëszë nad kôrtą?\n"
+#~ "</p>\n"
+
+#~ msgid ""
+#~ "<p>...that you can reorder the session tabs with \"View->Move Session "
+#~ "Left/Right\" menu\n"
+#~ "commands or by holding down the Shift and Ctrl keys and pressing the Left "
+#~ "or Right \n"
+#~ "Arrow keys?\n"
+#~ "</p>\n"
+#~ msgstr ""
+#~ "<p>...mòżesz zmienic pòsobicã knąpów sesëji na lestwie nôrzãdzów pòlétama "
+#~ "\"Przeniesë sesëjã w lewò\" ë \"Przeniesë sesëjã w prawò\" z menu "
+#~ "Wëzdrzatk abò wcëskając Shift+Ctrl+strzélkã prawò/lewò.\n"
+#~ "</p>\n"
+
+#~ msgid ""
+#~ "<p>...that you can scroll pagewise in the history by holding down the "
+#~ "Shift key \n"
+#~ "and pressing the Page Up or Page Down keys?\n"
+#~ msgstr ""
+#~ "<p>...mòżesz przezérac historëjã starna pò starnie, trzëmając Shift ë "
+#~ "wcëskając klawisz Page Up/Page Down?\n"
+
+#~ msgid ""
+#~ "<p>...that you can scroll linewise in the history by holding down the "
+#~ "Shift key \n"
+#~ "and pressing the Up or Down Arrow keys?\n"
+#~ msgstr ""
+#~ "<p>...mòżesz przezérac historëjã réza pò réze, trzëmając Shift ë "
+#~ "wcëskając klawisze góra/dół?\n"
+
+#~ msgid ""
+#~ "<p>...that you can insert the clipboard by holding down the Shift key "
+#~ "and \n"
+#~ "pressing the Insert key?\n"
+#~ msgstr ""
+#~ "<p>...mòżesz wlemic zamkłosc schòwë brëkùjąc skrodzënë Shift+Insert?\n"
+
+#~ msgid ""
+#~ "<p>...that you can insert the X selection by holding down the Shift and\n"
+#~ "Ctrl keys and pressing the Insert key?\n"
+#~ msgstr ""
+#~ "<p>...mòżesz wstawic zaznaczony tekst X wcëskając klawisze Shift+Ctrl"
+#~ "+Insert?\n"
+
+#~ msgid ""
+#~ "<p>...that pressing Ctrl while pasting the selection with the middle "
+#~ "mouse\n"
+#~ "button will append a carriage return after pasting the selection buffer?\n"
+#~ msgstr ""
+#~ "<p>...wcësniãcé Ctrl òbczas wlemianiô zanzaczonégò tekstu strzédną knąpą "
+#~ "mëszë sprôwi dodanié céchù kùńca rézë pò wlemionym teksce?\n"
+
+#~ msgid ""
+#~ "<p>...that you can turn off the terminal size hint under \"Settings-"
+#~ ">Configure Konsole...\"?\n"
+#~ msgstr ""
+#~ "<p>...mòżesz wëłączëc wëdowiédzã ò miarach terminala w menu \"Nastôwë-"
+#~ ">Kònfigùracëjô Kònsoli...\"?\n"
+
+#~ msgid ""
+#~ "<p>...that pressing Ctrl while selecting text will let Konsole ignore "
+#~ "line breaks?\n"
+#~ msgstr ""
+#~ "<p>...wcësniãcé Ctrl òbczas zaznaczania tekstu sprôwi òpùszczenié céchów "
+#~ "kùńca rézë?\n"
+
+#~ msgid ""
+#~ "<p>...that pressing the Ctrl and Alt keys while selecting text will let "
+#~ "Konsole select columns?\n"
+#~ msgstr ""
+#~ "<p>...wcësniãcé Ctrl ë Alt òbczas zaznaczania tekstu pòzwôlô na "
+#~ "zaznaczenié kòlumnów?\n"
+
+#~ msgid ""
+#~ "<p>...that when a program evaluates the right mouse button you can still\n"
+#~ "get the right mouse button pop-up menu while pressing the Shift key?\n"
+#~ msgstr ""
+#~ "<p>...nawetka czej programa òbsłëgiwô prawą knąpã mëszë, mòżesz wëwòłac "
+#~ "knąpã menu wcëskając dodôwno klawiszã Shift?\n"
+
+#~ msgid ""
+#~ "<p>...that when a program evaluates the left mouse button you can still "
+#~ "select\n"
+#~ "text while pressing the Shift key?\n"
+#~ msgstr ""
+#~ "<p>...nawetka czej programa òbsłëgiwô lewą knąpã mëszë, mòżesz zaznaczëc "
+#~ "tekst, wcëskając dodôwno klawiszã Shift?\n"
+
+#~ msgid ""
+#~ "<p>...that you can let Konsole set the current directory as the window "
+#~ "title?\n"
+#~ "For Bash, put 'export PS1=$PS1\"\\[\\e]0;\\H:\\w\\a\\]\"' in your ~/."
+#~ "bashrc .\n"
+#~ msgstr ""
+#~ "<p>...mòżesz skònfigùrowac Kònsolã tak, abë wëskrzëniwôłô w title òkna "
+#~ "miono ternegò katalogù?\n"
+#~ "Dlô Basha wpiszë 'export PS1=$PS1\"\\[\\e]0;\\H:\\w\\a\\]\"' w lopkù ~/."
+#~ "bashrc .\n"
+
+#~ msgid ""
+#~ "<p>...that you can let Konsole set the current directory as the session "
+#~ "name?\n"
+#~ "For Bash, put 'export PS1=$PS1\"\\[\\e]30;\\H:\\w\\a\\]\"' in your ~/."
+#~ "bashrc .\n"
+#~ msgstr ""
+#~ "<p>...mòżesz skònfigùrowac Kònsolã tak, abë wëskrzëniwôłô w title sesëji "
+#~ "miono ternegò katalogù?\n"
+#~ "Dlô Basha wpiszë 'export PS1=$PS1\"\\[\\e]0;\\H:\\w\\a\\]\"' w lopkù ~/."
+#~ "bashrc .\n"
+
+#~ msgid ""
+#~ "<p>...that if you let your shell pass the current directory to Konsole "
+#~ "within the prompt\n"
+#~ "variable, e.g. for Bash with 'export PS1=$PS1\"\\[\\e]31;\\w\\a\\]\"' in "
+#~ "your ~/.bashrc, then\n"
+#~ "Konsole can bookmark it, and session management will remember your "
+#~ "current working directory\n"
+#~ "on non-Linux systems too?\n"
+#~ msgstr ""
+#~ "<p>...mòżesz skònfigùrowac pòwłokã tak, abë przësélała do Kònsoli miono "
+#~ "ternegò katalogù (np. dlô Basha wpiszë 'export PS1=$PS1\"\\[\\e]31;\\w\\a"
+#~ "\\]\"' w lopkù ~/.bashrc), co pòzwòle wdôrzenié twòjegò ternegò robòczegò "
+#~ "katalogù téż na nie linuksowëch systemach?\n"
+
+#~ msgid ""
+#~ "<p>...that double-clicking will select a whole word?\n"
+#~ "<p>When you don't release the mouse button after the second click you\n"
+#~ "can extend your selection by additional words when moving the mouse.\n"
+#~ msgstr ""
+#~ "<p>...dwaklëkniãcé zaznaczë całowné słowò?\n"
+#~ "<p>Eżle nie pùszczësz knąpë mëszë pò drëdżim klëkniãcym, bãdzësz mògł\n"
+#~ "zwikszëc zaznaczënié ò dodôwny słowa rëszając mëszą.\n"
+
+#~ msgid ""
+#~ "<p>...that triple-clicking will select a whole line?\n"
+#~ "<p>When you don't release the mouse button after the third click you\n"
+#~ "can extend your selection by additional lines when moving the mouse.\n"
+#~ msgstr ""
+#~ "<p>...trzëklik zaznaczë całowną rézã?\n"
+#~ "<p>Eżle nie pùszczësz knãpë mëszë pò trzecym wcësniãcym, bãdzesz mógł\n"
+#~ "zwikszëc zaznaczenié ò dodôwné rézë rëszając mëszą.\n"
+
+#~ msgid ""
+#~ "<p>...that if you drag &amp; drop a URL into a Konsole window you are "
+#~ "presented with a\n"
+#~ "menu giving the option to copy or move the specified file into the "
+#~ "current working directory,\n"
+#~ "as well as just pasting the URL as text.\n"
+#~ "<p>This works with any type of URL which KDE supports.\n"
+#~ msgstr ""
+#~ "<p>...eżle przecygniesz ë pùszczësz adresã URL do òkna Kònsoli,\n"
+#~ "òbaczësz menu z òptacëjama kòpiérowaniô abò przesëniãcô wëbrónégò lopkù "
+#~ "do ternegò katalogù\n"
+#~ "a téż zwëkòwégò wlemiania URL jakno tekstu.\n"
+#~ "<p>Fùnkcëjô na dzejô ze wszëtczéma ôrtama URL, jaczé mają òbsłëgã w KDE.\n"
+
+#~ msgid ""
+#~ "<p>...that the \"Settings->Configure Shortcuts...\" dialog allows you to "
+#~ "define keyboard shortcuts for actions\n"
+#~ "not shown in the menu, like activating menu, changing font and for "
+#~ "listing and switching sessions?\n"
+#~ msgstr ""
+#~ "<p>...òkno \"Nastôwë->Kònfigùracëjô skrodzënów...\" pòzwôlô na "
+#~ "kònfigùracëjã skrodzënów\n"
+#~ "dlô dzejaniów nieprzistãpnëch z menu, taczich jakno aktiwòwanié menu, "
+#~ "zmiana fòntu,\n"
+#~ "czë wëskrzëniwanié lestë abò przełączanié sesëji?\n"
+
+#~ msgid ""
+#~ "<p>...that right-clicking over the \"New\" button in the left corner of "
+#~ "the tabbar or in an empty tabbar space displays a menu where you can set "
+#~ "several tab options?\n"
+#~ msgstr ""
+#~ "<p>...klëkniãcé prawą knąpą mëszë na knąpie \"Nowi\" w lewim górnym nórce "
+#~ "lëstwë wëskrzëni menu, w jaczim przistãpne są różne òptacëje kôrtów?\n"
