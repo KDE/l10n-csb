@@ -16,15 +16,11 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2);\n"
 
 #: rc.cpp:1
-#, fuzzy
-#| msgid "Your names"
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
 
 #: rc.cpp:2
-#, fuzzy
-#| msgid "Your emails"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
@@ -151,6 +147,8 @@ msgid ""
 "Are you sure you wish to delete:\n"
 "%1"
 msgstr ""
+"Na gwës chcesz rëmnąc:\n"
+"%1"
 
 #: kcmfontinst/DuplicatesDialog.cpp:254
 msgid "Are you sure you wish to delete:"
@@ -191,7 +189,7 @@ msgstr ""
 #: kcmfontinst/DuplicatesDialog.cpp:603 kcmfontinst/FontList.cpp:1921
 #, qt-format
 msgid "Open all %1 fonts in font viewer?"
-msgstr ""
+msgstr "Òtemknąc wszëtczé %1 fòntë w przezérnikù fòntów?"
 
 #: kcmfontinst/FontFilter.cpp:52
 msgid "Set Criteria"
@@ -228,12 +226,12 @@ msgstr ""
 #: kcmfontinst/FontFilter.cpp:128 kcmfontinst/FontFilter.cpp:169
 #, qt-format
 msgid "Type here to filter on %1"
-msgstr ""
+msgstr "Wpiszë tuwò bë filtrowac %1"
 
 #: kcmfontinst/FontFilter.cpp:153
 #, qt-format
 msgid "%1 (Writing System)"
-msgstr ""
+msgstr "%1 (systema zapisu)"
 
 #: kcmfontinst/FontList.cpp:711
 msgid "Font"
@@ -260,7 +258,7 @@ msgstr ""
 #: kcmfontinst/FontList.cpp:1098 kcmfontinst/FontList.cpp:1122
 #, qt-format
 msgid "...plus %1 more"
-msgstr ""
+msgstr "...plus %1 wicy"
 
 #: kcmfontinst/FontList.cpp:1150
 #, qt-format
@@ -340,6 +338,8 @@ msgid ""
 "<p>Do you really want to remove '<b>%1</b>'?</p><p><i>This will only remove "
 "the group, and not the actual fonts.</i></p>"
 msgstr ""
+"<p>Na gwës chcesz rëmnąc '<b>%1</b>'?</p><p><i>To le blós rëmnie "
+"grëpã a nie biéżné fòntë.</i></p>"
 
 #: kcmfontinst/GroupList.cpp:577
 msgid "Remove Group"
@@ -385,7 +385,7 @@ msgstr ""
 #: kcmfontinst/GroupList.cpp:734
 #, qt-format
 msgid "<qt>A group named <b>'%1'</b> already exists!</qt>"
-msgstr ""
+msgstr "<qt>Grëpa zwónô <b>'%1'</b> ju òbstoji!</qt>"
 
 #: kcmfontinst/GroupList.cpp:760
 msgid "Remove..."
@@ -806,7 +806,7 @@ msgstr[1] "Czë na gwës chcesz wëłączëc ne %1 fòntë?"
 msgstr[2] "Czë na gwës chcesz wëłączëc nëch %1 fòntów?"
 
 #: kcmfontinst/KCmFontInst.cpp:1165
-#, fuzzy, qt-format
+#, qt-format
 msgid ""
 "<p>Do you really want to enable this font contained within group '<b>%2</b>'?"
 "</p>"
@@ -814,17 +814,14 @@ msgid_plural ""
 "<p>Do you really want to enable these %1 fonts contained within group '<b>%"
 "2</b>'?</p>"
 msgstr[0] ""
-"<qt>Czë na gwës chcesz rëmnąc\n"
-"<b>'%1'</b>?</qt>"
+"<p>Czë na gwës chcesz włączëc nen fònt zamkłi w grëpie '<b>%2</b>'?</p>"
 msgstr[1] ""
-"<qt>Czë na gwës chcesz rëmnąc\n"
-"<b>'%1'</b>?</qt>"
+"<p>Czë na gwës chcesz włączëc ne %1 fòntë zamkłé w grëpie '<b>%2</b>'?</p>"
 msgstr[2] ""
-"<qt>Czë na gwës chcesz rëmnąc\n"
-"<b>'%1'</b>?</qt>"
+"<p>Czë na gwës chcesz włączëc ne %1 fòntów zamkłëch w grëpie '<b>%2</b>'?</p>"
 
 #: kcmfontinst/KCmFontInst.cpp:1170
-#, fuzzy, qt-format
+#, qt-format
 msgid ""
 "<p>Do you really want to disable this font contained within group '<b>%2</"
 "b>'?</p>"
@@ -832,14 +829,11 @@ msgid_plural ""
 "<p>Do you really want to disable these %1 fonts contained within group '<b>%"
 "2</b>'?</p>"
 msgstr[0] ""
-"<qt>Czë na gwës chcesz rëmnąc\n"
-"<b>'%1'</b>?</qt>"
+"<p>Czë na gwës chcesz wëłączëc nen fònt zamkłi w grëpie '<b>%2</b>'?</p>"
 msgstr[1] ""
-"<qt>Czë na gwës chcesz rëmnąc\n"
-"<b>'%1'</b>?</qt>"
+"<p>Czë na gwës chcesz wëłączëc ne %1 fòntë zamkłé w grëpie '<b>%2</b>'?</p>"
 msgstr[2] ""
-"<qt>Czë na gwës chcesz rëmnąc\n"
-"<b>'%1'</b>?</qt>"
+"<p>Czë na gwës chcesz włączëc ne %1 fòntów zamkłëch w grëpie '<b>%2</b>'?</p>"
 
 #: kcmfontinst/KCmFontInst.cpp:1176
 msgid "Enable Fonts"
@@ -1046,7 +1040,7 @@ msgid ""
 msgstr ""
 
 #: kio/KioFonts.cpp:3220
-#, fuzzy, qt-format
+#, qt-format
 msgid ""
 "<p>You are attempting to move a font that is located in a file alongside "
 "other fonts; in order to proceed with the moving they will all have to be "
@@ -1059,7 +1053,7 @@ msgstr ""
 "Czë chcesz przeniesc ne wszëtczé fòntë?</p>"
 
 #: kio/KioFonts.cpp:3226
-#, fuzzy, qt-format
+#, qt-format
 msgid ""
 "<p>You are attempting to copy a font that is located in a file alongside "
 "other fonts; in order to proceed with the copying they will all have to be "
@@ -1072,7 +1066,7 @@ msgstr ""
 "Czë chcesz skòpijowac ne wszëtczé fòntë?</p>"
 
 #: kio/KioFonts.cpp:3232
-#, fuzzy, qt-format
+#, qt-format
 msgid ""
 "<p>You are attempting to delete a font that is located in a file alongside "
 "other fonts; in order to proceed with the deleting they will all have to be "
@@ -1084,28 +1078,28 @@ msgstr ""
 "Czë chcesz rëmnąc ne wszëtczé fòntë?</p>"
 
 #: kio/KioFonts.cpp:3238
-#, fuzzy, qt-format
+#, qt-format
 msgid ""
 "<p>You are attempting to enable a font that is located in a file alongside "
 "other fonts; in order to proceed with the enabling they will all have to be "
 "enabled. The affected fonts are:</p><ul>%1</ul><p>\n"
 " Do you wish to enable all of these?</p>"
 msgstr ""
-"<p>Nen fònt je w lopkù razã z jinëma fòntama. Abë gò rëmnąc, nót je rëmnąc "
+"<p>Nen fònt je w lopkù razã z jinëma fòntama. Abë gò włączëc, nót je włączëc "
 "wszëtczé ne fòntë. Bãdze to tikało sã zôstnëch fòntów:</p><ul>%1</ul><p>\n"
-"Czë chcesz rëmnąc ne wszëtczé fòntë?</p>"
+"Czë chcesz włączëc ne wszëtczé fòntë?</p>"
 
 #: kio/KioFonts.cpp:3244
-#, fuzzy, qt-format
+#, qt-format
 msgid ""
 "<p>You are attempting to disable a font that is located in a file alongside "
 "other fonts; in order to proceed with the disabling they will all have to be "
 "disabled. The affected fonts are:</p><ul>%1</ul><p>\n"
 " Do you wish to disable all of these?</p>"
 msgstr ""
-"<p>Nen fònt je w lopkù razã z jinëma fòntama. Abë gò rëmnąc, nót je rëmnąc "
+"<p>Nen fònt je w lopkù razã z jinëma fòntama. Abë gò wëłączëc, nót je wëłączëc "
 "wszëtczé ne fòntë. Bãdze to tikało sã zôstnëch fòntów:</p><ul>%1</ul><p>\n"
-"Czë chcesz rëmnąc ne wszëtczé fòntë?</p>"
+"Czë chcesz wëłączëc ne wszëtczé fòntë?</p>"
 
 #: kio/KioFonts.cpp:3313
 #, qt-format
@@ -1121,8 +1115,6 @@ msgid "Aa"
 msgstr ""
 
 #: lib/FcEngine.cpp:641
-#, fuzzy
-#| msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789"
 msgctxt ""
 "All letters of the alphabet (in upper/lower case pairs), followed by numbers"
 msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789"
@@ -1148,8 +1140,6 @@ msgid "abcdefghijklmnopqrstuvwxyz"
 msgstr ""
 
 #: lib/FcEngine.cpp:871
-#, fuzzy
-#| msgid "0123456789.:,;(*!?'/\\\")£$€%^&-+@~#<>{}[]"
 msgctxt "Numbers and characters"
 msgid "0123456789.:,;(*!?'/\\\")£$€%^&-+@~#<>{}[]"
 msgstr "0123456789.:,;(*!?'/\\\")£$€%^&-+@~#<>{}[]"
@@ -1389,9 +1379,8 @@ msgid "Ultra Light"
 msgstr ""
 
 #: lib/KfiConstants.h:111
-#, fuzzy
 msgid "Light"
-msgstr "Waga"
+msgstr "Letczi"
 
 #: lib/KfiConstants.h:112
 msgid "Regular"
@@ -1438,9 +1427,8 @@ msgid "Roman"
 msgstr ""
 
 #: lib/KfiConstants.h:124
-#, fuzzy
 msgid "Italic"
-msgstr "Instalëjë"
+msgstr ""
 
 #: lib/KfiConstants.h:125
 msgid "Oblique"
@@ -1492,7 +1480,7 @@ msgstr ""
 
 #: lib/KfiConstants.h:141
 msgid "Unknown"
-msgstr ""
+msgstr "Nieznóné"
 
 #: viewpart/UnicodeBlocks.h:21
 msgid "Basic Latin"
@@ -1528,7 +1516,7 @@ msgstr ""
 
 #: viewpart/UnicodeBlocks.h:29 viewpart/UnicodeScripts.h:28
 msgid "Cyrillic"
-msgstr ""
+msgstr "Cërylica"
 
 #: viewpart/UnicodeBlocks.h:30
 msgid "Cyrillic Supplement"
@@ -1536,15 +1524,15 @@ msgstr ""
 
 #: viewpart/UnicodeBlocks.h:31 viewpart/UnicodeScripts.h:15
 msgid "Armenian"
-msgstr ""
+msgstr "Armeńsczé"
 
 #: viewpart/UnicodeBlocks.h:32 viewpart/UnicodeScripts.h:41
 msgid "Hebrew"
-msgstr ""
+msgstr "Hebrajsczé"
 
 #: viewpart/UnicodeBlocks.h:33 viewpart/UnicodeScripts.h:14
 msgid "Arabic"
-msgstr ""
+msgstr "Arabsczé"
 
 #: viewpart/UnicodeBlocks.h:34 viewpart/UnicodeScripts.h:68
 msgid "Syriac"
@@ -1556,31 +1544,31 @@ msgstr ""
 
 #: viewpart/UnicodeBlocks.h:36 viewpart/UnicodeScripts.h:74
 msgid "Thaana"
-msgstr ""
+msgstr "Thaana"
 
 #: viewpart/UnicodeBlocks.h:37
 msgid "NKo"
-msgstr ""
+msgstr "NKo"
 
 #: viewpart/UnicodeBlocks.h:38 viewpart/UnicodeScripts.h:30
 msgid "Devanagari"
-msgstr ""
+msgstr "Devanagari"
 
 #: viewpart/UnicodeBlocks.h:39 viewpart/UnicodeScripts.h:17
 msgid "Bengali"
-msgstr ""
+msgstr "Bengalsczé"
 
 #: viewpart/UnicodeBlocks.h:40 viewpart/UnicodeScripts.h:37
 msgid "Gurmukhi"
-msgstr ""
+msgstr "Gurmukhi"
 
 #: viewpart/UnicodeBlocks.h:41 viewpart/UnicodeScripts.h:36
 msgid "Gujarati"
-msgstr ""
+msgstr "Gujarati"
 
 #: viewpart/UnicodeBlocks.h:42 viewpart/UnicodeScripts.h:60
 msgid "Oriya"
-msgstr ""
+msgstr "Oriya"
 
 #: viewpart/UnicodeBlocks.h:43 viewpart/UnicodeScripts.h:72
 msgid "Tamil"
@@ -1588,11 +1576,11 @@ msgstr "Tamil"
 
 #: viewpart/UnicodeBlocks.h:44 viewpart/UnicodeScripts.h:73
 msgid "Telugu"
-msgstr ""
+msgstr "Telugu"
 
 #: viewpart/UnicodeBlocks.h:45 viewpart/UnicodeScripts.h:44
 msgid "Kannada"
-msgstr ""
+msgstr "Kannada"
 
 #: viewpart/UnicodeBlocks.h:46 viewpart/UnicodeScripts.h:52
 msgid "Malayalam"
@@ -1600,27 +1588,27 @@ msgstr ""
 
 #: viewpart/UnicodeBlocks.h:47 viewpart/UnicodeScripts.h:66
 msgid "Sinhala"
-msgstr ""
+msgstr "Sinhala"
 
 #: viewpart/UnicodeBlocks.h:48 viewpart/UnicodeScripts.h:75
 msgid "Thai"
-msgstr ""
+msgstr "Thai"
 
 #: viewpart/UnicodeBlocks.h:49 viewpart/UnicodeScripts.h:48
 msgid "Lao"
-msgstr ""
+msgstr "Lao"
 
 #: viewpart/UnicodeBlocks.h:50 viewpart/UnicodeScripts.h:76
 msgid "Tibetan"
-msgstr ""
+msgstr "Tibetańsczé"
 
 #: viewpart/UnicodeBlocks.h:51 viewpart/UnicodeScripts.h:54
 msgid "Myanmar"
-msgstr ""
+msgstr "Myanmar"
 
 #: viewpart/UnicodeBlocks.h:52 viewpart/UnicodeScripts.h:32
 msgid "Georgian"
-msgstr ""
+msgstr "Grëzëńsczé"
 
 #: viewpart/UnicodeBlocks.h:53
 msgid "Hangul Jamo"
@@ -1628,7 +1616,7 @@ msgstr ""
 
 #: viewpart/UnicodeBlocks.h:54 viewpart/UnicodeScripts.h:31
 msgid "Ethiopic"
-msgstr ""
+msgstr "Etiopsczé"
 
 #: viewpart/UnicodeBlocks.h:55
 msgid "Ethiopic Supplement"
@@ -1636,7 +1624,7 @@ msgstr ""
 
 #: viewpart/UnicodeBlocks.h:56 viewpart/UnicodeScripts.h:23
 msgid "Cherokee"
-msgstr ""
+msgstr "Cherokee"
 
 #: viewpart/UnicodeBlocks.h:57
 msgid "Unified Canadian Aboriginal Syllabics"
@@ -1684,11 +1672,11 @@ msgstr "Tai Le"
 
 #: viewpart/UnicodeBlocks.h:68 viewpart/UnicodeScripts.h:55
 msgid "New Tai Lue"
-msgstr ""
+msgstr "Nowi Tai Lue"
 
 #: viewpart/UnicodeBlocks.h:69
 msgid "Khmer Symbols"
-msgstr ""
+msgstr "Symbòle Khmerów"
 
 #: viewpart/UnicodeBlocks.h:70 viewpart/UnicodeScripts.h:20
 msgid "Buginese"
@@ -1744,7 +1732,7 @@ msgstr ""
 
 #: viewpart/UnicodeBlocks.h:83
 msgid "Arrows"
-msgstr ""
+msgstr "Strzélczi"
 
 #: viewpart/UnicodeBlocks.h:84
 msgid "Mathematical Operators"
@@ -1776,7 +1764,7 @@ msgstr ""
 
 #: viewpart/UnicodeBlocks.h:91
 msgid "Geometric Shapes"
-msgstr ""
+msgstr "Geòmetrikòwé sztôłtë"
 
 #: viewpart/UnicodeBlocks.h:92
 msgid "Miscellaneous Symbols"
@@ -1784,7 +1772,7 @@ msgstr ""
 
 #: viewpart/UnicodeBlocks.h:93
 msgid "Dingbats"
-msgstr ""
+msgstr "Dingbats"
 
 #: viewpart/UnicodeBlocks.h:94
 msgid "Miscellaneous Mathematical Symbols-A"
@@ -1824,7 +1812,7 @@ msgstr ""
 
 #: viewpart/UnicodeBlocks.h:103 viewpart/UnicodeScripts.h:25
 msgid "Coptic"
-msgstr ""
+msgstr "Kòptëjsczé"
 
 #: viewpart/UnicodeBlocks.h:104
 msgid "Georgian Supplement"
@@ -1832,7 +1820,7 @@ msgstr ""
 
 #: viewpart/UnicodeBlocks.h:105 viewpart/UnicodeScripts.h:77
 msgid "Tifinagh"
-msgstr ""
+msgstr "Tifinagh"
 
 #: viewpart/UnicodeBlocks.h:106
 msgid "Ethiopic Extended"
@@ -1928,15 +1916,15 @@ msgstr ""
 
 #: viewpart/UnicodeBlocks.h:129 viewpart/UnicodeScripts.h:67
 msgid "Syloti Nagri"
-msgstr ""
+msgstr "Syloti Nagri"
 
 #: viewpart/UnicodeBlocks.h:130
 msgid "Phags-pa"
-msgstr ""
+msgstr "Phags-pa"
 
 #: viewpart/UnicodeBlocks.h:131
 msgid "Hangul Syllables"
-msgstr ""
+msgstr "Sylabë hangeula"
 
 #: viewpart/UnicodeBlocks.h:132
 msgid "High Surrogates"
@@ -1996,7 +1984,7 @@ msgstr ""
 
 #: viewpart/UnicodeBlocks.h:146
 msgid "Specials"
-msgstr ""
+msgstr "Specjalné"
 
 #: viewpart/UnicodeBlocks.h:147
 msgid "Linear B Syllabary"
@@ -2020,11 +2008,11 @@ msgstr ""
 
 #: viewpart/UnicodeBlocks.h:152 viewpart/UnicodeScripts.h:34
 msgid "Gothic"
-msgstr ""
+msgstr "Gothic"
 
 #: viewpart/UnicodeBlocks.h:153 viewpart/UnicodeScripts.h:78
 msgid "Ugaritic"
-msgstr ""
+msgstr "Ugaritic"
 
 #: viewpart/UnicodeBlocks.h:154 viewpart/UnicodeScripts.h:59
 msgid "Old Persian"
@@ -2036,11 +2024,11 @@ msgstr ""
 
 #: viewpart/UnicodeBlocks.h:156 viewpart/UnicodeScripts.h:65
 msgid "Shavian"
-msgstr ""
+msgstr "Shavian"
 
 #: viewpart/UnicodeBlocks.h:157 viewpart/UnicodeScripts.h:61
 msgid "Osmanya"
-msgstr ""
+msgstr "Osmanya"
 
 #: viewpart/UnicodeBlocks.h:158
 msgid "Cypriot Syllabary"
@@ -2048,11 +2036,11 @@ msgstr ""
 
 #: viewpart/UnicodeBlocks.h:159 viewpart/UnicodeScripts.h:63
 msgid "Phoenician"
-msgstr ""
+msgstr "Phoenician"
 
 #: viewpart/UnicodeBlocks.h:160 viewpart/UnicodeScripts.h:46
 msgid "Kharoshthi"
-msgstr ""
+msgstr "Kharoshthi"
 
 #: viewpart/UnicodeBlocks.h:161 viewpart/UnicodeScripts.h:26
 msgid "Cuneiform"
@@ -2068,7 +2056,7 @@ msgstr ""
 
 #: viewpart/UnicodeBlocks.h:164
 msgid "Musical Symbols"
-msgstr ""
+msgstr "Mùzykòwé céchë"
 
 #: viewpart/UnicodeBlocks.h:165
 msgid "Ancient Greek Musical Notation"
@@ -2112,7 +2100,7 @@ msgstr ""
 
 #: viewpart/UnicodeScripts.h:19
 msgid "Braille"
-msgstr ""
+msgstr "Braille"
 
 #: viewpart/UnicodeScripts.h:22
 msgid "Canadian Aboriginal"
@@ -2120,7 +2108,7 @@ msgstr ""
 
 #: viewpart/UnicodeScripts.h:24
 msgid "Common"
-msgstr ""
+msgstr "Zwëkòwi"
 
 #: viewpart/UnicodeScripts.h:27
 msgid "Cypriot"
@@ -2128,15 +2116,15 @@ msgstr ""
 
 #: viewpart/UnicodeScripts.h:35
 msgid "Greek"
-msgstr ""
+msgstr "Grecczi"
 
 #: viewpart/UnicodeScripts.h:38
 msgid "Han"
-msgstr ""
+msgstr "Han"
 
 #: viewpart/UnicodeScripts.h:39
 msgid "Hangul"
-msgstr ""
+msgstr "Hangul"
 
 #: viewpart/UnicodeScripts.h:43
 msgid "Inherited"
@@ -2144,20 +2132,21 @@ msgstr ""
 
 #: viewpart/UnicodeScripts.h:49
 msgid "Latin"
-msgstr ""
+msgstr "Łacëzniany"
 
 #: viewpart/UnicodeScripts.h:51
 msgid "Linear B"
-msgstr ""
+msgstr "Linearny B"
 
 #: viewpart/UnicodeScripts.h:56
 msgid "Nko"
-msgstr ""
+msgstr "Nko"
 
 #: viewpart/UnicodeScripts.h:62
 msgid "Phags Pa"
-msgstr ""
+msgstr "Phags Pa"
 
 #: viewpart/UnicodeScripts.h:79
 msgid "Yi"
-msgstr ""
+msgstr "Yi"
+
