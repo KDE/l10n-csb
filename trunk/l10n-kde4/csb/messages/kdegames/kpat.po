@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpat\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-05-09 05:48+0200\n"
+"POT-Creation-Date: 2007-05-12 05:46+0200\n"
 "PO-Revision-Date: 2007-05-23 20:36+0200\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -141,6 +141,12 @@ msgstr "Implementacëjô pasjansë Spider"
 msgid "Documentation"
 msgstr "Dokùmentacëjô"
 
+#: main.cpp:70
+#, fuzzy
+#| msgid "Main Toolbar"
+msgid "Menu and Toolbar work"
+msgstr "Przédnô lëstew nôrzãdzów"
+
 #: mod3.cpp:423
 msgid "M&od3"
 msgstr "&Mod3"
@@ -153,33 +159,29 @@ msgstr "Grób &Napòleóna"
 msgid "&Choose Game..."
 msgstr "&Wëbierzë dôwanié..."
 
-#: pwidget.cpp:95
-msgid "Restart &Game"
-msgstr "Zrëszë g&rã znowa"
-
-#: pwidget.cpp:101
+#: pwidget.cpp:96
 msgid "&Game Type"
 msgstr "Ôrt &grë"
 
-#: pwidget.cpp:131
+#: pwidget.cpp:126
 msgid "Random Cards"
 msgstr "Kawlowé kôrtë"
 
 #. i18n: tag string
 #. i18n: file gamestats.ui line 13
-#: pwidget.cpp:138 rc.cpp:3
+#: pwidget.cpp:133 rc.cpp:3
 msgid "Statistics"
 msgstr "Statistika"
 
-#: pwidget.cpp:141
+#: pwidget.cpp:136
 msgid "&Enable Autodrop"
 msgstr "&Włączë aùtomatné ùpùszczanié"
 
-#: pwidget.cpp:144
+#: pwidget.cpp:139
 msgid "Disable Autodrop"
 msgstr "Wëłączë aùtomatné ùpùszczanié"
 
-#: pwidget.cpp:202
+#: pwidget.cpp:197
 msgid ""
 "You are already running an unfinished game.  If you abort the old game to "
 "start a new one, the old game will be registered as a loss in the statistics "
@@ -190,15 +192,15 @@ msgstr ""
 "zapisónô w lopkù rekòrdów jakno przegranô.\n"
 "Co chcesz zrobic?"
 
-#: pwidget.cpp:207
+#: pwidget.cpp:202
 msgid "Abort Current Game?"
 msgstr "Òprzestac nã grã?"
 
-#: pwidget.cpp:208
+#: pwidget.cpp:203
 msgid "Abort Current Game"
 msgstr "Òprzestań ną grã"
 
-#: pwidget.cpp:329
+#: pwidget.cpp:324
 #, qt-format
 msgid "1 move"
 msgid_plural "%1 moves"
@@ -206,30 +208,30 @@ msgstr[0] "1 rësznota"
 msgstr[1] "%1 rësznotë"
 msgstr[2] "%1 rësznotów"
 
-#: pwidget.cpp:335
+#: pwidget.cpp:330
 msgid "Game Number"
 msgstr "Numer grë"
 
-#: pwidget.cpp:336
+#: pwidget.cpp:331
 msgid ""
 "Enter a game number (FreeCell deals are the same as in the FreeCell FAQ):"
 msgstr ""
 "Wpiszë numer dôwaniô kartów (numrë dlô pasjansë FreeCell są òpisóné w FAQ "
 "dlô FreeCell):"
 
-#: pwidget.cpp:347
+#: pwidget.cpp:342
 msgid "This game is lost."
 msgstr ""
 
-#: pwidget.cpp:369
+#: pwidget.cpp:364
 msgid "The saved game is of unknown type!"
 msgstr "Zapisanô pasjanasa je nieznónegò ôrtu!"
 
-#: pwidget.cpp:413
+#: pwidget.cpp:408
 msgid "I just won the game! Good luck to you."
 msgstr ""
 
-#: pwidget.cpp:418
+#: pwidget.cpp:413
 msgid "Nope, this game cannot be won anymore."
 msgstr ""
 
@@ -276,35 +278,23 @@ msgid "&OK"
 msgstr "&OK"
 
 #. i18n: tag text
-#. i18n: file kpatui.rc line 5
+#. i18n: file kpatui.rc line 12
 #: rc.cpp:27
-msgid "&Game"
-msgstr "&Gra:"
-
-#. i18n: tag text
-#. i18n: file kpatui.rc line 20
-#: rc.cpp:30
-msgid "&Edit"
-msgstr "&Editëjë"
-
-#. i18n: tag text
-#. i18n: file kpatui.rc line 23
-#: rc.cpp:33
 msgid "&Settings"
 msgstr "Ù&stôwë"
 
 #. i18n: tag text
-#. i18n: file kpatui.rc line 32
-#: rc.cpp:36
+#. i18n: file kpatui.rc line 21
+#: rc.cpp:30
 msgid "Main Toolbar"
 msgstr "Przédnô lëstew nôrzãdzów"
 
-#: rc.cpp:37
+#: rc.cpp:31
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
 
-#: rc.cpp:38
+#: rc.cpp:32
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
@@ -325,15 +315,7 @@ msgstr "Spider (&strzédny)"
 msgid "Spider (&Hard)"
 msgstr "Spider (&cãżczi)"
 
-#: view.cpp:146
-msgid "&Hint"
-msgstr "&Pòdpòwiesc"
-
-#: view.cpp:156
-msgid "&Demo"
-msgstr "&Demònstracëjô"
-
-#: view.cpp:166
+#: view.cpp:168
 msgid "&Redeal"
 msgstr "&Dôj znowa"
 
@@ -341,3 +323,17 @@ msgstr "&Dôj znowa"
 msgid "&Yukon"
 msgstr "&Yukon"
 
+#~ msgid "Restart &Game"
+#~ msgstr "Zrëszë g&rã znowa"
+
+#~ msgid "&Game"
+#~ msgstr "&Gra:"
+
+#~ msgid "&Edit"
+#~ msgstr "&Editëjë"
+
+#~ msgid "&Hint"
+#~ msgstr "&Pòdpòwiesc"
+
+#~ msgid "&Demo"
+#~ msgstr "&Demònstracëjô"
