@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krandr\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-05-29 05:51+0200\n"
+"POT-Creation-Date: 2007-05-30 05:41+0200\n"
 "PO-Revision-Date: 2007-02-18 20:40+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -129,11 +129,11 @@ msgstr "Miara ekranu"
 msgid "Orientation"
 msgstr "Òrientacëjô"
 
-#: krandrtray.cpp:181
+#: krandrtray.cpp:182
 msgid "Refresh Rate"
 msgstr "Zamanówszosc òdswiéżaniô"
 
-#: krandrtray.cpp:250
+#: krandrtray.cpp:251
 msgid "Configure Display"
 msgstr "Kònfigùracëjô ekranu"
 
@@ -165,24 +165,19 @@ msgstr "Òpiekùn"
 msgid "Many fixes"
 msgstr "Wiele pòprawków"
 
-#: randrdisplay.cpp:44
-#, qt-format
-msgid "X Resize and Rotate extension version %1.%2"
-msgstr "Wersëjô dodôwkù X Resize and Rotate %1.%2"
-
-#: randrscreen.cpp:162
+#: oldrandrscreen.cpp:144
 msgid "Confirm Display Setting Change"
 msgstr "Pòcwierdzë zmianã nastôwów ekranu"
 
-#: randrscreen.cpp:166
+#: oldrandrscreen.cpp:148
 msgid "&Accept Configuration"
 msgstr "&Akceptëjë kònfigùracëjã"
 
-#: randrscreen.cpp:167
+#: oldrandrscreen.cpp:149
 msgid "&Return to Previous Configuration"
 msgstr "&Wrócë do pòprzédny kònfigùracëji"
 
-#: randrscreen.cpp:169
+#: oldrandrscreen.cpp:151
 msgid ""
 "Your screen orientation, size and refresh rate have been changed to the "
 "requested settings. Please indicate whether you wish to keep this "
@@ -193,7 +188,7 @@ msgstr ""
 "żądóny nastôwë. Proszã wskôzac czë zachówac aktualną kònfigùracëjã. Za 15 "
 "sekùndów ekran pòwrócë do pòprzédnëch nastôwów."
 
-#: randrscreen.cpp:199
+#: oldrandrscreen.cpp:181
 #, qt-format
 msgid ""
 "New configuration:\n"
@@ -204,7 +199,7 @@ msgstr ""
 "Rozdzelnosc: %1 x %2\n"
 "Òrientacëjô: %3"
 
-#: randrscreen.cpp:204
+#: oldrandrscreen.cpp:186
 #, qt-format
 msgid ""
 "New configuration:\n"
@@ -216,79 +211,84 @@ msgstr ""
 "Rozdzelnosc: %1 x %2\n"
 "Òrientacëjô: %3 Zamanówszosc òdswiéżaniô: %4"
 
-#: randrscreen.cpp:233 randrscreen.cpp:250
-msgid "Normal"
-msgstr "Zwëkòwô"
-
-#: randrscreen.cpp:235
-msgid "Left (90 degrees)"
-msgstr "Lewô (90 gradów)"
-
-#: randrscreen.cpp:237
-msgid "Upside-down (180 degrees)"
-msgstr "Òdwróconô (180 gradów)"
-
-#: randrscreen.cpp:239
-msgid "Right (270 degrees)"
-msgstr "Prawô (270 gradów)"
-
-#: randrscreen.cpp:241
-msgid "Mirror horizontally"
-msgstr "Hòrizontalné òdbicié"
-
-#: randrscreen.cpp:243
-msgid "Mirror vertically"
-msgstr "Wertikalné òdbicié"
-
-#: randrscreen.cpp:245 randrscreen.cpp:276
-msgid "Unknown orientation"
-msgstr "Nieznónô òrientacëjô"
-
-#: randrscreen.cpp:252
-msgid "Rotated 90 degrees counterclockwise"
-msgstr "Òbróconô ò 90 gradów procëmno do rësznotë wskôzów zédżera"
-
-#: randrscreen.cpp:254
-msgid "Rotated 180 degrees counterclockwise"
-msgstr "Òbróconô ò 180 gradów procëmno do rësznotë wskôzów zédżera"
-
-#: randrscreen.cpp:256
-msgid "Rotated 270 degrees counterclockwise"
-msgstr "Òbróconô ò 270 gradów procëmno do rësznotë wskôzów zédżera"
-
-#: randrscreen.cpp:261
-msgid "Mirrored horizontally and vertically"
-msgstr "Òdbitô hòrizontalno ë wertikalno"
-
-#: randrscreen.cpp:263
-msgid "mirrored horizontally and vertically"
-msgstr "òdbitô hòrizontalno ë wertikalno"
-
-#: randrscreen.cpp:266
-msgid "Mirrored horizontally"
-msgstr "Òdbitô hòrizontalno"
-
-#: randrscreen.cpp:268
-msgid "mirrored horizontally"
-msgstr "òdbitô hòrizontalno"
-
-#: randrscreen.cpp:271
-msgid "Mirrored vertically"
-msgstr "Òdbitô wertikalno"
-
-#: randrscreen.cpp:273
-msgid "mirrored vertically"
-msgstr "òdbitô wertikalno"
-
-#: randrscreen.cpp:278
-msgid "unknown orientation"
-msgstr "nieznónô òrientacëjô"
-
-#: randrscreen.cpp:402 randrscreen.cpp:407
+#: oldrandrscreen.cpp:291 oldrandrscreen.cpp:296
 #, qt-format
 msgctxt "Refresh rate in Hertz (Hz)"
 msgid "%1 Hz"
 msgstr "%1 Hz"
+
+#: randr.cpp:12 randr.cpp:29
+msgid "Normal"
+msgstr "Zwëkòwô"
+
+#: randr.cpp:14
+msgid "Left (90 degrees)"
+msgstr "Lewô (90 gradów)"
+
+#: randr.cpp:16
+msgid "Upside-down (180 degrees)"
+msgstr "Òdwróconô (180 gradów)"
+
+#: randr.cpp:18
+msgid "Right (270 degrees)"
+msgstr "Prawô (270 gradów)"
+
+#: randr.cpp:20
+msgid "Mirror horizontally"
+msgstr "Hòrizontalné òdbicié"
+
+#: randr.cpp:22
+msgid "Mirror vertically"
+msgstr "Wertikalné òdbicié"
+
+#: randr.cpp:24 randr.cpp:55
+msgid "Unknown orientation"
+msgstr "Nieznónô òrientacëjô"
+
+#: randr.cpp:31
+msgid "Rotated 90 degrees counterclockwise"
+msgstr "Òbróconô ò 90 gradów procëmno do rësznotë wskôzów zédżera"
+
+#: randr.cpp:33
+msgid "Rotated 180 degrees counterclockwise"
+msgstr "Òbróconô ò 180 gradów procëmno do rësznotë wskôzów zédżera"
+
+#: randr.cpp:35
+msgid "Rotated 270 degrees counterclockwise"
+msgstr "Òbróconô ò 270 gradów procëmno do rësznotë wskôzów zédżera"
+
+#: randr.cpp:40
+msgid "Mirrored horizontally and vertically"
+msgstr "Òdbitô hòrizontalno ë wertikalno"
+
+#: randr.cpp:42
+msgid "mirrored horizontally and vertically"
+msgstr "òdbitô hòrizontalno ë wertikalno"
+
+#: randr.cpp:45
+msgid "Mirrored horizontally"
+msgstr "Òdbitô hòrizontalno"
+
+#: randr.cpp:47
+msgid "mirrored horizontally"
+msgstr "òdbitô hòrizontalno"
+
+#: randr.cpp:50
+msgid "Mirrored vertically"
+msgstr "Òdbitô wertikalno"
+
+#: randr.cpp:52
+msgid "mirrored vertically"
+msgstr "òdbitô wertikalno"
+
+#: randr.cpp:57
+msgid "unknown orientation"
+msgstr "nieznónô òrientacëjô"
+
+#: randrdisplay.cpp:41
+#, qt-format
+msgid "X Resize and Rotate extension version %1.%2"
+msgstr "Wersëjô dodôwkù X Resize and Rotate %1.%2"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
