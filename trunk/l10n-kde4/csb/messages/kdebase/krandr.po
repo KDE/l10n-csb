@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krandr\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-09 05:39+0200\n"
+"POT-Creation-Date: 2007-06-12 00:37+0200\n"
 "PO-Revision-Date: 2007-02-18 20:40+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -47,32 +47,38 @@ msgstr "Kònfigùracëjô ekranu..."
 msgid "Screen configuration has changed"
 msgstr "Kònfigùracëjô ekranu òsta zmienionô"
 
-#: krandrtray.cpp:166
+#: krandrtray.cpp:165
 msgid "Outputs"
 msgstr "Wińdzenia"
 
-#: krandrtray.cpp:175 krandrtray.cpp:252
+#: krandrtray.cpp:174 krandrtray.cpp:271
 msgid "Screen Size"
 msgstr "Miara ekranu"
 
-#: krandrtray.cpp:200
+#: krandrtray.cpp:199
 msgid "Disable"
 msgstr "Wëłączë"
 
-#: krandrtray.cpp:214 krandrtray.cpp:292
+#: krandrtray.cpp:213 krandrtray.cpp:311
 msgid "Orientation"
 msgstr "Òrientacëjô"
 
-#: krandrtray.cpp:277 legacyrandrconfig.cpp:125
+#: krandrtray.cpp:241
+#, fuzzy
+#| msgid "Outputs"
+msgid "Unified Outputs"
+msgstr "Wińdzenia"
+
+#: krandrtray.cpp:296 legacyrandrconfig.cpp:125
 #, qt-format
 msgid "%1 x %2"
 msgstr "%1 x %2"
 
-#: krandrtray.cpp:313
+#: krandrtray.cpp:332
 msgid "Refresh Rate"
 msgstr "Zamanówszosc òdswiéżaniô"
 
-#: krandrtray.cpp:425
+#: krandrtray.cpp:444
 msgid "Configure Display"
 msgstr "Kònfigùracëjô ekranu"
 
@@ -84,30 +90,7 @@ msgstr[0] "Òsta 1 sekùnda:"
 msgstr[1] "Òstałe %1 sekùndë:"
 msgstr[2] "Òstało %1 sekùndów:"
 
-#: legacyrandrscreen.cpp:151
-msgid "Confirm Display Setting Change"
-msgstr "Pòcwierdzë zmianã nastôwów ekranu"
-
-#: legacyrandrscreen.cpp:155
-msgid "&Accept Configuration"
-msgstr "&Akceptëjë kònfigùracëjã"
-
-#: legacyrandrscreen.cpp:156
-msgid "&Return to Previous Configuration"
-msgstr "&Wrócë do pòprzédny kònfigùracëji"
-
-#: legacyrandrscreen.cpp:158
-msgid ""
-"Your screen orientation, size and refresh rate have been changed to the "
-"requested settings. Please indicate whether you wish to keep this "
-"configuration. In 15 seconds the display will revert to your previous "
-"settings."
-msgstr ""
-"Òrientacëjô, miara ë zamanówszosc òdswiéżania ekranu òstałe zmienioné na "
-"żądóny nastôwë. Proszã wskôzac czë zachówac aktualną kònfigùracëjã. Za 15 "
-"sekùndów ekran pòwrócë do pòprzédnëch nastôwów."
-
-#: legacyrandrscreen.cpp:188
+#: legacyrandrscreen.cpp:140
 #, qt-format
 msgid ""
 "New configuration:\n"
@@ -118,7 +101,7 @@ msgstr ""
 "Rozdzelnosc: %1 x %2\n"
 "Òrientacëjô: %3"
 
-#: legacyrandrscreen.cpp:193
+#: legacyrandrscreen.cpp:145
 #, qt-format
 msgid ""
 "New configuration:\n"
@@ -130,7 +113,7 @@ msgstr ""
 "Rozdzelnosc: %1 x %2\n"
 "Òrientacëjô: %3 Zamanówszosc òdswiéżaniô: %4"
 
-#: legacyrandrscreen.cpp:298 legacyrandrscreen.cpp:303
+#: legacyrandrscreen.cpp:250 legacyrandrscreen.cpp:255
 #, qt-format
 msgctxt "Refresh rate in Hertz (Hz)"
 msgid "%1 Hz"
@@ -160,73 +143,101 @@ msgstr "Òridżinalny ùsôdzca"
 msgid "Many fixes"
 msgstr "Wiele pòprawków"
 
-#: randr.cpp:32 randr.cpp:49
+#: randr.cpp:34 randr.cpp:51
 msgid "Normal"
 msgstr "Zwëkòwô"
 
-#: randr.cpp:34
+#: randr.cpp:36
 msgid "Left (90 degrees)"
 msgstr "Lewô (90 gradów)"
 
-#: randr.cpp:36
+#: randr.cpp:38
 msgid "Upside-down (180 degrees)"
 msgstr "Òdwróconô (180 gradów)"
 
-#: randr.cpp:38
+#: randr.cpp:40
 msgid "Right (270 degrees)"
 msgstr "Prawô (270 gradów)"
 
-#: randr.cpp:40
+#: randr.cpp:42
 msgid "Mirror horizontally"
 msgstr "Hòrizontalné òdbicié"
 
-#: randr.cpp:42
+#: randr.cpp:44
 msgid "Mirror vertically"
 msgstr "Wertikalné òdbicié"
 
-#: randr.cpp:44 randr.cpp:75
+#: randr.cpp:46 randr.cpp:77
 msgid "Unknown orientation"
 msgstr "Nieznónô òrientacëjô"
 
-#: randr.cpp:51
+#: randr.cpp:53
 msgid "Rotated 90 degrees counterclockwise"
 msgstr "Òbróconô ò 90 gradów procëmno do rësznotë wskôzów zédżera"
 
-#: randr.cpp:53
+#: randr.cpp:55
 msgid "Rotated 180 degrees counterclockwise"
 msgstr "Òbróconô ò 180 gradów procëmno do rësznotë wskôzów zédżera"
 
-#: randr.cpp:55
+#: randr.cpp:57
 msgid "Rotated 270 degrees counterclockwise"
 msgstr "Òbróconô ò 270 gradów procëmno do rësznotë wskôzów zédżera"
 
-#: randr.cpp:60
+#: randr.cpp:62
 msgid "Mirrored horizontally and vertically"
 msgstr "Òdbitô hòrizontalno ë wertikalno"
 
-#: randr.cpp:62
+#: randr.cpp:64
 msgid "mirrored horizontally and vertically"
 msgstr "òdbitô hòrizontalno ë wertikalno"
 
-#: randr.cpp:65
+#: randr.cpp:67
 msgid "Mirrored horizontally"
 msgstr "Òdbitô hòrizontalno"
 
-#: randr.cpp:67
+#: randr.cpp:69
 msgid "mirrored horizontally"
 msgstr "òdbitô hòrizontalno"
 
-#: randr.cpp:70
+#: randr.cpp:72
 msgid "Mirrored vertically"
 msgstr "Òdbitô wertikalno"
 
-#: randr.cpp:72
+#: randr.cpp:74
 msgid "mirrored vertically"
 msgstr "òdbitô wertikalno"
 
-#: randr.cpp:77
+#: randr.cpp:79
 msgid "unknown orientation"
 msgstr "nieznónô òrientacëjô"
+
+#: randr.cpp:135
+msgid "Confirm Display Setting Change"
+msgstr "Pòcwierdzë zmianã nastôwów ekranu"
+
+#: randr.cpp:139
+msgid "&Accept Configuration"
+msgstr "&Akceptëjë kònfigùracëjã"
+
+#: randr.cpp:140
+msgid "&Return to Previous Configuration"
+msgstr "&Wrócë do pòprzédny kònfigùracëji"
+
+#: randr.cpp:142
+#, fuzzy
+#| msgid ""
+#| "Your screen orientation, size and refresh rate have been changed to the "
+#| "requested settings. Please indicate whether you wish to keep this "
+#| "configuration. In 15 seconds the display will revert to your previous "
+#| "settings."
+msgid ""
+"Your screen configuration has been changed to the requested settings. Please "
+"indicate whether you wish to keep this configuration. In 15 seconds the "
+"display will revert to your previous settings."
+msgstr ""
+"Òrientacëjô, miara ë zamanówszosc òdswiéżania ekranu òstałe zmienioné na "
+"żądóny nastôwë. Proszã wskôzac czë zachówac aktualną kònfigùracëjã. Za 15 "
+"sekùndów ekran pòwrócë do pòprzédnëch nastôwów."
 
 #: randrdisplay.cpp:43
 #, qt-format
