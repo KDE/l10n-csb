@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krandr\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-12 00:37+0200\n"
+"POT-Creation-Date: 2007-06-12 13:18+0200\n"
 "PO-Revision-Date: 2007-02-18 20:40+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
-#: krandrmodule.cpp:51
+#: krandrmodule.cpp:52
 msgid ""
 "Your X server does not support resizing and rotating the display. Please "
 "update to version 4.3 or greater. You need the X Resize And Rotate extension "
@@ -30,53 +30,53 @@ msgstr ""
 msgid "Screen resize & rotate"
 msgstr "Zmiana miarë ë òrientacëji ekranu"
 
-#: krandrtray.cpp:75
+#: krandrtray.cpp:76
 msgid "Required X Extension Not Available"
 msgstr "Wëmògóné rozszérzenié X nie je przistãpne"
 
-#: krandrtray.cpp:91 legacyrandrconfig.cpp:36
+#: krandrtray.cpp:98 legacyrandrconfig.cpp:36
 #, qt-format
 msgid "Screen %1"
 msgstr "Ekran %1"
 
-#: krandrtray.cpp:112
+#: krandrtray.cpp:119
 msgid "Configure Display..."
 msgstr "Kònfigùracëjô ekranu..."
 
-#: krandrtray.cpp:144
+#: krandrtray.cpp:151
 msgid "Screen configuration has changed"
 msgstr "Kònfigùracëjô ekranu òsta zmienionô"
 
-#: krandrtray.cpp:165
+#: krandrtray.cpp:173
 msgid "Outputs"
 msgstr "Wińdzenia"
 
-#: krandrtray.cpp:174 krandrtray.cpp:271
+#: krandrtray.cpp:184 krandrtray.cpp:288
 msgid "Screen Size"
 msgstr "Miara ekranu"
 
-#: krandrtray.cpp:199
+#: krandrtray.cpp:211
 msgid "Disable"
 msgstr "Wëłączë"
 
-#: krandrtray.cpp:213 krandrtray.cpp:311
+#: krandrtray.cpp:226 krandrtray.cpp:331
 msgid "Orientation"
 msgstr "Òrientacëjô"
 
-#: krandrtray.cpp:241
+#: krandrtray.cpp:258
 msgid "Unified Outputs"
 msgstr "Ùnifikòwóné wińdzenia"
 
-#: krandrtray.cpp:296 legacyrandrconfig.cpp:125
+#: krandrtray.cpp:315 legacyrandrconfig.cpp:125
 #, qt-format
 msgid "%1 x %2"
 msgstr "%1 x %2"
 
-#: krandrtray.cpp:332
+#: krandrtray.cpp:354
 msgid "Refresh Rate"
 msgstr "Zamanówszosc òdswiéżaniô"
 
-#: krandrtray.cpp:444
+#: krandrtray.cpp:470
 msgid "Configure Display"
 msgstr "Kònfigùracëjô ekranu"
 
@@ -227,8 +227,8 @@ msgid ""
 "indicate whether you wish to keep this configuration. In 15 seconds the "
 "display will revert to your previous settings."
 msgstr ""
-"Kònfigùracëjô ekrana òsta zmienionô. Proszã wskôzac czë zachówac aktualną kònfigùracëjã. Za 15 "
-"sekùndów ekran pòwrócë do pòprzédnëch nastôwów."
+"Kònfigùracëjô ekrana òsta zmienionô. Proszã wskôzac czë zachówac aktualną "
+"kònfigùracëjã. Za 15 sekùndów ekran pòwrócë do pòprzédnëch nastôwów."
 
 #: randrdisplay.cpp:43
 #, qt-format
@@ -335,23 +335,84 @@ msgstr ""
 "Zezwòlë programie w systemòwim zabiérnikù na zmianã pòczątkòwëch nastôwów"
 
 #. i18n: tag string
-#. i18n: file randrconfigbase.ui line 13
+#. i18n: file outputconfigbase.ui line 13
 #: rc.cpp:42
+#, fuzzy
+#| msgid "Outputs"
+msgid "Output Config"
+msgstr "Wińdzenia"
+
+#. i18n: tag string
+#. i18n: file outputconfigbase.ui line 19
+#: rc.cpp:45
+msgid "Active"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file outputconfigbase.ui line 26
+#: rc.cpp:48
+#, fuzzy
+#| msgid "Orientation"
+msgid "Rotation"
+msgstr "Òrientacëjô"
+
+#. i18n: tag string
+#. i18n: file outputconfigbase.ui line 32
+#: rc.cpp:51
+msgid "Rotate 0"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file outputconfigbase.ui line 39
+#: rc.cpp:54
+msgid "Rotate 90"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file outputconfigbase.ui line 46
+#: rc.cpp:57
+msgid "Rotate 180"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file outputconfigbase.ui line 53
+#: rc.cpp:60
+msgid "Rotate 270"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file outputconfigbase.ui line 65
+#: rc.cpp:63
+msgid "Size:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file randrconfigbase.ui line 13
+#: rc.cpp:66
 msgid "Screen Resize and Rotate Configuration"
 msgstr "Kònfigùracëja zmianë miarë ë òrientacëji ekranu"
 
 #. i18n: tag string
-#. i18n: file randrconfigbase.ui line 19
-#: rc.cpp:45
-msgid "Nothing to change here yet"
-msgstr "Jesz nick do zmianë tuwò"
+#. i18n: file randrconfigbase.ui line 42
+#: rc.cpp:69
+msgid "Tab 1"
+msgstr ""
 
-#: rc.cpp:46
+#. i18n: tag string
+#. i18n: file randrconfigbase.ui line 47
+#: rc.cpp:72
+msgid "Tab 2"
+msgstr ""
+
+#: rc.cpp:73
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
 
-#: rc.cpp:47
+#: rc.cpp:74
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
+
+#~ msgid "Nothing to change here yet"
+#~ msgstr "Jesz nick do zmianë tuwò"
