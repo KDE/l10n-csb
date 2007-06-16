@@ -4,7 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: superkaramba\n"
-"POT-Creation-Date: 2006-02-14 03:54+0100\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-06-03 05:49+0200\n"
 "PO-Revision-Date: 2006-11-23 17:12+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -12,249 +13,318 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%"
+"100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: _translatorinfo.cpp:1
-msgid ""
-"_: NAME OF TRANSLATORS\n"
-"Your names"
-msgstr "Michôł Òstrowsczi"
-
-#: _translatorinfo.cpp:3
-msgid ""
-"_: EMAIL OF TRANSLATORS\n"
-"Your emails"
-msgstr "michol@linuxcsb.org"
-
-#: karamba.cpp:166
-msgid "&All Desktops"
-msgstr "&Wszëtczé pùltë"
-
-#: karamba.cpp:174
-msgid "Desktop &"
-msgstr "Pùlt &"
-
-#: karamba.cpp:189
+#: karamba.cpp:1374
 msgid "Update"
 msgstr "Òdswiéżë"
 
-#: karamba.cpp:191
+#: karamba.cpp:1377
 msgid "Toggle &Locked Position"
 msgstr "Przełączë zab&lokòwóné pòłożenié"
 
-#: karamba.cpp:201
-msgid "Use &Fast Image Scaling"
-msgstr "Brëkùjë &chùtczégò skalowaniô òbrôzów"
-
-#: karamba.cpp:213
+#: karamba.cpp:1387
 msgid "Configure &Theme"
 msgstr "Kònfigùrëjë &témã"
 
-#: karamba.cpp:215
+#: karamba.cpp:1392
 msgid "To Des&ktop"
 msgstr "Na &pùlt"
 
-#: karamba.cpp:217
+#: karamba.cpp:1395
+msgid "&All Desktops"
+msgstr "&Wszëtczé pùltë"
+
+#: karamba.cpp:1401
+#, fuzzy
+#| msgid "Desktop &"
+msgid "Desktop"
+msgstr "Pùlt &"
+
+#: karamba.cpp:1409
 msgid "&Reload Theme"
 msgstr "&Wladëjë témã znowa"
 
-#: karamba.cpp:219
+#: karamba.cpp:1411
 msgid "&Close This Theme"
 msgstr "&Zasztëkôj tã témã"
 
-#: karamba.cpp:2014
-msgid "Show System Tray Icon"
-msgstr "Pòkażë ikònã na systemòwim zabiérnikù"
-
-#: karamba.cpp:2019
-msgid "&Manage Themes..."
-msgstr "&Sprôwiôj témama..."
-
-#: karamba.cpp:2023
-msgid "&Quit SuperKaramba"
-msgstr "Za&kùńczë SuperKarambã"
-
-#: karambaapp.cpp:143
-msgid "Hide System Tray Icon"
-msgstr "Zatacë ikònã z systemòwégò zabiérnika"
-
-#: karambaapp.cpp:195 karambaapp.cpp:213 main.cpp:92
+#: karambaapp.cpp:153 main.cpp:95
 msgid "SuperKaramba"
 msgstr "SuperKaramba"
 
-#: karambaapp.cpp:223
-#, c-format
-msgid ""
-"_n: 1 Running Theme:\n"
-"%n Running Themes:"
-msgstr ""
-"Jednô zrëszonô téma:\n"
-"%n zrëszoné témë:\n"
-"%n zrëszonëch témów:"
+#: karambaapp.cpp:160
+#, fuzzy, qt-format
+#| msgid "Running"
+msgid "1 Running Theme:"
+msgid_plural "%1 Running Themes:"
+msgstr[0] "Zrëszoné"
+msgstr[1] "Zrëszoné"
+msgstr[2] "Zrëszoné"
 
-#: karambaapp.cpp:357
+#: karambaapp.cpp:182
 msgid ""
-"<qt>Hiding the system tray icon will keep SuperKaramba running in background. "
-"To show it again use the theme menu.</qt>"
+"<qt>Hiding the system tray icon will keep SuperKaramba running in "
+"background. To show it again use the theme menu.</qt>"
 msgstr ""
 "<qt>Minimalizacëjô SuperKarambë do ikònë w systemòwém zabiérnikù sprawi, że "
-"program dali mdze dzejac w spòdlém. Abë znowa ją pòkôzac brëkùjë menu témë.</qt>"
+"program dali mdze dzejac w spòdlém. Abë znowa ją pòkôzac brëkùjë menu témë.</"
+"qt>"
 
-#: karambaapp.cpp:359
+#: karambaapp.cpp:184
 msgid "Hiding System Tray Icon"
 msgstr "Tacënié ikònë na systemòwim zabiérnikù"
 
-#: main.cpp:43 taskbartest.cpp:38
+#: karambaapp.cpp:208
+msgid "Show System Tray Icon"
+msgstr "Pòkażë ikònã na systemòwim zabiérnikù"
+
+#: karambaapp.cpp:213
+msgid "&Manage Themes..."
+msgstr "&Sprôwiôj témama..."
+
+#: karambaapp.cpp:217
+msgid "&Quit SuperKaramba"
+msgstr "Za&kùńczë SuperKarambã"
+
+#: karambaapp.cpp:247
+msgid "Hide System Tray Icon"
+msgstr "Zatacë ikònã z systemòwégò zabiérnika"
+
+#: karambainterface.cpp:99
+msgid ""
+"SuperKaramba cannot continue to run this theme.One or more of the required "
+"components of the Kross scripting architecture is not installed. Please "
+"consult this theme's documentation and install the necessary Kross "
+"components."
+msgstr ""
+
+#: karambainterface.cpp:102
+msgid "Please install additional Kross components"
+msgstr ""
+
+#: main.cpp:36
 msgid "A KDE Eye-candy Application"
 msgstr "Programa ùsnôżëjącô KDE"
 
-#: main.cpp:51 taskbartest.cpp:45
+#: main.cpp:44
+msgid "Use the original python bindings as scripting backend. Off by default."
+msgstr ""
+
+#: main.cpp:45
 msgid "A required argument 'file'"
 msgstr "Mùszebny argùment 'lopk'"
 
-#. i18n: file superkarambaui.rc line 4
-#: rc.cpp:3
-#, no-c-format
-msgid "C&ustom"
-msgstr "&Brëkòwnika"
+#: main.cpp:105
+msgid "Work on Kross, tutorials and examples"
+msgstr ""
 
-#. i18n: file themes_layout.ui line 22
-#: rc.cpp:6 rc.cpp:45
-#, no-c-format
-msgid "SuperKaramba Themes"
-msgstr "Témë SuperKaramba"
-
-#. i18n: file themes_layout.ui line 41
-#: rc.cpp:9 rc.cpp:48
-#, no-c-format
-msgid "&Search:"
-msgstr "&Szëkba:"
-
-#. i18n: file themes_layout.ui line 57
-#: rc.cpp:12 rc.cpp:51
-#, no-c-format
-msgid "S&how:"
-msgstr "&Pòkażë:"
-
-#. i18n: file themes_layout.ui line 66
-#: rc.cpp:15 rc.cpp:54
-#, no-c-format
-msgid "All"
-msgstr "Wszëtkò"
-
-#. i18n: file themes_layout.ui line 71
-#: rc.cpp:18 rc.cpp:57
-#, no-c-format
-msgid "Running"
-msgstr "Zrëszoné"
-
-#. i18n: file themes_layout.ui line 135
-#: rc.cpp:21 rc.cpp:60
-#, no-c-format
-msgid "&Add to Desktop"
-msgstr "&Dodôj do pùltu"
-
-#. i18n: file themewidget_layout.ui line 72
-#: rc.cpp:28 rc.cpp:67
-#, no-c-format
-msgid "<p align=\"center\">1 running</p>"
-msgstr "<p align=\"center\">1 zrëszonô</p>"
-
-#. i18n: file themewidget_layout.ui line 106
-#: rc.cpp:31 rc.cpp:70
-#, no-c-format
-msgid "Header"
-msgstr "Nagłówk"
-
-#. i18n: file themewidget_layout.ui line 122
-#: rc.cpp:34 rc.cpp:73
-#, no-c-format
-msgid "Description"
-msgstr "Òpisënk"
-
+#. i18n: tag label
 #. i18n: file superkaramba.kcfg line 7
-#: rc.cpp:39
-#, no-c-format
+#: rc.cpp:3
 msgid "Show system tray icon."
 msgstr "Pòkazëjë ikònã w systemòwim zabiérnikù."
 
+#. i18n: tag label
 #. i18n: file superkaramba.kcfg line 13
-#: rc.cpp:42
-#, no-c-format
+#: rc.cpp:6
 msgid "Themes that user added to theme list."
 msgstr "Témë dodóné òb brëkòwnika do lëstë."
 
-#: taskbartest.cpp:53
-msgid "karamba"
-msgstr "karamba"
+#. i18n: tag text
+#. i18n: file superkarambaui.rc line 4
+#: rc.cpp:9
+msgid "C&ustom"
+msgstr "&Brëkòwnika"
 
-#: taskmanager.cpp:465
+#. i18n: tag string
+#. i18n: file themes_layout.ui line 19
+#. i18n: tag string
+#. i18n: file ./themes_layout.ui line 19
+#: rc.cpp:12 rc.cpp:44
+msgid "SuperKaramba Themes"
+msgstr "Témë SuperKaramba"
+
+#. i18n: tag string
+#. i18n: file themes_layout.ui line 39
+#. i18n: tag string
+#. i18n: file ./themes_layout.ui line 39
+#: rc.cpp:15 rc.cpp:47
+msgid "&Search:"
+msgstr "&Szëkba:"
+
+#. i18n: tag string
+#. i18n: file themes_layout.ui line 52
+#. i18n: tag string
+#. i18n: file ./themes_layout.ui line 52
+#: rc.cpp:18 rc.cpp:50
+msgid "S&how:"
+msgstr "&Pòkażë:"
+
+#. i18n: tag string
+#. i18n: file themes_layout.ui line 63
+#. i18n: tag string
+#. i18n: file ./themes_layout.ui line 63
+#: rc.cpp:21 rc.cpp:53
+msgid "All"
+msgstr "Wszëtkò"
+
+#. i18n: tag string
+#. i18n: file themes_layout.ui line 68
+#. i18n: tag string
+#. i18n: file ./themes_layout.ui line 68
+#: rc.cpp:24 rc.cpp:56
+msgid "Running"
+msgstr "Zrëszoné"
+
+#. i18n: tag string
+#. i18n: file themes_layout.ui line 123
+#. i18n: tag string
+#. i18n: file ./themes_layout.ui line 123
+#: rc.cpp:27 rc.cpp:59
+msgid "&Add to Desktop"
+msgstr "&Dodôj do pùltu"
+
+#. i18n: tag string
+#. i18n: file themes_layout.ui line 139
+#. i18n: tag string
+#. i18n: file ./themes_layout.ui line 139
+#: rc.cpp:30 rc.cpp:62
+msgid "&Close"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file themewidget_layout.ui line 56
+#. i18n: tag string
+#. i18n: file ./themewidget_layout.ui line 56
+#: rc.cpp:33 rc.cpp:65
+msgid "<p align=\"center\">1 running</p>"
+msgstr "<p align=\"center\">1 zrëszonô</p>"
+
+#. i18n: tag string
+#. i18n: file themewidget_layout.ui line 86
+#. i18n: tag string
+#. i18n: file ./themewidget_layout.ui line 86
+#: rc.cpp:36 rc.cpp:68
+msgid "Header"
+msgstr "Nagłówk"
+
+#. i18n: tag string
+#. i18n: file themewidget_layout.ui line 101
+#. i18n: tag string
+#. i18n: file ./themewidget_layout.ui line 101
+#: rc.cpp:39 rc.cpp:71
+msgid "Description"
+msgstr "Òpisënk"
+
+#: rc.cpp:40
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: rc.cpp:41
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: taskmanager.cpp:736
 msgid "modified"
 msgstr "zmòdifikòwónô"
 
-#: themefile.cpp:213
+#: themefile.cpp:252
+#, qt-format
 msgid ""
 "You are about to install and run %1 SuperKaramba theme. Since themes can "
 "contain executable code you should only install themes from sources that you "
 "trust. Continue?"
 msgstr ""
-"Zamëszlôsz terô zainstalowac ë zrëszëc témã SuperKarambë %1. Równak, témë mają "
-"w se zrëszeniowi kòd, téj nôlepi instalowac blós te, jaczé të môsz z "
+"Zamëszlôsz terô zainstalowac ë zrëszëc témã SuperKarambë %1. Równak, témë "
+"mają w se zrëszeniowi kòd, téj nôlepi instalowac blós te, jaczé të môsz z "
 "zadowiérzonych zdrojów. Kòntinuòwac?"
 
-#: themefile.cpp:215
+#: themefile.cpp:256
 msgid "Executable Code Warning"
 msgstr "Òstrzéga ò zrëszeniowim kòdze"
 
-#: themefile.cpp:215
+#: themefile.cpp:257
 msgid "Install"
 msgstr "Instalëjë"
 
-#: themefile.cpp:228
+#: themefile.cpp:268
+#, qt-format
 msgid "%1 already exists. Do you want to overwrite it?"
 msgstr "%1 òbstoji. Czë chcesz gò nôdpisac?"
 
-#: themefile.cpp:229
+#: themefile.cpp:269
 msgid "File Exists"
 msgstr "Lopk òbstoji"
 
-#: themefile.cpp:229
+#: themefile.cpp:270
 msgid "Overwrite"
 msgstr "Nôdpiszë"
 
-#: themesdlg.cpp:131
+#: themesdlg.cpp:111
 msgid "Get New Stuff"
 msgstr "Ùdostanié nowé témë"
 
-#: themesdlg.cpp:132
+#: themesdlg.cpp:112
 msgid "Download new themes."
 msgstr "Zladëjë nowé témë."
 
-#: themesdlg.cpp:134
+#: themesdlg.cpp:114
 msgid "New Stuff..."
 msgstr "Nowé témë..."
 
-#: themesdlg.cpp:147
+#: themesdlg.cpp:124
 msgid "Open Local Theme"
 msgstr "Òtemknij môlową témã"
 
-#: themesdlg.cpp:148
+#: themesdlg.cpp:125
 msgid "Add local theme to the list."
 msgstr "Dodôj môlowã témã do lëstë."
 
-#: themesdlg.cpp:166 themesdlg.cpp:180 themesdlg.cpp:365
+#: themesdlg.cpp:127
+msgid "Open..."
+msgstr ""
+
+#: themesdlg.cpp:145 themesdlg.cpp:157 themesdlg.cpp:336
 msgid "Uninstall"
 msgstr "Òdinstalëjë"
 
-#: themesdlg.cpp:207
+#: themesdlg.cpp:195
 msgid "*.theme *.skz|Themes"
 msgstr "*.theme *.skz|Témë"
 
-#: themesdlg.cpp:208
+#: themesdlg.cpp:196
 msgid "Open Themes"
 msgstr "Òtemkniãté témë"
 
 #: themewidget.cpp:78
+#, qt-format
 msgid "<p align=\"center\">%1 running</p>"
 msgstr "<p align=\"center\">%1 zrëszonô</p>"
+
+#~ msgid ""
+#~ "_: NAME OF TRANSLATORS\n"
+#~ "Your names"
+#~ msgstr "Michôł Òstrowsczi"
+
+#~ msgid ""
+#~ "_: EMAIL OF TRANSLATORS\n"
+#~ "Your emails"
+#~ msgstr "michol@linuxcsb.org"
+
+#~ msgid "Use &Fast Image Scaling"
+#~ msgstr "Brëkùjë &chùtczégò skalowaniô òbrôzów"
+
+#~ msgid ""
+#~ "_n: 1 Running Theme:\n"
+#~ "%n Running Themes:"
+#~ msgstr ""
+#~ "Jednô zrëszonô téma:\n"
+#~ "%n zrëszoné témë:\n"
+#~ "%n zrëszonëch témów:"
+
+#~ msgid "karamba"
+#~ msgstr "karamba"
