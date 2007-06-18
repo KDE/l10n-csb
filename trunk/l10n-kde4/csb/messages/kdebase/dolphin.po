@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-16 05:18+0200\n"
+"POT-Creation-Date: 2007-06-18 05:29+0200\n"
 "PO-Revision-Date: 2007-04-26 18:50+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -21,20 +21,26 @@ msgid "Icon Size"
 msgstr "Miara ikònów"
 
 #: columnviewsettingspage.cpp:58 detailsviewsettingspage.cpp:79
-#: dolphinitemcategorizer.cpp:71 iconsizedialog.cpp:66 iconsizedialog.cpp:89
-#: iconsviewsettingspage.cpp:79 iconsviewsettingspage.cpp:102
+#: dolphinitemcategorizer.cpp:104 iconsizedialog.cpp:66 iconsizedialog.cpp:89
+#, fuzzy
+#| msgid "Small"
+msgctxt "Size"
 msgid "Small"
 msgstr "Môłi"
 
 #: columnviewsettingspage.cpp:59 detailsviewsettingspage.cpp:80
-#: dolphinitemcategorizer.cpp:73 iconsviewsettingspage.cpp:80
-#: iconsviewsettingspage.cpp:103
+#: dolphinitemcategorizer.cpp:106
+#, fuzzy
+#| msgid "Medium"
+msgctxt "Size"
 msgid "Medium"
 msgstr "Strzédny"
 
 #: columnviewsettingspage.cpp:60 detailsviewsettingspage.cpp:81
-#: iconsizedialog.cpp:72 iconsizedialog.cpp:95 iconsviewsettingspage.cpp:81
-#: iconsviewsettingspage.cpp:104
+#: iconsizedialog.cpp:72 iconsizedialog.cpp:95
+#, fuzzy
+#| msgid "Large"
+msgctxt "Size"
 msgid "Large"
 msgstr "Wiôldżi"
 
@@ -125,11 +131,21 @@ msgstr "Òtemkni w..."
 msgid "Actions"
 msgstr "Dzejania"
 
-#: dolphinitemcategorizer.cpp:69
-msgid "Unknown"
-msgstr "Nieznóné"
+#: dolphinitemcategorizer.cpp:90 dolphinitemcategorizer.cpp:96
+#, fuzzy
+#| msgid "&Other..."
+msgid "Others"
+msgstr "&Jinszé..."
 
-#: dolphinitemcategorizer.cpp:75
+#: dolphinitemcategorizer.cpp:102 dolphinmainwindow.cpp:1297
+#: dolphinmainwindow.cpp:1303
+msgid "Folders"
+msgstr "Katalodżi"
+
+#: dolphinitemcategorizer.cpp:108
+#, fuzzy
+#| msgid "Big"
+msgctxt "Size"
 msgid "Big"
 msgstr "Wiôldżé"
 
@@ -322,10 +338,6 @@ msgstr "Przerównô lopczi"
 msgid "Information"
 msgstr "Wëdowiédza"
 
-#: dolphinmainwindow.cpp:1297 dolphinmainwindow.cpp:1303
-msgid "Folders"
-msgstr "Katalodżi"
-
 #: dolphinmainwindow.cpp:1317 dolphinmainwindow.cpp:1323
 msgid "Terminal"
 msgstr "Terminal"
@@ -487,6 +499,27 @@ msgstr "Lëczba rézów:"
 msgid "Text width:"
 msgstr "Szérz tekstu:"
 
+#: iconsviewsettingspage.cpp:79
+#, fuzzy
+#| msgid "Small"
+msgctxt "Text width"
+msgid "Small"
+msgstr "Môłi"
+
+#: iconsviewsettingspage.cpp:80
+#, fuzzy
+#| msgid "Medium"
+msgctxt "Text width"
+msgid "Medium"
+msgstr "Strzédny"
+
+#: iconsviewsettingspage.cpp:81
+#, fuzzy
+#| msgid "Large"
+msgctxt "Text width"
+msgid "Large"
+msgstr "Wiôldżi"
+
 #: iconsviewsettingspage.cpp:92
 msgid "Grid"
 msgstr "Mrzéżka"
@@ -506,6 +539,27 @@ msgstr "Z góra na dół"
 #: iconsviewsettingspage.cpp:100
 msgid "Grid spacing:"
 msgstr "Òdstãpë mrzéżków:"
+
+#: iconsviewsettingspage.cpp:102
+#, fuzzy
+#| msgid "Small"
+msgctxt "Grid spacing"
+msgid "Small"
+msgstr "Môłi"
+
+#: iconsviewsettingspage.cpp:103
+#, fuzzy
+#| msgid "Medium"
+msgctxt "Grid spacing"
+msgid "Medium"
+msgstr "Strzédny"
+
+#: iconsviewsettingspage.cpp:104
+#, fuzzy
+#| msgid "Large"
+msgctxt "Grid spacing"
+msgid "Large"
+msgstr "Wiôldżi"
 
 #: infosidebarpage.cpp:175
 #, qt-format
@@ -751,6 +805,9 @@ msgstr "Rechòwanié katalogów: %1"
 #, qt-format
 msgid "Folders: %1"
 msgstr "Katalodżi: %1"
+
+#~ msgid "Unknown"
+#~ msgstr "Nieznóné"
 
 #~ msgid "File Already Exists"
 #~ msgstr "Lopk ju òbstoji"
