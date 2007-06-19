@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-18 05:29+0200\n"
+"POT-Creation-Date: 2007-06-19 05:20+0200\n"
 "PO-Revision-Date: 2007-04-26 18:50+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -21,7 +21,7 @@ msgid "Icon Size"
 msgstr "Miara ikònów"
 
 #: columnviewsettingspage.cpp:58 detailsviewsettingspage.cpp:79
-#: dolphinitemcategorizer.cpp:104 iconsizedialog.cpp:66 iconsizedialog.cpp:89
+#: dolphinitemcategorizer.cpp:170 iconsizedialog.cpp:66 iconsizedialog.cpp:89
 #, fuzzy
 #| msgid "Small"
 msgctxt "Size"
@@ -29,7 +29,7 @@ msgid "Small"
 msgstr "Môłi"
 
 #: columnviewsettingspage.cpp:59 detailsviewsettingspage.cpp:80
-#: dolphinitemcategorizer.cpp:106
+#: dolphinitemcategorizer.cpp:172
 #, fuzzy
 #| msgid "Medium"
 msgctxt "Size"
@@ -131,18 +131,43 @@ msgstr "Òtemkni w..."
 msgid "Actions"
 msgstr "Dzejania"
 
-#: dolphinitemcategorizer.cpp:90 dolphinitemcategorizer.cpp:96
+#: dolphinitemcategorizer.cpp:108 dolphinitemcategorizer.cpp:122
+#: dolphinitemcategorizer.cpp:128
 #, fuzzy
 #| msgid "&Other..."
 msgid "Others"
 msgstr "&Jinszé..."
 
-#: dolphinitemcategorizer.cpp:102 dolphinmainwindow.cpp:1297
+#: dolphinitemcategorizer.cpp:140
+msgid "Today"
+msgstr ""
+
+#: dolphinitemcategorizer.cpp:142
+msgid "Yesterday"
+msgstr ""
+
+#: dolphinitemcategorizer.cpp:144
+msgid "Less than a week"
+msgstr ""
+
+#: dolphinitemcategorizer.cpp:146
+msgid "Less than a month"
+msgstr ""
+
+#: dolphinitemcategorizer.cpp:148
+msgid "Less than a year"
+msgstr ""
+
+#: dolphinitemcategorizer.cpp:150
+msgid "More than a year"
+msgstr ""
+
+#: dolphinitemcategorizer.cpp:168 dolphinmainwindow.cpp:1297
 #: dolphinmainwindow.cpp:1303
 msgid "Folders"
 msgstr "Katalodżi"
 
-#: dolphinitemcategorizer.cpp:108
+#: dolphinitemcategorizer.cpp:174
 #, fuzzy
 #| msgid "Big"
 msgctxt "Size"
@@ -250,31 +275,31 @@ msgstr "Ikònë"
 msgid "Details"
 msgstr "Detale"
 
-#: dolphinmainwindow.cpp:1139
+#: dolphinmainwindow.cpp:1139 viewpropertiesdialog.cpp:108
 msgid "By Name"
 msgstr "Mionã"
 
-#: dolphinmainwindow.cpp:1143
+#: dolphinmainwindow.cpp:1143 viewpropertiesdialog.cpp:109
 msgid "By Size"
 msgstr "Miarą"
 
-#: dolphinmainwindow.cpp:1147
+#: dolphinmainwindow.cpp:1147 viewpropertiesdialog.cpp:110
 msgid "By Date"
 msgstr "Datumem"
 
-#: dolphinmainwindow.cpp:1151
+#: dolphinmainwindow.cpp:1151 viewpropertiesdialog.cpp:111
 msgid "By Permissions"
 msgstr "Prawama"
 
-#: dolphinmainwindow.cpp:1155
+#: dolphinmainwindow.cpp:1155 viewpropertiesdialog.cpp:112
 msgid "By Owner"
 msgstr "Miéwcama"
 
-#: dolphinmainwindow.cpp:1159
+#: dolphinmainwindow.cpp:1159 viewpropertiesdialog.cpp:113
 msgid "By Group"
 msgstr "Grëpama"
 
-#: dolphinmainwindow.cpp:1163
+#: dolphinmainwindow.cpp:1163 viewpropertiesdialog.cpp:114
 msgid "By Type"
 msgstr "Ôrtama"
 
