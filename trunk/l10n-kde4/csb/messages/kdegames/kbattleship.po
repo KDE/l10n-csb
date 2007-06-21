@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kbattleship\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-13 17:42+0200\n"
+"POT-Creation-Date: 2007-06-21 05:10+0200\n"
 "PO-Revision-Date: 2007-06-15 19:35+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -18,17 +18,43 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
-#: generalcontroller.cpp:47 gamechooser.cpp:312
+#: generalcontroller.cpp:47 gamechooser.cpp:314
 msgid "Computer"
 msgstr "Kòmpùtr"
 
-#: main.cpp:27
+#: main.cpp:25
 msgid "KBattleship"
 msgstr "KBattleship"
 
-#: main.cpp:27
+#: main.cpp:25
 msgid "The KDE Battleship clone"
 msgstr "Klón KDE Bôtë"
+
+#: simplemenu.cpp:25
+msgid "Single player"
+msgstr ""
+
+#: simplemenu.cpp:26
+msgid "Host network game"
+msgstr ""
+
+#: simplemenu.cpp:27
+#, fuzzy
+#| msgid "Connect to a server"
+msgid "Connect to network game"
+msgstr "Pòłączenié do serwerë"
+
+#: networkdialog.cpp:24
+msgid "&Nickname:"
+msgstr ""
+
+#: networkdialog.cpp:37
+msgid "&Hostname:"
+msgstr ""
+
+#: networkdialog.cpp:53
+msgid "&Port:"
+msgstr ""
 
 #: playfield.cpp:59
 msgid "Shots"
@@ -42,63 +68,81 @@ msgstr "Trafienia"
 msgid "Misses"
 msgstr "Nietrafioné szosë"
 
-#: playfield.cpp:197
+#: playfield.cpp:195
 msgid "You win!"
 msgstr "Môsz wëgróné!"
 
-#: playfield.cpp:200
+#: playfield.cpp:198
 msgid "You lose."
 msgstr "Jes przëgróny."
 
+#. i18n: tag label
+#. i18n: file kbattleship.kcfg line 9
+#: rc.cpp:3
+msgid "Default hostname for multiplayer games."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file kbattleship.kcfg line 13
+#: rc.cpp:6
+msgid "Default port for multiplayer games."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file kbattleship.kcfg line 19
+#: rc.cpp:9
+msgid "User nickname."
+msgstr ""
+
 #. i18n: tag text
 #. i18n: file kbattleshipui.rc line 6
-#: rc.cpp:3
+#: rc.cpp:12
 msgid "&Game"
 msgstr "&Gra"
 
 #. i18n: tag text
 #. i18n: file kbattleshipui.rc line 10
-#: rc.cpp:6
+#: rc.cpp:15
 msgid "&Settings"
 msgstr "Ù&stôwë"
 
-#: rc.cpp:7
+#: rc.cpp:16
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Michôł Òstrowsczi"
 
-#: rc.cpp:8
+#: rc.cpp:17
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "michol@linuxcsb.org"
 
-#: gamechooser.cpp:133
+#: gamechooser.cpp:135
 msgid "Easy"
 msgstr "Letczi"
 
-#: gamechooser.cpp:136
+#: gamechooser.cpp:138
 msgid "Medium"
 msgstr "Strzédny"
 
-#: gamechooser.cpp:139
+#: gamechooser.cpp:141
 msgid "Hard"
 msgstr "Drãdżi"
 
-#: gamechooser.cpp:190
+#: gamechooser.cpp:192
 msgid "Wait for a connection"
 msgstr "Żdôj na pòłączenié"
 
-#: gamechooser.cpp:193
+#: gamechooser.cpp:195
 msgid "Connect to a server"
 msgstr "Pòłączenié do serwerë"
 
-#: gamechooser.cpp:308
-msgid "You"
-msgstr "Të"
+#: gamechooser.cpp:310
+msgid "Local game"
+msgstr ""
 
-#: gamechooser.cpp:316
-msgid "Over the network"
-msgstr "Nad sécą"
+#: gamechooser.cpp:318
+msgid "Network play"
+msgstr ""
 
 #: kwelcomescreen/test.cpp:32
 msgid "Fill in the fildes to speed up testing. Just for development purpose."
@@ -111,14 +155,6 @@ msgstr "KWelcomeScreenTest"
 #: kwelcomescreen/test.cpp:40
 msgid "Test class for KWelcomeScreen"
 msgstr "Testowô klasa dlô KWelcomeScreen"
-
-#: mainwindow.cpp:53
-msgid "Start Ser&ver"
-msgstr "Zrëszë ser&werã"
-
-#: mainwindow.cpp:57
-msgid "&Connect"
-msgstr "&Pòłączë"
 
 #: playerentity.cpp:166
 #, qt-format
@@ -134,3 +170,15 @@ msgstr ""
 "Twój procëmnik brëkùjë pre-KDE4 wersëjã KBattleship. Bôczë, że prawidła grë "
 "dlô stôrszégò klienta, nie pòzwôlają na ùkłôdanié bótów przëlégająco jeden "
 "do drëdżégò."
+
+#~ msgid "You"
+#~ msgstr "Të"
+
+#~ msgid "Over the network"
+#~ msgstr "Nad sécą"
+
+#~ msgid "Start Ser&ver"
+#~ msgstr "Zrëszë ser&werã"
+
+#~ msgid "&Connect"
+#~ msgstr "&Pòłączë"
