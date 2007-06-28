@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kbattleship\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-25 05:12+0200\n"
+"POT-Creation-Date: 2007-06-28 05:24+0200\n"
 "PO-Revision-Date: 2007-06-15 19:35+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -18,23 +18,41 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
-#: main.cpp:25
+#: statswidget.cpp:45
+#, fuzzy
+#| msgid "Shots"
+msgid "Shots:"
+msgstr "Szosë"
+
+#: statswidget.cpp:56
+#, fuzzy
+#| msgid "Hits"
+msgid "Hits:"
+msgstr "Trafienia"
+
+#: statswidget.cpp:67
+#, fuzzy
+#| msgid "Misses"
+msgid "Misses:"
+msgstr "Nietrafioné szosë"
+
+#: main.cpp:26
 msgid "KBattleship"
 msgstr "KBattleship"
 
-#: main.cpp:25
+#: main.cpp:26
 msgid "The KDE Battleship clone"
 msgstr "Klón KDE Bôtë"
 
-#: simplemenu.cpp:35
+#: simplemenu.cpp:38
 msgid "Single player"
 msgstr ""
 
-#: simplemenu.cpp:36
+#: simplemenu.cpp:39
 msgid "Host network game"
 msgstr ""
 
-#: simplemenu.cpp:37
+#: simplemenu.cpp:40
 #, fuzzy
 #| msgid "Connect to a server"
 msgid "Connect to network game"
@@ -52,23 +70,23 @@ msgstr ""
 msgid "&Port:"
 msgstr ""
 
-#: playfield.cpp:62
+#: playfield.cpp:70
 msgid "Shots"
 msgstr "Szosë"
 
-#: playfield.cpp:63
+#: playfield.cpp:71
 msgid "Hits"
 msgstr "Trafienia"
 
-#: playfield.cpp:64
+#: playfield.cpp:72
 msgid "Misses"
 msgstr "Nietrafioné szosë"
 
-#: playfield.cpp:202
+#: playfield.cpp:211
 msgid "You win!"
 msgstr "Môsz wëgróné!"
 
-#: playfield.cpp:205
+#: playfield.cpp:214
 msgid "You lose."
 msgstr "Jes przëgróny."
 
@@ -138,7 +156,7 @@ msgid "Your opponent is now known as %1"
 msgstr "Twój procëmnik je znóny terô jakno %1"
 
 #: playerentity.cpp:179
-msgid "Ship placed. Now shoot on the enemy field!"
+msgid "Ships placed. Now shoot on the enemy field!"
 msgstr ""
 
 #: playerentity.cpp:184
