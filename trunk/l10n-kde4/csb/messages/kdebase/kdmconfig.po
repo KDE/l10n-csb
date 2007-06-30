@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdmconfig\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-23 05:21+0200\n"
+"POT-Creation-Date: 2007-06-30 04:44+0200\n"
 "PO-Revision-Date: 2007-03-18 18:15+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -274,7 +274,7 @@ msgstr "&Brëkùjë témòwónégò witôcza"
 msgid "Enable this if you would like to use a themed Login Manager."
 msgstr "Włączë to, czej chcesz brëkòwac témòwónégò menadżera logòwaniô."
 
-#: kdm-gen.cpp:63 kdm-gen.cpp:76 kdm-users.cpp:95
+#: kdm-gen.cpp:63 kdm-gen.cpp:76 kdm-users.cpp:99
 msgid "<default>"
 msgstr "<domëszlny>"
 
@@ -534,11 +534,16 @@ msgstr "Na gwës rëmnąc ne témë?"
 msgid "Remove themes?"
 msgstr "Rëmnąc témë"
 
-#: kdm-users.cpp:99
+#: kdm-users.cpp:96
+msgid ""
+"User 'nobody' does not exist. Displaying user images will not work in KDM."
+msgstr ""
+
+#: kdm-users.cpp:103
 msgid "System U&IDs"
 msgstr "&Systemòwé UID-ë"
 
-#: kdm-users.cpp:100
+#: kdm-users.cpp:104
 msgid ""
 "Users with a UID (numerical user identification) outside this range will not "
 "be listed by KDM and this setup dialog. Note that users with the UID 0 "
@@ -550,23 +555,23 @@ msgstr ""
 "brëkòwnika z numrã 0 (zwëkòwò je to sprôwnik systemë), chtëren mùszi òstac "
 "zatacony w tribie \"Króm zataconëch\"."
 
-#: kdm-users.cpp:105
+#: kdm-users.cpp:109
 msgid "Below:"
 msgstr "Niżi:"
 
-#: kdm-users.cpp:112
+#: kdm-users.cpp:116
 msgid "Above:"
 msgstr "Nad:"
 
-#: kdm-users.cpp:125
+#: kdm-users.cpp:129
 msgid "Users"
 msgstr "Brëkòwnicë"
 
-#: kdm-users.cpp:126
+#: kdm-users.cpp:130
 msgid "Show list"
 msgstr "Pòkôżë lëstã"
 
-#: kdm-users.cpp:127
+#: kdm-users.cpp:131
 msgid ""
 "If this option is checked, KDM will show a list of users, so users can click "
 "on their name or image rather than typing in their login."
@@ -574,21 +579,21 @@ msgstr ""
 "Eżlë na òptacëjô je wëbrónô, KDM bãdzë pòkôzëwôł lëstã brëkòwników, "
 "ùmòżebniając wëbiérk brëkòwnika bez klëkniãcé na gwësnym òbrôzkù."
 
-#: kdm-users.cpp:129
+#: kdm-users.cpp:133
 msgid "Autocompletion"
 msgstr "Aùtomatné dofùlowanié"
 
-#: kdm-users.cpp:130
+#: kdm-users.cpp:134
 msgid ""
 "If this option is checked, KDM will automatically complete user names while "
 "they are typed in the line edit."
 msgstr "Eżlë na òptacëjô je wëbrónô, KDM bãdze dofùlowiwôł miona brëkòwników."
 
-#: kdm-users.cpp:132
+#: kdm-users.cpp:136
 msgid "Inverse selection"
 msgstr "Òdwrócë wëbiérk"
 
-#: kdm-users.cpp:133
+#: kdm-users.cpp:137
 msgid ""
 "This option specifies how the users for \"Show list\" and \"Autocompletion\" "
 "are selected in the \"Select users and groups\" list: If not checked, select "
@@ -600,11 +605,11 @@ msgstr ""
 "bãdą dodóni do lëstë, eżlë włączonô, dodóni bãdą wszëtcë brekòwnicë pòza "
 "tima z lëstë."
 
-#: kdm-users.cpp:137
+#: kdm-users.cpp:141
 msgid "Sor&t users"
 msgstr "&Zortëjë"
 
-#: kdm-users.cpp:138
+#: kdm-users.cpp:142
 msgid ""
 "If this is checked, KDM will alphabetically sort the user list. Otherwise "
 "users are listed in the order they appear in the password file."
@@ -612,15 +617,15 @@ msgstr ""
 "Jeżlë na òptacëjô je wëbrónô, KDM bãdze zortowôł lëstã brëkòwników "
 "alfabétno. W procëmnym razu òstanié ùżëtô réza z lëstë parolów."
 
-#: kdm-users.cpp:155
+#: kdm-users.cpp:159
 msgid "S&elect users and groups:"
 msgstr "&Wëbiérzë brëkòwników ë grëpë:"
 
-#: kdm-users.cpp:158
+#: kdm-users.cpp:162
 msgid "Selected Users"
 msgstr "Wëbróni"
 
-#: kdm-users.cpp:160
+#: kdm-users.cpp:164
 msgid ""
 "KDM will show all checked users. Entries denoted with '@' are user groups. "
 "Checking a group is like checking all users in that group."
@@ -629,11 +634,11 @@ msgstr ""
 "'@' to grëpë brëkòwników - zaznaczenié grëpë je równé zaznaczeniu wszëtczéch "
 "brëkòwników z grëpë."
 
-#: kdm-users.cpp:167
+#: kdm-users.cpp:171
 msgid "Hidden Users"
 msgstr "Zatacëni"
 
-#: kdm-users.cpp:169
+#: kdm-users.cpp:173
 msgid ""
 "KDM will show all non-checked non-system users. Entries denoted with '@' are "
 "user groups. Checking a group is like checking all users in that group."
@@ -642,11 +647,11 @@ msgstr ""
 "òznôczoné przez '@' to grëpë brëkòwników - zaznaczenié grëpë je równé "
 "zaznaczeniu wszëtczéch brëkòwników z grëpë."
 
-#: kdm-users.cpp:176
+#: kdm-users.cpp:180
 msgid "User Image Source"
 msgstr "Òbrôzczi brëkòwników"
 
-#: kdm-users.cpp:177
+#: kdm-users.cpp:181
 msgid ""
 "Here you can specify where KDM will obtain the images that represent users. "
 "\"Admin\" represents the global folder; these are the pictures you can set "
@@ -660,39 +665,39 @@ msgstr ""
 "brëkòwnika. Pòstãpné dwie òptacëje definiują rézã ùżëca, eżlë przistãpné są "
 "òba zdroje."
 
-#: kdm-users.cpp:181
+#: kdm-users.cpp:185
 msgid "Admin"
 msgstr "Òglowé"
 
-#: kdm-users.cpp:182
+#: kdm-users.cpp:186
 msgid "Admin, user"
 msgstr "Òglowé, indiwidualné"
 
-#: kdm-users.cpp:183
+#: kdm-users.cpp:187
 msgid "User, admin"
 msgstr "Indiwidualné, òglowé"
 
-#: kdm-users.cpp:184
+#: kdm-users.cpp:188
 msgid "User"
 msgstr "Indiwidualné"
 
-#: kdm-users.cpp:198
+#: kdm-users.cpp:202
 msgid "User Images"
 msgstr "Òbrôzczi brëkòwników"
 
-#: kdm-users.cpp:200
+#: kdm-users.cpp:204
 msgid "The user the image below belongs to."
 msgstr "Brëkòwnik, do chtërnégò słëchô òbrôzk."
 
-#: kdm-users.cpp:203
+#: kdm-users.cpp:207
 msgid "User:"
 msgstr "Brëkòwnik:"
 
-#: kdm-users.cpp:212
+#: kdm-users.cpp:216
 msgid "Click or drop an image here"
 msgstr "Klëkni abò przeniesë tu òbrôzk"
 
-#: kdm-users.cpp:213
+#: kdm-users.cpp:217
 msgid ""
 "Here you can see the image assigned to the user selected in the combo box "
 "above. Click on the image button to select from a list of images or drag and "
@@ -702,21 +707,21 @@ msgstr ""
 "żebë òbaczëc lëstã przistãpnëch òbrôzków abò przëcygni gwësny òbrôzk z jiny "
 "programë (np. z Konquerora)."
 
-#: kdm-users.cpp:215
+#: kdm-users.cpp:219
 msgid "Unset"
 msgstr "Przëwrócë"
 
-#: kdm-users.cpp:216
+#: kdm-users.cpp:220
 msgid ""
 "Click this button to make KDM use the default image for the selected user."
 msgstr ""
 "Wcësni tã knąpã, bë przëwrócëc domëszlny òbrôzk dlô wëbrónegò brëkòwnika."
 
-#: kdm-users.cpp:318
+#: kdm-users.cpp:322
 msgid "Save image as default image?"
 msgstr "Zapisac òbrôzk jakno domëszlny?"
 
-#: kdm-users.cpp:327
+#: kdm-users.cpp:331
 #, qt-format
 msgid ""
 "There was an error loading the image\n"
@@ -725,7 +730,7 @@ msgstr ""
 "Wëstãpiła fela òbczas zladënkù òbrôzka:\n"
 "%1"
 
-#: kdm-users.cpp:335
+#: kdm-users.cpp:339
 #, qt-format
 msgid ""
 "There was an error saving the image:\n"
@@ -733,10 +738,6 @@ msgid ""
 msgstr ""
 "Wëstãpiła fela òbczas zapisënkù òbrôzka:\n"
 "%1"
-
-#: kdm-users.cpp:347
-msgid "Choose Image"
-msgstr "Wëbiérzë òbrôzk"
 
 #: main.cpp:74
 #, qt-format
@@ -869,6 +870,9 @@ msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
+
+#~ msgid "Choose Image"
+#~ msgstr "Wëbiérzë òbrôzk"
 
 #~ msgid "without name"
 #~ msgstr "bez miona"
