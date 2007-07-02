@@ -2221,7 +2221,6 @@ msgstr "%1 - nieznóny ôrt\n"
 msgid "%1 - unknown type of userpath\n"
 msgstr "%1 - nieznóny ôrt stegnë brëkòwnika\n"
 
-# | msgid "Error during rename."
 #: kdecore/io/kptydevice.cpp:269
 msgid "Error reading from PTY"
 msgstr "Fela òbczôs czëtaniô z PTY"
@@ -2230,14 +2229,10 @@ msgstr "Fela òbczôs czëtaniô z PTY"
 msgid "Error writing to PTY"
 msgstr "Fela òbczas zapisu do PTY"
 
-# | msgctxt "Socket error code Timeout"
-# | msgid "timed operation timed out"
 #: kdecore/io/kptydevice.cpp:388
-#, fuzzy
 msgid "PTY operation timed out"
-msgstr "czas òperacëji ju zlecôł"
+msgstr "czas òperacëji PTY ju zlecôł"
 
-# | msgid "Error opening file."
 #: kdecore/io/kptydevice.cpp:430
 msgid "Error opening PTY"
 msgstr "Fela òbczôs òtemkniãcô PTY"
@@ -3070,8 +3065,6 @@ msgctxt "Socket error code ConnectionRefused"
 msgid "connection actively refused"
 msgstr ""
 
-# | msgctxt "Socket error code Timeout"
-# | msgid "timed operation timed out"
 #: kdecore/network/k3socketbase.cpp:254
 msgctxt "Socket error code ConnectionTimedOut"
 msgid "connection timed out"
@@ -3185,7 +3178,7 @@ msgid "unknown error"
 msgstr "nieznónô fela"
 
 #: kdecore/network/k3resolver.cpp:552
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "1: the i18n'ed system error code, from errno"
 msgid "system error: %1"
 msgstr "systemòwô fela: %1"
@@ -3516,7 +3509,6 @@ msgid "Could not Launch Browser"
 msgstr "Nie mòże zrëszëc przezérnika"
 
 #: kdecore/kernel/kaboutdata.cpp:507
-#, fuzzy
 msgctxt "replace this with information about your translation team"
 msgid ""
 "<p>KDE is translated into many languages thanks to the work of the "
@@ -3526,7 +3518,7 @@ msgid ""
 msgstr ""
 "<p>KDE je dolmaczoné przez Kaszëbsczé Karno Dolmaczów, chtërnegò starnã "
 "nalezesz pòd adresą <a href=\"http://kde.linuxcsb.org\">kde.linuxcsb.org</"
-"a></p> <p>Eżle nalezesz zmiłczi ë felë w dolmaczënkù, napiszë proszã ò tim "
+"a></p> <p>Jeżle nalezesz zmiłczi ë felë w dolmaczënkù, napiszë proszã ò tim "
 "na adresã <a href=\"mailto:i18n-csb@linuxcsb.org\">i18n-csb@linuxcsb.org</"
 "a>. Zazdrzë téż na naji starnë wspiarca dlô ôpen-ùdbów <a href=\"http://www."
 "linuxcsb.org\">www.linuxcsb.org</a></p> <p>Roczimë téż do pòmòcë przë ti "
@@ -3592,17 +3584,17 @@ msgstr ""
 #: kdecore/sonnet/loader.cpp:162
 msgctxt "dictionary variant"
 msgid "40"
-msgstr ""
+msgstr "40"
 
 #: kdecore/sonnet/loader.cpp:163
 msgctxt "dictionary variant"
 msgid "60"
-msgstr ""
+msgstr "60"
 
 #: kdecore/sonnet/loader.cpp:164
 msgctxt "dictionary variant"
 msgid "80"
-msgstr ""
+msgstr "80"
 
 #: kdecore/sonnet/loader.cpp:165
 msgctxt "dictionary variant"
@@ -3635,68 +3627,57 @@ msgid "-ize suffixes and without accents"
 msgstr ""
 
 #: kdecore/sonnet/loader.cpp:171
-#, fuzzy
 msgctxt "dictionary variant"
 msgid "large"
 msgstr "wiôldżé"
 
 #: kdecore/sonnet/loader.cpp:172
-#, fuzzy
 msgctxt "dictionary variant"
 msgid "medium"
 msgstr "strzédné"
 
 #: kdecore/sonnet/loader.cpp:173
-#, fuzzy
 msgctxt "dictionary variant"
 msgid "small"
 msgstr "môłé"
 
 #: kdecore/sonnet/loader.cpp:174
-#, fuzzy
 msgctxt "dictionary variant"
 msgid "variant 0"
 msgstr "wariant 0"
 
 #: kdecore/sonnet/loader.cpp:175
-#, fuzzy
 msgctxt "dictionary variant"
 msgid "variant 1"
 msgstr "wariant 1"
 
 #: kdecore/sonnet/loader.cpp:176
-#, fuzzy
 msgctxt "dictionary variant"
 msgid "variant 2"
 msgstr "wariant 2"
 
-# | msgid "New hostname"
 #: kdecore/sonnet/loader.cpp:177
 #, fuzzy
 msgctxt "dictionary variant"
 msgid "without accents"
-msgstr "Nowé miono kòmpùtra"
+msgstr "bez akcentów"
 
 #: kdecore/sonnet/loader.cpp:178
-#, fuzzy
 msgctxt "dictionary variant"
 msgid "with accents"
-msgstr "z ye"
+msgstr "z akcentama"
 
 #: kdecore/sonnet/loader.cpp:179
-#, fuzzy
 msgctxt "dictionary variant"
 msgid "with ye"
 msgstr "z ye"
 
 #: kdecore/sonnet/loader.cpp:180
-#, fuzzy
 msgctxt "dictionary variant"
 msgid "with yeyo"
 msgstr "z yeyo"
 
 #: kdecore/sonnet/loader.cpp:181
-#, fuzzy
 msgctxt "dictionary variant"
 msgid "with yo"
 msgstr "z yo"
@@ -3704,29 +3685,26 @@ msgstr "z yo"
 #: kdecore/sonnet/loader.cpp:182
 msgctxt "dictionary variant"
 msgid "extended"
-msgstr ""
+msgstr "rozszérzoné"
 
 #: kdecore/sonnet/loader.cpp:231
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "dictionary name. %1-language, %2-country and %3 variant name"
 msgid "%1 (%2) [%3]"
 msgstr "%1 (%2) [%3]"
 
 #: kdecore/sonnet/loader.cpp:238
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "dictionary name. %1-language and %2-country name"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #: kdecore/sonnet/loader.cpp:244
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "dictionary name. %1-language and %2-variant name"
 msgid "%1 [%2]"
 msgstr "%1 [%2]"
 
-# | msgid ""
-# | "Could not find mime type\n"
-# | "%1"
 #: kdecore/services/kmimetype.cpp:58
 #, fuzzy, qt-format
 msgid ""
@@ -3736,13 +3714,13 @@ msgid_plural ""
 "Could not fine mime types:\n"
 "%2"
 msgstr[0] ""
-"Nie mòże nalezc ôrtu mime\n"
+"Nie mòże nalezc ôrtu mime:\n"
 "%1"
 msgstr[1] ""
-"Nie mòże nalezc ôrtu mime\n"
+"Nie mòże nalezc ôrtów mime:\n"
 "%1"
 msgstr[2] ""
-"Nie mòże nalezc ôrtu mime\n"
+"Nie mòże nalezc ôrtów mime:\n"
 "%1"
 
 #: kdecore/services/kmimetype.cpp:131
@@ -5519,19 +5497,16 @@ msgid ""
 "upon next start of application"
 msgstr ""
 
-# | msgid "Application sounds"
 #: kdeui/dialogs/kswitchlanguagedialog.cpp:223
 #, fuzzy
 msgid "Application language changed"
-msgstr "Zwãczi programów"
+msgstr "Zmieniony jãzëk aplikacëji"
 
 #: kdeui/dialogs/kswitchlanguagedialog.cpp:272
 msgid "Primary language:"
 msgstr "Przédny jãzëk:"
 
-# | msgid "Default language:"
 #: kdeui/dialogs/kswitchlanguagedialog.cpp:272
-#, fuzzy
 msgid "Fallback language:"
 msgstr "Domëslny jãzëk:"
 
@@ -5749,11 +5724,10 @@ msgstr ""
 msgid "<font size=\"5\">%1</font><br><b>Version %2</b><br>Using KDE %3</html>"
 msgstr ""
 
-# | msgid "License:"
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:111
 #, fuzzy, qt-format
 msgid "License: %1"
-msgstr "Licencëjô:"
+msgstr "Licencëjô: %1"
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:123
 #: kde3support/kdeui/k3aboutapplication.cpp:51
@@ -5798,9 +5772,7 @@ msgstr "&Pòdzëkòwaniô"
 msgid "T&ranslation"
 msgstr "&Dolmaczënk"
 
-# | msgid "&License Agreement"
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:231
-#, fuzzy
 msgid "License Agreement"
 msgstr "Licencjowô ùgòda"
 
@@ -6525,12 +6497,8 @@ msgstr "&Szëkôj:"
 msgid "Conflict with Global Shortcut"
 msgstr "Zwada z òglową skrodzëną"
 
-# | msgid ""
-# | "The '%1' key combination has already been allocated to the global action "
-# | "\"%2\".\n"
-# | "Do you want to reassign it from that action to the current one?"
 #: kdeui/shortcuts/kglobalaccel.cpp:470
-#, fuzzy, qt-format
+#, qt-format
 msgid ""
 "The '%1' key combination has already been allocated to the global action \"%2"
 "\" in %3.\n"
@@ -6748,11 +6716,10 @@ msgctxt ""
 msgid "LTR"
 msgstr ""
 
-# | msgid "The style %1 was not found\n"
 #: kdeui/kernel/kapplication.cpp:811
-#, fuzzy, qt-format
+#, qt-format
 msgid "The style '%1' was not found"
-msgstr "Sztél %1 nie òstôł nalazłi\n"
+msgstr "Sztél %1 nie òstôł nalazłi"
 
 #: kdeui/actions/krecentfilesaction.cpp:92
 #: kdeui/actions/krecentfilesaction.cpp:195
@@ -6870,11 +6837,10 @@ msgstr "Pòkażë lëstëw nôrzãdzów"
 msgid "Toolbars"
 msgstr "Nôrzãdza"
 
-# | msgid "New hostname"
 #: kdeui/widgets/klanguagebutton.cpp:175
 #, fuzzy
 msgid "without name"
-msgstr "Nowé miono kòmpùtra"
+msgstr "bez miona"
 
 #: kdeui/widgets/kactionselector.cpp:95
 msgid "&Available:"
@@ -7425,34 +7391,29 @@ msgstr "Miara ikonë"
 msgid "Unknown View"
 msgstr "Nieznóné pòle"
 
-# | msgid "&Edit..."
 #: kfile/kfileplacesview.cpp:192
-#, fuzzy, qt-format
+#, qt-format
 msgid "&Edit '%1'..."
-msgstr "&Edicëjô..."
+msgstr "&Editëjë '%1'..."
 
-# | msgid "Hide %1"
 #: kfile/kfileplacesview.cpp:195
-#, fuzzy, qt-format
+#, qt-format
 msgid "&Hide '%1'"
-msgstr "Zatacë %1"
+msgstr "&Zatacë '%1'"
 
 #: kfile/kfileplacesview.cpp:202
-#, fuzzy
 msgid "&Show All Entries"
-msgstr "Pòkôżë wszëtczé òptacëje"
+msgstr "&Pòkôżë wszëtczé wéńdzenia"
 
-# | msgid "&Remove"
 #: kfile/kfileplacesview.cpp:213
 #, fuzzy, qt-format
 msgid "&Remove '%1'"
-msgstr "&Rëmôj"
+msgstr "&Rëmôj '%1'"
 
 #: kfile/k3filedetailview.cpp:63 kfile/kdiroperator.cpp:1007
 #: kfile/kdiroperator.cpp:1445
-#, fuzzy
 msgid "Detailed View"
-msgstr "Drobnotë"
+msgstr "Detalowi wëzdrzatk"
 
 #: kfile/k3filedetailview.cpp:67
 msgid "Date"
@@ -7461,22 +7422,20 @@ msgstr "Datum"
 #: kfile/k3filedetailview.cpp:68
 #, fuzzy
 msgid "Permissions"
-msgstr "Felënk ùdowierzeniô."
+msgstr "Ùdowierzenia"
 
 #: kfile/k3filedetailview.cpp:69
-#, fuzzy
 msgid "Owner"
-msgstr "Jinszi"
+msgstr "Miéwca"
 
 #: kfile/k3filedetailview.cpp:70
-#, fuzzy
 msgid "Group"
-msgstr "Swòjizna"
+msgstr "Grëpa"
 
 #: kfile/kfilefiltercombo.cpp:33 kfile/kfilewidget.cpp:1385
 #, fuzzy
 msgid "*|All Files"
-msgstr "Lopczi"
+msgstr "*| Wszëtczé lopczi"
 
 #: kfile/kfilefiltercombo.cpp:162
 #, fuzzy
@@ -7672,11 +7631,10 @@ msgstr "Fela lopkù"
 msgid "*|All Folders"
 msgstr ""
 
-# | msgid "Open"
 #: kfile/kfilewidget.cpp:1509 kparts/browserrun.cpp:351
 #, fuzzy
 msgid "&Open"
-msgstr "Òtemkni"
+msgstr "Ò&temkni"
 
 #: kfile/kfilewidget.cpp:1649
 #, qt-format
@@ -7742,34 +7700,30 @@ msgstr "FelënkCARoot"
 msgid "Trash"
 msgstr "Kòsz"
 
-# | msgid "&Open with '%1'"
 #: kfile/kfileplacesmodel.cpp:632
 #, fuzzy, qt-format
 msgid "&Eject '%1'"
-msgstr "Òtemkni &w '%1'"
+msgstr "&Wësëni '%1'"
 
 #: kfile/kfileplacesmodel.cpp:634
 #, qt-format
 msgid "&Safely remove '%1'"
 msgstr ""
 
-# | msgid "&About %1"
 #: kfile/kfileplacesmodel.cpp:636
 #, fuzzy, qt-format
 msgid "&Unmount '%1'"
-msgstr "Ò pro&gramie %1"
+msgstr "Ò&dmòntëjë '%1'"
 
 #: kfile/kfileplacesmodel.cpp:689
-#, fuzzy, qt-format
-#| msgid "An error occurred while loading <B>%1</B>:"
+#, qt-format
 msgid "An error occurred while accessing '%1', the system said: %2"
-msgstr "Pòkôzała sã fela przë ladowaniô <b>%1</b>:"
+msgstr "Pòkôzała sã fela przë przëstãpie do '%1', systema rzekła: %2"
 
 #: kfile/kfileplacesmodel.cpp:693
-#, fuzzy, qt-format
-#| msgid "An error occurred while loading <B>%1</B>:"
+#, qt-format
 msgid "An error occurred while accessing '%1'"
-msgstr "Pòkôzała sã fela przë ladowaniô <b>%1</b>:"
+msgstr "Pòkôzała sã fela przë przëstãpie do '%1'"
 
 #: kfile/kurlnavigator.cpp:545
 #, fuzzy
@@ -8027,17 +7981,14 @@ msgstr ""
 msgid "Show Preview"
 msgstr ""
 
-# | msgid "Click to select a font"
 #: kfile/kurltogglebutton.cpp:77
 #, fuzzy
 msgid "Click for Location Navigation"
-msgstr "Klëkni bë wëbrac fònt"
+msgstr "Klëkni dlô nawigacëji lokacëji"
 
-# | msgid "Click to select a font"
 #: kfile/kurltogglebutton.cpp:79
-#, fuzzy
 msgid "Click to Edit Location"
-msgstr "Klëkni bë wëbrac fònt"
+msgstr "Klëkni bë editowac lokacjã"
 
 #: kfile/kurlbutton.cpp:97 kross/ui/view.cpp:505
 msgid "Edit"
@@ -9529,11 +9480,10 @@ msgstr "Kònfigùracëjô"
 msgid "Invalid type in Database"
 msgstr "Lëchô klawiszowô skrodzëna"
 
-# | msgid "unknown error"
 #: nepomuk/core/generated/resource.cpp:178
 #, fuzzy
 msgid "Unknown error"
-msgstr "nieznónô fela"
+msgstr "Nieznónô fela"
 
 #: kparts/browserextension.cpp:556
 #, qt-format
@@ -9724,59 +9674,60 @@ msgstr[2] ""
 msgid " since the last time you asked for details"
 msgstr ""
 
-# | msgid "Options"
 #: kutils/kpluginselector.cpp:742 kutils/kpluginselector.cpp:975
 #, fuzzy
 msgid "More Options"
-msgstr "Òptacëje"
+msgstr "Wicy òptacëjów"
 
-# | msgid "&About"
 #: kutils/kpluginselector.cpp:743 kutils/kpluginselector.cpp:978
 #: kutils/kpluginselector.cpp:1199
 #, fuzzy
 msgid "About"
-msgstr "Ò pr&ogramie"
+msgstr "Ò programie"
 
-# | msgid "Description:"
 #: kutils/kpluginselector.cpp:1127
-#, fuzzy, qt-format
+#, qt-format
 msgid ""
 "Description:\n"
 "\t%1"
-msgstr "Òpis:"
+msgstr ""
+"Òpis:\n"
+"\t%1"
 
-# | msgid "Author:"
 #: kutils/kpluginselector.cpp:1134
-#, fuzzy, qt-format
+#, qt-format
 msgid ""
 "Author:\n"
 "\t%1"
-msgstr "Ùsôdzca:"
+msgstr ""
+"Ùsôdzca:\n"
+"\t%1"
 
-# | msgid "Main:"
 #: kutils/kpluginselector.cpp:1141
-#, fuzzy
 msgid "E-Mail:"
-msgstr "Przédny:"
+msgstr "E-Mail:"
 
 #: kutils/kpluginselector.cpp:1162
 msgid "Website:"
-msgstr ""
+msgstr "Starna WWW"
 
 #: kutils/kpluginselector.cpp:1183
-#, fuzzy, qt-format
+#, qt-format
 msgid ""
 "Version:\n"
 "\t%1"
-msgstr "Wersëjô:"
+msgstr ""
+"Wersëjô:\n"
+"\t%1"
 
-# | msgid "License:"
 #: kutils/kpluginselector.cpp:1191
-#, fuzzy, qt-format
+#, qt-format
 msgid ""
 "License:\n"
 "\t%1"
-msgstr "Licencëjô:"
+msgstr ""
+"Licencëjô:\n"
+"\t%1"
 
 #: kutils/kcmoduleproxy.cpp:168
 #, fuzzy
