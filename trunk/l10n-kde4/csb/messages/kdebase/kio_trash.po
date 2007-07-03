@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-19 05:21+0200\n"
+"POT-Creation-Date: 2007-07-03 05:05+0200\n"
 "PO-Revision-Date: 2007-02-18 19:46+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -16,23 +16,11 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
-#: ktrash.cpp:32
-msgid "Empty the contents of the trash"
-msgstr "Rëmôj zamkłosc kòsza"
-
 #: ktrash.cpp:34
-msgid "Restore a trashed file to its original location"
-msgstr "Przëwrócë lopk z kòsza do jegò apartnegò pòłóżeniô"
-
-#: ktrash.cpp:36
-msgid "Ignored"
-msgstr "Ignorowóny"
-
-#: ktrash.cpp:44
 msgid "ktrash"
 msgstr "ktrash"
 
-#: ktrash.cpp:45
+#: ktrash.cpp:36
 msgid ""
 "Helper program to handle the KDE trash can\n"
 "Note: to move files to the trash, do not use ktrash, but \"kfmclient move "
@@ -42,21 +30,33 @@ msgstr ""
 "Bôczënk: abë przeniesc lopczi z kòsza, nie brëkùjë ktrash, le pòlétu "
 "\"kfmclient move 'url' trash:/\""
 
-#: kio_trash.cpp:44
+#: ktrash.cpp:40
+msgid "Empty the contents of the trash"
+msgstr "Rëmôj zamkłosc kòsza"
+
+#: ktrash.cpp:42
+msgid "Restore a trashed file to its original location"
+msgstr "Przëwrócë lopk z kòsza do jegò apartnegò pòłóżeniô"
+
+#: ktrash.cpp:44
+msgid "Ignored"
+msgstr "Ignorowóny"
+
+#: kio_trash.cpp:52
 msgid "Protocol name"
 msgstr "Miono protokołu"
 
-#: kio_trash.cpp:45 kio_trash.cpp:46
+#: kio_trash.cpp:53 kio_trash.cpp:54
 msgid "Socket name"
 msgstr "Miono gniôzda"
 
-#: kio_trash.cpp:103 kio_trash.cpp:166 kio_trash.cpp:314 kio_trash.cpp:346
-#: kio_trash.cpp:510 kio_trash.cpp:522
+#: kio_trash.cpp:102 kio_trash.cpp:165 kio_trash.cpp:313 kio_trash.cpp:345
+#: kio_trash.cpp:509 kio_trash.cpp:521
 #, qt-format
 msgid "Malformed URL %1"
 msgstr "Zmiłkòwi URL %1"
 
-#: kio_trash.cpp:122
+#: kio_trash.cpp:121
 #, qt-format
 msgid ""
 "The directory %1 does not exist anymore, so it is not possible to restore "
@@ -69,7 +69,7 @@ msgstr ""
 "òptacëji przëwrócenia znowa, abò przecygnąc nen element dze jindze abë gò "
 "przëwrócëc."
 
-#: kio_trash.cpp:151
+#: kio_trash.cpp:150
 msgid "This file is already in the trash bin."
 msgstr "Nen lopk je w kòszu."
 

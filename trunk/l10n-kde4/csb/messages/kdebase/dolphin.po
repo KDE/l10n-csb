@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-02 05:09+0200\n"
+"POT-Creation-Date: 2007-07-03 05:05+0200\n"
 "PO-Revision-Date: 2007-07-02 17:26+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -12,7 +12,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 
 #: columnviewsettingspage.cpp:55 detailsviewsettingspage.cpp:76
 #: iconsizedialog.cpp:60
@@ -476,8 +477,7 @@ msgctxt "@action:intoolbar Split view"
 msgid "Split"
 msgstr "Rozdzélë"
 
-#: dolphinpart.cpp:63
-#| msgid "Dolphin"
+#: dolphinpart.cpp:97
 msgid "Dolphin Part"
 msgstr "Part Dolphina"
 
@@ -510,7 +510,7 @@ msgstr "Lokacëjô '%1' je zmiłkòwô."
 msgid "Loading folder..."
 msgstr "Ladowanié katalogù..."
 
-#: dolphinviewcontainer.cpp:390
+#: dolphinviewcontainer.cpp:385
 #, qt-format
 msgid "1 Folder selected"
 msgid_plural "%1 Folders selected"
@@ -518,7 +518,7 @@ msgstr[0] "1 katalog zaznaczony"
 msgstr[1] "%1 katalodżi zaznaczoné"
 msgstr[2] "%1 zaznaczonëch katalogów"
 
-#: dolphinviewcontainer.cpp:398
+#: dolphinviewcontainer.cpp:393
 #, qt-format
 msgid "1 File selected (%2)"
 msgid_plural "%1 Files selected (%2)"
@@ -732,41 +732,77 @@ msgstr "Zmòdifikòwónô:"
 msgid "Total size:"
 msgstr "Całownô miara:"
 
-#: main.cpp:29
-msgid "Document to open"
-msgstr "Dokùment do òtemkniãcô"
-
-#: main.cpp:37
+#: main.cpp:30
 msgid "Dolphin"
 msgstr "Dolphin"
 
-#: main.cpp:39
+#: main.cpp:32
 msgid "File Manager"
 msgstr "Menadżer lopków"
 
-#: main.cpp:44
+#: main.cpp:34
+msgid "(C) 2006 Peter Penz"
+msgstr ""
+
+#: main.cpp:37
+msgid "Peter Penz"
+msgstr ""
+
+#: main.cpp:37
 msgid "Maintainer and developer"
 msgstr "Òpiekùn ë programista"
 
-#: main.cpp:45 main.cpp:46
+#: main.cpp:38
+msgid "Cvetoslav Ludmiloff"
+msgstr ""
+
+#: main.cpp:38 main.cpp:39
 msgid "Developer"
 msgstr "Programista"
 
-#: main.cpp:47 main.cpp:48
+#: main.cpp:39
+msgid "Stefan Monov"
+msgstr ""
+
+#: main.cpp:40
+msgid "Michael Austin"
+msgstr ""
+
+#: main.cpp:40 main.cpp:41
 msgid "Documentation"
 msgstr "Dokùmentacëjô"
 
-#: main.cpp:49
+#: main.cpp:41
+msgid "Orville Bennett"
+msgstr ""
+
+#: main.cpp:42
+msgid "Aaron J. Seigo"
+msgstr ""
+
+#: main.cpp:42
 msgid "... for the great support and the amazing patches"
 msgstr "...za wiôldżé wspiarcé ë bëlny patche"
 
-#: main.cpp:50
+#: main.cpp:43
+msgid "Patrice Tremblay and Gregor Kalisnik"
+msgstr ""
+
+#: main.cpp:43
 msgid "... for their patches"
 msgstr "...za jich patche"
 
-#: main.cpp:52
+#: main.cpp:44
+msgid "Ain, Itai, Ivan, Stephane, Patrice, Piotr and Stefano"
+msgstr ""
+
+#: main.cpp:45
 msgid "... for their translations"
 msgstr "...za jich dolmaczënk"
+
+#: main.cpp:50
+msgid "Document to open"
+msgstr "Dokùment do òtemkniãcô"
 
 #: metadatawidget.cpp:70
 msgid "Click to add comment..."
@@ -849,7 +885,8 @@ msgid "(# will be replaced by ascending numbers)"
 msgstr "(# òstanié zmienioné na rosnącé numre)"
 
 #: renamedialog.cpp:114
-msgid "The new name is empty. A name with at least one character must be entered."
+msgid ""
+"The new name is empty. A name with at least one character must be entered."
 msgstr "Nowé miono je pùsti. Mùszi bëc wpisóny przënômni jeden céch."
 
 #: renamedialog.cpp:117
@@ -1038,8 +1075,10 @@ msgstr ""
 "kòntinuòwac?"
 
 #: viewpropertiesdialog.cpp:332
-msgid "The view properties of all folders will be changed. Do you want to continue?"
-msgstr "Swòjiznë wëzdrzatkù wszëtczich katalogów òstaną zmienioné. Chcesz kòntiuòwac?"
+msgid ""
+"The view properties of all folders will be changed. Do you want to continue?"
+msgstr ""
+"Swòjiznë wëzdrzatkù wszëtczich katalogów òstaną zmienioné. Chcesz kòntiuòwac?"
 
 #: viewpropsprogressinfo.cpp:49
 msgid "Applying View Properties"
@@ -1060,4 +1099,3 @@ msgstr "Rechòwanié katalogów: %1"
 #, qt-format
 msgid "Folders: %1"
 msgstr "Katalodżi: %1"
-

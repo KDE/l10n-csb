@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksystraycmd\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-04-03 05:45+0200\n"
+"POT-Creation-Date: 2007-07-03 05:05+0200\n"
 "PO-Revision-Date: 2007-02-18 20:56+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -25,7 +25,7 @@ msgstr "Niżóde òkno nie słëchô do mùstru '%1' ë nie je pòdóny niżódn
 msgid "KSysTrayCmd: K3ShellProcess cannot find a shell."
 msgstr "KSysTrayCmd: KShellProcess nie mòże nalezc pòwłoczi."
 
-#: ksystraycmd.cpp:242 main.cpp:52
+#: ksystraycmd.cpp:242 main.cpp:26
 msgid "KSysTrayCmd"
 msgstr "KSysTrayCmd"
 
@@ -45,11 +45,23 @@ msgstr "Òd&dokùjë"
 msgid "&Quit"
 msgstr "&Zakùńczë"
 
-#: main.cpp:26
+#: main.cpp:28
+msgid "Allows any application to be kept in the system tray"
+msgstr "Pòzwalô każdemù programòwi bëc w zabiérnikù"
+
+#: main.cpp:30
+msgid "(C) 2001-2002 Richard Moore (rich@kde.org)"
+msgstr ""
+
+#: main.cpp:31
+msgid "Richard Moore"
+msgstr ""
+
+#: main.cpp:36
 msgid "Command to execute"
 msgstr "Pòlét do zrëszëniô"
 
-#: main.cpp:28
+#: main.cpp:38
 msgid ""
 "A regular expression matching the window title\n"
 "If you do not specify one, then the very first window\n"
@@ -59,7 +71,7 @@ msgstr ""
 "Eżle nie òstanie pòdóny, brëkòwóné òstanie pierszé\n"
 "òkno, chtërne sã zjawi - nie zalécané."
 
-#: main.cpp:31
+#: main.cpp:41
 msgid ""
 "The window id of the target window\n"
 "Specifies the id of the window to use. If the id starts with 0x\n"
@@ -70,11 +82,11 @@ msgstr ""
 "identifikatora\n"
 "naczinô sã òd 0x, je przëjimané, zé je òn w heksadecymalné sztaturze."
 
-#: main.cpp:34
+#: main.cpp:44
 msgid "Hide the window to the tray on startup"
 msgstr "Zatacë òkno pò zrëszenim"
 
-#: main.cpp:35
+#: main.cpp:45
 msgid ""
 "Wait until we are told to show the window before\n"
 "executing the command"
@@ -82,11 +94,11 @@ msgstr ""
 "Żdôj na żądanié pòkazania òkna przed zrëszenim\n"
 "pòlétu"
 
-#: main.cpp:37
+#: main.cpp:47
 msgid "Sets the initial tooltip for the tray icon"
 msgstr "Ùstawiô domëslną pòdpòwiesc dlô ikonë na zabiérnikù"
 
-#: main.cpp:38
+#: main.cpp:48
 msgid ""
 "Keep the tray icon even if the client exits. This option\n"
 "has no effect unless startonshow is specified."
@@ -94,7 +106,7 @@ msgstr ""
 "Pòkazëjë ikònã na zabiérnikù, nawetka eżle programa je zakùńczonô\n"
 "Ta òptacëjô nick nie zmieniô, czej nie je włączonô òptacëja startonshow."
 
-#: main.cpp:40
+#: main.cpp:50
 msgid ""
 "Do not use window's icon in systray, but ksystraycmd one's\n"
 "(should be used with --icon to specify ksystraycmd icon)"
@@ -102,11 +114,11 @@ msgstr ""
 "Pòkazëjë w zabiérnikù ikònë z ksystraycmd w môl ikònë z òkna\n"
 "(brëkòwóne z òptacëją --icon do wëbiérkù ikònë ksystraycmd)"
 
-#: main.cpp:42
+#: main.cpp:52
 msgid "Try to keep the window above other windows"
 msgstr "Próbùjë wëskrzëniwac òkno przed jinëma"
 
-#: main.cpp:43
+#: main.cpp:53
 msgid ""
 "Quit the client when we are told to hide the window.\n"
 "This has no effect unless startonshow is specified and implies keeprunning."
@@ -115,11 +127,7 @@ msgstr ""
 "Ta òptacëjô nick nie zmieniô, czéj nie je włączonô òptacëjô startonshow ë "
 "wëmùszô włączenié òptacëji keeprunning."
 
-#: main.cpp:54
-msgid "Allows any application to be kept in the system tray"
-msgstr "Pòzwalô każdemù programòwi bëc w zabiérnikù"
-
-#: main.cpp:96
+#: main.cpp:93
 msgid "No command or window specified"
 msgstr "Nie pòdano pòlétu ni miona òkna"
 
