@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-05 03:20+0000\n"
+"POT-Creation-Date: 2007-07-08 02:57+0000\n"
 "PO-Revision-Date: 2007-06-17 14:14+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -2829,7 +2829,6 @@ msgstr ""
 "zortowac."
 
 #: apps/konqueror/sidebar/trees/init/home.desktop:6
-#: runtime/kioslave/system/entries/home.desktop:6
 msgctxt "Name"
 msgid "Home Folder"
 msgstr "Domôcy katalog"
@@ -2908,7 +2907,6 @@ msgstr "Przezérnik audio CD"
 
 #: apps/konqueror/sidebar/trees/init/services/media.desktop:6
 #: runtime/kioslave/media/kcmodule/media.desktop:15
-#: runtime/kioslave/system/entries/media.desktop:6
 #: workspace/kicker/applets/media/mediaapplet.desktop:17
 msgctxt "Name"
 msgid "Storage Media"
@@ -3692,11 +3690,6 @@ msgctxt "Description"
 msgid "A kioslave for the FISH protocol"
 msgstr "Plugins protokòłu FISH"
 
-#: runtime/kioslave/home/kdedmodule/homedirnotify.desktop:4
-msgctxt "Name"
-msgid "KDED Home Base URL Notifier"
-msgstr "Dôwanié wiédzë o URL-ach domôcegò katalogù dlô KDED"
-
 #: runtime/kioslave/man/kmanpart.desktop:4
 msgctxt "Comment"
 msgid "Embeddable Troff Viewer"
@@ -3758,33 +3751,6 @@ msgstr "Plugins dlô procedurë òbsłużënkù sftp"
 msgctxt "Name"
 msgid "Samba Shares"
 msgstr "Dostónczi Sambë"
-
-#: runtime/kioslave/system/entries/documents.desktop:6
-msgctxt "Name"
-msgid "Documents Folder"
-msgstr "Katalog dokùmentów"
-
-#: runtime/kioslave/system/entries/remote.desktop:6
-msgctxt "Name"
-msgid "Remote Places"
-msgstr "Daleczi place"
-
-#: runtime/kioslave/system/entries/trash.desktop:7
-#: workspace/kdesktop/init/directory.trash:7
-#: workspace/kicker/applets/trash/trashapplet.desktop:18
-msgctxt "Name"
-msgid "Trash"
-msgstr "Kòsz"
-
-#: runtime/kioslave/system/entries/users.desktop:6
-msgctxt "Name"
-msgid "Users Folders"
-msgstr "Katalodżi brëkòwników"
-
-#: runtime/kioslave/system/kdedmodule/systemdirnotify.desktop:4
-msgctxt "Name"
-msgid "KDED System Base URL Notifier"
-msgstr "Dôwanié wiédzë ò systemòwëch URL-ach dlô KDED"
 
 #: runtime/kioslave/thumbnail/cursorthumbnail.desktop:4
 msgctxt "Name"
@@ -7135,6 +7101,12 @@ msgctxt "Name"
 msgid "Templates"
 msgstr "Mùstrë"
 
+#: workspace/kdesktop/init/directory.trash:7
+#: workspace/kicker/applets/trash/trashapplet.desktop:18
+msgctxt "Name"
+msgid "Trash"
+msgstr "Kòsz"
+
 #: workspace/kdesktop/init/directory.trash:69
 msgctxt "Comment"
 msgid "Contains removed files"
@@ -8901,7 +8873,7 @@ msgctxt "Name"
 msgid "Invert"
 msgstr "Internet"
 
-#: workspace/kwin/effects/invert.desktop:4
+#: workspace/kwin/effects/invert.desktop:7
 msgctxt "Comment"
 msgid "Inverts (negates) colors of the desktop"
 msgstr ""
@@ -8981,7 +8953,7 @@ msgctxt "Name"
 msgid "Sharpen"
 msgstr "Szpańskô"
 
-#: workspace/kwin/effects/sharpen.desktop:4
+#: workspace/kwin/effects/sharpen.desktop:7
 msgctxt "Comment"
 msgid "Makes your desktop look sharper"
 msgstr ""
@@ -9428,6 +9400,14 @@ msgctxt "Comment"
 msgid "An SVG themable clock"
 msgstr ""
 
+#: workspace/plasma/applets/solidnotifier/plasma-solidnotifier-default.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "XSoldier"
+msgctxt "Name"
+msgid "Solid Notifier"
+msgstr "XSoldier"
+
 #: workspace/plasma/applets/url/plasma-applet-url.desktop:3
 msgctxt "Name"
 msgid "Button"
@@ -9455,6 +9435,14 @@ msgstr "Mòtór dostónków plazmë"
 msgctxt "Comment"
 msgid "SolidDevice data for Plasmoids"
 msgstr ""
+
+#: workspace/plasma/engines/solidnotifier/plasma-engine-solidnotifierengine.desktop:3
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Plasma Data Engine"
+msgctxt "Name"
+msgid "Solid Notifier Data Engine"
+msgstr "Mòtór dostónków plazmë"
 
 #: workspace/plasma/engines/systemmonitor/plasma-engine-systemmonitor.desktop:3
 #, fuzzy
@@ -9805,6 +9793,26 @@ msgstr "Słuńce pò deszczu"
 msgctxt "Name"
 msgid "Triple Gears"
 msgstr "Pòtrójné zãbaté kòła"
+
+#~ msgctxt "Name"
+#~ msgid "KDED Home Base URL Notifier"
+#~ msgstr "Dôwanié wiédzë o URL-ach domôcegò katalogù dlô KDED"
+
+#~ msgctxt "Name"
+#~ msgid "Documents Folder"
+#~ msgstr "Katalog dokùmentów"
+
+#~ msgctxt "Name"
+#~ msgid "Remote Places"
+#~ msgstr "Daleczi place"
+
+#~ msgctxt "Name"
+#~ msgid "Users Folders"
+#~ msgstr "Katalodżi brëkòwników"
+
+#~ msgctxt "Name"
+#~ msgid "KDED System Base URL Notifier"
+#~ msgstr "Dôwanié wiédzë ò systemòwëch URL-ach dlô KDED"
 
 #~ msgctxt "Name"
 #~ msgid "Edutainment"
