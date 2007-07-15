@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-14 05:32+0200\n"
+"POT-Creation-Date: 2007-07-15 05:31+0200\n"
 "PO-Revision-Date: 2007-07-02 17:26+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -22,17 +22,26 @@ msgid "Icon Size"
 msgstr "Miara ikònów"
 
 #: columnviewsettingspage.cpp:58 detailsviewsettingspage.cpp:79
-msgctxt "@option:radio Size"
+#, fuzzy
+#| msgctxt "@option:radio Size"
+#| msgid "Small"
+msgctxt "@option:radio Icon Size"
 msgid "Small"
 msgstr "Môłi"
 
 #: columnviewsettingspage.cpp:59 detailsviewsettingspage.cpp:80
-msgctxt "@option:radio Size"
+#, fuzzy
+#| msgctxt "@option:radio Size"
+#| msgid "Medium"
+msgctxt "@option:radio Icon Size"
 msgid "Medium"
 msgstr "Strzédny"
 
 #: columnviewsettingspage.cpp:60 detailsviewsettingspage.cpp:81
-msgctxt "@option:radio Size"
+#, fuzzy
+#| msgctxt "@option:radio Size"
+#| msgid "Large"
+msgctxt "@option:radio Icon Size"
 msgid "Large"
 msgstr "Wiôldżi"
 
@@ -659,13 +668,19 @@ msgctxt "@title:window"
 msgid "Change Icon & Preview Size"
 msgstr "Zmieni ikònã ë miarã pòdzérkù"
 
-#: iconsizedialog.cpp:66 iconsizedialog.cpp:89
-msgctxt "@item:inrange Size"
+#: iconsizedialog.cpp:66
+#, fuzzy
+#| msgctxt "@option:radio Size"
+#| msgid "Small"
+msgctxt "@item:inrange Icon Size"
 msgid "Small"
 msgstr "Môłi"
 
-#: iconsizedialog.cpp:72 iconsizedialog.cpp:95
-msgctxt "@item:inrange Size"
+#: iconsizedialog.cpp:72
+#, fuzzy
+#| msgctxt "@option:radio Size"
+#| msgid "Large"
+msgctxt "@item:inrange Icon Size"
 msgid "Large"
 msgstr "Wiôldżi"
 
@@ -673,6 +688,22 @@ msgstr "Wiôldżi"
 msgctxt "@title:group"
 msgid "Preview Size"
 msgstr "Miara pòdzérkù"
+
+#: iconsizedialog.cpp:89
+#, fuzzy
+#| msgctxt "@option:radio Size"
+#| msgid "Small"
+msgctxt "@item:inrange Preview Size"
+msgid "Small"
+msgstr "Môłi"
+
+#: iconsizedialog.cpp:95
+#, fuzzy
+#| msgctxt "@option:radio Size"
+#| msgid "Large"
+msgctxt "@item:inrange Preview Size"
+msgid "Large"
+msgstr "Wiôldżi"
 
 #: iconsviewsettingspage.cpp:62
 msgctxt "@action:button"
@@ -901,8 +932,8 @@ msgid ""
 "This option controls the style of the view. Currently supported values "
 "include icons (0), details (1) and column (2) views."
 msgstr ""
-"Na òptacëjô kòntrolëje sztél wëzdrzatkù. Narô wspieróné wôrtnotë "
-"to wëzdrzatczi ikònów (0), detalów (1) ë kòlumn (2)"
+"Na òptacëjô kòntrolëje sztél wëzdrzatkù. Narô wspieróné wôrtnotë to "
+"wëzdrzatczi ikònów (0), detalów (1) ë kòlumn (2)"
 
 #. i18n: tag label
 #. i18n: file ./dolphin_directoryviewpropertysettings.kcfg line 27
@@ -918,7 +949,8 @@ msgctxt "@info:whatsthis"
 msgid ""
 "When this option is enabled, a preview of the file content is shown as icon."
 msgstr ""
-"Czej na òptacëjô je włączonô, pòdzérk zamkłoscë lopków je pòkôzóny jakno ikòna."
+"Czej na òptacëjô je włączonô, pòdzérk zamkłoscë lopków je pòkôzóny jakno "
+"ikòna."
 
 #. i18n: tag label
 #. i18n: file ./dolphin_directoryviewpropertysettings.kcfg line 33
@@ -1506,3 +1538,11 @@ msgstr "Detale"
 msgctxt "@title:tab"
 msgid "Column"
 msgstr "Kòlumna"
+
+#~ msgctxt "@item:inrange Size"
+#~ msgid "Small"
+#~ msgstr "Môłi"
+
+#~ msgctxt "@item:inrange Size"
+#~ msgid "Large"
+#~ msgstr "Wiôldżi"
