@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-27 05:49+0200\n"
+"POT-Creation-Date: 2007-07-29 05:09+0200\n"
 "PO-Revision-Date: 2007-07-27 20:44+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -53,9 +53,8 @@ msgstr "Strega"
 
 #: collection/sqlcollection/sqlmeta.cpp:155 covermanager.cpp:295
 #: covermanager.cpp:948 queuemanager.cpp:339 queuemanager.cpp:380
-#: queuemanager.cpp:408 queuemanager.cpp:453 MainWindow.cpp:708
-#: metabundle.cpp:1044 contextview/contextview.cpp:511
-#: contextview/items/LyricsItem.cpp:254 playlistbrowseritem.cpp:1024
+#: queuemanager.cpp:408 queuemanager.cpp:453 MainWindow.cpp:717
+#: metabundle.cpp:1044 playlistbrowseritem.cpp:1024
 #, qt-format
 msgid "%1 - %2"
 msgstr "%1 - %2"
@@ -63,6 +62,188 @@ msgstr "%1 - %2"
 #: collection/sqlcollection/SqlCollectionLocation.cpp:46
 msgid "Local Collection"
 msgstr "Môlowô kòlekcëjô"
+
+#: context/ContextView.cpp:273
+#, fuzzy, qt-format
+#| msgid "&Settings"
+msgid "%1 Settings..."
+msgstr "Ùs&towë"
+
+#: context/ContextView.cpp:281
+#, qt-format
+msgid "Close this %1"
+msgstr ""
+
+#: context/engines/lastfm/LastFmEngine.cpp:49
+#: context/engines/lastfm/LastFmEngine.cpp:67
+#: context/engines/lastfm/LastFmEngine.cpp:148
+#: context/applets/lastfmevents/LastFmEvents.cpp:83
+msgid "userevents"
+msgstr ""
+
+#: context/engines/lastfm/LastFmEngine.cpp:49
+#: context/engines/lastfm/LastFmEngine.cpp:70
+#: context/engines/lastfm/LastFmEngine.cpp:146
+#: context/applets/lastfmevents/LastFmEvents.cpp:82
+msgid "sysevents"
+msgstr ""
+
+#: context/engines/lastfm/LastFmEngine.cpp:49
+#: context/engines/lastfm/LastFmEngine.cpp:73
+#: context/engines/lastfm/LastFmEngine.cpp:147
+#: context/applets/lastfmevents/LastFmEvents.cpp:84
+msgid "friendevents"
+msgstr ""
+
+#: context/engines/lastfm/LastFmEngine.cpp:49
+#: context/engines/lastfm/LastFmEngine.cpp:76
+msgid "relatedartists"
+msgstr ""
+
+#: context/engines/lastfm/LastFmEngine.cpp:49
+#: context/engines/lastfm/LastFmEngine.cpp:79
+#, fuzzy
+#| msgid "Suggested Songs"
+msgid "suggestedsongs"
+msgstr "Sugerowóné frantówczi"
+
+#: context/engines/lastfm/LastFmEngine.cpp:146
+#: context/engines/lastfm/LastFmEngine.cpp:147
+#: context/engines/lastfm/LastFmEngine.cpp:148
+#, fuzzy
+#| msgid "Rename"
+msgid "username"
+msgstr "Zmieni miono"
+
+#: context/engines/wikipedia/WikipediaEngine.cpp:210
+msgid "Wikipedia Other Languages: <br>"
+msgstr ""
+
+#: context/ControlBox.cpp:131
+msgid "Hide Config Box"
+msgstr ""
+
+#: context/ControlBox.cpp:132
+msgid "Zoom In"
+msgstr ""
+
+#: context/ControlBox.cpp:133
+msgid "Zoom Out"
+msgstr ""
+
+#: context/ControlBox.cpp:155
+msgid "Lock Desktop"
+msgstr ""
+
+#: context/ControlBox.cpp:230
+msgid "Desktop Toolbox"
+msgstr ""
+
+#: context/plasma/packages.cpp:30
+msgid "Images"
+msgstr ""
+
+#: context/plasma/packages.cpp:35
+#, fuzzy
+#| msgid "Configure General Options"
+msgid "Configuration Definitions"
+msgstr "Kònfigùracëjô òglowëch òptacëjów"
+
+#: context/plasma/packages.cpp:36
+#, fuzzy
+#| msgid "Configure Collection"
+msgid "Configuration UI"
+msgstr "Kònfigùracëjô kòlekcëjów"
+
+#: context/plasma/packages.cpp:42
+msgid "Executable Scripts"
+msgstr ""
+
+#: context/plasma/packages.cpp:47
+msgid "Main Script File"
+msgstr ""
+
+#: context/plasma/packages.cpp:55
+msgid "Generic dialog background"
+msgstr ""
+
+#: context/plasma/packages.cpp:57
+msgid "Background for the log out dialog"
+msgstr ""
+
+#: context/plasma/packages.cpp:59
+msgid "Overlay for buttons on the log out dialog"
+msgstr ""
+
+#: context/plasma/packages.cpp:62
+msgid "Background image for plasmoids"
+msgstr ""
+
+#: context/plasma/packages.cpp:64
+msgid "Analog clock face"
+msgstr ""
+
+#: context/plasma/packages.cpp:66
+msgid "Back- and foregrounds for clickable icons"
+msgstr ""
+
+#: context/plasma/packages.cpp:68
+msgid "Background for graphing widgets"
+msgstr ""
+
+#: context/plasma/packages.cpp:70
+msgid "The desktop toolbox hotspot background"
+msgstr ""
+
+#: context/plasma/dataenginemanager.cpp:34
+#, fuzzy
+#| msgid "Engine"
+msgid "Null Engine"
+msgstr "Mòtór"
+
+#: context/plasma/applet.cpp:358
+msgid "Unknown Applet"
+msgstr ""
+
+#: context/plasma/applet.cpp:376 context/plasma/applet.cpp:730
+#: context/plasma/applet.cpp:731
+msgid "Misc"
+msgstr ""
+
+#: context/plasma/applet.cpp:447
+msgid "This object could not be created."
+msgstr ""
+
+#: context/plasma/applet.cpp:449
+#, qt-format
+msgid "This object could not be created for the following reason:<p>%1</p>"
+msgstr ""
+
+#: context/plasma/glapplet.cpp:73
+msgid "This system does not support OpenGL applets."
+msgstr ""
+
+#: context/plasma/glapplet.cpp:161
+msgid "Your machine doesn't support OpenGL applets."
+msgstr ""
+
+#: context/applets/lastfmevents/LastFmEvents.cpp:218
+#, fuzzy
+#| msgid "Configure last.fm Support"
+msgid "Configure Last.Fm Events"
+msgstr "Kònfigùracëjô wspiarca dlô last.fm"
+
+#: context/applets/lastfmevents/LastFmEvents.cpp:227
+msgid "Show Friend Events"
+msgstr ""
+
+#: context/applets/lastfmevents/LastFmEvents.cpp:229
+msgid "Show Recommended Events"
+msgstr ""
+
+#: context/applets/lastfmevents/LastFmEvents.cpp:231
+msgid "Show Your Future Events"
+msgstr ""
 
 #: deviceconfiguredialog.cpp:40
 #, qt-format
@@ -252,7 +433,6 @@ msgid ""
 msgstr ""
 
 #: configdialog/dialogs/OsdConfig.cpp:94 statistics.cpp:601
-#: contextview/items/LastFmItem.cpp:172
 #, qt-format
 msgid "Score: %1"
 msgstr "Pùnktë: %1"
@@ -307,7 +487,7 @@ msgstr "last.fm"
 msgid "Configure last.fm Support"
 msgstr "Kònfigùracëjô wspiarca dlô last.fm"
 
-#: configdialog/ConfigDialog.cpp:63 playlistbrowser.cpp:803 MainWindow.cpp:291
+#: configdialog/ConfigDialog.cpp:63 playlistbrowser.cpp:803 MainWindow.cpp:300
 msgid "Collection"
 msgstr "Kòlekcëje"
 
@@ -322,8 +502,8 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./newdynamic.ui line 136
 #: playlist.h:127 playlistbrowser.cpp:669 playlistbrowser.cpp:1946
-#: equalizersetup.cpp:396 MainWindow.cpp:687 rc.cpp:894 playlist.cpp:210
-#: playlist.cpp:2207 playlist.cpp:4548 playlist/PlaylistModel.h:131
+#: equalizersetup.cpp:396 MainWindow.cpp:696 rc.cpp:894 playlist.cpp:210
+#: playlist.cpp:2207 playlist.cpp:4548 playlist/PlaylistModel.h:137
 #: filebrowser.cpp:339
 msgid "Untitled"
 msgstr "Bez titla"
@@ -378,7 +558,7 @@ msgid "Random Mix"
 msgstr "Kawlowé miészanié"
 
 #: playlistbrowser.cpp:279 playlistselection.cpp:141
-#: contextview/items/LastFmItem.cpp:118 playlistbrowseritem.cpp:289
+#: playlistbrowseritem.cpp:289
 msgid "Suggested Songs"
 msgstr "Sugerowóné frantówczi"
 
@@ -410,11 +590,11 @@ msgstr "Radio last.fm"
 msgid "Global Tags"
 msgstr "Òglowi tadżi"
 
-#: playlistbrowser.cpp:577 MainWindow.cpp:1154 MainWindow.cpp:1162
+#: playlistbrowser.cpp:577 MainWindow.cpp:1157 MainWindow.cpp:1165
 msgid "Neighbor Radio"
 msgstr "Sąsedczé radio"
 
-#: playlistbrowser.cpp:583 MainWindow.cpp:1153 MainWindow.cpp:1161
+#: playlistbrowser.cpp:583 MainWindow.cpp:1156 MainWindow.cpp:1164
 msgid "Personal Radio"
 msgstr "Swòjé radio"
 
@@ -430,8 +610,7 @@ msgstr "Dodôj radio last.fm"
 #, qt-format
 msgid ""
 "A Smart Playlist named \"%1\" already exists. Do you want to overwrite it?"
-msgstr ""
-"Inteligentnô lësta grania \"%1\" ju je. Czë chcesz ją nadpisac?"
+msgstr "Inteligentnô lësta grania \"%1\" ju je. Czë chcesz ją nadpisac?"
 
 #: playlistbrowser.cpp:681 playlistbrowser.cpp:3100
 msgid "Overwrite Playlist?"
@@ -546,8 +725,7 @@ msgid ""
 "<p>You have selected 1 podcast episode to be <b>irreversibly</b> deleted. "
 msgid_plural ""
 "<p>You have selected %1 podcast episodes to be <b>irreversibly</b> deleted. "
-msgstr[0] ""
-"Môsz wëbróné 1 òdcynk podcasta do <b>nieòdwracalnégò<b> rëmniãcô."
+msgstr[0] "Môsz wëbróné 1 òdcynk podcasta do <b>nieòdwracalnégò<b> rëmniãcô."
 msgstr[1] ""
 "Môsz wëbróné %1 òdcynczi podcasta do <b>nieòdwracalnégò<b> rëmniãcô."
 msgstr[2] ""
@@ -555,8 +733,8 @@ msgstr[2] ""
 
 #: playlistbrowser.cpp:1629 playlistbrowser.cpp:1636 playlistbrowser.cpp:1640
 #: playlistbrowser.cpp:2576 mediadevice/mtp/mtpmediadevice.cpp:1175
-#: mediadevice/ipod/ipodmediadevice.cpp:1270 MainWindow.cpp:294
-#: MainWindow.cpp:296
+#: mediadevice/ipod/ipodmediadevice.cpp:1270 MainWindow.cpp:303
+#: MainWindow.cpp:305
 msgid "Playlists"
 msgstr ""
 
@@ -766,7 +944,7 @@ msgstr ""
 #: metabundle.cpp:125 collectionbrowser/CollectionTreeItemModelBase.cpp:410
 #: rc.cpp:464 smartplaylisteditor.cpp:174 smartplaylisteditor.cpp:188
 #: transferdialog.cpp:86 playlist/PlaylistHeader.cpp:33
-#: playlist/PlaylistModel.cpp:218 playlistbrowseritem.cpp:3065
+#: playlist/PlaylistModel.cpp:221 playlistbrowseritem.cpp:3065
 #: playlistbrowseritem.cpp:3296
 msgid "Album"
 msgstr ""
@@ -777,43 +955,43 @@ msgstr ""
 #: collectionbrowser/CollectionTreeItemModelBase.cpp:411 rc.cpp:461
 #: smartplaylisteditor.cpp:174 smartplaylisteditor.cpp:188
 #: transferdialog.cpp:85 playlist/PlaylistHeader.cpp:33
-#: playlist/PlaylistModel.cpp:214 playlistbrowseritem.cpp:3045
+#: playlist/PlaylistModel.cpp:217 playlistbrowseritem.cpp:3045
 #: playlistbrowseritem.cpp:3292
 msgid "Artist"
 msgstr ""
 
 #: editfilterdialog.cpp:132 metabundle.cpp:134 smartplaylisteditor.cpp:178
-#: playlist/PlaylistModel.cpp:227
+#: playlist/PlaylistModel.cpp:230
 msgid "Bitrate"
 msgstr ""
 
 #: editfilterdialog.cpp:134 metabundle.cpp:128 smartplaylisteditor.cpp:178
-#: playlist/PlaylistModel.cpp:221
+#: playlist/PlaylistModel.cpp:224
 msgid "BPM"
 msgstr ""
 
 #: editfilterdialog.cpp:136 metabundle.cpp:130 smartplaylisteditor.cpp:175
-#: playlist/PlaylistModel.cpp:223
+#: playlist/PlaylistModel.cpp:226
 msgid "Comment"
 msgstr "Dopòwiesc"
 
 #: editfilterdialog.cpp:138 metabundle.cpp:123
 #: collectionbrowser/CollectionTreeItemModelBase.cpp:412
 #: smartplaylisteditor.cpp:174 smartplaylisteditor.cpp:188
-#: playlist/PlaylistModel.cpp:216 playlistbrowseritem.cpp:3055
+#: playlist/PlaylistModel.cpp:219 playlistbrowseritem.cpp:3055
 #: playlistbrowseritem.cpp:3294
 msgid "Composer"
 msgstr ""
 
-#: editfilterdialog.cpp:140 metabundle.cpp:131 playlist/PlaylistModel.cpp:224
+#: editfilterdialog.cpp:140 metabundle.cpp:131 playlist/PlaylistModel.cpp:227
 msgid "Directory"
 msgstr ""
 
-#: editfilterdialog.cpp:142 metabundle.cpp:126 playlist/PlaylistModel.cpp:219
+#: editfilterdialog.cpp:142 metabundle.cpp:126 playlist/PlaylistModel.cpp:222
 msgid "Disc Number"
 msgstr ""
 
-#: editfilterdialog.cpp:144 metabundle.cpp:119 playlist/PlaylistModel.cpp:212
+#: editfilterdialog.cpp:144 metabundle.cpp:119 playlist/PlaylistModel.cpp:215
 msgid "Filename"
 msgstr ""
 
@@ -828,13 +1006,13 @@ msgstr ""
 #: editfilterdialog.cpp:150 metabundle.cpp:129
 #: collectionbrowser/CollectionTreeItemModelBase.cpp:413
 #: smartplaylisteditor.cpp:174 smartplaylisteditor.cpp:188
-#: transferdialog.cpp:87 playlist/PlaylistModel.cpp:222
+#: transferdialog.cpp:87 playlist/PlaylistModel.cpp:225
 #: playlistbrowseritem.cpp:3035 playlistbrowseritem.cpp:3290
 msgid "Genre"
 msgstr ""
 
 #: editfilterdialog.cpp:152 metabundle.cpp:133 smartplaylisteditor.cpp:174
-#: playlist/PlaylistHeader.cpp:33 playlist/PlaylistModel.cpp:226
+#: playlist/PlaylistHeader.cpp:33 playlist/PlaylistModel.cpp:229
 #: playlistbrowseritem.cpp:831
 msgid "Length"
 msgstr ""
@@ -846,44 +1024,43 @@ msgid "Label"
 msgstr ""
 
 #: editfilterdialog.cpp:156 scriptmanager.cpp:171 tagdialog.cpp:428
-#: contextview/items/LyricsItem.cpp:128 contextview/items/LyricsItem.cpp:284
 msgid "Lyrics"
 msgstr ""
 
-#: editfilterdialog.cpp:158 metabundle.cpp:138 playlist/PlaylistModel.cpp:231
+#: editfilterdialog.cpp:158 metabundle.cpp:138 playlist/PlaylistModel.cpp:234
 msgid "Play Count"
 msgstr ""
 
 #: editfilterdialog.cpp:162 metabundle.cpp:137 smartplaylisteditor.cpp:176
-#: playlist/PlaylistModel.cpp:230
+#: playlist/PlaylistModel.cpp:233
 msgid "Rating"
 msgstr ""
 
-#: editfilterdialog.cpp:165 metabundle.cpp:135 playlist/PlaylistModel.cpp:228
+#: editfilterdialog.cpp:165 metabundle.cpp:135 playlist/PlaylistModel.cpp:231
 msgid "Sample Rate"
 msgstr ""
 
 #: editfilterdialog.cpp:169 scriptmanager.cpp:172 scriptmanager.cpp:816
 #: metabundle.cpp:136 smartplaylisteditor.cpp:176
-#: playlist/PlaylistModel.cpp:229
+#: playlist/PlaylistModel.cpp:232
 msgid "Score"
 msgstr ""
 
-#: editfilterdialog.cpp:172 metabundle.cpp:141 playlist/PlaylistModel.cpp:234
+#: editfilterdialog.cpp:172 metabundle.cpp:141 playlist/PlaylistModel.cpp:237
 msgid "File Size"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./trackpickerdialogbase.ui line 92
 #: editfilterdialog.cpp:174 metabundle.cpp:120 rc.cpp:458
-#: smartplaylisteditor.cpp:174 playlist/PlaylistModel.cpp:213
+#: smartplaylisteditor.cpp:174 playlist/PlaylistModel.cpp:216
 msgid "Title"
 msgstr "Titel"
 
 #. i18n: tag string
 #. i18n: file ./trackpickerdialogbase.ui line 125
 #: editfilterdialog.cpp:176 metabundle.cpp:127 rc.cpp:467
-#: playlist/PlaylistModel.cpp:220
+#: playlist/PlaylistModel.cpp:223
 msgid "Track"
 msgstr ""
 
@@ -892,7 +1069,7 @@ msgstr ""
 #: editfilterdialog.cpp:178 metabundle.cpp:124
 #: collectionbrowser/CollectionTreeItemModelBase.cpp:414 rc.cpp:470
 #: smartplaylisteditor.cpp:175 smartplaylisteditor.cpp:188
-#: smartplaylisteditor.cpp:906 playlist/PlaylistModel.cpp:217
+#: smartplaylisteditor.cpp:906 playlist/PlaylistModel.cpp:220
 #: playlistbrowseritem.cpp:3075 playlistbrowseritem.cpp:3298
 msgid "Year"
 msgstr ""
@@ -1083,7 +1260,7 @@ msgstr ""
 msgid "No MP3 Support"
 msgstr ""
 
-#: scriptmanager.cpp:150 MainWindow.cpp:1085
+#: scriptmanager.cpp:150 MainWindow.cpp:1094
 msgid "Script Manager"
 msgstr ""
 
@@ -1403,7 +1580,7 @@ msgstr "..."
 #: statistics.cpp:483 statistics.cpp:498 statistics.cpp:500 statistics.cpp:537
 #: statistics.cpp:565 statistics.cpp:578 statistics.cpp:579
 #: collectiondb.cpp:2369 collectiondb.cpp:2388 collectiondb.cpp:2406
-#: collectiondb.cpp:2427 collectiondb.cpp:2445 contextview/contextview.cpp:534
+#: collectiondb.cpp:2427 collectiondb.cpp:2445
 msgid "Unknown"
 msgstr ""
 
@@ -1460,12 +1637,9 @@ msgstr ""
 msgid "Are you sure you want to remove this cover from the Collection?"
 msgid_plural ""
 "Are you sure you want to delete these %1 covers from the Collection?"
-msgstr[0] ""
-"Na gwës chcesz rëmnąc nã òbkłôdkã z kòlekcëji?"
-msgstr[1] ""
-"Na gwës chcesz rëmnąc ne %1 òbkłôdczi z kòlekcëji?"
-msgstr[2] ""
-"Na gwës chcesz rëmnąc nych %1 òbkłôdków z kòlekcëji?"
+msgstr[0] "Na gwës chcesz rëmnąc nã òbkłôdkã z kòlekcëji?"
+msgstr[1] "Na gwës chcesz rëmnąc ne %1 òbkłôdczi z kòlekcëji?"
+msgstr[2] "Na gwës chcesz rëmnąc nych %1 òbkłôdków z kòlekcëji?"
 
 #: covermanager.cpp:813
 msgid "Finished."
@@ -1625,7 +1799,7 @@ msgstr ""
 msgid "C&over Manager"
 msgstr ""
 
-#: actionclasses.cpp:132 MainWindow.cpp:1283 analyzers/blockanalyzer.cpp:452
+#: actionclasses.cpp:132 MainWindow.cpp:1285 analyzers/blockanalyzer.cpp:452
 #: widgets/analyzerwidget.cpp:64
 msgid "&Visualizations"
 msgstr ""
@@ -1634,7 +1808,7 @@ msgstr ""
 msgid "E&qualizer"
 msgstr ""
 
-#: actionclasses.cpp:141 MainWindow.cpp:1290
+#: actionclasses.cpp:141 MainWindow.cpp:1292
 msgid "&Rescan Collection"
 msgstr ""
 
@@ -1646,11 +1820,11 @@ msgstr ""
 msgid "Play/Pause"
 msgstr ""
 
-#: actionclasses.cpp:239 actionclasses.cpp:244 MainWindow.cpp:1181 app.cpp:432
+#: actionclasses.cpp:239 actionclasses.cpp:244 MainWindow.cpp:1184 app.cpp:432
 msgid "Pause"
 msgstr ""
 
-#: actionclasses.cpp:249 MainWindow.cpp:1175 app.cpp:427
+#: actionclasses.cpp:249 MainWindow.cpp:1178 app.cpp:427
 msgid "Play"
 msgstr ""
 
@@ -1706,7 +1880,7 @@ msgstr ""
 msgid "&Album"
 msgstr ""
 
-#: actionclasses.cpp:394 MainWindow.cpp:1245
+#: actionclasses.cpp:394 MainWindow.cpp:1248
 msgid "&Playlist"
 msgstr ""
 
@@ -2202,7 +2376,7 @@ msgid ""
 "tracks within the manager to resort queue orders.</div>"
 msgstr ""
 
-#: queuemanager.cpp:255 MainWindow.cpp:1091
+#: queuemanager.cpp:255 MainWindow.cpp:1100
 msgid "Queue Manager"
 msgstr ""
 
@@ -2460,7 +2634,7 @@ msgstr ""
 msgid "Tags"
 msgstr ""
 
-#: tagdialog.cpp:429 MainWindow.cpp:1117
+#: tagdialog.cpp:429 MainWindow.cpp:1120
 msgid "Statistics"
 msgstr ""
 
@@ -3339,157 +3513,153 @@ msgstr ""
 msgid "Could not read Rio Karma tracks"
 msgstr ""
 
-#: MainWindow.cpp:300
+#: MainWindow.cpp:309
 msgid "Files"
 msgstr ""
 
-#: MainWindow.cpp:312
+#: MainWindow.cpp:321
 msgid "Internet"
 msgstr ""
 
-#: MainWindow.cpp:331 mediumpluginmanager.cpp:79
+#: MainWindow.cpp:340 mediumpluginmanager.cpp:79
 msgid "Devices"
 msgstr ""
 
-#: MainWindow.cpp:741
+#: MainWindow.cpp:750
 msgid "Play Media (Files or URLs)"
 msgstr ""
 
-#: MainWindow.cpp:741
+#: MainWindow.cpp:750
 msgid "Add Media (Files or URLs)"
 msgstr ""
 
-#: MainWindow.cpp:760
+#: MainWindow.cpp:769
 msgid "Add Stream"
 msgstr ""
 
-#: MainWindow.cpp:760 playlistbrowseritem.cpp:1168
+#: MainWindow.cpp:769 playlistbrowseritem.cpp:1168
 #: playlistbrowseritem.cpp:2093 playlistbrowseritem.cpp:2742
 msgid "URL"
 msgstr "URL"
 
-#: MainWindow.cpp:916 MainWindow.cpp:1306
+#: MainWindow.cpp:925 MainWindow.cpp:1308
 msgid "Hide Toolbar"
 msgstr ""
 
-#: MainWindow.cpp:916 MainWindow.cpp:1306
+#: MainWindow.cpp:925 MainWindow.cpp:1308
 msgid "Show Toolbar"
 msgstr ""
 
-#: MainWindow.cpp:1008
+#: MainWindow.cpp:1017
 msgid "Media Device"
 msgstr ""
 
-#: MainWindow.cpp:1037
+#: MainWindow.cpp:1046
 msgid "&Add Media..."
 msgstr ""
 
-#: MainWindow.cpp:1043
+#: MainWindow.cpp:1052
 msgctxt "clear playlist"
 msgid "&Clear"
 msgstr ""
 
-#: MainWindow.cpp:1049
+#: MainWindow.cpp:1058
 msgid "&Add Stream..."
 msgstr ""
 
-#: MainWindow.cpp:1055
+#: MainWindow.cpp:1064
 msgid "&Save Playlist As..."
 msgstr ""
 
-#: MainWindow.cpp:1059
+#: MainWindow.cpp:1068
 msgid "Burn Current Playlist"
 msgstr ""
 
-#: MainWindow.cpp:1066
+#: MainWindow.cpp:1075
 msgid "Update Podcasts"
 msgstr ""
 
-#: MainWindow.cpp:1073
+#: MainWindow.cpp:1082
 msgid "Play Media..."
 msgstr ""
 
-#: MainWindow.cpp:1079
+#: MainWindow.cpp:1088
 msgid "Play Audio CD"
 msgstr ""
 
-#: MainWindow.cpp:1097
-msgid "Context Manager"
-msgstr ""
-
-#: MainWindow.cpp:1103
+#: MainWindow.cpp:1106
 msgid "&Seek Forward"
 msgstr ""
 
-#: MainWindow.cpp:1110
+#: MainWindow.cpp:1113
 msgid "&Seek Backward"
 msgstr ""
 
-#: MainWindow.cpp:1123
+#: MainWindow.cpp:1126
 msgid "Update Collection"
 msgstr ""
 
-#: MainWindow.cpp:1134 MainWindow.cpp:1143
+#: MainWindow.cpp:1137 MainWindow.cpp:1146
 msgid "Global Tag Radio"
 msgstr ""
 
-#: MainWindow.cpp:1151
+#: MainWindow.cpp:1154
 msgid "Play las&t.fm Stream"
 msgstr ""
 
-#: MainWindow.cpp:1155 MainWindow.cpp:1163
+#: MainWindow.cpp:1158 MainWindow.cpp:1166
 msgid "Custom Station"
 msgstr ""
 
-#: MainWindow.cpp:1159
+#: MainWindow.cpp:1162
 msgid "Add las&t.fm Stream"
 msgstr ""
 
-#: MainWindow.cpp:1169 app.cpp:456
+#: MainWindow.cpp:1172 app.cpp:456
 msgid "Previous Track"
 msgstr ""
 
-#: MainWindow.cpp:1187 app.cpp:451
+#: MainWindow.cpp:1190 app.cpp:451
 msgid "Next Track"
 msgstr ""
 
-#: MainWindow.cpp:1191
+#: MainWindow.cpp:1194
 msgid "Toggle Focus"
 msgstr ""
 
-#: MainWindow.cpp:1227
+#: MainWindow.cpp:1230
 msgid "&Amarok"
 msgstr ""
 
-#: MainWindow.cpp:1268
+#: MainWindow.cpp:1271
 msgid "&Mode"
 msgstr ""
 
-#: MainWindow.cpp:1279
+#: MainWindow.cpp:1282
 msgid "&Tools"
 msgstr "&Nôrzãdza"
 
-#: MainWindow.cpp:1280
+#: MainWindow.cpp:1283
 msgid "&Cover Manager"
 msgstr ""
 
-#: MainWindow.cpp:1285 widgets/sliderwidget.cpp:437
+#: MainWindow.cpp:1287 widgets/sliderwidget.cpp:437
 msgid "&Equalizer"
 msgstr ""
 
-#: MainWindow.cpp:1303
+#: MainWindow.cpp:1305
 msgid "&Settings"
 msgstr "Ùs&towë"
 
-#: MainWindow.cpp:1350
+#: MainWindow.cpp:1352
 msgid "Edit"
 msgstr ""
 
-#: MainWindow.cpp:1353 playlist.cpp:3770
+#: MainWindow.cpp:1355 playlist.cpp:3770
 msgid "Repopulate"
 msgstr ""
 
-#: MainWindow.cpp:1356
+#: MainWindow.cpp:1358
 msgid "Turn Off"
 msgstr ""
 
@@ -5323,21 +5493,21 @@ msgstr ""
 msgid "Data Mode"
 msgstr ""
 
-#: metabundle.cpp:122 playlist/PlaylistModel.cpp:215
+#: metabundle.cpp:122 playlist/PlaylistModel.cpp:218
 msgid "Album Artist"
 msgstr ""
 
-#: metabundle.cpp:132 playlist/PlaylistModel.cpp:225
+#: metabundle.cpp:132 playlist/PlaylistModel.cpp:228
 #: playlistbrowseritem.cpp:2741
 msgid "Type"
 msgstr ""
 
-#: metabundle.cpp:139 playlist/PlaylistModel.cpp:232
+#: metabundle.cpp:139 playlist/PlaylistModel.cpp:235
 msgctxt "Column name"
 msgid "Last Played"
 msgstr ""
 
-#: metabundle.cpp:140 playlist/PlaylistModel.cpp:233
+#: metabundle.cpp:140 playlist/PlaylistModel.cpp:236
 msgid "Mood"
 msgstr ""
 
@@ -5456,7 +5626,7 @@ msgstr ""
 msgid "Favorite"
 msgstr ""
 
-#: metabundle.cpp:1251 contextview/items/LastFmItem.cpp:212
+#: metabundle.cpp:1251
 msgid "Not rated"
 msgstr ""
 
@@ -5676,7 +5846,7 @@ msgstr ""
 msgid "Score: %1 Rating: %2"
 msgstr ""
 
-#: statistics.cpp:603 contextview/items/LastFmItem.cpp:184
+#: statistics.cpp:603
 #, qt-format
 msgid "Rating: %1"
 msgstr ""
@@ -10040,11 +10210,11 @@ msgstr ""
 msgid "&Stop Playing After Track"
 msgstr ""
 
-#: playlist.cpp:493 playlist/PlaylistModel.cpp:279
+#: playlist.cpp:493 playlist/PlaylistModel.cpp:295
 msgid "Attempted to insert nothing into playlist."
 msgstr ""
 
-#: playlist.cpp:566 playlist/PlaylistModel.cpp:295
+#: playlist.cpp:566 playlist/PlaylistModel.cpp:316
 #, qt-format
 msgid "One track was already in the playlist, so it was not added."
 msgid_plural "%1 tracks were already in the playlist, so they were not added."
@@ -10470,149 +10640,6 @@ msgstr ""
 
 #: app.cpp:1032
 msgid "Moving files to trash"
-msgstr ""
-
-#: contextview/contextview.cpp:515
-#, qt-format
-msgid "Albums By %1"
-msgstr ""
-
-#: contextview/items/LyricsItem.cpp:110
-msgid "Sorry, no lyrics script running."
-msgstr ""
-
-#: contextview/items/LyricsItem.cpp:112
-msgid "Available Lyrics Scripts:"
-msgstr ""
-
-#: contextview/items/LyricsItem.cpp:116
-msgid ""
-"Click on one of the scripts to run it, or use the Script Manager, to be able "
-"to see all the scripts, and download new ones from the Web."
-msgstr ""
-
-#: contextview/items/LyricsItem.cpp:120
-msgid "Run Script Manager..."
-msgstr ""
-
-#: contextview/items/LyricsItem.cpp:128 contextview/items/LyricsItem.cpp:284
-msgid "Cached Lyrics"
-msgstr ""
-
-#: contextview/items/LyricsItem.cpp:163
-msgid "Fetching Lyrics"
-msgstr ""
-
-#: contextview/items/LyricsItem.cpp:167
-msgid "Fetching Lyrics..."
-msgstr ""
-
-#: contextview/items/LyricsItem.cpp:212
-#: contextview/items/WikipediaItem.cpp:281
-msgid "Error"
-msgstr ""
-
-#: contextview/items/LyricsItem.cpp:216
-msgid "Lyrics could not be retrieved because the server was not reachable."
-msgstr ""
-
-#: contextview/items/LyricsItem.cpp:244
-msgid "Lyrics for track not found"
-msgstr ""
-
-#: contextview/items/LyricsItem.cpp:248
-msgid "Lyrics for track not found, here are some suggestions:"
-msgstr ""
-
-#: contextview/items/LyricsItem.cpp:273
-#, qt-format
-msgid "Powered by %1 (%2)"
-msgstr ""
-
-#: contextview/items/LastFmEventBox.cpp:86
-msgid "You are attending no events in the future!"
-msgstr ""
-
-#: contextview/items/ContextItemManagerWidget.cpp:110
-msgid "Context Item Manager"
-msgstr ""
-
-#: contextview/items/ContextItemManagerWidget.cpp:125
-msgid "Move Context Item up"
-msgstr ""
-
-#: contextview/items/ContextItemManagerWidget.cpp:126
-msgid "Move Context Item down"
-msgstr ""
-
-#: contextview/items/ContextItemManagerWidget.cpp:127
-msgid "Toggle Context Item"
-msgstr ""
-
-#: contextview/items/LastFmEventItem.cpp:78
-#: contextview/items/LastFmEventItem.cpp:175
-#: contextview/items/LastFmEventItem.cpp:274
-msgid ""
-"You have enabled Last.Fm Events in the Context View, but have not entered "
-"your Last.Fm username in the Amarok config.</body></html>"
-msgstr ""
-
-#: contextview/items/LastFmEventItem.cpp:95
-#: contextview/items/LastFmEventItem.cpp:193
-#: contextview/items/LastFmEventItem.cpp:290
-msgid "Fetching Last.Fm Event information..."
-msgstr ""
-
-#: contextview/items/LastFmEventItem.cpp:105
-msgid "Fetching Friend Events"
-msgstr ""
-
-#: contextview/items/LastFmEventItem.cpp:127
-#: contextview/items/LastFmEventItem.cpp:225
-#: contextview/items/LastFmEventItem.cpp:322
-msgid ""
-"Event information could not be retrieved because the server was not "
-"reachable."
-msgstr ""
-
-#: contextview/items/LastFmEventItem.cpp:203
-msgid "Fetching Recommended Events"
-msgstr ""
-
-#: contextview/items/LastFmEventItem.cpp:300
-msgid "Fetching Your Events"
-msgstr ""
-
-#: contextview/items/WikipediaItem.cpp:151
-msgid "Wikipedia"
-msgstr ""
-
-#: contextview/items/WikipediaItem.cpp:155
-#: contextview/items/WikipediaItem.cpp:232
-msgid "Fetching Wikipedia Information"
-msgstr ""
-
-#: contextview/items/WikipediaItem.cpp:285
-msgid ""
-"Artist information could not be retrieved because the server was not "
-"reachable."
-msgstr ""
-
-#: contextview/items/WikipediaItem.cpp:405
-msgid "Wikipedia Information"
-msgstr ""
-
-#: contextview/items/WikipediaItem.cpp:419
-msgid "Wikipedia Other Languages"
-msgstr ""
-
-#: contextview/items/LastFmItem.cpp:72
-#, qt-format
-msgid "Related Artists to %1"
-msgstr ""
-
-#: contextview/items/LastFmItem.cpp:130
-msgid "&#xa0;&#8211; "
 msgstr ""
 
 #: servicebrowser/magnatunestore/magnatuneinfoparser.cpp:42
@@ -11394,8 +11421,7 @@ msgstr "Podcast zwrócëł zmiłkòwé pòdôwczi"
 
 #: playlistbrowseritem.cpp:1815
 msgid "Sorry, only RSS 2.0 or Atom feeds for podcasts!"
-msgstr "Żôl, le dlô podcastów mòżesz brëkòwac blós pòwrózczi RSS 2.0 abò "
-"Atom!"
+msgstr "Żôl, le dlô podcastów mòżesz brëkòwac blós pòwrózczi RSS 2.0 abò Atom!"
 
 #: playlistbrowseritem.cpp:1996
 msgid "New podcasts have been retrieved!"
