@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdmconfig\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-31 05:13+0200\n"
+"POT-Creation-Date: 2007-08-01 04:46+0200\n"
 "PO-Revision-Date: 2007-06-30 22:01+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -32,16 +32,10 @@ msgstr ""
 "lopkù kdmrc (zwëkòwò skriptã tim je Xsetup)."
 
 #: kdm-conv.cpp:48
-#, fuzzy
-#| msgid ""
-#| "<qt><center><font color=red><big><b>Attention<br>Read help</b></big></"
-#| "font></center></qt>"
 msgid ""
-"<qt><center><font color=red><big><b>Attention<br/>Read help</b></big></"
-"font></center></qt>"
+"<big style='color:red;text-align:center;font-weight:bold;'>Attention<br/"
+">Read help</big>"
 msgstr ""
-"<qt><center><font color=red><big><b>Bôczënk!<br>Proszã przeczëtac pòmòc!</"
-"b></big></font></center></qt>"
 
 #: kdm-conv.cpp:53
 msgid "Enable Au&to-Login"
@@ -200,14 +194,14 @@ msgstr "&Przëwitanié:"
 #| "operating system's version</li><li>%m -> the machine (hardware) type</"
 #| "li><li>%% -> a single %</li></ul>"
 msgid ""
-"This is the \"headline\" for KDM's login window. You may want to put some "
-"nice greeting or information about the operating system here.<p>KDM will "
-"substitute the following character pairs with the respective contents:<br/"
-"><ul><li>%d -> current display</li><li>%h -> host name, possibly with domain "
-"name</li><li>%n -> node name, most probably the host name without domain "
-"name</li><li>%s -> the operating system</li><li>%r -> the operating system's "
-"version</li><li>%m -> the machine (hardware) type</li><li>%% -> a single %</"
-"li></ul>"
+"<p>This is the \"headline\" for KDM's login window. You may want to put some "
+"nice greeting or information about the operating system here.</p><p>KDM will "
+"substitute the following character pairs with the respective contents:</"
+"p><ul><li>%d -> current display</li><li>%h -> host name, possibly with "
+"domain name</li><li>%n -> node name, most probably the host name without "
+"domain name</li><li>%s -> the operating system</li><li>%r -> the operating "
+"system's version</li><li>%m -> the machine (hardware) type</li><li>%% -> a "
+"single %</li></ul>"
 msgstr ""
 "To je \"titel\" òkna logòwaniô KDE. Mòże tu wpisac np. przëwitanié abò "
 "wëdowiédzã ò òperacjowi systemie. <p>KDM zastãpi zôstné parë céchów gwësna "
@@ -217,34 +211,34 @@ msgstr ""
 "<li>%m--> ôrt kòmpùtra (procesora)</li> <li>%%--> pòjedińczy céch %</li> </"
 "ul>"
 
-#: kdm-dlg.cpp:93
+#: kdm-dlg.cpp:94
 msgid "Logo area:"
 msgstr "Logò:"
 
-#: kdm-dlg.cpp:98
+#: kdm-dlg.cpp:99
 msgctxt "logo area"
 msgid "&None"
 msgstr "&Felënk"
 
-#: kdm-dlg.cpp:99
+#: kdm-dlg.cpp:100
 msgid "Show cloc&k"
 msgstr "Pòkôżë &zédżer"
 
-#: kdm-dlg.cpp:100
+#: kdm-dlg.cpp:101
 msgid "Sho&w logo"
 msgstr "Pòkôżë &logò"
 
-#: kdm-dlg.cpp:111
+#: kdm-dlg.cpp:112
 msgid ""
 "You can choose to display a custom logo (see below), a clock or no logo at "
 "all."
 msgstr "Mòżesz wëbrac swój òbrôzk (patrzë niżi), zédżer abò nic."
 
-#: kdm-dlg.cpp:117
+#: kdm-dlg.cpp:118
 msgid "&Logo:"
 msgstr "&Logò:"
 
-#: kdm-dlg.cpp:127
+#: kdm-dlg.cpp:128
 msgid ""
 "Click here to choose an image that KDM will display. You can also drag and "
 "drop an image onto this button (e.g. from Konqueror)."
@@ -252,11 +246,11 @@ msgstr ""
 "Wëbiérzë òbrôzk wëskrzëniwóny przez KDM. Mòżesz téż przcygnąc òbrôzk z jiny "
 "programë (np. Konquerora) ë wlëmic tuwò."
 
-#: kdm-dlg.cpp:138
+#: kdm-dlg.cpp:139
 msgid "Dialog &position:"
 msgstr "&Pòłożenié òkna dialogòwégò:"
 
-#: kdm-dlg.cpp:247
+#: kdm-dlg.cpp:248
 #, qt-format
 msgid ""
 "There was an error loading the image:\n"
@@ -267,12 +261,12 @@ msgstr ""
 "%1\n"
 "Òbrôzk nie òstanié zapisóny."
 
-#: kdm-dlg.cpp:281 kdm-dlg.cpp:309
+#: kdm-dlg.cpp:282 kdm-dlg.cpp:310
 #, c-format
 msgid "Welcome to %s at %n"
 msgstr "Witómë na kòmpùtrzë %s w %n"
 
-#: kdm-dlg.cpp:318
+#: kdm-dlg.cpp:319
 msgid ""
 "<h1>KDM - Dialog</h1> Here you can configure the basic appearance of the KDM "
 "login manager in dialog mode, i.e. a greeting string, an icon etc."
@@ -289,8 +283,8 @@ msgid "Enable this if you would like to use a themed Login Manager."
 msgstr "Włączë to, czej chcesz brëkòwac témòwónégò menadżera logòwaniô."
 
 #: kdm-gen.cpp:63 kdm-gen.cpp:76 kdm-users.cpp:99
-msgid "<default>"
-msgstr "<domëszlny>"
+msgid "<placeholder>default</placeholder>"
+msgstr ""
 
 #: kdm-gen.cpp:65
 msgid "GUI s&tyle:"
@@ -925,3 +919,17 @@ msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
+
+#, fuzzy
+#~| msgid ""
+#~| "<qt><center><font color=red><big><b>Attention<br>Read help</b></big></"
+#~| "font></center></qt>"
+#~ msgid ""
+#~ "<qt><center><font color=red><big><b>Attention<br/>Read help</b></big></"
+#~ "font></center></qt>"
+#~ msgstr ""
+#~ "<qt><center><font color=red><big><b>Bôczënk!<br>Proszã przeczëtac pòmòc!</"
+#~ "b></big></font></center></qt>"
+
+#~ msgid "<default>"
+#~ msgstr "<domëszlny>"
