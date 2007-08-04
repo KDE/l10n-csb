@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-03 05:33+0200\n"
+"POT-Creation-Date: 2007-08-04 05:38+0200\n"
 "PO-Revision-Date: 2007-07-27 20:44+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -77,21 +77,21 @@ msgstr ""
 #: context/engines/lastfm/LastFmEngine.cpp:50
 #: context/engines/lastfm/LastFmEngine.cpp:68
 #: context/engines/lastfm/LastFmEngine.cpp:149
-#: context/applets/lastfmevents/LastFmEvents.cpp:82
+#: context/applets/lastfmevents/LastFmEvents.cpp:80
 msgid "userevents"
 msgstr ""
 
 #: context/engines/lastfm/LastFmEngine.cpp:50
 #: context/engines/lastfm/LastFmEngine.cpp:71
 #: context/engines/lastfm/LastFmEngine.cpp:147
-#: context/applets/lastfmevents/LastFmEvents.cpp:81
+#: context/applets/lastfmevents/LastFmEvents.cpp:79
 msgid "sysevents"
 msgstr ""
 
 #: context/engines/lastfm/LastFmEngine.cpp:50
 #: context/engines/lastfm/LastFmEngine.cpp:74
 #: context/engines/lastfm/LastFmEngine.cpp:148
-#: context/applets/lastfmevents/LastFmEvents.cpp:83
+#: context/applets/lastfmevents/LastFmEvents.cpp:81
 msgid "friendevents"
 msgstr ""
 
@@ -115,7 +115,7 @@ msgstr "Sugerowóné frantówczi"
 msgid "username"
 msgstr "Zmieni miono"
 
-#: context/engines/wikipedia/WikipediaEngine.cpp:213
+#: context/engines/wikipedia/WikipediaEngine.cpp:214
 msgid "Wikipedia Other Languages: <br>"
 msgstr ""
 
@@ -215,8 +215,8 @@ msgstr "Mòtór"
 msgid "Unknown Applet"
 msgstr ""
 
-#: context/plasma/applet.cpp:413 context/plasma/applet.cpp:786
-#: context/plasma/applet.cpp:787
+#: context/plasma/applet.cpp:413 context/plasma/applet.cpp:818
+#: context/plasma/applet.cpp:819
 msgid "Misc"
 msgstr ""
 
@@ -229,13 +229,19 @@ msgstr ""
 msgid "This object could not be created for the following reason:<p>%1</p>"
 msgstr ""
 
-#: context/plasma/applet.cpp:716 context/plasma/applet.cpp:730
+#: context/plasma/applet.cpp:537
+#, fuzzy
+#| msgid "&Configure..."
+msgid "Configure..."
+msgstr "&Kònfigùracëjô..."
+
+#: context/plasma/applet.cpp:748 context/plasma/applet.cpp:762
 #, fuzzy, qt-format
 #| msgid "&Settings"
 msgid "%1 Settings"
 msgstr "Ùs&towë"
 
-#: context/plasma/applet.cpp:730
+#: context/plasma/applet.cpp:762
 #, fuzzy
 #| msgid "&Settings"
 msgid "Settings"
@@ -249,31 +255,31 @@ msgstr ""
 msgid "Your machine doesn't support OpenGL applets."
 msgstr ""
 
-#: context/applets/currenttrack/CurrentTrack.cpp:178
+#: context/applets/currenttrack/CurrentTrack.cpp:183
 #, fuzzy
 #| msgid "Go To Current Track Folder"
 msgid "Configure Current Track Applet"
 msgstr "Biéj do biéżnégò katalogù sztëczka"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:190
+#: context/applets/currenttrack/CurrentTrack.cpp:195
 msgid "Width"
 msgstr ""
 
-#: context/applets/lastfmevents/LastFmEvents.cpp:228
+#: context/applets/lastfmevents/LastFmEvents.cpp:231
 #, fuzzy
 #| msgid "Configure last.fm Support"
 msgid "Configure Last.Fm Events"
 msgstr "Kònfigùracëjô wspiarca dlô last.fm"
 
-#: context/applets/lastfmevents/LastFmEvents.cpp:237
+#: context/applets/lastfmevents/LastFmEvents.cpp:240
 msgid "Show Friend Events"
 msgstr ""
 
-#: context/applets/lastfmevents/LastFmEvents.cpp:239
+#: context/applets/lastfmevents/LastFmEvents.cpp:242
 msgid "Show Recommended Events"
 msgstr ""
 
-#: context/applets/lastfmevents/LastFmEvents.cpp:241
+#: context/applets/lastfmevents/LastFmEvents.cpp:244
 msgid "Show Your Future Events"
 msgstr ""
 
@@ -535,7 +541,7 @@ msgstr ""
 #. i18n: file ./newdynamic.ui line 136
 #: playlist.h:127 playlistbrowser.cpp:669 playlistbrowser.cpp:1946
 #: equalizersetup.cpp:396 MainWindow.cpp:698 rc.cpp:894 playlist.cpp:210
-#: playlist.cpp:2207 playlist.cpp:4548 playlist/PlaylistModel.h:137
+#: playlist.cpp:2207 playlist.cpp:4548 playlist/PlaylistModel.h:138
 #: filebrowser.cpp:339
 msgid "Untitled"
 msgstr "Bez titla"
@@ -976,7 +982,7 @@ msgstr ""
 #: metabundle.cpp:125 collectionbrowser/CollectionTreeItemModelBase.cpp:410
 #: rc.cpp:464 smartplaylisteditor.cpp:174 smartplaylisteditor.cpp:188
 #: transferdialog.cpp:86 playlist/PlaylistHeader.cpp:33
-#: playlist/PlaylistModel.cpp:221 playlistbrowseritem.cpp:3065
+#: playlist/PlaylistModel.cpp:223 playlistbrowseritem.cpp:3065
 #: playlistbrowseritem.cpp:3296
 msgid "Album"
 msgstr ""
@@ -987,43 +993,43 @@ msgstr ""
 #: collectionbrowser/CollectionTreeItemModelBase.cpp:411 rc.cpp:461
 #: smartplaylisteditor.cpp:174 smartplaylisteditor.cpp:188
 #: transferdialog.cpp:85 playlist/PlaylistHeader.cpp:33
-#: playlist/PlaylistModel.cpp:217 playlistbrowseritem.cpp:3045
+#: playlist/PlaylistModel.cpp:219 playlistbrowseritem.cpp:3045
 #: playlistbrowseritem.cpp:3292
 msgid "Artist"
 msgstr ""
 
 #: editfilterdialog.cpp:132 metabundle.cpp:134 smartplaylisteditor.cpp:178
-#: playlist/PlaylistModel.cpp:230
+#: playlist/PlaylistModel.cpp:232
 msgid "Bitrate"
 msgstr ""
 
 #: editfilterdialog.cpp:134 metabundle.cpp:128 smartplaylisteditor.cpp:178
-#: playlist/PlaylistModel.cpp:224
+#: playlist/PlaylistModel.cpp:226
 msgid "BPM"
 msgstr ""
 
 #: editfilterdialog.cpp:136 metabundle.cpp:130 smartplaylisteditor.cpp:175
-#: playlist/PlaylistModel.cpp:226
+#: playlist/PlaylistModel.cpp:228
 msgid "Comment"
 msgstr "Dopòwiesc"
 
 #: editfilterdialog.cpp:138 metabundle.cpp:123
 #: collectionbrowser/CollectionTreeItemModelBase.cpp:412
 #: smartplaylisteditor.cpp:174 smartplaylisteditor.cpp:188
-#: playlist/PlaylistModel.cpp:219 playlistbrowseritem.cpp:3055
+#: playlist/PlaylistModel.cpp:221 playlistbrowseritem.cpp:3055
 #: playlistbrowseritem.cpp:3294
 msgid "Composer"
 msgstr ""
 
-#: editfilterdialog.cpp:140 metabundle.cpp:131 playlist/PlaylistModel.cpp:227
+#: editfilterdialog.cpp:140 metabundle.cpp:131 playlist/PlaylistModel.cpp:229
 msgid "Directory"
 msgstr ""
 
-#: editfilterdialog.cpp:142 metabundle.cpp:126 playlist/PlaylistModel.cpp:222
+#: editfilterdialog.cpp:142 metabundle.cpp:126 playlist/PlaylistModel.cpp:224
 msgid "Disc Number"
 msgstr ""
 
-#: editfilterdialog.cpp:144 metabundle.cpp:119 playlist/PlaylistModel.cpp:215
+#: editfilterdialog.cpp:144 metabundle.cpp:119 playlist/PlaylistModel.cpp:217
 msgid "Filename"
 msgstr ""
 
@@ -1038,13 +1044,13 @@ msgstr ""
 #: editfilterdialog.cpp:150 metabundle.cpp:129
 #: collectionbrowser/CollectionTreeItemModelBase.cpp:413
 #: smartplaylisteditor.cpp:174 smartplaylisteditor.cpp:188
-#: transferdialog.cpp:87 playlist/PlaylistModel.cpp:225
+#: transferdialog.cpp:87 playlist/PlaylistModel.cpp:227
 #: playlistbrowseritem.cpp:3035 playlistbrowseritem.cpp:3290
 msgid "Genre"
 msgstr ""
 
 #: editfilterdialog.cpp:152 metabundle.cpp:133 smartplaylisteditor.cpp:174
-#: playlist/PlaylistHeader.cpp:33 playlist/PlaylistModel.cpp:229
+#: playlist/PlaylistHeader.cpp:33 playlist/PlaylistModel.cpp:231
 #: playlistbrowseritem.cpp:831
 msgid "Length"
 msgstr ""
@@ -1059,40 +1065,40 @@ msgstr ""
 msgid "Lyrics"
 msgstr ""
 
-#: editfilterdialog.cpp:158 metabundle.cpp:138 playlist/PlaylistModel.cpp:234
+#: editfilterdialog.cpp:158 metabundle.cpp:138 playlist/PlaylistModel.cpp:236
 msgid "Play Count"
 msgstr ""
 
 #: editfilterdialog.cpp:162 metabundle.cpp:137 smartplaylisteditor.cpp:176
-#: playlist/PlaylistModel.cpp:233
+#: playlist/PlaylistModel.cpp:235
 msgid "Rating"
 msgstr ""
 
-#: editfilterdialog.cpp:165 metabundle.cpp:135 playlist/PlaylistModel.cpp:231
+#: editfilterdialog.cpp:165 metabundle.cpp:135 playlist/PlaylistModel.cpp:233
 msgid "Sample Rate"
 msgstr ""
 
 #: editfilterdialog.cpp:169 scriptmanager.cpp:172 scriptmanager.cpp:816
 #: metabundle.cpp:136 smartplaylisteditor.cpp:176
-#: playlist/PlaylistModel.cpp:232
+#: playlist/PlaylistModel.cpp:234
 msgid "Score"
 msgstr ""
 
-#: editfilterdialog.cpp:172 metabundle.cpp:141 playlist/PlaylistModel.cpp:237
+#: editfilterdialog.cpp:172 metabundle.cpp:141 playlist/PlaylistModel.cpp:239
 msgid "File Size"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./trackpickerdialogbase.ui line 92
 #: editfilterdialog.cpp:174 metabundle.cpp:120 rc.cpp:458
-#: smartplaylisteditor.cpp:174 playlist/PlaylistModel.cpp:216
+#: smartplaylisteditor.cpp:174 playlist/PlaylistModel.cpp:218
 msgid "Title"
 msgstr "Titel"
 
 #. i18n: tag string
 #. i18n: file ./trackpickerdialogbase.ui line 125
 #: editfilterdialog.cpp:176 metabundle.cpp:127 rc.cpp:467
-#: playlist/PlaylistModel.cpp:223
+#: playlist/PlaylistModel.cpp:225
 msgid "Track"
 msgstr ""
 
@@ -1101,7 +1107,7 @@ msgstr ""
 #: editfilterdialog.cpp:178 metabundle.cpp:124
 #: collectionbrowser/CollectionTreeItemModelBase.cpp:414 rc.cpp:470
 #: smartplaylisteditor.cpp:175 smartplaylisteditor.cpp:188
-#: smartplaylisteditor.cpp:906 playlist/PlaylistModel.cpp:220
+#: smartplaylisteditor.cpp:906 playlist/PlaylistModel.cpp:222
 #: playlistbrowseritem.cpp:3075 playlistbrowseritem.cpp:3298
 msgid "Year"
 msgstr ""
@@ -1753,15 +1759,15 @@ msgstr ""
 msgid " - ( <b>%1</b> without cover )"
 msgstr ""
 
-#: covermanager.cpp:1043
+#: covermanager.cpp:1044
 msgid "&Overwrite"
 msgstr ""
 
-#: covermanager.cpp:1045
+#: covermanager.cpp:1046
 msgid "Are you sure you want to overwrite this cover?"
 msgstr ""
 
-#: covermanager.cpp:1046
+#: covermanager.cpp:1047
 msgid "Overwrite Confirmation"
 msgstr ""
 
@@ -1784,11 +1790,11 @@ msgstr ""
 msgid "&Send to Trash"
 msgstr ""
 
-#: deletedialog.cpp:94
+#: deletedialog.cpp:95
 msgid "About to delete selected files"
 msgstr ""
 
-#: deletedialog.cpp:156
+#: deletedialog.cpp:157
 msgid "Deleting files"
 msgstr ""
 
@@ -1979,7 +1985,7 @@ msgstr ""
 msgid "Plugin Information"
 msgstr ""
 
-#: queuemanager/QueueManager.cpp:52 queuemanager.cpp:255 MainWindow.cpp:1112
+#: queuemanager/QueueManager.cpp:51 queuemanager.cpp:255 MainWindow.cpp:1112
 msgid "Queue Manager"
 msgstr ""
 
@@ -2477,170 +2483,170 @@ msgid "Mike 'Purple is not girly!' Diehl"
 msgstr ""
 
 #: main.cpp:56
-msgid "Paul 'Meet me at the Amarok Bar!' Cifarelli"
+msgid "Nikolaj Hald 'Also very hot' Nielsen"
 msgstr ""
 
 #: main.cpp:58
-msgid "Pierpaolo 'Spaghetti Coder' Di Panfilo"
+msgid "Paul 'Meet me at the Amarok Bar!' Cifarelli"
 msgstr ""
 
 #: main.cpp:60
-msgid "Roman 'And God said, let there be Mac' Becker"
+msgid "Pierpaolo 'Spaghetti Coder' Di Panfilo"
 msgstr ""
 
 #: main.cpp:62
-msgid "Seb 'Surfin' down under' Ruiz"
+msgid "Roman 'And God said, let there be Mac' Becker"
 msgstr ""
 
 #: main.cpp:64
+msgid "Seb 'Surfin' down under' Ruiz"
+msgstr ""
+
+#: main.cpp:66
 msgid "Stanislav 'All you need is DCOP' Karchebny"
 msgstr ""
 
-#: main.cpp:68
+#: main.cpp:70
 msgid "Adam Pigg"
 msgstr ""
 
-#: main.cpp:69
+#: main.cpp:71
 msgid "Adeodato Simó"
 msgstr ""
 
-#: main.cpp:70
+#: main.cpp:72
 msgid "Andreas Mair"
 msgstr ""
 
-#: main.cpp:71
+#: main.cpp:73
 msgid "Andrew de Quincey"
 msgstr ""
 
-#: main.cpp:72
+#: main.cpp:74
 msgid "Andrew Turner"
 msgstr ""
 
-#: main.cpp:73
+#: main.cpp:75
 msgid "Andy Kelk"
 msgstr ""
 
-#: main.cpp:74
+#: main.cpp:76
 msgid "Bart Cerneels"
 msgstr ""
 
-#: main.cpp:75
+#: main.cpp:77
 msgid "Christie Harris"
 msgstr ""
 
-#: main.cpp:76
+#: main.cpp:78
 msgid "Dan Leinir Turthra Jensen"
 msgstr ""
 
-#: main.cpp:77
+#: main.cpp:79
 msgid "Dan Meltzer"
 msgstr ""
 
-#: main.cpp:78
+#: main.cpp:80
 msgid "Derek Nelson"
 msgstr ""
 
-#: main.cpp:79
+#: main.cpp:81
 msgid "Enrico Ros"
 msgstr ""
 
-#: main.cpp:80
+#: main.cpp:82
 msgid "Gérard Dürrmeyer"
 msgstr ""
 
-#: main.cpp:81
+#: main.cpp:83
 msgid "Giovanni Venturi"
 msgstr ""
 
-#: main.cpp:82
+#: main.cpp:84
 msgid "Greg Meyer"
 msgstr ""
 
-#: main.cpp:83
+#: main.cpp:85
 msgid "Harald Sitter"
 msgstr ""
 
-#: main.cpp:84
+#: main.cpp:86
 msgid "Jarkko Lehti"
 msgstr ""
 
-#: main.cpp:85
+#: main.cpp:87
 msgid "Jocke Andersson"
 msgstr ""
 
-#: main.cpp:86
+#: main.cpp:88
 msgid "Kenneth Wesley Wimer II"
 msgstr ""
 
-#: main.cpp:87
+#: main.cpp:89
 msgid "Leo Franchi"
 msgstr ""
 
-#: main.cpp:88
+#: main.cpp:90
 msgid "Marco Gulino"
 msgstr ""
 
-#: main.cpp:89
+#: main.cpp:91
 msgid "Melchior Franz"
 msgstr ""
 
-#: main.cpp:90
+#: main.cpp:92
 msgid "Michael Pyne"
 msgstr ""
 
-#: main.cpp:91
+#: main.cpp:93
 msgid "Nenad Grujicic"
 msgstr ""
 
-#: main.cpp:92
-msgid "Nikolaj Hald Nielsen"
-msgstr ""
-
-#: main.cpp:93
+#: main.cpp:94
 msgid "Olivier Bédard"
 msgstr ""
 
-#: main.cpp:94
+#: main.cpp:95
 msgid "Peter C. Ndikuwera"
 msgstr ""
 
-#: main.cpp:95
+#: main.cpp:96
 msgid "Reigo Reinmets"
 msgstr ""
 
-#: main.cpp:96
+#: main.cpp:97
 msgid "Roland Gigler"
 msgstr ""
 
-#: main.cpp:97
+#: main.cpp:98
 msgid "Sami Nieminen"
 msgstr ""
 
-#: main.cpp:98
+#: main.cpp:99
 msgid "Scott Wheeler"
 msgstr ""
 
-#: main.cpp:99
+#: main.cpp:100
 msgid "Shane King"
 msgstr ""
 
-#: main.cpp:100
+#: main.cpp:101
 msgid "Stefan Bogner"
 msgstr ""
 
-#: main.cpp:101
+#: main.cpp:102
 msgid "Stefan Siegel"
 msgstr ""
 
-#: main.cpp:102
+#: main.cpp:103
 msgid "Sven Krohlas"
 msgstr ""
 
-#: main.cpp:103
+#: main.cpp:104
 msgid "Vadim Petrunin"
 msgstr ""
 
-#: main.cpp:104
+#: main.cpp:105
 msgid "Whitehawk Stormchaser"
 msgstr ""
 
@@ -2703,7 +2709,7 @@ msgstr ""
 msgid "Track Information: %1 by %2"
 msgstr ""
 
-#: tagdialog.cpp:690 statusbar/queueLabel.cpp:310
+#: tagdialog.cpp:690 statusbar/queueLabel.cpp:312
 #, qt-format
 msgid "<b>%1</b> by <b>%2</b>"
 msgstr ""
@@ -3675,7 +3681,7 @@ msgstr "&Nôrzãdza"
 msgid "&Cover Manager"
 msgstr ""
 
-#: MainWindow.cpp:1299 widgets/sliderwidget.cpp:437
+#: MainWindow.cpp:1299 widgets/sliderwidget.cpp:232
 msgid "&Equalizer"
 msgstr ""
 
@@ -5525,21 +5531,21 @@ msgstr ""
 msgid "Data Mode"
 msgstr ""
 
-#: metabundle.cpp:122 playlist/PlaylistModel.cpp:218
+#: metabundle.cpp:122 playlist/PlaylistModel.cpp:220
 msgid "Album Artist"
 msgstr ""
 
-#: metabundle.cpp:132 playlist/PlaylistModel.cpp:228
+#: metabundle.cpp:132 playlist/PlaylistModel.cpp:230
 #: playlistbrowseritem.cpp:2741
 msgid "Type"
 msgstr ""
 
-#: metabundle.cpp:139 playlist/PlaylistModel.cpp:235
+#: metabundle.cpp:139 playlist/PlaylistModel.cpp:237
 msgctxt "Column name"
 msgid "Last Played"
 msgstr ""
 
-#: metabundle.cpp:140 playlist/PlaylistModel.cpp:236
+#: metabundle.cpp:140 playlist/PlaylistModel.cpp:238
 msgid "Mood"
 msgstr ""
 
@@ -5551,7 +5557,7 @@ msgstr ""
 msgid "Queued..."
 msgstr ""
 
-#: metabundle.cpp:1060 statusbar/queueLabel.cpp:310
+#: metabundle.cpp:1060 statusbar/queueLabel.cpp:312
 #, qt-format
 msgid "%1 by %2"
 msgstr ""
@@ -5858,12 +5864,12 @@ msgstr ""
 msgid "Playcount"
 msgstr ""
 
-#: statistics.cpp:420 statusbar/selectLabel.h:136 statusbar/selectLabel.h:144
+#: statistics.cpp:420 statusbar/selectLabel.h:140 statusbar/selectLabel.h:148
 #, qt-format
 msgid "%1: %2"
 msgstr ""
 
-#: statistics.cpp:451 statistics.cpp:536 statusbar/queueLabel.cpp:202
+#: statistics.cpp:451 statistics.cpp:536 statusbar/queueLabel.cpp:204
 #, qt-format
 msgid "%1. %2"
 msgstr ""
@@ -10242,11 +10248,11 @@ msgstr ""
 msgid "&Stop Playing After Track"
 msgstr ""
 
-#: playlist.cpp:493 playlist/PlaylistModel.cpp:295
+#: playlist.cpp:493 playlist/PlaylistModel.cpp:297
 msgid "Attempted to insert nothing into playlist."
 msgstr ""
 
-#: playlist.cpp:566 playlist/PlaylistModel.cpp:316
+#: playlist.cpp:566 playlist/PlaylistModel.cpp:318
 #, qt-format
 msgid "One track was already in the playlist, so it was not added."
 msgid_plural "%1 tracks were already in the playlist, so they were not added."
@@ -10320,7 +10326,7 @@ msgstr ""
 msgid "&Play"
 msgstr ""
 
-#: playlist.cpp:3849 statusbar/queueLabel.cpp:193
+#: playlist.cpp:3849 statusbar/queueLabel.cpp:195
 msgid "&Dequeue Track"
 msgstr ""
 
@@ -10997,14 +11003,14 @@ msgstr "%1 (%2)"
 msgid "Play-time: %1"
 msgstr ""
 
-#: statusbar/queueLabel.cpp:186
+#: statusbar/queueLabel.cpp:188
 msgid "1 Queued Track (%1)"
 msgid_plural "%1 Queued Tracks (%1)"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: statusbar/queueLabel.cpp:189
+#: statusbar/queueLabel.cpp:191
 #, qt-format
 msgid "1 Queued Track"
 msgid_plural "%1 Queued Tracks"
@@ -11012,11 +11018,11 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: statusbar/queueLabel.cpp:193
+#: statusbar/queueLabel.cpp:195
 msgid "&Dequeue All Tracks"
 msgstr ""
 
-#: statusbar/queueLabel.cpp:210
+#: statusbar/queueLabel.cpp:212
 #, qt-format
 msgid "1 More Track"
 msgid_plural "%1 More Tracks"
@@ -11024,19 +11030,19 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: statusbar/queueLabel.cpp:278
+#: statusbar/queueLabel.cpp:280
 msgid "1 track (%1)"
 msgid_plural "%1 tracks (%1)"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: statusbar/queueLabel.cpp:282
+#: statusbar/queueLabel.cpp:284
 #, qt-format
 msgid "Next: %1"
 msgstr ""
 
-#: statusbar/selectLabel.h:139 statusbar/toggleLabel.h:121
+#: statusbar/selectLabel.h:143 statusbar/toggleLabel.h:121
 msgid "&nbsp;<br>&nbsp;<i>Disabled</i>"
 msgstr ""
 
@@ -11275,15 +11281,15 @@ msgstr "Wëslë email"
 msgid "Crash Handler"
 msgstr ""
 
-#: widgets/volumewidget.cpp:32
+#: widgets/volumewidget.cpp:35
 msgid "Volume control"
 msgstr "Kòntrola głosnoscë"
 
-#: widgets/progressslider.cpp:137
+#: widgets/progressslider.cpp:140
 msgid "The amount of time elapsed in current song"
 msgstr ""
 
-#: widgets/progressslider.cpp:140
+#: widgets/progressslider.cpp:143
 msgid "The amount of time remaining in current song"
 msgstr ""
 
@@ -11291,31 +11297,31 @@ msgstr ""
 msgid "Enter space-separated terms to search in the playlist."
 msgstr ""
 
-#: widgets/sliderwidget.cpp:426
+#: widgets/sliderwidget.cpp:221
 msgid "Volume"
 msgstr "Głosnosc"
 
-#: widgets/sliderwidget.cpp:427
+#: widgets/sliderwidget.cpp:222
 msgid "100%"
 msgstr "100%"
 
-#: widgets/sliderwidget.cpp:428
+#: widgets/sliderwidget.cpp:223
 msgid "80%"
 msgstr "80%"
 
-#: widgets/sliderwidget.cpp:429
+#: widgets/sliderwidget.cpp:224
 msgid "60%"
 msgstr "60%"
 
-#: widgets/sliderwidget.cpp:430
+#: widgets/sliderwidget.cpp:225
 msgid "40%"
 msgstr "40%"
 
-#: widgets/sliderwidget.cpp:431
+#: widgets/sliderwidget.cpp:226
 msgid "20%"
 msgstr ""
 
-#: widgets/sliderwidget.cpp:432
+#: widgets/sliderwidget.cpp:227
 msgid "0%"
 msgstr "0%"
 
