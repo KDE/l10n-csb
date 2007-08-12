@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-08 05:29+0200\n"
+"POT-Creation-Date: 2007-08-12 05:36+0200\n"
 "PO-Revision-Date: 2007-02-18 16:37+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -166,21 +166,7 @@ msgstr ""
 
 #. i18n: tag text
 #. i18n: file ./data/kateui.rc line 5
-#. i18n: tag text
-#. i18n: file ./plugins/skeleton/ui.rc line 4
-#. i18n: tag text
-#. i18n: file ./plugins/externaltools/ui.rc line 4
-#. i18n: tag text
-#. i18n: file ./plugins/mailfiles/ui.rc line 4
-#. i18n: tag text
-#. i18n: file ./data/kateui.rc line 5
-#. i18n: tag text
-#. i18n: file ./plugins/skeleton/ui.rc line 4
-#. i18n: tag text
-#. i18n: file ./plugins/externaltools/ui.rc line 4
-#. i18n: tag text
-#. i18n: file ./plugins/mailfiles/ui.rc line 4
-#: rc.cpp:59 rc.cpp:110 rc.cpp:116 rc.cpp:119
+#: rc.cpp:59
 #, fuzzy
 msgid "&File"
 msgstr "Lopczi:"
@@ -194,13 +180,7 @@ msgstr "&Editëjë..."
 
 #. i18n: tag text
 #. i18n: file ./data/kateui.rc line 44
-#. i18n: tag text
-#. i18n: file ./plugins/quickdocumentswitcher/ui.rc line 4
-#. i18n: tag text
-#. i18n: file ./data/kateui.rc line 44
-#. i18n: tag text
-#. i18n: file ./plugins/quickdocumentswitcher/ui.rc line 4
-#: rc.cpp:65 rc.cpp:113
+#: rc.cpp:65
 msgid "&Document"
 msgstr "&Dokùment"
 
@@ -213,13 +193,7 @@ msgstr "&Wëzdrzatczi nôrzãdzów"
 
 #. i18n: tag text
 #. i18n: file ./data/kateui.rc line 56
-#. i18n: tag text
-#. i18n: file ./plugins/konsole/ui.rc line 4
-#. i18n: tag text
-#. i18n: file ./data/kateui.rc line 56
-#. i18n: tag text
-#. i18n: file ./plugins/konsole/ui.rc line 4
-#: rc.cpp:71 rc.cpp:89
+#: rc.cpp:71
 #, fuzzy
 msgid "&Tools"
 msgstr "Lëstew nôrzãdzów"
@@ -255,45 +229,6 @@ msgstr ""
 #, fuzzy
 msgid "Main Toolbar"
 msgstr "Lëstew nôrzãdzów"
-
-#. i18n: tag string
-#. i18n: file ./plugins/findinfiles/findwidget.ui line 30
-#: rc.cpp:92
-msgid "Folder:"
-msgstr "Katalog:"
-
-#. i18n: tag string
-#. i18n: file ./plugins/findinfiles/findwidget.ui line 43
-#: rc.cpp:95
-msgid "Case sensitive"
-msgstr "Rozeznôwôj midzë wiôldżéma a môłëma lëterama"
-
-#. i18n: tag string
-#. i18n: file ./plugins/findinfiles/findwidget.ui line 50
-#: rc.cpp:98
-msgid "Recursive"
-msgstr "Rekùrencyjno"
-
-#. i18n: tag string
-#. i18n: file ./plugins/findinfiles/findwidget.ui line 57
-#: rc.cpp:101
-#, fuzzy
-msgid "Files:"
-msgstr "Lopczi:"
-
-#. i18n: tag string
-#. i18n: file ./plugins/findinfiles/findwidget.ui line 124
-#: rc.cpp:104
-#, fuzzy
-#| msgid "Close the current document."
-msgid "Use the current document's path."
-msgstr "Zamkni biéżny dokùment."
-
-#. i18n: tag string
-#. i18n: file ./plugins/findinfiles/findwidget.ui line 162
-#: rc.cpp:107
-msgid "Pattern:"
-msgstr "Mùster:"
 
 #: tips.cpp:3
 msgid ""
@@ -545,7 +480,7 @@ msgstr "Pòkôżë fùl stegnã do dokùmentu w titlowé lëstwie òkna"
 msgid "Documents"
 msgstr "Dokùmentë"
 
-#: app/katemainwindow.cpp:264 plugins/filebrowser/katefileselector.cpp:93
+#: app/katemainwindow.cpp:264
 msgid "Filesystem Browser"
 msgstr "Przezérnik systemë lopków"
 
@@ -945,11 +880,11 @@ msgstr "Zapiszë &sesëjã"
 msgid "&Ask user"
 msgstr "&Pëtôj brëkòwnika"
 
-#: app/kateconfigdialog.cpp:218 plugins/filebrowser/katefileselector.cpp:124
+#: app/kateconfigdialog.cpp:218
 msgid "File Selector"
 msgstr "Wëbiérk lopków"
 
-#: app/kateconfigdialog.cpp:220 plugins/filebrowser/katefileselector.cpp:130
+#: app/kateconfigdialog.cpp:220
 msgid "File Selector Settings"
 msgstr "Rëmanié wëbiérkù lopków"
 
@@ -1398,7 +1333,7 @@ msgstr "Pòsobnica òtmëkaniô"
 msgid "Document Name"
 msgstr "Miono dokùmentu"
 
-#: app/katefilelist.cpp:42 plugins/mailfiles/katemailfilesdialog.cpp:74
+#: app/katefilelist.cpp:42
 msgid "URL"
 msgstr "URL"
 
@@ -1519,7 +1454,6 @@ msgstr ""
 "klawiszowé skrodzënë.</qt>"
 
 #: app/kateconfigplugindialogpage.cpp:82
-#: plugins/mailfiles/katemailfilesdialog.cpp:73
 msgid "Name"
 msgstr "Miono"
 
@@ -1635,518 +1569,435 @@ msgstr ""
 msgid "Session exists"
 msgstr "Sesëje"
 
-#: plugins/konsole/kateconsole.cpp:53
-#: plugins/findinfiles/katefindinfiles.cpp:51
-msgid "You do not have enough karma to access a shell or terminal emulation"
-msgstr ""
+#~ msgid "Folder:"
+#~ msgstr "Katalog:"
 
-#: plugins/konsole/kateconsole.cpp:66
-msgid "Terminal"
-msgstr "Kònsola"
+#~ msgid "Case sensitive"
+#~ msgstr "Rozeznôwôj midzë wiôldżéma a môłëma lëterama"
 
-#: plugins/konsole/kateconsole.cpp:86
-msgid "&Pipe to Console"
-msgstr "&Strëga do kònsolë"
+#~ msgid "Recursive"
+#~ msgstr "Rekùrencyjno"
 
-#: plugins/konsole/kateconsole.cpp:179
-msgid ""
-"Do you really want to pipe the text to the console? This will execute any "
-"contained commands with your user rights."
-msgstr ""
-"Pò prôwdze chcesz przekazac strëgą tekstu do kònsolë? Wszëtczé pòlétë w nim "
-"zamkłé òstóną wëkònané z twòjima prawama brëkòwnika."
-
-#: plugins/konsole/kateconsole.cpp:180
-msgid "Pipe to Console?"
-msgstr "Strëga do kònsolë?"
-
-#: plugins/konsole/kateconsole.cpp:181
-msgid "Pipe to Console"
-msgstr "Strëga do kònsolë"
-
-#: plugins/findinfiles/katefindinfiles.cpp:65
-#: plugins/findinfiles/kategrepdialog.cpp:48
-msgid "Find in Files"
-msgstr "Nalezë w lopkach"
-
-#: plugins/findinfiles/kategrepdialog.cpp:74
-msgid ""
-"<p>Enter the expression you want to search for here.<p>If 'regular "
-"expression' is unchecked, any non-space letters in your expression will be "
-"escaped with a backslash character.<p>Possible meta characters are:<br><b>.</"
-"b> - Matches any character<br><b>^</b> - Matches the beginning of a "
-"line<br><b>$</b> - Matches the end of a line<br><b>\\&lt;</b> - Matches the "
-"beginning of a word<br><b>\\&gt;</b> - Matches the end of a word<p>The "
-"following repetition operators exist:<br><b>?</b> - The preceding item is "
-"matched at most once<br><b>*</b> - The preceding item is matched zero or "
-"more times<br><b>+</b> - The preceding item is matched one or more "
-"times<br><b>{<i>n</i>}</b> - The preceding item is matched exactly <i>n</i> "
-"times<br><b>{<i>n</i>,}</b> - The preceding item is matched <i>n</i> or more "
-"times<br><b>{,<i>n</i>}</b> - The preceding item is matched at most <i>n</i> "
-"times<br><b>{<i>n</i>,<i>m</i>}</b> - The preceding item is matched at least "
-"<i>n</i>, but at most <i>m</i> times.<p>Furthermore, backreferences to "
-"bracketed subexpressions are available via the notation <code>\\#</code>."
-"<p>See the grep(1) documentation for the full documentation."
-msgstr ""
-"<p>Wpiszë szëkóny wësłów.<p> Jeżlë 'regùlarny wësłów' nie je òznaczony, "
-"kòżdi znak jaczi nie je wòlnym rumã òstônie ùnikniãti backslashã.<p>Mòżlëwé "
-"òsoblëwé znaczi:<br><b>.</b> - pasëje do równo jaczégò znakù<br><b>^</b> - "
-"pasëje do zôczątkù réżczi<br><b>$</b> - pasëje do kùńca réżczi<br><b>\\&lt;</"
-"b> - pasëje do zôczątkù słowa<br><b>\\&gt;</b> - pasëje do kùńca "
-"słowa<br><br>Przëstãpné òperatorë pòwtórzeniô:<br><b>?</b> - Nôprzódny "
-"element pasëje nie wicy jakno rôz<br><b>*</b> - Nôprzódny element pasëje "
-"zero abò wicy razë<br><b>+</b> - Nôprzódny element pasëje przënômni "
-"rôz<br><b>{<i>n</i>}</b> - Nôprzódny element pasëje dokładno <i>n</i> "
-"razë<br><b>{<i>n</i>,}</b> - Nôprzódny element pasëje <i>n</i> abò wicy "
-"razë<br><b>{,<i>n</i>}</b> - Nôprzódny element pasëje nôwëżi <i>n</i> "
-"razë<br><b>{<i>n</i>,<i>m</i>}</b> - Nôprzódny element pasëje przënômni "
-"<i>n</i> razë,<br>   le nôwëżi <i>m</i> razë.<br><br>Króm tegò òdwòłania do "
-"tëłu do elementów w klamrach<br>zapisëje sã w notacëji <code>\\#</code>. "
-"<p>Fùlwôrtnô dokùmentacëjô w grep(1)."
-
-#: plugins/findinfiles/kategrepdialog.cpp:96
-msgid ""
-"Enter the file name pattern of the files to search here.\n"
-"You may give several patterns separated by commas."
-msgstr ""
-"Pòdôj mùster miona szëkanegò lopka.\n"
-"Mòże pòdac wicy mùstrów, rozdzelonëch rozczidnikama."
-
-#: plugins/findinfiles/kategrepdialog.cpp:98
-msgid "Enter the folder which contains the files in which you want to search."
-msgstr "Pòdôj katalog zamëkający w se lopczi dlô szëkbë."
-
-#: plugins/findinfiles/kategrepdialog.cpp:99
-msgid "Check this box to search in all subfolders."
-msgstr "Włączë nã òptacëjã, bë szëkac we wszëtczich pòdkatalogach."
-
-#: plugins/findinfiles/kategrepdialog.cpp:100
-msgid ""
-"If this option is enabled (the default), the search will be case sensitive."
-msgstr ""
-"Jeżlë òznaczoné (domëszlno), szëkba bãdze rozeznôwac midzë wiôldżima a "
-"môłima lëterama."
-
-#: plugins/findinfiles/kategrepdialog.cpp:101
-msgid ""
-"The results of the grep run are listed here. Select a\n"
-"filename/line number combination and press Enter or doubleclick\n"
-"on the item to show the respective line in the editor."
-msgstr ""
-"Wëskrzënioné są wińdzenia zrëszonegò pòletu 'grep'.\n"
-"Wëbierzë sparłaczenié miona lopka/numere réżczi ë wcësni Enter abò\n"
-"dwa razë klëkni na element lrstë, bë pòkôzac pasowną réżkã w editorze."
-
-#: plugins/findinfiles/kategrepdialog.cpp:114
 #, fuzzy
-#| msgid "Use this to close the current document"
-msgid "Click to close the current search results."
-msgstr "Brëkòwóné do zamëkaniô biéżnegò dokùmentu."
+#~ msgid "Files:"
+#~ msgstr "Lopczi:"
 
-#: plugins/findinfiles/kategrepdialog.cpp:242
-msgid "You must enter an existing local folder in the 'Folder' entry."
-msgstr "Je nót pòdac môlowi katalog jaczi to ju dô, w pòlu 'Katalog'."
-
-#: plugins/findinfiles/kategrepdialog.cpp:243
-msgid "Invalid Folder"
-msgstr "Lëchi katalog"
-
-#: plugins/findinfiles/kategrepdialog.cpp:260
 #, fuzzy
-msgid "File"
-msgstr "Lopczi:"
+#~| msgid "Close the current document."
+#~ msgid "Use the current document's path."
+#~ msgstr "Zamkni biéżny dokùment."
 
-#: plugins/findinfiles/kategrepdialog.cpp:260
-msgid "Line"
-msgstr ""
+#~ msgid "Pattern:"
+#~ msgstr "Mùster:"
 
-#: plugins/findinfiles/kategrepdialog.cpp:260
-msgid "Text"
-msgstr ""
+#~ msgid "Terminal"
+#~ msgstr "Kònsola"
 
-#: plugins/filebrowser/katefileselector.cpp:221
-msgid "Bookmarks"
-msgstr ""
+#~ msgid "&Pipe to Console"
+#~ msgstr "&Strëga do kònsolë"
 
-#: plugins/filebrowser/katefileselector.cpp:243
-msgid "Current Document Folder"
-msgstr "Biéżny katalog dokùmentu"
+#~ msgid ""
+#~ "Do you really want to pipe the text to the console? This will execute any "
+#~ "contained commands with your user rights."
+#~ msgstr ""
+#~ "Pò prôwdze chcesz przekazac strëgą tekstu do kònsolë? Wszëtczé pòlétë w "
+#~ "nim zamkłé òstóną wëkònané z twòjima prawama brëkòwnika."
 
-#: plugins/filebrowser/katefileselector.cpp:270
-msgid ""
-"<p>Here you can enter a path for a folder to display.<p>To go to a folder "
-"previously entered, press the arrow on the right and choose one. <p>The "
-"entry has folder completion. Right-click to choose how completion should "
-"behave."
-msgstr ""
-"<p>Stegna do katalogù jaczi mô òstac wëskrzëniony.<p> Bë przeńc do wczasni "
-"pòdónegò katalogù, sygnie wcësnąc na strzélkã z prawi starnie ë wëbrac "
-"katalog. <p>Pòle wpisëwaniô katalogù òbsłużiwô aùtomatno dofùlowanié "
-"pasownegò miona. Prawą knąpą mëszë mòże òznaczëc ôrt dofùlowaniô."
+#~ msgid "Pipe to Console?"
+#~ msgstr "Strëga do kònsolë?"
 
-#: plugins/filebrowser/katefileselector.cpp:274
-msgid ""
-"<p>Here you can enter a name filter to limit which files are displayed.<p>To "
-"clear the filter, toggle off the filter button to the left.<p>To reapply the "
-"last filter used, toggle on the filter button."
-msgstr ""
-"<p>Plac na filter miona lopków, jaczé mają bëc wëskrzëniané. <p>Wëłączenié "
-"knąpë z prawi starnë wëczësczë pòle filtera.<p>Włączenié knąpë doprowôdzy "
-"nazôd slédno brëkòwóny filter."
+#~ msgid "Pipe to Console"
+#~ msgstr "Strëga do kònsolë"
 
-#: plugins/filebrowser/katefileselector.cpp:277
-msgid ""
-"<p>This button clears the name filter when toggled off, or reapplies the "
-"last filter used when toggled on."
-msgstr ""
-"<p>Knąpa czësczë pòle filtera (przë wëłączaniém) abò doprowôdzô nazôd slédno "
-"wpisóny filter (przë włączaniém)."
+#~ msgid "Find in Files"
+#~ msgstr "Nalezë w lopkach"
 
-#: plugins/filebrowser/katefileselector.cpp:403
-#, qt-format
-msgid "Apply last filter (\"%1\")"
-msgstr "Ùżëjë slédny filter (\"%1\")"
+#~ msgid ""
+#~ "<p>Enter the expression you want to search for here.<p>If 'regular "
+#~ "expression' is unchecked, any non-space letters in your expression will "
+#~ "be escaped with a backslash character.<p>Possible meta characters are:"
+#~ "<br><b>.</b> - Matches any character<br><b>^</b> - Matches the beginning "
+#~ "of a line<br><b>$</b> - Matches the end of a line<br><b>\\&lt;</b> - "
+#~ "Matches the beginning of a word<br><b>\\&gt;</b> - Matches the end of a "
+#~ "word<p>The following repetition operators exist:<br><b>?</b> - The "
+#~ "preceding item is matched at most once<br><b>*</b> - The preceding item "
+#~ "is matched zero or more times<br><b>+</b> - The preceding item is matched "
+#~ "one or more times<br><b>{<i>n</i>}</b> - The preceding item is matched "
+#~ "exactly <i>n</i> times<br><b>{<i>n</i>,}</b> - The preceding item is "
+#~ "matched <i>n</i> or more times<br><b>{,<i>n</i>}</b> - The preceding item "
+#~ "is matched at most <i>n</i> times<br><b>{<i>n</i>,<i>m</i>}</b> - The "
+#~ "preceding item is matched at least <i>n</i>, but at most <i>m</i> times."
+#~ "<p>Furthermore, backreferences to bracketed subexpressions are available "
+#~ "via the notation <code>\\#</code>.<p>See the grep(1) documentation for "
+#~ "the full documentation."
+#~ msgstr ""
+#~ "<p>Wpiszë szëkóny wësłów.<p> Jeżlë 'regùlarny wësłów' nie je òznaczony, "
+#~ "kòżdi znak jaczi nie je wòlnym rumã òstônie ùnikniãti backslashã."
+#~ "<p>Mòżlëwé òsoblëwé znaczi:<br><b>.</b> - pasëje do równo jaczégò "
+#~ "znakù<br><b>^</b> - pasëje do zôczątkù réżczi<br><b>$</b> - pasëje do "
+#~ "kùńca réżczi<br><b>\\&lt;</b> - pasëje do zôczątkù słowa<br><b>\\&gt;</b> "
+#~ "- pasëje do kùńca słowa<br><br>Przëstãpné òperatorë pòwtórzeniô:<br><b>?</"
+#~ "b> - Nôprzódny element pasëje nie wicy jakno rôz<br><b>*</b> - Nôprzódny "
+#~ "element pasëje zero abò wicy razë<br><b>+</b> - Nôprzódny element pasëje "
+#~ "przënômni rôz<br><b>{<i>n</i>}</b> - Nôprzódny element pasëje dokładno "
+#~ "<i>n</i> razë<br><b>{<i>n</i>,}</b> - Nôprzódny element pasëje <i>n</i> "
+#~ "abò wicy razë<br><b>{,<i>n</i>}</b> - Nôprzódny element pasëje nôwëżi "
+#~ "<i>n</i> razë<br><b>{<i>n</i>,<i>m</i>}</b> - Nôprzódny element pasëje "
+#~ "przënômni <i>n</i> razë,<br>   le nôwëżi <i>m</i> razë.<br><br>Króm tegò "
+#~ "òdwòłania do tëłu do elementów w klamrach<br>zapisëje sã w notacëji <code>"
+#~ "\\#</code>. <p>Fùlwôrtnô dokùmentacëjô w grep(1)."
 
-#: plugins/filebrowser/katefileselector.cpp:409
-msgid "Clear filter"
-msgstr "Wëczëszczë filter"
+#~ msgid ""
+#~ "Enter the file name pattern of the files to search here.\n"
+#~ "You may give several patterns separated by commas."
+#~ msgstr ""
+#~ "Pòdôj mùster miona szëkanegò lopka.\n"
+#~ "Mòże pòdac wicy mùstrów, rozdzelonëch rozczidnikama."
 
-#: plugins/filebrowser/katefileselector.cpp:655
-msgid "Toolbar"
-msgstr "Lëstew nôrzãdzów"
+#~ msgid ""
+#~ "Enter the folder which contains the files in which you want to search."
+#~ msgstr "Pòdôj katalog zamëkający w se lopczi dlô szëkbë."
 
-#: plugins/filebrowser/katefileselector.cpp:657
-msgid "A&vailable actions:"
-msgstr "Pr&zëstãpné dzéjaniô:"
+#~ msgid "Check this box to search in all subfolders."
+#~ msgstr "Włączë nã òptacëjã, bë szëkac we wszëtczich pòdkatalogach."
 
-#: plugins/filebrowser/katefileselector.cpp:658
-msgid "S&elected actions:"
-msgstr "Wë&bróné dzéjaniô:"
+#~ msgid ""
+#~ "If this option is enabled (the default), the search will be case "
+#~ "sensitive."
+#~ msgstr ""
+#~ "Jeżlë òznaczoné (domëszlno), szëkba bãdze rozeznôwac midzë wiôldżima a "
+#~ "môłima lëterama."
 
-#: plugins/filebrowser/katefileselector.cpp:666
-msgid "Auto Synchronization"
-msgstr "Aùtomatnô synchronizacëjô"
+#~ msgid ""
+#~ "The results of the grep run are listed here. Select a\n"
+#~ "filename/line number combination and press Enter or doubleclick\n"
+#~ "on the item to show the respective line in the editor."
+#~ msgstr ""
+#~ "Wëskrzënioné są wińdzenia zrëszonegò pòletu 'grep'.\n"
+#~ "Wëbierzë sparłaczenié miona lopka/numere réżczi ë wcësni Enter abò\n"
+#~ "dwa razë klëkni na element lrstë, bë pòkôzac pasowną réżkã w editorze."
 
-#: plugins/filebrowser/katefileselector.cpp:667
-msgid "When a docu&ment becomes active"
-msgstr "Przë aktiwacëji dokù&mentu"
-
-#: plugins/filebrowser/katefileselector.cpp:668
-msgid "When the file selector becomes visible"
-msgstr "Jak wëbiérk lopka stôwô sã widzałi"
-
-#: plugins/filebrowser/katefileselector.cpp:675
-msgid "Remember &locations:"
-msgstr "Spamiãtóné &lokalizacëje:"
-
-#: plugins/filebrowser/katefileselector.cpp:682
-msgid "Remember &filters:"
-msgstr "Spamiãtóné &filtrë:"
-
-#: plugins/filebrowser/katefileselector.cpp:689
-msgid "Session"
-msgstr "Sesëjô"
-
-#: plugins/filebrowser/katefileselector.cpp:690
-msgid "Restore loca&tion"
-msgstr "&Doprowôdzë lokalizacëjã nazôd"
-
-#: plugins/filebrowser/katefileselector.cpp:691
-msgid "Restore last f&ilter"
-msgstr "Doprowôdzë slédny filter nazôd"
-
-#: plugins/filebrowser/katefileselector.cpp:711
-msgid ""
-"<p>Decides how many locations to keep in the history of the location combo "
-"box."
-msgstr "<p>Òznôczô jak wiele lokalizacëjów nachôdô sã w lësce lokalizacëjów."
-
-#: plugins/filebrowser/katefileselector.cpp:716
-msgid ""
-"<p>Decides how many filters to keep in the history of the filter combo box."
-msgstr ""
-"<p>Òznôczô jak wiele filterów nachôdô sã w lësce historëji pòla filtera."
-
-#: plugins/filebrowser/katefileselector.cpp:721
-msgid ""
-"<p>These options allow you to have the File Selector automatically change "
-"location to the folder of the active document on certain events.<p>Auto "
-"synchronization is <em>lazy</em>, meaning it will not take effect until the "
-"file selector is visible.<p>None of these are enabled by default, but you "
-"can always sync the location by pressing the sync button in the toolbar."
-msgstr ""
-"<p>Ne òptacëje zezwôlają na aùtomatną zmianã lokalizacëji na katalog w "
-"jaczim je aktiwny dokùment, przë różnëch przëtrôfkach. <p>Automatnô "
-"synchronizacëjô dzéjô wedle reglë <em>nôpózdzé jakno to mòżlëwé </em>, co "
-"òznôczô tëli, żé bãdze ùsôdzonô dopiérze jak sektor lopków bãdze widzałi. "
-"<p>Ne òptacëje są domëslno wëłączoné, le mòże téż synchronizowac katalog "
-"dzãka knąpie na lëstwie nôrzãdzów."
-
-#: plugins/filebrowser/katefileselector.cpp:730
-msgid ""
-"<p>If this option is enabled (default), the location will be restored when "
-"you start Kate.<p><strong>Note</strong> that if the session is handled by "
-"the KDE session manager, the location is always restored."
-msgstr ""
-"<p>Jeżlë na òptacëjô je włączonô (domëslno), to lokalizacëjô òstónié "
-"òdzwëskanô przë zrëszaniô Kate. <p><strong>Bôczënk</strong> Jeżlë aktiwnô je "
-"Menedżera sesëji KDE, to lokalizacëjô je ë tak òdzwëskiwónô."
-
-#: plugins/filebrowser/katefileselector.cpp:734
-msgid ""
-"<p>If this option is enabled (default), the current filter will be restored "
-"when you start Kate.<p><strong>Note</strong> that if the session is handled "
-"by the KDE session manager, the filter is always restored.<p><strong>Note</"
-"strong> that some of the autosync settings may override the restored "
-"location if on."
-msgstr ""
-"<p>Jeżlë na òptacëjô je włączonô (domëslno), to biéżny filter òstónié "
-"òdzwëskóny przë zrëszaniô Kate. <p> <strong>Bôczënk</strong> Jeżlë aktiwny "
-"je Menedżer sesëji KDE, to filter je ë tak òdzwëskiwóny. <p> "
-"<strong>Bôczënk</strong> Niejedné nastôwë automatny synchronizacëji mògą "
-"nôdpisac òdzwëskóną lokalizacëjã."
-
-#: plugins/quickdocumentswitcher/plugin_katequickdocumentswitcher.cpp:63
-msgid "Quickswitch"
-msgstr ""
-
-#: plugins/quickdocumentswitcher/plugin_katequickdocumentswitcher.cpp:105
 #, fuzzy
-msgid "Document Quick Switch"
-msgstr "Lësta dokùmentów"
+#~| msgid "Use this to close the current document"
+#~ msgid "Click to close the current search results."
+#~ msgstr "Brëkòwóné do zamëkaniô biéżnegò dokùmentu."
 
-#: plugins/quickdocumentswitcher/plugin_katequickdocumentswitcher.cpp:116
+#~ msgid "You must enter an existing local folder in the 'Folder' entry."
+#~ msgstr "Je nót pòdac môlowi katalog jaczi to ju dô, w pòlu 'Katalog'."
+
+#~ msgid "Invalid Folder"
+#~ msgstr "Lëchi katalog"
+
 #, fuzzy
-msgid "&Filter:"
-msgstr "Lopczi:"
+#~ msgid "File"
+#~ msgstr "Lopczi:"
 
-#: plugins/quickdocumentswitcher/plugin_katequickdocumentswitcher.cpp:136
-#, qt-format
-msgid "%1: %2"
-msgstr ""
+#~ msgid "Current Document Folder"
+#~ msgstr "Biéżny katalog dokùmentu"
 
-#: plugins/externaltools/kateexternaltools.cpp:297
-#, qt-format
-msgid "Failed to expand the command '%1'."
-msgstr "Rozwiniãcé pòlétu '%1' nie darzeło sã."
+#~ msgid ""
+#~ "<p>Here you can enter a path for a folder to display.<p>To go to a folder "
+#~ "previously entered, press the arrow on the right and choose one. <p>The "
+#~ "entry has folder completion. Right-click to choose how completion should "
+#~ "behave."
+#~ msgstr ""
+#~ "<p>Stegna do katalogù jaczi mô òstac wëskrzëniony.<p> Bë przeńc do "
+#~ "wczasni pòdónegò katalogù, sygnie wcësnąc na strzélkã z prawi starnie ë "
+#~ "wëbrac katalog. <p>Pòle wpisëwaniô katalogù òbsłużiwô aùtomatno "
+#~ "dofùlowanié pasownegò miona. Prawą knąpą mëszë mòże òznaczëc ôrt "
+#~ "dofùlowaniô."
 
-#: plugins/externaltools/kateexternaltools.cpp:298
-msgid "Kate External Tools"
-msgstr "Bùtnowé nôrzãdza Kate"
+#~ msgid ""
+#~ "<p>Here you can enter a name filter to limit which files are displayed."
+#~ "<p>To clear the filter, toggle off the filter button to the left.<p>To "
+#~ "reapply the last filter used, toggle on the filter button."
+#~ msgstr ""
+#~ "<p>Plac na filter miona lopków, jaczé mają bëc wëskrzëniané. "
+#~ "<p>Wëłączenié knąpë z prawi starnë wëczësczë pòle filtera.<p>Włączenié "
+#~ "knąpë doprowôdzy nazôd slédno brëkòwóny filter."
 
-#: plugins/externaltools/kateexternaltools.cpp:465
-msgid "Edit External Tool"
-msgstr "Editëjë bùtnowé nôrzãdza"
+#~ msgid ""
+#~ "<p>This button clears the name filter when toggled off, or reapplies the "
+#~ "last filter used when toggled on."
+#~ msgstr ""
+#~ "<p>Knąpa czësczë pòle filtera (przë wëłączaniém) abò doprowôdzô nazôd "
+#~ "slédno wpisóny filter (przë włączaniém)."
 
-#: plugins/externaltools/kateexternaltools.cpp:483
-msgid "&Label:"
-msgstr "&Miono:"
+#~ msgid "Apply last filter (\"%1\")"
+#~ msgstr "Ùżëjë slédny filter (\"%1\")"
 
-#: plugins/externaltools/kateexternaltools.cpp:488
-msgid "The name will be displayed in the 'Tools->External' menu"
-msgstr "Miono wëskrzëni sã w menu 'Nôrzãdza->Bùtnowé'"
+#~ msgid "Clear filter"
+#~ msgstr "Wëczëszczë filter"
 
-#: plugins/externaltools/kateexternaltools.cpp:500
-msgid "S&cript:"
-msgstr "Skri&pt:"
+#~ msgid "Toolbar"
+#~ msgstr "Lëstew nôrzãdzów"
 
-#: plugins/externaltools/kateexternaltools.cpp:505
-msgid ""
-"<p>The script to execute to invoke the tool. The script is passed to /bin/sh "
-"for execution. The following macros will be expanded:</p><ul><li><code>%URL</"
-"code> - the URL of the current document.<li><code>%URLs</code> - a list of "
-"the URLs of all open documents.<li><code>%directory</code> - the URL of the "
-"directory containing the current document.<li><code>%filename</code> - the "
-"filename of the current document.<li><code>%line</code> - the current line "
-"of the text cursor in the current view.<li><code>%column</code> - the column "
-"of the text cursor in the current view.<li><code>%selection</code> - the "
-"selected text in the current view.<li><code>%text</code> - the text of the "
-"current document.</ul>"
-msgstr ""
-"<p>Skript zrëszający bùtnowé nôrzãdze. Skript je przesłóny do /bin/sh. Je "
-"mòżno ùżëc nôslédnych makro:</p><ul><li><code>%URL</code> - URL biéżnegò "
-"dokùmentu.<li><code>%URLs</code> - lësta URL- ë wszëtczich òtemkłëch "
-"dokùmentów.<li><code>%directory</code> - URL katalogù zamëkającëch w se "
-"biéżny dokùment.<li><code>%filename</code> - miono lopka biéżnegò dokùmentu."
-"<li><code>%line</code> - numer réżczi w jaczi je kùrsor w biéżnym wëzdrzatkù."
-"<li><code>%column</code> - numer szpaltë w jaczi je kùrsor w aktualnym "
-"wëzdrzatkù.<li><code>%selection</code> -òznaczony tekst w biéżnym wëzdrzatkù."
-"<li><code>%text</code> - tekst biéżnegò dokùmentu.</ul>"
+#~ msgid "A&vailable actions:"
+#~ msgstr "Pr&zëstãpné dzéjaniô:"
 
-#: plugins/externaltools/kateexternaltools.cpp:525
-msgid "&Executable:"
-msgstr "&Wëkònëwólny lopk:"
+#~ msgid "S&elected actions:"
+#~ msgstr "Wë&bróné dzéjaniô:"
 
-#: plugins/externaltools/kateexternaltools.cpp:530
-msgid ""
-"The executable used by the command. This is used to check if a tool should "
-"be displayed; if not set, the first word of <em>command</em> will be used."
-msgstr ""
-"Wëkònëwólny lopk ùżëti w pòléce. Na nen ôrt bãdze sprôwdzoné, czë programa "
-"mô òstac pòkôzanô, eżlë nie òstało nick wëbróné, ùżëté bãdze pierszé słowò "
-"<em>pòlétu</em>."
+#~ msgid "Auto Synchronization"
+#~ msgstr "Aùtomatnô synchronizacëjô"
 
-#: plugins/externaltools/kateexternaltools.cpp:538
-msgid "&Mime types:"
-msgstr "Ôrtë &MIME:"
+#~ msgid "When a docu&ment becomes active"
+#~ msgstr "Przë aktiwacëji dokù&mentu"
 
-#: plugins/externaltools/kateexternaltools.cpp:543
-msgid ""
-"A semicolon-separated list of mime types for which this tool should be "
-"available; if this is left empty, the tool is always available. To choose "
-"from known mimetypes, press the button on the right."
-msgstr ""
-"Rozdzelonô przeczidnikama lësta ôrtów MIME, dlô jaczich nôrzãdze mùszało bë "
-"bëc przëstãpné. Jeżlë òstôwioné pùsté, nôrzãdze bãdze wiedno przëstãpné. Bë "
-"wëbrac ôrt znaków MIME wcësni knąpã z prawi."
+#~ msgid "When the file selector becomes visible"
+#~ msgstr "Jak wëbiérk lopka stôwô sã widzałi"
 
-#: plugins/externaltools/kateexternaltools.cpp:552
-msgid "Click for a dialog that can help you creating a list of mimetypes."
-msgstr "Klëkni bë òbôczëc òczénkò pòmôgôjącé ùsôdzëc lëstã ôrtów MIME."
+#~ msgid "Remember &locations:"
+#~ msgstr "Spamiãtóné &lokalizacëje:"
 
-#: plugins/externaltools/kateexternaltools.cpp:558
-msgid "&Save:"
-msgstr "&Zapiszë:"
+#~ msgid "Remember &filters:"
+#~ msgstr "Spamiãtóné &filtrë:"
 
-#: plugins/externaltools/kateexternaltools.cpp:562
-msgid "None"
-msgstr "Felënk"
+#~ msgid "Session"
+#~ msgstr "Sesëjô"
 
-#: plugins/externaltools/kateexternaltools.cpp:562
-msgid "Current Document"
-msgstr "Biéżny dokùment"
+#~ msgid "Restore loca&tion"
+#~ msgstr "&Doprowôdzë lokalizacëjã nazôd"
 
-#: plugins/externaltools/kateexternaltools.cpp:562
-msgid "All Documents"
-msgstr "Wszëtczé dokùmentë"
+#~ msgid "Restore last f&ilter"
+#~ msgstr "Doprowôdzë slédny filter nazôd"
 
-#: plugins/externaltools/kateexternaltools.cpp:566
-msgid ""
-"You can elect to save the current or all [modified] documents prior to "
-"running the command. This is helpful if you want to pass URLs to an "
-"application like, for example, an FTP client."
-msgstr ""
-"Mòżesz wëbrac zôpisanié biéżnegò abò wszëtczich (zjinaczonëch) dokùmentów "
-"przed zrëszeniém pòléta. Je to pòmòcné eżlë chcesz przekazac URL-e do "
-"programë jakno n.p. klient FTP."
+#~ msgid ""
+#~ "<p>Decides how many locations to keep in the history of the location "
+#~ "combo box."
+#~ msgstr ""
+#~ "<p>Òznôczô jak wiele lokalizacëjów nachôdô sã w lësce lokalizacëjów."
 
-#: plugins/externaltools/kateexternaltools.cpp:573
-msgid "&Command line name:"
-msgstr "Miono réżczi pòlét&ów:"
+#~ msgid ""
+#~ "<p>Decides how many filters to keep in the history of the filter combo "
+#~ "box."
+#~ msgstr ""
+#~ "<p>Òznôczô jak wiele filterów nachôdô sã w lësce historëji pòla filtera."
 
-#: plugins/externaltools/kateexternaltools.cpp:579
-msgid ""
-"If you specify a name here, you can invoke the command from the view command "
-"lines with exttool-the_name_you_specified_here. Please do not use spaces or "
-"tabs in the name."
-msgstr ""
-"Jeżlë pòdôsz tuwò miono, bãdzesz miôł mòżnotã zrëszaniô tegò pòléta z réżczi "
-"pòlétów wëzdrzatków przez exttool-miono_jaczé_të_pòdôł. Proszã nie brëkòwac "
-"w miono ruma czë tabsów."
+#~ msgid ""
+#~ "<p>These options allow you to have the File Selector automatically change "
+#~ "location to the folder of the active document on certain events.<p>Auto "
+#~ "synchronization is <em>lazy</em>, meaning it will not take effect until "
+#~ "the file selector is visible.<p>None of these are enabled by default, but "
+#~ "you can always sync the location by pressing the sync button in the "
+#~ "toolbar."
+#~ msgstr ""
+#~ "<p>Ne òptacëje zezwôlają na aùtomatną zmianã lokalizacëji na katalog w "
+#~ "jaczim je aktiwny dokùment, przë różnëch przëtrôfkach. <p>Automatnô "
+#~ "synchronizacëjô dzéjô wedle reglë <em>nôpózdzé jakno to mòżlëwé </em>, co "
+#~ "òznôczô tëli, żé bãdze ùsôdzonô dopiérze jak sektor lopków bãdze widzałi. "
+#~ "<p>Ne òptacëje są domëslno wëłączoné, le mòże téż synchronizowac katalog "
+#~ "dzãka knąpie na lëstwie nôrzãdzów."
 
-#: plugins/externaltools/kateexternaltools.cpp:590
-msgid "You must specify at least a name and a command"
-msgstr "Mùszisz òznaczëc przënômni miono ë pòlét"
+#~ msgid ""
+#~ "<p>If this option is enabled (default), the location will be restored "
+#~ "when you start Kate.<p><strong>Note</strong> that if the session is "
+#~ "handled by the KDE session manager, the location is always restored."
+#~ msgstr ""
+#~ "<p>Jeżlë na òptacëjô je włączonô (domëslno), to lokalizacëjô òstónié "
+#~ "òdzwëskanô przë zrëszaniô Kate. <p><strong>Bôczënk</strong> Jeżlë aktiwnô "
+#~ "je Menedżera sesëji KDE, to lokalizacëjô je ë tak òdzwëskiwónô."
 
-#: plugins/externaltools/kateexternaltools.cpp:599
-msgid "Select the MimeTypes for which to enable this tool."
-msgstr "Wëbierzë ôrtë MIME dlô jaczich òstónie włączoné to nôrzãdze"
+#~ msgid ""
+#~ "<p>If this option is enabled (default), the current filter will be "
+#~ "restored when you start Kate.<p><strong>Note</strong> that if the session "
+#~ "is handled by the KDE session manager, the filter is always restored."
+#~ "<p><strong>Note</strong> that some of the autosync settings may override "
+#~ "the restored location if on."
+#~ msgstr ""
+#~ "<p>Jeżlë na òptacëjô je włączonô (domëslno), to biéżny filter òstónié "
+#~ "òdzwëskóny przë zrëszaniô Kate. <p> <strong>Bôczënk</strong> Jeżlë "
+#~ "aktiwny je Menedżer sesëji KDE, to filter je ë tak òdzwëskiwóny. <p> "
+#~ "<strong>Bôczënk</strong> Niejedné nastôwë automatny synchronizacëji mògą "
+#~ "nôdpisac òdzwëskóną lokalizacëjã."
 
-#: plugins/externaltools/kateexternaltools.cpp:601
-msgid "Select Mime Types"
-msgstr "Wëbierzë ôrt MIME"
+#, fuzzy
+#~ msgid "Document Quick Switch"
+#~ msgstr "Lësta dokùmentów"
 
-#: plugins/externaltools/kateexternaltools.cpp:622
-msgid "&New..."
-msgstr "&Nowi..."
+#, fuzzy
+#~ msgid "&Filter:"
+#~ msgstr "Lopczi:"
 
-#: plugins/externaltools/kateexternaltools.cpp:626
-msgid "&Remove"
-msgstr ""
+#~ msgid "Failed to expand the command '%1'."
+#~ msgstr "Rozwiniãcé pòlétu '%1' nie darzeło sã."
 
-#: plugins/externaltools/kateexternaltools.cpp:630
-msgid "&Edit..."
-msgstr "&Editëjë..."
+#~ msgid "Kate External Tools"
+#~ msgstr "Bùtnowé nôrzãdza Kate"
 
-#: plugins/externaltools/kateexternaltools.cpp:634
-msgid "Insert &Separator"
-msgstr "Wstôwi &rozdzelôcz"
+#~ msgid "Edit External Tool"
+#~ msgstr "Editëjë bùtnowé nôrzãdza"
 
-#: plugins/externaltools/kateexternaltools.cpp:656
-msgid ""
-"This list shows all the configured tools, represented by their menu text."
-msgstr ""
-"Lësta pòkazëwô wszëtczé skònfigùrowóné nôrzãdza, przedstôwióné wedle jich "
-"tekstowégò menu"
+#~ msgid "&Label:"
+#~ msgstr "&Miono:"
 
-#: plugins/mailfiles/katemailfiles.cpp:60
-msgid "Send one or more of the open documents as email attachments."
-msgstr "Wësli jeden abò cziles dokùmentów pòcztą jakno przëdôwk."
+#~ msgid "The name will be displayed in the 'Tools->External' menu"
+#~ msgstr "Miono wëskrzëni sã w menu 'Nôrzãdza->Bùtnowé'"
 
-#: plugins/mailfiles/katemailfiles.cpp:91
-msgid ""
-"<p>The current document has not been saved, and cannot be attached to an "
-"email message.<p>Do you want to save it and proceed?"
-msgstr ""
-"<p>Biéżny dokùment nie òstôł zapisóny ë nié mòże òstac przëdóny do e-"
-"mailowégò wiadła.<p>Chcesz gò zapisac ë jisc dali?"
+#~ msgid "S&cript:"
+#~ msgstr "Skri&pt:"
 
-#: plugins/mailfiles/katemailfiles.cpp:94
-msgid "Cannot Send Unsaved File"
-msgstr "Nie je mòżno wësłac niezapisónëch lopków"
+#~ msgid ""
+#~ "<p>The script to execute to invoke the tool. The script is passed to /bin/"
+#~ "sh for execution. The following macros will be expanded:</p><ul><li><code>"
+#~ "%URL</code> - the URL of the current document.<li><code>%URLs</code> - a "
+#~ "list of the URLs of all open documents.<li><code>%directory</code> - the "
+#~ "URL of the directory containing the current document.<li><code>%filename</"
+#~ "code> - the filename of the current document.<li><code>%line</code> - the "
+#~ "current line of the text cursor in the current view.<li><code>%column</"
+#~ "code> - the column of the text cursor in the current view.<li><code>%"
+#~ "selection</code> - the selected text in the current view.<li><code>%text</"
+#~ "code> - the text of the current document.</ul>"
+#~ msgstr ""
+#~ "<p>Skript zrëszający bùtnowé nôrzãdze. Skript je przesłóny do /bin/sh. Je "
+#~ "mòżno ùżëc nôslédnych makro:</p><ul><li><code>%URL</code> - URL biéżnegò "
+#~ "dokùmentu.<li><code>%URLs</code> - lësta URL- ë wszëtczich òtemkłëch "
+#~ "dokùmentów.<li><code>%directory</code> - URL katalogù zamëkającëch w se "
+#~ "biéżny dokùment.<li><code>%filename</code> - miono lopka biéżnegò "
+#~ "dokùmentu.<li><code>%line</code> - numer réżczi w jaczi je kùrsor w "
+#~ "biéżnym wëzdrzatkù.<li><code>%column</code> - numer szpaltë w jaczi je "
+#~ "kùrsor w aktualnym wëzdrzatkù.<li><code>%selection</code> -òznaczony "
+#~ "tekst w biéżnym wëzdrzatkù.<li><code>%text</code> - tekst biéżnegò "
+#~ "dokùmentu.</ul>"
 
-#: plugins/mailfiles/katemailfiles.cpp:102
-#: plugins/mailfiles/katemailfiles.cpp:126
-msgid "The file could not be saved. Please check if you have write permission."
-msgstr ""
-"Nen lopk nie mòże òstac zapisóny. Ùgwësni sã, czë môsz prawò do zôpisu tegò "
-"lopka."
+#~ msgid "&Executable:"
+#~ msgstr "&Wëkònëwólny lopk:"
 
-#: plugins/mailfiles/katemailfiles.cpp:114
-#, qt-format
-msgid ""
-"<p>The current file:<br><strong>%1</strong><br>has been modified. "
-"Modifications will not be available in the attachment.<p>Do you want to save "
-"it before sending it?"
-msgstr ""
-"<p>Biéżny lopk<br><strong>%1</strong><br>òstôł zmieniony. Zmianów nie bãdze "
-"widzec w przëdôwkù. <p>Chcesz zapisac zmianë przed wësłaniém?"
+#~ msgid ""
+#~ "The executable used by the command. This is used to check if a tool "
+#~ "should be displayed; if not set, the first word of <em>command</em> will "
+#~ "be used."
+#~ msgstr ""
+#~ "Wëkònëwólny lopk ùżëti w pòléce. Na nen ôrt bãdze sprôwdzoné, czë "
+#~ "programa mô òstac pòkôzanô, eżlë nie òstało nick wëbróné, ùżëté bãdze "
+#~ "pierszé słowò <em>pòlétu</em>."
 
-#: plugins/mailfiles/katemailfiles.cpp:117
-msgid "Save Before Sending?"
-msgstr "Zapisac przes wësłaniém?"
+#~ msgid "&Mime types:"
+#~ msgstr "Ôrtë &MIME:"
 
-#: plugins/mailfiles/katemailfiles.cpp:117
-msgid "Do Not Save"
-msgstr "Nie zapisëje"
+#~ msgid ""
+#~ "A semicolon-separated list of mime types for which this tool should be "
+#~ "available; if this is left empty, the tool is always available. To choose "
+#~ "from known mimetypes, press the button on the right."
+#~ msgstr ""
+#~ "Rozdzelonô przeczidnikama lësta ôrtów MIME, dlô jaczich nôrzãdze mùszało "
+#~ "bë bëc przëstãpné. Jeżlë òstôwioné pùsté, nôrzãdze bãdze wiedno "
+#~ "przëstãpné. Bë wëbrac ôrt znaków MIME wcësni knąpã z prawi."
 
-#: plugins/mailfiles/katemailfilesdialog.cpp:55
-msgid "Email Files"
-msgstr "Wëslë lopk/lopczi e-mailą"
+#~ msgid "Click for a dialog that can help you creating a list of mimetypes."
+#~ msgstr "Klëkni bë òbôczëc òczénkò pòmôgôjącé ùsôdzëc lëstã ôrtów MIME."
 
-#: plugins/mailfiles/katemailfilesdialog.cpp:57
-#: plugins/mailfiles/katemailfilesdialog.cpp:117
-msgid "&Show All Documents >>"
-msgstr "&Pòkôżë wszëtczé dokùmentë >>"
+#~ msgid "&Save:"
+#~ msgstr "&Zapiszë:"
 
-#: plugins/mailfiles/katemailfilesdialog.cpp:61
-msgid "&Mail..."
-msgstr "&Wëslë"
+#~ msgid "None"
+#~ msgstr "Felënk"
 
-#: plugins/mailfiles/katemailfilesdialog.cpp:68
-msgid ""
-"<p>Press <strong>Mail...</strong> to email the current document.<p>To select "
-"more documents to send, press <strong>Show All Documents&nbsp;&gt;&gt;</"
-"strong>."
-msgstr ""
-"<p>Wcësni knąpã <strong>Wëslë...</strong>, bë wësłac pòcztą biéżny dokùment."
-"<p>Bë wëbrac wicy lopków do wësłaniô wcësni <strong>Pòkôżé wszëtczé "
-"dokùmentë&nbsp;&gt;&gt;</strong>."
+#~ msgid "Current Document"
+#~ msgstr "Biéżny dokùment"
 
-#: plugins/mailfiles/katemailfilesdialog.cpp:125
-msgid "&Hide Document List <<"
-msgstr "&Zatacë lëstã dokùmentów <<"
+#~ msgid "All Documents"
+#~ msgstr "Wszëtczé dokùmentë"
 
-#: plugins/mailfiles/katemailfilesdialog.cpp:126
-msgid "Press <strong>Mail...</strong> to send selected documents"
-msgstr "Wcësni <strong>Wëslë...</strong>, bë wësłac pòcztą wëbróné dokùmentë"
+#~ msgid ""
+#~ "You can elect to save the current or all [modified] documents prior to "
+#~ "running the command. This is helpful if you want to pass URLs to an "
+#~ "application like, for example, an FTP client."
+#~ msgstr ""
+#~ "Mòżesz wëbrac zôpisanié biéżnegò abò wszëtczich (zjinaczonëch) dokùmentów "
+#~ "przed zrëszeniém pòléta. Je to pòmòcné eżlë chcesz przekazac URL-e do "
+#~ "programë jakno n.p. klient FTP."
+
+#~ msgid "&Command line name:"
+#~ msgstr "Miono réżczi pòlét&ów:"
+
+#~ msgid ""
+#~ "If you specify a name here, you can invoke the command from the view "
+#~ "command lines with exttool-the_name_you_specified_here. Please do not use "
+#~ "spaces or tabs in the name."
+#~ msgstr ""
+#~ "Jeżlë pòdôsz tuwò miono, bãdzesz miôł mòżnotã zrëszaniô tegò pòléta z "
+#~ "réżczi pòlétów wëzdrzatków przez exttool-miono_jaczé_të_pòdôł. Proszã nie "
+#~ "brëkòwac w miono ruma czë tabsów."
+
+#~ msgid "You must specify at least a name and a command"
+#~ msgstr "Mùszisz òznaczëc przënômni miono ë pòlét"
+
+#~ msgid "Select the MimeTypes for which to enable this tool."
+#~ msgstr "Wëbierzë ôrtë MIME dlô jaczich òstónie włączoné to nôrzãdze"
+
+#~ msgid "Select Mime Types"
+#~ msgstr "Wëbierzë ôrt MIME"
+
+#~ msgid "&New..."
+#~ msgstr "&Nowi..."
+
+#~ msgid "&Edit..."
+#~ msgstr "&Editëjë..."
+
+#~ msgid "Insert &Separator"
+#~ msgstr "Wstôwi &rozdzelôcz"
+
+#~ msgid ""
+#~ "This list shows all the configured tools, represented by their menu text."
+#~ msgstr ""
+#~ "Lësta pòkazëwô wszëtczé skònfigùrowóné nôrzãdza, przedstôwióné wedle jich "
+#~ "tekstowégò menu"
+
+#~ msgid "Send one or more of the open documents as email attachments."
+#~ msgstr "Wësli jeden abò cziles dokùmentów pòcztą jakno przëdôwk."
+
+#~ msgid ""
+#~ "<p>The current document has not been saved, and cannot be attached to an "
+#~ "email message.<p>Do you want to save it and proceed?"
+#~ msgstr ""
+#~ "<p>Biéżny dokùment nie òstôł zapisóny ë nié mòże òstac przëdóny do e-"
+#~ "mailowégò wiadła.<p>Chcesz gò zapisac ë jisc dali?"
+
+#~ msgid "Cannot Send Unsaved File"
+#~ msgstr "Nie je mòżno wësłac niezapisónëch lopków"
+
+#~ msgid ""
+#~ "The file could not be saved. Please check if you have write permission."
+#~ msgstr ""
+#~ "Nen lopk nie mòże òstac zapisóny. Ùgwësni sã, czë môsz prawò do zôpisu "
+#~ "tegò lopka."
+
+#~ msgid ""
+#~ "<p>The current file:<br><strong>%1</strong><br>has been modified. "
+#~ "Modifications will not be available in the attachment.<p>Do you want to "
+#~ "save it before sending it?"
+#~ msgstr ""
+#~ "<p>Biéżny lopk<br><strong>%1</strong><br>òstôł zmieniony. Zmianów nie "
+#~ "bãdze widzec w przëdôwkù. <p>Chcesz zapisac zmianë przed wësłaniém?"
+
+#~ msgid "Save Before Sending?"
+#~ msgstr "Zapisac przes wësłaniém?"
+
+#~ msgid "Do Not Save"
+#~ msgstr "Nie zapisëje"
+
+#~ msgid "Email Files"
+#~ msgstr "Wëslë lopk/lopczi e-mailą"
+
+#~ msgid "&Show All Documents >>"
+#~ msgstr "&Pòkôżë wszëtczé dokùmentë >>"
+
+#~ msgid "&Mail..."
+#~ msgstr "&Wëslë"
+
+#~ msgid ""
+#~ "<p>Press <strong>Mail...</strong> to email the current document.<p>To "
+#~ "select more documents to send, press <strong>Show All Documents&nbsp;&gt;"
+#~ "&gt;</strong>."
+#~ msgstr ""
+#~ "<p>Wcësni knąpã <strong>Wëslë...</strong>, bë wësłac pòcztą biéżny "
+#~ "dokùment.<p>Bë wëbrac wicy lopków do wësłaniô wcësni <strong>Pòkôżé "
+#~ "wszëtczé dokùmentë&nbsp;&gt;&gt;</strong>."
+
+#~ msgid "&Hide Document List <<"
+#~ msgstr "&Zatacë lëstã dokùmentów <<"
+
+#~ msgid "Press <strong>Mail...</strong> to send selected documents"
+#~ msgstr ""
+#~ "Wcësni <strong>Wëslë...</strong>, bë wësłac pòcztą wëbróné dokùmentë"
