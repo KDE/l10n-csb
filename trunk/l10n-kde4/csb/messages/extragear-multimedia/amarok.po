@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-16 05:40+0200\n"
+"POT-Creation-Date: 2007-08-17 05:46+0200\n"
 "PO-Revision-Date: 2007-07-27 20:44+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -63,13 +63,13 @@ msgstr "%1 - %2"
 msgid "Local Collection"
 msgstr "Môlowô kòlekcëjô"
 
-#: context/ContextView.cpp:298
+#: context/ContextView.cpp:301
 #, fuzzy, qt-format
 #| msgid "&Settings"
 msgid "%1 Settings..."
 msgstr "Ùs&towë"
 
-#: context/ContextView.cpp:306
+#: context/ContextView.cpp:309
 #, qt-format
 msgid "Close this %1"
 msgstr ""
@@ -765,7 +765,7 @@ msgid "Dynamic Playlists"
 msgstr "Dinamiczné lëstë graniô"
 
 #: playlistbrowser.cpp:1137 playlistbrowser.cpp:1160
-#: podcasts/PodcastCollection.cpp:61 mediadevice/ipod/ipodmediadevice.cpp:1275
+#: mediadevice/ipod/ipodmediadevice.cpp:1275
 msgid "Podcasts"
 msgstr "Podcastë"
 
@@ -1853,6 +1853,12 @@ msgstr ""
 #: columnlist.cpp:183
 msgid "Playlist Columns"
 msgstr ""
+
+#: podcasts/PodcastCollection.cpp:53
+#, fuzzy
+#| msgid "Podcasts"
+msgid "Local Podcasts"
+msgstr "Podcastë"
 
 #: actionclasses.cpp:79
 msgid "Amarok Menu"
@@ -3636,10 +3642,6 @@ msgstr ""
 
 #: MainWindow.cpp:1086
 msgid "Burn Current Playlist"
-msgstr ""
-
-#: MainWindow.cpp:1093
-msgid "Update Podcasts"
 msgstr ""
 
 #: MainWindow.cpp:1100
@@ -10197,29 +10199,34 @@ msgstr ""
 msgid "Failed to set friendly name on the device!"
 msgstr ""
 
-#: portabledevices/kioslaves/mtp_backend/pmpkioslave_mtpbackend.cpp:153
-#: portabledevices/kioslaves/mtp_backend/pmpkioslave_mtpbackend.cpp:285
+#: portabledevices/kioslaves/mtp_backend/pmpkioslave_mtpbackend.cpp:151
+msgid "Direct copying not supported"
+msgstr ""
+
+#: portabledevices/kioslaves/mtp_backend/pmpkioslave_mtpbackend.cpp:172
+#: portabledevices/kioslaves/mtp_backend/pmpkioslave_mtpbackend.cpp:323
 msgid "Invalid path requested!"
 msgstr ""
 
-#: portabledevices/kioslaves/mtp_backend/pmpkioslave_mtpbackend.cpp:168
+#: portabledevices/kioslaves/mtp_backend/pmpkioslave_mtpbackend.cpp:194
+#: portabledevices/kioslaves/mtp_backend/pmpkioslave_mtpbackend.cpp:207
 #, qt-format
 msgid "libmtp reported failure deleting %1"
 msgstr ""
 
-#: portabledevices/kioslaves/mtp_backend/pmpkioslave_mtpbackend.cpp:188
-msgid "Could not find the proper path to delete!"
-msgstr ""
-
-#: portabledevices/kioslaves/mtp_backend/pmpkioslave_mtpbackend.cpp:256
+#: portabledevices/kioslaves/mtp_backend/pmpkioslave_mtpbackend.cpp:294
 msgid "Could not find any folders on device!"
 msgstr ""
 
-#: portabledevices/kioslaves/mtp_backend/pmpkioslave_mtpbackend.cpp:450
+#: portabledevices/kioslaves/mtp_backend/pmpkioslave_mtpbackend.cpp:388
+msgid "Stat requested on an invalid path!"
+msgstr ""
+
+#: portabledevices/kioslaves/mtp_backend/pmpkioslave_mtpbackend.cpp:491
 msgid "Receiving tracklisting...done"
 msgstr ""
 
-#: portabledevices/kioslaves/mtp_backend/pmpkioslave_mtpbackend.cpp:452
+#: portabledevices/kioslaves/mtp_backend/pmpkioslave_mtpbackend.cpp:493
 #, qt-format
 msgid "Receiving tracklisting...%1\\%"
 msgstr ""
@@ -10231,15 +10238,19 @@ msgid ""
 "<udi>"
 msgstr ""
 
-#: portabledevices/kioslaves/pmpkioslave.cpp:187
+#: portabledevices/kioslaves/pmpkioslave.cpp:95
+msgid "Direct copying not supported."
+msgstr ""
+
+#: portabledevices/kioslaves/pmpkioslave.cpp:197
 msgid "Destination name cannot be the same as a Solid UDI!"
 msgstr ""
 
-#: portabledevices/kioslaves/pmpkioslave.cpp:199
+#: portabledevices/kioslaves/pmpkioslave.cpp:209
 msgid "Could not rename file, files cannot be renamed across devices!"
 msgstr ""
 
-#: portabledevices/kioslaves/pmpkioslave.cpp:269
+#: portabledevices/kioslaves/pmpkioslave.cpp:279
 msgid "portable media player : Empty UDI passed in"
 msgstr ""
 
