@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-17 05:40+0200\n"
+"POT-Creation-Date: 2007-08-18 05:29+0200\n"
 "PO-Revision-Date: 2007-07-02 17:39+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -717,7 +717,7 @@ msgstr "Òbaczë wińdzenié HTML"
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 206
-#: rc.cpp:291
+#: rc.cpp:291 kutils/kpluginselector.cpp:62
 msgid "Settings"
 msgstr "Nastôwë"
 
@@ -10392,12 +10392,7 @@ msgid ""
 "p></qt>"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:62
-#, fuzzy
-msgid "More Options"
-msgstr "Wicy òptacëjów"
-
-#: kutils/kpluginselector.cpp:63 kutils/kpluginselector.cpp:1558
+#: kutils/kpluginselector.cpp:63
 #, fuzzy
 msgid "About"
 msgstr "Ò programie"
@@ -10456,7 +10451,13 @@ msgstr[2] ""
 msgid " since the last time you asked for details"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:1486
+#: kutils/kpluginselector.cpp:1586
+#, fuzzy, qt-format
+#| msgid "About %1"
+msgid "About %1 plugin"
+msgstr "Ò %1"
+
+#: kutils/kpluginselector.cpp:1596
 #, qt-format
 msgid ""
 "Description:\n"
@@ -10465,7 +10466,7 @@ msgstr ""
 "Òpis:\n"
 "\t%1"
 
-#: kutils/kpluginselector.cpp:1493
+#: kutils/kpluginselector.cpp:1603
 #, qt-format
 msgid ""
 "Author:\n"
@@ -10474,15 +10475,15 @@ msgstr ""
 "Ùsôdzca:\n"
 "\t%1"
 
-#: kutils/kpluginselector.cpp:1500
+#: kutils/kpluginselector.cpp:1610
 msgid "E-Mail:"
 msgstr "E-Mail:"
 
-#: kutils/kpluginselector.cpp:1521
+#: kutils/kpluginselector.cpp:1631
 msgid "Website:"
 msgstr "Starna WWW"
 
-#: kutils/kpluginselector.cpp:1542
+#: kutils/kpluginselector.cpp:1652
 #, qt-format
 msgid ""
 "Version:\n"
@@ -10491,7 +10492,7 @@ msgstr ""
 "Wersëjô:\n"
 "\t%1"
 
-#: kutils/kpluginselector.cpp:1550
+#: kutils/kpluginselector.cpp:1660
 #, qt-format
 msgid ""
 "License:\n"
@@ -11533,6 +11534,10 @@ msgid ""
 msgstr ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br>%3<br>Kòdowi pùnkt Unicode: %"
 "3<br>(Dziesãtkòwò: %5)</qt>"
+
+#, fuzzy
+#~ msgid "More Options"
+#~ msgstr "Wicy òptacëjów"
 
 #, fuzzy
 #~ msgctxt "Opposite to End"
