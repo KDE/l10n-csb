@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krandr\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-19 05:34+0200\n"
+"POT-Creation-Date: 2007-08-20 05:29+0200\n"
 "PO-Revision-Date: 2007-02-18 20:40+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -51,7 +51,7 @@ msgstr "Kònfigùracëjô ekranu òsta zmienionô"
 msgid "Screen Size"
 msgstr "Miara ekranu"
 
-#: krandrtray.cpp:181 krandrtray.cpp:242 krandrtray.cpp:324
+#: krandrtray.cpp:181 krandrtray.cpp:242 krandrtray.cpp:294
 msgid "Orientation"
 msgstr "Òrientacëjô"
 
@@ -68,7 +68,7 @@ msgstr "%1 - miara ekranu"
 msgid "Disable"
 msgstr "Wëłączë"
 
-#: krandrtray.cpp:252 krandrtray.cpp:347
+#: krandrtray.cpp:252 krandrtray.cpp:303
 msgid "Refresh Rate"
 msgstr "Zamanówszosc òdswiéżaniô"
 
@@ -76,17 +76,13 @@ msgstr "Zamanówszosc òdswiéżaniô"
 msgid "Unify Outputs"
 msgstr "Ùnifikòwóné wińdzenia"
 
-#: krandrtray.cpp:308 legacyrandrconfig.cpp:125
-#, qt-format
-msgid "%1 x %2"
-msgstr "%1 x %2"
-
-#: krandrtray.cpp:417 outputconfig.cpp:73
+#: krandrtray.cpp:363 legacyrandrconfig.cpp:268 legacyrandrscreen.cpp:245
+#: outputconfig.cpp:107
 #, qt-format
 msgid "%1 Hz"
 msgstr "%1 Hz"
 
-#: krandrtray.cpp:501
+#: krandrtray.cpp:456
 msgid "Configure Display"
 msgstr "Kònfigùracëjô ekranu"
 
@@ -97,6 +93,11 @@ msgid_plural "%1 seconds remaining:"
 msgstr[0] "Òsta 1 sekùnda:"
 msgstr[1] "Òstałe %1 sekùndë:"
 msgstr[2] "Òstało %1 sekùndów:"
+
+#: legacyrandrconfig.cpp:125
+#, qt-format
+msgid "%1 x %2"
+msgstr "%1 x %2"
 
 #: legacyrandrscreen.cpp:140
 #, qt-format
@@ -121,7 +122,7 @@ msgstr ""
 "Rozdzelnosc: %1 x %2\n"
 "Òrientacëjô: %3 Zamanówszosc òdswiéżaniô: %4"
 
-#: legacyrandrscreen.cpp:250 legacyrandrscreen.cpp:255
+#: legacyrandrscreen.cpp:235 legacyrandrscreen.cpp:240
 #, qt-format
 msgctxt "Refresh rate in Hertz (Hz)"
 msgid "%1 Hz"

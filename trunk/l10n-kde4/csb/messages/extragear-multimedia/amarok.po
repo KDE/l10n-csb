@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-18 05:35+0200\n"
+"POT-Creation-Date: 2007-08-20 05:34+0200\n"
 "PO-Revision-Date: 2007-07-27 20:44+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -53,7 +53,7 @@ msgstr "Strega"
 
 #: collection/sqlcollection/sqlmeta.cpp:155 covermanager.cpp:295
 #: covermanager.cpp:948 queuemanager.cpp:339 queuemanager.cpp:380
-#: queuemanager.cpp:408 queuemanager.cpp:453 MainWindow.cpp:732
+#: queuemanager.cpp:408 queuemanager.cpp:453 MainWindow.cpp:729
 #: metabundle.cpp:1044 playlistbrowseritem.cpp:1024
 #, qt-format
 msgid "%1 - %2"
@@ -263,21 +263,21 @@ msgstr "Biéj do biéżnégò katalogù sztëczka"
 msgid "Width"
 msgstr ""
 
-#: context/applets/lastfmevents/LastFmEvents.cpp:255
+#: context/applets/lastfmevents/LastFmEvents.cpp:252
 #, fuzzy
 #| msgid "Configure last.fm Support"
 msgid "Configure Last.Fm Events"
 msgstr "Kònfigùracëjô wspiarca dlô last.fm"
 
-#: context/applets/lastfmevents/LastFmEvents.cpp:264
+#: context/applets/lastfmevents/LastFmEvents.cpp:261
 msgid "Show Friend Events"
 msgstr ""
 
-#: context/applets/lastfmevents/LastFmEvents.cpp:266
+#: context/applets/lastfmevents/LastFmEvents.cpp:263
 msgid "Show Recommended Events"
 msgstr ""
 
-#: context/applets/lastfmevents/LastFmEvents.cpp:268
+#: context/applets/lastfmevents/LastFmEvents.cpp:265
 msgid "Show Your Future Events"
 msgstr ""
 
@@ -328,6 +328,10 @@ msgstr ""
 
 #: context/applets/lyrics/LyricsApplet.cpp:144
 msgid "Todo.... show suggestions here!"
+msgstr ""
+
+#: context/applets/wikipedia/WikipediaApplet.cpp:63
+msgid "Wikipedia"
 msgstr ""
 
 #: deviceconfiguredialog.cpp:40
@@ -572,7 +576,7 @@ msgstr "last.fm"
 msgid "Configure last.fm Support"
 msgstr "Kònfigùracëjô wspiarca dlô last.fm"
 
-#: configdialog/ConfigDialog.cpp:63 playlistbrowser.cpp:803 MainWindow.cpp:315
+#: configdialog/ConfigDialog.cpp:63 playlistbrowser.cpp:803 MainWindow.cpp:312
 msgid "Collection"
 msgstr "Kòlekcëje"
 
@@ -587,7 +591,7 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./newdynamic.ui line 136
 #: playlist.h:127 playlistbrowser.cpp:669 playlistbrowser.cpp:1946
-#: equalizersetup.cpp:396 MainWindow.cpp:711 rc.cpp:894 playlist.cpp:210
+#: equalizersetup.cpp:396 MainWindow.cpp:708 rc.cpp:894 playlist.cpp:210
 #: playlist.cpp:2207 playlist.cpp:4548 playlist/PlaylistModel.h:138
 #: filebrowser.cpp:339
 msgid "Untitled"
@@ -675,11 +679,11 @@ msgstr "Radio last.fm"
 msgid "Global Tags"
 msgstr "Òglowi tadżi"
 
-#: playlistbrowser.cpp:577 MainWindow.cpp:1182 MainWindow.cpp:1190
+#: playlistbrowser.cpp:577 MainWindow.cpp:1168 MainWindow.cpp:1176
 msgid "Neighbor Radio"
 msgstr "Sąsedczé radio"
 
-#: playlistbrowser.cpp:583 MainWindow.cpp:1181 MainWindow.cpp:1189
+#: playlistbrowser.cpp:583 MainWindow.cpp:1167 MainWindow.cpp:1175
 msgid "Personal Radio"
 msgstr "Swòjé radio"
 
@@ -818,8 +822,8 @@ msgstr[2] ""
 
 #: playlistbrowser.cpp:1629 playlistbrowser.cpp:1636 playlistbrowser.cpp:1640
 #: playlistbrowser.cpp:2576 mediadevice/mtp/mtpmediadevice.cpp:1175
-#: mediadevice/ipod/ipodmediadevice.cpp:1270 MainWindow.cpp:318
-#: MainWindow.cpp:320
+#: mediadevice/ipod/ipodmediadevice.cpp:1270 MainWindow.cpp:315
+#: MainWindow.cpp:317
 msgid "Playlists"
 msgstr ""
 
@@ -1323,7 +1327,7 @@ msgstr ""
 msgid "No MP3 Support"
 msgstr ""
 
-#: scriptmanager.cpp:150 MainWindow.cpp:1119
+#: scriptmanager.cpp:150 MainWindow.cpp:1111
 msgid "Script Manager"
 msgstr ""
 
@@ -1538,7 +1542,7 @@ msgstr ""
 msgid "Updating Collection..."
 msgstr ""
 
-#: covermanager.cpp:107
+#: covermanager.cpp:107 MainWindow.cpp:1088
 msgid "Cover Manager"
 msgstr ""
 
@@ -1864,11 +1868,7 @@ msgstr "Podcastë"
 msgid "Amarok Menu"
 msgstr ""
 
-#: actionclasses.cpp:130
-msgid "C&over Manager"
-msgstr ""
-
-#: actionclasses.cpp:132 MainWindow.cpp:1310 analyzers/blockanalyzer.cpp:452
+#: actionclasses.cpp:132 MainWindow.cpp:1092 analyzers/blockanalyzer.cpp:452
 #: widgets/analyzerwidget.cpp:64
 msgid "&Visualizations"
 msgstr ""
@@ -1877,107 +1877,103 @@ msgstr ""
 msgid "E&qualizer"
 msgstr ""
 
-#: actionclasses.cpp:141 MainWindow.cpp:1317
-msgid "&Rescan Collection"
-msgstr ""
-
-#: actionclasses.cpp:159
+#: actionclasses.cpp:157
 msgid "&Help"
 msgstr ""
 
-#: actionclasses.cpp:224 app.cpp:443
+#: actionclasses.cpp:216 app.cpp:443
 msgid "Play/Pause"
 msgstr ""
 
-#: actionclasses.cpp:239 actionclasses.cpp:244 MainWindow.cpp:1209 app.cpp:439
+#: actionclasses.cpp:231 actionclasses.cpp:236 MainWindow.cpp:1195 app.cpp:439
 msgid "Pause"
 msgstr ""
 
-#: actionclasses.cpp:249 MainWindow.cpp:1203 app.cpp:434
+#: actionclasses.cpp:241 MainWindow.cpp:1189 app.cpp:434
 msgid "Play"
 msgstr ""
 
-#: actionclasses.cpp:348
+#: actionclasses.cpp:340
 msgid "Click to change"
 msgstr ""
 
-#: actionclasses.cpp:355
+#: actionclasses.cpp:347
 msgid "Ra&ndom"
 msgstr ""
 
-#: actionclasses.cpp:357 actionclasses.cpp:393
+#: actionclasses.cpp:349 actionclasses.cpp:385
 msgid "&Off"
 msgstr ""
 
-#: actionclasses.cpp:357
+#: actionclasses.cpp:349
 msgid "&Tracks"
 msgstr ""
 
-#: actionclasses.cpp:357
+#: actionclasses.cpp:349
 msgid "&Albums"
 msgstr ""
 
-#: actionclasses.cpp:376
+#: actionclasses.cpp:368
 msgid "&Favor"
 msgstr ""
 
-#: actionclasses.cpp:378
+#: actionclasses.cpp:370
 msgid "Off"
 msgstr "wëłączoné"
 
-#: actionclasses.cpp:379
+#: actionclasses.cpp:371
 msgid "Higher &Scores"
 msgstr ""
 
-#: actionclasses.cpp:380
+#: actionclasses.cpp:372
 msgid "Higher &Ratings"
 msgstr ""
 
-#: actionclasses.cpp:381
+#: actionclasses.cpp:373
 msgid "Not Recently &Played"
 msgstr ""
 
-#: actionclasses.cpp:391
+#: actionclasses.cpp:383
 msgid "&Repeat"
 msgstr ""
 
-#: actionclasses.cpp:393
+#: actionclasses.cpp:385
 msgid "&Track"
 msgstr ""
 
-#: actionclasses.cpp:394
+#: actionclasses.cpp:386
 msgid "&Album"
 msgstr ""
 
-#: actionclasses.cpp:394 MainWindow.cpp:1273
+#: actionclasses.cpp:386 MainWindow.cpp:1259
 msgid "&Playlist"
 msgstr ""
 
-#: actionclasses.cpp:405
+#: actionclasses.cpp:397
 msgid "Burn"
 msgstr ""
 
-#: actionclasses.cpp:438
+#: actionclasses.cpp:430
 msgid "Current Playlist"
 msgstr ""
 
-#: actionclasses.cpp:439
+#: actionclasses.cpp:431
 msgid "Selected Tracks"
 msgstr ""
 
-#: actionclasses.cpp:479 actionclasses.cpp:518 app.cpp:448
+#: actionclasses.cpp:471 actionclasses.cpp:510 app.cpp:448
 msgid "Stop"
 msgstr ""
 
-#: actionclasses.cpp:519
+#: actionclasses.cpp:511
 msgid "Now"
 msgstr ""
 
-#: actionclasses.cpp:520
+#: actionclasses.cpp:512
 msgid "After Current Track"
 msgstr ""
 
-#: actionclasses.cpp:521
+#: actionclasses.cpp:513
 msgid "After Queue"
 msgstr ""
 
@@ -2016,7 +2012,7 @@ msgstr ""
 msgid "Plugin Information"
 msgstr ""
 
-#: queuemanager/QueueManager.cpp:51 queuemanager.cpp:255 MainWindow.cpp:1125
+#: queuemanager/QueueManager.cpp:51 queuemanager.cpp:255 MainWindow.cpp:1115
 msgid "Queue Manager"
 msgstr ""
 
@@ -2703,7 +2699,7 @@ msgstr ""
 msgid "Tags"
 msgstr ""
 
-#: tagdialog.cpp:429 MainWindow.cpp:1145
+#: tagdialog.cpp:429 MainWindow.cpp:1129
 msgid "Statistics"
 msgstr ""
 
@@ -3582,149 +3578,151 @@ msgstr ""
 msgid "Could not read Rio Karma tracks"
 msgstr ""
 
-#: MainWindow.cpp:324
+#: MainWindow.cpp:321
 msgid "Files"
 msgstr ""
 
-#: MainWindow.cpp:336
+#: MainWindow.cpp:333
 msgid "Internet"
 msgstr ""
 
-#: MainWindow.cpp:355 mediumpluginmanager.cpp:79
+#: MainWindow.cpp:352 mediumpluginmanager.cpp:79
 msgid "Devices"
 msgstr ""
 
-#: MainWindow.cpp:765
+#: MainWindow.cpp:766
 msgid "Play Media (Files or URLs)"
 msgstr ""
 
-#: MainWindow.cpp:765
+#: MainWindow.cpp:766
 msgid "Add Media (Files or URLs)"
 msgstr ""
 
-#: MainWindow.cpp:784
+#: MainWindow.cpp:785
 msgid "Add Stream"
 msgstr ""
 
-#: MainWindow.cpp:784 playlistbrowseritem.cpp:1168
+#: MainWindow.cpp:785 playlistbrowseritem.cpp:1168
 #: playlistbrowseritem.cpp:2093 playlistbrowseritem.cpp:2742
 msgid "URL"
 msgstr "URL"
 
-#: MainWindow.cpp:950 MainWindow.cpp:1333
+#: MainWindow.cpp:951 MainWindow.cpp:1316
 msgid "Hide Toolbar"
 msgstr ""
 
-#: MainWindow.cpp:950 MainWindow.cpp:1333
+#: MainWindow.cpp:951 MainWindow.cpp:1316
 msgid "Show Toolbar"
 msgstr ""
 
-#: MainWindow.cpp:1042
+#: MainWindow.cpp:1040
 msgid "Media Device"
 msgstr ""
 
-#: MainWindow.cpp:1071
+#: MainWindow.cpp:1067
 msgid "&Add Media..."
 msgstr ""
 
-#: MainWindow.cpp:1077
+#: MainWindow.cpp:1071
 msgctxt "clear playlist"
 msgid "&Clear"
 msgstr ""
 
-#: MainWindow.cpp:1083
+#: MainWindow.cpp:1075
 msgid "&Add Stream..."
 msgstr ""
 
-#: MainWindow.cpp:1089
+#: MainWindow.cpp:1079
 msgid "&Save Playlist As..."
 msgstr ""
 
-#: MainWindow.cpp:1093
+#: MainWindow.cpp:1083
 msgid "Burn Current Playlist"
 msgstr ""
 
-#: MainWindow.cpp:1107
+#: MainWindow.cpp:1103
 msgid "Play Media..."
 msgstr ""
 
-#: MainWindow.cpp:1113
+#: MainWindow.cpp:1107
 msgid "Play Audio CD"
 msgstr ""
 
-#: MainWindow.cpp:1131
+#: MainWindow.cpp:1119
 msgid "&Seek Forward"
 msgstr ""
 
-#: MainWindow.cpp:1138
+#: MainWindow.cpp:1124
 msgid "&Seek Backward"
 msgstr ""
 
-#: MainWindow.cpp:1151
+#: MainWindow.cpp:1133
 msgid "Update Collection"
 msgstr ""
 
-#: MainWindow.cpp:1162 MainWindow.cpp:1171
+#: MainWindow.cpp:1137
+#, fuzzy
+#| msgid "Local Collection"
+msgid "Rescan Collection"
+msgstr "Môlowô kòlekcëjô"
+
+#: MainWindow.cpp:1148 MainWindow.cpp:1157
 msgid "Global Tag Radio"
 msgstr ""
 
-#: MainWindow.cpp:1179
+#: MainWindow.cpp:1165
 msgid "Play las&t.fm Stream"
 msgstr ""
 
-#: MainWindow.cpp:1183 MainWindow.cpp:1191
+#: MainWindow.cpp:1169 MainWindow.cpp:1177
 msgid "Custom Station"
 msgstr ""
 
-#: MainWindow.cpp:1187
+#: MainWindow.cpp:1173
 msgid "Add las&t.fm Stream"
 msgstr ""
 
-#: MainWindow.cpp:1197 app.cpp:463
+#: MainWindow.cpp:1183 app.cpp:463
 msgid "Previous Track"
 msgstr ""
 
-#: MainWindow.cpp:1215 app.cpp:458
+#: MainWindow.cpp:1201 app.cpp:458
 msgid "Next Track"
 msgstr ""
 
-#: MainWindow.cpp:1219
+#: MainWindow.cpp:1205
 msgid "Toggle Focus"
 msgstr ""
 
-#: MainWindow.cpp:1255
+#: MainWindow.cpp:1241
 msgid "&Amarok"
 msgstr ""
 
-#: MainWindow.cpp:1296
+#: MainWindow.cpp:1282
 msgid "&Mode"
 msgstr ""
 
-#: MainWindow.cpp:1307
+#: MainWindow.cpp:1292
 msgid "&Tools"
 msgstr "&Nôrzãdza"
 
-#: MainWindow.cpp:1308
-msgid "&Cover Manager"
-msgstr ""
-
-#: MainWindow.cpp:1312 widgets/sliderwidget.cpp:232
+#: MainWindow.cpp:1296 widgets/sliderwidget.cpp:232
 msgid "&Equalizer"
 msgstr ""
 
-#: MainWindow.cpp:1330
+#: MainWindow.cpp:1313
 msgid "&Settings"
 msgstr "Ùs&towë"
 
-#: MainWindow.cpp:1377
+#: MainWindow.cpp:1360
 msgid "Edit"
 msgstr ""
 
-#: MainWindow.cpp:1380 playlist.cpp:3770
+#: MainWindow.cpp:1363 playlist.cpp:3770
 msgid "Repopulate"
 msgstr ""
 
-#: MainWindow.cpp:1383
+#: MainWindow.cpp:1366
 msgid "Turn Off"
 msgstr ""
 
@@ -10767,7 +10765,7 @@ msgid "Purchase Album"
 msgstr ""
 
 #: servicebrowser/magnatunestore/MagnatuneStore.cpp:164
-#: servicebrowser/jamendo/jamendoservice.cpp:52
+#: servicebrowser/jamendo/jamendoservice.cpp:54
 msgid "Update"
 msgstr ""
 
@@ -10802,7 +10800,7 @@ msgstr ""
 msgid "Authenticating"
 msgstr ""
 
-#: servicebrowser/jamendo/jamendoservice.cpp:109
+#: servicebrowser/jamendo/jamendoservice.cpp:112
 msgid "Downloading Jamendo.com Database"
 msgstr ""
 
