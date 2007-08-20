@@ -1,0 +1,137 @@
+# translation of phonon-xine.po to Kashubian
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Michôł Òstrowsczi <michol@linuxcsb.org>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: phonon-xine\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-08-18 05:30+0200\n"
+"PO-Revision-Date: 2007-08-20 20:14+0200\n"
+"Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
+"Language-Team: Kashubian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: backend.cpp:66
+msgid "Phonon Xine Backend"
+msgstr "Interfejs Phonon Xine"
+
+#: mediaobject.cpp:428 xinestream.cpp:118
+#, qt-format
+msgid "Cannot open media data at '<i>%1</i>'"
+msgstr "Nie mòże òtemknąc pòdôwków media w '<i>%1</i>'"
+
+#: volumefader_plugin.cpp:138
+msgid "fade curve"
+msgstr "krzëwô dżiniãcô"
+
+#: volumefader_plugin.cpp:139
+msgid "current volume"
+msgstr "ternô głosnosc"
+
+#: volumefader_plugin.cpp:140
+msgid "volume to fade to"
+msgstr "głosnosc do dżiniãcô"
+
+#: volumefader_plugin.cpp:141
+msgid "fade time in milliseconds"
+msgstr "czas dżiniãcô w milisekùndach"
+
+#: volumefader_plugin.cpp:226
+msgid ""
+"Normalizes audio by maximizing the volume without distorting the sound.\n"
+"\n"
+"Parameters:\n"
+"  method: 1: use a single sample to smooth the variations via the standard "
+"weighted mean over past samples (default); 2: use several samples to smooth "
+"the variations via the standard weighted mean over past samples.\n"
+msgstr ""
+"Normalizëje aùdio bez maksymalizacëjã głosnoscë bez zesztôłcaniô zwãkù.\n"
+"\n"
+"Parametrë:\n"
+"  metoda: 1: brëkùjë pòjedińczi próbczi bë głôdzëc wariacëje standardową strzédną pòprzédné próbczi (domëslnô); 2: brëkùjë wicy próbków bë wëgłôdzëc wariacëje sztandardową strzédną pòprzédné próbczi.\n"
+
+#: volumefadereffect.cpp:51
+msgid "Volume"
+msgstr "Głosnosc"
+
+#: volumefadereffect.cpp:52
+msgid "Fade Curve"
+msgstr "Krzëwô dżiniãcô"
+
+#: volumefadereffect.cpp:54
+msgid "Fade To Volume"
+msgstr "Dżiniãcé zwãkù"
+
+#: volumefadereffect.cpp:55
+msgid "Fade Time"
+msgstr "Czas dżiniãcô"
+
+#: volumefadereffect.cpp:57
+msgid "Start Fade"
+msgstr "Zrëszë dżiniãce"
+
+#: xineengine.cpp:327
+msgid ""
+"<html>This device is currently not available (either it is unplugged or the "
+"driver is not loaded).</html>"
+msgstr "<html>Ne ùrządzenié nie je terô przëstãpné (abò je òdłączoné abò czérownik nie je zaladowóny).</html>"
+
+#: xineengine.cpp:329
+#, qt-format
+msgid ""
+"<html>This will try the following devices and use the first that works: "
+"<ol><li>%1</li></ol></html>"
+msgstr "<html>Próbùje ne ùrządzenia ë wëbierze to, jaczé pierszé bãdze robic: <ol><li>%1</li></ol></html>"
+
+#: xineengine.cpp:416
+msgid "Jack Audio Connection Kit"
+msgstr "Jack Audio Connection Kit"
+
+#: xineengine.cpp:417
+msgid ""
+"<html><p>JACK is a low-latency audio server. It can connect a number of "
+"different applications to an audio device, as well as allowing them to share "
+"audio between themselves.</p><p>JACK was designed from the ground up for "
+"professional audio work, and its design focuses on two key areas: "
+"synchronous execution of all clients, and low latency operation.</p></html>"
+msgstr "<html><p>JACK je serwera krótczégò òpózdzeniô. Mòże pòłączëc wiele różnëch aplikacëjów do ùrządzenia aùdio, a téż pòzwôlec jima na wespółdzelenié zwãkù midze nima.</p><p>JACK òstôł zaprojektowóny òd zaczątkù dlô profesjonalny robòtë nad zwãkã a jegò dbą je dzejanié w dwóch wôżnëch môlach: synchronikòwô robòta wszëtczéch klientów a krótczé òpózdzenia.</p></html>"
+
+#: xineengine.cpp:425
+msgid "aRts"
+msgstr "aRts"
+
+#: xineengine.cpp:426
+msgid ""
+"<html><p>aRts is the old soundserver and media framework that was used in "
+"KDE2 and KDE3. Its use is discuraged.</p></html>"
+msgstr "<html><p>aRts je stôra serwera zwãkù ë sztruktura brëkòwónô w KDE2 ë KDE3. Jegò ùżëcé nie je zalécóné.</p></html>"
+
+#: xinestream.cpp:132
+#, qt-format
+msgid "cannot find input plugin for MRL [%1]"
+msgstr "nie mòże nalezc wtëkôcza dlô MRL [%1]"
+
+#: xinestream.cpp:136
+msgid "cannot find demultiplexer plugin for the given media data"
+msgstr "nie mòże nalezc wtëkôcza demùltipleksera dlô dónëch pòdôwków mediów"
+
+#: xinestream.cpp:138
+#, qt-format
+msgid "cannot find demultiplexer plugin for MRL [%1]"
+msgstr "nie mòże nalezc wtëkôcza demùltipleksera dlô MRL [%1]"
+
+#: xinestream.cpp:848 xinestream.cpp:946 xinestream.cpp:986
+#: xinestream.cpp:1014
+msgid "Xine failed to create a stream."
+msgstr "Xine nie darzëło sã ùsôdzëc strëdżi."
+
+#: xinestream.cpp:929
+msgid "Playback failed because no valid audio or video outputs are available"
+msgstr "Òdgrëwanié nie darzëło sã bò nie je przëstãpné niżódné wińdzenié aùdio czë wideò"
+
