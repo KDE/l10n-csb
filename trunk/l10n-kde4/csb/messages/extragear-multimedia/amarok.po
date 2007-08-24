@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-23 05:43+0200\n"
+"POT-Creation-Date: 2007-08-24 05:38+0200\n"
 "PO-Revision-Date: 2007-07-27 20:44+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -53,7 +53,7 @@ msgstr "Strega"
 
 #: collection/sqlcollection/sqlmeta.cpp:155 covermanager.cpp:325
 #: covermanager.cpp:972 queuemanager.cpp:339 queuemanager.cpp:380
-#: queuemanager.cpp:408 queuemanager.cpp:453 MainWindow.cpp:730
+#: queuemanager.cpp:408 queuemanager.cpp:453 MainWindow.cpp:728
 #: metabundle.cpp:1044 playlistbrowseritem.cpp:1024
 #, qt-format
 msgid "%1 - %2"
@@ -253,13 +253,13 @@ msgstr ""
 msgid "Your machine does not support OpenGL applets."
 msgstr ""
 
-#: context/applets/currenttrack/CurrentTrack.cpp:176
+#: context/applets/currenttrack/CurrentTrack.cpp:168
 #, fuzzy
 #| msgid "Go To Current Track Folder"
 msgid "Configure Current Track Applet"
 msgstr "Biéj do biéżnégò katalogù sztëczka"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:188
+#: context/applets/currenttrack/CurrentTrack.cpp:180
 msgid "Width"
 msgstr ""
 
@@ -289,7 +289,7 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./trackpickerdialogbase.ui line 92
 #: context/applets/lyrics/LyricsApplet.cpp:77 editfilterdialog.cpp:174
-#: metabundle.cpp:120 rc.cpp:458 smartplaylisteditor.cpp:174
+#: metabundle.cpp:120 rc.cpp:458 smartplaylisteditor.cpp:176
 #: playlist/PlaylistModel.cpp:218
 msgid "Title"
 msgstr "Titel"
@@ -298,7 +298,7 @@ msgstr "Titel"
 #. i18n: file ./trackpickerdialogbase.ui line 103
 #: context/applets/lyrics/LyricsApplet.cpp:81 editfilterdialog.cpp:130
 #: metabundle.cpp:121 collectionbrowser/CollectionTreeItemModelBase.cpp:411
-#: rc.cpp:461 smartplaylisteditor.cpp:174 smartplaylisteditor.cpp:188
+#: rc.cpp:461 smartplaylisteditor.cpp:176 smartplaylisteditor.cpp:190
 #: transferdialog.cpp:85 playlist/PlaylistHeader.cpp:33
 #: playlist/PlaylistModel.cpp:219 playlistbrowseritem.cpp:3045
 #: playlistbrowseritem.cpp:3292
@@ -591,7 +591,7 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./newdynamic.ui line 136
 #: playlist.h:127 playlistbrowser.cpp:669 playlistbrowser.cpp:1946
-#: equalizersetup.cpp:396 MainWindow.cpp:709 rc.cpp:894 playlist.cpp:210
+#: equalizersetup.cpp:396 MainWindow.cpp:707 rc.cpp:894 playlist.cpp:210
 #: playlist.cpp:2207 playlist.cpp:4548 playlist/PlaylistModel.h:138
 #: filebrowser.cpp:339
 msgid "Untitled"
@@ -679,11 +679,11 @@ msgstr "Radio last.fm"
 msgid "Global Tags"
 msgstr "Òglowi tadżi"
 
-#: playlistbrowser.cpp:577 MainWindow.cpp:1169 MainWindow.cpp:1177
+#: playlistbrowser.cpp:577 MainWindow.cpp:1167 MainWindow.cpp:1175
 msgid "Neighbor Radio"
 msgstr "Sąsedczé radio"
 
-#: playlistbrowser.cpp:583 MainWindow.cpp:1168 MainWindow.cpp:1176
+#: playlistbrowser.cpp:583 MainWindow.cpp:1166 MainWindow.cpp:1174
 msgid "Personal Radio"
 msgstr "Swòjé radio"
 
@@ -1031,31 +1031,31 @@ msgstr ""
 #. i18n: file ./trackpickerdialogbase.ui line 114
 #: editfilterdialog.cpp:128 mediadevice/ifp/ifpmediadevice.cpp:403
 #: metabundle.cpp:125 collectionbrowser/CollectionTreeItemModelBase.cpp:410
-#: rc.cpp:464 smartplaylisteditor.cpp:174 smartplaylisteditor.cpp:188
+#: rc.cpp:464 smartplaylisteditor.cpp:176 smartplaylisteditor.cpp:190
 #: transferdialog.cpp:86 playlist/PlaylistHeader.cpp:33
 #: playlist/PlaylistModel.cpp:223 playlistbrowseritem.cpp:3065
 #: playlistbrowseritem.cpp:3296
 msgid "Album"
 msgstr ""
 
-#: editfilterdialog.cpp:132 metabundle.cpp:134 smartplaylisteditor.cpp:178
+#: editfilterdialog.cpp:132 metabundle.cpp:134 smartplaylisteditor.cpp:180
 #: playlist/PlaylistModel.cpp:232
 msgid "Bitrate"
 msgstr ""
 
-#: editfilterdialog.cpp:134 metabundle.cpp:128 smartplaylisteditor.cpp:178
+#: editfilterdialog.cpp:134 metabundle.cpp:128 smartplaylisteditor.cpp:180
 #: playlist/PlaylistModel.cpp:226
 msgid "BPM"
 msgstr ""
 
-#: editfilterdialog.cpp:136 metabundle.cpp:130 smartplaylisteditor.cpp:175
+#: editfilterdialog.cpp:136 metabundle.cpp:130 smartplaylisteditor.cpp:177
 #: playlist/PlaylistModel.cpp:228
 msgid "Comment"
 msgstr "Dopòwiesc"
 
 #: editfilterdialog.cpp:138 metabundle.cpp:123
 #: collectionbrowser/CollectionTreeItemModelBase.cpp:412
-#: smartplaylisteditor.cpp:174 smartplaylisteditor.cpp:188
+#: smartplaylisteditor.cpp:176 smartplaylisteditor.cpp:190
 #: playlist/PlaylistModel.cpp:221 playlistbrowseritem.cpp:3055
 #: playlistbrowseritem.cpp:3294
 msgid "Composer"
@@ -1073,7 +1073,7 @@ msgstr ""
 msgid "Filename"
 msgstr ""
 
-#: editfilterdialog.cpp:146 smartplaylisteditor.cpp:178
+#: editfilterdialog.cpp:146 smartplaylisteditor.cpp:180
 msgid "Mount Point"
 msgstr ""
 
@@ -1083,20 +1083,20 @@ msgstr ""
 
 #: editfilterdialog.cpp:150 metabundle.cpp:129
 #: collectionbrowser/CollectionTreeItemModelBase.cpp:413
-#: smartplaylisteditor.cpp:174 smartplaylisteditor.cpp:188
+#: smartplaylisteditor.cpp:176 smartplaylisteditor.cpp:190
 #: transferdialog.cpp:87 playlist/PlaylistModel.cpp:227
 #: playlistbrowseritem.cpp:3035 playlistbrowseritem.cpp:3290
 msgid "Genre"
 msgstr ""
 
-#: editfilterdialog.cpp:152 metabundle.cpp:133 smartplaylisteditor.cpp:174
+#: editfilterdialog.cpp:152 metabundle.cpp:133 smartplaylisteditor.cpp:176
 #: playlist/PlaylistHeader.cpp:33 playlist/PlaylistModel.cpp:231
 #: playlistbrowseritem.cpp:831
 msgid "Length"
 msgstr ""
 
-#: editfilterdialog.cpp:154 smartplaylisteditor.cpp:178
-#: smartplaylisteditor.cpp:188 playlistbrowseritem.cpp:3085
+#: editfilterdialog.cpp:154 smartplaylisteditor.cpp:180
+#: smartplaylisteditor.cpp:190 playlistbrowseritem.cpp:3085
 #: playlistbrowseritem.cpp:3300
 msgid "Label"
 msgstr ""
@@ -1105,7 +1105,7 @@ msgstr ""
 msgid "Play Count"
 msgstr ""
 
-#: editfilterdialog.cpp:162 metabundle.cpp:137 smartplaylisteditor.cpp:176
+#: editfilterdialog.cpp:162 metabundle.cpp:137 smartplaylisteditor.cpp:178
 #: playlist/PlaylistModel.cpp:235
 msgid "Rating"
 msgstr ""
@@ -1115,7 +1115,7 @@ msgid "Sample Rate"
 msgstr ""
 
 #: editfilterdialog.cpp:169 scriptmanager.cpp:172 scriptmanager.cpp:816
-#: metabundle.cpp:136 smartplaylisteditor.cpp:176
+#: metabundle.cpp:136 smartplaylisteditor.cpp:178
 #: playlist/PlaylistModel.cpp:234
 msgid "Score"
 msgstr ""
@@ -1135,8 +1135,8 @@ msgstr ""
 #. i18n: file ./trackpickerdialogbase.ui line 136
 #: editfilterdialog.cpp:178 metabundle.cpp:124
 #: collectionbrowser/CollectionTreeItemModelBase.cpp:414 rc.cpp:470
-#: smartplaylisteditor.cpp:175 smartplaylisteditor.cpp:188
-#: smartplaylisteditor.cpp:906 playlist/PlaylistModel.cpp:222
+#: smartplaylisteditor.cpp:177 smartplaylisteditor.cpp:190
+#: smartplaylisteditor.cpp:908 playlist/PlaylistModel.cpp:222
 #: playlistbrowseritem.cpp:3075 playlistbrowseritem.cpp:3298
 msgid "Year"
 msgstr ""
@@ -1165,9 +1165,9 @@ msgstr ""
 msgid "between"
 msgstr ""
 
-#: editfilterdialog.cpp:230 smartplaylisteditor.cpp:919
-#: smartplaylisteditor.cpp:941 smartplaylisteditor.cpp:969
-#: smartplaylisteditor.cpp:988
+#: editfilterdialog.cpp:230 smartplaylisteditor.cpp:921
+#: smartplaylisteditor.cpp:943 smartplaylisteditor.cpp:971
+#: smartplaylisteditor.cpp:990
 msgid "and"
 msgstr ""
 
@@ -1273,12 +1273,12 @@ msgid ""
 msgstr ""
 
 #: editfilterdialog.cpp:509 editfilterdialog.cpp:512
-#: smartplaylisteditor.cpp:996
+#: smartplaylisteditor.cpp:998
 msgid "Seconds"
 msgstr ""
 
 #: editfilterdialog.cpp:555 editfilterdialog.cpp:556
-#: smartplaylisteditor.cpp:997
+#: smartplaylisteditor.cpp:999
 msgid "Minutes"
 msgstr ""
 
@@ -1327,7 +1327,7 @@ msgstr ""
 msgid "No MP3 Support"
 msgstr ""
 
-#: scriptmanager.cpp:150 MainWindow.cpp:1112
+#: scriptmanager.cpp:150 MainWindow.cpp:1110
 msgid "Script Manager"
 msgstr ""
 
@@ -1542,7 +1542,7 @@ msgstr ""
 msgid "Updating Collection..."
 msgstr ""
 
-#: covermanager.cpp:106 MainWindow.cpp:1076
+#: covermanager.cpp:106 MainWindow.cpp:1074
 msgid "Cover Manager"
 msgstr ""
 
@@ -1872,11 +1872,11 @@ msgstr ""
 msgid "Play/Pause"
 msgstr ""
 
-#: actionclasses.cpp:207 actionclasses.cpp:212 MainWindow.cpp:1196 app.cpp:439
+#: actionclasses.cpp:207 actionclasses.cpp:212 MainWindow.cpp:1194 app.cpp:439
 msgid "Pause"
 msgstr ""
 
-#: actionclasses.cpp:217 MainWindow.cpp:1190 app.cpp:434
+#: actionclasses.cpp:217 MainWindow.cpp:1188 app.cpp:434
 msgid "Play"
 msgstr ""
 
@@ -1932,7 +1932,7 @@ msgstr ""
 msgid "&Album"
 msgstr ""
 
-#: actionclasses.cpp:352 MainWindow.cpp:1257
+#: actionclasses.cpp:352 MainWindow.cpp:1255
 msgid "&Playlist"
 msgstr ""
 
@@ -1999,7 +1999,7 @@ msgstr ""
 msgid "Plugin Information"
 msgstr ""
 
-#: queuemanager/QueueManager.cpp:51 queuemanager.cpp:255 MainWindow.cpp:1116
+#: queuemanager/QueueManager.cpp:51 queuemanager.cpp:255 MainWindow.cpp:1114
 msgid "Queue Manager"
 msgstr ""
 
@@ -2686,7 +2686,7 @@ msgstr ""
 msgid "Tags"
 msgstr ""
 
-#: tagdialog.cpp:429 MainWindow.cpp:1130
+#: tagdialog.cpp:429 MainWindow.cpp:1128
 msgid "Statistics"
 msgstr ""
 
@@ -3588,143 +3588,143 @@ msgstr ""
 msgid "Devices"
 msgstr ""
 
-#: MainWindow.cpp:767
+#: MainWindow.cpp:765
 msgid "Play Media (Files or URLs)"
 msgstr ""
 
-#: MainWindow.cpp:767
+#: MainWindow.cpp:765
 msgid "Add Media (Files or URLs)"
 msgstr ""
 
-#: MainWindow.cpp:786
+#: MainWindow.cpp:784
 msgid "Add Stream"
 msgstr ""
 
-#: MainWindow.cpp:786 playlistbrowseritem.cpp:1168
+#: MainWindow.cpp:784 playlistbrowseritem.cpp:1168
 #: playlistbrowseritem.cpp:2093 playlistbrowseritem.cpp:2742
 msgid "URL"
 msgstr "URL"
 
-#: MainWindow.cpp:945 MainWindow.cpp:1089
+#: MainWindow.cpp:943 MainWindow.cpp:1087
 msgid "Hide Toolbar"
 msgstr ""
 
-#: MainWindow.cpp:945
+#: MainWindow.cpp:943
 msgid "Show Toolbar"
 msgstr ""
 
-#: MainWindow.cpp:1028
+#: MainWindow.cpp:1026
 msgid "Media Device"
 msgstr ""
 
-#: MainWindow.cpp:1055
+#: MainWindow.cpp:1053
 msgid "&Add Media..."
 msgstr ""
 
-#: MainWindow.cpp:1059
+#: MainWindow.cpp:1057
 msgctxt "clear playlist"
 msgid "&Clear"
 msgstr ""
 
-#: MainWindow.cpp:1063
+#: MainWindow.cpp:1061
 msgid "&Add Stream..."
 msgstr ""
 
-#: MainWindow.cpp:1067
+#: MainWindow.cpp:1065
 msgid "&Save Playlist As..."
 msgstr ""
 
-#: MainWindow.cpp:1071
+#: MainWindow.cpp:1069
 msgid "Burn Current Playlist"
 msgstr ""
 
-#: MainWindow.cpp:1080 widgets/analyzerwidget.cpp:64
+#: MainWindow.cpp:1078 widgets/analyzerwidget.cpp:64
 msgid "&Visualizations"
 msgstr ""
 
-#: MainWindow.cpp:1084
+#: MainWindow.cpp:1082
 msgid "E&qualizer"
 msgstr ""
 
-#: MainWindow.cpp:1104
+#: MainWindow.cpp:1102
 msgid "Play Media..."
 msgstr ""
 
-#: MainWindow.cpp:1108
+#: MainWindow.cpp:1106
 msgid "Play Audio CD"
 msgstr ""
 
-#: MainWindow.cpp:1120
+#: MainWindow.cpp:1118
 msgid "&Seek Forward"
 msgstr ""
 
-#: MainWindow.cpp:1125
+#: MainWindow.cpp:1123
 msgid "&Seek Backward"
 msgstr ""
 
-#: MainWindow.cpp:1134
+#: MainWindow.cpp:1132
 msgid "Update Collection"
 msgstr ""
 
-#: MainWindow.cpp:1138
+#: MainWindow.cpp:1136
 #, fuzzy
 #| msgid "Local Collection"
 msgid "Rescan Collection"
 msgstr "Môlowô kòlekcëjô"
 
-#: MainWindow.cpp:1149 MainWindow.cpp:1158
+#: MainWindow.cpp:1147 MainWindow.cpp:1156
 msgid "Global Tag Radio"
 msgstr ""
 
-#: MainWindow.cpp:1166
+#: MainWindow.cpp:1164
 msgid "Play las&t.fm Stream"
 msgstr ""
 
-#: MainWindow.cpp:1170 MainWindow.cpp:1178
+#: MainWindow.cpp:1168 MainWindow.cpp:1176
 msgid "Custom Station"
 msgstr ""
 
-#: MainWindow.cpp:1174
+#: MainWindow.cpp:1172
 msgid "Add las&t.fm Stream"
 msgstr ""
 
-#: MainWindow.cpp:1184 app.cpp:463
+#: MainWindow.cpp:1182 app.cpp:463
 msgid "Previous Track"
 msgstr ""
 
-#: MainWindow.cpp:1202 app.cpp:458
+#: MainWindow.cpp:1200 app.cpp:458
 msgid "Next Track"
 msgstr ""
 
-#: MainWindow.cpp:1206
+#: MainWindow.cpp:1204
 msgid "Toggle Focus"
 msgstr ""
 
-#: MainWindow.cpp:1242
+#: MainWindow.cpp:1240
 msgid "&Amarok"
 msgstr ""
 
-#: MainWindow.cpp:1280
+#: MainWindow.cpp:1278
 msgid "&Mode"
 msgstr ""
 
-#: MainWindow.cpp:1290
+#: MainWindow.cpp:1288
 msgid "&Tools"
 msgstr "&Nôrzãdza"
 
-#: MainWindow.cpp:1311
+#: MainWindow.cpp:1309
 msgid "&Settings"
 msgstr "Ùs&towë"
 
-#: MainWindow.cpp:1358
+#: MainWindow.cpp:1356
 msgid "Edit"
 msgstr ""
 
-#: MainWindow.cpp:1361 playlist.cpp:3770
+#: MainWindow.cpp:1359 playlist.cpp:3770
 msgid "Repopulate"
 msgstr ""
 
-#: MainWindow.cpp:1364
+#: MainWindow.cpp:1362
 msgid "Turn Off"
 msgstr ""
 
@@ -9846,196 +9846,196 @@ msgstr ""
 msgid "Remove entries corresponding to this device from configuration file"
 msgstr ""
 
-#: smartplaylisteditor.cpp:71
+#: smartplaylisteditor.cpp:72
 msgid "Create Smart Playlist"
 msgstr ""
 
-#: smartplaylisteditor.cpp:86
+#: smartplaylisteditor.cpp:88
 msgid "Edit Smart Playlist"
 msgstr ""
 
-#: smartplaylisteditor.cpp:175
+#: smartplaylisteditor.cpp:177
 msgid "Track #"
 msgstr ""
 
-#: smartplaylisteditor.cpp:175
+#: smartplaylisteditor.cpp:177
 msgid "Play Counter"
 msgstr ""
 
-#: smartplaylisteditor.cpp:176
+#: smartplaylisteditor.cpp:178
 msgid "First Play"
 msgstr ""
 
-#: smartplaylisteditor.cpp:177
+#: smartplaylisteditor.cpp:179
 msgid "Last Play"
 msgstr ""
 
-#: smartplaylisteditor.cpp:177
+#: smartplaylisteditor.cpp:179
 msgid "Modified Date"
 msgstr ""
 
-#: smartplaylisteditor.cpp:177
+#: smartplaylisteditor.cpp:179
 msgid "File Path"
 msgstr ""
 
-#: smartplaylisteditor.cpp:195
+#: smartplaylisteditor.cpp:197
 msgid "Playlist name:"
 msgstr ""
 
-#: smartplaylisteditor.cpp:203
+#: smartplaylisteditor.cpp:205
 msgid "Match Any of the following conditions"
 msgstr ""
 
-#: smartplaylisteditor.cpp:211
+#: smartplaylisteditor.cpp:213
 msgid "Match All of the following conditions"
 msgstr ""
 
-#: smartplaylisteditor.cpp:219
+#: smartplaylisteditor.cpp:221
 msgid "Order by"
 msgstr ""
 
-#: smartplaylisteditor.cpp:225
+#: smartplaylisteditor.cpp:227
 msgid "Random"
 msgstr ""
 
-#: smartplaylisteditor.cpp:233
+#: smartplaylisteditor.cpp:235
 msgid "Limit to"
 msgstr ""
 
-#: smartplaylisteditor.cpp:240
+#: smartplaylisteditor.cpp:242
 msgid "tracks"
 msgstr ""
 
-#: smartplaylisteditor.cpp:245
+#: smartplaylisteditor.cpp:247
 msgid "Expand by"
 msgstr ""
 
-#: smartplaylisteditor.cpp:328
+#: smartplaylisteditor.cpp:330
 msgid "Completely Random"
 msgstr ""
 
-#: smartplaylisteditor.cpp:329
+#: smartplaylisteditor.cpp:331
 msgid "Score Weighted"
 msgstr ""
 
-#: smartplaylisteditor.cpp:330
+#: smartplaylisteditor.cpp:332
 msgid "Rating Weighted"
 msgstr ""
 
-#: smartplaylisteditor.cpp:334
+#: smartplaylisteditor.cpp:336
 msgid "Ascending"
 msgstr "Roscąco"
 
-#: smartplaylisteditor.cpp:335
+#: smartplaylisteditor.cpp:337
 msgid "Descending"
 msgstr ""
 
-#: smartplaylisteditor.cpp:486 smartplaylisteditor.cpp:493
-#: smartplaylisteditor.cpp:513 smartplaylisteditor.cpp:523
-#: smartplaylisteditor.cpp:567 smartplaylisteditor.cpp:574
-#: smartplaylisteditor.cpp:587 smartplaylisteditor.cpp:598
-#: smartplaylisteditor.cpp:638 smartplaylisteditor.cpp:644
-#: smartplaylisteditor.cpp:663 smartplaylisteditor.cpp:683
-#: smartplaylisteditor.cpp:752 smartplaylisteditor.cpp:868
-#: smartplaylisteditor.cpp:871 smartplaylisteditor.cpp:918
-#: smartplaylisteditor.cpp:940 smartplaylisteditor.cpp:968
-#: smartplaylisteditor.cpp:987 smartplaylisteditor.cpp:1027
-#: smartplaylisteditor.cpp:1033 playlistbrowseritem.cpp:3187
+#: smartplaylisteditor.cpp:488 smartplaylisteditor.cpp:495
+#: smartplaylisteditor.cpp:515 smartplaylisteditor.cpp:525
+#: smartplaylisteditor.cpp:569 smartplaylisteditor.cpp:576
+#: smartplaylisteditor.cpp:589 smartplaylisteditor.cpp:600
+#: smartplaylisteditor.cpp:640 smartplaylisteditor.cpp:646
+#: smartplaylisteditor.cpp:665 smartplaylisteditor.cpp:685
+#: smartplaylisteditor.cpp:754 smartplaylisteditor.cpp:870
+#: smartplaylisteditor.cpp:873 smartplaylisteditor.cpp:920
+#: smartplaylisteditor.cpp:942 smartplaylisteditor.cpp:970
+#: smartplaylisteditor.cpp:989 smartplaylisteditor.cpp:1029
+#: smartplaylisteditor.cpp:1035 playlistbrowseritem.cpp:3187
 #: playlistbrowseritem.cpp:3236
 msgid "is between"
 msgstr ""
 
-#: smartplaylisteditor.cpp:499 smartplaylisteditor.cpp:580
-#: smartplaylisteditor.cpp:650 smartplaylisteditor.cpp:752
-#: smartplaylisteditor.cpp:869 smartplaylisteditor.cpp:872
-#: smartplaylisteditor.cpp:953 smartplaylisteditor.cpp:1033
+#: smartplaylisteditor.cpp:501 smartplaylisteditor.cpp:582
+#: smartplaylisteditor.cpp:652 smartplaylisteditor.cpp:754
+#: smartplaylisteditor.cpp:871 smartplaylisteditor.cpp:874
+#: smartplaylisteditor.cpp:955 smartplaylisteditor.cpp:1035
 #: playlistbrowseritem.cpp:3152 playlistbrowseritem.cpp:3237
 msgid "is in the last"
 msgstr ""
 
-#: smartplaylisteditor.cpp:499 smartplaylisteditor.cpp:580
-#: smartplaylisteditor.cpp:650 smartplaylisteditor.cpp:754
-#: smartplaylisteditor.cpp:870 smartplaylisteditor.cpp:873
-#: smartplaylisteditor.cpp:954 smartplaylisteditor.cpp:1033
+#: smartplaylisteditor.cpp:501 smartplaylisteditor.cpp:582
+#: smartplaylisteditor.cpp:652 smartplaylisteditor.cpp:756
+#: smartplaylisteditor.cpp:872 smartplaylisteditor.cpp:875
+#: smartplaylisteditor.cpp:956 smartplaylisteditor.cpp:1035
 #: playlistbrowseritem.cpp:3153 playlistbrowseritem.cpp:3241
 msgid "is not in the last"
 msgstr ""
 
-#: smartplaylisteditor.cpp:700 smartplaylisteditor.cpp:1018
+#: smartplaylisteditor.cpp:702 smartplaylisteditor.cpp:1020
 #: playlistbrowseritem.cpp:3199
 msgid "contains"
 msgstr ""
 
-#: smartplaylisteditor.cpp:702 smartplaylisteditor.cpp:1018
+#: smartplaylisteditor.cpp:704 smartplaylisteditor.cpp:1020
 #: playlistbrowseritem.cpp:3201
 msgid "does not contain"
 msgstr ""
 
-#: smartplaylisteditor.cpp:704 smartplaylisteditor.cpp:1018
-#: smartplaylisteditor.cpp:1026 smartplaylisteditor.cpp:1032
+#: smartplaylisteditor.cpp:706 smartplaylisteditor.cpp:1020
+#: smartplaylisteditor.cpp:1028 smartplaylisteditor.cpp:1034
 #: playlistbrowseritem.cpp:3203
 msgid "is"
 msgstr ""
 
-#: smartplaylisteditor.cpp:713 smartplaylisteditor.cpp:1018
-#: smartplaylisteditor.cpp:1026 smartplaylisteditor.cpp:1032
+#: smartplaylisteditor.cpp:715 smartplaylisteditor.cpp:1020
+#: smartplaylisteditor.cpp:1028 smartplaylisteditor.cpp:1034
 #: playlistbrowseritem.cpp:3205
 msgid "is not"
 msgstr ""
 
-#: smartplaylisteditor.cpp:722 smartplaylisteditor.cpp:1019
+#: smartplaylisteditor.cpp:724 smartplaylisteditor.cpp:1021
 #: playlistbrowseritem.cpp:3208
 msgid "starts with"
 msgstr ""
 
-#: smartplaylisteditor.cpp:733 smartplaylisteditor.cpp:1019
+#: smartplaylisteditor.cpp:735 smartplaylisteditor.cpp:1021
 #: playlistbrowseritem.cpp:3218
 msgid "does not start with"
 msgstr ""
 
-#: smartplaylisteditor.cpp:744 smartplaylisteditor.cpp:1020
+#: smartplaylisteditor.cpp:746 smartplaylisteditor.cpp:1022
 #: playlistbrowseritem.cpp:3228
 msgid "ends with"
 msgstr ""
 
-#: smartplaylisteditor.cpp:746 smartplaylisteditor.cpp:1020
+#: smartplaylisteditor.cpp:748 smartplaylisteditor.cpp:1022
 #: playlistbrowseritem.cpp:3230
 msgid "does not end with"
 msgstr ""
 
-#: smartplaylisteditor.cpp:748 smartplaylisteditor.cpp:1026
+#: smartplaylisteditor.cpp:750 smartplaylisteditor.cpp:1028
 #: playlistbrowseritem.cpp:3232
 msgid "is greater than"
 msgstr ""
 
-#: smartplaylisteditor.cpp:748 smartplaylisteditor.cpp:1032
+#: smartplaylisteditor.cpp:750 smartplaylisteditor.cpp:1034
 #: playlistbrowseritem.cpp:3167 playlistbrowseritem.cpp:3232
 msgid "is after"
 msgstr ""
 
-#: smartplaylisteditor.cpp:750 smartplaylisteditor.cpp:1026
+#: smartplaylisteditor.cpp:752 smartplaylisteditor.cpp:1028
 #: playlistbrowseritem.cpp:3234
 msgid "is smaller than"
 msgstr ""
 
-#: smartplaylisteditor.cpp:750 smartplaylisteditor.cpp:1032
+#: smartplaylisteditor.cpp:752 smartplaylisteditor.cpp:1034
 #: playlistbrowseritem.cpp:3234
 msgid "is before"
 msgstr ""
 
-#: smartplaylisteditor.cpp:959
+#: smartplaylisteditor.cpp:961
 msgid "Days"
 msgstr ""
 
-#: smartplaylisteditor.cpp:960
+#: smartplaylisteditor.cpp:962
 msgid "Months"
 msgstr ""
 
-#: smartplaylisteditor.cpp:961
+#: smartplaylisteditor.cpp:963
 msgid "Years"
 msgstr ""
 
-#: smartplaylisteditor.cpp:998
+#: smartplaylisteditor.cpp:1000
 msgid "Hours"
 msgstr ""
 
