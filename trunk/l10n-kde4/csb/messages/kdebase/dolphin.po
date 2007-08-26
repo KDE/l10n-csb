@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-18 05:30+0200\n"
+"POT-Creation-Date: 2007-08-26 05:30+0200\n"
 "PO-Revision-Date: 2007-07-02 17:26+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -99,9 +99,12 @@ msgid "Restore"
 msgstr "Przëwrócë"
 
 #: dolphincontextmenu.cpp:164
-msgctxt "@action:inmenu"
-msgid "Bookmark Folder..."
-msgstr "Katalog załóżków..."
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Places"
+msgctxt "@action:inmenu Add selected folder to places"
+msgid "Add to Places"
+msgstr "Place"
 
 #. i18n: tag text
 #. i18n: file ./dolphinui.rc line 20
@@ -111,9 +114,12 @@ msgid "View Mode"
 msgstr "Trib wëzdrzatkù"
 
 #: dolphincontextmenu.cpp:244
-msgctxt "@action:inmenu"
-msgid "Bookmark This Folder..."
-msgstr "Dodôj załóżkã do tegò katalogù..."
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Places"
+msgctxt "@action:inmenu Add current folder to places"
+msgid "Add to Places"
+msgstr "Place"
 
 #: dolphincontextmenu.cpp:247 treeviewcontextmenu.cpp:100
 msgctxt "@action:inmenu"
@@ -485,8 +491,19 @@ msgctxt "@title:window"
 msgid "Places"
 msgstr "Place"
 
-#: dolphinmainwindow.cpp:1598
-msgctxt "@action:intoolbar Close inactive view"
+#: dolphinmainwindow.cpp:1599
+#, fuzzy
+#| msgctxt "@action:intoolbar Close inactive view"
+#| msgid "Close"
+msgctxt "@action:intoolbar Close right view"
+msgid "Close"
+msgstr "Zamkni"
+
+#: dolphinmainwindow.cpp:1602
+#, fuzzy
+#| msgctxt "@action:intoolbar Close inactive view"
+#| msgid "Close"
+msgctxt "@action:intoolbar Close left view"
 msgid "Close"
 msgstr "Zamkni"
 
@@ -1512,3 +1529,11 @@ msgstr "Detale"
 msgctxt "@title:tab"
 msgid "Column"
 msgstr "Kòlumna"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Bookmark Folder..."
+#~ msgstr "Katalog załóżków..."
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Bookmark This Folder..."
+#~ msgstr "Dodôj załóżkã do tegò katalogù..."
