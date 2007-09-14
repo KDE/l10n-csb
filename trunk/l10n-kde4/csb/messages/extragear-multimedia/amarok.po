@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-13 05:39+0200\n"
+"POT-Creation-Date: 2007-09-14 05:38+0200\n"
 "PO-Revision-Date: 2007-07-27 20:44+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -197,37 +197,37 @@ msgstr ""
 msgid "Null Engine"
 msgstr "Mòtór"
 
-#: context/plasma/applet.cpp:461
+#: context/plasma/applet.cpp:465
 msgid "Unknown Applet"
 msgstr ""
 
-#: context/plasma/applet.cpp:488 context/plasma/applet.cpp:928
-#: context/plasma/applet.cpp:929
+#: context/plasma/applet.cpp:492 context/plasma/applet.cpp:932
+#: context/plasma/applet.cpp:933
 msgid "Miscellaneous"
 msgstr ""
 
-#: context/plasma/applet.cpp:557
+#: context/plasma/applet.cpp:561
 msgid "This object could not be created."
 msgstr ""
 
-#: context/plasma/applet.cpp:559
+#: context/plasma/applet.cpp:563
 #, qt-format
 msgid "This object could not be created for the following reason:<p>%1</p>"
 msgstr ""
 
-#: context/plasma/applet.cpp:613
+#: context/plasma/applet.cpp:617
 #, fuzzy
 #| msgid "&Configure..."
 msgid "Configure..."
 msgstr "&Kònfigùracëjô..."
 
-#: context/plasma/applet.cpp:858 context/plasma/applet.cpp:872
+#: context/plasma/applet.cpp:862 context/plasma/applet.cpp:876
 #, fuzzy, qt-format
 #| msgid "&Settings"
 msgid "%1 Settings"
 msgstr "Ùs&towë"
 
-#: context/plasma/applet.cpp:872
+#: context/plasma/applet.cpp:876
 #, fuzzy
 #| msgid "&Settings"
 msgid "Settings"
@@ -1202,8 +1202,7 @@ msgid "All Albums"
 msgstr ""
 
 #: covermanager.cpp:138 covermanager.cpp:479 covermanager.cpp:972
-#: Statistics.cpp:514 mediadevice/mtp/mtpmediadevice.cpp:545
-#: mediadevice/ipod/ipodmediadevice.cpp:1524
+#: Statistics.cpp:514 mediadevice/ipod/ipodmediadevice.cpp:1524
 #: mediadevice/ipod/ipodmediadevice.cpp:1534
 #: mediadevice/ipod/ipodmediadevice.cpp:1897
 #: mediadevice/ipod/ipodmediadevice.cpp:1949
@@ -1292,7 +1291,7 @@ msgstr "..."
 #: tagdialog.cpp:640 querybuilder.cpp:389 querybuilder.cpp:445
 #: querybuilder.cpp:479 querybuilder.cpp:528 querybuilder.cpp:582
 #: querybuilder.cpp:611 querybuilder.cpp:663 querybuilder.cpp:701
-#: querybuilder.cpp:729 collectionbrowser/collectiontreeitem.cpp:69
+#: querybuilder.cpp:729 collectionbrowser/CollectionTreeItem.cpp:67
 #: collectiondb.cpp:2370 collectiondb.cpp:2389 collectiondb.cpp:2407
 #: collectiondb.cpp:2428 collectiondb.cpp:2446
 msgid "Unknown"
@@ -1327,7 +1326,7 @@ msgstr[2] "&Rëmôj wëbróné òbkłôdczi"
 #: covermanager.cpp:547 Statistics.cpp:692 mediadevice/daap/daapclient.cpp:250
 #: mediadevice/ipod/ipodmediadevice.cpp:2110
 #: mediadevice/generic/genericmediadevice.cpp:945
-#: collectionbrowser/collectiontreeview.cpp:120 app.cpp:792
+#: collectionbrowser/CollectionTreeView.cpp:121 app.cpp:792
 #: filebrowser.cpp:180
 msgid "&Append to Playlist"
 msgid_plural "&Append Selected Albums to Playlist"
@@ -1882,8 +1881,7 @@ msgstr ""
 msgid "Remote Media"
 msgstr ""
 
-#: mediabrowser.cpp:1000 mediadevice/mtp/mtpmediadevice.cpp:1294
-#: mediadevice/ipod/ipodmediadevice.cpp:2294
+#: mediabrowser.cpp:1000 mediadevice/ipod/ipodmediadevice.cpp:2294
 msgid "New Playlist"
 msgstr ""
 
@@ -2557,7 +2555,6 @@ msgid "Download"
 msgstr ""
 
 #: mediadevice/ifp/ifpmediadevice.cpp:658
-#: mediadevice/mtp/mtpmediadevice.cpp:1279
 #: mediadevice/ipod/ipodmediadevice.cpp:2193
 #: mediadevice/generic/genericmediadevice.cpp:955
 msgid "Rename"
@@ -2573,7 +2570,7 @@ msgstr "Rëmôj"
 msgid "NJB Media device"
 msgstr ""
 
-#: mediadevice/njb/njbmediadevice.cpp:91 mediadevice/mtp/mtpmediadevice.cpp:79
+#: mediadevice/njb/njbmediadevice.cpp:91
 msgid "Special device functions"
 msgstr ""
 
@@ -2619,7 +2616,6 @@ msgid "Download to collection"
 msgstr ""
 
 #: mediadevice/njb/njbmediadevice.cpp:644
-#: mediadevice/mtp/mtpmediadevice.cpp:1285
 #: mediadevice/riokarma/riokarmamediadevice.cpp:397
 msgid "Delete from device"
 msgstr ""
@@ -2649,12 +2645,12 @@ msgid "Battery not charging"
 msgstr ""
 
 #: mediadevice/njb/njbmediadevice.cpp:901
-#: mediadevice/mtp/mtpmediadevice.cpp:1216
+#: mediadevice/mtp/mtpmediadevice.cpp:1220
 msgid "Battery level: "
 msgstr ""
 
 #: mediadevice/njb/njbmediadevice.cpp:903
-#: mediadevice/mtp/mtpmediadevice.cpp:1223
+#: mediadevice/mtp/mtpmediadevice.cpp:1227
 msgid "Player Information for "
 msgstr ""
 
@@ -2667,162 +2663,52 @@ msgid "Battery status: "
 msgstr ""
 
 #: mediadevice/njb/njbmediadevice.cpp:910
-#: mediadevice/mtp/mtpmediadevice.cpp:1231
+#: mediadevice/mtp/mtpmediadevice.cpp:1235
 msgid "Player not connected"
 msgstr ""
 
 #: mediadevice/njb/njbmediadevice.cpp:913
-#: mediadevice/mtp/mtpmediadevice.cpp:1234
+#: mediadevice/mtp/mtpmediadevice.cpp:1238
 msgid "Device information"
 msgstr ""
 
 #: mediadevice/njb/track.cpp:74 mediadevice/njb/track.cpp:208
-#: mediadevice/mtp/mtpmediadevice.cpp:234
 msgid "Unknown artist"
 msgstr ""
 
 #: mediadevice/njb/track.cpp:84 mediadevice/njb/track.cpp:210
-#: mediadevice/mtp/mtpmediadevice.cpp:225
 msgid "Unknown album"
 msgstr ""
 
 #: mediadevice/njb/track.cpp:94 mediadevice/njb/track.cpp:206
-#: mediadevice/mtp/mtpmediadevice.cpp:216
 msgid "Unknown title"
 msgstr ""
 
-#: mediadevice/njb/track.cpp:212 mediadevice/mtp/mtpmediadevice.cpp:243
+#: mediadevice/njb/track.cpp:212
 msgid "Unknown genre"
 msgstr ""
 
-#: mediadevice/mtp/mtpmediadevice.cpp:64
+#: mediadevice/mtp/mtpmediadevice.cpp:67
 msgid "MTP Media Device"
 msgstr ""
 
-#: mediadevice/mtp/mtpmediadevice.cpp:81
-msgid "Special functions of your device"
-msgstr ""
-
-#: mediadevice/mtp/mtpmediadevice.cpp:164
-#: mediadevice/riokarma/riokarmamediadevice.cpp:99
-msgid "Could not send track"
-msgstr ""
-
-#: mediadevice/mtp/mtpmediadevice.cpp:207
-msgid "Cannot determine a valid file type"
-msgstr ""
-
-#: mediadevice/mtp/mtpmediadevice.cpp:286
-msgid "Cannot create parent folder. Check your structure."
-msgstr ""
-
-#: mediadevice/mtp/mtpmediadevice.cpp:311
-msgid "File write failed"
-msgstr ""
-
-#: mediadevice/mtp/mtpmediadevice.cpp:543
-msgid "Unknown Artist"
-msgstr ""
-
-#: mediadevice/mtp/mtpmediadevice.cpp:548
-msgid "Unknown Album"
-msgstr ""
-
-#: mediadevice/mtp/mtpmediadevice.cpp:551
-msgid "Unknown Genre"
-msgstr ""
-
-#: mediadevice/mtp/mtpmediadevice.cpp:674
-#: mediadevice/mtp/mtpmediadevice.cpp:698
-msgid "Could not copy track from device."
-msgstr ""
-
-#: mediadevice/mtp/mtpmediadevice.cpp:1010
-msgid "Could not delete item"
-msgstr ""
-
-#: mediadevice/mtp/mtpmediadevice.cpp:1023
-msgid "Delete failed"
-msgstr ""
-
-#: mediadevice/mtp/mtpmediadevice.cpp:1073
+#: mediadevice/mtp/mtpmediadevice.cpp:1077
 msgid "Could not connect to MTP Device"
 msgstr ""
 
-#: mediadevice/mtp/mtpmediadevice.cpp:1083
+#: mediadevice/mtp/mtpmediadevice.cpp:1087
 msgid "MTP device could not be opened"
 msgstr ""
 
-#: mediadevice/mtp/mtpmediadevice.cpp:1134
-#: mediadevice/ipod/ipodmediadevice.cpp:1290 MainWindow.cpp:289
-msgid "Playlists"
-msgstr ""
-
-#: mediadevice/mtp/mtpmediadevice.cpp:1219
+#: mediadevice/mtp/mtpmediadevice.cpp:1223
 msgid "Secure time: "
 msgstr ""
 
-#: mediadevice/mtp/mtpmediadevice.cpp:1220
+#: mediadevice/mtp/mtpmediadevice.cpp:1224
 msgid "Supported file types: "
 msgstr ""
 
-#: mediadevice/mtp/mtpmediadevice.cpp:1274 mediadevice/daap/daapclient.cpp:253
-#: mediadevice/ipod/ipodmediadevice.cpp:2115
-#: mediadevice/generic/genericmediadevice.cpp:948 filebrowser.cpp:192
-msgid "&Copy Files to Collection..."
-msgstr ""
-
-#: mediadevice/mtp/mtpmediadevice.cpp:1275
-#: mediadevice/ipod/ipodmediadevice.cpp:2158
-msgid "Make Media Device Playlist"
-msgstr ""
-
-#: mediadevice/mtp/mtpmediadevice.cpp:1276
-msgid "Refresh Cover Images"
-msgstr ""
-
-#: mediadevice/mtp/mtpmediadevice.cpp:1318
-#, c-format
-msgid "<p>You are updating cover art for 1 track. This may take some time."
-msgid_plural ""
-"<p>You are updating cover art for %n tracks. This may take some time."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
-#: mediadevice/mtp/mtpmediadevice.cpp:1343
-msgid "Folder structure:"
-msgstr ""
-
-#: mediadevice/mtp/mtpmediadevice.cpp:1348
-msgid "Files copied to the device will be placed in this folder."
-msgstr ""
-
-#: mediadevice/mtp/mtpmediadevice.cpp:1349
-msgid "/ is used as folder separator."
-msgstr ""
-
-#: mediadevice/mtp/mtpmediadevice.cpp:1350
-#, c-format
-msgid "%a will be replaced with the artist name, "
-msgstr ""
-
-#: mediadevice/mtp/mtpmediadevice.cpp:1351
-msgid "%b with the album name,"
-msgstr ""
-
-#: mediadevice/mtp/mtpmediadevice.cpp:1352
-#, c-format
-msgid "%g with the genre."
-msgstr ""
-
-#: mediadevice/mtp/mtpmediadevice.cpp:1353
-msgid ""
-"An empty path means the files will be placed unsorted in the default music "
-"folder."
-msgstr ""
-
-#: mediadevice/mtp/mtpmediadevice.cpp:1448
+#: mediadevice/mtp/mtpmediadevice.cpp:1455
 msgid "Could not get music from MTP Device"
 msgstr ""
 
@@ -2862,7 +2748,8 @@ msgstr ""
 
 #: mediadevice/daap/daapclient.cpp:249
 #: mediadevice/ipod/ipodmediadevice.cpp:2109
-#: mediadevice/generic/genericmediadevice.cpp:944 filebrowser.cpp:178
+#: mediadevice/generic/genericmediadevice.cpp:944
+#: collectionbrowser/CollectionTreeView.cpp:120 filebrowser.cpp:178
 msgid "&Load"
 msgstr ""
 
@@ -2870,6 +2757,12 @@ msgstr ""
 #: mediadevice/ipod/ipodmediadevice.cpp:2111
 #: mediadevice/generic/genericmediadevice.cpp:946
 msgid "&Queue Tracks"
+msgstr ""
+
+#: mediadevice/daap/daapclient.cpp:253
+#: mediadevice/ipod/ipodmediadevice.cpp:2115
+#: mediadevice/generic/genericmediadevice.cpp:948 filebrowser.cpp:192
+msgid "&Copy Files to Collection..."
 msgstr ""
 
 #: mediadevice/daap/daapclient.cpp:258
@@ -3058,6 +2951,10 @@ msgid ""
 "iPod type detection failed: no support for iPod Shuffle, for artwork or video"
 msgstr ""
 
+#: mediadevice/ipod/ipodmediadevice.cpp:1290 MainWindow.cpp:289
+msgid "Playlists"
+msgstr ""
+
 #: mediadevice/ipod/ipodmediadevice.cpp:1300
 msgid "Invisible"
 msgstr ""
@@ -3110,6 +3007,10 @@ msgstr ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:2142
 msgid "Subscribe to This Podcast"
+msgstr ""
+
+#: mediadevice/ipod/ipodmediadevice.cpp:2158
+msgid "Make Media Device Playlist"
 msgstr ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:2170
@@ -3236,6 +3137,10 @@ msgstr ""
 
 #: mediadevice/generic/genericmediadevice.cpp:1019
 msgid " Transfer queue to here..."
+msgstr ""
+
+#: mediadevice/riokarma/riokarmamediadevice.cpp:99
+msgid "Could not send track"
 msgstr ""
 
 #: mediadevice/riokarma/riokarmamediadevice.cpp:107
@@ -9746,13 +9651,13 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: playlist/PlaylistGraphicsView.cpp:70
+#: playlist/PlaylistGraphicsView.cpp:71
 #, fuzzy
 #| msgid "Playback"
 msgid "&Play"
 msgstr "Grónié"
 
-#: playlist/PlaylistGraphicsView.cpp:77
+#: playlist/PlaylistGraphicsView.cpp:78
 #, fuzzy
 #| msgid "Import Playlist..."
 msgid "Remove From Playlist"
@@ -10020,11 +9925,11 @@ msgstr ""
 msgid "Adding album cover to collection"
 msgstr ""
 
-#: servicebrowser/mp3tunes/mp3tunesservice.cpp:62
+#: servicebrowser/mp3tunes/mp3tunesservice.cpp:64
 msgid "Enter a login and a password"
 msgstr ""
 
-#: servicebrowser/mp3tunes/mp3tunesservice.cpp:88
+#: servicebrowser/mp3tunes/mp3tunesservice.cpp:90
 msgid "Authenticating"
 msgstr ""
 
@@ -10181,11 +10086,11 @@ msgstr ""
 msgid "Aborting all jobs..."
 msgstr ""
 
-#: statusbar/statusbar.cpp:113
+#: statusbar/statusbar.cpp:118
 msgid "Amarok is paused"
 msgstr ""
 
-#: statusbar/statusbar.cpp:138
+#: statusbar/statusbar.cpp:143
 msgid ""
 "<p>One of Mike Oldfield's best pieces of work, Amarok, inspired the name "
 "behind the audio-player you are currently using. Thanks for choosing Amarok!"
@@ -10194,67 +10099,40 @@ msgid ""
 "is</p>"
 msgstr ""
 
-#: statusbar/statusbar.cpp:146
+#: statusbar/statusbar.cpp:151
 #, qt-format
 msgctxt "track by artist on album"
 msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgstr ""
 
-#: statusbar/statusbar.cpp:149
+#: statusbar/statusbar.cpp:154
 #, qt-format
 msgctxt "track by artist"
 msgid "<b>%1</b> by <b>%2</b>"
 msgstr ""
 
-#: statusbar/statusbar.cpp:153
+#: statusbar/statusbar.cpp:158
 #, qt-format
 msgctxt "track on album"
 msgid "<b>%1</b> on <b>%2</b>"
 msgstr ""
 
-#: statusbar/statusbar.cpp:158
+#: statusbar/statusbar.cpp:163
 msgid "Unknown track"
 msgstr ""
 
-#: statusbar/statusbar.cpp:167
+#: statusbar/statusbar.cpp:172
 #, qt-format
 msgid "Playing: %1"
 msgstr ""
 
-#: statusbar/statusbar.cpp:177
-#, qt-format
-msgid "%1 selected of %2 visible tracks"
-msgstr ""
+#: statusbar/statusbar.cpp:210
+#, fuzzy, qt-format
+#| msgid "Newest Tracks"
+msgid "%1 Tracks"
+msgstr "Nônowszi sztëcczi"
 
-#: statusbar/statusbar.cpp:178
-msgid "0 visible of 1 track"
-msgstr ""
-
-#: statusbar/statusbar.cpp:179
-#, qt-format
-msgid "%1 visible of %2 tracks"
-msgstr ""
-
-#: statusbar/statusbar.cpp:180
-#, qt-format
-msgid "%1 selected of %2 tracks"
-msgstr ""
-
-#: statusbar/statusbar.cpp:181
-#, qt-format
-msgid "1 track"
-msgid_plural "%1 tracks"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
-#: statusbar/statusbar.cpp:195
-#, qt-format
-msgctxt "X visible/selected tracks (time) "
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: statusbar/statusbar.cpp:199
+#: statusbar/statusbar.cpp:211
 #, qt-format
 msgid "Play-time: %1"
 msgstr ""
@@ -10691,6 +10569,10 @@ msgstr ""
 #: konquisidebar/universalamarok.cpp:317
 msgid "Build Collection..."
 msgstr "Bùdowanié kòlekcëji..."
+
+#~ msgctxt "X visible/selected tracks (time) "
+#~ msgid "%1 (%2)"
+#~ msgstr "%1 (%2)"
 
 #, fuzzy
 #~| msgid "Downloading Podcast Media"
