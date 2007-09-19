@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-18 05:46+0200\n"
+"POT-Creation-Date: 2007-09-19 05:41+0200\n"
 "PO-Revision-Date: 2007-07-27 20:44+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -57,7 +57,7 @@ msgstr "%1 - %2"
 msgid "Local Collection"
 msgstr "Môlowô kòlekcëjô"
 
-#: context/ContextView.cpp:306
+#: context/ContextView.cpp:306 context/plasma/containment.cpp:273
 #, fuzzy, qt-format
 #| msgid "&Settings"
 msgid "%1 Settings..."
@@ -197,37 +197,37 @@ msgstr ""
 msgid "Null Engine"
 msgstr "Mòtór"
 
-#: context/plasma/applet.cpp:466
+#: context/plasma/applet.cpp:482
 msgid "Unknown Applet"
 msgstr ""
 
-#: context/plasma/applet.cpp:493 context/plasma/applet.cpp:933
-#: context/plasma/applet.cpp:934
+#: context/plasma/applet.cpp:509 context/plasma/applet.cpp:958
+#: context/plasma/applet.cpp:959
 msgid "Miscellaneous"
 msgstr ""
 
-#: context/plasma/applet.cpp:562
+#: context/plasma/applet.cpp:578
 msgid "This object could not be created."
 msgstr ""
 
-#: context/plasma/applet.cpp:564
+#: context/plasma/applet.cpp:580
 #, qt-format
 msgid "This object could not be created for the following reason:<p>%1</p>"
 msgstr ""
 
-#: context/plasma/applet.cpp:618
+#: context/plasma/applet.cpp:634
 #, fuzzy
 #| msgid "&Configure..."
 msgid "Configure..."
 msgstr "&Kònfigùracëjô..."
 
-#: context/plasma/applet.cpp:863 context/plasma/applet.cpp:877
+#: context/plasma/applet.cpp:888 context/plasma/applet.cpp:902
 #, fuzzy, qt-format
 #| msgid "&Settings"
 msgid "%1 Settings"
 msgstr "Ùs&towë"
 
-#: context/plasma/applet.cpp:877
+#: context/plasma/applet.cpp:902
 #, fuzzy
 #| msgid "&Settings"
 msgid "Settings"
@@ -248,6 +248,21 @@ msgstr ""
 
 #: context/plasma/glapplet.cpp:169
 msgid "Your machine does not support OpenGL applets."
+msgstr ""
+
+#: context/plasma/containment.cpp:117
+msgid "Engine Explorer"
+msgstr ""
+
+#: context/plasma/containment.cpp:119
+#, fuzzy
+#| msgid "Run Amarok..."
+msgid "Run Command..."
+msgstr "Zrëszë Amaroka..."
+
+#: context/plasma/containment.cpp:281
+#, qt-format
+msgid "Remove this %1"
 msgstr ""
 
 #: context/applets/currenttrack/CurrentTrack.cpp:169
