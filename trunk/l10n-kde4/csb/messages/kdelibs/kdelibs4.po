@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-27 05:39+0200\n"
+"POT-Creation-Date: 2007-09-28 05:48+0200\n"
 "PO-Revision-Date: 2007-07-02 17:39+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -100,7 +100,7 @@ msgstr "&Przeniesë"
 #. i18n: file ./kdeui/ui_standards.rc line 100
 #. i18n: tag text
 #. i18n: file ./khtml/khtml_browser.rc line 20
-#: rc.cpp:38 rc.cpp:487 kfile/kdiroperator.cpp:1580
+#: rc.cpp:38 rc.cpp:487 kfile/kdiroperator.cpp:1576
 #, no-c-format
 msgid "&View"
 msgstr "&Wëzdrzatk"
@@ -4618,7 +4618,7 @@ msgstr "Dolmaczë to wprowadzenié"
 
 #: knewstuff/knewstuff2/ui/kdxstranslation.cpp:48
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:390
-#: knewstuff/knewstuff2/ui/providerdialog.cpp:70 kfile/k3filedetailview.cpp:65
+#: knewstuff/knewstuff2/ui/providerdialog.cpp:70
 msgid "Name"
 msgstr "Miono"
 
@@ -5420,7 +5420,7 @@ msgstr "Rëmôj"
 msgid "Test"
 msgstr "Test"
 
-#: kdeui/util/kstandardguiitem.cpp:285 kfile/kdiroperator.cpp:1574
+#: kdeui/util/kstandardguiitem.cpp:285 kfile/kdiroperator.cpp:1570
 msgid "Properties"
 msgstr "Swòjiznë"
 
@@ -8424,22 +8424,6 @@ msgstr "Aùtomatné sprôwdzanié pisënkù"
 msgid "Allow Tabulations"
 msgstr "Dopùszczë tabùlacëjã"
 
-#: kfile/k3fileiconview.cpp:70
-msgid "Small Icons"
-msgstr "Môłé ikònë"
-
-#: kfile/k3fileiconview.cpp:74
-msgid "Large Icons"
-msgstr "Wiôldżé ikònë"
-
-#: kfile/k3fileiconview.cpp:83
-msgid "Thumbnail Previews"
-msgstr ""
-
-#: kfile/k3fileiconview.cpp:119
-msgid "Icon View"
-msgstr "Wëzdrzatk ikònów"
-
 #: kfile/kfileview.cpp:80
 msgid "Unknown View"
 msgstr "Nieznóny widzënk"
@@ -8463,30 +8447,6 @@ msgstr "&Pòkôżë wszëtczé wéńdzenia"
 msgid "&Remove '%1'"
 msgstr "&Rëmôj '%1'"
 
-#: kfile/k3filedetailview.cpp:63 kfile/kdiroperator.cpp:1555
-msgid "Detailed View"
-msgstr "Detalowi wëzdrzatk"
-
-#: kfile/k3filedetailview.cpp:66
-msgid "Size"
-msgstr "Miara"
-
-#: kfile/k3filedetailview.cpp:67
-msgid "Date"
-msgstr "Datum"
-
-#: kfile/k3filedetailview.cpp:68
-msgid "Permissions"
-msgstr "Ùdowierzenia"
-
-#: kfile/k3filedetailview.cpp:69
-msgid "Owner"
-msgstr "Miéwca"
-
-#: kfile/k3filedetailview.cpp:70
-msgid "Group"
-msgstr "Grëpa"
-
 #: kfile/kfilefiltercombo.cpp:33 kfile/kfilewidget.cpp:1417
 msgid "*|All Files"
 msgstr "*|Wszëtczé lopczi"
@@ -8494,14 +8454,6 @@ msgstr "*|Wszëtczé lopczi"
 #: kfile/kfilefiltercombo.cpp:162
 msgid "All Supported Files"
 msgstr "Wszëtczé wspieróné lopczi"
-
-#: kfile/kfilepreview.cpp:66
-msgid "Preview"
-msgstr "Pòdzérk"
-
-#: kfile/kfilepreview.cpp:73
-msgid "No preview available."
-msgstr "Felëje przëstãp pòdzérkù."
 
 #: kfile/kfilewidget.cpp:182
 msgid ""
@@ -8762,7 +8714,7 @@ msgid "Select Folder"
 msgstr "Wëbierzë katalog"
 
 #: kfile/kdirselectdialog.cpp:104 kfile/kdirselectdialog.cpp:143
-#: kfile/kdiroperator.cpp:1503
+#: kfile/kdiroperator.cpp:1499
 msgid "New Folder..."
 msgstr "Nowi katalog..."
 
@@ -8775,23 +8727,23 @@ msgid "Show Hidden Folders"
 msgstr ""
 
 #: kfile/kdirselectdialog.cpp:429 kfile/kdirselectdialog.cpp:433
-#: kfile/kdiroperator.cpp:647 kfile/kdiroperator.cpp:655
+#: kfile/kdiroperator.cpp:643 kfile/kdiroperator.cpp:651
 msgid "New Folder"
 msgstr "Nowi katalog"
 
-#: kfile/kdirselectdialog.cpp:434 kfile/kdiroperator.cpp:656
+#: kfile/kdirselectdialog.cpp:434 kfile/kdiroperator.cpp:652
 #, qt-format
 msgid ""
 "Create new folder in:\n"
 "%1"
 msgstr ""
 
-#: kfile/kdirselectdialog.cpp:457 kfile/kdiroperator.cpp:682
+#: kfile/kdirselectdialog.cpp:457 kfile/kdiroperator.cpp:678
 #, qt-format
 msgid "A file or folder named %1 already exists."
 msgstr ""
 
-#: kfile/kdirselectdialog.cpp:461 kfile/kdiroperator.cpp:685
+#: kfile/kdirselectdialog.cpp:461 kfile/kdiroperator.cpp:681
 msgid "You do not have permission to create that folder."
 msgstr ""
 
@@ -8842,15 +8794,15 @@ msgid ""
 "entry will be available in all applications.</qt>"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:700
+#: kfile/kdiroperator.cpp:696
 msgid "You did not select a file to delete."
 msgstr ""
 
-#: kfile/kdiroperator.cpp:701
+#: kfile/kdiroperator.cpp:697
 msgid "Nothing to Delete"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:722
+#: kfile/kdiroperator.cpp:718
 #, qt-format
 msgid ""
 "<qt>Do you really want to delete\n"
@@ -8859,11 +8811,11 @@ msgstr ""
 "<qt>Jes të gwës, że chcesz rëmnąc\n"
 " <b>'%1'</b>?</qt>"
 
-#: kfile/kdiroperator.cpp:724
+#: kfile/kdiroperator.cpp:720
 msgid "Delete File"
 msgstr "Rëmôj lopk"
 
-#: kfile/kdiroperator.cpp:729
+#: kfile/kdiroperator.cpp:725
 #, qt-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
@@ -8871,19 +8823,19 @@ msgstr[0] "Na gwës chcesz rëmnąc nen element? "
 msgstr[1] "Na gwës chcesz rëmnąc ne %1 elementë?"
 msgstr[2] "Na gwës chcesz rëmnąc nëch %1 elementów?"
 
-#: kfile/kdiroperator.cpp:731
+#: kfile/kdiroperator.cpp:727
 msgid "Delete Files"
 msgstr "Rëmôj elementë"
 
-#: kfile/kdiroperator.cpp:761
+#: kfile/kdiroperator.cpp:757
 msgid "You did not select a file to trash."
 msgstr ""
 
-#: kfile/kdiroperator.cpp:762
+#: kfile/kdiroperator.cpp:758
 msgid "Nothing to Trash"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:779
+#: kfile/kdiroperator.cpp:775
 #, qt-format
 msgid ""
 "<qt>Do you really want to trash\n"
@@ -8892,16 +8844,16 @@ msgstr ""
 "<qt>Jes të gwës, że chcesz cësnąc do kòsza\n"
 " <b>'%1'</b>?</qt>"
 
-#: kfile/kdiroperator.cpp:781
+#: kfile/kdiroperator.cpp:777
 msgid "Trash File"
 msgstr "Lopk kòsza"
 
-#: kfile/kdiroperator.cpp:782 kfile/kdiroperator.cpp:789
+#: kfile/kdiroperator.cpp:778 kfile/kdiroperator.cpp:785
 msgctxt "to trash"
 msgid "&Trash"
 msgstr "&Kòsz"
 
-#: kfile/kdiroperator.cpp:786
+#: kfile/kdiroperator.cpp:782
 #, qt-format
 msgid "translators: not called for n == 1"
 msgid_plural "Do you really want to trash these %1 items?"
@@ -8909,71 +8861,75 @@ msgstr[0] "Na gwës chcesz rëmnac nen element?"
 msgstr[1] "Na gwës chcesz rëmnąc ne %1 elementë?"
 msgstr[2] "Na gwës chcesz rëmnąc nëch %1 elementów?"
 
-#: kfile/kdiroperator.cpp:788
+#: kfile/kdiroperator.cpp:784
 msgid "Trash Files"
 msgstr "Lopczi kòsza"
 
-#: kfile/kdiroperator.cpp:910 kfile/kdiroperator.cpp:1023
+#: kfile/kdiroperator.cpp:906 kfile/kdiroperator.cpp:1019
 msgid "The specified folder does not exist or was not readable."
 msgstr ""
 
-#: kfile/kdiroperator.cpp:1486
+#: kfile/kdiroperator.cpp:1482
 msgid "Menu"
 msgstr "Menu"
 
-#: kfile/kdiroperator.cpp:1490
+#: kfile/kdiroperator.cpp:1486
 msgid "Parent Folder"
 msgstr "Nadleżny katalog"
 
-#: kfile/kdiroperator.cpp:1497
+#: kfile/kdiroperator.cpp:1493
 msgid "Home Folder"
 msgstr "Domôcy katalog"
 
-#: kfile/kdiroperator.cpp:1500
+#: kfile/kdiroperator.cpp:1496
 msgid "Reload"
 msgstr "Òdswieżë"
 
-#: kfile/kdiroperator.cpp:1508
+#: kfile/kdiroperator.cpp:1504
 msgid "Move to Trash"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:1514
+#: kfile/kdiroperator.cpp:1510
 msgid "Delete"
 msgstr "Rëmôj"
 
-#: kfile/kdiroperator.cpp:1521
+#: kfile/kdiroperator.cpp:1517
 msgid "Sorting"
 msgstr "Zortowanié"
 
-#: kfile/kdiroperator.cpp:1524
+#: kfile/kdiroperator.cpp:1520
 msgid "By Name"
 msgstr "Mionã"
 
-#: kfile/kdiroperator.cpp:1528
+#: kfile/kdiroperator.cpp:1524
 msgid "By Size"
 msgstr "Miarą"
 
-#: kfile/kdiroperator.cpp:1532
+#: kfile/kdiroperator.cpp:1528
 msgid "By Date"
 msgstr "Datumem"
 
-#: kfile/kdiroperator.cpp:1536
+#: kfile/kdiroperator.cpp:1532
 msgid "By Type"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:1540
+#: kfile/kdiroperator.cpp:1536
 msgid "Descending"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:1550
+#: kfile/kdiroperator.cpp:1546
 msgid "Short View"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:1564
+#: kfile/kdiroperator.cpp:1551
+msgid "Detailed View"
+msgstr "Detalowi wëzdrzatk"
+
+#: kfile/kdiroperator.cpp:1560
 msgid "Show Hidden Files"
 msgstr "Pòkażë zataconé lopczi"
 
-#: kfile/kdiroperator.cpp:1568
+#: kfile/kdiroperator.cpp:1564
 msgid "Show Preview"
 msgstr ""
 
@@ -11901,6 +11857,36 @@ msgid ""
 msgstr ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br />%3<br />Kòdowi pùnkt "
 "Unicode: %4<br />(Dziesãtkòwò: %5)</qt>"
+
+#~ msgid "Small Icons"
+#~ msgstr "Môłé ikònë"
+
+#~ msgid "Large Icons"
+#~ msgstr "Wiôldżé ikònë"
+
+#~ msgid "Icon View"
+#~ msgstr "Wëzdrzatk ikònów"
+
+#~ msgid "Size"
+#~ msgstr "Miara"
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#~ msgid "Permissions"
+#~ msgstr "Ùdowierzenia"
+
+#~ msgid "Owner"
+#~ msgstr "Miéwca"
+
+#~ msgid "Group"
+#~ msgstr "Grëpa"
+
+#~ msgid "Preview"
+#~ msgstr "Pòdzérk"
+
+#~ msgid "No preview available."
+#~ msgstr "Felëje przëstãp pòdzérkù."
 
 #~ msgid "Form"
 #~ msgstr "Fòrmularz"
