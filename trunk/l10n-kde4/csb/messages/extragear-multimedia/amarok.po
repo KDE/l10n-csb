@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-01 05:39+0200\n"
+"POT-Creation-Date: 2007-10-02 05:39+0200\n"
 "PO-Revision-Date: 2007-07-27 20:44+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -18,7 +18,8 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: meta/PlaylistFileSupport.cpp:33 playlist/PlaylistHandler.cpp:396
+#: meta/PlaylistFileSupport.cpp:33 PlaylistHandler.cpp:330
+#: PlaylistHandler.cpp:442 PlaylistHandler.cpp:751
 #, qt-format
 msgid "Cannot write playlist (%1)."
 msgstr "Nie mògã zapisac lëstë graniô (%1)."
@@ -210,37 +211,37 @@ msgstr ""
 msgid "Null Engine"
 msgstr "Mòtór"
 
-#: context/plasma/applet.cpp:489
+#: context/plasma/applet.cpp:491
 msgid "Unknown Applet"
 msgstr ""
 
-#: context/plasma/applet.cpp:516 context/plasma/applet.cpp:965
-#: context/plasma/applet.cpp:966
+#: context/plasma/applet.cpp:518 context/plasma/applet.cpp:967
+#: context/plasma/applet.cpp:968
 msgid "Miscellaneous"
 msgstr ""
 
-#: context/plasma/applet.cpp:585
+#: context/plasma/applet.cpp:587
 msgid "This object could not be created."
 msgstr ""
 
-#: context/plasma/applet.cpp:587
+#: context/plasma/applet.cpp:589
 #, qt-format
 msgid "This object could not be created for the following reason:<p>%1</p>"
 msgstr ""
 
-#: context/plasma/applet.cpp:641
+#: context/plasma/applet.cpp:643
 #, fuzzy
 #| msgid "&Configure..."
 msgid "Configure..."
 msgstr "&Kònfigùracëjô..."
 
-#: context/plasma/applet.cpp:895 context/plasma/applet.cpp:909
+#: context/plasma/applet.cpp:897 context/plasma/applet.cpp:911
 #, fuzzy, qt-format
 #| msgid "&Settings"
 msgid "%1 Settings"
 msgstr "Ùs&towë"
 
-#: context/plasma/applet.cpp:909
+#: context/plasma/applet.cpp:911
 #, fuzzy
 #| msgid "&Settings"
 msgid "Settings"
@@ -1047,7 +1048,7 @@ msgstr ""
 msgid "No MP3 Support"
 msgstr ""
 
-#: scriptmanager.cpp:150 MainWindow.cpp:881
+#: scriptmanager.cpp:150 MainWindow.cpp:876
 msgid "Script Manager"
 msgstr ""
 
@@ -1212,7 +1213,7 @@ msgstr ""
 msgid "Updating Collection..."
 msgstr ""
 
-#: covermanager.cpp:106 MainWindow.cpp:845
+#: covermanager.cpp:106 MainWindow.cpp:840
 msgid "Cover Manager"
 msgstr ""
 
@@ -1528,11 +1529,11 @@ msgstr ""
 msgid "Play/Pause"
 msgstr ""
 
-#: actionclasses.cpp:207 actionclasses.cpp:212 MainWindow.cpp:965 app.cpp:438
+#: actionclasses.cpp:207 actionclasses.cpp:212 MainWindow.cpp:960 app.cpp:438
 msgid "Pause"
 msgstr ""
 
-#: actionclasses.cpp:217 MainWindow.cpp:959 app.cpp:433
+#: actionclasses.cpp:217 MainWindow.cpp:954 app.cpp:433
 msgid "Play"
 msgstr ""
 
@@ -1588,7 +1589,7 @@ msgstr ""
 msgid "&Album"
 msgstr ""
 
-#: actionclasses.cpp:352 MainWindow.cpp:1013
+#: actionclasses.cpp:352 MainWindow.cpp:1008
 msgid "&Playlist"
 msgstr ""
 
@@ -1655,7 +1656,7 @@ msgstr ""
 msgid "Plugin Information"
 msgstr ""
 
-#: queuemanager/QueueManager.cpp:51 MainWindow.cpp:885
+#: queuemanager/QueueManager.cpp:51 MainWindow.cpp:880
 msgid "Queue Manager"
 msgstr ""
 
@@ -1704,7 +1705,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./newdynamic.ui line 136
-#: equalizersetup.cpp:396 rc.cpp:1127 playlist/PlaylistModel.h:163
+#: equalizersetup.cpp:396 rc.cpp:1127 playlist/PlaylistModel.h:165
 #: filebrowser.cpp:353
 #, no-c-format
 msgid "Untitled"
@@ -2118,6 +2119,12 @@ msgid ""
 "All presets will be deleted and defaults will be restored. Are you sure?"
 msgstr ""
 
+#: PlaylistHandler.cpp:165
+#, fuzzy
+#| msgid "Downloading Podcast \"%1\""
+msgid "Downloading Playlist"
+msgstr "Ladowanié podcastu \"%1\""
+
 #: main.cpp:34
 msgid "Alexandre 'Ain't afraid of no bugs' Oliveira"
 msgstr ""
@@ -2352,7 +2359,7 @@ msgstr ""
 msgid "Tags"
 msgstr ""
 
-#: tagdialog.cpp:430 MainWindow.cpp:899
+#: tagdialog.cpp:430 MainWindow.cpp:894
 msgid "Statistics"
 msgstr ""
 
@@ -3168,134 +3175,134 @@ msgstr ""
 msgid "Internet"
 msgstr ""
 
-#: MainWindow.cpp:540
+#: MainWindow.cpp:535
 msgid "Play Media (Files or URLs)"
 msgstr ""
 
-#: MainWindow.cpp:540
+#: MainWindow.cpp:535
 msgid "Add Media (Files or URLs)"
 msgstr ""
 
-#: MainWindow.cpp:560
+#: MainWindow.cpp:555
 msgid "Add Stream"
 msgstr ""
 
-#: MainWindow.cpp:560
+#: MainWindow.cpp:555
 msgid "URL"
 msgstr "URL"
 
-#: MainWindow.cpp:735 MainWindow.cpp:858
+#: MainWindow.cpp:730 MainWindow.cpp:853
 msgid "Hide Toolbar"
 msgstr ""
 
-#: MainWindow.cpp:735
+#: MainWindow.cpp:730
 msgid "Show Toolbar"
 msgstr ""
 
-#: MainWindow.cpp:824
+#: MainWindow.cpp:819
 msgid "&Add Media..."
 msgstr ""
 
-#: MainWindow.cpp:828
+#: MainWindow.cpp:823
 msgctxt "clear playlist"
 msgid "&Clear"
 msgstr ""
 
-#: MainWindow.cpp:832
+#: MainWindow.cpp:827
 msgid "&Add Stream..."
 msgstr ""
 
-#: MainWindow.cpp:836
+#: MainWindow.cpp:831
 msgid "&Save Playlist As..."
 msgstr ""
 
-#: MainWindow.cpp:840
+#: MainWindow.cpp:835
 msgid "Burn Current Playlist"
 msgstr ""
 
-#: MainWindow.cpp:849 widgets/analyzerwidget.cpp:64
+#: MainWindow.cpp:844 widgets/analyzerwidget.cpp:64
 msgid "&Visualizations"
 msgstr ""
 
-#: MainWindow.cpp:853
+#: MainWindow.cpp:848
 msgid "E&qualizer"
 msgstr ""
 
-#: MainWindow.cpp:873
+#: MainWindow.cpp:868
 msgid "Play Media..."
 msgstr ""
 
-#: MainWindow.cpp:877
+#: MainWindow.cpp:872
 msgid "Play Audio CD"
 msgstr ""
 
-#: MainWindow.cpp:889
+#: MainWindow.cpp:884
 msgid "&Seek Forward"
 msgstr ""
 
-#: MainWindow.cpp:894
+#: MainWindow.cpp:889
 msgid "&Seek Backward"
 msgstr ""
 
-#: MainWindow.cpp:903
+#: MainWindow.cpp:898
 msgid "Update Collection"
 msgstr ""
 
-#: MainWindow.cpp:907
+#: MainWindow.cpp:902
 #, fuzzy
 #| msgid "Local Collection"
 msgid "Rescan Collection"
 msgstr "Môlowô kòlekcëjô"
 
-#: MainWindow.cpp:918 MainWindow.cpp:927
+#: MainWindow.cpp:913 MainWindow.cpp:922
 msgid "Global Tag Radio"
 msgstr ""
 
-#: MainWindow.cpp:935
+#: MainWindow.cpp:930
 msgid "Play las&t.fm Stream"
 msgstr ""
 
-#: MainWindow.cpp:937 MainWindow.cpp:945
+#: MainWindow.cpp:932 MainWindow.cpp:940
 msgid "Personal Radio"
 msgstr "Swòjé radio"
 
-#: MainWindow.cpp:938 MainWindow.cpp:946
+#: MainWindow.cpp:933 MainWindow.cpp:941
 msgid "Neighbor Radio"
 msgstr "Sąsedczé radio"
 
-#: MainWindow.cpp:939 MainWindow.cpp:947
+#: MainWindow.cpp:934 MainWindow.cpp:942
 msgid "Custom Station"
 msgstr ""
 
-#: MainWindow.cpp:943
+#: MainWindow.cpp:938
 msgid "Add las&t.fm Stream"
 msgstr ""
 
-#: MainWindow.cpp:953 app.cpp:463
+#: MainWindow.cpp:948 app.cpp:463
 msgid "Previous Track"
 msgstr ""
 
-#: MainWindow.cpp:971 app.cpp:458
+#: MainWindow.cpp:966 app.cpp:458
 msgid "Next Track"
 msgstr ""
 
-#: MainWindow.cpp:975
+#: MainWindow.cpp:970
 msgid "Toggle Focus"
 msgstr ""
 
-#: MainWindow.cpp:998
+#: MainWindow.cpp:993
 msgid "&Amarok"
 msgstr ""
 
-#: MainWindow.cpp:1036
+#: MainWindow.cpp:1031
 msgid "&Mode"
 msgstr ""
 
-#: MainWindow.cpp:1048
+#: MainWindow.cpp:1043
 msgid "&Tools"
 msgstr "&Nôrzãdza"
 
-#: MainWindow.cpp:1069
+#: MainWindow.cpp:1064
 msgid "&Settings"
 msgstr "Ùs&towë"
 
@@ -10212,12 +10219,6 @@ msgstr ""
 msgid "Track Number - Title"
 msgstr ""
 
-#: playlist/PlaylistHandler.cpp:160
-#, fuzzy
-#| msgid "Downloading Podcast \"%1\""
-msgid "Downloading Playlist"
-msgstr "Ladowanié podcastu \"%1\""
-
 #: playlist/PlaylistWidget.cpp:77
 msgctxt "switch view"
 msgid "&View"
@@ -10239,11 +10240,7 @@ msgstr ""
 msgid "Redo"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:406
-msgid "Attempted to insert nothing into playlist."
-msgstr ""
-
-#: playlist/PlaylistModel.cpp:430
+#: playlist/PlaylistModel.cpp:432
 #, qt-format
 msgid "One track was already in the playlist, so it was not added."
 msgid_plural "%1 tracks were already in the playlist, so they were not added."
@@ -11025,35 +11022,35 @@ msgstr ""
 msgid "Enter space-separated terms to search in the playlist."
 msgstr ""
 
-#: widgets/sliderwidget.cpp:221
+#: widgets/sliderwidget.cpp:233
 msgid "Volume"
 msgstr "Głosnosc"
 
-#: widgets/sliderwidget.cpp:222
+#: widgets/sliderwidget.cpp:234
 msgid "100%"
 msgstr "100%"
 
-#: widgets/sliderwidget.cpp:223
+#: widgets/sliderwidget.cpp:235
 msgid "80%"
 msgstr "80%"
 
-#: widgets/sliderwidget.cpp:224
+#: widgets/sliderwidget.cpp:236
 msgid "60%"
 msgstr "60%"
 
-#: widgets/sliderwidget.cpp:225
+#: widgets/sliderwidget.cpp:237
 msgid "40%"
 msgstr "40%"
 
-#: widgets/sliderwidget.cpp:226
+#: widgets/sliderwidget.cpp:238
 msgid "20%"
 msgstr ""
 
-#: widgets/sliderwidget.cpp:227
+#: widgets/sliderwidget.cpp:239
 msgid "0%"
 msgstr "0%"
 
-#: widgets/sliderwidget.cpp:232
+#: widgets/sliderwidget.cpp:244
 msgid "&Equalizer"
 msgstr ""
 
