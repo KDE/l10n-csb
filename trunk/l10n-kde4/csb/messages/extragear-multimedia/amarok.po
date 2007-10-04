@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-03 05:51+0200\n"
+"POT-Creation-Date: 2007-10-04 05:38+0200\n"
 "PO-Revision-Date: 2007-07-27 20:44+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 
 #: meta/PlaylistFileSupport.cpp:33 PlaylistHandler.cpp:330
-#: PlaylistHandler.cpp:442 PlaylistHandler.cpp:751
+#: PlaylistHandler.cpp:442 PlaylistHandler.cpp:752
 #, qt-format
 msgid "Cannot write playlist (%1)."
 msgstr "Nie mògã zapisac lëstë graniô (%1)."
@@ -58,17 +58,17 @@ msgstr "%1 - %2"
 msgid "Local Collection"
 msgstr "Môlowô kòlekcëjô"
 
-#: context/Containment.cpp:43 context/plasma/containment.cpp:269
+#: context/Containment.cpp:43
 msgid "Add applet"
 msgstr ""
 
-#: context/Containment.cpp:89 context/plasma/containment.cpp:361
+#: context/Containment.cpp:89 context/plasma/containment.cpp:235
 #, fuzzy, qt-format
 #| msgid "&Settings"
 msgid "%1 Settings..."
 msgstr "Ùs&towë"
 
-#: context/Containment.cpp:97 context/plasma/containment.cpp:369
+#: context/Containment.cpp:97 context/plasma/containment.cpp:243
 #, qt-format
 msgid "Remove this %1"
 msgstr ""
@@ -306,24 +306,6 @@ msgstr ""
 msgid "Your machine does not support OpenGL applets."
 msgstr ""
 
-#: context/plasma/containment.cpp:266
-msgid "Engine Explorer"
-msgstr ""
-
-#: context/plasma/containment.cpp:272
-#, fuzzy
-#| msgid "Run Amarok..."
-msgid "Run Command..."
-msgstr "Zrëszë Amaroka..."
-
-#: context/plasma/containment.cpp:275
-msgid "Lock Screen"
-msgstr ""
-
-#: context/plasma/containment.cpp:279
-msgid "Logout"
-msgstr ""
-
 #: context/applets/currenttrack/CurrentTrack.cpp:169
 #, fuzzy
 #| msgid "Go To Current Track Folder"
@@ -362,7 +344,7 @@ msgstr ""
 #. i18n: file ./trackpickerdialogbase.ui line 92
 #: context/applets/lyrics/LyricsApplet.cpp:68 editfilterdialog.cpp:174
 #: metabundle.cpp:120 rc.cpp:609 smartplaylisteditor.cpp:176
-#: playlist/PlaylistModel.cpp:297
+#: playlist/PlaylistModel.cpp:293
 #, no-c-format
 msgid "Title"
 msgstr "Titel"
@@ -371,9 +353,10 @@ msgstr "Titel"
 #. i18n: file ./trackpickerdialogbase.ui line 103
 #: context/applets/lyrics/LyricsApplet.cpp:72 editfilterdialog.cpp:130
 #: metabundle.cpp:121 collectionbrowser/CollectionTreeItemModelBase.cpp:411
-#: rc.cpp:613 smartplaylisteditor.cpp:176 smartplaylisteditor.cpp:190
+#: collectionbrowser/CollectionWidget.cpp:33 rc.cpp:613
+#: smartplaylisteditor.cpp:176 smartplaylisteditor.cpp:190
 #: transferdialog.cpp:85 playlist/PlaylistHeader.cpp:33
-#: playlist/PlaylistModel.cpp:298
+#: playlist/PlaylistModel.cpp:294
 #, no-c-format
 msgid "Artist"
 msgstr ""
@@ -758,44 +741,45 @@ msgstr ""
 #. i18n: file ./trackpickerdialogbase.ui line 114
 #: editfilterdialog.cpp:128 mediadevice/ifp/ifpmediadevice.cpp:403
 #: metabundle.cpp:125 collectionbrowser/CollectionTreeItemModelBase.cpp:410
-#: rc.cpp:617 smartplaylisteditor.cpp:176 smartplaylisteditor.cpp:190
+#: collectionbrowser/CollectionWidget.cpp:45 rc.cpp:617
+#: smartplaylisteditor.cpp:176 smartplaylisteditor.cpp:190
 #: transferdialog.cpp:86 playlist/PlaylistHeader.cpp:33
-#: playlist/PlaylistModel.cpp:302
+#: playlist/PlaylistModel.cpp:298
 #, no-c-format
 msgid "Album"
 msgstr ""
 
 #: editfilterdialog.cpp:132 metabundle.cpp:134 smartplaylisteditor.cpp:180
-#: playlist/PlaylistModel.cpp:311
+#: playlist/PlaylistModel.cpp:307
 msgid "Bitrate"
 msgstr ""
 
 #: editfilterdialog.cpp:134 metabundle.cpp:128 smartplaylisteditor.cpp:180
-#: playlist/PlaylistModel.cpp:305
+#: playlist/PlaylistModel.cpp:301
 msgid "BPM"
 msgstr ""
 
 #: editfilterdialog.cpp:136 metabundle.cpp:130 smartplaylisteditor.cpp:177
-#: playlist/PlaylistModel.cpp:307
+#: playlist/PlaylistModel.cpp:303
 msgid "Comment"
 msgstr "Dopòwiesc"
 
 #: editfilterdialog.cpp:138 metabundle.cpp:123
 #: collectionbrowser/CollectionTreeItemModelBase.cpp:412
 #: smartplaylisteditor.cpp:176 smartplaylisteditor.cpp:190
-#: playlist/PlaylistModel.cpp:300
+#: playlist/PlaylistModel.cpp:296
 msgid "Composer"
 msgstr ""
 
-#: editfilterdialog.cpp:140 metabundle.cpp:131 playlist/PlaylistModel.cpp:308
+#: editfilterdialog.cpp:140 metabundle.cpp:131 playlist/PlaylistModel.cpp:304
 msgid "Directory"
 msgstr ""
 
-#: editfilterdialog.cpp:142 metabundle.cpp:126 playlist/PlaylistModel.cpp:303
+#: editfilterdialog.cpp:142 metabundle.cpp:126 playlist/PlaylistModel.cpp:299
 msgid "Disc Number"
 msgstr ""
 
-#: editfilterdialog.cpp:144 metabundle.cpp:119 playlist/PlaylistModel.cpp:296
+#: editfilterdialog.cpp:144 metabundle.cpp:119 playlist/PlaylistModel.cpp:292
 msgid "Filename"
 msgstr ""
 
@@ -810,12 +794,12 @@ msgstr ""
 #: editfilterdialog.cpp:150 metabundle.cpp:129
 #: collectionbrowser/CollectionTreeItemModelBase.cpp:413
 #: smartplaylisteditor.cpp:176 smartplaylisteditor.cpp:190
-#: transferdialog.cpp:87 playlist/PlaylistModel.cpp:306
+#: transferdialog.cpp:87 playlist/PlaylistModel.cpp:302
 msgid "Genre"
 msgstr ""
 
 #: editfilterdialog.cpp:152 metabundle.cpp:133 smartplaylisteditor.cpp:176
-#: playlist/PlaylistHeader.cpp:33 playlist/PlaylistModel.cpp:310
+#: playlist/PlaylistHeader.cpp:33 playlist/PlaylistModel.cpp:306
 msgid "Length"
 msgstr ""
 
@@ -824,33 +808,33 @@ msgstr ""
 msgid "Label"
 msgstr ""
 
-#: editfilterdialog.cpp:158 metabundle.cpp:138 playlist/PlaylistModel.cpp:315
+#: editfilterdialog.cpp:158 metabundle.cpp:138 playlist/PlaylistModel.cpp:311
 msgid "Play Count"
 msgstr ""
 
 #: editfilterdialog.cpp:162 metabundle.cpp:137 smartplaylisteditor.cpp:178
-#: playlist/PlaylistModel.cpp:314
+#: playlist/PlaylistModel.cpp:310
 msgid "Rating"
 msgstr ""
 
-#: editfilterdialog.cpp:165 metabundle.cpp:135 playlist/PlaylistModel.cpp:312
+#: editfilterdialog.cpp:165 metabundle.cpp:135 playlist/PlaylistModel.cpp:308
 msgid "Sample Rate"
 msgstr ""
 
 #: editfilterdialog.cpp:169 scriptmanager.cpp:172 scriptmanager.cpp:816
 #: metabundle.cpp:136 smartplaylisteditor.cpp:178
-#: playlist/PlaylistModel.cpp:313
+#: playlist/PlaylistModel.cpp:309
 msgid "Score"
 msgstr ""
 
-#: editfilterdialog.cpp:172 metabundle.cpp:141 playlist/PlaylistModel.cpp:318
+#: editfilterdialog.cpp:172 metabundle.cpp:141 playlist/PlaylistModel.cpp:314
 msgid "File Size"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./trackpickerdialogbase.ui line 125
 #: editfilterdialog.cpp:176 metabundle.cpp:127 rc.cpp:621
-#: playlist/PlaylistModel.cpp:304
+#: playlist/PlaylistModel.cpp:300
 #, no-c-format
 msgid "Track"
 msgstr ""
@@ -860,7 +844,7 @@ msgstr ""
 #: editfilterdialog.cpp:178 metabundle.cpp:124
 #: collectionbrowser/CollectionTreeItemModelBase.cpp:414 rc.cpp:625
 #: smartplaylisteditor.cpp:177 smartplaylisteditor.cpp:190
-#: smartplaylisteditor.cpp:908 playlist/PlaylistModel.cpp:301
+#: smartplaylisteditor.cpp:908 playlist/PlaylistModel.cpp:297
 #, no-c-format
 msgid "Year"
 msgstr ""
@@ -1237,7 +1221,7 @@ msgstr ""
 #: mediadevice/generic/genericmediadevice.cpp:543 querybuilder.cpp:404
 #: querybuilder.cpp:494 querybuilder.cpp:544 metabundle.cpp:616
 #: collectionbrowser/OrganizeCollectionDialog.ui.h:24 collectiondb.cpp:2138
-#: collectiondb.cpp:2203 playlist/PlaylistGraphicsItem.cpp:356
+#: collectiondb.cpp:2203 playlist/PlaylistGraphicsItem.cpp:377
 msgid "Various Artists"
 msgstr ""
 
@@ -1350,8 +1334,8 @@ msgstr[2] "&Rëmôj wëbróné òbkłôdczi"
 #: covermanager.cpp:547 Statistics.cpp:692 mediadevice/daap/daapclient.cpp:250
 #: mediadevice/ipod/ipodmediadevice.cpp:2110
 #: mediadevice/generic/genericmediadevice.cpp:945
-#: collectionbrowser/CollectionTreeView.cpp:121 app.cpp:792
-#: filebrowser.cpp:180
+#: collectionbrowser/CollectionTreeView.cpp:128 app.cpp:792
+#: filebrowser.cpp:182
 msgid "&Append to Playlist"
 msgid_plural "&Append Selected Albums to Playlist"
 msgstr[0] "&Dodôj wëbróny albùm do lëstë graniô"
@@ -1708,8 +1692,8 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./newdynamic.ui line 136
-#: equalizersetup.cpp:396 rc.cpp:1127 playlist/PlaylistModel.h:165
-#: filebrowser.cpp:353
+#: equalizersetup.cpp:396 rc.cpp:1127 playlist/PlaylistModel.h:159
+#: filebrowser.cpp:355
 #, no-c-format
 msgid "Untitled"
 msgstr "Bez titla"
@@ -1833,11 +1817,11 @@ msgid ""
 "accumulate data on your play habits!</div>"
 msgstr ""
 
-#: Statistics.cpp:693 app.cpp:797 filebrowser.cpp:182
+#: Statistics.cpp:693 app.cpp:797 filebrowser.cpp:184
 msgid "&Queue Track"
 msgstr ""
 
-#: Statistics.cpp:697 filebrowser.cpp:207
+#: Statistics.cpp:697 filebrowser.cpp:209
 msgctxt "[only-singular]"
 msgid "Edit Track &Information..."
 msgstr ""
@@ -2753,7 +2737,7 @@ msgstr ""
 #: mediadevice/daap/daapclient.cpp:249
 #: mediadevice/ipod/ipodmediadevice.cpp:2109
 #: mediadevice/generic/genericmediadevice.cpp:944
-#: collectionbrowser/CollectionTreeView.cpp:120 filebrowser.cpp:178
+#: collectionbrowser/CollectionTreeView.cpp:127 filebrowser.cpp:180
 msgid "&Load"
 msgstr ""
 
@@ -2765,7 +2749,7 @@ msgstr ""
 
 #: mediadevice/daap/daapclient.cpp:253
 #: mediadevice/ipod/ipodmediadevice.cpp:2115
-#: mediadevice/generic/genericmediadevice.cpp:948 filebrowser.cpp:192
+#: mediadevice/generic/genericmediadevice.cpp:948 filebrowser.cpp:194
 msgid "&Copy Files to Collection..."
 msgstr ""
 
@@ -5145,20 +5129,20 @@ msgstr ""
 msgid "Data Mode"
 msgstr ""
 
-#: metabundle.cpp:122 playlist/PlaylistModel.cpp:299
+#: metabundle.cpp:122 playlist/PlaylistModel.cpp:295
 msgid "Album Artist"
 msgstr ""
 
-#: metabundle.cpp:132 playlist/PlaylistModel.cpp:309
+#: metabundle.cpp:132 playlist/PlaylistModel.cpp:305
 msgid "Type"
 msgstr ""
 
-#: metabundle.cpp:139 playlist/PlaylistModel.cpp:316
+#: metabundle.cpp:139 playlist/PlaylistModel.cpp:312
 msgctxt "Column name"
 msgid "Last Played"
 msgstr ""
 
-#: metabundle.cpp:140 playlist/PlaylistModel.cpp:317
+#: metabundle.cpp:140 playlist/PlaylistModel.cpp:313
 msgid "Mood"
 msgstr ""
 
@@ -5286,6 +5270,28 @@ msgstr ""
 msgctxt "rating - description"
 msgid "%1 - %2"
 msgstr "%1 - %2"
+
+#: collectionbrowser/CollectionWidget.cpp:27
+msgid "Group By"
+msgstr ""
+
+#: collectionbrowser/CollectionWidget.cpp:37
+msgid "Artist / Album"
+msgstr ""
+
+#: collectionbrowser/CollectionWidget.cpp:41
+msgid "Artist / Year / Album"
+msgstr ""
+
+#: collectionbrowser/CollectionWidget.cpp:49
+#, fuzzy
+#| msgid "The Artist"
+msgid "Genre / Artist"
+msgstr "Wëkònywôcz"
+
+#: collectionbrowser/CollectionWidget.cpp:53
+msgid "Genre / Artist / Album"
+msgstr ""
 
 #: collectionbrowser/OrganizeCollectionDialog.ui.h:72
 msgctxt ""
@@ -10243,7 +10249,7 @@ msgstr ""
 msgid "Redo"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:432
+#: playlist/PlaylistModel.cpp:431
 #, qt-format
 msgid "One track was already in the playlist, so it was not added."
 msgid_plural "%1 tracks were already in the playlist, so they were not added."
@@ -11065,51 +11071,51 @@ msgstr ""
 msgid "Enter space-separated terms to search in the directory-listing"
 msgstr ""
 
-#: filebrowser.cpp:184
+#: filebrowser.cpp:186
 msgid "&Save as Playlist..."
 msgstr "&Zapiszë jakno lëstã graniô..."
 
-#: filebrowser.cpp:189
+#: filebrowser.cpp:191
 msgid "&Transfer to Media Device"
 msgstr ""
 
-#: filebrowser.cpp:191
+#: filebrowser.cpp:193
 msgid "&Organize Files..."
 msgstr "Ò&rganizëjë lopczi..."
 
-#: filebrowser.cpp:193
+#: filebrowser.cpp:195
 msgid "&Move Files to Collection..."
 msgstr "&Przesënié lopczi do kòlekcëji"
 
-#: filebrowser.cpp:195
+#: filebrowser.cpp:197
 msgid "Burn to CD..."
 msgstr "Wëpôlë na CD..."
 
-#: filebrowser.cpp:199
+#: filebrowser.cpp:201
 msgid "&Select All Files"
 msgstr "&Wëbiérzë wszëtczé lopczi"
 
-#: filebrowser.cpp:224
+#: filebrowser.cpp:226
 msgid "Bookmarks"
 msgstr "Załóżczi"
 
-#: filebrowser.cpp:262
+#: filebrowser.cpp:264
 msgid "Go To Current Track Folder"
 msgstr "Biéj do biéżnégò katalogù sztëczka"
 
-#: filebrowser.cpp:461
+#: filebrowser.cpp:463
 #, fuzzy
 #| msgid "Newest Tracks"
 msgid "Queue Track"
 msgstr "Nônowszi sztëcczi"
 
-#: filebrowser.cpp:463
+#: filebrowser.cpp:465
 #, fuzzy
 #| msgid "Newest Tracks"
 msgid "Queue Tracks"
 msgstr "Nônowszi sztëcczi"
 
-#: filebrowser.cpp:611
+#: filebrowser.cpp:613
 msgid ""
 "<div align=center>Enter a search term above; you can use wildcards like * "
 "and ?</div>"
@@ -11117,19 +11123,19 @@ msgstr ""
 "<div align=center>Wpiszë szëkòné słowò. Mòżesz ùżëc taczich merków jak * "
 "czë ?</div>"
 
-#: filebrowser.cpp:656
+#: filebrowser.cpp:658
 msgid "Search here..."
 msgstr "Szëkôj tuwò..."
 
-#: filebrowser.cpp:669
+#: filebrowser.cpp:671
 msgid "&Show Search Panel"
 msgstr ""
 
-#: filebrowser.cpp:712
+#: filebrowser.cpp:714
 msgid "Searching..."
 msgstr "Szëkba..."
 
-#: filebrowser.cpp:745
+#: filebrowser.cpp:747
 msgid "No results found"
 msgstr "Nick nie je nalazłé"
 
@@ -11159,6 +11165,11 @@ msgstr ""
 #: konquisidebar/universalamarok.cpp:317
 msgid "Build Collection..."
 msgstr "Bùdowanié kòlekcëji..."
+
+#, fuzzy
+#~| msgid "Run Amarok..."
+#~ msgid "Run Command..."
+#~ msgstr "Zrëszë Amaroka..."
 
 #, fuzzy
 #~| msgid "Loading Playlist"
