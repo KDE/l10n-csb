@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: phonon-xine\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-02 05:31+0200\n"
+"POT-Creation-Date: 2007-10-05 05:40+0200\n"
 "PO-Revision-Date: 2007-08-20 20:14+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -79,7 +79,17 @@ msgstr "Czas dżiniãcô"
 msgid "Start Fade"
 msgstr "Zrëszë dżiniãce"
 
-#: xineengine.cpp:398
+#: xineengine.cpp:276
+#, qt-format
+msgid "%1 (OSS)"
+msgstr ""
+
+#: xineengine.cpp:278
+#, qt-format
+msgid "%1 (ALSA)"
+msgstr ""
+
+#: xineengine.cpp:440
 msgid ""
 "<html>This device is currently not available (either it is unplugged or the "
 "driver is not loaded).</html>"
@@ -87,7 +97,7 @@ msgstr ""
 "<html>Ne ùrządzenié nie je terô przëstãpné (abò je òdłączoné abò czérownik "
 "nie je zaladowóny).</html>"
 
-#: xineengine.cpp:400
+#: xineengine.cpp:442
 #, qt-format
 msgid ""
 "<html>This will try the following devices and use the first that works: "
@@ -96,11 +106,11 @@ msgstr ""
 "<html>Próbùje ne ùrządzenia ë wëbierze to, jaczé pierszé bãdze robic: "
 "<ol><li>%1</li></ol></html>"
 
-#: xineengine.cpp:493
+#: xineengine.cpp:552
 msgid "Jack Audio Connection Kit"
 msgstr "Jack Audio Connection Kit"
 
-#: xineengine.cpp:494
+#: xineengine.cpp:553
 msgid ""
 "<html><p>JACK is a low-latency audio server. It can connect a number of "
 "different applications to an audio device, as well as allowing them to share "
@@ -114,11 +124,11 @@ msgstr ""
 "robòtë nad zwãkã a jegò dbą je dzejanié w dwóch wôżnëch môlach: "
 "synchronikòwô robòta wszëtczéch klientów a krótczé òpózdzenia.</p></html>"
 
-#: xineengine.cpp:503
+#: xineengine.cpp:562
 msgid "aRts"
 msgstr "aRts"
 
-#: xineengine.cpp:504
+#: xineengine.cpp:563
 msgid ""
 "<html><p>aRts is the old soundserver and media framework that was used in "
 "KDE2 and KDE3. Its use is discuraged.</p></html>"
@@ -126,11 +136,11 @@ msgstr ""
 "<html><p>aRts je stôra serwera zwãkù ë sztruktura brëkòwónô w KDE2 ë KDE3. "
 "Jegò ùżëcé nie je zalécóné.</p></html>"
 
-#: xineengine.cpp:508
+#: xineengine.cpp:567
 msgid "PulseAudio"
 msgstr ""
 
-#: xineengine.cpp:512
+#: xineengine.cpp:571
 msgid "Esound (ESD)"
 msgstr ""
 
@@ -148,12 +158,12 @@ msgstr "nie mòże nalezc wtëkôcza demùltipleksera dlô dónëch pòdôwków 
 msgid "cannot find demultiplexer plugin for MRL [%1]"
 msgstr "nie mòże nalezc wtëkôcza demùltipleksera dlô MRL [%1]"
 
-#: xinestream.cpp:918 xinestream.cpp:1025 xinestream.cpp:1065
-#: xinestream.cpp:1093
+#: xinestream.cpp:920 xinestream.cpp:1027 xinestream.cpp:1067
+#: xinestream.cpp:1095
 msgid "Xine failed to create a stream."
 msgstr "Xine nie darzëło sã ùsôdzëc strëdżi."
 
-#: xinestream.cpp:1008
+#: xinestream.cpp:1010
 msgid "Playback failed because no valid audio or video outputs are available"
 msgstr ""
 "Òdgrëwanié nie darzëło sã bò nie je przëstãpné niżódné wińdzenié aùdio czë "
