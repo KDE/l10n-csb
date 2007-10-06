@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: phonon-gst\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-01 05:40+0200\n"
+"POT-Creation-Date: 2007-10-06 05:43+0200\n"
 "PO-Revision-Date: 2007-07-28 16:54+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -18,11 +18,15 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
-#: backend.cpp:361 playbin.cpp:523
+#: backend.cpp:105
+msgid "Phonon GStreamer Backend"
+msgstr ""
+
+#: backendprivate.cpp:272 playbin.cpp:523
 msgid "PulseAudio"
 msgstr "PulseAudio"
 
-#: backend.cpp:362
+#: backendprivate.cpp:273
 msgid ""
 "<p>PulseAudio is a sound server for POSIX and Win32 systems. A sound server "
 "is basically a proxy for your sound applications. It allows you to do "
@@ -30,10 +34,6 @@ msgid ""
 "and your hardware. Things like transferring the audio to a different "
 "machine, changing the sample format or channel count and mixing several "
 "sounds into one are easily achieved using a sound server.</p>"
-msgstr ""
-
-#: backend.cpp:456
-msgid "Phonon GStreamer Backend"
 msgstr ""
 
 #: playbin.cpp:524
