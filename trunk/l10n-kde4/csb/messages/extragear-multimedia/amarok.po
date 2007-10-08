@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-06 05:43+0200\n"
+"POT-Creation-Date: 2007-10-08 05:54+0200\n"
 "PO-Revision-Date: 2007-07-27 20:44+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -18,8 +18,8 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: meta/PlaylistFileSupport.cpp:33 PlaylistHandler.cpp:330
-#: PlaylistHandler.cpp:442 PlaylistHandler.cpp:752
+#: meta/PlaylistFileSupport.cpp:33 PlaylistHandler.cpp:336
+#: PlaylistHandler.cpp:448 PlaylistHandler.cpp:766
 #, qt-format
 msgid "Cannot write playlist (%1)."
 msgstr "Nie mògã zapisac lëstë graniô (%1)."
@@ -32,7 +32,7 @@ msgstr "Sprôwdzanié w MusicBraiz"
 msgid "Postgresql reported the following error:<br/>"
 msgstr "Postgresql zarapòrtowôł nã felã:<br/>"
 
-#: collection/sqlcollection/postgresqlcollection.cpp:208 collectiondb.cpp:6556
+#: collection/sqlcollection/postgresqlcollection.cpp:208 collectiondb.cpp:6558
 msgid ""
 "<p>You can configure Postgresql in the Collection section under Settings-"
 ">Configure Amarok</p>"
@@ -49,10 +49,40 @@ msgid "Stream"
 msgstr "Strega"
 
 #: collection/sqlcollection/sqlmeta.cpp:155 covermanager.cpp:325
-#: covermanager.cpp:972 metabundle.cpp:1044
+#: covermanager.cpp:972 metabundle.cpp:1043
 #, qt-format
 msgid "%1 - %2"
 msgstr "%1 - %2"
+
+#: collection/sqlcollection/ScanController.cpp:85
+msgid "Updating Collection"
+msgstr ""
+
+#: collection/sqlcollection/ScanController.cpp:90
+msgid "Building Collection"
+msgstr ""
+
+#: collection/sqlcollection/ScanController.cpp:104
+msgid "<p>The Collection Scanner was unable to process these files:</p>"
+msgstr ""
+
+#: collection/sqlcollection/ScanController.cpp:106
+msgid "Collection Scan Report"
+msgstr ""
+
+#: collection/sqlcollection/ScanController.cpp:109
+msgid ""
+"<p>Sorry, the Collection Scan was aborted, since too many problems were "
+"encountered.</p>"
+msgstr ""
+
+#: collection/sqlcollection/ScanController.cpp:113
+msgid "Collection Scan Error"
+msgstr ""
+
+#: collection/sqlcollection/ScanController.cpp:218
+msgid "Updating Collection..."
+msgstr ""
 
 #: collection/sqlcollection/SqlCollectionLocation.cpp:46
 msgid "Local Collection"
@@ -291,13 +321,13 @@ msgstr ""
 msgid "Your machine does not support OpenGL applets."
 msgstr ""
 
-#: context/plasma/containment.cpp:235
+#: context/plasma/containment.cpp:241
 #, fuzzy, qt-format
 #| msgid "&Settings"
 msgid "%1 Settings..."
 msgstr "Ùs&towë"
 
-#: context/plasma/containment.cpp:243
+#: context/plasma/containment.cpp:249
 #, qt-format
 msgid "Remove this %1"
 msgstr ""
@@ -339,7 +369,7 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./trackpickerdialogbase.ui line 92
 #: context/applets/lyrics/LyricsApplet.cpp:68 editfilterdialog.cpp:174
-#: metabundle.cpp:120 rc.cpp:609 smartplaylisteditor.cpp:176
+#: metabundle.cpp:119 rc.cpp:609 smartplaylisteditor.cpp:176
 #: playlist/PlaylistModel.cpp:293
 #, no-c-format
 msgid "Title"
@@ -348,7 +378,7 @@ msgstr "Titel"
 #. i18n: tag string
 #. i18n: file ./trackpickerdialogbase.ui line 103
 #: context/applets/lyrics/LyricsApplet.cpp:72 editfilterdialog.cpp:130
-#: metabundle.cpp:121 collectionbrowser/CollectionTreeItemModelBase.cpp:411
+#: metabundle.cpp:120 collectionbrowser/CollectionTreeItemModelBase.cpp:411
 #: collectionbrowser/CollectionWidget.cpp:33 rc.cpp:613
 #: smartplaylisteditor.cpp:176 smartplaylisteditor.cpp:190
 #: transferdialog.cpp:85 playlist/PlaylistHeader.cpp:33
@@ -740,7 +770,7 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./trackpickerdialogbase.ui line 114
 #: editfilterdialog.cpp:128 mediadevice/ifp/ifpmediadevice.cpp:403
-#: metabundle.cpp:125 collectionbrowser/CollectionTreeItemModelBase.cpp:410
+#: metabundle.cpp:124 collectionbrowser/CollectionTreeItemModelBase.cpp:410
 #: collectionbrowser/CollectionWidget.cpp:45 rc.cpp:617
 #: smartplaylisteditor.cpp:176 smartplaylisteditor.cpp:190
 #: transferdialog.cpp:86 playlist/PlaylistHeader.cpp:33
@@ -749,37 +779,37 @@ msgstr ""
 msgid "Album"
 msgstr ""
 
-#: editfilterdialog.cpp:132 metabundle.cpp:134 smartplaylisteditor.cpp:180
+#: editfilterdialog.cpp:132 metabundle.cpp:133 smartplaylisteditor.cpp:180
 #: playlist/PlaylistModel.cpp:307
 msgid "Bitrate"
 msgstr ""
 
-#: editfilterdialog.cpp:134 metabundle.cpp:128 smartplaylisteditor.cpp:180
+#: editfilterdialog.cpp:134 metabundle.cpp:127 smartplaylisteditor.cpp:180
 #: playlist/PlaylistModel.cpp:301
 msgid "BPM"
 msgstr ""
 
-#: editfilterdialog.cpp:136 metabundle.cpp:130 smartplaylisteditor.cpp:177
+#: editfilterdialog.cpp:136 metabundle.cpp:129 smartplaylisteditor.cpp:177
 #: playlist/PlaylistModel.cpp:303
 msgid "Comment"
 msgstr "Dopòwiesc"
 
-#: editfilterdialog.cpp:138 metabundle.cpp:123
+#: editfilterdialog.cpp:138 metabundle.cpp:122
 #: collectionbrowser/CollectionTreeItemModelBase.cpp:412
 #: smartplaylisteditor.cpp:176 smartplaylisteditor.cpp:190
 #: playlist/PlaylistModel.cpp:296
 msgid "Composer"
 msgstr ""
 
-#: editfilterdialog.cpp:140 metabundle.cpp:131 playlist/PlaylistModel.cpp:304
+#: editfilterdialog.cpp:140 metabundle.cpp:130 playlist/PlaylistModel.cpp:304
 msgid "Directory"
 msgstr ""
 
-#: editfilterdialog.cpp:142 metabundle.cpp:126 playlist/PlaylistModel.cpp:299
+#: editfilterdialog.cpp:142 metabundle.cpp:125 playlist/PlaylistModel.cpp:299
 msgid "Disc Number"
 msgstr ""
 
-#: editfilterdialog.cpp:144 metabundle.cpp:119 playlist/PlaylistModel.cpp:292
+#: editfilterdialog.cpp:144 metabundle.cpp:118 playlist/PlaylistModel.cpp:292
 msgid "Filename"
 msgstr ""
 
@@ -791,14 +821,14 @@ msgstr ""
 msgid "Filetype"
 msgstr ""
 
-#: editfilterdialog.cpp:150 metabundle.cpp:129
+#: editfilterdialog.cpp:150 metabundle.cpp:128
 #: collectionbrowser/CollectionTreeItemModelBase.cpp:413
 #: smartplaylisteditor.cpp:176 smartplaylisteditor.cpp:190
 #: transferdialog.cpp:87 playlist/PlaylistModel.cpp:302
 msgid "Genre"
 msgstr ""
 
-#: editfilterdialog.cpp:152 metabundle.cpp:133 smartplaylisteditor.cpp:176
+#: editfilterdialog.cpp:152 metabundle.cpp:132 smartplaylisteditor.cpp:176
 #: playlist/PlaylistHeader.cpp:33 playlist/PlaylistModel.cpp:306
 msgid "Length"
 msgstr ""
@@ -808,32 +838,32 @@ msgstr ""
 msgid "Label"
 msgstr ""
 
-#: editfilterdialog.cpp:158 metabundle.cpp:138 playlist/PlaylistModel.cpp:311
+#: editfilterdialog.cpp:158 metabundle.cpp:137 playlist/PlaylistModel.cpp:311
 msgid "Play Count"
 msgstr ""
 
-#: editfilterdialog.cpp:162 metabundle.cpp:137 smartplaylisteditor.cpp:178
+#: editfilterdialog.cpp:162 metabundle.cpp:136 smartplaylisteditor.cpp:178
 #: playlist/PlaylistModel.cpp:310
 msgid "Rating"
 msgstr ""
 
-#: editfilterdialog.cpp:165 metabundle.cpp:135 playlist/PlaylistModel.cpp:308
+#: editfilterdialog.cpp:165 metabundle.cpp:134 playlist/PlaylistModel.cpp:308
 msgid "Sample Rate"
 msgstr ""
 
 #: editfilterdialog.cpp:169 scriptmanager.cpp:172 scriptmanager.cpp:816
-#: metabundle.cpp:136 smartplaylisteditor.cpp:178
+#: metabundle.cpp:135 smartplaylisteditor.cpp:178
 #: playlist/PlaylistModel.cpp:309
 msgid "Score"
 msgstr ""
 
-#: editfilterdialog.cpp:172 metabundle.cpp:141 playlist/PlaylistModel.cpp:314
+#: editfilterdialog.cpp:172 metabundle.cpp:140 playlist/PlaylistModel.cpp:314
 msgid "File Size"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./trackpickerdialogbase.ui line 125
-#: editfilterdialog.cpp:176 metabundle.cpp:127 rc.cpp:621
+#: editfilterdialog.cpp:176 metabundle.cpp:126 rc.cpp:621
 #: playlist/PlaylistModel.cpp:300
 #, no-c-format
 msgid "Track"
@@ -841,7 +871,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./trackpickerdialogbase.ui line 136
-#: editfilterdialog.cpp:178 metabundle.cpp:124
+#: editfilterdialog.cpp:178 metabundle.cpp:123
 #: collectionbrowser/CollectionTreeItemModelBase.cpp:414 rc.cpp:625
 #: smartplaylisteditor.cpp:177 smartplaylisteditor.cpp:190
 #: smartplaylisteditor.cpp:908 playlist/PlaylistModel.cpp:297
@@ -1170,36 +1200,6 @@ msgid ""
 "modified, e.g. when a new file was added."
 msgstr ""
 
-#: scancontroller.cpp:84
-msgid "Updating Collection"
-msgstr ""
-
-#: scancontroller.cpp:89
-msgid "Building Collection"
-msgstr ""
-
-#: scancontroller.cpp:103
-msgid "<p>The Collection Scanner was unable to process these files:</p>"
-msgstr ""
-
-#: scancontroller.cpp:105
-msgid "Collection Scan Report"
-msgstr ""
-
-#: scancontroller.cpp:108
-msgid ""
-"<p>Sorry, the Collection Scan was aborted, since too many problems were "
-"encountered.</p>"
-msgstr ""
-
-#: scancontroller.cpp:112
-msgid "Collection Scan Error"
-msgstr ""
-
-#: scancontroller.cpp:217
-msgid "Updating Collection..."
-msgstr ""
-
 #: covermanager.cpp:106 MainWindow.cpp:839
 msgid "Cover Manager"
 msgstr ""
@@ -1219,7 +1219,7 @@ msgstr ""
 #: mediadevice/ipod/ipodmediadevice.cpp:1949
 #: mediadevice/generic/genericmediadeviceconfigdialog.ui.h:165
 #: mediadevice/generic/genericmediadevice.cpp:543 querybuilder.cpp:404
-#: querybuilder.cpp:494 querybuilder.cpp:544 metabundle.cpp:616
+#: querybuilder.cpp:494 querybuilder.cpp:544 metabundle.cpp:615
 #: collectionbrowser/OrganizeCollectionDialog.ui.h:24 collectiondb.cpp:2138
 #: collectiondb.cpp:2203 playlist/PlaylistGraphicsItem.cpp:377
 msgid "Various Artists"
@@ -2106,7 +2106,7 @@ msgid ""
 "All presets will be deleted and defaults will be restored. Are you sure?"
 msgstr ""
 
-#: PlaylistHandler.cpp:165
+#: PlaylistHandler.cpp:166
 #, fuzzy
 #| msgid "Downloading Podcast \"%1\""
 msgid "Downloading Playlist"
@@ -5129,69 +5129,69 @@ msgstr ""
 msgid "Data Mode"
 msgstr ""
 
-#: metabundle.cpp:122 playlist/PlaylistModel.cpp:295
+#: metabundle.cpp:121 playlist/PlaylistModel.cpp:295
 msgid "Album Artist"
 msgstr ""
 
-#: metabundle.cpp:132 playlist/PlaylistModel.cpp:305
+#: metabundle.cpp:131 playlist/PlaylistModel.cpp:305
 msgid "Type"
 msgstr ""
 
-#: metabundle.cpp:139 playlist/PlaylistModel.cpp:312
+#: metabundle.cpp:138 playlist/PlaylistModel.cpp:312
 msgctxt "Column name"
 msgid "Last Played"
 msgstr ""
 
-#: metabundle.cpp:140 playlist/PlaylistModel.cpp:313
+#: metabundle.cpp:139 playlist/PlaylistModel.cpp:313
 msgid "Mood"
 msgstr ""
 
-#: metabundle.cpp:818
+#: metabundle.cpp:817
 msgid "Calculating..."
 msgstr ""
 
-#: metabundle.cpp:819
+#: metabundle.cpp:818
 msgid "Queued..."
 msgstr ""
 
-#: metabundle.cpp:1060 statusbar/queueLabel.cpp:312
+#: metabundle.cpp:1059 statusbar/queueLabel.cpp:312
 #, qt-format
 msgid "%1 by %2"
 msgstr ""
 
-#: metabundle.cpp:1121 metabundle.cpp:1154
+#: metabundle.cpp:1120 metabundle.cpp:1153
 msgid "?"
 msgstr ""
 
-#: metabundle.cpp:1123 metabundle.cpp:1156
+#: metabundle.cpp:1122 metabundle.cpp:1155
 msgid "-"
 msgstr ""
 
-#: metabundle.cpp:1139
+#: metabundle.cpp:1138
 #, c-format, qt-format
 msgctxt "seconds"
 msgid "%1s"
 msgstr ""
 
-#: metabundle.cpp:1140
+#: metabundle.cpp:1139
 #, c-format, qt-format
 msgctxt "minutes, seconds"
 msgid "%2m %1s"
 msgstr ""
 
-#: metabundle.cpp:1141
+#: metabundle.cpp:1140
 #, qt-format
 msgctxt "hours, minutes, seconds"
 msgid "%3h %2m %1s"
 msgstr ""
 
-#: metabundle.cpp:1142
+#: metabundle.cpp:1141
 #, qt-format
 msgctxt "days, hours, minutes, seconds"
 msgid "%4d %3h %2m %1s"
 msgstr ""
 
-#: metabundle.cpp:1196
+#: metabundle.cpp:1195
 #, qt-format
 msgid "1 week "
 msgid_plural "%1 weeks "
@@ -5199,7 +5199,7 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: metabundle.cpp:1197
+#: metabundle.cpp:1196
 #, qt-format
 msgid "1 day "
 msgid_plural "%1 days "
@@ -5207,7 +5207,7 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: metabundle.cpp:1198
+#: metabundle.cpp:1197
 #, qt-format
 msgid "1 hour"
 msgid_plural "%1 hours"
@@ -5215,57 +5215,57 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: metabundle.cpp:1205
+#: metabundle.cpp:1204
 #, qt-format
 msgid "%1:%2 hours"
 msgstr ""
 
-#: metabundle.cpp:1207
+#: metabundle.cpp:1206
 #, qt-format
 msgid "%1:%2"
 msgstr ""
 
-#: metabundle.cpp:1242
+#: metabundle.cpp:1241
 msgid "Awful"
 msgstr ""
 
-#: metabundle.cpp:1243
+#: metabundle.cpp:1242
 msgid "Barely tolerable"
 msgstr ""
 
-#: metabundle.cpp:1244
+#: metabundle.cpp:1243
 msgid "Tolerable"
 msgstr ""
 
-#: metabundle.cpp:1245
+#: metabundle.cpp:1244
 msgid "Okay"
 msgstr ""
 
-#: metabundle.cpp:1246
+#: metabundle.cpp:1245
 msgid "Good"
 msgstr ""
 
-#: metabundle.cpp:1247
+#: metabundle.cpp:1246
 msgid "Very good"
 msgstr ""
 
-#: metabundle.cpp:1248
+#: metabundle.cpp:1247
 msgid "Excellent"
 msgstr ""
 
-#: metabundle.cpp:1249
+#: metabundle.cpp:1248
 msgid "Amazing"
 msgstr ""
 
-#: metabundle.cpp:1250
+#: metabundle.cpp:1249
 msgid "Favorite"
 msgstr ""
 
-#: metabundle.cpp:1251
+#: metabundle.cpp:1250
 msgid "Not rated"
 msgstr ""
 
-#: metabundle.cpp:1262
+#: metabundle.cpp:1261
 #, qt-format
 msgctxt "rating - description"
 msgid "%1 - %2"
@@ -10051,25 +10051,25 @@ msgstr[2] ""
 msgid "Unknown item"
 msgstr ""
 
-#: collectiondb.cpp:3550
+#: collectiondb.cpp:3552
 msgid "from"
 msgstr ""
 
-#: collectiondb.cpp:5294 collectiondb.cpp:5306
+#: collectiondb.cpp:5296 collectiondb.cpp:5308
 msgid "Updating database"
 msgstr ""
 
-#: collectiondb.cpp:6388
+#: collectiondb.cpp:6390
 msgid "MySQL reported the following error:<br>"
 msgstr ""
 
-#: collectiondb.cpp:6389
+#: collectiondb.cpp:6391
 msgid ""
 "<p>You can configure MySQL in the Collection section under Settings-"
 ">Configure Amarok</p>"
 msgstr ""
 
-#: collectiondb.cpp:6555
+#: collectiondb.cpp:6557
 msgid "Postgresql reported the following error:<br>"
 msgstr ""
 
