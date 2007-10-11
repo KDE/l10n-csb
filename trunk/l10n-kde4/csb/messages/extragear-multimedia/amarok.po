@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-10 05:35+0200\n"
+"POT-Creation-Date: 2007-10-11 05:45+0200\n"
 "PO-Revision-Date: 2007-07-27 20:44+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: meta/PlaylistFileSupport.cpp:33 PlaylistHandler.cpp:337
 #: PlaylistHandler.cpp:449 PlaylistHandler.cpp:767
-#, qt-format
+#, kde-format
 msgid "Cannot write playlist (%1)."
 msgstr "Nie mògã zapisac lëstë graniô (%1)."
 
@@ -50,7 +50,7 @@ msgstr "Strega"
 
 #: collection/sqlcollection/sqlmeta.cpp:183 covermanager.cpp:325
 #: covermanager.cpp:973 metabundle.cpp:1043
-#, qt-format
+#, kde-format
 msgid "%1 - %2"
 msgstr "%1 - %2"
 
@@ -252,7 +252,8 @@ msgid "This object could not be created."
 msgstr ""
 
 #: context/plasma/applet.cpp:594
-#, qt-format
+#, kde-format
+#| msgid "This object could not be created for the following reason:<p>%1</p>"
 msgid "This object could not be created for the following reason:<p>%1</p>"
 msgstr ""
 
@@ -263,7 +264,7 @@ msgid "Configure..."
 msgstr "&Kònfigùracëjô..."
 
 #: context/plasma/applet.cpp:902 context/plasma/applet.cpp:916
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "&Settings"
 msgid "%1 Settings"
 msgstr "Ùs&towë"
@@ -287,7 +288,8 @@ msgid "All applets"
 msgstr ""
 
 #: context/plasma/appletbrowser.cpp:109 context/plasma/appletbrowser.cpp:111
-#, qt-format
+#, kde-format
+#| msgid "Recommended by %1"
 msgid "Recommended by %1"
 msgstr ""
 
@@ -323,13 +325,14 @@ msgid "Your machine does not support OpenGL applets."
 msgstr ""
 
 #: context/plasma/containment.cpp:254
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "&Settings"
 msgid "%1 Settings..."
 msgstr "Ùs&towë"
 
 #: context/plasma/containment.cpp:262
-#, qt-format
+#, kde-format
+#| msgid "Remove this %1"
 msgid "Remove this %1"
 msgstr ""
 
@@ -362,14 +365,14 @@ msgstr ""
 msgid "Show Your Future Events"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:64 editfilterdialog.cpp:156
+#: context/applets/lyrics/LyricsApplet.cpp:66 editfilterdialog.cpp:156
 #: scriptmanager.cpp:171 tagdialog.cpp:429
 msgid "Lyrics"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./trackpickerdialogbase.ui line 92
-#: context/applets/lyrics/LyricsApplet.cpp:68 editfilterdialog.cpp:174
+#: context/applets/lyrics/LyricsApplet.cpp:70 editfilterdialog.cpp:174
 #: metabundle.cpp:119 rc.cpp:458 smartplaylisteditor.cpp:176
 #: playlist/PlaylistModel.cpp:293
 msgid "Title"
@@ -377,7 +380,7 @@ msgstr "Titel"
 
 #. i18n: tag string
 #. i18n: file ./trackpickerdialogbase.ui line 103
-#: context/applets/lyrics/LyricsApplet.cpp:72 editfilterdialog.cpp:130
+#: context/applets/lyrics/LyricsApplet.cpp:74 editfilterdialog.cpp:130
 #: metabundle.cpp:120 collectionbrowser/CollectionTreeItemModelBase.cpp:411
 #: collectionbrowser/CollectionWidget.cpp:33 rc.cpp:461
 #: smartplaylisteditor.cpp:176 smartplaylisteditor.cpp:190
@@ -386,28 +389,28 @@ msgstr "Titel"
 msgid "Artist"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:76
+#: context/applets/lyrics/LyricsApplet.cpp:78
 #, fuzzy
 #| msgid "Title"
 msgid "Site"
 msgstr "Titel"
 
-#: context/applets/lyrics/LyricsApplet.cpp:134
+#: context/applets/lyrics/LyricsApplet.cpp:137
 #, fuzzy
 #| msgid "Amarok is not running!"
 msgid "No lyrics script is running!"
 msgstr "Amarok nie je zrëszony!"
 
-#: context/applets/lyrics/LyricsApplet.cpp:138
+#: context/applets/lyrics/LyricsApplet.cpp:141
 msgid "Lyrics are being fetched."
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:140
+#: context/applets/lyrics/LyricsApplet.cpp:143
 msgid ""
 "Lyrics were not able to be downloaded. Please check your internet connection."
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:142
+#: context/applets/lyrics/LyricsApplet.cpp:145
 msgid "Todo.... show suggestions here!"
 msgstr ""
 
@@ -426,7 +429,7 @@ msgid "Add applet"
 msgstr ""
 
 #: deviceconfiguredialog.cpp:41
-#, qt-format
+#, kde-format
 msgid "Select Plugin for %1"
 msgstr "Wëbiérzë wtëkôcz dlô %1"
 
@@ -475,7 +478,8 @@ msgid "&Transcode before transferring to device"
 msgstr ""
 
 #: deviceconfiguredialog.cpp:92
-#, qt-format
+#, kde-format
+#| msgid "Transcode to preferred format (%1) for device"
 msgid "Transcode to preferred format (%1) for device"
 msgstr ""
 
@@ -496,13 +500,13 @@ msgid "For this feature, a script of type \"Transcode\" has to be running"
 msgstr ""
 
 #: tracktooltip.cpp:47
-#, qt-format
+#, kde-format
 msgctxt "monthname year"
 msgid "%1 %2"
 msgstr "%1 %2"
 
 #: tracktooltip.cpp:54
-#, qt-format
+#, kde-format
 msgid "One week ago"
 msgid_plural "%1 weeks ago"
 msgstr[0] "Tidzéń nazôd"
@@ -518,7 +522,7 @@ msgid "Yesterday"
 msgstr "Wczora"
 
 #: tracktooltip.cpp:64
-#, qt-format
+#, kde-format
 msgid "One day ago"
 msgid_plural "%1 days ago"
 msgstr[0] "Jeden dzén nazôd"
@@ -526,7 +530,7 @@ msgstr[1] "%1 dni nazôd"
 msgstr[2] "%1 dniów nazôd"
 
 #: tracktooltip.cpp:67
-#, qt-format
+#, kde-format
 msgid "One hour ago"
 msgid_plural "%1 hours ago"
 msgstr[0] "Jedna gòdzëna nazôd"
@@ -534,7 +538,7 @@ msgstr[1] "%1 gòdzënë nazôd"
 msgstr[2] "%1 gòdzënów nazôd"
 
 #: tracktooltip.cpp:73
-#, qt-format
+#, kde-format
 msgid "One minute ago"
 msgid_plural "%1 minutes ago"
 msgstr[0] "Jedna minuta nazôd"
@@ -574,7 +578,7 @@ msgid "Click to get the plugin information."
 msgstr ""
 
 #: configdialog/dialogs/EngineConfig.cpp:142
-#, qt-format
+#, kde-format
 msgctxt "to change settings"
 msgid "Configure %1"
 msgstr "Kònfigùrëjë %1"
@@ -601,6 +605,17 @@ msgid "Add Device..."
 msgstr "Dodôj ùrządzenie..."
 
 #: configdialog/dialogs/OsdConfig.cpp:62
+#, kde-format
+#| msgid ""
+#| "<h3>Tags Displayed in OSD</h3>You can use the following tokens:"
+#| "<ul><li>Title - %1<li>Album - %2<li>Artist - %3<li>Genre - %4<li>Bitrate "
+#| "- %5<li>Year - %6<li>Track Length - %7<li>Track Number - %8<li>Filename - "
+#| "%9<li>Directory - %10<li>Type - %11<li>Comment - %12<li>Score - %"
+#| "13<li>Playcount - %14<li>Disc Number - %15<li>Rating - %16<li>Moodbar - %"
+#| "17<li>Elapsed Time - %18</ul>If you surround sections of text that "
+#| "contain a token with curly-braces, that section will be hidden if the "
+#| "token is empty, for example:<pre>%19</pre>Will not show <b>Score: <i>%"
+#| "score</i></b> if the track has no score."
 msgid ""
 "<h3>Tags Displayed in OSD</h3>You can use the following tokens:<ul><li>Title "
 "- %1<li>Album - %2<li>Artist - %3<li>Genre - %4<li>Bitrate - %5<li>Year - %"
@@ -613,7 +628,7 @@ msgid ""
 msgstr ""
 
 #: configdialog/dialogs/OsdConfig.cpp:94 Statistics.cpp:616
-#, qt-format
+#, kde-format
 msgid "Score: %1"
 msgstr "Pùnktë: %1"
 
@@ -1034,7 +1049,9 @@ msgid "Empty Text Field"
 msgstr ""
 
 #: enginecontroller.cpp:125
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Sorry, the '%1' could not be loaded, instead we have loaded the '%2'."
 msgid "Sorry, the '%1' could not be loaded, instead we have loaded the '%2'."
 msgstr ""
 
@@ -1051,7 +1068,13 @@ msgid ""
 msgstr ""
 
 #: enginecontroller.cpp:248
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<p>The %1 claims it <b>cannot</b> play MP3 files.<p>You may want to "
+#| "choose a different engine from the <i>Configure Dialog</i>, or examine "
+#| "the installation of the multimedia-framework that the current engine "
+#| "uses. <p>You may find useful information in the <i>FAQ</i> section of the "
+#| "<i>Amarok HandBook</i>."
 msgid ""
 "<p>The %1 claims it <b>cannot</b> play MP3 files.<p>You may want to choose a "
 "different engine from the <i>Configure Dialog</i>, or examine the "
@@ -1097,7 +1120,10 @@ msgid "Could not read this package."
 msgstr ""
 
 #: scriptmanager.cpp:438
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "A script with the name '%1' is already installed. Please uninstall it "
+#| "first."
 msgid ""
 "A script with the name '%1' is already installed. Please uninstall it first."
 msgstr ""
@@ -1113,7 +1139,8 @@ msgid ""
 msgstr ""
 
 #: scriptmanager.cpp:517
-#, qt-format
+#, kde-format
+#| msgid "Are you sure you want to uninstall the script '%1'?"
 msgid "Are you sure you want to uninstall the script '%1'?"
 msgstr ""
 
@@ -1144,7 +1171,10 @@ msgid ""
 msgstr ""
 
 #: scriptmanager.cpp:595
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<p>Could not start the script <i>%1</i>.</p><p>Please make sure that the "
+#| "file has execute (+x) permissions.</p>"
 msgid ""
 "<p>Could not start the script <i>%1</i>.</p><p>Please make sure that the "
 "file has execute (+x) permissions.</p>"
@@ -1155,7 +1185,7 @@ msgid "There is no information available for this script."
 msgstr ""
 
 #: scriptmanager.cpp:663
-#, qt-format
+#, kde-format
 msgid "About %1"
 msgstr "Ò %1"
 
@@ -1172,12 +1202,14 @@ msgid "&Edit"
 msgstr "&Editëjë"
 
 #: scriptmanager.cpp:715
-#, qt-format
+#, kde-format
+#| msgid "Output Log for %1"
 msgid "Output Log for %1"
 msgstr ""
 
 #: scriptmanager.cpp:767
-#, qt-format
+#, kde-format
+#| msgid "The script '%1' exited with error code: %2"
 msgid "The script '%1' exited with error code: %2"
 msgstr ""
 
@@ -1314,7 +1346,7 @@ msgid "Cover Image"
 msgstr ""
 
 #: covermanager.cpp:535 coverfetcher.cpp:51
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "&Fetch From amazon.%1"
 msgstr "Zladëjë z amazon.%1"
 
@@ -1340,7 +1372,7 @@ msgstr[2] "&Rëmôj wëbróné òbkłôdczi"
 #: mediadevice/ipod/ipodmediadevice.cpp:2110
 #: mediadevice/generic/genericmediadevice.cpp:945
 #: collectionbrowser/CollectionTreeView.cpp:128 history/filebrowser.cpp:182
-#: app.cpp:792
+#: app.cpp:790
 msgid "&Append to Playlist"
 msgid_plural "&Append Selected Albums to Playlist"
 msgstr[0] "&Dodôj wëbróny albùm do lëstë graniô"
@@ -1356,7 +1388,7 @@ msgid "Select Cover Image File"
 msgstr ""
 
 #: covermanager.cpp:784
-#, qt-format
+#, kde-format
 msgid "Are you sure you want to remove this cover from the Collection?"
 msgid_plural ""
 "Are you sure you want to delete these %1 covers from the Collection?"
@@ -1369,7 +1401,7 @@ msgid "Finished."
 msgstr ""
 
 #: covermanager.cpp:840
-#, qt-format
+#, kde-format
 msgid " Cover not found"
 msgid_plural " <b>%1</b> covers not found"
 msgstr[0] "Òbkłôdka nie je nalazłô"
@@ -1377,17 +1409,19 @@ msgstr[1] "<b>%1</b> òbkłôdczi nie są nalazłé"
 msgstr[2] "<b>%1</b> òbkłôdków nie je nalazłéch"
 
 #: covermanager.cpp:853
-#, qt-format
+#, kde-format
+#| msgid "Fetching cover for %1..."
 msgid "Fetching cover for %1..."
 msgstr ""
 
 #: covermanager.cpp:855
-#, qt-format
+#, kde-format
+#| msgid "Fetching cover for %1 - %2..."
 msgid "Fetching cover for %1 - %2..."
 msgstr ""
 
 #: covermanager.cpp:859
-#, qt-format
+#, kde-format
 msgid "Fetching 1 cover: "
 msgid_plural "Fetching <b>%1</b> covers... : "
 msgstr[0] "Ladowanié 1 òbkłôdczi: "
@@ -1395,7 +1429,7 @@ msgstr[1] "Ladowanié <b>%1</b> òbkłôdków... :"
 msgstr[2] "Ladowanié <b>%1</b> òbkłôdków... :"
 
 #: covermanager.cpp:861
-#, qt-format
+#, kde-format
 msgid "1 fetched"
 msgid_plural "%1 fetched"
 msgstr[0] "1 zladowónô"
@@ -1409,7 +1443,7 @@ msgid " - "
 msgstr " - "
 
 #: covermanager.cpp:864
-#, qt-format
+#, kde-format
 msgid "1 not found"
 msgid_plural "%1 not found"
 msgstr[0] "1 nie nalazłô"
@@ -1421,6 +1455,7 @@ msgid "Connecting..."
 msgstr "Pòłączenié"
 
 #: covermanager.cpp:887
+#, kde-format
 msgid "1 result for \"%1\""
 msgid_plural "%1 results for \"%1\""
 msgstr[0] "1 rezultat dlô \"%1\""
@@ -1428,7 +1463,7 @@ msgstr[1] "%1 rezultatë dlô \"%1\""
 msgstr[2] "%1 rezultatów dlô \"%1\""
 
 #: covermanager.cpp:889
-#, qt-format
+#, kde-format
 msgid "1 album"
 msgid_plural "%1 albums"
 msgstr[0] "1 albùm"
@@ -1440,7 +1475,8 @@ msgid " by "
 msgstr ""
 
 #: covermanager.cpp:900
-#, qt-format
+#, kde-format
+#| msgid " - ( <b>%1</b> without cover )"
 msgid " - ( <b>%1</b> without cover )"
 msgstr ""
 
@@ -1517,15 +1553,15 @@ msgstr "Podcastë"
 msgid "Amarok Menu"
 msgstr ""
 
-#: actionclasses.cpp:192 app.cpp:442
+#: actionclasses.cpp:192 app.cpp:441
 msgid "Play/Pause"
 msgstr ""
 
-#: actionclasses.cpp:207 actionclasses.cpp:212 MainWindow.cpp:962 app.cpp:438
+#: actionclasses.cpp:207 actionclasses.cpp:212 MainWindow.cpp:962 app.cpp:437
 msgid "Pause"
 msgstr ""
 
-#: actionclasses.cpp:217 MainWindow.cpp:956 app.cpp:433
+#: actionclasses.cpp:217 MainWindow.cpp:956 app.cpp:432
 msgid "Play"
 msgstr ""
 
@@ -1597,7 +1633,7 @@ msgstr ""
 msgid "Selected Tracks"
 msgstr ""
 
-#: actionclasses.cpp:428 actionclasses.cpp:467 app.cpp:447
+#: actionclasses.cpp:428 actionclasses.cpp:467 app.cpp:446
 msgid "Stop"
 msgstr ""
 
@@ -1614,7 +1650,10 @@ msgid "After Queue"
 msgstr ""
 
 #: pluginmanager.cpp:94
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<p>KLibLoader could not load the plugin:<br/><i>%1</i></p><p>Error "
+#| "message:<br/><i>%2</i></p>"
 msgid ""
 "<p>KLibLoader could not load the plugin:<br/><i>%1</i></p><p>Error message:"
 "<br/><i>%2</i></p>"
@@ -1703,7 +1742,8 @@ msgid "Untitled"
 msgstr "Bez titla"
 
 #: equalizersetup.cpp:401 equalizerpresetmanager.cpp:116
-#, qt-format
+#, kde-format
+#| msgid "A preset with the name %1 already exists. Overwrite?"
 msgid "A preset with the name %1 already exists. Overwrite?"
 msgstr ""
 
@@ -1716,7 +1756,7 @@ msgid "Favorite Tracks"
 msgstr "Lubòtny sztëcczi"
 
 #: Statistics.cpp:276
-#, qt-format
+#, kde-format
 msgid "%1 track"
 msgid_plural "%1 tracks"
 msgstr[0] ""
@@ -1728,7 +1768,7 @@ msgid "Most Played Tracks"
 msgstr ""
 
 #: Statistics.cpp:283
-#, qt-format
+#, kde-format
 msgid "%1 play"
 msgid_plural "%1 plays"
 msgstr[0] ""
@@ -1740,7 +1780,7 @@ msgid "Favorite Artists"
 msgstr ""
 
 #: Statistics.cpp:295
-#, qt-format
+#, kde-format
 msgid "%1 artist"
 msgid_plural "%1 artists"
 msgstr[0] ""
@@ -1752,7 +1792,7 @@ msgid "Favorite Albums"
 msgstr ""
 
 #: Statistics.cpp:307
-#, qt-format
+#, kde-format
 msgid "%1 album"
 msgid_plural "%1 albums"
 msgstr[0] ""
@@ -1764,7 +1804,7 @@ msgid "Favorite Genres"
 msgstr ""
 
 #: Statistics.cpp:319
-#, qt-format
+#, kde-format
 msgid "%1 genre"
 msgid_plural "%1 genres"
 msgstr[0] ""
@@ -1776,12 +1816,14 @@ msgid "Newest Items"
 msgstr ""
 
 #: Statistics.cpp:330
-#, qt-format
+#, kde-format
+#| msgid "First played %1"
 msgid "First played %1"
 msgstr ""
 
 #: Statistics.cpp:397 Statistics.cpp:431 Statistics.cpp:512 Statistics.cpp:592
-#, qt-format
+#, kde-format
+#| msgid "%1. %2 - %3"
 msgid "%1. %2 - %3"
 msgstr ""
 
@@ -1790,27 +1832,32 @@ msgid "Playcount"
 msgstr ""
 
 #: Statistics.cpp:435 statusbar/selectLabel.h:140 statusbar/selectLabel.h:148
-#, qt-format
+#, kde-format
+#| msgid "%1: %2"
 msgid "%1: %2"
 msgstr ""
 
 #: Statistics.cpp:466 Statistics.cpp:551 statusbar/queueLabel.cpp:204
-#, qt-format
+#, kde-format
+#| msgid "%1. %2"
 msgid "%1. %2"
 msgstr ""
 
 #: Statistics.cpp:597
-#, qt-format
+#, kde-format
+#| msgid "Added: %1"
 msgid "Added: %1"
 msgstr ""
 
 #: Statistics.cpp:614
-#, qt-format
+#, kde-format
+#| msgid "Score: %1 Rating: %2"
 msgid "Score: %1 Rating: %2"
 msgstr ""
 
 #: Statistics.cpp:618
-#, qt-format
+#, kde-format
+#| msgid "Rating: %1"
 msgid "Rating: %1"
 msgstr ""
 
@@ -1821,7 +1868,7 @@ msgid ""
 "accumulate data on your play habits!</div>"
 msgstr ""
 
-#: Statistics.cpp:693 history/filebrowser.cpp:184 app.cpp:797
+#: Statistics.cpp:693 history/filebrowser.cpp:184 app.cpp:795
 msgid "&Queue Track"
 msgstr ""
 
@@ -1883,12 +1930,14 @@ msgid "Cannot remove device because disconnect failed"
 msgstr ""
 
 #: mediabrowser.cpp:510 history/mediabrowser.cpp:583
-#, qt-format
+#, kde-format
+#| msgid "%1 at %2"
 msgid "%1 at %2"
 msgstr ""
 
 #: mediabrowser.cpp:514 history/mediabrowser.cpp:587
-#, qt-format
+#, kde-format
+#| msgid " (mounted at %1)"
 msgid " (mounted at %1)"
 msgstr ""
 
@@ -1921,7 +1970,11 @@ msgid "Directory Name:"
 msgstr ""
 
 #: mediabrowser.cpp:1040 history/mediabrowser.cpp:1112
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "The device %1 was removed before it was disconnected. In order to avoid "
+#| "possible data loss, press the \"Disconnect\" button before disconnecting "
+#| "the device."
 msgid ""
 "The device %1 was removed before it was disconnected. In order to avoid "
 "possible data loss, press the \"Disconnect\" button before disconnecting the "
@@ -1933,7 +1986,7 @@ msgid "No device selected to configure."
 msgstr ""
 
 #: mediabrowser.cpp:1201 history/mediabrowser.cpp:1243
-#, qt-format
+#, kde-format
 msgid "1 track in queue"
 msgid_plural "%1 tracks in queue"
 msgstr[0] "1 sztëczk w rédze"
@@ -1941,17 +1994,19 @@ msgstr[1] "%1 sztëcczi w rédze"
 msgstr[2] "%1 sztëczków w rédze"
 
 #: mediabrowser.cpp:1204 history/mediabrowser.cpp:1246
-#, qt-format
+#, kde-format
 msgid " (%1)"
 msgstr " (%1)"
 
 #: mediabrowser.cpp:1210 history/mediabrowser.cpp:1252
-#, qt-format
+#, kde-format
+#| msgid " - %1 of %2 available"
 msgid " - %1 of %2 available"
 msgstr ""
 
 #: mediabrowser.cpp:1378 history/mediabrowser.cpp:1695
-#, qt-format
+#, kde-format
+#| msgid "Track already queued for transfer: %1"
 msgid "Track already queued for transfer: %1"
 msgstr ""
 
@@ -1996,7 +2051,9 @@ msgid "&Start Transfer"
 msgstr ""
 
 #: podcastsettings.cpp:71 podcastsettings.cpp:85
-#, qt-format
+#, kde-format
+#| msgctxt "change options"
+#| msgid "Configure %1"
 msgctxt "change options"
 msgid "Configure %1"
 msgstr ""
@@ -2254,7 +2311,10 @@ msgid "Generating audio fingerprint..."
 msgstr ""
 
 #: tagdialog.cpp:353
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Tunepimp (MusicBrainz tagging library) returned the following error: \"%1"
+#| "\"."
 msgid ""
 "Tunepimp (MusicBrainz tagging library) returned the following error: \"%1\"."
 msgstr ""
@@ -2304,17 +2364,20 @@ msgid "Related Artists"
 msgstr ""
 
 #: tagdialog.cpp:685
-#, qt-format
+#, kde-format
+#| msgid "Track Information: %1 by %2"
 msgid "Track Information: %1 by %2"
 msgstr ""
 
 #: tagdialog.cpp:692 statusbar/queueLabel.cpp:312
-#, qt-format
+#, kde-format
+#| msgid "<b>%1</b> by <b>%2</b>"
 msgid "<b>%1</b> by <b>%2</b>"
 msgstr ""
 
 #: tagdialog.cpp:699
-#, qt-format
+#, kde-format
+#| msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgstr ""
 
@@ -2364,7 +2427,7 @@ msgid "Last Played:"
 msgstr ""
 
 #: tagdialog.cpp:877
-#, qt-format
+#, kde-format
 msgid "1 Track"
 msgid_plural "Information for %1 Tracks"
 msgstr[0] ""
@@ -2372,7 +2435,7 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: tagdialog.cpp:973
-#, qt-format
+#, kde-format
 msgid "Editing 1 file"
 msgid_plural "Editing %1 files"
 msgstr[0] ""
@@ -2396,7 +2459,8 @@ msgid "Average Score:"
 msgstr ""
 
 #: tagdialog.cpp:1502 tagdialog.cpp:1541
-#, qt-format
+#, kde-format
+#| msgid "The file %1 is not writable."
 msgid "The file %1 is not writable."
 msgstr ""
 
@@ -2439,17 +2503,20 @@ msgid "Choose a Download Directory"
 msgstr ""
 
 #: mediadevice/ifp/ifpmediadevice.cpp:531
-#, qt-format
+#, kde-format
+#| msgid "Directory cannot be deleted: '%1'"
 msgid "Directory cannot be deleted: '%1'"
 msgstr ""
 
 #: mediadevice/ifp/ifpmediadevice.cpp:538
-#, qt-format
+#, kde-format
+#| msgid "File does not exist: '%1'"
 msgid "File does not exist: '%1'"
 msgstr ""
 
 #: mediadevice/ifp/ifpmediadevice.cpp:569
-#, qt-format
+#, kde-format
+#| msgid "Cannot enter directory: '%1'"
 msgid "Cannot enter directory: '%1'"
 msgstr ""
 
@@ -2507,7 +2574,8 @@ msgid "Not a valid mp3 file"
 msgstr ""
 
 #: mediadevice/njb/njbmediadevice.cpp:451
-#, qt-format
+#, kde-format
+#| msgid "Copying / Sent %1%..."
 msgid "Copying / Sent %1%..."
 msgstr ""
 
@@ -2526,9 +2594,7 @@ msgid "Delete from device"
 msgstr ""
 
 #: mediadevice/njb/njbmediadevice.cpp:897
-#, qt-format
-#| msgid "1 track found on device"
-#| msgid_plural "%n tracks found on device "
+#, kde-format
 msgid "1 track found on device"
 msgid_plural "%1 tracks found on device "
 msgstr[0] ""
@@ -2742,7 +2808,8 @@ msgid "Could not get music from MTP Device"
 msgstr ""
 
 #: mediadevice/daap/daapserver.cpp:76
-#, qt-format
+#, kde-format
+#| msgid "%1's Amarok Share"
 msgid "%1's Amarok Share"
 msgstr ""
 
@@ -2800,7 +2867,8 @@ msgid "Add Computer"
 msgstr ""
 
 #: mediadevice/daap/daapclient.cpp:475
-#, qt-format
+#, kde-format
+#| msgid "Could not resolve %1."
 msgid "Could not resolve %1."
 msgstr ""
 
@@ -2829,12 +2897,16 @@ msgid "Enabling this may reduce connection times"
 msgstr ""
 
 #: mediadevice/daap/daapclient.cpp:733
-#, qt-format
+#, kde-format
+#| msgid "Loading %1"
 msgid "Loading %1"
 msgstr ""
 
 #: mediadevice/daap/daapclient.cpp:779
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "The following error occurred while trying to connect to the remote server:"
+#| "<br>%1"
 msgid ""
 "The following error occurred while trying to connect to the remote server:"
 "<br>%1"
@@ -2861,12 +2933,14 @@ msgid "Set iPod Model"
 msgstr ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:318
-#, qt-format
+#, kde-format
+#| msgid "%1 GB %2 (x%3)"
 msgid "%1 GB %2 (x%3)"
 msgstr ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:324
-#, qt-format
+#, kde-format
+#| msgid "%1 (x%2)"
 msgid "%1 (x%2)"
 msgstr ""
 
@@ -2877,17 +2951,20 @@ msgid ""
 msgstr ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:372
-#, qt-format
+#, kde-format
+#| msgid "Unable to set iPod model to %1 GB %2 (x%3)"
 msgid "Unable to set iPod model to %1 GB %2 (x%3)"
 msgstr ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:380
-#, qt-format
+#, kde-format
+#| msgid "Setting iPod model to %1 GB %2 (x%3)"
 msgid "Setting iPod model to %1 GB %2 (x%3)"
 msgstr ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:656
-#, qt-format
+#, kde-format
+#| msgid "Media Device: Creating directory for file %1 failed"
 msgid "Media Device: Creating directory for file %1 failed"
 msgstr ""
 
@@ -2896,12 +2973,16 @@ msgid "Flushing iPod filesystem transfer cache"
 msgstr ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:959
-#, qt-format
+#, kde-format
+#| msgid "Media Device: iPod mounted at %1 already locked. "
 msgid "Media Device: iPod mounted at %1 already locked. "
 msgstr ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:960
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "If you are sure that this is an error, then remove the file %1 and try "
+#| "again."
 msgid ""
 "If you are sure that this is an error, then remove the file %1 and try again."
 msgstr ""
@@ -2915,28 +2996,33 @@ msgid "&Remove"
 msgstr ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:968
-#, qt-format
+#, kde-format
+#| msgid "Media Device: removing lockfile %1 failed: %2. "
 msgid "Media Device: removing lockfile %1 failed: %2. "
 msgstr ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:982
-#, qt-format
+#, kde-format
+#| msgid "Media Device: failed to create lockfile on iPod mounted at %1: %2"
 msgid "Media Device: failed to create lockfile on iPod mounted at %1: %2"
 msgstr ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:1004
 #: mediadevice/riokarma/riokarmamediadevice.cpp:294
-#, qt-format
+#, kde-format
+#| msgid "Media device: Mount point %1 does not exist"
 msgid "Media device: Mount point %1 does not exist"
 msgstr ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:1054
-#, qt-format
+#, kde-format
+#| msgid "Media Device: Initialized iPod mounted at %1"
 msgid "Media Device: Initialized iPod mounted at %1"
 msgstr ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:1073
-#, qt-format
+#, kde-format
+#| msgid "Media Device: iPod at %1 already opened"
 msgid "Media Device: iPod at %1 already opened"
 msgstr ""
 
@@ -2945,7 +3031,10 @@ msgid "Media Device: No mounted iPod found"
 msgstr ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:1144
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Media Device: could not find iTunesDB on device mounted at %1. Should I "
+#| "try to initialize your iPod?"
 msgid ""
 "Media Device: could not find iTunesDB on device mounted at %1. Should I try "
 "to initialize your iPod?"
@@ -2960,12 +3049,14 @@ msgid "&Initialize"
 msgstr ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:1160
-#, qt-format
+#, kde-format
+#| msgid "Media Device: Failed to initialize iPod mounted at %1"
 msgid "Media Device: Failed to initialize iPod mounted at %1"
 msgstr ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:1199
-#, qt-format
+#, kde-format
+#| msgid "Media device: Failed to create directory %1"
 msgid "Media device: Failed to create directory %1"
 msgstr ""
 
@@ -2987,7 +3078,7 @@ msgid "Orphaned"
 msgstr ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:1355
-#, qt-format
+#, kde-format
 msgid "Updated artwork for one track"
 msgid_plural "Updated artwork for %1 tracks"
 msgstr[0] ""
@@ -3033,7 +3124,7 @@ msgid "Add to Playlist"
 msgstr ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:2181
-#, qt-format
+#, kde-format
 msgid "Edit &Information..."
 msgid_plural "Edit &Information for %1 Tracks..."
 msgstr[0] ""
@@ -3057,7 +3148,7 @@ msgid "Delete Podcasts Already Played"
 msgstr ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:2214
-#, qt-format
+#, kde-format
 msgid "Delete Track from iPod"
 msgid_plural "Delete %1 Tracks from iPod"
 msgstr[0] ""
@@ -3065,7 +3156,7 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:2358
-#, qt-format
+#, kde-format
 msgid "One duplicate track not added to database"
 msgid_plural "%1 duplicate tracks not added to database"
 msgstr[0] ""
@@ -3093,7 +3184,8 @@ msgstr ""
 #: mediadevice/generic/genericmediadeviceconfigdialog.ui.h:259
 #: collectionbrowser/OrganizeCollectionDialog.ui.h:72
 #: collectionbrowser/OrganizeCollectionDialog.ui.h:75
-#, qt-format
+#, kde-format
+#| msgid "%1 or %2"
 msgid "%1 or %2"
 msgstr ""
 
@@ -3291,11 +3383,11 @@ msgstr ""
 msgid "Add las&t.fm Stream"
 msgstr ""
 
-#: MainWindow.cpp:950 app.cpp:463
+#: MainWindow.cpp:950 app.cpp:462
 msgid "Previous Track"
 msgstr ""
 
-#: MainWindow.cpp:968 app.cpp:458
+#: MainWindow.cpp:968 app.cpp:457
 msgid "Next Track"
 msgstr ""
 
@@ -3404,7 +3496,8 @@ msgid "Redirecting to: "
 msgstr ""
 
 #: engine/xine/xine-engine.cpp:978
-#, qt-format
+#, kde-format
+#| msgid "The host is unknown for the URL: <i>%1</i>"
 msgid "The host is unknown for the URL: <i>%1</i>"
 msgstr ""
 
@@ -3421,22 +3514,26 @@ msgid "Audio output unavailable; the device is busy."
 msgstr ""
 
 #: engine/xine/xine-engine.cpp:986
-#, qt-format
+#, kde-format
+#| msgid "The connection was refused for the URL: <i>%1</i>"
 msgid "The connection was refused for the URL: <i>%1</i>"
 msgstr ""
 
 #: engine/xine/xine-engine.cpp:988
-#, qt-format
+#, kde-format
+#| msgid "xine could not find the URL: <i>%1</i>"
 msgid "xine could not find the URL: <i>%1</i>"
 msgstr ""
 
 #: engine/xine/xine-engine.cpp:990
-#, qt-format
+#, kde-format
+#| msgid "Access was denied for the URL: <i>%1</i>"
 msgid "Access was denied for the URL: <i>%1</i>"
 msgstr ""
 
 #: engine/xine/xine-engine.cpp:992
-#, qt-format
+#, kde-format
+#| msgid "The source cannot be read for the URL: <i>%1</i>"
 msgid "The source cannot be read for the URL: <i>%1</i>"
 msgstr ""
 
@@ -3462,7 +3559,8 @@ msgstr ""
 
 #: engine/xine/xine-engine.cpp:1105 engine/gst10/gstengine.cpp:530
 #: engine/yauap/yauap-engine.cpp:611
-#, qt-format
+#, kde-format
+#| msgid "Track %1"
 msgid "Track %1"
 msgstr ""
 
@@ -3638,7 +3736,7 @@ msgstr "Òstrzéga"
 msgid "Buffering"
 msgstr ""
 
-#: engine/helix/helix-errors.cpp:67 app.cpp:896
+#: engine/helix/helix-errors.cpp:67 app.cpp:894
 msgid "Paused"
 msgstr ""
 
@@ -4999,7 +5097,8 @@ msgid "Resolve Nodata"
 msgstr ""
 
 #: engine/helix/helix-engine.cpp:136
-#, qt-format
+#, kde-format
+#| msgid "Helix Core returned error: %1 %2 %3"
 msgid "Helix Core returned error: %1 %2 %3"
 msgstr ""
 
@@ -5008,16 +5107,20 @@ msgid "Helix Core returned error: <unknown>"
 msgstr ""
 
 #: engine/helix/helix-engine.cpp:145
+#, kde-format
+#| msgid "Helix Core returned error: %1 %1 %1"
 msgid "Helix Core returned error: %1 %1 %1"
 msgstr ""
 
 #: engine/helix/helix-engine.cpp:156
-#, qt-format
+#, kde-format
+#| msgid "Contacting: %1"
 msgid "Contacting: %1"
 msgstr ""
 
 #: engine/helix/helix-engine.cpp:162
-#, qt-format
+#, kde-format
+#| msgid "Buffering %1%"
 msgid "Buffering %1%"
 msgstr ""
 
@@ -5035,7 +5138,8 @@ msgid ""
 msgstr ""
 
 #: engine/helix/helix-engine.cpp:299
-#, qt-format
+#, kde-format
+#| msgid "No plugin found for the %1 format"
 msgid "No plugin found for the %1 format"
 msgstr ""
 
@@ -5114,7 +5218,13 @@ msgid ""
 msgstr ""
 
 #: engine/gst10/gstengine.cpp:1023
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<h3>GStreamer could not create the element: <i>%1</i></h3> <p>Please make "
+#| "sure that you have installed all necessary GStreamer plugins (e.g. OGG "
+#| "and MP3), and run <i>'gst-register'</i> afterwards.</p><p>For further "
+#| "assistance consult the GStreamer manual, and join #gstreamer on irc."
+#| "freenode.net.</p>"
 msgid ""
 "<h3>GStreamer could not create the element: <i>%1</i></h3> <p>Please make "
 "sure that you have installed all necessary GStreamer plugins (e.g. OGG and "
@@ -5123,7 +5233,8 @@ msgid ""
 msgstr ""
 
 #: engine/gst10/gstengine.cpp:1198
-#, qt-format
+#, kde-format
+#| msgid "Buffering.. %1%"
 msgid "Buffering.. %1%"
 msgstr ""
 
@@ -5199,7 +5310,8 @@ msgid "Queued..."
 msgstr ""
 
 #: metabundle.cpp:1059 statusbar/queueLabel.cpp:312
-#, qt-format
+#, kde-format
+#| msgid "%1 by %2"
 msgid "%1 by %2"
 msgstr ""
 
@@ -5212,31 +5324,39 @@ msgid "-"
 msgstr ""
 
 #: metabundle.cpp:1139
-#, no-c-format, qt-format
+#, no-c-format, kde-format
+#| msgctxt "seconds"
+#| msgid "%1s"
 msgctxt "seconds"
 msgid "%1s"
 msgstr ""
 
 #: metabundle.cpp:1141
-#, no-c-format, qt-format
+#, no-c-format, kde-format
+#| msgctxt "minutes, seconds"
+#| msgid "%2m %1s"
 msgctxt "minutes, seconds"
 msgid "%2m %1s"
 msgstr ""
 
 #: metabundle.cpp:1143
-#, no-c-format, qt-format
+#, no-c-format, kde-format
+#| msgctxt "hours, minutes, seconds"
+#| msgid "%3h %2m %1s"
 msgctxt "hours, minutes, seconds"
 msgid "%3h %2m %1s"
 msgstr ""
 
 #: metabundle.cpp:1145
-#, no-c-format, qt-format
+#, no-c-format, kde-format
+#| msgctxt "days, hours, minutes, seconds"
+#| msgid "%4d %3h %2m %1s"
 msgctxt "days, hours, minutes, seconds"
 msgid "%4d %3h %2m %1s"
 msgstr ""
 
 #: metabundle.cpp:1199
-#, qt-format
+#, kde-format
 msgid "1 week "
 msgid_plural "%1 weeks "
 msgstr[0] ""
@@ -5244,7 +5364,7 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: metabundle.cpp:1200
-#, qt-format
+#, kde-format
 msgid "1 day "
 msgid_plural "%1 days "
 msgstr[0] ""
@@ -5252,7 +5372,7 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: metabundle.cpp:1201
-#, qt-format
+#, kde-format
 msgid "1 hour"
 msgid_plural "%1 hours"
 msgstr[0] ""
@@ -5260,12 +5380,14 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: metabundle.cpp:1208
-#, qt-format
+#, kde-format
+#| msgid "%1:%2 hours"
 msgid "%1:%2 hours"
 msgstr ""
 
 #: metabundle.cpp:1210
-#, qt-format
+#, kde-format
+#| msgid "%1:%2"
 msgid "%1:%2"
 msgstr ""
 
@@ -5310,7 +5432,7 @@ msgid "Not rated"
 msgstr ""
 
 #: metabundle.cpp:1265
-#, qt-format
+#, kde-format
 msgctxt "rating - description"
 msgid "%1 - %2"
 msgstr "%1 - %2"
@@ -5366,13 +5488,13 @@ msgid "Collection Base Folder"
 msgstr ""
 
 #: metabundle.h:535
-#, qt-format
+#, kde-format
 msgctxt "SampleRate"
 msgid "%1 kHz"
 msgstr "%1 kHz"
 
 #: metabundle.h:537
-#, qt-format
+#, kde-format
 msgctxt "SampleRate"
 msgid "%1 Hz"
 msgstr "%1 Hz"
@@ -5386,7 +5508,8 @@ msgid "Submitting to last.fm"
 msgstr ""
 
 #: scrobbler.cpp:1011
-#, qt-format
+#, kde-format
+#| msgid "'%1' submitted to last.fm"
 msgid "'%1' submitted to last.fm"
 msgstr ""
 
@@ -5395,6 +5518,7 @@ msgid "Several tracks submitted to last.fm"
 msgstr ""
 
 #: scrobbler.cpp:1017
+#, kde-format
 msgid "'%1' and one other track submitted"
 msgid_plural "'%1' and %1 other tracks submitted"
 msgstr[0] ""
@@ -5402,7 +5526,8 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: scrobbler.cpp:1025
-#, qt-format
+#, kde-format
+#| msgid "Failed to submit '%1' to last.fm"
 msgid "Failed to submit '%1' to last.fm"
 msgstr ""
 
@@ -5411,6 +5536,7 @@ msgid "Failed to submit several tracks to last.fm"
 msgstr ""
 
 #: scrobbler.cpp:1030
+#, kde-format
 msgid "Failed to submit '%1' and one other track"
 msgid_plural "Failed to submit '%1' and %1 other tracks"
 msgstr[0] ""
@@ -5418,7 +5544,7 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: scrobbler.cpp:1039
-#, qt-format
+#, kde-format
 msgid "One track still in queue"
 msgid_plural "%1 tracks still in queue"
 msgstr[0] ""
@@ -7392,7 +7518,7 @@ msgstr ""
 #. i18n: file ./tagdialogbase.ui line 93
 #. i18n: tag string
 #. i18n: file ./servicebrowser/magnatunestore/magnatuneredownloaddialogbase.ui line 43
-#: rc.cpp:1148 rc.cpp:1241 app.cpp:800
+#: rc.cpp:1148 rc.cpp:1241 app.cpp:798
 msgid "&Cancel"
 msgstr ""
 
@@ -9227,7 +9353,8 @@ msgid "Mime Type:"
 msgstr ""
 
 #: mediumpluginmanager.cpp:448
-#, qt-format
+#, kde-format
+#| msgid "Device information for %1"
 msgid "Device information for %1"
 msgstr ""
 
@@ -9236,7 +9363,8 @@ msgid "Name: "
 msgstr ""
 
 #: mediumpluginmanager.cpp:453
-#, qt-format
+#, kde-format
+#| msgid "(<a href='whatsthis:%1'>Details</a>)"
 msgid "(<a href='whatsthis:%1'>Details</a>)"
 msgstr ""
 
@@ -9443,7 +9571,10 @@ msgid "Music Location"
 msgstr ""
 
 #: transferdialog.cpp:57
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Your music will be transferred to:\n"
+#| "%1"
 msgid ""
 "Your music will be transferred to:\n"
 "%1"
@@ -9481,23 +9612,26 @@ msgid "Convert spaces to underscores"
 msgstr ""
 
 #: MediaDevice.cpp:356 history/mediabrowser.cpp:1853
-#, qt-format
+#, kde-format
+#| msgid "could not execute %1"
 msgid "could not execute %1"
 msgstr ""
 
 #: MediaDevice.cpp:401 history/mediabrowser.cpp:1900
-#, qt-format
+#, kde-format
+#| msgid "Media Device: Copying %1 to %2 failed"
 msgid "Media Device: Copying %1 to %2 failed"
 msgstr ""
 
 #: MediaDevice.cpp:413 history/mediabrowser.cpp:1912
-#, qt-format
+#, kde-format
+#| msgid "Media Device: Reading tags from %1 failed"
 msgid "Media Device: Reading tags from %1 failed"
 msgstr ""
 
 #: MediaDevice.cpp:484 MediaDevice.cpp:1024 history/mediabrowser.cpp:2086
 #: history/mediabrowser.cpp:2644
-#, qt-format
+#, kde-format
 msgid "1 track to be deleted"
 msgid_plural "%1 tracks to be deleted"
 msgstr[0] "1 sztëczk do rëmniãcô"
@@ -9509,7 +9643,7 @@ msgid "Failed to purge podcasts already played"
 msgstr ""
 
 #: MediaDevice.cpp:499 history/mediabrowser.cpp:2101
-#, qt-format
+#, kde-format
 msgid "Purged 1 podcasts already played"
 msgid_plural "Purged %1 podcasts already played"
 msgstr[0] "Wëczëszczono ju jeden òdgróny podcast"
@@ -9531,22 +9665,25 @@ msgid "Device successfully disconnected"
 msgstr ""
 
 #: MediaDevice.cpp:781 history/mediabrowser.cpp:2401
-#, qt-format
+#, kde-format
+#| msgid "Track already on media device: %1"
 msgid "Track already on media device: %1"
 msgstr ""
 
 #: MediaDevice.cpp:826 history/mediabrowser.cpp:2446
-#, qt-format
+#, kde-format
+#| msgid "Track not playable on media device: %1"
 msgid "Track not playable on media device: %1"
 msgstr ""
 
 #: MediaDevice.cpp:846 history/mediabrowser.cpp:2466
-#, qt-format
+#, kde-format
+#| msgid "Failed to copy track to media device: %1"
 msgid "Failed to copy track to media device: %1"
 msgstr ""
 
 #: MediaDevice.cpp:916 history/mediabrowser.cpp:2536
-#, qt-format
+#, kde-format
 msgid "One track not playable on media device"
 msgid_plural "%1 tracks not playable on media device"
 msgstr[0] ""
@@ -9554,7 +9691,7 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: MediaDevice.cpp:922 history/mediabrowser.cpp:2542
-#, qt-format
+#, kde-format
 msgid "One track already on media device"
 msgid_plural "%1 tracks already on media device"
 msgstr[0] ""
@@ -9562,7 +9699,7 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: MediaDevice.cpp:925 history/mediabrowser.cpp:2545
-#, qt-format
+#, kde-format
 msgid ", one track already on media device"
 msgid_plural ", %1 tracks already on media device"
 msgstr[0] ""
@@ -9570,7 +9707,7 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: MediaDevice.cpp:931 history/mediabrowser.cpp:2551
-#, qt-format
+#, kde-format
 msgid "One track was not transcoded"
 msgid_plural "%1 tracks were not transcoded"
 msgstr[0] ""
@@ -9578,7 +9715,7 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: MediaDevice.cpp:934 history/mediabrowser.cpp:2554
-#, qt-format
+#, kde-format
 msgid ", one track was not transcoded"
 msgid_plural ", %1 tracks were not transcoded"
 msgstr[0] ""
@@ -9594,7 +9731,7 @@ msgid "The following tracks were not transferred: "
 msgstr ""
 
 #: MediaDevice.cpp:1028 history/mediabrowser.cpp:2648
-#, qt-format
+#, kde-format
 msgid "<p>You have selected 1 track to be <b>irreversibly</b> deleted."
 msgid_plural ""
 "<p>You have selected %1 tracks to be <b>irreversibly</b> deleted."
@@ -9603,7 +9740,7 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: collectiondb.cpp:1730
-#, qt-format
+#, kde-format
 msgid "One item"
 msgid_plural "%1 items"
 msgstr[0] ""
@@ -9611,13 +9748,15 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: collectiondb.cpp:1735
-#, qt-format
+#, kde-format
+#| msgctxt "X songs from X albums"
+#| msgid "%2 from %1"
 msgctxt "X songs from X albums"
 msgid "%2 from %1"
 msgstr ""
 
 #: collectiondb.cpp:1736
-#, qt-format
+#, kde-format
 msgid "one album"
 msgid_plural "%1 albums"
 msgstr[0] ""
@@ -9625,7 +9764,7 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: collectiondb.cpp:1740
-#, qt-format
+#, kde-format
 msgid "One song"
 msgid_plural "%1 songs"
 msgstr[0] ""
@@ -9633,7 +9772,7 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: collectiondb.cpp:1743
-#, qt-format
+#, kde-format
 msgid "One playlist"
 msgid_plural "%1 playlists"
 msgstr[0] ""
@@ -9641,7 +9780,7 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: collectiondb.cpp:1745
-#, qt-format
+#, kde-format
 msgid "One remote file"
 msgid_plural "%1 remote files"
 msgstr[0] ""
@@ -9798,7 +9937,8 @@ msgstr ""
 
 #: portabledevices/kioslaves/mtp_backend/pmpkioslave_mtpbackend.cpp:194
 #: portabledevices/kioslaves/mtp_backend/pmpkioslave_mtpbackend.cpp:207
-#, qt-format
+#, kde-format
+#| msgid "libmtp reported failure deleting %1"
 msgid "libmtp reported failure deleting %1"
 msgstr ""
 
@@ -9815,7 +9955,8 @@ msgid "Receiving tracklisting...done"
 msgstr ""
 
 #: portabledevices/kioslaves/mtp_backend/pmpkioslave_mtpbackend.cpp:493
-#, qt-format
+#, kde-format
+#| msgid "Receiving tracklisting...%1\\%"
 msgid "Receiving tracklisting...%1\\%"
 msgstr ""
 
@@ -9846,7 +9987,7 @@ msgstr ""
 msgid "Track Number - Title"
 msgstr ""
 
-#: playlist/PlaylistWidget.cpp:77
+#: playlist/PlaylistWidget.cpp:79
 msgctxt "switch view"
 msgid "&View"
 msgstr ""
@@ -9868,7 +10009,7 @@ msgid "Redo"
 msgstr ""
 
 #: playlist/PlaylistModel.cpp:431
-#, qt-format
+#, kde-format
 msgid "One track was already in the playlist, so it was not added."
 msgid_plural "%1 tracks were already in the playlist, so they were not added."
 msgstr[0] ""
@@ -9887,21 +10028,21 @@ msgstr "Grónié"
 msgid "Remove From Playlist"
 msgstr "Impòrtëjë lëstã graniô..."
 
-#: app.cpp:95 konquisidebar/universalamarok.cpp:173
+#: app.cpp:94 konquisidebar/universalamarok.cpp:173
 msgid "Amarok"
 msgstr ""
 
-#: app.cpp:96
+#: app.cpp:95
 msgid "The audio player for KDE"
 msgstr ""
 
-#: app.cpp:97
+#: app.cpp:96
 msgid ""
 "(C) 2002-2003, Mark Kretschmann\n"
 "(C) 2003-2007, The Amarok Development Squad"
 msgstr ""
 
-#: app.cpp:98
+#: app.cpp:97
 msgid ""
 "IRC:\n"
 "irc.freenode.net - #amarok, #amarok.de, #amarok.es\n"
@@ -9912,160 +10053,161 @@ msgid ""
 "(Build Date: "
 msgstr ""
 
-#: app.cpp:395
+#: app.cpp:394
 msgid "Files/URLs to open"
 msgstr ""
 
-#: app.cpp:397
+#: app.cpp:396
 msgid "Skip backwards in playlist"
 msgstr ""
 
-#: app.cpp:399
+#: app.cpp:398
 msgid "Start playing current playlist"
 msgstr ""
 
-#: app.cpp:401
+#: app.cpp:400
 msgid "Play if stopped, pause if playing"
 msgstr ""
 
-#: app.cpp:402
+#: app.cpp:401
 msgid "Pause playback"
 msgstr ""
 
-#: app.cpp:404
+#: app.cpp:403
 msgid "Stop playback"
 msgstr ""
 
-#: app.cpp:406
+#: app.cpp:405
 msgid "Skip forwards in playlist"
 msgstr ""
 
-#: app.cpp:407
+#: app.cpp:406
 msgid "Additional options:"
 msgstr ""
 
-#: app.cpp:409
+#: app.cpp:408
 msgid "Append files/URLs to playlist"
 msgstr ""
 
-#: app.cpp:411
+#: app.cpp:410
 msgid "See append, available for backwards compatability"
 msgstr ""
 
-#: app.cpp:412
+#: app.cpp:411
 msgid "Queue URLs after the currently playing track"
 msgstr ""
 
-#: app.cpp:414
+#: app.cpp:413
 msgid "Load URLs, replacing current playlist"
 msgstr ""
 
-#: app.cpp:416
+#: app.cpp:415
 msgid "Print verbose debugging information"
 msgstr ""
 
-#: app.cpp:418
+#: app.cpp:417
 msgid "Toggle the Playlist-window"
 msgstr ""
 
-#: app.cpp:419
+#: app.cpp:418
 msgid "Run first-run wizard"
 msgstr ""
 
-#: app.cpp:420
+#: app.cpp:419
 msgid "Use the <name> engine"
 msgstr ""
 
-#: app.cpp:421
+#: app.cpp:420
 msgid "Base for relative filenames/URLs"
 msgstr ""
 
-#: app.cpp:422
+#: app.cpp:421
 msgid "Play an AudioCD from <device> or system:/media/<device>"
 msgstr ""
 
-#: app.cpp:452
+#: app.cpp:451
 msgid "Stop Playing After Current Track"
 msgstr ""
 
-#: app.cpp:468
+#: app.cpp:467
 msgid "Increase Volume"
 msgstr ""
 
-#: app.cpp:473
+#: app.cpp:472
 msgid "Decrease Volume"
 msgstr ""
 
-#: app.cpp:479
+#: app.cpp:478
 msgid "Seek Forward"
 msgstr ""
 
-#: app.cpp:485
+#: app.cpp:484
 msgid "Seek Backward"
 msgstr ""
 
-#: app.cpp:490
+#: app.cpp:489
 msgid "Add Media..."
 msgstr ""
 
-#: app.cpp:495
+#: app.cpp:494
 msgid "Toggle Playlist Window"
 msgstr ""
 
-#: app.cpp:501
+#: app.cpp:500
 msgid "Show OSD"
 msgstr ""
 
-#: app.cpp:505
+#: app.cpp:504
 msgid "Mute Volume"
 msgstr ""
 
-#: app.cpp:507
+#: app.cpp:506
 msgid "Rate Current Track: 1"
 msgstr ""
 
-#: app.cpp:509
+#: app.cpp:508
 msgid "Rate Current Track: 2"
 msgstr ""
 
-#: app.cpp:511
+#: app.cpp:510
 msgid "Rate Current Track: 3"
 msgstr ""
 
-#: app.cpp:513
+#: app.cpp:512
 msgid "Rate Current Track: 4"
 msgstr ""
 
-#: app.cpp:515
+#: app.cpp:514
 msgid "Rate Current Track: 5"
 msgstr ""
 
-#: app.cpp:794
+#: app.cpp:792
 msgid "Append && &Play"
 msgstr ""
 
-#: app.cpp:859
+#: app.cpp:857
 msgid ""
 "<qt>Closing the main-window will keep Amarok running in the System Tray. Use "
 "<B>Quit</B> from the menu, or the Amarok tray-icon to exit the application.</"
 "qt>"
 msgstr ""
 
-#: app.cpp:861
+#: app.cpp:859
 msgid "Docking in System Tray"
 msgstr ""
 
-#: app.cpp:889
+#: app.cpp:887
 msgctxt "state, as in playing"
 msgid "Play"
 msgstr ""
 
-#: app.cpp:892 app.cpp:912
-#, qt-format
+#: app.cpp:890 app.cpp:910
+#, kde-format
+#| msgid "Amarok - %1"
 msgid "Amarok - %1"
 msgstr ""
 
-#: app.cpp:1005
+#: app.cpp:1003
 msgid "Moving files to trash"
 msgstr ""
 
@@ -10078,7 +10220,10 @@ msgid "Fetching artist info..."
 msgstr ""
 
 #: servicebrowser/magnatunestore/magnatunexmlparser.cpp:60
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Magnatune.com database update complete. Added %1 tracks on %2 albums from "
+#| "%3 artists"
 msgid ""
 "Magnatune.com database update complete. Added %1 tracks on %2 albums from %3 "
 "artists"
@@ -10174,47 +10319,56 @@ msgid "Skip"
 msgstr ""
 
 #: lastfm.cpp:297
-#, qt-format
+#, kde-format
+#| msgid "Global Tag Radio: %1"
 msgid "Global Tag Radio: %1"
 msgstr ""
 
 #: lastfm.cpp:304
-#, qt-format
+#, kde-format
+#| msgid "Similar Artists to %1"
 msgid "Similar Artists to %1"
 msgstr ""
 
 #: lastfm.cpp:307
-#, qt-format
+#, kde-format
+#| msgid "Artist Fan Radio: %1"
 msgid "Artist Fan Radio: %1"
 msgstr ""
 
 #: lastfm.cpp:325
-#, qt-format
+#, kde-format
+#| msgid "Custom Station: %1"
 msgid "Custom Station: %1"
 msgstr ""
 
 #: lastfm.cpp:333
-#, qt-format
+#, kde-format
+#| msgid "%1's Neighbor Radio"
 msgid "%1's Neighbor Radio"
 msgstr ""
 
 #: lastfm.cpp:337
-#, qt-format
+#, kde-format
+#| msgid "%1's Personal Radio"
 msgid "%1's Personal Radio"
 msgstr ""
 
 #: lastfm.cpp:341
-#, qt-format
+#, kde-format
+#| msgid "%1's Loved Radio"
 msgid "%1's Loved Radio"
 msgstr ""
 
 #: lastfm.cpp:345
-#, qt-format
+#, kde-format
+#| msgid "%1's Recommended Radio"
 msgid "%1's Recommended Radio"
 msgstr ""
 
 #: lastfm.cpp:351
-#, qt-format
+#, kde-format
+#| msgid "Group Radio: %1"
 msgid "Group Radio: %1"
 msgstr ""
 
@@ -10324,19 +10478,25 @@ msgid ""
 msgstr ""
 
 #: statusbar/statusbar.cpp:151
-#, qt-format
+#, kde-format
+#| msgctxt "track by artist on album"
+#| msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgctxt "track by artist on album"
 msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgstr ""
 
 #: statusbar/statusbar.cpp:154
-#, qt-format
+#, kde-format
+#| msgctxt "track by artist"
+#| msgid "<b>%1</b> by <b>%2</b>"
 msgctxt "track by artist"
 msgid "<b>%1</b> by <b>%2</b>"
 msgstr ""
 
 #: statusbar/statusbar.cpp:158
-#, qt-format
+#, kde-format
+#| msgctxt "track on album"
+#| msgid "<b>%1</b> on <b>%2</b>"
 msgctxt "track on album"
 msgid "<b>%1</b> on <b>%2</b>"
 msgstr ""
@@ -10346,22 +10506,25 @@ msgid "Unknown track"
 msgstr ""
 
 #: statusbar/statusbar.cpp:172
-#, qt-format
+#, kde-format
+#| msgid "Playing: %1"
 msgid "Playing: %1"
 msgstr ""
 
 #: statusbar/statusbar.cpp:210
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "Newest Tracks"
 msgid "%1 Tracks (%2)"
 msgstr "Nônowszi sztëcczi"
 
 #: statusbar/statusbar.cpp:211
-#, qt-format
+#, kde-format
+#| msgid "Play-time: %1"
 msgid "Play-time: %1"
 msgstr ""
 
 #: statusbar/queueLabel.cpp:188
+#, kde-format
 msgid "1 Queued Track (%1)"
 msgid_plural "%1 Queued Tracks (%1)"
 msgstr[0] ""
@@ -10369,7 +10532,7 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: statusbar/queueLabel.cpp:191
-#, qt-format
+#, kde-format
 msgid "1 Queued Track"
 msgid_plural "%1 Queued Tracks"
 msgstr[0] ""
@@ -10385,7 +10548,7 @@ msgid "&Dequeue Track"
 msgstr ""
 
 #: statusbar/queueLabel.cpp:212
-#, qt-format
+#, kde-format
 msgid "1 More Track"
 msgid_plural "%1 More Tracks"
 msgstr[0] ""
@@ -10393,6 +10556,7 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: statusbar/queueLabel.cpp:280
+#, kde-format
 msgid "1 track (%1)"
 msgid_plural "%1 tracks (%1)"
 msgstr[0] ""
@@ -10400,7 +10564,8 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: statusbar/queueLabel.cpp:284
-#, qt-format
+#, kde-format
+#| msgid "Next: %1"
 msgid "Next: %1"
 msgstr ""
 
@@ -10474,7 +10639,8 @@ msgid "Rating changed"
 msgstr ""
 
 #: osd.cpp:113
-#, qt-format
+#, kde-format
+#| msgid "Volume: %1%"
 msgid "Volume: %1%"
 msgstr ""
 
