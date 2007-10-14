@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-13 05:37+0200\n"
+"POT-Creation-Date: 2007-10-14 05:41+0200\n"
 "PO-Revision-Date: 2007-07-27 20:44+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -592,11 +592,13 @@ msgstr "Domëslny KDE przezérnik"
 msgid "Media Devices"
 msgstr "Ùrządzenia media"
 
-#: configdialog/dialogs/MediadeviceConfig.cpp:49 mediumpluginmanager.cpp:87
+#: configdialog/dialogs/MediadeviceConfig.cpp:49
+#: MediaDevicePluginManager.cpp:87
 msgid "Autodetect Devices"
 msgstr "Wëkrëjë ùrządzenia"
 
-#: configdialog/dialogs/MediadeviceConfig.cpp:52 mediumpluginmanager.cpp:91
+#: configdialog/dialogs/MediadeviceConfig.cpp:52
+#: MediaDevicePluginManager.cpp:91
 msgid "Add Device..."
 msgstr "Dodôj ùrządzenie..."
 
@@ -1879,9 +1881,9 @@ msgstr "Kònfigùracëjô"
 msgid "Disable"
 msgstr ""
 
-#: mediabrowser.cpp:218 mediabrowser.cpp:219 mediumpluginmanager.cpp:234
-#: mediumpluginmanager.cpp:304 mediumpluginmanager.cpp:458
-#: mediumpluginmanager.cpp:470 history/mediabrowser.cpp:286
+#: mediabrowser.cpp:218 mediabrowser.cpp:219 MediaDevicePluginManager.cpp:233
+#: MediaDevicePluginManager.cpp:302 MediaDevicePluginManager.cpp:454
+#: MediaDevicePluginManager.cpp:466 history/mediabrowser.cpp:286
 #: history/mediabrowser.cpp:287
 msgid "Do not handle"
 msgstr ""
@@ -2261,6 +2263,136 @@ msgstr ""
 
 #: main.cpp:106
 msgid "Whitehawk Stormchaser"
+msgstr ""
+
+#: MediaDevicePluginManager.cpp:71
+msgid "Manage Devices and Plugins"
+msgstr ""
+
+#: MediaDevicePluginManager.cpp:79 MainWindow.cpp:301
+msgid "Devices"
+msgstr ""
+
+#: MediaDevicePluginManager.cpp:193
+msgid ""
+"No new media devices were found. If you feel this is an\n"
+"error, ensure that the DBUS and HAL daemons are running\n"
+"and KDE was built with support for them. You can test this\n"
+"by running\n"
+"     \"qdbus org.kde.kded /modules/mediamanager fullList\"\n"
+"in a Konsole window."
+msgstr ""
+
+#: MediaDevicePluginManager.cpp:261
+msgid ""
+"Sorry, you cannot define two devices\n"
+"with the same name and mountpoint!"
+msgstr ""
+
+#: MediaDevicePluginManager.cpp:291
+msgid "Add New Device"
+msgstr ""
+
+#: MediaDevicePluginManager.cpp:299
+msgid "Select the plugin to use with this device:"
+msgstr ""
+
+#: MediaDevicePluginManager.cpp:310
+msgid "Enter a &name for this device (required):"
+msgstr ""
+
+#: MediaDevicePluginManager.cpp:313
+msgid "Example: My_Ipod"
+msgstr ""
+
+#: MediaDevicePluginManager.cpp:314
+msgid ""
+"Enter a name for the device.  The name must be unique across all devices, "
+"including autodetected devices.  It must not contain the pipe ( | ) "
+"character."
+msgstr ""
+
+#: MediaDevicePluginManager.cpp:318
+msgid "Enter the &mount point of the device, if applicable:"
+msgstr ""
+
+#: MediaDevicePluginManager.cpp:321
+msgid "Example: /mnt/ipod"
+msgstr ""
+
+#: MediaDevicePluginManager.cpp:322
+msgid ""
+"Enter the device's mount point.  Some devices (such as MTP devices) may not "
+"have a mount point and this can be ignored.  All other devices (iPods, UMS/"
+"VFAT devices) should enter the mount point here."
+msgstr ""
+
+#: MediaDevicePluginManager.cpp:347
+msgid ""
+"Sorry, every device must have a name and\n"
+"you cannot define two devices with the\n"
+"same name. These names must be unique\n"
+"across autodetected devices as well.\n"
+msgstr ""
+
+#: MediaDevicePluginManager.cpp:423
+msgid "(none)"
+msgstr ""
+
+#: MediaDevicePluginManager.cpp:426
+msgid "Autodetected:"
+msgstr ""
+
+#: MediaDevicePluginManager.cpp:427
+msgid "Yes"
+msgstr ""
+
+#: MediaDevicePluginManager.cpp:427
+msgid "No"
+msgstr "Nié"
+
+#: MediaDevicePluginManager.cpp:428
+msgid "Unique ID:"
+msgstr ""
+
+#: MediaDevicePluginManager.cpp:436
+msgid "Vendor:"
+msgstr ""
+
+#: MediaDevicePluginManager.cpp:439
+#, fuzzy
+#| msgid "Podcasts"
+msgid "Product:"
+msgstr "Podcastë"
+
+#: MediaDevicePluginManager.cpp:444
+#, kde-format
+msgid "Device information for %1"
+msgstr ""
+
+#: MediaDevicePluginManager.cpp:447
+msgid "Name: "
+msgstr ""
+
+#: MediaDevicePluginManager.cpp:449
+#, kde-format
+msgid "(<a href='whatsthis:%1'>Details</a>)"
+msgstr ""
+
+#: MediaDevicePluginManager.cpp:452
+msgid "Plugin:"
+msgstr ""
+
+#: MediaDevicePluginManager.cpp:467
+msgid "Configure device settings"
+msgstr ""
+
+#: MediaDevicePluginManager.cpp:469
+msgid "Remove"
+msgstr ""
+
+#: MediaDevicePluginManager.cpp:471
+msgid "Remove entries corresponding to this device from configuration file"
 msgstr ""
 
 #: tagdialog.cpp:342
@@ -3194,10 +3326,6 @@ msgstr "Titel"
 
 #: MainWindow.cpp:278
 msgid "Internet"
-msgstr ""
-
-#: MainWindow.cpp:301 mediumpluginmanager.cpp:79
-msgid "Devices"
 msgstr ""
 
 #: MainWindow.cpp:537
@@ -7659,7 +7787,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./servicebrowser/magnatunestore/magnatunepurchasedialogbase.ui line 182
-#: rc.cpp:1292 mediumpluginmanager.cpp:435
+#: rc.cpp:1292
 msgid "Name:"
 msgstr "Miono:"
 
@@ -9133,142 +9261,6 @@ msgstr ""
 #. i18n: file ./amarokcore/amarok.kcfg line 619
 #: rc.cpp:2027
 msgid "Passwords stored by hostname."
-msgstr ""
-
-#: mediumpluginmanager.cpp:71
-msgid "Manage Devices and Plugins"
-msgstr ""
-
-#: mediumpluginmanager.cpp:194
-msgid ""
-"No new media devices were found. If you feel this is an\n"
-"error, ensure that the DBUS and HAL daemons are running\n"
-"and KDE was built with support for them. You can test this\n"
-"by running\n"
-"     \"qdbus org.kde.kded /modules/mediamanager fullList\"\n"
-"in a Konsole window."
-msgstr ""
-
-#: mediumpluginmanager.cpp:262
-msgid ""
-"Sorry, you cannot define two devices\n"
-"with the same name and mountpoint!"
-msgstr ""
-
-#: mediumpluginmanager.cpp:293
-msgid "Add New Device"
-msgstr ""
-
-#: mediumpluginmanager.cpp:301
-msgid "Select the plugin to use with this device:"
-msgstr ""
-
-#: mediumpluginmanager.cpp:312
-msgid "Enter a &name for this device (required):"
-msgstr ""
-
-#: mediumpluginmanager.cpp:315
-msgid "Example: My_Ipod"
-msgstr ""
-
-#: mediumpluginmanager.cpp:316
-msgid ""
-"Enter a name for the device.  The name must be unique across all devices, "
-"including autodetected devices.  It must not contain the pipe ( | ) "
-"character."
-msgstr ""
-
-#: mediumpluginmanager.cpp:320
-msgid "Enter the &mount point of the device, if applicable:"
-msgstr ""
-
-#: mediumpluginmanager.cpp:323
-msgid "Example: /mnt/ipod"
-msgstr ""
-
-#: mediumpluginmanager.cpp:324
-msgid ""
-"Enter the device's mount point.  Some devices (such as iRiver iFP devices) "
-"may not have a mount point and this can be ignored.  All other devices "
-"(iPods, UMS/VFAT devices) should enter the mount point here."
-msgstr ""
-
-#: mediumpluginmanager.cpp:349
-msgid ""
-"Sorry, every device must have a name and\n"
-"you cannot define two devices with the\n"
-"same name. These names must be unique\n"
-"across autodetected devices as well.\n"
-msgstr ""
-
-#: mediumpluginmanager.cpp:428
-msgid "(none)"
-msgstr ""
-
-#: mediumpluginmanager.cpp:431
-msgid "Autodetected:"
-msgstr ""
-
-#: mediumpluginmanager.cpp:432
-msgid "Yes"
-msgstr ""
-
-#: mediumpluginmanager.cpp:432
-msgid "No"
-msgstr "Nié"
-
-#: mediumpluginmanager.cpp:433
-msgid "ID:"
-msgstr ""
-
-#: mediumpluginmanager.cpp:437
-msgid "Label:"
-msgstr ""
-
-#: mediumpluginmanager.cpp:439
-msgid "User Label:"
-msgstr ""
-
-#: mediumpluginmanager.cpp:441
-msgid "Device Node:"
-msgstr ""
-
-#: mediumpluginmanager.cpp:443
-msgid "Mount Point:"
-msgstr ""
-
-#: mediumpluginmanager.cpp:445
-msgid "Mime Type:"
-msgstr ""
-
-#: mediumpluginmanager.cpp:448
-#, kde-format
-msgid "Device information for %1"
-msgstr ""
-
-#: mediumpluginmanager.cpp:451
-msgid "Name: "
-msgstr ""
-
-#: mediumpluginmanager.cpp:453
-#, kde-format
-msgid "(<a href='whatsthis:%1'>Details</a>)"
-msgstr ""
-
-#: mediumpluginmanager.cpp:456
-msgid "Plugin:"
-msgstr ""
-
-#: mediumpluginmanager.cpp:471
-msgid "Configure device settings"
-msgstr ""
-
-#: mediumpluginmanager.cpp:473
-msgid "Remove"
-msgstr ""
-
-#: mediumpluginmanager.cpp:475
-msgid "Remove entries corresponding to this device from configuration file"
 msgstr ""
 
 #: smartplaylisteditor.cpp:72
