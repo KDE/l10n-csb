@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-13 03:39+0000\n"
+"POT-Creation-Date: 2007-10-16 03:37+0000\n"
 "PO-Revision-Date: 2007-06-17 14:14+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -2902,7 +2902,6 @@ msgid "Audio CD Browser"
 msgstr "Przezérnik audio CD"
 
 #: apps/konqueror/sidebar/trees/init/services/media.desktop:6
-#: runtime/kioslave/media/kcmodule/media.desktop:14
 msgctxt "Name"
 msgid "Storage Media"
 msgstr "Zôpisowné media"
@@ -3744,66 +3743,6 @@ msgstr "Przezérnik lopków troff"
 msgctxt "Name"
 msgid "KManPart"
 msgstr "KManPart"
-
-#: runtime/kioslave/media/kcmodule/media.desktop:76
-msgctxt "Comment"
-msgid "Configure Storage Media"
-msgstr "Kònfigùracëjô zôpisownëch mediów"
-
-#: runtime/kioslave/media/kcmodule/media.desktop:135
-msgctxt "Keywords"
-msgid "storage,media,usb,cdrom,device"
-msgstr "pòdôwczi,trzëmanié pòdôwków,zôpisowné media,usb,cdrom,ùrządzenié,nëk"
-
-#: runtime/kioslave/media/kfile-plugin/kfile_media.desktop:4
-msgctxt "Name"
-msgid "Medium Information"
-msgstr "Wëdowiédzô ò zôpisownëch mediach"
-
-#: runtime/kioslave/media/mediamanager/mediamanager.desktop:4
-msgctxt "Name"
-msgid "KDED Media Manager"
-msgstr "Menadżer zôpisownëch mediów dlô KDED"
-
-#: runtime/kioslave/media/mediamanager/mediamanager.desktop:64
-msgctxt "Comment"
-msgid "Keep track of media activities and allow to (un)mount (media:/)"
-msgstr ""
-"Dozérô zdarzeniów sparłączonëch z mediama pòdôwków ë zezwôlô je (òd)mòntowac "
-"(media:/)"
-
-#: runtime/kioslave/media/medianotifier/medianotifier.desktop:9
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Media Notifier Deamon"
-msgctxt "Name"
-msgid "Media Notifier Daemon"
-msgstr "Ùsłëżnota pòwiadomieniô ò zôpisownëch mediach"
-
-#: runtime/kioslave/media/medianotifier/medianotifier.desktop:34
-msgctxt "Comment"
-msgid "A media plugged notifier"
-msgstr "Wiédzô ò przëłączeniô zôpisownëch mediów"
-
-#: runtime/kioslave/media/services/media_eject.desktop:9
-msgctxt "Name"
-msgid "Eject"
-msgstr "Wësënie"
-
-#: runtime/kioslave/media/services/media_mount.desktop:9
-msgctxt "Name"
-msgid "Mount"
-msgstr "Mòntëjë"
-
-#: runtime/kioslave/media/services/media_safelyremove.desktop:9
-msgctxt "Name"
-msgid "Safely Remove"
-msgstr "Remôj na bezpieczny ôrt"
-
-#: runtime/kioslave/media/services/media_unmount.desktop:9
-msgctxt "Name"
-msgid "Unmount"
-msgstr "Òdmòntëjë"
 
 #: runtime/kioslave/remote/kdedmodule/remotedirnotify.desktop:4
 msgctxt "Name"
@@ -10030,7 +9969,7 @@ msgctxt "Name"
 msgid "Digital Clock"
 msgstr "CDE firmë Digital"
 
-#: workspace/plasma/applets/digital-clock/plasma-clock-digital.desktop:11
+#: workspace/plasma/applets/digital-clock/plasma-clock-digital.desktop:12
 msgctxt "Comment"
 msgid "An SVG themable digital clock"
 msgstr ""
@@ -10060,11 +9999,8 @@ msgid "Pager"
 msgstr "KPager"
 
 #: workspace/plasma/applets/systemtray/plasma-applet-systemtray.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "System Tray"
 msgctxt "Name"
-msgid "System tray"
+msgid "System Tray"
 msgstr "Systemòwi zabiérnik"
 
 #: workspace/plasma/applets/tasks/plasma-tasks-default.desktop:2
@@ -10124,7 +10060,7 @@ msgctxt "Name"
 msgid "Mouse Data Engine"
 msgstr "Mòtór dostónków plazmë"
 
-#: workspace/plasma/dataengines/mouse/plasma-engine-mouse.desktop:9
+#: workspace/plasma/dataengines/mouse/plasma-engine-mouse.desktop:10
 msgctxt "Comment"
 msgid "Mouse data for Plasmoids"
 msgstr ""
@@ -10137,7 +10073,7 @@ msgctxt "Name"
 msgid "Places Data Engine"
 msgstr "Mòtór dostónków plazmë"
 
-#: workspace/plasma/dataengines/places/plasma-engine-places.desktop:10
+#: workspace/plasma/dataengines/places/plasma-engine-places.desktop:11
 msgctxt "Comment"
 msgid "Places data for Plasmoids"
 msgstr ""
@@ -10149,6 +10085,19 @@ msgstr ""
 msgctxt "Name"
 msgid "Powermanagement Data Engine"
 msgstr "Mòtór dostónków plazmë"
+
+#: workspace/plasma/dataengines/soliddevice/plasma-engine-soliddevice.desktop:2
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Plasma Data Engine"
+msgctxt "Name"
+msgid "SolidDevice Data Engine"
+msgstr "Mòtór dostónków plazmë"
+
+#: workspace/plasma/dataengines/soliddevice/plasma-engine-soliddevice.desktop:11
+msgctxt "Comment"
+msgid "SolidDevice data for Plasmoids"
+msgstr ""
 
 #: workspace/plasma/dataengines/tasks/plasma-engine-tasks.desktop:2
 #, fuzzy
@@ -10257,7 +10206,7 @@ msgctxt "Name"
 msgid "Webshortcut runner"
 msgstr "Sécowé skrodzënë"
 
-#: workspace/plasma/runners/webshortcuts/plasma-runner-webshortcuts.desktop:9
+#: workspace/plasma/runners/webshortcuts/plasma-runner-webshortcuts.desktop:10
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Web Shortcuts"
@@ -10582,6 +10531,63 @@ msgctxt "Name"
 msgid "Triple Gears"
 msgstr "Pòtrójné zãbaté kòła"
 
+#~ msgctxt "Comment"
+#~ msgid "Configure Storage Media"
+#~ msgstr "Kònfigùracëjô zôpisownëch mediów"
+
+#~ msgctxt "Keywords"
+#~ msgid "storage,media,usb,cdrom,device"
+#~ msgstr ""
+#~ "pòdôwczi,trzëmanié pòdôwków,zôpisowné media,usb,cdrom,ùrządzenié,nëk"
+
+#~ msgctxt "Name"
+#~ msgid "Medium Information"
+#~ msgstr "Wëdowiédzô ò zôpisownëch mediach"
+
+#~ msgctxt "Name"
+#~ msgid "KDED Media Manager"
+#~ msgstr "Menadżer zôpisownëch mediów dlô KDED"
+
+#~ msgctxt "Comment"
+#~ msgid "Keep track of media activities and allow to (un)mount (media:/)"
+#~ msgstr ""
+#~ "Dozérô zdarzeniów sparłączonëch z mediama pòdôwków ë zezwôlô je (òd)"
+#~ "mòntowac (media:/)"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Media Notifier Deamon"
+#~ msgctxt "Name"
+#~ msgid "Media Notifier Daemon"
+#~ msgstr "Ùsłëżnota pòwiadomieniô ò zôpisownëch mediach"
+
+#~ msgctxt "Comment"
+#~ msgid "A media plugged notifier"
+#~ msgstr "Wiédzô ò przëłączeniô zôpisownëch mediów"
+
+#~ msgctxt "Name"
+#~ msgid "Eject"
+#~ msgstr "Wësënie"
+
+#~ msgctxt "Name"
+#~ msgid "Mount"
+#~ msgstr "Mòntëjë"
+
+#~ msgctxt "Name"
+#~ msgid "Safely Remove"
+#~ msgstr "Remôj na bezpieczny ôrt"
+
+#~ msgctxt "Name"
+#~ msgid "Unmount"
+#~ msgstr "Òdmòntëjë"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "System Tray"
+#~ msgctxt "Name"
+#~ msgid "System tray"
+#~ msgstr "Systemòwi zabiérnik"
+
 #~ msgctxt "Name"
 #~ msgid "Lock/Logout Applet"
 #~ msgstr "Knąpë blokòwaniô ekranu/wëlogòwaniô"
@@ -10617,10 +10623,6 @@ msgstr "Pòtrójné zãbaté kòła"
 #~ msgctxt "Name"
 #~ msgid "Run Command"
 #~ msgstr "Zrëszenié pòlétu"
-
-#~ msgctxt "Name"
-#~ msgid "System Tray"
-#~ msgstr "Systemòwi zabiérnik"
 
 #~ msgctxt "Comment"
 #~ msgid "The system tray panel applet"
