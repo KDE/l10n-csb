@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-27 05:54+0200\n"
+"POT-Creation-Date: 2007-10-28 04:47+0100\n"
 "PO-Revision-Date: 2007-07-27 20:44+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -221,15 +221,6 @@ msgstr ""
 msgid "The desktop toolbox hotspot background"
 msgstr ""
 
-#: context/plasma/appletbrowser/main.cpp:37
-msgid "TEST"
-msgstr ""
-
-#: context/plasma/appletbrowser/main.cpp:37 covermanager.cpp:434
-#: statusbar/statusBarBase.cpp:251
-msgid "..."
-msgstr "..."
-
 #: context/plasma/appletbrowser/kcategorizeditemsview.cpp:36
 msgid "Enter search phrase here"
 msgstr ""
@@ -324,13 +315,13 @@ msgstr ""
 msgid "Your machine does not support OpenGL applets."
 msgstr ""
 
-#: context/plasma/containment.cpp:255
+#: context/plasma/containment.cpp:195
 #, fuzzy, kde-format
 #| msgid "&Settings"
 msgid "%1 Settings..."
 msgstr "Ùs&towë"
 
-#: context/plasma/containment.cpp:263
+#: context/plasma/containment.cpp:203
 #, kde-format
 msgid "Remove this %1"
 msgstr ""
@@ -346,21 +337,21 @@ msgstr "Biéj do biéżnégò katalogù sztëczka"
 msgid "Width"
 msgstr ""
 
-#: context/applets/lastfmevents/LastFmEvents.cpp:255
+#: context/applets/lastfmevents/LastFmEvents.cpp:256
 #, fuzzy
 #| msgid "Configure last.fm Support"
 msgid "Configure Last.Fm Events"
 msgstr "Kònfigùracëjô wspiarca dlô last.fm"
 
-#: context/applets/lastfmevents/LastFmEvents.cpp:264
+#: context/applets/lastfmevents/LastFmEvents.cpp:265
 msgid "Show Friend Events"
 msgstr ""
 
-#: context/applets/lastfmevents/LastFmEvents.cpp:266
+#: context/applets/lastfmevents/LastFmEvents.cpp:267
 msgid "Show Recommended Events"
 msgstr ""
 
-#: context/applets/lastfmevents/LastFmEvents.cpp:268
+#: context/applets/lastfmevents/LastFmEvents.cpp:269
 msgid "Show Your Future Events"
 msgstr ""
 
@@ -589,18 +580,18 @@ msgstr "Domëslny przezérnik"
 msgid "Default KDE Browser"
 msgstr "Domëslny KDE przezérnik"
 
-#: configdialog/dialogs/MediadeviceConfig.cpp:40
+#: configdialog/dialogs/MediadeviceConfig.cpp:43
 #: configdialog/ConfigDialog.cpp:64
 msgid "Media Devices"
 msgstr "Ùrządzenia media"
 
-#: configdialog/dialogs/MediadeviceConfig.cpp:49
-#: MediaDevicePluginManager.cpp:69
+#: configdialog/dialogs/MediadeviceConfig.cpp:52
+#: MediaDevicePluginManager.cpp:74
 msgid "Autodetect Devices"
 msgstr "Wëkrëjë ùrządzenia"
 
-#: configdialog/dialogs/MediadeviceConfig.cpp:52
-#: MediaDevicePluginManager.cpp:73
+#: configdialog/dialogs/MediadeviceConfig.cpp:55
+#: MediaDevicePluginManager.cpp:78
 msgid "Add Device..."
 msgstr "Dodôj ùrządzenie..."
 
@@ -1301,11 +1292,15 @@ msgstr ""
 msgid "Loading Thumbnails..."
 msgstr ""
 
+#: covermanager.cpp:434 statusbar/statusBarBase.cpp:251
+msgid "..."
+msgstr "..."
+
 #: covermanager.cpp:453 covermanager.cpp:472 Statistics.cpp:398
 #: Statistics.cpp:399 Statistics.cpp:432 Statistics.cpp:433 Statistics.cpp:466
 #: Statistics.cpp:498 Statistics.cpp:513 Statistics.cpp:515 Statistics.cpp:552
 #: Statistics.cpp:580 Statistics.cpp:593 Statistics.cpp:594
-#: MediaDevicePluginManager.cpp:467 tagdialog.cpp:614 tagdialog.cpp:641
+#: MediaDevicePluginManager.cpp:483 tagdialog.cpp:614 tagdialog.cpp:641
 #: querybuilder.cpp:389 querybuilder.cpp:445 querybuilder.cpp:479
 #: querybuilder.cpp:528 querybuilder.cpp:582 querybuilder.cpp:611
 #: querybuilder.cpp:663 querybuilder.cpp:701 querybuilder.cpp:729
@@ -1885,9 +1880,9 @@ msgstr "Kònfigùracëjô"
 msgid "Disable"
 msgstr ""
 
-#: mediabrowser.cpp:217 mediabrowser.cpp:218 MediaDevicePluginManager.cpp:215
-#: MediaDevicePluginManager.cpp:284 MediaDevicePluginManager.cpp:459
-#: MediaDevicePluginManager.cpp:487 history/mediabrowser.cpp:286
+#: mediabrowser.cpp:217 mediabrowser.cpp:218 MediaDevicePluginManager.cpp:228
+#: MediaDevicePluginManager.cpp:297 MediaDevicePluginManager.cpp:475
+#: MediaDevicePluginManager.cpp:503 history/mediabrowser.cpp:286
 #: history/mediabrowser.cpp:287
 msgid "Do not handle"
 msgstr ""
@@ -2269,15 +2264,15 @@ msgstr ""
 msgid "Whitehawk Stormchaser"
 msgstr ""
 
-#: MediaDevicePluginManager.cpp:53
+#: MediaDevicePluginManager.cpp:58
 msgid "Manage Devices and Plugins"
 msgstr ""
 
-#: MediaDevicePluginManager.cpp:61 MainWindow.cpp:286
+#: MediaDevicePluginManager.cpp:66 MainWindow.cpp:286
 msgid "Devices"
 msgstr ""
 
-#: MediaDevicePluginManager.cpp:186
+#: MediaDevicePluginManager.cpp:199
 msgid ""
 "No new media devices were found. If you feel this is an\n"
 "error, ensure that the DBUS and HAL daemons are running\n"
@@ -2287,50 +2282,50 @@ msgid ""
 "in a Konsole window."
 msgstr ""
 
-#: MediaDevicePluginManager.cpp:244
+#: MediaDevicePluginManager.cpp:257
 msgid ""
 "Sorry, you cannot define two devices\n"
 "with the same name and mountpoint!"
 msgstr ""
 
-#: MediaDevicePluginManager.cpp:273
+#: MediaDevicePluginManager.cpp:286
 msgid "Add New Device"
 msgstr ""
 
-#: MediaDevicePluginManager.cpp:281
+#: MediaDevicePluginManager.cpp:294
 msgid "Select the plugin to use with this device:"
 msgstr ""
 
-#: MediaDevicePluginManager.cpp:292
+#: MediaDevicePluginManager.cpp:305
 msgid "Enter a &name for this device (required):"
 msgstr ""
 
-#: MediaDevicePluginManager.cpp:295
+#: MediaDevicePluginManager.cpp:308
 msgid "Example: My_Ipod"
 msgstr ""
 
-#: MediaDevicePluginManager.cpp:296
+#: MediaDevicePluginManager.cpp:309
 msgid ""
 "Enter a name for the device.  The name must be unique across all manually "
 "added devices.  It must not contain the pipe ( | ) character."
 msgstr ""
 
-#: MediaDevicePluginManager.cpp:300
+#: MediaDevicePluginManager.cpp:313
 msgid "Enter the &mount point of the device, if applicable:"
 msgstr ""
 
-#: MediaDevicePluginManager.cpp:303
+#: MediaDevicePluginManager.cpp:316
 msgid "Example: /mnt/ipod"
 msgstr ""
 
-#: MediaDevicePluginManager.cpp:304
+#: MediaDevicePluginManager.cpp:317
 msgid ""
 "Enter the device's mount point.  Some devices (such as MTP devices) may not "
 "have a mount point and this can be ignored.  All other devices (iPods, UMS/"
 "VFAT devices) should enter the mount point here."
 msgstr ""
 
-#: MediaDevicePluginManager.cpp:333
+#: MediaDevicePluginManager.cpp:347
 msgid ""
 "Sorry, every device must have a name and\n"
 "you cannot define two devices with the\n"
@@ -2338,67 +2333,67 @@ msgid ""
 "across autodetected devices as well.\n"
 msgstr ""
 
-#: MediaDevicePluginManager.cpp:392
+#: MediaDevicePluginManager.cpp:406
 msgid "The device name cannot contain the '|' character"
 msgstr ""
 
-#: MediaDevicePluginManager.cpp:424
+#: MediaDevicePluginManager.cpp:440
 msgid "(none)"
 msgstr ""
 
-#: MediaDevicePluginManager.cpp:427
+#: MediaDevicePluginManager.cpp:443
 msgid "Autodetected:"
 msgstr ""
 
-#: MediaDevicePluginManager.cpp:428
+#: MediaDevicePluginManager.cpp:444
 msgid "Yes"
 msgstr ""
 
-#: MediaDevicePluginManager.cpp:428
+#: MediaDevicePluginManager.cpp:444
 msgid "No"
 msgstr "Nié"
 
-#: MediaDevicePluginManager.cpp:429
+#: MediaDevicePluginManager.cpp:445
 msgid "Unique ID:"
 msgstr ""
 
-#: MediaDevicePluginManager.cpp:437
+#: MediaDevicePluginManager.cpp:453
 msgid "Vendor:"
 msgstr ""
 
-#: MediaDevicePluginManager.cpp:440
+#: MediaDevicePluginManager.cpp:456
 #, fuzzy
 #| msgid "Podcasts"
 msgid "Product:"
 msgstr "Podcastë"
 
-#: MediaDevicePluginManager.cpp:445
+#: MediaDevicePluginManager.cpp:461
 msgid "Device information for "
 msgstr ""
 
-#: MediaDevicePluginManager.cpp:448
+#: MediaDevicePluginManager.cpp:464
 msgid "Name: "
 msgstr ""
 
-#: MediaDevicePluginManager.cpp:452
+#: MediaDevicePluginManager.cpp:468
 #, fuzzy
 #| msgid "Delete"
 msgid "Details"
 msgstr "Rëmôj"
 
-#: MediaDevicePluginManager.cpp:456
+#: MediaDevicePluginManager.cpp:472
 msgid "Plugin:"
 msgstr ""
 
-#: MediaDevicePluginManager.cpp:488
+#: MediaDevicePluginManager.cpp:504
 msgid "Configure device settings"
 msgstr ""
 
-#: MediaDevicePluginManager.cpp:490
+#: MediaDevicePluginManager.cpp:506
 msgid "Remove"
 msgstr ""
 
-#: MediaDevicePluginManager.cpp:492
+#: MediaDevicePluginManager.cpp:508
 msgid "Remove entries corresponding to this device from configuration file"
 msgstr ""
 
