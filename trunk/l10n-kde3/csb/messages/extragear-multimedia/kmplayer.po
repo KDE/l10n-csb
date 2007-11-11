@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmplayer\n"
-"POT-Creation-Date: 2007-11-06 10:34+0100\n"
+"POT-Creation-Date: 2007-11-11 09:37+0100\n"
 "PO-Revision-Date: 2006-10-11 18:16+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -99,7 +99,7 @@ msgstr "Òtemknij platã &CD z mùzyką"
 msgid "&Open Pipe..."
 msgstr "Òtemknij &rérã..."
 
-#: kmplayerapp.cpp:563 kmplayervdr.cpp:289
+#: kmplayerapp.cpp:563 kmplayervdr.cpp:284
 msgid "&Connect"
 msgstr "&Pòłączë"
 
@@ -242,7 +242,7 @@ msgstr "Wicy..."
 msgid "DVD Navigation..."
 msgstr "Òtemknij disk DVD..."
 
-#: kmplayerapp.cpp:801 kmplayerapp.cpp:1437 kmplayerpartbase.cpp:1382
+#: kmplayerapp.cpp:801 kmplayerapp.cpp:1437 mediaobject.cpp:314
 msgid "Ready"
 msgstr "Parôt"
 
@@ -406,8 +406,8 @@ msgstr "&Jãzëk aùdio"
 msgid "&SubTitles"
 msgstr "&Nôpisë"
 
-#: kmplayerapp.cpp:1993 kmplayerapp.cpp:2169 kmplayertvsource.cpp:569
-#: kmplayervdr.cpp:726 pref.cpp:87 pref.cpp:93
+#: kmplayerapp.cpp:1993 kmplayerapp.cpp:2169 kmplayertvsource.cpp:570
+#: kmplayervdr.cpp:720 pref.cpp:87 pref.cpp:93
 msgid "Source"
 msgstr "Zdrój"
 
@@ -576,7 +576,7 @@ msgstr "Nadôwanié"
 msgid "Profiles"
 msgstr "Profile"
 
-#: kmplayerbroadcast.cpp:535 kmplayerbroadcast.cpp:591
+#: kmplayerbroadcast.cpp:535
 msgid "Failed to end ffserver process."
 msgstr "Zasztëkónié procesu ffserwer nie darzëło sã."
 
@@ -771,45 +771,25 @@ msgstr "&Kònfigùracëja KMPlayer..."
 msgid "Edit playlist &item"
 msgstr "Editëjë elementë &lëstë grania"
 
-#: kmplayerpartbase.cpp:1382
-msgid "Not Running"
-msgstr "Zascygòwóny"
-
-#: kmplayerpartbase.cpp:1382
-msgid "Buffering"
-msgstr "Bùforowanié"
-
-#: kmplayerpartbase.cpp:1382 pref.cpp:227
-msgid "Playing"
-msgstr "Granié"
-
-#: kmplayerpartbase.cpp:1390
-msgid "Recorder %1 %2"
-msgstr "Nagrëwarka %1 %2"
-
-#: kmplayerpartbase.cpp:1408
-msgid "Player %1 %2"
-msgstr "Òdgëwôcz %1 %2"
-
-#: kmplayerpartbase.cpp:1467
+#: kmplayerpartbase.cpp:1314
 msgid "Unknown"
 msgstr "Nieznóny"
 
-#: kmplayerpartbase.cpp:1473 kmplayerpartbase.cpp:1549 pref.cpp:92
+#: kmplayerpartbase.cpp:1320 kmplayerpartbase.cpp:1397 pref.cpp:92
 msgid "URL"
 msgstr "URL"
 
-#: kmplayerpartbase.cpp:1516
+#: kmplayerpartbase.cpp:1363
 #, fuzzy
 msgid "Disconnected"
 msgstr "Rozłączë"
 
-#: kmplayerpartbase.cpp:1570 kmplayerpartbase.cpp:1572
+#: kmplayerpartbase.cpp:1418 kmplayerpartbase.cpp:1420
 #, c-format
 msgid "URL - %1"
 msgstr "URL - %1"
 
-#: kmplayerpartbase.cpp:1865
+#: kmplayerpartbase.cpp:1699
 msgid "Connecting"
 msgstr "Pòłączë"
 
@@ -817,103 +797,103 @@ msgstr "Pòłączë"
 msgid "Failed to end player process."
 msgstr "Zasztëkanié procesu grania nie darzëło sã."
 
-#: kmplayerprocess.cpp:377
+#: kmplayerprocess.cpp:383
 msgid "&MPlayer"
 msgstr "&MPlayer"
 
-#: kmplayerprocess.cpp:870
+#: kmplayerprocess.cpp:876
 msgid "Size pattern"
 msgstr "Mùster miarë"
 
-#: kmplayerprocess.cpp:871
+#: kmplayerprocess.cpp:877
 msgid "Cache pattern"
 msgstr "Mùster pòdrãczny pamiãcë"
 
-#: kmplayerprocess.cpp:872
+#: kmplayerprocess.cpp:878
 msgid "Position pattern"
 msgstr "Mùster pòłożenia"
 
-#: kmplayerprocess.cpp:873
+#: kmplayerprocess.cpp:879
 msgid "Index pattern"
 msgstr "Mùster indeksu"
 
-#: kmplayerprocess.cpp:874
+#: kmplayerprocess.cpp:880
 msgid "Reference URL pattern"
 msgstr "Mùster zdrojowé adresë URL"
 
-#: kmplayerprocess.cpp:875
+#: kmplayerprocess.cpp:881
 msgid "Reference pattern"
 msgstr "Mùster tikania"
 
-#: kmplayerprocess.cpp:876
+#: kmplayerprocess.cpp:882
 msgid "Start pattern"
 msgstr "Startowi mùster"
 
-#: kmplayerprocess.cpp:877
+#: kmplayerprocess.cpp:883
 msgid "DVD language pattern"
 msgstr "Mùster jãzëka DVD"
 
-#: kmplayerprocess.cpp:878
+#: kmplayerprocess.cpp:884
 msgid "DVD subtitle pattern"
 msgstr "Mùster nôpisów DVD"
 
-#: kmplayerprocess.cpp:879
+#: kmplayerprocess.cpp:885
 msgid "DVD titles pattern"
 msgstr "Mùster titlów DVD"
 
-#: kmplayerprocess.cpp:880
+#: kmplayerprocess.cpp:886
 msgid "DVD chapters pattern"
 msgstr "Mùster rozdzélów DVD"
 
-#: kmplayerprocess.cpp:881
+#: kmplayerprocess.cpp:887
 msgid "VCD track pattern"
 msgstr "Mùster stegnów VCD"
 
-#: kmplayerprocess.cpp:882
+#: kmplayerprocess.cpp:888
 msgid "Audio CD tracks pattern"
 msgstr "Mùster stegnów mùzyczny platë CD"
 
-#: kmplayerprocess.cpp:904
+#: kmplayerprocess.cpp:910
 msgid "MPlayer command:"
 msgstr "Pòlét MPlayer:"
 
-#: kmplayerprocess.cpp:905
+#: kmplayerprocess.cpp:911
 msgid "Additional command line arguments:"
 msgstr "Dodôwne argùmentë pòlétu:"
 
-#: kmplayerprocess.cpp:906
+#: kmplayerprocess.cpp:912
 msgid "Cache size:"
 msgstr "Miara pòdrãczny pamiãcë:"
 
-#: kmplayerprocess.cpp:906
+#: kmplayerprocess.cpp:912
 msgid "kB"
 msgstr "kB"
 
-#: kmplayerprocess.cpp:908
+#: kmplayerprocess.cpp:914
 msgid "Build new index when possible"
 msgstr "Zrobi nowi indeks (eżle je to mòżlewi)"
 
-#: kmplayerprocess.cpp:910
+#: kmplayerprocess.cpp:916
 msgid "Allows seeking in indexed files (AVIs)"
 msgstr "Pòzwòli na przëszëkanié indeksowónëch lopków (AVI)"
 
-#: kmplayerprocess.cpp:976 kmplayerprocess.cpp:1667 pref.cpp:74 pref.cpp:85
+#: kmplayerprocess.cpp:982 kmplayerprocess.cpp:1673 pref.cpp:74 pref.cpp:85
 msgid "General Options"
 msgstr "Òglowi òptacëjë"
 
-#: kmplayerprocess.cpp:978
+#: kmplayerprocess.cpp:984
 msgid "MPlayer"
 msgstr "MPlayer"
 
-#: kmplayerprocess.cpp:1685 pref.cpp:608
+#: kmplayerprocess.cpp:1691 pref.cpp:608
 msgid "&Xine"
 msgstr "&Xine"
 
-#: kmplayerprocess.cpp:1761
+#: kmplayerprocess.cpp:1767
 msgid "&GStreamer"
 msgstr "&GStreamer"
 
-#: kmplayerprocess.cpp:2526
+#: kmplayerprocess.cpp:2532
 msgid "&Ice Ape"
 msgstr ""
 
@@ -1002,23 +982,23 @@ msgstr "ùrzãdzenié tv"
 msgid "Television"
 msgstr "Telewzérnik"
 
-#: kmplayertvsource.cpp:345 kmplayertvsource.cpp:519 kmplayertvsource.cpp:571
+#: kmplayertvsource.cpp:345 kmplayertvsource.cpp:520 kmplayertvsource.cpp:572
 msgid "TV"
 msgstr "TV"
 
-#: kmplayertvsource.cpp:475
+#: kmplayertvsource.cpp:484
 msgid "TV: "
 msgstr "TV: "
 
-#: kmplayertvsource.cpp:598
+#: kmplayertvsource.cpp:599
 msgid "Device already present."
 msgstr "Ùrzãdzenié ju je."
 
-#: kmplayertvsource.cpp:609
+#: kmplayertvsource.cpp:610
 msgid "No device found."
 msgstr "Nie je nalazłé ùrzãdzenié."
 
-#: kmplayertvsource.cpp:631
+#: kmplayertvsource.cpp:632
 msgid "TVScanner"
 msgstr "Skanera TV"
 
@@ -1069,111 +1049,111 @@ msgstr "16:9"
 msgid "Aspects to use when viewing VDR"
 msgstr "Skale òbrôzu do òbzéraniô VDR"
 
-#: kmplayervdr.cpp:172 kmplayervdr.cpp:728
+#: kmplayervdr.cpp:172 kmplayervdr.cpp:722
 msgid "VDR"
 msgstr "VDR"
 
-#: kmplayervdr.cpp:242
+#: kmplayervdr.cpp:237
 msgid "Dis&connect"
 msgstr "&Rozłączë"
 
-#: kmplayervdr.cpp:243
+#: kmplayervdr.cpp:238
 msgid "VDR Key Up"
 msgstr "Klucz wëżi (VDR)"
 
-#: kmplayervdr.cpp:244
+#: kmplayervdr.cpp:239
 msgid "VDR Key Down"
 msgstr "Klucz niżi (VDR)"
 
-#: kmplayervdr.cpp:245
+#: kmplayervdr.cpp:240
 msgid "VDR Key Back"
 msgstr "Pòprzédni klucz (VDR)"
 
-#: kmplayervdr.cpp:246
+#: kmplayervdr.cpp:241
 msgid "VDR Key Ok"
 msgstr "Klucz OK (VDR)"
 
-#: kmplayervdr.cpp:247
+#: kmplayervdr.cpp:242
 msgid "VDR Key Setup"
 msgstr "Klucz nastôwów (VDR)"
 
-#: kmplayervdr.cpp:248
+#: kmplayervdr.cpp:243
 msgid "VDR Key Channels"
 msgstr "Klucz kanalów (VDR)"
 
-#: kmplayervdr.cpp:249
+#: kmplayervdr.cpp:244
 msgid "VDR Key Menu"
 msgstr "Klucz menu (VDR)"
 
-#: kmplayervdr.cpp:250
+#: kmplayervdr.cpp:245
 msgid "VDR Key Red"
 msgstr "Czerwòny klucz (VDR)"
 
-#: kmplayervdr.cpp:251
+#: kmplayervdr.cpp:246
 msgid "VDR Key Green"
 msgstr "Zélony klucz (VDR)"
 
-#: kmplayervdr.cpp:252
+#: kmplayervdr.cpp:247
 msgid "VDR Key Yellow"
 msgstr "Żółti klucz (VDR)"
 
-#: kmplayervdr.cpp:253
+#: kmplayervdr.cpp:248
 msgid "VDR Key Blue"
 msgstr "Niebiesczi klucz (VDR)"
 
-#: kmplayervdr.cpp:258
+#: kmplayervdr.cpp:253
 msgid "VDR Key 0"
 msgstr "Klucz 0 (VDR)"
 
-#: kmplayervdr.cpp:259
+#: kmplayervdr.cpp:254
 msgid "VDR Key 1"
 msgstr "Klucz 1(VDR)"
 
-#: kmplayervdr.cpp:260
+#: kmplayervdr.cpp:255
 msgid "VDR Key 2"
 msgstr "Klucz 2(VDR)"
 
-#: kmplayervdr.cpp:261
+#: kmplayervdr.cpp:256
 msgid "VDR Key 3"
 msgstr "Klucz 3(VDR)"
 
-#: kmplayervdr.cpp:262
+#: kmplayervdr.cpp:257
 msgid "VDR Key 4"
 msgstr "Klucz 4 (VDR)"
 
-#: kmplayervdr.cpp:263
+#: kmplayervdr.cpp:258
 msgid "VDR Key 5"
 msgstr "Klucz 5 (VDR)"
 
-#: kmplayervdr.cpp:264
+#: kmplayervdr.cpp:259
 msgid "VDR Key 6"
 msgstr "Klucz 6 (VDR)"
 
-#: kmplayervdr.cpp:265
+#: kmplayervdr.cpp:260
 msgid "VDR Key 7"
 msgstr "Klucz 7 (VDR)"
 
-#: kmplayervdr.cpp:266
+#: kmplayervdr.cpp:261
 msgid "VDR Key 8"
 msgstr "Klucz 8 (VDR)"
 
-#: kmplayervdr.cpp:267
+#: kmplayervdr.cpp:262
 msgid "VDR Key 9"
 msgstr "Klucz 9 (VDR)"
 
-#: kmplayervdr.cpp:452
+#: kmplayervdr.cpp:447
 msgid "Host not found"
 msgstr "Kòmpùtr nie òstał nalazłi"
 
-#: kmplayervdr.cpp:454
+#: kmplayervdr.cpp:449
 msgid "Connection refused"
 msgstr "Nie je mòżno pòłączëc sã z serwerã"
 
-#: kmplayervdr.cpp:496
+#: kmplayervdr.cpp:491
 msgid "Custom VDR command"
 msgstr "Jiny pòlét VDR"
 
-#: kmplayervdr.cpp:496
+#: kmplayervdr.cpp:491
 msgid ""
 "You can pass commands to VDR.\n"
 "Enter 'HELP' to see a list of available commands.\n"
@@ -1187,11 +1167,11 @@ msgstr ""
 "\n"
 "Pòlét VDR:"
 
-#: kmplayervdr.cpp:695
+#: kmplayervdr.cpp:689
 msgid "Port "
 msgstr "Pòrt "
 
-#: kmplayervdr.cpp:751
+#: kmplayervdr.cpp:741
 msgid "X&Video"
 msgstr "X&Video"
 
@@ -1211,23 +1191,35 @@ msgstr "KMPlayer"
 msgid "file to open"
 msgstr "lopk do òtemkniãcô"
 
-#: playlistview.cpp:182
+#: mediaobject.cpp:314
+msgid "Not Running"
+msgstr "Zascygòwóny"
+
+#: mediaobject.cpp:314
+msgid "Buffering"
+msgstr "Bùforowanié"
+
+#: mediaobject.cpp:314 pref.cpp:227
+msgid "Playing"
+msgstr "Granié"
+
+#: playlistview.cpp:183
 msgid "unnamed"
 msgstr "bez miona"
 
-#: playlistview.cpp:182
+#: playlistview.cpp:183
 msgid "none"
 msgstr "felëjë"
 
-#: playlistview.cpp:200
+#: playlistview.cpp:201
 msgid "[attributes]"
 msgstr "[atribùtë]"
 
-#: playlistview.cpp:355
+#: playlistview.cpp:356
 msgid "&Copy to Clipboard"
 msgstr "&Kòpiejë do schòwë"
 
-#: playlistview.cpp:366
+#: playlistview.cpp:367
 msgid "&Show all"
 msgstr "&Pòkażë wszëtkò"
 
@@ -1664,3 +1656,9 @@ msgstr "Fùlekran"
 #: viewarea.cpp:1353
 msgid "Scale:"
 msgstr "Skala:"
+
+#~ msgid "Recorder %1 %2"
+#~ msgstr "Nagrëwarka %1 %2"
+
+#~ msgid "Player %1 %2"
+#~ msgstr "Òdgëwôcz %1 %2"
