@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-03 06:04+0100\n"
+"POT-Creation-Date: 2007-12-04 06:03+0100\n"
 "PO-Revision-Date: 2007-07-02 17:39+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -597,7 +597,7 @@ msgstr "&Przeniesë"
 #. i18n: file ./kdeui/xmlgui/ui_standards.rc line 100
 #. i18n: tag text
 #. i18n: file ./khtml/khtml_browser.rc line 20
-#: rc.cpp:228 rc.cpp:372 kfile/kdiroperator.cpp:1571
+#: rc.cpp:228 rc.cpp:372 kfile/kdiroperator.cpp:1572
 msgid "&View"
 msgstr "&Wëzdrzatk"
 
@@ -1749,8 +1749,8 @@ msgstr "Dôwô wëdowiédzã KDE ò zmianie miona kòmpùtra"
 msgid "(c) 2001 Waldo Bastian"
 msgstr ""
 
-#: kded/khostname.cpp:221 kded/kbuildsycoca.cpp:709
-#: khtml/khtml_factory.cpp:171 kconf_update/kconf_update.cpp:964
+#: kded/khostname.cpp:221 kded/kbuildsycoca.cpp:709 khtml/khtml_global.cpp:198
+#: kconf_update/kconf_update.cpp:964
 msgid "Waldo Bastian"
 msgstr ""
 
@@ -3416,7 +3416,7 @@ msgstr "KDE programa: "
 msgid "Qt"
 msgstr "Qt"
 
-#: kdecore/kernel/kcmdlineargs.cpp:486 khtml/khtml_part.cpp:4773
+#: kdecore/kernel/kcmdlineargs.cpp:486 khtml/khtml_part.cpp:4774
 msgid "KDE"
 msgstr "KDE"
 
@@ -5454,7 +5454,7 @@ msgstr "Rëmôj"
 msgid "Test"
 msgstr "Test"
 
-#: kdeui/util/kstandardguiitem.cpp:285 kfile/kdiroperator.cpp:1565
+#: kdeui/util/kstandardguiitem.cpp:285 kfile/kdiroperator.cpp:1566
 msgid "Properties"
 msgstr "Swòjiznë"
 
@@ -5787,15 +5787,15 @@ msgstr "&Detale"
 msgid "Get help..."
 msgstr "Pòmòc..."
 
-#: kdeui/dialogs/kedittoolbar.cpp:52
+#: kdeui/dialogs/kedittoolbar.cpp:53
 msgid "--- separator ---"
 msgstr "--- òddzelający element ---"
 
-#: kdeui/dialogs/kedittoolbar.cpp:456
+#: kdeui/dialogs/kedittoolbar.cpp:457
 msgid "Configure Toolbars"
 msgstr "Kònfigùracëjô lëstwów nôrzãdzów"
 
-#: kdeui/dialogs/kedittoolbar.cpp:505
+#: kdeui/dialogs/kedittoolbar.cpp:506
 msgid ""
 "Do you really want to reset all toolbars of this application to their "
 "default? The changes will be applied immediately."
@@ -5803,33 +5803,33 @@ msgstr ""
 "Na gwës doprowadzëc nazôd nastôw wszëtczich lëstwów nôrzãdzów? Zjinaczi "
 "bãdze zarô widzec."
 
-#: kdeui/dialogs/kedittoolbar.cpp:505
+#: kdeui/dialogs/kedittoolbar.cpp:506
 msgid "Reset ToolBars"
 msgstr "Doprowôdzë nazôd lëstew nôrzãdzów"
 
-#: kdeui/dialogs/kedittoolbar.cpp:505 khtml/khtmlview.cpp:2798
+#: kdeui/dialogs/kedittoolbar.cpp:506 khtml/khtmlview.cpp:2798
 #: khtml/khtmlview.cpp:2831 khtml/html/html_formimpl.cpp:2163
 msgid "Reset"
 msgstr "Doprowôdzë nazôd"
 
-#: kdeui/dialogs/kedittoolbar.cpp:813
+#: kdeui/dialogs/kedittoolbar.cpp:820
 msgid "&Toolbar:"
 msgstr "Lëstëw &nôrzãdzów:"
 
-#: kdeui/dialogs/kedittoolbar.cpp:829
+#: kdeui/dialogs/kedittoolbar.cpp:836
 msgid "A&vailable actions:"
 msgstr "&Przistãpné akcëje:"
 
-#: kdeui/dialogs/kedittoolbar.cpp:848
+#: kdeui/dialogs/kedittoolbar.cpp:855
 msgid "Curr&ent actions:"
 msgstr "&Biéżné akcëje:"
 
-#: kdeui/dialogs/kedittoolbar.cpp:869
+#: kdeui/dialogs/kedittoolbar.cpp:876
 msgid "Change &Icon..."
 msgstr "Zmieni &ikònã..."
 
 #. i18n filtering message for action names
-#: kdeui/dialogs/kedittoolbar.cpp:1023
+#: kdeui/dialogs/kedittoolbar.cpp:1030
 #, fuzzy, kde-format
 #| msgctxt "@application/plain"
 #| msgid "%1"
@@ -5837,21 +5837,21 @@ msgctxt "@item:intable Action name in toolbar editor"
 msgid "%1"
 msgstr "%1"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1044
+#: kdeui/dialogs/kedittoolbar.cpp:1051
 msgid ""
 "This element will be replaced with all the elements of an embedded component."
 msgstr "Nen element òstónié zastãpiony przez elementë òsôdzonegò kòmpònentu."
 
-#: kdeui/dialogs/kedittoolbar.cpp:1046
+#: kdeui/dialogs/kedittoolbar.cpp:1053
 msgid "<Merge>"
 msgstr "<Parłączë>"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1048
+#: kdeui/dialogs/kedittoolbar.cpp:1055
 #, kde-format
 msgid "<Merge %1>"
 msgstr "<Parłączë %1>"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1054
+#: kdeui/dialogs/kedittoolbar.cpp:1061
 msgid ""
 "This is a dynamic list of actions. You can move it, but if you remove it you "
 "will not be able to re-add it."
@@ -5859,7 +5859,7 @@ msgstr ""
 "To je dinamicznô lësta akcëjów. Mòże jã przeniesc, blós jeżle òstónié "
 "rëmniãtô to nie mòże ji znowa dodac."
 
-#: kdeui/dialogs/kedittoolbar.cpp:1055
+#: kdeui/dialogs/kedittoolbar.cpp:1062
 #, kde-format
 msgid "ActionList: %1"
 msgstr "Lësta akcëjów: %1"
@@ -8828,23 +8828,23 @@ msgid "Custom Path"
 msgstr "Swòjô stegna"
 
 #: kfile/kdirselectdialog.cpp:114 kfile/kdirselectdialog.cpp:118
-#: kfile/kdiroperator.cpp:629 kfile/kdiroperator.cpp:637
+#: kfile/kdiroperator.cpp:630 kfile/kdiroperator.cpp:638
 msgid "New Folder"
 msgstr "Nowi katalog"
 
-#: kfile/kdirselectdialog.cpp:119 kfile/kdiroperator.cpp:638
+#: kfile/kdirselectdialog.cpp:119 kfile/kdiroperator.cpp:639
 #, kde-format
 msgid ""
 "Create new folder in:\n"
 "%1"
 msgstr ""
 
-#: kfile/kdirselectdialog.cpp:142 kfile/kdiroperator.cpp:664
+#: kfile/kdirselectdialog.cpp:142 kfile/kdiroperator.cpp:665
 #, kde-format
 msgid "A file or folder named %1 already exists."
 msgstr ""
 
-#: kfile/kdirselectdialog.cpp:146 kfile/kdiroperator.cpp:667
+#: kfile/kdirselectdialog.cpp:146 kfile/kdiroperator.cpp:668
 msgid "You do not have permission to create that folder."
 msgstr ""
 
@@ -8853,7 +8853,7 @@ msgid "Select Folder"
 msgstr "Wëbierzë katalog"
 
 #: kfile/kdirselectdialog.cpp:224 kfile/kdirselectdialog.cpp:260
-#: kfile/kdiroperator.cpp:1494
+#: kfile/kdiroperator.cpp:1495
 msgid "New Folder..."
 msgstr "Nowi katalog..."
 
@@ -8908,15 +8908,15 @@ msgid ""
 "entry will be available in all applications.</qt>"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:682
+#: kfile/kdiroperator.cpp:683
 msgid "You did not select a file to delete."
 msgstr ""
 
-#: kfile/kdiroperator.cpp:683
+#: kfile/kdiroperator.cpp:684
 msgid "Nothing to Delete"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:704
+#: kfile/kdiroperator.cpp:705
 #, kde-format
 msgid ""
 "<qt>Do you really want to delete\n"
@@ -8925,11 +8925,11 @@ msgstr ""
 "<qt>Jes të gwës, że chcesz rëmnąc\n"
 " <b>'%1'</b>?</qt>"
 
-#: kfile/kdiroperator.cpp:706
+#: kfile/kdiroperator.cpp:707
 msgid "Delete File"
 msgstr "Rëmôj lopk"
 
-#: kfile/kdiroperator.cpp:711
+#: kfile/kdiroperator.cpp:712
 #, kde-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
@@ -8937,19 +8937,19 @@ msgstr[0] "Na gwës chcesz rëmnąc nen element? "
 msgstr[1] "Na gwës chcesz rëmnąc ne %1 elementë?"
 msgstr[2] "Na gwës chcesz rëmnąc nëch %1 elementów?"
 
-#: kfile/kdiroperator.cpp:713
+#: kfile/kdiroperator.cpp:714
 msgid "Delete Files"
 msgstr "Rëmôj elementë"
 
-#: kfile/kdiroperator.cpp:744
+#: kfile/kdiroperator.cpp:745
 msgid "You did not select a file to trash."
 msgstr ""
 
-#: kfile/kdiroperator.cpp:745
+#: kfile/kdiroperator.cpp:746
 msgid "Nothing to Trash"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:762
+#: kfile/kdiroperator.cpp:763
 #, kde-format
 msgid ""
 "<qt>Do you really want to trash\n"
@@ -8958,16 +8958,16 @@ msgstr ""
 "<qt>Jes të gwës, że chcesz cësnąc do kòsza\n"
 " <b>'%1'</b>?</qt>"
 
-#: kfile/kdiroperator.cpp:764
+#: kfile/kdiroperator.cpp:765
 msgid "Trash File"
 msgstr "Lopk kòsza"
 
-#: kfile/kdiroperator.cpp:765 kfile/kdiroperator.cpp:772
+#: kfile/kdiroperator.cpp:766 kfile/kdiroperator.cpp:773
 msgctxt "to trash"
 msgid "&Trash"
 msgstr "&Kòsz"
 
-#: kfile/kdiroperator.cpp:769
+#: kfile/kdiroperator.cpp:770
 #, kde-format
 msgid "translators: not called for n == 1"
 msgid_plural "Do you really want to trash these %1 items?"
@@ -8975,75 +8975,75 @@ msgstr[0] "Na gwës chcesz rëmnac nen element?"
 msgstr[1] "Na gwës chcesz rëmnąc ne %1 elementë?"
 msgstr[2] "Na gwës chcesz rëmnąc nëch %1 elementów?"
 
-#: kfile/kdiroperator.cpp:771
+#: kfile/kdiroperator.cpp:772
 msgid "Trash Files"
 msgstr "Lopczi kòsza"
 
-#: kfile/kdiroperator.cpp:894 kfile/kdiroperator.cpp:1007
+#: kfile/kdiroperator.cpp:895 kfile/kdiroperator.cpp:1008
 msgid "The specified folder does not exist or was not readable."
 msgstr ""
 
-#: kfile/kdiroperator.cpp:1477
+#: kfile/kdiroperator.cpp:1478
 msgid "Menu"
 msgstr "Menu"
 
-#: kfile/kdiroperator.cpp:1481
+#: kfile/kdiroperator.cpp:1482
 msgid "Parent Folder"
 msgstr "Nadleżny katalog"
 
-#: kfile/kdiroperator.cpp:1488
+#: kfile/kdiroperator.cpp:1489
 msgid "Home Folder"
 msgstr "Domôcy katalog"
 
-#: kfile/kdiroperator.cpp:1491
+#: kfile/kdiroperator.cpp:1492
 msgid "Reload"
 msgstr "Òdswieżë"
 
-#: kfile/kdiroperator.cpp:1499
+#: kfile/kdiroperator.cpp:1500
 msgid "Move to Trash"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:1505
+#: kfile/kdiroperator.cpp:1506
 msgid "Delete"
 msgstr "Rëmôj"
 
-#: kfile/kdiroperator.cpp:1512
+#: kfile/kdiroperator.cpp:1513
 msgid "Sorting"
 msgstr "Zortowanié"
 
-#: kfile/kdiroperator.cpp:1515
+#: kfile/kdiroperator.cpp:1516
 msgid "By Name"
 msgstr "Mionã"
 
-#: kfile/kdiroperator.cpp:1519
+#: kfile/kdiroperator.cpp:1520
 msgid "By Size"
 msgstr "Miarą"
 
-#: kfile/kdiroperator.cpp:1523
+#: kfile/kdiroperator.cpp:1524
 msgid "By Date"
 msgstr "Datumem"
 
-#: kfile/kdiroperator.cpp:1527
+#: kfile/kdiroperator.cpp:1528
 msgid "By Type"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:1531
+#: kfile/kdiroperator.cpp:1532
 msgid "Descending"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:1541
+#: kfile/kdiroperator.cpp:1542
 msgid "Short View"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:1546
+#: kfile/kdiroperator.cpp:1547
 msgid "Detailed View"
 msgstr "Detalowi wëzdrzatk"
 
-#: kfile/kdiroperator.cpp:1555
+#: kfile/kdiroperator.cpp:1556
 msgid "Show Hidden Files"
 msgstr "Pòkażë zataconé lopczi"
 
-#: kfile/kdiroperator.cpp:1559
+#: kfile/kdiroperator.cpp:1560
 msgid "Show Preview"
 msgstr ""
 
@@ -9063,20 +9063,20 @@ msgstr "Edicëjô"
 msgid "Navigate"
 msgstr ""
 
-#: khtml/testkhtml.cpp:39
+#: khtml/testkhtml.cpp:37
 msgid "url to open"
 msgstr ""
 
-#: khtml/testkhtml.cpp:41
+#: khtml/testkhtml.cpp:39
 msgid "Testkhtml"
 msgstr "Testkhtml"
 
-#: khtml/testkhtml.cpp:42
+#: khtml/testkhtml.cpp:40
 msgid "a basic web browser using the KHTML library"
 msgstr ""
 
-#: khtml/khtml_run.cpp:86 khtml/khtml_part.cpp:3822 khtml/khtml_part.cpp:4038
-#: khtml/khtml_part.cpp:4364 kparts/browserrun.cpp:434
+#: khtml/khtml_run.cpp:86 khtml/khtml_part.cpp:3823 khtml/khtml_part.cpp:4039
+#: khtml/khtml_part.cpp:4365 kparts/browserrun.cpp:434
 msgid "Save As"
 msgstr "Zapiszë jaknò"
 
@@ -9156,6 +9156,46 @@ msgstr "TestRegression"
 msgid "Regression tester for khtml"
 msgstr "Test regresëji dlô khtml"
 
+#: khtml/khtml_global.cpp:193
+msgid "KHTML"
+msgstr "KHTML"
+
+#: khtml/khtml_global.cpp:194
+msgid "Embeddable HTML component"
+msgstr "Kòmpònent HTML"
+
+#: khtml/khtml_global.cpp:196
+msgid "Lars Knoll"
+msgstr ""
+
+#: khtml/khtml_global.cpp:197
+msgid "Antti Koivisto"
+msgstr ""
+
+#: khtml/khtml_global.cpp:199
+msgid "Dirk Mueller"
+msgstr ""
+
+#: khtml/khtml_global.cpp:200
+msgid "Peter Kelly"
+msgstr ""
+
+#: khtml/khtml_global.cpp:201
+msgid "Torben Weis"
+msgstr ""
+
+#: khtml/khtml_global.cpp:202
+msgid "Martin Jones"
+msgstr ""
+
+#: khtml/khtml_global.cpp:203
+msgid "Simon Hausmann"
+msgstr ""
+
+#: khtml/khtml_global.cpp:204
+msgid "Tobias Anton"
+msgstr ""
+
 #: khtml/khtml_ext.cpp:431
 msgid "&Copy Text"
 msgstr "&Kòpiëjë tekst"
@@ -9203,15 +9243,15 @@ msgstr "Òtemkni w &nowi karce"
 msgid "Reload Frame"
 msgstr "Òdswiéżë ramã"
 
-#: khtml/khtml_ext.cpp:590 khtml/khtml_part.cpp:393
+#: khtml/khtml_ext.cpp:590 khtml/khtml_part.cpp:394
 msgid "Print Frame..."
 msgstr "Drëkùjë ramã..."
 
-#: khtml/khtml_ext.cpp:596 khtml/khtml_part.cpp:279
+#: khtml/khtml_ext.cpp:596 khtml/khtml_part.cpp:280
 msgid "Save &Frame As..."
 msgstr "Zapiszë &ramã jakno..."
 
-#: khtml/khtml_ext.cpp:601 khtml/khtml_part.cpp:261
+#: khtml/khtml_ext.cpp:601 khtml/khtml_part.cpp:262
 msgid "View Frame Source"
 msgstr "Pòkôżë zdrój ramë"
 
@@ -9363,43 +9403,43 @@ msgstr "Drëkùjë òbrôzczi"
 msgid "Print header"
 msgstr "Nôgłówk wëdrëkù"
 
-#: khtml/khtml_part.cpp:256
+#: khtml/khtml_part.cpp:257
 msgid "View Do&cument Source"
 msgstr "Pòkôżë zdrój do&kùmentu"
 
-#: khtml/khtml_part.cpp:265
+#: khtml/khtml_part.cpp:266
 msgid "View Document Information"
 msgstr "Pòkôżë wëdowiédzã ò dokùmence"
 
-#: khtml/khtml_part.cpp:270
+#: khtml/khtml_part.cpp:271
 msgid "Save &Background Image As..."
 msgstr "Zapiszë ò&brôzk spódkù jakno..."
 
-#: khtml/khtml_part.cpp:283
+#: khtml/khtml_part.cpp:284
 msgid "Print Rendering Tree to STDOUT"
 msgstr "Drëkùjë drzewiã starnë na sztandardowé wińdzenié"
 
-#: khtml/khtml_part.cpp:287
+#: khtml/khtml_part.cpp:288
 msgid "Print DOM Tree to STDOUT"
 msgstr "Drëkùjë drzewiã DOM na sztandardowé wińdzenié"
 
-#: khtml/khtml_part.cpp:291
+#: khtml/khtml_part.cpp:292
 msgid "Stop Animated Images"
 msgstr "Zatrzëmôj animacëje"
 
-#: khtml/khtml_part.cpp:295
+#: khtml/khtml_part.cpp:296
 msgid "Set &Encoding"
 msgstr "Ùstôwi &kòdowanié"
 
-#: khtml/khtml_part.cpp:334
+#: khtml/khtml_part.cpp:335
 msgid "Use S&tylesheet"
 msgstr "&Brëkùjë bógã sztélów"
 
-#: khtml/khtml_part.cpp:339
+#: khtml/khtml_part.cpp:340
 msgid "Enlarge Font"
 msgstr "Zwiszi fònt"
 
-#: khtml/khtml_part.cpp:343
+#: khtml/khtml_part.cpp:344
 msgid ""
 "Enlarge Font<br /><br />Make the font in this window bigger. Click and hold "
 "down the mouse button for a menu with all available font sizes."
@@ -9407,11 +9447,11 @@ msgstr ""
 "Zwikszi fònt<br /><br />Zwiszkô fònt w tim òknie. Klëkni ë przëtrzëmôj knąpã "
 "mëszë, bë òbôczëc menu z lëstą przistãpnëch miarów fòntów."
 
-#: khtml/khtml_part.cpp:347
+#: khtml/khtml_part.cpp:348
 msgid "Shrink Font"
 msgstr "Zmniszi fònt"
 
-#: khtml/khtml_part.cpp:351
+#: khtml/khtml_part.cpp:352
 msgid ""
 "Shrink Font<br /><br />Make the font in this window smaller. Click and hold "
 "down the mouse button for a menu with all available font sizes."
@@ -9419,7 +9459,7 @@ msgstr ""
 "Zmiszi fònt<br /><br />Zmiszô fònt w tim òknie. Klëkni ë przëtrzëmôj knąpã "
 "mëszë, bë òbôczëc menu z lëstą przistãpnëch miarów fòntów."
 
-#: khtml/khtml_part.cpp:357
+#: khtml/khtml_part.cpp:358
 msgid ""
 "Find text<br /><br />Shows a dialog that allows you to find text on the "
 "displayed page."
@@ -9427,7 +9467,7 @@ msgstr ""
 "Nalezë tekst<br /><br />Wëskrzëniwô dialogòwé òkno zezwôlającé nalezc tekst "
 "na wëskrzëniwóny starnie."
 
-#: khtml/khtml_part.cpp:361
+#: khtml/khtml_part.cpp:362
 msgid ""
 "Find next<br /><br />Find the next occurrence of the text that you have "
 "found using the <b>Find Text</b> function"
@@ -9435,7 +9475,7 @@ msgstr ""
 "Nalezë nôslédny<br /><br />Nalezë nôsledny plac tekstu nalazłegò fùnkcëją "
 "<b>Nalezë tekst</b>"
 
-#: khtml/khtml_part.cpp:367
+#: khtml/khtml_part.cpp:368
 msgid ""
 "Find previous<br /><br />Find the previous occurrence of the text that you "
 "have found using the <b>Find Text</b> function"
@@ -9443,15 +9483,15 @@ msgstr ""
 "Nalezë pòprzedni<br /><br />Nalezë pòprzedni plac tekstu nalazłegò fùnkcëją "
 "<b>Nalezë tekst</b>"
 
-#: khtml/khtml_part.cpp:371
+#: khtml/khtml_part.cpp:372
 msgid "Find Text as You Type"
 msgstr "Nalezë tekst òb czas pisaniô"
 
-#: khtml/khtml_part.cpp:376
+#: khtml/khtml_part.cpp:377
 msgid "Find Links as You Type"
 msgstr "Nalezë lënk òb czas pisaniô"
 
-#: khtml/khtml_part.cpp:397
+#: khtml/khtml_part.cpp:398
 msgid ""
 "Print Frame<br /><br />Some pages have several frames. To print only a "
 "single frame, click on it and then use this function."
@@ -9459,99 +9499,99 @@ msgstr ""
 "Drëkùjë ramã<br /><br />Niechtërné starnë to zestôw ramów. Bë wëdrëkòwac "
 "blós jedną, klëkni na niã ë ùżëjë ti fùnkcëji."
 
-#: khtml/khtml_part.cpp:406
+#: khtml/khtml_part.cpp:407
 msgid "Toggle Caret Mode"
 msgstr "Przełączë trib kùrsora"
 
-#: khtml/khtml_part.cpp:611
+#: khtml/khtml_part.cpp:612
 #, kde-format
 msgid "The fake user-agent '%1' is in use."
 msgstr "Brëkòwónô je falszëwô identifikacëjô przezérnika '%1'."
 
-#: khtml/khtml_part.cpp:1096
+#: khtml/khtml_part.cpp:1097
 msgid "This web page contains coding errors."
 msgstr "Starna zamëkô w swòjim kòdze fele."
 
-#: khtml/khtml_part.cpp:1138
+#: khtml/khtml_part.cpp:1139
 msgid "&Hide Errors"
 msgstr "&Zatacë fele"
 
-#: khtml/khtml_part.cpp:1139
+#: khtml/khtml_part.cpp:1140
 msgid "&Disable Error Reporting"
 msgstr "&Wëłączë wëdowiédzã ò felach"
 
-#: khtml/khtml_part.cpp:1182
+#: khtml/khtml_part.cpp:1183
 #, kde-format
 msgid "<b>Error</b>: %1: %2"
 msgstr "<b>Fela</b>: %1: %2"
 
-#: khtml/khtml_part.cpp:1229
+#: khtml/khtml_part.cpp:1230
 #, kde-format
 msgid "<b>Error</b>: node %1: %2"
 msgstr "<b>Fela</b>: element %1: %2"
 
-#: khtml/khtml_part.cpp:1362
+#: khtml/khtml_part.cpp:1363
 msgid "Display Images on Page"
 msgstr "Wëskrzëni òbrôzczi na starnie"
 
-#: khtml/khtml_part.cpp:1697
+#: khtml/khtml_part.cpp:1698
 #, kde-format
 msgid "Error while loading %1"
 msgstr "Fela przë ladowaniô %1"
 
-#: khtml/khtml_part.cpp:1699
+#: khtml/khtml_part.cpp:1700
 #, kde-format
 msgid "An error occurred while loading <B>%1</B>:"
 msgstr "Pòkôzała sã fela przë ladowaniô <b>%1</b>:"
 
-#: khtml/khtml_part.cpp:1734
+#: khtml/khtml_part.cpp:1735
 msgid "Error: "
 msgstr "Fela: "
 
-#: khtml/khtml_part.cpp:1737
+#: khtml/khtml_part.cpp:1738
 msgid "The requested operation could not be completed"
 msgstr "Żãdanô òperacëjô nie mògła òstac zakùńczonô"
 
-#: khtml/khtml_part.cpp:1743
+#: khtml/khtml_part.cpp:1744
 msgid "Technical Reason: "
 msgstr "Przëczënë: "
 
-#: khtml/khtml_part.cpp:1748
+#: khtml/khtml_part.cpp:1749
 msgid "Details of the Request:"
 msgstr "Detale żãdaniô:"
 
-#: khtml/khtml_part.cpp:1750
+#: khtml/khtml_part.cpp:1751
 #, kde-format
 msgid "URL: %1"
 msgstr "URL: %1"
 
-#: khtml/khtml_part.cpp:1757
+#: khtml/khtml_part.cpp:1758
 #, kde-format
 msgid "Date and Time: %1"
 msgstr "Datum ë czas: %1"
 
-#: khtml/khtml_part.cpp:1759
+#: khtml/khtml_part.cpp:1760
 #, kde-format
 msgid "Additional Information: %1"
 msgstr "Dodôwnô wëdowiédzô\" %1"
 
-#: khtml/khtml_part.cpp:1761
+#: khtml/khtml_part.cpp:1762
 msgid "Description:"
 msgstr "Òpis:"
 
-#: khtml/khtml_part.cpp:1767
+#: khtml/khtml_part.cpp:1768
 msgid "Possible Causes:"
 msgstr "Mòżlëwé przëczënë:"
 
-#: khtml/khtml_part.cpp:1774
+#: khtml/khtml_part.cpp:1775
 msgid "Possible Solutions:"
 msgstr "Mòżlëwé rozwiązanié:"
 
-#: khtml/khtml_part.cpp:2115
+#: khtml/khtml_part.cpp:2116
 msgid "Page loaded."
 msgstr "Starna wladowónô."
 
-#: khtml/khtml_part.cpp:2117
+#: khtml/khtml_part.cpp:2118
 #, kde-format
 msgid "%1 Image of %2 loaded."
 msgid_plural "%1 Images of %2 loaded."
@@ -9559,55 +9599,55 @@ msgstr[0] "%1 òbrôzk z %2 zladowóny."
 msgstr[1] "%1 òbrôzczi z %2 zladowóné."
 msgstr[2] "%1 òbrôzków z %2 zladowónëch."
 
-#: khtml/khtml_part.cpp:2278
+#: khtml/khtml_part.cpp:2279
 msgid "Automatic Detection"
 msgstr "Aùtomatné rozpòznawanié"
 
-#: khtml/khtml_part.cpp:3630 khtml/khtml_part.cpp:3717
-#: khtml/khtml_part.cpp:3728
+#: khtml/khtml_part.cpp:3631 khtml/khtml_part.cpp:3718
+#: khtml/khtml_part.cpp:3729
 msgid " (In new window)"
 msgstr " (W nowim òknie)"
 
-#: khtml/khtml_part.cpp:3669
+#: khtml/khtml_part.cpp:3670
 msgid "Symbolic Link"
 msgstr "Symbòliczné zlënkòwanié"
 
-#: khtml/khtml_part.cpp:3671
+#: khtml/khtml_part.cpp:3672
 #, kde-format
 msgid "%1 (Link)"
 msgstr "%1 (lënk)"
 
-#: khtml/khtml_part.cpp:3691
+#: khtml/khtml_part.cpp:3692
 #, kde-format
 msgid "%2 (%1 bytes)"
 msgstr "%2 (%1 bajtów)"
 
-#: khtml/khtml_part.cpp:3695
+#: khtml/khtml_part.cpp:3696
 #, kde-format
 msgid "%2 (%1 K)"
 msgstr "%2 (%1 K)"
 
-#: khtml/khtml_part.cpp:3730
+#: khtml/khtml_part.cpp:3731
 msgid " (In other frame)"
 msgstr " (W jinszi ramie)"
 
-#: khtml/khtml_part.cpp:3735
+#: khtml/khtml_part.cpp:3736
 msgid "Email to: "
 msgstr "E-maila do: "
 
-#: khtml/khtml_part.cpp:3741
+#: khtml/khtml_part.cpp:3742
 msgid " - Subject: "
 msgstr " - Téma: "
 
-#: khtml/khtml_part.cpp:3743
+#: khtml/khtml_part.cpp:3744
 msgid " - CC: "
 msgstr " - Kòpiëjô (CC): "
 
-#: khtml/khtml_part.cpp:3745
+#: khtml/khtml_part.cpp:3746
 msgid " - BCC: "
 msgstr " - Slepô kòpiëjô (BCC): "
 
-#: khtml/khtml_part.cpp:3827
+#: khtml/khtml_part.cpp:3828
 #, kde-format
 msgid ""
 "<qt>This untrusted page links to<br /><b>%1</b>.<br />Do you want to follow "
@@ -9616,36 +9656,36 @@ msgstr ""
 "<qt>Na starna nie jest bezpiecznô ë zamëkô w se lënk<br /> <b>%1</b>.<br /"
 ">Chcesz ùżëc tegò lënkù?</qt>"
 
-#: khtml/khtml_part.cpp:3828
+#: khtml/khtml_part.cpp:3829
 msgid "Follow"
 msgstr "Biéj za"
 
-#: khtml/khtml_part.cpp:3935
+#: khtml/khtml_part.cpp:3936
 msgid "Frame Information"
 msgstr "Wëdowiédzô ò ramie"
 
-#: khtml/khtml_part.cpp:3941
+#: khtml/khtml_part.cpp:3942
 #, kde-format
 msgid "   <a href=\"%1\">[Properties]</a>"
 msgstr "   <a href=\"%1\">[Swòjiznë]</a>"
 
-#: khtml/khtml_part.cpp:4026
+#: khtml/khtml_part.cpp:4027
 msgid "Save Background Image As"
 msgstr "Zapiszë òbrôzk spódka jakno"
 
-#: khtml/khtml_part.cpp:4110
+#: khtml/khtml_part.cpp:4111
 msgid "Save Frame As"
 msgstr "Zapiszë ramã jakno"
 
-#: khtml/khtml_part.cpp:4152
+#: khtml/khtml_part.cpp:4153
 msgid "&Find in Frame..."
 msgstr "Nalezë w &ramie..."
 
-#: khtml/khtml_part.cpp:4154 kdeui/actions/kstandardaction_p.h:64
+#: khtml/khtml_part.cpp:4155 kdeui/actions/kstandardaction_p.h:64
 msgid "&Find..."
 msgstr "N&alezë..."
 
-#: khtml/khtml_part.cpp:4664
+#: khtml/khtml_part.cpp:4665
 msgid ""
 "Warning:  This is a secure form but it is attempting to send your data back "
 "unencrypted.\n"
@@ -9657,16 +9697,16 @@ msgstr ""
 "Chtos mòże przechwëcëc Twòje pòdôwczi ë pòdezdrzec tã wëdowiédzã.\n"
 "Jisc dali?"
 
-#: khtml/khtml_part.cpp:4667 khtml/khtml_part.cpp:4676
-#: khtml/khtml_part.cpp:4700
+#: khtml/khtml_part.cpp:4668 khtml/khtml_part.cpp:4677
+#: khtml/khtml_part.cpp:4701
 msgid "Network Transmission"
 msgstr "Sécowô transmisëjô"
 
-#: khtml/khtml_part.cpp:4667 khtml/khtml_part.cpp:4677
+#: khtml/khtml_part.cpp:4668 khtml/khtml_part.cpp:4678
 msgid "&Send Unencrypted"
 msgstr "&Wëslë nieszëfrowóné"
 
-#: khtml/khtml_part.cpp:4674
+#: khtml/khtml_part.cpp:4675
 msgid ""
 "Warning: Your data is about to be transmitted across the network "
 "unencrypted.\n"
@@ -9675,7 +9715,7 @@ msgstr ""
 "Bôczënk: Twòje pòdôwczi bãdą wësłóne przez séc bez szëfrowaniô.\n"
 "Jisc dali?"
 
-#: khtml/khtml_part.cpp:4698
+#: khtml/khtml_part.cpp:4699
 msgid ""
 "This site is attempting to submit form data via email.\n"
 "Do you want to continue?"
@@ -9683,11 +9723,11 @@ msgstr ""
 "Starna chce wësłac pòdôwczi przez e-mailã.\n"
 "Zezwòlëc na to?"
 
-#: khtml/khtml_part.cpp:4701
+#: khtml/khtml_part.cpp:4702
 msgid "&Send Email"
 msgstr "Wëslë &e-mailã"
 
-#: khtml/khtml_part.cpp:4723
+#: khtml/khtml_part.cpp:4724
 #, kde-format
 msgid ""
 "<qt>The form will be submitted to <br /><b>%1</b><br />on your local "
@@ -9696,12 +9736,12 @@ msgstr ""
 "<qt>Fòrmulôr bãdze wësłóny do <br /><b>%1</b><br />môlowi systeme lopków."
 "<br />Chcesz wësłac fòrmulôrz?</qt>"
 
-#: khtml/khtml_part.cpp:4724 khtml/khtmlview.cpp:2784 khtml/khtmlview.cpp:2826
+#: khtml/khtml_part.cpp:4725 khtml/khtmlview.cpp:2784 khtml/khtmlview.cpp:2826
 #: khtml/html/html_formimpl.cpp:1563 khtml/html/html_formimpl.cpp:2171
 msgid "Submit"
 msgstr "Wëslë"
 
-#: khtml/khtml_part.cpp:4773
+#: khtml/khtml_part.cpp:4774
 msgid ""
 "This site attempted to attach a file from your computer in the form "
 "submission. The attachment was removed for your protection."
@@ -9709,55 +9749,55 @@ msgstr ""
 "Starna chcała dodac lopk z Twòjegò kòmpùtra do pòdôwków fòrmulôra. Przëdôwk "
 "òstôł, dlô bezpiekù, rëmniãti."
 
-#: khtml/khtml_part.cpp:5723
+#: khtml/khtml_part.cpp:5724
 #, kde-format
 msgid "(%1/s)"
 msgstr "(%1/s)"
 
-#: khtml/khtml_part.cpp:6770
+#: khtml/khtml_part.cpp:6771
 msgid "Security Warning"
 msgstr "Òstrzega sparłączonô z bezpiekã"
 
-#: khtml/khtml_part.cpp:6776
+#: khtml/khtml_part.cpp:6777
 #, kde-format
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr ""
 "<qt>Òdmówiony przistãp do <br /><b>%1</b><br /> starne, jakô nie je "
 "bezpiecznô.</qt>"
 
-#: khtml/khtml_part.cpp:6777 khtml/java/kjavaappletserver.cpp:823
+#: khtml/khtml_part.cpp:6778 khtml/java/kjavaappletserver.cpp:823
 msgid "Security Alert"
 msgstr "Òstrzega systemë bezpiekù"
 
-#: khtml/khtml_part.cpp:7124
+#: khtml/khtml_part.cpp:7125
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
 msgstr ""
 
-#: khtml/khtml_part.cpp:7181
+#: khtml/khtml_part.cpp:7182
 msgid "&Close Wallet"
 msgstr "&Zamkni pòrtfél"
 
-#: khtml/khtml_part.cpp:7224
+#: khtml/khtml_part.cpp:7225
 msgid "JavaScript &Debugger"
 msgstr "&Debùgera JavaScript"
 
-#: khtml/khtml_part.cpp:7257
+#: khtml/khtml_part.cpp:7258
 msgid "This page was prevented from opening a new window via JavaScript."
 msgstr ""
 
-#: khtml/khtml_part.cpp:7263
+#: khtml/khtml_part.cpp:7264
 msgid "Popup Window Blocked"
 msgstr ""
 
-#: khtml/khtml_part.cpp:7263
+#: khtml/khtml_part.cpp:7264
 msgid ""
 "This page has attempted to open a popup window but was blocked.\n"
 "You can click on this icon in the status bar to control this behavior\n"
 "or to open the popup."
 msgstr ""
 
-#: khtml/khtml_part.cpp:7276
+#: khtml/khtml_part.cpp:7277
 #, kde-format
 msgid "&Show Blocked Popup Window"
 msgid_plural "&Show %1 Blocked Popup Windows"
@@ -9765,11 +9805,11 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: khtml/khtml_part.cpp:7277
+#: khtml/khtml_part.cpp:7278
 msgid "Show Blocked Window Passive Popup &Notification"
 msgstr ""
 
-#: khtml/khtml_part.cpp:7279
+#: khtml/khtml_part.cpp:7280
 msgid "&Configure JavaScript New Window Policies..."
 msgstr ""
 
@@ -9853,46 +9893,6 @@ msgstr ""
 
 #: khtml/test_regression_gui_main.cpp:35
 msgid "GUI for the khtml regression tester"
-msgstr ""
-
-#: khtml/khtml_factory.cpp:166
-msgid "KHTML"
-msgstr "KHTML"
-
-#: khtml/khtml_factory.cpp:167
-msgid "Embeddable HTML component"
-msgstr "Kòmpònent HTML"
-
-#: khtml/khtml_factory.cpp:169
-msgid "Lars Knoll"
-msgstr ""
-
-#: khtml/khtml_factory.cpp:170
-msgid "Antti Koivisto"
-msgstr ""
-
-#: khtml/khtml_factory.cpp:172
-msgid "Dirk Mueller"
-msgstr ""
-
-#: khtml/khtml_factory.cpp:173
-msgid "Peter Kelly"
-msgstr ""
-
-#: khtml/khtml_factory.cpp:174
-msgid "Torben Weis"
-msgstr ""
-
-#: khtml/khtml_factory.cpp:175
-msgid "Martin Jones"
-msgstr ""
-
-#: khtml/khtml_factory.cpp:176
-msgid "Simon Hausmann"
-msgstr ""
-
-#: khtml/khtml_factory.cpp:177
-msgid "Tobias Anton"
 msgstr ""
 
 #: khtml/xml/xml_tokenizer.cpp:315
@@ -10637,21 +10637,21 @@ msgstr "Ò&przestóń"
 msgid "Configure Notifications"
 msgstr "Kònfigùrëjë ò&dkazë..."
 
-#: knotify/config/knotifyeventlist.cpp:95
+#: knotify/config/knotifyeventlist.cpp:93
 #, fuzzy
 #| msgid "Title:"
 msgctxt "Title of the notified event"
 msgid "Title"
 msgstr "Titel:"
 
-#: knotify/config/knotifyeventlist.cpp:95
+#: knotify/config/knotifyeventlist.cpp:93
 #, fuzzy
 #| msgid "Description"
 msgctxt "Description of the notified event"
 msgid "Description"
 msgstr "Òpis"
 
-#: knotify/config/knotifyeventlist.cpp:95
+#: knotify/config/knotifyeventlist.cpp:93
 #, fuzzy
 #| msgid "State"
 msgctxt "State of the notified event"
@@ -11819,15 +11819,15 @@ msgstr "Swòjé..."
 msgid "TETest"
 msgstr "TETest"
 
-#: khtml/khtml_settings.cc:151
+#: khtml/khtml_settings.cc:152
 msgid "Accept"
 msgstr "Akceptacëjô"
 
-#: khtml/khtml_settings.cc:152
+#: khtml/khtml_settings.cc:153
 msgid "Reject"
 msgstr "Òdcësni"
 
-#: khtml/khtml_settings.cc:778
+#: khtml/khtml_settings.cc:779
 msgid "Filter error"
 msgstr "Felô filtera"
 
