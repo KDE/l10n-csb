@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_extragear-multimedia_amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-11 05:07+0000\n"
+"POT-Creation-Date: 2007-12-14 05:18+0000\n"
 "PO-Revision-Date: 2007-07-28 13:49+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -103,10 +103,24 @@ msgctxt "Name"
 msgid "Current Track Info"
 msgstr "Wëdowiedzô ò biéżnym sztëczkù"
 
+#: src/context/applets/currenttrack/amarok-context-applet-currenttrack.desktop:18
+#: src/context/applets/lyrics/amarok-context-applet-lyrics.desktop:18
+#: src/context/applets/playlistinfo/amarok-context-applet-playlistinfo.desktop:18
+#: src/context/applets/serviceinfo/amarok-context-applet-serviceinfo.desktop:18
+#: src/context/applets/wikipedia/amarok-context-applet-wikipedia.desktop:18
+msgctxt "X-KDE-PluginInfo-Category"
+msgid "Current"
+msgstr ""
+
 #: src/context/applets/lastfmevents/amarok-context-applet-lastfmevents.desktop:3
 msgctxt "Name"
 msgid "Last.Fm Events"
 msgstr "Przëtrôfczi Last.fm"
+
+#: src/context/applets/lastfmevents/amarok-context-applet-lastfmevents.desktop:18
+msgctxt "X-KDE-PluginInfo-Category"
+msgid "Home"
+msgstr ""
 
 #: src/context/applets/lyrics/amarok-context-applet-lyrics.desktop:3
 msgctxt "Name"
@@ -139,6 +153,11 @@ msgstr ""
 #: src/context/containments/amarok-containment-context.desktop:4
 msgctxt "Comment"
 msgid "A containment for the Amarok Context"
+msgstr ""
+
+#: src/context/containments/amarok-containment-context.desktop:15
+msgctxt "X-KDE-PluginInfo-Category"
+msgid "Miscellaneous"
 msgstr ""
 
 #: src/context/engines/current/amarok-data-engine-current.desktop:2
@@ -214,6 +233,11 @@ msgctxt "Description"
 msgid "Some fancy test description"
 msgstr ""
 
+#: src/context/plasma/tests/packagemetadatatest.desktop:83
+msgctxt "X-KDE-PluginInfo-Category"
+msgid "System test"
+msgstr ""
+
 #: src/context/servicetypes/amarok_context_applet.desktop:6
 msgctxt "Comment"
 msgid "Amarok Context applet"
@@ -268,16 +292,6 @@ msgstr "Mòtór Helix"
 msgctxt "Name"
 msgid "Phonon Engine"
 msgstr "Mòtór Phonon"
-
-#: src/engine/phonon/directshow/amarok_directshow.desktop:11
-msgctxt "Name"
-msgid "Amarok DirectShow"
-msgstr ""
-
-#: src/engine/phonon/directshow/amarok_directshow.desktop:13
-msgctxt "Comment"
-msgid "Phonon DirectShow backend for Amarok"
-msgstr ""
 
 #: src/engine/void/amarok_void-engine_plugin.desktop:4
 msgctxt "Name"
@@ -346,6 +360,18 @@ msgstr ""
 msgctxt "Comment"
 msgid "Service plugin for Amarok"
 msgstr "Wtëkôcz ùrządzeniów dlô Amaroka"
+
+#: src/servicebrowser/ampache/amarok_service-ampache.desktop:25
+#: src/servicebrowser/jamendo/amarok_service-jamendo.desktop:25
+#: src/servicebrowser/magnatunestore/amarok_service-magnatunestore.desktop:25
+#: src/servicebrowser/mp3tunes/amarok_service-mp3tunes.desktop:25
+#: src/servicebrowser/shoutcast/amarok_service-shoutcast.desktop:25
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Current Info Data Engine"
+msgctxt "X-KDE-PluginInfo-Category"
+msgid "Service"
+msgstr "Mòtór biéżny wëdowiedzë ò pòdôwkach"
 
 #: src/servicebrowser/ampache/amarok_service-ampache_config.desktop:11
 msgctxt "Name"
