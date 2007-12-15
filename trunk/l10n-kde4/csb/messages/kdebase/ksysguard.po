@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-06 06:01+0100\n"
+"POT-Creation-Date: 2007-12-15 06:10+0100\n"
 "PO-Revision-Date: 2007-12-11 16:41+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -163,7 +163,7 @@ msgstr "Wòlnô pamiãc"
 msgid "Process Count"
 msgstr "Rechòwnik procesu"
 
-#: ksgrd/SensorManager.cc:91 ksgrd/SensorManager.cc:175
+#: ksgrd/SensorManager.cc:91 ksgrd/SensorManager.cc:177
 msgid "Process Controller"
 msgstr "Kòntroléra procesu"
 
@@ -284,7 +284,7 @@ msgstr "Gniôzda"
 msgid "Total Number"
 msgstr "Całownô lëczba"
 
-#: ksgrd/SensorManager.cc:121 ksgrd/SensorManager.cc:176
+#: ksgrd/SensorManager.cc:121 ksgrd/SensorManager.cc:178
 msgid "Table"
 msgstr "Tabela"
 
@@ -380,68 +380,80 @@ msgstr "Czas dzejaniô"
 msgid "Linux Soft Raid (md)"
 msgstr "Programòwi linuksowi Raid (md)"
 
-#: ksgrd/SensorManager.cc:147
+#: ksgrd/SensorManager.cc:145
+#, fuzzy
+#| msgid "Process Count"
+msgid "Processors"
+msgstr "Rechòwnik procesu"
+
+#: ksgrd/SensorManager.cc:146
+#, fuzzy
+#| msgid "Colors"
+msgid "Cores"
+msgstr "Farwë"
+
+#: ksgrd/SensorManager.cc:149
 #, kde-format
 msgid "CPU %1"
 msgstr "Procesor %1"
 
-#: ksgrd/SensorManager.cc:148
+#: ksgrd/SensorManager.cc:150
 #, kde-format
 msgid "Disk %1"
 msgstr "Disk %1"
 
-#: ksgrd/SensorManager.cc:152
+#: ksgrd/SensorManager.cc:154
 #, kde-format
 msgid "Fan %1"
 msgstr "Wentilator %1"
 
-#: ksgrd/SensorManager.cc:153
+#: ksgrd/SensorManager.cc:155
 #, kde-format
 msgid "Temperature %1"
 msgstr "Cepłota %1"
 
-#: ksgrd/SensorManager.cc:156
+#: ksgrd/SensorManager.cc:158
 msgid "Total"
 msgstr "Całowny"
 
-#: ksgrd/SensorManager.cc:161
+#: ksgrd/SensorManager.cc:163
 #, kde-format
 msgid "Int %1"
 msgstr "Przerw. %1"
 
-#: ksgrd/SensorManager.cc:166
+#: ksgrd/SensorManager.cc:168
 msgctxt "the unit 1 per second"
 msgid "1/s"
 msgstr "1/s"
 
-#: ksgrd/SensorManager.cc:167
+#: ksgrd/SensorManager.cc:169
 msgid "kBytes"
 msgstr "kBajtów"
 
-#: ksgrd/SensorManager.cc:168
+#: ksgrd/SensorManager.cc:170
 msgctxt "the unit minutes"
 msgid "min"
 msgstr "min"
 
-#: ksgrd/SensorManager.cc:169
+#: ksgrd/SensorManager.cc:171
 msgctxt "the frequency unit"
 msgid "MHz"
 msgstr "MHz"
 
-#: ksgrd/SensorManager.cc:170
+#: ksgrd/SensorManager.cc:172
 msgctxt "a percentage"
 msgid "%"
 msgstr "%"
 
-#: ksgrd/SensorManager.cc:173
+#: ksgrd/SensorManager.cc:175
 msgid "Integer Value"
 msgstr "Całownô wôrtnota"
 
-#: ksgrd/SensorManager.cc:174
+#: ksgrd/SensorManager.cc:176
 msgid "Floating Point Value"
 msgstr "Zmieniwnokòmòwô wôrtnota"
 
-#: ksgrd/SensorManager.cc:276
+#: ksgrd/SensorManager.cc:278
 #, kde-format
 msgid "Connection to %1 has been lost."
 msgstr "Pòłączenié z %1 òsta przerwóné."
@@ -1096,7 +1108,7 @@ msgstr "Ùstôwë lëstë wëzdrzatków"
 msgid "Sensor Logger Settings"
 msgstr "Ùstôwë registratora ùzérôcza"
 
-#: SensorDisplayLib/DummyDisplay.cc:29
+#: SensorDisplayLib/DummyDisplay.cc:29 SensorDisplayLib/DummyDisplay.cc:37
 msgid "Drop Sensor Here"
 msgstr "Pùszczë tuwò ùzérôcz"
 
