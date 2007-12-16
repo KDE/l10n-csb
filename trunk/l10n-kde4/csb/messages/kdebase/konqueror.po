@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-12 06:08+0100\n"
+"POT-Creation-Date: 2007-12-16 06:13+0100\n"
 "PO-Revision-Date: 2007-07-28 17:26+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -30,7 +30,7 @@ msgstr ""
 
 #: src/konqfactory.cpp:240 about/konq_aboutpage.cc:115
 #: about/konq_aboutpage.cc:180 about/konq_aboutpage.cc:235
-#: about/konq_aboutpage.cc:332
+#: about/konq_aboutpage.cc:333
 msgid "Konqueror"
 msgstr "Konqueror"
 
@@ -710,7 +710,9 @@ msgstr "Załóżkã dlô ti adresë"
 msgid "Kon&queror Introduction"
 msgstr "Wprowadzenié do Kon&querora"
 
-#: src/konqmainwindow.cpp:3960
+#. i18n: tag text
+#. i18n: file src/konq-filemanagement.rc line 48
+#: src/konqmainwindow.cpp:3960 rc.cpp:116
 msgid "Go"
 msgstr "Biéj do"
 
@@ -1512,7 +1514,7 @@ msgstr "Joseph WENNINGER"
 #: about/konq_aboutpage.cc:114 about/konq_aboutpage.cc:116
 #: about/konq_aboutpage.cc:179 about/konq_aboutpage.cc:181
 #: about/konq_aboutpage.cc:234 about/konq_aboutpage.cc:236
-#: about/konq_aboutpage.cc:331 about/konq_aboutpage.cc:333
+#: about/konq_aboutpage.cc:332 about/konq_aboutpage.cc:334
 msgid "Conquer your Desktop!"
 msgstr "Kòntrolëjë swój desktop!"
 
@@ -1526,23 +1528,23 @@ msgstr ""
 "dokùmentów."
 
 #: about/konq_aboutpage.cc:118 about/konq_aboutpage.cc:183
-#: about/konq_aboutpage.cc:238 about/konq_aboutpage.cc:335
+#: about/konq_aboutpage.cc:238 about/konq_aboutpage.cc:336
 msgid "Starting Points"
 msgstr "Sztartowé pùnktë"
 
 #: about/konq_aboutpage.cc:119 about/konq_aboutpage.cc:184
-#: about/konq_aboutpage.cc:239 about/konq_aboutpage.cc:336
+#: about/konq_aboutpage.cc:239 about/konq_aboutpage.cc:337
 msgid "Introduction"
 msgstr "Wprowadzenié"
 
 #: about/konq_aboutpage.cc:120 about/konq_aboutpage.cc:185
-#: about/konq_aboutpage.cc:240 about/konq_aboutpage.cc:337
+#: about/konq_aboutpage.cc:240 about/konq_aboutpage.cc:338
 msgid "Tips"
 msgstr "Pòdpòwiescë"
 
 #: about/konq_aboutpage.cc:121 about/konq_aboutpage.cc:186
 #: about/konq_aboutpage.cc:241 about/konq_aboutpage.cc:242
-#: about/konq_aboutpage.cc:338
+#: about/konq_aboutpage.cc:339
 msgid "Specifications"
 msgstr "Specyfikacëjô"
 
@@ -1599,7 +1601,7 @@ msgid "Search the Web"
 msgstr "Szëkba w sécë"
 
 #: about/konq_aboutpage.cc:182 about/konq_aboutpage.cc:237
-#: about/konq_aboutpage.cc:334
+#: about/konq_aboutpage.cc:335
 msgid ""
 "Konqueror is your file manager, web browser and universal document viewer."
 msgstr ""
@@ -1808,7 +1810,9 @@ msgstr "Ò G L O W É"
 msgid "Feature"
 msgstr "Fùnkcëjô"
 
-#: about/konq_aboutpage.cc:279
+#. i18n: tag string
+#. i18n: file sidebar/trees/history_module/history_dlg.ui line 134
+#: about/konq_aboutpage.cc:279 rc.cpp:179
 msgid "Details"
 msgstr "Detale"
 
@@ -1817,48 +1821,52 @@ msgid "Image formats"
 msgstr "Graficzné fòrmôtë"
 
 #: about/konq_aboutpage.cc:281
+msgid "PNG<br />MNG<br />JPG<br />GIF"
+msgstr ""
+
+#: about/konq_aboutpage.cc:282
 msgid "Transfer protocols"
 msgstr "Transferowé protokółë"
 
-#: about/konq_aboutpage.cc:282
+#: about/konq_aboutpage.cc:283
 msgid "HTTP 1.1 (including gzip/bzip2 compression)"
 msgstr "HTTP 1.1 (z kòmpresëją gzip/bzip2)"
 
-#: about/konq_aboutpage.cc:283
+#: about/konq_aboutpage.cc:284
 msgid "FTP"
 msgstr "FTP"
 
-#: about/konq_aboutpage.cc:284
+#: about/konq_aboutpage.cc:285
 #, kde-format
 msgid "and <A HREF=\"%1\">many more...</A>"
 msgstr "ë <A HREF=\"%1\">wiele jinszëch...</A>"
 
-#: about/konq_aboutpage.cc:285
+#: about/konq_aboutpage.cc:286
 msgid "URL-Completion"
 msgstr "Dofùlowanié adresów URL"
 
-#: about/konq_aboutpage.cc:286
+#: about/konq_aboutpage.cc:287
 msgid "Manual"
 msgstr "Rãczno"
 
-#: about/konq_aboutpage.cc:287
+#: about/konq_aboutpage.cc:288
 msgid "Popup"
 msgstr "Wëbiérk"
 
-#: about/konq_aboutpage.cc:288
+#: about/konq_aboutpage.cc:289
 msgid "(Short-) Automatic"
 msgstr "(Pół-)aùtomatno"
 
-#: about/konq_aboutpage.cc:290
+#: about/konq_aboutpage.cc:291
 #, kde-format
 msgid "<a href=\"%1\">Return to Starting Points</a>"
 msgstr "<a href=\"%1\">Nazôd do sztartowëch pùnktów</a>"
 
-#: about/konq_aboutpage.cc:339
+#: about/konq_aboutpage.cc:340
 msgid "Tips &amp; Tricks"
 msgstr "Pòdpòwiescë ë sztëczki"
 
-#: about/konq_aboutpage.cc:340
+#: about/konq_aboutpage.cc:341
 #, kde-format
 msgid ""
 "Use Internet-Keywords and Web-Shortcuts: by typing \"gg: KDE\" one can "
@@ -1873,7 +1881,7 @@ msgstr ""
 "dôwającëch mòżnotã szëkaniô za soft-wôrą czë słowama w encyklopediji. Mòże "
 "nawetka <a HREF=\"%1\">ùsôdzac swòje</a> internetowé skrodzëne."
 
-#: about/konq_aboutpage.cc:345
+#: about/konq_aboutpage.cc:346
 #, fuzzy, kde-format
 #| msgid ""
 #| "Use the magnifier button <img width='16' height='16' src=\"%1\"> in the "
@@ -1885,7 +1893,7 @@ msgstr ""
 "Brëkùjë knąpë lupë <img width='16' height='16' src=\"%1\"> do zwikszaniô "
 "miarë fòntów na starnie WWW."
 
-#: about/konq_aboutpage.cc:347
+#: about/konq_aboutpage.cc:348
 #, fuzzy, kde-format
 #| msgid ""
 #| "When you want to paste a new address into the Location toolbar you might "
@@ -1900,7 +1908,7 @@ msgstr ""
 "biéżny wpisënk przez wcësniãce biôłegò krziżëka <img width='16' height='16' "
 "src=\"%1\"> na adresowi lëstwie."
 
-#: about/konq_aboutpage.cc:351
+#: about/konq_aboutpage.cc:352
 msgid ""
 "To create a link on your desktop pointing to the current page, simply drag "
 "the \"Location\" label that is to the left of the Location toolbar, drop it "
@@ -1910,7 +1918,7 @@ msgstr ""
 "\"Adresa\" pò lewi starnie adresowi lëstwë, ùpùszczë jã na pùlt ë wëbierzë "
 "\"Lënkùjë\"."
 
-#: about/konq_aboutpage.cc:354
+#: about/konq_aboutpage.cc:355
 #, fuzzy, kde-format
 #| msgid ""
 #| "You can also find <img width='16' height='16' src=\"%1\"> \"Full-Screen "
@@ -1924,7 +1932,7 @@ msgstr ""
 "W menu Nastôwù najdiwô sã <img width='16' height='16' src=\"%1\"> "
 "\"Fùlekranowi trib\". Je òn baro przëdatny dlô sesëji \"Talk\"."
 
-#: about/konq_aboutpage.cc:357
+#: about/konq_aboutpage.cc:358
 #, fuzzy, kde-format
 #| msgid ""
 #| "Divide et impera (lat. \"Divide and conquer\") - by splitting a window "
@@ -1945,7 +1953,7 @@ msgstr ""
 "Mòżesz téż wëbrac z cziles przëmiôrów profilów wëzdrzatkù (np. Midnight "
 "Commander) abò ùsôdzëc swòje."
 
-#: about/konq_aboutpage.cc:362
+#: about/konq_aboutpage.cc:363
 #, kde-format
 msgid ""
 "Use the <a href=\"%1\">user-agent</a> feature if the website you are "
@@ -1956,7 +1964,7 @@ msgstr ""
 "wëmùszô na ce wëbranié jinszegò przezérnika (ë nie zabëj wësłac skargã do "
 "webméstera!)"
 
-#: about/konq_aboutpage.cc:365
+#: about/konq_aboutpage.cc:366
 #, fuzzy, kde-format
 #| msgid ""
 #| "The <img width='16' height='16' src=\"%1\"> History in your SideBar "
@@ -1968,14 +1976,14 @@ msgstr ""
 "W <IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> historëji na bòczny lëstwie najdiwô sã "
 "lësta slédno òbzerónëch starnów."
 
-#: about/konq_aboutpage.cc:367
+#: about/konq_aboutpage.cc:368
 #, kde-format
 msgid ""
 "Use a caching <a href=\"%1\">proxy</a> to speed up your Internet connection."
 msgstr ""
 "Brëkùjë <A HREF=\"%1\">pòstrzédnika</A>, bë przërëchlëc łączbã z Internetã."
 
-#: about/konq_aboutpage.cc:369
+#: about/konq_aboutpage.cc:370
 #, fuzzy, kde-format
 #| msgid ""
 #| "Advanced users will appreciate the Konsole which you can embed into "
@@ -1989,46 +1997,46 @@ msgstr ""
 "Awansowóni brëkòwnicë na gwës ùwôżą kònsolã, jakô je wbudowónô w Konquerora "
 "(Òkno -> <IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> Pòkôżë emùlator terminala)."
 
-#: about/konq_aboutpage.cc:372
+#: about/konq_aboutpage.cc:373
 #, fuzzy, kde-format
 #| msgid "<img width='16' height='16' src=\"%1\">"
 msgid "<img width='16' height='16' src=\"%1\"></img>"
 msgstr "<img width='16' height='16' src=\"%1\">"
 
-#: about/konq_aboutpage.cc:373
+#: about/konq_aboutpage.cc:374
 msgid "Next: Specifications"
 msgstr "Dali: Specyfikacëjô"
 
-#: about/konq_aboutpage.cc:389
+#: about/konq_aboutpage.cc:390
 msgid "Installed Plugins"
 msgstr "Zainstalowóné pluginsë"
 
-#: about/konq_aboutpage.cc:390
+#: about/konq_aboutpage.cc:391
 msgid "<td>Plugin</td><td>Description</td><td>File</td><td>Types</td>"
 msgstr "<td>Plugins</td><td>Òpis</td><td>Lopk</td><td>Ôrt</td>"
 
-#: about/konq_aboutpage.cc:391
+#: about/konq_aboutpage.cc:392
 msgid "Installed"
 msgstr "Zainstalowónô"
 
-#: about/konq_aboutpage.cc:392
+#: about/konq_aboutpage.cc:393
 msgid "<td>Mime Type</td><td>Description</td><td>Suffixes</td><td>Plugin</td>"
 msgstr "<td>Ôrt MIME</td><td>Òpis</td><td>Rozszérzenié</td><td>Plugins</td>"
 
-#: about/konq_aboutpage.cc:499
+#: about/konq_aboutpage.cc:500
 msgid ""
 "Do you want to disable showing the introduction in the webbrowsing profile?"
 msgstr "Wëłączëc wëskrzeniwanié wprowadzeniô w profilu przezérnika WWW?"
 
-#: about/konq_aboutpage.cc:501
+#: about/konq_aboutpage.cc:502
 msgid "Faster Startup?"
 msgstr "Chùtczi zrëszanié?"
 
-#: about/konq_aboutpage.cc:501
+#: about/konq_aboutpage.cc:502
 msgid "Disable"
 msgstr "Wëłączë"
 
-#: about/konq_aboutpage.cc:501
+#: about/konq_aboutpage.cc:502
 msgid "Keep"
 msgstr "Ùtrzëmôj"
 
@@ -2114,6 +2122,238 @@ msgstr "Wëkònôj pòlét w biéżnym kalalogù:"
 msgid "Output from command: \"%1\""
 msgstr "Skùtk pòletu: \"%1\""
 
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Michôł Òstrowsczi, Mark Kwidzińsczi"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "michol@linuxcsb.org, mark@linuxcsb.org"
+
+#. i18n: tag text
+#. i18n: file src/konq-simplebrowser.rc line 7
+#: rc.cpp:5
+msgid "&Location"
+msgstr "&Adresa"
+
+#. i18n: tag text
+#. i18n: file src/konq-simplebrowser.rc line 23
+#. i18n: tag text
+#. i18n: file src/konq-webbrowsing.rc line 22
+#. i18n: tag text
+#. i18n: file src/konqueror.rc line 22
+#. i18n: tag text
+#. i18n: file src/konq-filemanagement.rc line 22
+#: rc.cpp:8 rc.cpp:38 rc.cpp:74 rc.cpp:110
+msgid "&Edit"
+msgstr "&Edicëjô"
+
+#. i18n: tag text
+#. i18n: file src/konq-simplebrowser.rc line 34
+#. i18n: tag text
+#. i18n: file src/konq-webbrowsing.rc line 38
+#. i18n: tag text
+#. i18n: file src/konqueror.rc line 36
+#. i18n: tag text
+#. i18n: file src/konq-filemanagement.rc line 37
+#: rc.cpp:11 rc.cpp:41 rc.cpp:77 rc.cpp:113
+msgid "&View"
+msgstr "&Wëzdrzatk"
+
+#. i18n: tag text
+#. i18n: file src/konq-simplebrowser.rc line 42
+#. i18n: tag text
+#. i18n: file src/konq-webbrowsing.rc line 70
+#. i18n: tag text
+#. i18n: file src/konqueror.rc line 64
+#. i18n: tag text
+#. i18n: file src/konq-filemanagement.rc line 65
+#. i18n: tag Text
+#. i18n: file kttsplugin/khtmlkttsd.rc line 5
+#. i18n: tag text
+#. i18n: file remoteencodingplugin/kremoteencodingplugin.rc line 4
+#. i18n: tag text
+#. i18n: file shellcmdplugin/kshellcmdplugin.rc line 4
+#: rc.cpp:14 rc.cpp:47 rc.cpp:83 rc.cpp:119 rc.cpp:143 rc.cpp:149 rc.cpp:152
+msgid "&Tools"
+msgstr "&Nôrzãdza"
+
+#. i18n: tag text
+#. i18n: file src/konq-simplebrowser.rc line 47
+#. i18n: tag text
+#. i18n: file src/konq-webbrowsing.rc line 76
+#. i18n: tag text
+#. i18n: file src/konqueror.rc line 70
+#. i18n: tag text
+#. i18n: file src/konq-filemanagement.rc line 71
+#: rc.cpp:17 rc.cpp:50 rc.cpp:86 rc.cpp:122
+msgid "&Settings"
+msgstr "Ù&stôwë"
+
+#. i18n: tag text
+#. i18n: file src/konq-simplebrowser.rc line 60
+#. i18n: tag text
+#. i18n: file src/konq-webbrowsing.rc line 113
+#. i18n: tag text
+#. i18n: file src/konqueror.rc line 104
+#. i18n: tag text
+#. i18n: file src/konq-filemanagement.rc line 108
+#: rc.cpp:20 rc.cpp:56 rc.cpp:92 rc.cpp:128
+msgid "&Help"
+msgstr "&Pòmòc"
+
+#. i18n: tag text
+#. i18n: file src/konq-simplebrowser.rc line 66
+#. i18n: tag text
+#. i18n: file src/konq-webbrowsing.rc line 118
+#. i18n: tag text
+#. i18n: file src/konqueror.rc line 109
+#. i18n: tag text
+#. i18n: file src/konq-filemanagement.rc line 113
+#: rc.cpp:23 rc.cpp:59 rc.cpp:95 rc.cpp:131
+msgid "Main Toolbar"
+msgstr "Przédnô lëstew nôrzãdzów"
+
+#. i18n: tag text
+#. i18n: file src/konq-simplebrowser.rc line 77
+#. i18n: tag text
+#. i18n: file src/konq-webbrowsing.rc line 128
+#. i18n: tag text
+#. i18n: file src/konqueror.rc line 126
+#. i18n: tag text
+#. i18n: file src/konq-filemanagement.rc line 121
+#: rc.cpp:26 rc.cpp:62 rc.cpp:98 rc.cpp:134
+msgid "Extra Toolbar"
+msgstr "Dodôwnô lëstew"
+
+#. i18n: tag text
+#. i18n: file src/konq-simplebrowser.rc line 80
+#. i18n: tag text
+#. i18n: file src/konq-webbrowsing.rc line 135
+#. i18n: tag text
+#. i18n: file src/konqueror.rc line 133
+#. i18n: tag text
+#. i18n: file src/konq-filemanagement.rc line 128
+#: rc.cpp:29 rc.cpp:65 rc.cpp:101 rc.cpp:137
+msgid "Location Toolbar"
+msgstr "Adresowô lëstew"
+
+#. i18n: tag text
+#. i18n: file src/konq-simplebrowser.rc line 94
+#. i18n: tag text
+#. i18n: file src/konq-webbrowsing.rc line 139
+#. i18n: tag text
+#. i18n: file src/konqueror.rc line 138
+#. i18n: tag text
+#. i18n: file src/konq-filemanagement.rc line 133
+#: rc.cpp:32 rc.cpp:68 rc.cpp:104 rc.cpp:140
+msgid "Bookmark Toolbar"
+msgstr "Lëstew załóżków"
+
+#. i18n: tag text
+#. i18n: file src/konq-webbrowsing.rc line 5
+#. i18n: tag text
+#. i18n: file src/konqueror.rc line 5
+#. i18n: tag text
+#. i18n: file src/konq-filemanagement.rc line 5
+#: rc.cpp:35 rc.cpp:71 rc.cpp:107
+#, fuzzy
+#| msgid "&Filters"
+msgid "&File"
+msgstr "&Filtrë"
+
+#. i18n: tag text
+#. i18n: file src/konq-webbrowsing.rc line 49
+#. i18n: tag text
+#. i18n: file src/konqueror.rc line 47
+#: rc.cpp:44 rc.cpp:80
+msgid "&Go"
+msgstr "&Biéj do"
+
+#. i18n: tag text
+#. i18n: file src/konq-webbrowsing.rc line 95
+#. i18n: tag text
+#. i18n: file src/konqueror.rc line 86
+#. i18n: tag text
+#. i18n: file src/konq-filemanagement.rc line 90
+#: rc.cpp:53 rc.cpp:89 rc.cpp:125
+msgid "&Window"
+msgstr "Ò&kno"
+
+#. i18n: tag text
+#. i18n: file kttsplugin/khtmlkttsd.rc line 10
+#: rc.cpp:146
+msgid "Speech Toolbar"
+msgstr "Lëstew nôrzãdzów gôdczi"
+
+#. i18n: tag string
+#. i18n: file sidebar/trees/history_module/history_dlg.ui line 22
+#: rc.cpp:155
+msgid "Limits"
+msgstr "Limitë"
+
+#. i18n: tag string
+#. i18n: file sidebar/trees/history_module/history_dlg.ui line 47
+#: rc.cpp:158
+msgid "URLs e&xpire after"
+msgstr "Adresë bãdą &rëmóné pò"
+
+#. i18n: tag string
+#. i18n: file sidebar/trees/history_module/history_dlg.ui line 57
+#: rc.cpp:161
+msgid "Maximum &number of URLs:"
+msgstr "&Maksylanô lëczba adresów URL:"
+
+#. i18n: tag string
+#. i18n: file sidebar/trees/history_module/history_dlg.ui line 76
+#: rc.cpp:164
+msgid "Custom Fonts For"
+msgstr "Swòje fòntë dlô"
+
+#. i18n: tag string
+#. i18n: file sidebar/trees/history_module/history_dlg.ui line 94
+#: rc.cpp:167
+msgid "URLs newer than"
+msgstr "Adresë URL nowszé jakno"
+
+#. i18n: tag string
+#. i18n: file sidebar/trees/history_module/history_dlg.ui line 107
+#. i18n: tag string
+#. i18n: file sidebar/trees/history_module/history_dlg.ui line 124
+#: rc.cpp:170 rc.cpp:176
+msgid "Choose Font..."
+msgstr "Wëbierzë fònt..."
+
+#. i18n: tag string
+#. i18n: file sidebar/trees/history_module/history_dlg.ui line 114
+#: rc.cpp:173
+msgid "URLs older than"
+msgstr "Adresë URL stôrsze jakno"
+
+#. i18n: tag string
+#. i18n: file sidebar/trees/history_module/history_dlg.ui line 143
+#: rc.cpp:182
+msgid "Detailed tooltips"
+msgstr "Dokładné pòdpòwiescë"
+
+#. i18n: tag string
+#. i18n: file sidebar/trees/history_module/history_dlg.ui line 146
+#: rc.cpp:185
+msgid ""
+"Shows the number of times visited and the dates of the first and last "
+"visits, in addition to the URL"
+msgstr ""
+"Wëskrzëniwô króm adresë téż lëczbã òdwòłaniów ë datum pierszi ë slédni "
+"gòscënë"
+
+#. i18n: tag string
+#. i18n: file sidebar/trees/history_module/history_dlg.ui line 161
+#: rc.cpp:188
+msgid "Clear History"
+msgstr "Wëczëszczë historëjã"
+
 #~ msgid "kfmclient"
 #~ msgstr "kfmclient"
 
@@ -2165,92 +2405,6 @@ msgstr "Skùtk pòletu: \"%1\""
 
 #~ msgid "Syntax Error: Unknown command '%1'\n"
 #~ msgstr "Fela syntaksë: nieznóny pòlét '%1'\n"
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Michôł Òstrowsczi, Mark Kwidzińsczi"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "michol@linuxcsb.org, mark@linuxcsb.org"
-
-#~ msgid "&Location"
-#~ msgstr "&Adresa"
-
-#~ msgid "&Edit"
-#~ msgstr "&Edicëjô"
-
-#~ msgid "&View"
-#~ msgstr "&Wëzdrzatk"
-
-#~ msgid "&Tools"
-#~ msgstr "&Nôrzãdza"
-
-#~ msgid "&Settings"
-#~ msgstr "Ù&stôwë"
-
-#~ msgid "&Help"
-#~ msgstr "&Pòmòc"
-
-#~ msgid "Main Toolbar"
-#~ msgstr "Przédnô lëstew nôrzãdzów"
-
-#~ msgid "Extra Toolbar"
-#~ msgstr "Dodôwnô lëstew"
-
-#~ msgid "Location Toolbar"
-#~ msgstr "Adresowô lëstew"
-
-#~ msgid "Bookmark Toolbar"
-#~ msgstr "Lëstew załóżków"
-
-#, fuzzy
-#~| msgid "&Filters"
-#~ msgid "&File"
-#~ msgstr "&Filtrë"
-
-#~ msgid "&Go"
-#~ msgstr "&Biéj do"
-
-#~ msgid "&Window"
-#~ msgstr "Ò&kno"
-
-#~ msgid "Speech Toolbar"
-#~ msgstr "Lëstew nôrzãdzów gôdczi"
-
-#~ msgid "Limits"
-#~ msgstr "Limitë"
-
-#~ msgid "URLs e&xpire after"
-#~ msgstr "Adresë bãdą &rëmóné pò"
-
-#~ msgid "Maximum &number of URLs:"
-#~ msgstr "&Maksylanô lëczba adresów URL:"
-
-#~ msgid "Custom Fonts For"
-#~ msgstr "Swòje fòntë dlô"
-
-#~ msgid "URLs newer than"
-#~ msgstr "Adresë URL nowszé jakno"
-
-#~ msgid "Choose Font..."
-#~ msgstr "Wëbierzë fònt..."
-
-#~ msgid "URLs older than"
-#~ msgstr "Adresë URL stôrsze jakno"
-
-#~ msgid "Detailed tooltips"
-#~ msgstr "Dokładné pòdpòwiescë"
-
-#~ msgid ""
-#~ "Shows the number of times visited and the dates of the first and last "
-#~ "visits, in addition to the URL"
-#~ msgstr ""
-#~ "Wëskrzëniwô króm adresë téż lëczbã òdwòłaniów ë datum pierszi ë slédni "
-#~ "gòscënë"
-
-#~ msgid "Clear History"
-#~ msgstr "Wëczëszczë historëjã"
 
 #~ msgid "Manual Proxy Configuration"
 #~ msgstr "Rãcznô kònfigùracëja proksy"
