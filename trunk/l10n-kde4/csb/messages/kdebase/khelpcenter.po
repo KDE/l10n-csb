@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-19 05:38+0200\n"
+"POT-Creation-Date: 2007-12-19 06:21+0100\n"
 "PO-Revision-Date: 2007-12-09 18:51+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -15,11 +15,11 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
-#: application.cpp:57 navigator.cpp:459
+#: application.cpp:57 navigator.cpp:458
 msgid "KDE Help Center"
 msgstr "Centróm pòmòcë KDE"
 
-#: application.cpp:59 khc_indexbuilder.cpp:168
+#: application.cpp:59 khc_indexbuilder.cpp:156
 msgid "The KDE Help Center"
 msgstr "Centróm pòmòcë KDE"
 
@@ -27,7 +27,7 @@ msgstr "Centróm pòmòcë KDE"
 msgid "(c) 1999-2003, The KHelpCenter developers"
 msgstr "(c) 1999-2003, Ùsôdzcë Centróm pòmòcë KDE"
 
-#: application.cpp:63 khc_indexbuilder.cpp:172
+#: application.cpp:63 khc_indexbuilder.cpp:160
 msgid "Cornelius Schumacher"
 msgstr "Cornelius Schumacher"
 
@@ -130,27 +130,29 @@ msgstr "Brëkùjë kòdowania wëbrónegò jãzëka"
 msgid "&Font size adjustment:"
 msgstr "&Zmiana miarë fòntu:"
 
-#: glossary.cpp:92
+#: glossary.cpp:94
 msgid "By Topic"
 msgstr "Wedle témë"
 
-#: glossary.cpp:95 infotree.cpp:93
+#: glossary.cpp:97 infotree.cpp:93
 msgid "Alphabetically"
 msgstr "Alfabétno"
 
-#: glossary.cpp:151
-msgid "Rebuilding cache..."
+#: glossary.cpp:153
+#, fuzzy
+#| msgid "Rebuilding cache..."
+msgid "Rebuilding glossary cache..."
 msgstr "Aktualnianié bùfora..."
 
-#: glossary.cpp:181
+#: glossary.cpp:205
 msgid "Rebuilding cache... done."
 msgstr "Aktualnianié bùfora... parôt"
 
-#: glossary.cpp:275
+#: glossary.cpp:299
 msgid "Error"
 msgstr "Fela"
 
-#: glossary.cpp:276
+#: glossary.cpp:300
 msgid ""
 "Unable to show selected glossary entry: unable to open file 'glossary.html."
 "in'!"
@@ -158,11 +160,11 @@ msgstr ""
 "Nie mòże wëskrzënic wëbrónégò môla słowôrzka: nie mòżé òtemknąc lopkù "
 "'glossary.html.in'!"
 
-#: glossary.cpp:281
+#: glossary.cpp:305
 msgid "See also: "
 msgstr "Zdrzë téż: "
 
-#: glossary.cpp:296
+#: glossary.cpp:320
 msgid "KDE Glossary"
 msgstr "Słowôrzk KDE"
 
@@ -345,24 +347,24 @@ msgstr ""
 "Felô òbczas zrëszaniô pòlétu bùdowaniô indeksu:\n"
 "%1"
 
-#: khc_indexbuilder.cpp:101
+#: khc_indexbuilder.cpp:98
 #, kde-format
 msgid "Unable to start command '%1'."
 msgstr "Nie mòże zrëszëc pòlétu '%1'."
 
-#: khc_indexbuilder.cpp:166
+#: khc_indexbuilder.cpp:154
 msgid "KHelpCenter Index Builder"
 msgstr "Bùdowanié indeksu Centróm pòmòcë"
 
-#: khc_indexbuilder.cpp:170
+#: khc_indexbuilder.cpp:158
 msgid "(c) 2003, The KHelpCenter developers"
 msgstr "(c) 2003, Ùsôdzcë Centórm pòmòcë KDE"
 
-#: khc_indexbuilder.cpp:177
+#: khc_indexbuilder.cpp:165
 msgid "Document to be indexed"
 msgstr "Dokùment do indeksowaniô"
 
-#: khc_indexbuilder.cpp:178
+#: khc_indexbuilder.cpp:166
 msgid "Index directory"
 msgstr "Katalog indeksu:"
 
@@ -430,39 +432,39 @@ msgstr "Zwikszë wielgòsc fòntów"
 msgid "Decrease Font Sizes"
 msgstr "Zmniészé wielgòsc fòntów"
 
-#: navigator.cpp:114
+#: navigator.cpp:113
 msgid "&Search"
 msgstr "&Nalezë"
 
-#: navigator.cpp:171
+#: navigator.cpp:170
 msgid "&Contents"
 msgstr "&Spisënk zamkłoscë"
 
-#: navigator.cpp:184
+#: navigator.cpp:183
 msgid "Search Options"
 msgstr "Ùstôwë szëkbë"
 
-#: navigator.cpp:192
+#: navigator.cpp:191
 msgid "G&lossary"
 msgstr "&Słowôrzk"
 
-#: navigator.cpp:458
+#: navigator.cpp:457
 msgid "Start Page"
 msgstr "Przédnô starna"
 
-#: navigator.cpp:546
+#: navigator.cpp:545
 msgid "Unable to run search program."
 msgstr "Nie mòże zrëszëc szëkôrza."
 
-#: navigator.cpp:586
+#: navigator.cpp:585
 msgid "A search index does not yet exist. Do you want to create the index now?"
 msgstr "Felëje indeksu szëkbë. Ùsôdzëc gò terô?"
 
-#: navigator.cpp:590
+#: navigator.cpp:589
 msgid "Create"
 msgstr "Ùsôdzë"
 
-#: navigator.cpp:591
+#: navigator.cpp:590
 msgid "Do Not Create"
 msgstr "Nie ùsôdzôj"
 
