@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-16 06:13+0100\n"
+"POT-Creation-Date: 2007-12-22 06:18+0100\n"
 "PO-Revision-Date: 2007-12-11 16:41+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -82,7 +82,7 @@ msgstr "Rëmôj prezentacëji pòdôwków"
 msgid "Dummy"
 msgstr "Domëslny"
 
-#: ksgrd/SensorAgent.cc:108
+#: ksgrd/SensorAgent.cc:107
 #, kde-format
 msgid ""
 "Message from %1:\n"
@@ -458,17 +458,17 @@ msgstr "Zmieniwnokòmòwô wôrtnota"
 msgid "Connection to %1 has been lost."
 msgstr "Pòłączenié z %1 òsta przerwóné."
 
-#: ksgrd/SensorSocketAgent.cc:102
+#: ksgrd/SensorSocketAgent.cc:100
 #, kde-format
 msgid "Connection to %1 refused"
 msgstr "Pòłączenié z %1 òsta òdcësniãté"
 
-#: ksgrd/SensorSocketAgent.cc:106
+#: ksgrd/SensorSocketAgent.cc:104
 #, kde-format
 msgid "Host %1 not found"
 msgstr "Kòmpùtr %1 nie òstôł nalazłi"
 
-#: ksgrd/SensorSocketAgent.cc:110
+#: ksgrd/SensorSocketAgent.cc:108
 #, kde-format
 msgid ""
 "An error occurred with the network (e.g., the network cable was accidentally "
@@ -476,7 +476,7 @@ msgid ""
 msgstr ""
 "Wëstąpiła fela ze sécą (np. sécowi kabel òstôł òdłączony) dlô kòmpùtra %1"
 
-#: ksgrd/SensorSocketAgent.cc:114
+#: ksgrd/SensorSocketAgent.cc:112
 #, kde-format
 msgid "Error for host %1: %2"
 msgstr "Fela dlô kòmpùtra %1: %2"
@@ -597,12 +597,12 @@ msgstr ""
 "To môl namienioné je na robòczé bòdżi. Abë zwëskac nôl na nowi ùzérocz, mùsz "
 "je ùsôdzëc nowi wëzdrzatk. Dlô tegò wëbiérzë z menu (Lopk->Nowi)."
 
-#: Workspace.cc:102
+#: Workspace.cc:101
 #, kde-format
 msgid "Sheet %1"
 msgstr "Bòga %1"
 
-#: Workspace.cc:149
+#: Workspace.cc:148
 #, kde-format
 msgid ""
 "The worksheet '%1' contains unsaved data.\n"
@@ -611,23 +611,23 @@ msgstr ""
 "Robòczô bòga '%1' zamëkô w se niezapisóné pòdôwczi.\n"
 "Czë chcesz je zapisac?"
 
-#: Workspace.cc:164
+#: Workspace.cc:163
 msgid "*.sgrd|Sensor Files"
 msgstr "*.sgrd|Lopk ùzérôcza"
 
-#: Workspace.cc:164
+#: Workspace.cc:163
 msgid "Select Worksheet to Import"
 msgstr "Wëbiérzë robòczą bògã do impòrtu"
 
-#: Workspace.cc:192 Workspace.cc:213
+#: Workspace.cc:191 Workspace.cc:212
 msgid "You do not have a worksheet that could be saved."
 msgstr "Nie môsz robòczi bòdżi, jakô bë mògłô bëc zapisónô."
 
-#: Workspace.cc:220
+#: Workspace.cc:219
 msgid "Export Work Sheet"
 msgstr "Ekspòrtëjë robòczą bògã..."
 
-#: Workspace.cc:238
+#: Workspace.cc:237
 msgid "There are no worksheets that could be deleted."
 msgstr "Nie môsz robòczi bòdżi, jaką mòże rëmnąc."
 
@@ -1276,6 +1276,22 @@ msgstr "&Rëmôj"
 msgid "&Change"
 msgstr "&Zmieni"
 
+#. i18n: tag WorkSheet attribute title
+#. i18n: file ./ProcessTable.sgrd line 3
+#: rc.cpp:143
+#, fuzzy
+#| msgid "Process Controller"
+msgid "Process Table"
+msgstr "Kòntroléra procesu"
+
+#. i18n: tag WorkSheet attribute title
+#. i18n: file ./SystemLoad.sgrd line 3
+#: rc.cpp:146
+#, fuzzy
+#| msgid "Sensor Logger"
+msgid "Sensor Load"
+msgstr "Registrator ùzérôcza"
+
 #: WorkSheetSettings.cc:39
 msgid "Worksheet Properties"
 msgstr "Swòjiznë wëzdrzatkù"
@@ -1363,7 +1379,7 @@ msgstr ""
 msgid "KDE System Monitor"
 msgstr "KDE Mònitor Systemë"
 
-#: ksysguard.cc:151 ksysguard.cc:540
+#: ksysguard.cc:151 ksysguard.cc:538
 msgid "System Monitor"
 msgstr "Mònitor systemù"
 
@@ -1391,83 +1407,83 @@ msgstr "Mònitorëjë daleczi kòmpùtr..."
 msgid "&Worksheet Properties"
 msgstr "&Swòjnotë robòczy bòdżi"
 
-#: ksysguard.cc:446
+#: ksysguard.cc:444
 #, kde-format
 msgid " %1 processes "
 msgstr " %1 procesów "
 
-#: ksysguard.cc:452
+#: ksysguard.cc:450
 #, kde-format
 msgid " CPU: %1% "
 msgstr "Procesor: %1"
 
-#: ksysguard.cc:466
+#: ksysguard.cc:464
 #, kde-format
 msgid " Memory: %1 / %2 "
 msgstr " Pamiãc: %1 / %2 "
 
-#: ksysguard.cc:493
+#: ksysguard.cc:491
 msgid " No swap space available "
 msgstr "Felënk wòlny pamiãcë wëmianë "
 
-#: ksysguard.cc:495
+#: ksysguard.cc:493
 #, kde-format
 msgid " Swap: %1 / %2 "
 msgstr " Pamiãc wëmianë %1 / %2 "
 
-#: ksysguard.cc:542
+#: ksysguard.cc:540
 msgid "(c) 1996-2008 The KDE System Monitor Developers"
 msgstr "(c) 1996-2008 Ùsôdzcowie KDE System Monitor"
 
-#: ksysguard.cc:543
+#: ksysguard.cc:541
 msgid "John Tapsell"
 msgstr "John Tapsell"
 
-#: ksysguard.cc:543
+#: ksysguard.cc:541
 msgid "Current Maintainer"
 msgstr "Biéżny òpiekùn"
 
-#: ksysguard.cc:544
+#: ksysguard.cc:542
 msgid "Chris Schlaeger"
 msgstr "Chris Schlaeger"
 
-#: ksysguard.cc:544
+#: ksysguard.cc:542
 msgid "Previous Maintainer"
 msgstr "Pòprzédny òpiekùn"
 
-#: ksysguard.cc:545
+#: ksysguard.cc:543
 msgid "Greg Martyn"
 msgstr "Greg Martyn"
 
-#: ksysguard.cc:546
+#: ksysguard.cc:544
 msgid "Tobias Koenig"
 msgstr "Tobias Koenig"
 
-#: ksysguard.cc:547
+#: ksysguard.cc:545
 msgid "Nicolas Leclercq"
 msgstr "Nicolas Leclercq"
 
-#: ksysguard.cc:548
+#: ksysguard.cc:546
 msgid "Alex Sanda"
 msgstr "Alex Sanda"
 
-#: ksysguard.cc:549
+#: ksysguard.cc:547
 msgid "Bernd Johannes Wuebben"
 msgstr "Bernd Johannes Wuebben"
 
-#: ksysguard.cc:550
+#: ksysguard.cc:548
 msgid "Ralf Mueller"
 msgstr "Ralf Mueller"
 
-#: ksysguard.cc:551
+#: ksysguard.cc:549
 msgid "Hamish Rodda"
 msgstr "Hamish Rodda"
 
-#: ksysguard.cc:552
+#: ksysguard.cc:550
 msgid "Torsten Kasch"
 msgstr "Torsten Kasch"
 
-#: ksysguard.cc:552
+#: ksysguard.cc:550
 msgid ""
 "Solaris Support\n"
 "Parts derived (by permission) from the sunos5\n"
@@ -1477,6 +1493,6 @@ msgstr ""
 "Dzélczi pòchòdającé (za pòzwòleniém) z mòduła\n"
 "sunos5 nôrzãdza \"top\" Williama LeFebvre'a."
 
-#: ksysguard.cc:560
+#: ksysguard.cc:558
 msgid "Optional worksheet files to load"
 msgstr "Dodôwné lopczi robòczëch bògów do wladowaniô"
