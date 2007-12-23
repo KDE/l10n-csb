@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-22 06:18+0100\n"
+"POT-Creation-Date: 2007-12-23 06:21+0100\n"
 "PO-Revision-Date: 2007-12-11 16:41+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -34,50 +34,50 @@ msgstr ""
 "Lopk %1 nie zamëkô w se bezzmiłkòwi definicëji robòczi bòdżi. Lopk mùszi bëc "
 "ôrtu 'KSysGuardWorkSheet'."
 
-#: WorkSheet.cc:130
+#: WorkSheet.cc:131
 #, kde-format
 msgid "The file %1 has an invalid worksheet size."
 msgstr "Lopk %1 zamëkô w se zmiłkòwą miarã robòczi bòdżi."
 
-#: WorkSheet.cc:232 KSysGuardApplet.cc:458
+#: WorkSheet.cc:233 KSysGuardApplet.cc:458
 #, kde-format
 msgid "Cannot save file %1"
 msgstr "Nie mòże zapisac lopkù %1"
 
-#: WorkSheet.cc:278
+#: WorkSheet.cc:279
 msgid "The clipboard does not contain a valid display description."
 msgstr "Tacnik nie mô bezzmiłkòwigò òpisënkù wëzdrzatkù."
 
-#: WorkSheet.cc:325 KSysGuardApplet.cc:199
+#: WorkSheet.cc:330 KSysGuardApplet.cc:199
 msgid "Select Display Type"
 msgstr "Wëbiérzë ôrt prezentacëji pòdôwków"
 
-#: WorkSheet.cc:326
+#: WorkSheet.cc:331
 msgid "&Line graph"
 msgstr "&Liniowô dijagrama"
 
-#: WorkSheet.cc:327
+#: WorkSheet.cc:332
 msgid "&Digital display"
 msgstr "&Cifrowy pòdzérk"
 
-#: WorkSheet.cc:328
+#: WorkSheet.cc:333
 msgid "&Bar graph"
 msgstr "&Stołpk"
 
-#: WorkSheet.cc:329
+#: WorkSheet.cc:334
 msgid "Log to a &file"
 msgstr "Zapiszë dniewnik do &lopkù"
 
-#: WorkSheet.cc:469 KSysGuardApplet.cc:240
+#: WorkSheet.cc:476 KSysGuardApplet.cc:240
 msgid "Do you really want to delete the display?"
 msgstr "Czë na gwës chcesz rëmnąc prezentacëjã pòdôwków?"
 
-#: WorkSheet.cc:470 KSysGuardApplet.cc:240
+#: WorkSheet.cc:477 KSysGuardApplet.cc:240
 msgid "Delete Display"
 msgstr "Rëmôj prezentacëji pòdôwków"
 
-#: WorkSheet.cc:489 WorkSheet.cc:491 WorkSheet.cc:493 WorkSheet.cc:495
-#: WorkSheet.cc:497 WorkSheet.cc:499 WorkSheet.cc:503 KSysGuardApplet.cc:376
+#: WorkSheet.cc:496 WorkSheet.cc:498 WorkSheet.cc:500 WorkSheet.cc:502
+#: WorkSheet.cc:504 WorkSheet.cc:506 WorkSheet.cc:510 KSysGuardApplet.cc:376
 #: KSysGuardApplet.cc:378 KSysGuardApplet.cc:380
 msgid "Dummy"
 msgstr "Domëslny"
@@ -99,7 +99,9 @@ msgstr "Zmieni"
 msgid "Rate"
 msgstr "Czãstotlëwòsc"
 
-#: ksgrd/SensorManager.cc:75
+#. i18n: tag display attribute title
+#. i18n: file ./SystemLoad.sgrd line 5
+#: ksgrd/SensorManager.cc:75 rc.cpp:152
 msgid "CPU Load"
 msgstr "Òbladowanié procesora"
 
@@ -131,11 +133,15 @@ msgstr "Całowné òladowanié"
 msgid "Memory"
 msgstr "Pamiãc"
 
-#: ksgrd/SensorManager.cc:83
+#. i18n: tag display attribute title
+#. i18n: file ./SystemLoad.sgrd line 14
+#: ksgrd/SensorManager.cc:83 rc.cpp:158
 msgid "Physical Memory"
 msgstr "Fizycznô pamiãc"
 
-#: ksgrd/SensorManager.cc:84
+#. i18n: tag display attribute title
+#. i18n: file ./SystemLoad.sgrd line 19
+#: ksgrd/SensorManager.cc:84 rc.cpp:161
 msgid "Swap Memory"
 msgstr "Pamiãc wëmianë"
 
@@ -332,7 +338,9 @@ msgstr "Zaòstałi czas"
 msgid "Interrupts"
 msgstr "Przerwania"
 
-#: ksgrd/SensorManager.cc:133
+#. i18n: tag display attribute title
+#. i18n: file ./SystemLoad.sgrd line 11
+#: ksgrd/SensorManager.cc:133 rc.cpp:155
 msgid "Load Average (1 min)"
 msgstr "Strzédné òbladowanié (1 min)"
 
@@ -1278,7 +1286,9 @@ msgstr "&Zmieni"
 
 #. i18n: tag WorkSheet attribute title
 #. i18n: file ./ProcessTable.sgrd line 3
-#: rc.cpp:143
+#. i18n: tag display attribute title
+#. i18n: file ./ProcessTable.sgrd line 5
+#: rc.cpp:143 rc.cpp:146
 #, fuzzy
 #| msgid "Process Controller"
 msgid "Process Table"
@@ -1286,7 +1296,7 @@ msgstr "Kòntroléra procesu"
 
 #. i18n: tag WorkSheet attribute title
 #. i18n: file ./SystemLoad.sgrd line 3
-#: rc.cpp:146
+#: rc.cpp:149
 #, fuzzy
 #| msgid "Sensor Logger"
 msgid "Sensor Load"

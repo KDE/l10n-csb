@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-17 06:10+0100\n"
+"POT-Creation-Date: 2007-12-23 06:21+0100\n"
 "PO-Revision-Date: 2007-12-08 16:06+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -18,39 +18,37 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
-#: battery.cpp:87 battery.cpp:90 battery.cpp:138 battery.cpp:207
-#: battery.cpp:208
+#: battery.cpp:85 battery.cpp:141 battery.cpp:409 battery.cpp:421
 msgid "Battery"
 msgstr "Baterjô"
 
-#: battery.cpp:88 battery.cpp:91 battery.cpp:150 battery.cpp:209
-#: battery.cpp:210
+#: battery.cpp:85 battery.cpp:409 battery.cpp:421
+msgid "sources"
+msgstr ""
+
+#: battery.cpp:94 battery.cpp:147 battery.cpp:416 battery.cpp:428
 msgid "AC Adapter"
 msgstr "Pòdskôcnik AC"
 
-#: battery.cpp:139
-msgid "has Battery"
-msgstr "je baterjô"
-
-#: battery.cpp:140 battery.cpp:151
-msgid "Plugged in"
-msgstr "Pòdłączony"
-
-#: battery.cpp:143 battery.cpp:144
+#: battery.cpp:142 battery.cpp:143
 msgid "Percent"
 msgstr "Procentë"
 
-#: battery.cpp:147
-msgid "No Battery"
-msgstr "Felënk baterji"
+#: battery.cpp:148
+msgid "Plugged in"
+msgstr "Pòdłączony"
 
 #. i18n: tag string
 #. i18n: file batteryConfig.ui line 13
 #. i18n: tag string
 #. i18n: file batteryConfig.ui line 16
-#: battery.cpp:163 rc.cpp:3 rc.cpp:6
+#: battery.cpp:160 rc.cpp:3 rc.cpp:6
 msgid "Configure Battery Monitor"
 msgstr "Kònfigùrëjë mònitor baterji"
+
+#: battery.cpp:309
+msgid "0"
+msgstr ""
 
 #. i18n: tag string
 #. i18n: file batteryConfig.ui line 25
@@ -75,3 +73,9 @@ msgstr "Téma Oxygen"
 #: rc.cpp:18
 msgid "Classic theme"
 msgstr "Téma Classic"
+
+#~ msgid "has Battery"
+#~ msgstr "je baterjô"
+
+#~ msgid "No Battery"
+#~ msgstr "Felënk baterji"
