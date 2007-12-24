@@ -13,38 +13,33 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%"
+"100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: configdialog.cpp:43
-#| msgid "&General"
 msgctxt "General Config"
 msgid "General"
 msgstr "Òglowi"
 
 #: configdialog.cpp:43
-#| msgid "&General"
 msgid "General Config"
 msgstr "Òglowô kònfigùracjô"
 
 #: configdialog.cpp:47
-#| msgid "Ac&tions"
 msgctxt "Actions Config"
 msgid "Actions"
 msgstr "Dzejania"
 
 #: configdialog.cpp:47
-#| msgid "Ac&tions"
 msgid "Actions Config"
 msgstr "Kònfigùracjô dzejania"
 
 #: configdialog.cpp:51
-#| msgid "&Shortcuts"
 msgctxt "Shortcuts Config"
 msgid "Shortcuts"
 msgstr "Klawiszowe skrodzënë"
 
 #: configdialog.cpp:51
-#| msgid "&Shortcuts"
 msgid "Shortcuts Config"
 msgstr "Kònfigùracjô klawiszowëch skrodzënów"
 
@@ -106,14 +101,6 @@ msgid "Clipboard/Selection Behavior"
 msgstr "Zachówanié tacnika/wëbiérkù"
 
 #: configdialog.cpp:98
-#| msgid ""
-#| "<qt>There are two different clipboard buffers available:"
-#| "<br><br><b>Clipboard</b> is filled by selecting something and pressing "
-#| "Ctrl+C, or by clicking \"Copy\" in a toolbar or menubar."
-#| "<br><br><b>Selection</b> is available immediately after selecting some "
-#| "text. The only way to access the selection is to press the middle mouse "
-#| "button.<br><br>You can configure the relationship between Clipboard and "
-#| "Selection.</qt>"
 msgid ""
 "<qt>There are two different clipboard buffers available:<br /><br /"
 "><b>Clipboard</b> is filled by selecting something and pressing Ctrl+C, or "
@@ -122,21 +109,18 @@ msgid ""
 "selection is to press the middle mouse button.<br /><br />You can configure "
 "the relationship between Clipboard and Selection.</qt>"
 msgstr ""
-"<qt>Przistãpne są dwa różne bùforë:<br /><br /><b>Tacnik</b>, zafùlowóny przez "
-"zaznaczenié tekstu ë wcëscniãcé Ctrl+C abò \"Kòpiëjë\" w menu abò na lëstwie "
-"nôrzãdzów<br><br><b>Zaznaczenié</b>, przistãpne zarôzkù pò zanzaczenim "
-"tekstu. Jedinym ôrtã wlemieniô tekstu z zaznaczeniô je wcësniãcé strzédny "
-"knąpë mëszë.<br />Mòżlëwé je skònfigùrowanié wzôjny zanôleżnotë òbùch bùforów."
-"</qt>"
+"<qt>Przistãpne są dwa różne bùforë:<br /><br /><b>Tacnik</b>, zafùlowóny "
+"przez zaznaczenié tekstu ë wcëscniãcé Ctrl+C abò \"Kòpiëjë\" w menu abò na "
+"lëstwie nôrzãdzów<br><br><b>Zaznaczenié</b>, przistãpne zarôzkù pò "
+"zanzaczenim tekstu. Jedinym ôrtã wlemieniô tekstu z zaznaczeniô je wcësniãcé "
+"strzédny knąpë mëszë.<br />Mòżlëwé je skònfigùrowanié wzôjny zanôleżnotë "
+"òbùch bùforów.</qt>"
 
 #: configdialog.cpp:111
 msgid "Sy&nchronize contents of the clipboard and the selection"
 msgstr "&Synchronizëjë zamkłosc tacnika ë zaznaczenia"
 
 #: configdialog.cpp:112
-#| msgid ""
-#| "Selecting this option synchronizes these two buffers, so they work the "
-#| "same way as in KDE 1.x and 2.x."
 msgid "Selecting this option synchronizes these two buffers."
 msgstr "Wëbiérk ti òptacëji sprawi, że òba tacniki bãdą wiedno miałë to samò."
 
@@ -228,7 +212,6 @@ msgid "Remove Command"
 msgstr "Rëmôj pòlét"
 
 #: configdialog.cpp:308
-#| msgid "Click here to set the command to be executed"
 msgid "Double-click here to set the command to be executed"
 msgstr "Klëkni dwa razë tuwò abë òtaksowac pòlét do zrëszeniô"
 
@@ -237,7 +220,6 @@ msgid "<new command>"
 msgstr "<nowé pòlét>"
 
 #: configdialog.cpp:333
-#| msgid "Click here to set the regexp"
 msgid "Double-click here to set the regexp"
 msgstr "Klëkni dwa razë tuwò bë òtaksowac regùlarny wësłów"
 
@@ -254,12 +236,6 @@ msgid "D&isable Actions for Windows of Type WM_CLASS"
 msgstr "&Wëłączë dzejanié dlô òknów tipù WM_CLASS"
 
 #: configdialog.cpp:400
-#| msgid ""
-#| "<qt>This lets you specify windows in which Klipper should not invoke "
-#| "\"actions\". Use<br><br><center><b>xprop | grep WM_CLASS</b></"
-#| "center><br>in a terminal to find out the WM_CLASS of a window. Next, "
-#| "click on the window you want to examine. The first string it outputs "
-#| "after the equal sign is the one you need to enter here.</qt>"
 msgid ""
 "<qt>This lets you specify windows in which Klipper should not invoke "
 "\"actions\". Use<br /><br /><center><b>xprop | grep WM_CLASS</b></"
@@ -268,9 +244,9 @@ msgid ""
 "equal sign is the one you need to enter here.</qt>"
 msgstr ""
 "<qt>Na òptacëjô pòzwôlô òtaksowac òkna, dlô chtërnëch Klipper nie mdze "
-"wëwòłiwôł \"dzejań\". Brëkùjë<br /> <b /r><center><b>xprop | grep WM_CLASS</b></"
-"center> <br />w terminalu, bë nalezc wôrtosc WM_CLASS danego òkna. Zôs klëkni "
-"na òknie programë, dlô chtërny chcesz wëłączëc dzejania. Napiszë tuwò "
+"wëwòłiwôł \"dzejań\". Brëkùjë<br /> <b /r><center><b>xprop | grep WM_CLASS</"
+"b></center> <br />w terminalu, bë nalezc wôrtosc WM_CLASS danego òkna. Zôs "
+"klëkni na òknie programë, dlô chtërny chcesz wëłączëc dzejania. Napiszë tuwò "
 "pierszą wôrtosc pò céchù '='.</qt>"
 
 #: klipper.cpp:142
@@ -306,9 +282,6 @@ msgstr ""
 "Klippera ë wëbierając 'Włączë dzejania'"
 
 #: klipper.cpp:538
-#| msgid ""
-#| "Should Klipper start automatically\n"
-#| "when you login?"
 msgid "Should Klipper start automatically when you login?"
 msgstr "Czë zrëszac Klippera aùtomatno przë logòwanim?"
 
@@ -439,4 +412,3 @@ msgstr "&Anulëjë"
 #: urlgrabber.cpp:267
 msgid "Edit Contents"
 msgstr "Editëjë zamkłosc"
-
