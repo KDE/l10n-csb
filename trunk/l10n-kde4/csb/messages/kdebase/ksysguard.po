@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-27 06:09+0100\n"
+"POT-Creation-Date: 2007-12-29 06:15+0100\n"
 "PO-Revision-Date: 2007-12-28 10:04+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -12,7 +12,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%"
+"100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: WorkSheet.cc:93 KSysGuardApplet.cc:306
 #, kde-format
@@ -175,300 +176,324 @@ msgid "Free Memory"
 msgstr "Wòlnô pamiãc"
 
 #: ksgrd/SensorManager.cc:74
+#, fuzzy
+#| msgid "Application Memory"
+msgid "Active Memory"
+msgstr "Pamiãc programë"
+
+#: ksgrd/SensorManager.cc:75
+#, fuzzy
+#| msgid "Cached Memory"
+msgid "Inactive Memory"
+msgstr "Pòdrãcznô pamiãc"
+
+#: ksgrd/SensorManager.cc:76
+#, fuzzy
+#| msgid "Used Memory"
+msgid "Wired Memory"
+msgstr "Ùżëtô pamiãc"
+
+#: ksgrd/SensorManager.cc:77
+msgid "Exec Pages"
+msgstr ""
+
+#: ksgrd/SensorManager.cc:78
+msgid "File Pages"
+msgstr ""
+
+#: ksgrd/SensorManager.cc:79
 msgid "Process Count"
 msgstr "Rechòwnik procesu"
 
-#: ksgrd/SensorManager.cc:75 ksgrd/SensorManager.cc:161
+#: ksgrd/SensorManager.cc:80 ksgrd/SensorManager.cc:166
 msgid "Process Controller"
 msgstr "Kòntroléra procesu"
 
-#: ksgrd/SensorManager.cc:76
+#: ksgrd/SensorManager.cc:81
 msgid "Disk Throughput"
 msgstr "Przepùstowòsc diskù"
 
-#: ksgrd/SensorManager.cc:77
+#: ksgrd/SensorManager.cc:82
 msgctxt "CPU Load"
 msgid "Load"
 msgstr "Òbladowanié"
 
-#: ksgrd/SensorManager.cc:78
+#: ksgrd/SensorManager.cc:83
 msgid "Total Accesses"
 msgstr "Całowné przistãpë"
 
-#: ksgrd/SensorManager.cc:79
+#: ksgrd/SensorManager.cc:84
 msgid "Read Accesses"
 msgstr "Przistãpë przë òdczëce"
 
-#: ksgrd/SensorManager.cc:80
+#: ksgrd/SensorManager.cc:85
 msgid "Write Accesses"
 msgstr "Przëstãpë przë zapisënkù"
 
-#: ksgrd/SensorManager.cc:81
+#: ksgrd/SensorManager.cc:86
 msgid "Read Data"
 msgstr "Òdczëtóné pòdôwczi"
 
-#: ksgrd/SensorManager.cc:82
+#: ksgrd/SensorManager.cc:87
 msgid "Written Data"
 msgstr "Zapisóné pòdôwczi"
 
-#: ksgrd/SensorManager.cc:83
+#: ksgrd/SensorManager.cc:88
 msgid "Milliseconds spent reading"
 msgstr "Milisekùndów na czëtanié"
 
-#: ksgrd/SensorManager.cc:84
+#: ksgrd/SensorManager.cc:89
 msgid "Milliseconds spent writing"
 msgstr "Milisekùndów na pisanié"
 
-#: ksgrd/SensorManager.cc:85
+#: ksgrd/SensorManager.cc:90
 msgid "I/Os currently in progress"
 msgstr "We/Wë terô w dzejanim"
 
-#: ksgrd/SensorManager.cc:86
+#: ksgrd/SensorManager.cc:91
 msgid "Pages In"
 msgstr "Wéńdzeniowëch starnów"
 
-#: ksgrd/SensorManager.cc:87
+#: ksgrd/SensorManager.cc:92
 msgid "Pages Out"
 msgstr "Wińdzeniowëch starnów"
 
-#: ksgrd/SensorManager.cc:88
+#: ksgrd/SensorManager.cc:93
 msgid "Context Switches"
 msgstr "Przełączenié kòntekstów"
 
-#: ksgrd/SensorManager.cc:89
+#: ksgrd/SensorManager.cc:94
 msgid "Network"
 msgstr "Séc"
 
-#: ksgrd/SensorManager.cc:90
+#: ksgrd/SensorManager.cc:95
 msgid "Interfaces"
 msgstr "Interfejsë"
 
-#: ksgrd/SensorManager.cc:91
+#: ksgrd/SensorManager.cc:96
 msgid "Receiver"
 msgstr "Òdbiérnik"
 
-#: ksgrd/SensorManager.cc:92
+#: ksgrd/SensorManager.cc:97
 msgid "Transmitter"
 msgstr "Wësélôcz"
 
-#: ksgrd/SensorManager.cc:93
+#: ksgrd/SensorManager.cc:98
 msgid "Data"
 msgstr "Pòdôwczi"
 
-#: ksgrd/SensorManager.cc:94
+#: ksgrd/SensorManager.cc:99
 msgid "Compressed Packets"
 msgstr "Skòmpresowóné paczétë"
 
-#: ksgrd/SensorManager.cc:95
+#: ksgrd/SensorManager.cc:100
 msgid "Dropped Packets"
 msgstr "Zagùbioné paczétë"
 
-#: ksgrd/SensorManager.cc:96
+#: ksgrd/SensorManager.cc:101
 msgid "Errors"
 msgstr "Felë"
 
-#: ksgrd/SensorManager.cc:97
+#: ksgrd/SensorManager.cc:102
 msgid "FIFO Overruns"
 msgstr "Felë w FIFO"
 
-#: ksgrd/SensorManager.cc:98
+#: ksgrd/SensorManager.cc:103
 msgid "Frame Errors"
 msgstr "Felë ramë"
 
-#: ksgrd/SensorManager.cc:99
+#: ksgrd/SensorManager.cc:104
 msgid "Multicast"
 msgstr "Grëpòwé sélanié"
 
-#: ksgrd/SensorManager.cc:100
+#: ksgrd/SensorManager.cc:105
 msgid "Packets"
 msgstr "Paczétë"
 
-#: ksgrd/SensorManager.cc:101
+#: ksgrd/SensorManager.cc:106
 msgid "Carrier"
 msgstr "Nëk"
 
-#: ksgrd/SensorManager.cc:102
+#: ksgrd/SensorManager.cc:107
 msgid "Collisions"
 msgstr "Zbùcënë"
 
-#: ksgrd/SensorManager.cc:103
+#: ksgrd/SensorManager.cc:108
 msgid "Sockets"
 msgstr "Gniôzda"
 
-#: ksgrd/SensorManager.cc:104
+#: ksgrd/SensorManager.cc:109
 msgid "Total Number"
 msgstr "Całownô lëczba"
 
-#: ksgrd/SensorManager.cc:105 ksgrd/SensorManager.cc:162
+#: ksgrd/SensorManager.cc:110 ksgrd/SensorManager.cc:167
 msgid "Table"
 msgstr "Tabela"
 
-#: ksgrd/SensorManager.cc:106
+#: ksgrd/SensorManager.cc:111
 msgid "Advanced Power Management"
 msgstr "Awansowóné sprôwianié energiją"
 
-#: ksgrd/SensorManager.cc:107
+#: ksgrd/SensorManager.cc:112
 msgid "ACPI"
 msgstr "ACPI"
 
-#: ksgrd/SensorManager.cc:108
+#: ksgrd/SensorManager.cc:113
 msgid "Thermal Zone"
 msgstr "Termiczné paramétrë"
 
-#: ksgrd/SensorManager.cc:109
+#: ksgrd/SensorManager.cc:114
 msgid "Temperature"
 msgstr "Cepłota"
 
-#: ksgrd/SensorManager.cc:110
+#: ksgrd/SensorManager.cc:115
 msgid "Fan"
 msgstr "Wentilator"
 
-#: ksgrd/SensorManager.cc:111
+#: ksgrd/SensorManager.cc:116
 msgid "State"
 msgstr "Stón"
 
-#: ksgrd/SensorManager.cc:112
+#: ksgrd/SensorManager.cc:117
 msgid "Battery"
 msgstr "Baterëje"
 
-#: ksgrd/SensorManager.cc:113
+#: ksgrd/SensorManager.cc:118
 msgid "Battery Charge"
 msgstr "Ladownié baterëjów"
 
-#: ksgrd/SensorManager.cc:114
+#: ksgrd/SensorManager.cc:119
 msgid "Battery Usage"
 msgstr "Zbrëkòwanié baterëji"
 
-#: ksgrd/SensorManager.cc:115
+#: ksgrd/SensorManager.cc:120
 msgid "Remaining Time"
 msgstr "Zaòstałi czas"
 
-#: ksgrd/SensorManager.cc:116
+#: ksgrd/SensorManager.cc:121
 msgid "Interrupts"
 msgstr "Przerwania"
 
 #. i18n: tag display attribute title
 #. i18n: file ./SystemLoad.sgrd line 11
-#: ksgrd/SensorManager.cc:117 rc.cpp:155
+#: ksgrd/SensorManager.cc:122 rc.cpp:155
 msgid "Load Average (1 min)"
 msgstr "Strzédné òbladowanié (1 min)"
 
-#: ksgrd/SensorManager.cc:118
+#: ksgrd/SensorManager.cc:123
 msgid "Load Average (5 min)"
 msgstr "Strzédné òbladowanié (5 min)"
 
-#: ksgrd/SensorManager.cc:119
+#: ksgrd/SensorManager.cc:124
 msgid "Load Average (15 min)"
 msgstr "Strzédné òbladowanié (15 min)"
 
-#: ksgrd/SensorManager.cc:120
+#: ksgrd/SensorManager.cc:125
 msgid "Clock Frequency"
 msgstr "Czãstotliwota zédżera"
 
-#: ksgrd/SensorManager.cc:121
+#: ksgrd/SensorManager.cc:126
 msgid "Hardware Sensors"
 msgstr "Sprzãtowé ùzéroczë"
 
-#: ksgrd/SensorManager.cc:122
+#: ksgrd/SensorManager.cc:127
 msgid "Partition Usage"
 msgstr "Wëzwëskanié particëji"
 
-#: ksgrd/SensorManager.cc:123
+#: ksgrd/SensorManager.cc:128
 msgid "Used Space"
 msgstr "Ùżëti rum"
 
-#: ksgrd/SensorManager.cc:124
+#: ksgrd/SensorManager.cc:129
 msgid "Free Space"
 msgstr "Wòlny rum"
 
-#: ksgrd/SensorManager.cc:125
+#: ksgrd/SensorManager.cc:130
 msgid "Fill Level"
 msgstr "Wëfùlëjë równiã"
 
-#: ksgrd/SensorManager.cc:126
+#: ksgrd/SensorManager.cc:131
 msgid "System"
 msgstr "Systema"
 
-#: ksgrd/SensorManager.cc:127
+#: ksgrd/SensorManager.cc:132
 msgid "Uptime"
 msgstr "Czas dzejaniô"
 
-#: ksgrd/SensorManager.cc:128
+#: ksgrd/SensorManager.cc:133
 msgid "Linux Soft Raid (md)"
 msgstr "Programòwi linuksowi Raid (md)"
 
-#: ksgrd/SensorManager.cc:129
-#| msgid "Process Count"
+#: ksgrd/SensorManager.cc:134
 msgid "Processors"
 msgstr "Procesorë"
 
-#: ksgrd/SensorManager.cc:130
-#| msgid "Colors"
+#: ksgrd/SensorManager.cc:135
 msgid "Cores"
 msgstr "Dzërżenie"
 
-#: ksgrd/SensorManager.cc:133
+#: ksgrd/SensorManager.cc:138
 #, kde-format
 msgid "CPU %1"
 msgstr "Procesor %1"
 
-#: ksgrd/SensorManager.cc:134
+#: ksgrd/SensorManager.cc:139
 #, kde-format
 msgid "Disk %1"
 msgstr "Disk %1"
 
-#: ksgrd/SensorManager.cc:138
+#: ksgrd/SensorManager.cc:143
 #, kde-format
 msgid "Fan %1"
 msgstr "Wentilator %1"
 
-#: ksgrd/SensorManager.cc:139
+#: ksgrd/SensorManager.cc:144
 #, kde-format
 msgid "Temperature %1"
 msgstr "Cepłota %1"
 
-#: ksgrd/SensorManager.cc:142
+#: ksgrd/SensorManager.cc:147
 msgid "Total"
 msgstr "Całowny"
 
-#: ksgrd/SensorManager.cc:147
+#: ksgrd/SensorManager.cc:152
 #, kde-format
 msgid "Int %1"
 msgstr "Przerw. %1"
 
-#: ksgrd/SensorManager.cc:152
+#: ksgrd/SensorManager.cc:157
 msgctxt "the unit 1 per second"
 msgid "1/s"
 msgstr "1/s"
 
-#: ksgrd/SensorManager.cc:153
+#: ksgrd/SensorManager.cc:158
 msgid "kBytes"
 msgstr "kBajtów"
 
-#: ksgrd/SensorManager.cc:154
+#: ksgrd/SensorManager.cc:159
 msgctxt "the unit minutes"
 msgid "min"
 msgstr "min"
 
-#: ksgrd/SensorManager.cc:155
+#: ksgrd/SensorManager.cc:160
 msgctxt "the frequency unit"
 msgid "MHz"
 msgstr "MHz"
 
-#: ksgrd/SensorManager.cc:156
+#: ksgrd/SensorManager.cc:161
 msgctxt "a percentage"
 msgid "%"
 msgstr "%"
 
-#: ksgrd/SensorManager.cc:159
+#: ksgrd/SensorManager.cc:164
 msgid "Integer Value"
 msgstr "Całownô wôrtnota"
 
-#: ksgrd/SensorManager.cc:160
+#: ksgrd/SensorManager.cc:165
 msgid "Floating Point Value"
 msgstr "Zmieniwnokòmòwô wôrtnota"
 
-#: ksgrd/SensorManager.cc:255
+#: ksgrd/SensorManager.cc:260
 #, kde-format
 msgid "Connection to %1 has been lost."
 msgstr "Pòłączenié z %1 òsta przerwóné."
@@ -488,7 +513,8 @@ msgstr "Kòmpùtr %1 nie òstôł nalazłi"
 msgid ""
 "An error occurred with the network (e.g., the network cable was accidentally "
 "plugged out) for host %1"
-msgstr "Wëstąpiła fela ze sécą (np. sécowi kabel òstôł òdłączony) dlô kòmpùtra %1"
+msgstr ""
+"Wëstąpiła fela ze sécą (np. sécowi kabel òstôł òdłączony) dlô kòmpùtra %1"
 
 #: ksgrd/SensorSocketAgent.cc:115
 #, kde-format
@@ -516,7 +542,8 @@ msgstr " sekùnda"
 
 #: TimerSettings.cc:62 WorkSheetSettings.cc:103
 msgid "All displays of the sheet are updated at the rate specified here."
-msgstr "Wszëtczé ùzérôczë na ti bòdżi są aktalnioné z òtaksowóną tu czãstotlëwòtą."
+msgstr ""
+"Wszëtczé ùzérôczë na ti bòdżi są aktalnioné z òtaksowóną tu czãstotlëwòtą."
 
 #: HostConnector.cc:44
 msgid "Connect Host"
@@ -1294,14 +1321,12 @@ msgstr "&Zmieni"
 #. i18n: tag display attribute title
 #. i18n: file ./ProcessTable.sgrd line 5
 #: rc.cpp:143 rc.cpp:146
-#| msgid "Process Controller"
 msgid "Process Table"
 msgstr "Tabela procesu"
 
 #. i18n: tag WorkSheet attribute title
 #. i18n: file ./SystemLoad.sgrd line 3
 #: rc.cpp:149
-#| msgid "Sensor Logger"
 msgid "Sensor Load"
 msgstr "Wladowanié ùzéracza"
 
@@ -1509,4 +1534,3 @@ msgstr ""
 #: ksysguard.cc:559
 msgid "Optional worksheet files to load"
 msgstr "Dodôwné lopczi robòczëch bògów do wladowaniô"
-

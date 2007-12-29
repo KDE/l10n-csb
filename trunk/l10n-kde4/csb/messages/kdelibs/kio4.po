@@ -7,16 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-27 06:08+0100\n"
+"POT-Creation-Date: 2007-12-29 06:14+0100\n"
 "PO-Revision-Date: 2007-12-28 13:51+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 ||"
-"n%100>=20) ? 1 : 2);\n"
-
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"||n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #: kio/netaccess.cpp:105
@@ -118,7 +117,7 @@ msgstr "Fòrmat pòdôwków:"
 msgid "The peer SSL certificate chainappears to be corrupt."
 msgstr "Certifikat SSL je zepsëti"
 
-#: kio/slaveinterface.cpp:484 kio/tcpslavebase.cpp:610
+#: kio/slaveinterface.cpp:484 kio/tcpslavebase.cpp:624
 msgid "SSL"
 msgstr "SSL"
 
@@ -136,9 +135,9 @@ msgid ""
 "The clipboard has changed since you used 'paste': the chosen data format is "
 "no longer applicable. Please copy again what you wanted to paste."
 msgstr ""
-"Tacnik òstôł zjinaczony òd czasu, jak òstało ùżëté 'Wlepi': wëbróny "
-"fòrmat pòdôwków ni ma terô brëkùnkù. Proszã znowa skòpérowac to, co "
-"bëlo do wlepieniô."
+"Tacnik òstôł zjinaczony òd czasu, jak òstało ùżëté 'Wlepi': wëbróny fòrmat "
+"pòdôwków ni ma terô brëkùnkù. Proszã znowa skòpérowac to, co bëlo do "
+"wlepieniô."
 
 #: kio/paste.cpp:191 kio/paste.cpp:239
 msgid "The clipboard is empty"
@@ -311,59 +310,60 @@ msgstr ""
 "URL ni mòże bëc wëskrzëniony\n"
 "%1"
 
-#: kio/tcpslavebase.cpp:252
+#: kio/tcpslavebase.cpp:263
 msgid ""
 "You are about to leave secure mode. Transmissions will no longer be "
 "encrypted.\n"
 "This means that a third party could observe your data in transit."
 msgstr ""
-"Òpùszczôsz bezpieczny trib przekôzu, pòdôwczi bãdą przesëłóné terô bez kòdowaniô.\n"
+"Òpùszczôsz bezpieczny trib przekôzu, pòdôwczi bãdą przesëłóné terô bez "
+"kòdowaniô.\n"
 "Òd tegò czasu cëzy lëdze mògą òbzérac przesëłóné przez ce pòdôwczi."
 
-#: kio/tcpslavebase.cpp:258 kio/tcpslavebase.cpp:442
+#: kio/tcpslavebase.cpp:269 kio/tcpslavebase.cpp:456
 msgid "Security Information"
 msgstr "Wëdowiédzô ò bezpiekù"
 
-#: kio/tcpslavebase.cpp:259
+#: kio/tcpslavebase.cpp:270
 msgid "C&ontinue Loading"
 msgstr "&Biéj dali z ladowaniém"
 
-#: kio/tcpslavebase.cpp:436
+#: kio/tcpslavebase.cpp:450
 msgid ""
 "You are about to enter secure mode. All transmissions will be encrypted "
 "unless otherwise noted.\n"
 "This means that no third party will be able to easily observe your data in "
 "transit."
 msgstr ""
-"Przełączë na bezpieczny trib przekôzu. Wszëtczé sparłãczenia bãdã "
-"kòdowóné, jeżlë nie bãdze pòdóné jinaczi.\n"
+"Przełączë na bezpieczny trib przekôzu. Wszëtczé sparłãczenia bãdã kòdowóné, "
+"jeżlë nie bãdze pòdóné jinaczi.\n"
 "Cëzy lëdze nie bãdą w sztãdze letkò przechwëcëc twòjich pòdôwków."
 
-#: kio/tcpslavebase.cpp:443
+#: kio/tcpslavebase.cpp:457
 msgid "Display SSL &Information"
 msgstr "Wëskrzëni &wëdowiédzã SSL"
 
-#: kio/tcpslavebase.cpp:444
+#: kio/tcpslavebase.cpp:458
 msgid "C&onnect"
 msgstr "&Sparłãczë"
 
-#: kio/tcpslavebase.cpp:581
+#: kio/tcpslavebase.cpp:595
 msgid "Enter the certificate password:"
 msgstr "Wpiszë parolã certifikatu:"
 
-#: kio/tcpslavebase.cpp:582
+#: kio/tcpslavebase.cpp:596
 msgid "SSL Certificate Password"
 msgstr "Parola certifikatu SSL"
 
-#: kio/tcpslavebase.cpp:595
+#: kio/tcpslavebase.cpp:609
 msgid "Unable to open the certificate. Try a new password?"
 msgstr "Ni mòże òtemknąc certifikatu.Spróbòwac jinszi parolë?"
 
-#: kio/tcpslavebase.cpp:608
+#: kio/tcpslavebase.cpp:622
 msgid "The procedure to set the client certificate for the session failed."
 msgstr "Òperacëjô ùstawieniô certifikatu klienta na nã sesëjã nie darzëła sã."
 
-#: kio/tcpslavebase.cpp:638
+#: kio/tcpslavebase.cpp:652
 #, kde-format
 msgid ""
 "The server failed the authenticity check (%1)\n"
@@ -372,32 +372,35 @@ msgstr ""
 "Certifikat serwera nie przeszed ùwierzëtelnienia (%1)\n"
 "\n"
 
-#: kio/tcpslavebase.cpp:687 kio/tcpslavebase.cpp:704 kio/tcpslavebase.cpp:806
-#: kio/tcpslavebase.cpp:818
+#: kio/tcpslavebase.cpp:701 kio/tcpslavebase.cpp:718 kio/tcpslavebase.cpp:820
+#: kio/tcpslavebase.cpp:832
 msgid "Server Authentication"
 msgstr "Ùwierzëtelnianié serwera"
 
-#: kio/tcpslavebase.cpp:688
+#: kio/tcpslavebase.cpp:702
 msgid "&Details"
 msgstr "&Detale"
 
-#: kio/tcpslavebase.cpp:688
+#: kio/tcpslavebase.cpp:702
 msgid "Co&ntinue"
 msgstr "Biéj &dali"
 
-#: kio/tcpslavebase.cpp:701
-msgid "Would you like to accept this certificate forever without being prompted?"
-msgstr "Chcesz akceptowac na wiedno certifikat, bez mùszebnotë dôlszegò pòcwierdzaniô?"
+#: kio/tcpslavebase.cpp:715
+msgid ""
+"Would you like to accept this certificate forever without being prompted?"
+msgstr ""
+"Chcesz akceptowac na wiedno certifikat, bez mùszebnotë dôlszegò "
+"pòcwierdzaniô?"
 
-#: kio/tcpslavebase.cpp:705
+#: kio/tcpslavebase.cpp:719
 msgid "&Forever"
 msgstr "&Wiedno"
 
-#: kio/tcpslavebase.cpp:706
+#: kio/tcpslavebase.cpp:720
 msgid "&Current Sessions Only"
 msgstr "Blós dlô &terôczasny sesëji"
 
-#: kio/tcpslavebase.cpp:805
+#: kio/tcpslavebase.cpp:819
 msgid ""
 "You have indicated that you wish to accept this certificate, but it is not "
 "issued to the server who is presenting it. Do you wish to continue loading?"
@@ -405,13 +408,13 @@ msgstr ""
 "Môsz zgłoszoną chãc przëjãcô negò certifikatu, le nie òstało to wësłóné do "
 "serwera, jaczi gò zgłôszô. Kòntinuòwac ladowanié?"
 
-#: kio/tcpslavebase.cpp:817
+#: kio/tcpslavebase.cpp:831
 msgid ""
 "SSL certificate is being rejected as requested. You can disable this in the "
 "KDE Control Center."
 msgstr ""
-"Certifikat SSL òstôł òdrzucony zgòdno z żëczbą. Mòżesz to zmienic w "
-"Centróm kòntrolë KDE."
+"Certifikat SSL òstôł òdrzucony zgòdno z żëczbą. Mòżesz to zmienic w Centróm "
+"kòntrolë KDE."
 
 #: kio/skipdialog.cpp:40
 msgid "Information"
@@ -525,8 +528,7 @@ msgid ""
 "%1"
 msgstr ""
 "Bënowô fela\n"
-"Proszã zgłoszëc felã na starnie "
-"http://bugs.kde.org\n"
+"Proszã zgłoszëc felã na starnie http://bugs.kde.org\n"
 "%1"
 
 #: kio/global.cpp:196
@@ -878,8 +880,7 @@ msgid ""
 msgstr ""
 "Nie rozpòznóny kòd felë %1\n"
 "%2\n"
-"Proszã zgłoszëc felã na starnie "
-"http://bugs.kde.org."
+"Proszã zgłoszëc felã na starnie http://bugs.kde.org."
 
 #: kio/global.cpp:389
 #, kde-format
@@ -909,7 +910,8 @@ msgstr "Felënk szpecjalnëch òperacrji przistspnëch dlô protokòłu %1."
 #: kio/global.cpp:399
 #, kde-format
 msgid "Listing folders is not supported for protocol %1."
-msgstr "Wëskrzënianié zamkłosców katalogów nie je òbsłëgiwóné przez protokół %1."
+msgstr ""
+"Wëskrzënianié zamkłosców katalogów nie je òbsłëgiwóné przez protokół %1."
 
 #: kio/global.cpp:401
 #, kde-format
@@ -1033,8 +1035,7 @@ msgid ""
 "Contact your appropriate computer support system, whether the system "
 "administrator, or technical support group for further assistance."
 msgstr ""
-"Sparłãczë sã z òbsłëgą kòmpùtra, sprôwnikã systemë abò "
-"techniczną pòmòcą."
+"Sparłãczë sã z òbsłëgą kòmpùtra, sprôwnikã systemë abò techniczną pòmòcą."
 
 #: kio/global.cpp:544
 msgid "Contact the administrator of the server for further assistance."
@@ -1049,18 +1050,22 @@ msgid ""
 "Your access permissions may be inadequate to perform the requested operation "
 "on this resource."
 msgstr ""
-"Twòje prawa przistãpù mògą nie sygac do wëkònaniô żądóny òperacëji "
-"na tim dostónkù."
+"Twòje prawa przistãpù mògą nie sygac do wëkònaniô żądóny òperacëji na tim "
+"dostónkù."
 
 #: kio/global.cpp:550
-msgid "The file may be in use (and thus locked) by another user or application."
-msgstr "Lopk mòże bëc brëkòwóny (ë zablokòwóny do ùżëtkù) przez jinszegò brëkòwnika abò programã."
+msgid ""
+"The file may be in use (and thus locked) by another user or application."
+msgstr ""
+"Lopk mòże bëc brëkòwóny (ë zablokòwóny do ùżëtkù) przez jinszegò brëkòwnika "
+"abò programã."
 
 #: kio/global.cpp:552
 msgid ""
 "Check to make sure that no other application or user is using the file or "
 "has locked the file."
-msgstr "Sprôwdzë, czë niżódnô programa ë brëkòwnik nie ùżëwô abò nie blokùje lopka."
+msgstr ""
+"Sprôwdzë, czë niżódnô programa ë brëkòwnik nie ùżëwô abò nie blokùje lopka."
 
 #: kio/global.cpp:554
 msgid "Although unlikely, a hardware error may have occurred."
@@ -1075,16 +1080,16 @@ msgid ""
 "This is most likely to be caused by a bug in the program. Please consider "
 "submitting a full bug report as detailed below."
 msgstr ""
-"Baro prawdopòdóbne je to, że të natrôfił na felã programë. "
-"Jeżlë mòżesz, to wësli rapòrt ò felë zgòdno z uniższą instrukcëją."
+"Baro prawdopòdóbne je to, że të natrôfił na felã programë. Jeżlë mòżesz, to "
+"wësli rapòrt ò felë zgòdno z uniższą instrukcëją."
 
 #: kio/global.cpp:559
 msgid ""
 "Update your software to the latest version. Your distribution should provide "
 "tools to update your software."
 msgstr ""
-"Zaktualni programã do nônowszi wersrji. Twòjô distribùcëjô mùszi zamëkac w se "
-"nôrzãdze do zaktualnianiô programów."
+"Zaktualni programã do nônowszi wersrji. Twòjô distribùcëjô mùszi zamëkac w "
+"se nôrzãdze do zaktualnianiô programów."
 
 #: kio/global.cpp:561
 msgid ""
@@ -1096,13 +1101,13 @@ msgid ""
 "website</a>. If not, take note of the details given above, and include them "
 "in your bug report, along with as many other details as you think might help."
 msgstr ""
-"Jeżlë ju wszëtkò nie sprôwdzë sã, rozważë wësłanié akùratnegò rapòrtu ò felë do "
-"Karna KDE abò ùsôdzcë ny programë. Jeżlë na programa òstała ùprzistãpniona przez "
-"człowieka z bùtna KDE, sparłączë sã prosto z nim. Procëmno sprôwdzë"
-"wprzód, czë zblëżonô fela nie òsta ju zgłoszonô w <a href="
+"Jeżlë ju wszëtkò nie sprôwdzë sã, rozważë wësłanié akùratnegò rapòrtu ò felë "
+"do Karna KDE abò ùsôdzcë ny programë. Jeżlë na programa òstała "
+"ùprzistãpniona przez człowieka z bùtna KDE, sparłączë sã prosto z nim. "
+"Procëmno sprôwdzëwprzód, czë zblëżonô fela nie òsta ju zgłoszonô w <a href="
 "\"http://bugs.kde.org/\">Baze felów KDE</a>. Jeżlë nié, to pòdôj w rapòrce "
-"wszëtczé detale pòdóné niżi, razã z jinszą wëdowiédzą, jaką "
-"trzëmôsz za brëkòwną."
+"wszëtczé detale pòdóné niżi, razã z jinszą wëdowiédzą, jaką trzëmôsz za "
+"brëkòwną."
 
 #: kio/global.cpp:569
 msgid "There may have been a problem with your network connection."
@@ -1121,8 +1126,7 @@ msgid ""
 "There may have been a problem at some point along the network path between "
 "the server and this computer."
 msgstr ""
-"Mòżlëwé, że problemë pòkzałë sã dzes w sécë, midzë serwerã a twòjim "
-"kòmpùtrã."
+"Mòżlëwé, że problemë pòkzałë sã dzes w sécë, midzë serwerã a twòjim kòmpùtrã."
 
 #: kio/global.cpp:577
 msgid "Try again, either now or at a later time."
@@ -1146,7 +1150,8 @@ msgstr "Të móg/mògła pòdac lëchą lokalizacëjã."
 
 #: kio/global.cpp:582
 msgid "Double-check that you have entered the correct location and try again."
-msgstr "Sprôwdzë jesz rôz, czë môsz pòdóną dobrą lokalizacëjã ë spróbùjë znowa."
+msgstr ""
+"Sprôwdzë jesz rôz, czë môsz pòdóną dobrą lokalizacëjã ë spróbùjë znowa."
 
 #: kio/global.cpp:584
 msgid "Check your network connection status."
@@ -1179,9 +1184,8 @@ msgid ""
 "This means that the file, <strong>%1</strong>, could not be written to as "
 "requested, because access with permission to write could not be obtained."
 msgstr ""
-"Òznôczô to, że lopk <strong>%1</strong> ni "
-"mòże òstac zapisóny z "
-"przëczënë felënkù praw do pisaniô."
+"Òznôczô to, że lopk <strong>%1</strong> ni mòże òstac zapisóny z przëczënë "
+"felënkù praw do pisaniô."
 
 #: kio/global.cpp:607
 #, kde-format
@@ -1391,7 +1395,8 @@ msgstr ""
 
 #: kio/global.cpp:728
 #, kde-format
-msgid "The name that you typed, %1, may not exist: it may be incorrectly typed."
+msgid ""
+"The name that you typed, %1, may not exist: it may be incorrectly typed."
 msgstr ""
 
 #: kio/global.cpp:735
@@ -1727,7 +1732,8 @@ msgid "Could Not Login: %1"
 msgstr ""
 
 #: kio/global.cpp:952
-msgid "An attempt to login to perform the requested operation was unsuccessful."
+msgid ""
+"An attempt to login to perform the requested operation was unsuccessful."
 msgstr ""
 
 #: kio/global.cpp:963
@@ -2344,7 +2350,8 @@ msgid "SSL support is not available in this build of KDE."
 msgstr ""
 
 #: kssl/ksslinfodialog.cpp:139
-msgid "The main part of this document is secured with SSL, but some parts are not."
+msgid ""
+"The main part of this document is secured with SSL, but some parts are not."
 msgstr ""
 
 #: kssl/ksslinfodialog.cpp:145
@@ -2352,8 +2359,8 @@ msgid "Some of this document is secured with SSL,but the main part is not."
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/certificateparty.ui line 46
-#: kssl/ksslinfodialog.cpp:328 rc.cpp:92
+#. i18n: file ./kssl/certificateparty.ui line 43
+#: kssl/ksslinfodialog.cpp:328 rc.cpp:86
 msgid "Organization:"
 msgstr ""
 
@@ -2371,8 +2378,8 @@ msgid "State:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/certificateparty.ui line 100
-#: kssl/ksslinfodialog.cpp:356 rc.cpp:104
+#. i18n: file ./kssl/certificateparty.ui line 97
+#: kssl/ksslinfodialog.cpp:356 rc.cpp:98
 msgid "Country:"
 msgstr ""
 
@@ -2824,7 +2831,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 204
-#: kfile/kicondialog.cpp:314 rc.cpp:318
+#: kfile/kicondialog.cpp:314 rc.cpp:312
 msgid "&Browse..."
 msgstr ""
 
@@ -2990,7 +2997,7 @@ msgstr ""
 msgid "Save As"
 msgstr ""
 
-#: kfile/kurlrequester.cpp:232
+#: kfile/kurlrequester.cpp:234
 msgid "Open file dialog"
 msgstr ""
 
@@ -3376,7 +3383,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 89
-#: kfile/kpropertiesdialog.cpp:1981 rc.cpp:188
+#: kfile/kpropertiesdialog.cpp:1981 rc.cpp:182
 msgid "User"
 msgstr ""
 
@@ -3405,7 +3412,8 @@ msgid "Set GID"
 msgstr ""
 
 #: kfile/kpropertiesdialog.cpp:2008
-msgid "If this flag is set, the group of this folder will be set for all new files."
+msgid ""
+"If this flag is set, the group of this folder will be set for all new files."
 msgstr ""
 
 #: kfile/kpropertiesdialog.cpp:2011
@@ -3548,7 +3556,8 @@ msgid "Configure File Sharing..."
 msgstr ""
 
 #: kfile/kfilesharedialog.cpp:180
-msgid "Error running 'filesharelist'. Check if installed and in $PATH or /usr/sbin."
+msgid ""
+"Error running 'filesharelist'. Check if installed and in $PATH or /usr/sbin."
 msgstr ""
 
 #: kfile/kfilesharedialog.cpp:187
@@ -3614,142 +3623,134 @@ msgid "&Choose password:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/sslinfo.ui line 13
-#. i18n: tag string
-#. i18n: file ./kssl/certificateparty.ui line 13
-#: rc.cpp:14 rc.cpp:83
-msgid "Form"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file ./kssl/sslinfo.ui line 19
-#: rc.cpp:17
+#. i18n: file ./kssl/sslinfo.ui line 16
+#: rc.cpp:14
 msgid "[padlock]"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/sslinfo.ui line 26
-#: rc.cpp:20
+#. i18n: file ./kssl/sslinfo.ui line 23
+#: rc.cpp:17
 msgid "Bruce Schneier secure"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/sslinfo.ui line 33
-#: rc.cpp:23
+#. i18n: file ./kssl/sslinfo.ui line 30
+#: rc.cpp:20
 msgid "Address:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/sslinfo.ui line 40
-#: rc.cpp:26
+#. i18n: file ./kssl/sslinfo.ui line 37
+#: rc.cpp:23
 msgid "https://localhost/"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/sslinfo.ui line 47
-#: rc.cpp:29
+#. i18n: file ./kssl/sslinfo.ui line 44
+#: rc.cpp:26
 msgid "IP Address:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/sslinfo.ui line 54
-#: rc.cpp:32
+#. i18n: file ./kssl/sslinfo.ui line 51
+#: rc.cpp:29
 msgid "127.0.0.1"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/sslinfo.ui line 61
-#: rc.cpp:35
+#. i18n: file ./kssl/sslinfo.ui line 58
+#: rc.cpp:32
 msgid "Encryption:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/sslinfo.ui line 68
-#: rc.cpp:38
+#. i18n: file ./kssl/sslinfo.ui line 65
+#: rc.cpp:35
 msgid "AES, using 256 bits out 256"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/sslinfo.ui line 75
-#: rc.cpp:41
+#. i18n: file ./kssl/sslinfo.ui line 72
+#: rc.cpp:38
 msgid "Details:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/sslinfo.ui line 82
-#: rc.cpp:44
+#. i18n: file ./kssl/sslinfo.ui line 79
+#: rc.cpp:41
 msgid "Kx = DH, Auth = RSA, MAC = SHA1"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/sslinfo.ui line 89
-#: rc.cpp:47
+#. i18n: file ./kssl/sslinfo.ui line 86
+#: rc.cpp:44
 msgid "SSL Version:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/sslinfo.ui line 96
-#: rc.cpp:50
+#. i18n: file ./kssl/sslinfo.ui line 93
+#: rc.cpp:47
 msgid "TLS v0.2.93pre5"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/sslinfo.ui line 103
-#: rc.cpp:53
+#. i18n: file ./kssl/sslinfo.ui line 100
+#: rc.cpp:50
 msgid "Certificate Chain"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/sslinfo.ui line 129
-#: rc.cpp:56
+#. i18n: file ./kssl/sslinfo.ui line 126
+#: rc.cpp:53
 msgid "Trusted:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/sslinfo.ui line 136
-#: rc.cpp:59
+#. i18n: file ./kssl/sslinfo.ui line 133
+#: rc.cpp:56
 msgid "Yes"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/sslinfo.ui line 143
-#: rc.cpp:62
+#. i18n: file ./kssl/sslinfo.ui line 140
+#: rc.cpp:59
 msgid "Validity period:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/sslinfo.ui line 150
-#: rc.cpp:65
+#. i18n: file ./kssl/sslinfo.ui line 147
+#: rc.cpp:62
 msgid "August 34 2004 to Undecimber 0 2008"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/sslinfo.ui line 157
-#: rc.cpp:68
+#. i18n: file ./kssl/sslinfo.ui line 154
+#: rc.cpp:65
 msgid "Serial Number:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/sslinfo.ui line 164
-#: rc.cpp:71
+#. i18n: file ./kssl/sslinfo.ui line 161
+#: rc.cpp:68
 msgid "23"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/sslinfo.ui line 171
-#: rc.cpp:74
+#. i18n: file ./kssl/sslinfo.ui line 168
+#: rc.cpp:71
 msgid "MD5 Digest:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/sslinfo.ui line 178
-#: rc.cpp:77
+#. i18n: file ./kssl/sslinfo.ui line 175
+#: rc.cpp:74
 msgid "B4:DB:00:2E"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kssl/keygenwizard.ui line 35
-#: rc.cpp:80
+#: rc.cpp:77
 msgid ""
 "You have indicated that you wish to obtain or purchase a secure certificate. "
 "This wizard is intended to guide you through the procedure. You may cancel "
@@ -3757,74 +3758,74 @@ msgid ""
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/certificateparty.ui line 19
-#: rc.cpp:86
+#. i18n: file ./kssl/certificateparty.ui line 16
+#: rc.cpp:80
 msgid "Common Name:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/certificateparty.ui line 26
-#: rc.cpp:89
+#. i18n: file ./kssl/certificateparty.ui line 23
+#: rc.cpp:83
 msgid "Acme Co."
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/certificateparty.ui line 53
-#: rc.cpp:95
+#. i18n: file ./kssl/certificateparty.ui line 50
+#: rc.cpp:89
 msgid "Acme Sundry Products Company"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/certificateparty.ui line 73
-#: rc.cpp:98
+#. i18n: file ./kssl/certificateparty.ui line 70
+#: rc.cpp:92
 msgid "Organizational Unit:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/certificateparty.ui line 80
-#: rc.cpp:101
+#. i18n: file ./kssl/certificateparty.ui line 77
+#: rc.cpp:95
 msgid "Fraud Department"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/certificateparty.ui line 107
-#: rc.cpp:107
+#. i18n: file ./kssl/certificateparty.ui line 104
+#: rc.cpp:101
 msgid "Canada"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/certificateparty.ui line 127
-#: rc.cpp:110
+#. i18n: file ./kssl/certificateparty.ui line 124
+#: rc.cpp:104
 msgid "State:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/certificateparty.ui line 134
-#: rc.cpp:113
+#. i18n: file ./kssl/certificateparty.ui line 131
+#: rc.cpp:107
 msgid "Quebec"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/certificateparty.ui line 154
-#: rc.cpp:116
+#. i18n: file ./kssl/certificateparty.ui line 151
+#: rc.cpp:110
 msgid "City:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kssl/certificateparty.ui line 161
-#: rc.cpp:119
+#. i18n: file ./kssl/certificateparty.ui line 158
+#: rc.cpp:113
 msgid "Lakeridge Meadows"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kwalletwizardpageintro.ui line 27
-#: rc.cpp:122
+#: rc.cpp:116
 msgid "<u>KWallet</u> - The KDE Wallet System"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kwalletwizardpageintro.ui line 46
-#: rc.cpp:125
+#: rc.cpp:119
 msgid ""
 "Welcome to KWallet, the KDE Wallet System.  KWallet allows you to store your "
 "passwords and other personal information on disk in an encrypted file, "
@@ -3834,19 +3835,19 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kwalletwizardpageintro.ui line 83
-#: rc.cpp:128
+#: rc.cpp:122
 msgid "&Basic setup (recommended)"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kwalletwizardpageintro.ui line 93
-#: rc.cpp:131
+#: rc.cpp:125
 msgid "&Advanced setup"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kwalletwizardpagepassword.ui line 16
-#: rc.cpp:134
+#: rc.cpp:128
 msgid ""
 "Various applications may attempt to use the KDE wallet to store passwords or "
 "other information such as web form data and cookies.  If you would like "
@@ -3858,25 +3859,25 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kwalletwizardpagepassword.ui line 29
-#: rc.cpp:137
+#: rc.cpp:131
 msgid "Yes, I wish to use the KDE wallet to store my personal information."
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kwalletwizardpagepassword.ui line 88
-#: rc.cpp:140
+#: rc.cpp:134
 msgid "Enter a new password:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kwalletwizardpagepassword.ui line 104
-#: rc.cpp:143
+#: rc.cpp:137
 msgid "Verify password:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kwalletwizardpageexplanation.ui line 16
-#: rc.cpp:146
+#: rc.cpp:140
 msgid ""
 "The KDE Wallet system stores your data in a <i>wallet</i> file on your local "
 "hard disk.  The data is only written in encrypted form, presently using the "
@@ -3889,7 +3890,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kwalletwizardpageoptions.ui line 16
-#: rc.cpp:149
+#: rc.cpp:143
 msgid ""
 "The KDE Wallet system allows you to control the level of security of your "
 "personal data.  Some of these settings do impact usability.  While the "
@@ -3900,49 +3901,49 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kwalletwizardpageoptions.ui line 48
-#: rc.cpp:152
+#: rc.cpp:146
 msgid "Automatically close idle wallets"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kwalletwizardpageoptions.ui line 55
-#: rc.cpp:155
+#: rc.cpp:149
 msgid "Store network passwords and local passwords in separate wallet files"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kbetterthankdialogbase.ui line 52
-#: rc.cpp:158
+#: rc.cpp:152
 msgid "Allow &Once"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kbetterthankdialogbase.ui line 62
-#: rc.cpp:161
+#: rc.cpp:155
 msgid "Allow &Always"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kbetterthankdialogbase.ui line 69
-#: rc.cpp:164
+#: rc.cpp:158
 msgid "&Deny"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kbetterthankdialogbase.ui line 76
-#: rc.cpp:167
+#: rc.cpp:161
 msgid "Deny &Forever"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 25
-#: rc.cpp:170
+#: rc.cpp:164
 msgid "Terminal"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 53
-#: rc.cpp:173
+#: rc.cpp:167
 msgid ""
 "Check this option if the application you want to run is a text mode "
 "application or if you want the information that is provided by the terminal "
@@ -3951,19 +3952,19 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 56
-#: rc.cpp:176
+#: rc.cpp:170
 msgid "&Run in terminal"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 63
-#: rc.cpp:179
+#: rc.cpp:173
 msgid "&Terminal options:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 73
-#: rc.cpp:182
+#: rc.cpp:176
 msgid ""
 "Check this option if the text mode application offers relevant information "
 "on exit. Keeping the terminal emulator open allows you to retrieve this "
@@ -3972,13 +3973,13 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 76
-#: rc.cpp:185
+#: rc.cpp:179
 msgid "Do not &close when command exits"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 101
-#: rc.cpp:191
+#: rc.cpp:185
 msgid ""
 "Check this option if you want to run this application with a different user "
 "id. Every process has a different user id associated with it. This id code "
@@ -3988,37 +3989,37 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 104
-#: rc.cpp:194
+#: rc.cpp:188
 msgid "Ru&n as a different user"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 127
-#: rc.cpp:197
+#: rc.cpp:191
 msgid "Enter the user name you want to run the application as."
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 130
-#: rc.cpp:200
+#: rc.cpp:194
 msgid "&Username:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 140
-#: rc.cpp:203
+#: rc.cpp:197
 msgid "Enter the user name you want to run the application as here."
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 150
-#: rc.cpp:206
+#: rc.cpp:200
 msgid "Startup"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 162
-#: rc.cpp:209
+#: rc.cpp:203
 msgid ""
 "Check this option if you want to make clear that your application has "
 "started. This visual feedback may appear as a busy cursor or in the taskbar."
@@ -4026,13 +4027,13 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 165
-#: rc.cpp:212
+#: rc.cpp:206
 msgid "Enable &launch feedback"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 172
-#: rc.cpp:215
+#: rc.cpp:209
 msgid ""
 "Check this option if you want to have a system tray handle for your "
 "application."
@@ -4040,37 +4041,37 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 175
-#: rc.cpp:218
+#: rc.cpp:212
 msgid "&Place in system tray"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 182
-#: rc.cpp:221
+#: rc.cpp:215
 msgid "&DBUS registration:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 193
-#: rc.cpp:224
+#: rc.cpp:218
 msgid "None"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 198
-#: rc.cpp:227
+#: rc.cpp:221
 msgid "Multiple Instances"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 203
-#: rc.cpp:230
+#: rc.cpp:224
 msgid "Single Instance"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 208
-#: rc.cpp:233
+#: rc.cpp:227
 msgid "Run Until Finished"
 msgstr ""
 
@@ -4078,7 +4079,7 @@ msgstr ""
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 52
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 73
-#: rc.cpp:236 rc.cpp:244
+#: rc.cpp:230 rc.cpp:238
 msgid ""
 "<qt><p>This list should show the types of file that your application can "
 "handle. This list is organized by <u>mimetypes</u>.</p>\n"
@@ -4098,19 +4099,19 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 55
-#: rc.cpp:241
+#: rc.cpp:235
 msgid "&Supported file types:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 86
-#: rc.cpp:249
+#: rc.cpp:243
 msgid "Mimetype"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 91
-#: rc.cpp:252
+#: rc.cpp:246
 msgid "Description"
 msgstr ""
 
@@ -4118,7 +4119,7 @@ msgstr ""
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 99
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 112
-#: rc.cpp:255 rc.cpp:261
+#: rc.cpp:249 rc.cpp:255
 msgid ""
 "Type the name you want to give to this application here. This application "
 "will appear under this name in the applications menu and in the panel."
@@ -4126,7 +4127,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 102
-#: rc.cpp:258
+#: rc.cpp:252
 msgid "&Name:"
 msgstr ""
 
@@ -4134,7 +4135,7 @@ msgstr ""
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 119
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 132
-#: rc.cpp:264 rc.cpp:270
+#: rc.cpp:258 rc.cpp:264
 msgid ""
 "Type the description of this application, based on its use, here. Examples: "
 "a dial up application (KPPP) would be \"Dial up tool\"."
@@ -4142,7 +4143,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 122
-#: rc.cpp:267 ../kfile/kfileplaceeditdialog.cpp:102
+#: rc.cpp:261 ../kfile/kfileplaceeditdialog.cpp:102
 msgid "&Description:"
 msgstr ""
 
@@ -4150,13 +4151,13 @@ msgstr ""
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 139
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 152
-#: rc.cpp:273 rc.cpp:279
+#: rc.cpp:267 rc.cpp:273
 msgid "Type any comment you think is useful here."
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 142
-#: rc.cpp:276
+#: rc.cpp:270
 msgid "Comm&ent:"
 msgstr ""
 
@@ -4164,7 +4165,7 @@ msgstr ""
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 170
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 194
-#: rc.cpp:283 rc.cpp:301
+#: rc.cpp:277 rc.cpp:295
 #, no-c-format
 msgid ""
 "Type the command to start this application here.\n"
@@ -4185,13 +4186,13 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 173
-#: rc.cpp:297
+#: rc.cpp:291
 msgid "Co&mmand:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 201
-#: rc.cpp:315
+#: rc.cpp:309
 msgid ""
 "Click here to browse your file system in order to find the desired "
 "executable."
@@ -4201,19 +4202,19 @@ msgstr ""
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 211
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 224
-#: rc.cpp:321 rc.cpp:327
+#: rc.cpp:315 rc.cpp:321
 msgid "Sets the working directory for your application."
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 214
-#: rc.cpp:324
+#: rc.cpp:318
 msgid "&Work path:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 231
-#: rc.cpp:330
+#: rc.cpp:324
 msgid ""
 "Click on this button if you want to add a type of file (mimetype) that your "
 "application can handle."
@@ -4221,13 +4222,13 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 234
-#: rc.cpp:333
+#: rc.cpp:327
 msgid "Add..."
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 257
-#: rc.cpp:336
+#: rc.cpp:330
 msgid ""
 "If you want to remove a type of file (mimetype) that your application cannot "
 "handle, select the mimetype in the list above and click on this button."
@@ -4235,13 +4236,13 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 260
-#: rc.cpp:339
+#: rc.cpp:333
 msgid "Remove"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 283
-#: rc.cpp:342
+#: rc.cpp:336
 msgid ""
 "Click here to modify the way this application will run, launch feedback, "
 "DBUS options or to run it as a different user."
@@ -4249,7 +4250,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 286
-#: rc.cpp:345
+#: rc.cpp:339
 msgid "Ad&vanced Options"
 msgstr ""
 
@@ -4760,7 +4761,8 @@ msgid "Authentication needed for %1 but authentication is disabled."
 msgstr ""
 
 #: ../kioslave/http/http.cpp:5601
-msgid "Unsupported method: authentication will fail. Please submit a bug report."
+msgid ""
+"Unsupported method: authentication will fail. Please submit a bug report."
 msgstr ""
 
 #: ../kioslave/http/http_cache_cleaner.cpp:200
@@ -5421,4 +5423,3 @@ msgstr ""
 #: ../kfile/kurlbutton.cpp:100
 msgid "Navigate"
 msgstr ""
-
