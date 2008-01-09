@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_desktop\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-04 06:29+0100\n"
+"POT-Creation-Date: 2008-01-09 07:17+0100\n"
 "PO-Revision-Date: 2007-12-27 10:36+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -18,79 +18,35 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
-#: backgrounddialog.cpp:337
+#: backgrounddialog.cpp:338
 msgid "Configure Desktop"
 msgstr "Kònfigùrëjë pùlt"
 
-#: backgrounddialog.cpp:349
-msgid "Wallpaper Image"
-msgstr "Òbrôzk tapétë"
-
-#: backgrounddialog.cpp:350
-msgid "Slideshow"
-msgstr "Pòkôz slajdów"
-
-#: backgrounddialog.cpp:380
-msgid "Browse"
-msgstr "Przëzérôj"
-
-#: backgrounddialog.cpp:390
-msgid "P&ositioning:"
-msgstr "Pòz&ycjonowanié:"
-
-#: backgrounddialog.cpp:392
-msgid "Scale and crop"
+#: backgrounddialog.cpp:358
+#, fuzzy
+#| msgid "Scale and crop"
+msgid "Scale & Crop"
 msgstr "Skalëje ë przëtni"
 
-#: backgrounddialog.cpp:394
+#: backgrounddialog.cpp:360
 msgid "Scaled"
 msgstr "skalowóny"
 
-#: backgrounddialog.cpp:396
+#: backgrounddialog.cpp:362
 msgid "Centered"
 msgstr "Wëstrzodkòwóny"
 
-#: backgrounddialog.cpp:398
+#: backgrounddialog.cpp:364
 msgid "Tiled"
 msgstr "Kachle"
 
-#: backgrounddialog.cpp:400
-msgid "Center tiled"
+#: backgrounddialog.cpp:366
+#, fuzzy
+#| msgid "Center tiled"
+msgid "Center Tiled"
 msgstr "Wëstrzodkòwóné kachle"
 
-#: backgrounddialog.cpp:409
-msgid "&Color:"
-msgstr "&Farwa:"
-
-#: backgrounddialog.cpp:421
-#, fuzzy
-#| msgid "Author"
-msgid "Author:"
-msgstr "Aùtor"
-
-#: backgrounddialog.cpp:422
-#, fuzzy
-#| msgid "E-mail"
-msgid "E-Mail:"
-msgstr "E-mail"
-
-#: backgrounddialog.cpp:423
-msgid "License:"
-msgstr ""
-
-#: backgrounddialog.cpp:449
-msgid "&Add directory..."
-msgstr "&Dodôj katalog..."
-
-#: backgrounddialog.cpp:454
-msgid "&Remove directory"
-msgstr "&Rëmôj katalog"
-
-#: backgrounddialog.cpp:460
-msgid "&Change images every:"
-msgstr "&Zmieni òbrôzk co:"
-
-#: backgrounddialog.cpp:491
+#: backgrounddialog.cpp:396
 msgid ""
 "This picture of a monitor contains a preview of what the current settings "
 "will look like on your desktop."
@@ -98,20 +54,10 @@ msgstr ""
 "Nen òbrôzk mònitora zamëkô w se pòdzérk tegò jak biéżny ùstôw mdze wëzdrzôł "
 "na twòjim pùlce."
 
-#: backgrounddialog.cpp:499
-msgid "&New wallpaper..."
-msgstr "&Nowô tapéta..."
-
-#: backgrounddialog.cpp:506
-msgid "&Show Icons"
-msgstr ""
-
-#: backgrounddialog.cpp:507
-msgid "&Align To Grid"
-msgstr ""
-
-#: backgrounddialog.cpp:629
-msgid "Select a wallpaper image file"
+#: backgrounddialog.cpp:504
+#, fuzzy
+#| msgid "Select a wallpaper image file"
+msgid "Select Wallpaper Image File"
 msgstr "Wëbiérzë lopk òbrôzka tapétë"
 
 #: backgroundpackage.cpp:140
@@ -122,132 +68,226 @@ msgstr "Òbrazczi"
 msgid "Screenshot"
 msgstr "Zdrzucënk ekrana"
 
-#: desktop.cpp:134
+#: desktop.cpp:132
 msgid "Unlock Widgets"
 msgstr "Òdblokùjë widżetë"
 
-#: desktop.cpp:137 desktop.cpp:301
+#: desktop.cpp:135 desktop.cpp:313
 msgid "Lock Widgets"
 msgstr "Zablokùjë widżetë"
 
-#: desktop.cpp:289
+#: desktop.cpp:301
 msgid "Add Widgets..."
 msgstr "Dodôj widżetë..."
 
-#: desktop.cpp:293
+#: desktop.cpp:305
 msgid "Run Command..."
 msgstr "Zrëszë pòlét..."
 
-#: desktop.cpp:297
+#: desktop.cpp:309
 msgid "Configure Desktop..."
 msgstr "Kònfigùrëjë pùlt..."
 
-#: desktop.cpp:305
+#: desktop.cpp:317
 msgid "Lock Screen"
 msgstr "Zablokùjë ekran"
 
-#: desktop.cpp:309
+#: desktop.cpp:321
 msgid "Logout"
 msgstr "Wëlogùjë"
 
-#: iconloader.cpp:63
-msgid "alignToGrid"
-msgstr ""
-
-#: iconloader.cpp:64
-msgid "EnableMedia"
-msgstr ""
-
-#: iconloader.cpp:72
+#: iconloader.cpp:65
 msgid "Icon"
 msgstr "Ikòna"
 
-#: iconloader.cpp:90
-msgid "Align Horizontally"
+#: iconloader.cpp:104
+msgid "Align Icons Horizontally"
 msgstr ""
 
-#: iconloader.cpp:94
-msgid "Align Vertically"
+#: iconloader.cpp:108
+msgid "Align Icons Vertically"
 msgstr ""
-
-#: iconloader.cpp:161
-msgid "Url"
-msgstr "Url"
 
 #. i18n: tag string
-#. i18n: file config.ui line 31
+#. i18n: file BackgroundDialog.ui line 22
 #: rc.cpp:3
-msgid "&Background Color"
-msgstr "&Farwa spòdlégò"
+#, fuzzy
+#| msgid "Wallpaper Image"
+msgid "Wallpaper"
+msgstr "Òbrôzk tapétë"
 
 #. i18n: tag string
-#. i18n: file config.ui line 72
+#. i18n: file BackgroundDialog.ui line 46
 #: rc.cpp:6
-msgid "Static Picture"
-msgstr "Stójny òbrôzk"
+#, fuzzy
+#| msgid "Images"
+msgid "Image"
+msgstr "Òbrazczi"
 
 #. i18n: tag string
-#. i18n: file config.ui line 77
+#. i18n: file BackgroundDialog.ui line 51
 #: rc.cpp:9
-msgid "SlideShow"
+msgid "Slideshow"
 msgstr "Pòkôz slajdów"
 
 #. i18n: tag string
-#. i18n: file config.ui line 104
+#. i18n: file BackgroundDialog.ui line 84
 #: rc.cpp:12
-msgid "*.png *.jpeg *.jpg *.svg *.svgz"
-msgstr "*.png *.jpeg *.jpg *.svg *.svgz"
+#, fuzzy
+#| msgid "Static Picture"
+msgid "&Picture:"
+msgstr "Stójny òbrôzk"
 
 #. i18n: tag string
-#. i18n: file config.ui line 133
+#. i18n: file BackgroundDialog.ui line 109
 #: rc.cpp:15
-msgid "&Add..."
+msgid "Browse"
+msgstr "Przëzérôj"
+
+#. i18n: tag string
+#. i18n: file BackgroundDialog.ui line 112
+#: rc.cpp:18
+#, fuzzy
+#| msgid "&Add..."
+msgid "..."
 msgstr "&Dodôj..."
 
 #. i18n: tag string
-#. i18n: file config.ui line 143
-#: rc.cpp:18
-msgid "&Remove..."
-msgstr "&Rëmôj..."
-
-#. i18n: tag string
-#. i18n: file config.ui line 163
+#. i18n: file BackgroundDialog.ui line 121
 #: rc.cpp:21
-msgid "Show images from:"
-msgstr "Pòkażë òbrazczi z:"
+#, fuzzy
+#| msgid "Author"
+msgid "Author:"
+msgstr "Aùtor"
 
 #. i18n: tag string
-#. i18n: file config.ui line 173
-#: rc.cpp:24
-msgid "Move &Up"
-msgstr "Przesënié w &górã"
+#. i18n: file BackgroundDialog.ui line 137
+#. i18n: tag string
+#. i18n: file BackgroundDialog.ui line 154
+#. i18n: tag string
+#. i18n: file BackgroundDialog.ui line 177
+#: rc.cpp:24 rc.cpp:30 rc.cpp:36
+msgid "TextLabel"
+msgstr ""
 
 #. i18n: tag string
-#. i18n: file config.ui line 183
+#. i18n: file BackgroundDialog.ui line 144
 #: rc.cpp:27
-msgid "Move &Down"
-msgstr "Przesënié w &dół"
+#, fuzzy
+#| msgid "E-mail"
+msgid "E-Mail:"
+msgstr "E-mail"
 
 #. i18n: tag string
-#. i18n: file config.ui line 194
-#: rc.cpp:30
-msgid "Change images every:"
-msgstr "Zmieni òbrôzk co:"
-
-#. i18n: tag string
-#. i18n: file config.ui line 224
+#. i18n: file BackgroundDialog.ui line 161
 #: rc.cpp:33
-msgid "h:mm:ss"
+msgid "License:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file BackgroundDialog.ui line 193
+#: rc.cpp:39
+msgid "P&ositioning:"
+msgstr "Pòz&ycjonowanié:"
+
+#. i18n: tag string
+#. i18n: file BackgroundDialog.ui line 216
+#: rc.cpp:42
+msgid "&Color:"
+msgstr "&Farwa:"
+
+#. i18n: tag string
+#. i18n: file BackgroundDialog.ui line 296
+#: rc.cpp:45
+#, fuzzy
+#| msgid "&Add directory..."
+msgid "&Add Directory..."
+msgstr "&Dodôj katalog..."
+
+#. i18n: tag string
+#. i18n: file BackgroundDialog.ui line 306
+#: rc.cpp:48
+#, fuzzy
+#| msgid "&Remove directory"
+msgid "&Remove Directory..."
+msgstr "&Rëmôj katalog"
+
+#. i18n: tag string
+#. i18n: file BackgroundDialog.ui line 335
+#: rc.cpp:51
+msgid "&Change images every:"
+msgstr "&Zmieni òbrôzk co:"
+
+#. i18n: tag string
+#. i18n: file BackgroundDialog.ui line 358
+#: rc.cpp:54
+#, fuzzy
+#| msgid "h:mm:ss"
+msgid "hh:mm:ss"
 msgstr "h:mm:ss"
 
 #. i18n: tag string
-#. i18n: file config.ui line 262
-#: rc.cpp:36
+#. i18n: file BackgroundDialog.ui line 398
+#: rc.cpp:57
+msgid "Monitor"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file BackgroundDialog.ui line 408
+#: rc.cpp:60
 msgid "Download new wallpapers"
 msgstr "Zladëjë nowé tapétë"
 
 #. i18n: tag string
-#. i18n: file config.ui line 265
-#: rc.cpp:39
+#. i18n: file BackgroundDialog.ui line 411
+#: rc.cpp:63
 msgid "New Wallpaper..."
 msgstr "Nowô tapéta..."
+
+#. i18n: tag string
+#. i18n: file BackgroundDialog.ui line 439
+#: rc.cpp:66
+msgid "Desktop Icons"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file BackgroundDialog.ui line 448
+#: rc.cpp:69
+msgid "&Show desktop icons"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file BackgroundDialog.ui line 455
+#: rc.cpp:72
+msgid "&Align to grid"
+msgstr ""
+
+#~ msgid "&New wallpaper..."
+#~ msgstr "&Nowô tapéta..."
+
+#~ msgid "Url"
+#~ msgstr "Url"
+
+#~ msgid "&Background Color"
+#~ msgstr "&Farwa spòdlégò"
+
+#~ msgid "SlideShow"
+#~ msgstr "Pòkôz slajdów"
+
+#~ msgid "*.png *.jpeg *.jpg *.svg *.svgz"
+#~ msgstr "*.png *.jpeg *.jpg *.svg *.svgz"
+
+#~ msgid "&Remove..."
+#~ msgstr "&Rëmôj..."
+
+#~ msgid "Show images from:"
+#~ msgstr "Pòkażë òbrazczi z:"
+
+#~ msgid "Move &Up"
+#~ msgstr "Przesënié w &górã"
+
+#~ msgid "Move &Down"
+#~ msgstr "Przesënié w &dół"
+
+#~ msgid "Change images every:"
+#~ msgstr "Zmieni òbrôzk co:"
