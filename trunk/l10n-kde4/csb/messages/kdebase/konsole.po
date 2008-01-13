@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-12 09:37+0100\n"
+"POT-Creation-Date: 2008-01-13 10:02+0100\n"
 "PO-Revision-Date: 2007-12-23 11:22+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -206,7 +206,7 @@ msgstr "Wëslë emailã do..."
 msgid "Copy Email Address"
 msgstr "Kòpérëjë adresã email"
 
-#: HistorySizeDialog.cpp:49 SessionController.cpp:549
+#: HistorySizeDialog.cpp:49 SessionController.cpp:547
 msgid "Scrollback Options"
 msgstr "Òptacëje lëstwë przewijaniô"
 
@@ -329,8 +329,8 @@ msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr ""
 
 #: MainWindow.cpp:312
-msgid "Really Quit?"
-msgstr "Richtich zakùńczëc?"
+msgid "Confirm close"
+msgstr ""
 
 #: MainWindow.cpp:314
 msgid "Close current tab"
@@ -368,129 +368,122 @@ msgstr "Nowé daleczé pòłączenié"
 msgid "Connect"
 msgstr "Pòłączenié"
 
-#: Session.cpp:439
+#: Session.cpp:440
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "Cëchòsc w sesëji '%1'"
 
-#: Session.cpp:456
+#: Session.cpp:457
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr "Brzãczk w sesëji '%1'"
 
-#: Session.cpp:467
+#: Session.cpp:468
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "Aktiwnota w sesëji '%1'"
 
-#: Session.cpp:586
-msgid "<Finished>"
+#: Session.cpp:591
+#, fuzzy
+#| msgid "<Finished>"
+msgid "Finished"
 msgstr "<Skùńczony>"
 
-#: Session.cpp:595
-#, kde-format
-msgid "Session '%1' exited with status %2."
+#: Session.cpp:601
+#, fuzzy, kde-format
+#| msgid "Session '%1' exited with status %2."
+msgid "Program '%1' exited with status %2."
 msgstr "Sesëjô '%1' zakùńczëła dzejanié w stónie %2."
 
-#: Session.cpp:599
-#, kde-format
-msgid "Session '%1' exited with signal %2 and dumped core."
-msgstr ""
-"Sesëjô '%1' zakùńczëła dzejanié sygnałã %2 ë òstawiła zdrzucënk pamiãcë."
-
-#: Session.cpp:601
-#, kde-format
-msgid "Session '%1' exited with signal %2."
-msgstr "Sesëjô '%1' zakùńczëła dzejanié sygnałã %2."
-
-#: Session.cpp:604
-#, kde-format
-msgid "Session '%1' exited unexpectedly."
+#: Session.cpp:603
+#, fuzzy, kde-format
+#| msgid "Session '%1' exited unexpectedly."
+msgid "Program '%1' exited unexpectedly."
 msgstr "Sesëja '%1' niespòdzajno zakùńczëła dzejanié."
 
 #: Session.cpp:814
 msgid "ZModem Progress"
 msgstr "Pòstãp transmisëji ZModem"
 
-#: SessionController.cpp:431
+#: SessionController.cpp:429
 msgid "&Close Tab"
 msgstr "&Zamkni kôrtã"
 
-#: SessionController.cpp:437
+#: SessionController.cpp:435
 msgid "Open Browser Here"
 msgstr ""
 
-#: SessionController.cpp:444
+#: SessionController.cpp:442
 msgid "&Copy"
 msgstr "&Kòpérëjë"
 
-#: SessionController.cpp:448
+#: SessionController.cpp:446
 msgid "&Paste"
 msgstr "&Wlepi"
 
-#: SessionController.cpp:461
+#: SessionController.cpp:459
 msgid "Paste Selection"
 msgstr ""
 
-#: SessionController.cpp:467
+#: SessionController.cpp:465
 msgid "&Rename Tab..."
 msgstr "&Zmieni miono kôrtë..."
 
-#: SessionController.cpp:482
+#: SessionController.cpp:480
 msgid "C&lear Display"
 msgstr "Wëczëszczë &ekran"
 
-#: SessionController.cpp:487
+#: SessionController.cpp:485
 msgid "Clear && Reset"
 msgstr "Wëczëszczë ë zrëszë znowa"
 
-#: SessionController.cpp:492
+#: SessionController.cpp:490
 msgid "Monitor for &Activity"
 msgstr "Mònitorëje &aktiwnotã"
 
-#: SessionController.cpp:497
+#: SessionController.cpp:495
 msgid "Monitor for &Silence"
 msgstr "Mònitorëjë &nieaktiwnotã"
 
-#: SessionController.cpp:503
+#: SessionController.cpp:501
 msgid "Set Character Encoding"
 msgstr "Ùstôwi kòdowanié céchów"
 
-#: SessionController.cpp:510
+#: SessionController.cpp:508
 msgid "Increase Text Size"
 msgstr "Zwikszë miarã tekstu"
 
-#: SessionController.cpp:516
+#: SessionController.cpp:514
 msgid "Decrease Text Size"
 msgstr "Zmniészë miarã tekstu"
 
-#: SessionController.cpp:522
+#: SessionController.cpp:520
 #, fuzzy
 #| msgid "Search Output"
 msgid "Search Output..."
 msgstr "Wëszëkôj rezultat"
 
-#: SessionController.cpp:531
+#: SessionController.cpp:529
 msgid "Find Next"
 msgstr "Naleze pòstãpné"
 
-#: SessionController.cpp:538
+#: SessionController.cpp:536
 msgid "Find Previous"
 msgstr "Naleze pòprzédné"
 
-#: SessionController.cpp:544
+#: SessionController.cpp:542
 msgid "Save Output..."
 msgstr "Zapiszë rezultat..."
 
-#: SessionController.cpp:554
+#: SessionController.cpp:552
 msgid "Clear Scrollback"
 msgstr "Wëczëszczë lëstwã przewijaniô"
 
-#: SessionController.cpp:558
+#: SessionController.cpp:556
 msgid "Clear Scrollback && Reset"
 msgstr "Wëczëszczë lëstwã przewijaniô ë zrëszë znowa"
 
-#: SessionController.cpp:564
+#: SessionController.cpp:562
 msgid "Edit Current Profile..."
 msgstr "Editëjë biéżny profil..."
 
@@ -498,30 +491,30 @@ msgstr "Editëjë biéżny profil..."
 #. i18n: file ../desktop/sessionui.rc line 61
 #. i18n: tag text
 #. i18n: file ../desktop/partui.rc line 26
-#: SessionController.cpp:568 rc.cpp:800 rc.cpp:806
+#: SessionController.cpp:566 rc.cpp:800 rc.cpp:806
 msgid "Change Profile"
 msgstr "Zmieni profil"
 
-#: SessionController.cpp:650
+#: SessionController.cpp:648
 msgid "Rename Tab"
 msgstr "Zmieni miono kôrtë"
 
-#: SessionController.cpp:651
+#: SessionController.cpp:649
 msgid "Enter new tab text:"
 msgstr "Wpiszë nowi tekst kôrtë:"
 
-#: SessionController.cpp:1087
+#: SessionController.cpp:1091
 #, fuzzy, kde-format
 #| msgid "Save Output from %1"
 msgid "Save Output From %1"
 msgstr "Zapiszë wéńdzenié z %1"
 
-#: SessionController.cpp:1098
+#: SessionController.cpp:1102
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 je zmiłkòwim URL-a, wéńdzenié nie mòże òstac zapisóné."
 
-#: SessionController.cpp:1187
+#: SessionController.cpp:1191
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -582,9 +575,13 @@ msgid "Size: %1 x %2"
 msgstr "Miara: %1 x %2"
 
 #: TerminalDisplay.cpp:2647
+#, fuzzy
+#| msgid ""
+#| "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/XON"
+#| "\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
 msgid ""
-"<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/XON\">suspended</"
-"a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
+"<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
+"\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
 msgstr ""
 "<qt>Wéńdzenié òsta <a href=\"http://en.wikipedia.org/wiki/XON\">zawieszoné</"
 "a> przez wcësniãcé Ctrl+S.  Wcësni <b>Ctrl+Q</b> bë znowic.</qt>"
@@ -1988,6 +1985,16 @@ msgstr "Kònsola Solarisa"
 #: schemas.cpp:10
 msgid "DEC VT420 Terminal"
 msgstr ""
+
+#~ msgid "Really Quit?"
+#~ msgstr "Richtich zakùńczëc?"
+
+#~ msgid "Session '%1' exited with signal %2 and dumped core."
+#~ msgstr ""
+#~ "Sesëjô '%1' zakùńczëła dzejanié sygnałã %2 ë òstawiła zdrzucënk pamiãcë."
+
+#~ msgid "Session '%1' exited with signal %2."
+#~ msgstr "Sesëjô '%1' zakùńczëła dzejanié sygnałã %2."
 
 #~ msgid "Basic Profile Options"
 #~ msgstr "Pòdspòdlowé òptacëje profilów"
