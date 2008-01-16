@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalgebra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-31 06:17+0100\n"
+"POT-Creation-Date: 2008-01-16 08:06+0100\n"
 "PO-Revision-Date: 2008-01-02 18:44+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -18,148 +18,138 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
-#: algebra.cpp:58
+#: algebra.cpp:61
 msgid "Variables"
 msgstr "Zmieniwne"
 
-#: algebra.cpp:68
+#: algebra.cpp:79
 msgid "&Console"
 msgstr "&Kònsola"
 
-#: algebra.cpp:81
+#: algebra.cpp:91
 msgid "C&onsole"
 msgstr "Kò&nsola"
 
-#: algebra.cpp:84
+#: algebra.cpp:94
 msgctxt "@item:inmenu"
 msgid "&Load Script"
 msgstr "&Wladëjë skript"
 
-#: algebra.cpp:85
+#: algebra.cpp:95
 msgctxt "@item:inmenu"
 msgid "&Save Script"
 msgstr "&Zapiszë skript"
 
-#: algebra.cpp:86
+#: algebra.cpp:96
 msgctxt "@item:inmenu"
 msgid "&Save Log"
 msgstr "&Zapiszë log"
 
-#: algebra.cpp:95
+#: algebra.cpp:107
 msgid "Functions"
 msgstr "Fùnkcje"
 
-#: algebra.cpp:102 console.cpp:141 consolehtml.cpp:230 operatorsmodel.cpp:73
-msgctxt "@title:column"
-msgid "Name"
-msgstr "Miono"
-
-#: algebra.cpp:103
-msgctxt "@title:column"
-msgid "Function"
-msgstr "Fùnkcja"
-
-#: algebra.cpp:110
+#: algebra.cpp:120
 msgid "List"
 msgstr "Lësta"
 
-#: algebra.cpp:114 algebra.cpp:251
+#: algebra.cpp:124 algebra.cpp:244
 msgid "&Add"
 msgstr "&Dodôj"
 
-#: algebra.cpp:118
+#: algebra.cpp:128
 msgid "&2D Graph"
 msgstr "Graf &2D"
 
-#: algebra.cpp:129
+#: algebra.cpp:135
 msgid "2&D Graph"
 msgstr "Graf 2&D"
 
-#: algebra.cpp:131
+#: algebra.cpp:137
 msgid "&Grid"
 msgstr "&Mrzéżka"
 
-#: algebra.cpp:136 algebra.cpp:178
+#: algebra.cpp:142 algebra.cpp:184
 msgid "&Reset View"
 msgstr "&Wëczëszczë wëzdrzatk"
 
-#: algebra.cpp:137
+#: algebra.cpp:143
 msgid "Resolution"
 msgstr "Rozdzelnota"
 
-#: algebra.cpp:138
+#: algebra.cpp:144
 msgctxt "@item:inmenu"
 msgid "Poor"
 msgstr "Lëchô"
 
-#: algebra.cpp:139
+#: algebra.cpp:145
 msgctxt "@item:inmenu"
 msgid "Normal"
 msgstr "Normalnô"
 
-#: algebra.cpp:140
+#: algebra.cpp:146
 msgctxt "@item:inmenu"
 msgid "Fine"
 msgstr "Dobrô"
 
-#: algebra.cpp:141
+#: algebra.cpp:147
 msgctxt "@item:inmenu"
 msgid "Very Fine"
 msgstr "Barô dobrô"
 
-#: algebra.cpp:166
+#: algebra.cpp:172
 msgid "&3D Graph"
 msgstr "Graf &3D"
 
-#: algebra.cpp:174
+#: algebra.cpp:180
 msgid "3D &Graph"
 msgstr "&Graf 3D"
 
-#: algebra.cpp:176
+#: algebra.cpp:182
 msgid "&Transparency"
 msgstr "Przezérnota"
 
-#: algebra.cpp:179
+#: algebra.cpp:185
 msgid "Type"
 msgstr "Ôrt"
 
-#: algebra.cpp:180
+#: algebra.cpp:186
 msgid "Dots"
 msgstr "Pùnktë"
 
-#: algebra.cpp:181
+#: algebra.cpp:187
 msgid "Lines"
 msgstr "Linie"
 
-#: algebra.cpp:182
+#: algebra.cpp:188
 msgid "Solid"
 msgstr "Nieprzeriwnô"
 
-#: algebra.cpp:201
+#: algebra.cpp:207
 msgid "&Dictionary"
 msgstr "&Słowôrz"
 
-#: algebra.cpp:241
+#: algebra.cpp:234
 msgid "&Editing"
 msgstr "&Editowanié"
 
-#: algebra.cpp:299 algebra.cpp:306
+#: algebra.cpp:280 algebra.cpp:287
 msgid "Script (*.kal)"
 msgstr "Skript (*.kal)"
 
-#: algebra.cpp:299
+#: algebra.cpp:280
 msgid "Choose a script"
 msgstr "Wëbiérzë skript"
 
-#: algebra.cpp:313
+#: algebra.cpp:294
 msgid "Text File (*)"
 msgstr "Tekstowi lopk (*)"
 
-#: algebra.cpp:355
+#: algebra.cpp:336
 msgid "*.png|PNG File"
 msgstr "*.png|Lopk PNG"
 
-#: algebra.cpp:375
+#: algebra.cpp:356
 msgid ""
 "*.png|Image File\n"
 "*.svg|SVG File"
@@ -167,12 +157,18 @@ msgstr ""
 "*.png|Lopk òbrazu\n"
 "*.svg|Lopk SVG"
 
-#: algebra.cpp:411
+#: algebra.cpp:387
 msgctxt "@info:status"
 msgid "Ready"
 msgstr "Parôt"
 
-#: console.cpp:142 consolehtml.cpp:231
+#: console.cpp:141 functionsmodel.cpp:71 operatorsmodel.cpp:73
+#: variablesmodel.cpp:52
+msgctxt "@title:column"
+msgid "Name"
+msgstr "Miono"
+
+#: console.cpp:142 variablesmodel.cpp:55
 msgctxt "@title:column"
 msgid "Value"
 msgstr "Wôrtnota"
@@ -244,24 +240,24 @@ msgstr "Do MathML"
 msgid "Simplify"
 msgstr "Ùproszczë"
 
-#: functionedit.cpp:37
+#: functionedit.cpp:38
 msgid "Add/Edit a function"
 msgstr "Dodôj/Editëjë fùnkcjã"
 
-#: functionedit.cpp:96
+#: functionedit.cpp:99
 msgid "OK"
 msgstr "OK"
 
-#: functionedit.cpp:97
+#: functionedit.cpp:100
 msgctxt "@action:button"
 msgid "Clear"
 msgstr "Wëczëszczë"
 
-#: functionedit.cpp:175 varedit.cpp:122
+#: functionedit.cpp:178 varedit.cpp:122
 msgid "From parser:"
 msgstr "Òd parsera:"
 
-#: functionedit.cpp:185 varedit.cpp:134
+#: functionedit.cpp:188 varedit.cpp:134
 msgid "<b style='color:red'>WRONG</b>"
 msgstr "<b style='color:red'>LËCHÒ</b>"
 
@@ -269,21 +265,36 @@ msgstr "<b style='color:red'>LËCHÒ</b>"
 msgid "center"
 msgstr "wëstrzódk"
 
-#: graph2d.cpp:459
+#: functionsmodel.cpp:74
+msgctxt "@title:column"
+msgid "Function"
+msgstr "Fùnkcja"
+
+#: functionsmodel.cpp:99
 #, kde-format
 msgid "%1 function added"
 msgstr "Fùnkcjô %1 dodónô"
 
-#: graph3d.cpp:388 graph3d.cpp:410
+#: functionsview.cpp:44
+#, kde-format
+msgid "Hide '%1'"
+msgstr ""
+
+#: functionsview.cpp:46
+#, kde-format
+msgid "Show '%1'"
+msgstr ""
+
+#: graph3d.cpp:389 graph3d.cpp:411
 #, kde-format
 msgid "Error: %1"
 msgstr "Fela: %1"
 
-#: graph3d.cpp:402
+#: graph3d.cpp:403
 msgid "Generating... Please wait"
 msgstr "Generowanié... Proszã żdac"
 
-#: graph3d.cpp:406
+#: graph3d.cpp:407
 #, no-c-format, kde-format
 msgid "Done: %1ms"
 msgstr "Parôt: %1ms"
