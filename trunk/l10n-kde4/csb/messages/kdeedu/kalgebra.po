@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalgebra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-18 08:01+0100\n"
+"POT-Creation-Date: 2008-01-20 08:59+0100\n"
 "PO-Revision-Date: 2008-01-02 18:44+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -253,11 +253,15 @@ msgctxt "@action:button"
 msgid "Clear"
 msgstr "Wëczëszczë"
 
-#: functionedit.cpp:178 varedit.cpp:121
+#: functionedit.cpp:179 varedit.cpp:121
 msgid "From parser:"
 msgstr "Òd parsera:"
 
-#: functionedit.cpp:188 varedit.cpp:133
+#: functionedit.cpp:189
+msgid "We can only draw Real results."
+msgstr ""
+
+#: functionedit.cpp:194 varedit.cpp:133
 msgid "<b style='color:red'>WRONG</b>"
 msgstr "<b style='color:red'>LËCHÒ</b>"
 
@@ -285,19 +289,25 @@ msgstr ""
 msgid "Show '%1'"
 msgstr ""
 
-#: graph3d.cpp:389 graph3d.cpp:411
+#: graph3d.cpp:392 graph3d.cpp:418
 #, kde-format
 msgid "Error: %1"
 msgstr "Fela: %1"
 
-#: graph3d.cpp:403
+#: graph3d.cpp:407
 msgid "Generating... Please wait"
 msgstr "Generowanié... Proszã żdac"
 
-#: graph3d.cpp:407
-#, no-c-format, kde-format
+#: graph3d.cpp:411
+#, fuzzy, no-c-format, kde-format
+#| msgid "Done: %1ms"
+msgctxt "3D graph done in x miliseconds"
 msgid "Done: %1ms"
 msgstr "Parôt: %1ms"
+
+#: graph3d.cpp:416
+msgid "Error: We need values to draw a graph"
+msgstr ""
 
 #: main.cpp:26
 msgid "A calculator"
