@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalgebra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-20 08:59+0100\n"
+"POT-Creation-Date: 2008-01-23 09:01+0100\n"
 "PO-Revision-Date: 2008-01-02 18:44+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -17,150 +17,6 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-
-#: algebra.cpp:61
-msgid "Variables"
-msgstr "Zmieniwne"
-
-#: algebra.cpp:79
-msgid "&Console"
-msgstr "&Kònsola"
-
-#: algebra.cpp:91
-msgid "C&onsole"
-msgstr "Kò&nsola"
-
-#: algebra.cpp:94
-msgctxt "@item:inmenu"
-msgid "&Load Script"
-msgstr "&Wladëjë skript"
-
-#: algebra.cpp:95
-msgctxt "@item:inmenu"
-msgid "&Save Script"
-msgstr "&Zapiszë skript"
-
-#: algebra.cpp:96
-msgctxt "@item:inmenu"
-msgid "&Save Log"
-msgstr "&Zapiszë log"
-
-#: algebra.cpp:107
-msgid "Functions"
-msgstr "Fùnkcje"
-
-#: algebra.cpp:120
-msgid "List"
-msgstr "Lësta"
-
-#: algebra.cpp:124 algebra.cpp:244
-msgid "&Add"
-msgstr "&Dodôj"
-
-#: algebra.cpp:128
-msgid "&2D Graph"
-msgstr "Graf &2D"
-
-#: algebra.cpp:135
-msgid "2&D Graph"
-msgstr "Graf 2&D"
-
-#: algebra.cpp:137
-msgid "&Grid"
-msgstr "&Mrzéżka"
-
-#: algebra.cpp:142 algebra.cpp:184
-msgid "&Reset View"
-msgstr "&Wëczëszczë wëzdrzatk"
-
-#: algebra.cpp:143
-msgid "Resolution"
-msgstr "Rozdzelnota"
-
-#: algebra.cpp:144
-msgctxt "@item:inmenu"
-msgid "Poor"
-msgstr "Lëchô"
-
-#: algebra.cpp:145
-msgctxt "@item:inmenu"
-msgid "Normal"
-msgstr "Normalnô"
-
-#: algebra.cpp:146
-msgctxt "@item:inmenu"
-msgid "Fine"
-msgstr "Dobrô"
-
-#: algebra.cpp:147
-msgctxt "@item:inmenu"
-msgid "Very Fine"
-msgstr "Barô dobrô"
-
-#: algebra.cpp:172
-msgid "&3D Graph"
-msgstr "Graf &3D"
-
-#: algebra.cpp:180
-msgid "3D &Graph"
-msgstr "&Graf 3D"
-
-#: algebra.cpp:182
-msgid "&Transparency"
-msgstr "Przezérnota"
-
-#: algebra.cpp:185
-msgid "Type"
-msgstr "Ôrt"
-
-#: algebra.cpp:186
-msgid "Dots"
-msgstr "Pùnktë"
-
-#: algebra.cpp:187
-msgid "Lines"
-msgstr "Linie"
-
-#: algebra.cpp:188
-msgid "Solid"
-msgstr "Nieprzeriwnô"
-
-#: algebra.cpp:207
-msgid "&Dictionary"
-msgstr "&Słowôrz"
-
-#: algebra.cpp:234
-msgid "&Editing"
-msgstr "&Editowanié"
-
-#: algebra.cpp:280 algebra.cpp:287
-msgid "Script (*.kal)"
-msgstr "Skript (*.kal)"
-
-#: algebra.cpp:280
-msgid "Choose a script"
-msgstr "Wëbiérzë skript"
-
-#: algebra.cpp:294
-msgid "Text File (*)"
-msgstr "Tekstowi lopk (*)"
-
-#: algebra.cpp:336
-msgid "*.png|PNG File"
-msgstr "*.png|Lopk PNG"
-
-#: algebra.cpp:356
-msgid ""
-"*.png|Image File\n"
-"*.svg|SVG File"
-msgstr ""
-"*.png|Lopk òbrazu\n"
-"*.svg|Lopk SVG"
-
-#: algebra.cpp:387
-msgctxt "@info:status"
-msgid "Ready"
-msgstr "Parôt"
 
 #: console.cpp:141 functionsmodel.cpp:71 operatorsmodel.cpp:73
 #: variablesmodel.cpp:52
@@ -261,11 +117,13 @@ msgstr "Òd parsera:"
 msgid "We can only draw Real results."
 msgstr ""
 
-#: functionedit.cpp:194 varedit.cpp:133
-msgid "<b style='color:red'>WRONG</b>"
+#: functionedit.cpp:195
+#, fuzzy, kde-format
+#| msgid "<b style='color:red'>WRONG</b>"
+msgid "<b style='color:red'>%1</b>"
 msgstr "<b style='color:red'>LËCHÒ</b>"
 
-#: functionimpl.cpp:241
+#: functionimpl.cpp:244
 msgid "center"
 msgstr "wëstrzódk"
 
@@ -279,14 +137,23 @@ msgstr "Fùnkcja"
 msgid "%1 function added"
 msgstr "Fùnkcjô %1 dodónô"
 
-#: functionsview.cpp:44
+#: functionsview.cpp:45
 #, kde-format
 msgid "Hide '%1'"
 msgstr ""
 
-#: functionsview.cpp:46
+#: functionsview.cpp:47
 #, kde-format
 msgid "Show '%1'"
+msgstr ""
+
+#: functionsview.cpp:51
+#, kde-format
+msgid "Remove '%1'"
+msgstr ""
+
+#: graph2d.cpp:342
+msgid "Selected viewport too small"
 msgstr ""
 
 #: graph3d.cpp:392 graph3d.cpp:418
@@ -308,6 +175,150 @@ msgstr "Parôt: %1ms"
 #: graph3d.cpp:416
 msgid "Error: We need values to draw a graph"
 msgstr ""
+
+#: kalgebra.cpp:61
+msgid "Variables"
+msgstr "Zmieniwne"
+
+#: kalgebra.cpp:79
+msgid "&Console"
+msgstr "&Kònsola"
+
+#: kalgebra.cpp:91
+msgid "C&onsole"
+msgstr "Kò&nsola"
+
+#: kalgebra.cpp:94
+msgctxt "@item:inmenu"
+msgid "&Load Script"
+msgstr "&Wladëjë skript"
+
+#: kalgebra.cpp:95
+msgctxt "@item:inmenu"
+msgid "&Save Script"
+msgstr "&Zapiszë skript"
+
+#: kalgebra.cpp:96
+msgctxt "@item:inmenu"
+msgid "&Save Log"
+msgstr "&Zapiszë log"
+
+#: kalgebra.cpp:107
+msgid "Functions"
+msgstr "Fùnkcje"
+
+#: kalgebra.cpp:120
+msgid "List"
+msgstr "Lësta"
+
+#: kalgebra.cpp:124 kalgebra.cpp:244
+msgid "&Add"
+msgstr "&Dodôj"
+
+#: kalgebra.cpp:128
+msgid "&2D Graph"
+msgstr "Graf &2D"
+
+#: kalgebra.cpp:135
+msgid "2&D Graph"
+msgstr "Graf 2&D"
+
+#: kalgebra.cpp:137
+msgid "&Grid"
+msgstr "&Mrzéżka"
+
+#: kalgebra.cpp:142 kalgebra.cpp:184
+msgid "&Reset View"
+msgstr "&Wëczëszczë wëzdrzatk"
+
+#: kalgebra.cpp:143
+msgid "Resolution"
+msgstr "Rozdzelnota"
+
+#: kalgebra.cpp:144
+msgctxt "@item:inmenu"
+msgid "Poor"
+msgstr "Lëchô"
+
+#: kalgebra.cpp:145
+msgctxt "@item:inmenu"
+msgid "Normal"
+msgstr "Normalnô"
+
+#: kalgebra.cpp:146
+msgctxt "@item:inmenu"
+msgid "Fine"
+msgstr "Dobrô"
+
+#: kalgebra.cpp:147
+msgctxt "@item:inmenu"
+msgid "Very Fine"
+msgstr "Barô dobrô"
+
+#: kalgebra.cpp:172
+msgid "&3D Graph"
+msgstr "Graf &3D"
+
+#: kalgebra.cpp:180
+msgid "3D &Graph"
+msgstr "&Graf 3D"
+
+#: kalgebra.cpp:182
+msgid "&Transparency"
+msgstr "Przezérnota"
+
+#: kalgebra.cpp:185
+msgid "Type"
+msgstr "Ôrt"
+
+#: kalgebra.cpp:186
+msgid "Dots"
+msgstr "Pùnktë"
+
+#: kalgebra.cpp:187
+msgid "Lines"
+msgstr "Linie"
+
+#: kalgebra.cpp:188
+msgid "Solid"
+msgstr "Nieprzeriwnô"
+
+#: kalgebra.cpp:207
+msgid "&Dictionary"
+msgstr "&Słowôrz"
+
+#: kalgebra.cpp:234
+msgid "&Editing"
+msgstr "&Editowanié"
+
+#: kalgebra.cpp:280 kalgebra.cpp:287
+msgid "Script (*.kal)"
+msgstr "Skript (*.kal)"
+
+#: kalgebra.cpp:280
+msgid "Choose a script"
+msgstr "Wëbiérzë skript"
+
+#: kalgebra.cpp:294
+msgid "Text File (*)"
+msgstr "Tekstowi lopk (*)"
+
+#: kalgebra.cpp:336
+msgid "*.png|PNG File"
+msgstr "*.png|Lopk PNG"
+
+#: kalgebra.cpp:356
+msgid ""
+"*.png|Image File\n"
+"*.svg|SVG File"
+msgstr ""
+"*.png|Lopk òbrazu\n"
+"*.svg|Lopk SVG"
+
+#: kalgebra.cpp:387
+msgctxt "@info:status"
+msgid "Ready"
+msgstr "Parôt"
 
 #: main.cpp:26
 msgid "A calculator"
@@ -634,6 +645,10 @@ msgstr "Editëjë wôrtnotã '%1'"
 #, kde-format
 msgid "%1:=%2"
 msgstr "%1:=%2"
+
+#: varedit.cpp:133
+msgid "<b style='color:red'>WRONG</b>"
+msgstr "<b style='color:red'>LËCHÒ</b>"
 
 #: varedit.cpp:137
 #, kde-format
