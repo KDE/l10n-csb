@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-23 09:03+0100\n"
+"POT-Creation-Date: 2008-01-24 10:51+0100\n"
 "PO-Revision-Date: 2007-07-27 20:44+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -103,7 +103,8 @@ msgid "Stream"
 msgstr "Strega"
 
 #: collection/sqlcollection/SqlMeta.cpp:190 metabundle.cpp:1026
-#: CoverManager.cpp:337 CoverManager.cpp:994
+#: servicebrowser/lastfm/meta/LastFmMeta.cpp:160 CoverManager.cpp:337
+#: CoverManager.cpp:994
 #, kde-format
 msgid "%1 - %2"
 msgstr "%1 - %2"
@@ -10316,6 +10317,67 @@ msgstr ""
 msgid "Adding album cover to collection"
 msgstr ""
 
+#: servicebrowser/lastfm/meta/LastFmMeta.cpp:82
+#, fuzzy, kde-format
+#| msgid "Global Tags"
+msgid "Global Tag Radio: %1"
+msgstr "Òglowi tadżi"
+
+#: servicebrowser/lastfm/meta/LastFmMeta.cpp:88
+#, kde-format
+msgid "User Tag Radio: %1"
+msgstr ""
+
+#: servicebrowser/lastfm/meta/LastFmMeta.cpp:96
+#, kde-format
+msgid "Similar Artists to %1"
+msgstr ""
+
+#: servicebrowser/lastfm/meta/LastFmMeta.cpp:99
+#, kde-format
+msgid "Artist Fan Radio: %1"
+msgstr ""
+
+#: servicebrowser/lastfm/meta/LastFmMeta.cpp:108
+#, fuzzy, kde-format
+#| msgid "Neighbor Radio"
+msgid "%1's Neighbor Radio"
+msgstr "Sąsedczé radio"
+
+#: servicebrowser/lastfm/meta/LastFmMeta.cpp:111
+#, fuzzy, kde-format
+#| msgid "Personal Radio"
+msgid "%1's Personal Radio"
+msgstr "Swòjé radio"
+
+#: servicebrowser/lastfm/meta/LastFmMeta.cpp:114
+#, fuzzy, kde-format
+#| msgid "Loved Radio"
+msgid "%1's Loved Radio"
+msgstr "Lubòtné radio"
+
+#: servicebrowser/lastfm/meta/LastFmMeta.cpp:117
+#, kde-format
+msgid "%1's Recommended Radio (Popularity %2)"
+msgstr ""
+
+#: servicebrowser/lastfm/meta/LastFmMeta.cpp:124
+#, kde-format
+msgid "Group Radio: %1"
+msgstr ""
+
+#: servicebrowser/lastfm/meta/LastFmMeta.cpp:132
+#, fuzzy
+#| msgid "Personal Radio"
+msgid "Track Radio"
+msgstr "Swòjé radio"
+
+#: servicebrowser/lastfm/meta/LastFmMeta.cpp:135
+#, fuzzy
+#| msgid "Last.fm Radio"
+msgid "Artist Radio"
+msgstr "Radio last.fm"
+
 #: servicebrowser/lastfm/AudioController.cpp:94
 msgid "Radio playlist has ended."
 msgstr ""
@@ -10338,7 +10400,7 @@ msgstr ""
 msgid "Skip"
 msgstr "&Przepùszczë"
 
-#: servicebrowser/lastfm/LastFmServiceCollection.cpp:59
+#: servicebrowser/lastfm/LastFmServiceCollection.cpp:60
 msgid "last.fm"
 msgstr "last.fm"
 
@@ -11225,15 +11287,6 @@ msgstr "Bùdowanié kòlekcëji..."
 
 #~ msgid "Edit Radio Stream"
 #~ msgstr "Editëjë radiową strëgã"
-
-#~ msgid "Last.fm Radio"
-#~ msgstr "Radio last.fm"
-
-#~ msgid "Global Tags"
-#~ msgstr "Òglowi tadżi"
-
-#~ msgid "Loved Radio"
-#~ msgstr "Lubòtné radio"
 
 #~ msgid "Add Last.fm Radio"
 #~ msgstr "Dodôj radio last.fm"
