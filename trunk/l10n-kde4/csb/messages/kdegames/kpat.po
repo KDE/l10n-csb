@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpat\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-30 06:20+0100\n"
+"POT-Creation-Date: 2008-02-03 08:52+0100\n"
 "PO-Revision-Date: 2008-01-01 11:12+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -25,11 +25,11 @@ msgstr "&Zédżer"
 msgid "&Calculation"
 msgstr "&Kalkùlacëje"
 
-#: dealer.cpp:787
+#: dealer.cpp:792
 msgid "Congratulations! You have won."
 msgstr "Gratulacëje! Môsz dobëté."
 
-#: dealer.cpp:789
+#: dealer.cpp:794
 msgid "Congratulations! We have won."
 msgstr "Gratulacëje! Mómë dobëté."
 
@@ -41,12 +41,12 @@ msgstr "&Sztërdzescë òsmë"
 msgid "&Freecell"
 msgstr "&Freecell"
 
-#: gamestatsimpl.cpp:63
+#: gamestatsimpl.cpp:64
 #, kde-format
 msgid "%1 (%2%)"
 msgstr "%1% (%2)"
 
-#: gamestatsimpl.cpp:70
+#: gamestatsimpl.cpp:71
 #, kde-format
 msgid "1 loss"
 msgid_plural "%1 losses"
@@ -54,7 +54,7 @@ msgstr[0] "1 przerzniãtô"
 msgstr[1] "%1 przerzniãté"
 msgstr[2] "%1 przerzniãtëch"
 
-#: gamestatsimpl.cpp:72
+#: gamestatsimpl.cpp:73
 #, kde-format
 msgid "1 win"
 msgid_plural "%1 wins"
@@ -263,7 +263,7 @@ msgstr "Òprzestac nã grã?"
 msgid "Abort Current Game"
 msgstr "Òprzestóń nã grã"
 
-#: pwidget.cpp:362
+#: pwidget.cpp:364
 #, kde-format
 msgid "1 move"
 msgid_plural "%1 moves"
@@ -271,32 +271,42 @@ msgstr[0] "1 zrëch"
 msgstr[1] "%1 zrëchë"
 msgstr[2] "%1 zrëchów"
 
-#: pwidget.cpp:368
+#: pwidget.cpp:370
 msgid "Game Number"
 msgstr "Numer grë"
 
-#: pwidget.cpp:369
+#: pwidget.cpp:371
 msgid ""
 "Enter a game number (FreeCell deals are the same as in the FreeCell FAQ):"
 msgstr ""
 "Wpiszë numer dôwaniô kartów (numrë dlô pasjansë FreeCell są òpisóné w FAQ "
 "dlô FreeCell):"
 
-#: pwidget.cpp:380
+#: pwidget.cpp:382
 msgid "This game is lost."
 msgstr "Ta gra je przerzniãtô."
 
-#: pwidget.cpp:402
+#: pwidget.cpp:404
 msgid "The saved game is of unknown type!"
 msgstr "Zapisanô pasjanasa je nieznónegò ôrtu!"
 
-#: pwidget.cpp:446
+#: pwidget.cpp:448
 msgid "This game can still be won! Good luck to you."
 msgstr "Móm dobëté grã! Dobri zwënédżi."
 
-#: pwidget.cpp:451
+#: pwidget.cpp:453
+#, fuzzy
+#| msgid "&Calculation"
+msgid "Calculating..."
+msgstr "&Kalkùlacëje"
+
+#: pwidget.cpp:458
 msgid "Nope, this game cannot be won anymore."
 msgstr "Nié, ta gra ni mòże bëc dobëtô."
+
+#: pwidget.cpp:463
+msgid "Timeout while playing - unknown if it can be won"
+msgstr ""
 
 #. i18n: tag string
 #. i18n: file gamestats.ui line 44
@@ -335,29 +345,37 @@ msgid "Current streak:"
 msgstr "Biéżnô seriô:"
 
 #. i18n: tag string
-#. i18n: file gamestats.ui line 204
+#. i18n: file gamestats.ui line 188
 #: rc.cpp:24
+#, fuzzy
+#| msgid "&Redeal"
+msgid "&Reset"
+msgstr "&Dôj znowa"
+
+#. i18n: tag string
+#. i18n: file gamestats.ui line 211
+#: rc.cpp:27
 msgid "&OK"
 msgstr "&OK"
 
 #. i18n: tag text
 #. i18n: file kpatui.rc line 12
-#: rc.cpp:27
+#: rc.cpp:30
 msgid "&Settings"
 msgstr "Ù&stôwë"
 
 #. i18n: tag text
 #. i18n: file kpatui.rc line 22
-#: rc.cpp:30
+#: rc.cpp:33
 msgid "Main Toolbar"
 msgstr "Przédnô lëstew nôrzãdzów"
 
-#: rc.cpp:31
+#: rc.cpp:34
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
 
-#: rc.cpp:32
+#: rc.cpp:35
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
