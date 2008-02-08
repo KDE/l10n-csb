@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-07 09:35+0100\n"
+"POT-Creation-Date: 2008-02-08 10:55+0100\n"
 "PO-Revision-Date: 2007-12-31 16:17+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -5210,7 +5210,7 @@ msgstr "&OK"
 msgid "&Cancel"
 msgstr "Ò&przestóń"
 
-#: kdeui/util/kstandardguiitem.cpp:116 khtml/java/kjavaappletserver.cpp:849
+#: kdeui/util/kstandardguiitem.cpp:116 khtml/java/kjavaappletserver.cpp:817
 msgid "&Yes"
 msgstr "&Jo"
 
@@ -5218,7 +5218,7 @@ msgstr "&Jo"
 msgid "Yes"
 msgstr "Jo"
 
-#: kdeui/util/kstandardguiitem.cpp:121 khtml/java/kjavaappletserver.cpp:842
+#: kdeui/util/kstandardguiitem.cpp:121 khtml/java/kjavaappletserver.cpp:810
 msgid "&No"
 msgstr "&Nié"
 
@@ -8417,7 +8417,7 @@ msgstr "Separatora, akapit"
 msgid "Separator, Space"
 msgstr "Separatora, spacëjô"
 
-#: kdeui/widgets/kcharselectdata.cpp:530 khtml/java/kjavaappletserver.cpp:697
+#: kdeui/widgets/kcharselectdata.cpp:530
 msgid "Unknown"
 msgstr "Nieznóny"
 
@@ -9218,15 +9218,15 @@ msgstr "Edicëjô"
 msgid "Navigate"
 msgstr "Nawigacëjô"
 
-#: khtml/testkhtml.cpp:37
+#: khtml/testkhtml.cpp:38
 msgid "url to open"
 msgstr "Adresa url do òtwarcô"
 
-#: khtml/testkhtml.cpp:39
+#: khtml/testkhtml.cpp:40
 msgid "Testkhtml"
 msgstr "Testkhtml"
 
-#: khtml/testkhtml.cpp:40
+#: khtml/testkhtml.cpp:41
 msgid "a basic web browser using the KHTML library"
 msgstr "prosti przezérnik brëkùjący bibloteczi KHTML"
 
@@ -9948,7 +9948,7 @@ msgstr ""
 "<qt>Òdmówiony przistãp do <br /><b>%1</b><br /> starne, jakô nie je "
 "bezpiecznô.</qt>"
 
-#: khtml/khtml_part.cpp:6891 khtml/java/kjavaappletserver.cpp:823
+#: khtml/khtml_part.cpp:6891 khtml/java/kjavaappletserver.cpp:791
 msgid "Security Alert"
 msgstr "Òstrzega systemë bezpiekù"
 
@@ -10505,82 +10505,30 @@ msgid "Error: java executable not found"
 msgstr "Fela: wëkònëwólny lopk Javë ni òstôł nalazłi"
 
 #: khtml/java/kjavaappletserver.cpp:663
-msgid "Signed by (validation: "
+#, fuzzy, kde-format
+#| msgid "Signed by (validation: "
+msgid "Signed by (validation: %1)"
 msgstr "Pòdpisóné przez (sprôwdzenié: "
 
 #: khtml/java/kjavaappletserver.cpp:665
-msgid "Certificate (validation: "
+#, fuzzy, kde-format
+#| msgid "Certificate (validation: "
+msgid "Certificate (validation: %1)"
 msgstr "Certifikat (sprôwdzenié: "
 
-#: khtml/java/kjavaappletserver.cpp:668
-msgid "Ok"
-msgstr "Ok"
-
-#: khtml/java/kjavaappletserver.cpp:670
-msgid "NoCARoot"
-msgstr "FelënkCARoot"
-
-#: khtml/java/kjavaappletserver.cpp:672
-msgid "InvalidPurpose"
-msgstr "InvalidPurpose"
-
-#: khtml/java/kjavaappletserver.cpp:674
-msgid "PathLengthExceeded"
-msgstr "PathLengthExceeded"
-
-#: khtml/java/kjavaappletserver.cpp:676
-msgid "InvalidCA"
-msgstr "ZmiłkòwiCA"
-
-#: khtml/java/kjavaappletserver.cpp:678
-msgid "Expired"
-msgstr "Zdeaktualnioné"
-
-#: khtml/java/kjavaappletserver.cpp:680
-msgid "SelfSigned"
-msgstr "Samemù pòdpisóné"
-
-#: khtml/java/kjavaappletserver.cpp:682
-msgid "ErrorReadingRoot"
-msgstr "ErrorReadingRoot"
-
-#: khtml/java/kjavaappletserver.cpp:684
-msgid "Revoked"
-msgstr "Òprzestóny"
-
-#: khtml/java/kjavaappletserver.cpp:686
-msgid "Untrusted"
-msgstr "Niegwësny"
-
-#: khtml/java/kjavaappletserver.cpp:688
-msgid "SignatureFailed"
-msgstr "Lëchi pòdpisënk"
-
-#: khtml/java/kjavaappletserver.cpp:690
-msgid "Rejected"
-msgstr "Òdrzucony"
-
-#: khtml/java/kjavaappletserver.cpp:692
-msgid "PrivateKeyFailed"
-msgstr "PrivateKeyFailed"
-
-#: khtml/java/kjavaappletserver.cpp:694
-msgid "InvalidHost"
-msgstr "Lëchi serwer"
-
-#: khtml/java/kjavaappletserver.cpp:830
+#: khtml/java/kjavaappletserver.cpp:798
 msgid "Do you grant Java applet with certificate(s):"
 msgstr "Dopùszczëc alpeti javë z certifikatã:"
 
-#: khtml/java/kjavaappletserver.cpp:832
+#: khtml/java/kjavaappletserver.cpp:800
 msgid "the following permission"
 msgstr "nôslédny prawa"
 
-#: khtml/java/kjavaappletserver.cpp:846
+#: khtml/java/kjavaappletserver.cpp:814
 msgid "&Reject All"
 msgstr "&Òdrzucë wszëtkò"
 
-#: khtml/java/kjavaappletserver.cpp:852
+#: khtml/java/kjavaappletserver.cpp:820
 msgid "&Grant All"
 msgstr "&Przëdzelë wszëtkò"
 
@@ -12146,6 +12094,48 @@ msgid ""
 msgstr ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br />%3<br />Kòdowi pùnkt "
 "Unicode: %4<br />(Dzesãtkòwò: %5)</qt>"
+
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#~ msgid "NoCARoot"
+#~ msgstr "FelënkCARoot"
+
+#~ msgid "InvalidPurpose"
+#~ msgstr "InvalidPurpose"
+
+#~ msgid "PathLengthExceeded"
+#~ msgstr "PathLengthExceeded"
+
+#~ msgid "InvalidCA"
+#~ msgstr "ZmiłkòwiCA"
+
+#~ msgid "Expired"
+#~ msgstr "Zdeaktualnioné"
+
+#~ msgid "SelfSigned"
+#~ msgstr "Samemù pòdpisóné"
+
+#~ msgid "ErrorReadingRoot"
+#~ msgstr "ErrorReadingRoot"
+
+#~ msgid "Revoked"
+#~ msgstr "Òprzestóny"
+
+#~ msgid "Untrusted"
+#~ msgstr "Niegwësny"
+
+#~ msgid "SignatureFailed"
+#~ msgstr "Lëchi pòdpisënk"
+
+#~ msgid "Rejected"
+#~ msgstr "Òdrzucony"
+
+#~ msgid "PrivateKeyFailed"
+#~ msgstr "PrivateKeyFailed"
+
+#~ msgid "InvalidHost"
+#~ msgstr "Lëchi serwer"
 
 #~ msgctxt ""
 #~ "Hot new stuff offers to Download New Data. Apps can fill in an individual "
