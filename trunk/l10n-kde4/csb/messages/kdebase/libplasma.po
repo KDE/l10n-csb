@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libplasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-12 11:42+0100\n"
+"POT-Creation-Date: 2008-02-13 14:28+0100\n"
 "PO-Revision-Date: 2007-12-31 16:53+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -17,116 +17,116 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: applet.cpp:139
+#: applet.cpp:136
 #, kde-format
 msgid "Could not locate the %1 package required for the %2 widget."
 msgstr "Nie mòże zlokalizowac paczétu %1nót dlô widżetu %2."
 
-#: applet.cpp:154
+#: applet.cpp:151
 #, kde-format
 msgid "Could not create a %1 ScriptEngine for the %2 widget."
 msgstr "Nie mòże ùsôdzëc ScriptEngine %1 dlô widżetu %2."
 
-#: applet.cpp:158
+#: applet.cpp:155
 #, kde-format
 msgid "Could not open the %1 package required for the %2 widget."
 msgstr "Nie mòże òtemnąc paczétu %1 nót dlô widżetu %2."
 
-#: applet.cpp:486
+#: applet.cpp:503
 msgid "Unknown Applet"
 msgstr "Nieznóny aplet"
 
-#: applet.cpp:518 applet.cpp:1215 applet.cpp:1216
+#: applet.cpp:535 applet.cpp:1232 applet.cpp:1233
 msgid "Miscellaneous"
 msgstr "Różné"
 
-#: applet.cpp:598
+#: applet.cpp:618
 msgid "This object could not be created."
 msgstr "Nen òbiekt nie mòże òstac ùsôdzony."
 
-#: applet.cpp:600
+#: applet.cpp:620
 #, kde-format
 msgid ""
 "This object could not be created for the following reason:<p><b>%1</b></p>"
 msgstr "Nen òbiekt nie mòże bëc ùsôdzony bez nen òrądz:<p>%1</p>"
 
-#: applet.cpp:664
+#: applet.cpp:684
 msgid "Configure..."
 msgstr "Kònfigùracëjô..."
 
-#: applet.cpp:1141 applet.cpp:1154 containment.cpp:243
+#: applet.cpp:1158 applet.cpp:1171 containment.cpp:243
 #, kde-format
 msgid "%1 Settings"
 msgstr "Ùstôwë %1"
 
-#: applet.cpp:1154
+#: applet.cpp:1171
 msgid "Settings"
 msgstr "Ùstôwë"
 
-#: appletbrowser.cpp:72
+#: appletbrowser.cpp:70
 msgid "All Widgets"
 msgstr "Wszëtczé widżetë"
 
-#: appletbrowser.cpp:90 appletbrowser.cpp:92
+#: appletbrowser.cpp:88 appletbrowser.cpp:90
 #, kde-format
 msgid "Recommended by %1"
 msgstr "Rekòmendowóny bez %1"
 
-#: appletbrowser.cpp:97
+#: appletbrowser.cpp:95
 msgid "My Favorite Widgets"
 msgstr "Mòfe ùlubioné widżetë"
 
-#: appletbrowser.cpp:100 appletbrowser.cpp:173
+#: appletbrowser.cpp:98 appletbrowser.cpp:161
 msgid "Widgets I Have Used Before"
 msgstr "Widżetë jaczé ju móm brëkòwóné"
 
-#: appletbrowser.cpp:103
+#: appletbrowser.cpp:101
 msgid "Currently Running Widgets"
 msgstr "Biéżno zrëszoné widżetë"
 
-#: appletbrowser.cpp:107
+#: appletbrowser.cpp:105
 msgid "Categories:"
 msgstr "Kategòrëje"
 
-#: appletbrowser.cpp:160 appletbrowser.cpp:317
+#: appletbrowser.cpp:148 appletbrowser.cpp:344
 msgid "Add Widget"
 msgstr "Dodôj widżet"
 
-#: appletbrowser.cpp:164 appletbrowser.cpp:318
+#: appletbrowser.cpp:152 appletbrowser.cpp:345
 msgid "Get New Widgets"
 msgstr "Nalézë nowé widżetë"
 
-#: appletbrowser.cpp:314
+#: appletbrowser.cpp:341
 msgid "Widgets"
 msgstr "Widżetë"
 
-#: appletbrowser.cpp:321
+#: appletbrowser.cpp:348
 msgid "Close the dialog"
 msgstr ""
 
-#: appletbrowser.cpp:322
+#: appletbrowser.cpp:349
 msgid ""
 "<qt>When clicking <b>Close</b>, this dialog will be closed with no further "
 "action taken.</qt>"
 msgstr ""
 
-#: appletbrowser.cpp:323
+#: appletbrowser.cpp:350
 #, fuzzy
 #| msgid "Add Widgets"
 msgid "Add selected widgets"
 msgstr "Dodôj widżetë"
 
-#: appletbrowser.cpp:324
+#: appletbrowser.cpp:351
 msgid ""
 "<qt>When clicking <b>Add Widget</b>, the selected widgets will be added to "
 "your desktop.</qt>"
 msgstr ""
 
-#: appletbrowser.cpp:325
+#: appletbrowser.cpp:352
 msgid "Download new widgets"
 msgstr ""
 
-#: appletbrowser.cpp:326
+#: appletbrowser.cpp:353
 msgid ""
 "<qt>When clicking <b>Get New Widgets</b>, a dialog will open to allow you to "
 "download new widgets. You need to be connected to the Internet.</qt>"
@@ -205,7 +205,7 @@ msgstr "Wbùdowóné spòdlé dialogòwégò òkna"
 msgid "Theme for the log out dialog"
 msgstr "Téma dlô òkna wëlogòwaniô"
 
-#: packages.cpp:64
+#: packages.cpp:64 packages.cpp:94
 msgid "Images for widgets"
 msgstr "Òbrôzczi dlô widżetów"
 
@@ -218,18 +218,106 @@ msgid "Analog clock face"
 msgstr "Wëzdrzatk analogòwégò zédżera"
 
 #: packages.cpp:70
-msgid "Back- and foregrounds for clickable icons"
-msgstr "Spódk a przódk dlô klikòwólnëch ikònów"
+#, fuzzy
+#| msgid "Background image for plasmoids"
+msgid "Background image for panels"
+msgstr "Spódkòwi òbrôzk dlô plazmoidu"
 
 #: packages.cpp:72
-msgid "Default background image for panels"
-msgstr "Domëszlny spódkòwi òbrôzk dlô panelów"
-
-#: packages.cpp:74
 msgid "Background for graphing widgets"
 msgstr "Spódk dlô grafikòwëch widżetów"
 
+#: packages.cpp:74
+#, fuzzy
+#| msgid "Background image for plasmoids"
+msgid "Background image for tooltips"
+msgstr "Spódkòwi òbrôzk dlô plazmoidu"
+
 #: packages.cpp:76
+#, fuzzy
+#| msgid "Images for dialogs"
+msgid "Opaque images for dialogs"
+msgstr "Òbrôzczi dlô dialogów"
+
+#: packages.cpp:78
+#, fuzzy
+#| msgid "Generic dialog background"
+msgid "Opaque generic dialog background"
+msgstr "Wbùdowóné spòdlé dialogòwégò òkna"
+
+#: packages.cpp:80
+#, fuzzy
+#| msgid "Theme for the log out dialog"
+msgid "Opaque theme for the log out dialog"
+msgstr "Téma dlô òkna wëlogòwaniô"
+
+#: packages.cpp:82
+#, fuzzy
+#| msgid "Images for widgets"
+msgid "Opaque images for widgets"
+msgstr "Òbrôzczi dlô widżetów"
+
+#: packages.cpp:84
+#, fuzzy
+#| msgid "Default background image for panels"
+msgid "Opaque background image for panels"
+msgstr "Domëszlny spódkòwi òbrôzk dlô panelów"
+
+#: packages.cpp:86
+#, fuzzy
+#| msgid "Default background image for panels"
+msgid "Opaque background image for tooltips"
+msgstr "Domëszlny spódkòwi òbrôzk dlô panelów"
+
+#: packages.cpp:88
+#, fuzzy
+#| msgid "Images for dialogs"
+msgid "Low color images for dialogs"
+msgstr "Òbrôzczi dlô dialogów"
+
+#: packages.cpp:90
+#, fuzzy
+#| msgid "Generic dialog background"
+msgid "Low color generic dialog background"
+msgstr "Wbùdowóné spòdlé dialogòwégò òkna"
+
+#: packages.cpp:92
+#, fuzzy
+#| msgid "Theme for the log out dialog"
+msgid "Low color theme for the log out dialog"
+msgstr "Téma dlô òkna wëlogòwaniô"
+
+#: packages.cpp:96
+#, fuzzy
+#| msgid "Background image for plasmoids"
+msgid "Low color background image for plasmoids"
+msgstr "Spódkòwi òbrôzk dlô plazmoidu"
+
+#: packages.cpp:98
+#, fuzzy
+#| msgid "Analog clock face"
+msgid "Low color analog clock face"
+msgstr "Wëzdrzatk analogòwégò zédżera"
+
+#: packages.cpp:100
+#, fuzzy
+#| msgid "Default background image for panels"
+msgid "Low color background image for panels"
+msgstr "Domëszlny spódkòwi òbrôzk dlô panelów"
+
+#: packages.cpp:102
+#, fuzzy
+#| msgid "Background for graphing widgets"
+msgid "Low color background for graphing widgets"
+msgstr "Spódk dlô grafikòwëch widżetów"
+
+#: packages.cpp:104
+#, fuzzy
+#| msgid "Default background image for panels"
+msgid "Low color background image for tooltips"
+msgstr "Domëszlny spódkòwi òbrôzk dlô panelów"
+
+#: packages.cpp:106
 msgid "KColorScheme configuration file"
 msgstr "Lopk kònfigùëacëji KColorScheme"
 
@@ -246,6 +334,9 @@ msgstr "michol@linuxcsb.org"
 #: appletbrowser/kcategorizeditemsview.cpp:36
 msgid "Enter search phrase here"
 msgstr "Wpiszë szëkóną frazã tuwò"
+
+#~ msgid "Back- and foregrounds for clickable icons"
+#~ msgstr "Spódk a przódk dlô klikòwólnëch ikònów"
 
 #~ msgid "%1 Settings..."
 #~ msgstr "Ùstôwë %1..."
