@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_twitter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-11 11:39+0100\n"
+"POT-Creation-Date: 2008-02-15 12:01+0100\n"
 "PO-Revision-Date: 2007-12-30 17:53+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -18,75 +18,88 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
-#: twitter.cpp:212
+#: twitter.cpp:213
 msgid "Failed to access kwallet. Store password in config file instead?"
 msgstr "Fela przëstãpù do kwalleta. Trzëmac parolã w kònfigùracjowim lopkù?"
 
-#: twitter.cpp:232 twitter.cpp:520
+#: twitter.cpp:233 twitter.cpp:509
 msgid "Refreshing timeline..."
 msgstr "Òdsiéżanié ùcékù czasu..."
 
-#: twitter.cpp:251
+#: twitter.cpp:252
 #, kde-format
 msgid "%1 new tweets"
 msgstr "%1nowëch czirkaniów"
 
-#: twitter.cpp:337
-#, kde-format
+#: twitter.cpp:335
+#, fuzzy, kde-format
+#| msgid ""
+#| "<tr><td align='right' width='99%'><font color='#9c9c9c'>%1 from %2</"
+#| "font></td></tr>"
 msgid ""
-"<tr><td align='right' width='99%'><font color='#9c9c9c'>%1 from %2</font></"
-"td></tr>"
+"<tr><td align='left' width='1%'><font color='%2'>%1</font></td><td "
+"align='right' width='99%'><font color='%2'>%3 from %4</font></td></tr>"
 msgstr ""
 "<tr><td align='right' width='99%'><font color='#9c9c9c'>%1 z %2</font></td></"
 "tr>"
 
-#: twitter.cpp:356
+#: twitter.cpp:354
 msgid "Configure Twitter Applet"
 msgstr "Kònfigùrëjë aplet Twitter"
 
-#: twitter.cpp:367
+#: twitter.cpp:365
 msgid " tweets"
 msgstr " czirkania"
 
-#: twitter.cpp:369
+#: twitter.cpp:367
 msgid " minutes"
 msgstr " minëtë"
 
-#: twitter.cpp:372
+#: twitter.cpp:370
 msgid "Username"
 msgstr "Miono brëkòwnika"
 
-#: twitter.cpp:373
+#: twitter.cpp:371
 msgid "Password"
 msgstr "Parola"
 
-#: twitter.cpp:374
+#: twitter.cpp:372
 msgid "Timeline size"
 msgstr "Miara ùcékù czasu"
 
-#: twitter.cpp:375
+#: twitter.cpp:373
 msgid "Timeline refresh"
 msgstr "Òdswiéżenié ùcékù czasu"
 
-#: twitter.cpp:376
+#: twitter.cpp:374
 msgid "Show messages of friends"
 msgstr "Pòkażë wiadła òd drëchów"
 
-#: twitter.cpp:548
-msgid "less than 5 seconds ago"
-msgstr "mni jak 5 sek nazôd"
+#: twitter.cpp:537
+#, fuzzy
+#| msgid "%1 minutes ago"
+msgid "1 minute ago"
+msgstr "%1 minët nazôd"
 
-#: twitter.cpp:550
-#, kde-format
-msgid "less than %1 seconds ago"
-msgstr "mni jak %1 sek nazôd"
-
-#: twitter.cpp:552
+#: twitter.cpp:539
 #, kde-format
 msgid "%1 minutes ago"
 msgstr "%1 minët nazôd"
 
-#: twitter.cpp:554
-#, kde-format
-msgid "about %1 hours ago"
+#: twitter.cpp:541
+#, fuzzy
+#| msgid "about %1 hours ago"
+msgid "1 hour ago"
 msgstr "kòle %1 gòdzënów nazôd"
+
+#: twitter.cpp:543
+#, fuzzy, kde-format
+#| msgid "about %1 hours ago"
+msgid "%1 hours ago"
+msgstr "kòle %1 gòdzënów nazôd"
+
+#~ msgid "less than 5 seconds ago"
+#~ msgstr "mni jak 5 sek nazôd"
+
+#~ msgid "less than %1 seconds ago"
+#~ msgstr "mni jak %1 sek nazôd"
