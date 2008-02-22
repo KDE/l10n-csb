@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-21 14:35+0100\n"
+"POT-Creation-Date: 2008-02-22 12:33+0100\n"
 "PO-Revision-Date: 2007-12-31 16:17+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -5622,91 +5622,7 @@ msgid "Please click and drag on the image to select the region of interest:"
 msgstr ""
 "Proszã klëknąc na òbrôzk ë gò przecygnąc, bë wëbrac òbeńdã jakô ce czëkawi:"
 
-#: kdeui/dialogs/kshortcutsdialog.cpp:374
-msgid "Default:"
-msgstr "Domëszlné:"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:377 kdeui/widgets/klineedit.cpp:1080
-msgid "None"
-msgstr "Felëjë"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:380
-msgid "Custom:"
-msgstr "Swòje:"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:480
-msgid "Shortcuts"
-msgstr "Skrodzënë"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:746
-#: kdeui/dialogs/kshortcutsdialog.cpp:775
-#: kdeui/dialogs/kshortcutsdialog.cpp:791
-#: kdeui/widgets/kkeysequencewidget.cpp:124
-msgid "Key Conflict"
-msgstr "Zwada klawiszów"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:747
-#: kdeui/widgets/kkeysequencewidget.cpp:125
-#, kde-format
-msgid ""
-"The '%1' key combination has already been allocated to the \"%2\" action.\n"
-"Do you want to reassign it from that action to the current one?"
-msgstr ""
-"Zestawienié klawiszów %1 òstało przëpisóné dzejaniu \"%2\".\n"
-"Przëpisac jã w môlu biéżnegò dzejaniô?"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:751
-#: kdeui/dialogs/kshortcutsdialog.cpp:780
-#: kdeui/dialogs/kshortcutsdialog.cpp:796 kdeui/shortcuts/kglobalaccel.cpp:317
-#: kdeui/widgets/kkeysequencewidget.cpp:128
-msgid "Reassign"
-msgstr "Przëpiszë"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:763
-msgid "Conflict with Standard Application Shortcut"
-msgstr "Zwada ze sztandardową skrodzëną programë"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:764
-#, kde-format
-msgid ""
-"The '%1' key combination has already been allocated to the standard action "
-"\"%2\" that many applications use.\n"
-"You cannot use it for global shortcuts for this reason."
-msgstr ""
-"Zestawienié klawiszów %1 òstałó przëpisóné sztandardowemù dzejaniu \"%2\".\n"
-"Przëpisac jã w môlu biéżnegò dzejaniô?"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:776
-#, kde-format
-msgid ""
-"The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
-"Do you want to reassign it from that action to the current one?"
-msgstr ""
-"Zestawienié klawiszów %1 òstało przëpisóné dzejaniu \"%2\".\n"
-"Przëpisac jã w môlu biéżnegò dzejaniô?"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:792
-#, kde-format
-msgid ""
-"The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
-"Do you want to reassign it from that action to the current one?"
-msgstr ""
-"Zestawienié klawiszów %1 òstało przëpisóné dzejaniu \"%2\".\n"
-"Przëpisac jã w môlu biéżnegò dzejaniô?"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:873
-#, kde-format
-msgctxt "@item:intable Action name in shortcuts configuration"
-msgid "%1"
-msgstr "%1"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:896
-#, kde-format
-msgctxt "@info:tooltip Action tooltip in shortcuts configuration"
-msgid "%1"
-msgstr "%1"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:1119
+#: kdeui/dialogs/kshortcutsdialog.cpp:58
 msgid "Configure Shortcuts"
 msgstr "Kònfigùracëjô skrodzënów"
 
@@ -5798,6 +5714,18 @@ msgstr "Ò %1"
 #: kdeui/dialogs/kconfigdialog.cpp:69 kutils/kcmultidialog.cpp:105
 msgid "Configure"
 msgstr "Kònfigùracëjô"
+
+#: kdeui/dialogs/kshortcutseditoritem.cpp:57
+#, kde-format
+msgctxt "@item:intable Action name in shortcuts configuration"
+msgid "%1"
+msgstr "%1"
+
+#: kdeui/dialogs/kshortcutseditoritem.cpp:80
+#, kde-format
+msgctxt "@info:tooltip Action tooltip in shortcuts configuration"
+msgid "%1"
+msgstr "%1"
 
 #: kdeui/dialogs/kdialog.cpp:227
 msgid "&Try"
@@ -5899,6 +5827,66 @@ msgstr "%1"
 #: kdeui/dialogs/kedittoolbar.cpp:1436
 msgid "Change Icon"
 msgstr "Zmieni ikònã"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:82
+msgid "Shortcuts"
+msgstr "Skrodzënë"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:410
+#: kdeui/dialogs/kshortcutseditor.cpp:439
+#: kdeui/dialogs/kshortcutseditor.cpp:455
+#: kdeui/widgets/kkeysequencewidget.cpp:124
+msgid "Key Conflict"
+msgstr "Zwada klawiszów"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:411
+#: kdeui/widgets/kkeysequencewidget.cpp:125
+#, kde-format
+msgid ""
+"The '%1' key combination has already been allocated to the \"%2\" action.\n"
+"Do you want to reassign it from that action to the current one?"
+msgstr ""
+"Zestawienié klawiszów %1 òstało przëpisóné dzejaniu \"%2\".\n"
+"Przëpisac jã w môlu biéżnegò dzejaniô?"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:415
+#: kdeui/dialogs/kshortcutseditor.cpp:444
+#: kdeui/dialogs/kshortcutseditor.cpp:460 kdeui/shortcuts/kglobalaccel.cpp:317
+#: kdeui/widgets/kkeysequencewidget.cpp:128
+msgid "Reassign"
+msgstr "Przëpiszë"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:427
+msgid "Conflict with Standard Application Shortcut"
+msgstr "Zwada ze sztandardową skrodzëną programë"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:428
+#, kde-format
+msgid ""
+"The '%1' key combination has already been allocated to the standard action "
+"\"%2\" that many applications use.\n"
+"You cannot use it for global shortcuts for this reason."
+msgstr ""
+"Zestawienié klawiszów %1 òstałó przëpisóné sztandardowemù dzejaniu \"%2\".\n"
+"Przëpisac jã w môlu biéżnegò dzejaniô?"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:440
+#, kde-format
+msgid ""
+"The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
+"Do you want to reassign it from that action to the current one?"
+msgstr ""
+"Zestawienié klawiszów %1 òstało przëpisóné dzejaniu \"%2\".\n"
+"Przëpisac jã w môlu biéżnegò dzejaniô?"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:456
+#, kde-format
+msgid ""
+"The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
+"Do you want to reassign it from that action to the current one?"
+msgstr ""
+"Zestawienié klawiszów %1 òstało przëpisóné dzejaniu \"%2\".\n"
+"Przëpisac jã w môlu biéżnegò dzejaniô?"
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:64
 msgid ""
@@ -6166,6 +6154,18 @@ msgstr ""
 #: kdeui/dialogs/kbugreport.cpp:470
 msgid "Close Message"
 msgstr "Zamkni wiadło"
+
+#: kdeui/dialogs/kshortcuteditwidget.cpp:55
+msgid "Default:"
+msgstr "Domëszlné:"
+
+#: kdeui/dialogs/kshortcuteditwidget.cpp:58 kdeui/widgets/klineedit.cpp:1080
+msgid "None"
+msgstr "Felëjë"
+
+#: kdeui/dialogs/kshortcuteditwidget.cpp:61
+msgid "Custom:"
+msgstr "Swòje:"
 
 #: kdeui/dialogs/kaboutkdedialog_p.cpp:42
 msgid "About KDE"
