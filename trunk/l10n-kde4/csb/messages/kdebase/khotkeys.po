@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-04 12:28+0100\n"
+"POT-Creation-Date: 2008-03-05 10:16+0100\n"
 "PO-Revision-Date: 2007-12-09 18:52+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -571,6 +571,53 @@ msgstr "KHotKeys"
 msgid "KHotKeys daemon"
 msgstr "Ùsłużnota KHotKeys"
 
+#: shared/activate_window_action.cpp:61
+msgid "Activate window : "
+msgstr "Aktiwùjë òkno: "
+
+#: shared/active_window_condition.cpp:73
+msgid "Active window: "
+msgstr "Aktiwné òkno: "
+
+#: shared/and_condition.cpp:60 kcontrol/condition_list_widget.cpp:52
+msgctxt "And_condition"
+msgid "And"
+msgstr "Ë"
+
+#: shared/command_url_action.cpp:114
+msgid "Command/URL : "
+msgstr "Pòlét/URL : "
+
+#: shared/dbus_action.cpp:102
+msgid "D-Bus : "
+msgstr ""
+
+#: shared/existing_window_condition.cpp:76
+msgid "Existing window: "
+msgstr "Òbstójé òkno: "
+
+#: shared/gesture_trigger.cpp:61
+msgid "Gesture trigger: "
+msgstr "Gest wywołujący: "
+
+#: shared/keyboard_input_action.cpp:106
+msgid "Keyboard input : "
+msgstr "Wprowadzenié z klawiaturë : "
+
+#: shared/menuentry_action.cpp:56
+msgid "Menuentry : "
+msgstr "Môl menu : "
+
+#: shared/not_condition.cpp:53 kcontrol/condition_list_widget.cpp:50
+msgctxt "Not_condition"
+msgid "Not"
+msgstr "Nie"
+
+#: shared/or_condition.cpp:62 kcontrol/condition_list_widget.cpp:54
+msgctxt "Or_condition"
+msgid "Or"
+msgstr "Abò"
+
 #: shared/settings.cpp:66
 msgid ""
 "This \"actions\" file has already been imported before. Are you sure you "
@@ -591,6 +638,18 @@ msgstr ""
 #: shared/settings.cpp:246 kcontrol/menuedit.cpp:94
 msgid "These entries were created using Menu Editor."
 msgstr "Te môlë òsta zrobioné w Editorze menu."
+
+#: shared/shortcut_trigger.cpp:62
+msgid "Shortcut trigger: "
+msgstr "Wëwòłującô skrodzëna: "
+
+#: shared/voice_trigger.cpp:67
+msgid "Voice trigger: "
+msgstr "Wëwòłujący głos: "
+
+#: shared/window_trigger.cpp:167
+msgid "Window trigger: "
+msgstr "Wëwòłującé òkno: "
 
 #: shared/windows.cpp:363
 msgid "Window simple: "
@@ -642,21 +701,6 @@ msgstr "Aktiwné òkno..."
 #: kcontrol/condition_list_widget.cpp:48
 msgid "Existing Window..."
 msgstr "Òbstojącé òkno..."
-
-#: kcontrol/condition_list_widget.cpp:50
-msgctxt "Not_condition"
-msgid "Not"
-msgstr "Nie"
-
-#: kcontrol/condition_list_widget.cpp:52
-msgctxt "And_condition"
-msgid "And"
-msgstr "Ë"
-
-#: kcontrol/condition_list_widget.cpp:54
-msgctxt "Or_condition"
-msgid "Or"
-msgstr "Abò"
 
 #: kcontrol/condition_list_widget.cpp:167
 msgid ""
@@ -953,36 +997,6 @@ msgstr ""
 #: kcontrol/windowdef_list_widget.cpp:45
 msgid "Simple Window..."
 msgstr "Prosté òkno..."
-
-#~ msgid "Command/URL : "
-#~ msgstr "Pòlét/URL : "
-
-#~ msgid "Menuentry : "
-#~ msgstr "Môl menu : "
-
-#~ msgid "Keyboard input : "
-#~ msgstr "Wprowadzenié z klawiaturë : "
-
-#~ msgid "Activate window : "
-#~ msgstr "Aktiwùjë òkno: "
-
-#~ msgid "Active window: "
-#~ msgstr "Aktiwné òkno: "
-
-#~ msgid "Existing window: "
-#~ msgstr "Òbstójé òkno: "
-
-#~ msgid "Shortcut trigger: "
-#~ msgstr "Wëwòłującô skrodzëna: "
-
-#~ msgid "Window trigger: "
-#~ msgstr "Wëwòłującé òkno: "
-
-#~ msgid "Gesture trigger: "
-#~ msgstr "Gest wywołujący: "
-
-#~ msgid "Voice trigger: "
-#~ msgstr "Wëwòłujący głos: "
 
 #~ msgid "Run &KDCOP"
 #~ msgstr "Zrëszë &KDCOP"
