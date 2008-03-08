@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khtmlkttsd\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-10 05:31+0200\n"
+"POT-Creation-Date: 2008-03-07 20:07+0100\n"
 "PO-Revision-Date: 2007-02-18 18:03+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -17,39 +17,35 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
-#: khtmlkttsd.cpp:51
+#: khtmlkttsd.cpp:45
 msgid "&Speak Text"
 msgstr "&Gôdôny tekst"
 
-#: khtmlkttsd.cpp:66
+#: khtmlkttsd.cpp:62
+#, fuzzy
+#| msgid ""
+#| "You cannot read anything except web pages with\n"
+#| "this plugin, sorry."
+msgid "You cannot read anything except web pages with this plugin, sorry."
+msgstr "Z tim pluginsã mòże czëtac blós starnë www."
+
+#: khtmlkttsd.cpp:63
 msgid "Cannot Read source"
 msgstr "Nie mòże czëtac ze zdroju"
 
-#: khtmlkttsd.cpp:67
-msgid ""
-"You cannot read anything except web pages with\n"
-"this plugin, sorry."
-msgstr "Z tim pluginsã mòże czëtac blós starnë www."
-
-#: khtmlkttsd.cpp:75
+#: khtmlkttsd.cpp:70
 msgid "Starting KTTSD Failed"
 msgstr "Zrëszanié KTTSC nie darzëło sã"
 
-#: khtmlkttsd.cpp:85 khtmlkttsd.cpp:121 khtmlkttsd.cpp:125
+#: khtmlkttsd.cpp:111
+#, fuzzy
+#| msgid "The D-Bus call startText failed."
+msgid "The D-Bus call say() failed."
+msgstr "Wëwòłanié D-Bus startText nie darzëło sã."
+
+#: khtmlkttsd.cpp:112
 msgid "D-Bus Call Failed"
 msgstr "Wëwòłanié D-Bus nie darzëło sã"
-
-#: khtmlkttsd.cpp:86
-msgid "The D-Bus call supportsMarkup failed."
-msgstr "Wëwòłanié D-Bus supportsMarkup nie darzëło sã."
-
-#: khtmlkttsd.cpp:122
-msgid "The D-Bus call setText failed."
-msgstr "Wëwòłanié D-Bus setText nie darzëło sã."
-
-#: khtmlkttsd.cpp:126
-msgid "The D-Bus call startText failed."
-msgstr "Wëwòłanié D-Bus startText nie darzëło sã."
 
 #. i18n: tag Text
 #. i18n: file khtmlkttsd.rc line 5
@@ -62,3 +58,9 @@ msgstr "&Nôrzãdza"
 #: rc.cpp:6
 msgid "Speech Toolbar"
 msgstr "Lëstwa nôrzãdzów gôdaniô"
+
+#~ msgid "The D-Bus call supportsMarkup failed."
+#~ msgstr "Wëwòłanié D-Bus supportsMarkup nie darzëło sã."
+
+#~ msgid "The D-Bus call setText failed."
+#~ msgstr "Wëwòłanié D-Bus setText nie darzëło sã."
