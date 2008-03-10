@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-09 10:14+0100\n"
+"POT-Creation-Date: 2008-03-10 17:21+0100\n"
 "PO-Revision-Date: 2007-07-27 20:44+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -3639,7 +3639,7 @@ msgid "&Cancel"
 msgstr ""
 
 #: collectionbrowser/CollectionTreeView.cpp:138
-#: playlist/PlaylistGraphicsView.cpp:107
+#: playlist/PlaylistViewCommon.cpp:50
 #, fuzzy
 #| msgid "Show &Information"
 msgid "Edit Track Information"
@@ -7842,6 +7842,45 @@ msgstr ""
 msgid "Track Number - Title"
 msgstr ""
 
+#: playlist/PlaylistViewCommon.cpp:40
+#, fuzzy
+#| msgid "Playback"
+msgid "&Play"
+msgstr "Grónié"
+
+#: playlist/PlaylistViewCommon.cpp:45
+#, fuzzy
+#| msgid "Newest Tracks"
+msgid "Queue Track"
+msgstr "Nônowszi sztëcczi"
+
+#: playlist/PlaylistViewCommon.cpp:46
+msgid "Stop Playing After Track"
+msgstr ""
+
+#: playlist/PlaylistViewCommon.cpp:48
+#, fuzzy
+#| msgid "Import Playlist..."
+msgid "Remove From Playlist"
+msgstr "Impòrtëjë lëstã graniô..."
+
+#: playlist/PlaylistViewCommon.cpp:77
+msgid "Show Fullsize"
+msgstr ""
+
+#: playlist/PlaylistViewCommon.cpp:78
+#, fuzzy
+#| msgid "&Next Cover"
+msgid "Fetch Cover"
+msgstr "&Nowô òbkłôdka"
+
+#: playlist/PlaylistViewCommon.cpp:79
+#, fuzzy
+#| msgid "&Unset Cover"
+#| msgid_plural "&Unset Selected Covers"
+msgid "Unset Cover"
+msgstr "&Rëmôj òbkłôdkã"
+
 #: playlist/PlaylistWidget.cpp:91
 msgctxt "switch view"
 msgid "&View"
@@ -7893,45 +7932,6 @@ msgid_plural "%1 tracks were already in the playlist, so they were not added."
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
-
-#: playlist/PlaylistGraphicsView.cpp:95
-#, fuzzy
-#| msgid "Playback"
-msgid "&Play"
-msgstr "Grónié"
-
-#: playlist/PlaylistGraphicsView.cpp:102
-#, fuzzy
-#| msgid "Newest Tracks"
-msgid "Queue Track"
-msgstr "Nônowszi sztëcczi"
-
-#: playlist/PlaylistGraphicsView.cpp:103
-msgid "Stop Playing After Track"
-msgstr ""
-
-#: playlist/PlaylistGraphicsView.cpp:105
-#, fuzzy
-#| msgid "Import Playlist..."
-msgid "Remove From Playlist"
-msgstr "Impòrtëjë lëstã graniô..."
-
-#: playlist/PlaylistGraphicsView.cpp:138
-msgid "Show Fullsize"
-msgstr ""
-
-#: playlist/PlaylistGraphicsView.cpp:139
-#, fuzzy
-#| msgid "&Next Cover"
-msgid "Fetch Cover"
-msgstr "&Nowô òbkłôdka"
-
-#: playlist/PlaylistGraphicsView.cpp:140
-#, fuzzy
-#| msgid "&Unset Cover"
-#| msgid_plural "&Unset Selected Covers"
-msgid "Unset Cover"
-msgstr "&Rëmôj òbkłôdkã"
 
 #: app.cpp:90 konquisidebar/universalamarok.cpp:173
 msgid "Amarok"
