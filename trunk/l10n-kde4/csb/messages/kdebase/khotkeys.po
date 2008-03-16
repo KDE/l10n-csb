@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-13 15:56+0100\n"
+"POT-Creation-Date: 2008-03-15 23:52+0100\n"
 "PO-Revision-Date: 2007-12-09 18:52+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -661,11 +661,11 @@ msgstr ""
 "tribie, proszã sprôwdzëc, czë włączonô je òptacëjô <i>fùl dupleks</i> w "
 "ùstawach <i>serwerë zwãkù</i>."
 
-#: app/app.cpp:145 kcontrol/kcmkhotkeys.cpp:113
+#: app/app.cpp:133 kcontrol/kcmkhotkeys.cpp:116
 msgid "KHotKeys"
 msgstr "KHotKeys"
 
-#: app/app.cpp:146
+#: app/app.cpp:134
 msgid "KHotKeys daemon"
 msgstr "Ùsłużnota KHotKeys"
 
@@ -895,31 +895,31 @@ msgstr "&Wëłączë"
 msgid "&Disable (group is disabled)"
 msgstr "&Wëłączë (grëpa je wëłączonô)"
 
-#: kcontrol/kcmkhotkeys.cpp:114
+#: kcontrol/kcmkhotkeys.cpp:117
 msgid "(c) 1999-2005 Lubos Lunak"
 msgstr "(c) 1999-2005 Lubos Lunak"
 
-#: kcontrol/kcmkhotkeys.cpp:115
+#: kcontrol/kcmkhotkeys.cpp:118
 msgid "Lubos Lunak"
 msgstr "Lubos Lunak"
 
-#: kcontrol/kcmkhotkeys.cpp:115
+#: kcontrol/kcmkhotkeys.cpp:118
 msgid "Maintainer"
 msgstr "Òpiekùn"
 
-#: kcontrol/kcmkhotkeys.cpp:252
+#: kcontrol/kcmkhotkeys.cpp:255
 msgid "New Action"
 msgstr "Nowé dzejanié"
 
-#: kcontrol/kcmkhotkeys.cpp:273
+#: kcontrol/kcmkhotkeys.cpp:276
 msgid "New Action Group"
 msgstr "Nowô grëpa dzejaniów"
 
-#: kcontrol/kcmkhotkeys.cpp:304
+#: kcontrol/kcmkhotkeys.cpp:307
 msgid "Select File with Actions to Be Imported"
 msgstr "Wëbierzë lopk z dzejaniama do zaimpòrtowaniô"
 
-#: kcontrol/kcmkhotkeys.cpp:311
+#: kcontrol/kcmkhotkeys.cpp:314
 msgid ""
 "Import of the specified file failed. Most probably the file is not a valid "
 "file with actions."
@@ -927,12 +927,12 @@ msgstr ""
 "Impòrtowanié pòdónégò lopkù nie darzëło sã. Gwësno nie je to pòprówny lopk z "
 "dzejaniama."
 
-#: kcontrol/menuedit.cpp:94 libkhotkeys/settings.cpp:373
+#: kcontrol/menuedit.cpp:84 libkhotkeys/settings.cpp:373
 msgid "These entries were created using Menu Editor."
 msgstr "Te môlë òsta zrobioné w Editorze menu."
 
-#: kcontrol/menuedit.cpp:231 kcontrol/menuedit.cpp:232
-#: kcontrol/menuedit.cpp:268
+#: kcontrol/menuedit.cpp:221 kcontrol/menuedit.cpp:222
+#: kcontrol/menuedit.cpp:258
 msgid "K Menu - "
 msgstr "Menu K - "
 
@@ -1010,23 +1010,27 @@ msgstr "Gest -> Wprowadzenié z klawiaturë (prosté)"
 msgid "Keyboard Shortcut -> Activate Window (simple)"
 msgstr "Klawiszowô skrodzëna -> Aktiwùjë òkno (prosté)"
 
-#: kcontrol/triggers_tab.cpp:50
+#: kcontrol/triggers_tab.cpp:51
 msgid "Shortcut Trigger..."
 msgstr "Wëwòłującô skrodzëna..."
 
-#: kcontrol/triggers_tab.cpp:53
+#: kcontrol/triggers_tab.cpp:54
 msgid "Gesture Trigger..."
 msgstr "Wëwòłujący gest..."
 
-#: kcontrol/triggers_tab.cpp:56
+#: kcontrol/triggers_tab.cpp:57
 msgid "Window Trigger..."
 msgstr "Wëwòłującé òkno..."
 
-#: kcontrol/triggers_tab.cpp:62
+#: kcontrol/triggers_tab.cpp:63
 msgid "Voice Trigger..."
 msgstr "Wëwòłujący głos..."
 
-#: kcontrol/triggers_tab.cpp:252
+#: kcontrol/triggers_tab.cpp:147
+msgid "TODO: Correct Behaviour"
+msgstr ""
+
+#: kcontrol/triggers_tab.cpp:253
 msgid "Select keyboard shortcut:"
 msgstr "Wëbierzë klawiszową skrodzënã:"
 
@@ -1046,7 +1050,13 @@ msgstr "Ùsłużnota KHotKeys"
 msgid "Id of the script to add to khotkeysrc."
 msgstr ""
 
-#: libkhotkeys/triggers/shortcut_trigger.cpp:62
+#: libkhotkeys/triggers/shortcut_trigger.cpp:72
+#, fuzzy
+#| msgid "&Copy"
+msgid "Copy of "
+msgstr "&Kòpérëjë"
+
+#: libkhotkeys/triggers/shortcut_trigger.cpp:78
 msgid "Shortcut trigger: "
 msgstr "Wëwòłującô skrodzëna: "
 
@@ -1070,7 +1080,7 @@ msgstr "Aktiwné òkno: "
 msgid "Existing window: "
 msgstr "Òbstójé òkno: "
 
-#: libkhotkeys/actions/menuentry_action.cpp:56
+#: libkhotkeys/actions/menuentry_action.cpp:59
 msgid "Menuentry : "
 msgstr "Môl menu : "
 
