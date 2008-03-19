@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-18 13:19+0100\n"
+"POT-Creation-Date: 2008-03-19 11:17+0100\n"
 "PO-Revision-Date: 2007-12-25 12:24+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -125,6 +125,9 @@ msgid "Empty Trash"
 msgstr "Wëczëszczë kòsz"
 
 #: dolphincontextmenu.cpp:133
+#, fuzzy
+#| msgid "Trash"
+msgctxt "@label"
 msgid "Trash"
 msgstr "Kòsz"
 
@@ -206,6 +209,7 @@ msgid "Custom Font"
 msgstr ""
 
 #: dolphinfontrequester.cpp:43
+msgctxt "@action:button Choose font"
 msgid "Choose..."
 msgstr ""
 
@@ -240,7 +244,10 @@ msgid "Created folder."
 msgstr "Ùsôdzony katalog."
 
 #: dolphinmainwindow.cpp:717
-msgctxt "@title:menu"
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Create New"
+msgctxt "@title:menu Create new folder, file, link, etc."
 msgid "Create New"
 msgstr "Ùsôdzë nowi"
 
@@ -315,7 +322,10 @@ msgid "Folders"
 msgstr "Katalodżi"
 
 #: dolphinmainwindow.cpp:870 dolphinmainwindow.cpp:878
-msgctxt "@title:window"
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Terminal"
+msgctxt "@title:window Shell terminal"
 msgid "Terminal"
 msgstr "Terminal"
 
@@ -376,7 +386,7 @@ msgstr ""
 
 #: dolphinmodel.cpp:221
 #, c-format
-msgctxt "Prints out the week day name: %A"
+msgctxt "@title:group The week day name: %A"
 msgid "%A"
 msgstr ""
 
@@ -401,31 +411,50 @@ msgid "Earlier this Month"
 msgstr ""
 
 #: dolphinmodel.cpp:240
+#, fuzzy
+#| msgctxt ""
+#| "Prints out the month and year: %B is full month name in current locale, "
+#| "and %Y is full year number"
+#| msgid "%B, %Y"
 msgctxt ""
-"Prints out the month and year: %B is full month name in current locale, and %"
-"Y is full year number"
+"@title:group The month and year: %B is full month name in current locale, "
+"and %Y is full year number"
 msgid "%B, %Y"
 msgstr "%B, %Y"
 
 #: dolphinmodel.cpp:254 dolphinmodel.cpp:266 dolphinmodel.cpp:278
+#, fuzzy
+#| msgid "Read, "
+msgctxt "@item:intext Access permission, concatenated"
 msgid "Read, "
 msgstr "Czëtôj, "
 
 #: dolphinmodel.cpp:257 dolphinmodel.cpp:269 dolphinmodel.cpp:281
+#, fuzzy
+#| msgid "Write, "
+msgctxt "@item:intext Access permission, concatenated"
 msgid "Write, "
 msgstr "Piszë, "
 
 #: dolphinmodel.cpp:260 dolphinmodel.cpp:272 dolphinmodel.cpp:284
+#, fuzzy
+#| msgid "Execute, "
+msgctxt "@item:intext Access permission, concatenated"
 msgid "Execute, "
 msgstr "Wëkònôj, "
 
 #: dolphinmodel.cpp:262 dolphinmodel.cpp:274 dolphinmodel.cpp:286
+#, fuzzy
+#| msgid "Forbidden"
+msgctxt "@item:intext Access permission, concatenated"
 msgid "Forbidden"
 msgstr "Zakôzóné"
 
 #: dolphinmodel.cpp:288
-#, kde-format
-msgctxt "This shows files and folders permissions: user, group and others"
+#, fuzzy, kde-format
+#| msgctxt "This shows files and folders permissions: user, group and others"
+#| msgid "(User: %1) (Group: %2) (Others: %3)"
+msgctxt "@title:group Files and folders by permissions"
 msgid "(User: %1) (Group: %2) (Others: %3)"
 msgstr "(Brëkòwnik: %1) (Grëpa: %2) (Jinszé: %3)"
 
@@ -492,8 +521,11 @@ msgctxt "@title:group"
 msgid "View Modes"
 msgstr "Tribë wëzdrzatkù"
 
-#: dolphinsettingsdialog.cpp:60 metatextlabel.cpp:30
-msgctxt "@title:group"
+#: dolphinsettingsdialog.cpp:60
+#, fuzzy
+#| msgctxt "@title:group"
+#| msgid "General"
+msgctxt "@title:group General settings"
 msgid "General"
 msgstr "Òglowé"
 
@@ -538,7 +570,7 @@ msgstr "Wlepi jeden lopk"
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Paste"
-msgctxt "@label"
+msgctxt "@action:button"
 msgid "Paste"
 msgstr "Wlepi"
 
@@ -546,7 +578,7 @@ msgstr "Wlepi"
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Cancel"
-msgctxt "@label"
+msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Anulëjë"
 
@@ -586,6 +618,9 @@ msgid "Paste"
 msgstr "Wlepi"
 
 #: dolphinviewactionhandler.cpp:71
+#, fuzzy
+#| msgid "Create Folder..."
+msgctxt "@action"
 msgid "Create Folder..."
 msgstr "Ùsôdzony katalog..."
 
@@ -758,7 +793,7 @@ msgid "Show 'Delete' command in context menu"
 msgstr "Pòkôżë pòlét 'Rëmôj' w kòntekstowim menu"
 
 #: generalsettingspage.cpp:65
-msgctxt "option:check"
+msgctxt "@option:check"
 msgid "Browse through archives"
 msgstr ""
 
@@ -788,11 +823,14 @@ msgid "Maximum file size:"
 msgstr "Maksymalnô miara lopka:"
 
 #: generalviewsettingspage.cpp:85
+#, fuzzy
+#| msgid "Use thumbnails embedded in files"
+msgctxt "@option:check"
 msgid "Use thumbnails embedded in files"
 msgstr "Brëkùjë miniaturczi zamkłé w lopkach"
 
 #: generalviewsettingspage.cpp:91
-msgctxt "option:check"
+msgctxt "@option:check"
 msgid "Show selection toggle"
 msgstr ""
 
@@ -1020,6 +1058,14 @@ msgctxt "@label:textbox"
 msgid "Tags:"
 msgstr "Tadżi:"
 
+#: metatextlabel.cpp:30
+#, fuzzy
+#| msgctxt "@title:group"
+#| msgid "General"
+msgctxt "@title:group General metadata"
+msgid "General"
+msgstr "Òglowé"
+
 #. i18n: tag label
 #. i18n: file dolphin_columnmodesettings.kcfg line 9
 #. i18n: tag label
@@ -1084,7 +1130,10 @@ msgstr "Miara fònta"
 #. i18n: tag label
 #. i18n: file ./dolphin_columnmodesettings.kcfg line 21
 #: rc.cpp:12 rc.cpp:33 rc.cpp:126 rc.cpp:230 rc.cpp:281 rc.cpp:314
-msgctxt "@label"
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Italic"
+msgctxt "@label Font style"
 msgid "Italic"
 msgstr "Kùrsywa"
 
@@ -1591,6 +1640,7 @@ msgid "Show filter bar"
 msgstr "Pòkôżë listew filtra"
 
 #: startupsettingspage.cpp:111
+msgctxt "@info"
 msgid "The location for the home folder is invalid and will not get applied."
 msgstr ""
 
@@ -1600,8 +1650,10 @@ msgid "Close"
 msgstr "Zamkni"
 
 #: statusbarspaceinfo.cpp:75
-#, kde-format
-msgctxt "@info:status"
+#, fuzzy, kde-format
+#| msgctxt "@info:status"
+#| msgid "%1 free"
+msgctxt "@info:status Free disk space"
 msgid "%1 free"
 msgstr "%1 wòlne"
 
@@ -1679,14 +1731,20 @@ msgid "Sorting:"
 msgstr "Zortowanié:"
 
 #: viewpropertiesdialog.cpp:104
-msgctxt "@item:inlistbox"
+#, fuzzy
+#| msgctxt "@item:inlistbox"
+#| msgid "Ascending"
+msgctxt "@item:inlistbox Sort"
 msgid "Ascending"
 msgstr "Roscąco"
 
 #: viewpropertiesdialog.cpp:105
-msgctxt "@item:inlistbox"
+#, fuzzy
+#| msgctxt "@action:inmenu Sort"
+#| msgid "Descending"
+msgctxt "@item:inlistbox Sort"
 msgid "Descending"
-msgstr "Malijąco"
+msgstr "Roscąco"
 
 #: viewpropertiesdialog.cpp:108
 msgctxt "@item:inlistbox Sort"
@@ -1805,7 +1863,10 @@ msgid "Folders: %1"
 msgstr "Katalodżi: %1"
 
 #: viewsettingspage.cpp:53
-msgctxt "@title:tab"
+#, fuzzy
+#| msgctxt "@title:group"
+#| msgid "General"
+msgctxt "@title:tab General settings"
 msgid "General"
 msgstr "Òglowé"
 
@@ -1823,6 +1884,21 @@ msgstr "Detale"
 msgctxt "@title:tab"
 msgid "Column"
 msgstr "Kòlumna"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu"
+#~| msgid "Cancel"
+#~ msgctxt "@label"
+#~ msgid "Cancel"
+#~ msgstr "Anulëjë"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Descending"
+#~ msgstr "Malijąco"
+
+#~ msgctxt "@title:tab"
+#~ msgid "General"
+#~ msgstr "Òglowé"
 
 #~ msgctxt "@label"
 #~ msgid "Bold"
