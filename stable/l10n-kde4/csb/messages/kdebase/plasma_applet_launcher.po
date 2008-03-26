@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-18 10:50+0100\n"
+"POT-Creation-Date: 2008-03-26 10:36+0100\n"
 "PO-Revision-Date: 2007-12-27 10:32+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -44,33 +44,33 @@ msgstr "Dodôj do panela"
 msgid "Eject"
 msgstr ""
 
-#: ui/launcher.cpp:134
+#: ui/launcher.cpp:140 simpleapplet/simpleapplet.cpp:203
 msgid "Leave"
 msgstr "Wińdz"
 
-#: ui/launcher.cpp:144 core/favoritesmodel.cpp:25
-#: simpleapplet/simpleapplet.cpp:147
+#: ui/launcher.cpp:150 core/favoritesmodel.cpp:25
+#: simpleapplet/simpleapplet.cpp:199
 msgid "Favorites"
 msgstr "Ùlubioné"
 
-#: ui/launcher.cpp:160 core/recentlyusedmodel.cpp:105 core/systemmodel.cpp:90
-#: core/searchmodel.cpp:133
+#: ui/launcher.cpp:166 core/recentlyusedmodel.cpp:105 core/systemmodel.cpp:90
+#: core/searchmodel.cpp:133 simpleapplet/simpleapplet.cpp:200
 msgid "Applications"
 msgstr "Aplikacje"
 
-#: ui/launcher.cpp:171
+#: ui/launcher.cpp:177 simpleapplet/simpleapplet.cpp:202
 msgid "Recently Used"
 msgstr "Slédno brëkòwóne"
 
-#: ui/launcher.cpp:173
+#: ui/launcher.cpp:179
 msgid "Clear Recent Applications"
 msgstr "Wëczëszczë slédne aplikacje"
 
-#: ui/launcher.cpp:174
+#: ui/launcher.cpp:180
 msgid "Clear Recent Documents"
 msgstr "Wëczëszczë slédné dokùmentë"
 
-#: ui/launcher.cpp:190
+#: ui/launcher.cpp:196 simpleapplet/simpleapplet.cpp:201
 msgid "Computer"
 msgstr "Kòmpùtr"
 
@@ -78,8 +78,7 @@ msgstr "Kòmpùtr"
 msgid "Search:"
 msgstr "Szëkba:"
 
-#: core/leavemodel.cpp:46 simpleapplet/simpleapplet.cpp:156
-#: simpleapplet/simpleapplet.cpp:226
+#: core/leavemodel.cpp:46 simpleapplet/simpleapplet.cpp:285
 msgid "Logout"
 msgstr "Wëlogòwanié"
 
@@ -87,8 +86,7 @@ msgstr "Wëlogòwanié"
 msgid "End session"
 msgstr "Kùńc sesji"
 
-#: core/leavemodel.cpp:51 simpleapplet/simpleapplet.cpp:153
-#: simpleapplet/simpleapplet.cpp:222
+#: core/leavemodel.cpp:51 simpleapplet/simpleapplet.cpp:283
 msgid "Lock"
 msgstr "Blokada"
 
@@ -96,7 +94,7 @@ msgstr "Blokada"
 msgid "Lock the screen"
 msgstr "Blokada ekrana"
 
-#: core/leavemodel.cpp:56 simpleapplet/simpleapplet.cpp:218
+#: core/leavemodel.cpp:56 simpleapplet/simpleapplet.cpp:281
 msgid "Switch User"
 msgstr "Przełączë brëkòwnika"
 
@@ -136,7 +134,7 @@ msgstr "Sesjô"
 msgid "System"
 msgstr "Systema"
 
-#: core/applicationmodel.cpp:306
+#: core/applicationmodel.cpp:310
 msgid "Known Applications"
 msgstr "Znóné aplikacrje"
 
@@ -181,16 +179,16 @@ msgstr "Kickoff"
 msgid "Application Launcher"
 msgstr "Zrëszôcz programów"
 
-#: applet/applet.cpp:119
+#: applet/applet.cpp:121
 msgctxt "@title:window"
 msgid "Configure Launcher"
 msgstr "Kònfigùracjô zrëszôcza"
 
-#: applet/applet.cpp:129
+#: applet/applet.cpp:131
 msgid "Number of visible items:"
 msgstr "Lëczba widzawnëch elementów:"
 
-#: applet/applet.cpp:135
+#: applet/applet.cpp:137
 msgid "Switch tabs on hover"
 msgstr "Przełączë kôrtë pò najachaniu na nie mëszą"
 
@@ -204,13 +202,40 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "michol@linuxcsb.org"
 
-#: simpleapplet/simpleapplet.cpp:139
+#: simpleapplet/simpleapplet.cpp:187
 msgctxt "@title:window"
 msgid "Configure Menu"
 msgstr "Kònfigùracjô menu"
 
-#: simpleapplet/simpleapplet.cpp:150
+#: simpleapplet/simpleapplet.cpp:196
+msgid "View:"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:198
+msgid "Combined"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:206
+msgid "Format:"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:208
+msgid "Name only"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:209
+msgid "Description only"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:210
+msgid "Name Description"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:211
+msgid "Description (Name)"
+msgstr ""
+
 #, fuzzy
-#| msgid "Switch User"
-msgid "Switch user"
-msgstr "Przełączë brëkòwnika"
+#~| msgid "Switch User"
+#~ msgid "Switch user"
+#~ msgstr "Przełączë brëkòwnika"
