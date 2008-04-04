@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-02 16:21+0200\n"
+"POT-Creation-Date: 2008-04-04 16:32+0200\n"
 "PO-Revision-Date: 2007-12-31 16:17+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -3385,23 +3385,6 @@ msgstr "Klient NEC SOCKS"
 msgid "Dante SOCKS client"
 msgstr "Klient Dante SOCKS"
 
-#: kdecore/kernel/ktoolinvocation_win.cpp:72
-#: kdecore/kernel/ktoolinvocation_x11.cpp:81
-#, kde-format
-msgid ""
-"Could not launch the KDE Help Center:\n"
-"\n"
-"%1"
-msgstr ""
-"Ni mòże zrëszëc Centróm pòmòcë KDE: \n"
-"\n"
-"%1"
-
-#: kdecore/kernel/ktoolinvocation_win.cpp:73
-#: kdecore/kernel/ktoolinvocation_x11.cpp:82
-msgid "Could not Launch Help Center"
-msgstr "Ni mòże zrëszëc Centróm pòmòcë"
-
 #: kdecore/kernel/kcmdlineargs.cpp:270
 msgid "Use the X-server display 'displayname'"
 msgstr "Wëzwëskanié ekranu sewera X 'displayname'"
@@ -3689,7 +3672,7 @@ msgstr "Lopczi/URL-e òtemkniãté przez programã bãdą rëmóné pò brëkòw
 msgid "KDE-tempfile"
 msgstr "Czasowi lopk KDE"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:344
+#: kdecore/kernel/ktoolinvocation_x11.cpp:252
 #, kde-format
 msgid ""
 "Could not launch the mail client:\n"
@@ -3700,11 +3683,11 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:345
+#: kdecore/kernel/ktoolinvocation_x11.cpp:253
 msgid "Could not Launch Mail Client"
 msgstr "Ni mòże zrëszëc klienta pòcztë"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:359
+#: kdecore/kernel/ktoolinvocation_x11.cpp:267
 #, kde-format
 msgid ""
 "Could not launch the browser:\n"
@@ -3715,11 +3698,11 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:360
+#: kdecore/kernel/ktoolinvocation_x11.cpp:268
 msgid "Could not Launch Browser"
 msgstr "Ni mòże zrëszëc przezérnika"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:390
+#: kdecore/kernel/ktoolinvocation_x11.cpp:298
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not launch the mail client:\n"
@@ -3734,7 +3717,7 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:391
+#: kdecore/kernel/ktoolinvocation_x11.cpp:299
 #, fuzzy
 #| msgid "Could not Launch Mail Client"
 msgid "Could not Launch Terminal Client"
@@ -3826,11 +3809,11 @@ msgstr ""
 "ùdbie! Wëdowiédzô ò tim jakno mòżesz z nama wespółrobic nalezesz na naji "
 "starnie.</p>"
 
-#: kdecore/kernel/ktoolinvocation.cpp:73
+#: kdecore/kernel/ktoolinvocation.cpp:79
 msgid "Function must be called from the main thread."
 msgstr "Fùnkcëjô mùszi bëc wëwòłónô z przédnegò wątkù."
 
-#: kdecore/kernel/ktoolinvocation.cpp:110
+#: kdecore/kernel/ktoolinvocation.cpp:116
 #, fuzzy, kde-format
 #| msgid ""
 #| "KLauncher could not be reached via D-Bus, error when calling %1:\n"
@@ -3841,6 +3824,21 @@ msgid ""
 msgstr ""
 "KLauncher nie je przistãpny dlô DCOP, fela przë wëwòłaniu %1:\n"
 "%2\n"
+
+#: kdecore/kernel/ktoolinvocation.cpp:272
+#, kde-format
+msgid ""
+"Could not launch the KDE Help Center:\n"
+"\n"
+"%1"
+msgstr ""
+"Ni mòże zrëszëc Centróm pòmòcë KDE: \n"
+"\n"
+"%1"
+
+#: kdecore/kernel/ktoolinvocation.cpp:273
+msgid "Could not Launch Help Center"
+msgstr "Ni mòże zrëszëc Centróm pòmòcë"
 
 #: kdecore/sonnet/loader.cpp:162
 msgctxt "dictionary variant"
@@ -9609,7 +9607,9 @@ msgid "Open '%1'"
 msgstr "Òtemkni '%1'"
 
 #: khtml/khtml_ext.cpp:541
-msgid "Copy Email Address"
+#, fuzzy
+#| msgid "Copy Email Address"
+msgid "&Copy Email Address"
 msgstr "Skòpérëjë e-mailową adresã"
 
 #: khtml/khtml_ext.cpp:546
@@ -9617,7 +9617,9 @@ msgid "&Save Link As..."
 msgstr "&Zapiszë lënk jakno..."
 
 #: khtml/khtml_ext.cpp:551
-msgid "Copy &Link Address"
+#, fuzzy
+#| msgid "Copy &Link Address"
+msgid "&Copy Link Address"
 msgstr "Skòpérëjë adresã &lënka"
 
 #: khtml/khtml_ext.cpp:563
@@ -10332,7 +10334,7 @@ msgstr "fela parsowaniô: %1 w réze %2, kòlumnie %3"
 msgid "XML parsing error"
 msgstr "Fela parsera XML"
 
-#: khtml/xml/dom_docimpl.cpp:2162
+#: khtml/xml/dom_docimpl.cpp:2170
 msgid "Basic Page Style"
 msgstr "Pòdspòdlowi sztél starnë"
 

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libplasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-02 16:24+0200\n"
+"POT-Creation-Date: 2008-04-04 16:36+0200\n"
 "PO-Revision-Date: 2007-12-31 16:53+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -17,26 +17,26 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: applet.cpp:147
+#: applet.cpp:149
 msgid "Invalid applet description"
 msgstr ""
 
-#: applet.cpp:161
+#: applet.cpp:163
 #, kde-format
 msgid "Could not locate the %1 package required for the %2 widget."
 msgstr "Nie mòże zlokalizowac paczétu %1nót dlô widżetu %2."
 
-#: applet.cpp:185
+#: applet.cpp:181
 #, kde-format
 msgid "Could not create a %1 ScriptEngine for the %2 widget."
 msgstr "Nie mòże ùsôdzëc ScriptEngine %1 dlô widżetu %2."
 
-#: applet.cpp:189
+#: applet.cpp:185
 #, kde-format
 msgid "Could not open the %1 package required for the %2 widget."
 msgstr "Nie mòże òtemnąc paczétu %1 nót dlô widżetu %2."
 
-#: applet.cpp:386
+#: applet.cpp:383
 msgid "Script initialization failed"
 msgstr ""
 
@@ -44,7 +44,7 @@ msgstr ""
 msgid "Unknown Applet"
 msgstr "Nieznóny aplet"
 
-#: applet.cpp:584 applet.cpp:1383 applet.cpp:1384
+#: applet.cpp:584 applet.cpp:1421 applet.cpp:1422
 msgid "Miscellaneous"
 msgstr "Różné"
 
@@ -62,14 +62,21 @@ msgstr "Nen òbiekt nie mòże bëc ùsôdzony bez nen òrądz:<p>%1</p>"
 msgid "Configure..."
 msgstr "Kònfigùracëjô..."
 
-#: applet.cpp:1306 applet.cpp:1319 containment.cpp:337
-#, kde-format
+#: applet.cpp:1319
+#, fuzzy, kde-format
+#| msgid "%1 Settings"
+msgctxt "@title:window"
 msgid "%1 Settings"
 msgstr "Ùstôwë %1"
 
-#: applet.cpp:1319
+#: applet.cpp:1340
 msgid "Settings"
 msgstr "Ùstôwë"
+
+#: applet.cpp:1340 containment.cpp:337
+#, kde-format
+msgid "%1 Settings"
+msgstr "Ùstôwë %1"
 
 #: appletbrowser.cpp:77
 msgid "All Widgets"
