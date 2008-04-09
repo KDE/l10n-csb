@@ -1,21 +1,20 @@
-# translation of filetypes.po to Kashubian
+# translation of filetypes.po to Kaszëbsczi
 #
 # Mark Kwidzińsczi <mark@linuxcsb.org>, 2007.
-# Michôł Òstrowsczi <michol@linuxcsb.org>, 2007.
+# Michôł Òstrowsczi <michol@linuxcsb.org>, 2007, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: filetypes\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-03-26 14:39+0100\n"
-"PO-Revision-Date: 2007-02-24 20:35+0100\n"
+"PO-Revision-Date: 2008-04-09 18:49+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
-"Language-Team: Kashubian\n"
+"Language-Team: Kaszëbsczi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
 #: filegroupdetails.cpp:36 filetypedetails.cpp:140
 msgid "Left Click Action"
@@ -133,10 +132,10 @@ msgid "Extension:"
 msgstr "Rozszérzenié:"
 
 #: filetypedetails.cpp:329
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Edit File Type %1"
 msgid "File type %1"
-msgstr "Editëjë ôrt lopka %1"
+msgstr "ôrt lopka %1"
 
 #: filetypedetails.cpp:336
 #, kde-format
@@ -144,7 +143,6 @@ msgid "Use settings for '%1' group"
 msgstr "Brëkùjë nastôwów dlô karna '%1'"
 
 #: filetypesview.cpp:45
-#, fuzzy
 #| msgid ""
 #| "<p><h1>File Associations</h1> This module allows you to choose which "
 #| "applications are associated with a given type of file. File types are "
@@ -183,7 +181,7 @@ msgid ""
 "cases, KDE is able to determine the MIME-type by directly examining the "
 "contents of the file.</p>"
 msgstr ""
-"<h1>Sparłączenié lopków</h1>Mòduł zezwôlô na wëbiérk tegò, jaczé programë są "
+"<p><h1>Sparłączenié lopków</h1>Mòduł zezwôlô na wëbiérk tegò, jaczé programë są "
 "sparłączoné z gwësnym ôrtã lopków. Ôrtë lopków są téż òznaczoné jakno ôrtë "
 "MIME (MIME je angielską skrodzëną òd \"Ùniwersalnégò Rozszérzeniô "
 "Internetowi Elektroniczny Pòcztë\").</p><p> Sparłączenié lopka zëstôwioné je "
@@ -198,16 +196,14 @@ msgstr ""
 "ùsôdzanô je prioritetowô lësta.</li></ul>Niejedné ôrtë MIME nie mają (co "
 "mòże wëdôwac sã kąsk dzywné) sparłączonëch mùstrół mionów. W taczich "
 "przëtrôfkach Konqueror je w sztãdze rozpòznac ôrt lopka, badérejąc jegò "
-"zamkłosc."
+"zamkłosc.</p>"
 
 #: filetypesview.cpp:76
-#, fuzzy
 #| msgid "F&ind filename pattern:"
 msgid "F&ind file type or filename pattern:"
-msgstr "Nale&zë mùstrë lopków:"
+msgstr "Nalé&zë mùstrë mionów abò ôrtów lopków:"
 
 #: filetypesview.cpp:87
-#, fuzzy
 #| msgid ""
 #| "Enter a part of a filename pattern. Only file types with a matching file "
 #| "pattern will appear in the list."
@@ -217,7 +213,7 @@ msgid ""
 "name as it appears in the list."
 msgstr ""
 "Wprowôdzë dzél mùstra lopków. Na lëscë pòkôżą sã blós ôrtë lopków, chtërné "
-"do niegò pasëją."
+"do niegò pasëją. Abò wpiszë le dzélk miona ôrtu lopka w miarã jak pòkazëjë sã na lëscë."
 
 #: filetypesview.cpp:98
 msgid "Known Types"
@@ -256,8 +252,7 @@ msgid "KEditFileType"
 msgstr "KEditFileType"
 
 #: keditfiletype.cpp:122
-msgid ""
-"KDE file type editor - simplified version for editing a single file type"
+msgid "KDE file type editor - simplified version for editing a single file type"
 msgstr ""
 "Editora ôrtów lopków KDE - wersëjô ùprosconô do edicëji ôrtu pòjedińczëch "
 "lopków"
@@ -358,8 +353,7 @@ msgstr ""
 msgid ""
 "Assigns a higher priority to the selected\n"
 "service, moving it up in the list."
-msgstr ""
-"Przëpisëje wikszi prioritet zaznaczony ùsłëżnoce, przenosząc jã w górã lëstë."
+msgstr "Przëpisëje wikszi prioritet zaznaczony ùsłëżnoce, przenosząc jã w górã lëstë."
 
 #: kservicelistwidget.cpp:109
 msgid "Move &Down"
@@ -380,8 +374,7 @@ msgstr ""
 msgid ""
 "Assigns a lower priority to the selected\n"
 "service, moving it down in the list."
-msgstr ""
-"Przëpisëje niższi prioritet zaznaczony ùsłëżnoce, przenosząc jã w górã lëstë."
+msgstr "Przëpisëje niższi prioritet zaznaczony ùsłëżnoce, przenosząc jã w górã lëstë."
 
 #: kservicelistwidget.cpp:127
 msgid "Add a new application for this file type."
@@ -400,14 +393,12 @@ msgid "Remove the selected application from the list."
 msgstr "Rëmôj zaznaczoną programã z lëstë."
 
 #: kservicelistwidget.cpp:172
-#, fuzzy
 #| msgid "None"
 msgctxt "No applications associated with this file type"
 msgid "None"
 msgstr "Felënk"
 
 #: kservicelistwidget.cpp:174
-#, fuzzy
 #| msgid "None"
 msgctxt "No components associated with this file type"
 msgid "None"
@@ -450,7 +441,7 @@ msgid ""
 "Type the name of the file type. For instance, if you selected 'image' as "
 "category and you type 'custom' here, the file type 'image/custom' will be "
 "created."
-msgstr ""
+msgstr "Wpiszë miono ôrtu lopka. Na przëmiôr, jeżlë wëbierzesz 'image' jakno kategòrëjã a wpiszësz 'custom' tuwò, ôrt lopkù 'image/custom' òstanie ùsôdzony."
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -462,20 +453,3 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
 
-#~ msgid "The service <b>%1</b> can not be removed."
-#~ msgstr "Nie mòże rëmnąc ùsłëżnotë <b>%1</b>."
-
-#~ msgid ""
-#~ "The service is listed here because it has been associated with the <b>%1</"
-#~ "b> (%2) file type and files of type <b>%3</b> (%4) are per definition "
-#~ "also of type <b>%5</b>."
-#~ msgstr ""
-#~ "Ùsłëżnota òsta wstôwionô tuwò, bò je sparłączonô z lopkama ôrtu <b>%1</b> "
-#~ "(%2), a lopczi ôrtu <b>%3</b> (%4) są z definicëji téż ôrtu <b>%5</b>."
-
-#~ msgid ""
-#~ "Either select the <b>%1</b> file type to remove the service from there or "
-#~ "move the service down to deprecate it."
-#~ msgstr ""
-#~ "Proszã wëbrac ôrt lopków <b>%1</b> do rëmniãcô ùsłëżnotë, abò przeniesc "
-#~ "ùsłëżnotã w dół, bë ògrańczëc ji brëkùnk."
