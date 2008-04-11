@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmicons\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-08 21:25+0200\n"
+"POT-Creation-Date: 2008-04-10 22:59+0200\n"
 "PO-Revision-Date: 2008-04-09 18:50+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi\n"
@@ -15,7 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2)\n"
 
 #: icons.cpp:51
 msgid "Use of Icon"
@@ -146,33 +147,60 @@ msgid "Description"
 msgstr "Òpisënk"
 
 #: iconthemes.cpp:103
-#| msgid "Install New Theme..."
 msgid "Install Theme File..."
 msgstr "Instalëjë lopk témë..."
 
-#: iconthemes.cpp:107
-#| msgid "Install New Theme..."
+#: iconthemes.cpp:105
+msgid "Install a theme archive file you already have locally"
+msgstr ""
+
+#: iconthemes.cpp:106
+msgid ""
+"If you already have a theme archive locally, this button will unpack it and "
+"make it available for KDE applications"
+msgstr ""
+
+#: iconthemes.cpp:109
 msgid "Get New Themes..."
 msgstr "Zladëjë nową témã..."
 
 #: iconthemes.cpp:111
+msgid "Get new themes from the Internet"
+msgstr ""
+
+#: iconthemes.cpp:112
+msgid ""
+"You need to be connected to the Internet to use this action. A dialog will "
+"display a list of themes from the http://www.kde.org website. Clicking the "
+"Install button associated with a theme will install this theme locally."
+msgstr ""
+
+#: iconthemes.cpp:115
 msgid "Remove Theme"
 msgstr "Rëmôj témã"
 
-#: iconthemes.cpp:116
+#: iconthemes.cpp:117
+msgid "Remove the selected theme from your disk"
+msgstr ""
+
+#: iconthemes.cpp:118
+msgid "This will remove the selected theme from your disk."
+msgstr ""
+
+#: iconthemes.cpp:122
 msgid "Select the icon theme you want to use:"
 msgstr "Wëbierzë témã ikònów jaką chcesz ùżëc:"
 
-#: iconthemes.cpp:185
+#: iconthemes.cpp:191
 msgid "Drag or Type Theme URL"
 msgstr "Przësënie abò wpiszë URL témë"
 
-#: iconthemes.cpp:196
+#: iconthemes.cpp:202
 #, kde-format
 msgid "Unable to find the icon theme archive %1."
 msgstr "Nie mòże nalezc archiwùm témë ikònów %1."
 
-#: iconthemes.cpp:199
+#: iconthemes.cpp:205
 #, kde-format
 msgid ""
 "Unable to download the icon theme archive;\n"
@@ -181,11 +209,11 @@ msgstr ""
 "Nie mòże zladowac archiwùm témë ikònów;\n"
 "proszã sprôwdzë, czë na adresa %1 je prôwdzëwô."
 
-#: iconthemes.cpp:208
+#: iconthemes.cpp:214
 msgid "The file is not a valid icon theme archive."
 msgstr "Nen lopk nie je prôwdzewim archiwòm témë ikònów."
 
-#: iconthemes.cpp:219
+#: iconthemes.cpp:225
 msgid ""
 "A problem occurred during the installation process; however, most of the "
 "themes in the archive have been installed"
@@ -193,16 +221,16 @@ msgstr ""
 "Wëstãpiła problema òbczas procesu instalacëji; równak, wikszi dzél témów w "
 "archiwùm òstôł zainstalowóny"
 
-#: iconthemes.cpp:241
+#: iconthemes.cpp:247
 msgid "Installing icon themes"
 msgstr "Instalowanié témów ikònów"
 
-#: iconthemes.cpp:260
+#: iconthemes.cpp:266
 #, kde-format
 msgid "<qt>Installing <strong>%1</strong> theme</qt>"
 msgstr "<qt>Instalowanié <strong>%1</strong> témë</qt>"
 
-#: iconthemes.cpp:352
+#: iconthemes.cpp:358
 #, kde-format
 msgid ""
 "<qt>Are you sure you want to remove the <strong>%1</strong> icon theme?<br /"
@@ -211,7 +239,7 @@ msgstr ""
 "<qt>Jes të gwës, że chcesz rëmnąc témã ikònów <strong>%1</strong>? <br /"
 "><br />To rëmnie lopczi zainstalowóné bez tã témã.</qt>"
 
-#: iconthemes.cpp:360
+#: iconthemes.cpp:366
 msgid "Confirmation"
 msgstr "Pòcwierdzenié"
 
@@ -280,4 +308,3 @@ msgstr "Michôł Òstrowsczi"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "michol@linuxcsb.org"
-
