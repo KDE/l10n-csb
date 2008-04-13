@@ -1,33 +1,31 @@
-# translation of solidshell.po to Kashubian
+# translation of solid-hardware.po to Kaszëbsczi
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Michôł Òstrowsczi <michol@linuxcsb.org>, 2007.
+# Michôł Òstrowsczi <michol@linuxcsb.org>, 2007, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: solidshell\n"
+"Project-Id-Version: solid-hardware\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-03-22 20:22+0100\n"
-"PO-Revision-Date: 2007-08-20 21:01+0200\n"
+"PO-Revision-Date: 2008-04-13 09:31+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
-"Language-Team: Kashubian\n"
+"Language-Team: Kaszëbsczi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2)\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
 #: solid-hardware.cpp:45
 msgid "solid-hardware"
-msgstr ""
+msgstr "solid-hardware"
 
 #: solid-hardware.cpp:47
-#, fuzzy
 #| msgid ""
 #| "KDE tool for querying and controlling your hardware from the command line"
 msgid "KDE tool for querying your hardware from the command line"
-msgstr "Nôrzãdzé KDE dlô zapëtaniów a kòntrolr twòji hard-wôrë z rézë pòlétów"
+msgstr "Nôrzãdzé KDE dlô zapëtaniów a kòntrolë twòji hard-wôrë z rézë pòlétów"
 
 #: solid-hardware.cpp:159
 msgid "Syntax Error: Not enough arguments"
@@ -38,10 +36,9 @@ msgid "Syntax Error: Too many arguments"
 msgstr "Fela syntaksë: za wiele argùmentów"
 
 #: solid-hardware.cpp:177
-#, fuzzy
 #| msgid "Show available commands by domains"
 msgid "Show available commands"
-msgstr "Pòkôżë przëstãpny pòlétë pò domenach"
+msgstr "Pòkôżë przëstãpny pòlétë"
 
 #: solid-hardware.cpp:179
 msgid "Command (see --commands)"
@@ -106,22 +103,16 @@ msgid ""
 msgstr ""
 
 #: solid-hardware.cpp:220
-msgid ""
-"             # If applicable, mount the device corresponding to 'udi'.\n"
-msgstr ""
-"             # Żelë przëstãpné, zamòntujë ùrządzenié sparłączoné z 'udi'.\n"
+msgid "             # If applicable, mount the device corresponding to 'udi'.\n"
+msgstr "             # Żelë przëstãpné, zamòntujë ùrządzenié sparłączoné z 'udi'.\n"
 
 #: solid-hardware.cpp:223
-msgid ""
-"             # If applicable, unmount the device corresponding to 'udi'.\n"
-msgstr ""
-"             # Żelë przëstãpné, òdmòntujë ùrządzenié sparłączoné z 'udi'.\n"
+msgid "             # If applicable, unmount the device corresponding to 'udi'.\n"
+msgstr "             # Żelë przëstãpné, òdmòntujë ùrządzenié sparłączoné z 'udi'.\n"
 
 #: solid-hardware.cpp:226
-msgid ""
-"             # If applicable, eject the device corresponding to 'udi'.\n"
-msgstr ""
-"             # Żelë przëstãpné, wëjmi ùrządzenié sparłączoné z 'udi'.\n"
+msgid "             # If applicable, eject the device corresponding to 'udi'.\n"
+msgstr "             # Żelë przëstãpné, wëjmi ùrządzenié sparłączoné z 'udi'.\n"
 
 #: solid-hardware.cpp:297
 #, kde-format
@@ -153,89 +144,3 @@ msgstr "Pòkrok: %1%"
 msgid "Info: %1"
 msgstr "Infò: %1"
 
-#~ msgid "solidshell"
-#~ msgstr "solidshell"
-
-#~ msgid "Domain (see --commands)"
-#~ msgstr "Domena (zdrzë --commands)"
-
-#~ msgid "             # Suspend the computer using the given 'method'.\n"
-#~ msgstr "             # Zawiészë kòmpùtr brëkùjąc pòdóny metodë 'method'.\n"
-
-#~ msgid "             # List the network devices present.\n"
-#~ msgstr "             # Pòkôżë biéżné sécowé ùrządzenia.\n"
-
-#~ msgid ""
-#~ "             # List the networks known to the device specified by 'uni'.\n"
-#~ msgstr ""
-#~ "             # Pòkôżë znóné sécë dlô ùrządzeniô pòdónegò bez 'uni'.\n"
-
-#~ msgid "             # Enable or disable networking on this system.\n"
-#~ msgstr "             # Włączë abò wëłączë séc w ti systemie.\n"
-
-#~ msgid "             # List bluetooth adapters/interfaces\n"
-#~ msgstr "             # Pòkôżë adapter/interfejsë bluetooth\n"
-
-#~ msgid "             # List bluetooth default adapter/interface\n"
-#~ msgstr "             # Pòkôżë domëslny adapter/interfejs bluetooth\n"
-
-#~ msgid ""
-#~ "             # Query information about the bluetooth adapter/interface "
-#~ "with 'ubi'\n"
-#~ msgstr "             # Òdpëtôj za adapterã/interfejsã bluetooth z 'ubi'\n"
-
-#~ msgid "             # Scan for bluetooth remote devices.\n"
-#~ msgstr "             # Skanëjë za daleczima ùrządzeniama bluetooth.\n"
-
-#, fuzzy
-#~| msgid "             # List configured input deviceses.\n"
-#~ msgid "             # List configured input devices.\n"
-#~ msgstr "             # Pòkôżë skònfigùrowóné ùrządzenia wéńdzeniowi.\n"
-
-#~ msgid "Syntax Error: Unknown option '%1'"
-#~ msgstr "Fela syntaksë: Nieznónô òptacëjô '%1'"
-
-#~ msgid "Unrecognised WEP type '%1'"
-#~ msgstr "Nierozpòznóny ôrt WEP '%1'"
-
-#~ msgid "Unrecognised WEP method '%1'"
-#~ msgstr "Nierozpòznónô metoda WEP '%1'"
-
-#~ msgid "Unrecognised WPA version '%1'"
-#~ msgstr "Nierozpòznónô wersëja WPA '%1'"
-
-#~ msgid "Unrecognised WPA encryption protocol '%1'"
-#~ msgstr "Nierozpòznóny protokół enkripcëji WPA '%1'"
-
-#~ msgid "Unimplemented auth scheme '%1'"
-#~ msgstr "Niezaimplementowónô schéma aùtorizacëji '%1'"
-
-#~ msgid "Syntax Error: Unknown object '%1'"
-#~ msgstr "Fela syntaksë: Nieznóny òbiekt '%1'"
-
-#~ msgid "Syntax Error: Unknown command group '%1'"
-#~ msgstr "Fela syntaksë: Nieznónô grëpa pòlétów '%1'"
-
-#~ msgid "Unsupported suspend method: %1"
-#~ msgstr "Niewspierónô metoda zawiészaniô: %1"
-
-#~ msgid "Error: unsupported operation!"
-#~ msgstr "Fela: niewspierónô òperacëjô!"
-
-#~ msgid "Unsupported scheme: %1"
-#~ msgstr "Niewspierónô schéma: %1"
-
-#~ msgid "Unsupported cpufreq policy: %1"
-#~ msgstr "Niewspierónô pòlitika cpufreq: %1"
-
-#~ msgid "networking: is enabled"
-#~ msgstr "séc: je włączonô"
-
-#~ msgid "networking: is not enabled"
-#~ msgstr "séc: nie je włączonô"
-
-#~ msgid "wireless: is enabled"
-#~ msgstr "bezdrutowô séc: je włączonô"
-
-#~ msgid "wireless: is not enabled"
-#~ msgstr "bezdrutowô séc: nie je włączonô"
