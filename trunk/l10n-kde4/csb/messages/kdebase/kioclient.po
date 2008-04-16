@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kioclient\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-22 07:57+0100\n"
+"POT-Creation-Date: 2008-04-14 18:45+0200\n"
 "PO-Revision-Date: 2008-04-15 08:28+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi\n"
@@ -15,7 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2)\n"
 
 #: kioclient.cpp:42
 msgid "KIO Client"
@@ -54,7 +55,8 @@ msgid ""
 "            #   document, or it may be a *.desktop file.\n"
 msgstr ""
 "  kioclient exec 'url' ['mimetype']\n"
-"            # Próbùjë òtemknąc dokùment wskôzóny bez adresã 'url' w aplikacëji\n"
+"            # Próbùjë òtemknąc dokùment wskôzóny bez adresã 'url' w "
+"aplikacëji\n"
 "            #   zrzëszony z nim z KDE. Mòżesz òminąc 'mimetype'.\n"
 "            #   W taczim przëtrôfkù ôrt mimë je aùtomatno\n"
 "            #   sprôwdzóny. Adresa mòże bëc adresą\n"
@@ -71,9 +73,16 @@ msgstr ""
 "            #   'src' mòże bëc lëstą adersów.\n"
 
 #: kioclient.cpp:68
+#, fuzzy
+#| msgid ""
+#| "  kioclient download ['src']\n"
+#| "            # Copies the URL 'src' to a user specified location'.\n"
+#| "            #   'src' may be a list of URLs, if not present then\n"
+#| "            #   a URL will be requested.\n"
+#| "\n"
 msgid ""
 "  kioclient download ['src']\n"
-"            # Copies the URL 'src' to a user specified location'.\n"
+"            # Copies the URL 'src' to a user-specified location'.\n"
 "            #   'src' may be a list of URLs, if not present then\n"
 "            #   a URL will be requested.\n"
 "\n"
@@ -107,10 +116,16 @@ msgstr ""
 "\n"
 
 #: kioclient.cpp:78
+#, fuzzy
+#| msgid ""
+#| "*** Examples:\n"
+#| "  kioclient exec file:/root/Desktop/cdrom.desktop \"Mount default\"\n"
+#| "             // Mounts the CD-ROM\n"
+#| "\n"
 msgid ""
 "*** Examples:\n"
 "  kioclient exec file:/root/Desktop/cdrom.desktop \"Mount default\"\n"
-"             // Mounts the CD-ROM\n"
+"             // Mounts the CDROM\n"
 "\n"
 msgstr ""
 "*** Przëmiôrë:\n"
@@ -159,9 +174,14 @@ msgstr ""
 "\n"
 
 #: kioclient.cpp:89
+#, fuzzy
+#| msgid ""
+#| "  kioclient exec file:/root/Desktop/cdrom.desktop\n"
+#| "             // Opens the CD-ROM's mount directory\n"
+#| "\n"
 msgid ""
 "  kioclient exec file:/root/Desktop/cdrom.desktop\n"
-"             // Opens the CD-ROM's mount directory\n"
+"             // Opens the CDROM's mount directory\n"
 "\n"
 msgstr ""
 "  kioclient exec file:/root/Desktop/cdrom.desktop\n"
@@ -179,19 +199,25 @@ msgstr ""
 "\n"
 
 #: kioclient.cpp:102
-msgid "Non interactive use: no message boxes"
+#, fuzzy
+#| msgid "Non interactive use: no message boxes"
+msgid "Non-interactive use: no message boxes"
 msgstr "Nieinteraktiwny trib: bez òknów wiadłów"
 
 #: kioclient.cpp:104
-msgid "url or urls"
-msgstr "url abò url-ë"
+msgid "URL or URLs"
+msgstr ""
 
 #: kioclient.cpp:106 kioclient.cpp:109
-msgid "Source url or urls"
+#, fuzzy
+#| msgid "Source url or urls"
+msgid "Source URL or URLs"
 msgstr "Zdrój url abò url-ë"
 
 #: kioclient.cpp:107 kioclient.cpp:110
-msgid "Destination url"
+#, fuzzy
+#| msgid "Destination url"
+msgid "Destination URL"
 msgstr "Docélowy url"
 
 #: kioclient.cpp:112
@@ -223,3 +249,5 @@ msgstr "Nie mòże zladowac ze zmiłkòwy adresë URL."
 msgid "Syntax Error: Unknown command '%1'\n"
 msgstr "Fela syntaksë: Nieznóny pòlét '%1'\n"
 
+#~ msgid "url or urls"
+#~ msgstr "url abò url-ë"
