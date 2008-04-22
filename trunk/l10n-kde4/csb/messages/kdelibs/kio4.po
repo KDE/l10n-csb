@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-19 21:54+0200\n"
+"POT-Creation-Date: 2008-04-21 20:02+0200\n"
 "PO-Revision-Date: 2007-12-31 00:17+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -426,6 +426,40 @@ msgid ""
 msgstr ""
 "Certifikat SSL òstôł òdrzucony zgòdno z żëczbą. Mòżesz to zmienic w Centróm "
 "kòntrolë KDE."
+
+#: kio/jobuidelegate.cpp:129 ../kfile/kdiroperator.cpp:725
+#, kde-format
+msgid "Do you really want to delete this item?"
+msgid_plural "Do you really want to delete these %1 items?"
+msgstr[0] "Na gwës rëmnąc %1 element?"
+msgstr[1] "Na gwës rëmnąc %1 elementë?"
+msgstr[2] "Na gwës rëmnąc %1 elementów?"
+
+#: kio/jobuidelegate.cpp:131 ../kfile/kdiroperator.cpp:727
+msgid "Delete Files"
+msgstr "Rëmôj lopczi"
+
+#: kio/jobuidelegate.cpp:141
+#, fuzzy, kde-format
+#| msgid "Do you really want to delete this item?"
+#| msgid_plural "Do you really want to delete these %1 items?"
+msgid "Do you really want to move this item to the trash?"
+msgid_plural "Do you really want to move these %1 items to the trash?"
+msgstr[0] "Na gwës rëmnąc %1 element?"
+msgstr[1] "Na gwës rëmnąc %1 elementë?"
+msgstr[2] "Na gwës rëmnąc %1 elementów?"
+
+#: kio/jobuidelegate.cpp:143 ../kfile/kdiroperator.cpp:1577
+msgid "Move to Trash"
+msgstr "Przesënié do kòsza"
+
+#: kio/jobuidelegate.cpp:144
+#, fuzzy
+#| msgctxt "to trash"
+#| msgid "&Trash"
+msgctxt "Verb"
+msgid "&Trash"
+msgstr "&Kòsz"
 
 #: kio/skipdialog.cpp:40
 msgid "Information"
@@ -5655,18 +5689,6 @@ msgstr ""
 msgid "Delete File"
 msgstr "Rëmôj lopk"
 
-#: ../kfile/kdiroperator.cpp:725
-#, kde-format
-msgid "Do you really want to delete this item?"
-msgid_plural "Do you really want to delete these %1 items?"
-msgstr[0] "Na gwës rëmnąc %1 element?"
-msgstr[1] "Na gwës rëmnąc %1 elementë?"
-msgstr[2] "Na gwës rëmnąc %1 elementów?"
-
-#: ../kfile/kdiroperator.cpp:727
-msgid "Delete Files"
-msgstr "Rëmôj lopczi"
-
 #: ../kfile/kdiroperator.cpp:758
 msgid "You did not select a file to trash."
 msgstr "Ni môsz wëbrónegò lopka do przesëniãcô do kòsza."
@@ -5728,10 +5750,6 @@ msgstr "Zladëjë znowa"
 #: ../kfile/kdiroperator.cpp:1572
 msgid "New Folder..."
 msgstr "Nowi katalog..."
-
-#: ../kfile/kdiroperator.cpp:1577
-msgid "Move to Trash"
-msgstr "Przesënié do kòsza"
 
 #: ../kfile/kdiroperator.cpp:1583
 msgid "Delete"

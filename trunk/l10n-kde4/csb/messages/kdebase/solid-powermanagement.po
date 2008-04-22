@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solid-powermanagement\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-22 20:23+0100\n"
+"POT-Creation-Date: 2008-04-21 20:06+0200\n"
 "PO-Revision-Date: 2008-04-08 22:48+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi\n"
@@ -81,46 +81,55 @@ msgstr ""
 msgid "             # Suspend the computer using the given 'method'.\n"
 msgstr "             # Zawiészë kòmpùtr brëkùjąc pòdóny metodë 'method'.\n"
 
-#: solid-powermanagement.cpp:263 solid-powermanagement.cpp:282
+#: solid-powermanagement.cpp:219
+msgid ""
+"             # Set and get brightness options of the system.\n"
+"             # - If the 'set' option is specified, the brightness is\n"
+"             # set to 'value' (as a percentage)\n"
+"             # - If the 'get' option is specified, the current brightness\n"
+"             # is returned (as a percentage)'\n"
+msgstr ""
+
+#: solid-powermanagement.cpp:270 solid-powermanagement.cpp:289
 #, kde-format
 msgid "Syntax Error: Unknown option '%1'"
 msgstr "Fela syntaksë: Nieznónô òptacëjô '%1'"
 
-#: solid-powermanagement.cpp:287
+#: solid-powermanagement.cpp:306
 #, kde-format
 msgid "Syntax Error: Unknown command '%1'"
 msgstr "Fela syntaksë: Nieznóny pòlét '%1'"
 
-#: solid-powermanagement.cpp:336
+#: solid-powermanagement.cpp:355
 #, kde-format
 msgid "Unsupported suspend method: %1"
 msgstr "Niewspierónô metoda zawiészaniô: %1"
 
-#: solid-powermanagement.cpp:344
+#: solid-powermanagement.cpp:363
 msgid "Error: unsupported operation!"
 msgstr "Fela: niewspierónô òperacëjô!"
 
-#: solid-powermanagement.cpp:355
+#: solid-powermanagement.cpp:374
 #, kde-format
 msgid "Error: %1"
 msgstr "Fela: %1"
 
-#: solid-powermanagement.cpp:392
+#: solid-powermanagement.cpp:411
 #, kde-format
 msgid "Unsupported scheme: %1"
 msgstr "Niewspierónô schéma: %1"
 
-#: solid-powermanagement.cpp:479
+#: solid-powermanagement.cpp:498
 #, kde-format
 msgid "Unsupported cpufreq policy: %1"
 msgstr "Niewspierónô pòlitika cpufreq: %1"
 
-#: solid-powermanagement.cpp:498
+#: solid-powermanagement.cpp:529
 #, kde-format
 msgid "Progress: %1%"
 msgstr "Pòkrok: %1%"
 
-#: solid-powermanagement.cpp:503
+#: solid-powermanagement.cpp:534
 #, kde-format
 msgid "Info: %1"
 msgstr "Infò: %1"
