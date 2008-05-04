@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-26 08:26+0200\n"
+"POT-Creation-Date: 2008-05-03 09:16+0200\n"
 "PO-Revision-Date: 2008-04-13 09:44+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi\n"
@@ -180,134 +180,111 @@ msgstr "Aaron J. Seigo"
 msgid "Author and maintainer"
 msgstr "Ùsôdzca ë òpiekùn"
 
-#: interface.cpp:79
+#: interface.cpp:70
 #, kde-format
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: interface.cpp:83
+#: interface.cpp:74
 #, kde-format
 msgid "%1 (%2, %3)"
 msgstr "%1 (%2, %3)"
 
-#: interface.cpp:135
+#: interface.cpp:126
 msgid "Default: "
 msgstr "Domëslné: "
 
-#: interface.cpp:306 krunnerapp.cpp:133 krunnerapp.cpp:134
+#: interface.cpp:175 krunnerapp.cpp:133 krunnerapp.cpp:134
 msgid "Run Command"
 msgstr "Zrëszë pòlét"
 
-#: interface.cpp:365 interface.cpp:721 interface.cpp:761 interface.cpp:764
-msgid "Show Options"
+#: interface.cpp:229 interface.cpp:530 interface.cpp:570 interface.cpp:573
+#, fuzzy
+#| msgid "Show Options"
+msgid "Show &Options"
 msgstr "Pòkôżë òptacëje"
 
-#: interface.cpp:372 krunnerapp.cpp:144 krunnerapp.cpp:145
+#: interface.cpp:236 krunnerapp.cpp:144 krunnerapp.cpp:145
 msgid "Show System Activity"
 msgstr "Pòkôżë systemòwą aktiwnotã"
 
-#: interface.cpp:380
+#: interface.cpp:244
 msgid "Click to execute the selected item above"
 msgstr "Klëkni, żebë zrëszëc wëbróny wëżi element"
 
-#: interface.cpp:381
+#: interface.cpp:245
 msgid "Launch"
 msgstr "Zrëszë"
 
-#: interface.cpp:477
+#: interface.cpp:325
 msgid "Switch users"
 msgstr "Przełączë brëkòwników"
 
-#: interface.cpp:498
+#: interface.cpp:346
 msgid "No desktop sessions available"
 msgstr "Felëje sesëjów pùltu"
 
-#: interface.cpp:520
+#: interface.cpp:368
 msgid "Enter the name of an application, location or search term below."
 msgstr "Wpiszë miono aplikacëji, môl abò wëszëkô słowò niżi."
 
-#: interface.cpp:717 interface.cpp:759
-msgid "Hide Options"
+#: interface.cpp:526 interface.cpp:568
+#, fuzzy
+#| msgid "Hide Options"
+msgid "Hide &Options"
 msgstr "Zatacë òptacëje"
 
 #. i18n: tag label
-#. i18n: file krunner.kcfg line 15
-#: rc.cpp:11
-msgid "Whitelist of allowed runners."
-msgstr "Biôłô lësta dlô dozwòlnonëch zrëszôczów."
-
-#. i18n: tag whatsthis
 #. i18n: file krunner.kcfg line 16
-#: rc.cpp:14
-msgid "If set, this list defines which runners will be used at runtime."
-msgstr ""
-
-#. i18n: tag label
-#. i18n: file krunner.kcfg line 21
-#: rc.cpp:17
+#: rc.cpp:11
 msgid "Completion mode used for the query text."
 msgstr ""
 
 #. i18n: tag label
-#. i18n: file krunner.kcfg line 26
-#: rc.cpp:20
+#. i18n: file krunner.kcfg line 21
+#: rc.cpp:14
 msgid "History if past queries successfully completed"
 msgstr ""
 
 #. i18n: tag label
-#. i18n: file krunner.kcfg line 32
-#: rc.cpp:24
-msgid "Maximum number of threads to use for searches."
-msgstr "Maksimalnô lëczba wątków do ùżëcô przez szëkbã."
-
-#. i18n: tag whatsthis
-#. i18n: file krunner.kcfg line 33
-#: rc.cpp:27
-msgid ""
-"The number of threads used scales with the number of processors. This entry "
-"allows you to define a hard upper limit independent of the number of "
-"processors."
-msgstr ""
-
-#. i18n: tag label
-#. i18n: file krunner.kcfg line 41
-#: rc.cpp:30
+#. i18n: file krunner.kcfg line 27
+#: rc.cpp:18
 msgid "Whether to keep the tasks dialog above other windows when shown."
 msgstr "Czë trzëmac òkno robòtów nad jinëma òkna, czej sã zjôwią."
 
 #. i18n: tag label
 #. i18n: file kscreensaversettings.kcfg line 11
-#: rc.cpp:34
+#: rc.cpp:22
 msgid "Enable screen saver"
 msgstr "Włączë wëgaszôcz ekranu"
 
 #. i18n: tag whatsthis
 #. i18n: file kscreensaversettings.kcfg line 12
-#: rc.cpp:37
+#: rc.cpp:25
 msgid "Enables the screen saver."
 msgstr "Włączô wëgaszôcz ekranu."
 
 #. i18n: tag label
 #. i18n: file kscreensaversettings.kcfg line 16
-#: rc.cpp:40
+#: rc.cpp:28
 msgid "Screen saver timeout"
 msgstr "Czas zrëszëniô wëgaszôcza ekranu"
 
 #. i18n: tag whatsthis
 #. i18n: file kscreensaversettings.kcfg line 17
-#: rc.cpp:43
+#: rc.cpp:31
 msgid "Sets the seconds after which the screen saver is started."
 msgstr "Ùstôwiô czas w sekùndach pò jaczim wëgaszôcz bãdze wëstartowóny."
 
 #. i18n: tag label
 #. i18n: file kscreensaversettings.kcfg line 21
-#: rc.cpp:46
+#: rc.cpp:34
 msgid "Suspend screen saver when DPMS kicks in"
 msgstr "Zawieszë wëgaszôcz ekrana czedë wchòdajë DPMS"
 
 #. i18n: tag whatsthis
 #. i18n: file kscreensaversettings.kcfg line 24
-#: rc.cpp:49
+#: rc.cpp:37
 msgid ""
 "Usually the screen saver is suspended when display power saving kicks in,\n"
 "       as nothing can be seen on the screen anyway, obviously. However, some "
@@ -316,12 +293,12 @@ msgid ""
 "suspend them."
 msgstr ""
 
-#: rc.cpp:76
+#: rc.cpp:64
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Michôł Òstrowsczi"
 
-#: rc.cpp:77
+#: rc.cpp:65
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "michol@linuxcsb.org"
@@ -369,3 +346,9 @@ msgstr ""
 "Menadżera sesëji nie mòże bëc pòdłączonô. Mòżesz spróbòwac wëmùszëc "
 "zamkniãcé wcëskając Ctrl+Alt+Backspace. Bôczë, że Twòjô biéżnô sesëja nie "
 "mdze zapisónô pò wëmùszonym zamkniãcu."
+
+#~ msgid "Whitelist of allowed runners."
+#~ msgstr "Biôłô lësta dlô dozwòlnonëch zrëszôczów."
+
+#~ msgid "Maximum number of threads to use for searches."
+#~ msgstr "Maksimalnô lëczba wątków do ùżëcô przez szëkbã."
