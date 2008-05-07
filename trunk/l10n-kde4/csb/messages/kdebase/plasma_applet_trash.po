@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-03 09:19+0200\n"
+"POT-Creation-Date: 2008-05-06 22:58+0200\n"
 "PO-Revision-Date: 2008-04-09 17:22+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi\n"
@@ -26,13 +26,21 @@ msgstr "Ò&temkni"
 msgid "&Empty Trashcan"
 msgstr "&Wëczëszczë kòsz"
 
-#: trash.cpp:114
+#: trash.cpp:114 trash.cpp:147
 msgid "Trash"
 msgstr "Kòsz"
 
 #: trash.cpp:119
 msgid "&Menu"
 msgstr "&Menu"
+
+#: trash.cpp:148 trash.cpp:205
+#, kde-format
+msgid "One item"
+msgid_plural "%1 items"
+msgstr[0] "Jeden element"
+msgstr[1] "%1 elementë"
+msgstr[2] "%1 elementów"
 
 #: trash.cpp:180
 #, fuzzy
@@ -46,14 +54,6 @@ msgstr "Na gwës chcesz wëczëszczëc kòsz? Wszëtczé elelmentë òstaną rë
 msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "Wëczëszczë kòsz"
-
-#: trash.cpp:205
-#, kde-format
-msgid "One item"
-msgid_plural "%1 items"
-msgstr[0] "Jeden element"
-msgstr[1] "%1 elementë"
-msgstr[2] "%1 elementów"
 
 #: trash.cpp:212
 msgctxt "The trash is empty. This is not an action, but a state"
