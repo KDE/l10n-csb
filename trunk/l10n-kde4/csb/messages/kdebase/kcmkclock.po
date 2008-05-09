@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkclock\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-03 09:14+0200\n"
+"POT-Creation-Date: 2008-05-09 14:42+0200\n"
 "PO-Revision-Date: 2008-04-09 18:56+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi\n"
@@ -18,15 +18,15 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: dtime.cpp:83
+#: dtime.cpp:85
 msgid "Set date and time &automatically:"
 msgstr "Ùstawi datum a czas &aùtomatno:"
 
-#: dtime.cpp:110
+#: dtime.cpp:112
 msgid "Here you can change the system date's day of the month, month and year."
 msgstr "Tuwò mòżesz zmienic systemòwé datum, dzéń, miesąc ë rok."
 
-#: dtime.cpp:174
+#: dtime.cpp:176
 msgid ""
 "Here you can change the system time. Click into the hours, minutes or "
 "seconds field to change the relevant value, either using the up and down "
@@ -36,7 +36,7 @@ msgstr ""
 "sekùndów bë zmienic apartną wôrtnotã, brëkùjąc abò knąpów dół a góra z prawi "
 "abò wpisëjąc nową wôrtnotã."
 
-#: dtime.cpp:269
+#: dtime.cpp:264
 msgid ""
 "Public Time Server (pool.ntp.org),asia.pool.ntp.org,europe.pool.ntp.org,"
 "north-america.pool.ntp.org,oceania.pool.ntp.org"
@@ -44,16 +44,16 @@ msgstr ""
 "Pùblicznô serwera czasu (pool.ntp.org),asia.pool.ntp.org,europe.pool.ntp.org,"
 "north-america.pool.ntp.org,oceania.pool.ntp.org"
 
-#: dtime.cpp:318
+#: dtime.cpp:332
 #, kde-format
 msgid "Unable to contact time server: %1."
 msgstr "Nie mòże skòntaktowac sã z serwerą czasu: %1."
 
-#: dtime.cpp:352
+#: dtime.cpp:336
 msgid "Can not set date."
 msgstr "Nie mòże ùstawic datumù."
 
-#: dtime.cpp:377 main.cpp:58
+#: dtime.cpp:356 main.cpp:62
 msgid ""
 "<h1>Date & Time</h1> This control module can be used to set the system date "
 "and time. As these settings do not only affect you as a user, but rather the "
@@ -68,41 +68,51 @@ msgstr ""
 "sprôwnika, ale wedle ce systemòwi czas nót je zmienic, téj skòntaktëjë sã ze "
 "sprôwnikã systemë."
 
-#: main.cpp:50
+#: main.cpp:54
 msgid "kcmclock"
 msgstr "kcmclock"
 
-#: main.cpp:50
+#: main.cpp:54
 msgid "KDE Clock Control Module"
 msgstr "Mòduł kòntroli zédżera KDE"
 
-#: main.cpp:52
+#: main.cpp:56
 msgid "(c) 1996 - 2001 Luca Montecchiani"
 msgstr "(c) 1996 - 2001 Luca Montecchiani"
 
-#: main.cpp:54
+#: main.cpp:58
 msgid "Luca Montecchiani"
 msgstr "Luca Montecchiani"
 
-#: main.cpp:54
+#: main.cpp:58
 msgid "Original author"
 msgstr "Òridżinalny aùtor"
 
-#: main.cpp:55
+#: main.cpp:59
 msgid "Paul Campbell"
 msgstr "Paul Campbell"
 
-#: main.cpp:55
+#: main.cpp:59
 msgid "Current Maintainer"
 msgstr "Biéżny òpiekùn"
 
-#: main.cpp:56
+#: main.cpp:60
 msgid "Benjamin Meyer"
 msgstr "Benjamin Meyer"
 
-#: main.cpp:56
+#: main.cpp:60
 msgid "Added NTP support"
 msgstr "Dodóné wspiarcé NTP"
+
+#: main.cpp:103
+msgid "Failed to set system date/time/timezone."
+msgstr ""
+
+#: main.cpp:103
+#, fuzzy
+#| msgid "Timezone Error"
+msgid "Date/Time Error"
+msgstr "Fela czasowi zonë"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -114,7 +124,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "michol@linuxcsb.org"
 
-#: tzone.cpp:63
+#: tzone.cpp:65
 msgid "To change the timezone, select your area from the list below"
 msgstr "Bë zmienic czasową zonã, wëbiérzë swòją òbéńdã z lëstë niżi"
 
@@ -123,10 +133,10 @@ msgstr "Bë zmienic czasową zonã, wëbiérzë swòją òbéńdã z lëstë ni�
 msgid "Current local timezone: %1 (%2)"
 msgstr "Biéżnô môlowô czasowô zona: %1 (%2)"
 
-#: tzone.cpp:200
+#: tzone.cpp:120
 msgid "Error setting new timezone."
 msgstr "Fela ùstawù nowi czasowi zonë."
 
-#: tzone.cpp:201
+#: tzone.cpp:121
 msgid "Timezone Error"
 msgstr "Fela czasowi zonë"
