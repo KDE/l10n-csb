@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-09 14:45+0200\n"
+"POT-Creation-Date: 2008-05-11 10:11+0200\n"
 "PO-Revision-Date: 2008-04-09 17:19+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi\n"
@@ -46,21 +46,20 @@ msgstr "Dodôj do panela"
 msgid "Eject"
 msgstr "Wësënié"
 
-#: ui/launcher.cpp:162 simpleapplet/simpleapplet.cpp:252
+#: ui/launcher.cpp:162
 msgid "Leave"
 msgstr "Wińdz"
 
 #: ui/launcher.cpp:174 core/favoritesmodel.cpp:43
-#: simpleapplet/simpleapplet.cpp:248
 msgid "Favorites"
 msgstr "Ùlubioné"
 
 #: ui/launcher.cpp:192 core/recentlyusedmodel.cpp:107 core/systemmodel.cpp:90
-#: core/searchmodel.cpp:137 simpleapplet/simpleapplet.cpp:249
+#: core/searchmodel.cpp:137
 msgid "Applications"
 msgstr "Aplikacje"
 
-#: ui/launcher.cpp:205 simpleapplet/simpleapplet.cpp:251
+#: ui/launcher.cpp:205
 msgid "Recently Used"
 msgstr "Slédno brëkòwóne"
 
@@ -72,7 +71,7 @@ msgstr "Wëczëszczë slédne aplikacje"
 msgid "Clear Recent Documents"
 msgstr "Wëczëszczë slédné dokùmentë"
 
-#: ui/launcher.cpp:226 simpleapplet/simpleapplet.cpp:250
+#: ui/launcher.cpp:226
 msgid "Computer"
 msgstr "Kòmpùtr"
 
@@ -213,30 +212,86 @@ msgid "Switch to Kickoff Menu Style"
 msgstr "Przełączë do sztélu menu Kickoffa"
 
 #: simpleapplet/simpleapplet.cpp:243
+#, fuzzy
+#| msgid "View:"
+msgctxt "@label:listbox Which category of items to view in a KMenu-like menu"
 msgid "View:"
 msgstr "Zdrzë:"
 
 #: simpleapplet/simpleapplet.cpp:247
+#, fuzzy
+#| msgid "Standard"
+msgctxt "@item:inlistbox View:"
 msgid "Standard"
 msgstr "Standard"
 
+#: simpleapplet/simpleapplet.cpp:248
+#, fuzzy
+#| msgid "Favorites"
+msgctxt "@item:inlistbox View:"
+msgid "Favorites"
+msgstr "Ùlubioné"
+
+#: simpleapplet/simpleapplet.cpp:249
+#, fuzzy
+#| msgid "Applications"
+msgctxt "@item:inlistbox View:"
+msgid "Applications"
+msgstr "Aplikacje"
+
+#: simpleapplet/simpleapplet.cpp:250
+#, fuzzy
+#| msgid "Computer"
+msgctxt "@item:inlistbox View:"
+msgid "Computer"
+msgstr "Kòmpùtr"
+
+#: simpleapplet/simpleapplet.cpp:251
+#, fuzzy
+#| msgid "Recently Used"
+msgctxt "@item:inlistbox View:"
+msgid "Recently Used"
+msgstr "Slédno brëkòwóne"
+
+#: simpleapplet/simpleapplet.cpp:252
+#, fuzzy
+#| msgid "Leave"
+msgctxt "@item:inlistbox View:"
+msgid "Leave"
+msgstr "Wińdz"
+
 #: simpleapplet/simpleapplet.cpp:255
+#, fuzzy
+#| msgid "Format:"
+msgctxt "@label:listbox How to present applications in a KMenu-like menu"
 msgid "Format:"
 msgstr "Fòrmat:"
 
 #: simpleapplet/simpleapplet.cpp:259
+#, fuzzy
+#| msgid "Name Only"
+msgctxt "@item:inlistbox Format:"
 msgid "Name Only"
 msgstr "Blós miono"
 
 #: simpleapplet/simpleapplet.cpp:260
+#, fuzzy
+#| msgid "Description Only"
+msgctxt "@item:inlistbox Format:"
 msgid "Description Only"
 msgstr "Blós òpisënk"
 
 #: simpleapplet/simpleapplet.cpp:261
+#, fuzzy
+#| msgid "Name Description"
+msgctxt "@item:inlistbox Format:"
 msgid "Name Description"
 msgstr "Miono òpisënk"
 
 #: simpleapplet/simpleapplet.cpp:262
+#, fuzzy
+#| msgid "Description (Name)"
+msgctxt "@item:inlistbox Format:"
 msgid "Description (Name)"
 msgstr "Òpisënk (miono)"
 
