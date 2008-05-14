@@ -8,15 +8,14 @@ msgstr ""
 "Project-Id-Version: plasmaengineexplorer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-05-12 11:01+0200\n"
-"PO-Revision-Date: 2008-04-09 17:24+0200\n"
+"PO-Revision-Date: 2008-05-14 18:32+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2)\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
 #: engineexplorer.cpp:55 main.cpp:32
 msgid "Plasma Engine Explorer"
@@ -24,15 +23,15 @@ msgstr "Eksplorera mòtoru Plasmë"
 
 #: engineexplorer.cpp:70
 msgid "Search"
-msgstr ""
+msgstr "Szëkba"
 
 #: engineexplorer.cpp:76
 msgid "Collapse all"
-msgstr ""
+msgstr "Zminimalizëjë wszëtczé"
 
 #: engineexplorer.cpp:77
 msgid "Expand all"
-msgstr ""
+msgstr "Zmaksymalizëjë wszëtczé"
 
 #: engineexplorer.cpp:140
 msgid "DataSource"
@@ -48,39 +47,39 @@ msgstr "Wôrtnota"
 
 #: engineexplorer.cpp:140
 msgid "Type"
-msgstr ""
+msgstr "Ôrt"
 
 #: engineexplorer.cpp:239
 #, kde-format
 msgid "&lt;1 bit&gt;"
 msgid_plural "&lt;%1 bits&gt;"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "&lt;1 bit&gt;"
+msgstr[1] "&lt;%1 bitë&gt;"
+msgstr[2] "&lt;%1 bitów&gt;"
 
 #: engineexplorer.cpp:248
 #, kde-format
 msgid "&lt;1 byte&gt;"
 msgid_plural "&lt;%1 bytes&gt;"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "&lt;1 bajt&gt;"
+msgstr[1] "&lt;%1 bajtë&gt;"
+msgstr[2] "&lt;%1 bajtów&gt;"
 
 #: engineexplorer.cpp:270
 #, kde-format
 msgid "&lt;1 item&gt;"
 msgid_plural "&lt;%1 items&gt;"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "&lt;1 element&gt;"
+msgstr[1] "&lt;%1 elementë&gt;"
+msgstr[2] "&lt;%1 elementów&gt;"
 
 #: engineexplorer.cpp:325
 msgid "<empty>"
-msgstr ""
+msgstr "<pùsti>"
 
 #: engineexplorer.cpp:332
 msgid "<not displayable>"
-msgstr ""
+msgstr "<niewëskrzëniwólné>"
 
 #. i18n: tag string
 #. i18n: file engineexplorer.ui line 19
@@ -89,27 +88,27 @@ msgid "Plasma DataEngine Explorer"
 msgstr "Eksplorera mòtoru pòdôwków Plasmë"
 
 #: engineexplorer.cpp:370
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "The name of the engine followed by the number of data sources"
 #| msgid "%1 - %2 data sources"
 msgctxt "The name of the engine followed by the number of data sources"
 msgid "%1 Engine - 1 data source"
 msgid_plural "%1 Engine - %2 data sources"
-msgstr[0] "%1 - %2 zdroje pòdôwków"
-msgstr[1] "%1 - %2 zdroje pòdôwków"
-msgstr[2] "%1 - %2 zdroje pòdôwków"
+msgstr[0] "%1 mòtór - 1 zdrój pòdôwków"
+msgstr[1] "%1 mòtór - %2 zdroje pòdôwków"
+msgstr[2] "%1 mòtór - %2 zdrojów pòdôwków"
 
 #: ktreeviewsearchline.cpp:417
 msgid "Search Columns"
-msgstr ""
+msgstr "Przeszëkôj kòlumnë"
 
 #: ktreeviewsearchline.cpp:419
 msgid "All Visible Columns"
-msgstr ""
+msgstr "Wszëtczé widzawné kòlumnë"
 
 #: ktreeviewsearchline.cpp:576
 msgid "S&earch:"
-msgstr ""
+msgstr "S&zëkba:"
 
 #: main.cpp:27
 msgid "Explore the data published by Plasma DataEngines"
@@ -148,10 +147,9 @@ msgid "The data engine to use"
 msgstr "Mòtór pòdôwków to ùżëcô"
 
 #: main.cpp:47
-#, fuzzy
 #| msgid "Update Interval in milliseconds.  Default: 50ms"
 msgid "Update Interval in milliseconds."
-msgstr "Interwał aktualizacëji w milisekùndach. Domëslny: 50ms"
+msgstr "Interwał aktualizacëji w milisekùndach."
 
 #. i18n: tag string
 #. i18n: file engineexplorer.ui line 34
@@ -163,7 +161,7 @@ msgstr "Miono zdroju"
 #. i18n: file engineexplorer.ui line 47
 #: rc.cpp:9
 msgid "Update on demand"
-msgstr ""
+msgstr "Aktualizacëjô na żądanié"
 
 #. i18n: tag string
 #. i18n: file engineexplorer.ui line 50
@@ -174,10 +172,9 @@ msgstr "ms"
 #. i18n: tag string
 #. i18n: file engineexplorer.ui line 53
 #: rc.cpp:15
-#, fuzzy
 #| msgid "update every "
 msgid "Update every "
-msgstr "aktualizëjë co "
+msgstr "Aktualizëjë co "
 
 #. i18n: tag string
 #. i18n: file engineexplorer.ui line 75
@@ -194,3 +191,4 @@ msgstr "Michôł Òstrowsczi"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "michol@linuxcsb.org"
+
