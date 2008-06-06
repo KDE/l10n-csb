@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-06-04 22:49+0200\n"
+"POT-Creation-Date: 2008-06-06 16:34+0200\n"
 "PO-Revision-Date: 2008-04-09 18:07+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi\n"
@@ -406,7 +406,7 @@ msgstr "Spamiãtôj parolã"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/sonnet/configui.ui line 28
-#: rc.cpp:158 kdeui/findreplace/kfinddialog.cpp:126 kfile/kfilewidget.cpp:373
+#: rc.cpp:158 kdeui/findreplace/kfinddialog.cpp:126 kfile/kfilewidget.cpp:374
 msgid "Options"
 msgstr "Òptacëje"
 
@@ -3846,7 +3846,7 @@ msgstr ""
 msgid "Could not Launch Browser"
 msgstr "Ni mòże zrëszëc przezérnika"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:305
+#: kdecore/kernel/ktoolinvocation_x11.cpp:307
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not launch the mail client:\n"
@@ -3861,7 +3861,7 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:306
+#: kdecore/kernel/ktoolinvocation_x11.cpp:308
 #, fuzzy
 #| msgid "Could not Launch Mail Client"
 msgid "Could not Launch Terminal Client"
@@ -4006,7 +4006,7 @@ msgstr ""
 msgid "Function must be called from the main thread."
 msgstr "Fùnkcëjô mùszi bëc wëwòłónô z przédnegò wątkù."
 
-#: kdecore/kernel/ktoolinvocation.cpp:116
+#: kdecore/kernel/ktoolinvocation.cpp:119
 #, fuzzy, kde-format
 #| msgid ""
 #| "KLauncher could not be reached via D-Bus, error when calling %1:\n"
@@ -4018,7 +4018,7 @@ msgstr ""
 "KLauncher nie je przistãpny dlô DCOP, fela przë wëwòłaniu %1:\n"
 "%2\n"
 
-#: kdecore/kernel/ktoolinvocation.cpp:272
+#: kdecore/kernel/ktoolinvocation.cpp:275
 #, kde-format
 msgid ""
 "Could not launch the KDE Help Center:\n"
@@ -4029,7 +4029,7 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation.cpp:273
+#: kdecore/kernel/ktoolinvocation.cpp:276
 msgid "Could not Launch Help Center"
 msgstr "Ni mòże zrëszëc Centróm pòmòcë"
 
@@ -6413,7 +6413,7 @@ msgstr ""
 #: kdeui/dialogs/kshortcutseditor.cpp:497
 #: kdeui/dialogs/kshortcutseditor.cpp:515
 #: kdeui/dialogs/kshortcutseditor.cpp:529
-#: kdeui/dialogs/kshortcutseditor.cpp:545 kdeui/shortcuts/kglobalaccel.cpp:401
+#: kdeui/dialogs/kshortcutseditor.cpp:545 kdeui/shortcuts/kglobalaccel.cpp:417
 #: kdeui/widgets/kkeysequencewidget.cpp:128
 msgid "Reassign"
 msgstr "Przëpiszë"
@@ -7633,11 +7633,11 @@ msgstr "Wszëtczé widzawné kòlumnë"
 msgid "S&earch:"
 msgstr "&Szëkôj:"
 
-#: kdeui/shortcuts/kglobalaccel.cpp:394
+#: kdeui/shortcuts/kglobalaccel.cpp:410
 msgid "Conflict with Global Shortcut"
 msgstr "Zwada z òglową skrodzëną"
 
-#: kdeui/shortcuts/kglobalaccel.cpp:395
+#: kdeui/shortcuts/kglobalaccel.cpp:411
 #, kde-format
 msgid ""
 "The '%1' key combination has already been allocated to the global action \"%2"
@@ -9614,33 +9614,33 @@ msgstr "Dopùszczë tabùlacëjã"
 msgid "Nothing to spell check."
 msgstr "Nick do rëmniãcô"
 
-#: kfile/kfileplacesview.cpp:408
+#: kfile/kfileplacesview.cpp:409
 #, fuzzy
 #| msgid "Trash"
 msgctxt "@action:inmenu"
 msgid "Empty Trash"
 msgstr "Kòsz"
 
-#: kfile/kfileplacesview.cpp:414
+#: kfile/kfileplacesview.cpp:415
 #, kde-format
 msgid "&Edit '%1'..."
 msgstr "&Editëjë '%1'..."
 
-#: kfile/kfileplacesview.cpp:417
+#: kfile/kfileplacesview.cpp:418
 #, kde-format
 msgid "&Hide '%1'"
 msgstr "&Zatacë '%1'"
 
-#: kfile/kfileplacesview.cpp:424
+#: kfile/kfileplacesview.cpp:425
 msgid "&Show All Entries"
 msgstr "&Pòkôżë wszëtczé wéńdzenia"
 
-#: kfile/kfileplacesview.cpp:434
+#: kfile/kfileplacesview.cpp:435
 #, kde-format
 msgid "&Remove '%1'"
 msgstr "&Rëmôj '%1'"
 
-#: kfile/kfileplacesview.cpp:450
+#: kfile/kfileplacesview.cpp:451
 #, fuzzy
 #| msgid "Do you really want to delete this item?"
 #| msgid_plural "Do you really want to delete these %1 items?"
@@ -9648,14 +9648,14 @@ msgctxt "@info"
 msgid "Do you really want to empty the Trash? All items will be deleted."
 msgstr "Na gwës chcesz rëmnąc nen element? "
 
-#: kfile/kfileplacesview.cpp:454
+#: kfile/kfileplacesview.cpp:455
 #, fuzzy
 #| msgid "Trash"
 msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "Kòsz"
 
-#: kfile/kfilefiltercombo.cpp:36 kfile/kfilewidget.cpp:1481
+#: kfile/kfilefiltercombo.cpp:36 kfile/kfilewidget.cpp:1480
 msgid "*|All Files"
 msgstr "*|Wszëtczé lopczi"
 
@@ -9663,7 +9663,7 @@ msgstr "*|Wszëtczé lopczi"
 msgid "All Supported Files"
 msgstr "Wszëtczé wspieróné lopczi"
 
-#: kfile/kfilewidget.cpp:207
+#: kfile/kfilewidget.cpp:208
 msgid ""
 "<qt>While typing in the text area, you may be presented with possible "
 "matches. This feature can be controlled by clicking with the right mouse "
@@ -9673,12 +9673,12 @@ msgstr ""
 "dofùlowaniów. Nã fùnkcjã mòże kòntrolowac, klëkając prawą knąpą mëszë ë "
 "wëbiérając żądóny trib z menu <b>Dofùlowanié tekstu</b>."
 
-#: kfile/kfilewidget.cpp:273
+#: kfile/kfilewidget.cpp:274
 #, kde-format
 msgid "Drive: %1"
 msgstr "Disk: %1"
 
-#: kfile/kfilewidget.cpp:345
+#: kfile/kfilewidget.cpp:346
 #, kde-format
 msgid ""
 "<qt>Click this button to enter the parent folder.<br /><br />For instance, "
@@ -9689,31 +9689,31 @@ msgstr ""
 "przëmiôr, jeżlë aktualny katalog to file:/home/%1, wcësniãce ny knąpë "
 "przeniese do katalogu file:/home.</qt>"
 
-#: kfile/kfilewidget.cpp:350
+#: kfile/kfilewidget.cpp:351
 msgid "Click this button to move backwards one step in the browsing history."
 msgstr "Wcësni nã knąpã, bë przeńc krok nazôd w historëji przezéraniô."
 
-#: kfile/kfilewidget.cpp:352
+#: kfile/kfilewidget.cpp:353
 msgid "Click this button to move forward one step in the browsing history."
 msgstr "Wcësni nã knąpã, bë przeńc krok do przódkù w historëji przezéraniô."
 
-#: kfile/kfilewidget.cpp:355
+#: kfile/kfilewidget.cpp:356
 msgid "Click this button to reload the contents of the current location."
 msgstr "Wcësni nã knąpã, bë òdnowic zamkłosc aktualnegò kataloga."
 
-#: kfile/kfilewidget.cpp:358
+#: kfile/kfilewidget.cpp:359
 msgid "Click this button to create a new folder."
 msgstr "Klëkni na nã knąpã bë ùsôdzëc nowi katalog."
 
-#: kfile/kfilewidget.cpp:361
+#: kfile/kfilewidget.cpp:362
 msgid "Show Places Navigation Panel"
 msgstr "Pòkażë môlë nawigacëjowégò panela"
 
-#: kfile/kfilewidget.cpp:368
+#: kfile/kfilewidget.cpp:369
 msgid "Show Bookmarks"
 msgstr "Pòkażë załóżczi"
 
-#: kfile/kfilewidget.cpp:375
+#: kfile/kfilewidget.cpp:376
 msgid ""
 "<qt>This is the preferences menu for the file dialog. Various options can be "
 "accessed from this menu including: <ul><li>how files are sorted in the list</"
@@ -9727,11 +9727,11 @@ msgstr ""
 "lopków</li> <li>wëskrzënianié nawigacëjny listwë</li> <li>pòdzérk lopków</"
 "li> <li>rozparłączenié katalogów òd lopków</li> </ul></qt>"
 
-#: kfile/kfilewidget.cpp:419 kfile/kfileplaceeditdialog.cpp:116
+#: kfile/kfilewidget.cpp:420 kfile/kfileplaceeditdialog.cpp:116
 msgid "&Location:"
 msgstr "&Môl:"
 
-#: kfile/kfilewidget.cpp:442
+#: kfile/kfilewidget.cpp:443
 msgid ""
 "<qt>This is the filter to apply to the file list. File names that do not "
 "match the filter will not be shown.<p>You may select from one of the preset "
@@ -9743,21 +9743,21 @@ msgstr ""
 "menu, abò pòdac swój filter prosto w tekstowim òknie.</p> <p>Dopùszczô sã "
 "ekstra céchë taczé jak * czë ?.</p></qt>."
 
-#: kfile/kfilewidget.cpp:448
+#: kfile/kfilewidget.cpp:449
 msgid "&Filter:"
 msgstr "&Filter:"
 
-#: kfile/kfilewidget.cpp:666 kfile/kfilewidget.cpp:709
-#: kfile/kfilewidget.cpp:1414
+#: kfile/kfilewidget.cpp:667 kfile/kfilewidget.cpp:710
+#: kfile/kfilewidget.cpp:1415
 msgid "You can only select local files."
 msgstr "Mòże wëbrac blós môlowe lopczi."
 
-#: kfile/kfilewidget.cpp:667 kfile/kfilewidget.cpp:710
-#: kfile/kfilewidget.cpp:1415
+#: kfile/kfilewidget.cpp:668 kfile/kfilewidget.cpp:711
+#: kfile/kfilewidget.cpp:1416
 msgid "Remote Files Not Accepted"
 msgstr "Nie akceptowóné daleczé lopczi"
 
-#: kfile/kfilewidget.cpp:700
+#: kfile/kfilewidget.cpp:701
 #, kde-format
 msgid ""
 "%1\n"
@@ -9766,15 +9766,15 @@ msgstr ""
 "%1\n"
 "nie wëzdrzi za pòprôwną adresą URL.\n"
 
-#: kfile/kfilewidget.cpp:700
+#: kfile/kfilewidget.cpp:701
 msgid "Invalid URL"
 msgstr "Lëchi URL"
 
-#: kfile/kfilewidget.cpp:1045
+#: kfile/kfilewidget.cpp:1046
 msgid "This is the name to save the file as."
 msgstr "To je miono pòd jaczim bãdze zapisóny lopk."
 
-#: kfile/kfilewidget.cpp:1050
+#: kfile/kfilewidget.cpp:1051
 msgid ""
 "This is the list of files to open. More than one file can be specified by "
 "listing several files, separated by spaces."
@@ -9782,11 +9782,11 @@ msgstr ""
 "To je lësta lopków do òtemkniãcô. Mòże pòdac czile lopków, rozparłãczając "
 "jich miona spacjama."
 
-#: kfile/kfilewidget.cpp:1057
+#: kfile/kfilewidget.cpp:1058
 msgid "This is the name of the file to open."
 msgstr "To je miono lopka do òtemkniãcô."
 
-#: kfile/kfilewidget.cpp:1346
+#: kfile/kfilewidget.cpp:1347
 msgid ""
 "The chosen filenames do not\n"
 "appear to be valid."
@@ -9794,11 +9794,11 @@ msgstr ""
 "Wëbróné miona lopków\n"
 "nie wëzdrzą na bezzmiłkòwé."
 
-#: kfile/kfilewidget.cpp:1348
+#: kfile/kfilewidget.cpp:1349
 msgid "Invalid Filenames"
 msgstr "Lëché miona lopków"
 
-#: kfile/kfilewidget.cpp:1377
+#: kfile/kfilewidget.cpp:1378
 #, kde-format
 msgid ""
 "The requested filenames\n"
@@ -9811,37 +9811,37 @@ msgstr ""
 "nie wëzdrzą na bezzmiłkòwé.\n"
 "Proszã sã ùgwësnic, że kòżdi lopk je zamkłi w naprowôdniczi."
 
-#: kfile/kfilewidget.cpp:1381
+#: kfile/kfilewidget.cpp:1382
 msgid "Filename Error"
 msgstr "Fela miona lopka"
 
-#: kfile/kfilewidget.cpp:1478
+#: kfile/kfilewidget.cpp:1477
 msgid "*|All Folders"
 msgstr "*|Wszëtczé katalodżi"
 
-#: kfile/kfilewidget.cpp:1617 kparts/browserrun.cpp:383
+#: kfile/kfilewidget.cpp:1616 kparts/browserrun.cpp:383
 msgid "&Open"
 msgstr "Ò&temkni"
 
-#: kfile/kfilewidget.cpp:1760
+#: kfile/kfilewidget.cpp:1759
 #, kde-format
 msgid "Automatically select filename e&xtension (%1)"
 msgstr "Wëbierzë aùtomatno &rozszérzenié lopka (%1)"
 
-#: kfile/kfilewidget.cpp:1761
+#: kfile/kfilewidget.cpp:1760
 #, kde-format
 msgid "the extension <b>%1</b>"
 msgstr "rozszérzenié <b>%1</b>"
 
-#: kfile/kfilewidget.cpp:1769
+#: kfile/kfilewidget.cpp:1768
 msgid "Automatically select filename e&xtension"
 msgstr "Wëbierzë aùtomatno rozszérzenié lopka"
 
-#: kfile/kfilewidget.cpp:1770
+#: kfile/kfilewidget.cpp:1769
 msgid "a suitable extension"
 msgstr "pasowné rozszérzenié"
 
-#: kfile/kfilewidget.cpp:1780
+#: kfile/kfilewidget.cpp:1779
 #, kde-format
 msgid ""
 "This option enables some convenient features for saving files with "
@@ -9866,11 +9866,11 @@ msgstr ""
 "miona lopka (òstanié òna aùtomatno rëmniãtô).</li> </ol> Przë wątplëwòscach "
 "òstôwi nã òptacëjã włączoną."
 
-#: kfile/kfilewidget.cpp:2056
+#: kfile/kfilewidget.cpp:2073
 msgid "Bookmarks"
 msgstr "Załóżczi"
 
-#: kfile/kfilewidget.cpp:2060
+#: kfile/kfilewidget.cpp:2077
 msgid ""
 "<qt>This button allows you to bookmark specific locations. Click on this "
 "button to open the bookmark menu where you may add, edit or select a "
@@ -11649,12 +11649,12 @@ msgstr "Serwis '%1' je zepsëti."
 msgid "Launching %1"
 msgstr "Zrëszanié %1"
 
-#: kinit/klauncher.cpp:1028
+#: kinit/klauncher.cpp:1030
 #, kde-format
 msgid "Unknown protocol '%1'.\n"
 msgstr "Nieznóny protokół '%1'.\n"
 
-#: kinit/klauncher.cpp:1089
+#: kinit/klauncher.cpp:1091
 #, kde-format
 msgid "Error loading '%1'.\n"
 msgstr "Fela ladowaniô '%1'.\n"
