@@ -1,19 +1,18 @@
-# translation of khotkeys.po to Kashubian
-# Michôł Òstrowsczi <michol@linuxcsb.org>, 2007.
+# translation of khotkeys.po to Kaszëbsczi
+# Michôł Òstrowsczi <michol@linuxcsb.org>, 2007, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-04-16 15:49+0200\n"
-"PO-Revision-Date: 2007-12-09 18:52+0100\n"
+"PO-Revision-Date: 2008-07-12 16:05+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
-"Language-Team: Kashubian\n"
+"Language-Team: Kaszëbsczi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2)\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -440,10 +439,9 @@ msgstr "&Miono grëpë dzejaniów:"
 #. i18n: tag string
 #. i18n: file ./kcontrol/ui/action_group_tab_ui.ui line 46
 #: rc.cpp:176
-#, fuzzy
 #| msgid "&Disable"
 msgid "&Disable:"
-msgstr "&Wëłączë"
+msgstr "&Wëłączë:"
 
 #. i18n: tag string
 #. i18n: file ./kcontrol/ui/info_tab_ui.ui line 16
@@ -454,7 +452,6 @@ msgstr "Info_tab_ui"
 #. i18n: tag string
 #. i18n: file ./kcontrol/ui/info_tab_ui.ui line 29
 #: rc.cpp:185
-#, fuzzy
 #| msgid ""
 #| "<p>This module allows configuring input actions, like mouse gestures, "
 #| "keyboard shortcuts for performing commands, launching applications or "
@@ -472,7 +469,7 @@ msgid ""
 msgstr ""
 "<p>Nen mòduł pòzwôlô kònfigùrowac dzejanié różnëch zletczeniów, taczich "
 "jakno gëstë mëszą czë klawiszowé skrodzënë do zrëszania pòlétów, zrëszaniô "
-"programów czë fùnkcjów DCOP ëtd.</p>\n"
+"programów czë fùnkcjów D-Bus ëtd.</p>\n"
 "<p><b>Bôczënk:</b> Nieòbëti brëkòwnice mùszą ùtrzëmac òbzérnosc przë "
 "mòdifikòwanim dzejaniów, a zjinaczi ògreńczac barżi do włączaniô/wëłączaniô "
 "dzejaniów ë kònfigùracëji ôrtu jich wëwòłaniô.</p>"
@@ -610,7 +607,7 @@ msgstr "&Testujë"
 #. i18n: file ./kcontrol/ui/dbus_widget_ui.ui line 200
 #: rc.cpp:298
 msgid "Run &D-Bus browser"
-msgstr ""
+msgstr "Zrëszë przezérnik &D-Bus"
 
 #. i18n: tag string
 #. i18n: file ./kcontrol/ui/general_tab_ui.ui line 19
@@ -621,7 +618,6 @@ msgstr "&Ôrt dzejania:"
 #. i18n: tag string
 #. i18n: file ./kcontrol/ui/general_tab_ui.ui line 38
 #: rc.cpp:304
-#, fuzzy
 #| msgid "&Disable"
 msgid "&Disabled"
 msgstr "&Wëłączë"
@@ -675,10 +671,9 @@ msgid "&Try"
 msgstr "&Testujë"
 
 #: kcontrol/dbus_widget.cpp:85
-#, fuzzy
 #| msgid "Failed to run KDCOP"
 msgid "Failed to run qdbusviewer"
-msgstr "Felô òbczas zrëszaniô KDCOP"
+msgstr "Felô òbczas zrëszaniô qdbusviewer"
 
 #: kcontrol/windowdef_list_widget.cpp:45
 msgid "Simple Window..."
@@ -804,10 +799,9 @@ msgid "Menu Entry Settings"
 msgstr "ùstôwë môlów menu"
 
 #: kcontrol/tab_widget.cpp:453
-#, fuzzy
 #| msgid "DCOP Call Settings"
 msgid "D-Bus Call Settings"
-msgstr "Ùstôwë fùnkcëjów DCOP"
+msgstr "Ùstôwë fùnkcëjów D-Bus"
 
 #: kcontrol/tab_widget.cpp:454
 msgid "Keyboard Input Settings"
@@ -945,10 +939,9 @@ msgid "K-Menu Entry..."
 msgstr "Môl menu K..."
 
 #: kcontrol/action_list_widget.cpp:49
-#, fuzzy
 #| msgid "DCOP Call..."
 msgid "D-Bus Call..."
-msgstr "Fùnkcëjô DCOP..."
+msgstr "Fùnkcëjô D-Bus..."
 
 #: kcontrol/action_list_widget.cpp:51
 msgid "Keyboard Input..."
@@ -993,10 +986,9 @@ msgid "K-Menu Entry (simple)"
 msgstr "Môl menu K (prosti)"
 
 #: kcontrol/general_tab.cpp:56
-#, fuzzy
 #| msgid "Keyboard Shortcut -> DCOP Call (simple)"
 msgid "Keyboard Shortcut -> D-Bus Call (simple)"
-msgstr "Klawiszowô skrodzëna -> Fùnkcëjô DCOP (prosté)"
+msgstr "Klawiszowô skrodzëna -> Fùnkcëjô D-Bus (prosté)"
 
 #: kcontrol/general_tab.cpp:60
 msgid "Keyboard Shortcut -> Keyboard Input (simple)"
@@ -1028,33 +1020,30 @@ msgstr "Wëwòłujący głos..."
 
 #: kcontrol/triggers_tab.cpp:147
 msgid "TODO: Correct Behavior"
-msgstr ""
+msgstr "Do zrobieniô: Pòprawic zachòwanié"
 
 #: kcontrol/triggers_tab.cpp:253
 msgid "Select keyboard shortcut:"
 msgstr "Wëbierzë klawiszową skrodzënã:"
 
 #: update/update.cpp:31
-#, fuzzy
 #| msgid "KHotKeys daemon"
 msgid "KHotKeys Update"
-msgstr "Ùsłużnota KHotKeys"
+msgstr "Aktualizacëjë KHotKeys"
 
 #: update/update.cpp:32
-#, fuzzy
 #| msgid "KHotKeys daemon"
 msgid "KHotKeys update utility"
-msgstr "Ùsłużnota KHotKeys"
+msgstr "Nôrzãdze aktualizacëji KHotKeys"
 
 #: update/update.cpp:35
 msgid "Id of the script to add to khotkeysrc."
-msgstr ""
+msgstr "ID skriptu do dodanip do khotkeysrc."
 
 #: libkhotkeysprivate/triggers/shortcut_trigger.cpp:75
-#, fuzzy
 #| msgid "&Copy"
 msgid "Copy of "
-msgstr "&Kòpérëjë"
+msgstr "Kòpijô "
 
 #: libkhotkeysprivate/triggers/shortcut_trigger.cpp:81
 msgid "Shortcut trigger: "
@@ -1081,34 +1070,29 @@ msgid "Existing window: "
 msgstr "Òbstójé òkno: "
 
 #: libkhotkeysprivate/actions/menuentry_action.cpp:59
-#, fuzzy
 #| msgid "Menuentry : "
 msgid "Menu entry: "
-msgstr "Môl menu : "
+msgstr "Môl menu: "
 
 #: libkhotkeysprivate/actions/dbus_action.cpp:102
-#, fuzzy
 #| msgid "DCOP Call..."
 msgid "D-Bus: "
-msgstr "Fùnkcëjô DCOP..."
+msgstr "D-Bus: "
 
 #: libkhotkeysprivate/actions/command_url_action.cpp:114
-#, fuzzy
 #| msgid "Command/URL : "
 msgid "Command/URL: "
-msgstr "Pòlét/URL : "
+msgstr "Pòlét/URL: "
 
 #: libkhotkeysprivate/actions/activate_window_action.cpp:61
-#, fuzzy
 #| msgid "Activate window : "
 msgid "Activate window: "
 msgstr "Aktiwùjë òkno: "
 
 #: libkhotkeysprivate/actions/keyboard_input_action.cpp:106
-#, fuzzy
 #| msgid "Keyboard input : "
 msgid "Keyboard input: "
-msgstr "Wprowadzenié z klawiaturë : "
+msgstr "Wprowadzenié z klawiaturë: "
 
 #: libkhotkeysprivate/settings.cpp:187
 msgid ""
@@ -1135,8 +1119,3 @@ msgstr "Prosté òkno: "
 msgid "Menu Editor entries"
 msgstr "Môlë Editora menu"
 
-#~ msgid "Run &KDCOP"
-#~ msgstr "Zrëszë &KDCOP"
-
-#~ msgid "DCOP : "
-#~ msgstr "DCOP : "
