@@ -1,5 +1,6 @@
 # translation of kcmkio.po to Kashubian
 # Michôł Òstrowsczi <michol@linuxcsb.org>, 2007.
+# Mark Kwidzińsczi <mark@linuxcsb.org>, 2008.
 # translation of kcmkio.po to
 # Version: $Revision$
 msgid ""
@@ -7,16 +8,16 @@ msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-06-06 16:36+0200\n"
-"PO-Revision-Date: 2007-12-23 10:44+0100\n"
-"Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
-"Language-Team: Kashubian\n"
+"PO-Revision-Date: 2008-07-12 22:31+0200\n"
+"Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
+"Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 ">\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2)\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 ||"
+"n%100>=20) ? 1 : 2);\n"
 
 #: cache.cpp:111
 msgid ""
@@ -26,23 +27,22 @@ msgid ""
 "recently read, it will not be downloaded from the Internet, but rather "
 "retrieved from the cache, which is a lot faster.</p>"
 msgstr ""
-"<h1>Bufor</h1> <p>Moduł pozwala na konfigurację ustawień bufora (cache).</p> "
-"<p>Bufor jest wewnętrzną pamięcią podręczną Konquerora, gdzie zapisywane są "
-"ostatnio czytane strony. Przy próbie ponownego pobrania takiej strony nie "
-"będzie ona ściągana przez sieć, ale pobrana z tego bufora, co jest znacznie "
-"szybsze.</p>"
+"<h1>Bùfor</h1> <p>Mòdul zezwôlô na kònfigùracëjã nastôwów bùfora (cache).</p> "
+"<p>Bùfor je bënową pòdrãczną pamiãcą Konquerora, dze zapisëwóné są "
+"slédno czrtóné starnë. Przë próbie zladrnkù znowa taczi starnë nie "
+"bãdze òna zladowónô przez séc, le wzãtô z tegò bùfora, co je chùtczéjszé.</p>"
 
 #: kcookiesmain.cpp:44
 msgid ""
 "Unable to start the cookie handler service.\n"
 "You will not be able to manage the cookies that are stored on your computer."
 msgstr ""
-"Nie można uruchomić obsługi ciasteczek.\n"
-"Zarządzanie ciasteczkami na tym komputerze nie będzie możliwe."
+"Ni mòże zrëszëc òbsłëdżi kùszków.\n"
+"Sprôwianié kùszkama na tim kòmpùtrze nie je mòżlëwé."
 
 #: kcookiesmain.cpp:54
 msgid "&Policy"
-msgstr "&Politika"
+msgstr "&Pòlitika"
 
 #: kcookiesmain.cpp:60
 msgid "&Management"
@@ -98,13 +98,11 @@ msgstr "<h1>Sprôwianié kùszkama - chùtka pòmòc</h1>"
 
 #: kcookiesmanagement.cpp:256
 msgid "Information Lookup Failure"
-msgstr "Błąd podczas wyszukiwania informacji"
+msgstr "Fela przë szëkbie za wëdowiédzą"
 
 #: kcookiesmanagement.cpp:257
-msgid ""
-"Unable to retrieve information about the cookies stored on your computer."
-msgstr ""
-"Nie można pobrać informacji o ciasteczkach przechowywanych na tym komputerze."
+msgid "Unable to retrieve information about the cookies stored on your computer."
+msgstr "Ni mòże zladowac wëdowiédzë ò kùszkach trzrmónëch na tim kòmpùtrze."
 
 #: kcookiesmanagement.cpp:346
 msgid "End of session"
@@ -116,11 +114,11 @@ msgstr "Jo"
 
 #: kcookiespolicies.cpp:114
 msgid "New Cookie Policy"
-msgstr "Nowa polityka wobec ciasteczek"
+msgstr "Nowô politika dlô kùszków"
 
 #: kcookiespolicies.cpp:153
 msgid "Change Cookie Policy"
-msgstr "Zmień politykę wobec ciasteczek"
+msgstr "Zmieni politikã dlô kùszków"
 
 #: kcookiespolicies.cpp:178
 #, kde-format
@@ -128,25 +126,24 @@ msgid ""
 "<qt>A policy already exists for<center><b>%1</b></center>Do you want to "
 "replace it?</qt>"
 msgstr ""
-"<qt>Polityka dla <center><b>%1</b></center> została już określona. Zmienić "
-"ją?</qt>"
+"<qt>Politika dlô <center><b>%1</b></center> òsta ju òpisónô. Zmienic "
+"jã?</qt>"
 
 #: kcookiespolicies.cpp:182
 msgid "Duplicate Policy"
-msgstr "Powiel politykę"
+msgstr "Duplikùjë politikã"
 
 #: kcookiespolicies.cpp:183 useragentdlg.cpp:211
 msgid "Replace"
-msgstr "Zastąp"
+msgstr "Zastãpi"
 
 #: kcookiespolicies.cpp:418
 msgid ""
 "Unable to communicate with the cookie handler service.\n"
 "Any changes you made will not take effect until the service is restarted."
 msgstr ""
-"Nie można skomunikować się z programem do obsługi ciasteczek.\n"
-"Wszystkie dokonane zmiany zostaną zastosowane dopiero po ponownym "
-"uruchomieniu usługi."
+"Ni mòże sã sparłãczëc z programą do òbsłëdżi kùszków.\n"
+"Wszëtczé zrobioné zmianë bãdą ùtrzëmóné pò nowim zrëszëniô ùsłëżnotë."
 
 #: kcookiespolicies.cpp:459
 msgid ""
@@ -190,13 +187,11 @@ msgstr ""
 
 #: kenvvarproxydlg.cpp:49
 msgid "Variable Proxy Configuration"
-msgstr "Konfiguracja pośrednika według zmiennych"
+msgstr "Kònfigùracëjô pòstrzednika pòdle zmiennëch"
 
 #: kenvvarproxydlg.cpp:130 kenvvarproxydlg.cpp:292
 msgid "You must specify at least one valid proxy environment variable."
-msgstr ""
-"Trzeba podać przynajmniej jedną poprawną zmienną środowiskową z danymi "
-"pośrednika."
+msgstr "Je nót pòdac conômni jedną pòprôwną zmienną òkrãzô z pòdôwkama pòstrzednika."
 
 #: kenvvarproxydlg.cpp:133 kenvvarproxydlg.cpp:295
 msgid ""
@@ -214,23 +209,21 @@ msgstr ""
 
 #: kenvvarproxydlg.cpp:141 kenvvarproxydlg.cpp:303 kproxydlg.cpp:382
 msgid "Invalid Proxy Setup"
-msgstr "Nieprawidłowe ustawienia pośrednika"
+msgstr "Lëchi nastôw pòstrzédnika"
 
 #: kenvvarproxydlg.cpp:145
 msgid "Successfully verified."
-msgstr "Weryfikacja zakończona pomyślnie."
+msgstr "Ùdałô zakùńczonô werifikacëjô."
 
 #: kenvvarproxydlg.cpp:146
 msgid "Proxy Setup"
-msgstr "Ustawienia pośrednika"
+msgstr "Nastôw pòstrzédnika"
 
 #: kenvvarproxydlg.cpp:222
 msgid ""
 "Did not detect any environment variables commonly used to set system wide "
 "proxy information."
-msgstr ""
-"Nie znaleziono żadnej z typowych zmiennych środowiskowych przechowujących "
-"systemowe ustawienia o serwerze pośredniczącym."
+msgstr "Ni òsta nalazłô niżódnô z tipicznëch zmiennëch òkrãżô trzëmającëch systemòwé nastôwë ò pòstrzédniczącym serwerze."
 
 #: kenvvarproxydlg.cpp:226
 msgid ""
@@ -246,52 +239,52 @@ msgstr ""
 
 #: kenvvarproxydlg.cpp:234
 msgid "Automatic Proxy Variable Detection"
-msgstr "Wykrywanie zmiennych środowiskowych z danymi pośrednika"
+msgstr "Aùtomatné wëkrëwanié zmiennëch z pòdôwkama pòstrzédnika"
 
 #: kmanualproxydlg.cpp:49
 msgid "Manual Proxy Configuration"
-msgstr "Ręczna konfiguracja pośrednika"
+msgstr "Rãcznô kònfigùracëjô pòstrzédnika"
 
 #: kmanualproxydlg.cpp:274
 msgid "Invalid Proxy Setting"
-msgstr "Nieprawidłowe ustawienia pośrednika"
+msgstr "Lëchi nastôw pòstrzédnika"
 
 #: kmanualproxydlg.cpp:275
 msgid ""
 "One or more of the specified proxy settings are invalid. The incorrect "
 "entries are highlighted."
 msgstr ""
-"Co najmniej jedno z podanych ustawień pośrednika jest nieprawidłowe. Błędne "
-"wartości podświetlono."
+"Co le mało jedno z pòdónëch nastôwów pòstrzédnika je lëché. "
+"Lëché wôrtnotë òstałë pòdskrzënioné."
 
 #: kmanualproxydlg.cpp:343
 msgid "You entered a duplicate address. Please try again."
-msgstr "Adres się powtarza. Proszę spróbować jeszcze raz."
+msgstr "Adresa sã pòwtôrzô. Proszã spróbòwac znowa."
 
 #: kmanualproxydlg.cpp:345
 #, kde-format
 msgid "<qt><center><b>%1</b></center> is already in the list.</qt>"
-msgstr "<qt><center><b>%1</b></center> jest już na liście.</qt>"
+msgstr "<qt><center><b>%1</b></center> ju je na lësce.</qt>"
 
 #: kmanualproxydlg.cpp:347
 msgid "Duplicate Entry"
-msgstr "Powtórzona pozycja"
+msgstr "Dëbeltny wpisënk"
 
 #: kmanualproxydlg.cpp:357
 msgid "New Exception"
-msgstr "Nowy wyjątek"
+msgstr "Nowi wëjimk"
 
 #: kmanualproxydlg.cpp:364
 msgid "Change Exception"
-msgstr "Zmień wyjątek"
+msgstr "Zmieni wëjimk"
 
 #: kmanualproxydlg.cpp:441
 msgid "Invalid Entry"
-msgstr "Nieprawidłowe ustawienie"
+msgstr "Lëchi wpisënk"
 
 #: kmanualproxydlg.cpp:444
 msgid "The address you have entered is not valid."
-msgstr "Wprowadzony adres nie jest poprawny."
+msgstr "Wpisónô adresa je lëchô."
 
 #: kmanualproxydlg.cpp:446
 msgid ""
@@ -312,13 +305,13 @@ msgstr ""
 
 #: kmanualproxydlg.cpp:467
 msgid "Enter the URL or address that should use the above proxy settings:"
-msgstr "Podaj adres lub URL, dla którego stosować powyższe ustawienia:"
+msgstr "Wpiszë adresã abò URL, dlô jaczi chcesz brëkòwac tegò nastôwù:"
 
 #: kmanualproxydlg.cpp:470
 msgid ""
 "Enter the address or URL that should be excluded from using the above proxy "
 "settings:"
-msgstr "Podaj adres lub URL, dla którego nie stosować powyższych ustawień:"
+msgstr "Wpiszë adresã abò URL, dlô jaczi nie chcesz brëkòwac tegò nastôwù:"
 
 #: kmanualproxydlg.cpp:473
 #, fuzzy
@@ -341,7 +334,7 @@ msgstr ""
 
 #: kproxydlg.cpp:58
 msgid "&Proxy"
-msgstr "&Pośrednik (Proxy)"
+msgstr "&Pòstrzédnik (Proxy)"
 
 #: kproxydlg.cpp:65
 msgid "&SOCKS"
@@ -353,8 +346,8 @@ msgid ""
 "correct this problem before proceeding. Otherwise, your changes will be "
 "ignored."
 msgstr ""
-"Adres skryptu konfiguracyjnego serwerów pośredniczących jest niepoprawny. "
-"Proszę go poprawić - w przeciwnym razie dokonane zmiany zostaną anulowane."
+"Adresa kònfigùracjowégò skripta pòstrzédniczącëch serwerów je lëchô. "
+"Proszã ją pòprawic - jinaczi wprowôdzóné zjinaczi nie bãdą ùżëté."
 
 #: kproxydlg.cpp:358
 msgid ""
@@ -386,7 +379,7 @@ msgstr ""
 
 #: ksaveioconfig.cpp:232 ksaveioconfig.cpp:248
 msgid "Update Failed"
-msgstr "Aktualizacja nie powiodła się"
+msgstr "Aktualizacëjô nie darzëła sã"
 
 #: ksaveioconfig.cpp:233
 msgid ""
@@ -553,8 +546,7 @@ msgstr "Polityka"
 msgid ""
 "Verify whether the cached web page is valid before attempting to fetch the "
 "web page again."
-msgstr ""
-"Przed wyświetleniem zachowanej kopii strony sprawdza, czy jest ona aktualna."
+msgstr "Przed wyświetleniem zachowanej kopii strony sprawdza, czy jest ona aktualna."
 
 #. i18n: tag string
 #. i18n: file cache.ui line 54
@@ -1561,8 +1553,7 @@ msgstr "Gniazda (SOCKS)"
 msgid ""
 "Check this to enable SOCKS4 and SOCKS5 support in KDE applications and I/O "
 "subsystems."
-msgstr ""
-"Jeśli ta opcja jest włączona, programy KDE będą obsługiwać SOCKS4 i SOCKS5."
+msgstr "Jeśli ta opcja jest włączona, programy KDE będą obsługiwać SOCKS4 i SOCKS5."
 
 #. i18n: tag string
 #. i18n: file socksbase.ui line 31
@@ -1802,10 +1793,8 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file useragentdlg.ui line 70
 #: rc.cpp:576
-msgid ""
-"Includes your operating system's name in the browser identification text."
-msgstr ""
-"Dodaje nazwę systemu operacyjnego do tekstu identyfikującego przeglądarkę."
+msgid "Includes your operating system's name in the browser identification text."
+msgstr "Dodaje nazwę systemu operacyjnego do tekstu identyfikującego przeglądarkę."
 
 #. i18n: tag string
 #. i18n: file useragentdlg.ui line 73
@@ -1819,8 +1808,7 @@ msgstr "Dodaj nazwę s&ystemu operacyjnego"
 msgid ""
 "Includes your operating system's version number in the browser "
 "identification text."
-msgstr ""
-"Dodaje wersję systemu operacyjnego do tekstu identyfikującego przeglądarkę."
+msgstr "Dodaje wersję systemu operacyjnego do tekstu identyfikującego przeglądarkę."
 
 #. i18n: tag string
 #. i18n: file useragentdlg.ui line 104
@@ -1912,13 +1900,13 @@ msgstr "Zmienia wybrany tekst identyfikacji."
 #. i18n: file useragentdlg.ui line 205
 #: rc.cpp:630
 msgid "Delete the selected identifier text."
-msgstr "Usuwa wybrany tekst identyfikacji."
+msgstr "Rëmô wëbróny tekst identifikacëji."
 
 #. i18n: tag string
 #. i18n: file useragentdlg.ui line 215
 #: rc.cpp:636
 msgid "Delete all identifiers."
-msgstr "Usuń wszystkie teksty identyfikacji."
+msgstr "Rëmôj wszëtczé tekstë identifikacëji."
 
 #. i18n: tag string
 #. i18n: file useragentselectordlg.ui line 19
@@ -1936,20 +1924,20 @@ msgid ""
 "KDE site that ends with <code>.kde.org</code>.\n"
 "</qt>"
 msgstr ""
-"<qt>Podaj nazwę serwera lub domeny, dla których ma być przesyłana fałszywa "
-"identyfikacja. <p><u>UWAGA:</u>W nazwie NIE można używać masek takich jak "
-"\"*,?\". Zamiast tego można podać nazwę domeny wyższego poziomu (krótszą), "
-"do której będą pasowały wszystkie poddomeny. Na przykład, żeby wszystkie "
-"serwery KDE otrzymywały fałszywą identyfikację, wystarczy podać <code>.kde."
-"org</code>. Fałszywa interpretacja zostanie wtedy wysłana do wszystkich "
-"serwerów, których adres kończy się na <code>.kde.org</code>.\n"
+"<qt>Pòdôj miono serwera abò domenë, dla jaczich mô bëc przesélónô fałlszëwô "
+"identifikacëjô. <p><u>BÔCZËNK:</u>W mionie NIE mòże ùżëwac masków taczich jak "
+"\"*,?\". W môlu tegò mòże pòdac demenë wëższi równi (krótszą), "
+"do jaczi bãdą pasowac wszëtczé pòddomenë. Na przëmiôr, bë wszëtczé "
+"serwerë KDE dostałë falaszëwą identyfikacëjã, sygnie podac <code>.kde."
+"org</code>. Falszëwô interpretacëjô òstanie tédë wësłónô do wszëtczich "
+"serwerów, jaczich adresë kùńczą sã na <code>.kde.org</code>.\n"
 "</p></qt>"
 
 #. i18n: tag string
 #. i18n: file useragentselectordlg.ui line 22
 #: rc.cpp:648
 msgid "&When browsing the following site:"
-msgstr "Przy połączeniu &z:"
+msgstr "Przë sparłãczeniu &z:"
 
 #. i18n: tag string
 #. i18n: file useragentselectordlg.ui line 47
@@ -1963,14 +1951,14 @@ msgid ""
 "</qt>"
 msgstr ""
 "<qt>\n"
-"Wybierz identyifkację wysyłaną do podanego wyżej serwera.\n"
+"Wëbierzë identyifkacëjã sélóną do pòdónegò wëżi serwera.\n"
 "</qt>"
 
 #. i18n: tag string
 #. i18n: file useragentselectordlg.ui line 50
 #: rc.cpp:662
 msgid "&Use the following identification:"
-msgstr "Użyj następującej &identyfikacji:"
+msgstr "Brëkùjë nôslédny &identyfikacëji:"
 
 #. i18n: tag string
 #. i18n: file useragentselectordlg.ui line 74
@@ -1984,24 +1972,24 @@ msgid ""
 "</qt>"
 msgstr ""
 "<qt>\n"
-"Tekst identyfikacji przeglądarki wysyłany do serwera.\n"
+"Tekst identifikacëji przezérnika wësłóny do serwera.\n"
 "</qt>"
 
 #. i18n: tag string
 #. i18n: file useragentselectordlg.ui line 77
 #: rc.cpp:675
 msgid "Real identification:"
-msgstr "Rzeczywista identyfikacja:"
+msgstr "Prôwdzëwô identifikacëjô:"
 
 #: rc.cpp:681
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Michôł Òstrowsczi"
+msgstr "Michôł Òstrowsczi, Mark Kwidzińsczi"
 
 #: rc.cpp:682
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "michol@linuxcsb.org"
+msgstr "michol@linuxcsb.org, mark@linuxcsb.org"
 
 #: smbrodlg.cpp:48
 msgid "These settings apply to network browsing only."
@@ -2009,14 +1997,13 @@ msgstr ""
 
 #: smbrodlg.cpp:52
 msgid "Default user name:"
-msgstr "Domyślna nazwa użytkownika:"
+msgstr "Domëszlné miono brëkòwnika:"
 
 #: smbrodlg.cpp:59
 msgid "Default password:"
-msgstr "Domyślne hasło:"
+msgstr "Domëszlnô parola:"
 
 #: smbrodlg.cpp:179
-#, fuzzy
 #| msgid ""
 #| "<p><h1>Windows Shares</h1>Konqueror is able to access shared windows "
 #| "filesystems if properly configured. If there is a specific computer from "
@@ -2054,22 +2041,22 @@ msgid ""
 "not want to do that, as entries with passwords are clearly indicated as such."
 "</p>"
 msgstr ""
-"<h1>Udostępniane zasoby Windows</h1><p>Konqueror może korzystać z zasobów "
-"udostępnianych przez Windows, o ile zostanie poprawnie skonfigurowany. Jeśli "
-"jest konkretny komputer, którego chcesz użyć do przeglądania, wtedy wpisz go "
-"do pola <em>Serwer przeglądania</em>. Jest to konieczne, jeśli lokalnie nie "
-"jest uruchomiony serwer Samby. <em>Adres rozgłoszeniowy</em> oraz <em>Adres "
-"WINS</em> są także dostępne jeśli używana jest Samba (i można odczytać opcje "
-"z 'smb.conf'). W każdym wypadku adres rozgłoszeniowy (interfejsy w 'smb."
-"conf') musi zostać podany jeżeli został źle zgadnięty albo w komputerze jest "
-"więcej kart sieciowych. Stosowanie serwera WINS zwykle poprawia osiągi i "
-"znacząco obniża ruch w sieci. </p><p> Dowiązania są używane do przypisania "
-"domyślnego użytkownika do danego serwera, ewentualnie od razu z hasłem albo "
-"do danego udostępnianego zasobu. Jeśli zostanie ta opcja wybrana wtedy nowe "
-"dowiązania będą tworzone dla logowania i dla używanych zasobów podczas "
-"przeglądania. Można je tutaj wszystkie skonfigurować. Hasła są przechowywane "
-"lokalnie, ale w postaci nieczytelnej. Nie jest to całkiem bezpieczne "
-"rozwiązanie, dlatego wpisy z podanych hasłem są wyraźnie oznaczone.</p>"
+"<h1>Ùżëczewanié dostónków Windowsa</h1><p>Konqueror mòże brëkòwac dostónków "
+"ùżëwczewónëch przez Windowsa, jak bãdze pòprôwno skònfigùrowóny. Jeżlë "
+"je kònkretny kòmpùtr, jaczégò chcesz użëc do przezéraniô, to wpiszë gò "
+"do pòla <em>Serwerë przezéraniô</em>. Je to mùszëbné, jeżlë môlowò nie "
+"je zrëszonô serwera Sambë. <em>Rozgłoszeniowô adresa</em> ë <em>Adresa "
+"WINS</em> są téż przëstãpné jeżlë ùżëwónô je Samba (ë mòże odczëtac optacëje "
+"z 'smb.conf'). W kòżdim przëtrôfkù rozgłoszeniowô adresa (interfejsë w 'smb."
+"conf') mùszi òstac pòdónô jeżlëli òsta lëchò zgadłô abò w kòmpùtrze je "
+"wicy sécowich kôrtów. Brëkòwanié serwerë WINS zwëczajno pòprôwiô sprôwnotã ë "
+"baro òbniżô rësznotã w sécë. </p><p> Dowiązania są użëwóné do przëpisaniô "
+"domëszlnegò brëkòwnika do dóny serwerë, ewentualno zarô z parolą abò "
+"do dónegò ùżëczonegò dostónka. Jeżlë òstanie ta optacëjô wëbrónô to nowé "
+"dowiązania bãdą ùsôdzané dlô logòwaniô ë dlô ùżëwónëch dostónków przë "
+"przezéraniô. Mòże je tuwò wszëtczé skònfigùrowac. Parole są trzëmóné "
+"môlowò, równka w nieczëtny fòrmie. Nie je to czësto rozwiąznié na zycher, "
+"dlôte wpisënczi z pòdanëch parolów są  hasłem są wërazno nacéchòwóne.</p>"
 
 #: socks.cpp:61
 msgid "kcmsocks"
@@ -2077,7 +2064,7 @@ msgstr "kcmsocks"
 
 #: socks.cpp:61
 msgid "KDE SOCKS Control Module"
-msgstr "KDE Moduł Konfiguracji SOCKS"
+msgstr "KDE Mòdul Kònfigùracëji SOCKS"
 
 #: socks.cpp:63
 msgid "(c) 2001 George Staikos"
@@ -2089,20 +2076,19 @@ msgstr "George Staikos"
 
 #: socks.cpp:112
 msgid "These changes will only apply to newly started applications."
-msgstr ""
-"Zmiana zostanie uwzględniona dopiero po ponownym uruchomieniu programu."
+msgstr "Zmiana bãdze aktiwnô pò zrëszeniém programë znowa."
 
 #: socks.cpp:114 socks.cpp:148 socks.cpp:153
 msgid "SOCKS Support"
-msgstr "Obsługa SOCKS"
+msgstr "Òbsłëga SOCKS"
 
 #: socks.cpp:147
 msgid "Success: SOCKS was found and initialized."
-msgstr "Odnaleziono obsługę SOCKS i została ona pomyślnie zainicjalizowana."
+msgstr "Sukces: Òbsłëga SOCKS nalazłô ë pòprôwno winicjónowónô."
 
 #: socks.cpp:152
 msgid "SOCKS could not be loaded."
-msgstr "Nie można wczytać SOCKS."
+msgstr "Ni mòże wczëtac SOCKS."
 
 #: socks.cpp:288
 msgid ""
@@ -2112,19 +2098,19 @@ msgid ""
 "you have no idea what this is and if your system administrator does not tell "
 "you to use it, leave it disabled.</p>"
 msgstr ""
-"<h1>SOCKS</h1><p>Moduł pozwala na konfigurację obsługi SOCKS w KDE dla "
-"serwera SOCKS lub pośrednika.</p><p>SOCKS jest protokołem do przechodzenia "
-"przez zapory sieciowych, opisanym na stronie <a href=\"http://rfc.net/"
-"rfc1928.html\">RFC 1928</a>.</p><p>Jeśli nie wiesz, o co chodzi, skontaktuj "
-"się z administratorem lub pozostaw tę opcję wyłączoną.</p>"
+"<h1>SOCKS</h1><p>Mòdul zezwôlô na kònfigùracëjã ùsłëżnotë SOCKS w KDE dlô "
+"serwera SOCKS abò pòstrzédnika.</p><p>SOCKS je protokòłã do przechòdzeniô "
+"przez sécowé zagrodë, opisónëm na starnie <a href=\"http://rfc.net/"
+"rfc1928.html\">RFC 1928</a>.</p><p>Jeżlë ni wiész, ò co chòdzy, sparłãczë "
+"sã ze sprôwnikã abò òstôwi nã òptacëjã wëłączoną.</p>"
 
 #: useragentdlg.cpp:77
 msgid "Add Identification"
-msgstr "Dodaj identyfikację"
+msgstr "Dodôj identifikacëjã"
 
 #: useragentdlg.cpp:150
 msgid "Modify Identification"
-msgstr "Zmień identyfikację"
+msgstr "Zmieni identifikacëjã"
 
 #: useragentdlg.cpp:205
 #, kde-format
@@ -2132,12 +2118,12 @@ msgid ""
 "<qt><center>Found an existing identification for<br/><b>%1</b><br/>Do you "
 "want to replace it?</center></qt>"
 msgstr ""
-"<qt> <center>Polityka dla<br/><b>%1</b><br/>została już określona. Zmienić "
-"ją?</center></qt>"
+"<qt> <center>Pòlitika dlô<br/><b>%1</b><br/>òsta ju òpisónô. Zmienic "
+"jã?</center></qt>"
 
 #: useragentdlg.cpp:210
 msgid "Duplicate Identification"
-msgstr "Powtórzona identyfikacja"
+msgstr "Dëbeltno identifikacëjô"
 
 #: useragentdlg.cpp:392
 msgid ""
@@ -2154,19 +2140,17 @@ msgid ""
 "dialog box, simply click on the quick help button on the window title bar, "
 "then click on the section for which you are seeking help.</p>"
 msgstr ""
-"<h1>Identyfikacja przeglądarki</h1><p>Okno dialogowe identyfikacji "
-"przeglądarki pozwala w pełni skonfigurować sposób, w jaki Konqueror "
-"przedstawia się serwerom WWW.</p><p>Możliwość wysłania fałszywej "
-"identyfikacji jest czasem niezbędna, gdyż niektóre witryny w sieci nie "
-"wyświetlają stron poprawnie, gdy wykryją, że nie są połączone z nowymi "
-"wersjami Netscape Navigatora lub Internet Explorera, nawet jeśli "
-"przeglądarka poradziłaby sobie bez zarzutu z wyświetleniem takich stron. "
-"Dlatego dla takich witryn można skonfigurować własny tekst identyfikujący. "
-"Niestety, to nie zawsze wystarcza, ponieważ serwery takie mogą używać "
-"niestandardowych protokołów i specyfikacji.</p> <p><u>UWAGA:</u> Aby "
-"dowiedzieć się więcej o poszczególnych opcjach w okienku dialogowym, "
-"wystarczy kliknąć na przycisk krótkiej pomocy na pasku tytułowym okienka, a "
-"potem kliknąć w odpowiednim polu.</p>"
+"<h1>Identifikacëjô przezérnika</h1><p>Dialogòwé òkno inedtifikacëji "
+"przezérnika zezwôlô fùl skòfigùrowac, na jaczi ôrt Konqueror "
+"przedstôwiô sã serwerom WWW.</p><p>Możlëwòta wësłaniô falszëwi "
+"identifikacëji je czasã mùszebnô dlôte, że niejedné witrinë w sécë ni "
+"wëskrzëniają starnów pòprôwno, jak wëkrëją, że nie są sparłãczoné z nowima "
+"wersëjama Netscape Navigatora abò Internet Explorera, nawetka jeżlë "
+"przezérnik rozmieje pòprôwno wëskrzënic taczé starnë. "
+"Dlôte dlô taczich witrinów mòże skònfigùrowac swój identifikùjący tekst. "
+"Bòdôj, to nie wiedno sygô, bò taczé serwerë mògą brëkòwac "
+"niesztandardowich protokòlów ë specyfikacëji.</p> <p><u>Bôczënk:</u> Abë "
+"dobëc wicy wëdowiédzë ò òptacëjach w dialogòwim òczénkù, "
+"sygnie klëknąc na knąpã wãzłowati pòmòcë titlowi listwie òczenka, a "
+"pòzdze klëknąc w pasownëm pòlu.</p>"
 
-#~ msgid "This is the configuration for the samba client only, not the server."
-#~ msgstr "To jest konfiguracja tylko klienta, nie serwera Samby."
