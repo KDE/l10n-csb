@@ -8,14 +8,13 @@ msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-07-15 12:11+0200\n"
-"PO-Revision-Date: 2008-07-15 11:11+0200\n"
+"PO-Revision-Date: 2008-07-15 17:21+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2)\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #: meta/file/File_p.h:266 meta/file/File_p.h:269 meta/file/File_p.h:316
@@ -126,10 +125,9 @@ msgid "Deleting Tracks from iPod"
 msgstr "Rëmanié traków z iPoda"
 
 #: collection/ipodcollection/IpodMeta.cpp:77
-#, fuzzy
 #| msgid "Remove From Playlist"
 msgid "&Remove from iPod"
-msgstr "Rëmôj z lëstë graniô..."
+msgstr "&Rëmôj z iPoda"
 
 #: collection/ipodcollection/IpodMeta.cpp:101
 msgid "&Disconnect the iPod"
@@ -570,8 +568,7 @@ msgstr "Nie mòże ùsôdzëc òbiektu"
 
 #: context/plasma/applet.cpp:1740
 #, kde-format
-msgid ""
-"This object could not be created for the following reason:<p><b>%1</b></p>"
+msgid "This object could not be created for the following reason:<p><b>%1</b></p>"
 msgstr "Ni mòże ùsôdzëc òbiektu bez nen ôrt: <p><b>%1</b></p>"
 
 #: context/plasma/packagestructure.h:81
@@ -759,10 +756,8 @@ msgid "Lyrics are being fetched."
 msgstr "Tekst je ladowóny."
 
 #: context/applets/lyrics/LyricsApplet.cpp:77
-msgid ""
-"Lyrics were not able to be downloaded. Please check your internet connection."
-msgstr ""
-"Ni mòże zladowac teksta. Proszã sprôwdzëc swòjé pòłączenié z jinternetã."
+msgid "Lyrics were not able to be downloaded. Please check your internet connection."
+msgstr "Ni mòże zladowac teksta. Proszã sprôwdzëc swòjé pòłączenié z jinternetã."
 
 #: context/applets/lyrics/LyricsApplet.cpp:79
 msgid "Todo.... show suggestions here!"
@@ -1172,8 +1167,7 @@ msgstr[1] "Wëbróne <b>%1</b> lopczi."
 msgstr[2] "Wëbrónëch <b>%1</b> lopków."
 
 #: dialogs/deletedialog.cpp:77
-msgid ""
-"<qt>These items will be <b>permanently deleted</b> from your hard disk.</qt>"
+msgid "<qt>These items will be <b>permanently deleted</b> from your hard disk.</qt>"
 msgstr ""
 
 #: dialogs/deletedialog.cpp:83
@@ -1365,8 +1359,7 @@ msgstr ""
 
 #: dialogs/TagDialog.cpp:472
 #, kde-format
-msgid ""
-"Tunepimp (MusicBrainz tagging library) returned the following error: \"%1\"."
+msgid "Tunepimp (MusicBrainz tagging library) returned the following error: \"%1\"."
 msgstr ""
 
 #: dialogs/TagDialog.cpp:482
@@ -1916,8 +1909,7 @@ msgstr ""
 
 #: dialogs/ScriptManager.cpp:429
 #, kde-format
-msgid ""
-"A script with the name '%1' is already installed. Please uninstall it first."
+msgid "A script with the name '%1' is already installed. Please uninstall it first."
 msgstr ""
 
 #: dialogs/ScriptManager.cpp:440
@@ -2341,11 +2333,11 @@ msgstr ""
 
 #: mediabrowser.cpp:168
 msgid "Connect"
-msgstr ""
+msgstr "Pòłączë"
 
 #: mediabrowser.cpp:174
 msgid "Disconnect"
-msgstr ""
+msgstr "Òdłączë"
 
 #: mediabrowser.cpp:180
 msgid "Transfer"
@@ -2353,7 +2345,7 @@ msgstr ""
 
 #: mediabrowser.cpp:189
 msgid "custom"
-msgstr ""
+msgstr "swój"
 
 #: mediabrowser.cpp:191
 msgid "Special Device Functions"
@@ -2369,7 +2361,7 @@ msgstr "Kònfigùracëjô"
 
 #: mediabrowser.cpp:223 mediabrowser.cpp:224
 msgid "Disable"
-msgstr ""
+msgstr "Wëłączë"
 
 #: mediabrowser.cpp:225 mediabrowser.cpp:226 MediaDevicePluginManager.cpp:549
 msgid "Do not handle"
@@ -2528,8 +2520,7 @@ msgid "Enter new preset name:"
 msgstr ""
 
 #: equalizerpresetmanager.cpp:131
-msgid ""
-"All presets will be deleted and defaults will be restored. Are you sure?"
+msgid "All presets will be deleted and defaults will be restored. Are you sure?"
 msgstr ""
 
 #: main.cpp:35
@@ -3269,8 +3260,7 @@ msgstr ""
 #: mediadevice/mtp/mtpmediadevice.cpp:1380
 #, kde-format
 msgid "<p>You are updating cover art for 1 track. This may take some time.</p>"
-msgid_plural ""
-"<p>You are updating cover art for %1 tracks. This may take some time.</p>"
+msgid_plural "<p>You are updating cover art for %1 tracks. This may take some time.</p>"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
@@ -3370,8 +3360,7 @@ msgstr ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:992
 #, kde-format
-msgid ""
-"If you are sure that this is an error, then remove the file %1 and try again."
+msgid "If you are sure that this is an error, then remove the file %1 and try again."
 msgstr ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:996
@@ -3445,8 +3434,7 @@ msgid ""
 msgstr ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:1379
-msgid ""
-"iPod type detection failed: no support for iPod Shuffle, for artwork or video"
+msgid "iPod type detection failed: no support for iPod Shuffle, for artwork or video"
 msgstr ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:1426
@@ -3568,8 +3556,7 @@ msgid "&Automatically delete podcasts"
 msgstr ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:2566
-msgid ""
-"Automatically delete podcast shows already played when connecting device"
+msgid "Automatically delete podcast shows already played when connecting device"
 msgstr ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:2570
@@ -3886,7 +3873,6 @@ msgid "Move to Collection"
 msgstr "Przeniesë do kòlekcëji"
 
 #: collectionbrowser/CollectionTreeView.cpp:374
-#, fuzzy
 #| msgid "More..."
 msgid "More.."
 msgstr "Wicy..."
@@ -4191,8 +4177,7 @@ msgstr ""
 #. i18n: tag whatsthis
 #. i18n: file ./amarok.kcfg line 79
 #: rc.cpp:72 rc.cpp:1433
-msgid ""
-"If set, Amarok plays the tracks or albums in the playlist in a random order."
+msgid "If set, Amarok plays the tracks or albums in the playlist in a random order."
 msgstr ""
 
 #. i18n: tag label
@@ -4226,8 +4211,7 @@ msgstr ""
 #. i18n: tag whatsthis
 #. i18n: file ./amarok.kcfg line 94
 #: rc.cpp:84 rc.cpp:1445
-msgid ""
-"The title of the Dynamic Mode that was most recently loaded in the playlist"
+msgid "The title of the Dynamic Mode that was most recently loaded in the playlist"
 msgstr ""
 
 #. i18n: tag label
@@ -4490,8 +4474,7 @@ msgstr ""
 #. i18n: tag label
 #. i18n: file ./amarok.kcfg line 173
 #: rc.cpp:177 rc.cpp:1538
-msgid ""
-"Whether organize files will group directories according to their filetype."
+msgid "Whether organize files will group directories according to their filetype."
 msgstr ""
 
 #. i18n: tag whatsthis
@@ -4499,8 +4482,7 @@ msgstr ""
 #. i18n: tag whatsthis
 #. i18n: file ./amarok.kcfg line 174
 #: rc.cpp:180 rc.cpp:1541
-msgid ""
-"If set, Organize files will group directories containing the same filetype."
+msgid "If set, Organize files will group directories containing the same filetype."
 msgstr ""
 
 #. i18n: tag label
@@ -4508,8 +4490,7 @@ msgstr ""
 #. i18n: tag label
 #. i18n: file ./amarok.kcfg line 178
 #: rc.cpp:183 rc.cpp:1544
-msgid ""
-"Whether organize files will group artist starting in the same character."
+msgid "Whether organize files will group artist starting in the same character."
 msgstr ""
 
 #. i18n: tag whatsthis
@@ -4517,8 +4498,7 @@ msgstr ""
 #. i18n: tag whatsthis
 #. i18n: file ./amarok.kcfg line 179
 #: rc.cpp:186 rc.cpp:1547
-msgid ""
-"If set, Organize files will group artist starting in the same character."
+msgid "If set, Organize files will group artist starting in the same character."
 msgstr ""
 
 #. i18n: tag label
@@ -4542,8 +4522,7 @@ msgstr ""
 #. i18n: tag label
 #. i18n: file ./amarok.kcfg line 188
 #: rc.cpp:195 rc.cpp:1556
-msgid ""
-"Whether organize files will replace spaces in filenames by an underscore."
+msgid "Whether organize files will replace spaces in filenames by an underscore."
 msgstr ""
 
 #. i18n: tag whatsthis
@@ -4551,8 +4530,7 @@ msgstr ""
 #. i18n: tag whatsthis
 #. i18n: file ./amarok.kcfg line 189
 #: rc.cpp:198 rc.cpp:1559
-msgid ""
-"If set, Organize files will replace spaces in filenames by an underscore."
+msgid "If set, Organize files will replace spaces in filenames by an underscore."
 msgstr ""
 
 #. i18n: tag label
@@ -4640,8 +4618,7 @@ msgstr ""
 #. i18n: tag whatsthis
 #. i18n: file ./amarok.kcfg line 214
 #: rc.cpp:228 rc.cpp:1589
-msgid ""
-"If set, Organize files will rename files according to a custom format string."
+msgid "If set, Organize files will rename files according to a custom format string."
 msgstr ""
 
 #. i18n: tag label
@@ -4675,8 +4652,7 @@ msgstr ""
 #. i18n: tag whatsthis
 #. i18n: file ./amarok.kcfg line 224
 #: rc.cpp:240 rc.cpp:1601
-msgid ""
-"Organize files will replace substrings matching this regular expression."
+msgid "Organize files will replace substrings matching this regular expression."
 msgstr ""
 
 #. i18n: tag label
@@ -4894,8 +4870,7 @@ msgstr ""
 #. i18n: tag whatsthis
 #. i18n: file ./amarok.kcfg line 317
 #: rc.cpp:321 rc.cpp:1682
-msgid ""
-"Determines in which language the information is retrieved from Wikipedia."
+msgid "Determines in which language the information is retrieved from Wikipedia."
 msgstr ""
 
 #. i18n: tag label
@@ -5851,8 +5826,7 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./collection/sqlcollection/OrganizeCollectionDialogBase.ui line 107
 #: rc.cpp:695
-msgid ""
-"If checked, use a custom format string for naming the files in the collection"
+msgid "If checked, use a custom format string for naming the files in the collection"
 msgstr ""
 
 #. i18n: tag string
@@ -5876,8 +5850,7 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./collection/sqlcollection/OrganizeCollectionDialogBase.ui line 127
 #: rc.cpp:707
-msgid ""
-"If checked, introduce another directory hierarchy for the artists' initials."
+msgid "If checked, introduce another directory hierarchy for the artists' initials."
 msgstr ""
 
 #. i18n: tag string
@@ -5913,8 +5886,7 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./collection/sqlcollection/OrganizeCollectionDialogBase.ui line 218
 #: rc.cpp:728
-msgid ""
-"If checked, replace characters that are unavailable in the 7-bit ASCII code."
+msgid "If checked, replace characters that are unavailable in the 7-bit ASCII code."
 msgstr ""
 
 #. i18n: tag string
@@ -6932,8 +6904,7 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./mediadevice/generic/genericmediadeviceconfigdialog.ui line 310
 #: rc.cpp:1963
-msgid ""
-"The location of the transfered songs relative to the device mount point."
+msgid "The location of the transfered songs relative to the device mount point."
 msgstr ""
 
 #. i18n: tag string
@@ -6957,8 +6928,7 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./mediadevice/generic/genericmediadeviceconfigdialog.ui line 380
 #: rc.cpp:1977
-msgid ""
-"The location of the transfered podcasts relative to the device mount point."
+msgid "The location of the transfered podcasts relative to the device mount point."
 msgstr ""
 
 #. i18n: tag string
@@ -7645,12 +7615,10 @@ msgstr ""
 #: MediaDevice.cpp:1027
 #, kde-format
 msgid "<p>You have selected 1 track to be <b>irreversibly</b> deleted.</p>"
-msgid_plural ""
-"<p>You have selected %1 tracks to be <b>irreversibly</b> deleted.</p>"
+msgid_plural "<p>You have selected %1 tracks to be <b>irreversibly</b> deleted.</p>"
 msgstr[0] "<p>Môsz wëbróné 1 sztëczk do <b>nieòdwracólnégò</b> rëmniãcô.</p>"
 msgstr[1] "<p>Môsz wëbróné %1 sztëcczi do <b>nieòdwracólnégò</b> rëmniãcô.</p>"
-msgstr[2] ""
-"<p>Môsz wëbróné %1 sztëczków do <b>nieòdwracólnégò</b> rëmniãcô.</p>"
+msgstr[2] "<p>Môsz wëbróné %1 sztëczków do <b>nieòdwracólnégò</b> rëmniãcô.</p>"
 
 #: analyzers/blockanalyzer.cpp:448
 msgid "Framerate"
@@ -7791,17 +7759,15 @@ msgid "Remove From Playlist"
 msgstr "Rëmôj z lëstë graniô..."
 
 #: playlist/PlaylistViewCommon.cpp:53
-#, fuzzy
 #| msgid "Show &Information"
 msgid "Edit Track Details"
-msgstr "Pòkażë &wëdowiedzã"
+msgstr "Editëjë detale sztëczka"
 
 #: playlist/PlaylistWidget.cpp:92
-#, fuzzy
 #| msgid "Playlist"
 msgctxt "switch view"
 msgid "Switch Playlist &View"
-msgstr "Lësta gróniô"
+msgstr "Przëłączë &Wëzdrzatk lëstë graniô"
 
 #: playlist/UndoCommands.cpp:28
 msgid "Tracks Added"
@@ -7812,10 +7778,9 @@ msgid "Tracks Removed"
 msgstr ""
 
 #: playlist/UndoCommands.cpp:64
-#, fuzzy
 #| msgid "Playlist"
 msgid "Playlists Added"
-msgstr "Lësta gróniô"
+msgstr "Lësta gróniô dodónô"
 
 #: playlist/PlaylistModel.cpp:103
 msgid "Undo"
@@ -7826,11 +7791,10 @@ msgid "Redo"
 msgstr ""
 
 #: playlist/PlaylistModel.cpp:482
-#, fuzzy
 #| msgid "Rename"
 msgctxt "The name of the file this track is stored in"
 msgid "Filename"
-msgstr "Zmieni miono"
+msgstr "Miono lopka"
 
 #: playlist/PlaylistModel.cpp:485
 msgid "Album Artist"
@@ -7841,11 +7805,10 @@ msgid "Disc Number"
 msgstr ""
 
 #: playlist/PlaylistModel.cpp:490
-#, fuzzy
 #| msgid "Newest Tracks"
 msgctxt "The Track number for this item"
 msgid "Track"
-msgstr "Nônowszi sztëcczi"
+msgstr "Sztëczk"
 
 #: playlist/PlaylistModel.cpp:491 SmartPlaylistEditor.cpp:191
 msgid "BPM"
@@ -7908,10 +7871,9 @@ msgid "Bookmarks"
 msgstr "Załóżczi"
 
 #: filebrowser/FileBrowser.cpp:164
-#, fuzzy
 #| msgid "Go To Current Track Folder"
 msgid "Current Document Folder"
-msgstr "Biéj do biéżnégò katalogù sztëczka"
+msgstr "Biéżny katalog dokùmentu"
 
 #: filebrowser/FileBrowser.cpp:188
 msgid ""
@@ -7944,11 +7906,11 @@ msgid "Clear filter"
 msgstr ""
 
 #: servicebrowser/magnatunestore/magnatuneinfoparser.cpp:44
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Fetching 1 cover: "
 #| msgid_plural "Fetching <b>%1</b> covers... : "
 msgid "Fetching %1 Artist Info"
-msgstr "Ladowanié 1 òbkłôdczi: "
+msgstr "Ladowanié wëdowédzë ò artisce %1"
 
 #: servicebrowser/magnatunestore/magnatuneinfoparser.cpp:155
 msgid "Fetching Magnatune.com front page"
@@ -7969,20 +7931,18 @@ msgstr ""
 
 #: servicebrowser/magnatunestore/MagnatuneMeta.cpp:220
 #: servicebrowser/magnatunestore/MagnatuneMeta.cpp:411
-#, fuzzy
 #| msgid "&Download Media"
 msgid "&Download Album"
-msgstr "&Zladëjë media"
+msgstr "&Zladëjë albùm"
 
 #: servicebrowser/magnatunestore/MagnatuneMeta.cpp:238
 msgid "Magnatune.com: &Purchase Album"
 msgstr ""
 
 #: servicebrowser/magnatunestore/MagnatuneMeta.cpp:240
-#, fuzzy
 #| msgid "&Download Media"
 msgid "Magnatune.com: &Download Album"
-msgstr "&Zladëjë media"
+msgstr "Magnatune.com: &zladëjë albùm"
 
 #: servicebrowser/magnatunestore/MagnatuneAlbumDownloader.cpp:70
 msgid "Downloading album"
@@ -8020,26 +7980,23 @@ msgid "The friendly record company with the motto \"We are not evil!\""
 msgstr ""
 
 #: servicebrowser/magnatunestore/MagnatuneStore.cpp:188
-#, fuzzy
 #| msgid "Options"
 msgid "Actions"
-msgstr "Òptacëje"
+msgstr "Akcëjë"
 
 #: servicebrowser/magnatunestore/MagnatuneStore.cpp:189
-#, fuzzy
 #| msgid "&Download Media"
 msgid "Redownload"
-msgstr "&Zladëjë media"
+msgstr "Zladëjë znôù"
 
 #: servicebrowser/magnatunestore/MagnatuneStore.cpp:193
 msgid "Update Database"
 msgstr ""
 
 #: servicebrowser/magnatunestore/MagnatuneStore.cpp:210
-#, fuzzy
 #| msgid "&Download Media"
 msgid "Download Album"
-msgstr "&Zladëjë media"
+msgstr "Zladëjë albùm"
 
 #: servicebrowser/magnatunestore/MagnatuneStore.cpp:212
 msgid "Purchase Album"
@@ -8120,16 +8077,14 @@ msgid "The email address entered does not appear to be valid"
 msgstr ""
 
 #: servicebrowser/magnatunestore/MagnatunePurchaseDialog.cpp:164
-#, fuzzy
 #| msgid "Send Email"
 msgid "Invalid email"
-msgstr "Wëslë email"
+msgstr "Lëchi e-mail"
 
 #: servicebrowser/magnatunestore/MagnatunePurchaseHandler.cpp:86
-#, fuzzy
 #| msgid "&Download Media"
 msgid "Processing download"
-msgstr "&Zladëjë media"
+msgstr "Przerobiónié zladënkù"
 
 #: servicebrowser/magnatunestore/MagnatunePurchaseHandler.cpp:134
 #: servicebrowser/magnatunestore/MagnatunePurchaseHandler.cpp:156
@@ -8152,10 +8107,9 @@ msgid ""
 msgstr ""
 
 #: servicebrowser/magnatunestore/MagnatunePurchaseHandler.cpp:230
-#, fuzzy
 #| msgid "Cannot write playlist (%1)."
 msgid "Could not process payment"
-msgstr "Nie mògã zapisac lëstë graniô (%1)."
+msgstr "Ni mògã przeprowadzëc procesu płaceniô"
 
 #: servicebrowser/magnatunestore/MagnatunePurchaseHandler.cpp:236
 msgid ""
@@ -8164,10 +8118,9 @@ msgid ""
 msgstr ""
 
 #: servicebrowser/magnatunestore/MagnatunePurchaseHandler.cpp:236
-#, fuzzy
 #| msgid "&Download Media"
 msgid "Could not process download"
-msgstr "&Zladëjë media"
+msgstr "Ni mògã przeprowadzëc procesu zladënkù"
 
 #: servicebrowser/ServiceBase.cpp:340
 msgid "This service does not accept any messages"
@@ -8188,11 +8141,10 @@ msgstr ""
 
 #: servicebrowser/opmldirectory/OpmlDirectoryService.cpp:96
 #: servicebrowser/jamendo/JamendoService.cpp:99
-#, fuzzy
 #| msgid "Date"
 msgctxt "Fetch new information from the website"
 msgid "Update"
-msgstr "Datum"
+msgstr "Aktualizacëjô"
 
 #: servicebrowser/opmldirectory/OpmlDirectoryService.cpp:103
 msgid "Subscribe"
@@ -8247,16 +8199,16 @@ msgid "Skip this track"
 msgstr ""
 
 #: servicebrowser/lastfm/meta/LastFmMeta.cpp:337
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Global Tags"
 msgid "Global Tag Radio: \"%1\""
-msgstr "Òglowi tadżi"
+msgstr "Òglowé tadżi radia: \"%1\""
 
 #: servicebrowser/lastfm/meta/LastFmMeta.cpp:343
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Global Tags"
 msgid "User Tag Radio: \"%1\""
-msgstr "Òglowi tadżi"
+msgstr "Brëkòwników tadżi radia: \"%1\""
 
 #: servicebrowser/lastfm/meta/LastFmMeta.cpp:351
 #, kde-format
@@ -8264,28 +8216,28 @@ msgid "Similar Artists to \"%1\""
 msgstr ""
 
 #: servicebrowser/lastfm/meta/LastFmMeta.cpp:355
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Last.fm Radio"
 msgid "Artist Fan Radio: \"%1\""
-msgstr "Radio last.fm"
+msgstr "Radio lubòtników artistów: \"%1\""
 
 #: servicebrowser/lastfm/meta/LastFmMeta.cpp:364
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Neighbor Radio"
 msgid "%1's Neighbor Radio"
-msgstr "Sąsedczé radio"
+msgstr "Sąsedzczé radio %1"
 
 #: servicebrowser/lastfm/meta/LastFmMeta.cpp:368
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Personal Radio"
 msgid "%1's Personal Radio"
-msgstr "Swòjé radio"
+msgstr "Swòjé radio %1"
 
 #: servicebrowser/lastfm/meta/LastFmMeta.cpp:372
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Loved Radio"
 msgid "%1's Loved Radio"
-msgstr "Lubòtné radio"
+msgstr "Lubòtné radio %1"
 
 #: servicebrowser/lastfm/meta/LastFmMeta.cpp:376
 #, kde-format
@@ -8298,22 +8250,19 @@ msgid "Group Radio: %1"
 msgstr ""
 
 #: servicebrowser/lastfm/meta/LastFmMeta.cpp:391
-#, fuzzy
 #| msgid "Personal Radio"
 msgid "Track Radio"
-msgstr "Swòjé radio"
+msgstr "Radio sztëczków"
 
 #: servicebrowser/lastfm/meta/LastFmMeta.cpp:395
-#, fuzzy
 #| msgid "Last.fm Radio"
 msgid "Artist Radio"
-msgstr "Radio last.fm"
+msgstr "Radio artistów"
 
 #: servicebrowser/lastfm/meta/LastFmMeta.cpp:500
-#, fuzzy
 #| msgid "Add Last.fm Radio..."
 msgid "Last.fm is cool..."
-msgstr "Dodôj radio z Last.fm..."
+msgstr "Last.fm je fejn..."
 
 #: servicebrowser/lastfm/AudioController.cpp:93
 msgid "Radio playlist has ended."
@@ -8332,10 +8281,9 @@ msgid "Ban"
 msgstr ""
 
 #: servicebrowser/lastfm/LastFmService.cpp:119
-#, fuzzy
 #| msgid "&Skip"
 msgid "Skip"
-msgstr "&Przepùszczë"
+msgstr "Przepùszczë"
 
 #: servicebrowser/lastfm/LastFmService.cpp:131
 msgid "Enter artist name"
@@ -8356,28 +8304,24 @@ msgid "Play Similar Artists from Last.fm"
 msgstr ""
 
 #: servicebrowser/lastfm/LastFmServiceCollection.cpp:44
-#, fuzzy
 #| msgid "Neighbor Radio"
 msgid "Neighbors' Loved Radio"
-msgstr "Sąsedczé radio"
+msgstr "Lubòtné radio sąsadów"
 
 #: servicebrowser/lastfm/LastFmServiceCollection.cpp:48
-#, fuzzy
 #| msgid "Neighbor Radio"
 msgid "Neighbors' Personal Radio"
-msgstr "Sąsedczé radio"
+msgstr "Personowé radio sąsadów"
 
 #: servicebrowser/lastfm/LastFmServiceCollection.cpp:52
-#, fuzzy
 #| msgid "Last.fm Radio"
 msgid "Friends' Loved Radio"
-msgstr "Radio last.fm"
+msgstr "Lubòtné radio drëchów"
 
 #: servicebrowser/lastfm/LastFmServiceCollection.cpp:56
-#, fuzzy
 #| msgid "Personal Radio"
 msgid "Friends' Personal Radio"
-msgstr "Swòjé radio"
+msgstr "Personowé radio drëchów"
 
 #: servicebrowser/lastfm/LastFmServiceCollection.cpp:60
 msgid "Recently Loved Tracks"
@@ -8396,11 +8340,11 @@ msgid "The biggest list of online radio stations on the Internet"
 msgstr ""
 
 #: servicebrowser/shoutcast/ShoutcastServiceQueryMaker.cpp:225
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "1 result for \"%1\""
 #| msgid_plural "%1 results for \"%1\""
 msgid "Results for: %1"
-msgstr "1 rezultat dlô \"%1\""
+msgstr "Rezultat dlô: %1"
 
 #: servicebrowser/ShowInServiceAction.cpp:30
 #, kde-format
@@ -8408,10 +8352,9 @@ msgid "Go to artist in %1 service"
 msgstr ""
 
 #: servicebrowser/ServiceInfoProxy.cpp:160
-#, fuzzy
 #| msgid "Volume"
 msgid "Home"
-msgstr "Głosnosc"
+msgstr "Dodóm"
 
 #: servicebrowser/ServicePluginManager.cpp:218
 #: servicebrowser/ServicePluginManager.cpp:232
@@ -8548,10 +8491,9 @@ msgid "Enter Podcast URL:"
 msgstr "Wpiszë URL podcasta:"
 
 #: playlistbrowser/PodcastCategory.cpp:75
-#, fuzzy
 #| msgid "Add Podcast"
 msgid "&Add Podcast"
-msgstr "Dodôj podcast"
+msgstr "&Dodôj podcast"
 
 #: playlistbrowser/PodcastCategory.cpp:80
 msgid "&Update All"
@@ -8567,10 +8509,9 @@ msgid "&Refresh"
 msgstr ""
 
 #: playlistbrowser/DynamicCategory.cpp:59
-#, fuzzy
 #| msgid "Replace"
 msgid "Repopulate"
-msgstr "Zamieni"
+msgstr ""
 
 #: playlistbrowser/DynamicCategory.cpp:60
 msgid "Replace the upcoming tracks with fresh ones."
@@ -8586,10 +8527,9 @@ msgstr ""
 
 #: playlistbrowser/DynamicCategory.cpp:162
 #: playlistbrowser/DynamicCategory.cpp:186
-#, fuzzy
 #| msgid "Off"
 msgid "Off"
-msgstr "wëłączoné"
+msgstr "Wëłączony"
 
 #: playlistbrowser/DynamicCategory.cpp:163
 msgid "Turn dynamic mode off."
@@ -8604,10 +8544,9 @@ msgid "Turn dynamic mode on."
 msgstr ""
 
 #: playlistbrowser/PlaylistCategory.cpp:92
-#, fuzzy
 #| msgid "Folder"
 msgid "Add Folder"
-msgstr "Katalog"
+msgstr "Dodôj katalog"
 
 #: playlistbrowser/PlaylistCategory.cpp:129
 msgid "The stream URL provided was not valid."
@@ -8622,10 +8561,9 @@ msgid "Name:"
 msgstr "Miono:"
 
 #: playlistbrowser/PlaylistCategory.cpp:144
-#, fuzzy
 #| msgid "Enter Podcast URL:"
 msgid "Stream URL:"
-msgstr "Wpiszë URL podcasta:"
+msgstr "URL stëdżi:"
 
 #: statusbar/StatusBar.cpp:76
 msgid "Amarok is paused"
@@ -8668,7 +8606,7 @@ msgstr "òd"
 #: statusbar/StatusBar.cpp:227
 #, kde-format
 msgid "Playing: %1"
-msgstr ""
+msgstr "Grô: %1"
 
 #: statusbar/StatusBarMessageLabel.cpp:56
 msgctxt "@action:button"
@@ -8700,13 +8638,13 @@ msgid "Aborting all jobs..."
 msgstr ""
 
 #: statusbar/queueLabel.cpp:184
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Newest Tracks"
 msgid "1 Queued Track (%2)"
 msgid_plural "%1 Queued Tracks (%2)"
-msgstr[0] "Nônowszi sztëcczi"
-msgstr[1] "Nônowszi sztëcczi"
-msgstr[2] "Nônowszi sztëcczi"
+msgstr[0] "1 sztëczk w rédzë (%2)"
+msgstr[1] "%1 sztëcczi w rédzë (%2)"
+msgstr[2] "%1 sztëczków w rédzë (%2)"
 
 #: statusbar/queueLabel.cpp:187
 #, kde-format
@@ -8830,7 +8768,6 @@ msgid "Restart the scanner at last position, after a crash"
 msgstr ""
 
 #: widgets/VolumeWidget.cpp:35
-#, fuzzy
 #| msgid "Volume control"
 msgid "Volume Control"
 msgstr "Kòntrola głosnoscë"
@@ -8896,10 +8833,10 @@ msgid "Last Played"
 msgstr "Slédno gróné"
 
 #: widgets/TrackTooltip.cpp:232
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "<b>%1</b> by <b>%2</b>"
 msgid " by <b>%1</b>"
-msgstr "<b>%1</b> - <b>%2</b>"
+msgstr " przez <b>%1</b>"
 
 #: widgets/TrackTooltip.cpp:236
 #, kde-format
@@ -8911,18 +8848,16 @@ msgid "Amarok - No track playing."
 msgstr ""
 
 #: widgets/FilenameLayoutWidget.cpp:43
-msgid ""
-"<div align=center><i>Drag tokens here to define a filename scheme.</i></div>"
+msgid "<div align=center><i>Drag tokens here to define a filename scheme.</i></div>"
 msgstr ""
 
 #: covermanager/CoverFetchingActions.cpp:40
-#, fuzzy
 #| msgid "&Next Cover"
 msgid "Fetch Cover"
 msgid_plural "Fetch Covers"
-msgstr[0] "&Nowô òbkłôdka"
-msgstr[1] "&Nowô òbkłôdka"
-msgstr[2] "&Nowô òbkłôdka"
+msgstr[0] "Zladëjë òbkłôdkã"
+msgstr[1] "Zladëjë òbkłôdczi"
+msgstr[2] "Zladëjë òbkłôdczi"
 
 #: covermanager/CoverFetchingActions.cpp:42
 #, kde-format
@@ -8941,14 +8876,13 @@ msgid "Display artwork for this album"
 msgstr ""
 
 #: covermanager/CoverFetchingActions.cpp:79
-#, fuzzy
 #| msgid "&Unset Cover"
 #| msgid_plural "&Unset Selected Covers"
 msgid "Unset Cover"
 msgid_plural "Unset Covers"
-msgstr[0] "&Rëmôj òbkłôdkã"
-msgstr[1] "&Rëmôj òbkłôdkã"
-msgstr[2] "&Rëmôj òbkłôdkã"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: covermanager/CoverFetchingActions.cpp:81
 #, kde-format
@@ -8961,14 +8895,12 @@ msgstr[2] ""
 #: covermanager/CoverFetchingActions.cpp:88
 #, kde-format
 msgid "Are you sure you want to remove this cover from the Collection?"
-msgid_plural ""
-"Are you sure you want to delete these %1 covers from the Collection?"
+msgid_plural "Are you sure you want to delete these %1 covers from the Collection?"
 msgstr[0] "Na gwës chcesz rëmnąc nã òbkłôdkã z kòlekcëji?"
 msgstr[1] "Na gwës chcesz rëmnąc ne %1 òbkłôdczi z kòlekcëji?"
 msgstr[2] "Na gwës chcesz rëmnąc nych %1 òbkłôdków z kòlekcëji?"
 
 #: covermanager/CoverFetchingActions.cpp:111
-#, fuzzy
 #| msgid "Set &Custom Cover"
 #| msgid_plural "Set &Custom Cover for Selected Albums"
 msgid "Set Custom Cover"
@@ -9019,10 +8951,9 @@ msgid "No cover found"
 msgstr ""
 
 #: covermanager/CoverFetcher.cpp:292 covermanager/CoverFetcher.cpp:474
-#, fuzzy
 #| msgid "&Next Cover"
 msgid "Fetching Cover"
-msgstr "&Nowô òbkłôdka"
+msgstr "Chwôtanié òbkłôdczi"
 
 #: covermanager/CoverFetcher.cpp:325
 msgid "The XML obtained from Amazon is invalid."
@@ -9193,10 +9124,9 @@ msgid "Cover Image"
 msgstr ""
 
 #: covermanager/CoverManager.cpp:924
-#, fuzzy
 #| msgid "The Artist"
 msgid "No Artist"
-msgstr "Wëkònywôcz"
+msgstr "Felëje artistë"
 
 #: SmartPlaylistEditor.cpp:83
 msgid "Create Smart Playlist"
@@ -9383,3 +9313,4 @@ msgstr "Lat"
 #: SmartPlaylistEditor.cpp:1017
 msgid "Hours"
 msgstr "Gòdz."
+
