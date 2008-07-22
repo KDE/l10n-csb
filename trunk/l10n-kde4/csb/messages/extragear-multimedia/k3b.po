@@ -15,8 +15,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 ||"
-"n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"||n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #: rip/k3baudioprojectconvertingdialog.cpp:107
@@ -73,7 +73,9 @@ msgstr "Miona lopków"
 #: rip/k3baudioprojectconvertingdialog.cpp:176
 #: rip/k3baudiorippingdialog.cpp:228
 msgid "Please check the naming pattern. All filenames need to be unique."
-msgstr "Proszã sprôwdzëc mùster mion lopków. Wszëtczé miona lopków mùszą bëc ùnikatowé."
+msgstr ""
+"Proszã sprôwdzëc mùster mion lopków. Wszëtczé miona lopków mùszą bëc "
+"ùnikatowé."
 
 #: rip/k3baudioprojectconvertingdialog.cpp:194
 #: rip/k3baudiorippingdialog.cpp:245
@@ -179,8 +181,8 @@ msgid ""
 "<p>Ignore extended PSD (located in the ISO-9660 filesystem under `/EXT/PSD_X."
 "VCD') and use the <em>standard</em> PSD.</p>"
 msgstr ""
-"<p>Ignorëjë rozszérzenié PSD (nachôdôjącé sã w systemie lopków ISO-9660 pòd `/EXT/PSD_X."
-"VCD') ë brëkùjë <em>sztandardowé</em> PSD.</p>"
+"<p>Ignorëjë rozszérzenié PSD (nachôdôjącé sã w systemie lopków ISO-9660 pòd "
+"`/EXT/PSD_X.VCD') ë brëkùjë <em>sztandardowé</em> PSD.</p>"
 
 #: rip/k3bvideocdrippingdialog.cpp:146
 msgid "Assume a 2336-byte sector mode"
@@ -192,9 +194,9 @@ msgid ""
 "This indicates to `vcdxrip' to assume a 2336-byte sector mode for image file."
 "</p><b>Note: This option is slated to disappear.</b>"
 msgstr ""
-"<p> Na òptacëjô mô sens blós, jak czëtóny je òbrôz platë CD ôrtu "
-"BIN. Doprowôdzô òna do tegò, że programa `vcdxrip' bãdze przëjômôła trib 2336-bajtowegò "
-"sektora.</p><b>Bôczënk: Na òptacëjô mô òstac rëmniãtô.</b>"
+"<p> Na òptacëjô mô sens blós, jak czëtóny je òbrôz platë CD ôrtu BIN. "
+"Doprowôdzô òna do tegò, że programa `vcdxrip' bãdze przëjômôła trib 2336-"
+"bajtowegò sektora.</p><b>Bôczënk: Na òptacëjô mô òstac rëmniãtô.</b>"
 
 #: rip/k3bvideocdrippingdialog.cpp:150
 msgid "Create XML description file."
@@ -208,12 +210,12 @@ msgid ""
 "information for files and segments.</p><p>The filename is the same as the "
 "video CD name, with a .xml extension. The default is VIDEOCD.xml.</p>"
 msgstr ""
-"<p>Na òptacëjô doprowôdzô do ùsôdzeniô lopka XML z òpisënkã zamkłoscë Video CD.</"
-"p><p>Nen lopk zamëkô wiedno całowną wëdowiédzã ò place.</p><p>Na przëmiôr: "
-"Jeżlë zgrëwóné są blós sekwencëje, lopk òpisënka bãdze zamëkôł téż "
+"<p>Na òptacëjô doprowôdzô do ùsôdzeniô lopka XML z òpisënkã zamkłoscë Video "
+"CD.</p><p>Nen lopk zamëkô wiedno całowną wëdowiédzã ò place.</p><p>Na "
+"przëmiôr: Jeżlë zgrëwóné są blós sekwencëje, lopk òpisënka bãdze zamëkôł téż "
 "wëdowiédzã ò lopkach ë segmentach.</p><p>Miono ùsôdzpneò lopka je równô "
-"mionu lopka Video CD, z rozszérzeniém .xml. Domëszlno przëjmòwóné "
-"je VIDEOCD.xml.</p>"
+"mionu lopka Video CD, z rozszérzeniém .xml. Domëszlno przëjmòwóné je VIDEOCD."
+"xml.</p>"
 
 #: rip/k3bvideocdrippingdialog.cpp:164 projects/k3bprojectburndialog.cpp:206
 #, kde-format
@@ -301,7 +303,8 @@ msgstr "Szëkba za wëdowiédzą ò artisce..."
 
 #: rip/k3baudiocdview.cpp:150
 #, kde-format
-msgid "Found Cd-Text (%1 - %2). Do you want to use it instead of CDDB (%3 - %4)?"
+msgid ""
+"Found Cd-Text (%1 - %2). Do you want to use it instead of CDDB (%3 - %4)?"
 msgstr "Nalazłi CD-Text (%1 - %2). Chcesz gò brëkòwac na placu CDDB (%3 - %4)?"
 
 #: rip/k3baudiocdview.cpp:155
@@ -1290,7 +1293,8 @@ msgid ""
 msgstr ""
 
 #: misc/k3bmediacopydialog.cpp:294 projects/k3bprojectburndialog.cpp:221
-msgid "There seems to be not enough free space in temporary directory. Write anyway?"
+msgid ""
+"There seems to be not enough free space in temporary directory. Write anyway?"
 msgstr ""
 
 #: misc/k3bmediacopydialog.cpp:323 misc/k3bmediacopydialog.cpp:332 k3b.cpp:981
@@ -2012,7 +2016,8 @@ msgstr ""
 
 #: k3bdirview.cpp:248 k3bdirview.cpp:261
 #, kde-format
-msgid "Found %1. Do you want K3b to mount the data part or show all the tracks?"
+msgid ""
+"Found %1. Do you want K3b to mount the data part or show all the tracks?"
 msgstr ""
 
 #: k3bdirview.cpp:251 k3bdirview.cpp:264
@@ -2038,7 +2043,8 @@ msgstr ""
 
 #: k3bdirview.cpp:315
 #, kde-format
-msgid "<p>K3b was unable to unmount medium <b>%1</b> in device <em>%2 - %3</em>"
+msgid ""
+"<p>K3b was unable to unmount medium <b>%1</b> in device <em>%2 - %3</em>"
 msgstr ""
 
 #: k3bdirview.cpp:319
@@ -2324,7 +2330,8 @@ msgid "Robert Wadley"
 msgstr ""
 
 #: main.cpp:98
-msgid "Rob created a great theme and came up with the idea for transparent themes."
+msgid ""
+"Rob created a great theme and came up with the idea for transparent themes."
 msgstr ""
 
 #: main.cpp:100
@@ -2344,7 +2351,8 @@ msgid "Create a new data CD project and add all given files"
 msgstr ""
 
 #: main.cpp:107
-msgid "Create a new data CD project and add all given files (DEPRECATED. Use --data)"
+msgid ""
+"Create a new data CD project and add all given files (DEPRECATED. Use --data)"
 msgstr ""
 
 #: main.cpp:108
@@ -2996,7 +3004,8 @@ msgid ""
 msgstr ""
 
 #: k3bsystemproblemdialog.cpp:428
-msgid "Install cdrdao >= 1.1.8 which supports writing to ATAPI devices directly."
+msgid ""
+"Install cdrdao >= 1.1.8 which supports writing to ATAPI devices directly."
 msgstr ""
 
 #: k3bsystemproblemdialog.cpp:430
@@ -4316,7 +4325,8 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./rip/videodvd/base_k3bvideodvdrippingwidget.ui line 22
 #: rc.cpp:122
-msgid "Please select the audio streams you want to include in every ripped title"
+msgid ""
+"Please select the audio streams you want to include in every ripped title"
 msgstr ""
 
 #. i18n: tag string
@@ -8085,7 +8095,8 @@ msgid ""
 msgstr ""
 
 #: projects/k3bvcdtrackdialog.cpp:226
-msgid "These are actually pseudo keys, representing the numeric keys 0, 1, ..., 9."
+msgid ""
+"These are actually pseudo keys, representing the numeric keys 0, 1, ..., 9."
 msgstr ""
 
 #: projects/k3bvcdtrackdialog.cpp:227
@@ -9319,4 +9330,3 @@ msgstr ""
 #: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:139
 msgid "Cddb error"
 msgstr ""
-
