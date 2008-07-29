@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-07-22 05:27+0200\n"
+"POT-Creation-Date: 2008-07-29 08:28+0200\n"
 "PO-Revision-Date: 2008-07-12 18:52+0200\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -46,17 +46,17 @@ msgctxt "@title:menu"
 msgid "Columns"
 msgstr "Kòlumnë"
 
-#: dolphinview.cpp:908
+#: dolphinview.cpp:919
 msgctxt "@action:inmenu"
 msgid "Paste One Folder"
 msgstr "Wlepi jeden katalog"
 
-#: dolphinview.cpp:909
+#: dolphinview.cpp:920
 msgctxt "@action:inmenu"
 msgid "Paste One File"
 msgstr "Wlepi jeden lopk"
 
-#: dolphinview.cpp:912
+#: dolphinview.cpp:923
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste One Item"
@@ -65,22 +65,22 @@ msgstr[0] "Wlepi jeden element"
 msgstr[1] "Wlepi %1 elementë"
 msgstr[2] "Wlepi %1 elementów"
 
-#: dolphinview.cpp:916 treeviewcontextmenu.cpp:67
+#: dolphinview.cpp:927 treeviewcontextmenu.cpp:67
 msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr "Wlepi"
 
-#: dolphinview.cpp:958
+#: dolphinview.cpp:969
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "Rëmôj skùńczoné òperacëje."
 
-#: dolphinview.cpp:984
+#: dolphinview.cpp:995
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "Lokacëjô je pùstô."
 
-#: dolphinview.cpp:986
+#: dolphinview.cpp:997
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
@@ -126,18 +126,18 @@ msgctxt "@option:check"
 msgid "Rename inline"
 msgstr "Zmieni w réze"
 
-#: statusbarspaceinfo.cpp:76
+#: statusbarspaceinfo.cpp:68
 #, kde-format
 msgctxt "@info:status Free disk space"
 msgid "%1 free"
 msgstr "%1 wòlne"
 
-#: statusbarspaceinfo.cpp:92 statusbarspaceinfo.cpp:101
+#: statusbarspaceinfo.cpp:84 statusbarspaceinfo.cpp:93
 msgctxt "@info:status"
 msgid "Unknown size"
 msgstr "Nieznónô miara"
 
-#: statusbarspaceinfo.cpp:137
+#: statusbarspaceinfo.cpp:130
 msgctxt "@info:status"
 msgid "Getting size..."
 msgstr "Ladowanié miarë..."
@@ -358,8 +358,11 @@ msgid "File Manager"
 msgstr "Menadżer lopków"
 
 #: main.cpp:38
+#, fuzzy
+#| msgctxt "@info:credit"
+#| msgid "(C) 2006, 2007 Peter Penz"
 msgctxt "@info:credit"
-msgid "(C) 2006, 2007 Peter Penz"
+msgid "(C) 2006-2008 Peter Penz"
 msgstr "(C) 2006, 2007 Peter Penz"
 
 #: main.cpp:40
@@ -850,52 +853,47 @@ msgctxt "@label"
 msgid "New Tag..."
 msgstr "Nowi merk (tag)..."
 
-#: tagcloud/tagcloud.cpp:737
+#: tagcloud/tagcloud.cpp:738
 msgctxt "@label Indicator when no tags defined"
 msgid "No Tags"
 msgstr "Felëją merczi (tadżi)"
 
-#: dolphinpart.cpp:142
+#: dolphinpart.cpp:141
 msgctxt "@action:inmenu Edit"
 msgid "&Edit File Type..."
 msgstr "&Editëjë ôrt lopków..."
 
-#: dolphinpart.cpp:146
-msgctxt "@action:inmenu Edit"
-msgid "Properties"
-msgstr "Swòjizna"
-
-#: dolphinpart.cpp:159
+#: dolphinpart.cpp:153
 msgctxt "@action:inmenu Go"
 msgid "App&lications"
 msgstr "&Aplikacje"
 
-#: dolphinpart.cpp:162
+#: dolphinpart.cpp:156
 msgctxt "@action:inmenu Go"
 msgid "&Network Folders"
 msgstr "&Sécowé katalodżi"
 
-#: dolphinpart.cpp:165
+#: dolphinpart.cpp:159
 msgctxt "@action:inmenu Go"
 msgid "Sett&ings"
 msgstr "Ùstôwë"
 
-#: dolphinpart.cpp:168
+#: dolphinpart.cpp:162
 msgctxt "@action:inmenu Go"
 msgid "Trash"
 msgstr "Kòsz"
 
-#: dolphinpart.cpp:171
+#: dolphinpart.cpp:165
 msgctxt "@action:inmenu Go"
 msgid "Autostart"
 msgstr "Aùtostart"
 
-#: dolphinpart.cpp:178
+#: dolphinpart.cpp:172
 msgctxt "@action:inmenu Tools"
 msgid "Open &Terminal"
 msgstr "Òtemkni &Terminal"
 
-#: dolphinpart.cpp:248
+#: dolphinpart.cpp:242
 msgctxt "@title"
 msgid "Dolphin Part"
 msgstr "Part Dolphina"
@@ -1395,9 +1393,9 @@ msgid "Navigation Bar"
 msgstr "Listew nawigacëji"
 
 #. i18n: tag text
-#. i18n: file dolphinui.rc line 115
+#. i18n: file dolphinui.rc line 116
 #. i18n: tag text
-#. i18n: file ./dolphinui.rc line 115
+#. i18n: file ./dolphinui.rc line 116
 #: rc.cpp:189 rc.cpp:287
 msgctxt "@title:menu"
 msgid "Main Toolbar"
@@ -1427,115 +1425,115 @@ msgctxt "@label"
 msgid "Detailed Description (optional):"
 msgstr "Detalowi òpisënk (òptacjowò):"
 
-#: dolphinmainwindow.cpp:398
+#: dolphinmainwindow.cpp:384
 msgctxt "@info:status"
 msgid "Copy operation completed."
 msgstr "Skòpérëjë skùńczoné òperacëje."
 
-#: dolphinmainwindow.cpp:402
+#: dolphinmainwindow.cpp:388
 msgctxt "@info:status"
 msgid "Move operation completed."
 msgstr "Przeniesë skùńczoné òperacëje."
 
-#: dolphinmainwindow.cpp:406
+#: dolphinmainwindow.cpp:392
 msgctxt "@info:status"
 msgid "Link operation completed."
 msgstr "Lënkùjë skùńczoné òperacëje."
 
-#: dolphinmainwindow.cpp:410
+#: dolphinmainwindow.cpp:396
 msgctxt "@info:status"
 msgid "Move to trash operation completed."
 msgstr "Przeniesë do kòsza skùńczoné òperacëje."
 
-#: dolphinmainwindow.cpp:414
+#: dolphinmainwindow.cpp:400
 msgctxt "@info:status"
 msgid "Renaming operation completed."
 msgstr "Zmieni miono skùńczony òperacëji."
 
-#: dolphinmainwindow.cpp:419
+#: dolphinmainwindow.cpp:405
 msgctxt "@info:status"
 msgid "Created folder."
 msgstr "Ùsôdzony katalog."
 
-#: dolphinmainwindow.cpp:737
+#: dolphinmainwindow.cpp:735
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "Nowô kôrta"
 
-#: dolphinmainwindow.cpp:740
+#: dolphinmainwindow.cpp:738
 msgctxt "@action:inmenu"
 msgid "Close Other Tabs"
 msgstr "Zamkni jine kôrtë"
 
-#: dolphinmainwindow.cpp:742
+#: dolphinmainwindow.cpp:740
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Zamkni kôrtë"
 
-#: dolphinmainwindow.cpp:898
+#: dolphinmainwindow.cpp:896
 msgctxt "@title:menu Create new folder, file, link, etc."
 msgid "Create New"
 msgstr "Ùsôdzë nowiÙsôdzë nowi"
 
-#: dolphinmainwindow.cpp:905
+#: dolphinmainwindow.cpp:903
 msgctxt "@action:inmenu File"
 msgid "New &Window"
 msgstr "Nowé ò&kno"
 
-#: dolphinmainwindow.cpp:911
+#: dolphinmainwindow.cpp:909
 msgctxt "@action:inmenu File"
 msgid "New Tab"
 msgstr "Nowô kôrta"
 
-#: dolphinmainwindow.cpp:915
+#: dolphinmainwindow.cpp:913
 msgctxt "@action:inmenu File"
 msgid "Close Tab"
 msgstr "Zamkni kôrtë"
 
-#: dolphinmainwindow.cpp:921
-msgctxt "@action:inmenu File"
-msgid "Properties"
-msgstr "Swòjizna"
-
-#: dolphinmainwindow.cpp:942
+#: dolphinmainwindow.cpp:935
 msgctxt "@action:inmenu Edit"
 msgid "Select All"
 msgstr "Wëbiérzë wszëtkò"
 
-#: dolphinmainwindow.cpp:947
+#: dolphinmainwindow.cpp:940
 msgctxt "@action:inmenu Edit"
 msgid "Invert Selection"
 msgstr "Zmieni wëbiérk"
 
-#: dolphinmainwindow.cpp:960
+#: dolphinmainwindow.cpp:953
 msgctxt "@action:inmenu View"
 msgid "Reload"
 msgstr "Zladëjë znowa"
 
-#: dolphinmainwindow.cpp:966
+#: dolphinmainwindow.cpp:959
 msgctxt "@action:inmenu View"
 msgid "Stop"
 msgstr "Stop"
 
-#: dolphinmainwindow.cpp:972
+#: dolphinmainwindow.cpp:965
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Show Full Location"
 msgstr "Pòkôżë fùl lokacëjã"
 
-#: dolphinmainwindow.cpp:977
+#: dolphinmainwindow.cpp:970
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Edit Location"
 msgstr "Editëjë lokacëjã"
 
-#: dolphinmainwindow.cpp:993
+#: dolphinmainwindow.cpp:986
 msgctxt "@action:inmenu Tools"
 msgid "Show Filter Bar"
 msgstr "Pòkôżë listew filtra"
 
-#: dolphinmainwindow.cpp:998
+#: dolphinmainwindow.cpp:991
 msgctxt "@action:inmenu Tools"
 msgid "Compare Files"
 msgstr "Przerównô lopczi"
+
+#: dolphinmainwindow.cpp:997
+msgctxt "@action:inmenu Tools"
+msgid "Quick View"
+msgstr ""
 
 #: dolphinmainwindow.cpp:1011 dolphinmainwindow.cpp:1017
 msgctxt "@title:window"
@@ -1781,132 +1779,142 @@ msgctxt "@action:inmenu"
 msgid "Cancel"
 msgstr "Anulëjë"
 
-#: dolphinviewactionhandler.cpp:72
+#: dolphinviewactionhandler.cpp:73
 msgctxt "@action"
 msgid "Create Folder..."
 msgstr "Ùsôdzë katalog..."
 
-#: dolphinviewactionhandler.cpp:79
+#: dolphinviewactionhandler.cpp:80
 msgctxt "@action:inmenu File"
 msgid "Rename..."
 msgstr "Zmieni miono..."
 
-#: dolphinviewactionhandler.cpp:84
+#: dolphinviewactionhandler.cpp:85
 msgctxt "@action:inmenu File"
 msgid "Move to Trash"
 msgstr "Przeniesë do kòsza"
 
-#: dolphinviewactionhandler.cpp:92 dolphinviewactionhandler.cpp:102
+#: dolphinviewactionhandler.cpp:93
 msgctxt "@action:inmenu File"
 msgid "Delete"
 msgstr "Rëmôj"
 
-#: dolphinviewactionhandler.cpp:124
+#: dolphinviewactionhandler.cpp:103
+msgctxt "@action:inmenu File"
+msgid "Delete (using shortcut for Trash)"
+msgstr ""
+
+#: dolphinviewactionhandler.cpp:110
+msgctxt "@action:inmenu File"
+msgid "Properties"
+msgstr "Swòjizna"
+
+#: dolphinviewactionhandler.cpp:131
 msgctxt "@action:intoolbar"
 msgid "Preview"
 msgstr "Pòdzérk"
 
-#: dolphinviewactionhandler.cpp:129
+#: dolphinviewactionhandler.cpp:136
 msgctxt "@action:inmenu Sort"
 msgid "Descending"
 msgstr "Roscąco"
 
-#: dolphinviewactionhandler.cpp:139
+#: dolphinviewactionhandler.cpp:146
 msgctxt "@action:inmenu View"
 msgid "Show in Groups"
 msgstr "Pòkôżë w grëpach"
 
-#: dolphinviewactionhandler.cpp:143
+#: dolphinviewactionhandler.cpp:150
 msgctxt "@action:inmenu View"
 msgid "Show Hidden Files"
 msgstr "Pòkôzë zataconé lopczi"
 
-#: dolphinviewactionhandler.cpp:148
+#: dolphinviewactionhandler.cpp:155
 msgctxt "@action:inmenu View"
 msgid "Adjust View Properties..."
 msgstr "Dopasëjë swòjiznë wëzdrzatkù..."
 
-#: dolphinviewactionhandler.cpp:154
+#: dolphinviewactionhandler.cpp:161
 msgctxt "@action:inmenu Tools"
 msgid "Find File..."
 msgstr "Nalezë lopk..."
 
-#: dolphinviewactionhandler.cpp:166
+#: dolphinviewactionhandler.cpp:173
 msgctxt "@action:inmenu Additional information"
 msgid "Size"
 msgstr "Miara"
 
-#: dolphinviewactionhandler.cpp:171
+#: dolphinviewactionhandler.cpp:178
 msgctxt "@action:inmenu Additional information"
 msgid "Date"
 msgstr "Datum"
 
-#: dolphinviewactionhandler.cpp:176
+#: dolphinviewactionhandler.cpp:183
 msgctxt "@action:inmenu Additional information"
 msgid "Permissions"
 msgstr "Prawa przistãpù"
 
-#: dolphinviewactionhandler.cpp:181
+#: dolphinviewactionhandler.cpp:188
 msgctxt "@action:inmenu Additional information"
 msgid "Owner"
 msgstr "Miéwca"
 
-#: dolphinviewactionhandler.cpp:186
+#: dolphinviewactionhandler.cpp:193
 msgctxt "@action:inmenu Additional information"
 msgid "Group"
 msgstr "Grëpa"
 
-#: dolphinviewactionhandler.cpp:191
+#: dolphinviewactionhandler.cpp:198
 msgctxt "@action:inmenu Additional information"
 msgid "Type"
 msgstr "Ôrt"
 
-#: dolphinviewactionhandler.cpp:206
+#: dolphinviewactionhandler.cpp:213
 msgctxt "@action:inmenu Sort By"
 msgid "Name"
 msgstr "Mionama"
 
-#: dolphinviewactionhandler.cpp:211
+#: dolphinviewactionhandler.cpp:218
 msgctxt "@action:inmenu Sort By"
 msgid "Size"
 msgstr "Miarama"
 
-#: dolphinviewactionhandler.cpp:216
+#: dolphinviewactionhandler.cpp:223
 msgctxt "@action:inmenu Sort By"
 msgid "Date"
 msgstr "Datumama"
 
-#: dolphinviewactionhandler.cpp:221
+#: dolphinviewactionhandler.cpp:228
 msgctxt "@action:inmenu Sort By"
 msgid "Permissions"
 msgstr "Prawama przistãpù"
 
-#: dolphinviewactionhandler.cpp:226
+#: dolphinviewactionhandler.cpp:233
 msgctxt "@action:inmenu Sort By"
 msgid "Owner"
 msgstr "Miéwcama"
 
-#: dolphinviewactionhandler.cpp:231
+#: dolphinviewactionhandler.cpp:238
 msgctxt "@action:inmenu Sort By"
 msgid "Group"
 msgstr "Grëpama"
 
-#: dolphinviewactionhandler.cpp:236
+#: dolphinviewactionhandler.cpp:243
 msgctxt "@action:inmenu Sort By"
 msgid "Type"
 msgstr "Ôrtama"
 
-#: dolphinviewactionhandler.cpp:423
+#: dolphinviewactionhandler.cpp:430
 msgctxt "@action:inmenu View Mode"
 msgid "Icons"
 msgstr "Ikònë"
 
-#: dolphinviewactionhandler.cpp:433
+#: dolphinviewactionhandler.cpp:440
 msgctxt "@action:inmenu View Mode"
 msgid "Details"
 msgstr "Detale"
 
-#: dolphinviewactionhandler.cpp:443
+#: dolphinviewactionhandler.cpp:450
 msgctxt "@action:inmenu View Mode"
 msgid "Columns"
 msgstr "Kòlumnë"
@@ -1960,3 +1968,7 @@ msgstr "Grëpë"
 msgctxt "@option:check Additional Information"
 msgid "Type"
 msgstr "Ôrt"
+
+#~ msgctxt "@action:inmenu Edit"
+#~ msgid "Properties"
+#~ msgstr "Swòjizna"
