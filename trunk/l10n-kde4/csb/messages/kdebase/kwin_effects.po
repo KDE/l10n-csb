@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin_effects\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-07 08:21+0200\n"
+"POT-Creation-Date: 2008-08-13 09:03+0200\n"
 "PO-Revision-Date: 2008-07-12 23:22+0200\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -31,7 +31,7 @@ msgstr "Włączë efekt òdwrócony"
 msgid "Draw window caption on top of window"
 msgstr ""
 
-#: presentwindows_config.cpp:54 desktopgrid_config.cpp:55
+#: presentwindows_config.cpp:54
 msgid "Activate when cursor is at a specific edge or corner of the screen:"
 msgstr "Aktiwùjë czedë kùrsora je na gwësnym rance abò nórce ekrana:"
 
@@ -51,43 +51,51 @@ msgstr "Włączë efekt ekspòzycji"
 msgid "Toggle Expose Effect (incl. other desktops)"
 msgstr "Włączë efekt ekspòzycëji (téż z jinëch pùltów)"
 
-#: presentwindows_config.cpp:103 desktopgrid_config.cpp:59 cube_config.cpp:51
+#: presentwindows_config.cpp:103 desktopgrid_config.cpp:63
+#: desktopgrid_config.cpp:76 cube_config.cpp:51
 msgid "Top"
 msgstr "Góra"
 
-#: presentwindows_config.cpp:104 desktopgrid_config.cpp:60 cube_config.cpp:52
+#: presentwindows_config.cpp:104 desktopgrid_config.cpp:64
+#: desktopgrid_config.cpp:78 cube_config.cpp:52
 msgid "Top-right"
 msgstr "Góra-prawi"
 
-#: presentwindows_config.cpp:105 desktopgrid_config.cpp:61 cube_config.cpp:53
+#: presentwindows_config.cpp:105 desktopgrid_config.cpp:65
+#: desktopgrid_config.cpp:80 cube_config.cpp:53
 msgid "Right"
 msgstr "Prawi"
 
-#: presentwindows_config.cpp:106 desktopgrid_config.cpp:62 cube_config.cpp:54
+#: presentwindows_config.cpp:106 desktopgrid_config.cpp:66
+#: desktopgrid_config.cpp:82 cube_config.cpp:54
 msgid "Bottom-right"
 msgstr "Dół-prawi"
 
-#: presentwindows_config.cpp:107 desktopgrid_config.cpp:63 cube_config.cpp:55
+#: presentwindows_config.cpp:107 desktopgrid_config.cpp:67
+#: desktopgrid_config.cpp:84 cube_config.cpp:55
 msgid "Bottom"
 msgstr "Dół"
 
-#: presentwindows_config.cpp:108 desktopgrid_config.cpp:64 cube_config.cpp:56
+#: presentwindows_config.cpp:108 desktopgrid_config.cpp:68
+#: desktopgrid_config.cpp:86 cube_config.cpp:56
 msgid "Bottom-left"
 msgstr "Dół-lewi"
 
-#: presentwindows_config.cpp:109 desktopgrid_config.cpp:65 cube_config.cpp:57
+#: presentwindows_config.cpp:109 desktopgrid_config.cpp:69
+#: desktopgrid_config.cpp:88 cube_config.cpp:57
 msgid "Left"
 msgstr "Lewi"
 
-#: presentwindows_config.cpp:110 desktopgrid_config.cpp:66 cube_config.cpp:58
+#: presentwindows_config.cpp:110 desktopgrid_config.cpp:70
+#: desktopgrid_config.cpp:90 cube_config.cpp:58
 msgid "Top-left"
 msgstr "Góra-lewi"
 
-#: presentwindows_config.cpp:111 desktopgrid_config.cpp:67 cube_config.cpp:59
+#: presentwindows_config.cpp:111 desktopgrid_config.cpp:71 cube_config.cpp:59
 msgid "None"
 msgstr "Nick"
 
-#: desktopgrid.cpp:47 desktopgrid_config.cpp:75
+#: desktopgrid.cpp:57 desktopgrid_config.cpp:57
 msgid "Show Desktop Grid"
 msgstr "Pòkażë  mrzéżkã pùltu"
 
@@ -95,7 +103,7 @@ msgstr "Pòkażë  mrzéżkã pùltu"
 msgid "Hold Ctrl+Meta keys to see where the mouse cursor is."
 msgstr "Przëtrzëmôj klawisze Ctrl+Meta, bë òbaczë dze je kùrsora mëszë."
 
-#: cube.cpp:144 cube_config.cpp:66
+#: cube.cpp:146 cube_config.cpp:66
 msgid "Desktop Cube"
 msgstr ""
 
@@ -103,9 +111,13 @@ msgstr ""
 msgid "Toggle Thumbnail for Current Window"
 msgstr "Włączë miniaturkã dlô biéżnégò òkna"
 
-#: desktopgrid_config.cpp:50
-msgid "Animate desktop changes"
-msgstr "Animùjë zmianë pùltu"
+#: desktopgrid_config.cpp:74
+msgid "Disabled"
+msgstr ""
+
+#: desktopgrid_config.cpp:92
+msgid "Center"
+msgstr ""
 
 #: sharpen_config.cpp:46 sharpen.cpp:40
 msgid "Toggle Sharpen Effect"
@@ -156,6 +168,8 @@ msgstr "Wëczëszczë mërczi mëszë"
 #. i18n: tag string
 #. i18n: file cube_config.ui line 16
 #. i18n: tag string
+#. i18n: file desktopgrid_config.ui line 16
+#. i18n: tag string
 #. i18n: file flipswitch_config.ui line 16
 #. i18n: tag string
 #. i18n: file mousemark_config.ui line 16
@@ -174,9 +188,12 @@ msgstr "Wëczëszczë mërczi mëszë"
 #. i18n: tag string
 #. i18n: file ./coverswitch_config.ui line 16
 #. i18n: tag string
+#. i18n: file ./desktopgrid_config.ui line 16
+#. i18n: tag string
 #. i18n: file ./snow_config.ui line 16
-#: rc.cpp:3 rc.cpp:24 rc.cpp:82 rc.cpp:193 rc.cpp:241 rc.cpp:259 rc.cpp:290
-#: rc.cpp:311 rc.cpp:360 rc.cpp:375 rc.cpp:406 rc.cpp:559
+#: rc.cpp:3 rc.cpp:24 rc.cpp:73 rc.cpp:115 rc.cpp:226 rc.cpp:274 rc.cpp:292
+#: rc.cpp:323 rc.cpp:344 rc.cpp:393 rc.cpp:408 rc.cpp:439 rc.cpp:475
+#: rc.cpp:625
 msgid "Appearance"
 msgstr "Wëzdrzatk"
 
@@ -184,7 +201,7 @@ msgstr "Wëzdrzatk"
 #. i18n: file coverswitch_config.ui line 22
 #. i18n: tag string
 #. i18n: file ./coverswitch_config.ui line 22
-#: rc.cpp:6 rc.cpp:409
+#: rc.cpp:6 rc.cpp:442
 #, fuzzy
 #| msgid "Maximal &Width"
 msgid "Animate &switch"
@@ -194,7 +211,7 @@ msgstr "Maksimalnô &szérz"
 #. i18n: file coverswitch_config.ui line 29
 #. i18n: tag string
 #. i18n: file ./coverswitch_config.ui line 29
-#: rc.cpp:9 rc.cpp:412
+#: rc.cpp:9 rc.cpp:445
 msgid "Animation on tab box &open"
 msgstr ""
 
@@ -202,7 +219,7 @@ msgstr ""
 #. i18n: file coverswitch_config.ui line 36
 #. i18n: tag string
 #. i18n: file ./coverswitch_config.ui line 36
-#: rc.cpp:12 rc.cpp:415
+#: rc.cpp:12 rc.cpp:448
 msgid "Animation on tab box &close"
 msgstr ""
 
@@ -210,7 +227,7 @@ msgstr ""
 #. i18n: file coverswitch_config.ui line 43
 #. i18n: tag string
 #. i18n: file ./coverswitch_config.ui line 43
-#: rc.cpp:15 rc.cpp:418
+#: rc.cpp:15 rc.cpp:451
 msgid "&Reflections"
 msgstr ""
 
@@ -218,7 +235,7 @@ msgstr ""
 #. i18n: file coverswitch_config.ui line 50
 #. i18n: tag string
 #. i18n: file ./coverswitch_config.ui line 50
-#: rc.cpp:18 rc.cpp:421
+#: rc.cpp:18 rc.cpp:454
 msgid "&Animation duration:"
 msgstr ""
 
@@ -227,6 +244,8 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file cube_config.ui line 32
 #. i18n: tag string
+#. i18n: file desktopgrid_config.ui line 32
+#. i18n: tag string
 #. i18n: file flipswitch_config.ui line 39
 #. i18n: tag string
 #. i18n: file ./flipswitch_config.ui line 39
@@ -234,7 +253,10 @@ msgstr ""
 #. i18n: file ./cube_config.ui line 32
 #. i18n: tag string
 #. i18n: file ./coverswitch_config.ui line 60
-#: rc.cpp:21 rc.cpp:30 rc.cpp:91 rc.cpp:299 rc.cpp:317 rc.cpp:424
+#. i18n: tag string
+#. i18n: file ./desktopgrid_config.ui line 32
+#: rc.cpp:21 rc.cpp:30 rc.cpp:79 rc.cpp:124 rc.cpp:332 rc.cpp:350 rc.cpp:457
+#: rc.cpp:481
 msgid " msec"
 msgstr ""
 
@@ -242,7 +264,7 @@ msgstr ""
 #. i18n: file cube_config.ui line 22
 #. i18n: tag string
 #. i18n: file ./cube_config.ui line 22
-#: rc.cpp:27 rc.cpp:314
+#: rc.cpp:27 rc.cpp:347
 msgid "Rotation &duration:"
 msgstr ""
 
@@ -250,7 +272,7 @@ msgstr ""
 #. i18n: file cube_config.ui line 45
 #. i18n: tag string
 #. i18n: file ./cube_config.ui line 45
-#: rc.cpp:33 rc.cpp:320
+#: rc.cpp:33 rc.cpp:353
 #, fuzzy
 #| msgid "&Opacity"
 msgid "Cube &opacity:"
@@ -260,7 +282,7 @@ msgstr "&Przezérnota"
 #. i18n: file cube_config.ui line 58
 #. i18n: tag string
 #. i18n: file ./cube_config.ui line 58
-#: rc.cpp:36 rc.cpp:323
+#: rc.cpp:36 rc.cpp:356
 msgid "Screen &edge:"
 msgstr ""
 
@@ -268,7 +290,7 @@ msgstr ""
 #. i18n: file cube_config.ui line 94
 #. i18n: tag string
 #. i18n: file ./cube_config.ui line 94
-#: rc.cpp:39 rc.cpp:326
+#: rc.cpp:39 rc.cpp:359
 msgid "Fully transparent"
 msgstr ""
 
@@ -276,7 +298,7 @@ msgstr ""
 #. i18n: file cube_config.ui line 114
 #. i18n: tag string
 #. i18n: file ./cube_config.ui line 114
-#: rc.cpp:42 rc.cpp:329
+#: rc.cpp:42 rc.cpp:362
 msgid "Fully opaque"
 msgstr ""
 
@@ -288,7 +310,7 @@ msgstr ""
 #. i18n: file ./cube_config.ui line 125
 #. i18n: tag string
 #. i18n: file ./thumbnailaside_config.ui line 78
-#: rc.cpp:46 rc.cpp:278 rc.cpp:333 rc.cpp:394
+#: rc.cpp:46 rc.cpp:311 rc.cpp:366 rc.cpp:427
 #, no-c-format
 msgid " %"
 msgstr " %"
@@ -297,7 +319,7 @@ msgstr " %"
 #. i18n: file cube_config.ui line 138
 #. i18n: tag string
 #. i18n: file ./cube_config.ui line 138
-#: rc.cpp:49 rc.cpp:336
+#: rc.cpp:49 rc.cpp:369
 msgid "Display desktop &name"
 msgstr ""
 
@@ -305,7 +327,7 @@ msgstr ""
 #. i18n: file cube_config.ui line 145
 #. i18n: tag string
 #. i18n: file ./cube_config.ui line 145
-#: rc.cpp:52 rc.cpp:339
+#: rc.cpp:52 rc.cpp:372
 msgid "&Reflection"
 msgstr ""
 
@@ -313,7 +335,7 @@ msgstr ""
 #. i18n: file cube_config.ui line 152
 #. i18n: tag string
 #. i18n: file ./cube_config.ui line 152
-#: rc.cpp:55 rc.cpp:342
+#: rc.cpp:55 rc.cpp:375
 msgid "&Background Color:"
 msgstr ""
 
@@ -321,7 +343,7 @@ msgstr ""
 #. i18n: file cube_config.ui line 165
 #. i18n: tag string
 #. i18n: file ./cube_config.ui line 165
-#: rc.cpp:58 rc.cpp:345
+#: rc.cpp:58 rc.cpp:378
 msgid "Cube &Caps"
 msgstr ""
 
@@ -329,7 +351,7 @@ msgstr ""
 #. i18n: file cube_config.ui line 172
 #. i18n: tag string
 #. i18n: file ./cube_config.ui line 172
-#: rc.cpp:61 rc.cpp:348
+#: rc.cpp:61 rc.cpp:381
 #, fuzzy
 #| msgid "&Color"
 msgid "C&ap Color:"
@@ -339,7 +361,7 @@ msgstr "&Farwa"
 #. i18n: file cube_config.ui line 185
 #. i18n: tag string
 #. i18n: file ./cube_config.ui line 185
-#: rc.cpp:64 rc.cpp:351
+#: rc.cpp:64 rc.cpp:384
 msgid "Display &image on cube caps"
 msgstr ""
 
@@ -347,7 +369,7 @@ msgstr ""
 #. i18n: file cube_config.ui line 192
 #. i18n: tag string
 #. i18n: file ./cube_config.ui line 192
-#: rc.cpp:67 rc.cpp:354
+#: rc.cpp:67 rc.cpp:387
 msgid "&Show cube when desktop changed"
 msgstr ""
 
@@ -355,15 +377,89 @@ msgstr ""
 #. i18n: file cube_config.ui line 199
 #. i18n: tag string
 #. i18n: file ./cube_config.ui line 199
-#: rc.cpp:70 rc.cpp:357
+#: rc.cpp:70 rc.cpp:390
 msgid "S&pan cube on all screens"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file desktopgrid_config.ui line 22
+#. i18n: tag string
+#. i18n: file ./desktopgrid_config.ui line 22
+#: rc.cpp:76 rc.cpp:478
+msgid "Zoom &duration:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file desktopgrid_config.ui line 45
+#. i18n: tag string
+#. i18n: file ./desktopgrid_config.ui line 45
+#: rc.cpp:82 rc.cpp:484
+msgid "&Border width:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file desktopgrid_config.ui line 55
+#. i18n: tag string
+#. i18n: file ./desktopgrid_config.ui line 55
+#: rc.cpp:85 rc.cpp:487
+#, fuzzy
+#| msgid " px"
+msgid " pixels"
+msgstr " px"
+
+#. i18n: tag string
+#. i18n: file desktopgrid_config.ui line 68
+#. i18n: tag string
+#. i18n: file ./desktopgrid_config.ui line 68
+#: rc.cpp:88 rc.cpp:490
+msgid "Desktop &name alignment:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file desktopgrid_config.ui line 81
+#. i18n: tag string
+#. i18n: file ./desktopgrid_config.ui line 81
+#: rc.cpp:91 rc.cpp:493
+msgid "Custom grid &layout"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file desktopgrid_config.ui line 88
+#. i18n: tag string
+#. i18n: file ./desktopgrid_config.ui line 88
+#: rc.cpp:94 rc.cpp:496
+msgid "Number of &rows:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file desktopgrid_config.ui line 98
+#. i18n: tag string
+#. i18n: file ./desktopgrid_config.ui line 98
+#: rc.cpp:97 rc.cpp:499
+msgid " rows"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file desktopgrid_config.ui line 130
+#. i18n: tag string
+#. i18n: file ./desktopgrid_config.ui line 130
+#: rc.cpp:100 rc.cpp:502
+msgid "Activation"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file desktopgrid_config.ui line 136
+#. i18n: tag string
+#. i18n: file ./desktopgrid_config.ui line 136
+#: rc.cpp:103 rc.cpp:505
+msgid "Active screen &edge:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file diminactive_config.ui line 18
 #. i18n: tag string
 #. i18n: file ./diminactive_config.ui line 18
-#: rc.cpp:73 rc.cpp:397
+#: rc.cpp:106 rc.cpp:430
 #, fuzzy
 #| msgid "&Strength"
 msgid "&Strength:"
@@ -373,7 +469,7 @@ msgstr "&Mòc"
 #. i18n: file diminactive_config.ui line 59
 #. i18n: tag string
 #. i18n: file ./diminactive_config.ui line 59
-#: rc.cpp:76 rc.cpp:400
+#: rc.cpp:109 rc.cpp:433
 #, fuzzy
 #| msgid "Apply effect to &Panels"
 msgid "Apply effect to &panels"
@@ -383,7 +479,7 @@ msgstr "Zacwierdzë efekt do &panela"
 #. i18n: file diminactive_config.ui line 66
 #. i18n: tag string
 #. i18n: file ./diminactive_config.ui line 66
-#: rc.cpp:79 rc.cpp:403
+#: rc.cpp:112 rc.cpp:436
 #, fuzzy
 #| msgid "Apply effect to &Groups"
 msgid "Apply effect to &groups"
@@ -393,7 +489,7 @@ msgstr "Zacwierdzë efket do &grëpë"
 #. i18n: file flipswitch_config.ui line 22
 #. i18n: tag string
 #. i18n: file ./flipswitch_config.ui line 22
-#: rc.cpp:85 rc.cpp:293
+#: rc.cpp:118 rc.cpp:326
 #, fuzzy
 #| msgid "Maximal &Width"
 msgid "Animate &flip"
@@ -403,7 +499,7 @@ msgstr "Maksimalnô &szérz"
 #. i18n: file flipswitch_config.ui line 29
 #. i18n: tag string
 #. i18n: file ./flipswitch_config.ui line 29
-#: rc.cpp:88 rc.cpp:296
+#: rc.cpp:121 rc.cpp:329
 msgid "F&lip Animation duration:"
 msgstr ""
 
@@ -411,7 +507,7 @@ msgstr ""
 #. i18n: file lookingglass_config.ui line 16
 #. i18n: tag string
 #. i18n: file ./lookingglass_config.ui line 16
-#: rc.cpp:94 rc.cpp:442
+#: rc.cpp:127 rc.cpp:508
 #, fuzzy
 #| msgid "&Radius"
 msgid "&Radius:"
@@ -421,7 +517,7 @@ msgstr "&Parmiń"
 #. i18n: file magnifier_config.ui line 16
 #. i18n: tag string
 #. i18n: file ./magnifier_config.ui line 16
-#: rc.cpp:97 rc.cpp:427
+#: rc.cpp:130 rc.cpp:460
 msgid "Size"
 msgstr "Miara"
 
@@ -433,7 +529,7 @@ msgstr "Miara"
 #. i18n: file ./mousemark_config.ui line 22
 #. i18n: tag string
 #. i18n: file ./magnifier_config.ui line 22
-#: rc.cpp:100 rc.cpp:196 rc.cpp:363 rc.cpp:430
+#: rc.cpp:133 rc.cpp:229 rc.cpp:396 rc.cpp:463
 #, fuzzy
 #| msgid "&Width"
 msgid "&Width:"
@@ -467,9 +563,9 @@ msgstr "&Szérz"
 #. i18n: file ./snow_config.ui line 52
 #. i18n: tag string
 #. i18n: file ./snow_config.ui line 75
-#: rc.cpp:103 rc.cpp:109 rc.cpp:199 rc.cpp:250 rc.cpp:256 rc.cpp:265
-#: rc.cpp:271 rc.cpp:366 rc.cpp:381 rc.cpp:387 rc.cpp:433 rc.cpp:439
-#: rc.cpp:568 rc.cpp:574
+#: rc.cpp:136 rc.cpp:142 rc.cpp:232 rc.cpp:283 rc.cpp:289 rc.cpp:298
+#: rc.cpp:304 rc.cpp:399 rc.cpp:414 rc.cpp:420 rc.cpp:466 rc.cpp:472
+#: rc.cpp:634 rc.cpp:640
 msgid " px"
 msgstr " px"
 
@@ -477,7 +573,7 @@ msgstr " px"
 #. i18n: file magnifier_config.ui line 42
 #. i18n: tag string
 #. i18n: file ./magnifier_config.ui line 42
-#: rc.cpp:106 rc.cpp:436
+#: rc.cpp:139 rc.cpp:469
 #, fuzzy
 #| msgid "&Height"
 msgid "&Height:"
@@ -487,7 +583,7 @@ msgstr "&Wiżô"
 #. i18n: file maketransparent_config.ui line 13
 #. i18n: tag string
 #. i18n: file ./maketransparent_config.ui line 13
-#: rc.cpp:112 rc.cpp:445
+#: rc.cpp:145 rc.cpp:511
 msgid "Translucency"
 msgstr ""
 
@@ -495,7 +591,7 @@ msgstr ""
 #. i18n: file maketransparent_config.ui line 19
 #. i18n: tag string
 #. i18n: file ./maketransparent_config.ui line 19
-#: rc.cpp:115 rc.cpp:448
+#: rc.cpp:148 rc.cpp:514
 msgid "Advanced opacity settings for menus:"
 msgstr ""
 
@@ -503,7 +599,7 @@ msgstr ""
 #. i18n: file maketransparent_config.ui line 25
 #. i18n: tag string
 #. i18n: file ./maketransparent_config.ui line 25
-#: rc.cpp:118 rc.cpp:451
+#: rc.cpp:151 rc.cpp:517
 msgid "Set individual opacity for different menu types"
 msgstr ""
 
@@ -511,7 +607,7 @@ msgstr ""
 #. i18n: file maketransparent_config.ui line 38
 #. i18n: tag string
 #. i18n: file ./maketransparent_config.ui line 38
-#: rc.cpp:121 rc.cpp:454
+#: rc.cpp:154 rc.cpp:520
 msgid "Dropdown menus:"
 msgstr ""
 
@@ -551,9 +647,9 @@ msgstr ""
 #. i18n: file ./maketransparent_config.ui line 284
 #. i18n: tag string
 #. i18n: file ./maketransparent_config.ui line 316
-#: rc.cpp:125 rc.cpp:132 rc.cpp:139 rc.cpp:149 rc.cpp:156 rc.cpp:163
-#: rc.cpp:170 rc.cpp:177 rc.cpp:184 rc.cpp:458 rc.cpp:465 rc.cpp:472
-#: rc.cpp:482 rc.cpp:489 rc.cpp:496 rc.cpp:503 rc.cpp:510 rc.cpp:517
+#: rc.cpp:158 rc.cpp:165 rc.cpp:172 rc.cpp:182 rc.cpp:189 rc.cpp:196
+#: rc.cpp:203 rc.cpp:210 rc.cpp:217 rc.cpp:524 rc.cpp:531 rc.cpp:538
+#: rc.cpp:548 rc.cpp:555 rc.cpp:562 rc.cpp:569 rc.cpp:576 rc.cpp:583
 #, fuzzy, no-c-format
 #| msgid " %"
 msgid "%"
@@ -563,7 +659,7 @@ msgstr " %"
 #. i18n: file maketransparent_config.ui line 70
 #. i18n: tag string
 #. i18n: file ./maketransparent_config.ui line 70
-#: rc.cpp:128 rc.cpp:461
+#: rc.cpp:161 rc.cpp:527
 msgid "Popup menus:"
 msgstr ""
 
@@ -571,7 +667,7 @@ msgstr ""
 #. i18n: file maketransparent_config.ui line 102
 #. i18n: tag string
 #. i18n: file ./maketransparent_config.ui line 102
-#: rc.cpp:135 rc.cpp:468
+#: rc.cpp:168 rc.cpp:534
 msgid "Torn-off menus:"
 msgstr ""
 
@@ -579,7 +675,7 @@ msgstr ""
 #. i18n: file maketransparent_config.ui line 131
 #. i18n: tag string
 #. i18n: file ./maketransparent_config.ui line 131
-#: rc.cpp:142 rc.cpp:475
+#: rc.cpp:175 rc.cpp:541
 msgid "General opacity settings:"
 msgstr ""
 
@@ -587,7 +683,7 @@ msgstr ""
 #. i18n: file maketransparent_config.ui line 143
 #. i18n: tag string
 #. i18n: file ./maketransparent_config.ui line 143
-#: rc.cpp:145 rc.cpp:478
+#: rc.cpp:178 rc.cpp:544
 msgid "Decorations:"
 msgstr "Dokòracëjë:"
 
@@ -595,7 +691,7 @@ msgstr "Dokòracëjë:"
 #. i18n: file maketransparent_config.ui line 175
 #. i18n: tag string
 #. i18n: file ./maketransparent_config.ui line 175
-#: rc.cpp:152 rc.cpp:485
+#: rc.cpp:185 rc.cpp:551
 msgid "Inactive windows:"
 msgstr ""
 
@@ -603,7 +699,7 @@ msgstr ""
 #. i18n: file maketransparent_config.ui line 207
 #. i18n: tag string
 #. i18n: file ./maketransparent_config.ui line 207
-#: rc.cpp:159 rc.cpp:492
+#: rc.cpp:192 rc.cpp:558
 #, fuzzy
 #| msgid "Moved/resized windows:"
 msgid "Moved or resized windows:"
@@ -613,7 +709,7 @@ msgstr "Òkna przëniesoné/ze zmienionyma miarama:"
 #. i18n: file maketransparent_config.ui line 239
 #. i18n: tag string
 #. i18n: file ./maketransparent_config.ui line 239
-#: rc.cpp:166 rc.cpp:499
+#: rc.cpp:199 rc.cpp:565
 msgid "Dialogs:"
 msgstr "Dialogòwé òkna:"
 
@@ -621,7 +717,7 @@ msgstr "Dialogòwé òkna:"
 #. i18n: file maketransparent_config.ui line 271
 #. i18n: tag string
 #. i18n: file ./maketransparent_config.ui line 271
-#: rc.cpp:173 rc.cpp:506
+#: rc.cpp:206 rc.cpp:572
 msgid "Combobox Popups:"
 msgstr ""
 
@@ -629,7 +725,7 @@ msgstr ""
 #. i18n: file maketransparent_config.ui line 303
 #. i18n: tag string
 #. i18n: file ./maketransparent_config.ui line 303
-#: rc.cpp:180 rc.cpp:513
+#: rc.cpp:213 rc.cpp:579
 msgid "Menus:"
 msgstr ""
 
@@ -637,7 +733,7 @@ msgstr ""
 #. i18n: file maketransparent_config.ui line 331
 #. i18n: tag string
 #. i18n: file ./maketransparent_config.ui line 331
-#: rc.cpp:187 rc.cpp:520
+#: rc.cpp:220 rc.cpp:586
 msgid "Fading duration:"
 msgstr ""
 
@@ -645,7 +741,7 @@ msgstr ""
 #. i18n: file maketransparent_config.ui line 374
 #. i18n: tag string
 #. i18n: file ./maketransparent_config.ui line 374
-#: rc.cpp:190 rc.cpp:523
+#: rc.cpp:223 rc.cpp:589
 msgid "msec"
 msgstr ""
 
@@ -653,7 +749,7 @@ msgstr ""
 #. i18n: file mousemark_config.ui line 48
 #. i18n: tag string
 #. i18n: file ./mousemark_config.ui line 48
-#: rc.cpp:202 rc.cpp:369
+#: rc.cpp:235 rc.cpp:402
 #, fuzzy
 #| msgid "&Color"
 msgid "&Color:"
@@ -663,7 +759,7 @@ msgstr "&Farwa"
 #. i18n: file mousemark_config.ui line 67
 #. i18n: tag string
 #. i18n: file ./mousemark_config.ui line 67
-#: rc.cpp:205 rc.cpp:372
+#: rc.cpp:238 rc.cpp:405
 msgid "Draw with the mouse by holding Shift+Meta keys and moving the mouse."
 msgstr ""
 "Malëjë mëszą przez przëtrzëmanié klawiszów Shift+Meta a przesëwając mësz."
@@ -672,7 +768,7 @@ msgstr ""
 #. i18n: file showfps_config.ui line 16
 #. i18n: tag string
 #. i18n: file ./showfps_config.ui line 16
-#: rc.cpp:208 rc.cpp:526
+#: rc.cpp:241 rc.cpp:592
 msgid "Text"
 msgstr ""
 
@@ -680,7 +776,7 @@ msgstr ""
 #. i18n: file showfps_config.ui line 24
 #. i18n: tag string
 #. i18n: file ./showfps_config.ui line 24
-#: rc.cpp:211 rc.cpp:529
+#: rc.cpp:244 rc.cpp:595
 msgid "Text position:"
 msgstr ""
 
@@ -688,7 +784,7 @@ msgstr ""
 #. i18n: file showfps_config.ui line 45
 #. i18n: tag string
 #. i18n: file ./showfps_config.ui line 45
-#: rc.cpp:214 rc.cpp:532
+#: rc.cpp:247 rc.cpp:598
 msgid "Inside Graph"
 msgstr ""
 
@@ -696,7 +792,7 @@ msgstr ""
 #. i18n: file showfps_config.ui line 50
 #. i18n: tag string
 #. i18n: file ./showfps_config.ui line 50
-#: rc.cpp:217 rc.cpp:535
+#: rc.cpp:250 rc.cpp:601
 msgid "Nowhere"
 msgstr ""
 
@@ -704,7 +800,7 @@ msgstr ""
 #. i18n: file showfps_config.ui line 55
 #. i18n: tag string
 #. i18n: file ./showfps_config.ui line 55
-#: rc.cpp:220 rc.cpp:538
+#: rc.cpp:253 rc.cpp:604
 #, fuzzy
 #| msgid "Top-left"
 msgid "Top Left"
@@ -714,7 +810,7 @@ msgstr "Góra-lewi"
 #. i18n: file showfps_config.ui line 60
 #. i18n: tag string
 #. i18n: file ./showfps_config.ui line 60
-#: rc.cpp:223 rc.cpp:541
+#: rc.cpp:256 rc.cpp:607
 #, fuzzy
 #| msgid "Top-right"
 msgid "Top Right"
@@ -724,7 +820,7 @@ msgstr "Góra-prawi"
 #. i18n: file showfps_config.ui line 65
 #. i18n: tag string
 #. i18n: file ./showfps_config.ui line 65
-#: rc.cpp:226 rc.cpp:544
+#: rc.cpp:259 rc.cpp:610
 #, fuzzy
 #| msgid "Bottom-left"
 msgid "Bottom Left"
@@ -734,7 +830,7 @@ msgstr "Dół-lewi"
 #. i18n: file showfps_config.ui line 70
 #. i18n: tag string
 #. i18n: file ./showfps_config.ui line 70
-#: rc.cpp:229 rc.cpp:547
+#: rc.cpp:262 rc.cpp:613
 #, fuzzy
 #| msgid "Bottom-right"
 msgid "Bottom Right"
@@ -744,7 +840,7 @@ msgstr "Dół-prawi"
 #. i18n: file showfps_config.ui line 82
 #. i18n: tag string
 #. i18n: file ./showfps_config.ui line 82
-#: rc.cpp:232 rc.cpp:550
+#: rc.cpp:265 rc.cpp:616
 msgid "Text font:"
 msgstr ""
 
@@ -752,7 +848,7 @@ msgstr ""
 #. i18n: file showfps_config.ui line 109
 #. i18n: tag string
 #. i18n: file ./showfps_config.ui line 109
-#: rc.cpp:235 rc.cpp:553
+#: rc.cpp:268 rc.cpp:619
 msgid "Text color:"
 msgstr ""
 
@@ -760,7 +856,7 @@ msgstr ""
 #. i18n: file showfps_config.ui line 136
 #. i18n: tag string
 #. i18n: file ./showfps_config.ui line 136
-#: rc.cpp:238 rc.cpp:556
+#: rc.cpp:271 rc.cpp:622
 msgid "Text alpha:"
 msgstr ""
 
@@ -768,7 +864,7 @@ msgstr ""
 #. i18n: file snow_config.ui line 22
 #. i18n: tag string
 #. i18n: file ./snow_config.ui line 22
-#: rc.cpp:244 rc.cpp:562
+#: rc.cpp:277 rc.cpp:628
 msgid "&Number of snowflakes:"
 msgstr ""
 
@@ -776,7 +872,7 @@ msgstr ""
 #. i18n: file snow_config.ui line 42
 #. i18n: tag string
 #. i18n: file ./snow_config.ui line 42
-#: rc.cpp:247 rc.cpp:565
+#: rc.cpp:280 rc.cpp:631
 msgid "M&inimum size of snowflake:"
 msgstr ""
 
@@ -784,7 +880,7 @@ msgstr ""
 #. i18n: file snow_config.ui line 65
 #. i18n: tag string
 #. i18n: file ./snow_config.ui line 65
-#: rc.cpp:253 rc.cpp:571
+#: rc.cpp:286 rc.cpp:637
 msgid "M&aximum size of snowflake:"
 msgstr ""
 
@@ -792,7 +888,7 @@ msgstr ""
 #. i18n: file thumbnailaside_config.ui line 22
 #. i18n: tag string
 #. i18n: file ./thumbnailaside_config.ui line 22
-#: rc.cpp:262 rc.cpp:378
+#: rc.cpp:295 rc.cpp:411
 #, fuzzy
 #| msgid "Maximal &Width"
 msgid "Maximum &width:"
@@ -802,7 +898,7 @@ msgstr "Maksimalnô &szérz"
 #. i18n: file thumbnailaside_config.ui line 45
 #. i18n: tag string
 #. i18n: file ./thumbnailaside_config.ui line 45
-#: rc.cpp:268 rc.cpp:384
+#: rc.cpp:301 rc.cpp:417
 #, fuzzy
 #| msgid "&Spacing"
 msgid "&Spacing:"
@@ -812,7 +908,7 @@ msgstr "&Rozstãp"
 #. i18n: file thumbnailaside_config.ui line 68
 #. i18n: tag string
 #. i18n: file ./thumbnailaside_config.ui line 68
-#: rc.cpp:274 rc.cpp:390
+#: rc.cpp:307 rc.cpp:423
 #, fuzzy
 #| msgid "&Opacity"
 msgid "&Opacity:"
@@ -822,7 +918,7 @@ msgstr "&Przezérnota"
 #. i18n: file wobblywindows_config.ui line 16
 #. i18n: tag string
 #. i18n: file ./wobblywindows_config.ui line 16
-#: rc.cpp:281 rc.cpp:302
+#: rc.cpp:314 rc.cpp:335
 msgid "Wobblyness:"
 msgstr ""
 
@@ -830,7 +926,7 @@ msgstr ""
 #. i18n: file wobblywindows_config.ui line 38
 #. i18n: tag string
 #. i18n: file ./wobblywindows_config.ui line 38
-#: rc.cpp:284 rc.cpp:305
+#: rc.cpp:317 rc.cpp:338
 msgid "Less"
 msgstr ""
 
@@ -838,7 +934,7 @@ msgstr ""
 #. i18n: file wobblywindows_config.ui line 55
 #. i18n: tag string
 #. i18n: file ./wobblywindows_config.ui line 55
-#: rc.cpp:287 rc.cpp:308
+#: rc.cpp:320 rc.cpp:341
 msgid "More"
 msgstr ""
 
@@ -864,3 +960,6 @@ msgstr "Wëczëszczë znaczi mëszë"
 #: videorecord_config.cpp:55
 msgid "Path to save video:"
 msgstr ""
+
+#~ msgid "Animate desktop changes"
+#~ msgstr "Animùjë zmianë pùltu"
