@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-15 08:26+0200\n"
+"POT-Creation-Date: 2008-08-25 09:06+0200\n"
 "PO-Revision-Date: 2008-07-11 18:03+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi\n"
@@ -17,6 +17,16 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
+
+#: backgrounddialog.cpp:364
+msgid "Desktop Settings"
+msgstr ""
+
+#: backgrounddialog.cpp:391
+msgid ""
+"This picture of a monitor contains a preview of what the current settings "
+"will look like on your desktop."
+msgstr ""
 
 #: dashboardview.cpp:61
 msgid "Hide Dashboard"
@@ -28,15 +38,15 @@ msgstr "Zatacë przédną tablëcã"
 msgid "Widget Dashboard"
 msgstr "Zatacë przédną tablëcã"
 
-#: dashboardview.cpp:140 plasmaapp.cpp:438
+#: dashboardview.cpp:140 plasmaapp.cpp:466
 msgid "Add Widgets"
 msgstr "Dodôj widżetë"
 
-#: desktopview.cpp:63
+#: desktopview.cpp:68
 msgid "Next Activity"
 msgstr "Pòstãpnô aktiwnota"
 
-#: desktopview.cpp:68
+#: desktopview.cpp:73
 msgid "Previous Activity"
 msgstr "Pòprzédnô aktiwnota"
 
@@ -102,7 +112,7 @@ msgstr ""
 msgid "Close this configuration window"
 msgstr "Zamkni ne òkno kònfigùracëji"
 
-#: plasmaapp.cpp:236
+#: plasmaapp.cpp:233
 msgid "Show Dashboard"
 msgstr "Pòkôżë przédną tablëcã"
 
@@ -118,12 +128,58 @@ msgstr "Przësënié nen sztripk bë ùstawic maksymalną miarã panela"
 msgid "Move this slider to set the minimum panel size"
 msgstr "Przësënié nen sztripk bë ùstawic minimalną miarã panela"
 
-#: rc.cpp:1
+#. i18n: file: BackgroundDialog.ui:40
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:3
+msgid "Wallpaper"
+msgstr ""
+
+#. i18n: file: BackgroundDialog.ui:93
+#. i18n: ectx: property (text), widget (QLabel, m_monitor)
+#: rc.cpp:6
+msgid "Monitor"
+msgstr ""
+
+#. i18n: file: BackgroundDialog.ui:140
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:9
+msgid "Desktop Theme"
+msgstr ""
+
+#. i18n: file: BackgroundDialog.ui:153
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:12
+msgid "Theme:"
+msgstr ""
+
+#. i18n: file: BackgroundDialog.ui:179
+#. i18n: ectx: property (text), widget (QPushButton, m_newThemeButton)
+#: rc.cpp:15
+msgid "New Theme..."
+msgstr ""
+
+#. i18n: file: BackgroundDialog.ui:192
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:18
+#, fuzzy
+#| msgid "Next Activity"
+msgid "Desktop activity"
+msgstr "Pòstãpnô aktiwnota"
+
+#. i18n: file: BackgroundDialog.ui:199
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:21
+#, fuzzy
+#| msgid "Next Activity"
+msgid "Activity:"
+msgstr "Pòstãpnô aktiwnota"
+
+#: rc.cpp:22
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Michôł Òstrowsczi"
 
-#: rc.cpp:2
+#: rc.cpp:23
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "michol@linuxcsb.org"
