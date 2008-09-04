@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-03 10:12+0200\n"
+"POT-Creation-Date: 2008-09-04 09:48+0200\n"
 "PO-Revision-Date: 2008-07-20 09:06+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi\n"
@@ -377,31 +377,18 @@ msgstr ""
 msgid "Add Applets"
 msgstr "Dodôj apletë"
 
-#: context/engines/current/CurrentEngine.cpp:112
-#: context/applets/albums/Albums.cpp:62
+#: context/engines/current/CurrentEngine.cpp:114
+#: context/applets/albums/Albums.cpp:60
 #, fuzzy
 #| msgid "Recently Played Tracks"
 msgid "Recently added albums"
 msgstr "Slédno gróné sztëcczi"
 
-#: context/engines/current/CurrentEngine.cpp:198
+#: context/engines/current/CurrentEngine.cpp:199
 #, fuzzy, kde-format
 #| msgid "Albums By"
 msgid "Albums by %1"
 msgstr "Albùmë artistë"
-
-#: context/engines/current/CurrentEngine.cpp:236 App.cpp:605
-#: MediaDevicePluginManager.cpp:535
-msgid "Unknown"
-msgstr "Nieznóny"
-
-#: context/engines/current/CurrentEngine.cpp:239
-#, kde-format
-msgid "%1 track"
-msgid_plural "%1 tracks"
-msgstr[0] "%1 sztëczk"
-msgstr[1] "%1 sztëcczi"
-msgstr[2] "%1 sztëczków"
 
 #: context/engines/lastfm/LastFmEngine.cpp:53
 #: context/engines/lastfm/LastFmEngine.cpp:71
@@ -863,29 +850,38 @@ msgstr "Slédno gróné"
 msgid "No track playing"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:51
-msgid "Hello, World"
-msgstr "Witôj Swiece"
+#: context/applets/albums/Albums.cpp:155 App.cpp:605
+#: MediaDevicePluginManager.cpp:535
+msgid "Unknown"
+msgstr "Nieznóny"
 
-#: context/applets/lyrics/LyricsApplet.cpp:101
+#: context/applets/albums/Albums.cpp:173
+#, kde-format
+msgid "%1 track"
+msgid_plural "%1 tracks"
+msgstr[0] "%1 sztëczk"
+msgstr[1] "%1 sztëcczi"
+msgstr[2] "%1 sztëczków"
+
+#: context/applets/lyrics/LyricsApplet.cpp:51 dialogs/TagDialog.cpp:561
+msgid "Lyrics"
+msgstr "Tekstë"
+
+#: context/applets/lyrics/LyricsApplet.cpp:156
 msgid "No lyrics script is running!"
 msgstr "Niżóden skript tekstów frantówków nie je zrëszony!"
 
-#: context/applets/lyrics/LyricsApplet.cpp:106
+#: context/applets/lyrics/LyricsApplet.cpp:161
 msgid "Lyrics are being fetched."
 msgstr "Tekst je ladowóny."
 
-#: context/applets/lyrics/LyricsApplet.cpp:111
+#: context/applets/lyrics/LyricsApplet.cpp:166
 msgid ""
 "Lyrics were not able to be downloaded. Please check your internet connection."
 msgstr ""
 "Ni mòże zladowac teksta. Proszã sprôwdzëc swòjé pòłączenié z jinternetã."
 
-#: context/applets/lyrics/LyricsApplet.cpp:118 dialogs/TagDialog.cpp:561
-msgid "Lyrics"
-msgstr "Tekstë"
-
-#: context/applets/lyrics/LyricsApplet.cpp:142
+#: context/applets/lyrics/LyricsApplet.cpp:204
 msgid "There were no lyrics found for this track"
 msgstr "Nie są nalazłé tekstë dlô tegò sztëczka"
 
@@ -982,7 +978,7 @@ msgstr "S&ztëczk"
 msgid "&Album"
 msgstr "&Albùm"
 
-#: ActionClasses.cpp:355 MainWindow.cpp:925
+#: ActionClasses.cpp:355 MainWindow.cpp:929
 msgid "&Playlist"
 msgstr "&Lësta graniô"
 
@@ -4892,19 +4888,19 @@ msgstr "Òtaksëjë biéżny sztëczk: 4"
 msgid "Rate Current Track: 5"
 msgstr "Òtaksëjë biéżny sztëczk: 5"
 
-#: MainWindow.cpp:901
+#: MainWindow.cpp:905
 msgid "&Music"
 msgstr "&Mùzyka"
 
-#: MainWindow.cpp:905
+#: MainWindow.cpp:909
 msgid "&Amarok"
 msgstr "&Amarok"
 
-#: MainWindow.cpp:957
+#: MainWindow.cpp:961
 msgid "&Tools"
 msgstr "&Nôrzãdza"
 
-#: MainWindow.cpp:979
+#: MainWindow.cpp:983
 msgid "&Settings"
 msgstr "Ùs&towë"
 
@@ -8713,6 +8709,9 @@ msgstr "Lat"
 #: SmartPlaylistEditor.cpp:1017
 msgid "Hours"
 msgstr "Gòdz."
+
+#~ msgid "Hello, World"
+#~ msgstr "Witôj Swiece"
 
 #~ msgid "Todo.... show suggestions here!"
 #~ msgstr "Do zrobieniô... sugestëje tuwò!"
