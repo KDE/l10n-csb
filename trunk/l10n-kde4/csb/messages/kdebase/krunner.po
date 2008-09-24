@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-23 09:42+0200\n"
+"POT-Creation-Date: 2008-09-24 10:37+0200\n"
 "PO-Revision-Date: 2008-07-12 23:24+0200\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -185,29 +185,17 @@ msgstr "Aaron J. Seigo"
 msgid "Author and maintainer"
 msgstr "Ùsôdzca ë òpiekùn"
 
-#: interface.cpp:71 krunnerapp.cpp:155 krunnerapp.cpp:156
+#: interface.cpp:68 krunnerapp.cpp:168 krunnerapp.cpp:169
 msgid "Run Command"
 msgstr "Zrëszë pòlét"
 
-#: interface.cpp:86 interface.cpp:87
+#: interface.cpp:88 interface.cpp:89
 msgid "Settings"
 msgstr "Nastôwë"
 
-#: interface.cpp:106 interface.cpp:107 krunnerapp.cpp:166 krunnerapp.cpp:167
+#: interface.cpp:108 interface.cpp:109 krunnerapp.cpp:179 krunnerapp.cpp:180
 msgid "Show System Activity"
 msgstr "Pòkôżë systemòwą aktiwnotã"
-
-#: interface.cpp:114
-msgid "Launch"
-msgstr "Zrëszë"
-
-#: interface.cpp:115
-msgid "Click to execute the selected item above"
-msgstr "Klëkni, żebë zrëszëc wëbróny wëżi element"
-
-#: interface.cpp:116
-msgid "Show Options"
-msgstr "Wëskrzëni òptacëje"
 
 #: configdialog.cpp:44
 msgid "KRunner Settings"
@@ -217,59 +205,65 @@ msgstr "Nastôwë KRunner"
 msgid "Available Features"
 msgstr ""
 
-#. i18n: file: krunner.kcfg:16
-#. i18n: ectx: label, entry, group (TaskDialog)
+#. i18n: file: krunner.kcfg:13
+#. i18n: ectx: label, entry, group (General)
 #: rc.cpp:11
+msgid "The interface style to use in KRunner"
+msgstr ""
+
+#. i18n: file: krunner.kcfg:26
+#. i18n: ectx: label, entry, group (TaskDialog)
+#: rc.cpp:14
 msgid "Completion mode used for the query text."
 msgstr ""
 
-#. i18n: file: krunner.kcfg:21
+#. i18n: file: krunner.kcfg:31
 #. i18n: ectx: label, entry (PastQueries), group (TaskDialog)
-#: rc.cpp:14
+#: rc.cpp:17
 msgid "History if past queries successfully completed"
 msgstr ""
 
-#. i18n: file: krunner.kcfg:27
+#. i18n: file: krunner.kcfg:37
 #. i18n: ectx: label, entry (KeepTaskDialogAbove), group (TaskDialog)
-#: rc.cpp:18
+#: rc.cpp:21
 msgid "Whether to keep the tasks dialog above other windows when shown."
 msgstr "Czë trzëmac òkno robòtów nad jinëma òkna, czej sã zjôwią."
 
-#. i18n: file: krunner.kcfg:32
-#. i18n: file: krunner.kcfg:40
+#. i18n: file: krunner.kcfg:42
+#. i18n: file: krunner.kcfg:50
 #. i18n: file: kscreensaversettings.kcfg:11
 #. i18n: ectx: label, entry (ScreenSaverEnabled), group (ScreenSaver)
-#: rc.cpp:24
+#: rc.cpp:27
 msgid "Enable screen saver"
 msgstr "Włączë wëgaszôcz ekranu"
 
 #. i18n: file: kscreensaversettings.kcfg:12
 #. i18n: ectx: whatsthis, entry (ScreenSaverEnabled), group (ScreenSaver)
-#: rc.cpp:27
+#: rc.cpp:30
 msgid "Enables the screen saver."
 msgstr "Włączô wëgaszôcz ekranu."
 
 #. i18n: file: kscreensaversettings.kcfg:16
 #. i18n: ectx: label, entry, group (ScreenSaver)
-#: rc.cpp:30
+#: rc.cpp:33
 msgid "Screen saver timeout"
 msgstr "Czas zrëszëniô wëgaszôcza ekranu"
 
 #. i18n: file: kscreensaversettings.kcfg:17
 #. i18n: ectx: whatsthis, entry, group (ScreenSaver)
-#: rc.cpp:33
+#: rc.cpp:36
 msgid "Sets the seconds after which the screen saver is started."
 msgstr "Ùstôwiô czas w sekùndach pò jaczim wëgaszôcz bãdze wëstartowóny."
 
 #. i18n: file: kscreensaversettings.kcfg:21
 #. i18n: ectx: label, entry (SuspendWhenInvisible), group (ScreenSaver)
-#: rc.cpp:36
+#: rc.cpp:39
 msgid "Suspend screen saver when DPMS kicks in"
 msgstr "Zawieszë wëgaszôcz ekrana czedë wchòdajë DPMS"
 
 #. i18n: file: kscreensaversettings.kcfg:24
 #. i18n: ectx: whatsthis, entry (SuspendWhenInvisible), group (ScreenSaver)
-#: rc.cpp:39
+#: rc.cpp:42
 msgid ""
 "Usually the screen saver is suspended when display power saving kicks in,\n"
 "       as nothing can be seen on the screen anyway, obviously. However, some "
@@ -278,49 +272,49 @@ msgid ""
 "suspend them."
 msgstr ""
 
-#: rc.cpp:68
+#: rc.cpp:71
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Michôł Òstrowsczi, Mark Kwidzińsczi"
 
-#: rc.cpp:69
+#: rc.cpp:72
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "michol@linuxcsb.org, mark@linuxcsb.org"
 
-#: krunnerapp.cpp:160 krunnerapp.cpp:161
+#: krunnerapp.cpp:173 krunnerapp.cpp:174
 msgid "Run Command on clipboard contents"
 msgstr "Zrëszë pòlét na zamkłoscë tacnika"
 
-#: krunnerapp.cpp:178 krunnerapp.cpp:179
+#: krunnerapp.cpp:191 krunnerapp.cpp:192
 msgid "Switch User"
 msgstr "Przełączë brëkòwnika"
 
-#: krunnerapp.cpp:185 krunnerapp.cpp:186
+#: krunnerapp.cpp:198 krunnerapp.cpp:199
 msgid "Lock Session"
 msgstr "Zablokùjë sesëjã"
 
-#: krunnerapp.cpp:193 krunnerapp.cpp:194
+#: krunnerapp.cpp:206 krunnerapp.cpp:207
 msgid "Log Out"
 msgstr "Wëlogùjë"
 
-#: krunnerapp.cpp:198 krunnerapp.cpp:199
+#: krunnerapp.cpp:211 krunnerapp.cpp:212
 msgid "Log Out Without Confirmation"
 msgstr "Wëlogùjë bez pòcwierdzeniô"
 
-#: krunnerapp.cpp:203 krunnerapp.cpp:204
+#: krunnerapp.cpp:216 krunnerapp.cpp:217
 msgid "Halt Without Confirmation"
 msgstr "Zatrzëmôj bez pòcwierwdzeniô"
 
-#: krunnerapp.cpp:208 krunnerapp.cpp:209
+#: krunnerapp.cpp:221 krunnerapp.cpp:222
 msgid "Reboot Without Confirmation"
 msgstr "Zrëszë znowa bez pòcwierdzeniô"
 
-#: krunnerapp.cpp:260
+#: krunnerapp.cpp:273
 msgid "System Activity"
 msgstr "Systemòwô aktiwnota"
 
-#: krunnerapp.cpp:343
+#: krunnerapp.cpp:382
 msgid ""
 "Could not log out properly.\n"
 "The session manager cannot be contacted. You can try to force a shutdown by "
@@ -331,6 +325,15 @@ msgstr ""
 "Menadżera sesëji nie mòże bëc pòdłączonô. Mòżesz spróbòwac wëmùszëc "
 "zamkniãcé wcëskając Ctrl+Alt+Backspace. Bôczë, że Twòjô biéżnô sesëja nie "
 "mdze zapisónô pò wëmùszonym zamkniãcu."
+
+#~ msgid "Launch"
+#~ msgstr "Zrëszë"
+
+#~ msgid "Click to execute the selected item above"
+#~ msgstr "Klëkni, żebë zrëszëc wëbróny wëżi element"
+
+#~ msgid "Show Options"
+#~ msgstr "Wëskrzëni òptacëje"
 
 #, fuzzy
 #~| msgid "Enables the screen saver."
