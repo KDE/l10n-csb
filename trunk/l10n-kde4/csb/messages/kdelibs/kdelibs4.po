@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-02 09:44+0200\n"
+"POT-Creation-Date: 2008-10-03 09:40+0200\n"
 "PO-Revision-Date: 2008-07-11 16:43+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi\n"
@@ -3256,11 +3256,11 @@ msgstr "Bibloteka %1 nie dôwô infrastrukturë zgódny z KDE."
 msgid "The plugin '%1' uses an incompatible KDE library (%2)."
 msgstr "Wtëkôcz %1ùżëwô niekòmpatibilny bibloteczi KDE. (%2)."
 
-#: kdecore/config/kconfig.cpp:670
+#: kdecore/config/kconfig.cpp:667
 msgid "Please contact your system administrator."
 msgstr "Proszã sparłãczëc sã ze sprôwnikã systemë."
 
-#: kdecore/config/kconfigini.cpp:495
+#: kdecore/config/kconfigini.cpp:511
 #, kde-format
 msgid "Configuration file \"%1\" not writable.\n"
 msgstr "Kònfigùracjowi lopk \"%1\" nie je zapisëwôlny.\n"
@@ -6022,6 +6022,12 @@ msgstr ""
 msgid "Configure Shortcuts"
 msgstr "Kònfigùracëjô skrodzënów"
 
+#: kdeui/dialogs/kshortcutsdialog.cpp:113
+#, fuzzy
+#| msgid "&Defaults"
+msgid "Reset to Defaults"
+msgstr "&Domëszlné"
+
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:42
 #, fuzzy
 #| msgid "Shortcuts"
@@ -6312,8 +6318,8 @@ msgstr ""
 msgid "Reset Toolbars"
 msgstr "Doprowôdzë listew nôrzãdzów nazôd"
 
-#: kdeui/dialogs/kedittoolbar.cpp:526 khtml/khtmlview.cpp:2948
-#: khtml/khtmlview.cpp:2981 khtml/html/html_formimpl.cpp:2190
+#: kdeui/dialogs/kedittoolbar.cpp:526 khtml/khtmlview.cpp:2953
+#: khtml/khtmlview.cpp:2986 khtml/html/html_formimpl.cpp:2157
 msgid "Reset"
 msgstr "Doprowôdzë nazôd"
 
@@ -9721,37 +9727,37 @@ msgstr "Òbénda"
 msgid "Comment"
 msgstr "Dopòwiesc"
 
-#: kdeui/widgets/ktextedit.cpp:407 kde3support/kdeui/k3textedit.cpp:232
+#: kdeui/widgets/ktextedit.cpp:423 kde3support/kdeui/k3textedit.cpp:232
 msgid "Check Spelling..."
 msgstr "Sprôwdzë pisënk..."
 
-#: kdeui/widgets/ktextedit.cpp:410 kde3support/kdeui/k3textedit.cpp:238
+#: kdeui/widgets/ktextedit.cpp:426 kde3support/kdeui/k3textedit.cpp:238
 msgid "Auto Spell Check"
 msgstr "Aùtomatné sprôwdzanié pisënkù"
 
-#: kdeui/widgets/ktextedit.cpp:414 kde3support/kdeui/k3textedit.cpp:242
+#: kdeui/widgets/ktextedit.cpp:430 kde3support/kdeui/k3textedit.cpp:242
 msgid "Allow Tabulations"
 msgstr "Dopùszczë tabùlacëjã"
 
-#: kdeui/widgets/ktextedit.cpp:509
+#: kdeui/widgets/ktextedit.cpp:525
 #, fuzzy
 #| msgid "Suggestion List"
 msgid "Suggestions"
 msgstr "Lësta pòdpòwiesców"
 
-#: kdeui/widgets/ktextedit.cpp:511
+#: kdeui/widgets/ktextedit.cpp:527
 #, fuzzy
 #| msgid "&Ignore"
 msgid "Ignore"
 msgstr "&Przepùszczë"
 
-#: kdeui/widgets/ktextedit.cpp:512
+#: kdeui/widgets/ktextedit.cpp:528
 #, fuzzy
 #| msgid "<< Add to Dictionary"
 msgid "Add to Dictionary"
 msgstr "<< Dodôj do słowôrza"
 
-#: kdeui/widgets/ktextedit.cpp:658
+#: kdeui/widgets/ktextedit.cpp:674
 msgid "Nothing to spell check."
 msgstr "NIe dô niczegò dze mòże sprôwdzëc pisënk."
 
@@ -10455,8 +10461,8 @@ msgstr ""
 "<qt>Fòrmùlar bãdze wësłóny do <br /><b>%1</b><br />môlowi systeme lopków."
 "<br />Chcesz wësłac fòrmùlar</qt>"
 
-#: khtml/khtml_part.cpp:4941 khtml/khtmlview.cpp:2934 khtml/khtmlview.cpp:2976
-#: khtml/html/html_formimpl.cpp:1590 khtml/html/html_formimpl.cpp:2198
+#: khtml/khtml_part.cpp:4941 khtml/khtmlview.cpp:2939 khtml/khtmlview.cpp:2981
+#: khtml/html/html_formimpl.cpp:1579 khtml/html/html_formimpl.cpp:2165
 msgid "Submit"
 msgstr "Wëslë"
 
@@ -10575,39 +10581,39 @@ msgstr "&Dodôj do ignorowónëch..."
 msgid "Remove from ignores..."
 msgstr "Rëmôj z ignorowónëch..."
 
-#: khtml/khtmlview.cpp:1906
+#: khtml/khtmlview.cpp:1911
 msgid "Find stopped."
 msgstr "Szëkba zatrzëmónô."
 
-#: khtml/khtmlview.cpp:1917
+#: khtml/khtmlview.cpp:1922
 msgid "Starting -- find links as you type"
 msgstr "Start -- nalezë lënczi òbczas pisaniô"
 
-#: khtml/khtmlview.cpp:1923
+#: khtml/khtmlview.cpp:1928
 msgid "Starting -- find text as you type"
 msgstr "Start -- nalezë tekst òbczas pisaniô"
 
-#: khtml/khtmlview.cpp:1946
+#: khtml/khtmlview.cpp:1951
 #, kde-format
 msgid "Link found: \"%1\"."
 msgstr "Nalazłi lënk: \"%1\"."
 
-#: khtml/khtmlview.cpp:1951
+#: khtml/khtmlview.cpp:1956
 #, kde-format
 msgid "Link not found: \"%1\"."
 msgstr "Nie òstôł nalazłi lënk: \"%1\"."
 
-#: khtml/khtmlview.cpp:1959
+#: khtml/khtmlview.cpp:1964
 #, kde-format
 msgid "Text found: \"%1\"."
 msgstr "Nalazłi tekst: \"%1\"."
 
-#: khtml/khtmlview.cpp:1964
+#: khtml/khtmlview.cpp:1969
 #, kde-format
 msgid "Text not found: \"%1\"."
 msgstr "Nie je nalazłi tekst: \"%1\"."
 
-#: khtml/khtmlview.cpp:2012
+#: khtml/khtmlview.cpp:2017
 msgid "Access Keys activated"
 msgstr "Klawisze przistãpù aktiwòwóné"
 
@@ -10729,7 +10735,7 @@ msgstr "JavaScript"
 msgid "&Abort"
 msgstr "Ò&przestóń"
 
-#: khtml/ecma/kjs_window.cpp:1581 khtml/ecma/kjs_html.cpp:2121
+#: khtml/ecma/kjs_window.cpp:1581 khtml/ecma/kjs_html.cpp:2111
 msgid "Confirmation: JavaScript Popup"
 msgstr "Pòcwierdzenié: Òczénkò JavaScript"
 
@@ -10750,11 +10756,11 @@ msgstr ""
 "<qt>Na starna żãdô òtemkniãcô<p>%1</p>w nowim òknie przezérnika brëkùjąc "
 "JavaScript.<br /> Pòzwôlëc na to?</qt>"
 
-#: khtml/ecma/kjs_window.cpp:1589 khtml/ecma/kjs_html.cpp:2128
+#: khtml/ecma/kjs_window.cpp:1589 khtml/ecma/kjs_html.cpp:2118
 msgid "Allow"
 msgstr "Pòzwôlë"
 
-#: khtml/ecma/kjs_window.cpp:1589 khtml/ecma/kjs_html.cpp:2128
+#: khtml/ecma/kjs_window.cpp:1589 khtml/ecma/kjs_html.cpp:2118
 msgid "Do Not Allow"
 msgstr "Nie pòzwôlôj"
 
@@ -10792,7 +10798,7 @@ msgstr "Wstôwi"
 msgid "Disallow"
 msgstr "Nie dawôj zgòdë"
 
-#: khtml/ecma/kjs_html.cpp:2123
+#: khtml/ecma/kjs_html.cpp:2113
 msgid ""
 "This site is submitting a form which will open up a new browser window via "
 "JavaScript.\n"
@@ -10802,7 +10808,7 @@ msgstr ""
 "pòmòca Javascript.\n"
 "Dac zgòdã na to?"
 
-#: khtml/ecma/kjs_html.cpp:2126
+#: khtml/ecma/kjs_html.cpp:2116
 #, kde-format
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
@@ -10970,7 +10976,7 @@ msgstr ""
 "òdblokòwóny, mòże aùtomatno òdzwëskac nóterné wëdowiédze do logòwaniô na "
 "starnie %1. Zapisac nã wëdowiédzã?"
 
-#: khtml/html/html_formimpl.cpp:2579
+#: khtml/html/html_formimpl.cpp:2546
 msgid "Key Generator"
 msgstr "Generator kluczów"
 
