@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-04 10:44+0200\n"
+"POT-Creation-Date: 2008-10-05 09:27+0200\n"
 "PO-Revision-Date: 2008-07-20 09:06+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi\n"
@@ -2307,17 +2307,17 @@ msgstr "Podcast SQL"
 msgid "Podcast"
 msgstr "Podcast"
 
-#: Systray.cpp:123 browsers/collectionbrowser/CollectionTreeView.cpp:598
+#: Systray.cpp:125 browsers/collectionbrowser/CollectionTreeView.cpp:598
 #: browsers/playlistbrowser/PodcastCategory.cpp:481
 #: browsers/playlistbrowser/UserPlaylistTreeView.cpp:142
 msgid "&Append to Playlist"
 msgstr "&Dodôj do lëstë graniô"
 
-#: Systray.cpp:124
+#: Systray.cpp:126
 msgid "Append && &Play"
 msgstr ""
 
-#: Systray.cpp:126
+#: Systray.cpp:128
 msgid "&Queue Track"
 msgstr "&Régùjë sztëczk"
 
@@ -2325,7 +2325,7 @@ msgstr "&Régùjë sztëczk"
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_cancel)
 #. i18n: file: browsers/servicebrowser/magnatunestore/MagnatuneRedownloadDialogBase.ui:36
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
-#: Systray.cpp:129 rc.cpp:912 rc.cpp:1156
+#: Systray.cpp:131 rc.cpp:912 rc.cpp:1156
 msgid "&Cancel"
 msgstr ""
 
@@ -6890,10 +6890,14 @@ msgstr "Rëmôj z lëstë graniô..."
 msgid "Edit Track Details"
 msgstr "Editëjë detale sztëczka"
 
-#: playlist/PlaylistWidget.cpp:89
+#: playlist/PlaylistWidget.cpp:116
 msgctxt "switch view"
 msgid "Switch Playlist &View"
 msgstr "Przëłączë &Wëzdrzatk lëstë graniô"
+
+#: playlist/PlaylistWidget.cpp:170 SmartPlaylistEditor.cpp:257
+msgid "tracks"
+msgstr "sztëczków"
 
 #: playlist/UndoCommands.cpp:32
 msgid "Tracks Added"
@@ -7620,10 +7624,6 @@ msgstr "Kawlowò"
 #: SmartPlaylistEditor.cpp:250
 msgid "Limit to"
 msgstr "Ògreńczë do"
-
-#: SmartPlaylistEditor.cpp:257
-msgid "tracks"
-msgstr "sztëczków"
 
 #: SmartPlaylistEditor.cpp:262
 msgid "Expand by"
