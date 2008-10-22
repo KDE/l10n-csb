@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libplasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-21 10:27+0200\n"
+"POT-Creation-Date: 2008-10-22 10:37+0200\n"
 "PO-Revision-Date: 2008-07-11 18:16+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi\n"
@@ -161,7 +161,7 @@ msgstr "Rëmôj %1"
 msgid "Could not find requested component: %1"
 msgstr ""
 
-#: dataengine.cpp:435 dataengine.cpp:441
+#: dataengine.cpp:445 dataengine.cpp:451
 msgid "Unnamed"
 msgstr "Nienazwóné"
 
@@ -193,16 +193,6 @@ msgstr "Na systema nie wspierô apletów OpenGL."
 msgid "Your machine does not support OpenGL widgets."
 msgstr "Twój kòmpùtr nie wspierô apletów OpenGL."
 
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Michôł Òstrowsczi"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "michol@linuxcsb.org"
-
 #: wallpaper.cpp:126
 #, fuzzy
 #| msgid "Unknown Applet"
@@ -217,152 +207,167 @@ msgstr "Zmiłkòwé"
 msgid "Invalid (null) service, can not perform any operations."
 msgstr "Zmiłkòwi serwis, ni mòże przeprowadzëc niżódny akcëji."
 
-#: private/packages.cpp:34
+#: private/packages.cpp:35
 msgid "Images"
 msgstr "Ôbrôzczi"
 
-#: private/packages.cpp:39 tests/packagestructuretest.cpp:96
+#: private/packages.cpp:40 tests/packagestructuretest.cpp:96
 #: tests/packagestructuretest.cpp:120
 msgid "Configuration Definitions"
 msgstr "Definicëje kònfigùracëji"
 
-#: private/packages.cpp:45 private/packages.cpp:48
+#: private/packages.cpp:46 private/packages.cpp:49
 msgid "Executable Scripts"
 msgstr "Zrëszeniowi skriptë"
 
-#: private/packages.cpp:53
+#: private/packages.cpp:54
 msgid "Main Config UI File"
 msgstr "Przédny lopk kònfigùracëji UI"
 
-#: private/packages.cpp:54
+#: private/packages.cpp:55
 msgid "Configuration XML file"
 msgstr "Lopk kònfigùëacëji XML"
 
-#: private/packages.cpp:55 private/packages.cpp:65
+#: private/packages.cpp:56 private/packages.cpp:66
 #: scripting/scriptengine.cpp:233 tests/packagestructuretest.cpp:97
 #: tests/packagestructuretest.cpp:121
 msgid "Main Script File"
 msgstr "Przédny lopk skriptów"
 
-#: private/packages.cpp:82
+#: private/packages.cpp:86
+#, fuzzy, kde-format
+#| msgid "Install From File..."
+msgid "Installation of <b>%1</b> failed!"
+msgstr "Jinstalëjë z lopka..."
+
+#: private/packages.cpp:87
+#, fuzzy
+#| msgid "Install From File..."
+msgid "Installation Failed"
+msgstr "Jinstalëjë z lopka..."
+
+#: private/packages.cpp:100
 msgid "Images for dialogs"
 msgstr "Òbrôzczi dlô dialogów"
 
-#: private/packages.cpp:84
+#: private/packages.cpp:102
 msgid "Generic dialog background"
 msgstr "Wbùdowóné spòdlé dialogòwégò òkna"
 
-#: private/packages.cpp:86
+#: private/packages.cpp:104
 msgid "Theme for the logout dialog"
 msgstr "Téma dlô òkna wëlogòwaniô"
 
-#: private/packages.cpp:88
+#: private/packages.cpp:106
 msgid "Wallpaper packages"
 msgstr ""
 
-#: private/packages.cpp:90 private/packages.cpp:121
+#: private/packages.cpp:108 private/packages.cpp:139
 msgid "Images for widgets"
 msgstr "Òbrôzczi dlô widżetów"
 
-#: private/packages.cpp:92
+#: private/packages.cpp:110
 msgid "Background image for plasmoids"
 msgstr "Spódkòwi òbrôzk dlô plazmoidu"
 
-#: private/packages.cpp:94
+#: private/packages.cpp:112
 msgid "Analog clock face"
 msgstr "Wëzdrzatk analogòwégò zédżera"
 
-#: private/packages.cpp:96
+#: private/packages.cpp:114
 msgid "Background image for panels"
 msgstr "Spódkòwi òbrôzk dlô panelów"
 
-#: private/packages.cpp:98
+#: private/packages.cpp:116
 msgid "Background for graphing widgets"
 msgstr "Spódk dlô grafikòwëch widżetów"
 
-#: private/packages.cpp:100
+#: private/packages.cpp:118
 msgid "Background image for tooltips"
 msgstr "Spódkòwi òbrôzk dlô pòdpòwiesców"
 
-#: private/packages.cpp:102
+#: private/packages.cpp:120
 msgid "Opaque images for dialogs"
 msgstr "Nieprzezérne òbrôzczi dlô dialogów"
 
-#: private/packages.cpp:104
+#: private/packages.cpp:122
 msgid "Opaque generic dialog background"
 msgstr "Nieprzezérné wbùdowóné spòdlé dialogòwégò òkna"
 
-#: private/packages.cpp:106
+#: private/packages.cpp:124
 msgid "Opaque theme for the logout dialog"
 msgstr "Nieprzezérnô téma dlô òkna wëlogòwaniô"
 
-#: private/packages.cpp:108
+#: private/packages.cpp:126
 msgid "Opaque images for widgets"
 msgstr "Nieprzezérné òbrôzczi dlô widżetów"
 
-#: private/packages.cpp:110
+#: private/packages.cpp:128
 msgid "Opaque background image for panels"
 msgstr "Nieprzezérny spódkòwi òbrôzk dlô panelów"
 
-#: private/packages.cpp:112
+#: private/packages.cpp:130
 msgid "Opaque background image for tooltips"
 msgstr "Nieprzezérny spódkòwi òbrôzk dlô pòdpòwiesców"
 
-#: private/packages.cpp:115
+#: private/packages.cpp:133
 msgid "Low color images for dialogs"
 msgstr "Małofarwné òbrôzczi dlô dialogòwich òknów"
 
-#: private/packages.cpp:117
+#: private/packages.cpp:135
 msgid "Low color generic dialog background"
 msgstr "Małofarwné wbùdowóné spòdlé dialogòwégò òkna"
 
-#: private/packages.cpp:119
+#: private/packages.cpp:137
 msgid "Low color theme for the logout dialog"
 msgstr "Małofarwnô téma dlô òkna wëlogòwaniô"
 
-#: private/packages.cpp:123
+#: private/packages.cpp:141
 msgid "Low color background image for plasmoids"
 msgstr "Małofarwny spódkòwi òbrôzk dlô plazmoidu"
 
-#: private/packages.cpp:125
+#: private/packages.cpp:143
 msgid "Low color analog clock face"
 msgstr "Małofarwny wëzdrzatk analogòwégò zédżera"
 
-#: private/packages.cpp:127
+#: private/packages.cpp:145
 msgid "Low color background image for panels"
 msgstr "Małofarwny spódkòwi òbrôzk dlô panelów"
 
-#: private/packages.cpp:129
+#: private/packages.cpp:147
 msgid "Low color background for graphing widgets"
 msgstr "Małofarwny spódk dlô grafikòwëch widżetów"
 
-#: private/packages.cpp:131
+#: private/packages.cpp:149
 msgid "Low color background image for tooltips"
 msgstr "Małofarwny spódkòwi òbrôzk dlô pòdpòwiesców"
 
-#: private/packages.cpp:133
+#: private/packages.cpp:151
 msgid "KColorScheme configuration file"
 msgstr "Lopk kònfigùëacëji KColorScheme"
 
-#: tests/appletbrowser.cpp:32
-msgid "Applet browser dialog"
-msgstr "Òkno apleta przezérnika"
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Michôł Òstrowsczi"
 
-#: tests/appletbrowser.cpp:37
-msgid "Plasma Applet Browser"
-msgstr "Aplet przezérnika Plasmë"
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "michol@linuxcsb.org"
 
-#: tests/appletbrowser.cpp:39
-msgid "(C) 2008, Aaron Seigo"
-msgstr "(C) 2008, Aaron Seigo"
+#~ msgid "Applet browser dialog"
+#~ msgstr "Òkno apleta przezérnika"
 
-#: tests/appletbrowser.cpp:40
-msgid "Aaron Seigo"
-msgstr "Aaron Seigo"
+#~ msgid "Plasma Applet Browser"
+#~ msgstr "Aplet przezérnika Plasmë"
 
-#: tests/appletbrowser.cpp:40
-msgid "Original author"
-msgstr "Òriðzinalny aùtor"
+#~ msgid "(C) 2008, Aaron Seigo"
+#~ msgstr "(C) 2008, Aaron Seigo"
+
+#~ msgid "Aaron Seigo"
+#~ msgstr "Aaron Seigo"
+
+#~ msgid "Original author"
+#~ msgstr "Òriðzinalny aùtor"
 
 #~ msgid "All Widgets"
 #~ msgstr "Wszëtczé widżetë"
@@ -441,11 +446,6 @@ msgstr "Òriðzinalny aùtor"
 
 #~ msgid "Select File"
 #~ msgstr "Wëbiérzë lopk"
-
-#, fuzzy
-#~| msgid "Install From File..."
-#~ msgid "Installation Failure"
-#~ msgstr "Jinstalëjë z lopka..."
 
 #~ msgid "Download From Internet"
 #~ msgstr "Zladëjë z jinterneta"
