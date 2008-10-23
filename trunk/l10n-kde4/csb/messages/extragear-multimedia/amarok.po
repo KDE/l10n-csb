@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-22 10:44+0200\n"
+"POT-Creation-Date: 2008-10-23 09:43+0200\n"
 "PO-Revision-Date: 2008-07-20 09:06+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi\n"
@@ -353,7 +353,7 @@ msgstr ""
 "$ amarok</pre>Wicy wëdowiédzë mòże nalezc w lopkù README. Abë zwëskac wicy "
 "pòmòcë przëłączë sã do naji na #amarok na irc.freenode.net.</p>"
 
-#: context/ContextView.cpp:817
+#: context/ContextView.cpp:840
 msgid "Add Applets"
 msgstr "Dodôj apletë"
 
@@ -950,7 +950,7 @@ msgstr[0] "%1 sztëczk"
 msgstr[1] "%1 sztëcczi"
 msgstr[2] "%1 sztëczków"
 
-#: context/applets/lyrics/LyricsApplet.cpp:63 dialogs/TagDialog.cpp:583
+#: context/applets/lyrics/LyricsApplet.cpp:63 dialogs/TagDialog.cpp:567
 msgid "Lyrics"
 msgstr "Tekstë"
 
@@ -994,7 +994,7 @@ msgstr "Szérz"
 msgid "Service Info (No service active)"
 msgstr "Wëdowiédzô ò ùsłëżnoce (Felënk aktiwny ùsłëżnotë)"
 
-#: context/containments/ColumnContainment.cpp:83
+#: context/containments/ColumnContainment.cpp:84
 msgid "Add Applet..."
 msgstr "Dodôj aplet..."
 
@@ -1371,7 +1371,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (K3ListView, trackList)
 #: dialogs/FilenameLayoutDialog.cpp:79 dialogs/EditFilterDialog.cpp:135
 #: rc.cpp:752 services/jamendo/JamendoInfoParser.cpp:112
-#: widgets/FilenameLayoutWidget.cpp:316
+#: widgets/FilenameLayoutWidget.cpp:314
 msgid "Track"
 msgstr "Sztëczk"
 
@@ -1381,7 +1381,7 @@ msgstr "Sztëczk"
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:253
 #: browsers/playlistbrowser/PodcastModel.cpp:236 rc.cpp:743
 #: playlist/PlaylistModel.cpp:507 widgets/SmartPlaylistEditor.cpp:187
-#: widgets/FilenameLayoutWidget.cpp:320
+#: widgets/FilenameLayoutWidget.cpp:318
 msgid "Title"
 msgstr "Titel"
 
@@ -1396,7 +1396,7 @@ msgstr "Titel"
 #: services/jamendo/JamendoService.cpp:128
 #: services/jamendo/JamendoInfoParser.cpp:54 playlist/PlaylistHeader.cpp:43
 #: playlist/PlaylistModel.cpp:508 widgets/SmartPlaylistEditor.cpp:187
-#: widgets/SmartPlaylistEditor.cpp:201 widgets/FilenameLayoutWidget.cpp:324
+#: widgets/SmartPlaylistEditor.cpp:201 widgets/FilenameLayoutWidget.cpp:322
 msgid "Artist"
 msgstr "Artista"
 
@@ -1404,7 +1404,7 @@ msgstr "Artista"
 #: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:686
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:251
 #: playlist/PlaylistModel.cpp:510 widgets/SmartPlaylistEditor.cpp:187
-#: widgets/SmartPlaylistEditor.cpp:201 widgets/FilenameLayoutWidget.cpp:328
+#: widgets/SmartPlaylistEditor.cpp:201 widgets/FilenameLayoutWidget.cpp:326
 msgid "Composer"
 msgstr "Kòmpòzytor"
 
@@ -1416,7 +1416,7 @@ msgstr "Kòmpòzytor"
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:699 rc.cpp:755
 #: playlist/PlaylistModel.cpp:511 widgets/SmartPlaylistEditor.cpp:188
 #: widgets/SmartPlaylistEditor.cpp:201 widgets/SmartPlaylistEditor.cpp:925
-#: widgets/FilenameLayoutWidget.cpp:332
+#: widgets/FilenameLayoutWidget.cpp:330
 msgid "Year"
 msgstr "Rok"
 
@@ -1431,14 +1431,14 @@ msgstr "Rok"
 #: services/jamendo/JamendoService.cpp:136
 #: services/jamendo/JamendoInfoParser.cpp:86 playlist/PlaylistHeader.cpp:43
 #: playlist/PlaylistModel.cpp:512 widgets/SmartPlaylistEditor.cpp:187
-#: widgets/SmartPlaylistEditor.cpp:201 widgets/FilenameLayoutWidget.cpp:336
+#: widgets/SmartPlaylistEditor.cpp:201 widgets/FilenameLayoutWidget.cpp:334
 msgid "Album"
 msgstr "Albùm"
 
 #: dialogs/FilenameLayoutDialog.cpp:85
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:264
 #: playlist/PlaylistModel.cpp:517 widgets/SmartPlaylistEditor.cpp:188
-#: widgets/FilenameLayoutWidget.cpp:340
+#: widgets/FilenameLayoutWidget.cpp:338
 msgid "Comment"
 msgstr "Dopòwiesc"
 
@@ -1447,7 +1447,7 @@ msgstr "Dopòwiesc"
 #: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:687
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:254
 #: playlist/PlaylistModel.cpp:516 widgets/SmartPlaylistEditor.cpp:187
-#: widgets/SmartPlaylistEditor.cpp:201 widgets/FilenameLayoutWidget.cpp:344
+#: widgets/SmartPlaylistEditor.cpp:201 widgets/FilenameLayoutWidget.cpp:342
 msgid "Genre"
 msgstr "Zort"
 
@@ -1465,7 +1465,7 @@ msgstr " - "
 msgid "."
 msgstr ""
 
-#: dialogs/FilenameLayoutDialog.cpp:93 widgets/FilenameLayoutWidget.cpp:352
+#: dialogs/FilenameLayoutDialog.cpp:93 widgets/FilenameLayoutWidget.cpp:350
 #, fuzzy
 #| msgid "Ig&nore \"The\""
 msgid "Ignore field"
@@ -1475,25 +1475,25 @@ msgstr "&Ignorëjë \"The\""
 msgid "/"
 msgstr ""
 
-#: dialogs/FilenameLayoutDialog.cpp:98 widgets/FilenameLayoutWidget.cpp:360
+#: dialogs/FilenameLayoutDialog.cpp:98 widgets/FilenameLayoutWidget.cpp:358
 #, fuzzy
 #| msgid "Artist's Initial"
 msgid "Artist initial"
 msgstr "Jinicjałë artistë"
 
-#: dialogs/FilenameLayoutDialog.cpp:99 widgets/FilenameLayoutWidget.cpp:356
+#: dialogs/FilenameLayoutDialog.cpp:99 widgets/FilenameLayoutWidget.cpp:354
 #, fuzzy
 #| msgid "Collection"
 msgid "Collection root"
 msgstr "Kòlekcëjô"
 
-#: dialogs/FilenameLayoutDialog.cpp:100 widgets/FilenameLayoutWidget.cpp:348
+#: dialogs/FilenameLayoutDialog.cpp:100 widgets/FilenameLayoutWidget.cpp:346
 #, fuzzy
 #| msgid "Device type"
 msgid "File type"
 msgstr "Ôrt ùrządzenia"
 
-#: dialogs/FilenameLayoutDialog.cpp:101 widgets/FilenameLayoutWidget.cpp:364
+#: dialogs/FilenameLayoutDialog.cpp:101 widgets/FilenameLayoutWidget.cpp:362
 #, fuzzy
 #| msgid "Disc Number"
 msgid "Disc number"
@@ -1518,149 +1518,149 @@ msgstr "Dodôj ùrządzenie..."
 msgid "Search Scripts"
 msgstr "Skriptë"
 
-#: dialogs/TagDialog.cpp:407
+#: dialogs/TagDialog.cpp:391
 msgid "Filename Layout Chooser"
 msgstr "Wëbiérk fòrmë miona lopka"
 
-#: dialogs/TagDialog.cpp:439
+#: dialogs/TagDialog.cpp:423
 msgid "No filename scheme to extract tags from"
 msgstr ""
 
-#: dialogs/TagDialog.cpp:439
+#: dialogs/TagDialog.cpp:423
 msgid ""
 "Please choose a filename scheme to describe the layout of the filename(s) to "
 "extract the tags."
 msgstr ""
 
-#: dialogs/TagDialog.cpp:500
+#: dialogs/TagDialog.cpp:484
 msgid "Generating audio fingerprint..."
 msgstr "Generowanié pòdpisënkù zwãkù..."
 
-#: dialogs/TagDialog.cpp:511
+#: dialogs/TagDialog.cpp:495
 #, kde-format
 msgid ""
 "Tunepimp (MusicBrainz tagging library) returned the following error: \"%1\"."
 msgstr "Tunepimp (biblioteka znaczników MusicBrainz) zwrócëła nã felã: \"%1\"."
 
-#: dialogs/TagDialog.cpp:521
+#: dialogs/TagDialog.cpp:505
 msgid "The track was not found in the MusicBrainz database."
 msgstr "Nie je nalazłi sztëczk w baze pòdôwków MusicBrainz."
 
-#: dialogs/TagDialog.cpp:581 browsers/playlistbrowser/PodcastModel.cpp:237
+#: dialogs/TagDialog.cpp:565 browsers/playlistbrowser/PodcastModel.cpp:237
 msgid "Summary"
 msgstr "Pòdrëchòwanié"
 
-#: dialogs/TagDialog.cpp:582
+#: dialogs/TagDialog.cpp:566
 msgid "Tags"
 msgstr "Tadżi"
 
-#: dialogs/TagDialog.cpp:584 MainWindow.cpp:789
+#: dialogs/TagDialog.cpp:568 MainWindow.cpp:789
 msgid "Statistics"
 msgstr "Statisticzi"
 
-#: dialogs/TagDialog.cpp:586
+#: dialogs/TagDialog.cpp:570
 msgid "Labels"
 msgstr "Eticzétë"
 
-#: dialogs/TagDialog.cpp:671
+#: dialogs/TagDialog.cpp:655
 msgid "Please install MusicBrainz to enable this functionality"
 msgstr "Proszã zajinstalowac MusicBrainz, abë włączëc nã fùnkcjonalnosc"
 
-#: dialogs/TagDialog.cpp:725
+#: dialogs/TagDialog.cpp:709
 msgctxt "The value for this tag is not known"
 msgid "Unknown"
 msgstr "Nieznóné"
 
-#: dialogs/TagDialog.cpp:803
+#: dialogs/TagDialog.cpp:787
 #, kde-format
 msgid "Track Details: %1 by %2"
 msgstr "Detale sztëczka: %1 wëkònywóny przez %2"
 
-#: dialogs/TagDialog.cpp:813 dialogs/TagDialog.cpp:826
+#: dialogs/TagDialog.cpp:797 dialogs/TagDialog.cpp:810
 #, kde-format
 msgid "<b>%1</b> by <b>%2</b>"
 msgstr "<b>%1</b> wëkònywóny przez <b>%2</b>"
 
-#: dialogs/TagDialog.cpp:822
+#: dialogs/TagDialog.cpp:806
 #, kde-format
 msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgstr "<b>%1</b> wëkònywóny przez <b>%2</b> z albùmù <b>%3</b>"
 
-#: dialogs/TagDialog.cpp:828
+#: dialogs/TagDialog.cpp:812
 #, fuzzy, kde-format
 #| msgid " by <b>%1</b>"
 msgid "<b>%1</b>"
 msgstr " przez <b>%1</b>"
 
-#: dialogs/TagDialog.cpp:859
+#: dialogs/TagDialog.cpp:843
 msgid "Length:"
 msgstr "Długòta:"
 
-#: dialogs/TagDialog.cpp:860
+#: dialogs/TagDialog.cpp:844
 msgid "Bitrate:"
 msgstr "Chùtkòsc transmisëji:"
 
-#: dialogs/TagDialog.cpp:861
+#: dialogs/TagDialog.cpp:845
 msgid "Samplerate:"
 msgstr "Probkòwanié:"
 
-#: dialogs/TagDialog.cpp:862
+#: dialogs/TagDialog.cpp:846
 msgid "Size:"
 msgstr "Miara:"
 
-#: dialogs/TagDialog.cpp:863
+#: dialogs/TagDialog.cpp:847
 msgid "Format:"
 msgstr "Fòrmat:"
 
 #. i18n: file: dialogs/tagdialogbase.ui:509
 #. i18n: ectx: property (text), widget (QLabel, scoreLabel)
-#: dialogs/TagDialog.cpp:866 rc.cpp:888
+#: dialogs/TagDialog.cpp:850 rc.cpp:888
 msgid "Score:"
 msgstr "Pùnktacëjô:"
 
 #. i18n: file: dialogs/tagdialogbase.ui:538
 #. i18n: ectx: property (text), widget (QLabel, ratingLabel)
-#: dialogs/TagDialog.cpp:868 rc.cpp:891
+#: dialogs/TagDialog.cpp:852 rc.cpp:891
 msgid "Rating:"
 msgstr "Notowania:"
 
-#: dialogs/TagDialog.cpp:870
+#: dialogs/TagDialog.cpp:854
 msgid "Playcount:"
 msgstr "Rechòwnik òdegraniô:"
 
-#: dialogs/TagDialog.cpp:873
+#: dialogs/TagDialog.cpp:857
 msgid "First Played:"
 msgstr "Pierszi rôz gróné:"
 
-#: dialogs/TagDialog.cpp:874
+#: dialogs/TagDialog.cpp:858
 msgctxt "When this track was first played"
 msgid "Never"
 msgstr "Nigdë"
 
-#: dialogs/TagDialog.cpp:875
+#: dialogs/TagDialog.cpp:859
 msgctxt "a single item (singular)"
 msgid "Last Played:"
 msgstr "Slédno gróné:"
 
-#: dialogs/TagDialog.cpp:876
+#: dialogs/TagDialog.cpp:860
 msgctxt "When this track was last played"
 msgid "Never"
 msgstr "Nigdë"
 
-#: dialogs/TagDialog.cpp:877
+#: dialogs/TagDialog.cpp:861
 #, fuzzy
 #| msgid "Collection"
 msgid "Collection:"
 msgstr "Kòlekcëjô"
 
-#: dialogs/TagDialog.cpp:878
+#: dialogs/TagDialog.cpp:862
 #, fuzzy
 #| msgid "None"
 msgctxt "The collection this track is part of"
 msgid "None"
 msgstr "Felënk"
 
-#: dialogs/TagDialog.cpp:1022
+#: dialogs/TagDialog.cpp:1006
 #, kde-format
 msgctxt "The amount of tracks being edited"
 msgid "1 Track"
@@ -1669,7 +1669,7 @@ msgstr[0] "Wëdowiédzô dlô %1 sztëczka"
 msgstr[1] "Wëdowiédzô dlô %1 sztëczków"
 msgstr[2] "Wëdowiédzô dlô %1 sztëczków"
 
-#: dialogs/TagDialog.cpp:1132
+#: dialogs/TagDialog.cpp:1116
 #, kde-format
 msgid "Editing 1 file"
 msgid_plural "Editing %1 files"
@@ -1677,19 +1677,19 @@ msgstr[0] "Editëjë 1 lopk"
 msgstr[1] "Editëjë %1 lopczi"
 msgstr[2] "Editëjë %1 lopków"
 
-#: dialogs/TagDialog.cpp:1137
+#: dialogs/TagDialog.cpp:1121
 msgid "Rated Songs:"
 msgstr "Notowanié sztëcczi"
 
-#: dialogs/TagDialog.cpp:1139
+#: dialogs/TagDialog.cpp:1123
 msgid "Average Rating:"
 msgstr "Strzédné notowanié:"
 
-#: dialogs/TagDialog.cpp:1141
+#: dialogs/TagDialog.cpp:1125
 msgid "Scored Songs:"
 msgstr "Pùnktowóné sztëcczi"
 
-#: dialogs/TagDialog.cpp:1143
+#: dialogs/TagDialog.cpp:1127
 msgid "Average Score:"
 msgstr "Strzédné pùnktë:"
 
@@ -2422,24 +2422,24 @@ msgstr "Bez titla"
 msgid "A preset with the name %1 already exists. Overwrite?"
 msgstr ""
 
-#: EngineController.cpp:170
+#: EngineController.cpp:160
 msgid ""
 "<p>Phonon claims it <b>cannot</b> play MP3 files. You may want to examine "
 "the installation of the backend that phonon uses.</p><p>You may find useful "
 "information in the <i>FAQ</i> section of the <i>Amarok Handbook</i>.</p>"
 msgstr ""
 
-#: EngineController.cpp:193
+#: EngineController.cpp:179
 msgid "Install MP3 Support"
 msgstr ""
 
-#: EngineController.cpp:195
+#: EngineController.cpp:181
 msgid ""
 "Amarok currently cannot play MP3 files. Do you want to install support for "
 "MP3?"
 msgstr ""
 
-#: EngineController.cpp:196
+#: EngineController.cpp:182
 msgid "No MP3 Support"
 msgstr ""
 
