@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-25 10:15+0200\n"
+"POT-Creation-Date: 2008-10-26 09:04+0100\n"
 "PO-Revision-Date: 2008-07-12 18:52+0200\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -224,7 +224,7 @@ msgctxt "@action:inmenu"
 msgid "Delete"
 msgstr "Rëmôj"
 
-#: treeviewcontextmenu.cpp:111 dolphincontextmenu.cpp:262
+#: treeviewcontextmenu.cpp:111 dolphincontextmenu.cpp:267
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "Swòjizna"
@@ -474,7 +474,7 @@ msgctxt "@action:inmenu"
 msgid "Empty Trash"
 msgstr "Wëczëszczë kòsz"
 
-#: dolphincontextmenu.cpp:118 dolphincontextmenu.cpp:259
+#: dolphincontextmenu.cpp:118 dolphincontextmenu.cpp:264
 msgctxt "@action:inmenu Add current folder to places"
 msgid "Add to Places"
 msgstr "Dodôj do placów"
@@ -499,19 +499,19 @@ msgctxt "@action:inmenu"
 msgid "Restore"
 msgstr "Przëwrócë"
 
-#: dolphincontextmenu.cpp:184
+#: dolphincontextmenu.cpp:189
 msgctxt "@action:inmenu Add selected folder to places"
 msgid "Add to Places"
 msgstr "Dodôj do placów"
 
 #. i18n: file: dolphinui.rc:21
 #. i18n: ectx: Menu (view_mode)
-#: dolphincontextmenu.cpp:243 rc.cpp:201 rc.cpp:311
+#: dolphincontextmenu.cpp:248 rc.cpp:201 rc.cpp:311
 msgctxt "@title:menu"
 msgid "View Mode"
 msgstr "Trib wëzdrzatkù"
 
-#: dolphincontextmenu.cpp:344
+#: dolphincontextmenu.cpp:349
 msgctxt "@action:inmenu"
 msgid "Paste Into Folder"
 msgstr "Wlepi w katalog"
@@ -1447,117 +1447,149 @@ msgctxt "@info:status"
 msgid "Created folder."
 msgstr "Ùsôdzony katalog."
 
-#: dolphinmainwindow.cpp:738
+#: dolphinmainwindow.cpp:780
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "Nowô kôrta"
 
-#: dolphinmainwindow.cpp:741
+#: dolphinmainwindow.cpp:783
 msgctxt "@action:inmenu"
 msgid "Close Other Tabs"
 msgstr "Zamkni jine kôrtë"
 
-#: dolphinmainwindow.cpp:743
+#: dolphinmainwindow.cpp:785
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Zamkni kôrtë"
 
-#: dolphinmainwindow.cpp:907
+#: dolphinmainwindow.cpp:949
 msgctxt "@title:menu Create new folder, file, link, etc."
 msgid "Create New"
 msgstr "Ùsôdzë nowiÙsôdzë nowi"
 
-#: dolphinmainwindow.cpp:914
+#: dolphinmainwindow.cpp:956
 msgctxt "@action:inmenu File"
 msgid "New &Window"
 msgstr "Nowé ò&kno"
 
-#: dolphinmainwindow.cpp:920
+#: dolphinmainwindow.cpp:962
 msgctxt "@action:inmenu File"
 msgid "New Tab"
 msgstr "Nowô kôrta"
 
-#: dolphinmainwindow.cpp:924
+#: dolphinmainwindow.cpp:966
 msgctxt "@action:inmenu File"
 msgid "Close Tab"
 msgstr "Zamkni kôrtë"
 
-#: dolphinmainwindow.cpp:947
+#: dolphinmainwindow.cpp:989
 msgctxt "@action:inmenu Edit"
 msgid "Select All"
 msgstr "Wëbiérzë wszëtkò"
 
-#: dolphinmainwindow.cpp:952
+#: dolphinmainwindow.cpp:994
 msgctxt "@action:inmenu Edit"
 msgid "Invert Selection"
 msgstr "Zmieni wëbiérk"
 
-#: dolphinmainwindow.cpp:965
+#: dolphinmainwindow.cpp:1007
 msgctxt "@action:inmenu View"
 msgid "Reload"
 msgstr "Zladëjë znowa"
 
-#: dolphinmainwindow.cpp:971
+#: dolphinmainwindow.cpp:1013
 msgctxt "@action:inmenu View"
 msgid "Stop"
 msgstr "Stop"
 
-#: dolphinmainwindow.cpp:977
+#: dolphinmainwindow.cpp:1018
+#, fuzzy
+#| msgctxt "@action:inmenu Navigation Bar"
+#| msgid "Edit Location"
 msgctxt "@action:inmenu Navigation Bar"
-msgid "Show Full Location"
-msgstr "Pòkôżë fùl lokacëjã"
-
-#: dolphinmainwindow.cpp:982
-msgctxt "@action:inmenu Navigation Bar"
-msgid "Edit Location"
+msgid "Editable Location"
 msgstr "Editëjë lokacëjã"
 
-#: dolphinmainwindow.cpp:998
+#: dolphinmainwindow.cpp:1023
+#, fuzzy
+#| msgctxt "@label:textbox"
+#| msgid "Location:"
+msgctxt "@action:inmenu Navigation Bar"
+msgid "Replace Location"
+msgstr "Lokacëjô:"
+
+#: dolphinmainwindow.cpp:1039
 msgctxt "@action:inmenu Tools"
 msgid "Show Filter Bar"
 msgstr "Pòkôżë listew filtra"
 
-#: dolphinmainwindow.cpp:1003
+#: dolphinmainwindow.cpp:1044
 msgctxt "@action:inmenu Tools"
 msgid "Compare Files"
 msgstr "Przerównô lopczi"
 
-#: dolphinmainwindow.cpp:1009
+#: dolphinmainwindow.cpp:1050
 msgctxt "@action:inmenu Tools"
 msgid "Quick View"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1023 dolphinmainwindow.cpp:1029
+#: dolphinmainwindow.cpp:1062
+msgctxt "@action:inmenu"
+msgid "Activate Next Tab"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1068
+msgctxt "@action:inmenu"
+msgid "Activate Previous Tab"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1075
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "New Tab"
+msgctxt "@action:inmenu"
+msgid "Open in New Tab"
+msgstr "Nowô kôrta"
+
+#: dolphinmainwindow.cpp:1080
+#, fuzzy
+#| msgctxt "@action:inmenu File"
+#| msgid "New &Window"
+msgctxt "@action:inmenu"
+msgid "Open in New Window"
+msgstr "Nowé ò&kno"
+
+#: dolphinmainwindow.cpp:1088 dolphinmainwindow.cpp:1094
 msgctxt "@title:window"
 msgid "Information"
 msgstr "Wëdowiédzô"
 
-#: dolphinmainwindow.cpp:1042 dolphinmainwindow.cpp:1048
+#: dolphinmainwindow.cpp:1107 dolphinmainwindow.cpp:1113
 msgctxt "@title:window"
 msgid "Folders"
 msgstr "Katalodżi"
 
-#: dolphinmainwindow.cpp:1062 dolphinmainwindow.cpp:1070
+#: dolphinmainwindow.cpp:1127 dolphinmainwindow.cpp:1135
 msgctxt "@title:window Shell terminal"
 msgid "Terminal"
 msgstr "Terminal"
 
-#: dolphinmainwindow.cpp:1087 dolphinmainwindow.cpp:1096
+#: dolphinmainwindow.cpp:1152 dolphinmainwindow.cpp:1161
 msgctxt "@title:window"
 msgid "Places"
 msgstr "Place"
 
-#: dolphinmainwindow.cpp:1189
+#: dolphinmainwindow.cpp:1254
 msgctxt "@action:intoolbar Close right view"
 msgid "Close"
 msgstr "Zamkni"
 
-#: dolphinmainwindow.cpp:1192
+#: dolphinmainwindow.cpp:1257
 msgctxt "@action:intoolbar Close left view"
 msgid "Close"
 msgstr "Zamkni"
 
-#: dolphinmainwindow.cpp:1196
+#: dolphinmainwindow.cpp:1261
 msgctxt "@action:intoolbar Split view"
 msgid "Split"
 msgstr "Rozdzélë"
@@ -1907,6 +1939,10 @@ msgstr "Grëpë"
 msgctxt "@option:check Additional Information"
 msgid "Type"
 msgstr "Ôrt"
+
+#~ msgctxt "@action:inmenu Navigation Bar"
+#~ msgid "Show Full Location"
+#~ msgstr "Pòkôżë fùl lokacëjã"
 
 #~ msgctxt "@action:inmenu"
 #~ msgid "&Move Here\t<shortcut>%1</shortcut>"
