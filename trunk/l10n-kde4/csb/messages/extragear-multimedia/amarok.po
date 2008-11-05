@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-04 10:18+0100\n"
+"POT-Creation-Date: 2008-11-05 10:49+0100\n"
 "PO-Revision-Date: 2008-07-20 09:06+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi\n"
@@ -221,7 +221,7 @@ msgid "Local Collection"
 msgstr "Môlowô kòlekcëjô"
 
 #: collection/sqlcollection/OrganizeCollectionDialog.cpp:170
-#: browsers/collectionbrowser/CollectionTreeItem.cpp:149
+#: browsers/collectionbrowser/CollectionTreeItem.cpp:154
 #: playlist/view/graphic/PlaylistGraphicsItem.cpp:352
 #: collectionscanner/CollectionScanner.cpp:638
 #: covermanager/CoverManager.cpp:358 covermanager/CoverManager.cpp:935
@@ -798,7 +798,7 @@ msgstr "Slédno gróné"
 #: browsers/collectionbrowser/CollectionTreeView.cpp:599
 #: browsers/filebrowser/MyDirOperator.cpp:267
 #: browsers/playlistbrowser/PodcastCategory.cpp:482
-#: browsers/playlistbrowser/UserPlaylistTreeView.cpp:143
+#: browsers/playlistbrowser/UserPlaylistTreeView.cpp:142
 msgid "&Append to Playlist"
 msgstr "&Dodôj do lëstë graniô"
 
@@ -806,14 +806,14 @@ msgstr "&Dodôj do lëstë graniô"
 #: browsers/collectionbrowser/CollectionTreeView.cpp:607
 #: browsers/filebrowser/MyDirOperator.cpp:268
 #: browsers/playlistbrowser/PodcastCategory.cpp:495
-#: browsers/playlistbrowser/UserPlaylistTreeView.cpp:148
+#: browsers/playlistbrowser/UserPlaylistTreeView.cpp:147
 msgctxt "Replace the currently loaded tracks with these"
 msgid "&Load"
 msgstr "Ł&adëjë"
 
 #: context/applets/albums/AlbumsView.cpp:149
 #: browsers/filebrowser/MyDirOperator.cpp:269
-#: playlist/view/PlaylistViewCommon.cpp:77
+#: playlist/view/PlaylistViewCommon.cpp:75
 msgid "Edit Track Details"
 msgstr "Editëjë detale sztëczka"
 
@@ -2409,12 +2409,12 @@ msgstr ""
 
 #: equalizerpresetmanager.cpp:61
 #: browsers/playlistbrowser/PodcastCategory.cpp:507
-#: browsers/playlistbrowser/UserPlaylistTreeView.cpp:159
+#: browsers/playlistbrowser/UserPlaylistTreeView.cpp:158
 msgid "&Rename"
 msgstr "&zmieni miono"
 
 #: equalizerpresetmanager.cpp:62
-#: browsers/playlistbrowser/UserPlaylistTreeView.cpp:154 MediaDevice.cpp:1032
+#: browsers/playlistbrowser/UserPlaylistTreeView.cpp:153 MediaDevice.cpp:1032
 msgid "&Delete"
 msgstr "&Rëmôj"
 
@@ -2799,8 +2799,7 @@ msgstr "Zort / Artista"
 msgid "Genre / Artist / Album"
 msgstr "Zort / Artista / Albùm"
 
-#: browsers/collectionbrowser/CollectionTreeItem.cpp:130
-#: browsers/collectionbrowser/CollectionTreeItem.cpp:138
+#: browsers/collectionbrowser/CollectionTreeItem.cpp:136
 msgctxt "The Name is not known"
 msgid "Unknown"
 msgstr "Nieznóné"
@@ -6764,13 +6763,7 @@ msgstr "&Grôj"
 msgid "&Pause"
 msgstr "Paùza"
 
-#: playlist/view/PlaylistViewCommon.cpp:70
-#, fuzzy
-#| msgid "Skip this track"
-msgid "Show active track"
-msgstr "Òminie nen sztëczk"
-
-#: playlist/view/PlaylistViewCommon.cpp:75
+#: playlist/view/PlaylistViewCommon.cpp:73
 msgid "Remove From Playlist"
 msgstr "Rëmôj z lëstë graniô..."
 
@@ -6778,10 +6771,16 @@ msgstr "Rëmôj z lëstë graniô..."
 msgid "Track Number - Title"
 msgstr "Numer sztëczka - titel"
 
-#: playlist/PlaylistWidget.cpp:92
+#: playlist/PlaylistWidget.cpp:77
 msgctxt "switch view"
 msgid "Switch Playlist &View"
 msgstr "Przëłączë &Wëzdrzatk lëstë graniô"
+
+#: playlist/PlaylistWidget.cpp:95
+#, fuzzy
+#| msgid "Skip this track"
+msgid "Show active track"
+msgstr "Òminie nen sztëczk"
 
 #: playlist/UndoCommands.cpp:31
 msgid "Tracks Added"

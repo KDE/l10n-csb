@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-20 10:07+0200\n"
+"POT-Creation-Date: 2008-11-05 10:42+0100\n"
 "PO-Revision-Date: 2008-07-20 20:44+0200\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -214,7 +214,7 @@ msgstr ""
 "localhost:3128</b></br>,nót je wpisac <b>HTTP_PROXY</b>, a ni le blós adresã "
 "trzëmóną w zmienni (to je http://localhost:3128).</qt>"
 
-#: kenvvarproxydlg.cpp:141 kenvvarproxydlg.cpp:303 kproxydlg.cpp:382
+#: kenvvarproxydlg.cpp:141 kenvvarproxydlg.cpp:303 kproxydlg.cpp:311
 msgid "Invalid Proxy Setup"
 msgstr "Lëchi nastôw pòstrzédnika"
 
@@ -335,15 +335,7 @@ msgstr ""
 "<code>printing.kde.org</code>, je nót wpisac zwëczajno <code>.kde.org</"
 "code></qt>"
 
-#: kproxydlg.cpp:58
-msgid "&Proxy"
-msgstr "&Pòstrzédnik (Proxy)"
-
-#: kproxydlg.cpp:65
-msgid "&SOCKS"
-msgstr "&Gniazda"
-
-#: kproxydlg.cpp:231
+#: kproxydlg.cpp:160
 msgid ""
 "The address of the automatic proxy configuration script is invalid. Please "
 "correct this problem before proceeding. Otherwise, your changes will be "
@@ -352,7 +344,7 @@ msgstr ""
 "Adresa kònfigùracjowégò skripta pòstrzédniczącëch serwerów je lëchô. Proszã "
 "ją pòprawic - jinaczi wprowôdzóné zjinaczi nie bãdą ùżëté."
 
-#: kproxydlg.cpp:358
+#: kproxydlg.cpp:287
 msgid ""
 "<h1>Proxy</h1><p>A proxy server is an intermediate program that sits between "
 "your machine and the Internet and provides services such as web page caching "
@@ -372,7 +364,7 @@ msgstr ""
 "</p><p><u>Bôczënk:</u> niejedné pòstrzédniczącé serwerë realizëją obiedwie "
 "ne ùsłëżnotë.</p>"
 
-#: kproxydlg.cpp:377
+#: kproxydlg.cpp:306
 msgid ""
 "<qt>The proxy settings you specified are invalid.<br /><br />Please click on "
 "the <b>Setup...</b> button and correct the problem before proceeding; "
@@ -913,7 +905,7 @@ msgstr "Serwer [ùstanowióny przez]"
 #. i18n: ectx: property (text), widget (QPushButton, pbDelete)
 #. i18n: file: useragentdlg.ui:208
 #. i18n: ectx: property (text), widget (QPushButton, deleteButton)
-#: rc.cpp:179 rc.cpp:301 rc.cpp:671
+#: rc.cpp:179 rc.cpp:301 rc.cpp:620
 msgid "D&elete"
 msgstr "&Rëmôj"
 
@@ -923,7 +915,7 @@ msgstr "&Rëmôj"
 #. i18n: ectx: property (text), widget (QPushButton, pbDeleteAll)
 #. i18n: file: useragentdlg.ui:218
 #. i18n: ectx: property (text), widget (QPushButton, deleteAllButton)
-#: rc.cpp:182 rc.cpp:304 rc.cpp:677
+#: rc.cpp:182 rc.cpp:304 rc.cpp:626
 msgid "Delete A&ll"
 msgstr "Rë&môj wszëtczé"
 
@@ -1210,7 +1202,7 @@ msgstr "Domena"
 #. i18n: ectx: property (text), widget (QPushButton, pbNew)
 #. i18n: file: useragentdlg.ui:188
 #. i18n: ectx: property (text), widget (QPushButton, newButton)
-#: rc.cpp:295 rc.cpp:481 rc.cpp:659
+#: rc.cpp:295 rc.cpp:481 rc.cpp:608
 msgid "&New..."
 msgstr "&Nowô..."
 
@@ -1218,7 +1210,7 @@ msgstr "&Nowô..."
 #. i18n: ectx: property (text), widget (QPushButton, pbChange)
 #. i18n: file: useragentdlg.ui:198
 #. i18n: ectx: property (text), widget (QPushButton, changeButton)
-#: rc.cpp:298 rc.cpp:665
+#: rc.cpp:298 rc.cpp:614
 msgid "Chan&ge..."
 msgstr "&Zmieni..."
 
@@ -1684,130 +1676,9 @@ msgstr "Pòcësnié"
 msgid "Ask"
 msgstr "Pëtôj"
 
-#. i18n: file: socksbase.ui:13
-#. i18n: ectx: property (windowTitle), widget (QWidget, SocksBase)
-#: rc.cpp:535
-msgid "SOCKS"
-msgstr "SOCKS"
-
-#. i18n: file: socksbase.ui:30
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, _c_enableSocks)
-#: rc.cpp:538
-msgid ""
-"Check this to enable SOCKS4 and SOCKS5 support in KDE applications and I/O "
-"subsystems."
-msgstr ""
-"Jeżlë ta òpcëjô je włączonô, programë KDE bãdą òbsłëgiwac SOCKS4 ë SOCKS5."
-
-#. i18n: file: socksbase.ui:33
-#. i18n: ectx: property (text), widget (QCheckBox, _c_enableSocks)
-#: rc.cpp:541
-msgid "&Enable SOCKS support"
-msgstr "&Włączë òbsłëgã SOCKS"
-
-#. i18n: file: socksbase.ui:59
-#. i18n: ectx: property (whatsThis), widget (QPushButton, _c_test)
-#: rc.cpp:544
-msgid "Click here to test SOCKS support."
-msgstr "Klëkni bë testowac wspiarcé SOCKS."
-
-#. i18n: file: socksbase.ui:62
-#. i18n: ectx: property (text), widget (QPushButton, _c_test)
-#: rc.cpp:547
-msgid "&Test"
-msgstr "&Testëjë"
-
-#. i18n: file: socksbase.ui:74
-#. i18n: ectx: property (title), widget (Q3ButtonGroup, bg)
-#: rc.cpp:550
-msgid "SOCKS Implementation"
-msgstr "Implementacëjô SOCKS"
-
-#. i18n: file: socksbase.ui:88
-#. i18n: ectx: property (whatsThis), widget (QRadioButton, _c_custom)
-#: rc.cpp:553
-msgid ""
-"Select custom if you wish to use an unlisted SOCKS library. Please note that "
-"this may not always work as it depends on the API of the library which you "
-"specify (below)."
-msgstr ""
-"Pò włączeniu ti òptacëji bãdze ùżëwónô niéwëmieniónô na lësce bibloteka "
-"SOCKS. Wôrt je pamiãtac, że podónô niżi bibloteka mùszi bëc zgòdnô ze "
-"sztandardã, bò jinaczi òbsłëga SOCKS nie bãdze robic."
-
-#. i18n: file: socksbase.ui:91
-#. i18n: ectx: property (text), widget (QRadioButton, _c_custom)
-#: rc.cpp:556
-msgid "Use &custom library"
-msgstr "Ùżëjë s&wòji bibloteczi"
-
-#. i18n: file: socksbase.ui:104
-#. i18n: ectx: property (whatsThis), widget (KUrlRequester, _c_customPath)
-#: rc.cpp:559
-msgid "Enter the path to an unsupported SOCKS library."
-msgstr "Stegna do swòji bibloteczi SOCKS."
-
-#. i18n: file: socksbase.ui:113
-#. i18n: ectx: property (whatsThis), widget (QRadioButton, _c_detect)
-#: rc.cpp:562
-msgid ""
-"If you select Autodetect, then KDE will automatically search for an "
-"implementation of SOCKS on your computer."
-msgstr ""
-"Przé włączonym aùtomatnym rozpòznaniu, KDE aùtomatno szëkô za "
-"implementacëjama SOCKS na tim kòmpùterze."
-
-#. i18n: file: socksbase.ui:116
-#. i18n: ectx: property (text), widget (QRadioButton, _c_detect)
-#: rc.cpp:565
-msgid "A&uto detect"
-msgstr "&Aùtomatné rozpòznanié"
-
-#. i18n: file: socksbase.ui:123
-#. i18n: ectx: property (whatsThis), widget (QRadioButton, _c_NEC)
-#: rc.cpp:568
-msgid "This will force KDE to use NEC SOCKS if it can be found."
-msgstr "Wëmùszô ùżëcé NEC SOCKS, jeżlë le je to mòzlëwé."
-
-#. i18n: file: socksbase.ui:126
-#. i18n: ectx: property (text), widget (QRadioButton, _c_NEC)
-#: rc.cpp:571
-msgid "&NEC SOCKS"
-msgstr "&NEC SOCKS"
-
-#. i18n: file: socksbase.ui:133
-#. i18n: ectx: property (whatsThis), widget (QRadioButton, _c_Dante)
-#: rc.cpp:574
-msgid "This will force KDE to use Dante if it can be found."
-msgstr "Wëmùszô ùżëcô Dante, jeżlë blós je to mòżlëwé."
-
-#. i18n: file: socksbase.ui:136
-#. i18n: ectx: property (text), widget (QRadioButton, _c_Dante)
-#: rc.cpp:577
-msgid "&Dante"
-msgstr "&Dante"
-
-#. i18n: file: socksbase.ui:155
-#. i18n: ectx: property (whatsThis), widget (KEditListBox, _c_libs)
-#: rc.cpp:580
-msgid ""
-"Here you can specify additional directories to search for the SOCKS "
-"libraries. /usr/lib, /usr/local/lib, /usr/local/socks5/lib and /opt/socks5/"
-"lib are already searched by default."
-msgstr ""
-"Tuwò mòże pòdac dôwné stegnë w jaczich bãdą szëkòné bibloteczi SOCKS. "
-"Domëszlnô szëkba je w /usr/lib, /usr/local/lib, /usr/local/socks5/lib ë /opt/"
-"socks5/lib."
-
-#. i18n: file: socksbase.ui:158
-#. i18n: ectx: property (title), widget (KEditListBox, _c_libs)
-#: rc.cpp:583
-msgid "Additional Library Search Paths"
-msgstr "Dodôwné stegne szëkbë. bibloteków"
-
 #. i18n: file: useragentdlg.ui:16
 #. i18n: ectx: property (whatsThis), widget (QWidget, UserAgentUI)
-#: rc.cpp:586
+#: rc.cpp:535
 msgid ""
 "<qt>\n"
 "Here you can modify the default browser-identification text or set a site "
@@ -1832,7 +1703,7 @@ msgstr ""
 
 #. i18n: file: useragentdlg.ui:26
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, sendUACheckBox)
-#: rc.cpp:592
+#: rc.cpp:541
 msgid ""
 "<qt>\n"
 "Send the browser identification to web sites.<p>\n"
@@ -1852,13 +1723,13 @@ msgstr ""
 
 #. i18n: file: useragentdlg.ui:29
 #. i18n: ectx: property (text), widget (QCheckBox, sendUACheckBox)
-#: rc.cpp:599
+#: rc.cpp:548
 msgid "&Send identification"
 msgstr "Wëslë &identifikacëjã"
 
 #. i18n: file: useragentdlg.ui:42
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, defaultIdGroupBox)
-#: rc.cpp:602
+#: rc.cpp:551
 msgid ""
 "The browser identification text sent to the sites you visit. Use the "
 "provided options to customize it."
@@ -1868,13 +1739,13 @@ msgstr ""
 
 #. i18n: file: useragentdlg.ui:45
 #. i18n: ectx: property (title), widget (QGroupBox, defaultIdGroupBox)
-#: rc.cpp:605
+#: rc.cpp:554
 msgid "Default Identification"
 msgstr "Domëszlnô identifikacëjô"
 
 #. i18n: file: useragentdlg.ui:57
 #. i18n: ectx: property (whatsThis), widget (KSqueezedTextLabel, defaultIdLineEdit)
-#: rc.cpp:608
+#: rc.cpp:557
 msgid ""
 "The browser identification text sent to the sites you visit. You can "
 "customize it using the options provided below."
@@ -1884,27 +1755,27 @@ msgstr ""
 
 #. i18n: file: useragentdlg.ui:60
 #. i18n: ectx: property (text), widget (KSqueezedTextLabel, defaultIdLineEdit)
-#: rc.cpp:611
+#: rc.cpp:560
 msgctxt "just a placeholder; do not translate"
 msgid "KSqueezedTextLabel"
 msgstr "KSqueezedTextLabel"
 
 #. i18n: file: useragentdlg.ui:70
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, osNameCheckBox)
-#: rc.cpp:614
+#: rc.cpp:563
 msgid ""
 "Includes your operating system's name in the browser identification text."
 msgstr "Dodôwô miono òperacjowi systemë do tekstu identifikacëji przezérnika."
 
 #. i18n: file: useragentdlg.ui:73
 #. i18n: ectx: property (text), widget (QCheckBox, osNameCheckBox)
-#: rc.cpp:617
+#: rc.cpp:566
 msgid "Add operating s&ystem name"
 msgstr "Dodôj miono òperacjowi s&ystemë"
 
 #. i18n: file: useragentdlg.ui:101
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, osVersionCheckBox)
-#: rc.cpp:620
+#: rc.cpp:569
 msgid ""
 "Includes your operating system's version number in the browser "
 "identification text."
@@ -1913,37 +1784,37 @@ msgstr ""
 
 #. i18n: file: useragentdlg.ui:104
 #. i18n: ectx: property (text), widget (QCheckBox, osVersionCheckBox)
-#: rc.cpp:623
+#: rc.cpp:572
 msgid "Add operating system &version"
 msgstr "Dodôj &wersëjã òperacjowi systemë"
 
 #. i18n: file: useragentdlg.ui:113
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, platformCheckBox)
-#: rc.cpp:626
+#: rc.cpp:575
 msgid "Includes your platform type in the browser identification text"
 msgstr "Dodôwô miono platfòrmë do tekstu identifikacëji przezérnika."
 
 #. i18n: file: useragentdlg.ui:116
 #. i18n: ectx: property (text), widget (QCheckBox, platformCheckBox)
-#: rc.cpp:629
+#: rc.cpp:578
 msgid "Add &platform name"
 msgstr "Dodôj miono &platfòrmë"
 
 #. i18n: file: useragentdlg.ui:123
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, processorTypeCheckBox)
-#: rc.cpp:632
+#: rc.cpp:581
 msgid "Includes your machine's CPU type in the browser identification text."
 msgstr "Dodôwô ôrt procesora do tekstu identifikacëji przezérnika."
 
 #. i18n: file: useragentdlg.ui:126
 #. i18n: ectx: property (text), widget (QCheckBox, processorTypeCheckBox)
-#: rc.cpp:635
+#: rc.cpp:584
 msgid "Add &machine (processor) type"
 msgstr "Dodôj ôrt &kòmpùtra (procesora)"
 
 #. i18n: file: useragentdlg.ui:133
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, languageCheckBox)
-#: rc.cpp:638
+#: rc.cpp:587
 msgid ""
 "Includes your language settings in the browser identification text to obtain "
 "localized versions of the page."
@@ -1953,55 +1824,55 @@ msgstr ""
 
 #. i18n: file: useragentdlg.ui:136
 #. i18n: ectx: property (text), widget (QCheckBox, languageCheckBox)
-#: rc.cpp:641
+#: rc.cpp:590
 msgid "Add lang&uage information"
 msgstr "Dodôj nastôw &jãzëka"
 
 #. i18n: file: useragentdlg.ui:149
 #. i18n: ectx: property (title), widget (QGroupBox, domainPolicyGroupBox)
-#: rc.cpp:644
+#: rc.cpp:593
 msgid "Site Specific Identification"
 msgstr "Identifikacëjô dlô wëbranëch serwerów"
 
 #. i18n: file: useragentdlg.ui:162
 #. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
-#: rc.cpp:647
+#: rc.cpp:596
 msgid "Site Name"
 msgstr "Miono serwera"
 
 #. i18n: file: useragentdlg.ui:167
 #. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
-#: rc.cpp:650
+#: rc.cpp:599
 msgid "Identification"
 msgstr "Identifikacëjô"
 
 #. i18n: file: useragentdlg.ui:172
 #. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
-#: rc.cpp:653
+#: rc.cpp:602
 msgid "User Agent"
 msgstr "Przezérnik"
 
 #. i18n: file: useragentdlg.ui:185
 #. i18n: ectx: property (whatsThis), widget (QPushButton, newButton)
-#: rc.cpp:656
+#: rc.cpp:605
 msgid "Add new identification text for a site."
 msgstr "Dodôwô nowi tekst identifikacëji. dlô serwera."
 
 #. i18n: file: useragentdlg.ui:195
 #. i18n: ectx: property (whatsThis), widget (QPushButton, changeButton)
-#: rc.cpp:662
+#: rc.cpp:611
 msgid "Change the selected identifier text."
 msgstr "Zjinaczô wëbróny tekst identifikacëji."
 
 #. i18n: file: useragentdlg.ui:205
 #. i18n: ectx: property (whatsThis), widget (QPushButton, deleteButton)
-#: rc.cpp:668
+#: rc.cpp:617
 msgid "Delete the selected identifier text."
 msgstr "Rëmô wëbróny tekst identifikacëji."
 
 #. i18n: file: useragentdlg.ui:215
 #. i18n: ectx: property (whatsThis), widget (QPushButton, deleteAllButton)
-#: rc.cpp:674
+#: rc.cpp:623
 msgid "Delete all identifiers."
 msgstr "Rëmôj wszëtczé tekstë identifikacëji."
 
@@ -2009,7 +1880,7 @@ msgstr "Rëmôj wszëtczé tekstë identifikacëji."
 #. i18n: ectx: property (whatsThis), widget (QLabel, siteLabel)
 #. i18n: file: useragentselectordlg.ui:38
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, siteLineEdit)
-#: rc.cpp:680 rc.cpp:689
+#: rc.cpp:629 rc.cpp:638
 msgid ""
 "<qt>\n"
 "Enter the site or domain name where a fake browser identification should be "
@@ -2032,7 +1903,7 @@ msgstr ""
 
 #. i18n: file: useragentselectordlg.ui:22
 #. i18n: ectx: property (text), widget (QLabel, siteLabel)
-#: rc.cpp:686
+#: rc.cpp:635
 msgid "&When browsing the following site:"
 msgstr "Przë sparłãczeniu &z:"
 
@@ -2040,7 +1911,7 @@ msgstr "Przë sparłãczeniu &z:"
 #. i18n: ectx: property (whatsThis), widget (QLabel, aliasLabel)
 #. i18n: file: useragentselectordlg.ui:65
 #. i18n: ectx: property (whatsThis), widget (KComboBox, aliasComboBox)
-#: rc.cpp:695 rc.cpp:703
+#: rc.cpp:644 rc.cpp:652
 msgid ""
 "<qt>\n"
 "Select the browser identification to use whenever contacting the site you "
@@ -2053,7 +1924,7 @@ msgstr ""
 
 #. i18n: file: useragentselectordlg.ui:50
 #. i18n: ectx: property (text), widget (QLabel, aliasLabel)
-#: rc.cpp:700
+#: rc.cpp:649
 msgid "&Use the following identification:"
 msgstr "Brëkùjë nôslédny &identyfikacëji:"
 
@@ -2061,7 +1932,7 @@ msgstr "Brëkùjë nôslédny &identyfikacëji:"
 #. i18n: ectx: property (whatsThis), widget (QLabel, identityLabel)
 #. i18n: file: useragentselectordlg.ui:89
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, identityLineEdit)
-#: rc.cpp:708 rc.cpp:716
+#: rc.cpp:657 rc.cpp:665
 msgid ""
 "<qt>\n"
 "The actual browser identification text that will be sent to the remote "
@@ -2074,19 +1945,9 @@ msgstr ""
 
 #. i18n: file: useragentselectordlg.ui:77
 #. i18n: ectx: property (text), widget (QLabel, identityLabel)
-#: rc.cpp:713
+#: rc.cpp:662
 msgid "Real identification:"
 msgstr "Prôwdzëwô identifikacëjô:"
-
-#: rc.cpp:719
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Michôł Òstrowsczi, Mark Kwidzińsczi"
-
-#: rc.cpp:720
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "michol@linuxcsb.org, mark@linuxcsb.org"
 
 #: smbrodlg.cpp:48
 msgid "These settings apply to network browsing only."
@@ -2137,52 +1998,6 @@ msgstr ""
 "nieczëtny fòrmie. Nie je to czësto rozwiąznié na zycher, dlôte wpisënczi z "
 "pòdanëch parolów są  hasłem są wërazno nacéchòwóne.</p>"
 
-#: socks.cpp:61
-msgid "kcmsocks"
-msgstr "kcmsocks"
-
-#: socks.cpp:61
-msgid "KDE SOCKS Control Module"
-msgstr "KDE Mòdul Kònfigùracëji SOCKS"
-
-#: socks.cpp:63
-msgid "(c) 2001 George Staikos"
-msgstr "(c) 2001 George Staikos"
-
-#: socks.cpp:65
-msgid "George Staikos"
-msgstr "George Staikos"
-
-#: socks.cpp:106
-msgid "These changes will only apply to newly started applications."
-msgstr "Zmiana bãdze aktiwnô pò zrëszeniém programë znowa."
-
-#: socks.cpp:108 socks.cpp:143 socks.cpp:148
-msgid "SOCKS Support"
-msgstr "Òbsłëga SOCKS"
-
-#: socks.cpp:142
-msgid "Success: SOCKS was found and initialized."
-msgstr "Sukces: Òbsłëga SOCKS nalazłô ë pòprôwno winicjónowónô."
-
-#: socks.cpp:147
-msgid "SOCKS could not be loaded."
-msgstr "Ni mòże wczëtac SOCKS."
-
-#: socks.cpp:207
-msgid ""
-"<h1>SOCKS</h1><p>This module allows you to configure KDE support for a SOCKS "
-"server or proxy.</p><p>SOCKS is a protocol to traverse firewalls as "
-"described in <a href=\"http://rfc.net/rfc1928.html\">RFC 1928</a>.</p> <p>If "
-"you have no idea what this is and if your system administrator does not tell "
-"you to use it, leave it disabled.</p>"
-msgstr ""
-"<h1>SOCKS</h1><p>Mòdul zezwôlô na kònfigùracëjã ùsłëżnotë SOCKS w KDE dlô "
-"serwera SOCKS abò pòstrzédnika.</p><p>SOCKS je protokòłã do przechòdzeniô "
-"przez sécowé zagrodë, opisónëm na starnie <a href=\"http://rfc.net/rfc1928."
-"html\">RFC 1928</a>.</p><p>Jeżlë ni wiész, ò co chòdzy, sparłãczë sã ze "
-"sprôwnikã abò òstôwi nã òptacëjã wëłączoną.</p>"
-
 #: useragentdlg.cpp:77
 msgid "Add Identification"
 msgstr "Dodôj identifikacëjã"
@@ -2231,6 +2046,127 @@ msgstr ""
 "u> Abë dobëc wicy wëdowiédzë ò òptacëjach w dialogòwim òczénkù, sygnie "
 "klëknąc na knąpã wãzłowati pòmòcë titlowi listwie òczenka, a pòzdze klëknąc "
 "w pasownëm pòlu.</p>"
+
+#~ msgid "&Proxy"
+#~ msgstr "&Pòstrzédnik (Proxy)"
+
+#~ msgid "&SOCKS"
+#~ msgstr "&Gniazda"
+
+#~ msgid "SOCKS"
+#~ msgstr "SOCKS"
+
+#~ msgid ""
+#~ "Check this to enable SOCKS4 and SOCKS5 support in KDE applications and I/"
+#~ "O subsystems."
+#~ msgstr ""
+#~ "Jeżlë ta òpcëjô je włączonô, programë KDE bãdą òbsłëgiwac SOCKS4 ë SOCKS5."
+
+#~ msgid "&Enable SOCKS support"
+#~ msgstr "&Włączë òbsłëgã SOCKS"
+
+#~ msgid "Click here to test SOCKS support."
+#~ msgstr "Klëkni bë testowac wspiarcé SOCKS."
+
+#~ msgid "&Test"
+#~ msgstr "&Testëjë"
+
+#~ msgid "SOCKS Implementation"
+#~ msgstr "Implementacëjô SOCKS"
+
+#~ msgid ""
+#~ "Select custom if you wish to use an unlisted SOCKS library. Please note "
+#~ "that this may not always work as it depends on the API of the library "
+#~ "which you specify (below)."
+#~ msgstr ""
+#~ "Pò włączeniu ti òptacëji bãdze ùżëwónô niéwëmieniónô na lësce bibloteka "
+#~ "SOCKS. Wôrt je pamiãtac, że podónô niżi bibloteka mùszi bëc zgòdnô ze "
+#~ "sztandardã, bò jinaczi òbsłëga SOCKS nie bãdze robic."
+
+#~ msgid "Use &custom library"
+#~ msgstr "Ùżëjë s&wòji bibloteczi"
+
+#~ msgid "Enter the path to an unsupported SOCKS library."
+#~ msgstr "Stegna do swòji bibloteczi SOCKS."
+
+#~ msgid ""
+#~ "If you select Autodetect, then KDE will automatically search for an "
+#~ "implementation of SOCKS on your computer."
+#~ msgstr ""
+#~ "Przé włączonym aùtomatnym rozpòznaniu, KDE aùtomatno szëkô za "
+#~ "implementacëjama SOCKS na tim kòmpùterze."
+
+#~ msgid "A&uto detect"
+#~ msgstr "&Aùtomatné rozpòznanié"
+
+#~ msgid "This will force KDE to use NEC SOCKS if it can be found."
+#~ msgstr "Wëmùszô ùżëcé NEC SOCKS, jeżlë le je to mòzlëwé."
+
+#~ msgid "&NEC SOCKS"
+#~ msgstr "&NEC SOCKS"
+
+#~ msgid "This will force KDE to use Dante if it can be found."
+#~ msgstr "Wëmùszô ùżëcô Dante, jeżlë blós je to mòżlëwé."
+
+#~ msgid "&Dante"
+#~ msgstr "&Dante"
+
+#~ msgid ""
+#~ "Here you can specify additional directories to search for the SOCKS "
+#~ "libraries. /usr/lib, /usr/local/lib, /usr/local/socks5/lib and /opt/"
+#~ "socks5/lib are already searched by default."
+#~ msgstr ""
+#~ "Tuwò mòże pòdac dôwné stegnë w jaczich bãdą szëkòné bibloteczi SOCKS. "
+#~ "Domëszlnô szëkba je w /usr/lib, /usr/local/lib, /usr/local/socks5/lib ë /"
+#~ "opt/socks5/lib."
+
+#~ msgid "Additional Library Search Paths"
+#~ msgstr "Dodôwné stegne szëkbë. bibloteków"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Michôł Òstrowsczi, Mark Kwidzińsczi"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "michol@linuxcsb.org, mark@linuxcsb.org"
+
+#~ msgid "kcmsocks"
+#~ msgstr "kcmsocks"
+
+#~ msgid "KDE SOCKS Control Module"
+#~ msgstr "KDE Mòdul Kònfigùracëji SOCKS"
+
+#~ msgid "(c) 2001 George Staikos"
+#~ msgstr "(c) 2001 George Staikos"
+
+#~ msgid "George Staikos"
+#~ msgstr "George Staikos"
+
+#~ msgid "These changes will only apply to newly started applications."
+#~ msgstr "Zmiana bãdze aktiwnô pò zrëszeniém programë znowa."
+
+#~ msgid "SOCKS Support"
+#~ msgstr "Òbsłëga SOCKS"
+
+#~ msgid "Success: SOCKS was found and initialized."
+#~ msgstr "Sukces: Òbsłëga SOCKS nalazłô ë pòprôwno winicjónowónô."
+
+#~ msgid "SOCKS could not be loaded."
+#~ msgstr "Ni mòże wczëtac SOCKS."
+
+#~ msgid ""
+#~ "<h1>SOCKS</h1><p>This module allows you to configure KDE support for a "
+#~ "SOCKS server or proxy.</p><p>SOCKS is a protocol to traverse firewalls as "
+#~ "described in <a href=\"http://rfc.net/rfc1928.html\">RFC 1928</a>.</p> "
+#~ "<p>If you have no idea what this is and if your system administrator does "
+#~ "not tell you to use it, leave it disabled.</p>"
+#~ msgstr ""
+#~ "<h1>SOCKS</h1><p>Mòdul zezwôlô na kònfigùracëjã ùsłëżnotë SOCKS w KDE dlô "
+#~ "serwera SOCKS abò pòstrzédnika.</p><p>SOCKS je protokòłã do przechòdzeniô "
+#~ "przez sécowé zagrodë, opisónëm na starnie <a href=\"http://rfc.net/"
+#~ "rfc1928.html\">RFC 1928</a>.</p><p>Jeżlë ni wiész, ò co chòdzy, sparłãczë "
+#~ "sã ze sprôwnikã abò òstôwi nã òptacëjã wëłączoną.</p>"
 
 #~ msgid "&Path:"
 #~ msgstr "&Stegna:"
