@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-03 09:54+0100\n"
+"POT-Creation-Date: 2008-11-06 09:43+0100\n"
 "PO-Revision-Date: 2008-07-12 18:52+0200\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -65,12 +65,12 @@ msgctxt "@action:button Choose font"
 msgid "Choose..."
 msgstr "Wëbiérzë..."
 
-#: dolphindetailsview.cpp:557
+#: dolphindetailsview.cpp:564
 msgctxt "@title:menu"
 msgid "Columns"
 msgstr "Kòlumnë"
 
-#: dolphinview.cpp:538
+#: dolphinview.cpp:533
 #, kde-format
 msgctxt "@info:status"
 msgid "1 Folder selected"
@@ -79,54 +79,44 @@ msgstr[0] "1 katalog zaznaczony"
 msgstr[1] "%1 katalodżi zaznaczoné"
 msgstr[2] "%1 zaznaczonëch katalogów"
 
-#: dolphinview.cpp:539
+#: dolphinview.cpp:534
 #, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "Folder"
+#| msgctxt "@info:status"
+#| msgid "1 Folder selected"
+#| msgid_plural "%1 Folders selected"
 msgctxt "@info:status"
-msgid "1 Folder"
-msgid_plural "%1 Folders"
-msgstr[0] "Katalog"
-msgstr[1] "Katalog"
-msgstr[2] "Katalog"
+msgid "1 File selected"
+msgid_plural "%1 Files selected"
+msgstr[0] "1 katalog zaznaczony"
+msgstr[1] "%1 katalodżi zaznaczoné"
+msgstr[2] "%1 zaznaczonëch katalogów"
 
-#: dolphinview.cpp:541
-msgctxt "@info:status separator between 2 status infos"
-msgid ", "
+#: dolphinview.cpp:536
+#, kde-format
+msgctxt "@info:status folders, files (size)"
+msgid "%1, %2 (%3)"
 msgstr ""
 
-#: dolphinview.cpp:548
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File selected (%2)"
-msgid_plural "%1 Files selected (%2)"
-msgstr[0] "1 lopk wëbróny (%2)"
-msgstr[1] "%1 wëbróné lopczi (%2)"
-msgstr[2] "%1 wëbrónëch lopków (%2)"
-
-#: dolphinview.cpp:549
+#: dolphinview.cpp:539
 #, fuzzy, kde-format
 #| msgctxt "@info:status"
 #| msgid "1 File selected (%2)"
 #| msgid_plural "%1 Files selected (%2)"
-msgctxt "@info:status"
-msgid "1 File (%2)"
-msgid_plural "%1 Files (%2)"
-msgstr[0] "1 lopk wëbróny (%2)"
-msgstr[1] "%1 wëbróné lopczi (%2)"
-msgstr[2] "%1 wëbrónëch lopków (%2)"
+msgctxt "@info:status files (size)"
+msgid "%1 (%2)"
+msgstr "1 lopk wëbróny (%2)"
 
-#: dolphinview.cpp:1004
+#: dolphinview.cpp:1003
 msgctxt "@action:inmenu"
 msgid "Paste One Folder"
 msgstr "Wlepi jeden katalog"
 
-#: dolphinview.cpp:1005
+#: dolphinview.cpp:1004
 msgctxt "@action:inmenu"
 msgid "Paste One File"
 msgstr "Wlepi jeden lopk"
 
-#: dolphinview.cpp:1008
+#: dolphinview.cpp:1007
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste One Item"
@@ -135,22 +125,22 @@ msgstr[0] "Wlepi jeden element"
 msgstr[1] "Wlepi %1 elementë"
 msgstr[2] "Wlepi %1 elementów"
 
-#: dolphinview.cpp:1012 treeviewcontextmenu.cpp:67
+#: dolphinview.cpp:1011 treeviewcontextmenu.cpp:67
 msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr "Wlepi"
 
-#: dolphinview.cpp:1054
+#: dolphinview.cpp:1053
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "Rëmôj skùńczoné òperacëje."
 
-#: dolphinview.cpp:1095
+#: dolphinview.cpp:1094
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "Lokacëjô je pùstô."
 
-#: dolphinview.cpp:1097
+#: dolphinview.cpp:1096
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
@@ -748,17 +738,22 @@ msgctxt "@label:textbox"
 msgid "Number of lines:"
 msgstr "Lëczba rézów:"
 
-#: iconsviewsettingspage.cpp:105
+#: iconsviewsettingspage.cpp:94
+msgctxt "@item:inlistbox Text width"
+msgid "Huge"
+msgstr ""
+
+#: iconsviewsettingspage.cpp:106
 msgctxt "@title:group"
 msgid "Grid"
 msgstr "Mrzéżka"
 
-#: iconsviewsettingspage.cpp:108
+#: iconsviewsettingspage.cpp:109
 msgctxt "@label:listbox"
 msgid "Arrangement:"
 msgstr "Ùstôwë..."
 
-#: iconsviewsettingspage.cpp:110
+#: iconsviewsettingspage.cpp:111
 #, fuzzy
 #| msgctxt "@title:menu"
 #| msgid "Columns"
@@ -766,27 +761,32 @@ msgctxt "@item:inlistbox Arrangement"
 msgid "Columns"
 msgstr "Kòlumnë"
 
-#: iconsviewsettingspage.cpp:111
+#: iconsviewsettingspage.cpp:112
 msgctxt "@item:inlistbox Arrangement"
 msgid "Rows"
 msgstr ""
 
-#: iconsviewsettingspage.cpp:114
+#: iconsviewsettingspage.cpp:115
 msgctxt "@label:listbox"
 msgid "Grid spacing:"
 msgstr "Òdstãpë mrzéżków:"
 
-#: iconsviewsettingspage.cpp:116
+#: iconsviewsettingspage.cpp:117
+msgctxt "@item:inlistbox Grid spacing"
+msgid "None"
+msgstr ""
+
+#: iconsviewsettingspage.cpp:118
 msgctxt "@item:inlistbox Grid spacing"
 msgid "Small"
 msgstr "Môłi"
 
-#: iconsviewsettingspage.cpp:117
+#: iconsviewsettingspage.cpp:119
 msgctxt "@item:inlistbox Grid spacing"
 msgid "Medium"
 msgstr "Strzédny"
 
-#: iconsviewsettingspage.cpp:118
+#: iconsviewsettingspage.cpp:120
 msgctxt "@item:inlistbox Grid spacing"
 msgid "Large"
 msgstr "Wiôldżi"
@@ -1973,6 +1973,23 @@ msgstr "Grëpë"
 msgctxt "@option:check Additional Information"
 msgid "Type"
 msgstr "Ôrt"
+
+#, fuzzy
+#~| msgctxt "@label"
+#~| msgid "Folder"
+#~ msgctxt "@info:status"
+#~ msgid "1 Folder"
+#~ msgid_plural "%1 Folders"
+#~ msgstr[0] "Katalog"
+#~ msgstr[1] "Katalog"
+#~ msgstr[2] "Katalog"
+
+#~ msgctxt "@info:status"
+#~ msgid "1 File selected (%2)"
+#~ msgid_plural "%1 Files selected (%2)"
+#~ msgstr[0] "1 lopk wëbróny (%2)"
+#~ msgstr[1] "%1 wëbróné lopczi (%2)"
+#~ msgstr[2] "%1 wëbrónëch lopków (%2)"
 
 #~ msgctxt "@action:inmenu Navigation Bar"
 #~ msgid "Show Full Location"

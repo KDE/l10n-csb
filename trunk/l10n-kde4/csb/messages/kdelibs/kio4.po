@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-05 10:42+0100\n"
+"POT-Creation-Date: 2008-11-06 09:43+0100\n"
 "PO-Revision-Date: 2007-12-31 00:17+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -93,7 +93,7 @@ msgid "Unmounting"
 msgstr "Òdmòntowanié"
 
 #: kio/job.cpp:1987 kio/paste.cpp:63 kio/copyjob.cpp:1191 kio/copyjob.cpp:1722
-#: kio/global.cpp:652
+#: kio/global.cpp:667
 msgid "File Already Exists"
 msgstr "Lopk ju je"
 
@@ -521,7 +521,7 @@ msgstr "Przepùszczenié"
 msgid "AutoSkip"
 msgstr "Aùtomatné przepùszczenié"
 
-#: kio/copyjob.cpp:910 kio/global.cpp:662
+#: kio/copyjob.cpp:910 kio/global.cpp:677
 msgid "Folder Already Exists"
 msgstr "Katalog ju je"
 
@@ -545,75 +545,86 @@ msgstr[0] "1 dzéń %2"
 msgstr[1] "%1 dni %2"
 msgstr[2] "%1 dniów %2"
 
-#: kio/global.cpp:122
-msgid "No Items"
+#: kio/global.cpp:123
+#, fuzzy
+#| msgid "No Items"
+msgid "0 Items"
 msgstr "Felënk elementów"
 
-#: kio/global.cpp:122
-#, kde-format
-msgid "One Item"
-msgid_plural "%1 Items"
-msgstr[0] "Jeden element"
-msgstr[1] "%1 elementë"
-msgstr[2] "%1 elementów"
-
-#: kio/global.cpp:123
-msgid "No Files"
-msgstr "Felënk lopków"
-
-#: kio/global.cpp:123
-#, kde-format
-msgid "One File"
-msgid_plural "%1 Files"
-msgstr[0] "Jedne lopk"
-msgstr[1] "%1 lopczi"
-msgstr[2] "%1 lopków"
-
-#: kio/global.cpp:124
-msgid "No Folders"
-msgstr "Felënk katalogów"
-
-#: kio/global.cpp:124
-#, kde-format
-msgid "One Folder"
-msgid_plural "%1 Folders"
-msgstr[0] "Jeden katalog"
-msgstr[1] "%1 katalodżi"
-msgstr[2] "%1 katalogów"
-
-#: kio/global.cpp:126
-#, kde-format
-msgid "(%1 Total)"
-msgstr "(Razã %1)"
-
 #: kio/global.cpp:127
-#, kde-format
-msgctxt "Items (Folders, Files), Size"
-msgid "%1 (%2, %3), %4"
-msgstr "%1 (%2, %3), %4"
+#, fuzzy, kde-format
+#| msgid "No Folders"
+msgid "1 Folder"
+msgid_plural "%1 Folders"
+msgstr[0] "Felënk katalogów"
+msgstr[1] "Felënk katalogów"
+msgstr[2] "Felënk katalogów"
 
-#: kio/global.cpp:129
-#, kde-format
-msgctxt "Items (Folders, Files)"
-msgid "%1 (%2, %3)"
+#: kio/global.cpp:128
+#, fuzzy, kde-format
+#| msgid "File"
+msgid "1 File"
+msgid_plural "%1 Files"
+msgstr[0] "Lopk"
+msgstr[1] "Lopk"
+msgstr[2] "Lopk"
+
+#: kio/global.cpp:131
+#, fuzzy, kde-format
+#| msgctxt "Items (Folders, Files)"
+#| msgid "%1 (%2, %3)"
+msgctxt "folders, files (size)"
+msgid "%1, %2 (%3)"
 msgstr "%1 (%2, %3)"
 
-#: kio/global.cpp:157
+#: kio/global.cpp:132
+#, fuzzy, kde-format
+#| msgid "%1 (%2)"
+msgctxt "folders, files"
+msgid "%1, %2"
+msgstr "%1 (%2)"
+
+#: kio/global.cpp:134
+#, fuzzy, kde-format
+#| msgid "%1 (%2)"
+msgctxt "files (size)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: kio/global.cpp:140
+#, fuzzy, kde-format
+#| msgctxt "Items in a folder"
+#| msgid "1 item"
+#| msgid_plural "%1 items"
+msgid "1 Item"
+msgid_plural "%1 Items"
+msgstr[0] "1 wpisënk"
+msgstr[1] "%1 wpisënczi"
+msgstr[2] "%1 wpisënków"
+
+#: kio/global.cpp:141
+#, fuzzy, kde-format
+#| msgid "%1 (%2)"
+msgctxt "items: folders, files (size)"
+msgid "%1: %2"
+msgstr "%1 (%2)"
+
+#: kio/global.cpp:172
 #, kde-format
 msgid "Could not read %1."
 msgstr "Ni mòże czëtac %1."
 
-#: kio/global.cpp:160
+#: kio/global.cpp:175
 #, kde-format
 msgid "Could not write to %1."
 msgstr "Ni mòże pisac do %1."
 
-#: kio/global.cpp:163
+#: kio/global.cpp:178
 #, kde-format
 msgid "Could not start process %1."
 msgstr "Ni mòze zrëszëc procesu %1."
 
-#: kio/global.cpp:166
+#: kio/global.cpp:181
 #, kde-format
 msgid ""
 "Internal Error\n"
@@ -624,61 +635,61 @@ msgstr ""
 "Proszã zgłoszëc felã na starnie http://bugs.kde.org\n"
 "%1"
 
-#: kio/global.cpp:169
+#: kio/global.cpp:184
 #, kde-format
 msgid "Malformed URL %1."
 msgstr "Lëchi URL %1."
 
-#: kio/global.cpp:172
+#: kio/global.cpp:187
 #, kde-format
 msgid "The protocol %1 is not supported."
 msgstr "Protokół %1 nie je wspieróny"
 
-#: kio/global.cpp:175
+#: kio/global.cpp:190
 #, kde-format
 msgid "The protocol %1 is only a filter protocol."
 msgstr "Protokół %1 je blós filtrëjący"
 
-#: kio/global.cpp:182
+#: kio/global.cpp:197
 #, kde-format
 msgid "%1 is a folder, but a file was expected."
 msgstr "%1 je katalogã, a nót je lopka."
 
-#: kio/global.cpp:185
+#: kio/global.cpp:200
 #, kde-format
 msgid "%1 is a file, but a folder was expected."
 msgstr "%1 je lopkã, a nót je kataloga."
 
-#: kio/global.cpp:188
+#: kio/global.cpp:203
 #, kde-format
 msgid "The file or folder %1 does not exist."
 msgstr "Felëje lopk, abò katalog %1."
 
-#: kio/global.cpp:191
+#: kio/global.cpp:206
 #, kde-format
 msgid "A file named %1 already exists."
 msgstr "Lopk ò mionie %1 ju je."
 
-#: kio/global.cpp:194
+#: kio/global.cpp:209
 #, kde-format
 msgid "A folder named %1 already exists."
 msgstr "Katalog ò mionie %1 ju je."
 
-#: kio/global.cpp:197
+#: kio/global.cpp:212
 msgid "No hostname specified."
 msgstr "Nie pòdano serwera."
 
-#: kio/global.cpp:197
+#: kio/global.cpp:212
 #, kde-format
 msgid "Unknown host %1"
 msgstr "Nieznóny serwer %1"
 
-#: kio/global.cpp:200
+#: kio/global.cpp:215
 #, kde-format
 msgid "Access denied to %1."
 msgstr "Felënk przistãpù do %1."
 
-#: kio/global.cpp:203
+#: kio/global.cpp:218
 #, kde-format
 msgid ""
 "Access denied.\n"
@@ -687,47 +698,47 @@ msgstr ""
 "Felënk przistãpù.\n"
 "Ni mòże pisac do %1."
 
-#: kio/global.cpp:206
+#: kio/global.cpp:221
 #, kde-format
 msgid "Could not enter folder %1."
 msgstr "Ni mòże weńc do kataloga %1."
 
-#: kio/global.cpp:209
+#: kio/global.cpp:224
 #, kde-format
 msgid "The protocol %1 does not implement a folder service."
 msgstr "Protokół %1 nie òbsłëgùje katalogów."
 
-#: kio/global.cpp:212
+#: kio/global.cpp:227
 #, kde-format
 msgid "Found a cyclic link in %1."
 msgstr "Nalazłi zakrãcony lënk w %1."
 
-#: kio/global.cpp:218
+#: kio/global.cpp:233
 #, kde-format
 msgid "Found a cyclic link while copying %1."
 msgstr "Przë kòpérowaniô òstôł nalazłi zakrãcony lënk %1."
 
-#: kio/global.cpp:221
+#: kio/global.cpp:236
 #, kde-format
 msgid "Could not create socket for accessing %1."
 msgstr "Ni mòze ùsôdzëc gniôzda z przistãpã do %1."
 
-#: kio/global.cpp:224
+#: kio/global.cpp:239
 #, kde-format
 msgid "Could not connect to host %1."
 msgstr "Ni mòże sparłãczëc sã z serwerã %1."
 
-#: kio/global.cpp:227
+#: kio/global.cpp:242
 #, kde-format
 msgid "Connection to host %1 is broken."
 msgstr "Sparłãczenié z serwerã %1 òstało przerwóne."
 
-#: kio/global.cpp:230
+#: kio/global.cpp:245
 #, kde-format
 msgid "The protocol %1 is not a filter protocol."
 msgstr "Protokół %1 nie je filtrëjący."
 
-#: kio/global.cpp:233
+#: kio/global.cpp:248
 #, kde-format
 msgid ""
 "Could not mount device.\n"
@@ -738,7 +749,7 @@ msgstr ""
 "Wiadło felë:\n"
 "%1"
 
-#: kio/global.cpp:236
+#: kio/global.cpp:251
 #, kde-format
 msgid ""
 "Could not unmount device.\n"
@@ -749,82 +760,82 @@ msgstr ""
 "Wiadło felë:\n"
 "%1"
 
-#: kio/global.cpp:239
+#: kio/global.cpp:254
 #, kde-format
 msgid "Could not read file %1."
 msgstr "Ni mòże czëtac lopka %1."
 
-#: kio/global.cpp:242
+#: kio/global.cpp:257
 #, kde-format
 msgid "Could not write to file %1."
 msgstr "Ni mòże pisac do lopka %1."
 
-#: kio/global.cpp:245
+#: kio/global.cpp:260
 #, kde-format
 msgid "Could not bind %1."
 msgstr "Ni mòże przëłączëc %1."
 
-#: kio/global.cpp:248
+#: kio/global.cpp:263
 #, kde-format
 msgid "Could not listen %1."
 msgstr "Ni mòże nasłuchac z %1."
 
-#: kio/global.cpp:251
+#: kio/global.cpp:266
 #, kde-format
 msgid "Could not accept %1."
 msgstr "Ni mòze akceptowac %1."
 
-#: kio/global.cpp:257
+#: kio/global.cpp:272
 #, kde-format
 msgid "Could not access %1."
 msgstr "Felënk przistãpù do %1."
 
-#: kio/global.cpp:260
+#: kio/global.cpp:275
 #, kde-format
 msgid "Could not terminate listing %1."
 msgstr "Ni mòze zakùńczëc nasłëchu z %1."
 
-#: kio/global.cpp:263
+#: kio/global.cpp:278
 #, kde-format
 msgid "Could not make folder %1."
 msgstr "Ni mòże ùsôdzëc kataloga %1."
 
-#: kio/global.cpp:266
+#: kio/global.cpp:281
 #, kde-format
 msgid "Could not remove folder %1."
 msgstr "Ni mòże rëmnąc kataloga %1."
 
-#: kio/global.cpp:269
+#: kio/global.cpp:284
 #, kde-format
 msgid "Could not resume file %1."
 msgstr "Ni mòże znowic ladowaniô lopka %1."
 
-#: kio/global.cpp:272
+#: kio/global.cpp:287
 #, kde-format
 msgid "Could not rename file %1."
 msgstr "Ni mòże zmienic miona lopka %1."
 
-#: kio/global.cpp:275
+#: kio/global.cpp:290
 #, kde-format
 msgid "Could not change permissions for %1."
 msgstr "Ni mòże zmienic prawa do %1."
 
-#: kio/global.cpp:278
+#: kio/global.cpp:293
 #, kde-format
 msgid "Could not change ownership for %1."
 msgstr "Ni mòze zmienic miéwcë %1."
 
-#: kio/global.cpp:281
+#: kio/global.cpp:296
 #, kde-format
 msgid "Could not delete file %1."
 msgstr "Ni mòże rëmnąc lopka %1."
 
-#: kio/global.cpp:284
+#: kio/global.cpp:299
 #, kde-format
 msgid "The process for the %1 protocol died unexpectedly."
 msgstr "Proces dlô protokòłu %1 zakùczëł niespòdzajno dzejanié."
 
-#: kio/global.cpp:287
+#: kio/global.cpp:302
 #, kde-format
 msgid ""
 "Error. Out of memory.\n"
@@ -833,7 +844,7 @@ msgstr ""
 "Fela. Felënk pamiãcë.\n"
 "%1"
 
-#: kio/global.cpp:290
+#: kio/global.cpp:305
 #, kde-format
 msgid ""
 "Unknown proxy host\n"
@@ -842,12 +853,12 @@ msgstr ""
 "Nieznóny pòstrzédniczący serwer\n"
 "%1"
 
-#: kio/global.cpp:293
+#: kio/global.cpp:308
 #, kde-format
 msgid "Authorization failed, %1 authentication not supported"
 msgstr "Fela aùtorizacëji, wierzëtelnienié %1 je nieòbsłëgiwóne."
 
-#: kio/global.cpp:296
+#: kio/global.cpp:311
 #, kde-format
 msgid ""
 "User canceled action\n"
@@ -856,7 +867,7 @@ msgstr ""
 "Brëkòwnik anulowôł dzejanié\n"
 "%1"
 
-#: kio/global.cpp:299
+#: kio/global.cpp:314
 #, kde-format
 msgid ""
 "Internal error in server\n"
@@ -865,7 +876,7 @@ msgstr ""
 "Bënowô fela serwera\n"
 "%1"
 
-#: kio/global.cpp:302
+#: kio/global.cpp:317
 #, kde-format
 msgid ""
 "Timeout on server\n"
@@ -874,7 +885,7 @@ msgstr ""
 "Czas na serwerze minął\n"
 "%1"
 
-#: kio/global.cpp:305
+#: kio/global.cpp:320
 #, kde-format
 msgid ""
 "Unknown error\n"
@@ -883,7 +894,7 @@ msgstr ""
 "Nieznónô fela\n"
 "%1"
 
-#: kio/global.cpp:308
+#: kio/global.cpp:323
 #, kde-format
 msgid ""
 "Unknown interrupt\n"
@@ -892,7 +903,7 @@ msgstr ""
 "NIeznóné przerwanié\n"
 "%1"
 
-#: kio/global.cpp:319
+#: kio/global.cpp:334
 #, kde-format
 msgid ""
 "Could not delete original file %1.\n"
@@ -901,7 +912,7 @@ msgstr ""
 "Ni mòże rëmnąc òriginalnegò lopka %1.\n"
 "Proszã sprôwdzëc prawa."
 
-#: kio/global.cpp:322
+#: kio/global.cpp:337
 #, kde-format
 msgid ""
 "Could not delete partial file %1.\n"
@@ -910,7 +921,7 @@ msgstr ""
 "Ni mòże rëmnąc dzélu lopka %1.\n"
 "Proszã sprôwdzëc prawa."
 
-#: kio/global.cpp:325
+#: kio/global.cpp:340
 #, kde-format
 msgid ""
 "Could not rename original file %1.\n"
@@ -919,7 +930,7 @@ msgstr ""
 "Ni mòże zmienic miona òriginalnegò lopka %1.\n"
 "Proszã sprôwdzëc prawa."
 
-#: kio/global.cpp:328
+#: kio/global.cpp:343
 #, kde-format
 msgid ""
 "Could not rename partial file %1.\n"
@@ -928,7 +939,7 @@ msgstr ""
 "Ni mòże zmienic miona dzélu òriginalnegò lopka %1.\n"
 "Proszã sprôwdzëc prawa."
 
-#: kio/global.cpp:331
+#: kio/global.cpp:346
 #, kde-format
 msgid ""
 "Could not create symlink %1.\n"
@@ -937,7 +948,7 @@ msgstr ""
 "Ni mòże ùsôdzëc symbòlicznegò lënka %1.\n"
 "Proszã sprôwdzëc prawa."
 
-#: kio/global.cpp:337
+#: kio/global.cpp:352
 #, kde-format
 msgid ""
 "Could not write file %1.\n"
@@ -946,7 +957,7 @@ msgstr ""
 "Ni mòże zapisac lopka %1.\n"
 "Fùl disk."
 
-#: kio/global.cpp:340
+#: kio/global.cpp:355
 #, kde-format
 msgid ""
 "The source and destination are the same file.\n"
@@ -955,16 +966,16 @@ msgstr ""
 "Zdrojowi ë docélowi lopk są równé.\n"
 "%1"
 
-#: kio/global.cpp:346
+#: kio/global.cpp:361
 #, kde-format
 msgid "%1 is required by the server, but is not available."
 msgstr "Serwer wëmôgô %1, jaczi nie je przistãpny."
 
-#: kio/global.cpp:349
+#: kio/global.cpp:364
 msgid "Access to restricted port in POST denied."
 msgstr "Felënk przistãpù do òrańczonegò pòrtu w POST."
 
-#: kio/global.cpp:352
+#: kio/global.cpp:367
 #, kde-format
 msgid ""
 "Unknown error code %1\n"
@@ -975,170 +986,170 @@ msgstr ""
 "%2\n"
 "Proszã zgłoszëc felã na starnie http://bugs.kde.org."
 
-#: kio/global.cpp:362
+#: kio/global.cpp:377
 #, kde-format
 msgid "Opening connections is not supported with the protocol %1."
 msgstr "Òtmëkanié sparłączeniów nie je òbsłëgiwóné przez protokół %1."
 
-#: kio/global.cpp:364
+#: kio/global.cpp:379
 #, kde-format
 msgid "Closing connections is not supported with the protocol %1."
 msgstr "Zamëkanié sparłączeniów nie je òbsłëgiwóné przez protokół %1."
 
-#: kio/global.cpp:366
+#: kio/global.cpp:381
 #, kde-format
 msgid "Accessing files is not supported with the protocol %1."
 msgstr "Protokół %1 nie zezwôlô na przistãp do lopków."
 
-#: kio/global.cpp:368
+#: kio/global.cpp:383
 #, kde-format
 msgid "Writing to %1 is not supported."
 msgstr "Zapisëwanié do %1 nie je òbsłëgiwóné."
 
-#: kio/global.cpp:370
+#: kio/global.cpp:385
 #, kde-format
 msgid "There are no special actions available for protocol %1."
 msgstr "Felënk szpecjalnëch òperacrji przistspnëch dlô protokòłu %1."
 
-#: kio/global.cpp:372
+#: kio/global.cpp:387
 #, kde-format
 msgid "Listing folders is not supported for protocol %1."
 msgstr ""
 "Wëskrzënianié zamkłosców katalogów nie je òbsłëgiwóné przez protokół %1."
 
-#: kio/global.cpp:374
+#: kio/global.cpp:389
 #, kde-format
 msgid "Retrieving data from %1 is not supported."
 msgstr "Ladowanié pòdôwków z %1 nie je òbsłëgiwóne."
 
-#: kio/global.cpp:376
+#: kio/global.cpp:391
 #, kde-format
 msgid "Retrieving mime type information from %1 is not supported."
 msgstr "Ladowanié wëdowiédzë ò ôrce MIME z %1 nie je òbsłëgiwóné."
 
-#: kio/global.cpp:378
+#: kio/global.cpp:393
 #, kde-format
 msgid "Renaming or moving files within %1 is not supported."
 msgstr "Zmiana miona, abò przenoszenié lopków w %1 nie je òbsłëgiwóné."
 
-#: kio/global.cpp:380
+#: kio/global.cpp:395
 #, kde-format
 msgid "Creating symlinks is not supported with protocol %1."
 msgstr "Ùsôdzanié symbòlicznëch lënków nie je òbsłëgiwóné przez protokół %1."
 
-#: kio/global.cpp:382
+#: kio/global.cpp:397
 #, kde-format
 msgid "Copying files within %1 is not supported."
 msgstr "Kòpérownié lopków e %1 nie je òbsłëgiwóné."
 
-#: kio/global.cpp:384
+#: kio/global.cpp:399
 #, kde-format
 msgid "Deleting files from %1 is not supported."
 msgstr "Rëmanié lopków z %1 nie je òbsłëgiwóné."
 
-#: kio/global.cpp:386
+#: kio/global.cpp:401
 #, kde-format
 msgid "Creating folders is not supported with protocol %1."
 msgstr "Ùsôdzanié katalogów nie je òbsłëgiwóné przez protokół %1."
 
-#: kio/global.cpp:388
+#: kio/global.cpp:403
 #, kde-format
 msgid "Changing the attributes of files is not supported with protocol %1."
 msgstr "Zmianë atribùtów lopków nie są òbsłëgiwóné przez protokół %1."
 
-#: kio/global.cpp:390
+#: kio/global.cpp:405
 #, kde-format
 msgid "Changing the ownership of files is not supported with protocol %1."
 msgstr "Zmiana miéwcë lopków nie je òbsłëgiwónô przez protokół %1."
 
-#: kio/global.cpp:392
+#: kio/global.cpp:407
 #, kde-format
 msgid "Using sub-URLs with %1 is not supported."
 msgstr "Brëkòwanié pòdadresów w %1 nie je òbsłëgiwóné."
 
-#: kio/global.cpp:394
+#: kio/global.cpp:409
 #, kde-format
 msgid "Multiple get is not supported with protocol %1."
 msgstr "Ladowanié wielu lopków nie je òbsłëgiwóné przez protokół %1."
 
-#: kio/global.cpp:396
+#: kio/global.cpp:411
 #, kde-format
 msgid "Opening files is not supported with protocol %1."
 msgstr "Òtmëkanié lopków nie je òbsłëgiwóné przez protokól %1."
 
-#: kio/global.cpp:398
+#: kio/global.cpp:413
 #, kde-format
 msgid "Protocol %1 does not support action %2."
 msgstr "Protokół %1 nie òbsłëgùje dzejaniô %2."
 
-#: kio/global.cpp:418
+#: kio/global.cpp:433
 msgctxt "@info url"
 msgid "(unknown)"
 msgstr "(nieznóny)"
 
-#: kio/global.cpp:426
+#: kio/global.cpp:441
 #, kde-format
 msgctxt "@info %1 error name, %2 description"
 msgid "<qt><p><b>%1</b></p><p>%2</p></qt>"
 msgstr "<qt><p><b>%1</b></p><p>%2</p></qt>"
 
-#: kio/global.cpp:430
+#: kio/global.cpp:445
 msgid "<b>Technical reason</b>: "
 msgstr "<b>Techniczné przëczënë</b>: "
 
-#: kio/global.cpp:432
+#: kio/global.cpp:447
 msgid "<b>Details of the request</b>:"
 msgstr "<b>Detale żądaniô</b>:"
 
-#: kio/global.cpp:433
+#: kio/global.cpp:448
 #, kde-format
 msgid "<li>URL: %1</li>"
 msgstr "<li>URL: %1</li>"
 
-#: kio/global.cpp:435
+#: kio/global.cpp:450
 #, kde-format
 msgid "<li>Protocol: %1</li>"
 msgstr "<li>Protokół: %1</li>"
 
-#: kio/global.cpp:437
+#: kio/global.cpp:452
 #, kde-format
 msgid "<li>Date and time: %1</li>"
 msgstr "<li>Datum ë czas: %1</li>"
 
-#: kio/global.cpp:438
+#: kio/global.cpp:453
 #, kde-format
 msgid "<li>Additional information: %1</li>"
 msgstr "<li>Dodôwnô wëdowiédzô: %1</li>"
 
-#: kio/global.cpp:441
+#: kio/global.cpp:456
 msgid "<b>Possible causes</b>:"
 msgstr "<b>Mòżlëwé przëczënë</b>:"
 
-#: kio/global.cpp:446
+#: kio/global.cpp:461
 msgid "<b>Possible solutions</b>:"
 msgstr "<b>Mòżlëwé rozwiązania</b>:"
 
-#: kio/global.cpp:479
+#: kio/global.cpp:494
 msgctxt "@info protocol"
 msgid "(unknown)"
 msgstr "(nieznóny)"
 
-#: kio/global.cpp:489
+#: kio/global.cpp:504
 msgid ""
 "Contact your appropriate computer support system, whether the system "
 "administrator, or technical support group for further assistance."
 msgstr ""
 "Sparłãczë sã z òbsłëgą kòmpùtra, sprôwnikã systemë abò techniczną pòmòcą."
 
-#: kio/global.cpp:492
+#: kio/global.cpp:507
 msgid "Contact the administrator of the server for further assistance."
 msgstr "Sparłãczë sã ze sprôwnikã serwera."
 
-#: kio/global.cpp:495
+#: kio/global.cpp:510
 msgid "Check your access permissions on this resource."
 msgstr "Sprôwdzë prawa przistspù do dostónkù."
 
-#: kio/global.cpp:496
+#: kio/global.cpp:511
 msgid ""
 "Your access permissions may be inadequate to perform the requested operation "
 "on this resource."
@@ -1146,29 +1157,29 @@ msgstr ""
 "Twòje prawa przistãpù mògą nie sygac do wëkònaniô żądóny òperacëji na tim "
 "dostónkù."
 
-#: kio/global.cpp:498
+#: kio/global.cpp:513
 msgid ""
 "The file may be in use (and thus locked) by another user or application."
 msgstr ""
 "Lopk mòże bëc brëkòwóny (ë zablokòwóny do ùżëtkù) przez jinszegò brëkòwnika "
 "abò programã."
 
-#: kio/global.cpp:500
+#: kio/global.cpp:515
 msgid ""
 "Check to make sure that no other application or user is using the file or "
 "has locked the file."
 msgstr ""
 "Sprôwdzë, czë niżódnô programa ë brëkòwnik nie ùżëwô abò nie blokùje lopka."
 
-#: kio/global.cpp:502
+#: kio/global.cpp:517
 msgid "Although unlikely, a hardware error may have occurred."
 msgstr "Mòżlëwé, chòc mało prawdopòdóbné, że pòkôza sã hardwôrowô fela."
 
-#: kio/global.cpp:504
+#: kio/global.cpp:519
 msgid "You may have encountered a bug in the program."
 msgstr "Mòże të natrôfił na felã programë."
 
-#: kio/global.cpp:505
+#: kio/global.cpp:520
 msgid ""
 "This is most likely to be caused by a bug in the program. Please consider "
 "submitting a full bug report as detailed below."
@@ -1176,7 +1187,7 @@ msgstr ""
 "Baro prawdopòdóbne je to, że të natrôfił na felã programë. Jeżlë mòżesz, to "
 "wësli rapòrt ò felë zgòdno z uniższą instrukcëją."
 
-#: kio/global.cpp:507
+#: kio/global.cpp:522
 msgid ""
 "Update your software to the latest version. Your distribution should provide "
 "tools to update your software."
@@ -1184,7 +1195,7 @@ msgstr ""
 "Zaktualni programã do nônowszi wersrji. Twòjô distribùcëjô mùszi zamëkac w "
 "se nôrzãdze do zaktualnianiô programów."
 
-#: kio/global.cpp:509
+#: kio/global.cpp:524
 msgid ""
 "When all else fails, please consider helping the KDE team or the third party "
 "maintainer of this software by submitting a high quality bug report. If the "
@@ -1202,11 +1213,11 @@ msgstr ""
 "wszëtczé detale pòdóné niżi, razã z jinszą wëdowiédzą, jaką trzëmôsz za "
 "brëkòwną."
 
-#: kio/global.cpp:517
+#: kio/global.cpp:532
 msgid "There may have been a problem with your network connection."
 msgstr "To mògło dac problemë z sécowim sparłãczeniém."
 
-#: kio/global.cpp:520
+#: kio/global.cpp:535
 msgid ""
 "There may have been a problem with your network configuration. If you have "
 "been accessing the Internet with no problems recently, this is unlikely."
@@ -1214,47 +1225,47 @@ msgstr ""
 "To mògło dac problemë z kònfigùracëją sécë. Je to równak mało prawdopòdobné, "
 "jeżlë slédno të bez problemów ùżëwôł Internetu."
 
-#: kio/global.cpp:523
+#: kio/global.cpp:538
 msgid ""
 "There may have been a problem at some point along the network path between "
 "the server and this computer."
 msgstr ""
 "Mòżlëwé, że problemë pòkzałë sã dzes w sécë, midzë serwerã a twòjim kòmpùtrã."
 
-#: kio/global.cpp:525
+#: kio/global.cpp:540
 msgid "Try again, either now or at a later time."
 msgstr "Spróbùjë jesz rôz, terô abò pòzdze."
 
-#: kio/global.cpp:526
+#: kio/global.cpp:541
 msgid "A protocol error or incompatibility may have occurred."
 msgstr "Prawdopòdobno pòkôza sã fela w protokòle abò niekòmpatibilnosc."
 
-#: kio/global.cpp:527
+#: kio/global.cpp:542
 msgid "Ensure that the resource exists, and try again."
 msgstr "Sprôwdzë, czë dostónk jesz je ë spróbùjë znowa."
 
-#: kio/global.cpp:528
+#: kio/global.cpp:543
 msgid "The specified resource may not exist."
 msgstr "Mòżlëwé, że to nie dô pòdónegò dostónka."
 
-#: kio/global.cpp:529
+#: kio/global.cpp:544
 msgid "You may have incorrectly typed the location."
 msgstr "Të móg/mògła pòdac lëchą lokalizacëjã."
 
-#: kio/global.cpp:530
+#: kio/global.cpp:545
 msgid "Double-check that you have entered the correct location and try again."
 msgstr ""
 "Sprôwdzë jesz rôz, czë môsz pòdóną dobrą lokalizacëjã ë spróbùjë znowa."
 
-#: kio/global.cpp:532
+#: kio/global.cpp:547
 msgid "Check your network connection status."
 msgstr "Sprôwdzë swòje sécowé sparłãczenié."
 
-#: kio/global.cpp:536
+#: kio/global.cpp:551
 msgid "Cannot Open Resource For Reading"
 msgstr "Ni mòże òtemknąc dostónkù do czëtaniô."
 
-#: kio/global.cpp:537
+#: kio/global.cpp:552
 #, kde-format
 msgid ""
 "This means that the contents of the requested file or folder <strong>%1</"
@@ -1263,15 +1274,15 @@ msgstr ""
 "Òznôczô to, że zamkłosc żądónegò lopka abò kataloga <strong>%1</strong> ni "
 "mòże òstac zladowónô z przëczënë felënkù praw do czëtaniô."
 
-#: kio/global.cpp:540
+#: kio/global.cpp:555
 msgid "You may not have permissions to read the file or open the folder."
 msgstr "Mòżesz ni miec dosc praw do czrtaniô lopka abò kataloga."
 
-#: kio/global.cpp:546
+#: kio/global.cpp:561
 msgid "Cannot Open Resource For Writing"
 msgstr "Ni mòże òtemknąc dostónkù do pisaniô."
 
-#: kio/global.cpp:547
+#: kio/global.cpp:562
 #, kde-format
 msgid ""
 "This means that the file, <strong>%1</strong>, could not be written to as "
@@ -1280,16 +1291,16 @@ msgstr ""
 "Òznôczô to, że lopk <strong>%1</strong> ni mòże òstac zapisóny z przëczënë "
 "felënkù praw do pisaniô."
 
-#: kio/global.cpp:555
+#: kio/global.cpp:570
 #, kde-format
 msgid "Cannot Initiate the %1 Protocol"
 msgstr "Ni mòże zainicjowac protokòłu %1"
 
-#: kio/global.cpp:556
+#: kio/global.cpp:571
 msgid "Unable to Launch Process"
 msgstr "Ni mòże zrëszëc procesu"
 
-#: kio/global.cpp:557
+#: kio/global.cpp:572
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
@@ -1299,7 +1310,7 @@ msgstr ""
 "Programa na twòjim kòmpùterze, obsłëgùjącô protokół <strong>%1</strong> nie "
 "zrëszëła sã. Tak je zwëczajno z technicznëch przëczënów."
 
-#: kio/global.cpp:560
+#: kio/global.cpp:575
 msgid ""
 "The program which provides compatibility with this protocol may not have "
 "been updated with your last update of KDE. This can cause the program to be "
@@ -1309,11 +1320,11 @@ msgstr ""
 "przë slédny aktualizacëji KDE. W nen czas stôrô wersëjô programë nie "
 "wespółrobi z nowim protokòłã ë ni zrëszô sã."
 
-#: kio/global.cpp:568
+#: kio/global.cpp:583
 msgid "Internal Error"
 msgstr "Bënowô fela"
 
-#: kio/global.cpp:569
+#: kio/global.cpp:584
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
@@ -1322,11 +1333,11 @@ msgstr ""
 "Programa zazychrowëjącô przistãp do protokòłu<strong>%1</strong> zgłoszëła "
 "bënową felã."
 
-#: kio/global.cpp:577
+#: kio/global.cpp:592
 msgid "Improperly Formatted URL"
 msgstr "Lëchò sfòrmatowónô adresa URL"
 
-#: kio/global.cpp:578
+#: kio/global.cpp:593
 msgid ""
 "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
 "strong>ocator (URL) that you entered was not properly formatted. The format "
@@ -1339,12 +1350,12 @@ msgstr ""
 "<blockquote><strong>protokół://brëkòwnik@parola:www.przëmiôr.org:port/"
 "katalog/lopk.rozszerzenié?pëtanié=wôrtnota</strong></blockquote>"
 
-#: kio/global.cpp:587
+#: kio/global.cpp:602
 #, kde-format
 msgid "Unsupported Protocol %1"
 msgstr "Nieòbsłëgiwóny protokół %1"
 
-#: kio/global.cpp:588
+#: kio/global.cpp:603
 #, kde-format
 msgid ""
 "The protocol <strong>%1</strong> is not supported by the KDE programs "
@@ -1353,11 +1364,11 @@ msgstr ""
 "Protokół <strong>%1</strong> nie je òbsłëgiwóny przez programë KDE "
 "zainstalowóné na tim kòmpùtrze."
 
-#: kio/global.cpp:591
+#: kio/global.cpp:606
 msgid "The requested protocol may not be supported."
 msgstr "Żądóny protokół mòże nie bëc òbsłëgiwóny."
 
-#: kio/global.cpp:592
+#: kio/global.cpp:607
 #, kde-format
 msgid ""
 "The versions of the %1 protocol supported by this computer and the server "
@@ -1365,7 +1376,7 @@ msgid ""
 msgstr ""
 "Wersëje protokòłu %1 na tim kòmpùtrze ë na serwerze mògą nie bëc równé."
 
-#: kio/global.cpp:594
+#: kio/global.cpp:609
 msgid ""
 "You may perform a search on the Internet for a KDE program (called a "
 "kioslave or ioslave) which supports this protocol. Places to search include "
@@ -1377,15 +1388,15 @@ msgstr ""
 "apps.org/\">http://kde-apps.org/</a> ë <a href=\"http://freshmeat.net/"
 "\">http://freshmeat.net/</a>."
 
-#: kio/global.cpp:603
+#: kio/global.cpp:618
 msgid "URL Does Not Refer to a Resource."
 msgstr "URL nie òdsëłô do dostónkù."
 
-#: kio/global.cpp:604
+#: kio/global.cpp:619
 msgid "Protocol is a Filter Protocol"
 msgstr "Protokół je filtrëjący"
 
-#: kio/global.cpp:605
+#: kio/global.cpp:620
 msgid ""
 "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
 "strong>ocator (URL) that you entered did not refer to a specific resource."
@@ -1393,7 +1404,7 @@ msgstr ""
 "Wprowôdzony <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
 "strong>ocation (URL) nie òdsëłô do niżódnegò dostónkù."
 
-#: kio/global.cpp:608
+#: kio/global.cpp:623
 msgid ""
 "KDE is able to communicate through a protocol within a protocol; the "
 "protocol specified is only for use in such situations, however this is not "
@@ -1404,12 +1415,12 @@ msgstr ""
 "je przeznaczony blós do przëtrôfków jinszich jakno aktualny. Nôbarzi "
 "prawdopòdóbno òznôczô to felã w programie."
 
-#: kio/global.cpp:616
+#: kio/global.cpp:631
 #, kde-format
 msgid "Unsupported Action: %1"
 msgstr "Nieòbsłëgiwóné dzejanié: %1"
 
-#: kio/global.cpp:617
+#: kio/global.cpp:632
 #, kde-format
 msgid ""
 "The requested action is not supported by the KDE program which is "
@@ -1418,7 +1429,7 @@ msgstr ""
 "Pòdóné dzejanié nie je òbsłëgiwóné przez programã KDE implementującą "
 "protokół <strong>%1</strong>."
 
-#: kio/global.cpp:620
+#: kio/global.cpp:635
 msgid ""
 "This error is very much dependent on the KDE program. The additional "
 "information should give you more information than is available to the KDE "
@@ -1427,87 +1438,87 @@ msgstr ""
 "Fela zanôleżi òd programë KDE. Dodôwné detale dadzą ce wicy wëdowiédzë, jak "
 "je to przistãpné dlô architekturë wéńdzenié/wińdzenié KDE."
 
-#: kio/global.cpp:623
+#: kio/global.cpp:638
 msgid "Attempt to find another way to accomplish the same outcome."
 msgstr "Spróbùjë nalezc jinszą metodã zwëskaniô tegò sómegò skùtkù."
 
-#: kio/global.cpp:628
+#: kio/global.cpp:643
 msgid "File Expected"
 msgstr "Żdóny lopk"
 
-#: kio/global.cpp:629
+#: kio/global.cpp:644
 #, kde-format
 msgid ""
 "The request expected a file, however the folder <strong>%1</strong> was "
 "found instead."
 msgstr "Żądano lopka, a przëszed nazôd katalog <strong>%1</strong>."
 
-#: kio/global.cpp:631
+#: kio/global.cpp:646
 msgid "This may be an error on the server side."
 msgstr "To mòże bëc fela serwera."
 
-#: kio/global.cpp:636
+#: kio/global.cpp:651
 msgid "Folder Expected"
 msgstr "Żdóny katalog"
 
-#: kio/global.cpp:637
+#: kio/global.cpp:652
 #, kde-format
 msgid ""
 "The request expected a folder, however the file <strong>%1</strong> was "
 "found instead."
 msgstr "Żądano kataloga, a przëszed nazôd lopk <strong>%1</strong>."
 
-#: kio/global.cpp:644
+#: kio/global.cpp:659
 msgid "File or Folder Does Not Exist"
 msgstr "Lopk abò katalog ju je"
 
-#: kio/global.cpp:645
+#: kio/global.cpp:660
 #, kde-format
 msgid "The specified file or folder <strong>%1</strong> does not exist."
 msgstr "Felëje pòdóny lopk abò katalog <strong>%1</strong>."
 
-#: kio/global.cpp:653
+#: kio/global.cpp:668
 msgid ""
 "The requested file could not be created because a file with the same name "
 "already exists."
 msgstr "Żądóny lopk nie òstôł ùsôdzony, bò lopk ò tim mionie ju je."
 
-#: kio/global.cpp:655
+#: kio/global.cpp:670
 msgid "Try moving the current file out of the way first, and then try again."
 msgstr "Spróbùjë przesënąc pòprzédny lopk w jinszi plac ë spróbùjë jesz rôz."
 
-#: kio/global.cpp:657
+#: kio/global.cpp:672
 msgid "Delete the current file and try again."
 msgstr "Rëmôj pòprzedny lopk ë spróbùjë jesz rôz."
 
-#: kio/global.cpp:658
+#: kio/global.cpp:673
 msgid "Choose an alternate filename for the new file."
 msgstr "Wëbierzë jinszé miono dlô nowégò lopka."
 
-#: kio/global.cpp:663
+#: kio/global.cpp:678
 msgid ""
 "The requested folder could not be created because a folder with the same "
 "name already exists."
 msgstr "Żądóny katalog nie òstôł ùsôdzony,bò katalog ò tim mionie ju je."
 
-#: kio/global.cpp:665
+#: kio/global.cpp:680
 msgid "Try moving the current folder out of the way first, and then try again."
 msgstr ""
 "Spróbùjë przesënąc pòprzédny katalog w jinszi plac ë spróbùjë jesz rôz."
 
-#: kio/global.cpp:667
+#: kio/global.cpp:682
 msgid "Delete the current folder and try again."
 msgstr "Rëmôj pòprzedny katalog ë spróbùjë jesz rôz."
 
-#: kio/global.cpp:668
+#: kio/global.cpp:683
 msgid "Choose an alternate name for the new folder."
 msgstr "Wëbierzë jinszé miono dlô nowégò kataloga."
 
-#: kio/global.cpp:672
+#: kio/global.cpp:687
 msgid "Unknown Host"
 msgstr "Nieznóny serwer"
 
-#: kio/global.cpp:673
+#: kio/global.cpp:688
 #, kde-format
 msgid ""
 "An unknown host error indicates that the server with the requested name, "
@@ -1516,53 +1527,53 @@ msgstr ""
 "Fela \"Nieznóny serwer\" òznôczô, że serwer o pòdónym mionie <strong>%"
 "1<strong> nie òstôł nalazłi w Internece."
 
-#: kio/global.cpp:676
+#: kio/global.cpp:691
 #, kde-format
 msgid ""
 "The name that you typed, %1, may not exist: it may be incorrectly typed."
 msgstr ""
 "Miono %1, jaczé të wpisôł, mòże bëc wpisóné z felą, abò nie dô taczégò."
 
-#: kio/global.cpp:683
+#: kio/global.cpp:698
 msgid "Access Denied"
 msgstr "Felënk przistãpù"
 
-#: kio/global.cpp:684
+#: kio/global.cpp:699
 #, kde-format
 msgid "Access was denied to the specified resource, <strong>%1</strong>."
 msgstr "Felënk przistãpù do dostónka <strong>%1</strong>."
 
-#: kio/global.cpp:686 kio/global.cpp:902
+#: kio/global.cpp:701 kio/global.cpp:917
 msgid "You may have supplied incorrect authentication details or none at all."
 msgstr "Mòże bëc, że pòdóné są lëché detale ùdowierzeniô."
 
-#: kio/global.cpp:688 kio/global.cpp:904
+#: kio/global.cpp:703 kio/global.cpp:919
 msgid "Your account may not have permission to access the specified resource."
 msgstr "Mòżesz nie miec prawa do przistãpù do tegò dostónka."
 
-#: kio/global.cpp:690 kio/global.cpp:906 kio/global.cpp:918
+#: kio/global.cpp:705 kio/global.cpp:921 kio/global.cpp:933
 msgid ""
 "Retry the request and ensure your authentication details are entered "
 "correctly."
 msgstr ""
 "Znowi żądanié ë sprôwdzë, czë pòdôwczi ùdowierzeniô są wpisóné bezzmiłkòwò."
 
-#: kio/global.cpp:696
+#: kio/global.cpp:711
 msgid "Write Access Denied"
 msgstr "Felënk prawa do pisaniô"
 
-#: kio/global.cpp:697
+#: kio/global.cpp:712
 #, kde-format
 msgid ""
 "This means that an attempt to write to the file <strong>%1</strong> was "
 "rejected."
 msgstr "Próba pisaniô do lopka <strong>%1</strong> òsta òdrzuconô."
 
-#: kio/global.cpp:704
+#: kio/global.cpp:719
 msgid "Unable to Enter Folder"
 msgstr "Ni mòże wéńc do kataloga"
 
-#: kio/global.cpp:705
+#: kio/global.cpp:720
 #, kde-format
 msgid ""
 "This means that an attempt to enter (in other words, to open) the requested "
@@ -1571,16 +1582,16 @@ msgstr ""
 "Òznôczô to, że próba òtemkniscô (wéńdzeniô do) żądónegò kataloga <strong>%1</"
 "strong> òsta òdrzuconô."
 
-#: kio/global.cpp:713
+#: kio/global.cpp:728
 msgid "Folder Listing Unavailable"
 msgstr "Wëskrzënianié zamkłoscë kataloga nie je przistãpné"
 
-#: kio/global.cpp:714
+#: kio/global.cpp:729
 #, kde-format
 msgid "Protocol %1 is not a Filesystem"
 msgstr "Protokół %1 nie je systemą lopków"
 
-#: kio/global.cpp:715
+#: kio/global.cpp:730
 msgid ""
 "This means that a request was made which requires determining the contents "
 "of the folder, and the KDE program supporting this protocol is unable to do "
@@ -1589,11 +1600,11 @@ msgstr ""
 "Òznôczô to, że żądanié wëmôgało ùstaleniô zamkłoscë kataloga, równak "
 "programa KDE, òbsłëgùjącô nen protokół, ni mòze tegò zrobic."
 
-#: kio/global.cpp:723
+#: kio/global.cpp:738
 msgid "Cyclic Link Detected"
 msgstr "Wëkrëto zakrãconé zlënkòwanié"
 
-#: kio/global.cpp:724
+#: kio/global.cpp:739
 msgid ""
 "UNIX environments are commonly able to link a file or folder to a separate "
 "name and/or location. KDE detected a link or series of links that results in "
@@ -1605,7 +1616,7 @@ msgstr ""
 "zlënkòwanié abò cąg zlënkòwaniów, prowôdzącé do niekùńczącegò sã zakrãcenia "
 "- t.j. lopk bëł zlënkòwaniém do samegò se."
 
-#: kio/global.cpp:728 kio/global.cpp:750
+#: kio/global.cpp:743 kio/global.cpp:765
 msgid ""
 "Delete one part of the loop in order that it does not cause an infinite "
 "loop, and try again."
@@ -1613,23 +1624,23 @@ msgstr ""
 "Rëmôj dzél zakrãcenia, bë przerwac no nieskùńczoné dzejanié, a pòzdze znowi "
 "próbã."
 
-#: kio/global.cpp:737
+#: kio/global.cpp:752
 msgid "Request Aborted By User"
 msgstr "Żądanié przerwóné przez brëkòwnika"
 
-#: kio/global.cpp:738 kio/global.cpp:1039
+#: kio/global.cpp:753 kio/global.cpp:1054
 msgid "The request was not completed because it was aborted."
 msgstr "Żądanié nie òstało zrealizowóné, bò òstało przerwóné."
 
-#: kio/global.cpp:740 kio/global.cpp:934 kio/global.cpp:1041
+#: kio/global.cpp:755 kio/global.cpp:949 kio/global.cpp:1056
 msgid "Retry the request."
 msgstr "Znowi żądanié."
 
-#: kio/global.cpp:744
+#: kio/global.cpp:759
 msgid "Cyclic Link Detected During Copy"
 msgstr "Przë kòpérowaniu wëkrëto zakrãconé zlënkòwanié"
 
-#: kio/global.cpp:745
+#: kio/global.cpp:760
 msgid ""
 "UNIX environments are commonly able to link a file or folder to a separate "
 "name and/or location. During the requested copy operation, KDE detected a "
@@ -1641,31 +1652,31 @@ msgstr ""
 "zlënkòwanié abò cąg zlënkòwaniów, prowôdzącé do niekùńczącegò sã zakrãcenia "
 "- t.j. lopk bëł zlënkòwaniém do samegò se."
 
-#: kio/global.cpp:755
+#: kio/global.cpp:770
 msgid "Could Not Create Network Connection"
 msgstr "Ni mòże ùsôdzëc sécowégò sparłãczenia"
 
-#: kio/global.cpp:756
+#: kio/global.cpp:771
 msgid "Could Not Create Socket"
 msgstr "Ni mòże ùsôdzéc gniôzdka"
 
-#: kio/global.cpp:757
+#: kio/global.cpp:772
 msgid ""
 "This is a fairly technical error in which a required device for network "
 "communications (a socket) could not be created."
 msgstr "Nie szło òtemknąc ùrzãdzenia do sécowégò sparłãczenia (gniôzdka)."
 
-#: kio/global.cpp:759 kio/global.cpp:872 kio/global.cpp:883 kio/global.cpp:892
+#: kio/global.cpp:774 kio/global.cpp:887 kio/global.cpp:898 kio/global.cpp:907
 msgid ""
 "The network connection may be incorrectly configured, or the network "
 "interface may not be enabled."
 msgstr "Séc mòże bëc lëchò skònfigùrowónô abò wëłączonô."
 
-#: kio/global.cpp:765
+#: kio/global.cpp:780
 msgid "Connection to Server Refused"
 msgstr "Pòcësniãté sparłãczenié z serwerã"
 
-#: kio/global.cpp:766
+#: kio/global.cpp:781
 #, kde-format
 msgid ""
 "The server <strong>%1</strong> refused to allow this computer to make a "
@@ -1673,7 +1684,7 @@ msgid ""
 msgstr ""
 "Serwer <strong>%1</strong> pòcësnął próbã sparłãczenia z negò kòmpùtra."
 
-#: kio/global.cpp:768
+#: kio/global.cpp:783
 msgid ""
 "The server, while currently connected to the Internet, may not be configured "
 "to allow requests."
@@ -1681,7 +1692,7 @@ msgstr ""
 "Serwer, nimò tegò, że je sparłãczony z internetã, mòże nie bëc "
 "skònfigùrowóny na przëjimanié żądaniów."
 
-#: kio/global.cpp:770
+#: kio/global.cpp:785
 #, kde-format
 msgid ""
 "The server, while currently connected to the Internet, may not be running "
@@ -1690,7 +1701,7 @@ msgstr ""
 "Serwer, nimò tegò, że je sparłãczony z internetã, mòże nie ùprzistãpniac "
 "żądóny ùsłëżnotë (%1)."
 
-#: kio/global.cpp:772
+#: kio/global.cpp:787
 msgid ""
 "A network firewall (a device which restricts Internet requests), either "
 "protecting your network or the network of the server, may have intervened, "
@@ -1700,11 +1711,11 @@ msgstr ""
 "zazychrowùjącô twòją séc, czë téż séc serwera, mògła zablokòwac twòje "
 "żądanié."
 
-#: kio/global.cpp:779
+#: kio/global.cpp:794
 msgid "Connection to Server Closed Unexpectedly"
 msgstr "Sparłãczenié z serwerã òstało niespòdzajno zakùńczone"
 
-#: kio/global.cpp:780
+#: kio/global.cpp:795
 #, kde-format
 msgid ""
 "Although a connection was established to <strong>%1</strong>, the connection "
@@ -1713,7 +1724,7 @@ msgstr ""
 "Chòc sparłãczenié z <strong>%1</strong> òstało nawiązóné, pòcësniãto je "
 "pòzdze w niespòdzajnym pùnkce."
 
-#: kio/global.cpp:783
+#: kio/global.cpp:798
 msgid ""
 "A protocol error may have occurred, causing the server to close the "
 "connection as a response to the error."
@@ -1721,16 +1732,16 @@ msgstr ""
 "Mòże pòkôza sã fela w protokòle, a serwer przerwôł sparłãczenié w reakcëji "
 "na nã felã."
 
-#: kio/global.cpp:789
+#: kio/global.cpp:804
 msgid "URL Resource Invalid"
 msgstr "Lëchi URL"
 
-#: kio/global.cpp:790
+#: kio/global.cpp:805
 #, kde-format
 msgid "Protocol %1 is not a Filter Protocol"
 msgstr "Protokół %1 nie je filtrëjący"
 
-#: kio/global.cpp:791
+#: kio/global.cpp:806
 #, kde-format
 msgid ""
 "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
@@ -1741,7 +1752,7 @@ msgstr ""
 "(URL, Zrównanô Adresa Dostónkù), wpisóny przez ce, zamëkô w se nieznóną "
 "metodã przistãpù do pòdónegò dostónkù, <strong>%1%2</strong>."
 
-#: kio/global.cpp:796
+#: kio/global.cpp:811
 msgid ""
 "KDE is able to communicate through a protocol within a protocol. This "
 "request specified a protocol be used as such, however this protocol is not "
@@ -1752,15 +1763,15 @@ msgstr ""
 "protokół nie je przeznaczony blós do taczich przëtrôfków.Nôbarzi "
 "prawdopòdóbno òznôczô to felã w programie."
 
-#: kio/global.cpp:804
+#: kio/global.cpp:819
 msgid "Unable to Initialize Input/Output Device"
 msgstr "NI mòże zainicjowac ùrządzenia wéńdzenia/wińdzenia"
 
-#: kio/global.cpp:805
+#: kio/global.cpp:820
 msgid "Could Not Mount Device"
 msgstr "Ni mòże zamòntowac ùrządzenia"
 
-#: kio/global.cpp:806
+#: kio/global.cpp:821
 #, kde-format
 msgid ""
 "The requested device could not be initialized (\"mounted\"). The reported "
@@ -1769,7 +1780,7 @@ msgstr ""
 "Pòdóné ùrządzenié ni mògło òstac pòdłączoné (\"zamòntowóné\"). Fela: <strong>"
 "%1</strong>"
 
-#: kio/global.cpp:809
+#: kio/global.cpp:824
 msgid ""
 "The device may not be ready, for example there may be no media in a "
 "removable media device (i.e. no CD-ROM in a CD drive), or in the case of a "
@@ -1779,7 +1790,7 @@ msgstr ""
 "Mòże bëc téż tak, że ùrzadzenié nie je zwëczajno bezzmiłkòwò (mechaniczno) "
 "pòdłączoné."
 
-#: kio/global.cpp:813
+#: kio/global.cpp:828
 msgid ""
 "You may not have permissions to initialize (\"mount\") the device. On UNIX "
 "systems, often system administrator privileges are required to initialize a "
@@ -1789,7 +1800,7 @@ msgstr ""
 "uniksowëch systemach do pòdłączeniô ùrządzeniów wëmôgô sã czãsto praw "
 "sprôwnika."
 
-#: kio/global.cpp:817
+#: kio/global.cpp:832
 msgid ""
 "Check that the device is ready; removable drives must contain media, and "
 "portable devices must be connected and powered on.; and try again."
@@ -1797,15 +1808,15 @@ msgstr ""
 "Sprôwdzë, czë ùrządzenié je parôt do brëkùnkù; CD je bënë nëkù, zôpisowné "
 "media są pòdłączoné ë włączoné ë spróbùjë jesz rôz."
 
-#: kio/global.cpp:823
+#: kio/global.cpp:838
 msgid "Unable to Uninitialize Input/Output Device"
 msgstr "Ni mòże zainicjowac ùrządzenia wéńdzeniô/wińdzeniô"
 
-#: kio/global.cpp:824
+#: kio/global.cpp:839
 msgid "Could Not Unmount Device"
 msgstr "Ni mòże òdmòntowac ùrządzenia"
 
-#: kio/global.cpp:825
+#: kio/global.cpp:840
 #, kde-format
 msgid ""
 "The requested device could not be uninitialized (\"unmounted\"). The "
@@ -1814,7 +1825,7 @@ msgstr ""
 "Pòdóné ùrządzenié ni mògło òstac òdłączoné (\"òdmòntowóné\"). Fela: <strong>%"
 "1</strong>"
 
-#: kio/global.cpp:828
+#: kio/global.cpp:843
 msgid ""
 "The device may be busy, that is, still in use by another application or "
 "user. Even such things as having an open browser window on a location on "
@@ -1824,7 +1835,7 @@ msgstr ""
 "brëkòwnika. Nawetka òkno przezérnika, òtemkłé w katalogù na tim ùrządzeniô, "
 "mòże doprowadzëc do tegò, że ùrządzenié je zajãté."
 
-#: kio/global.cpp:832
+#: kio/global.cpp:847
 msgid ""
 "You may not have permissions to uninitialize (\"unmount\") the device. On "
 "UNIX systems, system administrator privileges are often required to "
@@ -1834,17 +1845,17 @@ msgstr ""
 "W uniksowëch systemach do òdłãczaniô ùrządzeniów nót je czãsto prawa "
 "sprôwnika."
 
-#: kio/global.cpp:836
+#: kio/global.cpp:851
 msgid "Check that no applications are accessing the device, and try again."
 msgstr ""
 "Sprôwdzë, czë jinszé programë nie ùżëwają tegò ùrządzenia ë spróbùjë jesz "
 "rôz."
 
-#: kio/global.cpp:841
+#: kio/global.cpp:856
 msgid "Cannot Read From Resource"
 msgstr "Ni mòże czëtac z dostónka"
 
-#: kio/global.cpp:842
+#: kio/global.cpp:857
 #, kde-format
 msgid ""
 "This means that although the resource, <strong>%1</strong>, was able to be "
@@ -1853,15 +1864,15 @@ msgstr ""
 "Òznôczô to, że nimò tegò, że dostónk <strong>%1</strong> òstôł òtemkłi, przë "
 "próbie czëtaniô z niegò pòkôza sã fela."
 
-#: kio/global.cpp:845
+#: kio/global.cpp:860
 msgid "You may not have permissions to read from the resource."
 msgstr "Felënk prawa do czëtaniô z negò dostónka"
 
-#: kio/global.cpp:854
+#: kio/global.cpp:869
 msgid "Cannot Write to Resource"
 msgstr "Ni mòże pisac do dostónka"
 
-#: kio/global.cpp:855
+#: kio/global.cpp:870
 #, kde-format
 msgid ""
 "This means that although the resource, <strong>%1</strong>, was able to be "
@@ -1870,19 +1881,19 @@ msgstr ""
 "Òznôczô to, że nimò tegò, że dostónk <strong>%1</strong> òstôł òtemkłi, przë "
 "próbie pisaniô do niegò pòkôza sã fela."
 
-#: kio/global.cpp:858
+#: kio/global.cpp:873
 msgid "You may not have permissions to write to the resource."
 msgstr "Mòże ni môsz prawa do pisaniô do negò dostónka."
 
-#: kio/global.cpp:867 kio/global.cpp:878
+#: kio/global.cpp:882 kio/global.cpp:893
 msgid "Could Not Listen for Network Connections"
 msgstr "Ni mòże nasłëchiwac"
 
-#: kio/global.cpp:868
+#: kio/global.cpp:883
 msgid "Could Not Bind"
 msgstr "Ni mòże przëłączëc"
 
-#: kio/global.cpp:869 kio/global.cpp:880
+#: kio/global.cpp:884 kio/global.cpp:895
 msgid ""
 "This is a fairly technical error in which a required device for network "
 "communications (a socket) could not be established to listen for incoming "
@@ -1891,15 +1902,15 @@ msgstr ""
 "Technicznô fela òznôczô, że ùrzadzenié nóterné do sécowëch sparłãczeniów nie "
 "mògło nasłëchiwac, żdając na przëchôdôjącé sécowé sparłãczenia."
 
-#: kio/global.cpp:879
+#: kio/global.cpp:894
 msgid "Could Not Listen"
 msgstr "Ni mòże nasłëchiwac"
 
-#: kio/global.cpp:889
+#: kio/global.cpp:904
 msgid "Could Not Accept Network Connection"
 msgstr "Ni mòże przëjąc sécowégò sparłãczeniô"
 
-#: kio/global.cpp:890
+#: kio/global.cpp:905
 msgid ""
 "This is a fairly technical error in which an error occurred while attempting "
 "to accept an incoming network connection."
@@ -1907,29 +1918,29 @@ msgstr ""
 "Technicznô fela òznôczô. że przëjãcé bùtnowégò sparłãczenia z sécą nie "
 "darzëło sã."
 
-#: kio/global.cpp:894
+#: kio/global.cpp:909
 msgid "You may not have permissions to accept the connection."
 msgstr "Mòżesz nie miec dosc prawa do przëjãcô negò sparłãczeniô."
 
-#: kio/global.cpp:899
+#: kio/global.cpp:914
 #, kde-format
 msgid "Could Not Login: %1"
 msgstr "Ni mòże sã wlogòwac: %1"
 
-#: kio/global.cpp:900
+#: kio/global.cpp:915
 msgid ""
 "An attempt to login to perform the requested operation was unsuccessful."
 msgstr "Próba wlogòwaniô, bë wëkònac żądaną òperacëjã, nie darzëła sã."
 
-#: kio/global.cpp:911
+#: kio/global.cpp:926
 msgid "Could Not Determine Resource Status"
 msgstr "Ni mòże ùstalëc stónu dostónka"
 
-#: kio/global.cpp:912
+#: kio/global.cpp:927
 msgid "Could Not Stat Resource"
 msgstr "Ni mòże wczëtac sztatusu dostónka"
 
-#: kio/global.cpp:913
+#: kio/global.cpp:928
 #, kde-format
 msgid ""
 "An attempt to determine information about the status of the resource <strong>"
@@ -1938,57 +1949,57 @@ msgstr ""
 "Próba ùzwëskaniô wëdowiédzë ò stónie dostónka <strong>%1</strong> (n.p. ò "
 "jegò mionie, ôrce, miarze) nie darzëła sã."
 
-#: kio/global.cpp:916
+#: kio/global.cpp:931
 msgid "The specified resource may not have existed or may not be accessible."
 msgstr "Wëbróny dostónk felëje, abò nie je przistãpny."
 
-#: kio/global.cpp:924
+#: kio/global.cpp:939
 msgid "Could Not Cancel Listing"
 msgstr "Ni mòże anulowac lëstë"
 
-#: kio/global.cpp:925
+#: kio/global.cpp:940
 msgid "FIXME: Document this"
 msgstr "BÔCZËNK; Felënk dokùmentacëji"
 
-#: kio/global.cpp:929
+#: kio/global.cpp:944
 msgid "Could Not Create Folder"
 msgstr "Ni mòże ùsôdzëc kataloga"
 
-#: kio/global.cpp:930
+#: kio/global.cpp:945
 msgid "An attempt to create the requested folder failed."
 msgstr "Próba ùsôdzeniô żądónegò kataloga nie darzëła sã."
 
-#: kio/global.cpp:931
+#: kio/global.cpp:946
 msgid "The location where the folder was to be created may not exist."
 msgstr "Mòże to nie dô placu, w jaczim mô bëc ùsôdzony katalog."
 
-#: kio/global.cpp:938
+#: kio/global.cpp:953
 msgid "Could Not Remove Folder"
 msgstr "Ni mòże rëmnąc kataloga"
 
-#: kio/global.cpp:939
+#: kio/global.cpp:954
 #, kde-format
 msgid "An attempt to remove the specified folder, <strong>%1</strong>, failed."
 msgstr "Próba rëmniãcô żądónegò kataloga, <strong>%1</strong>, nie darzëła sã."
 
-#: kio/global.cpp:941
+#: kio/global.cpp:956
 msgid "The specified folder may not exist."
 msgstr "To mòże nie dac pòdónegò kataloga."
 
-#: kio/global.cpp:942
+#: kio/global.cpp:957
 msgid "The specified folder may not be empty."
 msgstr "Pòdóny katalog mòże nie bëc pùsti."
 
-#: kio/global.cpp:945
+#: kio/global.cpp:960
 msgid "Ensure that the folder exists and is empty, and try again."
 msgstr ""
 "Ùgwësni sã, że to dô nen katalog ë téż, że je òn pùsti, ë spróbùjë jesz rôz."
 
-#: kio/global.cpp:950
+#: kio/global.cpp:965
 msgid "Could Not Resume File Transfer"
 msgstr "Ni mòże znowic transferu"
 
-#: kio/global.cpp:951
+#: kio/global.cpp:966
 #, kde-format
 msgid ""
 "The specified request asked that the transfer of file <strong>%1</strong> be "
@@ -1997,59 +2008,59 @@ msgstr ""
 "Żądanié znowienia transferu lopka <strong>%1</strong> ni mògło bëc "
 "zrealizowóné."
 
-#: kio/global.cpp:954
+#: kio/global.cpp:969
 msgid "The protocol, or the server, may not support file resuming."
 msgstr "Protokół abò serwer nie zezwôlô na znowienié transferu."
 
-#: kio/global.cpp:956
+#: kio/global.cpp:971
 msgid "Retry the request without attempting to resume transfer."
 msgstr "Znowi żądanié bez próbë znowienia transferu."
 
-#: kio/global.cpp:961
+#: kio/global.cpp:976
 msgid "Could Not Rename Resource"
 msgstr "Ni mòże zmienic miona dostónka"
 
-#: kio/global.cpp:962
+#: kio/global.cpp:977
 #, kde-format
 msgid "An attempt to rename the specified resource <strong>%1</strong> failed."
 msgstr "Próba zmianë miona dostónka <strong>%1</strong> nie darzëła sã."
 
-#: kio/global.cpp:970
+#: kio/global.cpp:985
 msgid "Could Not Alter Permissions of Resource"
 msgstr "Ni mòże zmienic prawa do dostónka"
 
-#: kio/global.cpp:971
+#: kio/global.cpp:986
 #, kde-format
 msgid ""
 "An attempt to alter the permissions on the specified resource <strong>%1</"
 "strong> failed."
 msgstr "Próba zmianë prawa dostónka <strong>%1</strong> nie dzarzëła sã."
 
-#: kio/global.cpp:978
+#: kio/global.cpp:993
 msgid "Could Not Change Ownership of Resource"
 msgstr "Ni mòże zmienic miéwcë dostónka"
 
-#: kio/global.cpp:979
+#: kio/global.cpp:994
 #, kde-format
 msgid ""
 "An attempt to change the ownership of the specified resource <strong>%1</"
 "strong> failed."
 msgstr "Próba zmianë miéwcë dostónka <strong>%1</strong> nie darzëła sã."
 
-#: kio/global.cpp:986
+#: kio/global.cpp:1001
 msgid "Could Not Delete Resource"
 msgstr "Ni mòże rëmnąc dostónka"
 
-#: kio/global.cpp:987
+#: kio/global.cpp:1002
 #, kde-format
 msgid "An attempt to delete the specified resource <strong>%1</strong> failed."
 msgstr "Próba rëmniãcô dostónka <strong>%1</strong> nie darzëła sã."
 
-#: kio/global.cpp:994
+#: kio/global.cpp:1009
 msgid "Unexpected Program Termination"
 msgstr "Niespòdzajné zakùńczenié programë"
 
-#: kio/global.cpp:995
+#: kio/global.cpp:1010
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
@@ -2058,11 +2069,11 @@ msgstr ""
 "Programa na twòjim kòmpùtrze, òdpòwiadającô za przistãp do protokòłu <strong>"
 "%1</strong> niespòdzajno zakùńczëła dzejanié."
 
-#: kio/global.cpp:1003
+#: kio/global.cpp:1018
 msgid "Out of Memory"
 msgstr "Felënk pamiãcë"
 
-#: kio/global.cpp:1004
+#: kio/global.cpp:1019
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
@@ -2071,11 +2082,11 @@ msgstr ""
 "Programie na twòjim kòmpùtrze, stojący za przistãpã do protokółu <strong>%1</"
 "strong>, felëje dosc pòdrãczny pamiãcë bë jisc z robòtą dali."
 
-#: kio/global.cpp:1012
+#: kio/global.cpp:1027
 msgid "Unknown Proxy Host"
 msgstr "Nieznóny pòstrzédniczący serwer (proxy)"
 
-#: kio/global.cpp:1013
+#: kio/global.cpp:1028
 #, kde-format
 msgid ""
 "While retrieving information about the specified proxy host, <strong>%1</"
@@ -2086,7 +2097,7 @@ msgstr ""
 "pòkôza sã fela \"Nieznónô adresa\". Fela na òznôczô, że w internece nie "
 "òstôł nalazłi kòmpùtr ò pódónym mionie."
 
-#: kio/global.cpp:1017
+#: kio/global.cpp:1032
 msgid ""
 "There may have been a problem with your network configuration, specifically "
 "your proxy's hostname. If you have been accessing the Internet with no "
@@ -2096,16 +2107,16 @@ msgstr ""
 "pòstrzédniczącegò serwera. Jezlë równak slédno brëkùnk internetu nie bëł "
 "problematiczny, je to mało prawdopòdobné."
 
-#: kio/global.cpp:1021
+#: kio/global.cpp:1036
 msgid "Double-check your proxy settings and try again."
 msgstr "Sprôwdzë nastôw pòstrzeniczącegò serwera ë znowi próbã."
 
-#: kio/global.cpp:1026
+#: kio/global.cpp:1041
 #, kde-format
 msgid "Authentication Failed: Method %1 Not Supported"
 msgstr "Fela ùdowierzeniô: metoda %1 nie je òbsłëgiwónô"
 
-#: kio/global.cpp:1028
+#: kio/global.cpp:1043
 #, kde-format
 msgid ""
 "Although you may have supplied the correct authentication details, the "
@@ -2113,7 +2124,7 @@ msgid ""
 "supported by the KDE program implementing the protocol %1."
 msgstr ""
 
-#: kio/global.cpp:1032
+#: kio/global.cpp:1047
 msgid ""
 "Please file a bug at <a href=\"http://bugs.kde.org/\">http://bugs.kde.org/</"
 "a> to inform the KDE team of the unsupported authentication method."
@@ -2122,15 +2133,15 @@ msgstr ""
 "\">http://bugs.kde.org/</a>, dôwając karnie KDE wiadło ò nieòbsłëgiwóny "
 "metodze ùdowierzaniô."
 
-#: kio/global.cpp:1038
+#: kio/global.cpp:1053
 msgid "Request Aborted"
 msgstr "Przerwóné żądanié"
 
-#: kio/global.cpp:1045
+#: kio/global.cpp:1060
 msgid "Internal Error in Server"
 msgstr "Bënowô fela serwera"
 
-#: kio/global.cpp:1046
+#: kio/global.cpp:1061
 #, kde-format
 msgid ""
 "The program on the server which provides access to the <strong>%1</strong> "
@@ -2139,7 +2150,7 @@ msgstr ""
 "Programa na serwerze dôwającô przistãp do protokòłu <strong>%1</strong> "
 "przekôza nazôd bënową felã: %2"
 
-#: kio/global.cpp:1049
+#: kio/global.cpp:1064
 msgid ""
 "This is most likely to be caused by a bug in the server program. Please "
 "consider submitting a full bug report as detailed below."
@@ -2147,11 +2158,11 @@ msgstr ""
 "Prawdopòdobno je tegò przëczëna w felë programë na serwerze. Proszã rozważëc "
 "wësłanié fùl wëdowiédzë ò felë wedle niższi instrukcëji."
 
-#: kio/global.cpp:1052
+#: kio/global.cpp:1067
 msgid "Contact the administrator of the server to advise them of the problem."
 msgstr "Sparłãczë sã ze sprôwnikã serwera, bë dac mù wiadło ò problemie."
 
-#: kio/global.cpp:1054
+#: kio/global.cpp:1069
 msgid ""
 "If you know who the authors of the server software are, submit the bug "
 "report directly to them."
@@ -2159,11 +2170,11 @@ msgstr ""
 "Jeżlë znajesz ùsôdzców softwôrë dlô tegò serwera, to wësli rapòrt ò felë "
 "prosto do nich."
 
-#: kio/global.cpp:1059
+#: kio/global.cpp:1074
 msgid "Timeout Error"
 msgstr "Czas minął"
 
-#: kio/global.cpp:1060
+#: kio/global.cpp:1075
 #, kde-format
 msgid ""
 "Although contact was made with the server, a response was not received "
@@ -2174,15 +2185,15 @@ msgid ""
 "settings in the KDE Control Center, by selecting Network -> Preferences."
 msgstr ""
 
-#: kio/global.cpp:1071
+#: kio/global.cpp:1086
 msgid "The server was too busy responding to other requests to respond."
 msgstr "Serwer bëł za baro zajãti, realizëjąc jinszé żądania."
 
-#: kio/global.cpp:1077
+#: kio/global.cpp:1092
 msgid "Unknown Error"
 msgstr "Nieznónô fela"
 
-#: kio/global.cpp:1078
+#: kio/global.cpp:1093
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
@@ -2191,11 +2202,11 @@ msgstr ""
 "Programa na twòjim kòmpùtrze dôwającô przistãp do protokòłu <strong>%1</"
 "strong> przekôza nazôd nieznóną felã: %2."
 
-#: kio/global.cpp:1086
+#: kio/global.cpp:1101
 msgid "Unknown Interruption"
 msgstr "Nieznóné przerwanié"
 
-#: kio/global.cpp:1087
+#: kio/global.cpp:1102
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
@@ -2204,11 +2215,11 @@ msgstr ""
 "Programa na twòjim kòmpùtrze dôwającô przistãp do protokòłu <strong>%1</"
 "strong> przekôza nazôd przerwanié nieznónegò ôrtu: %2"
 
-#: kio/global.cpp:1095
+#: kio/global.cpp:1110
 msgid "Could Not Delete Original File"
 msgstr "Ni mòże rëmnąc òriginalnegò lopka"
 
-#: kio/global.cpp:1096
+#: kio/global.cpp:1111
 #, kde-format
 msgid ""
 "The requested operation required the deleting of the original file, most "
@@ -2216,11 +2227,11 @@ msgid ""
 "strong> could not be deleted."
 msgstr ""
 
-#: kio/global.cpp:1105
+#: kio/global.cpp:1120
 msgid "Could Not Delete Temporary File"
 msgstr "Ni mòże rëmnąc terôczasnegò lopka"
 
-#: kio/global.cpp:1106
+#: kio/global.cpp:1121
 #, kde-format
 msgid ""
 "The requested operation required the creation of a temporary file in which "
@@ -2228,50 +2239,50 @@ msgid ""
 "strong> could not be deleted."
 msgstr ""
 
-#: kio/global.cpp:1115
+#: kio/global.cpp:1130
 msgid "Could Not Rename Original File"
 msgstr "Ni mòże zmienic miona lopka"
 
-#: kio/global.cpp:1116
+#: kio/global.cpp:1131
 #, kde-format
 msgid ""
 "The requested operation required the renaming of the original file <strong>%"
 "1</strong>, however it could not be renamed."
 msgstr ""
 
-#: kio/global.cpp:1124
+#: kio/global.cpp:1139
 msgid "Could Not Rename Temporary File"
 msgstr "Ni mòże zmienic miona terôczasnegò lopka"
 
-#: kio/global.cpp:1125
+#: kio/global.cpp:1140
 #, kde-format
 msgid ""
 "The requested operation required the creation of a temporary file <strong>%"
 "1</strong>, however it could not be created."
 msgstr ""
 
-#: kio/global.cpp:1133
+#: kio/global.cpp:1148
 msgid "Could Not Create Link"
 msgstr "Ni mòże ùsôdzëc lënka"
 
-#: kio/global.cpp:1134
+#: kio/global.cpp:1149
 msgid "Could Not Create Symbolic Link"
 msgstr "Ni mòże ùsôdzëc symbòlicznegò lënka"
 
-#: kio/global.cpp:1135
+#: kio/global.cpp:1150
 #, kde-format
 msgid "The requested symbolic link %1 could not be created."
 msgstr "Ni mòże ùsôdzëc żądónegò symbòlicznegò lënka %1."
 
-#: kio/global.cpp:1142
+#: kio/global.cpp:1157
 msgid "No Content"
 msgstr "Felënk zamkłoscë"
 
-#: kio/global.cpp:1147
+#: kio/global.cpp:1162
 msgid "Disk Full"
 msgstr "Fùl disk"
 
-#: kio/global.cpp:1148
+#: kio/global.cpp:1163
 #, kde-format
 msgid ""
 "The requested file <strong>%1</strong> could not be written to as there is "
@@ -2280,28 +2291,28 @@ msgstr ""
 "Ni mòże zapisac żądónegò lopka <strong>%1</strong> z przëczënë felënkù placu "
 "na disku."
 
-#: kio/global.cpp:1150
+#: kio/global.cpp:1165
 msgid ""
 "Free up enough disk space by 1) deleting unwanted and temporary files; 2) "
 "archiving files to removable media storage such as CD-Recordable discs; or "
 "3) obtain more storage capacity."
 msgstr ""
 
-#: kio/global.cpp:1157
+#: kio/global.cpp:1172
 msgid "Source and Destination Files Identical"
 msgstr ""
 
-#: kio/global.cpp:1158
+#: kio/global.cpp:1173
 msgid ""
 "The operation could not be completed because the source and destination "
 "files are the same file."
 msgstr ""
 
-#: kio/global.cpp:1160
+#: kio/global.cpp:1175
 msgid "Choose a different filename for the destination file."
 msgstr ""
 
-#: kio/global.cpp:1171
+#: kio/global.cpp:1186
 msgid "Undocumented Error"
 msgstr ""
 
@@ -5887,6 +5898,34 @@ msgstr "Nawigùjë"
 #: ../kfile/kurlbutton.cpp:119
 msgid "Show Full Path"
 msgstr ""
+
+#~ msgid "One Item"
+#~ msgid_plural "%1 Items"
+#~ msgstr[0] "Jeden element"
+#~ msgstr[1] "%1 elementë"
+#~ msgstr[2] "%1 elementów"
+
+#~ msgid "No Files"
+#~ msgstr "Felënk lopków"
+
+#~ msgid "One File"
+#~ msgid_plural "%1 Files"
+#~ msgstr[0] "Jedne lopk"
+#~ msgstr[1] "%1 lopczi"
+#~ msgstr[2] "%1 lopków"
+
+#~ msgid "One Folder"
+#~ msgid_plural "%1 Folders"
+#~ msgstr[0] "Jeden katalog"
+#~ msgstr[1] "%1 katalodżi"
+#~ msgstr[2] "%1 katalogów"
+
+#~ msgid "(%1 Total)"
+#~ msgstr "(Razã %1)"
+
+#~ msgctxt "Items (Folders, Files), Size"
+#~ msgid "%1 (%2, %3), %4"
+#~ msgstr "%1 (%2, %3), %4"
 
 #~ msgctxt "@title job"
 #~ msgid "Stating"

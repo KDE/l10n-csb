@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-05 10:49+0100\n"
+"POT-Creation-Date: 2008-11-06 09:50+0100\n"
 "PO-Revision-Date: 2008-07-20 09:06+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi\n"
@@ -351,7 +351,7 @@ msgid "Page #%1"
 msgstr "Grô: %1"
 
 #: context/engines/current/CurrentEngine.cpp:110
-#: context/applets/currenttrack/CurrentTrack.cpp:120 widgets/Osd.cpp:558
+#: context/applets/currenttrack/CurrentTrack.cpp:120 widgets/Osd.cpp:556
 msgid "No track playing"
 msgstr ""
 
@@ -768,26 +768,26 @@ msgctxt "Error message, tried to start an invalid service"
 msgid "Invalid (null) service, can not perform any operations."
 msgstr "Zmiłkòwô ùsłëżnota (nick), nie mòże zrobic dzejaniô."
 
+#. i18n: file: dialogs/tagdialogbase.ui:502
+#. i18n: ectx: property (text), widget (QLabel, scoreLabel)
 #: context/applets/currenttrack/CurrentTrack.cpp:85
-#: context/applets/currenttrack/CurrentTrack.cpp:342
-#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:258
-#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:702
-#: playlist/PlaylistModel.cpp:524 widgets/TrackTooltip.cpp:167
-#: widgets/SmartPlaylistEditor.cpp:189
-msgid "Score"
-msgstr "Pùnktacëjô"
+#: context/applets/currenttrack/CurrentTrack.cpp:342 dialogs/TagDialog.cpp:766
+#: rc.cpp:861
+msgid "Score:"
+msgstr "Pùnktacëjô:"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:86
-#: context/applets/currenttrack/CurrentTrack.cpp:343
-#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:256
-#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:700
-#: playlist/PlaylistModel.cpp:526 widgets/TrackTooltip.cpp:192
-msgid "Play Count"
-msgstr "Rechòwnik graniô"
+#: context/applets/currenttrack/CurrentTrack.cpp:343 dialogs/TagDialog.cpp:770
+msgid "Playcount:"
+msgstr "Rechòwnik òdegraniô:"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:87
+#: context/applets/currenttrack/CurrentTrack.cpp:344 dialogs/TagDialog.cpp:775
+msgctxt "a single item (singular)"
+msgid "Last Played:"
+msgstr "Slédno gróné:"
+
 #: context/applets/currenttrack/CurrentTrack.cpp:245
-#: context/applets/currenttrack/CurrentTrack.cpp:344
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:263
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:707
 #: widgets/TrackTooltip.cpp:197
@@ -1562,21 +1562,11 @@ msgstr "Miara:"
 msgid "Format:"
 msgstr "Fòrmat:"
 
-#. i18n: file: dialogs/tagdialogbase.ui:502
-#. i18n: ectx: property (text), widget (QLabel, scoreLabel)
-#: dialogs/TagDialog.cpp:766 rc.cpp:861
-msgid "Score:"
-msgstr "Pùnktacëjô:"
-
 #. i18n: file: dialogs/tagdialogbase.ui:531
 #. i18n: ectx: property (text), widget (QLabel, ratingLabel)
 #: dialogs/TagDialog.cpp:768 rc.cpp:864
 msgid "Rating:"
 msgstr "Notowania:"
-
-#: dialogs/TagDialog.cpp:770
-msgid "Playcount:"
-msgstr "Rechòwnik òdegraniô:"
 
 #: dialogs/TagDialog.cpp:773
 msgid "First Played:"
@@ -1586,11 +1576,6 @@ msgstr "Pierszi rôz gróné:"
 msgctxt "When this track was first played"
 msgid "Never"
 msgstr "Nigdë"
-
-#: dialogs/TagDialog.cpp:775
-msgctxt "a single item (singular)"
-msgid "Last Played:"
-msgstr "Slédno gróné:"
 
 #: dialogs/TagDialog.cpp:776
 msgctxt "When this track was last played"
@@ -2242,24 +2227,25 @@ msgstr "Jinteligentnô lësta gróniô"
 msgid "Already subscribed to %1."
 msgstr ""
 
-#: podcasts/sql/SqlPodcastProvider.cpp:228
+#: podcasts/sql/SqlPodcastProvider.cpp:244
 msgid "Downloading Podcast Media"
 msgstr "Ladowanié mediów podcastu"
 
-#: podcasts/sql/SqlPodcastProvider.cpp:228
+#: podcasts/sql/SqlPodcastProvider.cpp:244
 #, kde-format
 msgid "Downloading Podcast \"%1\""
 msgstr "Ladowanié podcastu \"%1\""
 
-#: podcasts/sql/SqlPodcastProvider.cpp:319
+#: podcasts/sql/SqlPodcastProvider.cpp:335
 #, kde-format
 msgid "Unable to save podcast episode file to %1"
 msgstr ""
 
 #: podcasts/sql/SqlPodcastProvider.h:45
 #: browsers/playlistbrowser/PodcastModel.cpp:365
-#: browsers/playlistbrowser/PodcastModel.cpp:440
-#: browsers/playlistbrowser/PodcastModel.cpp:478
+#: browsers/playlistbrowser/PodcastModel.cpp:450
+#: browsers/playlistbrowser/PodcastModel.cpp:477
+#: browsers/playlistbrowser/PodcastModel.cpp:515
 #: services/opmldirectory/OpmlDirectoryService.cpp:242
 msgid "Local Podcasts"
 msgstr "Môlowé podcastë"
@@ -2881,12 +2867,25 @@ msgstr "Pòrt"
 msgid "Match:"
 msgstr ""
 
+#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:256
+#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:700
+#: playlist/PlaylistModel.cpp:526 widgets/TrackTooltip.cpp:192
+msgid "Play Count"
+msgstr "Rechòwnik graniô"
+
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:257
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:701
 #: playlist/PlaylistModel.cpp:525 widgets/TrackTooltip.cpp:185
 #: widgets/SmartPlaylistEditor.cpp:189
 msgid "Rating"
 msgstr "Notowania"
+
+#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:258
+#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:702
+#: playlist/PlaylistModel.cpp:524 widgets/TrackTooltip.cpp:167
+#: widgets/SmartPlaylistEditor.cpp:189
+msgid "Score"
+msgstr "Pùnktacëjô"
 
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:259
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:703
@@ -7080,11 +7079,11 @@ msgstr ""
 msgid "OSD Preview - drag to reposition"
 msgstr ""
 
-#: widgets/Osd.cpp:579
+#: widgets/Osd.cpp:577
 msgid "No information available for this track"
 msgstr ""
 
-#: widgets/Osd.cpp:666
+#: widgets/Osd.cpp:664
 msgid "Paused"
 msgstr "Paùza"
 
