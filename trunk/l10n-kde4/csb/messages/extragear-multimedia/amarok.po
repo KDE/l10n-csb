@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-06 09:50+0100\n"
+"POT-Creation-Date: 2008-11-07 10:12+0100\n"
 "PO-Revision-Date: 2008-07-20 09:06+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi\n"
@@ -402,12 +402,12 @@ msgstr "suggestedsongs"
 msgid "username"
 msgstr "username"
 
-#: context/engines/wikipedia/WikipediaEngine.cpp:153
-#: context/engines/wikipedia/WikipediaEngine.cpp:381
+#: context/engines/wikipedia/WikipediaEngine.cpp:165
+#: context/engines/wikipedia/WikipediaEngine.cpp:393
 msgid "Fetching content.."
 msgstr "Ladowanié zamkłoscë.."
 
-#: context/engines/wikipedia/WikipediaEngine.cpp:286
+#: context/engines/wikipedia/WikipediaEngine.cpp:298
 msgid "Wikipedia Other Languages: <br/>"
 msgstr "Jine jãzëczi Wikipediji: <br/>"
 
@@ -777,9 +777,10 @@ msgid "Score:"
 msgstr "Pùnktacëjô:"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:86
-#: context/applets/currenttrack/CurrentTrack.cpp:343 dialogs/TagDialog.cpp:770
-msgid "Playcount:"
-msgstr "Rechòwnik òdegraniô:"
+#, fuzzy
+#| msgid "Play Count"
+msgid "Play Count:"
+msgstr "Rechòwnik graniô"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:87
 #: context/applets/currenttrack/CurrentTrack.cpp:344 dialogs/TagDialog.cpp:775
@@ -793,6 +794,10 @@ msgstr "Slédno gróné:"
 #: widgets/TrackTooltip.cpp:197
 msgid "Last Played"
 msgstr "Slédno gróné"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:343 dialogs/TagDialog.cpp:770
+msgid "Playcount:"
+msgstr "Rechòwnik òdegraniô:"
 
 #: context/applets/albums/AlbumsView.cpp:147 Systray.cpp:126
 #: browsers/collectionbrowser/CollectionTreeView.cpp:599
@@ -2345,24 +2350,24 @@ msgstr "Bez titla"
 msgid "A preset with the name %1 already exists. Overwrite?"
 msgstr ""
 
-#: EngineController.cpp:160
+#: EngineController.cpp:162
 msgid ""
 "<p>Phonon claims it <b>cannot</b> play MP3 files. You may want to examine "
 "the installation of the backend that phonon uses.</p><p>You may find useful "
 "information in the <i>FAQ</i> section of the <i>Amarok Handbook</i>.</p>"
 msgstr ""
 
-#: EngineController.cpp:179
+#: EngineController.cpp:181
 msgid "Install MP3 Support"
 msgstr ""
 
-#: EngineController.cpp:181
+#: EngineController.cpp:183
 msgid ""
 "Amarok currently cannot play MP3 files. Do you want to install support for "
 "MP3?"
 msgstr ""
 
-#: EngineController.cpp:182
+#: EngineController.cpp:184
 msgid "No MP3 Support"
 msgstr ""
 
