@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-17 09:39+0100\n"
+"POT-Creation-Date: 2008-11-18 09:53+0100\n"
 "PO-Revision-Date: 2008-07-11 16:43+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi\n"
@@ -802,7 +802,7 @@ msgstr "&Nôrzãdza"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:146
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:327
+#: rc.cpp:327 khtml/ecma/debugger/debugwindow.cpp:240
 msgid "&Settings"
 msgstr "Nas&tôwë"
 
@@ -1707,7 +1707,7 @@ msgstr "Zrëszë do pùnktu..."
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:219
 #. i18n: ectx: property (text), widget (QStatusBar, statusBar)
-#: rc.cpp:791 khtml/ecma/kjs_debugwin.cpp:480
+#: rc.cpp:791
 msgid "Step"
 msgstr "Krok"
 
@@ -1723,8 +1723,7 @@ msgstr "Biéj do nôslédny réżczi..."
 #. i18n: ectx: property (text), widget (QPushButton, pbStop)
 #: rc.cpp:797 rc.cpp:945 kdeui/jobs/kstatusbarjobtracker.cpp:156
 #: kdeui/util/kstandardguiitem.cpp:265 kdeui/util/kkeyserver_x11.cpp:109
-#: kdeui/findreplace/kreplace.cpp:353 khtml/ecma/kjs_debugwin.cpp:482
-#: kross/ui/view.cpp:309
+#: kdeui/findreplace/kreplace.cpp:353 kross/ui/view.cpp:309
 msgid "Stop"
 msgstr "Zatrzëmôj"
 
@@ -5423,6 +5422,7 @@ msgid "No provider selected."
 msgstr "Nie je wëbróny niżóden dowòznik."
 
 #: knewstuff/knewstuff2/core/providerhandler.cpp:156
+#: knewstuff/knewstuff2/core/providerhandler.cpp:176
 msgctxt "describes the feed of the latest posted entries"
 msgid "Latest"
 msgstr "Slédné"
@@ -5434,10 +5434,6 @@ msgstr "Nôwëżi òtaksowóné"
 #: knewstuff/knewstuff2/core/providerhandler.cpp:168
 msgid "Most Downloads"
 msgstr "Nôczãsczi zladowóné"
-
-#: knewstuff/knewstuff2/core/providerhandler.cpp:174
-msgid "Unsorted"
-msgstr "Niezortowóné"
 
 #: knewstuff/knewstuff2/core/security.cpp:76
 msgid ""
@@ -6081,7 +6077,7 @@ msgstr "Skrodzënë"
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:61
 #, fuzzy
 #| msgid "Curr&ent actions:"
-msgid "Current Scheme:"
+msgid "Current scheme:"
 msgstr "&Biéżné dzejania:"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:71
@@ -6101,8 +6097,10 @@ msgid "More Actions"
 msgstr "Akcëjô"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:81
-msgid "Save As Scheme Defaults"
-msgstr ""
+#, fuzzy
+#| msgid "&Defaults"
+msgid "Save as Scheme Defaults"
+msgstr "&Domëszlné"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:83
 msgid "Export Scheme..."
@@ -6113,8 +6111,10 @@ msgid "Name for New Scheme"
 msgstr ""
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:101
-msgid "Name for New Scheme:"
-msgstr ""
+#, fuzzy
+#| msgid "Curr&ent actions:"
+msgid "Name for new scheme:"
+msgstr "&Biéżné dzejania:"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:101
 #, fuzzy
@@ -6125,7 +6125,7 @@ msgstr "&Biéżné dzejania:"
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:107
 #, fuzzy
 #| msgid "The tag %1 already exists"
-msgid "The scheme with this name already exists"
+msgid "A scheme with this name already exists."
 msgstr "Merk %1 ju je"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:135
@@ -6136,8 +6136,10 @@ msgid ""
 msgstr ""
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:164
-msgid "Export To Location"
-msgstr ""
+#, fuzzy
+#| msgid "Click to Edit Location"
+msgid "Export to Location"
+msgstr "Klëkni bë editowac môl"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:173
 msgid "Could not export shortcuts scheme because the location is invalid."
@@ -6363,7 +6365,7 @@ msgid "Reset Toolbars"
 msgstr "Doprowôdzë listew nôrzãdzów nazôd"
 
 #: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2971
-#: khtml/khtmlview.cpp:3004 khtml/html/html_formimpl.cpp:2166
+#: khtml/khtmlview.cpp:3004 khtml/html/html_formimpl.cpp:2167
 msgid "Reset"
 msgstr "Doprowôdzë nazôd"
 
@@ -8338,21 +8340,21 @@ msgstr "Wprzódk"
 msgid "Next Character"
 msgstr "Zbiérk céchów"
 
-#: kdeui/widgets/kcharselect.cpp:370
-msgid "Set font"
-msgstr "Ùstawi fònt"
-
-#: kdeui/widgets/kcharselect.cpp:377
-msgid "Set font size"
-msgstr "Ùstawi miarã fòntu"
-
-#: kdeui/widgets/kcharselect.cpp:384
+#: kdeui/widgets/kcharselect.cpp:367
 msgid "Select a category"
 msgstr "Wëbierzë kategòrëjã"
 
-#: kdeui/widgets/kcharselect.cpp:387
+#: kdeui/widgets/kcharselect.cpp:370
 msgid "Select a block to be displayed"
 msgstr "Wëbierzë blok do wëskrzënieniô"
+
+#: kdeui/widgets/kcharselect.cpp:383
+msgid "Set font"
+msgstr "Ùstawi fònt"
+
+#: kdeui/widgets/kcharselect.cpp:390
+msgid "Set font size"
+msgstr "Ùstawi miarã fòntu"
 
 #: kdeui/widgets/kcharselect.cpp:629 kdeui/widgets/kcharselect.cpp:881
 #: kdeui/widgets/kcharselect-translation.cpp:43
@@ -10566,7 +10568,7 @@ msgstr ""
 "<br />Chcesz wësłac fòrmùlar</qt>"
 
 #: khtml/khtml_part.cpp:4594 khtml/khtmlview.cpp:2957 khtml/khtmlview.cpp:2999
-#: khtml/html/html_formimpl.cpp:1580 khtml/html/html_formimpl.cpp:2174
+#: khtml/html/html_formimpl.cpp:1581 khtml/html/html_formimpl.cpp:2175
 msgid "Submit"
 msgstr "Wëslë"
 
@@ -10664,8 +10666,8 @@ msgstr "Proszã wëbrac bezzmiłkòwi katalog bùdowaniô 'khtml/' "
 msgid "Available Tests: %1 (ignored: %2)"
 msgstr "Przistãpné testë %1 (ignorowóné: %2)"
 
-#: khtml/test_regression_gui_window.cpp:563 khtml/ecma/kjs_debugwin.cpp:481
-#: khtml/ecma/debugger/debugwindow.cpp:166
+#: khtml/test_regression_gui_window.cpp:563
+#: khtml/ecma/debugger/debugwindow.cpp:192
 msgid "Continue"
 msgstr "Kòntinuùjë"
 
@@ -10745,81 +10747,6 @@ msgstr "Fela parsera XML"
 #: khtml/xml/dom_docimpl.cpp:2237
 msgid "Basic Page Style"
 msgstr "Pòdspòdlowi sztél starnë"
-
-#: khtml/ecma/kjs_debugwin.cpp:298 khtml/ecma/debugger/errordlg.cpp:35
-msgid "JavaScript Error"
-msgstr "Fela JavaScriptu"
-
-#: khtml/ecma/kjs_debugwin.cpp:315 khtml/ecma/debugger/errordlg.cpp:50
-msgid "&Do not show this message again"
-msgstr "&Nie pòkazëjë tegò wiadła wicy"
-
-#: khtml/ecma/kjs_debugwin.cpp:385 khtml/ecma/debugger/debugwindow.cpp:111
-msgid "JavaScript Debugger"
-msgstr "Debùgera JavaScript"
-
-#: khtml/ecma/kjs_debugwin.cpp:400
-msgid "Call stack"
-msgstr "Wëwòłôj smiot"
-
-#: khtml/ecma/kjs_debugwin.cpp:435
-msgid "JavaScript console"
-msgstr "Kònsola JavaScript"
-
-#: khtml/ecma/kjs_debugwin.cpp:465
-msgctxt "Next breakpoint"
-msgid "&Next"
-msgstr "&Pòstãpny"
-
-#: khtml/ecma/kjs_debugwin.cpp:467
-msgid "&Step"
-msgstr "&Krokama"
-
-#: khtml/ecma/kjs_debugwin.cpp:472
-msgid "&Continue"
-msgstr "&Kòntinuùjë"
-
-#: khtml/ecma/kjs_debugwin.cpp:474
-msgid "St&op"
-msgstr "Za&trzëmôj"
-
-#: khtml/ecma/kjs_debugwin.cpp:476 khtml/ecma/debugger/debugwindow.cpp:160
-msgid "&Break at Next Statement"
-msgstr "Ò&przestóń na pòstãpny instrukcëji"
-
-#: khtml/ecma/kjs_debugwin.cpp:479
-msgctxt "Next breakpoint"
-msgid "Next"
-msgstr "Pòstãpny"
-
-#: khtml/ecma/kjs_debugwin.cpp:848 khtml/ecma/debugger/debugwindow.cpp:572
-#, kde-format
-msgid "Parse error at %1 line %2"
-msgstr "Fela parsera %1 w réze %2"
-
-#: khtml/ecma/kjs_debugwin.cpp:859
-#, kde-format
-msgid ""
-"An error occurred while attempting to run a script on this page.\n"
-"\n"
-"%1"
-msgstr ""
-"Òbczas zrëszaniô skriptów na ti starnié, òsta nalazłô fela.\n"
-"\n"
-"%1"
-
-#: khtml/ecma/kjs_debugwin.cpp:870 khtml/ecma/debugger/debugwindow.cpp:609
-#, kde-format
-msgid ""
-"An error occurred while attempting to run a script on this page.\n"
-"\n"
-"%1 line %2:\n"
-"%3"
-msgstr ""
-"Òbczas zrëszaniô skriptów na ti starnié, òsta nalazłô fela.\n"
-"\n"
-"%1 réza %2:\n"
-"%3"
 
 #: khtml/ecma/kjs_binding.cpp:184
 msgid ""
@@ -10922,7 +10849,7 @@ msgstr ""
 "<qt>Starna chce wësłac fòrmùlar, jaczi òtemknie <p>%1</p> w nowim òknie "
 "przezérnika z pòmòca Javascript.<br />Dac zgòdã na to?</qt>"
 
-#: khtml/ecma/debugger/debugdocument.cpp:210
+#: khtml/ecma/debugger/debugdocument.cpp:187
 msgid ""
 "Unable to find the Kate editor component;\n"
 "please check your KDE installation."
@@ -10930,11 +10857,11 @@ msgstr ""
 "Ni mòże nalezc kòmpòneta editorë tekstu Kate;\n"
 "Proszã sprôwdzëc instalacëjã KDE."
 
-#: khtml/ecma/debugger/debugdocument.cpp:327
+#: khtml/ecma/debugger/debugdocument.cpp:253
 msgid "Breakpoint"
 msgstr "Pùnktë załamaniô"
 
-#: khtml/ecma/debugger/scriptsdock.cpp:39
+#: khtml/ecma/debugger/scriptsdock.cpp:40
 msgid "Loaded Scripts"
 msgstr "Wczëtóné skriptë"
 
@@ -10946,52 +10873,96 @@ msgstr "Môlowé zmienne"
 msgid "Reference"
 msgstr "Òdniesenié"
 
-#: khtml/ecma/debugger/debugwindow.cpp:161
+#: khtml/ecma/debugger/debugwindow.cpp:111
+msgid "JavaScript Debugger"
+msgstr "Debùgera JavaScript"
+
+#: khtml/ecma/debugger/debugwindow.cpp:186
+msgid "&Break at Next Statement"
+msgstr "Ò&przestóń na pòstãpny instrukcëji"
+
+#: khtml/ecma/debugger/debugwindow.cpp:187
 msgid "Break at Next"
 msgstr "Òprzestóń na nôslédny"
 
-#: khtml/ecma/debugger/debugwindow.cpp:173
+#: khtml/ecma/debugger/debugwindow.cpp:199
 msgid "Step Over"
 msgstr "Skòkni dali"
 
-#: khtml/ecma/debugger/debugwindow.cpp:180
+#: khtml/ecma/debugger/debugwindow.cpp:206
 msgid "Step Into"
 msgstr "Wkroczë"
 
-#: khtml/ecma/debugger/debugwindow.cpp:187
+#: khtml/ecma/debugger/debugwindow.cpp:213
 msgid "Step Out"
 msgstr "Wëstãpi"
 
-#: khtml/ecma/debugger/debugwindow.cpp:196
+#: khtml/ecma/debugger/debugwindow.cpp:219
+msgid "Reindent Sources"
+msgstr ""
+
+#: khtml/ecma/debugger/debugwindow.cpp:224
+#, fuzzy
+#| msgid "Action"
+msgid "Report Exceptions"
+msgstr "Akcëjô"
+
+#: khtml/ecma/debugger/debugwindow.cpp:232
 msgid "&Debug"
 msgstr "&Debùgowanié"
 
-#: khtml/ecma/debugger/debugwindow.cpp:225
+#: khtml/ecma/debugger/debugwindow.cpp:266
 msgid "Close source"
 msgstr "Zamkni zdrój"
 
-#: khtml/ecma/debugger/debugwindow.cpp:231
+#: khtml/ecma/debugger/debugwindow.cpp:272
 msgid "Ready"
 msgstr "Parôt"
 
-#: khtml/ecma/debugger/debugwindow.cpp:789
+#: khtml/ecma/debugger/debugwindow.cpp:615
+#, kde-format
+msgid "Parse error at %1 line %2"
+msgstr "Fela parsera %1 w réze %2"
+
+#: khtml/ecma/debugger/debugwindow.cpp:650
+#, kde-format
+msgid ""
+"An error occurred while attempting to run a script on this page.\n"
+"\n"
+"%1 line %2:\n"
+"%3"
+msgstr ""
+"Òbczas zrëszaniô skriptów na ti starnié, òsta nalazłô fela.\n"
+"\n"
+"%1 réza %2:\n"
+"%3"
+
+#: khtml/ecma/debugger/debugwindow.cpp:835
 msgid ""
 "Don't know where to evaluate the expression. Please pause a script or open a "
 "source file."
 msgstr ""
 
-#: khtml/ecma/debugger/debugwindow.cpp:825
+#: khtml/ecma/debugger/debugwindow.cpp:871
 #, kde-format
 msgid "Evaluation threw an exception %1"
 msgstr ""
 
-#: khtml/ecma/debugger/consoledock.cpp:231
+#: khtml/ecma/debugger/consoledock.cpp:220
 msgid "Console"
 msgstr "Kònsola"
 
-#: khtml/ecma/debugger/consoledock.cpp:254
+#: khtml/ecma/debugger/consoledock.cpp:243
 msgid "Enter"
 msgstr "Wpiszë"
+
+#: khtml/ecma/debugger/errordlg.cpp:35
+msgid "JavaScript Error"
+msgstr "Fela JavaScriptu"
+
+#: khtml/ecma/debugger/errordlg.cpp:50
+msgid "&Do not show this message again"
+msgstr "&Nie pòkazëjë tegò wiadła wicy"
 
 #: khtml/ecma/debugger/callstackdock.cpp:37
 msgid "Call Stack"
@@ -11091,7 +11062,7 @@ msgstr ""
 "òdblokòwóny, mòże aùtomatno òdzwëskac nóterné wëdowiédze do logòwaniô na "
 "starnie %1. Zapisac nã wëdowiédzã?"
 
-#: khtml/html/html_formimpl.cpp:2555
+#: khtml/html/html_formimpl.cpp:2557
 msgid "Key Generator"
 msgstr "Generator kluczów"
 
@@ -12781,6 +12752,41 @@ msgstr "Pòrada &dnia"
 msgid "No such function \"%1\""
 msgstr "Felëje fùnkcëji \"%1\""
 
+#~ msgid "Unsorted"
+#~ msgstr "Niezortowóné"
+
+#~ msgid "Call stack"
+#~ msgstr "Wëwòłôj smiot"
+
+#~ msgid "JavaScript console"
+#~ msgstr "Kònsola JavaScript"
+
+#~ msgctxt "Next breakpoint"
+#~ msgid "&Next"
+#~ msgstr "&Pòstãpny"
+
+#~ msgid "&Step"
+#~ msgstr "&Krokama"
+
+#~ msgid "&Continue"
+#~ msgstr "&Kòntinuùjë"
+
+#~ msgid "St&op"
+#~ msgstr "Za&trzëmôj"
+
+#~ msgctxt "Next breakpoint"
+#~ msgid "Next"
+#~ msgstr "Pòstãpny"
+
+#~ msgid ""
+#~ "An error occurred while attempting to run a script on this page.\n"
+#~ "\n"
+#~ "%1"
+#~ msgstr ""
+#~ "Òbczas zrëszaniô skriptów na ti starnié, òsta nalazłô fela.\n"
+#~ "\n"
+#~ "%1"
+
 #, fuzzy
 #~| msgid "From:"
 #~ msgid "Form"
@@ -13372,9 +13378,6 @@ msgstr "Felëje fùnkcëji \"%1\""
 
 #~ msgid "Click for Location Navigation"
 #~ msgstr "Klëkni bë zmnienic môl nawigacëji"
-
-#~ msgid "Click to Edit Location"
-#~ msgstr "Klëkni bë editowac môl"
 
 #~ msgid "Navigate"
 #~ msgstr "Nawigacëjô"

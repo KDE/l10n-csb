@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-17 09:40+0100\n"
+"POT-Creation-Date: 2008-11-18 09:54+0100\n"
 "PO-Revision-Date: 2008-07-12 23:25+0200\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -204,11 +204,11 @@ msgid "Properties"
 msgstr "Swòjiznë"
 
 #: kcmfontinst/DuplicatesDialog.cpp:555
-msgid "Unmark for Deletion..."
+msgid "Unmark for Deletion"
 msgstr ""
 
 #: kcmfontinst/DuplicatesDialog.cpp:557
-msgid "Mark for Deletion..."
+msgid "Mark for Deletion"
 msgstr ""
 
 #: kcmfontinst/DuplicatesDialog.cpp:634 kcmfontinst/FontList.cpp:2016
@@ -289,7 +289,7 @@ msgstr "...plus %1 wicy"
 msgid "%1 [%2]"
 msgstr "%1 [%2]"
 
-#: kcmfontinst/FontList.cpp:1613
+#: kcmfontinst/FontList.cpp:1613 kcmfontinst/KCmFontInst.cpp:368
 msgid "Delete"
 msgstr "Rëmôj"
 
@@ -302,12 +302,16 @@ msgid "Reload"
 msgstr "Zladëjë znowa"
 
 #: kcmfontinst/FontList.cpp:1625 kcmfontinst/GroupList.cpp:773
-msgid "Enable..."
-msgstr "Włączë..."
+#: kcmfontinst/KCmFontInst.cpp:372 kcmfontinst/KCmFontInst.cpp:1399
+#: kcmfontinst/KCmFontInst.cpp:1423
+msgid "Enable"
+msgstr ""
 
 #: kcmfontinst/FontList.cpp:1627 kcmfontinst/GroupList.cpp:775
-msgid "Disable..."
-msgstr "Wëłączë..."
+#: kcmfontinst/KCmFontInst.cpp:376 kcmfontinst/KCmFontInst.cpp:1400
+#: kcmfontinst/KCmFontInst.cpp:1424
+msgid "Disable"
+msgstr "Wëłączë"
 
 #: kcmfontinst/GroupList.cpp:83
 msgid "All Fonts"
@@ -370,7 +374,7 @@ msgstr ""
 msgid "Remove Group"
 msgstr ""
 
-#: kcmfontinst/GroupList.cpp:588
+#: kcmfontinst/GroupList.cpp:588 kcmfontinst/GroupList.cpp:771
 msgid "Remove"
 msgstr ""
 
@@ -411,10 +415,6 @@ msgstr ""
 #, kde-format
 msgid "<qt>A group named <b>'%1'</b> already exists.</qt>"
 msgstr "<qt>Grëpa zwónô <b>'%1'</b> ju òbstoji.</qt>"
-
-#: kcmfontinst/GroupList.cpp:771
-msgid "Remove..."
-msgstr ""
 
 #: kcmfontinst/GroupList.cpp:778
 msgid "Rename..."
@@ -624,8 +624,10 @@ msgid "Change Preview Text..."
 msgstr "Zmiania pòdzérkù tekstu..."
 
 #: kcmfontinst/KCmFontInst.cpp:295
-msgid "Scan For Duplicate Fonts..."
-msgstr ""
+#, fuzzy
+#| msgid "Duplicate Fonts"
+msgid "Scan for Duplicate Fonts..."
+msgstr "Duplikòwanié fòntów"
 
 #: kcmfontinst/KCmFontInst.cpp:299
 msgid "Tools"
@@ -659,27 +661,13 @@ msgstr "Dodôj..."
 msgid "Install fonts"
 msgstr "Instalëjë fòntë"
 
-#: kcmfontinst/KCmFontInst.cpp:368
-msgid "Delete..."
-msgstr "Rëmôj"
-
 #: kcmfontinst/KCmFontInst.cpp:369
 msgid "Delete all selected fonts"
 msgstr "Rëmôj wszëtczé wëbróné fòntë"
 
-#: kcmfontinst/KCmFontInst.cpp:372 kcmfontinst/KCmFontInst.cpp:1399
-#: kcmfontinst/KCmFontInst.cpp:1423
-msgid "Enable"
-msgstr ""
-
 #: kcmfontinst/KCmFontInst.cpp:373
 msgid "Enable all selected fonts"
 msgstr "Wëbiérzë wszëtczé wëbróné fòntë"
-
-#: kcmfontinst/KCmFontInst.cpp:376 kcmfontinst/KCmFontInst.cpp:1400
-#: kcmfontinst/KCmFontInst.cpp:1424
-msgid "Disable"
-msgstr "Wëłączë"
 
 #: kcmfontinst/KCmFontInst.cpp:377
 msgid "Disable all selected fonts"
@@ -2339,3 +2327,12 @@ msgstr "Phags Pa"
 #: viewpart/UnicodeScripts.h:79
 msgid "Yi"
 msgstr "Yi"
+
+#~ msgid "Enable..."
+#~ msgstr "Włączë..."
+
+#~ msgid "Disable..."
+#~ msgstr "Wëłączë..."
+
+#~ msgid "Delete..."
+#~ msgstr "Rëmôj"
