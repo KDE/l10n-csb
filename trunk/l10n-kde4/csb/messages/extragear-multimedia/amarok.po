@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-20 10:25+0100\n"
+"POT-Creation-Date: 2008-11-21 10:12+0100\n"
 "PO-Revision-Date: 2008-07-20 09:06+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi\n"
@@ -278,7 +278,7 @@ msgstr "(Pòmòc)"
 msgid "Transferring Tracks"
 msgstr "Przenoszenié sztëczków"
 
-#: collection/sqlcollection/ScanManager.cpp:443
+#: collection/sqlcollection/ScanManager.cpp:436
 msgid "Scanning music"
 msgstr "Przeszukiwanié mùzyczi"
 
@@ -765,7 +765,7 @@ msgstr "Slédno gróné"
 msgid "Playcount:"
 msgstr "Rechòwnik òdegraniô:"
 
-#: context/applets/albums/AlbumsView.cpp:147 Systray.cpp:126
+#: context/applets/albums/AlbumsView.cpp:107 Systray.cpp:126
 #: browsers/collectionbrowser/CollectionTreeView.cpp:580
 #: browsers/filebrowser/MyDirOperator.cpp:267
 #: browsers/playlistbrowser/PodcastCategory.cpp:464
@@ -773,7 +773,7 @@ msgstr "Rechòwnik òdegraniô:"
 msgid "&Append to Playlist"
 msgstr "&Dodôj do lëstë graniô"
 
-#: context/applets/albums/AlbumsView.cpp:148
+#: context/applets/albums/AlbumsView.cpp:108
 #: browsers/collectionbrowser/CollectionTreeView.cpp:588
 #: browsers/filebrowser/MyDirOperator.cpp:268
 #: browsers/playlistbrowser/PodcastCategory.cpp:477
@@ -782,7 +782,7 @@ msgctxt "Replace the currently loaded tracks with these"
 msgid "&Load"
 msgstr "Ł&adëjë"
 
-#: context/applets/albums/AlbumsView.cpp:149
+#: context/applets/albums/AlbumsView.cpp:109
 #: browsers/filebrowser/MyDirOperator.cpp:269
 #: playlist/view/PlaylistViewCommon.cpp:75
 msgid "Edit Track Details"
@@ -2201,16 +2201,16 @@ msgstr "Podcast SQL"
 msgid "Podcast"
 msgstr "Podcast"
 
-#: podcasts/PodcastReader.cpp:73
+#: podcasts/PodcastReader.cpp:77
 #, kde-format
 msgid "Importing podcast channel from %1"
 msgstr ""
 
-#: podcasts/PodcastReader.cpp:77
+#: podcasts/PodcastReader.cpp:81
 msgid "Updating podcast channel"
 msgstr ""
 
-#: podcasts/PodcastReader.cpp:78
+#: podcasts/PodcastReader.cpp:82
 #, fuzzy, kde-format
 #| msgid "Rating: %1"
 msgid "Updating \"%1\""
@@ -2224,7 +2224,7 @@ msgstr ""
 msgid "&Queue Track"
 msgstr "&Régùjë sztëczk"
 
-#. i18n: file: dialogs/TagDialogBase.ui:745
+#. i18n: file: dialogs/TagDialogBase.ui:751
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_cancel)
 #. i18n: file: services/magnatune/MagnatuneRedownloadDialogBase.ui:36
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
@@ -2331,7 +2331,6 @@ msgid "Presets"
 msgstr ""
 
 #: equalizerpresetmanager.cpp:61
-#: browsers/playlistbrowser/PodcastCategory.cpp:489
 #: browsers/playlistbrowser/UserPlaylistTreeView.cpp:186
 msgid "&Rename"
 msgstr "&zmieni miono"
@@ -2923,28 +2922,21 @@ msgstr "&Dodôj podcast"
 msgid "&Update All"
 msgstr "&Zaktualni wszëtkò"
 
-#: browsers/playlistbrowser/PodcastCategory.cpp:514
+#: browsers/playlistbrowser/PodcastCategory.cpp:516
 #, fuzzy
 #| msgid "&Duration:"
 msgid "&Remove Subscription"
 msgstr "&Czas déraniô"
 
-#: browsers/playlistbrowser/PodcastCategory.cpp:526
-#, fuzzy
-#| msgid "Label"
-msgctxt "Label (or tag) the currently selected Channel(s)"
-msgid "&Label"
-msgstr "Eticzéta"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:538
+#: browsers/playlistbrowser/PodcastCategory.cpp:542
 msgid "&Configure"
 msgstr "&Kònfigùrëjë"
 
-#: browsers/playlistbrowser/PodcastCategory.cpp:563
+#: browsers/playlistbrowser/PodcastCategory.cpp:567
 msgid "&Delete Downloaded Episode"
 msgstr ""
 
-#: browsers/playlistbrowser/PodcastCategory.cpp:575
+#: browsers/playlistbrowser/PodcastCategory.cpp:579
 #, fuzzy
 #| msgid "Download options"
 msgid "&Download Episode"
@@ -5059,19 +5051,19 @@ msgstr "Môl:"
 msgid "&Previous"
 msgstr "&Pòprzédny"
 
-#. i18n: file: dialogs/TagDialogBase.ui:702
+#. i18n: file: dialogs/TagDialogBase.ui:705
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_next)
 #: rc.cpp:818
 msgid "&Next"
 msgstr "&Pòstãpny"
 
-#. i18n: file: dialogs/TagDialogBase.ui:709
+#. i18n: file: dialogs/TagDialogBase.ui:715
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_perTrack)
 #: rc.cpp:821
 msgid "Per Trac&k"
 msgstr "Na s&ztëczk"
 
-#. i18n: file: dialogs/TagDialogBase.ui:732
+#. i18n: file: dialogs/TagDialogBase.ui:738
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_ok)
 #: rc.cpp:824
 msgid "Sa&ve && Close"
@@ -6836,42 +6828,42 @@ msgid ""
 "anything else to exit:\n"
 msgstr ""
 
-#: statusbar/StatusBar.cpp:209
+#: statusbar/StatusBar.cpp:212
 msgid "Amarok is paused"
 msgstr "Òdgriwónié w Amarokù je spaùzowóné"
 
-#: statusbar/StatusBar.cpp:253
+#: statusbar/StatusBar.cpp:256
 #, kde-format
 msgctxt "track by artist on album"
 msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgstr "<b>%1</b> wëkònywóné przez <b>%2</b> z albùmù <b>%3</b>"
 
-#: statusbar/StatusBar.cpp:256
+#: statusbar/StatusBar.cpp:259
 #, kde-format
 msgctxt "track by artist"
 msgid "<b>%1</b> by <b>%2</b>"
 msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
 
-#: statusbar/StatusBar.cpp:260
+#: statusbar/StatusBar.cpp:263
 #, kde-format
 msgctxt "track on album"
 msgid "<b>%1</b> on <b>%2</b>"
 msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
 
-#: statusbar/StatusBar.cpp:265
+#: statusbar/StatusBar.cpp:268
 msgid "Unknown track"
 msgstr "Nieznóny sztëczk"
 
-#: statusbar/StatusBar.cpp:277
+#: statusbar/StatusBar.cpp:280
 msgid "from"
 msgstr "z"
 
-#: statusbar/StatusBar.cpp:296
+#: statusbar/StatusBar.cpp:299
 #, kde-format
 msgid "Playing: %1"
 msgstr "Grô: %1"
 
-#: statusbar/StatusBar.cpp:332
+#: statusbar/StatusBar.cpp:335
 #, fuzzy, kde-format
 #| msgctxt "The Amount of tracks in queue; %2 total playtime"
 #| msgid "1 track (%2)"
@@ -6883,7 +6875,7 @@ msgstr[0] "1 sztëczk (%2)"
 msgstr[1] "%1 sztëcczi (%2)"
 msgstr[2] "%1 sztëczków (%2)"
 
-#: statusbar/StatusBar.cpp:337
+#: statusbar/StatusBar.cpp:341
 #, fuzzy, kde-format
 #| msgid "%1 track"
 #| msgid_plural "%1 tracks"
@@ -7550,6 +7542,12 @@ msgstr "Òbkłôdka"
 #: covermanager/CoverManager.cpp:956
 msgid "No Artist"
 msgstr "Felëje artistë"
+
+#, fuzzy
+#~| msgid "Label"
+#~ msgctxt "Label (or tag) the currently selected Channel(s)"
+#~ msgid "&Label"
+#~ msgstr "Eticzéta"
 
 #~ msgid "userevents"
 #~ msgstr "userevents"
