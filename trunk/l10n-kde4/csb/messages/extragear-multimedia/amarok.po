@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-24 09:57+0100\n"
+"POT-Creation-Date: 2008-11-25 10:27+0100\n"
 "PO-Revision-Date: 2008-07-20 09:06+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi\n"
@@ -230,7 +230,7 @@ msgstr "Môlowô kòlekcëjô"
 #: browsers/collectionbrowser/CollectionTreeItem.cpp:154
 #: playlist/view/graphic/PlaylistGraphicsItem.cpp:352
 #: collectionscanner/CollectionScanner.cpp:645
-#: covermanager/CoverManager.cpp:358 covermanager/CoverManager.cpp:935
+#: covermanager/CoverViewDialog.h:45 covermanager/CoverManager.cpp:914
 msgid "Various Artists"
 msgstr "Rozmajiti wëkònywaczë"
 
@@ -278,7 +278,7 @@ msgstr "(Pòmòc)"
 msgid "Transferring Tracks"
 msgstr "Przenoszenié sztëczków"
 
-#: collection/sqlcollection/ScanManager.cpp:438
+#: collection/sqlcollection/ScanManager.cpp:452
 msgid "Scanning music"
 msgstr "Przeszukiwanié mùzyczi"
 
@@ -289,8 +289,8 @@ msgid "Stream"
 msgstr "Strëga"
 
 #: collection/sqlcollection/SqlMeta.cpp:287
-#: services/lastfm/meta/LastFmMeta.cpp:147 covermanager/CoverManager.cpp:357
-#: covermanager/CoverManager.cpp:935
+#: services/lastfm/meta/LastFmMeta.cpp:147 covermanager/CoverViewDialog.h:44
+#: covermanager/CoverManager.cpp:914
 #, kde-format
 msgid "%1 - %2"
 msgstr "%1 - %2"
@@ -1896,7 +1896,7 @@ msgid ""
 "A script with the name '%1' is already installed. Please uninstall it first."
 msgstr ""
 
-#: dialogs/ScriptManager.cpp:337
+#: dialogs/ScriptManager.cpp:337 dialogs/ScriptManager.cpp:391
 msgid ""
 "<p>Script successfully installed.</p><p>Please restart Amarok to start the "
 "script!</p>"
@@ -1908,32 +1908,32 @@ msgid ""
 "about this error.</p>"
 msgstr ""
 
-#: dialogs/ScriptManager.cpp:403
-#, kde-format
-msgid "Are you sure you want to uninstall the script '%1'?"
-msgstr "Czë na gwës chcesz òdjinstalowac skript '%1'?"
-
-#: dialogs/ScriptManager.cpp:403
-msgid "Uninstall Script"
-msgstr "Òdjinstalëjë skript"
-
-#: dialogs/ScriptManager.cpp:403
-msgid "Uninstall"
-msgstr "Òdjinstalëjë"
-
-#: dialogs/ScriptManager.cpp:412
-msgid ""
-"<p>Could not uninstall this script.</p><p>The ScriptManager can only "
-"uninstall scripts which have been installed as packages.</p>"
-msgstr ""
-
-#: dialogs/ScriptManager.cpp:421
+#: dialogs/ScriptManager.cpp:394 dialogs/ScriptManager.cpp:425
 msgid ""
 "<p>Script successfully uninstalled.</p><p>Please restart Amarok to totally "
 "remove the script!</p>"
 msgstr ""
 
-#: dialogs/ScriptManager.cpp:456
+#: dialogs/ScriptManager.cpp:407
+#, kde-format
+msgid "Are you sure you want to uninstall the script '%1'?"
+msgstr "Czë na gwës chcesz òdjinstalowac skript '%1'?"
+
+#: dialogs/ScriptManager.cpp:407
+msgid "Uninstall Script"
+msgstr "Òdjinstalëjë skript"
+
+#: dialogs/ScriptManager.cpp:407
+msgid "Uninstall"
+msgstr "Òdjinstalëjë"
+
+#: dialogs/ScriptManager.cpp:416
+msgid ""
+"<p>Could not uninstall this script.</p><p>The ScriptManager can only "
+"uninstall scripts which have been installed as packages.</p>"
+msgstr ""
+
+#: dialogs/ScriptManager.cpp:460
 msgid "There are exceptions caught in the script. Please refer to the log!"
 msgstr ""
 
@@ -7272,14 +7272,14 @@ msgstr ""
 "<div align=center><i>Przecygni znaczniczi tuwò, abë zdefiniowac schémã miona "
 "lopka.</i></div>"
 
-#: covermanager/CoverFetchingActions.cpp:40
+#: covermanager/CoverFetchingActions.cpp:41
 msgid "Fetch Cover"
 msgid_plural "Fetch Covers"
 msgstr[0] "Zladëjë òbkłôdkã"
 msgstr[1] "Zladëjë òbkłôdczi"
 msgstr[2] "Zladëjë òbkłôdczi"
 
-#: covermanager/CoverFetchingActions.cpp:42
+#: covermanager/CoverFetchingActions.cpp:43
 #, kde-format
 msgid "Fetch the artwork for this album"
 msgid_plural "Fetch artwork for %1 albums"
@@ -7287,22 +7287,22 @@ msgstr[0] "Zladëjë òbkłôdkã dlô tegò albùmù"
 msgstr[1] "Zladëjë òbkłôdkã dlô nëch %1 albùmów"
 msgstr[2] "Zladëjë òbkłôdkã dlô nëch %1 albùmów"
 
-#: covermanager/CoverFetchingActions.cpp:62
+#: covermanager/CoverFetchingActions.cpp:63
 msgid "Display Cover"
 msgstr "Pòkażë wòbkłôdkã"
 
-#: covermanager/CoverFetchingActions.cpp:64
+#: covermanager/CoverFetchingActions.cpp:65
 msgid "Display artwork for this album"
 msgstr "Pòkażë òbkłôdkã dlô tegò albùmù"
 
-#: covermanager/CoverFetchingActions.cpp:82
+#: covermanager/CoverFetchingActions.cpp:83
 msgid "Unset Cover"
 msgid_plural "Unset Covers"
 msgstr[0] "Wëczëszczë òbkłôdkã"
 msgstr[1] "Wëczëszczë òbkłôdczi"
 msgstr[2] "Wëczëszczë òbkłôdczi"
 
-#: covermanager/CoverFetchingActions.cpp:84
+#: covermanager/CoverFetchingActions.cpp:85
 #, kde-format
 msgid "Remove artwork for this album"
 msgid_plural "Remove artwork for %1 albums"
@@ -7310,7 +7310,7 @@ msgstr[0] "Rëmôj òbkłôdkã dlô tegò albùmù"
 msgstr[1] "Rëmôj òbkłôdkã dlô %1 albùmów"
 msgstr[2] "Rëmôj òbkłôdkã dlô %1 albùmów"
 
-#: covermanager/CoverFetchingActions.cpp:97
+#: covermanager/CoverFetchingActions.cpp:98
 #, kde-format
 msgid "Are you sure you want to remove this cover from the Collection?"
 msgid_plural ""
@@ -7319,11 +7319,11 @@ msgstr[0] "Na gwës chcesz rëmnąc nã òbkłôdkã z kòlekcëji?"
 msgstr[1] "Na gwës chcesz rëmnąc ne %1 òbkłôdczi z kòlekcëji?"
 msgstr[2] "Na gwës chcesz rëmnąc nych %1 òbkłôdków z kòlekcëji?"
 
-#: covermanager/CoverFetchingActions.cpp:120
+#: covermanager/CoverFetchingActions.cpp:121
 msgid "Set Custom Cover"
 msgstr "Ùstôwi &swòją òbkłôdkã"
 
-#: covermanager/CoverFetchingActions.cpp:122
+#: covermanager/CoverFetchingActions.cpp:123
 #, kde-format
 msgid "Set custom artwork for this album"
 msgid_plural "Set custom artwork for these %1 albums"
@@ -7331,7 +7331,7 @@ msgstr[0] "Ùstawi swòją òbkłôdkã dlô tegò albùmù"
 msgstr[1] "Ùstawi swòją òbkłôdką dlô nëch %1 albùmów"
 msgstr[2] "Ùstawi swòją òbkłôdką dlô nëch %1 albùmów"
 
-#: covermanager/CoverFetchingActions.cpp:135
+#: covermanager/CoverFetchingActions.cpp:136
 msgid "Select Cover Image File"
 msgstr "Wëbiérzë lopk òbkłôdczi"
 
@@ -7423,7 +7423,7 @@ msgstr ""
 msgid "Albums By"
 msgstr "Albùmë artistë"
 
-#: covermanager/CoverManager.cpp:132 covermanager/CoverManager.cpp:396
+#: covermanager/CoverManager.cpp:132 covermanager/CoverManager.cpp:375
 msgid "All Artists"
 msgstr "Wszëtcy artisce"
 
@@ -7461,16 +7461,16 @@ msgstr "Regionalné ùstawë Amazona"
 msgid "Fetch Missing Covers"
 msgstr "Zladëjë felëjącé òbkłôdczi"
 
-#: covermanager/CoverManager.cpp:476
+#: covermanager/CoverManager.cpp:455
 msgid "Loading Thumbnails..."
 msgstr "Ladowanié miniaturów..."
 
-#: covermanager/CoverManager.cpp:759
+#: covermanager/CoverManager.cpp:738
 msgctxt "The fetching is done."
 msgid "Finished."
 msgstr "Fardich."
 
-#: covermanager/CoverManager.cpp:761
+#: covermanager/CoverManager.cpp:740
 #, kde-format
 msgid " Cover not found"
 msgid_plural " <b>%1</b> covers not found"
@@ -7478,17 +7478,17 @@ msgstr[0] "Òbkłôdka nie je nalazłô"
 msgstr[1] "<b>%1</b> òbkłôdczi nie są nalazłé"
 msgstr[2] "<b>%1</b> òbkłôdków nie je nalazłéch"
 
-#: covermanager/CoverManager.cpp:773
+#: covermanager/CoverManager.cpp:752
 #, kde-format
 msgid "Fetching cover for %1..."
 msgstr "Ladowanié òbkłôdczi dlô %1..."
 
-#: covermanager/CoverManager.cpp:775
+#: covermanager/CoverManager.cpp:754
 #, kde-format
 msgid "Fetching cover for %1 - %2..."
 msgstr "Ladowanié òbkłôdczi dlô %1 - %2..."
 
-#: covermanager/CoverManager.cpp:781
+#: covermanager/CoverManager.cpp:760
 #, kde-format
 msgid "Fetching 1 cover: "
 msgid_plural "Fetching <b>%1</b> covers... : "
@@ -7496,7 +7496,7 @@ msgstr[0] "Ladowanié 1 òbkłôdczi: "
 msgstr[1] "Ladowanié <b>%1</b> òbkłôdków... :"
 msgstr[2] "Ladowanié <b>%1</b> òbkłôdków... :"
 
-#: covermanager/CoverManager.cpp:783
+#: covermanager/CoverManager.cpp:762
 #, kde-format
 msgid "1 fetched"
 msgid_plural "%1 fetched"
@@ -7504,11 +7504,11 @@ msgstr[0] "1 zladowónô"
 msgstr[1] "%1 zladowóné"
 msgstr[2] "%1 zladowónëch"
 
-#: covermanager/CoverManager.cpp:785
+#: covermanager/CoverManager.cpp:764
 msgid " - "
 msgstr " - "
 
-#: covermanager/CoverManager.cpp:786
+#: covermanager/CoverManager.cpp:765
 #, kde-format
 msgid "1 not found"
 msgid_plural "%1 not found"
@@ -7516,11 +7516,11 @@ msgstr[0] "%1 nie nalazłô"
 msgstr[1] "%1 nie nalazłe"
 msgstr[2] "%1 nie nalazłëch"
 
-#: covermanager/CoverManager.cpp:789
+#: covermanager/CoverManager.cpp:768
 msgid "Connecting..."
 msgstr "Pòłączenié"
 
-#: covermanager/CoverManager.cpp:815
+#: covermanager/CoverManager.cpp:794
 #, kde-format
 msgid "1 result for \"%2\""
 msgid_plural "%1 results for \"%2\""
@@ -7528,7 +7528,7 @@ msgstr[0] "1 rezultat dlô \"%2\""
 msgstr[1] "%1 rezultatë dlô \"%2\""
 msgstr[2] "%1 rezultatów dlô \"%2\""
 
-#: covermanager/CoverManager.cpp:817
+#: covermanager/CoverManager.cpp:796
 #, kde-format
 msgid "1 album"
 msgid_plural "%1 albums"
@@ -7536,20 +7536,20 @@ msgstr[0] "1 albùm"
 msgstr[1] "%1 albùmë"
 msgstr[2] "%1 albùmów"
 
-#: covermanager/CoverManager.cpp:823
+#: covermanager/CoverManager.cpp:802
 msgid " by "
 msgstr " wëkònywóny przez "
 
-#: covermanager/CoverManager.cpp:828
+#: covermanager/CoverManager.cpp:807
 #, kde-format
 msgid " - ( <b>%1</b> without cover )"
 msgstr " - ( <b>%1</b> bez òbkłôdczi )"
 
-#: covermanager/CoverManager.cpp:874
+#: covermanager/CoverManager.cpp:853
 msgid "Cover Image"
 msgstr "Òbkłôdka"
 
-#: covermanager/CoverManager.cpp:956
+#: covermanager/CoverManager.cpp:935
 msgid "No Artist"
 msgstr "Felëje artistë"
 
