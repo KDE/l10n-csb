@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpat\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-01 10:38+0200\n"
+"POT-Creation-Date: 2008-12-05 10:17+0100\n"
 "PO-Revision-Date: 2008-01-01 11:12+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -23,11 +23,11 @@ msgstr ""
 msgid "Grandfather's Clock"
 msgstr "&Zédżer"
 
-#: dealer.cpp:858
+#: dealer.cpp:890
 msgid "Congratulations! You have won."
 msgstr "Gratulacëje! Môsz dobëté."
 
-#: dealer.cpp:860
+#: dealer.cpp:892
 msgid "Congratulations! We have won."
 msgstr "Gratulacëje! Mómë dobëté."
 
@@ -43,12 +43,18 @@ msgstr "&Sztërdzescë òsmë"
 msgid "Freecell"
 msgstr "&Freecell"
 
-#: gamestatsimpl.cpp:64
+#. i18n: file: gamestats.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, GameStats)
+#: gamestatsimpl.cpp:35 pwidget.cpp:147 rc.cpp:3
+msgid "Statistics"
+msgstr "Statistika"
+
+#: gamestatsimpl.cpp:81
 #, kde-format
 msgid "%1 (%2%)"
 msgstr "%1% (%2)"
 
-#: gamestatsimpl.cpp:71
+#: gamestatsimpl.cpp:88
 #, kde-format
 msgid "1 loss"
 msgid_plural "%1 losses"
@@ -56,7 +62,7 @@ msgstr[0] "1 przerzniãtô"
 msgstr[1] "%1 przerzniãté"
 msgstr[2] "%1 przerzniãtëch"
 
-#: gamestatsimpl.cpp:73
+#: gamestatsimpl.cpp:90
 #, kde-format
 msgid "1 win"
 msgid_plural "%1 wins"
@@ -248,12 +254,6 @@ msgstr "Kawlowé kôrtë"
 msgid "Select Deck..."
 msgstr "Wëbiérzë stół..."
 
-#. i18n: file: gamestats.ui:13
-#. i18n: ectx: property (windowTitle), widget (QDialog, GameStats)
-#: pwidget.cpp:147 rc.cpp:3
-msgid "Statistics"
-msgstr "Statistika"
-
 #: pwidget.cpp:150
 msgid "&Enable Autodrop"
 msgstr "&Włączë aùtomatné ùpùszczanié"
@@ -328,74 +328,60 @@ msgstr "Nié, ta gra ni mòże bëc dobëtô."
 msgid "Timeout while playing - unknown if it can be won"
 msgstr ""
 
-#. i18n: file: gamestats.ui:44
+#. i18n: file: gamestats.ui:33
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: rc.cpp:6
 msgid "Game:"
 msgstr "Gra:"
 
-#. i18n: file: gamestats.ui:88
+#. i18n: file: gamestats.ui:75
 #. i18n: ectx: property (text), widget (QLabel, textLabel7)
 #: rc.cpp:9
 msgid "Longest winning streak:"
 msgstr "Nôdłëgszô serëjô dobëcô:"
 
-#. i18n: file: gamestats.ui:95
+#. i18n: file: gamestats.ui:82
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: rc.cpp:12
 msgid "Games played:"
 msgstr "Gróné grë:"
 
-#. i18n: file: gamestats.ui:112
+#. i18n: file: gamestats.ui:99
 #. i18n: ectx: property (text), widget (QLabel, textLabel8)
 #: rc.cpp:15
 msgid "Longest losing streak:"
 msgstr "Nôdłëgszô serëjô straceniów:"
 
-#. i18n: file: gamestats.ui:129
+#. i18n: file: gamestats.ui:116
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: rc.cpp:18
 msgid "Games won:"
 msgstr "Dobëté grë:"
 
-#. i18n: file: gamestats.ui:146
+#. i18n: file: gamestats.ui:133
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:21
 msgid "Current streak:"
 msgstr "Biéżnô seriô:"
 
-#. i18n: file: gamestats.ui:188
-#. i18n: ectx: property (text), widget (QPushButton, buttonReset)
-#: rc.cpp:24
-#, fuzzy
-#| msgid "&Redeal"
-msgid "&Reset"
-msgstr "&Dôj znowa"
-
-#. i18n: file: gamestats.ui:211
-#. i18n: ectx: property (text), widget (QPushButton, buttonOk)
-#: rc.cpp:27
-msgid "&OK"
-msgstr "&OK"
-
 #. i18n: file: kpatui.rc:13
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:30
+#: rc.cpp:24
 msgid "&Settings"
 msgstr "Ù&stôwë"
 
 #. i18n: file: kpatui.rc:24
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:33
+#: rc.cpp:27
 msgid "Main Toolbar"
 msgstr "Przédnô lëstew nôrzãdzów"
 
-#: rc.cpp:34
+#: rc.cpp:28
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
 
-#: rc.cpp:35
+#: rc.cpp:29
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
@@ -425,6 +411,14 @@ msgstr ""
 #| msgid "&Yukon"
 msgid "Yukon"
 msgstr "&Yukon"
+
+#, fuzzy
+#~| msgid "&Redeal"
+#~ msgid "&Reset"
+#~ msgstr "&Dôj znowa"
+
+#~ msgid "&OK"
+#~ msgstr "&OK"
 
 #, fuzzy
 #~| msgid "Klondike (&draw 3)"
