@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonqhtml\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-06 11:06+0100\n"
+"POT-Creation-Date: 2008-12-08 10:18+0100\n"
 "PO-Revision-Date: 2006-09-28 19:06+0200\n"
 "Last-Translator: Michal Rudolf <mrudolf@kdewebdev.org>\n"
 "Language-Team: Polish <pl@li.org>\n"
@@ -32,7 +32,181 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: appearance.cpp:38
+#: appearance.cpp:53
+msgctxt "@title:tab"
+msgid "General"
+msgstr ""
+
+#: appearance.cpp:54
+msgctxt "@title:tab"
+msgid "Fonts"
+msgstr ""
+
+#: appearance.cpp:55
+msgctxt "@title:tab"
+msgid "Stylesheets"
+msgstr ""
+
+#: appearance.cpp:64
+msgid "Images"
+msgstr ""
+
+#: appearance.cpp:69
+msgid "A&utomatically load images"
+msgstr "&Automatycznie wczytuj obrazki"
+
+#: appearance.cpp:70
+#, fuzzy
+#| msgid ""
+#| "If this box is checked, Konqueror will automatically load any images that "
+#| "are embedded in a web page. Otherwise, it will display placeholders for "
+#| "the images, and you can then manually load the images by clicking on the "
+#| "image button.<br />Unless you have a very slow network connection, you "
+#| "will probably want to check this box to enhance your browsing experience."
+msgid ""
+"<html>If this box is checked, Konqueror will automatically load any images "
+"that are embedded in a web page. Otherwise, it will display placeholders for "
+"the images, and you can then manually load the images by clicking on the "
+"image button.<br />Unless you have a very slow network connection, you will "
+"probably want to check this box to enhance your browsing experience.</html>"
+msgstr ""
+"Jeśli ta opcja jest wybrana, Konqueror będzie automatycznie ściągał obrazki "
+"na stronach WWW. W przeciwnym razie zamiast obrazków wyświetlone zostaną "
+"odpowiednie ramki. Możesz wtedy ręcznie ściągnąć obrazki, klikając na ikonce "
+"Obrazki.<br/>Jeśli nie masz bardzo wolnego połączenia sieciowego, lepiej "
+"włączyć tę opcję, by ułatwić przeglądanie stron WWW."
+
+#: appearance.cpp:80
+msgid "Dra&w frame around not completely loaded images"
+msgstr "&Obramowanie wokół niepobranych obrazków"
+
+#: appearance.cpp:81
+#, fuzzy
+#| msgid ""
+#| "If this box is checked, Konqueror will draw a frame as placeholder around "
+#| "not yet fully loaded images that are embedded in a web page.<br /"
+#| ">Especially if you have a slow network connection, you will probably want "
+#| "to check this box to enhance your browsing experience."
+msgid ""
+"<html>If this box is checked, Konqueror will draw a frame as a placeholder "
+"around images embedded in a web page that are not yet fully loaded.<br />You "
+"will probably want to check this box to enhance your browsing experience, "
+"especially if have a slow network connection.</html>"
+msgstr ""
+"Jeśli ta opcja jest wybrana, Konqueror będzie wyświetlał obramowanie w "
+"miejscu jeszcze nie pobranych obrazków. <br/>Jeśli nie masz bardzo szybkiego "
+"połączenia sieciowego, lepiej włączyć tę opcję, by ułatwić przeglądanie "
+"stron WWW."
+
+#: appearance.cpp:92
+msgctxt "animations"
+msgid "Enabled"
+msgstr "Włączone"
+
+#: appearance.cpp:93
+msgctxt "animations"
+msgid "Disabled"
+msgstr "Wyłączone"
+
+#: appearance.cpp:94
+msgid "Show Only Once"
+msgstr "Pokazuj tylko raz"
+
+#: appearance.cpp:95
+#, fuzzy
+#| msgid ""
+#| "Controls how Konqueror shows animated images:<br /><ul><li><b>Enabled</"
+#| "b>: Show all animations completely.</li><li><b>Disabled</b>: Never show "
+#| "animations, show the start image only.</li><li><b>Show only once</b>: "
+#| "Show all animations completely but do not repeat them.</li></ul>"
+msgid ""
+"<html>Controls how Konqueror shows animated images:<br /><ul><li><b>Enabled</"
+"b>: Show all animations completely.</li><li><b>Disabled</b>: Never show "
+"animations, show the starting image only.</li><li><b>Show only once</b>: "
+"Show all animations completely but do not repeat them.</li></ul></html>"
+msgstr ""
+"Określa, jak Konqueror wyświetla animowane obrazki: <br/"
+"><ul><li><b>Włączone</b>: pokazuj wszystkie animacje</li> <li><b>Wyłączone</"
+"b>: nigdy nie pokazuj animacji</li> <li><b>Pokazuj tylko raz</b>: pokazuj "
+"wszystkie animacje, ale nie powtarzaj ich</li> </ul>"
+
+#: appearance.cpp:100
+msgid "A&nimations:"
+msgstr "A&nimacje:"
+
+#: appearance.cpp:105 htmlopts.cpp:124
+msgctxt "@title:group"
+msgid "Miscelanous"
+msgstr ""
+
+#: appearance.cpp:110
+msgctxt "underline"
+msgid "Enabled"
+msgstr "Włączone"
+
+#: appearance.cpp:111
+msgctxt "underline"
+msgid "Disabled"
+msgstr "Wyłączone"
+
+#: appearance.cpp:112
+msgid "Only on Hover"
+msgstr "Tylko pod kursorem"
+
+#: appearance.cpp:113
+msgid "Und&erline links:"
+msgstr "&Podkreślanie odnośników:"
+
+#: appearance.cpp:116
+#, fuzzy
+#| msgid ""
+#| "Controls how Konqueror handles underlining hyperlinks:<br /"
+#| "><ul><li><b>Enabled</b>: Always underline links</li><li><b>Disabled</b>: "
+#| "Never underline links</li><li><b>Only on Hover</b>: Underline when the "
+#| "mouse is moved over the link</li></ul><br /><i>Note: The site's CSS "
+#| "definitions can override this value</i>"
+msgid ""
+"<html>Controls how Konqueror handles underlining hyperlinks:<br /"
+"><ul><li><b>Enabled</b>: Always underline links</li><li><b>Disabled</b>: "
+"Never underline links</li><li><b>Only on Hover</b>: Underline when the mouse "
+"is moved over the link</li></ul><br /><i>Note: The site's CSS definitions "
+"can override this value.</i></html>"
+msgstr ""
+"Określa sposób wyświetlania odnośników hipertekstowych w Konquerorze: <br/"
+"><ul><li><b>Włączone</b>: zawsze podkreślaj odnośniki</li><li><b>Wyłączone</"
+"b>: nigdy nie podkreślaj odnośników</li><li><b>Tylko pod kursorem</b>: "
+"podkreślaj tylko, gdy kursor myszy znajdzie się nad odnośnikiem</li></ul><br/"
+"> <i>Uwaga: CSS dla danej strony mogą zmienić to ustawienie.</i>"
+
+#: appearance.cpp:126
+msgid "When Efficient"
+msgstr ""
+
+#: appearance.cpp:127
+msgctxt "smooth scrolling"
+msgid "Always"
+msgstr ""
+
+#: appearance.cpp:128
+msgctxt "soft scrolling"
+msgid "Never"
+msgstr ""
+
+#: appearance.cpp:129
+msgid "S&mooth scrolling:"
+msgstr ""
+
+#: appearance.cpp:131
+msgid ""
+"<html>Determines whether Konqueror should use smooth steps to scroll HTML "
+"pages, or whole steps:<br /><ul><li><b>Always</b>: Always use smooth steps "
+"when scrolling.</li><li><b>Never</b>: Never use smooth scrolling, scroll "
+"with whole steps instead.</li><li><b>When Efficient</b>: Only use smooth "
+"scrolling on pages where it can be achieved with moderate usage of system "
+"resources.</li></ul></html>"
+msgstr ""
+
+#: appearance.cpp:144
 msgid ""
 "<h1>Konqueror Fonts</h1>On this page, you can configure which fonts "
 "Konqueror should use to display the web pages you view."
@@ -40,19 +214,19 @@ msgstr ""
 "<h1>Czcionki Konquerora</h1>Tu można wybrać czcionki, używane przez "
 "Konquerora do wyświetlania stron WWW."
 
-#: appearance.cpp:52
+#: appearance.cpp:156
 msgid "Font Si&ze"
 msgstr "Wielkość &czcionki"
 
-#: appearance.cpp:56 appearance.cpp:74
+#: appearance.cpp:159 appearance.cpp:175
 msgid "This is the relative font size Konqueror uses to display web sites."
 msgstr "Względna wielkość czcionki, którą wyświetlane są strony WWW."
 
-#: appearance.cpp:59
+#: appearance.cpp:162
 msgid "M&inimum font size:"
 msgstr "&Minimalna wielkość czcionki:"
 
-#: appearance.cpp:64
+#: appearance.cpp:166
 #, fuzzy
 #| msgid ""
 #| "Konqueror will never display text smaller than this size,<br />overriding "
@@ -64,76 +238,76 @@ msgstr ""
 "Konqueror nie będzie wyświetlał tekstu mniejszego niż podany tutaj,<br/"
 ">niezależnie od ustawień na stronie WWW."
 
-#: appearance.cpp:69
+#: appearance.cpp:170
 msgid "&Medium font size:"
 msgstr "Śr&ednia wielkość czcionki:"
 
-#: appearance.cpp:78
+#: appearance.cpp:185
 msgid "S&tandard font:"
 msgstr "&Standardowa czcionka:"
 
-#: appearance.cpp:86
+#: appearance.cpp:186
 msgid "This is the font used to display normal text in a web page."
 msgstr "Czcionka, którą wyświetlany jest zwykły tekst na stronie."
 
-#: appearance.cpp:93
+#: appearance.cpp:191
 msgid "&Fixed font:"
 msgstr "Czcionka stałej s&zerokości:"
 
-#: appearance.cpp:101
+#: appearance.cpp:192
 msgid ""
 "This is the font used to display fixed-width (i.e. non-proportional) text."
 msgstr ""
 "Czcionka, którą wyświetlany jest tekst o stałej szerokości (nie "
 "proporcjonalny)."
 
-#: appearance.cpp:108
+#: appearance.cpp:197
 msgid "S&erif font:"
 msgstr "Czcionka szery&fowa:"
 
-#: appearance.cpp:116
+#: appearance.cpp:198
 msgid "This is the font used to display text that is marked up as serif."
 msgstr "Czcionka, którą wyświetlany jest tekst oznaczony jako szeryfowy."
 
-#: appearance.cpp:123
+#: appearance.cpp:204
 msgid "Sa&ns serif font:"
 msgstr "Czcionka &bezszeryfowa:"
 
-#: appearance.cpp:131
+#: appearance.cpp:205
 msgid "This is the font used to display text that is marked up as sans-serif."
 msgstr "Czcionka, którą wyświetlany jest tekst oznaczony jako bezszeryfowy."
 
-#: appearance.cpp:138
+#: appearance.cpp:210
 msgid "C&ursive font:"
 msgstr "&Kursywa:"
 
-#: appearance.cpp:146
+#: appearance.cpp:211
 msgid "This is the font used to display text that is marked up as italic."
 msgstr "Czcionka, którą wyświetlany jest tekst oznaczony jako kursywa."
 
-#: appearance.cpp:153
+#: appearance.cpp:216
 msgid "Fantas&y font:"
 msgstr "Czcionka &ozdobna:"
 
-#: appearance.cpp:161
+#: appearance.cpp:217
 msgid ""
 "This is the font used to display text that is marked up as a fantasy font."
 msgstr ""
 "Czcionka, którą wyświetlany jest tekst oznaczony jako ozdobny (fantasy)."
 
-#: appearance.cpp:173
+#: appearance.cpp:231
 msgid "Font &size adjustment for this encoding:"
 msgstr "&Zmiana wielkości czcionki dla tego kodowania:"
 
-#: appearance.cpp:187
-msgid "Default encoding:"
-msgstr "Kodowanie domyślne:"
-
-#: appearance.cpp:196 appearance.cpp:361
+#: appearance.cpp:242 appearance.cpp:442
 msgid "Use Language Encoding"
 msgstr "Użyj kodowania dla wybranego języka"
 
-#: appearance.cpp:200
+#: appearance.cpp:244
+msgid "Default encoding:"
+msgstr "Kodowanie domyślne:"
+
+#: appearance.cpp:246
 msgid ""
 "Select the default encoding to be used; normally, you will be fine with 'Use "
 "language encoding' and should not have to change this."
@@ -360,7 +534,7 @@ msgstr ""
 "przejdzie po wciśnięciu przycisku \"Katalog domowy\". Zwykle jest to katalog "
 "domowy, oznaczony przez tyldę (~)."
 
-#: htmlopts.cpp:49
+#: htmlopts.cpp:46
 msgid ""
 "<h1>Konqueror Browser</h1> Here you can configure Konqueror's browser "
 "functionality. Please note that the file manager functionality has to be "
@@ -373,15 +547,15 @@ msgstr ""
 "\"Menedżer plików). Można tu zmienić pewne ustawienia dotyczące sposobów "
 "wyświetlania kodu HTML. Zazwyczaj nie trzeba tu niczego zmieniać."
 
-#: htmlopts.cpp:57
+#: htmlopts.cpp:54
 msgid "Boo&kmarks"
 msgstr "&Zakładki"
 
-#: htmlopts.cpp:62
+#: htmlopts.cpp:59
 msgid "Ask for name and folder when adding bookmarks"
 msgstr "Spytaj o nazwę i folder przy dodawaniu zakładek"
 
-#: htmlopts.cpp:65
+#: htmlopts.cpp:62
 msgid ""
 "If this box is checked, Konqueror will allow you to change the title of the "
 "bookmark and choose a folder in which to store it when you add a new "
@@ -390,11 +564,11 @@ msgstr ""
 "Jeśli ta opcja jest włączona, Konqueror pozwoli na zmianę tytułu zakładki i "
 "wybór foldera, w którym ma się ona znaleźć."
 
-#: htmlopts.cpp:71
+#: htmlopts.cpp:68
 msgid "Show only marked bookmarks in bookmark toolbar"
 msgstr "Pokaż w pasku zakładek tylko zaznaczone zakładki."
 
-#: htmlopts.cpp:73
+#: htmlopts.cpp:70
 msgid ""
 "If this box is checked, Konqueror will show only those bookmarks in the "
 "bookmark toolbar which you have marked to do so in the bookmark editor."
@@ -402,11 +576,11 @@ msgstr ""
 "Jeśli ta opcja jest włączona, Konqueror będzie pokazywal na pasku zakładek "
 "jedynie zaznaczone zakładki."
 
-#: htmlopts.cpp:82
+#: htmlopts.cpp:77
 msgid "Form Com&pletion"
 msgstr "Dopełnianie &formularzy"
 
-#: htmlopts.cpp:87
+#: htmlopts.cpp:82
 msgid ""
 "If this box is checked, Konqueror will remember the data you enter in web "
 "forms and suggest it in similar fields for all forms."
@@ -414,25 +588,25 @@ msgstr ""
 "Jeśli ta opcja jest włączona, Konqueror będzie zapamiętywał dane wpisywane w "
 "formularzach WWW i proponował je w podobnych polach następnych formularzy."
 
-#: htmlopts.cpp:92
+#: htmlopts.cpp:88
 msgid "&Maximum completions:"
 msgstr "&Maksymalna liczba dopełnień:"
 
-#: htmlopts.cpp:96
+#: htmlopts.cpp:90
 msgid ""
 "Here you can select how many values Konqueror will remember for a form field."
 msgstr ""
 "Tu można ustawić maksymalną liczbę wartości pamiętanych dla pola formularza."
 
-#: htmlopts.cpp:104
+#: htmlopts.cpp:97
 msgid "Mouse Beha&vior"
 msgstr "Zachowanie &myszy"
 
-#: htmlopts.cpp:108
+#: htmlopts.cpp:101
 msgid "Chan&ge cursor over links"
 msgstr "&Zmieniaj kursor nad odnośnikami"
 
-#: htmlopts.cpp:110
+#: htmlopts.cpp:103
 msgid ""
 "If this option is set, the shape of the cursor will change (usually to a "
 "hand) if it is moved over a hyperlink."
@@ -440,11 +614,11 @@ msgstr ""
 "Jeśli ta opcja jest aktywna, kształt kursora będzie się zmieniał podczas "
 "przesuwania nad odnośnikami (zwykle będzie to ręka)."
 
-#: htmlopts.cpp:114
+#: htmlopts.cpp:107
 msgid "M&iddle click opens URL in selection"
 msgstr "Śro&dkowy klawisz otwiera URL w zaznaczeniu"
 
-#: htmlopts.cpp:117
+#: htmlopts.cpp:110
 msgid ""
 "If this box is checked, you can open the URL in the selection by middle "
 "clicking on a Konqueror view."
@@ -452,11 +626,11 @@ msgstr ""
 "Jeśli ta opcja jest włączona, można otworzyć URL w zaznaczonym tekście "
 "klikając środkowym przyciskiem myszy w oknie Konquerora."
 
-#: htmlopts.cpp:121
+#: htmlopts.cpp:114
 msgid "Right click goes &back in history"
 msgstr "&Prawy przycisk myszy cofa"
 
-#: htmlopts.cpp:124
+#: htmlopts.cpp:117
 msgid ""
 "If this box is checked, you can go back in history by right clicking on a "
 "Konqueror view. To access the context menu, press the right mouse button and "
@@ -466,98 +640,11 @@ msgstr ""
 "strony. By włączyć menu kontekstowe, naciśnij prawy przycisk myszy i porusz "
 "nią."
 
-#: htmlopts.cpp:132
-msgid "Images"
-msgstr ""
-
-#: htmlopts.cpp:136
-msgid "A&utomatically load images"
-msgstr "&Automatycznie wczytuj obrazki"
-
-#: htmlopts.cpp:137
-#, fuzzy
-#| msgid ""
-#| "If this box is checked, Konqueror will automatically load any images that "
-#| "are embedded in a web page. Otherwise, it will display placeholders for "
-#| "the images, and you can then manually load the images by clicking on the "
-#| "image button.<br />Unless you have a very slow network connection, you "
-#| "will probably want to check this box to enhance your browsing experience."
-msgid ""
-"<html>If this box is checked, Konqueror will automatically load any images "
-"that are embedded in a web page. Otherwise, it will display placeholders for "
-"the images, and you can then manually load the images by clicking on the "
-"image button.<br />Unless you have a very slow network connection, you will "
-"probably want to check this box to enhance your browsing experience.</html>"
-msgstr ""
-"Jeśli ta opcja jest wybrana, Konqueror będzie automatycznie ściągał obrazki "
-"na stronach WWW. W przeciwnym razie zamiast obrazków wyświetlone zostaną "
-"odpowiednie ramki. Możesz wtedy ręcznie ściągnąć obrazki, klikając na ikonce "
-"Obrazki.<br/>Jeśli nie masz bardzo wolnego połączenia sieciowego, lepiej "
-"włączyć tę opcję, by ułatwić przeglądanie stron WWW."
-
-#: htmlopts.cpp:147
-msgid "Dra&w frame around not completely loaded images"
-msgstr "&Obramowanie wokół niepobranych obrazków"
-
-#: htmlopts.cpp:148
-#, fuzzy
-#| msgid ""
-#| "If this box is checked, Konqueror will draw a frame as placeholder around "
-#| "not yet fully loaded images that are embedded in a web page.<br /"
-#| ">Especially if you have a slow network connection, you will probably want "
-#| "to check this box to enhance your browsing experience."
-msgid ""
-"<html>If this box is checked, Konqueror will draw a frame as a placeholder "
-"around images embedded in a web page that are not yet fully loaded.<br />You "
-"will probably want to check this box to enhance your browsing experience, "
-"especially if have a slow network connection.</html>"
-msgstr ""
-"Jeśli ta opcja jest wybrana, Konqueror będzie wyświetlał obramowanie w "
-"miejscu jeszcze nie pobranych obrazków. <br/>Jeśli nie masz bardzo szybkiego "
-"połączenia sieciowego, lepiej włączyć tę opcję, by ułatwić przeglądanie "
-"stron WWW."
-
-#: htmlopts.cpp:159
-msgctxt "animations"
-msgid "Enabled"
-msgstr "Włączone"
-
-#: htmlopts.cpp:160
-msgctxt "animations"
-msgid "Disabled"
-msgstr "Wyłączone"
-
-#: htmlopts.cpp:161
-msgid "Show Only Once"
-msgstr "Pokazuj tylko raz"
-
-#: htmlopts.cpp:162
-#, fuzzy
-#| msgid ""
-#| "Controls how Konqueror shows animated images:<br /><ul><li><b>Enabled</"
-#| "b>: Show all animations completely.</li><li><b>Disabled</b>: Never show "
-#| "animations, show the start image only.</li><li><b>Show only once</b>: "
-#| "Show all animations completely but do not repeat them.</li></ul>"
-msgid ""
-"<html>Controls how Konqueror shows animated images:<br /><ul><li><b>Enabled</"
-"b>: Show all animations completely.</li><li><b>Disabled</b>: Never show "
-"animations, show the starting image only.</li><li><b>Show only once</b>: "
-"Show all animations completely but do not repeat them.</li></ul></html>"
-msgstr ""
-"Określa, jak Konqueror wyświetla animowane obrazki: <br/"
-"><ul><li><b>Włączone</b>: pokazuj wszystkie animacje</li> <li><b>Wyłączone</"
-"b>: nigdy nie pokazuj animacji</li> <li><b>Pokazuj tylko raz</b>: pokazuj "
-"wszystkie animacje, ale nie powtarzaj ich</li> </ul>"
-
-#: htmlopts.cpp:167
-msgid "A&nimations:"
-msgstr "A&nimacje:"
-
-#: htmlopts.cpp:174
+#: htmlopts.cpp:128
 msgid "Allow automatic delayed &reloading/redirecting"
 msgstr "A&utomatyczne opóźnione odświeżanie/przekierowanie"
 
-#: htmlopts.cpp:175
+#: htmlopts.cpp:129
 msgid ""
 "Some web pages request an automatic reload or redirection after a certain "
 "period of time. By unchecking this box Konqueror will ignore these requests."
@@ -565,11 +652,11 @@ msgstr ""
 "Niektóre strony po pewnym czasie żądają odświeżenia lub przekierowania. "
 "Jeśli wyłączysz tę opcję, Konqueror będzie ignorował takie żądania."
 
-#: htmlopts.cpp:183
+#: htmlopts.cpp:137
 msgid "Enable/disable Access Ke&y activation with Ctrl key"
 msgstr "Włącz/wyłącz klawisze &dostępu klawiszem Ctrl"
 
-#: htmlopts.cpp:184
+#: htmlopts.cpp:138
 #, fuzzy
 #| msgid ""
 #| "Pressing the Ctrl key when viewing webpages activates KDE's Access Keys. "
@@ -583,73 +670,6 @@ msgstr ""
 "Wciśnięcie klawisza Ctrl włącza klawisze dostępu KDE. Wyłączenie tej opcji "
 "zablokuje tę funkcję dostępu (konieczne do tego jest ponowne uruchomienie "
 "Konquerora)."
-
-#: htmlopts.cpp:195
-msgid "Und&erline links:"
-msgstr "&Podkreślanie odnośników:"
-
-#: htmlopts.cpp:199
-msgctxt "underline"
-msgid "Enabled"
-msgstr "Włączone"
-
-#: htmlopts.cpp:200
-msgctxt "underline"
-msgid "Disabled"
-msgstr "Wyłączone"
-
-#: htmlopts.cpp:201
-msgid "Only on Hover"
-msgstr "Tylko pod kursorem"
-
-#: htmlopts.cpp:205
-#, fuzzy
-#| msgid ""
-#| "Controls how Konqueror handles underlining hyperlinks:<br /"
-#| "><ul><li><b>Enabled</b>: Always underline links</li><li><b>Disabled</b>: "
-#| "Never underline links</li><li><b>Only on Hover</b>: Underline when the "
-#| "mouse is moved over the link</li></ul><br /><i>Note: The site's CSS "
-#| "definitions can override this value</i>"
-msgid ""
-"<html>Controls how Konqueror handles underlining hyperlinks:<br /"
-"><ul><li><b>Enabled</b>: Always underline links</li><li><b>Disabled</b>: "
-"Never underline links</li><li><b>Only on Hover</b>: Underline when the mouse "
-"is moved over the link</li></ul><br /><i>Note: The site's CSS definitions "
-"can override this value.</i></html>"
-msgstr ""
-"Określa sposób wyświetlania odnośników hipertekstowych w Konquerorze: <br/"
-"><ul><li><b>Włączone</b>: zawsze podkreślaj odnośniki</li><li><b>Wyłączone</"
-"b>: nigdy nie podkreślaj odnośników</li><li><b>Tylko pod kursorem</b>: "
-"podkreślaj tylko, gdy kursor myszy znajdzie się nad odnośnikiem</li></ul><br/"
-"> <i>Uwaga: CSS dla danej strony mogą zmienić to ustawienie.</i>"
-
-#: htmlopts.cpp:215
-msgid "S&mooth scrolling:"
-msgstr ""
-
-#: htmlopts.cpp:219
-msgid "When Efficient"
-msgstr ""
-
-#: htmlopts.cpp:220
-msgctxt "smooth scrolling"
-msgid "Always"
-msgstr ""
-
-#: htmlopts.cpp:221
-msgctxt "soft scrolling"
-msgid "Never"
-msgstr ""
-
-#: htmlopts.cpp:225
-msgid ""
-"<html>Determines whether Konqueror should use smooth steps to scroll HTML "
-"pages, or whole steps:<br /><ul><li><b>Always</b>: Always use smooth steps "
-"when scrolling.</li><li><b>Never</b>: Never use smooth scrolling, scroll "
-"with whole steps instead.</li><li><b>When Efficient</b>: Only use smooth "
-"scrolling on pages where it can be achieved with moderate usage of system "
-"resources.</li></ul></html>"
-msgstr ""
 
 #: javaopts.cpp:80
 msgid "Enable Ja&va globally"
