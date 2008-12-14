@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-12-12 10:00+0100\n"
-"PO-Revision-Date: 2008-12-14 11:41+0100\n"
+"PO-Revision-Date: 2008-12-14 12:29+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgstr "Niépòzortowóné"
 
 #: folderview.cpp:415
 msgid "Top to Bottom"
-msgstr "Z górëna dół"
+msgstr "Z górë na dół"
 
 #: folderview.cpp:416
 msgid "Left to Right"
@@ -176,7 +176,7 @@ msgid ""
 "By default it contains the name of the place being shown in the applet, but "
 "if you prefer to have a custom label you can enter it here."
 msgstr ""
-"Tuwò mòżeta wpisac òpisënk , jaczi sã wëskrzrni wëżi apletu.\n"
+"Tuwò mòżeta wpisac òpisënk , jaczi sã wëskrzëni wëżi apletu.\n"
 "\n"
 "Domëszlno je to miono wëskrzënionegò kataloga, mòżeta równak wpisac kòżdi "
 "jinszi òpisënk."
@@ -219,7 +219,7 @@ msgid ""
 "Check this option if you want to see previews of the file contents in the "
 "icons."
 msgstr ""
-"Nacéchùjë tã òptacëjã jeżlë chcesz dobëc pòdzérk kònténera lopka na placu "
+"Wëbierzë na òptacëjã jeżlë chcesz dobëc pòdzérk kònténera lopka na placu "
 "ikònë."
 
 #. i18n: file: folderviewDisplayConfig.ui:147
@@ -289,7 +289,7 @@ msgid ""
 "<p><i>Note that with dark text colors, this option will cause the text to "
 "glow with a bright halo, instead of casting a shadow.</i></p></body></html>"
 msgstr ""
-"<html><body><p>Nacéchùjë na òptacëjã abë wëskrzrniwóné tekstë bëłë ceniowóné."
+"<html><body><p>Wëbierzë na òptacëjã abë wëskrzrniwóné tekstë bëłë ceniowóné."
 "</p>\n"
 "<p></p>\n"
 "<p>Dzãka ceniowaniô bãdą tekstë barżi czëtné, bò lepi sã òne wëprzédniają òd "
@@ -352,12 +352,16 @@ msgid ""
 "When this option is checked, icons will automatically snap to the nearest "
 "grid cell when you move them around in the view."
 msgstr ""
+"Wëbierzë na òptacëjã, jeżlë ikònë mają bëc ùłożoné przë mrzéżce .\n"
+"\n"
+"Jeżlë na òptacëjô je włączonô, to ikònë bãdą aùtomatno wërównóné do "
+"niewidzawny mrzéżczi."
 
 #. i18n: file: folderviewDisplayConfig.ui:372
 #. i18n: ectx: property (text), widget (QCheckBox, alignToGrid)
 #: rc.cpp:83
 msgid "Align icons in a grid"
-msgstr ""
+msgstr "Ùłożë przë mrzéżce"
 
 #. i18n: file: folderviewDisplayConfig.ui:381
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, lockInPlace)
@@ -368,30 +372,33 @@ msgid ""
 "This option is useful if you want to avoid accidentally moving the icons "
 "while interacting with them."
 msgstr ""
+"Wëbierzë na òptacëjã, jeżlë chcesz bë ikònë nie bëłë przenoszoné.\n"
+"\n"
+"Je to prakticzné jak n.p. nie chceta bë ikònë òstałë niéchcało przeniosłé."
 
 #. i18n: file: folderviewDisplayConfig.ui:384
 #. i18n: ectx: property (text), widget (QCheckBox, lockInPlace)
 #: rc.cpp:91
 msgid "Lock icons in place"
-msgstr ""
+msgstr "Zablokùjë pòłożenié ikònów"
 
 #. i18n: file: folderviewFilterConfig.ui:29
 #. i18n: ectx: property (text), item, widget (QComboBox, filterType)
 #: rc.cpp:94
 msgid "Show All Files"
-msgstr ""
+msgstr "Wëskrzëni wszëtczé lopczi"
 
 #. i18n: file: folderviewFilterConfig.ui:34
 #. i18n: ectx: property (text), item, widget (QComboBox, filterType)
 #: rc.cpp:97
 msgid "Show Files Matching"
-msgstr ""
+msgstr "Wëskrzëni pasowné lopczi"
 
 #. i18n: file: folderviewFilterConfig.ui:39
 #. i18n: ectx: property (text), item, widget (QComboBox, filterType)
 #: rc.cpp:100
 msgid "Hide Files Matching"
-msgstr ""
+msgstr "Nie wëskrzëniwôj pasownëch lopków"
 
 #. i18n: file: folderviewFilterConfig.ui:126
 #. i18n: ectx: property (text), widget (QPushButton, selectAll)
@@ -404,25 +411,25 @@ msgstr "Wëbiérzë wszëtkò"
 #. i18n: ectx: property (text), widget (QPushButton, deselectAll)
 #: rc.cpp:106
 msgid "Deselect All"
-msgstr ""
+msgstr "Nié wëbierôj wszëtczegò"
 
 #. i18n: file: folderviewFilterConfig.ui:157
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, searchMimetype)
 #: rc.cpp:109
 msgid "Search file type"
-msgstr ""
+msgstr "Szëkôj za ôrtã lopka"
 
 #. i18n: file: folderviewFilterConfig.ui:167
 #. i18n: ectx: property (text), widget (QLabel, fileTypesLabel)
 #: rc.cpp:112
 msgid "File types:"
-msgstr ""
+msgstr "Ôrtë lopka:"
 
 #. i18n: file: folderviewFilterConfig.ui:174
 #. i18n: ectx: property (text), widget (QLabel, fileNameLabel)
 #: rc.cpp:115
 msgid "File name pattern:"
-msgstr ""
+msgstr "Mùster lopka:"
 
 #. i18n: file: folderviewFilterConfig.ui:187
 #. i18n: ectx: property (toolTip), widget (KLineEdit, filterFilesPattern)
@@ -449,14 +456,14 @@ msgstr ""
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, filterFilesPattern)
 #: rc.cpp:124
 msgid "Pattern filter"
-msgstr ""
+msgstr "Filter mùstra"
 
 #. i18n: file: folderviewLocationConfig.ui:16
 #. i18n: ectx: property (text), widget (QRadioButton, showDesktopFolder)
 #: rc.cpp:127
 #| msgid "Show the desktop folder"
 msgid "Show the Desktop folder"
-msgstr "Wëskrzrni katalog pùltu"
+msgstr "Wëskrzëni katalog pùltu"
 
 #. i18n: file: folderviewLocationConfig.ui:41
 #. i18n: ectx: property (text), widget (QLabel, warningLabel)
@@ -466,30 +473,32 @@ msgid ""
 "you select this option and click OK it will be created for you.</b></body></"
 "html>"
 msgstr ""
+"<html><body><b>Bôczënk: Felëje katalog pùltu.<br />Jeżlë wëbierzesz na "
+"òptacëjã to òstanie òn ùsôdzony.</b></body></html>"
 
 #. i18n: file: folderviewLocationConfig.ui:53
 #. i18n: ectx: property (text), widget (QRadioButton, showPlace)
 #: rc.cpp:133
 msgid "Show a Place:"
-msgstr ""
+msgstr "Wëskrzëni môl:"
 
 #. i18n: file: folderviewLocationConfig.ui:83
 #. i18n: ectx: property (text), widget (QRadioButton, showCustomFolder)
 #: rc.cpp:136
 msgid "Specify a folder:"
-msgstr ""
+msgstr "Wëbierzë katalog:"
 
 #. i18n: file: folderviewLocationConfig.ui:114
 #. i18n: ectx: property (clickMessage), widget (KUrlRequester, lineEdit)
 #: rc.cpp:139
 msgid "Type a path or a URL here"
-msgstr ""
+msgstr "Wpiszë tuwò stegnã abò URL"
 
 #. i18n: file: folderviewPreviewConfig.ui:16
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:142
 msgid "Check the file types you want icon previews for:"
-msgstr ""
+msgstr "Wëbierzë ôrt lopka dlô jaczegò mô sã wëskrzënic pòdzérk lopka."
 
 #~ msgid "Show a custom folder"
 #~ msgstr "Pòkażë swój katalog"
