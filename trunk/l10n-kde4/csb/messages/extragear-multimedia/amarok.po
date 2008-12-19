@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-18 10:05+0100\n"
+"POT-Creation-Date: 2008-12-19 09:59+0100\n"
 "PO-Revision-Date: 2008-07-20 09:06+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi\n"
@@ -54,57 +54,57 @@ msgctxt "The Value is not known"
 msgid "Unknown"
 msgstr "Nieznóné"
 
-#: meta/MetaUtility.cpp:487
+#: meta/MetaUtility.cpp:501
 msgctxt "The quality of music"
 msgid "Awful"
 msgstr "Òkropny"
 
-#: meta/MetaUtility.cpp:488
+#: meta/MetaUtility.cpp:502
 msgctxt "The quality of music"
 msgid "Bad"
 msgstr "Lëchi"
 
-#: meta/MetaUtility.cpp:489
+#: meta/MetaUtility.cpp:503
 msgctxt "The quality of music"
 msgid "Barely tolerable"
 msgstr "Z biédą tolerowóny"
 
-#: meta/MetaUtility.cpp:490
+#: meta/MetaUtility.cpp:504
 msgctxt "The quality of music"
 msgid "Tolerable"
 msgstr "Tolerowóny"
 
-#: meta/MetaUtility.cpp:491
+#: meta/MetaUtility.cpp:505
 msgctxt "The quality of music"
 msgid "Okay"
 msgstr "Okej"
 
-#: meta/MetaUtility.cpp:492
+#: meta/MetaUtility.cpp:506
 msgctxt "The quality of music"
 msgid "Good"
 msgstr "Dobri"
 
-#: meta/MetaUtility.cpp:493
+#: meta/MetaUtility.cpp:507
 msgctxt "The quality of music"
 msgid "Very good"
 msgstr "Baro dobri"
 
-#: meta/MetaUtility.cpp:494
+#: meta/MetaUtility.cpp:508
 msgctxt "The quality of music"
 msgid "Excellent"
 msgstr "Bëlny"
 
-#: meta/MetaUtility.cpp:495
+#: meta/MetaUtility.cpp:509
 msgctxt "The quality of music"
 msgid "Amazing"
 msgstr "Snôżi"
 
-#: meta/MetaUtility.cpp:496
+#: meta/MetaUtility.cpp:510
 msgctxt "The quality of music"
 msgid "Favorite"
 msgstr "Lubòtny"
 
-#: meta/MetaUtility.cpp:497
+#: meta/MetaUtility.cpp:511
 msgctxt "The quality of music"
 msgid "Not rated"
 msgstr "Nie markòwóné"
@@ -136,11 +136,11 @@ msgstr "Nie mògã czëtac lëstë graniô (%1)."
 msgid "&Delete Tracks"
 msgstr "Wëbróné sztëcczi"
 
-#: collection/ipodcollection/handler/IpodHandler.cpp:533
+#: collection/ipodcollection/handler/IpodHandler.cpp:541
 msgid "Deleting Tracks from iPod"
 msgstr "Rëmanié traków z iPoda"
 
-#: collection/ipodcollection/handler/IpodHandler.cpp:701
+#: collection/ipodcollection/handler/IpodHandler.cpp:709
 msgid "Transferring Tracks to iPod"
 msgstr "Przenoszenié sztëczków do iPoda"
 
@@ -152,7 +152,7 @@ msgstr "&Rëmôj z iPoda"
 msgid "&Disconnect the iPod"
 msgstr "&Rozłączë iPoda"
 
-#: collection/mtpcollection/MtpCollectionLocation.cpp:139
+#: collection/mtpcollection/MtpCollectionLocation.cpp:131
 msgid "Could not copy track from device."
 msgstr ""
 
@@ -160,57 +160,63 @@ msgstr ""
 msgid "Could not connect to MTP Device"
 msgstr ""
 
-#: collection/mtpcollection/handler/MtpHandler.cpp:281
-msgid "Could not send track"
-msgstr ""
-
-#: collection/mtpcollection/handler/MtpHandler.cpp:332
-#: collection/mtpcollection/handler/MtpHandler.cpp:818
-msgid "Unknown title"
-msgstr "Nieznóny titel"
-
-#: collection/mtpcollection/handler/MtpHandler.cpp:341
-#: collection/mtpcollection/handler/MtpHandler.cpp:827
-msgid "Unknown album"
-msgstr "Nieznóny albùm"
-
-#: collection/mtpcollection/handler/MtpHandler.cpp:350
-#: collection/mtpcollection/handler/MtpHandler.cpp:836
-msgid "Unknown artist"
-msgstr "Nieznóny artista"
-
-#: collection/mtpcollection/handler/MtpHandler.cpp:359
-#: collection/mtpcollection/handler/MtpHandler.cpp:845
-msgid "Unknown genre"
-msgstr "Nieznóny zort"
-
-#: collection/mtpcollection/handler/MtpHandler.cpp:468
+#: collection/mtpcollection/handler/MtpHandler.cpp:288
 msgid "Unknown Artist"
 msgstr "Niznóny artista"
 
-#: collection/mtpcollection/handler/MtpHandler.cpp:477
+#: collection/mtpcollection/handler/MtpHandler.cpp:297
 msgid "Unknown Album"
 msgstr "Nieznóny albùm"
 
-#: collection/mtpcollection/handler/MtpHandler.cpp:483
+#: collection/mtpcollection/handler/MtpHandler.cpp:303
 msgid "Unknown Genre"
 msgstr "Nieznony zort"
 
-#: collection/mtpcollection/handler/MtpHandler.cpp:642
+#: collection/mtpcollection/handler/MtpHandler.cpp:532
+#, fuzzy
+#| msgid "Transferring Tracks to iPod"
+msgid "Transferring Tracks to MTP"
+msgstr "Przenoszenié sztëczków do iPoda"
+
+#: collection/mtpcollection/handler/MtpHandler.cpp:579
+msgid "Could not send track"
+msgstr ""
+
+#: collection/mtpcollection/handler/MtpHandler.cpp:630
+#: collection/mtpcollection/handler/MtpHandler.cpp:943
+msgid "Unknown title"
+msgstr "Nieznóny titel"
+
+#: collection/mtpcollection/handler/MtpHandler.cpp:639
+#: collection/mtpcollection/handler/MtpHandler.cpp:952
+msgid "Unknown album"
+msgstr "Nieznóny albùm"
+
+#: collection/mtpcollection/handler/MtpHandler.cpp:648
+#: collection/mtpcollection/handler/MtpHandler.cpp:961
+msgid "Unknown artist"
+msgstr "Nieznóny artista"
+
+#: collection/mtpcollection/handler/MtpHandler.cpp:657
+#: collection/mtpcollection/handler/MtpHandler.cpp:970
+msgid "Unknown genre"
+msgstr "Nieznóny zort"
+
+#: collection/mtpcollection/handler/MtpHandler.cpp:767
 #, fuzzy
 #| msgid "Deleting Tracks from iPod"
 msgid "Deleting Tracks from MTP"
 msgstr "Rëmanié traków z iPoda"
 
-#: collection/mtpcollection/handler/MtpHandler.cpp:686
+#: collection/mtpcollection/handler/MtpHandler.cpp:811
 msgid "Could not delete item"
 msgstr "Ni mòże rëmnąc elementu"
 
-#: collection/mtpcollection/handler/MtpHandler.cpp:697
+#: collection/mtpcollection/handler/MtpHandler.cpp:822
 msgid "Delete failed"
 msgstr "Rëmniãcé nie darzëło sã"
 
-#: collection/mtpcollection/handler/MtpHandler.cpp:1003
+#: collection/mtpcollection/handler/MtpHandler.cpp:1128
 #, fuzzy
 #| msgid "Transferring Tracks to iPod"
 msgid "Transferring Tracks to MTP Device"
@@ -228,7 +234,7 @@ msgstr "&Rëmôj z iPoda"
 msgid "&Disconnect the MTP Device"
 msgstr "&Rozłączë iPoda"
 
-#: collection/mtpcollection/MtpCollection.cpp:465
+#: collection/mtpcollection/MtpCollection.cpp:477
 #, kde-format
 msgid "The MTP device %1 is connected"
 msgstr ""
@@ -891,13 +897,6 @@ msgstr "Nowa grëpa"
 msgid "Previous Group"
 msgstr "Piprzédny sztëczk"
 
-#: context/widgets/ToolBoxMenu.cpp:95
-#, fuzzy
-#| msgctxt "@action:button"
-#| msgid "Close"
-msgid "Close"
-msgstr "Zamkni"
-
 #: context/widgets/ToolBoxMenu.cpp:102
 msgid "Hide menu"
 msgstr ""
@@ -1347,7 +1346,7 @@ msgstr "Dopòwiesc"
 #: browsers/collectionbrowser/CollectionWidget.cpp:154
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:249
 #: playlist/PlaylistModel.cpp:542 widgets/Token.cpp:91
-#: widgets/ProgressiveSearchWidget.cpp:85 widgets/SmartPlaylistEditor.cpp:184
+#: widgets/ProgressiveSearchWidget.cpp:86 widgets/SmartPlaylistEditor.cpp:184
 #: widgets/SmartPlaylistEditor.cpp:198 widgets/FilenameLayoutWidget.cpp:300
 #: widgets/FilenameLayoutWidget.cpp:372
 msgid "Genre"
@@ -1489,7 +1488,11 @@ msgstr "Kònfigùracëjô podcasta"
 msgid "Migrating"
 msgstr "notowanié"
 
-#: dialogs/DatabaseImporterDialog.cpp:145
+#: dialogs/DatabaseImporterDialog.cpp:148
+msgid "<b><font color='red'>Failed:</font></b> No tracks were imported"
+msgstr ""
+
+#: dialogs/DatabaseImporterDialog.cpp:150
 #, kde-format
 msgid "<b><font color='green'>Success:</font></b> Imported %1 track"
 msgid_plural "<b><font color='green'>Success:</font></b> Imported %1 tracks"
@@ -1497,22 +1500,22 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: dialogs/DatabaseImporterDialog.cpp:155
+#: dialogs/DatabaseImporterDialog.cpp:161
 msgid "<b><font color='red'>Failed:</font></b> Unable to import statistics"
 msgstr ""
 
-#: dialogs/DatabaseImporterDialog.cpp:170
+#: dialogs/DatabaseImporterDialog.cpp:176
 #, kde-format
 msgid "<b><font color='red'>Error:</font></b> %1"
 msgstr ""
 
-#: dialogs/DatabaseImporterDialog.cpp:182
+#: dialogs/DatabaseImporterDialog.cpp:188
 #, kde-format
 msgctxt "Track has been imported, format: Artist - Track"
 msgid "Imported <b>%1 - %2</b>"
 msgstr ""
 
-#: dialogs/DatabaseImporterDialog.cpp:185
+#: dialogs/DatabaseImporterDialog.cpp:191
 #, kde-format
 msgctxt "Track has been imported, format: Artist - Track (Album)"
 msgid "Imported <b>%1 - %2 (%3)</b>"
@@ -2251,7 +2254,7 @@ msgstr "Ladowanié mediów podcastu"
 msgid "Downloading Podcast \"%1\""
 msgstr "Ladowanié podcastu \"%1\""
 
-#: podcasts/sql/SqlPodcastProvider.cpp:452
+#: podcasts/sql/SqlPodcastProvider.cpp:445
 #, kde-format
 msgid "Unable to save podcast episode file to %1"
 msgstr ""
@@ -5187,13 +5190,13 @@ msgstr "Môl:"
 
 #. i18n: file: dialogs/TagDialogBase.ui:695
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_previous)
-#: rc.cpp:837 widgets/ProgressiveSearchWidget.cpp:53
+#: rc.cpp:837 widgets/ProgressiveSearchWidget.cpp:54
 msgid "&Previous"
 msgstr "&Pòprzédny"
 
 #. i18n: file: dialogs/TagDialogBase.ui:705
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_next)
-#: rc.cpp:840 widgets/ProgressiveSearchWidget.cpp:50
+#: rc.cpp:840 widgets/ProgressiveSearchWidget.cpp:51
 msgid "&Next"
 msgstr "&Pòstãpny"
 
@@ -7197,52 +7200,52 @@ msgstr ""
 msgid "OSD Preview - drag to reposition"
 msgstr ""
 
-#: widgets/ProgressiveSearchWidget.cpp:40
+#: widgets/ProgressiveSearchWidget.cpp:41
 #, fuzzy
 #| msgid "Smart Playlist"
 msgid "Search playlist"
 msgstr "Jinteligentnô lësta gróniô"
 
-#: widgets/ProgressiveSearchWidget.cpp:44
+#: widgets/ProgressiveSearchWidget.cpp:45
 msgid "Start typing to progressively search through the playlist"
 msgstr ""
 
-#: widgets/ProgressiveSearchWidget.cpp:64
+#: widgets/ProgressiveSearchWidget.cpp:65
 #, fuzzy
 #| msgctxt "Items, as in music"
 #| msgid "&Tracks"
 msgid "Tracks"
 msgstr "S&ztëcczi"
 
-#: widgets/ProgressiveSearchWidget.cpp:71
+#: widgets/ProgressiveSearchWidget.cpp:72
 #, fuzzy
 #| msgid "&Albums"
 msgid "Albums"
 msgstr "&Albùmë"
 
-#: widgets/ProgressiveSearchWidget.cpp:78
+#: widgets/ProgressiveSearchWidget.cpp:79
 #, fuzzy
 #| msgid "Artist"
 msgid "Artists"
 msgstr "Artista"
 
-#: widgets/ProgressiveSearchWidget.cpp:92
+#: widgets/ProgressiveSearchWidget.cpp:93
 #, fuzzy
 #| msgid "Composer"
 msgid "Composers"
 msgstr "Kòmpòzytor"
 
-#: widgets/ProgressiveSearchWidget.cpp:100 widgets/SmartPlaylistEditor.cpp:977
+#: widgets/ProgressiveSearchWidget.cpp:101 widgets/SmartPlaylistEditor.cpp:977
 msgid "Years"
 msgstr "Lat"
 
-#: widgets/ProgressiveSearchWidget.cpp:109
+#: widgets/ProgressiveSearchWidget.cpp:110
 #, fuzzy
 #| msgid "Play Counter"
 msgid "Play only matches"
 msgstr "Rechòwnik graniô"
 
-#: widgets/ProgressiveSearchWidget.cpp:117
+#: widgets/ProgressiveSearchWidget.cpp:118
 msgid "Search Preferences"
 msgstr ""
 
@@ -7264,35 +7267,35 @@ msgstr "Dodôj ùrządzenie..."
 msgid "Click to edit playlist filter"
 msgstr "Klëknij abë editowac filter lëstë graniô"
 
-#: widgets/SliderWidget.cpp:236
+#: widgets/SliderWidget.cpp:234
 msgid "Volume"
 msgstr "Głosnosc"
 
-#: widgets/SliderWidget.cpp:237
+#: widgets/SliderWidget.cpp:235
 msgid "100%"
 msgstr "100%"
 
-#: widgets/SliderWidget.cpp:238
+#: widgets/SliderWidget.cpp:236
 msgid "80%"
 msgstr "80%"
 
-#: widgets/SliderWidget.cpp:239
+#: widgets/SliderWidget.cpp:237
 msgid "60%"
 msgstr "60%"
 
-#: widgets/SliderWidget.cpp:240
+#: widgets/SliderWidget.cpp:238
 msgid "40%"
 msgstr "40%"
 
-#: widgets/SliderWidget.cpp:241
+#: widgets/SliderWidget.cpp:239
 msgid "20%"
 msgstr "20%"
 
-#: widgets/SliderWidget.cpp:242
+#: widgets/SliderWidget.cpp:240
 msgid "0%"
 msgstr "0%"
 
-#: widgets/SliderWidget.cpp:247
+#: widgets/SliderWidget.cpp:245
 msgid "&Equalizer"
 msgstr "&Kòrektor"
 
@@ -7788,6 +7791,12 @@ msgstr "Òbkłôdka"
 #: covermanager/CoverManager.cpp:889
 msgid "No Artist"
 msgstr "Felëje artistë"
+
+#, fuzzy
+#~| msgctxt "@action:button"
+#~| msgid "Close"
+#~ msgid "Close"
+#~ msgstr "Zamkni"
 
 #, fuzzy
 #~| msgid "Artist / Album"
