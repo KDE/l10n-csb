@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-16 10:22+0100\n"
+"POT-Creation-Date: 2009-01-17 10:35+0100\n"
 "PO-Revision-Date: 2009-01-08 18:45+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -33,7 +33,7 @@ msgid "Paused"
 msgstr "Paùza"
 
 #: meta/file/File_p.h:300 meta/file/File_p.h:347 meta/file/File_p.h:350
-#: meta/file/File_p.h:384 meta/file/File_p.h:413 meta/file/File_p.h:442
+#: meta/file/File_p.h:388 meta/file/File_p.h:417 meta/file/File_p.h:446
 #: meta/default/DefaultMetaTypes.h:41 meta/default/DefaultMetaTypes.h:81
 #: meta/default/DefaultMetaTypes.h:99
 #: services/scriptable/ScriptableServiceMeta_p.h:61
@@ -251,7 +251,7 @@ msgstr "Môlowô kòlekcëjô"
 #: collection/sqlcollection/OrganizeCollectionDialog.cpp:160
 #: browsers/collectionbrowser/CollectionTreeItem.cpp:153
 #: playlist/view/graphic/PlaylistGraphicsItem.cpp:343
-#: collectionscanner/CollectionScanner.cpp:720
+#: collectionscanner/CollectionScanner.cpp:748
 #: covermanager/CoverViewDialog.h:45 covermanager/CoverManager.cpp:869
 msgid "Various Artists"
 msgstr "Rozmajiti wëkònywaczë"
@@ -394,6 +394,11 @@ msgstr "Albùmë artistë"
 msgid "Fetching content.."
 msgstr "Ladowanié zamkłoscë.."
 
+#: context/engines/wikipedia/WikipediaEngine.cpp:180
+#, kde-format
+msgid "Unable to retrieve Wikipedia information: %1"
+msgstr ""
+
 #: context/engines/wikipedia/WikipediaEngine.cpp:200
 #, fuzzy
 #| msgid "Device information for "
@@ -403,6 +408,12 @@ msgstr "Wëdowiédza ò ùrządzeniu:"
 #: context/engines/wikipedia/WikipediaEngine.cpp:291
 msgid "Wikipedia Other Languages: <br/>"
 msgstr "Jine jãzëczi Wikipediji: <br/>"
+
+#: context/LyricsManager.cpp:108
+#, fuzzy
+#| msgid "This object could not be created."
+msgid "Lyrics data could not be parsed"
+msgstr "Nie mòże ùsôdzëc òbiektu"
 
 #: context/plasma/dataengine.cpp:445 context/plasma/dataengine.cpp:451
 msgid "Unnamed"
@@ -792,7 +803,7 @@ msgstr "Rechòwnik òdegraniô:"
 #: browsers/collectionbrowser/CollectionTreeView.cpp:595
 #: browsers/filebrowser/MyDirOperator.cpp:261
 #: browsers/playlistbrowser/PodcastCategory.cpp:465
-#: browsers/playlistbrowser/UserPlaylistTreeView.cpp:167
+#: browsers/playlistbrowser/UserPlaylistTreeView.cpp:166
 #: services/lastfm/LastFmTreeView.cpp:95
 msgid "&Append to Playlist"
 msgstr "&Dodôj do lëstë graniô"
@@ -801,7 +812,7 @@ msgstr "&Dodôj do lëstë graniô"
 #: browsers/collectionbrowser/CollectionTreeView.cpp:603
 #: browsers/filebrowser/MyDirOperator.cpp:262
 #: browsers/playlistbrowser/PodcastCategory.cpp:478
-#: browsers/playlistbrowser/UserPlaylistTreeView.cpp:173
+#: browsers/playlistbrowser/UserPlaylistTreeView.cpp:172
 #: services/lastfm/LastFmTreeView.cpp:103
 msgctxt "Replace the currently loaded tracks with these"
 msgid "&Load"
@@ -827,7 +838,7 @@ msgid "Disc %1"
 msgstr "disk"
 
 #: context/applets/albums/AlbumItem.cpp:70 MediaDevicePluginManager.cpp:531
-#: MainWindow.cpp:999 widgets/Token.cpp:114
+#: MainWindow.cpp:999 widgets/Token.cpp:113
 msgid "Unknown"
 msgstr "Nieznóny"
 
@@ -858,8 +869,13 @@ msgid "Lyrics are being fetched."
 msgstr "Tekst je ladowóny."
 
 #: context/applets/lyrics/LyricsApplet.cpp:185
+#, fuzzy, kde-format
+#| msgid ""
+#| "Lyrics were not able to be downloaded. Please check your internet "
+#| "connection."
 msgid ""
-"Lyrics were not able to be downloaded. Please check your internet connection."
+"Lyrics were not able to be downloaded. Please check your internet "
+"connection: %1"
 msgstr ""
 "Ni mòże zladowac teksta. Proszã sprôwdzëc swòjé pòłączenié z jinternetã."
 
@@ -1068,11 +1084,11 @@ msgstr "Wersëjô wspiarcô"
 msgid "Plugin Information"
 msgstr "Wëdowiédzô ò wtëkaczu"
 
-#: configdialog/dialogs/GeneralConfig.cpp:51 App.cpp:842
+#: configdialog/dialogs/GeneralConfig.cpp:51 App.cpp:853
 msgid "Default Browser"
 msgstr "Domëslny przezérnik"
 
-#: configdialog/dialogs/GeneralConfig.cpp:54 App.cpp:845
+#: configdialog/dialogs/GeneralConfig.cpp:54 App.cpp:856
 msgid "Default KDE Browser"
 msgstr "Domëslny KDE przezérnik"
 
@@ -1285,128 +1301,19 @@ msgstr ""
 "Jeżlë zaznaczoné, katalodżi bãdą aùtomatno przeszëkóné, czedë jich zamkłosc "
 "bãdze zmienionô, np. czej dodóny òstanié nowi lopk."
 
-#: dialogs/FilenameLayoutDialog.cpp:88 widgets/Token.cpp:136
+#: dialogs/FilenameLayoutDialog.cpp:88 widgets/Token.cpp:135
 #, fuzzy
 #| msgid "Collection"
 msgid "Collection root"
 msgstr "Kòlekcëjô"
 
-#. i18n: file: dialogs/EditFilterDialog.ui:104
-#. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
-#: dialogs/FilenameLayoutDialog.cpp:115 rc.cpp:918
-#: services/jamendo/JamendoInfoParser.cpp:112 widgets/Token.cpp:118
-msgid "Track"
-msgstr "Sztëczk"
-
-#. i18n: file: dialogs/EditFilterDialog.ui:99
-#. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
-#: dialogs/FilenameLayoutDialog.cpp:116
-#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:248
-#: browsers/playlistbrowser/PodcastModel.cpp:243 rc.cpp:915
-#: playlist/PlaylistDefines.h:87 playlist/PlaylistModel.cpp:664
-#: widgets/Token.cpp:120 widgets/SmartPlaylistEditor.cpp:184
-msgid "Title"
-msgstr "Titel"
-
-#. i18n: file: dialogs/EditFilterDialog.ui:84
-#. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
-#: dialogs/FilenameLayoutDialog.cpp:117 dialogs/transferdialog.cpp:89
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:701
-#: browsers/collectionbrowser/CollectionWidget.cpp:79
-#: browsers/collectionbrowser/CollectionWidget.cpp:108
-#: browsers/collectionbrowser/CollectionWidget.cpp:140
-#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:245 rc.cpp:906
-#: services/lastfm/LastFmService.cpp:402
-#: services/magnatune/MagnatuneStore.cpp:190
-#: services/jamendo/JamendoInfoParser.cpp:54 playlist/PlaylistDefines.h:67
-#: playlist/PlaylistHeader.cpp:42 playlist/PlaylistModel.cpp:665
-#: widgets/Token.cpp:122 widgets/SmartPlaylistEditor.cpp:184
-#: widgets/SmartPlaylistEditor.cpp:198
-msgid "Artist"
-msgstr "Artista"
-
-#. i18n: file: dialogs/EditFilterDialog.ui:89
-#. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
-#: dialogs/FilenameLayoutDialog.cpp:118
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:702
-#: browsers/collectionbrowser/CollectionWidget.cpp:88
-#: browsers/collectionbrowser/CollectionWidget.cpp:117
-#: browsers/collectionbrowser/CollectionWidget.cpp:149
-#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:246 rc.cpp:909
-#: playlist/PlaylistDefines.h:71 playlist/PlaylistModel.cpp:667
-#: widgets/Token.cpp:124 widgets/SmartPlaylistEditor.cpp:184
-#: widgets/SmartPlaylistEditor.cpp:198
-msgid "Composer"
-msgstr "Kòmpòzytor"
-
-#. i18n: file: dialogs/EditFilterDialog.ui:109
-#. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
-#: dialogs/FilenameLayoutDialog.cpp:119
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:704
-#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:250
-#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:694 rc.cpp:921
-#: playlist/PlaylistDefines.h:91 playlist/PlaylistModel.cpp:668
-#: widgets/Token.cpp:126 widgets/SmartPlaylistEditor.cpp:185
-#: widgets/SmartPlaylistEditor.cpp:198 widgets/SmartPlaylistEditor.cpp:922
-msgid "Year"
-msgstr "Rok"
-
-#. i18n: file: dialogs/EditFilterDialog.ui:79
-#. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
-#: dialogs/FilenameLayoutDialog.cpp:120 dialogs/transferdialog.cpp:90
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:700
-#: browsers/collectionbrowser/CollectionWidget.cpp:82
-#: browsers/collectionbrowser/CollectionWidget.cpp:111
-#: browsers/collectionbrowser/CollectionWidget.cpp:143
-#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:247 rc.cpp:903
-#: services/magnatune/MagnatuneStore.cpp:198
-#: services/jamendo/JamendoInfoParser.cpp:86 playlist/PlaylistDefines.h:65
-#: playlist/PlaylistHeader.cpp:42 playlist/PlaylistModel.cpp:669
-#: widgets/Token.cpp:128 widgets/SmartPlaylistEditor.cpp:184
-#: widgets/SmartPlaylistEditor.cpp:198
-msgid "Album"
-msgstr "Albùm"
-
-#: dialogs/FilenameLayoutDialog.cpp:121
-#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:259
-#: playlist/PlaylistDefines.h:70 playlist/PlaylistModel.cpp:674
-#: widgets/Token.cpp:130 widgets/SmartPlaylistEditor.cpp:185
-msgid "Comment"
-msgstr "Dopòwiesc"
-
-#. i18n: file: dialogs/EditFilterDialog.ui:94
-#. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
-#: dialogs/FilenameLayoutDialog.cpp:122 dialogs/transferdialog.cpp:91
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:703
-#: browsers/collectionbrowser/CollectionWidget.cpp:85
-#: browsers/collectionbrowser/CollectionWidget.cpp:114
-#: browsers/collectionbrowser/CollectionWidget.cpp:146
-#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:249 rc.cpp:912
-#: playlist/PlaylistDefines.h:77 playlist/PlaylistModel.cpp:673
-#: widgets/Token.cpp:132 widgets/ProgressiveSearchWidget.cpp:95
-#: widgets/SmartPlaylistEditor.cpp:184 widgets/SmartPlaylistEditor.cpp:198
-msgid "Genre"
-msgstr "Zort"
-
-#: dialogs/FilenameLayoutDialog.cpp:123
-msgid "_"
-msgstr ""
-
-#: dialogs/FilenameLayoutDialog.cpp:124
-msgid "-"
-msgstr ""
-
-#: dialogs/FilenameLayoutDialog.cpp:125
-msgid "."
-msgstr ""
-
-#: dialogs/FilenameLayoutDialog.cpp:130 widgets/Token.cpp:116
+#: dialogs/FilenameLayoutDialog.cpp:131 widgets/Token.cpp:115
 #, fuzzy
 #| msgid "Ig&nore \"The\""
 msgid "Ignore field"
 msgstr "&Ignorëjë \"The\""
 
-#: dialogs/FilenameLayoutDialog.cpp:133
+#: dialogs/FilenameLayoutDialog.cpp:134
 #, no-c-format
 msgctxt ""
 "Please do not translate the %foo words as they define a syntax used "
@@ -1417,30 +1324,30 @@ msgid ""
 "composer, %year, %album, %comment, %genre, %ignore."
 msgstr ""
 
-#: dialogs/FilenameLayoutDialog.cpp:138
+#: dialogs/FilenameLayoutDialog.cpp:139
 msgid "/"
 msgstr ""
 
-#: dialogs/FilenameLayoutDialog.cpp:139 widgets/Token.cpp:138
+#: dialogs/FilenameLayoutDialog.cpp:140 widgets/Token.cpp:137
 #, fuzzy
 #| msgid "Artist's Initial"
 msgid "Artist initial"
 msgstr "Jinicjałë artistë"
 
-#: dialogs/FilenameLayoutDialog.cpp:140 widgets/Token.cpp:134
+#: dialogs/FilenameLayoutDialog.cpp:141 widgets/Token.cpp:133
 #, fuzzy
 #| msgid "Device type"
 msgid "File type"
 msgstr "Ôrt ùrządzenia"
 
-#: dialogs/FilenameLayoutDialog.cpp:141 playlist/PlaylistDefines.h:74
-#: widgets/Token.cpp:140
+#: dialogs/FilenameLayoutDialog.cpp:142 playlist/PlaylistDefines.h:74
+#: widgets/Token.cpp:139
 #, fuzzy
 #| msgid "Disc Number"
 msgid "Disc number"
 msgstr "Numer diskù"
 
-#: dialogs/FilenameLayoutDialog.cpp:144
+#: dialogs/FilenameLayoutDialog.cpp:145
 #, no-c-format
 msgctxt ""
 "Please do not translate the %foo words as they define a syntax used "
@@ -1452,13 +1359,13 @@ msgid ""
 "discnumber."
 msgstr ""
 
-#: dialogs/FilenameLayoutDialog.cpp:261
+#: dialogs/FilenameLayoutDialog.cpp:262
 msgid "&Basic..."
 msgstr ""
 
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:210
 #. i18n: ectx: property (text), widget (KPushButton, kpbAdvanced)
-#: dialogs/FilenameLayoutDialog.cpp:271 rc.cpp:856
+#: dialogs/FilenameLayoutDialog.cpp:272 rc.cpp:856
 #, fuzzy
 #| msgid "Add Device..."
 msgid "&Advanced..."
@@ -1800,6 +1707,53 @@ msgstr "Wëbierzë trzecé grëpòwónié:\n"
 msgid "None"
 msgstr "Felënk"
 
+#. i18n: file: dialogs/EditFilterDialog.ui:84
+#. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
+#: dialogs/transferdialog.cpp:89
+#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:701
+#: browsers/collectionbrowser/CollectionWidget.cpp:79
+#: browsers/collectionbrowser/CollectionWidget.cpp:108
+#: browsers/collectionbrowser/CollectionWidget.cpp:140
+#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:245 rc.cpp:906
+#: services/lastfm/LastFmService.cpp:402
+#: services/magnatune/MagnatuneStore.cpp:190
+#: services/jamendo/JamendoInfoParser.cpp:54 playlist/PlaylistDefines.h:67
+#: playlist/PlaylistHeader.cpp:42 playlist/PlaylistModel.cpp:665
+#: widgets/Token.cpp:121 widgets/SmartPlaylistEditor.cpp:184
+#: widgets/SmartPlaylistEditor.cpp:198
+msgid "Artist"
+msgstr "Artista"
+
+#. i18n: file: dialogs/EditFilterDialog.ui:79
+#. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
+#: dialogs/transferdialog.cpp:90
+#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:700
+#: browsers/collectionbrowser/CollectionWidget.cpp:82
+#: browsers/collectionbrowser/CollectionWidget.cpp:111
+#: browsers/collectionbrowser/CollectionWidget.cpp:143
+#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:247 rc.cpp:903
+#: services/magnatune/MagnatuneStore.cpp:198
+#: services/jamendo/JamendoInfoParser.cpp:86 playlist/PlaylistDefines.h:65
+#: playlist/PlaylistHeader.cpp:42 playlist/PlaylistModel.cpp:669
+#: widgets/Token.cpp:127 widgets/SmartPlaylistEditor.cpp:184
+#: widgets/SmartPlaylistEditor.cpp:198
+msgid "Album"
+msgstr "Albùm"
+
+#. i18n: file: dialogs/EditFilterDialog.ui:94
+#. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
+#: dialogs/transferdialog.cpp:91
+#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:703
+#: browsers/collectionbrowser/CollectionWidget.cpp:85
+#: browsers/collectionbrowser/CollectionWidget.cpp:114
+#: browsers/collectionbrowser/CollectionWidget.cpp:146
+#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:249 rc.cpp:912
+#: playlist/PlaylistDefines.h:77 playlist/PlaylistModel.cpp:673
+#: widgets/Token.cpp:131 widgets/ProgressiveSearchWidget.cpp:95
+#: widgets/SmartPlaylistEditor.cpp:184 widgets/SmartPlaylistEditor.cpp:198
+msgid "Genre"
+msgstr "Zort"
+
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:233
 #. i18n: ectx: property (title), widget (KButtonGroup, optionsFrame)
 #: dialogs/transferdialog.cpp:112 rc.cpp:859
@@ -1909,73 +1863,73 @@ msgstr ""
 "\n"
 "(Datum wersëji: "
 
-#: App.cpp:402
+#: App.cpp:413
 msgid "Files/URLs to open"
 msgstr "Lopczi/adresë do òtemkniãcô"
 
-#: App.cpp:404
+#: App.cpp:415
 msgid "Skip backwards in playlist"
 msgstr "Skóknié dowslôdë na lësce graniô"
 
-#: App.cpp:406
+#: App.cpp:417
 msgid "Start playing current playlist"
 msgstr "Naczni òdgrëwac biéżną lëstã"
 
-#: App.cpp:408
+#: App.cpp:419
 msgid "Play if stopped, pause if playing"
 msgstr "Grôj czedë zatrzëmóné, zatrzëmôj czedë gróné"
 
-#: App.cpp:409
+#: App.cpp:420
 msgid "Pause playback"
 msgstr "Paùzëjë grónié"
 
-#: App.cpp:411
+#: App.cpp:422
 msgid "Stop playback"
 msgstr "Zakùńczë grónié"
 
-#: App.cpp:413
+#: App.cpp:424
 msgid "Skip forwards in playlist"
 msgstr "Skóknié w przódk na lësce graniô"
 
-#: App.cpp:414
+#: App.cpp:425
 msgid "Additional options:"
 msgstr "Dodôwné òptacëje:"
 
-#: App.cpp:416
+#: App.cpp:427
 msgid "Append files/URLs to playlist"
 msgstr "Dodôj lopczi/adresë URL do lëstë graniô"
 
-#: App.cpp:417
+#: App.cpp:428
 msgid "Queue URLs after the currently playing track"
 msgstr "Ùstawi adresë URL w réze za biéżnym sztëczkã"
 
-#: App.cpp:419
+#: App.cpp:430
 msgid "Load URLs, replacing current playlist"
 msgstr "Ladëjë URL-ë, pòdmieniającë biéżną lëstã graniô"
 
-#: App.cpp:421
+#: App.cpp:432
 msgid "Print verbose debugging information"
 msgstr "Wëdrëkùjë wëdowiédzã ò przebiégù procesu"
 
-#: App.cpp:423
+#: App.cpp:434
 msgid "Allow running multiple Amarok instances"
 msgstr ""
 
-#: App.cpp:424
+#: App.cpp:435
 msgid "Base for relative filenames/URLs"
 msgstr "Baza dlô wzglãdnëch mionów lopków/adresów URL"
 
-#: App.cpp:662
+#: App.cpp:673
 msgid "Moving files to trash"
 msgstr ""
 
-#: App.cpp:736
+#: App.cpp:747
 #, kde-format
 msgctxt "monthname year"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: App.cpp:743
+#: App.cpp:754
 #, kde-format
 msgid "One week ago"
 msgid_plural "%1 weeks ago"
@@ -1983,16 +1937,16 @@ msgstr[0] "Tidzéń nazôd"
 msgstr[1] "%1 tidzénie nazôd"
 msgstr[2] "%1 tidzéniów nazôd"
 
-#: App.cpp:746 App.cpp:797
+#: App.cpp:757 App.cpp:808
 msgctxt "When this track was last played"
 msgid "Tomorrow"
 msgstr "Witro"
 
-#: App.cpp:752
+#: App.cpp:763
 msgid "Yesterday"
 msgstr "Wczora"
 
-#: App.cpp:753
+#: App.cpp:764
 #, kde-format
 msgid "One day ago"
 msgid_plural "%1 days ago"
@@ -2000,7 +1954,7 @@ msgstr[0] "Jeden dzén nazôd"
 msgstr[1] "%1 dni nazôd"
 msgstr[2] "%1 dniów nazôd"
 
-#: App.cpp:756
+#: App.cpp:767
 #, kde-format
 msgid "One hour ago"
 msgid_plural "%1 hours ago"
@@ -2008,7 +1962,7 @@ msgstr[0] "Jedna gòdzëna nazôd"
 msgstr[1] "%1 gòdzënë nazôd"
 msgstr[2] "%1 gòdzënów nazôd"
 
-#: App.cpp:762
+#: App.cpp:773
 #, kde-format
 msgid "One minute ago"
 msgid_plural "%1 minutes ago"
@@ -2016,31 +1970,31 @@ msgstr[0] "Jedna minuta nazôd"
 msgstr[1] "%1 minutë nazôd"
 msgstr[2] "%1 minutów nazôd"
 
-#: App.cpp:763
+#: App.cpp:774
 msgid "Within the last minute"
 msgstr "Òb slédną minutã"
 
-#: App.cpp:765
+#: App.cpp:776
 msgid "The future"
 msgstr "Przińdnota"
 
-#: App.cpp:771
+#: App.cpp:782
 msgctxt "The amount of time since last played"
 msgid "Never"
 msgstr "Nigdë"
 
-#: App.cpp:781
+#: App.cpp:792
 msgctxt "The amount of time since last played"
 msgid "0"
 msgstr "0"
 
-#: App.cpp:790
+#: App.cpp:801
 #, kde-format
 msgctxt "number of months ago"
 msgid "%1M"
 msgstr "%1M"
 
-#: App.cpp:794
+#: App.cpp:805
 #, fuzzy, kde-format
 #| msgctxt "number of months ago"
 #| msgid "%1M"
@@ -2048,7 +2002,7 @@ msgctxt "w for weeks"
 msgid "%1w"
 msgstr "%1M"
 
-#: App.cpp:803
+#: App.cpp:814
 #, fuzzy, no-c-format, kde-format
 #| msgctxt "number of months ago"
 #| msgid "%1M"
@@ -2056,7 +2010,7 @@ msgctxt "d for days"
 msgid "%1d"
 msgstr "%1M"
 
-#: App.cpp:806
+#: App.cpp:817
 #, fuzzy, kde-format
 #| msgctxt "number of months ago"
 #| msgid "%1M"
@@ -2064,7 +2018,7 @@ msgctxt "h for hours"
 msgid "%1h"
 msgstr "%1M"
 
-#: App.cpp:815
+#: App.cpp:826
 msgid "0"
 msgstr "0"
 
@@ -2101,21 +2055,21 @@ msgstr "Dinamiczné lëstë graniô"
 msgid "Smart Playlist"
 msgstr "Jinteligentnô lësta gróniô"
 
-#: podcasts/sql/SqlPodcastProvider.cpp:165
+#: podcasts/sql/SqlPodcastProvider.cpp:159
 #, kde-format
 msgid "Already subscribed to %1."
 msgstr ""
 
-#: podcasts/sql/SqlPodcastProvider.cpp:364
+#: podcasts/sql/SqlPodcastProvider.cpp:358
 msgid "Downloading Podcast Media"
 msgstr "Ladowanié mediów podcastu"
 
-#: podcasts/sql/SqlPodcastProvider.cpp:364
+#: podcasts/sql/SqlPodcastProvider.cpp:358
 #, kde-format
 msgid "Downloading Podcast \"%1\""
 msgstr "Ladowanié podcastu \"%1\""
 
-#: podcasts/sql/SqlPodcastProvider.cpp:452
+#: podcasts/sql/SqlPodcastProvider.cpp:446
 #, kde-format
 msgid "Unable to save podcast episode file to %1"
 msgstr ""
@@ -2352,13 +2306,13 @@ msgid "Presets"
 msgstr ""
 
 #: equalizerpresetmanager.cpp:58
-#: browsers/playlistbrowser/UserPlaylistTreeView.cpp:185
+#: browsers/playlistbrowser/UserPlaylistTreeView.cpp:184
 #: amarokurls/BookmarkTreeView.cpp:126
 msgid "&Rename"
 msgstr "&zmieni miono"
 
 #: equalizerpresetmanager.cpp:59
-#: browsers/playlistbrowser/UserPlaylistTreeView.cpp:179 MediaDevice.cpp:1032
+#: browsers/playlistbrowser/UserPlaylistTreeView.cpp:178 MediaDevice.cpp:1032
 #: amarokurls/BookmarkTreeView.cpp:120
 msgid "&Delete"
 msgstr "&Rëmôj"
@@ -2728,6 +2682,30 @@ msgstr "numer sztëczka"
 msgid "Year - Album"
 msgstr "Rok - Albùm"
 
+#. i18n: file: dialogs/EditFilterDialog.ui:89
+#. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
+#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:702
+#: browsers/collectionbrowser/CollectionWidget.cpp:88
+#: browsers/collectionbrowser/CollectionWidget.cpp:117
+#: browsers/collectionbrowser/CollectionWidget.cpp:149
+#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:246 rc.cpp:909
+#: playlist/PlaylistDefines.h:71 playlist/PlaylistModel.cpp:667
+#: widgets/Token.cpp:123 widgets/SmartPlaylistEditor.cpp:184
+#: widgets/SmartPlaylistEditor.cpp:198
+msgid "Composer"
+msgstr "Kòmpòzytor"
+
+#. i18n: file: dialogs/EditFilterDialog.ui:109
+#. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
+#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:704
+#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:250
+#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:694 rc.cpp:921
+#: playlist/PlaylistDefines.h:91 playlist/PlaylistModel.cpp:668
+#: widgets/Token.cpp:125 widgets/SmartPlaylistEditor.cpp:185
+#: widgets/SmartPlaylistEditor.cpp:198 widgets/SmartPlaylistEditor.cpp:922
+msgid "Year"
+msgstr "Rok"
+
 #: browsers/collectionbrowser/CollectionWidget.cpp:63
 #: services/magnatune/MagnatuneStore.cpp:194
 msgid "Artist / Album"
@@ -2811,7 +2789,7 @@ msgstr "Zastosëjë slédny filter (\"%1\")"
 msgid "Clear filter"
 msgstr "Wëczëszczë filter"
 
-#: browsers/playlistbrowser/UserPlaylistModel.cpp:178
+#: browsers/playlistbrowser/UserPlaylistModel.cpp:161
 #: amarokurls/BookmarkModel.cpp:221
 msgid "Name"
 msgstr "Miono"
@@ -2851,6 +2829,15 @@ msgstr "Pòrt"
 msgid "Match:"
 msgstr ""
 
+#. i18n: file: dialogs/EditFilterDialog.ui:99
+#. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
+#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:248
+#: browsers/playlistbrowser/PodcastModel.cpp:243 rc.cpp:915
+#: playlist/PlaylistDefines.h:87 playlist/PlaylistModel.cpp:664
+#: widgets/Token.cpp:119 widgets/SmartPlaylistEditor.cpp:184
+msgid "Title"
+msgstr "Titel"
+
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:255
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:699
 #: widgets/SmartPlaylistEditor.cpp:185
@@ -2870,6 +2857,12 @@ msgstr "disk"
 #| msgid "First Played:"
 msgid "First Played"
 msgstr "Pierszi rôz gróné:"
+
+#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:259
+#: playlist/PlaylistDefines.h:70 playlist/PlaylistModel.cpp:674
+#: widgets/Token.cpp:129 widgets/SmartPlaylistEditor.cpp:185
+msgid "Comment"
+msgstr "Dopòwiesc"
 
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:260
 #: playlist/PlaylistModel.cpp:663
@@ -5230,6 +5223,12 @@ msgstr "Wëbierzë atribùt do filtera"
 msgid "Simple Search"
 msgstr "Prostô szëkba"
 
+#. i18n: file: dialogs/EditFilterDialog.ui:104
+#. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
+#: rc.cpp:918 services/jamendo/JamendoInfoParser.cpp:112 widgets/Token.cpp:117
+msgid "Track"
+msgstr "Sztëczk"
+
 #. i18n: file: dialogs/EditFilterDialog.ui:117
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, editKeywordBox)
 #: rc.cpp:924
@@ -7582,7 +7581,7 @@ msgstr "Czas jaczi ùlécôł òd zaczątkù sztëczka"
 msgid "The amount of time remaining in current song"
 msgstr "Czas jaczi òstôł do kùńca sztëczka"
 
-#: widgets/Token.cpp:142
+#: widgets/Token.cpp:141
 msgid "<space>"
 msgstr ""
 
