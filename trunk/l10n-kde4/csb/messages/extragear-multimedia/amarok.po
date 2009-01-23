@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-22 10:28+0100\n"
+"POT-Creation-Date: 2009-01-23 10:19+0100\n"
 "PO-Revision-Date: 2009-01-08 18:45+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -32,8 +32,8 @@ msgstr ""
 msgid "Paused"
 msgstr "Paùza"
 
-#: meta/file/File_p.h:300 meta/file/File_p.h:347 meta/file/File_p.h:350
-#: meta/file/File_p.h:388 meta/file/File_p.h:417 meta/file/File_p.h:446
+#: meta/file/File_p.h:323 meta/file/File_p.h:370 meta/file/File_p.h:373
+#: meta/file/File_p.h:411 meta/file/File_p.h:440 meta/file/File_p.h:469
 #: meta/default/DefaultMetaTypes.h:41 meta/default/DefaultMetaTypes.h:81
 #: meta/default/DefaultMetaTypes.h:99
 #: services/scriptable/ScriptableServiceMeta_p.h:61
@@ -844,7 +844,7 @@ msgid "Disc %1"
 msgstr "disk"
 
 #: context/applets/albums/AlbumItem.cpp:70 MediaDevicePluginManager.cpp:531
-#: MainWindow.cpp:999 widgets/Token.cpp:113
+#: MainWindow.cpp:999 widgets/Token.cpp:115
 msgid "Unknown"
 msgstr "Nieznóny"
 
@@ -901,7 +901,7 @@ msgstr "Kònfigùracëjô apleta jinfòrmacëji ò lësce graniô"
 msgid "Width"
 msgstr "Szérz"
 
-#: context/applets/serviceinfo/ServiceInfo.cpp:62
+#: context/applets/serviceinfo/ServiceInfo.cpp:63
 msgid "Service Info (No service active)"
 msgstr "Wëdowiédzô ò ùsłëżnoce (Felënk aktiwny ùsłëżnotë)"
 
@@ -1307,17 +1307,11 @@ msgstr ""
 "Jeżlë zaznaczoné, katalodżi bãdą aùtomatno przeszëkóné, czedë jich zamkłosc "
 "bãdze zmienionô, np. czej dodóny òstanié nowi lopk."
 
-#: dialogs/FilenameLayoutDialog.cpp:88 widgets/Token.cpp:135
+#: dialogs/FilenameLayoutDialog.cpp:89 widgets/Token.cpp:137
 #, fuzzy
 #| msgid "Collection"
 msgid "Collection root"
 msgstr "Kòlekcëjô"
-
-#: dialogs/FilenameLayoutDialog.cpp:131 widgets/Token.cpp:115
-#, fuzzy
-#| msgid "Ig&nore \"The\""
-msgid "Ignore field"
-msgstr "&Ignorëjë \"The\""
 
 #: dialogs/FilenameLayoutDialog.cpp:134
 #, no-c-format
@@ -1329,29 +1323,6 @@ msgid ""
 "scheme:                                      <br>%track, %title, %artist, %"
 "composer, %year, %album, %comment, %genre, %ignore."
 msgstr ""
-
-#: dialogs/FilenameLayoutDialog.cpp:139
-msgid "/"
-msgstr ""
-
-#: dialogs/FilenameLayoutDialog.cpp:140 widgets/Token.cpp:137
-#, fuzzy
-#| msgid "Artist's Initial"
-msgid "Artist initial"
-msgstr "Jinicjałë artistë"
-
-#: dialogs/FilenameLayoutDialog.cpp:141 widgets/Token.cpp:133
-#, fuzzy
-#| msgid "Device type"
-msgid "File type"
-msgstr "Ôrt ùrządzenia"
-
-#: dialogs/FilenameLayoutDialog.cpp:142 playlist/PlaylistDefines.h:74
-#: widgets/Token.cpp:139
-#, fuzzy
-#| msgid "Disc Number"
-msgid "Disc number"
-msgstr "Numer diskù"
 
 #: dialogs/FilenameLayoutDialog.cpp:145
 #, no-c-format
@@ -1725,7 +1696,7 @@ msgstr "Felënk"
 #: services/magnatune/MagnatuneStore.cpp:190
 #: services/jamendo/JamendoInfoParser.cpp:54 playlist/PlaylistDefines.h:67
 #: playlist/PlaylistHeader.cpp:42 playlist/PlaylistModel.cpp:665
-#: widgets/Token.cpp:121 widgets/SmartPlaylistEditor.cpp:184
+#: widgets/Token.cpp:123 widgets/SmartPlaylistEditor.cpp:184
 #: widgets/SmartPlaylistEditor.cpp:198
 msgid "Artist"
 msgstr "Artista"
@@ -1741,7 +1712,7 @@ msgstr "Artista"
 #: services/magnatune/MagnatuneStore.cpp:198
 #: services/jamendo/JamendoInfoParser.cpp:86 playlist/PlaylistDefines.h:65
 #: playlist/PlaylistHeader.cpp:42 playlist/PlaylistModel.cpp:669
-#: widgets/Token.cpp:127 widgets/SmartPlaylistEditor.cpp:184
+#: widgets/Token.cpp:129 widgets/SmartPlaylistEditor.cpp:184
 #: widgets/SmartPlaylistEditor.cpp:198
 msgid "Album"
 msgstr "Albùm"
@@ -1755,7 +1726,7 @@ msgstr "Albùm"
 #: browsers/collectionbrowser/CollectionWidget.cpp:146
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:249 rc.cpp:912
 #: playlist/PlaylistDefines.h:77 playlist/PlaylistModel.cpp:673
-#: widgets/Token.cpp:131 widgets/ProgressiveSearchWidget.cpp:95
+#: widgets/Token.cpp:133 widgets/ProgressiveSearchWidget.cpp:95
 #: widgets/SmartPlaylistEditor.cpp:184 widgets/SmartPlaylistEditor.cpp:198
 msgid "Genre"
 msgstr "Zort"
@@ -2688,7 +2659,7 @@ msgstr "Rok - Albùm"
 #: browsers/collectionbrowser/CollectionWidget.cpp:149
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:246 rc.cpp:909
 #: playlist/PlaylistDefines.h:71 playlist/PlaylistModel.cpp:667
-#: widgets/Token.cpp:123 widgets/SmartPlaylistEditor.cpp:184
+#: widgets/Token.cpp:125 widgets/SmartPlaylistEditor.cpp:184
 #: widgets/SmartPlaylistEditor.cpp:198
 msgid "Composer"
 msgstr "Kòmpòzytor"
@@ -2699,7 +2670,7 @@ msgstr "Kòmpòzytor"
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:250
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:694 rc.cpp:921
 #: playlist/PlaylistDefines.h:91 playlist/PlaylistModel.cpp:668
-#: widgets/Token.cpp:125 widgets/SmartPlaylistEditor.cpp:185
+#: widgets/Token.cpp:127 widgets/SmartPlaylistEditor.cpp:185
 #: widgets/SmartPlaylistEditor.cpp:198 widgets/SmartPlaylistEditor.cpp:922
 msgid "Year"
 msgstr "Rok"
@@ -2832,7 +2803,7 @@ msgstr ""
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:248
 #: browsers/playlistbrowser/PodcastModel.cpp:246 rc.cpp:915
 #: playlist/PlaylistDefines.h:87 playlist/PlaylistModel.cpp:664
-#: widgets/Token.cpp:119 widgets/SmartPlaylistEditor.cpp:184
+#: widgets/Token.cpp:121 widgets/SmartPlaylistEditor.cpp:184
 msgid "Title"
 msgstr "Titel"
 
@@ -2858,7 +2829,7 @@ msgstr "Pierszi rôz gróné:"
 
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:259
 #: playlist/PlaylistDefines.h:70 playlist/PlaylistModel.cpp:674
-#: widgets/Token.cpp:129 widgets/SmartPlaylistEditor.cpp:185
+#: widgets/Token.cpp:131 widgets/SmartPlaylistEditor.cpp:185
 msgid "Comment"
 msgstr "Dopòwiesc"
 
@@ -5223,7 +5194,7 @@ msgstr "Prostô szëkba"
 
 #. i18n: file: dialogs/EditFilterDialog.ui:104
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
-#: rc.cpp:918 services/jamendo/JamendoInfoParser.cpp:112 widgets/Token.cpp:117
+#: rc.cpp:918 services/jamendo/JamendoInfoParser.cpp:112 widgets/Token.cpp:119
 msgid "Track"
 msgstr "Sztëczk"
 
@@ -7200,6 +7171,12 @@ msgstr "Òbkłôdka"
 msgid "Directory"
 msgstr "Katalog"
 
+#: playlist/PlaylistDefines.h:74 widgets/Token.cpp:141
+#, fuzzy
+#| msgid "Disc Number"
+msgid "Disc number"
+msgstr "Numer diskù"
+
 #: playlist/PlaylistDefines.h:75
 #, fuzzy
 #| msgctxt "The name of the file this track is stored in"
@@ -7286,7 +7263,7 @@ msgstr "Sztëcczi rëmniãté"
 msgid "Track moved"
 msgstr "Sztëcczi rëmniãté"
 
-#: playlist/PlaylistActions.cpp:293
+#: playlist/PlaylistActions.cpp:295
 msgid "Too many errors encountered in playlist. Playback stopped."
 msgstr ""
 
@@ -7576,6 +7553,12 @@ msgstr "Wëpôlë nen lbùm"
 msgid "Bookmark this Artist"
 msgstr "Rozmajiti wëkònywaczë"
 
+#: amarokurls/BookmarkMetaActions.cpp:64
+#, fuzzy
+#| msgid "Bookmarks"
+msgid "Bookmark Position"
+msgstr "Załóżczi"
+
 #: amarokurls/NavigationUrlGenerator.cpp:233
 #, kde-format
 msgid "Album \"%1\" from %2"
@@ -7614,7 +7597,25 @@ msgstr "Czas jaczi ùlécôł òd zaczątkù sztëczka"
 msgid "The amount of time remaining in current song"
 msgstr "Czas jaczi òstôł do kùńca sztëczka"
 
-#: widgets/Token.cpp:141
+#: widgets/Token.cpp:117
+#, fuzzy
+#| msgid "Ig&nore \"The\""
+msgid "Ignore field"
+msgstr "&Ignorëjë \"The\""
+
+#: widgets/Token.cpp:135
+#, fuzzy
+#| msgid "Device type"
+msgid "File type"
+msgstr "Ôrt ùrządzenia"
+
+#: widgets/Token.cpp:139
+#, fuzzy
+#| msgid "Artist's Initial"
+msgid "Artist initial"
+msgstr "Jinicjałë artistë"
+
+#: widgets/Token.cpp:143
 msgid "<space>"
 msgstr ""
 
