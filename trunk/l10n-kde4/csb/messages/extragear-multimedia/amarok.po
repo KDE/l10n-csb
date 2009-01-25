@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-24 10:24+0100\n"
+"POT-Creation-Date: 2009-01-25 10:10+0100\n"
 "PO-Revision-Date: 2009-01-08 18:45+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -409,6 +409,30 @@ msgstr "Wëdowiédza ò ùrządzeniu:"
 msgid "Wikipedia Other Languages: <br/>"
 msgstr "Jine jãzëczi Wikipediji: <br/>"
 
+#: context/toolbar/AppletItemOverlay.cpp:101
+#: context/toolbar/AppletToolbarAppletItem.cpp:47
+#, fuzzy
+#| msgid "Remove selected"
+msgid "Remove Applet"
+msgstr "Rëmpj wëbróné"
+
+#: context/toolbar/AppletToolbarConfigItem.cpp:30
+#, fuzzy
+#| msgid "Configure..."
+msgid "Configure Applets..."
+msgstr "Kònfigùracëjë..."
+
+#: context/toolbar/AppletToolbarAddItem.cpp:40
+#, fuzzy
+#| msgid "Add Applet..."
+msgid "Add Applets..."
+msgstr "Dodôj aplet..."
+
+#: context/toolbar/AppletToolbarAddItem.cpp:64
+#: context/containments/oldcontainment/ColumnContainment.cpp:95
+msgid "Add Applet..."
+msgstr "Dodôj aplet..."
+
 #: context/LyricsManager.cpp:108
 #, fuzzy
 #| msgid "This object could not be created."
@@ -808,7 +832,7 @@ msgstr "Rechòwnik òdegraniô:"
 #: context/applets/albums/AlbumsView.cpp:105 Systray.cpp:216
 #: browsers/collectionbrowser/CollectionTreeView.cpp:595
 #: browsers/filebrowser/MyDirOperator.cpp:261
-#: browsers/playlistbrowser/PodcastModel.cpp:601
+#: browsers/playlistbrowser/PodcastModel.cpp:683
 #: browsers/playlistbrowser/UserPlaylistTreeView.cpp:166
 #: services/lastfm/LastFmTreeView.cpp:116
 msgid "&Append to Playlist"
@@ -817,7 +841,7 @@ msgstr "&Dodôj do lëstë graniô"
 #: context/applets/albums/AlbumsView.cpp:106
 #: browsers/collectionbrowser/CollectionTreeView.cpp:603
 #: browsers/filebrowser/MyDirOperator.cpp:262
-#: browsers/playlistbrowser/PodcastModel.cpp:614
+#: browsers/playlistbrowser/PodcastModel.cpp:696
 #: browsers/playlistbrowser/UserPlaylistTreeView.cpp:172
 #: services/lastfm/LastFmTreeView.cpp:124
 msgctxt "Replace the currently loaded tracks with these"
@@ -905,11 +929,6 @@ msgstr "Szérz"
 msgid "Service Info (No service active)"
 msgstr "Wëdowiédzô ò ùsłëżnoce (Felënk aktiwny ùsłëżnotë)"
 
-#: context/containments/oldcontainment/ColumnContainment.cpp:95
-#: context/containments/verticallayout/toolbar/AppletToolbarAddItem.cpp:64
-msgid "Add Applet..."
-msgstr "Dodôj aplet..."
-
 #: context/containments/oldcontainment/ColumnContainment.cpp:177
 #, fuzzy
 #| msgid "Add Widgets..."
@@ -927,30 +946,6 @@ msgstr "Nowa grëpa"
 #| msgid "Previous Track"
 msgid "Previous Group"
 msgstr "Piprzédny sztëczk"
-
-#: context/containments/verticallayout/toolbar/AppletToolbarConfigItem.cpp:30
-#, fuzzy
-#| msgid "Configure..."
-msgid "Configure Applets..."
-msgstr "Kònfigùracëjë..."
-
-#: context/containments/verticallayout/toolbar/AppletToolbarAddItem.cpp:40
-#, fuzzy
-#| msgid "Add Applet..."
-msgid "Add Applets..."
-msgstr "Dodôj aplet..."
-
-#: context/containments/verticallayout/toolbar/AppletToolbarAppletItem.cpp:48
-#, fuzzy
-#| msgid "Remove selected"
-msgid "Remove Applet"
-msgstr "Rëmpj wëbróné"
-
-#: context/containments/verticallayout/toolbar/AppletToolbarAppletItem.cpp:57
-#, fuzzy
-#| msgid "Next Applet"
-msgid "Move Applet"
-msgstr "Pòstãpny aplet"
 
 #: context/widgets/ToolBoxMenu.cpp:102
 msgid "Hide menu"
@@ -2057,22 +2052,22 @@ msgstr "&Kònfigùrëjë"
 msgid "&Remove Subscription"
 msgstr "&Czas déraniô"
 
-#: podcasts/sql/SqlPodcastProvider.cpp:518
+#: podcasts/sql/SqlPodcastProvider.cpp:519
 msgid "Downloading Podcast Media"
 msgstr "Ladowanié mediów podcastu"
 
-#: podcasts/sql/SqlPodcastProvider.cpp:518
+#: podcasts/sql/SqlPodcastProvider.cpp:519
 #, kde-format
 msgid "Downloading Podcast \"%1\""
 msgstr "Ladowanié podcastu \"%1\""
 
-#: podcasts/sql/SqlPodcastProvider.cpp:612
+#: podcasts/sql/SqlPodcastProvider.cpp:613
 #, kde-format
 msgid "Unable to save podcast episode file to %1"
 msgstr ""
 
 #: podcasts/sql/SqlPodcastProvider.h:46
-#: browsers/playlistbrowser/PodcastModel.cpp:685
+#: browsers/playlistbrowser/PodcastModel.cpp:582
 #: services/opmldirectory/OpmlDirectoryService.cpp:240
 msgid "Local Podcasts"
 msgstr "Môlowé podcastë"
@@ -2775,7 +2770,7 @@ msgstr ""
 msgid "Apply last filter (\"%1\")"
 msgstr "Zastosëjë slédny filter (\"%1\")"
 
-#: browsers/filebrowser/FileBrowser.cpp:227
+#: browsers/filebrowser/FileBrowser.cpp:228
 msgid "Clear filter"
 msgstr "Wëczëszczë filter"
 
@@ -6937,7 +6932,13 @@ msgstr "Brëkùjë Amaroka jakno jedny le nôkładczi na twòją serwerã Ampach
 msgid "Enter the server name and a password"
 msgstr "Wpiszë miono serwerë ë parolã"
 
-#: services/ampache/AmpacheService.cpp:220
+#: services/ampache/AmpacheService.cpp:188
+#, fuzzy
+#| msgid "Authenticating"
+msgid "Authenticating with Ampache"
+msgstr "Ùdowiérzanié"
+
+#: services/ampache/AmpacheService.cpp:216
 msgid "Authentication Error!"
 msgstr "Fela ùdowiérzania!"
 
@@ -7703,14 +7704,16 @@ msgid "Enter search terms here"
 msgstr "Wpiszë tuwò kriteria szëkbë"
 
 #: widgets/SearchWidget.cpp:66
-msgid "Enter space-separated terms to search in the playlist."
-msgstr "Wpiszë òddzéloné spacëjama kriteria przeszëkiwaniô lëstë graniô"
+#, fuzzy
+#| msgid "Enter space-separated terms to search in the albums"
+msgid "Enter space-separated terms to search."
+msgstr "Wpiszë, òddzéloné spacjama, kriteria przeszëkiwaniô albùmów"
 
 #: widgets/SearchWidget.cpp:75
 #, fuzzy
-#| msgid "Click to edit playlist filter"
-msgid "Edit playlist filter"
-msgstr "Klëknij abë editowac filter lëstë graniô"
+#| msgid "Edit Filter"
+msgid "Edit filter"
+msgstr "Editëjë filter"
 
 #: widgets/BookmarkTriangle.cpp:32
 #, fuzzy, kde-format
@@ -8238,6 +8241,19 @@ msgstr "Òbkłôdka"
 #: covermanager/CoverManager.cpp:890
 msgid "No Artist"
 msgstr "Felëje artistë"
+
+#, fuzzy
+#~| msgid "Next Applet"
+#~ msgid "Move Applet"
+#~ msgstr "Pòstãpny aplet"
+
+#~ msgid "Enter space-separated terms to search in the playlist."
+#~ msgstr "Wpiszë òddzéloné spacëjama kriteria przeszëkiwaniô lëstë graniô"
+
+#, fuzzy
+#~| msgid "Click to edit playlist filter"
+#~ msgid "Edit playlist filter"
+#~ msgstr "Klëknij abë editowac filter lëstë graniô"
 
 #~ msgid "Actions"
 #~ msgstr "Akcëjë"
