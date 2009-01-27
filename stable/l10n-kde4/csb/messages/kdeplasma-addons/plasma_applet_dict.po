@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_dict\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-25 09:42+0100\n"
+"POT-Creation-Date: 2009-01-27 08:28+0100\n"
 "PO-Revision-Date: 2007-12-28 10:43+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -18,21 +18,26 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: dict.cpp:101
+#: dict.cpp:57
 msgid "Enter word to define here"
 msgstr "Wpiszë tuwò słowò do zdefioniwaniô"
 
-#: dict.cpp:280
-msgid "Dictionary"
-msgstr ""
-
+#. i18n: file: config.ui:21
+#. i18n: ectx: property (text), widget (QLabel, timeout_label)
+#: rc.cpp:3
 #, fuzzy
-#~| msgid "Timeout:"
-#~ msgctxt ""
-#~ "time in milliseconds it should wait after the user finishes typing to "
-#~ "look up a word"
-#~ msgid "Timeout:"
-#~ msgstr "Czas zakùńczeniô:"
+#| msgid "Timeout:"
+msgctxt ""
+"time in milliseconds it should wait after the user finishes typing to look "
+"up a word"
+msgid "Timeout:"
+msgstr "Czas zakùńczeniô:"
+
+#. i18n: file: config.ui:28
+#. i18n: ectx: property (toolTip), widget (QSpinBox, timeoutSpinBox)
+#: rc.cpp:6
+msgid "Time in milliseconds it should wait before looking for a word"
+msgstr ""
 
 #~ msgid "Looking up "
 #~ msgstr "Szëkónié"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_clock\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-10 10:57+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2008-12-14 13:00+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -19,65 +19,88 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: clock.cpp:161
-msgid "General"
-msgstr "Òglowé"
-
-#. i18n: file: clockConfig.ui:22
-#. i18n: ectx: property (toolTip), widget (QCheckBox, showSecondHandCheckBox)
+#. i18n: file: clockConfig.ui:24
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: rc.cpp:3
+msgid "Appearance"
+msgstr "Wëzdrzatk"
+
+#. i18n: file: clockConfig.ui:35
+#. i18n: ectx: property (toolTip), widget (QCheckBox, showSecondHandCheckBox)
+#: rc.cpp:6
 msgid "Show the seconds"
 msgstr "Pòkażë sekùndë"
 
-#. i18n: file: clockConfig.ui:25
+#. i18n: file: clockConfig.ui:38
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, showSecondHandCheckBox)
-#: rc.cpp:6
+#: rc.cpp:9
 msgid "Check this if you want to show the seconds."
 msgstr "Zaznaczë, jeżlë chcesz pòkazac sekùndë."
 
-#. i18n: file: clockConfig.ui:28
+#. i18n: file: clockConfig.ui:41
 #. i18n: ectx: property (text), widget (QCheckBox, showSecondHandCheckBox)
-#: rc.cpp:9
-msgid "Show &seconds hand"
+#: rc.cpp:12
+#, fuzzy
+#| msgid "Show &seconds hand"
+msgid "Show &seconds"
 msgstr "Pòkażë &sekùndnik"
 
-#. i18n: file: clockConfig.ui:35
-#. i18n: ectx: property (toolTip), widget (QCheckBox, showTimezoneStringCheckBox)
-#: rc.cpp:12
-msgid "Show the Timezone in text"
+#. i18n: file: clockConfig.ui:48
+#. i18n: ectx: property (toolTip), widget (QCheckBox, showTimeStringCheckBox)
+#: rc.cpp:15
+#, fuzzy
+#| msgid "Show the Timezone in text"
+msgid "Show the time in text"
 msgstr "Pòkazë czasową conã w teksce"
 
-#. i18n: file: clockConfig.ui:38
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, showTimezoneStringCheckBox)
-#: rc.cpp:15
-msgid "Check this if you want to display Timezone in text."
+#. i18n: file: clockConfig.ui:51
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, showTimeStringCheckBox)
+#: rc.cpp:18
+#, fuzzy
+#| msgid "Check this if you want to display Timezone in text."
+msgid "Check this if you want to display the time as text within the clock."
 msgstr "Zaznaczë to, jeżlë chcesz wëskrzenic czasową conã w teksce."
 
-#. i18n: file: clockConfig.ui:41
-#. i18n: ectx: property (text), widget (QCheckBox, showTimezoneStringCheckBox)
-#: rc.cpp:18
-msgid "Show &time zone"
-msgstr "Pòkazë &czasową conã"
-
+#. i18n: file: clockConfig.ui:54
+#. i18n: ectx: property (text), widget (QCheckBox, showTimeStringCheckBox)
+#: rc.cpp:21
 #, fuzzy
-#~| msgid "Also show the time as text"
-#~ msgid "Also show the Timezone as text"
-#~ msgstr "Wëskrzëniwôj téż czas w teksce"
+#| msgid "Also show the time as text"
+msgid "Also show the time as text"
+msgstr "Wëskrzëniwôj téż czas w teksce"
 
-#~ msgid "Appearance"
-#~ msgstr "Wëzdrzatk"
+#. i18n: file: clockConfig.ui:66
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:24
+msgid "Timezones"
+msgstr "Czasowé zonë"
 
-#~ msgid "Timezones"
-#~ msgstr "Czasowé zonë"
+#. i18n: file: clockConfig.ui:77
+#. i18n: ectx: property (text), widget (QCheckBox, localTimeZone)
+#: rc.cpp:27
+msgid "Use &local timezone"
+msgstr "Ùżëjë &môlowich czasowich zonów"
 
-#~ msgid "Use &local timezone"
-#~ msgstr "Ùżëjë &môlowich czasowich zonów"
+#. i18n: file: clockConfig.ui:91
+#. i18n: ectx: property (text), widget (KTimeZoneWidget, timeZones)
+#: rc.cpp:30
+msgid "Area"
+msgstr "Òbéńda"
 
-#~ msgid "Area"
-#~ msgstr "Òbéńda"
+#. i18n: file: clockConfig.ui:96
+#. i18n: ectx: property (text), widget (KTimeZoneWidget, timeZones)
+#: rc.cpp:33
+msgid "Region"
+msgstr "Region"
 
-#~ msgid "Region"
-#~ msgstr "Region"
+#. i18n: file: clockConfig.ui:101
+#. i18n: ectx: property (text), widget (KTimeZoneWidget, timeZones)
+#: rc.cpp:36
+msgid "Comment"
+msgstr "Dopòwiesc"
 
-#~ msgid "Comment"
-#~ msgstr "Dopòwiesc"
+#~ msgid "General"
+#~ msgstr "Òglowé"
+
+#~ msgid "Show &time zone"
+#~ msgstr "Pòkazë &czasową conã"

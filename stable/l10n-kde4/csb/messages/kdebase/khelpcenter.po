@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-06 11:06+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2008-12-11 22:12+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: application.cpp:57 navigator.cpp:470
+#: application.cpp:57 navigator.cpp:483
 msgid "KDE Help Center"
 msgstr "Centróm pòmòcë KDE"
 
@@ -80,12 +80,16 @@ msgid "Sizes"
 msgstr "Miarë"
 
 #: fontdialog.cpp:74
-msgctxt "The smallest size a will have"
+#, fuzzy
+#| msgctxt "The smallest size a will have"
+#| msgid "M&inimum font size:"
 msgid "M&inimum font size:"
 msgstr "M&inimalnô miara fòntu:"
 
 #: fontdialog.cpp:81
-msgctxt "The normal size a font will have"
+#, fuzzy
+#| msgctxt "The normal size a font will have"
+#| msgid "M&edium font size:"
 msgid "M&edium font size:"
 msgstr "&Strzédnô miara fòntu:"
 
@@ -125,7 +129,7 @@ msgstr "Kòdowanie"
 msgid "&Default encoding:"
 msgstr "&Domëszlné kòdowanié:"
 
-#: fontdialog.cpp:147 fontdialog.cpp:217
+#: fontdialog.cpp:147 fontdialog.cpp:215
 msgid "Use Language Encoding"
 msgstr "Brëkùjë kòdowania wëbrónegò jãzëka"
 
@@ -174,43 +178,47 @@ msgid "ht://dig"
 msgstr "ht://dig"
 
 #: htmlsearchconfig.cpp:59
+#, fuzzy
+#| msgid ""
+#| "The fulltext search feature makes use of the ht://dig HTML search engine."
 msgid ""
-"The fulltext search feature makes use of the ht://dig HTML search engine."
+"The fulltext search feature makes use of the ht://dig HTML search engine. "
+"You can get ht://dig at the"
 msgstr "Fùltekstowô szëkba brëkùje HTML szëkôrza ht://dig."
 
-#: htmlsearchconfig.cpp:63
+#: htmlsearchconfig.cpp:64
 msgid "Information about where to get the ht://dig package."
 msgstr "Wëdowédzô ò przistãpnoscë paczétu ht://dig."
 
-#: htmlsearchconfig.cpp:67
-msgid "You can get ht://dig at the ht://dig home page"
-msgstr "Mòżesz brëkòwac ht://dig przë domôcy starnie ht://dig."
+#: htmlsearchconfig.cpp:68
+msgid "ht://dig home page"
+msgstr "Domôcô starna ht://dig "
 
-#: htmlsearchconfig.cpp:73
+#: htmlsearchconfig.cpp:74
 msgid "Program Locations"
 msgstr "Lokalizacëje programów"
 
-#: htmlsearchconfig.cpp:82
+#: htmlsearchconfig.cpp:83
 msgid "htsearch:"
 msgstr "htsearch:"
 
-#: htmlsearchconfig.cpp:88
+#: htmlsearchconfig.cpp:89
 msgid "Enter the URL of the htsearch CGI program."
 msgstr "Proszã pòdac adresã URL programë CGI htsearch."
 
-#: htmlsearchconfig.cpp:93
+#: htmlsearchconfig.cpp:94
 msgid "Indexer:"
 msgstr "Indexer:"
 
-#: htmlsearchconfig.cpp:99
+#: htmlsearchconfig.cpp:100
 msgid "Enter the path to your htdig indexer program here."
 msgstr "Proszã pòdac adresã URL indeksujący programë htdig."
 
-#: htmlsearchconfig.cpp:105
+#: htmlsearchconfig.cpp:106
 msgid "htdig database:"
 msgstr "Baza htdig:"
 
-#: htmlsearchconfig.cpp:111
+#: htmlsearchconfig.cpp:112
 msgid "Enter the path to the htdig database folder."
 msgstr "Proszã pòdac stegnã do katalogù bazë htdig."
 
@@ -334,11 +342,11 @@ msgstr "Felënk fùnkcëji szëkbë dlô dokùmentów ôrtu '%1'."
 msgid "No indexing command specified for document type '%1'."
 msgstr "Felënk pòlétu do robieniô indeksu dlô dokùmentów ôrtu '%1'."
 
-#: kcmhelpcenter.cpp:541
+#: kcmhelpcenter.cpp:531
 msgid "Failed to build index."
 msgstr "Nie mòże zbùdowac indeksu."
 
-#: kcmhelpcenter.cpp:596
+#: kcmhelpcenter.cpp:586
 #, kde-format
 msgid ""
 "Error executing indexing build command:\n"
@@ -448,23 +456,23 @@ msgstr "Ùstôwë szëkbë"
 msgid "G&lossary"
 msgstr "&Słowôrzk"
 
-#: navigator.cpp:469
+#: navigator.cpp:482
 msgid "Start Page"
 msgstr "Przédnô starna"
 
-#: navigator.cpp:557
+#: navigator.cpp:570
 msgid "Unable to run search program."
 msgstr "Nie mòże zrëszëc szëkôrza."
 
-#: navigator.cpp:597
+#: navigator.cpp:610
 msgid "A search index does not yet exist. Do you want to create the index now?"
 msgstr "Felëje indeksu szëkbë. Ùsôdzëc gò terô?"
 
-#: navigator.cpp:601
+#: navigator.cpp:614
 msgid "Create"
 msgstr "Ùsôdzë"
 
-#: navigator.cpp:602
+#: navigator.cpp:615
 msgid "Do Not Create"
 msgstr "Nie ùsôdzôj"
 
@@ -620,72 +628,89 @@ msgctxt "Label for Unknown search scope, that should never appear"
 msgid "unknown"
 msgstr "nieznóny"
 
-#: view.cpp:209
+#: view.cpp:119
+msgid "Conquer your Desktop!"
+msgstr "Kòntrolëjë swój desktop!"
+
+#: view.cpp:123
+msgid "Help Center"
+msgstr "Centróm pòmòcë KDE"
+
+#: view.cpp:125
+msgid "Welcome to the K Desktop Environment"
+msgstr "Witómë w òkrãżim KDE"
+
+#: view.cpp:126
+msgid "The KDE team welcomes you to user-friendly UNIX computing"
+msgstr "Karno KDE witô w drësznym uniksowim òkrãżim"
+
+#: view.cpp:127
+msgid ""
+"KDE is a powerful graphical desktop environment for UNIX workstations. A\n"
+"KDE desktop combines ease of use, contemporary functionality and "
+"outstanding\n"
+"graphical design with the technological superiority of the UNIX operating\n"
+"system."
+msgstr ""
+"KDE je stolemnym grafikòwim òkrãżim dlô Uniksa.\n"
+"Parłãczë letkòsc ùżëca, fùnkcjonalnotã ë snôżotã z mòcą òperacjowi systemë "
+"Unix."
+
+#: view.cpp:131
+msgid "What is the K Desktop Environment?"
+msgstr "Co to je K Desktop Environment?"
+
+#: view.cpp:132
+msgid "Contacting the KDE Project"
+msgstr "Łączba z Karnem KDE"
+
+#: view.cpp:133
+msgid "Supporting the KDE Project"
+msgstr "Wspòmaganié projektu KDE"
+
+#: view.cpp:134
+msgid "Useful links"
+msgstr "Przedôwne lënczi"
+
+#: view.cpp:135
+msgid "Getting the most out of KDE"
+msgstr "Pòdspòdlowô wëdowiédza ò KDE"
+
+#: view.cpp:136
+msgid "General Documentation"
+msgstr "Pòdspòdlowô dokùmentacëja"
+
+#: view.cpp:137
+msgid "A Quick Start Guide to the Desktop"
+msgstr "Krótczé wprowadzenié do KDE"
+
+#: view.cpp:138
+msgid "KDE Users' guide"
+msgstr "Ùczbòwnik brëkòwnika KDE"
+
+#: view.cpp:139
+msgid "Frequently asked questions"
+msgstr "Czãsto zadôwóné pëtania"
+
+#: view.cpp:140
+msgid "Basic Applications"
+msgstr "Pòdspòdlowé programë"
+
+#: view.cpp:141
+msgid "The Kicker Desktop Panel"
+msgstr "Kicker - panel KDE"
+
+#: view.cpp:142
+msgid "The KDE Control Center"
+msgstr "Centróm kòntroli KDE"
+
+#: view.cpp:143
+msgid "The Konqueror File manager and Web Browser"
+msgstr "Konqueror - menadżer lopków ë przezérnik WWW"
+
+#: view.cpp:267
 msgid "Copy Link Address"
 msgstr "Skòpérëjë adresã lënka"
 
-#~ msgid "ht://dig home page"
-#~ msgstr "Domôcô starna ht://dig "
-
-#~ msgid "Conquer your Desktop!"
-#~ msgstr "Kòntrolëjë swój desktop!"
-
-#~ msgid "Help Center"
-#~ msgstr "Centróm pòmòcë KDE"
-
-#~ msgid "Welcome to the K Desktop Environment"
-#~ msgstr "Witómë w òkrãżim KDE"
-
-#~ msgid "The KDE team welcomes you to user-friendly UNIX computing"
-#~ msgstr "Karno KDE witô w drësznym uniksowim òkrãżim"
-
-#~ msgid ""
-#~ "KDE is a powerful graphical desktop environment for UNIX workstations. A\n"
-#~ "KDE desktop combines ease of use, contemporary functionality and "
-#~ "outstanding\n"
-#~ "graphical design with the technological superiority of the UNIX "
-#~ "operating\n"
-#~ "system."
-#~ msgstr ""
-#~ "KDE je stolemnym grafikòwim òkrãżim dlô Uniksa.\n"
-#~ "Parłãczë letkòsc ùżëca, fùnkcjonalnotã ë snôżotã z mòcą òperacjowi "
-#~ "systemë Unix."
-
-#~ msgid "What is the K Desktop Environment?"
-#~ msgstr "Co to je K Desktop Environment?"
-
-#~ msgid "Contacting the KDE Project"
-#~ msgstr "Łączba z Karnem KDE"
-
-#~ msgid "Supporting the KDE Project"
-#~ msgstr "Wspòmaganié projektu KDE"
-
-#~ msgid "Useful links"
-#~ msgstr "Przedôwne lënczi"
-
-#~ msgid "Getting the most out of KDE"
-#~ msgstr "Pòdspòdlowô wëdowiédza ò KDE"
-
-#~ msgid "General Documentation"
-#~ msgstr "Pòdspòdlowô dokùmentacëja"
-
-#~ msgid "A Quick Start Guide to the Desktop"
-#~ msgstr "Krótczé wprowadzenié do KDE"
-
-#~ msgid "KDE Users' guide"
-#~ msgstr "Ùczbòwnik brëkòwnika KDE"
-
-#~ msgid "Frequently asked questions"
-#~ msgstr "Czãsto zadôwóné pëtania"
-
-#~ msgid "Basic Applications"
-#~ msgstr "Pòdspòdlowé programë"
-
-#~ msgid "The Kicker Desktop Panel"
-#~ msgstr "Kicker - panel KDE"
-
-#~ msgid "The KDE Control Center"
-#~ msgstr "Centróm kòntroli KDE"
-
-#~ msgid "The Konqueror File manager and Web Browser"
-#~ msgstr "Konqueror - menadżer lopków ë przezérnik WWW"
+#~ msgid "You can get ht://dig at the ht://dig home page"
+#~ msgstr "Mòżesz brëkòwac ht://dig przë domôcy starnie ht://dig."

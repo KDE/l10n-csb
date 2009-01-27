@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmapkg\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-27 11:10+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2008-12-13 21:02+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -19,66 +19,65 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: main.cpp:42
+#: main.cpp:36
 msgid "Install, list, remove Plasma packages"
 msgstr "Instalëjë, pòkażë, rëmô paczétë Plasmë"
 
-#: main.cpp:77
+#: main.cpp:47
+msgid "Listing is not yet implemented."
+msgstr ""
+
+#: main.cpp:52
 msgid "Plasma Package Manager"
 msgstr "Menadżera paczétów Plasmë"
 
-#: main.cpp:79
+#: main.cpp:54
 msgid "(C) 2008, Aaron Seigo"
 msgstr "(C) 2008, Aaron Seigo"
 
-#: main.cpp:80
+#: main.cpp:55
 msgid "Aaron Seigo"
 msgstr "Aaron Seigo"
 
-#: main.cpp:81
+#: main.cpp:56
 msgid "Original author"
 msgstr "Òridżinalny aùtor"
 
-#: main.cpp:90
+#: main.cpp:65
 msgid "For install or remove, operates on packages installed for all users."
 msgstr ""
 "Abë winstalowac abò rëmnąc dzejôj na paczétach winstalowónëch dlô wszëtczich "
 "brëkòwników."
 
-#: main.cpp:96
+#: main.cpp:68
 #, fuzzy
 #| msgid ""
 #| "The type of package, e.g. theme, wallpaper, plasmoid, dataengine, runner, "
 #| "etc."
-msgctxt ""
-"theme, wallpaper, etc. are keywords, but they may be translated, as both "
-"versions are recognized by the application (if translated, should be same as "
-"messages with 'package type' context below)"
 msgid ""
-"The type of package, e.g. theme, wallpaper, plasmoid, dataengine, runner, "
+"The type of package, e.g. theme, wallpaper, plasmoid, DataEngine, Runner, "
 "etc."
 msgstr "Ôrt paczétu, np. téma, tapéta, plasmoid, mòtór pòdôwków, runner ëtd."
 
-#: main.cpp:100
-msgctxt "Do not translate <path>"
+#: main.cpp:72
+#, fuzzy
+#| msgctxt "Do not translate <path>"
+#| msgid "Install the package at <path>"
 msgid "Install the package at <path>"
 msgstr "Instalëjë paczét w <path>"
 
-#: main.cpp:102
-msgctxt "Do not translate <path>"
-msgid "Upgrade the package at <path>"
-msgstr "Zaktualni paczét w <path>"
-
-#: main.cpp:104
+#: main.cpp:74
 msgid "List installed packages"
 msgstr "Lësta winstalowónëch paczétów"
 
-#: main.cpp:106
-msgctxt "Do not translate <name>"
+#: main.cpp:76
+#, fuzzy
+#| msgctxt "Do not translate <name>"
+#| msgid "Remove the package named <name>"
 msgid "Remove the package named <name>"
 msgstr "Rëmô paczétë zwóné <name>"
 
-#: main.cpp:108
+#: main.cpp:78
 msgid ""
 "Absolute path to the package root. If not supplied, then the standard data "
 "directories for this KDE session will be searched instead."
@@ -86,82 +85,74 @@ msgstr ""
 "Bezwzglądnô stegna do spòdla paczétu. Jeżlë nie mdze wpisónô, standardowé "
 "katalodżi dlô ti KDE sesëji bãdą przeszëkóne."
 
-#: main.cpp:120
+#: main.cpp:97
 #, fuzzy
 #| msgid "plasmoid"
-msgctxt "package type"
 msgid "plasmoid"
 msgstr "plasmoid"
 
-#: main.cpp:124
+#: main.cpp:100
 #, fuzzy
 #| msgid "theme"
-msgctxt "package type"
 msgid "theme"
 msgstr "téma"
 
-#: main.cpp:126
+#: main.cpp:102
 #, fuzzy
 #| msgid "wallpaper"
-msgctxt "package type"
 msgid "wallpaper"
 msgstr "tapéta"
 
-#: main.cpp:128
+#: main.cpp:104
 #, fuzzy
 #| msgid "dataengine"
-msgctxt "package type"
 msgid "dataengine"
 msgstr "mòtór pòdôwków"
 
-#: main.cpp:132
+#: main.cpp:107
 #, fuzzy
 #| msgid "runner"
-msgctxt "package type"
 msgid "runner"
 msgstr "runner"
 
-#: main.cpp:140
+#: main.cpp:118
 #, kde-format
 msgid "Could not find a suitable installer for package of type %1"
 msgstr "Ni mòże nalezc dobrégò instalownika dlô paczéta ôrtu %1"
 
-#: main.cpp:149
+#: main.cpp:127
 #, kde-format
 msgid "Could not load installer for package of type %1. Error reported was: %2"
 msgstr ""
 "Ni mòże wladowac instalownika dlô paczétu ôrtu %1. Zarapòrtowónô fela: %2"
 
-#: main.cpp:205
-#, kde-format
-msgid "Successfully removed %1"
-msgstr "Ùdało rëmniãté: %1"
-
-#: main.cpp:207
-#, kde-format
-msgid "Removal of %1 failed."
-msgstr "Nié ùdałé rëmniãcé: %1"
-
-#: main.cpp:211
-#, kde-format
-msgid "Plugin %1 is not installed."
-msgstr "Wtëkôcz %1 nie je winstalowóny."
-
-#: main.cpp:216
+#: main.cpp:150
 #, kde-format
 msgid "Successfully installed %1"
 msgstr "Ùdało winstalowóné: %1"
 
-#: main.cpp:218
+#: main.cpp:152
 #, kde-format
 msgid "Installation of %1 failed."
 msgstr "Nié ùdałé winstalowanié: %1"
 
-#: main.cpp:223
-msgctxt ""
-"No option was given, this is the error message telling the user he needs at "
-"least one, do not translate install, remove, upgrade nor list"
-msgid "One of install, remove, upgrade or list is required."
+#: main.cpp:158
+#, kde-format
+msgid "Successfully removed %1"
+msgstr "Ùdało rëmniãté: %1"
+
+#: main.cpp:160
+#, kde-format
+msgid "Removal of %1 failed."
+msgstr "Nié ùdałé rëmniãcé: %1"
+
+#: main.cpp:164
+#, fuzzy
+#| msgctxt ""
+#| "No option was given, this is the error message telling the user he needs "
+#| "at least one, do not translate install, remove, upgrade nor list"
+#| msgid "One of install, remove, upgrade or list is required."
+msgid "One of install, remove or list is required."
 msgstr ""
 "Jednô òptacëjô z instalacëji, jakno rëmniãcé, zaktualnienié abò "
 "wëskrzënienié je żądóné."
@@ -175,3 +166,10 @@ msgstr "Michôł Òstrowsczi,Mark Kwidzińsczi"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "michol@linuxcsb.org,mark@linuxcsb.org"
+
+#~ msgctxt "Do not translate <path>"
+#~ msgid "Upgrade the package at <path>"
+#~ msgstr "Zaktualni paczét w <path>"
+
+#~ msgid "Plugin %1 is not installed."
+#~ msgstr "Wtëkôcz %1 nie je winstalowóny."

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpat\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-03 10:58+0100\n"
+"POT-Creation-Date: 2009-01-27 08:24+0100\n"
 "PO-Revision-Date: 2008-01-01 11:12+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -17,44 +17,38 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: clock.cpp:106
+#: clock.cpp:104
 #, fuzzy
 #| msgid "G&randfather's Clock"
-msgid "Grandfather's Clock"
+msgid "G&randfather's Clock"
 msgstr "&Zédżer"
 
-#: dealer.cpp:915
+#: dealer.cpp:814
 msgid "Congratulations! You have won."
 msgstr "Gratulacëje! Môsz dobëté."
 
-#: dealer.cpp:917
+#: dealer.cpp:816
 msgid "Congratulations! We have won."
 msgstr "Gratulacëje! Mómë dobëté."
 
-#: fortyeight.cpp:178
+#: fortyeight.cpp:174
 #, fuzzy
 #| msgid "Forty && &Eight"
-msgid "Forty && Eight"
+msgid "Forty && &Eight"
 msgstr "&Sztërdzescë òsmë"
 
-#: freecell.cpp:405
+#: freecell.cpp:391
 #, fuzzy
 #| msgid "&Freecell"
-msgid "Freecell"
+msgid "&Freecell"
 msgstr "&Freecell"
 
-#. i18n: file: gamestats.ui:13
-#. i18n: ectx: property (windowTitle), widget (QWidget, GameStats)
-#: gamestatsimpl.cpp:35 pwidget.cpp:148 rc.cpp:3
-msgid "Statistics"
-msgstr "Statistika"
-
-#: gamestatsimpl.cpp:81
+#: gamestatsimpl.cpp:64
 #, kde-format
 msgid "%1 (%2%)"
 msgstr "%1% (%2)"
 
-#: gamestatsimpl.cpp:88
+#: gamestatsimpl.cpp:71
 #, kde-format
 msgid "1 loss"
 msgid_plural "%1 losses"
@@ -62,7 +56,7 @@ msgstr[0] "1 przerzniãtô"
 msgstr[1] "%1 przerzniãté"
 msgstr[2] "%1 przerzniãtëch"
 
-#: gamestatsimpl.cpp:90
+#: gamestatsimpl.cpp:73
 #, kde-format
 msgid "1 win"
 msgid_plural "%1 wins"
@@ -70,39 +64,41 @@ msgstr[0] "1 dobëtô"
 msgstr[1] "%1 dobëté"
 msgstr[2] "%1 dobëtëch"
 
-#: golf.cpp:155
+#: golf.cpp:153
 #, fuzzy
 #| msgid "Go&lf"
-msgid "Golf"
+msgid "Go&lf"
 msgstr "&Golf"
 
-#: grandf.cpp:189
+#: grandf.cpp:172
 #, fuzzy
 #| msgid "&Grandfather"
-msgid "Grandfather"
+msgid "&Grandfather"
 msgstr "S&tark"
 
-#: gypsy.cpp:79
+#: gypsy.cpp:78
 #, fuzzy
 #| msgid "Gy&psy"
-msgid "Gypsy"
+msgid "Gy&psy"
 msgstr "&Cëgónka"
 
-#: idiot.cpp:167
+#: idiot.cpp:166
 #, fuzzy
 #| msgid "&Aces Up"
-msgid "Aces Up"
+msgid "&Aces Up"
 msgstr "&Asë"
 
-#: klondike.cpp:136 spider.cpp:124
-msgid "Options"
-msgstr ""
-
-#: klondike.cpp:291
+#: klondike.cpp:227
 #, fuzzy
 #| msgid "&Klondike"
-msgid "Klondike"
+msgid "&Klondike"
 msgstr "Klondik&e"
+
+#: klondike.cpp:234
+#, fuzzy
+#| msgid "Klondike (&draw 3)"
+msgid "Klondike (&draw 3)"
+msgstr "Klondike (pò &3 kôrtë)"
 
 #: main.cpp:42
 msgid "KDE Patience Game"
@@ -235,36 +231,36 @@ msgstr "Òtemkni lopk"
 #: mod3.cpp:209
 #, fuzzy
 #| msgid "M&od3"
-msgid "Mod3"
+msgid "M&od3"
 msgstr "&Mod3"
 
-#: pwidget.cpp:100
+#: pwidget.cpp:94
 msgid "&Choose Game..."
 msgstr "&Wëbierzë dôwanié..."
 
-#: pwidget.cpp:106
+#: pwidget.cpp:99
 msgid "&Game Type"
 msgstr "Ôrt &grë"
 
-#: pwidget.cpp:129
+#: pwidget.cpp:127
 msgid "Random Cards"
 msgstr "Kawlowé kôrtë"
 
-#: pwidget.cpp:140
+#: pwidget.cpp:132
 msgid "Select Deck..."
 msgstr "Wëbiérzë stół..."
 
-#: pwidget.cpp:151
+#. i18n: file: gamestats.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, GameStats)
+#: pwidget.cpp:139 rc.cpp:3
+msgid "Statistics"
+msgstr "Statistika"
+
+#: pwidget.cpp:142
 msgid "&Enable Autodrop"
 msgstr "&Włączë aùtomatné ùpùszczanié"
 
-#: pwidget.cpp:156
-#, fuzzy
-#| msgid "Patience Solver"
-msgid "E&nable Solver"
-msgstr "Ùkłôdanié pasjansa"
-
-#: pwidget.cpp:246
+#: pwidget.cpp:200
 msgid ""
 "You are already running an unfinished game.  If you abort the old game to "
 "start a new one, the old game will be registered as a loss in the statistics "
@@ -275,15 +271,15 @@ msgstr ""
 "zapisónô w lopkù rekòrdów jakno przerzniãtô.\n"
 "Co chcesz zrobic?"
 
-#: pwidget.cpp:251
+#: pwidget.cpp:205
 msgid "Abort Current Game?"
 msgstr "Òprzestac nã grã?"
 
-#: pwidget.cpp:252
+#: pwidget.cpp:206
 msgid "Abort Current Game"
 msgstr "Òprzestóń nã grã"
 
-#: pwidget.cpp:434
+#: pwidget.cpp:356
 #, kde-format
 msgid "1 move"
 msgid_plural "%1 moves"
@@ -291,149 +287,158 @@ msgstr[0] "1 zrëch"
 msgstr[1] "%1 zrëchë"
 msgstr[2] "%1 zrëchów"
 
-#: pwidget.cpp:440
+#: pwidget.cpp:362
 msgid "Game Number"
 msgstr "Numer grë"
 
-#: pwidget.cpp:441
+#: pwidget.cpp:363
 msgid ""
 "Enter a game number (FreeCell deals are the same as in the FreeCell FAQ):"
 msgstr ""
 "Wpiszë numer dôwaniô kartów (numrë dlô pasjansë FreeCell są òpisóné w FAQ "
 "dlô FreeCell):"
 
-#: pwidget.cpp:452
+#: pwidget.cpp:374
 msgid "This game is lost."
 msgstr "Ta gra je przerzniãtô."
 
-#: pwidget.cpp:475
+#: pwidget.cpp:396
 msgid "The saved game is of unknown type!"
 msgstr "Zapisanô pasjanasa je nieznónegò ôrtu!"
 
-#: pwidget.cpp:517
+#: pwidget.cpp:440
 msgid "This game can still be won! Good luck to you."
 msgstr "Móm dobëté grã! Dobri zwënédżi."
 
-#: pwidget.cpp:522
+#: pwidget.cpp:445
 #, fuzzy
 #| msgid "&Calculation"
 msgid "Calculating..."
 msgstr "&Kalkùlacëje"
 
-#: pwidget.cpp:527
+#: pwidget.cpp:450
 msgid "Nope, this game cannot be won anymore."
 msgstr "Nié, ta gra ni mòże bëc dobëtô."
 
-#: pwidget.cpp:532
+#: pwidget.cpp:455
 msgid "Timeout while playing - unknown if it can be won"
 msgstr ""
 
-#. i18n: file: gamestats.ui:33
+#. i18n: file: gamestats.ui:44
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: rc.cpp:6
 msgid "Game:"
 msgstr "Gra:"
 
-#. i18n: file: gamestats.ui:75
+#. i18n: file: gamestats.ui:88
 #. i18n: ectx: property (text), widget (QLabel, textLabel7)
 #: rc.cpp:9
 msgid "Longest winning streak:"
 msgstr "Nôdłëgszô serëjô dobëcô:"
 
-#. i18n: file: gamestats.ui:82
+#. i18n: file: gamestats.ui:95
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: rc.cpp:12
 msgid "Games played:"
 msgstr "Gróné grë:"
 
-#. i18n: file: gamestats.ui:99
+#. i18n: file: gamestats.ui:112
 #. i18n: ectx: property (text), widget (QLabel, textLabel8)
 #: rc.cpp:15
 msgid "Longest losing streak:"
 msgstr "Nôdłëgszô serëjô straceniów:"
 
-#. i18n: file: gamestats.ui:116
+#. i18n: file: gamestats.ui:129
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: rc.cpp:18
 msgid "Games won:"
 msgstr "Dobëté grë:"
 
-#. i18n: file: gamestats.ui:133
+#. i18n: file: gamestats.ui:146
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:21
 msgid "Current streak:"
 msgstr "Biéżnô seriô:"
 
-#. i18n: file: kpatui.rc:13
-#. i18n: ectx: Menu (settings)
+#. i18n: file: gamestats.ui:188
+#. i18n: ectx: property (text), widget (QPushButton, buttonReset)
 #: rc.cpp:24
+#, fuzzy
+#| msgid "&Redeal"
+msgid "&Reset"
+msgstr "&Dôj znowa"
+
+#. i18n: file: gamestats.ui:211
+#. i18n: ectx: property (text), widget (QPushButton, buttonOk)
+#: rc.cpp:27
+msgid "&OK"
+msgstr "&OK"
+
+#. i18n: file: kpatui.rc:12
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:30
 msgid "&Settings"
 msgstr "Ù&stôwë"
 
-#. i18n: file: kpatui.rc:24
+#. i18n: file: kpatui.rc:22
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:27
+#: rc.cpp:33
 msgid "Main Toolbar"
 msgstr "Przédnô lëstew nôrzãdzów"
 
-#: rc.cpp:28
+#: rc.cpp:34
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
 
-#: rc.cpp:29
+#: rc.cpp:35
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
 
-#: simon.cpp:139
+#: simon.cpp:137
 #, fuzzy
 #| msgid "&Simple Simon"
-msgid "Simple Simon"
+msgid "&Simple Simon"
 msgstr "&Simple Simon"
 
-#: spider.cpp:414
+#: spider.cpp:327
 #, fuzzy
-#| msgid "S&pider (Easy)"
-msgid "Spider"
-msgstr "S&pider (prosti)"
+#| msgid "Spider (&Hard)"
+msgid "S&pider (Easy)"
+msgstr "Spider (&cãżczi)"
 
-#: view.cpp:172
+#: spider.cpp:334
+#, fuzzy
+#| msgid "Spider (&Medium)"
+msgid "Spider (&Medium)"
+msgstr "Spider (&strzédny)"
+
+#: spider.cpp:341
+#, fuzzy
+#| msgid "Spider (&Hard)"
+msgid "Spider (&Hard)"
+msgstr "Spider (&cãżczi)"
+
+#: view.cpp:168
 msgid "&Redeal"
 msgstr "&Dôj znowa"
 
-#: view.cpp:182
-msgid "Drop!"
-msgstr ""
-
-#: yukon.cpp:80
+#: yukon.cpp:78
 #, fuzzy
 #| msgid "&Yukon"
-msgid "Yukon"
+msgid "&Yukon"
 msgstr "&Yukon"
 
 #, fuzzy
-#~| msgid "&Redeal"
-#~ msgid "&Reset"
-#~ msgstr "&Dôj znowa"
-
-#~ msgid "&OK"
-#~ msgstr "&OK"
+#~| msgid "Patience Solver"
+#~ msgid "E&nable Solver"
+#~ msgstr "Ùkłôdanié pasjansa"
 
 #, fuzzy
-#~| msgid "Klondike (&draw 3)"
-#~ msgid "Klondike (draw 3)"
-#~ msgstr "Klondike (pò &3 kôrtë)"
-
-#, fuzzy
-#~| msgid "Spider (&Medium)"
-#~ msgid "Spider (Medium)"
-#~ msgstr "Spider (&strzédny)"
-
-#, fuzzy
-#~| msgid "Spider (&Hard)"
-#~ msgid "Spider (Hard)"
-#~ msgstr "Spider (&cãżczi)"
+#~| msgid "S&pider (Easy)"
+#~ msgid "Spider"
+#~ msgstr "S&pider (prosti)"
 
 #~ msgid "&Calculation"
 #~ msgstr "&Kalkùlacëje"
