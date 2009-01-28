@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_twitter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-05 10:17+0100\n"
+"POT-Creation-Date: 2009-01-28 09:17+0100\n"
 "PO-Revision-Date: 2007-12-30 17:53+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -25,76 +25,88 @@ msgid "Login"
 msgstr ""
 
 #. i18n: file: configuration.ui:29
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:6
-#, fuzzy
-#| msgid "Username"
-msgid "Username:"
-msgstr "Miono brëkòwnika"
-
-#. i18n: file: configuration.ui:45
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:9
+#: rc.cpp:6
 #, fuzzy
 #| msgid "Password"
 msgid "Password:"
 msgstr "Parola"
 
-#. i18n: file: configuration.ui:71
+#. i18n: file: configuration.ui:55
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:12
+#: rc.cpp:9
 msgid "Appearance"
 msgstr ""
 
-#. i18n: file: configuration.ui:78
+#. i18n: file: configuration.ui:62
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:15
+#: rc.cpp:12
 #, fuzzy
 #| msgid "Timeline size"
 msgid "Timeline size:"
 msgstr "Miara ùcékù czasu"
 
-#. i18n: file: configuration.ui:93
+#. i18n: file: configuration.ui:77
 #. i18n: ectx: property (suffix), widget (QSpinBox, historySizeSpinBox)
-#: rc.cpp:18
+#: rc.cpp:15
 msgid " messages"
 msgstr ""
 
-#. i18n: file: configuration.ui:121
+#. i18n: file: configuration.ui:105
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:21
+#: rc.cpp:18
 #, fuzzy
 #| msgid "Timeline refresh"
 msgid "Timeline refresh:"
 msgstr "Òdswiéżenié ùcékù czasu"
 
-#. i18n: file: configuration.ui:136
+#. i18n: file: configuration.ui:120
 #. i18n: ectx: property (suffix), widget (QSpinBox, historyRefreshSpinBox)
-#: rc.cpp:24
+#: rc.cpp:21
 msgid " minutes"
 msgstr " minëtë"
 
-#. i18n: file: configuration.ui:164
+#. i18n: file: configuration.ui:148
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:27
+#: rc.cpp:24
 #, fuzzy
 #| msgid "Show messages of friends"
 msgid "Show friends:"
 msgstr "Pòkażë wiadła òd drëchów"
 
-#: twitter.cpp:171
+#. i18n: file: configuration.ui:206
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: rc.cpp:27
+msgid "Service"
+msgstr ""
+
+#. i18n: file: configuration.ui:213
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:30
+#, fuzzy
+#| msgid "Username"
+msgid "Username:"
+msgstr "Miono brëkòwnika"
+
+#. i18n: file: configuration.ui:229
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: rc.cpp:33
+msgid "Service URL:"
+msgstr ""
+
+#: twitter.cpp:172
 msgid "Failed to load twitter DataEngine"
 msgstr ""
 
-#: twitter.cpp:344
+#: twitter.cpp:345
 msgid "Failed to access kwallet. Store password in config file instead?"
 msgstr "Fela przëstãpù do kwalleta. Trzëmac parolã w kònfigùracjowim lopkù?"
 
-#: twitter.cpp:363 twitter.cpp:703
+#: twitter.cpp:364 twitter.cpp:721
 msgid "Refreshing timeline..."
 msgstr "Òdsiéżanié ùcékù czasu..."
 
-#: twitter.cpp:383
+#: twitter.cpp:384
 #, fuzzy, kde-format
 #| msgid "%1 new tweets"
 msgid "1 new tweet"
@@ -103,16 +115,16 @@ msgstr[0] "%1nowëch czirkaniów"
 msgstr[1] "%1nowëch czirkaniów"
 msgstr[2] "%1nowëch czirkaniów"
 
-#: twitter.cpp:509
+#: twitter.cpp:510
 #, kde-format
 msgid " from %1"
 msgstr ""
 
-#: twitter.cpp:574
+#: twitter.cpp:578
 msgid "General"
 msgstr ""
 
-#: twitter.cpp:650
+#: twitter.cpp:668
 #, kde-format
 msgid "%1 character left"
 msgid_plural "%1 characters left"
@@ -120,13 +132,13 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: twitter.cpp:767
+#: twitter.cpp:790
 #, fuzzy
 #| msgid "less than 5 seconds ago"
 msgid "Less than a minute ago"
 msgstr "mni jak 5 sek nazôd"
 
-#: twitter.cpp:769
+#: twitter.cpp:792
 #, fuzzy, kde-format
 #| msgid "%1 minutes ago"
 msgid "1 minute ago"
@@ -135,13 +147,13 @@ msgstr[0] "%1 minët nazôd"
 msgstr[1] "%1 minët nazôd"
 msgstr[2] "%1 minët nazôd"
 
-#: twitter.cpp:771
+#: twitter.cpp:794
 #, fuzzy
 #| msgid "about %1 hours ago"
 msgid "Over an hour ago"
 msgstr "kòle %1 gòdzënów nazôd"
 
-#: twitter.cpp:773
+#: twitter.cpp:796
 #, fuzzy, kde-format
 #| msgid "about %1 hours ago"
 msgid "1 hour ago"

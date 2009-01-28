@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_fileWatcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-29 11:11+0100\n"
+"POT-Creation-Date: 2009-01-28 09:17+0100\n"
 "PO-Revision-Date: 2007-12-28 10:47+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -18,23 +18,29 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: fileWatcher.cpp:75
+#: fileWatcher.cpp:79
 msgid "Select a file to watch."
 msgstr ""
 
-#: fileWatcher.cpp:114
+#: fileWatcher.cpp:118
 #, kde-format
 msgid "Cannot watch non-text file: %1"
 msgstr ""
 
-#: fileWatcher.cpp:120
+#: fileWatcher.cpp:124
 #, kde-format
 msgid "Could not open file: %1"
 msgstr ""
 
-#: fileWatcher.cpp:167
+#: fileWatcher.cpp:185
 msgid "General"
 msgstr ""
+
+#: fileWatcher.cpp:195
+#, fuzzy
+#| msgid "File:"
+msgid "Filters"
+msgstr "Lopk:"
 
 #. i18n: file: fileWatcherConfig.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, fileWatcherConfig)
@@ -78,6 +84,46 @@ msgstr "Fònt"
 msgid "Color:"
 msgstr "Farwa tesktu"
 
+#. i18n: file: filtersConfig.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, filtersConfig)
+#: rc.cpp:21
+msgid "Form"
+msgstr ""
+
+#. i18n: file: filtersConfig.ui:54
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:24
+#, fuzzy
+#| msgid "File Watcher Settings"
+msgid "Filters settings:"
+msgstr "Ùstôwë òbzérôcza lopkù"
+
+#. i18n: file: filtersConfig.ui:64
+#. i18n: ectx: property (text), widget (QRadioButton, useRegularExpressionsRadioButton)
+#: rc.cpp:27
+msgid "Use regular expressions"
+msgstr ""
+
+#. i18n: file: filtersConfig.ui:74
+#. i18n: ectx: property (text), widget (QRadioButton, useExactMatchRadioButton)
+#: rc.cpp:30
+msgid "Use exact match"
+msgstr ""
+
+#. i18n: file: filtersConfig.ui:106
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:33
+#, fuzzy
+#| msgid "File:"
+msgid "Filters:"
+msgstr "Lopk:"
+
+#. i18n: file: filtersConfig.ui:113
+#. i18n: ectx: property (text), widget (QCheckBox, showOnlyMatchesCheckBox)
+#: rc.cpp:36
+msgid "Show only lines that match filters"
+msgstr ""
+
 #~ msgid "Styling"
 #~ msgstr "Sztél"
 
@@ -88,6 +134,3 @@ msgstr "Farwa tesktu"
 
 #~ msgid "&Configure File Watcher"
 #~ msgstr "&Kònfigùrëjë òbzérocza lopkù"
-
-#~ msgid "File Watcher Settings"
-#~ msgstr "Ùstôwë òbzérôcza lopkù"
