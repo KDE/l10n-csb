@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krandr\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2008-12-11 23:04+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -78,7 +78,7 @@ msgid "Unify Outputs"
 msgstr "Ùnifikòwóné wińdzenia"
 
 #: krandrtray.cpp:375 legacyrandrconfig.cpp:269 legacyrandrscreen.cpp:246
-#: outputconfig.cpp:292
+#: outputconfig.cpp:325
 #, kde-format
 msgid "%1 Hz"
 msgstr "%1 Hz"
@@ -172,50 +172,50 @@ msgstr "Wiele zmianów, wieloczerenkòwé wspiarcé"
 msgid "Application is being auto-started at KDE session start"
 msgstr "Programa je aùtomatno zrësziwónô przë logòwanim do KDE"
 
-#: outputconfig.cpp:145
+#: outputconfig.cpp:165
 msgid "Left of"
 msgstr "Z lewa òd"
 
-#: outputconfig.cpp:146
+#: outputconfig.cpp:166
 msgid "Right of"
 msgstr "Z prawa òd"
 
-#: outputconfig.cpp:147
+#: outputconfig.cpp:167
 msgctxt "Output is placed above another one"
 msgid "Above"
 msgstr "Nad"
 
-#: outputconfig.cpp:148
+#: outputconfig.cpp:168
 msgctxt "Output is placed below another one"
 msgid "Below"
 msgstr "Niżi"
 
-#: outputconfig.cpp:149
+#: outputconfig.cpp:169
 msgid "Clone of"
 msgstr "Klon"
 
-#: outputconfig.cpp:150
+#: outputconfig.cpp:170
 msgctxt "Fixed, abitrary position"
 msgid "Absolute"
 msgstr "Bezwzglãdny"
 
-#: outputconfig.cpp:153
+#: outputconfig.cpp:173
 msgid "No relative position"
 msgstr "Felëje wzglãdnégò môla"
 
-#: outputconfig.cpp:256
+#: outputconfig.cpp:288
 msgid "Disabled"
 msgstr "Wëłączoné"
 
-#: outputconfig.cpp:261
-#, fuzzy
+#: outputconfig.cpp:294
+#, fuzzy, kde-format
 #| msgctxt "Automatic screen size (native resolution)"
 #| msgid "%1 (Auto)"
-msgctxt "Automatic (native resolution)"
-msgid " (Auto)"
+msgctxt "Automatic screen size (native resolution)"
+msgid "%1 (Auto)"
 msgstr "%1 (aùto)"
 
-#: outputconfig.cpp:286
+#: outputconfig.cpp:319
 msgctxt "Automatic configuration"
 msgid "Auto"
 msgstr "aùto"
@@ -231,7 +231,7 @@ msgstr "Lewô (90 gradów)"
 #: randr.cpp:35
 #, fuzzy
 #| msgid "Upside-Down (180 degrees)"
-msgid "Upside-down (180 degrees)"
+msgid "Upside-Down (180 degrees)"
 msgstr "Òdwróconô (180 gradów)"
 
 #: randr.cpp:37
@@ -241,50 +241,48 @@ msgstr "Prawô (270 gradów)"
 #: randr.cpp:39
 #, fuzzy
 #| msgid "Mirror Horizontally"
-msgid "Mirror horizontally"
+msgid "Mirror Horizontally"
 msgstr "Hòrizontalné òdbicé"
 
 #: randr.cpp:41
 #, fuzzy
 #| msgid "Mirror Vertically"
-msgid "Mirror vertically"
+msgid "Mirror Vertically"
 msgstr "Wertikalné òdbicé"
 
 #: randr.cpp:43 randr.cpp:74
 #, fuzzy
 #| msgid "Unknown Orientation"
-msgid "Unknown orientation"
+msgid "Unknown Orientation"
 msgstr "Nieznónô òrientacëjô"
 
 #: randr.cpp:48
 #, fuzzy
 #| msgid "Not Rotated"
-msgid "Not rotated"
+msgid "Not Rotated"
 msgstr "Nie òbróconé"
 
 #: randr.cpp:50
 #, fuzzy
 #| msgid "Rotated 90 Degrees Counterclockwise"
-msgid "Rotated 90 degrees counterclockwise"
+msgid "Rotated 90 Degrees Counterclockwise"
 msgstr "Òbróconô ò 90 gradów procëmno do rësznotë wskôzów zédżera"
 
 #: randr.cpp:52
 #, fuzzy
 #| msgid "Rotated 180 Degrees Counterclockwise"
-msgid "Rotated 180 degrees counterclockwise"
+msgid "Rotated 180 Degrees Counterclockwise"
 msgstr "Òbróconô ò 180 gradów procëmno do rësznotë wskôzów zédżera"
 
 #: randr.cpp:54
 #, fuzzy
 #| msgid "Rotated 270 Degrees Counterclockwise"
-msgid "Rotated 270 degrees counterclockwise"
+msgid "Rotated 270 Degrees Counterclockwise"
 msgstr "Òbróconô ò 270 gradów procëmno do rësznotë wskôzów zédżera"
 
 #: randr.cpp:59
-#, fuzzy
-#| msgid "mirrored horizontally and vertically"
-msgid "Mirrored horizontally and vertically"
-msgstr "òdbitô hòrizontalno ë wertikalno"
+msgid "Mirrored Horizontally And Vertically"
+msgstr "Òdbitô hòrizontalno ë wertikalno"
 
 #: randr.cpp:61
 msgid "mirrored horizontally and vertically"
@@ -293,7 +291,7 @@ msgstr "òdbitô hòrizontalno ë wertikalno"
 #: randr.cpp:64
 #, fuzzy
 #| msgid "Mirrored Horizontally"
-msgid "Mirrored horizontally"
+msgid "Mirrored Horizontally"
 msgstr "Òdbitô hòrizontalno"
 
 #: randr.cpp:66
@@ -303,7 +301,7 @@ msgstr "òdbitô hòrizontalno"
 #: randr.cpp:69
 #, fuzzy
 #| msgid "Mirrored Vertically"
-msgid "Mirrored vertically"
+msgid "Mirrored Vertically"
 msgstr "Òdbitô wertikalno"
 
 #: randr.cpp:71
@@ -334,6 +332,11 @@ msgid ""
 msgstr ""
 "Kònfigùracëjô ekrana òsta zmienionô. Proszã wskôzac czë zachówac aktualną "
 "kònfigùracëjã. Za 15 sekùndów ekran pòwrócë do pòprzédnëch nastôwów."
+
+#: randrconfig.cpp:111
+#, kde-format
+msgid "%1 (Connected)"
+msgstr "%1 (sparłączoné)"
 
 #: randrdisplay.cpp:49
 #, kde-format
@@ -476,21 +479,23 @@ msgstr "Môl:"
 msgid "Display Configuration (X11 Resize, Rotate and Reflect)"
 msgstr "Kònfigùracëjô ekrana (zmiana miarë X11, òbrócënk ë òdbicé)"
 
-#: rc.cpp:58
+#. i18n: file: randrconfigbase.ui:42
+#. i18n: ectx: property (text), widget (QPushButton, identifyOutputsButton)
+#: rc.cpp:60
+msgid "Identify Outputs"
+msgstr "Identifikòwóné wińdzenia"
+
+#: rc.cpp:61
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
 
-#: rc.cpp:59
+#: rc.cpp:62
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
 
-#~ msgid "Mirrored Horizontally And Vertically"
-#~ msgstr "Òdbitô hòrizontalno ë wertikalno"
-
-#~ msgid "%1 (Connected)"
-#~ msgstr "%1 (sparłączoné)"
-
-#~ msgid "Identify Outputs"
-#~ msgstr "Identifikòwóné wińdzenia"
+#, fuzzy
+#~| msgid "mirrored horizontally and vertically"
+#~ msgid "Mirrored horizontally and vertically"
+#~ msgstr "òdbitô hòrizontalno ë wertikalno"

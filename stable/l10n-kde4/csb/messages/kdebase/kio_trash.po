@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2008-12-11 22:36+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: ktrash.cpp:34
+#: ktrash.cpp:32
 msgid "ktrash"
 msgstr "ktrash"
 
-#: ktrash.cpp:36
+#: ktrash.cpp:34
 #, fuzzy
 #| msgid ""
 #| "Helper program to handle the KDE trash can\n"
@@ -29,40 +29,97 @@ msgstr "ktrash"
 #| "'url' trash:/\""
 msgid ""
 "Helper program to handle the KDE trash can\n"
-"Note: to move files to the trash, do not use ktrash, but \"kfmclient move "
+"Note: to move files to the trash, do not use ktrash, but \"kioclient move "
 "'url' trash:/\""
 msgstr ""
 "Pòmòcniczy programa do òbsłëdżi kòsza KDE.\n"
 "Bôczënk: abë przeniesc lopczi z kòsza, nie brëkùjë ktrash, le pòlétu "
 "\"kfmclient move 'url' trash:/\""
 
-#: ktrash.cpp:40
+#: ktrash.cpp:38
 msgid "Empty the contents of the trash"
 msgstr "Rëmôj zamkłosc kòsza"
 
-#: ktrash.cpp:42
+#: ktrash.cpp:40
 msgid "Restore a trashed file to its original location"
 msgstr "Przëwrócë lopk z kòsza do jegò apartnegò pòłóżeniô"
 
-#: ktrash.cpp:44
+#: ktrash.cpp:42
 msgid "Ignored"
 msgstr "Ignorowóny"
 
-#: kio_trash.cpp:52
-msgid "Protocol name"
-msgstr "Miono protokołu"
+#: trashimpl.cpp:1070
+msgid ""
+"The trash has reached its maximum size!\n"
+"Cleanup the trash manually."
+msgstr ""
+"Kòsz dobëł swòja maksymalną miarã!\n"
+"Wëczëszczë kòsz rãczno."
 
-#: kio_trash.cpp:53 kio_trash.cpp:54
-msgid "Socket name"
-msgstr "Miono gniôzda"
+#: trashimpl.cpp:1081
+msgid "The file is too large to be trashed."
+msgstr "Nen lopk je za wiôldżi abë gò przesënąc do kòsza."
 
-#: kio_trash.cpp:102 kio_trash.cpp:165 kio_trash.cpp:313 kio_trash.cpp:345
-#: kio_trash.cpp:511 kio_trash.cpp:523
+#: kcmtrash.cpp:119
+msgid "Byte"
+msgstr "Bajtë"
+
+#: kcmtrash.cpp:121
+msgid "KByte"
+msgstr "KBajtë"
+
+#: kcmtrash.cpp:125
+msgid "MByte"
+msgstr "Mbajtë"
+
+#: kcmtrash.cpp:129
+msgid "GByte"
+msgstr "Gbajtë"
+
+#: kcmtrash.cpp:133
+msgid "TByte"
+msgstr "Tbajtë"
+
+#: kcmtrash.cpp:137
+#, kde-format
+msgid "(%1 %2)"
+msgstr "(%1 %2)"
+
+#: kcmtrash.cpp:264
+msgid "Delete files older than:"
+msgstr "Rëmôj lopczi stôrszé jakno: "
+
+#: kcmtrash.cpp:275
+msgid "Limit to maximum size"
+msgstr "Limit do maksymalny miarë"
+
+#: kcmtrash.cpp:286
+msgid "Maximum size:"
+msgstr "Maksymalna miara:"
+
+#: kcmtrash.cpp:299
+msgid "When limit reached:"
+msgstr "Jak je doszłé do limitu:"
+
+#: kcmtrash.cpp:303
+msgid "Warn Me"
+msgstr "Dôj mie òstrzegã"
+
+#: kcmtrash.cpp:304
+msgid "Delete Oldest Files From Trash"
+msgstr "Rëmôj nôstôrszé lopczi z kòsza"
+
+#: kcmtrash.cpp:305
+msgid "Delete Biggest Files From Trash"
+msgstr "Rëmôj nôwikszé lopczi z kòsza"
+
+#: kio_trash.cpp:91 kio_trash.cpp:154 kio_trash.cpp:302 kio_trash.cpp:334
+#: kio_trash.cpp:500 kio_trash.cpp:512
 #, kde-format
 msgid "Malformed URL %1"
 msgstr "Zmiłkòwi URL %1"
 
-#: kio_trash.cpp:121
+#: kio_trash.cpp:110
 #, kde-format
 msgid ""
 "The directory %1 does not exist anymore, so it is not possible to restore "
@@ -75,58 +132,15 @@ msgstr ""
 "òptacëji doprowadzeniô nazôd, abò przecygnąc nen element dze jindze abë gò "
 "przëwrócëc."
 
-#: kio_trash.cpp:150
+#: kio_trash.cpp:139
 msgid "This file is already in the trash bin."
 msgstr "Nen lopk je w kòszu."
 
-#~ msgid ""
-#~ "The trash has reached its maximum size!\n"
-#~ "Cleanup the trash manually."
-#~ msgstr ""
-#~ "Kòsz dobëł swòja maksymalną miarã!\n"
-#~ "Wëczëszczë kòsz rãczno."
+#~ msgid "Protocol name"
+#~ msgstr "Miono protokołu"
 
-#~ msgid "The file is too large to be trashed."
-#~ msgstr "Nen lopk je za wiôldżi abë gò przesënąc do kòsza."
-
-#~ msgid "Byte"
-#~ msgstr "Bajtë"
-
-#~ msgid "KByte"
-#~ msgstr "KBajtë"
-
-#~ msgid "MByte"
-#~ msgstr "Mbajtë"
-
-#~ msgid "GByte"
-#~ msgstr "Gbajtë"
-
-#~ msgid "TByte"
-#~ msgstr "Tbajtë"
-
-#~ msgid "(%1 %2)"
-#~ msgstr "(%1 %2)"
-
-#~ msgid "Delete files older than:"
-#~ msgstr "Rëmôj lopczi stôrszé jakno: "
-
-#~ msgid "Limit to maximum size"
-#~ msgstr "Limit do maksymalny miarë"
-
-#~ msgid "Maximum size:"
-#~ msgstr "Maksymalna miara:"
-
-#~ msgid "When limit reached:"
-#~ msgstr "Jak je doszłé do limitu:"
-
-#~ msgid "Warn Me"
-#~ msgstr "Dôj mie òstrzegã"
-
-#~ msgid "Delete Oldest Files From Trash"
-#~ msgstr "Rëmôj nôstôrszé lopczi z kòsza"
-
-#~ msgid "Delete Biggest Files From Trash"
-#~ msgstr "Rëmôj nôwikszé lopczi z kòsza"
+#~ msgid "Socket name"
+#~ msgstr "Miono gniôzda"
 
 #~ msgid "General"
 #~ msgstr "Òglowi"

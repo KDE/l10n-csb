@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_devicenotifier\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2008-12-14 12:56+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: devicenotifier.cpp:252
+#: devicenotifier.cpp:171
 #, kde-format
 msgid "1 action for this device"
 msgid_plural "%1 actions for this device"
@@ -27,7 +27,16 @@ msgstr[0] "1 dzejanié dlô tegò ùrządzeniô"
 msgstr[1] "%1 dzejania dlô tegò ùrządzeniô"
 msgstr[2] "%1 dzejaniół dlô tegò ùrządzeniô"
 
-#: devicenotifier.cpp:451
+#: devicenotifier.cpp:223
+#, kde-format
+msgid "Last plugged in device: %1"
+msgstr "Slédno dodóné ùrządzenié: %1"
+
+#: devicenotifier.cpp:226
+msgid "No devices plugged in"
+msgstr "Felëją dodóné ùrządzenia"
+
+#: notifierdialog.cpp:297
 msgid ""
 "Cannot unmount the device.\n"
 "One or more files on this device are open within an application."
@@ -35,7 +44,7 @@ msgstr ""
 "Nié mòże òdmòntowac ùrządzenia.\n"
 "Jeden abò wicy lopków na tim ùrządzeniô je òtemkłi w aplikacëji."
 
-#: devicenotifier.cpp:466
+#: notifierdialog.cpp:313
 msgid ""
 "Cannot eject the disc.\n"
 "One or more files on this disc are open within an application."
@@ -43,45 +52,22 @@ msgstr ""
 "Nié mòże wësënąc diskù.\n"
 "Jeden abò wicy lopków na tim diskù je òtemkłi w aplikacëji."
 
-#: devicenotifier.cpp:502
+#: notifierdialog.cpp:400
 #, kde-format
 msgid "<font color=\"%1\">Devices recently plugged in:</font>"
 msgstr "<font color=\"%1\">Slédno dodóné ùrządzenia w:</font>"
 
-#. i18n: file: deviceNotifierConfig.ui:16
-#. i18n: ectx: property (text), widget (QLabel, labelSize_2)
-#: rc.cpp:3
-msgid "&Time to stay on top:"
-msgstr "&Czas stónia na górze:"
+#~ msgid "&Time to stay on top:"
+#~ msgstr "&Czas stónia na górze:"
 
-#. i18n: file: deviceNotifierConfig.ui:35
-#. i18n: ectx: property (suffix), widget (QSpinBox, spinTime)
-#: rc.cpp:6
-msgid " sec"
-msgstr " sek"
+#~ msgid " sec"
+#~ msgstr " sek"
 
-#. i18n: file: deviceNotifierConfig.ui:42
-#. i18n: ectx: property (text), widget (QLabel, labelSize)
-#: rc.cpp:9
-msgid "&Number of items displayed:"
-msgstr "&Lëczba pòkazónëch elementów:"
+#~ msgid "&Number of items displayed:"
+#~ msgstr "&Lëczba pòkazónëch elementów:"
 
-#. i18n: file: deviceNotifierConfig.ui:61
-#. i18n: ectx: property (specialValueText), widget (QSpinBox, spinItems)
-#. i18n: file: deviceNotifierConfig.ui:90
-#. i18n: ectx: property (specialValueText), widget (QSpinBox, spinTimeItems)
-#: rc.cpp:12 rc.cpp:18
-msgid "Unlimited"
-msgstr "Nielimitowóné"
+#~ msgid "Unlimited"
+#~ msgstr "Nielimitowóné"
 
-#. i18n: file: deviceNotifierConfig.ui:71
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:15
-msgid "&Display time of items:"
-msgstr "&Pòkażë czas elementów:"
-
-#~ msgid "Last plugged in device: %1"
-#~ msgstr "Slédno dodóné ùrządzenié: %1"
-
-#~ msgid "No devices plugged in"
-#~ msgstr "Felëją dodóné ùrządzenia"
+#~ msgid "&Display time of items:"
+#~ msgstr "&Pòkażë czas elementów:"

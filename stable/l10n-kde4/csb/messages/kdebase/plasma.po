@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:20+0100\n"
 "PO-Revision-Date: 2008-12-13 20:52+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -19,23 +19,37 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: dashboardview.cpp:61
+#: backgrounddialog.cpp:364
+msgid "Desktop Settings"
+msgstr "Nastôwë pùltu"
+
+#: backgrounddialog.cpp:390
+msgid ""
+"This picture of a monitor contains a preview of what the current settings "
+"will look like on your desktop."
+msgstr "W tim pòdzérkù mòże òbôczëc jak bãdą wëzdrzałë nastôwë pùltu."
+
+#: dashboardview.cpp:62
 msgid "Hide Dashboard"
 msgstr "Zatacë przédną tôflã"
 
-#: dashboardview.cpp:93
-msgid "Plasma Dashboard"
-msgstr "Przédna tablëca Plasmë"
+#: dashboardview.cpp:94
+msgid "Widget Dashboard"
+msgstr "Widżet przédny tôflë"
 
-#: dashboardview.cpp:140 plasmaapp.cpp:423
+#: dashboardview.cpp:141 plasmaapp.cpp:554
 msgid "Add Widgets"
 msgstr "Dodôj widżetë"
 
-#: desktopview.cpp:63
+#: desktopcorona.cpp:95
+msgid "Desktop"
+msgstr "Pùlt"
+
+#: desktopview.cpp:83
 msgid "Next Activity"
 msgstr "Pòstãpnô aktiwnota"
 
-#: desktopview.cpp:68
+#: desktopview.cpp:88
 msgid "Previous Activity"
 msgstr "Pòprzédnô aktiwnota"
 
@@ -67,134 +81,160 @@ msgstr "John Lions"
 msgid "In memory of his contributions, 1937-1998."
 msgstr "Kù pamiãcë jegò wkłôdu, 1937-1998."
 
-#: main.cpp:52
-msgid "Starts plasma as an ordinary window rather than as the desktop."
-msgstr "Zrëszë plasmã jakno zwëkòwé òkno, a nié jakno pùlt."
+#: panelcontroller.cpp:389
+msgid "Panel Alignment"
+msgstr "Pòłożenié panela"
 
-#: panelcontroller.cpp:354
-msgid "Align panel to left"
-msgstr "Zrównôj panel do lewa"
+#: panelcontroller.cpp:392 panelcontroller.cpp:657
+msgid "Left"
+msgstr "Lewò"
 
-#: panelcontroller.cpp:359
-msgid "Align panel to center"
-msgstr "Zrównôj panel na wëstrzódk"
+#: panelcontroller.cpp:398
+msgid "Center"
+msgstr "Wëstrzódno"
 
-#: panelcontroller.cpp:363
-msgid "Align panel to right"
-msgstr "Zrównôj panel na prawò"
+#: panelcontroller.cpp:403 panelcontroller.cpp:658
+msgid "Right"
+msgstr "Prawò"
 
-#: panelcontroller.cpp:371
+#: panelcontroller.cpp:414
+msgid "Visibility"
+msgstr "Widzawnota"
+
+#: panelcontroller.cpp:417
+msgid "Always visible"
+msgstr "Wiédno widzawno"
+
+#: panelcontroller.cpp:422
+msgid "Auto hide"
+msgstr "Zatacë aùtomatno"
+
+#: panelcontroller.cpp:427
+msgid "Windows can cover"
+msgstr "Òkna mògą nachòdzëc na listwã"
+
+#: panelcontroller.cpp:433
+msgid "Screen Edge"
+msgstr "Nórcëk ekranu"
+
+#: panelcontroller.cpp:439 panelcontroller.cpp:654
+msgid "Height"
+msgstr "Wiżô"
+
+#: panelcontroller.cpp:449
+msgid "More Settings"
+msgstr "Wicy nastôwów"
+
+#: panelcontroller.cpp:461
+msgid "Maximize Panel"
+msgstr "Maksymalizëjë panel"
+
+#: panelcontroller.cpp:467
 msgid "Close this configuration window"
 msgstr "Zamkni no òkno kònfigùracëji"
 
-#: plasmaapp.cpp:222
+#: panelcontroller.cpp:641
+msgid "Width"
+msgstr "Szérzô"
+
+#: panelcontroller.cpp:644
+msgid "Top"
+msgstr "Góra"
+
+#: panelcontroller.cpp:645
+msgid "Bottom"
+msgstr "Dół"
+
+#: plasmaapp.cpp:220
 msgid "Show Dashboard"
 msgstr "Pòkôżë przédną tôflã"
 
-#: positioningruler.cpp:453
+#: positioningruler.cpp:460
 msgid "Move this slider to set the panel position"
 msgstr "Przësënié nen sztripk bë nastawic môl panela"
 
-#: positioningruler.cpp:456
+#: positioningruler.cpp:463
 msgid "Move this slider to set the maximum panel size"
 msgstr "Przësënié nen sztripk bë nastawic maksymalną miarã panela"
 
-#: positioningruler.cpp:459
+#: positioningruler.cpp:466
 msgid "Move this slider to set the minimum panel size"
 msgstr "Przësënié nen sztripk bë nastawic minimalną miarã panela"
 
-#: rc.cpp:1
+#. i18n: file: BackgroundDialog.ui:34
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:3
+msgid "Desktop Activity"
+msgstr "Aktiwnota pùltu"
+
+#. i18n: file: BackgroundDialog.ui:41
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: file: BackgroundDialog.ui:244
+#. i18n: ectx: property (text), widget (QLabel, m_wallpaperTypeLabel)
+#: rc.cpp:6 rc.cpp:27
+msgid "Type:"
+msgstr "Ôrt:"
+
+#. i18n: file: BackgroundDialog.ui:92
+#. i18n: ectx: property (text), widget (QLabel, m_monitor)
+#: rc.cpp:9
+msgid "Monitor"
+msgstr "Mònitór:"
+
+#. i18n: file: BackgroundDialog.ui:117
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:12
+msgid "Name:"
+msgstr "Miono:"
+
+#. i18n: file: BackgroundDialog.ui:159
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:15
+msgid "Desktop Theme"
+msgstr "Téma pùltu"
+
+#. i18n: file: BackgroundDialog.ui:172
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:18
+msgid "Theme:"
+msgstr "Téma:"
+
+#. i18n: file: BackgroundDialog.ui:198
+#. i18n: ectx: property (text), widget (QPushButton, m_newThemeButton)
+#: rc.cpp:21
+msgid "New Theme..."
+msgstr "Nowô téma..."
+
+#. i18n: file: BackgroundDialog.ui:217
+#. i18n: ectx: property (text), widget (QLabel, m_wallpaperLabel)
+#: rc.cpp:24
+msgid "Wallpaper"
+msgstr "Òbrôzk spódkù"
+
+#: rc.cpp:28
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Michôł Òstrowsczi,Mark Kwidzińsczi"
 
-#: rc.cpp:2
+#: rc.cpp:29
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "michol@linuxcsb.org,mark@linuxcsb.org"
 
-#~ msgid "Desktop Settings"
-#~ msgstr "Nastôwë pùltu"
+#~ msgid "Plasma Dashboard"
+#~ msgstr "Przédna tablëca Plasmë"
 
-#~ msgid ""
-#~ "This picture of a monitor contains a preview of what the current settings "
-#~ "will look like on your desktop."
-#~ msgstr "W tim pòdzérkù mòże òbôczëc jak bãdą wëzdrzałë nastôwë pùltu."
+#~ msgid "Starts plasma as an ordinary window rather than as the desktop."
+#~ msgstr "Zrëszë plasmã jakno zwëkòwé òkno, a nié jakno pùlt."
 
-#~ msgid "Widget Dashboard"
-#~ msgstr "Widżet przédny tôflë"
+#~ msgid "Align panel to left"
+#~ msgstr "Zrównôj panel do lewa"
 
-#~ msgid "Desktop"
-#~ msgstr "Pùlt"
+#~ msgid "Align panel to center"
+#~ msgstr "Zrównôj panel na wëstrzódk"
 
-#~ msgid "Panel Alignment"
-#~ msgstr "Pòłożenié panela"
-
-#~ msgid "Left"
-#~ msgstr "Lewò"
-
-#~ msgid "Center"
-#~ msgstr "Wëstrzódno"
-
-#~ msgid "Right"
-#~ msgstr "Prawò"
-
-#~ msgid "Visibility"
-#~ msgstr "Widzawnota"
-
-#~ msgid "Always visible"
-#~ msgstr "Wiédno widzawno"
-
-#~ msgid "Auto hide"
-#~ msgstr "Zatacë aùtomatno"
-
-#~ msgid "Windows can cover"
-#~ msgstr "Òkna mògą nachòdzëc na listwã"
-
-#~ msgid "Screen Edge"
-#~ msgstr "Nórcëk ekranu"
-
-#~ msgid "Height"
-#~ msgstr "Wiżô"
-
-#~ msgid "More Settings"
-#~ msgstr "Wicy nastôwów"
-
-#~ msgid "Maximize Panel"
-#~ msgstr "Maksymalizëjë panel"
-
-#~ msgid "Width"
-#~ msgstr "Szérzô"
-
-#~ msgid "Top"
-#~ msgstr "Góra"
-
-#~ msgid "Bottom"
-#~ msgstr "Dół"
-
-#~ msgid "Desktop Activity"
-#~ msgstr "Aktiwnota pùltu"
-
-#~ msgid "Type:"
-#~ msgstr "Ôrt:"
-
-#~ msgid "Monitor"
-#~ msgstr "Mònitór:"
-
-#~ msgid "Name:"
-#~ msgstr "Miono:"
-
-#~ msgid "Desktop Theme"
-#~ msgstr "Téma pùltu"
-
-#~ msgid "Theme:"
-#~ msgstr "Téma:"
-
-#~ msgid "New Theme..."
-#~ msgstr "Nowô téma..."
-
-#~ msgid "Wallpaper"
-#~ msgstr "Òbrôzk spódkù"
+#~ msgid "Align panel to right"
+#~ msgstr "Zrównôj panel na prawò"
 
 #, fuzzy
 #~| msgid "Move this slider to set the panel position"

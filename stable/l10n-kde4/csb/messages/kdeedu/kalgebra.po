@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalgebra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:27+0100\n"
+"POT-Creation-Date: 2009-01-29 07:22+0100\n"
 "PO-Revision-Date: 2008-01-02 18:44+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -18,326 +18,336 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: console.cpp:141 functionsmodel.cpp:74 operatorsmodel.cpp:77
-#: variablesmodel.cpp:53
+#: src/console.cpp:59
+#, fuzzy, kde-format
+#| msgid "Error: %1"
+msgid ""
+"%1\n"
+"Error: %2"
+msgstr "Fela: %1"
+
+#: src/console.cpp:141 src/functionsmodel.cpp:74 src/operatorsmodel.cpp:77
+#: src/variablesmodel.cpp:53
 msgctxt "@title:column"
 msgid "Name"
 msgstr "Miono"
 
-#: console.cpp:142 variablesmodel.cpp:56
+#: src/console.cpp:142 src/variablesmodel.cpp:56
 msgctxt "@title:column"
 msgid "Value"
 msgstr "Wôrtnota"
 
-#: consolehtml.cpp:100
+#: src/consolehtml.cpp:101
 #, kde-format
 msgid "<ul class='error'>Error: %1<li>%2</li></ul>"
 msgstr ""
 
-#: dictionary.cpp:43
+#: src/dictionary.cpp:44
 msgid "Information"
 msgstr "Wëdowiédza"
 
-#: dictionary.cpp:63 dictionary.cpp:64 dictionary.cpp:65 dictionary.cpp:66
+#: src/dictionary.cpp:65 src/dictionary.cpp:66 src/dictionary.cpp:67
+#: src/dictionary.cpp:68
 #, kde-format
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
 
-#: expressionedit.cpp:312
+#: src/expressionedit.cpp:317
 #, kde-format
 msgctxt "n-ary function prototype"
 msgid "<em>%1</em>(..., <b>par%2</b>, ...)"
 msgstr "<em>%1</em>(..., <b>par%2</b>, ...)"
 
-#: expressionedit.cpp:315 expressionedit.cpp:339
+#: src/expressionedit.cpp:320 src/expressionedit.cpp:347
 #, kde-format
 msgctxt "Function name in function prototype"
 msgid "<em>%1</em>("
 msgstr "<em>%1</em>("
 
-#: expressionedit.cpp:316
+#: src/expressionedit.cpp:321
 #, kde-format
 msgctxt "Uncorrect function name in function prototype"
 msgid "<em style='color:red'><b>%1</b></em>("
 msgstr "<em style='color:red'><b>%1</b></em>("
 
-#: expressionedit.cpp:322
-#, fuzzy
-#| msgctxt "Current parameter is the bounding"
-#| msgid "bounds"
-msgctxt "Current parameter is the bounding"
-msgid "bounds"
-msgstr "greńce"
-
-#: expressionedit.cpp:324
+#: src/expressionedit.cpp:324
 #, kde-format
 msgctxt "Parameter in function prototype"
 msgid "par%1"
 msgstr "par%1"
 
-#: expressionedit.cpp:327 expressionedit.cpp:344
+#: src/expressionedit.cpp:327 src/expressionedit.cpp:336
+#: src/expressionedit.cpp:352
 #, kde-format
 msgctxt "Current parameter in function prototype"
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
 
-#: expressionedit.cpp:330 expressionedit.cpp:349
+#: src/expressionedit.cpp:330 src/expressionedit.cpp:357
 msgctxt "Function parameter separator"
 msgid ", "
 msgstr ", "
 
-#: expressionedit.cpp:340
+#: src/expressionedit.cpp:334
+#, fuzzy
+#| msgctxt "Current parameter is the bounding"
+#| msgid "bounds"
+msgctxt "Current parameter is the bounding"
+msgid " : bounds"
+msgstr "greńce"
+
+#: src/expressionedit.cpp:348
 #, kde-format
 msgctxt "Uncorrect function name in function prototype"
 msgid "<em style='color:red'>%1</em>("
 msgstr "<em style='color:red'>%1</em>("
 
-#: expressionedit.cpp:448
+#: src/expressionedit.cpp:454
 msgid "To Expression"
 msgstr "Do wësłowù"
 
-#: expressionedit.cpp:450
+#: src/expressionedit.cpp:456
 msgid "To MathML"
 msgstr "Do MathML"
 
-#: expressionedit.cpp:452
+#: src/expressionedit.cpp:458
 msgid "Simplify"
 msgstr "Ùproszczë"
 
-#: functionedit.cpp:39
+#: src/functionedit.cpp:39
 msgid "Add/Edit a function"
 msgstr "Dodôj/Editëjë fùnkcjã"
 
-#: functionedit.cpp:86
+#: src/functionedit.cpp:86
 msgid "OK"
 msgstr "OK"
 
-#: functionedit.cpp:88
+#: src/functionedit.cpp:88
 msgctxt "@action:button"
 msgid "Clear"
 msgstr "Wëczëszczë"
 
-#: functionedit.cpp:172 varedit.cpp:120
+#: src/functionedit.cpp:172 src/varedit.cpp:116
 msgid "From parser:"
 msgstr "Òd parsera:"
 
-#: functionedit.cpp:191
+#: src/functionedit.cpp:191
 msgid "We can only draw Real results."
 msgstr ""
 
-#: functionedit.cpp:193
+#: src/functionedit.cpp:193
 #, kde-format
 msgctxt "Error message"
 msgid "Unknown bounded variable: %1"
 msgstr ""
 
-#: functionedit.cpp:199
+#: src/functionedit.cpp:199
 #, fuzzy, kde-format
 #| msgid "<b style='color:red'>WRONG</b>"
 msgid "<b style='color:red'>%1</b>"
 msgstr "<b style='color:red'>LËCHÒ</b>"
 
-#: functionimpl.cpp:118
-msgid "Can't have downlimit ≥ uplimit"
+#: src/functionimpl.cpp:117
+msgid "Cannot have downlimit ≥ uplimit"
 msgstr ""
 
-#: functionimpl.cpp:257
+#: src/functionimpl.cpp:256
 msgid "center"
 msgstr "wëstrzódk"
 
-#: functionsmodel.cpp:77
+#: src/functionsmodel.cpp:77
 msgctxt "@title:column"
 msgid "Function"
 msgstr "Fùnkcja"
 
-#: functionsmodel.cpp:105
+#: src/functionsmodel.cpp:105
 #, kde-format
 msgid "%1 function added"
 msgstr "Fùnkcjô %1 dodónô"
 
-#: functionsview.cpp:50
+#: src/functionsview.cpp:50
 #, kde-format
 msgid "Hide '%1'"
 msgstr ""
 
-#: functionsview.cpp:53
+#: src/functionsview.cpp:53
 #, kde-format
 msgid "Show '%1'"
 msgstr ""
 
-#: functionsview.cpp:58
+#: src/functionsview.cpp:58
 #, kde-format
 msgid "Remove '%1'"
 msgstr ""
 
-#: graph2d.cpp:379
+#: src/graph2d.cpp:378
 msgid "Selected viewport too small"
 msgstr ""
 
-#: graph3d.cpp:412 graph3d.cpp:438
+#: src/graph3d.cpp:411 src/graph3d.cpp:437
 #, kde-format
 msgid "Error: %1"
 msgstr "Fela: %1"
 
-#: graph3d.cpp:427
+#: src/graph3d.cpp:426
 msgid "Generating... Please wait"
 msgstr "Generowanié... Proszã żdac"
 
-#: graph3d.cpp:431
+#: src/graph3d.cpp:430
 #, fuzzy, no-c-format, kde-format
 #| msgid "Done: %1ms"
 msgctxt "3D graph done in x miliseconds"
 msgid "Done: %1ms"
 msgstr "Parôt: %1ms"
 
-#: graph3d.cpp:436
+#: src/graph3d.cpp:435
 msgid "Error: We need values to draw a graph"
 msgstr ""
 
-#: kalgebra.cpp:64
+#: src/kalgebra.cpp:64
 msgid "Variables"
 msgstr "Zmieniwne"
 
-#: kalgebra.cpp:82
+#: src/kalgebra.cpp:82
 msgid "&Console"
 msgstr "&Kònsola"
 
-#: kalgebra.cpp:94
+#: src/kalgebra.cpp:94
 msgid "C&onsole"
 msgstr "Kò&nsola"
 
-#: kalgebra.cpp:97
+#: src/kalgebra.cpp:97
 msgctxt "@item:inmenu"
 msgid "&Load Script"
 msgstr "&Wladëjë skript"
 
-#: kalgebra.cpp:99
+#: src/kalgebra.cpp:99
 msgctxt "@item:inmenu"
 msgid "&Save Script"
 msgstr "&Zapiszë skript"
 
-#: kalgebra.cpp:101
+#: src/kalgebra.cpp:101
 msgctxt "@item:inmenu"
 msgid "&Save Log"
 msgstr "&Zapiszë log"
 
-#: kalgebra.cpp:113
+#: src/kalgebra.cpp:113
 msgid "Functions"
 msgstr "Fùnkcje"
 
-#: kalgebra.cpp:126
+#: src/kalgebra.cpp:126
 msgid "List"
 msgstr "Lësta"
 
-#: kalgebra.cpp:130 kalgebra.cpp:280
+#: src/kalgebra.cpp:130 src/kalgebra.cpp:281
 msgid "&Add"
 msgstr "&Dodôj"
 
-#: kalgebra.cpp:134
+#: src/kalgebra.cpp:134
 msgid "&2D Graph"
 msgstr "Graf &2D"
 
-#: kalgebra.cpp:141
+#: src/kalgebra.cpp:141
 msgid "2&D Graph"
 msgstr "Graf 2&D"
 
-#: kalgebra.cpp:143
+#: src/kalgebra.cpp:143
 msgid "&Grid"
 msgstr "&Mrzéżka"
 
-#: kalgebra.cpp:144
+#: src/kalgebra.cpp:144
 msgid "&Keep Aspect Ratio"
 msgstr ""
 
-#: kalgebra.cpp:149 kalgebra.cpp:193
+#: src/kalgebra.cpp:149 src/kalgebra.cpp:193
 msgid "&Reset View"
 msgstr "&Wëczëszczë wëzdrzatk"
 
-#: kalgebra.cpp:150
+#: src/kalgebra.cpp:150
 msgid "Resolution"
 msgstr "Rozdzelnota"
 
-#: kalgebra.cpp:151
+#: src/kalgebra.cpp:151
 msgctxt "@item:inmenu"
 msgid "Poor"
 msgstr "Lëchô"
 
-#: kalgebra.cpp:152
+#: src/kalgebra.cpp:152
 msgctxt "@item:inmenu"
 msgid "Normal"
 msgstr "Normalnô"
 
-#: kalgebra.cpp:153
+#: src/kalgebra.cpp:153
 msgctxt "@item:inmenu"
 msgid "Fine"
 msgstr "Dobrô"
 
-#: kalgebra.cpp:154
+#: src/kalgebra.cpp:154
 msgctxt "@item:inmenu"
 msgid "Very Fine"
 msgstr "Barô dobrô"
 
-#: kalgebra.cpp:181
+#: src/kalgebra.cpp:181
 msgid "&3D Graph"
 msgstr "Graf &3D"
 
-#: kalgebra.cpp:189
+#: src/kalgebra.cpp:189
 msgid "3D &Graph"
 msgstr "&Graf 3D"
 
-#: kalgebra.cpp:191
+#: src/kalgebra.cpp:191
 msgid "&Transparency"
 msgstr "Przezérnota"
 
-#: kalgebra.cpp:194
+#: src/kalgebra.cpp:194
 msgid "Type"
 msgstr "Ôrt"
 
-#: kalgebra.cpp:195
+#: src/kalgebra.cpp:195
 msgid "Dots"
 msgstr "Pùnktë"
 
-#: kalgebra.cpp:196
+#: src/kalgebra.cpp:196
 msgid "Lines"
 msgstr "Linie"
 
-#: kalgebra.cpp:197
+#: src/kalgebra.cpp:197
 msgid "Solid"
 msgstr "Nieprzeriwnô"
 
-#: kalgebra.cpp:214
+#: src/kalgebra.cpp:214
 msgid "Operations"
 msgstr ""
 
-#: kalgebra.cpp:217
+#: src/kalgebra.cpp:218
 msgid "&Dictionary"
 msgstr "&Słowôrz"
 
-#: kalgebra.cpp:228
+#: src/kalgebra.cpp:229
 msgid "Look for:"
 msgstr ""
 
-#: kalgebra.cpp:269
+#: src/kalgebra.cpp:270
 msgid "&Editing"
 msgstr "&Editowanié"
 
-#: kalgebra.cpp:317 kalgebra.cpp:324
+#: src/kalgebra.cpp:318 src/kalgebra.cpp:325
 msgid "Script (*.kal)"
 msgstr "Skript (*.kal)"
 
-#: kalgebra.cpp:317
+#: src/kalgebra.cpp:318
 msgid "Choose a script"
 msgstr "Wëbiérzë skript"
 
-#: kalgebra.cpp:331
+#: src/kalgebra.cpp:332
 msgid "Text File (*)"
 msgstr "Tekstowi lopk (*)"
 
-#: kalgebra.cpp:373
+#: src/kalgebra.cpp:374
 msgid "*.png|PNG File"
 msgstr "*.png|Lopk PNG"
 
-#: kalgebra.cpp:398
+#: src/kalgebra.cpp:399
 msgid ""
 "*.png|Image File\n"
 "*.svg|SVG File"
@@ -345,378 +355,543 @@ msgstr ""
 "*.png|Lopk òbrazu\n"
 "*.svg|Lopk SVG"
 
-#: kalgebra.cpp:434
+#: src/kalgebra.cpp:435
 msgctxt "@info:status"
 msgid "Ready"
 msgstr "Parôt"
 
-#: main.cpp:26
+#: src/main.cpp:26
 msgid "A calculator"
 msgstr "Kalkùlatora"
 
-#: main.cpp:27
+#: src/main.cpp:27
 #, fuzzy
 #| msgid "(C) 2006 Aleix Pol Gonzalez"
 msgid "(C) 2006-2008 Aleix Pol Gonzalez"
 msgstr "(C) 2006 Aleix Pol Gonzalez"
 
-#: main.cpp:28
+#: src/main.cpp:28
 msgid "Aleix Pol Gonzalez"
 msgstr "Aleix Pol Gonzalez"
 
-#: operatorsmodel.cpp:80
+#: src/operatorsmodel.cpp:80
 msgctxt "@title:column"
 msgid "Description"
 msgstr "òpisënk"
 
-#: operatorsmodel.cpp:83
+#: src/operatorsmodel.cpp:83
 msgctxt "@title:column"
 msgid "Parameters"
 msgstr "Paramétrë"
 
-#: operatorsmodel.cpp:86
+#: src/operatorsmodel.cpp:86
 msgctxt "@title:column"
 msgid "Example"
 msgstr ""
 
-#: operatorsmodel.cpp:119
+#: src/operatorsmodel.cpp:119
 #, kde-format
 msgid "%1("
 msgstr "%1("
 
-#: operatorsmodel.cpp:121
-#, kde-format
-msgid "%1, "
-msgstr "%1, "
-
-#: operatorsmodel.cpp:125
+#: src/operatorsmodel.cpp:122
 #, fuzzy, kde-format
 #| msgid "%1... parameters, ...)"
-msgid "%1... parameters, ...)"
+msgid "%1... parameters, ...%2)"
 msgstr "%1... paramétrë, ...)"
 
-#: operatorsmodel.cpp:128
+#: src/operatorsmodel.cpp:125
 #, kde-format
 msgid "par%1"
 msgstr "par%1"
 
-#: operatorsmodel.cpp:141
+#: src/operatorsmodel.cpp:138
 msgid "Addition"
 msgstr "Dodôwanié"
 
-#: operatorsmodel.cpp:144
+#: src/operatorsmodel.cpp:141
 msgid "Multiplication"
 msgstr "Wielenié"
 
-#: operatorsmodel.cpp:147
+#: src/operatorsmodel.cpp:144
 msgid "Division"
 msgstr "Dzelenié"
 
-#: operatorsmodel.cpp:150
+#: src/operatorsmodel.cpp:147
 msgid "Subtraction"
 msgstr "Òdjimanié"
 
-#: operatorsmodel.cpp:153
+#: src/operatorsmodel.cpp:150
 msgid "Power"
 msgstr "Zwielëna"
 
-#: operatorsmodel.cpp:156
+#: src/operatorsmodel.cpp:153
 msgid "Remainder"
 msgstr "Reszta"
 
-#: operatorsmodel.cpp:159
+#: src/operatorsmodel.cpp:156
 msgid "Quotient"
 msgstr "Dzél"
 
-#: operatorsmodel.cpp:162
+#: src/operatorsmodel.cpp:159
 msgid "The factor of"
 msgstr "Dzélnik"
 
-#: operatorsmodel.cpp:165
+#: src/operatorsmodel.cpp:162
 msgid "Factorial. factorial(n)=n!"
 msgstr "Sëlnia, sëlnia(n)=n!"
 
-#: operatorsmodel.cpp:168
+#: src/operatorsmodel.cpp:165
 msgid "Function to calculate the sine of a given angle"
 msgstr "Fùnkcjô do rëchòwaniô synusa dónégò nórtu"
 
-#: operatorsmodel.cpp:171
+#: src/operatorsmodel.cpp:168
 msgid "Function to calculate the cosine of a given angle"
 msgstr "Fùnkcjô do rëchòwaniô kòsynusa dónégò nórtu"
 
-#: operatorsmodel.cpp:174
+#: src/operatorsmodel.cpp:171
 msgid "Function to calculate the tangent of a given angle"
 msgstr "Fùnkcjô do rëchòwaniô tangenta dónégò nórtu"
 
-#: operatorsmodel.cpp:177
+#: src/operatorsmodel.cpp:174
 msgid "Secant"
 msgstr "Sekans"
 
-#: operatorsmodel.cpp:180
+#: src/operatorsmodel.cpp:177
 msgid "Cosecant"
 msgstr "Kòsekans"
 
-#: operatorsmodel.cpp:183
+#: src/operatorsmodel.cpp:180
 msgid "Cotangent"
 msgstr "Kòtangens"
 
-#: operatorsmodel.cpp:186
+#: src/operatorsmodel.cpp:183
 msgid "Hyperbolic sine"
 msgstr "Hiperbòlikòwi synus"
 
-#: operatorsmodel.cpp:189
+#: src/operatorsmodel.cpp:186
 msgid "Hyperbolic cosine"
 msgstr "Hiperbòlikòwi kòsynus"
 
-#: operatorsmodel.cpp:192
+#: src/operatorsmodel.cpp:189
 msgid "Hyperbolic tangent"
 msgstr "Hiperbòlikòwi tangens"
 
-#: operatorsmodel.cpp:195
+#: src/operatorsmodel.cpp:192
 msgid "Hyperbolic secant"
 msgstr "Hiperbòlikòwi sekans"
 
-#: operatorsmodel.cpp:198
+#: src/operatorsmodel.cpp:195
 msgid "Hyperbolic cosecant"
 msgstr "Hiperbòlikòwi kòsekans"
 
-#: operatorsmodel.cpp:201
+#: src/operatorsmodel.cpp:198
 msgid "Hyperbolic cotangent"
 msgstr "Hiperbòlikòwi kòtangtens"
 
-#: operatorsmodel.cpp:204
+#: src/operatorsmodel.cpp:201
 msgid "Arc sine"
 msgstr "Arkùs synus"
 
-#: operatorsmodel.cpp:207
+#: src/operatorsmodel.cpp:204
 msgid "Arc cosine"
 msgstr "Arkùs kòsynus"
 
-#: operatorsmodel.cpp:210
+#: src/operatorsmodel.cpp:207
 msgid "Arc tangent"
 msgstr "Arkùs tangens"
 
-#: operatorsmodel.cpp:213
+#: src/operatorsmodel.cpp:210
 msgid "Arc cotangent"
 msgstr "Arkùs kòtangens"
 
-#: operatorsmodel.cpp:216
-msgid "Hyperbolic arc cotangent"
-msgstr "Hiperbòlikòwi arkùs kòtangens"
-
-#: operatorsmodel.cpp:219
+#: src/operatorsmodel.cpp:216
 msgid "Hyperbolic arc tangent"
 msgstr "Hiperbòlikòwi arkùs tangens"
 
-#: operatorsmodel.cpp:222
+#: src/operatorsmodel.cpp:219
 msgid "Summatory"
 msgstr "Pòdrëchùjący"
 
-#: operatorsmodel.cpp:225
+#: src/operatorsmodel.cpp:222
 msgid "Productory"
 msgstr "Wielący"
 
-#: operatorsmodel.cpp:228
+#: src/operatorsmodel.cpp:225
 msgid "Differentiation"
 msgstr "Òdprôwôdnô"
 
-#: operatorsmodel.cpp:231
+#: src/operatorsmodel.cpp:228
 msgid "Hyperbolic arc sine"
 msgstr "Hiperbòlikòwi arkùs synus"
 
-#: operatorsmodel.cpp:234
+#: src/operatorsmodel.cpp:231
 msgid "Hyperbolic arc cosine"
 msgstr "Hiperbòlikòwi arkùs kòsynus"
 
-#: operatorsmodel.cpp:237
+#: src/operatorsmodel.cpp:234
 msgid "Arc cosecant"
 msgstr "Arkùs kòsekans"
 
-#: operatorsmodel.cpp:240
+#: src/operatorsmodel.cpp:237
 msgid "Hyperbolic arc cosecant"
 msgstr "Hiperbòlikòwi arkùs kòsekans"
 
-#: operatorsmodel.cpp:243
+#: src/operatorsmodel.cpp:240
 msgid "Arc secant"
 msgstr "Arkùs sekans"
 
-#: operatorsmodel.cpp:246
+#: src/operatorsmodel.cpp:243
 msgid "Hyperbolic arc secant"
 msgstr "Hiperbòlikòwi arkùs kòsekans"
 
-#: operatorsmodel.cpp:249
+#: src/operatorsmodel.cpp:246
 msgid "Exponent (e^x)"
 msgstr "Pòkôzywôczowô fùnkcjô (e^x)"
 
-#: operatorsmodel.cpp:252
+#: src/operatorsmodel.cpp:249
 msgid "Base-e logarithm"
 msgstr "Naturalny logaritm"
 
-#: operatorsmodel.cpp:255
+#: src/operatorsmodel.cpp:252
 msgid "Base-10 logarithm"
 msgstr "Dzesãtny logaritm"
 
-#: operatorsmodel.cpp:258
+#: src/operatorsmodel.cpp:255
 msgid "Absolute value. abs(n)=|n|"
 msgstr "Absolutnô wôrtnota. abs(n)=|n|"
 
-#: operatorsmodel.cpp:267
-msgid "Real"
-msgstr "Realné"
-
-#: operatorsmodel.cpp:273
+#: src/operatorsmodel.cpp:270
 msgid "Floor value. floor(n)=⌊n⌋"
 msgstr "Zaòkrãglënié w dół. floor(n)=⌊n⌋"
 
-#: operatorsmodel.cpp:276
+#: src/operatorsmodel.cpp:273
 msgid "Ceil value. ceil(n)=⌈n⌉"
 msgstr "Zaòkrãglënié w górã. ceil(n)=⌊n⌋"
 
-#: operatorsmodel.cpp:279
+#: src/operatorsmodel.cpp:276
 msgid "Minimum"
 msgstr "Minimum"
 
-#: operatorsmodel.cpp:282
+#: src/operatorsmodel.cpp:279
 msgid "Maximum"
 msgstr "Maksimum"
 
-#: operatorsmodel.cpp:285
+#: src/operatorsmodel.cpp:282
 msgid "Greater than. gt(a,b)=a>b"
 msgstr "Wiksze jak. gt(a,b)=a>b"
 
-#: operatorsmodel.cpp:288
+#: src/operatorsmodel.cpp:285
 msgid "Less than. lt(a,b)=a<b"
 msgstr "Mniésze jak. lt(a,b)=a<b"
 
-#: operatorsmodel.cpp:291
+#: src/operatorsmodel.cpp:288
 msgid "Equal. eq(a,b) = a=b"
 msgstr "Równe. eq(a,b) = a=b"
 
-#: operatorsmodel.cpp:294
+#: src/operatorsmodel.cpp:291
 #, fuzzy
 #| msgid "Approximation approx(a)=a±n"
-msgid "Approximation approx(a)=a±n"
+msgid "Approximation. approx(a)=a±n"
 msgstr "Przëkrodzenié approx(a)=a±n"
 
-#: operatorsmodel.cpp:297
+#: src/operatorsmodel.cpp:294
 msgid "Not equal. neq(a,b)=a≠b"
 msgstr "Nie równe. neq(a,b)=a≠b"
 
-#: operatorsmodel.cpp:300
+#: src/operatorsmodel.cpp:297
 msgid "Greater or equal. geq(a,b)=a≥b"
 msgstr "Wiksze abò równe. geq(a,b)=a≥b"
 
-#: operatorsmodel.cpp:303
+#: src/operatorsmodel.cpp:300
 msgid "Less or equal. leq(a,b)=a≤b"
 msgstr "Mniésze abò równe. leq(a,b)=a≤b"
 
-#: operatorsmodel.cpp:306
+#: src/operatorsmodel.cpp:303
 msgid "Boolean and"
 msgstr "Logiczné ë"
 
-#: operatorsmodel.cpp:309
+#: src/operatorsmodel.cpp:306
 msgid "Boolean not"
 msgstr "Logiczné nié"
 
-#: operatorsmodel.cpp:312
+#: src/operatorsmodel.cpp:309
 msgid "Boolean or"
 msgstr "Logiczné abò"
 
-#: operatorsmodel.cpp:315
+#: src/operatorsmodel.cpp:312
 msgid "Boolean xor"
 msgstr "logiczné xabò (xor)"
 
-#: operatorsmodel.cpp:318
+#: src/operatorsmodel.cpp:315
 msgid "Boolean implication"
 msgstr "Logiczné nastãpstwò"
 
-#: operatorsmodel.cpp:321
+#: src/operatorsmodel.cpp:318
 msgid "Greatest common divisor"
 msgstr "Nôwikszi wespólny dzélnik"
 
-#: operatorsmodel.cpp:324
+#: src/operatorsmodel.cpp:321
 msgid "Least common multiple"
 msgstr "Nômniészô wespólnô wielenô"
 
-#: operatorsmodel.cpp:327
+#: src/operatorsmodel.cpp:324
 msgid "Root"
 msgstr "Pierwińc"
 
-#: operatorsmodel.cpp:330
+#: src/operatorsmodel.cpp:327
 msgid "Cardinal"
 msgstr ""
 
-#: operatorsmodel.cpp:333
+#: src/operatorsmodel.cpp:330
 msgid "Scalar product"
 msgstr ""
 
-#: operatorsmodel.cpp:336
+#: src/operatorsmodel.cpp:333
 msgid "Select an element from a container"
 msgstr ""
 
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Michôł Òstrowsczi"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "michol@linuxcsb.org"
-
-#: varedit.cpp:36
+#: src/varedit.cpp:36
 msgid "Add/Edit a variable"
 msgstr "Dodôj/Editëjë zmieniwną"
 
-#: varedit.cpp:57
+#: src/varedit.cpp:57
 msgid "Mode"
 msgstr "Trib"
 
-#: varedit.cpp:59
+#: src/varedit.cpp:59
 msgid "Save the expression"
 msgstr "Zapiszë wësłów"
 
-#: varedit.cpp:60
+#: src/varedit.cpp:60
 msgid "Calculate the expression"
 msgstr "Rachùjë wësłów"
 
-#: varedit.cpp:78
+#: src/varedit.cpp:78
 #, kde-format
 msgid "Edit '%1' value"
 msgstr "Editëjë wôrtnotã '%1'"
 
-#: varedit.cpp:80
+#: src/varedit.cpp:80
 #, fuzzy
 #| msgid "Add/Edit a variable"
 msgid "not available"
 msgstr "Dodôj/Editëjë zmieniwną"
 
-#: varedit.cpp:127
+#: src/varedit.cpp:123
 #, kde-format
 msgid "%1:=%2"
 msgstr "%1:=%2"
 
-#: varedit.cpp:132
+#: src/varedit.cpp:128
 msgid "<b style='color:red'>WRONG</b>"
 msgstr "<b style='color:red'>LËCHÒ</b>"
 
-#: varedit.cpp:136
+#: src/varedit.cpp:132
 #, kde-format
 msgid "<b style='color:#090'>%1 := %2</b>"
 msgstr "<b style='color:#090'>%1 := %2</b>"
 
-#, fuzzy
-#~| msgid "Error: %1"
-#~ msgid ""
-#~ "%1\n"
-#~ "Error: %2"
-#~ msgstr "Fela: %1"
+#: analitza/analitza.cpp:58 analitza/analitza.cpp:68
+msgid "Must specify a correct operation"
+msgstr ""
 
+#: analitza/analitza.cpp:440
+#, kde-format
+msgid "The %1 derivative has not been implemented."
+msgstr ""
+
+#: analitza/analitza.cpp:495
+msgctxt "this is an error message. otherwise is the else in a mathml condition"
+msgid "Too many <em>otherwise</em> parameters"
+msgstr ""
+
+#: analitza/analitza.cpp:504
+msgctxt "Error message, no proper condition found."
+msgid "Could not find a proper choice for a condition statement."
+msgstr ""
+
+#: analitza/analitza.cpp:519
+msgid "Need a var name and a value"
+msgstr ""
+
+#: analitza/analitza.cpp:561 analitza/analitza.cpp:796
+#, kde-format
+msgid "The function <em>%1</em> does not exist"
+msgstr ""
+
+#: analitza/analitza.cpp:563
+#, kde-format
+msgid "The variable <em>%1</em> does not exist"
+msgstr ""
+
+#: analitza/analitza.cpp:581
+#, kde-format
+msgid "Empty container: %1"
+msgstr ""
+
+#: analitza/analitza.cpp:638
+#, kde-format
+msgid "<em>%1</em> needs at least 2 parameters"
+msgstr ""
+
+#: analitza/analitza.cpp:640
+#, kde-format
+msgid "<em>%1</em> requires %2 parameters"
+msgstr ""
+
+#: analitza/analitza.cpp:655
+#, kde-format
+msgctxt ""
+"%1 the operation name, %2 and %3 is the opearation we wanted to calculate"
+msgid "Cannot calculate the %1(%2, %3)"
+msgstr ""
+
+#: analitza/analitza.cpp:663
+#, kde-format
+msgctxt "%1 is the opearation we wanted to calculate, %2 the operation name"
+msgid "Cannot calculate the %1 '%2'"
+msgstr ""
+
+#: analitza/analitza.cpp:678
+msgid "piece or otherwise in the wrong place"
+msgstr ""
+
+#: analitza/analitza.cpp:705 analitza/analitza.cpp:741
+msgid "Missing or uncorrect uplimit or downlimit."
+msgstr ""
+
+#: analitza/analitza.cpp:769
+msgid "Invalid index for a container"
+msgstr ""
+
+#: analitza/analitza.cpp:776
+msgid "We can only select a containers value with its integer index"
+msgstr ""
+
+#: analitza/analitza.cpp:1615
+msgctxt "By a cycle i mean a variable that depends on itself"
+msgid "Defined a variable cycle"
+msgstr ""
+
+#: analitza/explexer.cpp:76
+#, kde-format
+msgctxt "Error message"
+msgid "Trying to codify an unknown value: %1"
+msgstr ""
+
+#: analitza/explexer.cpp:90
+#, kde-format
+msgid "Unknown token %1"
+msgstr ""
+
+#: analitza/expression.cpp:121
+#, kde-format
+msgid "Error while parsing: %1"
+msgstr ""
+
+#: analitza/expression.cpp:163
+#, kde-format
+msgctxt "An error message"
+msgid "The downlimit is greater than the uplimit. Probably should be %1..%2"
+msgstr ""
+
+#: analitza/expression.cpp:177
+#, kde-format
+msgctxt "there was an element that was not a conditional inside a condition"
+msgid "%1 is not a proper condition inside the piecewise"
+msgstr ""
+
+#: analitza/expression.cpp:183
+msgid "We can only declare variables"
+msgstr ""
+
+#: analitza/expression.cpp:189
+#, kde-format
+msgctxt "An error message"
+msgid "Container unknown: %1"
+msgstr ""
+
+#: analitza/expression.cpp:209
+#, kde-format
+msgctxt "Error message due to an unrecognized input"
+msgid "Not supported/unknown: %1"
+msgstr ""
+
+#: exp.g:380
 #, fuzzy
-#~| msgctxt "Function parameter separator"
-#~| msgid ", "
-#~ msgid ", "
-#~ msgstr ", "
+#| msgctxt "Function parameter separator"
+#| msgid ", "
+msgid ", "
+msgstr ", "
+
+#: exp.g:380
+#, kde-format
+msgctxt "error message"
+msgid "Expected %1 instead of %2"
+msgstr ""
+
+#: exp.g:382
+msgid "Missing right parenthesis"
+msgstr ""
+
+#: exp.g:384
+msgid "Unbalanced right parenthesis"
+msgstr ""
+
+#: exp.g:386
+#, kde-format
+msgid "Unexpected token %1"
+msgstr ""
+
+#: analitza/htmlexpressionwriter.cpp:40
+msgctxt ""
+"html representation of a true. please don't translate the true for "
+"consistency"
+msgid "<span class='const'>true</span>"
+msgstr ""
+
+#: analitza/htmlexpressionwriter.cpp:42
+msgctxt ""
+"html representation of a false. please don't translate the false for "
+"consistency"
+msgid "<span class='const'>false</span>"
+msgstr ""
+
+#: analitza/htmlexpressionwriter.cpp:44
+#, kde-format
+msgctxt "html representation of a number"
+msgid "<span class='num'>%1</span>"
+msgstr ""
+
+#: analitza/htmlexpressionwriter.cpp:47 analitza/htmlexpressionwriter.cpp:48
+#, kde-format
+msgctxt "html representation of an operator"
+msgid "<span class='op'>%1</span>"
+msgstr ""
+
+#: analitza/mathmlpresentationlexer.cpp:88
+#, kde-format
+msgctxt "Error message"
+msgid "Unknown token %1"
+msgstr ""
+
+#~ msgid "%1, "
+#~ msgstr "%1, "
+
+#~ msgid "Hyperbolic arc cotangent"
+#~ msgstr "Hiperbòlikòwi arkùs kòtangens"
+
+#~ msgid "Real"
+#~ msgstr "Realné"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Michôł Òstrowsczi"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "michol@linuxcsb.org"
 
 #, fuzzy
 #~| msgid "<b>%1</b>"
