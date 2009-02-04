@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-03 11:20+0100\n"
+"POT-Creation-Date: 2009-02-04 12:11+0100\n"
 "PO-Revision-Date: 2009-01-08 18:45+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -377,7 +377,7 @@ msgstr ""
 "pòmòcë przëłączë sã do naji na #amarok na irc.freenode.net.</p>"
 
 #: context/engines/current/CurrentEngine.cpp:105
-#: context/applets/albums/Albums.cpp:55
+#: context/applets/albums/Albums.cpp:57
 #, fuzzy
 #| msgid "Recently Played Tracks"
 msgid "Recently added albums"
@@ -475,39 +475,39 @@ msgstr "Slédno gróné"
 msgid "Playcount:"
 msgstr "Rechòwnik òdegraniô:"
 
-#: context/applets/albums/AlbumsView.cpp:105 Systray.cpp:216
+#: context/applets/albums/AlbumsView.cpp:109 Systray.cpp:216
 #: browsers/collectionbrowser/CollectionTreeView.cpp:596
 #: browsers/filebrowser/MyDirOperator.cpp:261
-#: browsers/playlistbrowser/UserPlaylistModel.cpp:318
+#: browsers/playlistbrowser/UserPlaylistModel.cpp:322
 #: browsers/playlistbrowser/PodcastModel.cpp:692
 #: services/lastfm/LastFmTreeView.cpp:116
 msgid "&Append to Playlist"
 msgstr "&Dodôj do lëstë graniô"
 
-#: context/applets/albums/AlbumsView.cpp:106
+#: context/applets/albums/AlbumsView.cpp:110
 #: browsers/collectionbrowser/CollectionTreeView.cpp:604
 #: browsers/filebrowser/MyDirOperator.cpp:262
-#: browsers/playlistbrowser/UserPlaylistModel.cpp:324
+#: browsers/playlistbrowser/UserPlaylistModel.cpp:328
 #: browsers/playlistbrowser/PodcastModel.cpp:705
 #: services/lastfm/LastFmTreeView.cpp:124
 msgctxt "Replace the currently loaded tracks with these"
 msgid "&Load"
 msgstr "Ł&adëjë"
 
-#: context/applets/albums/AlbumsView.cpp:107
+#: context/applets/albums/AlbumsView.cpp:111
 #: browsers/collectionbrowser/CollectionTreeView.cpp:612
 #, fuzzy
 #| msgid "&Queue Track"
 msgid "&Queue"
 msgstr "&Régùjë sztëczk"
 
-#: context/applets/albums/AlbumsView.cpp:108
+#: context/applets/albums/AlbumsView.cpp:112
 #: browsers/filebrowser/MyDirOperator.cpp:263
 #: playlist/view/PlaylistViewCommon.cpp:81
 msgid "Edit Track Details"
 msgstr "Editëjë detale sztëczka"
 
-#: context/applets/albums/Albums.cpp:160
+#: context/applets/albums/Albums.cpp:162
 #, fuzzy, kde-format
 #| msgid "disc"
 msgid "Disc %1"
@@ -980,7 +980,7 @@ msgstr "Sztëczk"
 #: dialogs/FilenameLayoutDialog.cpp:118 dialogs/FilenameLayoutDialog.cpp:324
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:248
 #: browsers/playlistbrowser/PodcastModel.cpp:282 rc.cpp:930
-#: playlist/PlaylistDefines.h:87 playlist/PlaylistModel.cpp:674
+#: playlist/PlaylistDefines.h:94 playlist/PlaylistModel.cpp:695
 #: widgets/SmartPlaylistEditor.cpp:184
 msgid "Title"
 msgstr "Titel"
@@ -996,8 +996,8 @@ msgstr "Titel"
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:245 rc.cpp:921
 #: services/lastfm/LastFmService.cpp:415
 #: services/magnatune/MagnatuneStore.cpp:194
-#: services/jamendo/JamendoInfoParser.cpp:54 playlist/PlaylistDefines.h:67
-#: playlist/PlaylistHeader.cpp:42 playlist/PlaylistModel.cpp:675
+#: services/jamendo/JamendoInfoParser.cpp:54 playlist/PlaylistDefines.h:71
+#: playlist/PlaylistHeader.cpp:42 playlist/PlaylistModel.cpp:696
 #: widgets/SmartPlaylistEditor.cpp:184 widgets/SmartPlaylistEditor.cpp:198
 msgid "Artist"
 msgstr "Artista"
@@ -1010,7 +1010,7 @@ msgstr "Artista"
 #: browsers/collectionbrowser/CollectionWidget.cpp:118
 #: browsers/collectionbrowser/CollectionWidget.cpp:150
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:246 rc.cpp:924
-#: playlist/PlaylistDefines.h:71 playlist/PlaylistModel.cpp:677
+#: playlist/PlaylistDefines.h:75 playlist/PlaylistModel.cpp:698
 #: widgets/SmartPlaylistEditor.cpp:184 widgets/SmartPlaylistEditor.cpp:198
 msgid "Composer"
 msgstr "Kòmpòzytor"
@@ -1021,7 +1021,7 @@ msgstr "Kòmpòzytor"
 #: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:719
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:250
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:694 rc.cpp:936
-#: playlist/PlaylistDefines.h:91 playlist/PlaylistModel.cpp:678
+#: playlist/PlaylistDefines.h:98 playlist/PlaylistModel.cpp:699
 #: widgets/SmartPlaylistEditor.cpp:185 widgets/SmartPlaylistEditor.cpp:198
 #: widgets/SmartPlaylistEditor.cpp:922
 msgid "Year"
@@ -1037,15 +1037,15 @@ msgstr "Rok"
 #: browsers/collectionbrowser/CollectionWidget.cpp:144
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:247 rc.cpp:918
 #: services/magnatune/MagnatuneStore.cpp:200
-#: services/jamendo/JamendoInfoParser.cpp:86 playlist/PlaylistDefines.h:65
-#: playlist/PlaylistHeader.cpp:42 playlist/PlaylistModel.cpp:679
+#: services/jamendo/JamendoInfoParser.cpp:86 playlist/PlaylistDefines.h:69
+#: playlist/PlaylistHeader.cpp:42 playlist/PlaylistModel.cpp:700
 #: widgets/SmartPlaylistEditor.cpp:184 widgets/SmartPlaylistEditor.cpp:198
 msgid "Album"
 msgstr "Albùm"
 
 #: dialogs/FilenameLayoutDialog.cpp:123 dialogs/FilenameLayoutDialog.cpp:354
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:259
-#: playlist/PlaylistDefines.h:70 playlist/PlaylistModel.cpp:684
+#: playlist/PlaylistDefines.h:74 playlist/PlaylistModel.cpp:705
 #: widgets/SmartPlaylistEditor.cpp:185
 msgid "Comment"
 msgstr "Dopòwiesc"
@@ -1059,7 +1059,7 @@ msgstr "Dopòwiesc"
 #: browsers/collectionbrowser/CollectionWidget.cpp:115
 #: browsers/collectionbrowser/CollectionWidget.cpp:147
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:249 rc.cpp:927
-#: playlist/PlaylistDefines.h:77 playlist/PlaylistModel.cpp:683
+#: playlist/PlaylistDefines.h:82 playlist/PlaylistModel.cpp:704
 #: widgets/ProgressiveSearchWidget.cpp:95 widgets/SmartPlaylistEditor.cpp:184
 #: widgets/SmartPlaylistEditor.cpp:198
 msgid "Genre"
@@ -1095,7 +1095,7 @@ msgid "File type"
 msgstr "Ôrt ùrządzenia"
 
 #: dialogs/FilenameLayoutDialog.cpp:143 dialogs/FilenameLayoutDialog.cpp:384
-#: playlist/PlaylistDefines.h:74
+#: playlist/PlaylistDefines.h:78
 #, fuzzy
 #| msgid "Disc Number"
 msgid "Disc number"
@@ -1138,30 +1138,30 @@ msgstr "Dodôj katalog"
 
 #. i18n: file: dialogs/PlaylistLayoutEditDialog.ui:129
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: dialogs/PlaylistLayoutEditDialog.cpp:64 rc.cpp:749
+#: dialogs/PlaylistLayoutEditDialog.cpp:69 rc.cpp:749
 msgid "Head"
 msgstr ""
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:65
+#: dialogs/PlaylistLayoutEditDialog.cpp:70
 #, fuzzy
 #| msgid "Modify"
 msgid "Body"
 msgstr "Mòdifikùjë"
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:66
+#: dialogs/PlaylistLayoutEditDialog.cpp:71
 #, fuzzy
 #| msgid "single"
 msgid "Single"
 msgstr "singel"
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:108
+#: dialogs/PlaylistLayoutEditDialog.cpp:117
 #, kde-format
 msgid ""
 "The layout '%1' is one of the default layouts and cannot be overwritten. "
 "Please select a different name."
 msgstr ""
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:108
+#: dialogs/PlaylistLayoutEditDialog.cpp:117
 #, fuzzy
 #| msgid "Current Playlist"
 msgid "Reserved Layout Name"
@@ -1898,28 +1898,28 @@ msgstr " przez <b>%1</b>"
 
 #: Systray.cpp:144 browsers/playlistbrowser/DynamicBiasWidgets.cpp:253
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:697
-#: playlist/PlaylistDefines.h:84 playlist/PlaylistModel.cpp:690
+#: playlist/PlaylistDefines.h:91 playlist/PlaylistModel.cpp:711
 #: widgets/SmartPlaylistEditor.cpp:186
 msgid "Score"
 msgstr "Pùnktacëjô"
 
 #: Systray.cpp:162 browsers/playlistbrowser/DynamicBiasWidgets.cpp:252
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:696
-#: playlist/PlaylistDefines.h:82 playlist/PlaylistModel.cpp:691
+#: playlist/PlaylistDefines.h:89 playlist/PlaylistModel.cpp:712
 #: widgets/SmartPlaylistEditor.cpp:186
 msgid "Rating"
 msgstr "Notowania"
 
 #: Systray.cpp:169 browsers/playlistbrowser/DynamicBiasWidgets.cpp:251
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:695
-#: playlist/PlaylistModel.cpp:692
+#: playlist/PlaylistModel.cpp:713
 msgid "Play Count"
 msgstr "Rechòwnik graniô"
 
 #: Systray.cpp:179 browsers/playlistbrowser/DynamicBiasWidgets.cpp:254
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:698
-#: playlist/PlaylistDefines.h:79 playlist/PlaylistHeader.cpp:42
-#: playlist/PlaylistModel.cpp:687 widgets/SmartPlaylistEditor.cpp:184
+#: playlist/PlaylistDefines.h:86 playlist/PlaylistHeader.cpp:42
+#: playlist/PlaylistModel.cpp:708 widgets/SmartPlaylistEditor.cpp:184
 msgid "Length"
 msgstr "Długòta"
 
@@ -1992,7 +1992,7 @@ msgstr ""
 msgid "Enter preset name:"
 msgstr ""
 
-#: equalizersetup.cpp:393 playlist/PlaylistModel.cpp:662
+#: equalizersetup.cpp:393 playlist/PlaylistModel.cpp:683
 msgid "Untitled"
 msgstr "Bez titla"
 
@@ -2541,6 +2541,30 @@ msgstr "Dodôj do lëstë graniô"
 msgid "modified"
 msgstr "Datum mòdifkacëji"
 
+#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:271
+#, fuzzy
+#| msgid "Rename"
+msgid "New name"
+msgstr "Zmieni miono"
+
+#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:272
+#, fuzzy
+#| msgid "Enter artist name"
+msgid "Enter new group name:"
+msgstr "Wpiszë miono artistë"
+
+#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:294
+#, fuzzy
+#| msgid "&Delete"
+msgid "&Delete group"
+msgstr "&Rëmôj"
+
+#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:301
+#, fuzzy
+#| msgid "&Rename"
+msgid "&Rename group"
+msgstr "&zmieni miono"
+
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:112
 msgid "Add a new bias."
 msgstr ""
@@ -2585,7 +2609,7 @@ msgid "First Played"
 msgstr "Pierszi rôz gróné:"
 
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:260
-#: playlist/PlaylistModel.cpp:673
+#: playlist/PlaylistModel.cpp:694
 msgctxt "The name of the file this track is stored in"
 msgid "Filename"
 msgstr "Miono lopka"
@@ -2621,8 +2645,8 @@ msgstr ""
 msgid "Strictness:"
 msgstr ""
 
-#: browsers/playlistbrowser/PodcastModel.cpp:281 playlist/PlaylistDefines.h:90
-#: playlist/PlaylistModel.cpp:686
+#: browsers/playlistbrowser/PodcastModel.cpp:281 playlist/PlaylistDefines.h:97
+#: playlist/PlaylistModel.cpp:707
 msgid "Type"
 msgstr "Ôrt"
 
@@ -3060,6 +3084,11 @@ msgstr "Paùza - %1"
 #| msgid "%1 - %2 -  %3"
 msgid "%1 - %2  ::  %3"
 msgstr "%1 - %2 -  %3"
+
+#: scriptengine/AmarokNetworkScript.cpp:72
+msgctxt "do not translate 'DataDownloader' or 'qt.core'"
+msgid "qt.core must be loaded to use DataDownloader"
+msgstr ""
 
 #: k3bexporter.cpp:183
 msgid "Unable to start K3b."
@@ -6878,12 +6907,12 @@ msgstr ""
 "Zaktualnianié bazë pòdôwków Jamendo je ju fardich. Dodóno %1 sztëczków z %2 "
 "albùmów wëkònëwónëch przez %3 artistów"
 
-#: playlist/view/listview/LayoutManager.cpp:351
+#: playlist/view/listview/LayoutManager.cpp:356
 #, kde-format
 msgid "The layout '%1' is one of the default layouts and cannot be deleted."
 msgstr ""
 
-#: playlist/view/listview/LayoutManager.cpp:351
+#: playlist/view/listview/LayoutManager.cpp:356
 msgid "Cannot Delete Default Layouts"
 msgstr ""
 
@@ -6920,86 +6949,106 @@ msgstr "Nôczãscy gróné sztëcczi"
 msgid "Remove From Playlist"
 msgstr "Rëmôj z lëstë graniô..."
 
-#: playlist/PlaylistDefines.h:66
+#: playlist/PlaylistDefines.h:68
+msgid "placeholder"
+msgstr ""
+
+#: playlist/PlaylistDefines.h:70
 #, fuzzy
 #| msgid "Album Artist"
 msgid "Album artist"
 msgstr "Artista albùmù"
 
-#: playlist/PlaylistDefines.h:68 playlist/PlaylistModel.cpp:688
+#: playlist/PlaylistDefines.h:72 playlist/PlaylistModel.cpp:709
 #: widgets/SmartPlaylistEditor.cpp:188
 msgid "Bitrate"
 msgstr "Chùtkòsc transmisëji"
 
-#: playlist/PlaylistDefines.h:69
+#: playlist/PlaylistDefines.h:73
 msgid "Bpm"
 msgstr ""
 
-#: playlist/PlaylistDefines.h:72
+#: playlist/PlaylistDefines.h:76
 #, fuzzy
 #| msgid "Cover Image"
 msgid "Cover image"
 msgstr "Òbkłôdka"
 
-#: playlist/PlaylistDefines.h:73
+#: playlist/PlaylistDefines.h:77
 #, fuzzy
 #| msgctxt "The location on disc of this track"
 #| msgid "Directory"
 msgid "Directory"
 msgstr "Katalog"
 
-#: playlist/PlaylistDefines.h:75
+#: playlist/PlaylistDefines.h:79
+msgid "Divider"
+msgstr ""
+
+#: playlist/PlaylistDefines.h:80
 #, fuzzy
 #| msgctxt "The name of the file this track is stored in"
 #| msgid "Filename"
 msgid "File name"
 msgstr "Miono lopka"
 
-#: playlist/PlaylistDefines.h:76
+#: playlist/PlaylistDefines.h:81
 #, fuzzy
 #| msgid "File Size"
 msgid "File size"
 msgstr "Miara lopka"
 
-#: playlist/PlaylistDefines.h:78
+#: playlist/PlaylistDefines.h:83
+#, fuzzy
+#| msgid "Groupings"
+msgid "Group length"
+msgstr "Grëpòwania"
+
+#: playlist/PlaylistDefines.h:84
+#, fuzzy
+#| msgid "tracks"
+msgid "Group tracks"
+msgstr "sztëczków"
+
+#: playlist/PlaylistDefines.h:85
 #, fuzzy
 #| msgid "Last Played"
 msgid "Last played"
 msgstr "Slédno gróné"
 
-#: playlist/PlaylistDefines.h:80 playlist/PlaylistModel.cpp:694
+#: playlist/PlaylistDefines.h:87 playlist/PlaylistModel.cpp:715
 msgid "Mood"
 msgstr "Òdczëcé"
 
-#: playlist/PlaylistDefines.h:81
+#: playlist/PlaylistDefines.h:88
 #, fuzzy
 #| msgid "Playcount"
 msgid "Play count"
 msgstr "Rechòwnik òdegraniô"
 
-#: playlist/PlaylistDefines.h:83
+#: playlist/PlaylistDefines.h:90
 #, fuzzy
 #| msgid "Samplerate:"
 msgid "Sample rate"
 msgstr "Probkòwanié:"
 
-#: playlist/PlaylistDefines.h:85
+#: playlist/PlaylistDefines.h:92
 #, fuzzy
 #| msgid "Score"
 msgid "Source"
 msgstr "Pùnktacëjô"
 
-#: playlist/PlaylistDefines.h:86
+#: playlist/PlaylistDefines.h:93
 msgid "SourceEmblem"
 msgstr ""
 
-#: playlist/PlaylistDefines.h:88
+#: playlist/PlaylistDefines.h:95
 #, fuzzy
 #| msgid "tracknumber"
 msgid "Title (with track number)"
 msgstr "numer sztëczka"
 
-#: playlist/PlaylistDefines.h:89
+#: playlist/PlaylistDefines.h:96
 #, fuzzy
 #| msgid "Track Number"
 msgid "Track number"
@@ -7033,38 +7082,52 @@ msgstr "Sztëcczi rëmniãté"
 msgid "Too many errors encountered in playlist. Playback stopped."
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:676
+#: playlist/PlaylistModel.cpp:270
+#, fuzzy, kde-format
+#| msgid "%1 track"
+#| msgid_plural "%1 tracks"
+msgid "%1 tracks"
+msgstr "%1 sztëczk"
+
+#: playlist/PlaylistModel.cpp:275
+#, fuzzy
+#| msgctxt "When this track was first played"
+#| msgid "Never"
+msgid "Never"
+msgstr "Nigdë"
+
+#: playlist/PlaylistModel.cpp:697
 msgid "Album Artist"
 msgstr "Artista albùmù"
 
-#: playlist/PlaylistModel.cpp:680
+#: playlist/PlaylistModel.cpp:701
 msgid "Disc Number"
 msgstr "Numer diskù"
 
-#: playlist/PlaylistModel.cpp:681
+#: playlist/PlaylistModel.cpp:702
 msgctxt "The Track number for this item"
 msgid "Track"
 msgstr "Sztëczk"
 
-#: playlist/PlaylistModel.cpp:682 widgets/SmartPlaylistEditor.cpp:188
+#: playlist/PlaylistModel.cpp:703 widgets/SmartPlaylistEditor.cpp:188
 msgid "BPM"
 msgstr "BPM"
 
-#: playlist/PlaylistModel.cpp:685
+#: playlist/PlaylistModel.cpp:706
 msgctxt "The location on disc of this track"
 msgid "Directory"
 msgstr "Katalog"
 
-#: playlist/PlaylistModel.cpp:689
+#: playlist/PlaylistModel.cpp:710
 msgid "Sample Rate"
 msgstr "Próbkòwónié"
 
-#: playlist/PlaylistModel.cpp:693
+#: playlist/PlaylistModel.cpp:714
 msgctxt "Column name"
 msgid "Last Played"
 msgstr "Slédno gróné"
 
-#: playlist/PlaylistModel.cpp:695
+#: playlist/PlaylistModel.cpp:716
 msgid "File Size"
 msgstr "Miara lopka"
 
@@ -8659,9 +8722,6 @@ msgstr "Felëje artistë"
 
 #~ msgid "&Clear Queue"
 #~ msgstr "&Wëczëszczë régã"
-
-#~ msgid "Rename"
-#~ msgstr "Zmieni miono"
 
 #~ msgid "Delete"
 #~ msgstr "Rëmôj"
