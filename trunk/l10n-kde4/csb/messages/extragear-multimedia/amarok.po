@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-06 11:06+0100\n"
+"POT-Creation-Date: 2009-02-07 11:42+0100\n"
 "PO-Revision-Date: 2009-01-08 18:45+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -319,7 +319,7 @@ msgid "Stream"
 msgstr "Strëga"
 
 #: collection/sqlcollection/SqlMeta.cpp:370
-#: services/lastfm/meta/LastFmMeta.cpp:149 covermanager/CoverViewDialog.h:44
+#: services/lastfm/meta/LastFmMeta.cpp:141 covermanager/CoverViewDialog.h:44
 #: covermanager/CoverManager.cpp:852
 #, kde-format
 msgid "%1 - %2"
@@ -464,7 +464,7 @@ msgctxt "a single item (singular)"
 msgid "Last Played:"
 msgstr "Slédno gróné:"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:254 Systray.cpp:174
+#: context/applets/currenttrack/CurrentTrack.cpp:254 Systray.cpp:172
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:258
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:702
 msgid "Last Played"
@@ -475,7 +475,7 @@ msgstr "Slédno gróné"
 msgid "Playcount:"
 msgstr "Rechòwnik òdegraniô:"
 
-#: context/applets/albums/AlbumsView.cpp:109 Systray.cpp:216
+#: context/applets/albums/AlbumsView.cpp:109 Systray.cpp:214
 #: browsers/collectionbrowser/CollectionTreeView.cpp:596
 #: browsers/filebrowser/MyDirOperator.cpp:261
 #: browsers/playlistbrowser/UserPlaylistModel.cpp:322
@@ -503,7 +503,7 @@ msgstr "&Régùjë sztëczk"
 
 #: context/applets/albums/AlbumsView.cpp:112
 #: browsers/filebrowser/MyDirOperator.cpp:263
-#: playlist/view/listview/PrettyListView.cpp:436
+#: playlist/view/listview/PrettyListView.cpp:440
 #: playlist/view/PlaylistViewCommon.cpp:81
 msgid "Edit Track Details"
 msgstr "Editëjë detale sztëczka"
@@ -1886,55 +1886,55 @@ msgstr ""
 msgid "Updating \"%1\""
 msgstr "Notowania: %1"
 
-#: Systray.cpp:113
+#: Systray.cpp:111
 #, kde-format
 msgid " by <b>%1</b>"
 msgstr " przez <b>%1</b>"
 
-#: Systray.cpp:118
+#: Systray.cpp:116
 #, fuzzy, kde-format
 #| msgid " by <b>%1</b>"
 msgid " on <b>%1</b>"
 msgstr " przez <b>%1</b>"
 
-#: Systray.cpp:144 browsers/playlistbrowser/DynamicBiasWidgets.cpp:253
+#: Systray.cpp:142 browsers/playlistbrowser/DynamicBiasWidgets.cpp:253
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:697
 #: playlist/PlaylistDefines.h:91 playlist/PlaylistModel.cpp:711
 #: widgets/SmartPlaylistEditor.cpp:186
 msgid "Score"
 msgstr "Pùnktacëjô"
 
-#: Systray.cpp:162 browsers/playlistbrowser/DynamicBiasWidgets.cpp:252
+#: Systray.cpp:160 browsers/playlistbrowser/DynamicBiasWidgets.cpp:252
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:696
 #: playlist/PlaylistDefines.h:89 playlist/PlaylistModel.cpp:712
 #: widgets/SmartPlaylistEditor.cpp:186
 msgid "Rating"
 msgstr "Notowania"
 
-#: Systray.cpp:169 browsers/playlistbrowser/DynamicBiasWidgets.cpp:251
+#: Systray.cpp:167 browsers/playlistbrowser/DynamicBiasWidgets.cpp:251
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:695
 #: playlist/PlaylistModel.cpp:713
 msgid "Play Count"
 msgstr "Rechòwnik graniô"
 
-#: Systray.cpp:179 browsers/playlistbrowser/DynamicBiasWidgets.cpp:254
+#: Systray.cpp:177 browsers/playlistbrowser/DynamicBiasWidgets.cpp:254
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:698
 #: playlist/PlaylistDefines.h:86 playlist/PlaylistHeader.cpp:42
 #: playlist/PlaylistModel.cpp:708 widgets/SmartPlaylistEditor.cpp:184
 msgid "Length"
 msgstr "Długòta"
 
-#: Systray.cpp:194
+#: Systray.cpp:192
 #, fuzzy
 #| msgid "Amarok - No track playing."
 msgid "Amarok - No track playing"
 msgstr "Amarok - nie je gróny niżóden lopk."
 
-#: Systray.cpp:217
+#: Systray.cpp:215
 msgid "Append && &Play"
 msgstr ""
 
-#: Systray.cpp:219
+#: Systray.cpp:217
 msgid "&Queue Track"
 msgstr "&Régùjë sztëczk"
 
@@ -1942,7 +1942,7 @@ msgstr "&Régùjë sztëczk"
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_cancel)
 #. i18n: file: services/magnatune/MagnatuneRedownloadDialogBase.ui:36
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
-#: Systray.cpp:222 rc.cpp:864 rc.cpp:1822
+#: Systray.cpp:220 rc.cpp:864 rc.cpp:1822
 msgid "&Cancel"
 msgstr ""
 
@@ -6126,91 +6126,91 @@ msgstr "Zakutalnianié môlowi bazë OPML"
 msgid "Fetching Podcast Info"
 msgstr "Chwôtanié wëdowiédzë ò podcasce"
 
-#: services/lastfm/meta/LastFmMeta.cpp:111
+#: services/lastfm/meta/LastFmMeta.cpp:103
 msgid "Last.fm: &Ban"
 msgstr "Last.fm: &Blokùjë"
 
-#: services/lastfm/meta/LastFmMeta.cpp:112
+#: services/lastfm/meta/LastFmMeta.cpp:104
 msgid "Ctrl+B"
 msgstr "Ctrl+B"
 
-#: services/lastfm/meta/LastFmMeta.cpp:113
+#: services/lastfm/meta/LastFmMeta.cpp:105
 msgid "Ban this track"
 msgstr "Zablokùjë nen sztëczk"
 
-#: services/lastfm/meta/LastFmMeta.cpp:117
+#: services/lastfm/meta/LastFmMeta.cpp:109
 msgid "Last.fm: &Skip"
 msgstr "Last.fm: Ò&minié"
 
-#: services/lastfm/meta/LastFmMeta.cpp:118
+#: services/lastfm/meta/LastFmMeta.cpp:110
 msgid "Ctrl+S"
 msgstr "Ctrl+S"
 
-#: services/lastfm/meta/LastFmMeta.cpp:119
+#: services/lastfm/meta/LastFmMeta.cpp:111
 msgid "Skip this track"
 msgstr "Òminie nen sztëczk"
 
-#: services/lastfm/meta/LastFmMeta.cpp:163
-#: services/lastfm/meta/LastFmMeta.cpp:413
+#: services/lastfm/meta/LastFmMeta.cpp:155
+#: services/lastfm/meta/LastFmMeta.cpp:405
 msgid "Track Radio"
 msgstr "Radio sztëczka"
 
-#: services/lastfm/meta/LastFmMeta.cpp:355
+#: services/lastfm/meta/LastFmMeta.cpp:347
 #, kde-format
 msgid "Global Tag Radio: \"%1\""
 msgstr "Radio òglowëch tagów: \"%1\""
 
-#: services/lastfm/meta/LastFmMeta.cpp:361
+#: services/lastfm/meta/LastFmMeta.cpp:353
 #, kde-format
 msgid "User Tag Radio: \"%1\""
 msgstr "Radiowô stacëjô brëkòwnika: \"%1\""
 
-#: services/lastfm/meta/LastFmMeta.cpp:369
+#: services/lastfm/meta/LastFmMeta.cpp:361
 #, kde-format
 msgid "Similar Artists to \"%1\""
 msgstr "Artistë szlachùjący za \"%1\""
 
-#: services/lastfm/meta/LastFmMeta.cpp:373
+#: services/lastfm/meta/LastFmMeta.cpp:365
 #, kde-format
 msgid "Artist Fan Radio: \"%1\""
 msgstr "Radio lubòtników artistë: \"%1\""
 
-#: services/lastfm/meta/LastFmMeta.cpp:382
+#: services/lastfm/meta/LastFmMeta.cpp:374
 #, kde-format
 msgid "%1's Neighbor Radio"
 msgstr "Sąsedzczé radio %1"
 
-#: services/lastfm/meta/LastFmMeta.cpp:386
+#: services/lastfm/meta/LastFmMeta.cpp:378
 #, kde-format
 msgid "%1's Personal Radio"
 msgstr "Swòje radio %1"
 
-#: services/lastfm/meta/LastFmMeta.cpp:390
+#: services/lastfm/meta/LastFmMeta.cpp:382
 #, kde-format
 msgid "%1's Loved Radio"
 msgstr "Lubòtné radio %1"
 
-#: services/lastfm/meta/LastFmMeta.cpp:394
+#: services/lastfm/meta/LastFmMeta.cpp:386
 #, fuzzy, kde-format
 #| msgid "%1's Loved Radio"
 msgid "%1's Recommended Radio"
 msgstr "Lubòtné radio %1"
 
-#: services/lastfm/meta/LastFmMeta.cpp:398
+#: services/lastfm/meta/LastFmMeta.cpp:390
 #, kde-format
 msgid "%1's Recommended Radio (Popularity %2)"
 msgstr "Rekòmendowóné radio %1 (pòpùlarnota %2)"
 
-#: services/lastfm/meta/LastFmMeta.cpp:405
+#: services/lastfm/meta/LastFmMeta.cpp:397
 #, kde-format
 msgid "Group Radio: %1"
 msgstr "Grëpòwi radio: %1"
 
-#: services/lastfm/meta/LastFmMeta.cpp:417
+#: services/lastfm/meta/LastFmMeta.cpp:409
 msgid "Artist Radio"
 msgstr "Radio artistë"
 
-#: services/lastfm/meta/LastFmMeta.cpp:521
+#: services/lastfm/meta/LastFmMeta.cpp:513
 msgid "Last.fm is cool..."
 msgstr "Last.fm je fejn..."
 
@@ -6915,43 +6915,43 @@ msgstr ""
 "Zaktualnianié bazë pòdôwków Jamendo je ju fardich. Dodóno %1 sztëczków z %2 "
 "albùmów wëkònëwónëch przez %3 artistów"
 
-#: playlist/view/listview/LayoutManager.cpp:359
+#: playlist/view/listview/LayoutManager.cpp:343
 #, kde-format
 msgid "The layout '%1' is one of the default layouts and cannot be deleted."
 msgstr ""
 
-#: playlist/view/listview/LayoutManager.cpp:359
+#: playlist/view/listview/LayoutManager.cpp:343
 msgid "Cannot Delete Default Layouts"
 msgstr ""
 
-#: playlist/view/listview/PrettyListView.cpp:404
+#: playlist/view/listview/PrettyListView.cpp:408
 #: playlist/view/PlaylistViewCommon.cpp:54
 #: playlist/view/PlaylistViewCommon.cpp:63
 msgid "&Play"
 msgstr "&Grôj"
 
-#: playlist/view/listview/PrettyListView.cpp:407
+#: playlist/view/listview/PrettyListView.cpp:411
 #: playlist/view/PlaylistViewCommon.cpp:54
 #, fuzzy
 #| msgid "Paused"
 msgid "&Pause"
 msgstr "Paùza"
 
-#: playlist/view/listview/PrettyListView.cpp:416
-#: playlist/view/listview/PrettyListView.cpp:419
+#: playlist/view/listview/PrettyListView.cpp:420
+#: playlist/view/listview/PrettyListView.cpp:423
 #: playlist/view/PlaylistViewCommon.cpp:72
 #, fuzzy
 #| msgid "&Queue Track"
 msgid "Queue Track"
 msgstr "&Régùjë sztëczk"
 
-#: playlist/view/listview/PrettyListView.cpp:428
+#: playlist/view/listview/PrettyListView.cpp:432
 #, fuzzy
 #| msgid "Most Played Tracks"
 msgid "Stop Playing After This Track"
 msgstr "Nôczãscy gróné sztëcczi"
 
-#: playlist/view/listview/PrettyListView.cpp:432
+#: playlist/view/listview/PrettyListView.cpp:436
 #: playlist/view/PlaylistViewCommon.cpp:79
 msgid "Remove From Playlist"
 msgstr "Rëmôj z lëstë graniô..."
@@ -7097,7 +7097,7 @@ msgstr "Sztëcczi rëmniãté"
 msgid "Track moved"
 msgstr "Sztëcczi rëmniãté"
 
-#: playlist/PlaylistActions.cpp:315
+#: playlist/PlaylistActions.cpp:308
 msgid "Too many errors encountered in playlist. Playback stopped."
 msgstr ""
 
@@ -7625,7 +7625,7 @@ msgstr "Wicy kòrektorów"
 msgid "&Visualizations"
 msgstr "&Wizualizacëjô"
 
-#: widgets/BookmarkPopup.cpp:40 widgets/BookmarkPopup.cpp:85
+#: widgets/BookmarkPopup.cpp:40 widgets/BookmarkPopup.cpp:83
 #, fuzzy
 #| msgid "Bookmarks"
 msgid "Bookmark"
