@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-16 09:03+0100\n"
+"POT-Creation-Date: 2009-02-18 08:58+0100\n"
 "PO-Revision-Date: 2009-01-08 19:12+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -6342,7 +6342,7 @@ msgid "Reset Toolbars"
 msgstr "Doprowôdzë listew nôrzãdzów nazôd"
 
 #: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2947
-#: khtml/khtmlview.cpp:2980 khtml/html/html_formimpl.cpp:1782
+#: khtml/khtmlview.cpp:2980 khtml/html/html_formimpl.cpp:1779
 msgid "Reset"
 msgstr "Doprowôdzë nazôd"
 
@@ -10485,7 +10485,7 @@ msgstr ""
 "<br />Chcesz wësłac fòrmùlar</qt>"
 
 #: khtml/khtml_part.cpp:4632 khtml/khtmlview.cpp:2933 khtml/khtmlview.cpp:2975
-#: khtml/html/html_formimpl.cpp:1581 khtml/html/html_formimpl.cpp:1790
+#: khtml/html/html_formimpl.cpp:1578 khtml/html/html_formimpl.cpp:1787
 msgid "Submit"
 msgstr "Wëslë"
 
@@ -10962,28 +10962,35 @@ msgid "Do Not Store"
 msgstr "Nie trzëmôj"
 
 #: khtml/html/html_formimpl.cpp:640
+#, fuzzy
+#| msgid "Do you really want to delete this item?"
+#| msgid_plural "Do you really want to delete these %1 items?"
+msgid "Do you want to store this password?"
+msgstr "Na gwës chcesz rëmnąc nen element? "
+
+#: khtml/html/html_formimpl.cpp:641
+#, fuzzy, kde-format
+#| msgid "Do you want to restart search from the end?"
+msgid "Do you want to store this password for %1?"
+msgstr "Nacząc szëkbã òd kùńca?"
+
+#: khtml/html/html_formimpl.cpp:644
+#, fuzzy
+#| msgid ""
+#| "Konqueror has the ability to store the password in an encrypted wallet. "
+#| "When the wallet is unlocked, it can then automatically restore the login "
+#| "information next time you submit this form. Do you want to store the "
+#| "information now?"
 msgid ""
 "Konqueror has the ability to store the password in an encrypted wallet. When "
 "the wallet is unlocked, it can then automatically restore the login "
-"information next time you submit this form. Do you want to store the "
-"information now?"
+"information next time you submit this form."
 msgstr ""
 "Konqueror mòże trzëmac parole w szifrowónym pòrtfelu. Jak pòrtfel òstanie "
 "òdblokòwóny, mòże aùtomatno òdzwëskac nóterné wëdowiédze do logòwaniô na tim "
 "serwerze. Zapisac nã wëdowiédzã?"
 
-#: khtml/html/html_formimpl.cpp:645
-#, kde-format
-msgid ""
-"Konqueror has the ability to store the password in an encrypted wallet. When "
-"the wallet is unlocked, it can then automatically restore the login "
-"information next time you visit %1. Do you want to store the information now?"
-msgstr ""
-"Konqueror mòże trzëmac parole w szifrowónym pòrtfelu. Jak pòrtfel òstanie "
-"òdblokòwóny, mòże aùtomatno òdzwëskac nóterné wëdowiédze do logòwaniô na "
-"starnie %1. Zapisac nã wëdowiédzã?"
-
-#: khtml/html/html_formimpl.cpp:2582
+#: khtml/html/html_formimpl.cpp:2579
 msgid "Key Generator"
 msgstr "Generator kluczów"
 
@@ -12632,6 +12639,16 @@ msgstr "Pòrada &dnia"
 msgid "No such function \"%1\""
 msgstr "Felëje fùnkcëji \"%1\""
 
+#~ msgid ""
+#~ "Konqueror has the ability to store the password in an encrypted wallet. "
+#~ "When the wallet is unlocked, it can then automatically restore the login "
+#~ "information next time you visit %1. Do you want to store the information "
+#~ "now?"
+#~ msgstr ""
+#~ "Konqueror mòże trzëmac parole w szifrowónym pòrtfelu. Jak pòrtfel òstanie "
+#~ "òdblokòwóny, mòże aùtomatno òdzwëskac nóterné wëdowiédze do logòwaniô na "
+#~ "starnie %1. Zapisac nã wëdowiédzã?"
+
 #~ msgid "Add Elements"
 #~ msgstr "Dodôj elementë"
 
@@ -13178,12 +13195,6 @@ msgstr "Felëje fùnkcëji \"%1\""
 
 #~ msgid "Delete File"
 #~ msgstr "Rëmôj lopk"
-
-#~ msgid "Do you really want to delete this item?"
-#~ msgid_plural "Do you really want to delete these %1 items?"
-#~ msgstr[0] "Na gwës chcesz rëmnąc nen element? "
-#~ msgstr[1] "Na gwës chcesz rëmnąc ne %1 elementë?"
-#~ msgstr[2] "Na gwës chcesz rëmnąc nëch %1 elementów?"
 
 #~ msgid "Delete Files"
 #~ msgstr "Rëmôj elementë"
