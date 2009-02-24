@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: filetypes\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-15 10:44+0100\n"
+"POT-Creation-Date: 2009-02-24 10:59+0100\n"
 "PO-Revision-Date: 2008-12-10 21:01+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -18,15 +18,15 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2)\n"
 "n%100>=20) ? 1 : 2);\n"
 
-#: filegroupdetails.cpp:35 filetypedetails.cpp:149
+#: filegroupdetails.cpp:35 filetypedetails.cpp:155
 msgid "Left Click Action"
 msgstr "Pò klëkniãcym lewą knąpą"
 
-#: filegroupdetails.cpp:39 filetypedetails.cpp:155
+#: filegroupdetails.cpp:39 filetypedetails.cpp:161
 msgid "Show file in embedded viewer"
 msgstr "Wëskrzëni lopk we wbùdowónym przezérnikù"
 
-#: filegroupdetails.cpp:40 filetypedetails.cpp:156
+#: filegroupdetails.cpp:40 filetypedetails.cpp:162
 msgid "Show file in separate viewer"
 msgstr "Wëskrzëni lopk w apartnym òknie"
 
@@ -44,7 +44,7 @@ msgstr ""
 "Nen nastôw mòże zmienic dlô dónegò ôrtu lopków w załóżce 'Òbsadzanié' przë "
 "kònfigùracëji tegò lopka."
 
-#: filetypedetails.cpp:72
+#: filetypedetails.cpp:73
 msgid ""
 "This button displays the icon associated with the selected file type. Click "
 "on it to choose a different icon."
@@ -53,10 +53,22 @@ msgstr ""
 "wëbrac nową ikònã."
 
 #: filetypedetails.cpp:81
+#, fuzzy
+#| msgid ""
+#| "This button displays the icon associated with the selected file type. "
+#| "Click on it to choose a different icon."
+msgid ""
+"This is the icon associated with the selected file type. Choosing a "
+"different icon requires shared-mime-info to be at least version 0.40."
+msgstr ""
+"Na knąpa wëskrzeni ikònã sparłączoną z wëbrónym ôrtã lopka. Klëkni na niã bë "
+"wëbrac nową ikònã."
+
+#: filetypedetails.cpp:87
 msgid "Filename Patterns"
 msgstr "Mùstrë lopków"
 
-#: filetypedetails.cpp:94
+#: filetypedetails.cpp:100
 msgid ""
 "This box contains a list of patterns that can be used to identify files of "
 "the selected type. For example, the pattern *.txt is associated with the "
@@ -68,27 +80,27 @@ msgstr ""
 "\"text/plain\", wszëtczé lopczi kùńczącé sã na \".txt\" òstóną rozpòznóné "
 "jakno tekstowé lopczi."
 
-#: filetypedetails.cpp:104 filetypesview.cpp:124 kservicelistwidget.cpp:129
+#: filetypedetails.cpp:110 filetypesview.cpp:124 kservicelistwidget.cpp:129
 msgid "Add..."
 msgstr "Dodôj..."
 
-#: filetypedetails.cpp:110
+#: filetypedetails.cpp:116
 msgid "Add a new pattern for the selected file type."
 msgstr "Dodôj nowi mùster dlô wëbrónëch ôrtów lopków."
 
-#: filetypedetails.cpp:112 kservicelistwidget.cpp:145
+#: filetypedetails.cpp:118 kservicelistwidget.cpp:145
 msgid "Remove"
 msgstr "Rëmôj"
 
-#: filetypedetails.cpp:118
+#: filetypedetails.cpp:124
 msgid "Remove the selected filename pattern."
 msgstr "Rëmôj wëbróny mùster lopków."
 
-#: filetypedetails.cpp:130
+#: filetypedetails.cpp:136
 msgid "Description"
 msgstr "Òpisënk"
 
-#: filetypedetails.cpp:134
+#: filetypedetails.cpp:140
 msgid ""
 "You can enter a short description for files of the selected file type (e.g. "
 "'HTML Page'). This description will be used by applications like Konqueror "
@@ -98,11 +110,11 @@ msgstr ""
 "\"). Nen òpis bãdze brëkòwóny w progarmach taczich jakno Konqueror do "
 "wëskrzëniwaniô zamkłoscë katalogów."
 
-#: filetypedetails.cpp:159
+#: filetypedetails.cpp:165
 msgid "Ask whether to save to disk instead"
 msgstr "Pëtôj, czë zapisac na disk"
 
-#: filetypedetails.cpp:174
+#: filetypedetails.cpp:180
 msgid ""
 "Here you can configure what the Konqueror file manager will do when you "
 "click on a file of this type. Konqueror can display the file in an embedded "
@@ -117,28 +129,28 @@ msgstr ""
 "stosowno do nastôwów dlô karna, do jaczégò przënôlégô biéżny ôrt lopka (np. "
 "do karna 'òbrôzk' dlô lopków ôrtu image/png)."
 
-#: filetypedetails.cpp:185
+#: filetypedetails.cpp:191
 msgid "&General"
 msgstr "Ò&glowé"
 
-#: filetypedetails.cpp:186
+#: filetypedetails.cpp:192
 msgid "&Embedding"
 msgstr "Ò&bsadzanié"
 
-#: filetypedetails.cpp:227
+#: filetypedetails.cpp:229
 msgid "Add New Extension"
 msgstr "Dodôj nowé rozszérzenié"
 
-#: filetypedetails.cpp:228
+#: filetypedetails.cpp:230
 msgid "Extension:"
 msgstr "Rozszérzenié:"
 
-#: filetypedetails.cpp:340
+#: filetypedetails.cpp:342
 #, kde-format
 msgid "File type %1"
 msgstr "Ôrt lopka %1"
 
-#: filetypedetails.cpp:347
+#: filetypedetails.cpp:348
 #, kde-format
 msgid "Use settings for '%1' group"
 msgstr "Brëkùjë nastôwów dlô karna '%1'"
