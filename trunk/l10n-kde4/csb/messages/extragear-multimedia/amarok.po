@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-06 10:25+0100\n"
+"POT-Creation-Date: 2009-03-07 10:34+0100\n"
 "PO-Revision-Date: 2009-01-08 18:45+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -245,7 +245,7 @@ msgstr "Kòlekcëjô Nepomuk (wòlné, Redland)"
 msgid "Local Collection"
 msgstr "Môlowô kòlekcëjô"
 
-#: collection/sqlcollection/SqlCollection.cpp:350
+#: collection/sqlcollection/SqlCollection.cpp:349
 #, fuzzy, kde-format
 #| msgid "Do you really want to remove this %1?"
 msgctxt "@info"
@@ -254,7 +254,7 @@ msgid ""
 "as well as your collection."
 msgstr "Na gwës chcesz rëmnąc %1?"
 
-#: collection/sqlcollection/SqlCollection.cpp:354
+#: collection/sqlcollection/SqlCollection.cpp:353
 #, fuzzy
 #| msgid "Delete failed"
 msgid "Delete Files"
@@ -1179,30 +1179,30 @@ msgstr "Dodôj katalog"
 
 #. i18n: file: dialogs/PlaylistLayoutEditDialog.ui:216
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: dialogs/PlaylistLayoutEditDialog.cpp:69 rc.cpp:740
+#: dialogs/PlaylistLayoutEditDialog.cpp:70 rc.cpp:740
 msgid "Head"
 msgstr ""
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:70
+#: dialogs/PlaylistLayoutEditDialog.cpp:71
 #, fuzzy
 #| msgid "Modify"
 msgid "Body"
 msgstr "Mòdifikùjë"
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:71
+#: dialogs/PlaylistLayoutEditDialog.cpp:72
 #, fuzzy
 #| msgid "single"
 msgid "Single"
 msgstr "singel"
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:163
+#: dialogs/PlaylistLayoutEditDialog.cpp:164
 #, kde-format
 msgid ""
 "The layout '%1' is one of the default layouts and cannot be overwritten. "
 "Please select a different name."
 msgstr ""
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:165
+#: dialogs/PlaylistLayoutEditDialog.cpp:166
 #, fuzzy
 #| msgid "Current Playlist"
 msgid "Reserved Layout Name"
@@ -2432,13 +2432,6 @@ msgstr "&Editëjë detale sztëczka"
 msgctxt "Organize Files"
 msgid "Organize Files"
 msgstr "Òrganizëjë lopczi"
-
-#: browsers/collectionbrowser/CollectionTreeView.cpp:965
-#, fuzzy, kde-format
-#| msgid "Do you really want to remove this %1?"
-msgctxt "@info"
-msgid "Do you really want to delete these %1 tracks?"
-msgstr "Na gwës chcesz rëmnąc %1?"
 
 #: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:526
 msgid "album"
@@ -7176,17 +7169,17 @@ msgstr ""
 msgid "Cannot Delete Default Layouts"
 msgstr ""
 
+#: playlist/layouts/LayoutConfigAction.cpp:67
+#, fuzzy
+#| msgid "Configure..."
+msgid "Configure playlist layouts..."
+msgstr "Kònfigùracëjë..."
+
 #: playlist/PlaylistHeader.cpp:42
 msgid "Track Number - Title"
 msgstr "Numer sztëczka - titel"
 
-#: playlist/PlaylistWidget.cpp:106
-#, fuzzy
-#| msgid "Playlist name:"
-msgid "Playlist layout:"
-msgstr "Miono lëstë òdegraniô"
-
-#: playlist/PlaylistWidget.cpp:133
+#: playlist/PlaylistWidget.cpp:126
 #, fuzzy
 #| msgid "Skip this track"
 msgid "Show active track"
@@ -7584,18 +7577,6 @@ msgstr "Artista"
 msgid "Volume Control"
 msgstr "Kòntrola głosnoscë"
 
-#: widgets/ProgressSlider.cpp:46
-msgid "Track Progress"
-msgstr "Czas déraniô sztëczka"
-
-#: widgets/ProgressSlider.cpp:50
-msgid "The amount of time elapsed in current song"
-msgstr "Czas jaczi ùlécôł òd zaczątkù sztëczka"
-
-#: widgets/ProgressSlider.cpp:54
-msgid "The amount of time remaining in current song"
-msgstr "Czas jaczi òstôł do kùńca sztëczka"
-
 #: widgets/Osd.cpp:118
 msgid "Rating changed"
 msgstr ""
@@ -7779,6 +7760,18 @@ msgstr "Wicy kòrektorów"
 #: widgets/AnalyzerWidget.cpp:67
 msgid "&Visualizations"
 msgstr "&Wizualizacëjô"
+
+#: widgets/ProgressWidget.cpp:46
+msgid "Track Progress"
+msgstr "Czas déraniô sztëczka"
+
+#: widgets/ProgressWidget.cpp:50
+msgid "The amount of time elapsed in current song"
+msgstr "Czas jaczi ùlécôł òd zaczątkù sztëczka"
+
+#: widgets/ProgressWidget.cpp:54
+msgid "The amount of time remaining in current song"
+msgstr "Czas jaczi òstôł do kùńca sztëczka"
 
 #: widgets/BookmarkPopup.cpp:40 widgets/BookmarkPopup.cpp:83
 #, fuzzy
@@ -8252,6 +8245,17 @@ msgstr "Òbkłôdka"
 #: covermanager/CoverManager.cpp:873
 msgid "No Artist"
 msgstr "Felëje artistë"
+
+#, fuzzy
+#~| msgid "Do you really want to remove this %1?"
+#~ msgctxt "@info"
+#~ msgid "Do you really want to delete these %1 tracks?"
+#~ msgstr "Na gwës chcesz rëmnąc %1?"
+
+#, fuzzy
+#~| msgid "Playlist name:"
+#~ msgid "Playlist layout:"
+#~ msgstr "Miono lëstë òdegraniô"
 
 #, fuzzy
 #~| msgid "Amarok"
