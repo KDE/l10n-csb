@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-18 11:01+0100\n"
+"POT-Creation-Date: 2009-03-19 10:33+0100\n"
 "PO-Revision-Date: 2009-01-08 18:45+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2)\n"
 "X-Generator: Lokalize 0.2\n"
 
-#: mac/GrowlInterface.cpp:34 context/engines/current/CurrentEngine.cpp:103
+#: mac/GrowlInterface.cpp:34 context/engines/current/CurrentEngine.cpp:112
 #: context/applets/currenttrack/CurrentTrack.cpp:129 widgets/Osd.cpp:556
 msgid "No track playing"
 msgstr ""
@@ -357,7 +357,7 @@ msgstr ""
 "<p>Mòżesz skònfigùrowac MySQL w sekcëji Kòlekcëjô w Ùstawë->Kònfigùracëjô "
 "Amarok</p>"
 
-#: collection/CollectionManager.cpp:122
+#: collection/CollectionManager.cpp:123
 #, fuzzy
 #| msgid ""
 #| "<p>Amarok could not find any collection plugins. Amarok is now updating "
@@ -389,14 +389,14 @@ msgstr ""
 "$ amarok</pre>Wicy wëdowiédzë mòże nalezc w lopkù README. Abë zwëskac wicy "
 "pòmòcë przëłączë sã do naji na #amarok na irc.freenode.net.</p>"
 
-#: context/engines/current/CurrentEngine.cpp:108
+#: context/engines/current/CurrentEngine.cpp:117
 #: context/applets/albums/Albums.cpp:57
 #, fuzzy
 #| msgid "Recently Played Tracks"
 msgid "Recently added albums"
 msgstr "Slédno gróné sztëcczi"
 
-#: context/engines/current/CurrentEngine.cpp:241
+#: context/engines/current/CurrentEngine.cpp:250
 #, fuzzy, kde-format
 #| msgid "Albums By"
 msgid "Albums by %1"
@@ -497,7 +497,7 @@ msgstr "Rechòwnik òdegraniô:"
 
 #: context/applets/albums/AlbumsView.cpp:109 Systray.cpp:219
 #: browsers/collectionbrowser/CollectionTreeView.cpp:596
-#: browsers/filebrowser/MyDirOperator.cpp:247
+#: browsers/filebrowser/MyDirOperator.cpp:259
 #: browsers/playlistbrowser/UserPlaylistModel.cpp:382
 #: browsers/playlistbrowser/PodcastModel.cpp:692
 #: services/lastfm/LastFmTreeView.cpp:116
@@ -506,7 +506,7 @@ msgstr "&Dodôj do lëstë graniô"
 
 #: context/applets/albums/AlbumsView.cpp:110
 #: browsers/collectionbrowser/CollectionTreeView.cpp:604
-#: browsers/filebrowser/MyDirOperator.cpp:248
+#: browsers/filebrowser/MyDirOperator.cpp:260
 #: browsers/playlistbrowser/UserPlaylistModel.cpp:388
 #: browsers/playlistbrowser/PodcastModel.cpp:705
 #: services/lastfm/LastFmTreeView.cpp:124
@@ -522,8 +522,8 @@ msgid "&Queue"
 msgstr "&Régùjë sztëczk"
 
 #: context/applets/albums/AlbumsView.cpp:112
-#: browsers/filebrowser/MyDirOperator.cpp:249
-#: playlist/view/listview/PrettyListView.cpp:502
+#: browsers/filebrowser/MyDirOperator.cpp:261
+#: playlist/view/listview/PrettyListView.cpp:503
 #: playlist/view/PlaylistViewCommon.cpp:84
 msgid "Edit Track Details"
 msgstr "Editëjë detale sztëczka"
@@ -1242,12 +1242,12 @@ msgstr "rechòwnik òdegraniów"
 
 #: dialogs/PlaylistLayoutEditDialog.cpp:140
 #: dialogs/PlaylistLayoutEditDialog.cpp:178
-msgid "Can't create a layout with no name."
+msgid "Cannot create a layout with no name."
 msgstr ""
 
 #: dialogs/PlaylistLayoutEditDialog.cpp:142
 #: dialogs/PlaylistLayoutEditDialog.cpp:180
-msgid "Can't create a layout with the same name as an existing layout."
+msgid "Cannot create a layout with the same name as an existing layout."
 msgstr ""
 
 #: dialogs/PlaylistLayoutEditDialog.cpp:175
@@ -1271,15 +1271,15 @@ msgstr ""
 #: dialogs/PlaylistLayoutEditDialog.cpp:223
 #, fuzzy
 #| msgid "Configure..."
-msgid "Can't rename one of the default layouts."
+msgid "Cannot rename one of the default layouts."
 msgstr "Kònfigùracëjë..."
 
 #: dialogs/PlaylistLayoutEditDialog.cpp:227
-msgid "Can't rename a layout with no name."
+msgid "Cannot rename a layout to have no name."
 msgstr ""
 
 #: dialogs/PlaylistLayoutEditDialog.cpp:229
-msgid "Can't rename a layout with the same name as an existing layout."
+msgid "Cannot rename a layout to have the same name as an existing layout."
 msgstr ""
 
 #: dialogs/PlaylistLayoutEditDialog.cpp:311
@@ -7306,46 +7306,46 @@ msgstr[0] "%1 artista"
 msgstr[1] "%1 artistów"
 msgstr[2] "%1 artistów"
 
-#: playlist/view/listview/PrettyListView.cpp:462
+#: playlist/view/listview/PrettyListView.cpp:463
 #: playlist/view/PlaylistViewCommon.cpp:54
 #: playlist/view/PlaylistViewCommon.cpp:63
 msgid "&Play"
 msgstr "&Grôj"
 
-#: playlist/view/listview/PrettyListView.cpp:465
+#: playlist/view/listview/PrettyListView.cpp:466
 #: playlist/view/PlaylistViewCommon.cpp:54
 #, fuzzy
 #| msgid "Paused"
 msgid "&Pause"
 msgstr "Paùza"
 
-#: playlist/view/listview/PrettyListView.cpp:477
+#: playlist/view/listview/PrettyListView.cpp:478
 #, fuzzy
 #| msgid "Select Format:"
 msgid "Select Source"
 msgstr "Wëbiérk fòrmatu:"
 
-#: playlist/view/listview/PrettyListView.cpp:482
+#: playlist/view/listview/PrettyListView.cpp:483
 #: playlist/view/PlaylistViewCommon.cpp:75
 #, fuzzy
 #| msgid "&Queue Track"
 msgid "Queue Track"
 msgstr "&Régùjë sztëczk"
 
-#: playlist/view/listview/PrettyListView.cpp:485
+#: playlist/view/listview/PrettyListView.cpp:486
 #: playlist/view/PlaylistViewCommon.cpp:77
 #, fuzzy
 #| msgid "&Dequeue Track"
 msgid "Dequeue Track"
 msgstr "&Wërégùjë sztëczk"
 
-#: playlist/view/listview/PrettyListView.cpp:494
+#: playlist/view/listview/PrettyListView.cpp:495
 #, fuzzy
 #| msgid "Most Played Tracks"
 msgid "Stop Playing After This Track"
 msgstr "Nôczãscy gróné sztëcczi"
 
-#: playlist/view/listview/PrettyListView.cpp:498
+#: playlist/view/listview/PrettyListView.cpp:499
 #: playlist/view/PlaylistViewCommon.cpp:82
 msgid "Remove From Playlist"
 msgstr "Rëmôj z lëstë graniô..."
