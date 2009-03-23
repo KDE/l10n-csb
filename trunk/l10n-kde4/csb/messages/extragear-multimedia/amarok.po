@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-22 10:25+0100\n"
+"POT-Creation-Date: 2009-03-23 10:28+0100\n"
 "PO-Revision-Date: 2009-01-08 18:45+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -20,11 +20,11 @@ msgstr ""
 "X-Generator: Lokalize 0.2\n"
 
 #: mac/GrowlInterface.cpp:34 context/engines/current/CurrentEngine.cpp:112
-#: context/applets/currenttrack/CurrentTrack.cpp:129 widgets/Osd.cpp:556
+#: context/applets/currenttrack/CurrentTrack.cpp:129 widgets/Osd.cpp:558
 msgid "No track playing"
 msgstr ""
 
-#: mac/GrowlInterface.cpp:55 widgets/Osd.cpp:579
+#: mac/GrowlInterface.cpp:55 widgets/Osd.cpp:581
 msgid "No information available for this track"
 msgstr ""
 
@@ -493,7 +493,7 @@ msgid "Playcount:"
 msgstr "Rechòwnik òdegraniô:"
 
 #: context/applets/albums/AlbumsView.cpp:109 Systray.cpp:219
-#: browsers/collectionbrowser/CollectionTreeView.cpp:611
+#: browsers/collectionbrowser/CollectionTreeView.cpp:607
 #: browsers/filebrowser/MyDirOperator.cpp:273
 #: browsers/playlistbrowser/UserPlaylistModel.cpp:382
 #: browsers/playlistbrowser/PodcastModel.cpp:692
@@ -502,7 +502,7 @@ msgid "&Append to Playlist"
 msgstr "&Dodôj do lëstë graniô"
 
 #: context/applets/albums/AlbumsView.cpp:110
-#: browsers/collectionbrowser/CollectionTreeView.cpp:619
+#: browsers/collectionbrowser/CollectionTreeView.cpp:615
 #: browsers/filebrowser/MyDirOperator.cpp:274
 #: browsers/playlistbrowser/UserPlaylistModel.cpp:388
 #: browsers/playlistbrowser/PodcastModel.cpp:705
@@ -512,7 +512,7 @@ msgid "&Load"
 msgstr "Ł&adëjë"
 
 #: context/applets/albums/AlbumsView.cpp:111
-#: browsers/collectionbrowser/CollectionTreeView.cpp:627
+#: browsers/collectionbrowser/CollectionTreeView.cpp:623
 #, fuzzy
 #| msgid "&Queue Track"
 msgid "&Queue"
@@ -2553,18 +2553,18 @@ msgstr "Kòpiérëjë do kòlekcëji"
 msgid "Move to Collection"
 msgstr "Przeniesë do kòlekcëji"
 
-#: browsers/collectionbrowser/CollectionTreeView.cpp:397
+#: browsers/collectionbrowser/CollectionTreeView.cpp:393
 #: services/lastfm/LastFmTreeView.cpp:204
 #, fuzzy
 #| msgid "More.."
 msgid "More..."
 msgstr "Wicy..."
 
-#: browsers/collectionbrowser/CollectionTreeView.cpp:645
+#: browsers/collectionbrowser/CollectionTreeView.cpp:641
 msgid "&Edit Track Details"
 msgstr "&Editëjë detale sztëczka"
 
-#: browsers/collectionbrowser/CollectionTreeView.cpp:678
+#: browsers/collectionbrowser/CollectionTreeView.cpp:674
 msgctxt "Organize Files"
 msgid "Organize Files"
 msgstr "Òrganizëjë lopczi"
@@ -2710,12 +2710,16 @@ msgctxt "The Name is not known"
 msgid "Unknown"
 msgstr "Nieznóné"
 
-#: browsers/collectionbrowser/CollectionTreeItem.cpp:181
+#: browsers/collectionbrowser/CollectionTreeItem.cpp:182
 #, fuzzy, kde-format
-#| msgid "%1 track"
-#| msgid_plural "%1 tracks"
-msgid "%1 Tracks"
-msgstr "%1 sztëczk"
+#| msgctxt "The amount of tracks being edited"
+#| msgid "1 Track"
+#| msgid_plural "Information for %1 Tracks"
+msgid "1 Track"
+msgid_plural "%1 Tracks"
+msgstr[0] "Wëdowiédzô dlô %1 sztëczka"
+msgstr[1] "Wëdowiédzô dlô %1 sztëczków"
+msgstr[2] "Wëdowiédzô dlô %1 sztëczków"
 
 #: browsers/filebrowser/FileBrowser.cpp:88
 msgid "Bookmarks"
@@ -7837,34 +7841,25 @@ msgstr "Minutë"
 msgid "Volume Control"
 msgstr "Kòntrola głosnoscë"
 
-#: widgets/Osd.cpp:118
+#: widgets/Osd.cpp:119
 msgid "Rating changed"
 msgstr ""
 
-#: widgets/Osd.cpp:131
-#, kde-format
-msgid "Volume: %1%"
+#: widgets/Osd.cpp:134
+#, fuzzy, kde-format
+#| msgid "Volume"
+msgid "Volume: %1% %2"
+msgstr "Głosnosc"
+
+#: widgets/Osd.cpp:191
+msgid "Volume: 100% (muted)"
 msgstr ""
 
-#: widgets/Osd.cpp:131
-msgctxt "State, as in, The playback is silent"
-msgid "Mute"
-msgstr ""
-
-#: widgets/Osd.cpp:188 widgets/Osd.cpp:189
-msgid "Volume: 100%"
-msgstr ""
-
-#: widgets/Osd.cpp:188 widgets/Osd.cpp:189
-msgctxt "State, as in, the playback is silent"
-msgid "Mute"
-msgstr ""
-
-#: widgets/Osd.cpp:419
+#: widgets/Osd.cpp:421
 msgid "OSD Preview - drag to reposition"
 msgstr ""
 
-#: widgets/Osd.cpp:646
+#: widgets/Osd.cpp:654
 msgid "Paused"
 msgstr "Paùza"
 
@@ -8501,6 +8496,12 @@ msgstr "Òbkłôdka"
 #: covermanager/CoverManager.cpp:873
 msgid "No Artist"
 msgstr "Felëje artistë"
+
+#, fuzzy
+#~| msgid "%1 track"
+#~| msgid_plural "%1 tracks"
+#~ msgid "%1 Tracks"
+#~ msgstr "%1 sztëczk"
 
 #~ msgid "&Remove from iPod"
 #~ msgstr "&Rëmôj z iPoda"
