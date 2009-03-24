@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lancelot\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-29 07:22+0100\n"
+"POT-Creation-Date: 2009-03-24 06:26+0100\n"
 "PO-Revision-Date: 2007-12-28 10:40+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -17,6 +17,155 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
+
+#: parts/PartsMergedModel.cpp:44
+#, fuzzy
+#| msgid "Removable"
+msgid "Remove this"
+msgstr "òdłączalne"
+
+#: parts/LancelotPart.cpp:316 LancelotWindow.cpp:586
+msgid "Places"
+msgstr "Môle"
+
+#: parts/LancelotPart.cpp:319 LancelotWindow.cpp:587
+msgid "System"
+msgstr "Systema"
+
+#: parts/LancelotPart.cpp:322
+#, fuzzy
+#| msgid "Removable"
+msgid "Removable devices"
+msgstr "òdłączalne"
+
+#: parts/LancelotPart.cpp:325
+msgid "Fixed devices"
+msgstr ""
+
+#: parts/LancelotPart.cpp:328
+#, fuzzy
+#| msgid "Open documents"
+msgid "New Documents"
+msgstr "Òtemkniãté dokùmentë"
+
+#: parts/LancelotPart.cpp:331
+#, fuzzy
+#| msgid "Recent documents"
+msgid "Open Documents"
+msgstr "Biéżne dokùmentë"
+
+#: parts/LancelotPart.cpp:334
+#, fuzzy
+#| msgid "Recent documents"
+msgid "Recent Documents"
+msgstr "Biéżne dokùmentë"
+
+#: parts/LancelotPart.cpp:337 LancelotWindow.cpp:597
+msgid "Unread messages"
+msgstr ""
+
+#: parts/LancelotPart.cpp:340 i18n_strings.cpp:39
+msgid "Online contacts"
+msgstr ""
+
+#: parts/LancelotPart.cpp:344
+msgid "Favorite Applications"
+msgstr ""
+
+#: models/Devices.cpp:112 models/Devices.cpp:138
+msgid "Unmounted"
+msgstr ""
+
+#: models/Devices.cpp:202
+msgid "Eject"
+msgstr ""
+
+#: models/Devices.cpp:205
+msgid "Unmount"
+msgstr ""
+
+#: models/Devices.cpp:241
+msgid "Failed to open"
+msgstr ""
+
+#: models/Devices.cpp:241
+msgid "The requested device can not be accessed."
+msgstr ""
+
+#: models/FavoriteApplications.cpp:123
+msgid "Remove From Favorites"
+msgstr ""
+
+#: models/FavoriteApplications.cpp:141 LancelotWindow.cpp:243
+msgid "Favorites"
+msgstr ""
+
+#: models/Places.cpp:42
+msgid "Home Folder"
+msgstr ""
+
+#: models/Places.cpp:49
+msgid "Root Folder"
+msgstr ""
+
+#: models/Places.cpp:56
+msgid "Network Folders"
+msgstr ""
+
+#: models/Applications.cpp:215 models/Runner.cpp:135
+msgid "Add to Favorites"
+msgstr ""
+
+#: models/MessagesKmail.cpp:91
+msgid "Mail client"
+msgstr ""
+
+#: models/MessagesKmail.cpp:92
+msgid "Mail client is not running"
+msgstr ""
+
+#: models/MessagesKmail.cpp:94
+msgid "Unable to find KMail"
+msgstr ""
+
+#: models/MessagesKmail.cpp:143
+#, fuzzy
+#| msgctxt "EMAIL OF TRANSLATORS"
+#| msgid "Your emails"
+msgid "No unread mail"
+msgstr "michol@linuxcsb.org"
+
+#: models/Runner.cpp:59
+msgid "Search string is empty"
+msgstr ""
+
+#: models/Runner.cpp:60
+msgid "Enter something to search for"
+msgstr ""
+
+#: models/Runner.cpp:78
+msgid "No matches found"
+msgstr ""
+
+#: models/Runner.cpp:79
+msgid "No matches found for current search"
+msgstr ""
+
+#: models/ContactsKopete.cpp:75
+msgid "Messaging client"
+msgstr ""
+
+#: models/ContactsKopete.cpp:76
+msgid "Messaging client is not running"
+msgstr ""
+
+#: models/ContactsKopete.cpp:78
+msgid "Unable to find Kopete"
+msgstr ""
+
+#: models/ContactsKopete.cpp:116
+msgid "No online contacts"
+msgstr ""
 
 #: AboutData.cpp:26 LancelotWindow.cpp:771
 msgid "Lancelot"
@@ -54,131 +203,6 @@ msgstr ""
 
 #: AboutData.cpp:48
 msgid "Kickoff data models"
-msgstr ""
-
-#: LancelotWindow.cpp:232 i18n_strings.cpp:31
-msgid "Search"
-msgstr ""
-
-#: LancelotWindow.cpp:243
-msgid "Favorites"
-msgstr ""
-
-#: LancelotWindow.cpp:245 i18n_strings.cpp:27
-msgid "Applications"
-msgstr ""
-
-#: LancelotWindow.cpp:586
-msgid "Places"
-msgstr "Môle"
-
-#: LancelotWindow.cpp:587
-msgid "System"
-msgstr "Systema"
-
-#: LancelotWindow.cpp:589
-msgid "Removable"
-msgstr "òdłączalne"
-
-#: LancelotWindow.cpp:590
-msgid "Fixed"
-msgstr "Stałe"
-
-#: LancelotWindow.cpp:592
-msgid "New:"
-msgstr "Nowe:"
-
-#: LancelotWindow.cpp:594
-#, fuzzy
-#| msgid "Recent documents"
-msgctxt "@title Title of a list of documents that are open"
-msgid "Open documents"
-msgstr "Biéżne dokùmentë"
-
-#: LancelotWindow.cpp:595
-msgid "Recent documents"
-msgstr "Biéżne dokùmentë"
-
-#: LancelotWindow.cpp:597
-msgid "Unread messages"
-msgstr ""
-
-#: LancelotWindow.cpp:598 i18n_strings.cpp:25 i18n_strings.cpp:29
-msgid "Contacts"
-msgstr ""
-
-#: LancelotWindow.cpp:772
-#, fuzzy
-#| msgid "Lancelot"
-msgid "Open Lancelot menu"
-msgstr "Lancelot"
-
-#: LancelotWindow.cpp:902
-msgid "Menu Editor"
-msgstr ""
-
-#: LancelotWindow.cpp:907
-msgid "Configure &Shortcuts..."
-msgstr ""
-
-#: LancelotWindow.cpp:912
-#, fuzzy
-#| msgid "Lancelot"
-msgid "Configure &Lancelot menu..."
-msgstr "Lancelot"
-
-#: LancelotWindow.cpp:917
-#, fuzzy
-#| msgid "Lancelot"
-msgid "&About Lancelot"
-msgstr "Lancelot"
-
-#: LancelotWindow.cpp:939 LancelotWindow.cpp:941
-#, fuzzy
-#| msgid "Lancelot"
-msgid "Configure Lancelot menu"
-msgstr "Lancelot"
-
-#: i18n_strings.cpp:24 i18n_strings.cpp:30
-#, fuzzy
-#| msgid "Open documents"
-msgid "Documents"
-msgstr "Òtemkniãté dokùmentë"
-
-#: i18n_strings.cpp:26 i18n_strings.cpp:28
-msgid "Computer"
-msgstr ""
-
-#: i18n_strings.cpp:32
-msgid "Lock Session"
-msgstr ""
-
-#: i18n_strings.cpp:33
-msgid "Log Out"
-msgstr ""
-
-#: i18n_strings.cpp:34
-msgid "Switch User"
-msgstr ""
-
-#: i18n_strings.cpp:37
-#, kde-format
-msgctxt "needed program is not running"
-msgid "%1 is not running"
-msgstr ""
-
-#: i18n_strings.cpp:38
-#, kde-format
-msgctxt "start a program"
-msgid "start %1"
-msgstr ""
-
-#: i18n_strings.cpp:39
-msgid "Online contacts"
-msgstr ""
-
-#: i18n_strings.cpp:40
-msgid "e-Mail contacts"
 msgstr ""
 
 #: rc.cpp:1
@@ -406,6 +430,135 @@ msgstr ""
 #: rc.cpp:104
 msgid "Show menu on &click"
 msgstr ""
+
+#: i18n_strings.cpp:24 i18n_strings.cpp:30
+#, fuzzy
+#| msgid "Open documents"
+msgid "Documents"
+msgstr "Òtemkniãté dokùmentë"
+
+#: i18n_strings.cpp:25 i18n_strings.cpp:29 LancelotWindow.cpp:598
+msgid "Contacts"
+msgstr ""
+
+#: i18n_strings.cpp:26 i18n_strings.cpp:28
+msgid "Computer"
+msgstr ""
+
+#: i18n_strings.cpp:27 LancelotWindow.cpp:245
+msgid "Applications"
+msgstr ""
+
+#: i18n_strings.cpp:31 LancelotWindow.cpp:232
+msgid "Search"
+msgstr ""
+
+#: i18n_strings.cpp:32
+msgid "Lock Session"
+msgstr ""
+
+#: i18n_strings.cpp:33
+msgid "Log Out"
+msgstr ""
+
+#: i18n_strings.cpp:34
+msgid "Switch User"
+msgstr ""
+
+#: i18n_strings.cpp:37
+#, kde-format
+msgctxt "needed program is not running"
+msgid "%1 is not running"
+msgstr ""
+
+#: i18n_strings.cpp:38
+#, kde-format
+msgctxt "start a program"
+msgid "start %1"
+msgstr ""
+
+#: i18n_strings.cpp:40
+msgid "e-Mail contacts"
+msgstr ""
+
+#: LancelotWindow.cpp:589
+msgid "Removable"
+msgstr "òdłączalne"
+
+#: LancelotWindow.cpp:590
+msgid "Fixed"
+msgstr "Stałe"
+
+#: LancelotWindow.cpp:592
+msgid "New:"
+msgstr "Nowe:"
+
+#: LancelotWindow.cpp:594
+#, fuzzy
+#| msgid "Recent documents"
+msgctxt "@title Title of a list of documents that are open"
+msgid "Open documents"
+msgstr "Biéżne dokùmentë"
+
+#: LancelotWindow.cpp:595
+msgid "Recent documents"
+msgstr "Biéżne dokùmentë"
+
+#: LancelotWindow.cpp:772
+#, fuzzy
+#| msgid "Lancelot"
+msgid "Open Lancelot menu"
+msgstr "Lancelot"
+
+#: LancelotWindow.cpp:902 launcher/LancelotApplet.cpp:181
+msgid "Menu Editor"
+msgstr ""
+
+#: LancelotWindow.cpp:907
+msgid "Configure &Shortcuts..."
+msgstr ""
+
+#: LancelotWindow.cpp:912
+#, fuzzy
+#| msgid "Lancelot"
+msgid "Configure &Lancelot menu..."
+msgstr "Lancelot"
+
+#: LancelotWindow.cpp:917
+#, fuzzy
+#| msgid "Lancelot"
+msgid "&About Lancelot"
+msgstr "Lancelot"
+
+#: LancelotWindow.cpp:939 LancelotWindow.cpp:941
+#, fuzzy
+#| msgid "Lancelot"
+msgid "Configure Lancelot menu"
+msgstr "Lancelot"
+
+#: launcher/LancelotApplet.cpp:175
+#, fuzzy
+#| msgid "Lancelot"
+msgid "Configure Shortcuts..."
+msgstr "Lancelot"
+
+#: launcher/LancelotApplet.cpp:307
+msgid "Applet"
+msgstr ""
+
+#: launcher/LancelotApplet.cpp:308
+msgid "Lancelot Launcher Applet"
+msgstr ""
+
+#: launcher/LancelotApplet.cpp:313
+msgid "Menu"
+msgstr ""
+
+#: launcher/LancelotApplet.cpp:314
+#, fuzzy
+#| msgid "Lancelot"
+msgid "Lancelot Menu"
+msgstr "Lancelot"
 
 #, fuzzy
 #~| msgid "Lancelot"
