@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-25 11:30+0100\n"
+"POT-Creation-Date: 2009-03-26 10:55+0100\n"
 "PO-Revision-Date: 2009-01-08 18:45+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -259,7 +259,7 @@ msgstr "Rëmniãcé nie darzëło sã"
 
 #: collection/sqlcollection/OrganizeCollectionDialog.cpp:163
 #: collection/sqlcollection/ScanManager.cpp:658
-#: browsers/collectionbrowser/CollectionTreeItem.cpp:155
+#: browsers/CollectionTreeItem.cpp:154
 #: playlist/view/graphic/PlaylistGraphicsItem.cpp:343
 #: covermanager/CoverViewDialog.h:45 covermanager/CoverManager.cpp:852
 msgid "Various Artists"
@@ -451,8 +451,8 @@ msgstr "Nie mòże ùsôdzëc òbiektu"
 #. i18n: ectx: property (text), widget (QLabel, scoreLabel)
 #: context/applets/currenttrack/CurrentTrack.cpp:86
 #: context/applets/currenttrack/CurrentTrack.cpp:90
-#: context/applets/currenttrack/CurrentTrack.cpp:397
-#: context/applets/currenttrack/CurrentTrack.cpp:401 dialogs/TagDialog.cpp:901
+#: context/applets/currenttrack/CurrentTrack.cpp:400
+#: context/applets/currenttrack/CurrentTrack.cpp:404 dialogs/TagDialog.cpp:901
 #: rc.cpp:828
 msgid "Score:"
 msgstr "Pùnktacëjô:"
@@ -466,8 +466,8 @@ msgstr "Rechòwnik graniô"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:88
 #: context/applets/currenttrack/CurrentTrack.cpp:92
-#: context/applets/currenttrack/CurrentTrack.cpp:399
-#: context/applets/currenttrack/CurrentTrack.cpp:403 dialogs/TagDialog.cpp:910
+#: context/applets/currenttrack/CurrentTrack.cpp:402
+#: context/applets/currenttrack/CurrentTrack.cpp:406 dialogs/TagDialog.cpp:910
 msgctxt "a single item (singular)"
 msgid "Last Played:"
 msgstr "Slédno gróné:"
@@ -485,13 +485,13 @@ msgstr "Slédno gróné"
 msgid "Favorite tracks"
 msgstr "Lubòtny sztëcczi"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:398
-#: context/applets/currenttrack/CurrentTrack.cpp:402
+#: context/applets/currenttrack/CurrentTrack.cpp:401
+#: context/applets/currenttrack/CurrentTrack.cpp:405
 msgid "Playcount:"
 msgstr "Rechòwnik òdegraniô:"
 
 #: context/applets/albums/AlbumsView.cpp:109 Systray.cpp:219
-#: browsers/collectionbrowser/CollectionTreeView.cpp:600
+#: browsers/CollectionTreeView.cpp:589
 #: browsers/filebrowser/MyDirOperator.cpp:273
 #: browsers/playlistbrowser/UserPlaylistModel.cpp:382
 #: browsers/playlistbrowser/PodcastModel.cpp:692
@@ -500,7 +500,7 @@ msgid "&Append to Playlist"
 msgstr "&Dodôj do lëstë graniô"
 
 #: context/applets/albums/AlbumsView.cpp:110
-#: browsers/collectionbrowser/CollectionTreeView.cpp:608
+#: browsers/CollectionTreeView.cpp:597
 #: browsers/filebrowser/MyDirOperator.cpp:274
 #: browsers/playlistbrowser/UserPlaylistModel.cpp:388
 #: browsers/playlistbrowser/PodcastModel.cpp:705
@@ -510,7 +510,7 @@ msgid "&Load"
 msgstr "Ł&adëjë"
 
 #: context/applets/albums/AlbumsView.cpp:111
-#: browsers/collectionbrowser/CollectionTreeView.cpp:616
+#: browsers/CollectionTreeView.cpp:605
 #, fuzzy
 #| msgid "&Queue Track"
 msgid "&Queue"
@@ -551,17 +551,17 @@ msgstr "Tekstë"
 msgid "Reload Lyrics"
 msgstr "Tekstë"
 
-#: context/applets/lyrics/LyricsApplet.cpp:157
+#: context/applets/lyrics/LyricsApplet.cpp:159
 #, fuzzy
 #| msgid "No lyrics script is running!"
 msgid "No lyrics script is running."
 msgstr "Niżóden skript tekstów frantówków nie je zrëszony!"
 
-#: context/applets/lyrics/LyricsApplet.cpp:163
+#: context/applets/lyrics/LyricsApplet.cpp:165
 msgid "Lyrics are being fetched."
 msgstr "Tekst je ladowóny."
 
-#: context/applets/lyrics/LyricsApplet.cpp:169
+#: context/applets/lyrics/LyricsApplet.cpp:171
 #, fuzzy, kde-format
 #| msgid ""
 #| "Lyrics were not able to be downloaded. Please check your internet "
@@ -572,7 +572,7 @@ msgid ""
 msgstr ""
 "Ni mòże zladowac teksta. Proszã sprôwdzëc swòjé pòłączenié z jinternetã."
 
-#: context/applets/lyrics/LyricsApplet.cpp:210
+#: context/applets/lyrics/LyricsApplet.cpp:212
 msgid "There were no lyrics found for this track"
 msgstr "Nie są nalazłé tekstë dlô tegò sztëczka"
 
@@ -1021,8 +1021,7 @@ msgstr "Titel"
 #. i18n: file: dialogs/EditFilterDialog.ui:81
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
 #: dialogs/FilenameLayoutDialog.cpp:119 dialogs/FilenameLayoutDialog.cpp:334
-#: dialogs/transferdialog.cpp:89
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:765
+#: dialogs/transferdialog.cpp:89 browsers/CollectionTreeItemModelBase.cpp:764
 #: browsers/collectionbrowser/CollectionWidget.cpp:88
 #: browsers/collectionbrowser/CollectionWidget.cpp:117
 #: browsers/collectionbrowser/CollectionWidget.cpp:149
@@ -1038,7 +1037,7 @@ msgstr "Artista"
 #. i18n: file: dialogs/EditFilterDialog.ui:86
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
 #: dialogs/FilenameLayoutDialog.cpp:120
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:766
+#: browsers/CollectionTreeItemModelBase.cpp:765
 #: browsers/collectionbrowser/CollectionWidget.cpp:97
 #: browsers/collectionbrowser/CollectionWidget.cpp:126
 #: browsers/collectionbrowser/CollectionWidget.cpp:158
@@ -1051,7 +1050,7 @@ msgstr "Kòmpòzytor"
 #. i18n: file: dialogs/EditFilterDialog.ui:106
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
 #: dialogs/FilenameLayoutDialog.cpp:121 dialogs/FilenameLayoutDialog.cpp:344
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:768
+#: browsers/CollectionTreeItemModelBase.cpp:767
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:250
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:694 rc.cpp:930
 #: playlist/PlaylistDefines.h:98 playlist/PlaylistModel.cpp:690
@@ -1063,8 +1062,7 @@ msgstr "Rok"
 #. i18n: file: dialogs/EditFilterDialog.ui:76
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
 #: dialogs/FilenameLayoutDialog.cpp:122 dialogs/FilenameLayoutDialog.cpp:349
-#: dialogs/transferdialog.cpp:90
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:764
+#: dialogs/transferdialog.cpp:90 browsers/CollectionTreeItemModelBase.cpp:763
 #: browsers/collectionbrowser/CollectionWidget.cpp:91
 #: browsers/collectionbrowser/CollectionWidget.cpp:120
 #: browsers/collectionbrowser/CollectionWidget.cpp:152
@@ -1086,8 +1084,7 @@ msgstr "Dopòwiesc"
 #. i18n: file: dialogs/EditFilterDialog.ui:91
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
 #: dialogs/FilenameLayoutDialog.cpp:124 dialogs/FilenameLayoutDialog.cpp:359
-#: dialogs/transferdialog.cpp:91
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:767
+#: dialogs/transferdialog.cpp:91 browsers/CollectionTreeItemModelBase.cpp:766
 #: browsers/collectionbrowser/CollectionWidget.cpp:94
 #: browsers/collectionbrowser/CollectionWidget.cpp:123
 #: browsers/collectionbrowser/CollectionWidget.cpp:155
@@ -1159,7 +1156,7 @@ msgid "&Advanced..."
 msgstr "Dodôj ùrządzenie..."
 
 #: dialogs/FilenameLayoutDialog.cpp:339
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:541
+#: browsers/CollectionTreeItemModelBase.cpp:540
 msgid "composer"
 msgstr "kòmpòzytor"
 
@@ -2541,108 +2538,107 @@ msgstr "Stanislav Karchebny"
 msgid "Stefan Bogner"
 msgstr "Stefan Bogner"
 
-#: browsers/collectionbrowser/CollectionTreeView.cpp:217
+#: browsers/CollectionTreeView.cpp:217
 #: browsers/filebrowser/MyDirOperator.cpp:116
 msgid "Copy to Collection"
 msgstr "Kòpiérëjë do kòlekcëji"
 
-#: browsers/collectionbrowser/CollectionTreeView.cpp:228
+#: browsers/CollectionTreeView.cpp:228
 #: browsers/filebrowser/MyDirOperator.cpp:107
 msgid "Move to Collection"
 msgstr "Przeniesë do kòlekcëji"
 
-#: browsers/collectionbrowser/CollectionTreeView.cpp:386
-#: services/lastfm/LastFmTreeView.cpp:204
+#: browsers/CollectionTreeView.cpp:375 services/lastfm/LastFmTreeView.cpp:204
 #, fuzzy
 #| msgid "More.."
 msgid "More..."
 msgstr "Wicy..."
 
-#: browsers/collectionbrowser/CollectionTreeView.cpp:634
+#: browsers/CollectionTreeView.cpp:623
 msgid "&Edit Track Details"
 msgstr "&Editëjë detale sztëczka"
 
-#: browsers/collectionbrowser/CollectionTreeView.cpp:667
+#: browsers/CollectionTreeView.cpp:656
 msgctxt "Organize Files"
 msgid "Organize Files"
 msgstr "Òrganizëjë lopczi"
 
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:526
+#: browsers/CollectionTreeItemModelBase.cpp:525
 msgid "album"
 msgstr "albùm"
 
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:531
+#: browsers/CollectionTreeItemModelBase.cpp:530
 msgid "artist"
 msgstr "artista"
 
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:536
+#: browsers/CollectionTreeItemModelBase.cpp:535
 msgid "genre"
 msgstr "zort"
 
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:546
+#: browsers/CollectionTreeItemModelBase.cpp:545
 msgid "year"
 msgstr "rok"
 
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:551
+#: browsers/CollectionTreeItemModelBase.cpp:550
 msgid "comment"
 msgstr "dopòwiesc"
 
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:555
+#: browsers/CollectionTreeItemModelBase.cpp:554
 msgid "rating"
 msgstr "notowanié"
 
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:559
+#: browsers/CollectionTreeItemModelBase.cpp:558
 msgid "score"
 msgstr "pùnktë"
 
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:563
+#: browsers/CollectionTreeItemModelBase.cpp:562
 msgid "playcount"
 msgstr "rechòwnik òdegraniów"
 
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:567
+#: browsers/CollectionTreeItemModelBase.cpp:566
 msgid "length"
 msgstr "długòta"
 
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:571
+#: browsers/CollectionTreeItemModelBase.cpp:570
 msgid "discnumber"
 msgstr "numer diskù"
 
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:575
+#: browsers/CollectionTreeItemModelBase.cpp:574
 msgid "tracknumber"
 msgstr "numer sztëczka"
 
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:579
+#: browsers/CollectionTreeItemModelBase.cpp:578
 msgid "added"
 msgstr ""
 
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:585
+#: browsers/CollectionTreeItemModelBase.cpp:584
 #, fuzzy
 #| msgid "Modify"
 msgid "today"
 msgstr "Mòdifikùjë"
 
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:587
+#: browsers/CollectionTreeItemModelBase.cpp:586
 msgid "last week"
 msgstr ""
 
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:589
+#: browsers/CollectionTreeItemModelBase.cpp:588
 #, fuzzy
 #| msgid "Play Count"
 msgid "last month"
 msgstr "Rechòwnik graniô"
 
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:591
+#: browsers/CollectionTreeItemModelBase.cpp:590
 msgid "two months ago"
 msgstr ""
 
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:593
+#: browsers/CollectionTreeItemModelBase.cpp:592
 #, fuzzy
 #| msgid "One minute ago"
 #| msgid_plural "%1 minutes ago"
 msgid "three months ago"
 msgstr "Jedna minuta nazôd"
 
-#: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:764
+#: browsers/CollectionTreeItemModelBase.cpp:763
 msgid "Year - Album"
 msgstr "Rok - Albùm"
 
@@ -2702,22 +2698,6 @@ msgstr "Pòkażë detale"
 #| msgid "Options"
 msgid "Sort Options"
 msgstr "Òptacëje"
-
-#: browsers/collectionbrowser/CollectionTreeItem.cpp:137
-msgctxt "The Name is not known"
-msgid "Unknown"
-msgstr "Nieznóné"
-
-#: browsers/collectionbrowser/CollectionTreeItem.cpp:177
-#, fuzzy, kde-format
-#| msgctxt "The amount of tracks being edited"
-#| msgid "1 Track"
-#| msgid_plural "Information for %1 Tracks"
-msgid "1 Track"
-msgid_plural "%1 Tracks"
-msgstr[0] "Wëdowiédzô dlô %1 sztëczka"
-msgstr[1] "Wëdowiédzô dlô %1 sztëczków"
-msgstr[2] "Wëdowiédzô dlô %1 sztëczków"
 
 #: browsers/filebrowser/FileBrowser.cpp:88
 msgid "Bookmarks"
@@ -2976,6 +2956,22 @@ msgstr "Miono:"
 #: browsers/playlistbrowser/PlaylistCategory.cpp:127
 msgid "Stream URL:"
 msgstr "URL stëdżi:"
+
+#: browsers/CollectionTreeItem.cpp:136
+msgctxt "The Name is not known"
+msgid "Unknown"
+msgstr "Nieznóné"
+
+#: browsers/CollectionTreeItem.cpp:176
+#, fuzzy, kde-format
+#| msgctxt "The amount of tracks being edited"
+#| msgid "1 Track"
+#| msgid_plural "Information for %1 Tracks"
+msgid "1 Track"
+msgid_plural "%1 Tracks"
+msgstr[0] "Wëdowiédzô dlô %1 sztëczka"
+msgstr[1] "Wëdowiédzô dlô %1 sztëczków"
+msgstr[2] "Wëdowiédzô dlô %1 sztëczków"
 
 #: firstruntutorial/FirstRunTutorialPage.cpp:59
 #, fuzzy
