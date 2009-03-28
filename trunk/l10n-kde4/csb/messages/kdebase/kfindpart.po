@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-27 10:54+0100\n"
+"POT-Creation-Date: 2009-03-28 11:06+0100\n"
 "PO-Revision-Date: 2008-07-12 14:44+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi\n"
@@ -86,7 +86,11 @@ msgstr "&Przezérôj..."
 msgid "&Use files index"
 msgstr "Brëkùjë &indeksu lopków"
 
-#: kftabdlg.cpp:91
+#: kftabdlg.cpp:74
+msgid "Show &hidden files"
+msgstr ""
+
+#: kftabdlg.cpp:92
 msgid ""
 "<qt>Enter the filename you are looking for. <br />Alternatives may be "
 "separated by a semicolon \";\".<br /><br />The filename may contain the "
@@ -110,7 +114,7 @@ msgstr ""
 "równo jaczi céch.</li><li><b>Mój Dokùment.kwd</b> szëkô lopkù ò dokładno "
 "taczim mionie</li></ul></qt>"
 
-#: kftabdlg.cpp:112
+#: kftabdlg.cpp:113
 msgid ""
 "<qt>This lets you use the files' index created by the <i>slocate</i> package "
 "to speed-up the search; remember to update the index from time to time "
@@ -120,95 +124,95 @@ msgstr ""
 "<i>slocate</i>. Pòzwôlô to przërëchlëc szëkbã, leno indeks mùszi bëc "
 "aktualizowóny co sztërk (pòlétã <i>updatedb</i>).</qt>"
 
-#: kftabdlg.cpp:149
+#: kftabdlg.cpp:159
 msgid "Find all files created or &modified:"
 msgstr "Nalezë lopczi ùsôdzoné abò &mòdifikòwóné:"
 
-#: kftabdlg.cpp:151
+#: kftabdlg.cpp:161
 msgid "&between"
 msgstr "&midze"
 
-#: kftabdlg.cpp:152
+#: kftabdlg.cpp:162
 msgid "&during the previous"
 msgstr "&w cządze slédnëch"
 
-#: kftabdlg.cpp:153
+#: kftabdlg.cpp:163
 msgid "and"
 msgstr "a"
 
-#: kftabdlg.cpp:158
+#: kftabdlg.cpp:168
 msgid "minute(s)"
 msgstr "min."
 
-#: kftabdlg.cpp:159
+#: kftabdlg.cpp:169
 msgid "hour(s)"
 msgstr "gòdz."
 
-#: kftabdlg.cpp:160
+#: kftabdlg.cpp:170
 msgid "day(s)"
 msgstr "dni"
 
-#: kftabdlg.cpp:161
+#: kftabdlg.cpp:171
 msgid "month(s)"
 msgstr "miesãcy"
 
-#: kftabdlg.cpp:162
+#: kftabdlg.cpp:172
 msgid "year(s)"
 msgstr "lat"
 
-#: kftabdlg.cpp:180
+#: kftabdlg.cpp:190
 msgid "File &size is:"
 msgstr "&Miara lopkù:"
 
-#: kftabdlg.cpp:194
+#: kftabdlg.cpp:204
 msgid "Files owned by &user:"
 msgstr "Przenôlégô do &brëkòwnika:"
 
-#: kftabdlg.cpp:199
+#: kftabdlg.cpp:209
 msgid "Owned by &group:"
 msgstr "Przenôlégô do &grëpë:"
 
-#: kftabdlg.cpp:202
+#: kftabdlg.cpp:212
 msgid "(none)"
 msgstr "(felëje)"
 
-#: kftabdlg.cpp:203
+#: kftabdlg.cpp:213
 msgid "At Least"
 msgstr "przenômni"
 
-#: kftabdlg.cpp:204
+#: kftabdlg.cpp:214
 msgid "At Most"
 msgstr "co nôwicy"
 
-#: kftabdlg.cpp:205
+#: kftabdlg.cpp:215
 msgid "Equal To"
 msgstr "równy"
 
-#: kftabdlg.cpp:207
+#: kftabdlg.cpp:217
 msgid "Bytes"
 msgstr "bajtów"
 
-#: kftabdlg.cpp:208
+#: kftabdlg.cpp:218
 msgid "KiB"
 msgstr "KiB"
 
-#: kftabdlg.cpp:209
+#: kftabdlg.cpp:219
 msgid "MiB"
 msgstr "MiB"
 
-#: kftabdlg.cpp:210
+#: kftabdlg.cpp:220
 msgid "GiB"
 msgstr "GiB"
 
-#: kftabdlg.cpp:275
+#: kftabdlg.cpp:285
 msgid "File &type:"
 msgstr "Ôr&t lopkù:"
 
-#: kftabdlg.cpp:280
+#: kftabdlg.cpp:290
 msgid "C&ontaining text:"
 msgstr "&Zamëkający tekst:"
 
-#: kftabdlg.cpp:286
+#: kftabdlg.cpp:296
 msgid ""
 "<qt>If specified, only files that contain this text are found. Note that not "
 "all file types from the list above are supported. Please refer to the "
@@ -218,19 +222,19 @@ msgstr ""
 "zamëkają gò w se. Nie wszëtczé lopczi z lëstë wëżi mòże przeszëkac na nen "
 "ôrt. Lëstã òbsłëgiwónëch lopków jidze nalezc w dokùmentacëji.</qt>"
 
-#: kftabdlg.cpp:294
+#: kftabdlg.cpp:304
 msgid "Case s&ensitive"
 msgstr "Zdrzë na wielgòsc &lëterów"
 
-#: kftabdlg.cpp:295
+#: kftabdlg.cpp:305
 msgid "Include &binary files"
 msgstr "Téż &binarné lopczi"
 
-#: kftabdlg.cpp:296
+#: kftabdlg.cpp:306
 msgid "Regular e&xpression"
 msgstr "&Regùlarny wësłów"
 
-#: kftabdlg.cpp:299
+#: kftabdlg.cpp:309
 msgid ""
 "<qt>This lets you search in any type of file, even those that usually do not "
 "contain text (for example program files and images).</qt>"
@@ -238,71 +242,71 @@ msgstr ""
 "<qt> Ta òptacëjô pòzwôlô przeszëkiwac równo jaczi lopczi, téż te, co zwëkòwò "
 "nie mają tekstu (np. programë ë òbrôzczi).</qt>"
 
-#: kftabdlg.cpp:307
+#: kftabdlg.cpp:317
 msgid "&Edit..."
 msgstr "&Editëjë..."
 
-#: kftabdlg.cpp:313
+#: kftabdlg.cpp:323
 msgid "fo&r:"
 msgstr "&dlô:"
 
-#: kftabdlg.cpp:315
+#: kftabdlg.cpp:325
 msgid "Search &metainfo sections:"
 msgstr "Przeszëkôj na&główk lopkù:"
 
-#: kftabdlg.cpp:319
+#: kftabdlg.cpp:329
 msgid "All Files & Folders"
 msgstr "Wszëtczé lopczi ë katalodżi"
 
-#: kftabdlg.cpp:320
+#: kftabdlg.cpp:330
 msgid "Files"
 msgstr "Lopczi"
 
-#: kftabdlg.cpp:321
+#: kftabdlg.cpp:331
 msgid "Folders"
 msgstr "Katalodżi"
 
-#: kftabdlg.cpp:322
+#: kftabdlg.cpp:332
 msgid "Symbolic Links"
 msgstr "Symbòlné lopczi"
 
-#: kftabdlg.cpp:323
+#: kftabdlg.cpp:333
 msgid "Special Files (Sockets, Device Files, ...)"
 msgstr "Specjalné lopczi (gniôzda, ùrzãdzenia, ...)"
 
-#: kftabdlg.cpp:324
+#: kftabdlg.cpp:334
 msgid "Executable Files"
 msgstr "Zrëszeniowé lopczi"
 
-#: kftabdlg.cpp:325
+#: kftabdlg.cpp:335
 msgid "SUID Executable Files"
 msgstr "Zrëszeniowé lopczi SUID"
 
-#: kftabdlg.cpp:326
+#: kftabdlg.cpp:336
 msgid "All Images"
 msgstr "Wszëtczé òbrôzczi"
 
-#: kftabdlg.cpp:327
+#: kftabdlg.cpp:337
 msgid "All Video"
 msgstr "Wszëtczé filmë"
 
-#: kftabdlg.cpp:328
+#: kftabdlg.cpp:338
 msgid "All Sounds"
 msgstr "Wszëtczé zwãczi"
 
-#: kftabdlg.cpp:379
+#: kftabdlg.cpp:389
 msgid "Name/&Location"
 msgstr "&Miono/katalog"
 
-#: kftabdlg.cpp:380
+#: kftabdlg.cpp:390
 msgid "C&ontents"
 msgstr "&Zamkłosc"
 
-#: kftabdlg.cpp:381
+#: kftabdlg.cpp:391
 msgid "&Properties"
 msgstr "&Swòjizna"
 
-#: kftabdlg.cpp:386
+#: kftabdlg.cpp:396
 msgid ""
 "<qt>Search within files' specific comments/metainfo<br />These are some "
 "examples:<br /><ul><li><b>Audio files (mp3...)</b> Search in id3 tag for a "
@@ -314,7 +318,7 @@ msgstr ""
 "wëdowiédzã m. jin. ò albumie ë titlu.</li><li><b>Òbrôzczi (np. png):</b> "
 "zamëkają w se wëdowiédzã m .jin. ò rozdzélnoce ë dopòwiescach.</li></ul></qt>"
 
-#: kftabdlg.cpp:394
+#: kftabdlg.cpp:404
 msgid ""
 "<qt>If specified, search only in this field<br /><ul><li><b>Audio files "
 "(mp3...)</b> This can be Title, Album...</li><li><b>Images (png...)</b> "
@@ -324,117 +328,135 @@ msgstr ""
 "aùdio (np. mp3):</b> titel, albùm ëtd.</li><li><b>Òbrôzczi (np. png):</"
 "b>rozdziélnota, głãbiô farwów ëtd.</li></ul></qt>"
 
-#: kftabdlg.cpp:587
+#: kftabdlg.cpp:597
 msgid "Unable to search within a period which is less than a minute."
 msgstr "Cząd mòdifikacëji mùszi bëc wikszi jakno minuta."
 
-#: kftabdlg.cpp:598
+#: kftabdlg.cpp:608
 msgid "The date is not valid."
 msgstr "Datum je niepòprôwné."
 
-#: kftabdlg.cpp:600
+#: kftabdlg.cpp:610
 msgid "Invalid date range."
 msgstr "Òbrëmienié datumów je niepòprówné."
 
-#: kftabdlg.cpp:602
+#: kftabdlg.cpp:612
 msgid "Unable to search dates in the future."
 msgstr "Nie mòże szëkac datum z przińdnotë."
 
-#: kftabdlg.cpp:664
+#: kftabdlg.cpp:674
 msgid "Size is too big. Set maximum size value?"
 msgstr "Miara je za wiôlgô. Ùstawic maksymalną wôrtosc?"
 
-#: kftabdlg.cpp:664
+#: kftabdlg.cpp:674
 msgid "Error"
 msgstr "Fela"
 
-#: kftabdlg.cpp:664
+#: kftabdlg.cpp:674
 msgid "Set"
 msgstr "Ùstôwi"
 
-#: kftabdlg.cpp:664
+#: kftabdlg.cpp:674
 msgid "Do Not Set"
 msgstr "Nie ùstawiôj"
 
-#: kfwin.cpp:32
+#: kfwin.cpp:46
 msgid "Read-write"
 msgstr "Òdczët-zapisënk"
 
-#: kfwin.cpp:33
+#: kfwin.cpp:47
 msgid "Read-only"
 msgstr "Blós òdczët"
 
-#: kfwin.cpp:34
+#: kfwin.cpp:48
 msgid "Write-only"
 msgstr "Blós zapisënk"
 
-#: kfwin.cpp:35
+#: kfwin.cpp:49
 msgid "Inaccessible"
 msgstr "Nieprzistãpny"
 
-#: kfwin.cpp:113
+#: kfwin.cpp:60
+#, fuzzy
+#| msgid "Name"
+msgctxt "file name column"
 msgid "Name"
 msgstr "Miono"
 
-#: kfwin.cpp:113
+#: kfwin.cpp:60
+#, fuzzy
+#| msgid "In Subfolder"
+msgctxt "name of the containing folder"
 msgid "In Subfolder"
 msgstr "W pòdkatalogu"
 
-#: kfwin.cpp:113
+#: kfwin.cpp:60
+#, fuzzy
+#| msgid "Size"
+msgctxt "file size column"
 msgid "Size"
 msgstr "Miara"
 
-#: kfwin.cpp:113
+#: kfwin.cpp:60
+#, fuzzy
+#| msgid "Modified"
+msgctxt "modified date column"
 msgid "Modified"
 msgstr "Zmòdifikòwóny"
 
-#: kfwin.cpp:113
+#: kfwin.cpp:60
+#, fuzzy
+#| msgid "Permissions"
+msgctxt "file permissions column"
 msgid "Permissions"
 msgstr "Prawa przistãpù"
 
-#: kfwin.cpp:113
+#: kfwin.cpp:60
+#, fuzzy
+#| msgid "First Matching Line"
+msgctxt "first matching line of the query string in this file"
 msgid "First Matching Line"
 msgstr "Pierszô słëchającô réza"
 
-#: kfwin.cpp:217
+#: kfwin.cpp:235
 msgid "&Open containing folder(s)"
 msgstr ""
 
-#: kfwin.cpp:221
+#: kfwin.cpp:239
 #, fuzzy
 #| msgid "Delete"
 msgid "&Delete"
 msgstr "Rëmôj"
 
-#: kfwin.cpp:226
+#: kfwin.cpp:244
 msgid "&Move to Trash"
 msgstr ""
 
-#: kfwin.cpp:288
+#: kfwin.cpp:305
 msgid "Save Results As"
 msgstr "Zapiszë wińdzenié jakno"
 
-#: kfwin.cpp:289
+#: kfwin.cpp:306
 msgid "HTML page"
 msgstr ""
 
-#: kfwin.cpp:289
+#: kfwin.cpp:306
 msgid "Text file"
 msgstr ""
 
-#: kfwin.cpp:309
+#: kfwin.cpp:326
 msgid "Unable to save results."
 msgstr "Nie mòże zapisac rezultatu."
 
-#: kfwin.cpp:324
+#: kfwin.cpp:341
 msgid "KFind Results File"
 msgstr "Lopk szëkbë KFind"
 
-#: kfwin.cpp:347
+#: kfwin.cpp:364
 msgid "Results were saved to file\n"
 msgstr "Rezultat òstôł zapisóny do lopkù\n"
 
-#: kquery.cpp:487
+#: kquery.cpp:497
 msgid "Error while using locate"
 msgstr "Fela òbczas ùżëcô programë locate"
 
