@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3bsetup\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-25 11:30+0100\n"
+"POT-Creation-Date: 2009-04-08 12:05+0200\n"
 "PO-Revision-Date: 2008-07-15 21:09+0200\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -18,19 +18,19 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: k3bsetup2.cpp:74
+#: k3bsetup2.cpp:81
 msgid "K3bSetup 2"
 msgstr "K3bSetup 2"
 
-#: k3bsetup2.cpp:76
+#: k3bsetup2.cpp:83
 msgid "(C) 2003-2007 Sebastian Trueg"
 msgstr "(C) 2003-2007 Sebastian Trueg"
 
-#: k3bsetup2.cpp:77
+#: k3bsetup2.cpp:84
 msgid "Sebastian Trueg"
 msgstr "Sebastian Trueg"
 
-#: k3bsetup2.cpp:85
+#: k3bsetup2.cpp:92
 #, fuzzy
 #| msgid ""
 #| "<p>This simple setup assistant is able to set the permissions needed by "
@@ -92,58 +92,59 @@ msgstr ""
 "prawa zôpisu do nëków CD ë DVD.<p><b>Bôczënk:</b> Chòc K3bSetup 2 nie mô "
 "pòpsëc kònfigùracëji Twòji systemë, to nie je to równak gwarantowóné."
 
-#: k3bsetup2.cpp:212
-#, kde-format
-msgid "There is no group %1."
+#: k3bsetup2.cpp:205
+#, fuzzy, kde-format
+#| msgid "There is no group %1."
+msgid "There is no group \"%1\"."
 msgstr "Felëjë karno %1."
 
-#: k3bsetup2.cpp:264
+#: k3bsetup2.cpp:258
+msgid "Cannot run helper!"
+msgstr ""
+
+#: k3bsetup2.cpp:270
 msgid "Successfully updated all permissions."
 msgstr "Wszëtczé ùdowierzenina òstałë ùdało zaktualnioné."
 
-#: k3bsetup2.cpp:267
-#, fuzzy
-#| msgid "Could not update all permissions. You should run K3bSetup 2 as root."
-msgid "Could not update all permissions. You should run K3b::Setup 2 as root."
+#: k3bsetup2.cpp:272
+msgid "Following devices and programs could not be updated:"
 msgstr ""
-"Zjinaka ùdowierzeniô nie darzëła sã. Je nót zrëszëc K3bSetup 2 jakno "
-"sprôwnik (root)."
 
-#: k3bsetup2.cpp:269
-msgid "Could not update all permissions."
-msgstr "Ni mòże zjinaczëc ùdowierzeniów."
+#: k3bsetup2.cpp:283
+msgid "Authorization failed."
+msgstr ""
 
-#: k3bsetupdevices.cpp:144 k3bsetupdevices.cpp:151 k3bsetupprograms.cpp:237
+#: k3bsetupdevices.cpp:145 k3bsetupdevices.cpp:152 k3bsetupprograms.cpp:244
 msgid "no change"
 msgstr "bez zjinaków"
 
-#: k3bsetupdevices.cpp:207
+#: k3bsetupdevices.cpp:208
 msgid "Device"
 msgstr "Ùrządzenié"
 
-#: k3bsetupdevices.cpp:208
+#: k3bsetupdevices.cpp:209
 msgid "Devicenode"
 msgstr "Wãzeł ùrządzenia"
 
-#: k3bsetupdevices.cpp:209 k3bsetupprograms.cpp:294
+#: k3bsetupdevices.cpp:210 k3bsetupprograms.cpp:301
 msgid "Permissions"
 msgstr "Ùdowierzenia"
 
-#: k3bsetupdevices.cpp:210 k3bsetupprograms.cpp:295
+#: k3bsetupdevices.cpp:211 k3bsetupprograms.cpp:302
 #, fuzzy
 #| msgid "New Permissions"
 msgid "New permissions"
 msgstr "Nowé ùdowierzenia"
 
-#: k3bsetupprograms.cpp:291
+#: k3bsetupprograms.cpp:298
 msgid "Program"
 msgstr "Programa"
 
-#: k3bsetupprograms.cpp:292
+#: k3bsetupprograms.cpp:299
 msgid "Version"
 msgstr "Wersëjô"
 
-#: k3bsetupprograms.cpp:293
+#: k3bsetupprograms.cpp:300
 msgid "Path"
 msgstr "Stegna"
 
@@ -244,3 +245,15 @@ msgstr "Mark Kwidzińsczi"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mark@linuxcsb.org"
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not update all permissions. You should run K3bSetup 2 as root."
+#~ msgid ""
+#~ "Could not update all permissions. You should run K3b::Setup 2 as root."
+#~ msgstr ""
+#~ "Zjinaka ùdowierzeniô nie darzëła sã. Je nót zrëszëc K3bSetup 2 jakno "
+#~ "sprôwnik (root)."
+
+#~ msgid "Could not update all permissions."
+#~ msgstr "Ni mòże zjinaczëc ùdowierzeniów."

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-07 11:07+0200\n"
+"POT-Creation-Date: 2009-04-08 11:57+0200\n"
 "PO-Revision-Date: 2008-12-14 01:06+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: ui/flipscrollview.cpp:138 simpleapplet/simpleapplet.cpp:543
+#: ui/flipscrollview.cpp:138 core/applicationmodel.cpp:377
 msgid "All Applications"
 msgstr "Wszëtczé aplikacëje"
 
@@ -51,11 +51,12 @@ msgstr "Wësënié"
 msgid "Safely Remove"
 msgstr "Rëmôj bezpieczno"
 
-#: ui/launcher.cpp:161 simpleapplet/simpleapplet.cpp:189
+#: ui/launcher.cpp:161 core/leavemodel.cpp:106
+#: simpleapplet/simpleapplet.cpp:189
 msgid "Leave"
 msgstr "Wińdzë"
 
-#: ui/launcher.cpp:172 core/favoritesmodel.cpp:44
+#: ui/launcher.cpp:172 core/favoritesmodel.cpp:44 core/favoritesmodel.cpp:265
 #: simpleapplet/simpleapplet.cpp:171
 msgid "Favorites"
 msgstr "Ùlëbnicë"
@@ -73,7 +74,8 @@ msgstr "Zortëjë alfabétno (òd Z do A)"
 msgid "Applications"
 msgstr "Aplikacëje"
 
-#: ui/launcher.cpp:213 simpleapplet/simpleapplet.cpp:175
+#: ui/launcher.cpp:213 core/recentlyusedmodel.cpp:176
+#: simpleapplet/simpleapplet.cpp:175
 msgid "Recently Used"
 msgstr "Slédno brëkòwóne"
 
@@ -85,7 +87,8 @@ msgstr "Wëczëszczë slédné aplikacëje"
 msgid "Clear Recent Documents"
 msgstr "Wëczëszczë slédné dokùmentë"
 
-#: ui/launcher.cpp:233 simpleapplet/simpleapplet.cpp:174
+#: ui/launcher.cpp:233 core/systemmodel.cpp:369
+#: simpleapplet/simpleapplet.cpp:174
 msgid "Computer"
 msgstr "Kòmpùtr"
 
@@ -178,17 +181,13 @@ msgstr "Ùspi do diskù"
 msgid "Suspend to RAM"
 msgstr "Ùspi do RAMù"
 
-#: core/leavemodel.cpp:103
+#: core/leavemodel.cpp:118
 msgid "Session"
 msgstr "Sesëjô"
 
-#: core/leavemodel.cpp:125
+#: core/leavemodel.cpp:140
 msgid "System"
 msgstr "Systema"
-
-#: core/applicationmodel.cpp:377
-msgid "Known Applications"
-msgstr "Znóné aplikacëje"
 
 #: core/models.cpp:117
 msgid "Home Folder"
@@ -201,6 +200,18 @@ msgstr "Sécowé katalodżi"
 #: core/recentlyusedmodel.cpp:107 core/searchmodel.cpp:221
 msgid "Documents"
 msgstr "Dokùmentë"
+
+#: core/recentlyusedmodel.cpp:178 simpleapplet/simpleapplet.cpp:177
+#, fuzzy
+#| msgid "Recently Used"
+msgid "Recently Used Documents"
+msgstr "Slédno brëkòwóne"
+
+#: core/recentlyusedmodel.cpp:180 simpleapplet/simpleapplet.cpp:176
+#, fuzzy
+#| msgid "Clear Recent Applications"
+msgid "Recently Used Applications"
+msgstr "Wëczëszczë slédné aplikacëje"
 
 #: core/systemmodel.cpp:89
 msgid "Places"
@@ -299,18 +310,6 @@ msgstr "michol@linuxcsb.org,mark@linuxcsb.org"
 msgid "Bookmarks"
 msgstr "Załóżczi"
 
-#: simpleapplet/simpleapplet.cpp:176 simpleapplet/simpleapplet.cpp:559
-#, fuzzy
-#| msgid "Clear Recent Applications"
-msgid "Recently Used Applications"
-msgstr "Wëczëszczë slédné aplikacëje"
-
-#: simpleapplet/simpleapplet.cpp:177 simpleapplet/simpleapplet.cpp:566
-#, fuzzy
-#| msgid "Recently Used"
-msgid "Recently Used Documents"
-msgstr "Slédno brëkòwóne"
-
 #: simpleapplet/simpleapplet.cpp:178
 msgid "System Settings"
 msgstr ""
@@ -379,11 +378,14 @@ msgstr ""
 msgid "Options"
 msgstr "Aplikacëje"
 
-#: simpleapplet/simpleapplet.cpp:545
+#: simpleapplet/simpleapplet.cpp:546
 #, fuzzy
 #| msgid "Applications"
 msgid "Actions"
 msgstr "Aplikacëje"
+
+#~ msgid "Known Applications"
+#~ msgstr "Znóné aplikacëje"
 
 #, fuzzy
 #~| msgid "Lock the screen"
