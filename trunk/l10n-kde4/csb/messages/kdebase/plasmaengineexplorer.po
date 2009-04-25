@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmaengineexplorer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-10 11:07+0200\n"
+"POT-Creation-Date: 2009-04-25 11:43+0200\n"
 "PO-Revision-Date: 2008-12-13 21:17+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: engineexplorer.cpp:57 main.cpp:32
+#: engineexplorer.cpp:57 main.cpp:68
 msgid "Plasma Engine Explorer"
 msgstr "Eksplorera mòtoru Plasmë"
 
@@ -130,53 +130,61 @@ msgstr "Wszëtczé widzawné kòlumnë"
 msgid "S&earch:"
 msgstr "S&zëkba:"
 
-#: main.cpp:27
+#: main.cpp:31
 msgid "Explore the data published by Plasma DataEngines"
 msgstr "Przezérô pòdôwczi pùblikòwóné przez Plasma DataEngines"
 
-#: main.cpp:34
+#: main.cpp:52
+msgid "No description available"
+msgstr ""
+
+#: main.cpp:70
 msgid "(c) 2006, The KDE Team"
 msgstr "(c) 2006, The KDE Team"
 
-#: main.cpp:35
+#: main.cpp:71
 msgid "Aaron J. Seigo"
 msgstr "Aaron J. Seigo"
 
-#: main.cpp:36
+#: main.cpp:72
 msgid "Author and maintainer"
 msgstr "Ùsôdzca ë òpiekùn"
 
-#: main.cpp:42
+#: main.cpp:78
+msgid "Displays a list of known engines and their descriptions"
+msgstr ""
+
+#: main.cpp:79
 msgid "The desired height in pixels"
 msgstr "Żądónô wiżo w pikselach"
 
-#: main.cpp:43
+#: main.cpp:80
 msgid "The desired width in pixels"
 msgstr "Żądónô szérzô w pikselach"
 
-#: main.cpp:44
+#: main.cpp:81
 msgid "The desired x position in pixels"
 msgstr "Żądónô pòzycëjô x w pikselach"
 
-#: main.cpp:45
+#: main.cpp:82
 msgid "The desired y position in pixels"
 msgstr "Żądónô pòzycëjô y w pikselach"
 
-#: main.cpp:46
+#: main.cpp:83
 msgid "The data engine to use"
 msgstr "Mòtór pòdôwków do ùżëcô"
 
-#: main.cpp:47
+#: main.cpp:84
 msgid "The source to request"
 msgstr "Zdroje do wëskrzënieniô"
 
-#: main.cpp:48
+#: main.cpp:85
 #, fuzzy
 #| msgid "Update Interval in milliseconds."
 msgid "Update interval in milliseconds"
 msgstr "Interwał aktualizacëji w milisekùndach."
 
-#: main.cpp:49
+#: main.cpp:86
 msgid ""
 "Only show engines associated with the parent application; maps to the X-KDE-"
 "ParentApp entry in the DataEngine's .desktop file."
