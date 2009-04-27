@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-14 11:09+0200\n"
+"POT-Creation-Date: 2009-04-27 10:59+0200\n"
 "PO-Revision-Date: 2008-12-11 22:25+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -43,7 +43,7 @@ msgstr "Przełączë czedë"
 #: rc.cpp:11
 #, fuzzy
 #| msgid "Window appears"
-msgid "Window Appears"
+msgid "Window appears"
 msgstr "Òkno sã zjôwi"
 
 #. i18n: file: kcm_hotkeys/triggers/window_trigger_widget.ui:38
@@ -51,7 +51,7 @@ msgstr "Òkno sã zjôwi"
 #: rc.cpp:14
 #, fuzzy
 #| msgid "Window disappears"
-msgid "Window Disappears"
+msgid "Window disappears"
 msgstr "Òkno zdżinié"
 
 #. i18n: file: kcm_hotkeys/triggers/window_trigger_widget.ui:45
@@ -59,7 +59,7 @@ msgstr "Òkno zdżinié"
 #: rc.cpp:17
 #, fuzzy
 #| msgid "Window Details"
-msgid "Window Gets Focus"
+msgid "Window gets focus"
 msgstr "Detale òkna"
 
 #. i18n: file: kcm_hotkeys/triggers/window_trigger_widget.ui:52
@@ -67,7 +67,7 @@ msgstr "Detale òkna"
 #: rc.cpp:20
 #, fuzzy
 #| msgid "Windows to Exclude"
-msgid "Window Loses Focus"
+msgid "Window loses focus"
 msgstr "Wëłączoné òkna"
 
 #. i18n: file: kcm_hotkeys/triggers/window_trigger_widget.ui:62
@@ -345,7 +345,7 @@ msgstr "&Nowi"
 #: rc.cpp:146
 #, fuzzy
 #| msgid "Edit..."
-msgid "Edit ..."
+msgid "Edit..."
 msgstr "Edicëjô..."
 
 #. i18n: file: kcm_hotkeys/conditions/conditions_widget.ui:47
@@ -377,7 +377,7 @@ msgstr "Gestë"
 #. i18n: file: kcm_hotkeys/global_settings_widget.ui:63
 #. i18n: ectx: property (text), widget (QLabel, gestures_timeout_label)
 #: rc.cpp:161
-msgid "Timeout"
+msgid "Timeout:"
 msgstr ""
 
 #. i18n: file: kcm_hotkeys/global_settings_widget.ui:76
@@ -391,19 +391,23 @@ msgstr ""
 #: rc.cpp:167
 #, fuzzy
 #| msgid "Mouse button:"
-msgid "Mouse Button"
+msgid "Mouse button:"
 msgstr "Knąpa mëszë:"
 
 #. i18n: file: kcm_hotkeys/actions/dbus_action_widget.ui:18
 #. i18n: ectx: property (text), widget (QLabel, applicationLabel)
 #: rc.cpp:170
-msgid "Remote Application:"
+#, fuzzy
+#| msgid "Remote Application:"
+msgid "Remote application:"
 msgstr "Dalekô programa:"
 
 #. i18n: file: kcm_hotkeys/actions/dbus_action_widget.ui:31
 #. i18n: ectx: property (text), widget (QLabel, objectLabel)
 #: rc.cpp:173
-msgid "Remote Object:"
+#, fuzzy
+#| msgid "Remote Object:"
+msgid "Remote object:"
 msgstr "Daleczi òbiekt:"
 
 #. i18n: file: kcm_hotkeys/actions/dbus_action_widget.ui:44
@@ -434,16 +438,16 @@ msgstr "Zrëszë przezérnik D-Bus"
 #. i18n: ectx: property (text), widget (QRadioButton, active_radio)
 #: rc.cpp:191
 #, fuzzy
-#| msgid "Active window"
-msgid "Active Window"
-msgstr "Aktiwné òkno"
+#| msgid "Active window: "
+msgid "Active window"
+msgstr "Aktiwné òkno: "
 
 #. i18n: file: kcm_hotkeys/actions/keyboard_input_action_widget.ui:43
 #. i18n: ectx: property (text), widget (QRadioButton, specific_radio)
 #: rc.cpp:194
 #, fuzzy
 #| msgid "Specific window"
-msgid "Specific Window"
+msgid "Specific window"
 msgstr "Wëbróné òkno"
 
 #. i18n: file: kcm_hotkeys/actions/keyboard_input_action_widget.ui:50
@@ -451,13 +455,15 @@ msgstr "Wëbróné òkno"
 #: rc.cpp:197
 #, fuzzy
 #| msgid "Action window"
-msgid "Action Window"
+msgid "Action window"
 msgstr "Òkno dzejania"
 
 #. i18n: file: kcm_hotkeys/actions/menuentry_action_widget.ui:19
 #. i18n: ectx: property (text), widget (QLabel, applicationLabel)
 #: rc.cpp:200
-msgid "Application"
+#, fuzzy
+#| msgid "Application"
+msgid "Application:"
 msgstr "Aplikacëjô"
 
 #. i18n: file: kcm_hotkeys/actions/menuentry_action_widget.ui:33
@@ -764,6 +770,11 @@ msgstr ""
 #: libkhotkeysprivate/khotkeysglobal.h:40
 msgid "Menu Editor entries"
 msgstr "Môlë Editora menu"
+
+#, fuzzy
+#~| msgid "Active window"
+#~ msgid "Active Window"
+#~ msgstr "Aktiwné òkno"
 
 #, fuzzy
 #~| msgid "KHotKeys Update"

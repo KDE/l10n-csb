@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-26 10:53+0200\n"
+"POT-Creation-Date: 2009-04-27 10:58+0200\n"
 "PO-Revision-Date: 2009-01-08 19:14+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -487,7 +487,7 @@ msgstr ""
 "Certifikat SSL òstôł òdrzucony zgòdno z żëczbą. Mòżesz to zmienic w Centróm "
 "kòntrolë KDE."
 
-#: kio/jobuidelegate.cpp:130 ../kfile/kdiroperator.cpp:811
+#: kio/jobuidelegate.cpp:130 ../kfile/kdiroperator.cpp:812
 #, kde-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
@@ -495,7 +495,7 @@ msgstr[0] "Na gwës rëmnąc %1 element?"
 msgstr[1] "Na gwës rëmnąc %1 elementë?"
 msgstr[2] "Na gwës rëmnąc %1 elementów?"
 
-#: kio/jobuidelegate.cpp:132 ../kfile/kdiroperator.cpp:813
+#: kio/jobuidelegate.cpp:132 ../kfile/kdiroperator.cpp:814
 msgid "Delete Files"
 msgstr "Rëmôj lopczi"
 
@@ -509,7 +509,7 @@ msgstr[0] "Na gwës rëmnąc %1 element?"
 msgstr[1] "Na gwës rëmnąc %1 elementë?"
 msgstr[2] "Na gwës rëmnąc %1 elementów?"
 
-#: kio/jobuidelegate.cpp:144 ../kfile/kdiroperator.cpp:1848
+#: kio/jobuidelegate.cpp:144 ../kfile/kdiroperator.cpp:1853
 msgid "Move to Trash"
 msgstr "Przesënié do kòsza"
 
@@ -3609,7 +3609,7 @@ msgid "The new file name is empty."
 msgstr ""
 
 #: kfile/kpropertiesdialog.cpp:1488 kfile/kpropertiesdialog.cpp:2669
-#: kfile/kpropertiesdialog.cpp:2973 kfile/kpropertiesdialog.cpp:3227
+#: kfile/kpropertiesdialog.cpp:2973 kfile/kpropertiesdialog.cpp:3224
 #, kde-format
 msgid ""
 "<qt>Could not save properties. You do not have sufficient access to write to "
@@ -3942,20 +3942,20 @@ msgstr ""
 msgid "&Application"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:3158
+#: kfile/kpropertiesdialog.cpp:3155
 #, kde-format
 msgid "Add File Type for %1"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:3159
+#: kfile/kpropertiesdialog.cpp:3156
 msgid "Select one or more file types to add:"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:3301
+#: kfile/kpropertiesdialog.cpp:3298
 msgid "Only executables on local file systems are supported."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:3315
+#: kfile/kpropertiesdialog.cpp:3312
 #, kde-format
 msgid "Advanced Options for %1"
 msgstr ""
@@ -4073,7 +4073,7 @@ msgstr ""
 #. i18n: file: kssl/sslinfo.ui:47
 #. i18n: ectx: property (text), widget (QLabel, ipTag)
 #: rc.cpp:22
-msgid "IP Address:"
+msgid "IP address:"
 msgstr ""
 
 #. i18n: file: kssl/sslinfo.ui:64
@@ -4091,14 +4091,16 @@ msgstr ""
 #. i18n: file: kssl/sslinfo.ui:98
 #. i18n: ectx: property (text), widget (QLabel, sslVersionTag)
 #: rc.cpp:34
-msgid "SSL Version:"
+msgid "SSL version:"
 msgstr ""
 
 #. i18n: file: kssl/sslinfo.ui:115
 #. i18n: ectx: property (text), widget (QLabel, certSelectorTag)
 #: rc.cpp:38
-msgid "Certificate Chain"
-msgstr ""
+#, fuzzy
+#| msgid "SSL Certificate Password"
+msgid "Certificate chain:"
+msgstr "Parola certifikatu SSL"
 
 #. i18n: file: kssl/sslinfo.ui:144
 #. i18n: ectx: property (text), widget (QLabel, trustedTag)
@@ -4115,13 +4117,13 @@ msgstr ""
 #. i18n: file: kssl/sslinfo.ui:178
 #. i18n: ectx: property (text), widget (QLabel, serialTag)
 #: rc.cpp:49
-msgid "Serial Number:"
+msgid "Serial number:"
 msgstr ""
 
 #. i18n: file: kssl/sslinfo.ui:195
 #. i18n: ectx: property (text), widget (QLabel, digestTag)
 #: rc.cpp:53
-msgid "MD5 Digest:"
+msgid "MD5 digest:"
 msgstr ""
 
 #. i18n: file: kssl/keygenwizard.ui:35
@@ -4589,7 +4591,7 @@ msgstr ""
 msgid "Delete Folder"
 msgstr ""
 
-#: bookmarks/kbookmarkmenu.cc:281 ../kfile/kdiroperator.cpp:1948
+#: bookmarks/kbookmarkmenu.cc:281 ../kfile/kdiroperator.cpp:1953
 msgid "Properties"
 msgstr ""
 
@@ -5647,12 +5649,12 @@ msgstr ""
 "Ùsôdzë nowi katalog w:\n"
 "%1"
 
-#: ../kfile/kdirselectdialog.cpp:155 ../kfile/kdiroperator.cpp:764
+#: ../kfile/kdirselectdialog.cpp:155 ../kfile/kdiroperator.cpp:765
 #, kde-format
 msgid "A file or folder named %1 already exists."
 msgstr "Lopk abò katalog ò mionie %1 ju je."
 
-#: ../kfile/kdirselectdialog.cpp:159 ../kfile/kdiroperator.cpp:767
+#: ../kfile/kdirselectdialog.cpp:159 ../kfile/kdiroperator.cpp:768
 msgid "You do not have permission to create that folder."
 msgstr "Ni môsz prawa do ùsôdzaniô negò kataloga."
 
@@ -5761,11 +5763,11 @@ msgstr ""
 msgid "Show Hidden Folders"
 msgstr "Pòkôżë zataconé lopczi"
 
-#: ../kfile/kdiroperator.cpp:729 ../kfile/kdiroperator.cpp:737
+#: ../kfile/kdiroperator.cpp:730 ../kfile/kdiroperator.cpp:738
 msgid "New Folder"
 msgstr ""
 
-#: ../kfile/kdiroperator.cpp:738
+#: ../kfile/kdiroperator.cpp:739
 #, kde-format
 msgid ""
 "Create new folder in:\n"
@@ -5774,15 +5776,15 @@ msgstr ""
 "Ùsôdzë nowi katalog w:\n"
 "%1"
 
-#: ../kfile/kdiroperator.cpp:782
+#: ../kfile/kdiroperator.cpp:783
 msgid "You did not select a file to delete."
 msgstr "Ni môsz wëbrónegò lopka do rëmniãcô"
 
-#: ../kfile/kdiroperator.cpp:783
+#: ../kfile/kdiroperator.cpp:784
 msgid "Nothing to Delete"
 msgstr "Nick do rëmaniô"
 
-#: ../kfile/kdiroperator.cpp:804
+#: ../kfile/kdiroperator.cpp:805
 #, kde-format
 msgid ""
 "<qt>Do you really want to delete\n"
@@ -5791,19 +5793,19 @@ msgstr ""
 "<qt>Na gwës rëmnąc\n"
 " <b>'%1'</b>?</qt>"
 
-#: ../kfile/kdiroperator.cpp:806
+#: ../kfile/kdiroperator.cpp:807
 msgid "Delete File"
 msgstr "Rëmôj lopk"
 
-#: ../kfile/kdiroperator.cpp:844
+#: ../kfile/kdiroperator.cpp:845
 msgid "You did not select a file to trash."
 msgstr "Ni môsz wëbrónegò lopka do przesëniãcô do kòsza."
 
-#: ../kfile/kdiroperator.cpp:845
+#: ../kfile/kdiroperator.cpp:846
 msgid "Nothing to Trash"
 msgstr "Nick do kòsza"
 
-#: ../kfile/kdiroperator.cpp:862
+#: ../kfile/kdiroperator.cpp:863
 #, kde-format
 msgid ""
 "<qt>Do you really want to trash\n"
@@ -5812,16 +5814,16 @@ msgstr ""
 "<qt>Na gwës przesënąc do kòsza\n"
 " <b>'%1'</b>?</qt>"
 
-#: ../kfile/kdiroperator.cpp:864
+#: ../kfile/kdiroperator.cpp:865
 msgid "Trash File"
 msgstr "Lopk kòsza"
 
-#: ../kfile/kdiroperator.cpp:865 ../kfile/kdiroperator.cpp:872
+#: ../kfile/kdiroperator.cpp:866 ../kfile/kdiroperator.cpp:873
 msgctxt "to trash"
 msgid "&Trash"
 msgstr "&Kòsz"
 
-#: ../kfile/kdiroperator.cpp:869
+#: ../kfile/kdiroperator.cpp:870
 #, kde-format
 msgid "translators: not called for n == 1"
 msgid_plural "Do you really want to trash these %1 items?"
@@ -5829,109 +5831,109 @@ msgstr[0] "Na gwës przesënąc %1 element do kòsza?"
 msgstr[1] "Na gwës przesënąc %1 elementë do kòsza?"
 msgstr[2] "Na gwës przesënąc %1 elementów do kòsza?"
 
-#: ../kfile/kdiroperator.cpp:871
+#: ../kfile/kdiroperator.cpp:872
 msgid "Trash Files"
 msgstr "Lopczi kòsza"
 
-#: ../kfile/kdiroperator.cpp:1063 ../kfile/kdiroperator.cpp:1189
+#: ../kfile/kdiroperator.cpp:1064 ../kfile/kdiroperator.cpp:1190
 msgid "The specified folder does not exist or was not readable."
 msgstr "Wëbróny katalog felëje abò felëją prawa do czëtaniô w nim."
 
-#: ../kfile/kdiroperator.cpp:1826
+#: ../kfile/kdiroperator.cpp:1831
 msgid "Menu"
 msgstr "Menu"
 
-#: ../kfile/kdiroperator.cpp:1830
+#: ../kfile/kdiroperator.cpp:1835
 msgid "Parent Folder"
 msgstr "Nôdrzãdny katalog"
 
-#: ../kfile/kdiroperator.cpp:1837
+#: ../kfile/kdiroperator.cpp:1842
 msgid "Home Folder"
 msgstr "Domôcy katalog"
 
-#: ../kfile/kdiroperator.cpp:1840
+#: ../kfile/kdiroperator.cpp:1845
 msgid "Reload"
 msgstr "Zladëjë znowa"
 
-#: ../kfile/kdiroperator.cpp:1843
+#: ../kfile/kdiroperator.cpp:1848
 msgid "New Folder..."
 msgstr "Nowi katalog..."
 
-#: ../kfile/kdiroperator.cpp:1854
+#: ../kfile/kdiroperator.cpp:1859
 msgid "Delete"
 msgstr "Rëmôj"
 
-#: ../kfile/kdiroperator.cpp:1861
+#: ../kfile/kdiroperator.cpp:1866
 msgid "Sorting"
 msgstr "Zortowanié"
 
-#: ../kfile/kdiroperator.cpp:1864
+#: ../kfile/kdiroperator.cpp:1869
 msgid "By Name"
 msgstr "Wedle miona"
 
-#: ../kfile/kdiroperator.cpp:1868
+#: ../kfile/kdiroperator.cpp:1873
 msgid "By Size"
 msgstr "Wedle miarë"
 
-#: ../kfile/kdiroperator.cpp:1872
+#: ../kfile/kdiroperator.cpp:1877
 msgid "By Date"
 msgstr "Wedle datuma"
 
-#: ../kfile/kdiroperator.cpp:1876
+#: ../kfile/kdiroperator.cpp:1881
 msgid "By Type"
 msgstr "Wedle ôrtu"
 
-#: ../kfile/kdiroperator.cpp:1880
+#: ../kfile/kdiroperator.cpp:1885
 msgid "Descending"
 msgstr "Malijąco"
 
-#: ../kfile/kdiroperator.cpp:1890
+#: ../kfile/kdiroperator.cpp:1895
 msgid "Icon Position"
 msgstr ""
 
-#: ../kfile/kdiroperator.cpp:1893
+#: ../kfile/kdiroperator.cpp:1898
 msgid "Next to File Name"
 msgstr ""
 
-#: ../kfile/kdiroperator.cpp:1897
+#: ../kfile/kdiroperator.cpp:1902
 msgid "Above File Name"
 msgstr ""
 
-#: ../kfile/kdiroperator.cpp:1908
+#: ../kfile/kdiroperator.cpp:1913
 msgid "Short View"
 msgstr "Skrodzony wëzdrzatk"
 
-#: ../kfile/kdiroperator.cpp:1913
-msgid "Detailed View"
-msgstr "Detalowi wëzdrzatk"
-
 #: ../kfile/kdiroperator.cpp:1918
-#, fuzzy
-#| msgid "Detailed View"
-msgid "Tree View"
+msgid "Detailed View"
 msgstr "Detalowi wëzdrzatk"
 
 #: ../kfile/kdiroperator.cpp:1923
 #, fuzzy
 #| msgid "Detailed View"
+msgid "Tree View"
+msgstr "Detalowi wëzdrzatk"
+
+#: ../kfile/kdiroperator.cpp:1928
+#, fuzzy
+#| msgid "Detailed View"
 msgid "Detailed Tree View"
 msgstr "Detalowi wëzdrzatk"
 
-#: ../kfile/kdiroperator.cpp:1934
+#: ../kfile/kdiroperator.cpp:1939
 msgid "Show Hidden Files"
 msgstr "Wëskrzëni zataconé lopczi"
 
-#: ../kfile/kdiroperator.cpp:1938
+#: ../kfile/kdiroperator.cpp:1943
 #, fuzzy
 #| msgid "Show Preview"
 msgid "Show Aside Preview"
 msgstr "Pòkôżë pòdzérk"
 
-#: ../kfile/kdiroperator.cpp:1944
+#: ../kfile/kdiroperator.cpp:1949
 msgid "Show Preview"
 msgstr "Pòkôżë pòdzérk"
 
-#: ../kfile/kdiroperator.cpp:1955
+#: ../kfile/kdiroperator.cpp:1960
 msgid "&View"
 msgstr "&Wëzdrzatk"
 
