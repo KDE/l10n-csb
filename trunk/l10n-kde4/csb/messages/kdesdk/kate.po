@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-24 11:14+0200\n"
+"POT-Creation-Date: 2009-04-29 11:57+0200\n"
 "PO-Revision-Date: 2007-02-18 16:37+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -179,12 +179,12 @@ msgid "&Edit"
 msgstr "&Editëjë..."
 
 #. i18n: file: data/kateui.rc:45
-#. i18n: ectx: Menu (documents)
+#. i18n: ectx: Menu (go)
 #: rc.cpp:65
-msgid "&Document"
-msgstr "&Dokùment"
+msgid "&Go"
+msgstr ""
 
-#. i18n: file: data/kateui.rc:51
+#. i18n: file: data/kateui.rc:54
 #. i18n: ectx: Menu (view)
 #: rc.cpp:68
 #, fuzzy
@@ -192,38 +192,40 @@ msgid "&View"
 msgstr "&Wëzdrzatczi nôrzãdzów"
 
 #. i18n: file: data/kateui.rc:57
-#. i18n: ectx: Menu (tools)
+#. i18n: ectx: Menu (view-split)
 #: rc.cpp:71
+#, fuzzy
+#| msgid "Split Ve&rtical"
+msgid "Split View"
+msgstr "Pò&dzelë wertikalno"
+
+#. i18n: file: data/kateui.rc:70
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:74
 #, fuzzy
 msgid "&Tools"
 msgstr "Lëstew nôrzãdzów"
 
-#. i18n: file: data/kateui.rc:64
+#. i18n: file: data/kateui.rc:77
 #. i18n: ectx: Menu (sessions)
-#: rc.cpp:74
+#: rc.cpp:77
 msgid "Sess&ions"
 msgstr "Sesë&je"
 
-#. i18n: file: data/kateui.rc:76
+#. i18n: file: data/kateui.rc:89
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:77
+#: rc.cpp:80
 #, fuzzy
 msgid "&Settings"
 msgstr "Zrëszanié"
 
-#. i18n: file: data/kateui.rc:80
-#. i18n: ectx: Menu (window)
-#: rc.cpp:80
-msgid "&Window"
-msgstr "Òkn&o"
-
-#. i18n: file: data/kateui.rc:95
+#. i18n: file: data/kateui.rc:93
 #. i18n: ectx: Menu (help)
 #: rc.cpp:83
 msgid "&Help"
 msgstr ""
 
-#. i18n: file: data/kateui.rc:100
+#. i18n: file: data/kateui.rc:98
 #. i18n: ectx: ToolBar (mainToolBar)
 #: rc.cpp:86
 #, fuzzy
@@ -786,7 +788,7 @@ msgstr ""
 msgid "Configure"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:69 app/kateconfigdialog.cpp:225
+#: app/kateconfigdialog.cpp:69
 msgid "Application"
 msgstr "Programa"
 
@@ -905,40 +907,32 @@ msgid "&Ask user"
 msgstr "&Pëtôj brëkòwnika"
 
 #: app/kateconfigdialog.cpp:225
-msgid "File Selector"
-msgstr "Wëbiérk lopków"
-
-#: app/kateconfigdialog.cpp:227
-msgid "File Selector Settings"
-msgstr "Rëmanié wëbiérkù lopków"
-
-#: app/kateconfigdialog.cpp:244
 msgid "Document List"
 msgstr "Lësta dokùmentów"
 
-#: app/kateconfigdialog.cpp:245
+#: app/kateconfigdialog.cpp:226
 msgid "Document List Settings"
 msgstr "Rëmanié lëstë dokùmentów"
 
-#: app/kateconfigdialog.cpp:255
+#: app/kateconfigdialog.cpp:236
 msgid "Plugins"
 msgstr "Pluginsë"
 
-#: app/kateconfigdialog.cpp:256
+#: app/kateconfigdialog.cpp:237
 msgid "Plugin Manager"
 msgstr "Menadżer pluginsów"
 
-#: app/kateconfigdialog.cpp:270
+#: app/kateconfigdialog.cpp:251
 #, fuzzy
 msgid "Editor Component"
 msgstr "Wëbierzë kòmpònent editora tekstu"
 
-#: app/kateconfigdialog.cpp:272
+#: app/kateconfigdialog.cpp:253
 #, fuzzy
 msgid "Editor Component Options"
 msgstr "Wëbierzë kòmpònent editora tekstu"
 
-#: app/kateconfigdialog.cpp:424
+#: app/kateconfigdialog.cpp:393
 #, fuzzy
 #| msgid " day(s)"
 msgctxt "The suffix of 'Delete unused meta-information after'"
@@ -948,261 +942,261 @@ msgstr[0] " dni(ów)"
 msgstr[1] " dni(ów)"
 msgstr[2] " dni(ów)"
 
-#: app/katemain.cpp:42
+#: app/katemain.cpp:43
 msgid "Kate"
 msgstr "Kate"
 
-#: app/katemain.cpp:43
+#: app/katemain.cpp:44
 msgid "Kate - Advanced Text Editor"
 msgstr "Kate - Awansowóny editora tekstu dlô KDE"
 
-#: app/katemain.cpp:44
+#: app/katemain.cpp:45
 msgid "(c) 2000-2005 The Kate Authors"
 msgstr "(c) 2000-2005, ùsôdzcë Kate"
 
-#: app/katemain.cpp:46
+#: app/katemain.cpp:47
 msgid "Christoph Cullmann"
 msgstr ""
 
-#: app/katemain.cpp:46
+#: app/katemain.cpp:47
 msgid "Maintainer"
 msgstr "Òpiekùn"
 
-#: app/katemain.cpp:47
+#: app/katemain.cpp:48
 msgid "Anders Lund"
 msgstr ""
 
-#: app/katemain.cpp:47 app/katemain.cpp:48 app/katemain.cpp:49
-#: app/katemain.cpp:55
+#: app/katemain.cpp:48 app/katemain.cpp:49 app/katemain.cpp:50
+#: app/katemain.cpp:56
 msgid "Core Developer"
 msgstr "Programista ze spòdlowégò karna"
 
-#: app/katemain.cpp:48
+#: app/katemain.cpp:49
 #, fuzzy
 msgid "Joseph Wenninger"
 msgstr "Pòsobnica òtmëkaniô"
 
-#: app/katemain.cpp:49
+#: app/katemain.cpp:50
 msgid "Hamish Rodda"
 msgstr ""
 
-#: app/katemain.cpp:50
+#: app/katemain.cpp:51
 msgid "Dominik Haumann"
 msgstr ""
 
-#: app/katemain.cpp:50
+#: app/katemain.cpp:51
 msgid "Developer & Highlight wizard"
 msgstr "Programòwanié, asystenta pòdskrzënianiô"
 
-#: app/katemain.cpp:51
+#: app/katemain.cpp:52
 msgid "Waldo Bastian"
 msgstr ""
 
-#: app/katemain.cpp:51
+#: app/katemain.cpp:52
 msgid "The cool buffersystem"
 msgstr "Dobrô systema bùforowaniô"
 
-#: app/katemain.cpp:52
+#: app/katemain.cpp:53
 msgid "Charles Samuels"
 msgstr ""
 
-#: app/katemain.cpp:52
+#: app/katemain.cpp:53
 msgid "The Editing Commands"
 msgstr "Pòlét edicëji"
 
-#: app/katemain.cpp:53
+#: app/katemain.cpp:54
 msgid "Matt Newell"
 msgstr ""
 
-#: app/katemain.cpp:53
+#: app/katemain.cpp:54
 msgid "Testing, ..."
 msgstr "Testowanié, ..."
 
-#: app/katemain.cpp:54
+#: app/katemain.cpp:55
 msgid "Michael Bartl"
 msgstr ""
 
-#: app/katemain.cpp:54
+#: app/katemain.cpp:55
 msgid "Former Core Developer"
 msgstr "Rëchliszi programista ze spòdlowegò karna"
 
-#: app/katemain.cpp:55
+#: app/katemain.cpp:56
 msgid "Michael McCallum"
 msgstr ""
 
-#: app/katemain.cpp:56
+#: app/katemain.cpp:57
 msgid "Jochen Wilhemly"
 msgstr ""
 
-#: app/katemain.cpp:56
+#: app/katemain.cpp:57
 msgid "KWrite Author"
 msgstr "Ùsôdzca KWrite"
 
-#: app/katemain.cpp:57
+#: app/katemain.cpp:58
 msgid "Michael Koch"
 msgstr ""
 
-#: app/katemain.cpp:57
+#: app/katemain.cpp:58
 msgid "KWrite port to KParts"
 msgstr "Pòrt Kwrite do KParts"
 
-#: app/katemain.cpp:58
+#: app/katemain.cpp:59
 msgid "Christian Gebauer"
 msgstr ""
 
-#: app/katemain.cpp:59
+#: app/katemain.cpp:60
 msgid "Simon Hausmann"
 msgstr ""
 
-#: app/katemain.cpp:60
+#: app/katemain.cpp:61
 msgid "Glen Parker"
 msgstr ""
 
-#: app/katemain.cpp:60
+#: app/katemain.cpp:61
 msgid "KWrite Undo History, Kspell integration"
 msgstr "Wielorówniowé copanié, integracëjô KSpella"
 
-#: app/katemain.cpp:61
+#: app/katemain.cpp:62
 msgid "Scott Manson"
 msgstr ""
 
-#: app/katemain.cpp:61
+#: app/katemain.cpp:62
 msgid "KWrite XML Syntax highlighting support"
 msgstr "Wspiarce pòdskrzënianiô syntaksë XML"
 
-#: app/katemain.cpp:62
+#: app/katemain.cpp:63
 msgid "John Firebaugh"
 msgstr ""
 
-#: app/katemain.cpp:62
+#: app/katemain.cpp:63
 msgid "Patches and more"
 msgstr "Łatë ë wicy"
 
-#: app/katemain.cpp:64
+#: app/katemain.cpp:65
 msgid "Matteo Merli"
 msgstr ""
 
-#: app/katemain.cpp:64
+#: app/katemain.cpp:65
 msgid "Highlighting for RPM Spec-Files, Perl, Diff and more"
 msgstr "Pòdskrzënianié lopków RPM Spec, Perla, Diffa ë jinszëch"
 
-#: app/katemain.cpp:65
+#: app/katemain.cpp:66
 msgid "Rocky Scaletta"
 msgstr ""
 
-#: app/katemain.cpp:65
+#: app/katemain.cpp:66
 msgid "Highlighting for VHDL"
 msgstr "Pòdskrzënianié syntaksë VHDL"
 
-#: app/katemain.cpp:66
+#: app/katemain.cpp:67
 msgid "Yury Lebedev"
 msgstr ""
 
-#: app/katemain.cpp:66
+#: app/katemain.cpp:67
 msgid "Highlighting for SQL"
 msgstr "Pòdskrzënianié syntaksë SQL"
 
-#: app/katemain.cpp:67
+#: app/katemain.cpp:68
 msgid "Chris Ross"
 msgstr ""
 
-#: app/katemain.cpp:67
+#: app/katemain.cpp:68
 msgid "Highlighting for Ferite"
 msgstr "Pòdskrzënianié syntaksë Ferite"
 
-#: app/katemain.cpp:68
+#: app/katemain.cpp:69
 msgid "Nick Roux"
 msgstr ""
 
-#: app/katemain.cpp:68
+#: app/katemain.cpp:69
 msgid "Highlighting for ILERPG"
 msgstr "Pòdskrzënianié syntaksë ILERPG"
 
-#: app/katemain.cpp:69
+#: app/katemain.cpp:70
 msgid "Carsten Niehaus"
 msgstr ""
 
-#: app/katemain.cpp:69
+#: app/katemain.cpp:70
 msgid "Highlighting for LaTeX"
 msgstr "Pòdskrzënianié syntaksë LateX-a"
 
-#: app/katemain.cpp:70
+#: app/katemain.cpp:71
 msgid "Per Wigren"
 msgstr ""
 
-#: app/katemain.cpp:70
+#: app/katemain.cpp:71
 msgid "Highlighting for Makefiles, Python"
 msgstr "Pòdskrzënianié syntaksë Makefile ë Pythona"
 
-#: app/katemain.cpp:71
+#: app/katemain.cpp:72
 msgid "Jan Fritz"
 msgstr ""
 
-#: app/katemain.cpp:71
+#: app/katemain.cpp:72
 msgid "Highlighting for Python"
 msgstr "Pòdskrzënianié syntaksë Pythona"
 
-#: app/katemain.cpp:72
+#: app/katemain.cpp:73
 msgid "Daniel Naber"
 msgstr ""
 
-#: app/katemain.cpp:73
+#: app/katemain.cpp:74
 msgid "Roland Pabel"
 msgstr ""
 
-#: app/katemain.cpp:73
+#: app/katemain.cpp:74
 msgid "Highlighting for Scheme"
 msgstr "Pòdskrzënianié syntaksë Scheme"
 
-#: app/katemain.cpp:74
+#: app/katemain.cpp:75
 msgid "Cristi Dumitrescu"
 msgstr ""
 
-#: app/katemain.cpp:74
+#: app/katemain.cpp:75
 msgid "PHP Keyword/Datatype list"
 msgstr "Lësta kluczowich słów ë ôrtów pòdôwków PHP"
 
-#: app/katemain.cpp:75
+#: app/katemain.cpp:76
 msgid "Carsten Pfeiffer"
 msgstr ""
 
-#: app/katemain.cpp:75
+#: app/katemain.cpp:76
 msgid "Very nice help"
 msgstr "Miłô pòmòc"
 
-#: app/katemain.cpp:76
+#: app/katemain.cpp:77
 msgid "All people who have contributed and I have forgotten to mention"
 msgstr "Wszëtcë, jaczi pòmòglë ë ò jaczich jô zabëł wspòmnąc"
 
-#: app/katemain.cpp:83
+#: app/katemain.cpp:84
 msgid "Start Kate with a given session"
 msgstr "Zrëszë Kate z pòdaną sesëją"
 
-#: app/katemain.cpp:85
+#: app/katemain.cpp:86
 msgid "Use a already running kate instance (if possible)"
 msgstr "Ùżëjë ju zrëszoną sesëjã Kate (eżlë mòżlëwé)"
 
-#: app/katemain.cpp:87
+#: app/katemain.cpp:88
 msgid "Only try to reuse kate instance with this pid"
 msgstr "Spróbùjë ùżëc sesëji Kate blós z tim PID"
 
-#: app/katemain.cpp:89
+#: app/katemain.cpp:90
 msgid "Set encoding for the file to open"
 msgstr "Nastôwi kòdowanié dlô òtmëkanegò lopka"
 
-#: app/katemain.cpp:91
+#: app/katemain.cpp:92
 msgid "Navigate to this line"
 msgstr "Biéj do ti réżczi"
 
-#: app/katemain.cpp:93
+#: app/katemain.cpp:94
 msgid "Navigate to this column"
 msgstr "Biéj do ti szpaltë"
 
-#: app/katemain.cpp:95
+#: app/katemain.cpp:96
 msgid "Read the contents of stdin"
 msgstr "Czëtôj zamkłosc STDIN"
 
-#: app/katemain.cpp:96
+#: app/katemain.cpp:97
 msgid "Document to open"
 msgstr "Dokùment do òtemkniãcô"
 
@@ -1452,7 +1446,9 @@ msgid "Close the currently active splitted view"
 msgstr "Zamkni biéżny, pòdzelony wëzdrzatk"
 
 #: app/kateviewmanager.cpp:138
-msgid "Next View"
+#, fuzzy
+#| msgid "Next View"
+msgid "Next Split View"
 msgstr "Nôslédny wëzdrzatk"
 
 #: app/kateviewmanager.cpp:142
@@ -1460,7 +1456,9 @@ msgid "Make the next split view the active one."
 msgstr "Aktiwùjë nôslédny pòdwëzdrzatk."
 
 #: app/kateviewmanager.cpp:145
-msgid "Previous View"
+#, fuzzy
+#| msgid "Previous View"
+msgid "Previous Split View"
 msgstr "Wczasniészi wëzdrzatk"
 
 #: app/kateviewmanager.cpp:149
@@ -1601,6 +1599,18 @@ msgid ""
 "The file '%1' could not be opened: it is not a normal file, it is a folder."
 msgstr ""
 "Plik '%1' nie mógł òstac òtemkłi, to nie je zwëczajny lopk, to katalog."
+
+#~ msgid "&Document"
+#~ msgstr "&Dokùment"
+
+#~ msgid "&Window"
+#~ msgstr "Òkn&o"
+
+#~ msgid "File Selector"
+#~ msgstr "Wëbiérk lopków"
+
+#~ msgid "File Selector Settings"
+#~ msgstr "Rëmanié wëbiérkù lopków"
 
 #, fuzzy
 #~| msgid "Clear filter"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpat\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-27 11:00+0200\n"
+"POT-Creation-Date: 2009-04-29 11:56+0200\n"
 "PO-Revision-Date: 2008-01-01 11:12+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -23,13 +23,38 @@ msgstr ""
 msgid "Grandfather's Clock"
 msgstr "&Zédżer"
 
-#: dealer.cpp:966
+#: dealer.cpp:967
 msgid "Congratulations! We have won."
 msgstr "Gratulacëje! Mómë dobëté."
 
-#: dealer.cpp:968
+#: dealer.cpp:969
 msgid "Congratulations! You have won."
 msgstr "Gratulacëje! Môsz dobëté."
+
+#: dealer.cpp:2180
+#, fuzzy
+#| msgid ""
+#| "You are already running an unfinished game.  If you abort the old game to "
+#| "start a new one, the old game will be registered as a loss in the "
+#| "statistics file.\n"
+#| "What do you want to do?"
+msgid ""
+"You are already running an unfinished game. If you abort the old game to "
+"start a new one, the old game will be registered as a loss in the statistics "
+"file.\n"
+"What do you want to do?"
+msgstr ""
+"Gra ju dérëje. Jeżlë òprzestaniész jã ë naczniesz nôslédną, stôrô gra bãdze "
+"zapisónô w lopkù rekòrdów jakno przerzniãtô.\n"
+"Co chcesz zrobic?"
+
+#: dealer.cpp:2185
+msgid "Abort Current Game?"
+msgstr "Òprzestac nã grã?"
+
+#: dealer.cpp:2186
+msgid "Abort Current Game"
+msgstr "Òprzestóń nã grã"
 
 #: fortyeight.cpp:181
 #, fuzzy
@@ -94,13 +119,13 @@ msgstr "&Cëgónka"
 msgid "Aces Up"
 msgstr "&Asë"
 
-#: klondike.cpp:136
+#: klondike.cpp:137
 #, fuzzy
 #| msgid "&Klondike"
 msgid "Klondike &Options"
 msgstr "Klondik&e"
 
-#: klondike.cpp:306
+#: klondike.cpp:317
 #, fuzzy
 #| msgid "&Klondike"
 msgid "Klondike"
@@ -311,51 +336,18 @@ msgstr "Ùkłôdanié pasjansa"
 msgid "&Remember State on Exit"
 msgstr ""
 
-#: pwidget.cpp:327
-#, fuzzy
-#| msgid ""
-#| "You are already running an unfinished game.  If you abort the old game to "
-#| "start a new one, the old game will be registered as a loss in the "
-#| "statistics file.\n"
-#| "What do you want to do?"
-msgid ""
-"You are already running an unfinished game. If you abort the old game to "
-"start a new one, the old game will be registered as a loss in the statistics "
-"file.\n"
-"What do you want to do?"
-msgstr ""
-"Gra ju dérëje. Jeżlë òprzestaniész jã ë naczniesz nôslédną, stôrô gra bãdze "
-"zapisónô w lopkù rekòrdów jakno przerzniãtô.\n"
-"Co chcesz zrobic?"
-
-#: pwidget.cpp:332
-msgid "Abort Current Game?"
-msgstr "Òprzestac nã grã?"
-
-#: pwidget.cpp:333
-msgid "Abort Current Game"
-msgstr "Òprzestóń nã grã"
-
-#: pwidget.cpp:373
+#: pwidget.cpp:350
 #, kde-format
 msgid "Help &with %1"
 msgstr ""
 
-#: pwidget.cpp:404
+#: pwidget.cpp:380
 #, fuzzy
 #| msgid "Abort Current Game"
 msgid "Help &with Current Game"
 msgstr "Òprzestóń nã grã"
 
-#: pwidget.cpp:545
-#, kde-format
-msgid "1 move"
-msgid_plural "%1 moves"
-msgstr[0] "1 zrëch"
-msgstr[1] "%1 zrëchë"
-msgstr[2] "%1 zrëchów"
-
-#: pwidget.cpp:551
+#: pwidget.cpp:521
 #, fuzzy
 #| msgid ""
 #| "Enter a game number (FreeCell deals are the same as in the FreeCell FAQ):"
@@ -365,56 +357,64 @@ msgstr ""
 "Wpiszë numer dôwaniô kartów (numrë dlô pasjansë FreeCell są òpisóné w FAQ "
 "dlô FreeCell):"
 
-#: pwidget.cpp:552
+#: pwidget.cpp:522
 msgid "Enter a game number:"
 msgstr ""
 
-#: pwidget.cpp:554
+#: pwidget.cpp:524
 msgid "Game Number"
 msgstr "Numer grë"
 
-#: pwidget.cpp:566
-msgid "This game is lost."
-msgstr "Ta gra je przerzniãtô."
-
-#: pwidget.cpp:611
+#: pwidget.cpp:577
 #, fuzzy
 #| msgid "The saved game is of unknown type!"
 msgid "The saved game is of an unknown type."
 msgstr "Zapisanô pasjanasa je nieznónegò ôrtu!"
 
-#: pwidget.cpp:616
+#: pwidget.cpp:582
 msgid "The file is not a KPatience saved game."
 msgstr ""
 
-#: pwidget.cpp:621
+#: pwidget.cpp:587
 #, kde-format
 msgid ""
 "The following error occurred while reading the file:\n"
 "\"%1\""
 msgstr ""
 
-#: pwidget.cpp:628
+#: pwidget.cpp:594
 msgid "Unable to load the saved game file."
 msgstr ""
 
-#: pwidget.cpp:666
+#: pwidget.cpp:632
 msgid "This game can still be won! Good luck to you."
 msgstr "Móm dobëté grã! Dobri zwënédżi."
 
-#: pwidget.cpp:671
+#: pwidget.cpp:637
 #, fuzzy
 #| msgid "&Calculation"
 msgid "Calculating..."
 msgstr "&Kalkùlacëje"
 
-#: pwidget.cpp:676
+#: pwidget.cpp:642
 msgid "Nope, this game cannot be won anymore."
 msgstr "Nié, ta gra ni mòże bëc dobëtô."
 
-#: pwidget.cpp:681
+#: pwidget.cpp:647
 msgid "Timeout while playing - unknown if it can be won"
 msgstr ""
+
+#: pwidget.cpp:652
+msgid "This game is lost."
+msgstr "Ta gra je przerzniãtô."
+
+#: pwidget.cpp:657
+#, kde-format
+msgid "1 move"
+msgid_plural "%1 moves"
+msgstr[0] "1 zrëch"
+msgstr[1] "%1 zrëchë"
+msgstr[2] "%1 zrëchów"
 
 #. i18n: file: gamestats.ui:33
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
@@ -474,13 +474,13 @@ msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
 msgid "Simple Simon"
 msgstr "&Simple Simon"
 
-#: spider.cpp:125
+#: spider.cpp:126
 #, fuzzy
 #| msgid "Spider Implementation"
 msgid "Spider &Options"
 msgstr "Implementacëjô pasjansë Spider"
 
-#: spider.cpp:410
+#: spider.cpp:418
 #, fuzzy
 #| msgid "S&pider (Easy)"
 msgid "Spider"
