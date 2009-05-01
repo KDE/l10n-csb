@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpat\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-29 11:56+0200\n"
+"POT-Creation-Date: 2009-05-01 11:13+0200\n"
 "PO-Revision-Date: 2008-01-01 11:12+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -23,15 +23,15 @@ msgstr ""
 msgid "Grandfather's Clock"
 msgstr "&Zédżer"
 
-#: dealer.cpp:967
+#: dealer.cpp:952
 msgid "Congratulations! We have won."
 msgstr "Gratulacëje! Mómë dobëté."
 
-#: dealer.cpp:969
+#: dealer.cpp:954
 msgid "Congratulations! You have won."
 msgstr "Gratulacëje! Môsz dobëté."
 
-#: dealer.cpp:2180
+#: dealer.cpp:2147
 #, fuzzy
 #| msgid ""
 #| "You are already running an unfinished game.  If you abort the old game to "
@@ -48,11 +48,11 @@ msgstr ""
 "zapisónô w lopkù rekòrdów jakno przerzniãtô.\n"
 "Co chcesz zrobic?"
 
-#: dealer.cpp:2185
+#: dealer.cpp:2152
 msgid "Abort Current Game?"
 msgstr "Òprzestac nã grã?"
 
-#: dealer.cpp:2186
+#: dealer.cpp:2153
 msgid "Abort Current Game"
 msgstr "Òprzestóń nã grã"
 
@@ -387,25 +387,29 @@ msgid "Unable to load the saved game file."
 msgstr ""
 
 #: pwidget.cpp:632
-msgid "This game can still be won! Good luck to you."
-msgstr "Móm dobëté grã! Dobri zwënédżi."
+#, fuzzy
+#| msgid "&Calculation"
+msgid "Solver: Calculating..."
+msgstr "&Kalkùlacëje"
 
 #: pwidget.cpp:637
 #, fuzzy
-#| msgid "&Calculation"
-msgid "Calculating..."
-msgstr "&Kalkùlacëje"
+#| msgid "This game is lost."
+msgid "Solver: This game is winnable."
+msgstr "Ta gra je przerzniãtô."
 
 #: pwidget.cpp:642
-msgid "Nope, this game cannot be won anymore."
-msgstr "Nié, ta gra ni mòże bëc dobëtô."
+msgid "Solver: This game is not winnable in its current state."
+msgstr ""
 
 #: pwidget.cpp:647
-msgid "Timeout while playing - unknown if it can be won"
+msgid "Solver: Unable to determine if this game is winnable."
 msgstr ""
 
 #: pwidget.cpp:652
-msgid "This game is lost."
+#, fuzzy
+#| msgid "This game is lost."
+msgid "This game is lost. No moves remain."
 msgstr "Ta gra je przerzniãtô."
 
 #: pwidget.cpp:657
@@ -491,6 +495,12 @@ msgstr "S&pider (prosti)"
 #| msgid "&Yukon"
 msgid "Yukon"
 msgstr "&Yukon"
+
+#~ msgid "This game can still be won! Good luck to you."
+#~ msgstr "Móm dobëté grã! Dobri zwënédżi."
+
+#~ msgid "Nope, this game cannot be won anymore."
+#~ msgstr "Nié, ta gra ni mòże bëc dobëtô."
 
 #~ msgid "&Settings"
 #~ msgstr "Ù&stôwë"
