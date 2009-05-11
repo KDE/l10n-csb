@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_extragear-multimedia_amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-10 09:22+0000\n"
+"POT-Creation-Date: 2009-05-11 11:05+0000\n"
 "PO-Revision-Date: 2008-07-19 10:51+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi\n"
@@ -59,21 +59,6 @@ msgctxt "Name"
 msgid "Songkick Data Engine"
 msgstr "Mòtór tekstów"
 
-#: src/amarok.desktop:4
-msgctxt "Name"
-msgid "Amarok"
-msgstr "Amarok"
-
-#: src/amarok.desktop:12
-msgctxt "GenericName"
-msgid "Audio Player"
-msgstr "Grôcz aùdio"
-
-#: src/amarok.desktop:60
-msgctxt "Comment"
-msgid "Amarok - Rediscover Your Music!"
-msgstr "Amarok - òdrëjë znowa swòją mùzykã"
-
 #: src/amarok_addaspodcast.desktop:5
 msgctxt "Name"
 msgid "Add as Podcast to Amarok"
@@ -98,6 +83,21 @@ msgstr "Dodôj ë grôj"
 msgctxt "Name"
 msgid "Queue Track"
 msgstr "Dodôj do rédżi"
+
+#: src/amarok.desktop:4
+msgctxt "Name"
+msgid "Amarok"
+msgstr "Amarok"
+
+#: src/amarok.desktop:12
+msgctxt "GenericName"
+msgid "Audio Player"
+msgstr "Grôcz aùdio"
+
+#: src/amarok.desktop:60
+msgctxt "Comment"
+msgid "Amarok - Rediscover Your Music!"
+msgstr "Amarok - òdrëjë znowa swòją mùzykã"
 
 #: src/amarok_play_audiocd.desktop:7
 msgctxt "Name"
@@ -332,16 +332,6 @@ msgctxt "Comment"
 msgid "Amarok Data Engine"
 msgstr "Mòtór pòdôwków Amaroka"
 
-#: src/services/ampache/amarok_service_ampache.desktop:5
-msgctxt "Name"
-msgid "Ampache"
-msgstr ""
-
-#: src/services/ampache/amarok_service_ampache.desktop:7
-msgctxt "Comment"
-msgid "Listen to music from an Ampache server"
-msgstr ""
-
 #: src/services/ampache/amarok_service_ampache_config.desktop:11
 msgctxt "Name"
 msgid "Ampache Service Config"
@@ -352,6 +342,16 @@ msgctxt "Comment"
 msgid "Sets up the ampache server(s) to connect to"
 msgstr ""
 
+#: src/services/ampache/amarok_service_ampache.desktop:5
+msgctxt "Name"
+msgid "Ampache"
+msgstr ""
+
+#: src/services/ampache/amarok_service_ampache.desktop:7
+msgctxt "Comment"
+msgid "Listen to music from an Ampache server"
+msgstr ""
+
 #: src/services/jamendo/amarok_service_jamendo.desktop:5
 msgctxt "Name"
 msgid "Jamendo"
@@ -360,6 +360,16 @@ msgstr ""
 #: src/services/jamendo/amarok_service_jamendo.desktop:7
 msgctxt "Comment"
 msgid "Listen to and download music uploaded by independent artists"
+msgstr ""
+
+#: src/services/lastfm/amarok_service_lastfm_config.desktop:11
+msgctxt "Name"
+msgid "Last.fm Service Config"
+msgstr "Kònfigùrator serwisu Last.fm"
+
+#: src/services/lastfm/amarok_service_lastfm_config.desktop:54
+msgctxt "Comment"
+msgid "Set up Last.fm username and password"
 msgstr ""
 
 #: src/services/lastfm/amarok_service_lastfm.desktop:5
@@ -375,14 +385,14 @@ msgctxt "Comment"
 msgid "A service that integrates last.fm functionality into Amarok"
 msgstr ""
 
-#: src/services/lastfm/amarok_service_lastfm_config.desktop:11
+#: src/services/magnatune/amarok_service_magnatunestore_config.desktop:11
 msgctxt "Name"
-msgid "Last.fm Service Config"
-msgstr "Kònfigùrator serwisu Last.fm"
+msgid "MagnatuneStore Service Config"
+msgstr ""
 
-#: src/services/lastfm/amarok_service_lastfm_config.desktop:54
+#: src/services/magnatune/amarok_service_magnatunestore_config.desktop:50
 msgctxt "Comment"
-msgid "Set up Last.fm username and password"
+msgid "Configure Magnatune store settings and memberships credentials"
 msgstr ""
 
 #: src/services/magnatune/amarok_service_magnatunestore.desktop:5
@@ -395,14 +405,14 @@ msgctxt "Comment"
 msgid "Preview and buy music from the non-evil Magnatune record label"
 msgstr ""
 
-#: src/services/magnatune/amarok_service_magnatunestore_config.desktop:11
+#: src/services/mp3tunes/amarok_service_mp3tunes_config.desktop:11
 msgctxt "Name"
-msgid "MagnatuneStore Service Config"
+msgid "Mp3tunes Service Config"
 msgstr ""
 
-#: src/services/magnatune/amarok_service_magnatunestore_config.desktop:50
+#: src/services/mp3tunes/amarok_service_mp3tunes_config.desktop:51
 msgctxt "Comment"
-msgid "Configure Magnatune store settings and memberships credentials"
+msgid "Configure mp3tunes credentials"
 msgstr ""
 
 #: src/services/mp3tunes/amarok_service_mp3tunes.desktop:5
@@ -413,16 +423,6 @@ msgstr ""
 #: src/services/mp3tunes/amarok_service_mp3tunes.desktop:10
 msgctxt "Comment"
 msgid "Browse and listen to the music stored in your mp3tunes account"
-msgstr ""
-
-#: src/services/mp3tunes/amarok_service_mp3tunes_config.desktop:11
-msgctxt "Name"
-msgid "Mp3tunes Service Config"
-msgstr ""
-
-#: src/services/mp3tunes/amarok_service_mp3tunes_config.desktop:51
-msgctxt "Comment"
-msgid "Configure mp3tunes credentials"
 msgstr ""
 
 #: src/services/opmldirectory/amarok_service_opmldirectory.desktop:5
@@ -465,15 +465,15 @@ msgctxt "Comment"
 msgid "Default Amarok Context Theme"
 msgstr "Domëslnô téma kòntekstu Amaroka"
 
-#: supplementary_scripts/neon/tools/desktopfiles/amarok-nightly-kcm-phonon.desktop:4
-msgctxt "Name"
-msgid "Amarok Nightly Audio Configuration"
-msgstr ""
-
 #: supplementary_scripts/neon/tools/desktopfiles/amarok-nightly.desktop:4
 msgctxt "Name"
 msgid "Amarok Nightly"
 msgstr "Amarok Nightly"
+
+#: supplementary_scripts/neon/tools/desktopfiles/amarok-nightly-kcm-phonon.desktop:4
+msgctxt "Name"
+msgid "Amarok Nightly Audio Configuration"
+msgstr ""
 
 #: supplementary_scripts/neon/tools/kde/xsessions/kde4-neon.desktop:6
 msgctxt "Name"
