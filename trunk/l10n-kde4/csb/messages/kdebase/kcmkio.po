@@ -3,19 +3,20 @@
 # Version: $Revision$
 # Michôł Òstrowsczi <michol@linuxcsb.org>, 2007.
 # Mark Kwidzińsczi <mark@linuxcsb.org>, 2008, 2009.
+# Mark Kwidzińśczi <mark@linuxcsb.org>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-05-04 12:00+0200\n"
-"PO-Revision-Date: 2009-01-08 18:53+0100\n"
-"Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
-"Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
+"PO-Revision-Date: 2009-05-13 19:43+0200\n"
+"Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
+"Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 ">\n"
-"X-Generator: Lokalize 0.2\n"
+"X-Generator: Lokalize 0.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
@@ -103,7 +104,6 @@ msgid "Unable to delete cookies as requested."
 msgstr "Ni mòże rëmnąc żądónëch kùszków."
 
 #: kcookiesmanagement.cpp:241
-#, fuzzy
 #| msgid "<h1>Cookies Management Quick Help</h1>"
 msgid "<h1>Cookie Management Quick Help</h1>"
 msgstr "<h1>Sprôwianié kùszkama - chùtka pòmòc</h1>"
@@ -443,8 +443,7 @@ msgstr "lan:/ Iosla&ve"
 msgid "Timeout Values"
 msgstr "Czasowé limitë"
 
-#: netpref.cpp:32
-#, fuzzy, kde-format
+#: netpref.cpp:32, kde-format
 #| msgid ""
 #| "Here you can set timeout values. You might want to tweak them if your "
 #| "connection is very slow. The maximum allowed value is %1 seconds."
@@ -456,7 +455,7 @@ msgid_plural ""
 "connection is very slow. The maximum allowed value is %1 seconds."
 msgstr[0] ""
 "Tuwò mòże wpisac czsowé limitë. Jich zjinakô mòże bëc pòmòcnô przë baro "
-"wòlnëch sparłãczeniach. Maksymalno dopùszczalnô wôrtnota to: %1 sek."
+"wòlnëch sparłãczeniach. Maksymalno dopùszczalnô wôrtnota to 1 sekùnda."
 msgstr[1] ""
 "Tuwò mòże wpisac czsowé limitë. Jich zjinakô mòże bëc pòmòcnô przë baro "
 "wòlnëch sparłãczeniach. Maksymalno dopùszczalnô wôrtnota to: %1 sek."
@@ -597,10 +596,9 @@ msgstr ""
 #. i18n: file: bookmarks.ui:74
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:32
-#, fuzzy
 #| msgid "Number of columns to show"
 msgid "Number of columns to show:"
-msgstr "Wielëna kòlumnów do wëskrzënieniô"
+msgstr "Wielëna kòlumnów do wëskrzënieniô:"
 
 #. i18n: file: bookmarks.ui:109
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbShowBackgrounds)
@@ -996,7 +994,6 @@ msgstr "Bezpiecznô:"
 #. i18n: file: kcookiespoliciesdlg.ui:19
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbEnableCookies)
 #: rc.cpp:212
-#, fuzzy
 #| msgid ""
 #| "<qt>\n"
 #| "Enable cookie support. Normally you will want to have cookie support "
@@ -1013,10 +1010,10 @@ msgid ""
 "</qt>"
 msgstr ""
 "<qt>\n"
-"Włączô wspiarcé dlô kùszków. Zwëczajno je wôrt miec kùszczi włączoné ë "
-"dopasowóné do swòjich priwatnëch wëmôganiów. <p>\n"
+"<p>Włączô wspiarcé dlô kùszków. Zwëczajno je wôrt miec kùszczi włączoné ë "
+"dopasowóné do swòjich priwatnëch wëmôganiów. </p><p>\n"
 "Bôczëta na to, że wëłączenié kùszków mòże ùniemòżlëwic brëkùnk wielu "
-"serwerów.\n"
+"serwerów.</p>\n"
 "</qt>"
 
 #. i18n: file: kcookiespoliciesdlg.ui:22
@@ -1055,7 +1052,6 @@ msgstr "Akceptëjë &blós kùszczi z przezérónegò serwera"
 #. i18n: file: kcookiespoliciesdlg.ui:47
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbAutoAcceptSessionCookies)
 #: rc.cpp:229
-#, fuzzy
 #| msgid ""
 #| "<qt>\n"
 #| "Automatically accept temporary cookies meant to expire at the end of the "
@@ -1080,11 +1076,13 @@ msgid ""
 "</qt>"
 msgstr ""
 "<qt>\n"
-"Aùtomatno akceptëjë timczasné kùszczi, rëmóné na kùńc sesëji. Taczé kùszczi "
-"nie bãdą zapisëwóné na diskù ë òstaną rëmniãté pò zamkniãcu programë.<p>\n"
+"<p>Aùtomatno akceptëjë timczasné kùszczi, rëmóné na kùńc sesëji. Taczé "
+"kùszczi "
+"nie bãdą zapisëwóné na diskù ë òstaną rëmniãté pò zamkniãcu programë.</p><p>"
+"\n"
 "<u>BÔCZËNK:</u> na òptacëjô do grëpë z nôslédną mają wëższi prioritet jak "
 "domëszlné nastôwë ë téż te specificzné dlô dónegò serwera. Równoczasno "
-"zwikszô to bezpiek, bò kùszczi òstaną rëmniãté pò zakùńczeniô sesëji.\n"
+"zwikszô to bezpiek, bò kùszczi òstaną rëmniãté pò zakùńczeniô sesëji.</p>\n"
 "</qt>"
 
 #. i18n: file: kcookiespoliciesdlg.ui:50
@@ -1096,7 +1094,6 @@ msgstr "Aùtomatno akceptëjë kùszczi &sesëji"
 #. i18n: file: kcookiespoliciesdlg.ui:60
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbIgnoreCookieExpirationDate)
 #: rc.cpp:238
-#, fuzzy
 #| msgid ""
 #| "<qt>\n"
 #| "Treat all cookies as session cookies. Session cookies are small pieces of "
@@ -1123,12 +1120,12 @@ msgid ""
 "</qt>"
 msgstr ""
 "<qt>\n"
-"Przë włączeniu ti òptacëji wszëtczé kùszczi bãdą trzëmoné jakno timczasné."
+"<p>Przë włączeniu ti òptacëji wszëtczé kùszczi bãdą trzëmoné jakno timczasné."
 "Taczé kùszczi nié bãdą zapisëwóné na diskù ë òstaną rëmniãté pò zamnkniãcu "
-"programë.<p>\n"
+"programë.</p><p>\n"
 "<u>BÔCZËNK:</u> na òptacëjô do grëpë z zôstną mają wëższi prioritet jak "
 "domëszlné nastôwë ë téż te specificzné dlô dónegò serwera. Równoczasno "
-"zwikszô to bezpiek, bò kùszczi òstaną rëmniãté pò zakùńczeniô sesëji.\n"
+"zwikszô to bezpiek, bò kùszczi òstaną rëmniãté pò zakùńczeniô sesëji.</p>\n"
 "</qt>"
 
 #. i18n: file: kcookiespoliciesdlg.ui:63
@@ -1140,7 +1137,6 @@ msgstr "Trzëmôj wszëtczé kùszczi jakno &timczasné"
 #. i18n: file: kcookiespoliciesdlg.ui:83
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, bgDefault)
 #: rc.cpp:247
-#, fuzzy
 #| msgid ""
 #| "<qt>\n"
 #| "Determines how cookies received from a remote machine will be handled: \n"
@@ -1178,7 +1174,7 @@ msgstr ""
 "<li><b>Òdrzucë</b> - òdrzucô wszëtczé kùszczi</li>\n"
 "</ul><p>\n"
 "<u>BÔCZËNK:</u> nastôwë dlô apartnëch domenów mògą zmienic wëższé domëszlné "
-"nastôwë.\n"
+"nastôwë.</p>\n"
 "</qt>"
 
 #. i18n: file: kcookiespoliciesdlg.ui:86
