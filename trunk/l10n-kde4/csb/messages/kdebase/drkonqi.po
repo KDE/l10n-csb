@@ -19,7 +19,6 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2)\n"
 
 #: aboutbugreportingdialog.cpp:34
-#| msgid "&Bug Report"
 msgctxt "@title title of the dialog"
 msgid "About Bug Reporting"
 msgstr "Ò rapòrce ò felë"
@@ -208,7 +207,6 @@ msgid ""
 msgstr ""
 
 #: aboutbugreportingdialog.cpp:137 drkonqibugreport.cpp:98
-#| msgid "&Bug Report"
 msgctxt "@title"
 msgid "Bug Report Keywords"
 msgstr "Kluczowé słowa rapòrtu ò felë"
@@ -657,7 +655,6 @@ msgid ""
 msgstr ""
 
 #: drkonqiassistantpages_bugzilla.cpp:612 getbacktracewidget.cpp:84
-#| msgid "Loading symbols..."
 msgctxt "@info:status"
 msgid "Loading..."
 msgstr "Ladowanié..."
@@ -847,32 +844,29 @@ msgctxt "@title:window"
 msgid "Close Crash Reporting Assistant"
 msgstr ""
 
-#: drkonqi.cpp:188, kde-format
-#| msgid "Backtrace saved to <filename>%1</filename>."
+#: drkonqi.cpp:188
+#, kde-format
 msgctxt "@info"
 msgid "Report saved to <filename>%1</filename>."
 msgstr "Rapòrt òstôł zapisóny do <filename>%1</filename>."
 
 #: drkonqi.cpp:191
-#| msgid "Cannot create a file to save the backtrace in"
 msgctxt "@info"
 msgid "Could not create a file in which to save the report."
 msgstr "Ni mòże ùsôdzëc lopka do zôpisu rapòrtu."
 
 #: drkonqi.cpp:202
-#| msgid "Select Filename"
 msgctxt "@title:window"
 msgid "Select Filename"
 msgstr "Wëbierzë miono lopka"
 
-#: drkonqi.cpp:216, kde-format
-#| msgid "Cannot open file <filename>%1</filename> for writing."
+#: drkonqi.cpp:216
+#, kde-format
 msgctxt "@info"
 msgid "Cannot open file <filename>%1</filename> for writing."
 msgstr "Ni mòże òtemknąc lopka <filename>%1</filename>.do zôpisu."
 
 #: drkonqidialog.cpp:62
-#| msgid "Generate"
 msgctxt "@title:tab general information"
 msgid "&General"
 msgstr "&Spòdlowò"
@@ -899,7 +893,6 @@ msgid ""
 msgstr ""
 
 #: drkonqidialog.cpp:121
-#| msgid "Show details"
 msgctxt "@label"
 msgid "Details:"
 msgstr "Detale:"
@@ -923,7 +916,6 @@ msgid "Starts the bug report assistant."
 msgstr ""
 
 #: drkonqidialog.cpp:152
-#| msgid "&Debugger"
 msgctxt ""
 "@action:button this is the debug menu button label which contains the "
 "debugging applications"
@@ -935,8 +927,8 @@ msgctxt "@info:tooltip"
 msgid "Starts a program to debug the crashed application."
 msgstr ""
 
-#: drkonqidialog.cpp:162 drkonqidialog.cpp:231, kde-format
-#| msgid "<application>%1</application>"
+#: drkonqidialog.cpp:162 drkonqidialog.cpp:231
+#, kde-format
 msgctxt "@action:inmenu 1 is the debugger name"
 msgid "Debug in <application>%1</application>"
 msgstr "Debug w <application>%1</application>"
@@ -970,7 +962,6 @@ msgid ""
 msgstr ""
 
 #: getbacktracewidget.cpp:59
-#| msgid "C&opy"
 msgctxt "@action:button"
 msgid "&Copy"
 msgstr "&Kòpérëjë"
@@ -1080,32 +1071,29 @@ msgid ""
 msgstr ""
 
 #: krashconf.cpp:74
-#| msgctxt "unknown application"
-#| msgid "unknown"
 msgctxt "@info unknown application"
 msgid "unknown"
 msgstr "nieznóny"
 
-#: krashconf.cpp:153, kde-format
-#| msgid "<application>%1</application>"
+#: krashconf.cpp:153
+#, kde-format
 msgctxt "@info/rich"
 msgid "<application>%1</application>"
 msgstr "<application>%1</application>"
 
-#: krashconf.cpp:158 krashconf.cpp:165, kde-format
-#| msgid "<command>%1</command>"
+#: krashconf.cpp:158 krashconf.cpp:165
+#, kde-format
 msgctxt "@info/rich"
 msgid "<command>%1</command>"
 msgstr "<command>%1</command>"
 
-#: krashconf.cpp:171, kde-format
-#| msgid "<filename>%1</filename>"
+#: krashconf.cpp:171
+#, kde-format
 msgctxt "@info/rich"
 msgid "<filename>%1</filename>"
 msgstr "<filename>%1</filename>"
 
 #: main.cpp:41
-#| msgid "KDE crash handler gives the user feedback if a program crashed"
 msgid "The KDE crash handler gives the user feedback if a program has crashed."
 msgstr ""
 "Obsłużënk kriticznëch felów w KDE zezwôlô na przesłanié ùsôdzcom programë "
@@ -1120,7 +1108,6 @@ msgid "(C) 2000-2009, The DrKonqi Authors"
 msgstr ""
 
 #: main.cpp:61
-#| msgid "Hans Petter Bieker"
 msgctxt "@info:credit"
 msgid "Hans Petter Bieker"
 msgstr "Hans Petter Bieker"
@@ -1141,61 +1128,51 @@ msgid "A. L. Spehr"
 msgstr ""
 
 #: main.cpp:74
-#| msgid "The signal number that was caught"
 msgctxt "@info:shell"
 msgid "The signal number that was caught"
 msgstr "Numer ùchwëconegò sygnalu"
 
 #: main.cpp:75
-#| msgid "Name of the program"
 msgctxt "@info:shell"
 msgid "Name of the program"
 msgstr "Miono programë"
 
 #: main.cpp:76
-#| msgid "Path to the executable"
 msgctxt "@info:shell"
 msgid "Path to the executable"
 msgstr "Stegna do programë"
 
 #: main.cpp:77
-#| msgid "The version of the program"
 msgctxt "@info:shell"
 msgid "The version of the program"
 msgstr "Numer wersëji programë"
 
 #: main.cpp:78
-#| msgid "The bug address to use"
 msgctxt "@info:shell"
 msgid "The bug address to use"
 msgstr "Adresa do wësłaniô rapòrtu felë"
 
 #: main.cpp:79
-#| msgid "Translated name of the program"
 msgctxt "@info:shell"
 msgid "Translated name of the program"
 msgstr "Przedolmaczoné miono programë"
 
 #: main.cpp:80
-#| msgid "The PID of the program"
 msgctxt "@info:shell"
 msgid "The PID of the program"
 msgstr "Identifikatora programë (PID)"
 
 #: main.cpp:81
-#| msgid "Startup ID of the program"
 msgctxt "@info:shell"
 msgid "Startup ID of the program"
 msgstr "Sztartowô identifikatora (ID) programë"
 
 #: main.cpp:82
-#| msgid "The program was started by kdeinit"
 msgctxt "@info:shell"
 msgid "The program was started by kdeinit"
 msgstr "Programa bëła zrëszonô przez kdeinit"
 
 #: main.cpp:83
-#| msgid "Disable arbitrary disk access"
 msgctxt "@info:shell"
 msgid "Disable arbitrary disk access"
 msgstr "Wëłączë direktny przistãp do diskù"
