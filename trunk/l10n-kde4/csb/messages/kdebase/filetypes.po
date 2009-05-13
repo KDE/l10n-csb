@@ -2,18 +2,19 @@
 #
 # Mark Kwidzińsczi <mark@linuxcsb.org>, 2007, 2008.
 # Michôł Òstrowsczi <michol@linuxcsb.org>, 2007, 2008.
+# Mark Kwidzińśczi <mark@linuxcsb.org>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: filetypes\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-05-03 11:04+0200\n"
-"PO-Revision-Date: 2008-12-10 21:01+0100\n"
-"Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
-"Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
+"PO-Revision-Date: 2009-05-13 19:28+0200\n"
+"Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
+"Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.2\n"
+"X-Generator: Lokalize 0.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 "n%100>=20) ? 1 : 2);\n"
@@ -53,7 +54,6 @@ msgstr ""
 "wëbrac nową ikònã."
 
 #: filetypedetails.cpp:81
-#, fuzzy
 #| msgid ""
 #| "This button displays the icon associated with the selected file type. "
 #| "Click on it to choose a different icon."
@@ -61,8 +61,8 @@ msgid ""
 "This is the icon associated with the selected file type. Choosing a "
 "different icon requires shared-mime-info to be at least version 0.40."
 msgstr ""
-"Na knąpa wëskrzeni ikònã sparłączoną z wëbrónym ôrtã lopka. Klëkni na niã bë "
-"wëbrac nową ikònã."
+"Je to ikònã sparłãczonô z wëbrónym ôrtã lopka. Bë zmienic ikònã je nót "
+"paczétu \"shared-mime-info\" w wersëji 0.40 abò nowszi."
 
 #: filetypedetails.cpp:87
 msgid "Filename Patterns"
@@ -97,10 +97,9 @@ msgid "Remove the selected filename pattern."
 msgstr "Rëmôj wëbróny mùster lopków."
 
 #: filetypedetails.cpp:136
-#, fuzzy
 #| msgid "Description"
 msgid "Description:"
-msgstr "Òpisënk"
+msgstr "Òpisënk:"
 
 #: filetypedetails.cpp:140
 msgid ""
@@ -194,10 +193,9 @@ msgstr ""
 "rozpòznac ôrt lopka, badérejąc jegò zamkłosc.</p>"
 
 #: filetypesview.cpp:91
-#, fuzzy
 #| msgid "F&ind file type or filename pattern:"
 msgid "Find file type or filename pattern"
-msgstr "Nalé&zë mùstrë mionów abò ôrtów lopków:"
+msgstr "Nalé&zë mùstrë mionów abò ôrtów lopków"
 
 #: filetypesview.cpp:97
 msgid ""
@@ -238,14 +236,13 @@ msgid "Select a file type by name or by extension"
 msgstr "Wëbierzë ôrt lopka wedle miona abò rozszérzenia"
 
 #: filetypesview.cpp:385
-#, fuzzy
 #| msgid "&Remove"
 msgid "&Revert"
-msgstr "&Rëmôj"
+msgstr "&Copni"
 
 #: filetypesview.cpp:386
 msgid "Revert this file type to its initial system-wide definition"
-msgstr ""
+msgstr "Copni nen ôrt lopka do jegò szeroksystemòwi definicëji."
 
 #: filetypesview.cpp:387
 msgid ""
@@ -255,10 +252,17 @@ msgid ""
 "minimize the chances of them being used (but the file type determination "
 "from file contents can still end up using them)."
 msgstr ""
+"Klëkni tuwò, abë doprowdzëc nen ôrt lopka do jegò systemòwi definicëji nazôd."
+"Przez to wszëtczé zjinaczi na tim ôrce lopka òstaną copniãté. Bôczë, że "
+"szeroksystemòwé ôrtë lopków ni mògą bëc rëmóné. Mòże równak wëczëszczëc "
+"przënôlegajcy do nich mùster lopków, przez co zmniszi sã szansa na to, że "
+"nen ôrt lopka bãdze brëkòwóny. Nimò tegò mòże dońc do tegò, że przez "
+"zamkłosc lopka "
+"bãdze òn ùżëwóny."
 
 #: filetypesview.cpp:390
 msgid "Delete this file type definition completely"
-msgstr ""
+msgstr "Rëmôj całowno nã definicëjã ôrta lopka"
 
 #: filetypesview.cpp:391
 msgid ""
@@ -268,6 +272,13 @@ msgid ""
 "of them being used (but the file type determination from file contents can "
 "still end up using them)."
 msgstr ""
+"Klëkni tuwò bë rëmnąc definicëjã negò ôrtu lopka. Je to blós mòżlëwé "
+"ze zdefiniowónëma przez brëkòwnika ôrtama lopków; szeroksystemòwé  ôrtë "
+"lopków "
+"ni mògą bëc rëmniãté. Mòże równak wëczësczëc przënôlegającą do nich "
+"lëstã mùstrów lopków, przez co zmniszi sã szansa na to, że nen ôrt lopka "
+"bãdze brëkòwóny. Nimò tegò mòże dońc do tegò, że przez zamkłosc lopka "
+"bãdze òn ùżëwóny."
 
 #: keditfiletype.cpp:122
 msgid "KEditFileType"
