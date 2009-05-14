@@ -1,17 +1,18 @@
 # translation of kfindpart.po to Kaszëbsczi
 # Michôł Òstrowsczi <michol@linuxcsb.org>, 2007, 2008.
+# Mark Kwidzińśczi <mark@linuxcsb.org>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-04-06 11:01+0200\n"
-"PO-Revision-Date: 2008-07-12 14:44+0200\n"
-"Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
-"Language-Team: Kaszëbsczi\n"
+"PO-Revision-Date: 2009-05-15 00:17+0200\n"
+"Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
+"Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 0.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
@@ -22,7 +23,7 @@ msgstr "Nalezë lopczi/katalodżi"
 #: kfinddlg.cpp:71 kfinddlg.cpp:195
 msgctxt "the application is currently idle, there is no active search"
 msgid "Idle."
-msgstr ""
+msgstr "Idle."
 
 #: kfinddlg.cpp:130 kfinddlg.cpp:234 kfinddlg.cpp:263
 #, kde-format
@@ -53,7 +54,6 @@ msgid "Could not find the specified folder."
 msgstr "Nie mòże nalezc pòdónégò katalogù."
 
 #: kfindpart.cpp:81
-#, fuzzy
 #| msgid "Find Component"
 msgctxt "Name of the component that finds things"
 msgid "Find Component"
@@ -76,60 +76,53 @@ msgid "Inaccessible"
 msgstr "Nieprzistãpny"
 
 #: kfindtreeview.cpp:70
-#, fuzzy
 #| msgid "Name"
 msgctxt "file name column"
 msgid "Name"
 msgstr "Miono"
 
 #: kfindtreeview.cpp:72
-#, fuzzy
 #| msgid "In Subfolder"
 msgctxt "name of the containing folder"
 msgid "In Subfolder"
 msgstr "W pòdkatalogu"
 
 #: kfindtreeview.cpp:74
-#, fuzzy
 #| msgid "Size"
 msgctxt "file size column"
 msgid "Size"
 msgstr "Miara"
 
 #: kfindtreeview.cpp:76
-#, fuzzy
 #| msgid "Modified"
 msgctxt "modified date column"
 msgid "Modified"
 msgstr "Zmòdifikòwóny"
 
 #: kfindtreeview.cpp:78
-#, fuzzy
 #| msgid "Permissions"
 msgctxt "file permissions column"
 msgid "Permissions"
 msgstr "Prawa przistãpù"
 
 #: kfindtreeview.cpp:80
-#, fuzzy
 #| msgid "First Matching Line"
 msgctxt "first matching line of the query string in this file"
 msgid "First Matching Line"
-msgstr "Pierszô słëchającô réza"
+msgstr "Pierszô słëchającô réżka"
 
 #: kfindtreeview.cpp:347
 msgid "&Open containing folder(s)"
-msgstr ""
+msgstr "Ò&temkni katalog(dżi) "
 
 #: kfindtreeview.cpp:351
-#, fuzzy
 #| msgid "Delete"
 msgid "&Delete"
 msgstr "Rëmôj"
 
 #: kfindtreeview.cpp:356
 msgid "&Move to Trash"
-msgstr ""
+msgstr "&Przeniesë do kòsza"
 
 #: kfindtreeview.cpp:439
 msgid "Save Results As"
@@ -137,11 +130,11 @@ msgstr "Zapiszë wińdzenié jakno"
 
 #: kfindtreeview.cpp:440
 msgid "HTML page"
-msgstr ""
+msgstr "Starna HTML"
 
 #: kfindtreeview.cpp:440
 msgid "Text file"
-msgstr ""
+msgstr "Tekstowi lopk"
 
 #: kfindtreeview.cpp:460
 msgid "Unable to save results."
@@ -156,7 +149,6 @@ msgid "Results were saved to file\n"
 msgstr "Rezultat òstôł zapisóny do lopkù\n"
 
 #: kftabdlg.cpp:73
-#, fuzzy
 #| msgid "&Named:"
 msgctxt "this is the label for the name textfield"
 msgid "&Named:"
@@ -188,7 +180,7 @@ msgstr "Brëkùjë &indeksu lopków"
 
 #: kftabdlg.cpp:87
 msgid "Show &hidden files"
-msgstr ""
+msgstr "Wëskrzëni &zataconé lopczi"
 
 #: kftabdlg.cpp:105
 msgid ""
@@ -249,19 +241,18 @@ msgid "hour(s)"
 msgstr "gòdz."
 
 #: kftabdlg.cpp:183
-#, fuzzy
 #| msgid "day(s)"
 msgctxt "use date ranges to search files by modified time"
 msgid "day(s)"
-msgstr "dni"
+msgstr "dzé/dni"
 
 #: kftabdlg.cpp:184
 msgid "month(s)"
-msgstr "miesãcy"
+msgstr "miesãc/miesãcy"
 
 #: kftabdlg.cpp:185
 msgid "year(s)"
-msgstr "lat"
+msgstr "rok/lat"
 
 #: kftabdlg.cpp:203
 msgid "File &size is:"
@@ -276,7 +267,6 @@ msgid "Owned by &group:"
 msgstr "Przenôlégô do &grëpë:"
 
 #: kftabdlg.cpp:225
-#, fuzzy
 #| msgid "(none)"
 msgctxt "file size isn't considered in the search"
 msgid "(none)"
@@ -311,11 +301,10 @@ msgid "GiB"
 msgstr "GiB"
 
 #: kftabdlg.cpp:298
-#, fuzzy
 #| msgid "File &type:"
 msgctxt "label for the file type combobox"
 msgid "File &type:"
-msgstr "Ôr&t lopkù:"
+msgstr "Ôr&t lopka:"
 
 #: kftabdlg.cpp:303
 msgid "C&ontaining text:"
@@ -408,7 +397,6 @@ msgid "Name/&Location"
 msgstr "&Miono/katalog"
 
 #: kftabdlg.cpp:403
-#, fuzzy
 #| msgid "C&ontents"
 msgctxt "tab name: search by contents"
 msgid "C&ontents"
