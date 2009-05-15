@@ -1,18 +1,19 @@
 # translation of kinfocenter.po to Kaszëbsczi
-# Michôł Òstrowsczi <michol@linuxcsb.org>, 2007, 2008.
 # Version: $Revision: 623619 $
+# Michôł Òstrowsczi <michol@linuxcsb.org>, 2007, 2008.
+# Mark Kwidzińśczi <mark@linuxcsb.org>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: kinfocenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-04-24 11:12+0200\n"
-"PO-Revision-Date: 2008-07-12 16:15+0200\n"
-"Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
-"Language-Team: Kaszëbsczi\n"
+"PO-Revision-Date: 2009-05-15 18:44+0200\n"
+"Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
+"Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 0.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
@@ -98,11 +99,13 @@ msgid ""
 "Your sound system could not be queried.  /dev/sndstat does not exist or is "
 "not readable."
 msgstr ""
+"Twòjô zwãkòwô systema ni mòże òstac òdwòłanô. Felëje /dev/sndstat, abò ni "
+"mòże ji czëtac."
 
 #: base/info_fbsd.cpp:173
 msgid ""
 "SCSI subsystem could not be queried: /sbin/camcontrol could not be found"
-msgstr ""
+msgstr "Pòdsystema SCSI  ni mòże òstac òdwòłanô: felëje /sbin/camcontrol"
 
 #: base/info_fbsd.cpp:178
 msgid ""
@@ -158,7 +161,7 @@ msgstr "(nick)"
 
 #: base/info_hpux.cpp:188
 msgid "Number of Active Processors"
-msgstr ""
+msgstr "Wielena aktiwnëch procesów"
 
 #: base/info_hpux.cpp:192
 msgid "CPU Clock"
@@ -189,7 +192,6 @@ msgid "Numerical Coprocessor (FPU)"
 msgstr "Kòòprocesor matematiczny (FPU)"
 
 #: base/info_hpux.cpp:242
-#, fuzzy
 #| msgid "MB"
 msgid " MB"
 msgstr "MB"
@@ -199,7 +201,6 @@ msgid "Total Physical Memory"
 msgstr "Całowô fizycznô pamiãc"
 
 #: base/info_hpux.cpp:245
-#, fuzzy
 #| msgid "Bytes"
 msgid " Bytes"
 msgstr "Bajtów"
@@ -254,11 +255,11 @@ msgstr ""
 
 #: base/info_hpux.cpp:464
 msgid "ALeastSignificant (LSB)"
-msgstr ""
+msgstr "ALeastSignificant (LSB)"
 
 #: base/info_hpux.cpp:466
 msgid "AMostSignificant (MSB)"
-msgstr ""
+msgstr "AMostSignificant (MSB)"
 
 #: base/info_hpux.cpp:466
 msgid "Invalid Bitorder."
@@ -274,7 +275,7 @@ msgstr ""
 
 #: base/info_hpux.cpp:481
 msgid "Input Sources"
-msgstr ""
+msgstr "Zdroje wéńdzenia"
 
 #: base/info_hpux.cpp:483
 msgid "Mono-Microphone"
@@ -302,19 +303,19 @@ msgstr ""
 
 #: base/info_hpux.cpp:496
 msgid "Input Channels"
-msgstr ""
+msgstr "Kanałë wéńdzenia"
 
 #: base/info_hpux.cpp:498 base/info_hpux.cpp:522
 msgid "Mono-Channel"
-msgstr ""
+msgstr "Kanał mono"
 
 #: base/info_hpux.cpp:500 base/info_hpux.cpp:524
 msgid "Left-Channel"
-msgstr ""
+msgstr "Lewi kanał"
 
 #: base/info_hpux.cpp:502 base/info_hpux.cpp:526
 msgid "Right-Channel"
-msgstr ""
+msgstr "Prawi kanał"
 
 #: base/info_hpux.cpp:505
 msgid "Output Destinations"
@@ -322,7 +323,7 @@ msgstr ""
 
 #: base/info_hpux.cpp:507
 msgid "Mono-InternalSpeaker"
-msgstr ""
+msgstr "Bënowi głosnik mono"
 
 #: base/info_hpux.cpp:509
 msgid "Mono-Jack"
@@ -330,11 +331,11 @@ msgstr "Mono Jack"
 
 #: base/info_hpux.cpp:511
 msgid "Left-InternalSpeaker"
-msgstr ""
+msgstr "Lewi bënowi głosnik"
 
 #: base/info_hpux.cpp:513
 msgid "Right-InternalSpeaker"
-msgstr ""
+msgstr "Prawi bënowi głosnik"
 
 #: base/info_hpux.cpp:515
 msgid "Left-Jack"
@@ -346,7 +347,7 @@ msgstr "Prawi Jack"
 
 #: base/info_hpux.cpp:520
 msgid "Output Channels"
-msgstr ""
+msgstr "Kanałë wińdzenia"
 
 #: base/info_hpux.cpp:529
 msgid "Gain"
@@ -454,13 +455,12 @@ msgstr "Fanë"
 
 #: base/info_openbsd.cpp:261
 msgid "Unable to run /sbin/mount."
-msgstr ""
+msgstr "Ni mòże zrëszëc /sbin/mount."
 
 #: base/info_osx.cpp:121
-#, fuzzy
 #| msgid "Device Name: %1"
 msgid "Device Name"
-msgstr "Miono ùrządzenia: %1"
+msgstr "Miono ùrządzenia"
 
 #: base/info_osx.cpp:131
 msgid "Manufacturer"
@@ -552,16 +552,14 @@ msgid "Device Information"
 msgstr ""
 
 #: base/os_base.h:36
-#, fuzzy
 #| msgid "ALSBFirst (LSB)"
 msgid "LSBFirst"
-msgstr "ALSBFirst (LSB)"
+msgstr "LSBFirst"
 
 #: base/os_base.h:38
-#, fuzzy
 #| msgid "AMSBFirst (MSB)"
 msgid "MSBFirst"
-msgstr "AMSBFirst (MSB)"
+msgstr "MSBFirst"
 
 #: base/os_base.h:40
 #, kde-format
@@ -577,18 +575,16 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: base/os_base.h:50
-#, fuzzy
 #| msgid "Bytes"
 msgctxt "singular form: '1 Byte' (yes, it is '1', not '%1'!)"
 msgid "1 Byte"
-msgstr "Bajtów"
+msgstr "1 Bajt"
 
-#: base/os_base.h:52
-#, fuzzy, kde-format
+#: base/os_base.h:52, kde-format
 #| msgid "Bytes"
 msgctxt "plural form: '%1 Bytes'"
 msgid "%1 Bytes"
-msgstr "Bajtów"
+msgstr "%1 bajtów"
 
 #: base/os_base.h:90
 #, kde-format
@@ -662,21 +658,20 @@ msgstr ""
 #: base/os_base.h:148
 #, kde-format
 msgid "Black %1, White %2"
-msgstr ""
+msgstr "Czôrné %1, biôłé %2"
 
 #: base/os_base.h:151
 msgid "Yes"
-msgstr ""
+msgstr "Jo"
 
 #: base/os_base.h:152
 msgid "No"
-msgstr ""
+msgstr "Nié"
 
 #: base/os_base.h:155
-#, fuzzy
 #| msgid "Mount Options"
 msgid "Options"
-msgstr "Òptacëje mountowaniô"
+msgstr "Òptacëje"
 
 #: base/os_base.h:155
 msgid "When mapped"
@@ -693,7 +688,7 @@ msgstr ""
 
 #: base/os_base.h:163
 msgid "unlimited"
-msgstr ""
+msgstr "bez ògrańczeniô"
 
 #: base/os_base.h:169
 msgid "Current Input Event Mask"
@@ -705,10 +700,9 @@ msgid "Event = %1"
 msgstr ""
 
 #: base/os_base.h:208
-#, fuzzy
 #| msgid "General Information"
 msgid "Server Information"
-msgstr "Òglowô wëdowiédzô"
+msgstr "Serwerowô wëdowiédzô"
 
 #: base/os_base.h:214
 msgid "Name of the Display"
@@ -727,10 +721,9 @@ msgid "Vendor Release Number"
 msgstr "Numer producenta"
 
 #: base/os_base.h:226
-#, fuzzy
 #| msgid "Vendor Number"
 msgid "Version Number"
-msgstr "Numer producenta"
+msgstr "Numer wersëji"
 
 #: base/os_base.h:230
 msgid "Available Screens"
@@ -738,16 +731,16 @@ msgstr ""
 
 #: base/os_base.h:240
 msgid "Supported Extensions"
-msgstr ""
+msgstr "Wspieróné rozszerzenia"
 
 #: base/os_base.h:255
 msgid "Supported Pixmap Formats"
-msgstr ""
+msgstr "Wspiéróné fòrmatë piksmapë"
 
 #: base/os_base.h:262
 #, kde-format
 msgid "Pixmap Format #%1"
-msgstr ""
+msgstr "Fòrmat piksmapë #%1"
 
 #: base/os_base.h:262
 #, kde-format
