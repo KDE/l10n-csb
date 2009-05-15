@@ -2,18 +2,19 @@
 #
 # Michôł Òstrowsczi <michol@linuxcsb.org>, 2006, 2007.
 # Mark Kwidzińsczi <mark@linuxcsb.org>, 2008, 2009.
+# Mark Kwidzińśczi <mark@linuxcsb.org>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-05-05 11:20+0200\n"
-"PO-Revision-Date: 2009-01-08 19:00+0100\n"
-"Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
-"Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
+"PO-Revision-Date: 2009-05-15 21:29+0200\n"
+"Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
+"Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.2\n"
+"X-Generator: Lokalize 0.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
@@ -68,25 +69,22 @@ msgstr ""
 
 #: editactiondialog.cpp:32
 msgid "Action Properties"
-msgstr ""
+msgstr "Swòjiznë dzejania"
 
 #: editactiondialog.cpp:136
-#, fuzzy
 #| msgid "<new command>"
 msgid "new command"
-msgstr "<nowé pòlét>"
+msgstr "nowi pòlét"
 
 #: editactiondialog.cpp:138
-#, fuzzy
 #| msgid "Description"
 msgid "Command Description"
-msgstr "Òpisënk"
+msgstr "Òpisënk pòlétu"
 
 #: klipper.cpp:141
-#, fuzzy
 #| msgid "Enable/Disable Clipboard Actions"
 msgid "Enable Clipboard &Actions"
-msgstr "Włączë/Wëłączë dzejania tacnika"
+msgstr "Włączë dzejania &tacnika"
 
 #: klipper.cpp:145
 msgid "C&lear Clipboard History"
@@ -102,17 +100,16 @@ msgstr "&Zakùńczë"
 
 #: klipper.cpp:187
 msgid "Show Klipper Popup-Menu"
-msgstr "Pòkażë pòdrãczné menu Klippera"
+msgstr "Wëskrzëni pòdrãczné menu Klippera"
 
 #: klipper.cpp:192
 msgid "Manually Invoke Action on Current Clipboard"
 msgstr "Rãczno wëwòłôj dzejanié na zamkłoscë tacnika"
 
 #: klipper.cpp:196
-#, fuzzy
 #| msgid "Enable/Disable Clipboard Actions"
 msgid "Enable Clipboard Actions"
-msgstr "Włączë/Wëłączë dzejania tacnika"
+msgstr "Włączë dzejania tacnika"
 
 #: klipper.cpp:485
 msgid ""
@@ -124,7 +121,7 @@ msgstr ""
 
 #: klipper.cpp:513
 msgid "Should Klipper start automatically when you login?"
-msgstr "Czë zrëszac Klippera aùtomatno przë logòwanim?"
+msgstr "Czë zrëszac Klippera aùtomatno przë logòwaniu?"
 
 #: klipper.cpp:514
 msgid "Automatically Start Klipper?"
@@ -136,7 +133,7 @@ msgstr "Zrëszë"
 
 #: klipper.cpp:515
 msgid "Do Not Start"
-msgstr "Nie zrësziwôj"
+msgstr "Ni zrësziwôj"
 
 #: klipper.cpp:986
 msgid "KDE cut & paste history utility"
@@ -215,11 +212,10 @@ msgstr "&Wicy"
 #. i18n: file: actionsconfig.ui:17
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:3 rc.cpp:162
-#, fuzzy
 #| msgctxt "Actions Config"
 #| msgid "Actions"
 msgid "Action list:"
-msgstr "Dzejania"
+msgstr "Lësta dzejania:"
 
 #. i18n: file: actionsconfig.ui:28
 #. i18n: ectx: property (text), widget (ActionsTreeWidget, kcfg_ActionList)
@@ -242,26 +238,23 @@ msgstr "Òpisënk"
 #. i18n: file: actionsconfig.ui:43
 #. i18n: ectx: property (text), widget (QPushButton, pbAddAction)
 #: rc.cpp:12 rc.cpp:171
-#, fuzzy
 #| msgid "&Add Action"
 msgid "Add Action..."
-msgstr "&Dodôj dzejanié"
+msgstr "Dodôj dzejanié..."
 
 #. i18n: file: actionsconfig.ui:50
 #. i18n: ectx: property (text), widget (QPushButton, pbEditAction)
 #: rc.cpp:15 rc.cpp:174
-#, fuzzy
 #| msgid "&Add Action"
 msgid "Edit Action..."
-msgstr "&Dodôj dzejanié"
+msgstr "Editëjë dzejanié..."
 
 #. i18n: file: actionsconfig.ui:57
 #. i18n: ectx: property (text), widget (QPushButton, pbDelAction)
 #: rc.cpp:18 rc.cpp:177
-#, fuzzy
 #| msgid "&Delete Action"
 msgid "Delete Action"
-msgstr "&Rëmôj dzejanié"
+msgstr "Rëmôj dzejanié"
 
 #. i18n: file: actionsconfig.ui:64
 #. i18n: ectx: property (text), widget (QPushButton, pbAdvanced)
@@ -271,8 +264,7 @@ msgstr "Awansowóné"
 
 #. i18n: file: actionsconfig.ui:73
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:25 rc.cpp:184
-#, fuzzy, no-c-format
+#: rc.cpp:25 rc.cpp:184, no-c-format
 #| msgid ""
 #| "For more information about regular expressions, you could have a look at "
 #| "the <a href=\"http://en.wikipedia.org/wiki/Regular_expression\">Wikipedia "
@@ -283,50 +275,50 @@ msgid ""
 "regular expressions, you could have a look at the <a href=\"http://en."
 "wikipedia.org/wiki/Regular_expression\">Wikipedia entry about this topic</a>."
 msgstr ""
-"Pò wicy wëdowiédzë ò regùlarnym wësłowie, zazdzë do <a href=\"http://pl."
-"wikipedia.org/wiki/Wyra%C5%BCenie_regularne\">Wikipedji</a>."
+"Klëkni na wëprzednioné zamkłoscé kòlumnów bë je zmienic. \"%s\" w pòléce "
+"bãdze"
+"zastãpioné zamkłoscą tacnika.<br>Pò wicy wëdowiédzë ò regùlarnym wësłowie, "
+"zazdzë do <a href=\"http://pl."
+"wikipedia.org/wiki/Wyra%C5%BCenie_regularne\">Wikipediji</a>."
 
 #. i18n: file: editactiondialog.ui:20
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:28 rc.cpp:187
 msgid "Action properties:"
-msgstr ""
+msgstr "Swòjiznë dzejania:"
 
 #. i18n: file: editactiondialog.ui:42
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:31 rc.cpp:190
-#, fuzzy
 #| msgid "Regular Expression"
 msgid "Regular expression:"
-msgstr "Regùlarny wësłów"
+msgstr "Regùlarny wësłów:"
 
 #. i18n: file: editactiondialog.ui:52
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:34 rc.cpp:193
-#, fuzzy
 #| msgid "Description"
 msgid "Description:"
-msgstr "Òpisënk"
+msgstr "Òpisënk:"
 
 #. i18n: file: editactiondialog.ui:64
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: rc.cpp:37 rc.cpp:196
 msgid "List of commands for this action:"
-msgstr ""
+msgstr "Lësta pòlétów dlô negò dzejaniô:"
 
 #. i18n: file: editactiondialog.ui:71
 #. i18n: ectx: property (toolTip), widget (QTreeWidget, twCommandList)
 #: rc.cpp:40 rc.cpp:199
 msgid "Double-click an item to edit"
-msgstr ""
+msgstr "Klëkni debelno na element bë gò editowac"
 
 #. i18n: file: editactiondialog.ui:75
 #. i18n: ectx: property (text), widget (QTreeWidget, twCommandList)
 #: rc.cpp:43 rc.cpp:202
-#, fuzzy
 #| msgid "Add Command"
 msgid "Command"
-msgstr "Dodôj pòlét"
+msgstr "Pòlét"
 
 #. i18n: file: editactiondialog.ui:138
 #. i18n: ectx: property (text), widget (QPushButton, pbAddCommand)
@@ -343,32 +335,29 @@ msgstr "Rëmôj pòlét"
 #. i18n: file: generalconfig.ui:16
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PopupAtMousePosition)
 #: rc.cpp:55 rc.cpp:214
-#, fuzzy
 #| msgid "&Popup menu at mouse-cursor position"
 msgid "Popup menu at mouse-cursor position"
-msgstr "&Menu w leżnoscë kùrsora mëszë"
+msgstr "Wëskakùjącé menu w placu kùrsora mëszë"
 
 #. i18n: file: generalconfig.ui:23
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_KeepClipboardContents)
 #: rc.cpp:58 rc.cpp:217
-#, fuzzy
 #| msgid "Save clipboard contents on e&xit"
 msgid "Save clipboard contents on exit"
-msgstr "Zapiszë &tacnik przë wińdzenim"
+msgstr "Zapiszë tacnik przë wińdzenim"
 
 #. i18n: file: generalconfig.ui:30
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_StripWhiteSpace)
 #: rc.cpp:61 rc.cpp:220
 msgid "Remove whitespace when executing actions"
-msgstr "Rëmôj spacëje przë zrëszanim dzejaniów"
+msgstr "Rëmôj spacëje przë zrëszaniu dzejaniów"
 
 #. i18n: file: generalconfig.ui:37
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ReplayActionInHistory)
 #: rc.cpp:64 rc.cpp:223
-#, fuzzy
 #| msgid "&Replay actions on an item selected from history"
 msgid "Replay actions on an item selected from history"
-msgstr "&Zrëszë dzejania na leżnoscë wëbróny z historëji"
+msgstr "Zrëszë dzejania na elemence wëbrónym z historëji"
 
 #. i18n: file: generalconfig.ui:44
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PreventEmptyClipboard)
@@ -377,10 +366,9 @@ msgstr "&Zrëszë dzejania na leżnoscë wëbróny z historëji"
 #. i18n: file: generalconfig.ui:44
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PreventEmptyClipboard)
 #: rc.cpp:67 rc.cpp:115 rc.cpp:226
-#, fuzzy
 #| msgid "Pre&vent empty clipboard"
 msgid "Prevent empty clipboard"
-msgstr "&Nigdë nie czëszczë tacnika"
+msgstr "Nigdë nie czëszczë tacnika"
 
 #. i18n: file: generalconfig.ui:51
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreSelection)
@@ -389,10 +377,9 @@ msgstr "&Nigdë nie czëszczë tacnika"
 #. i18n: file: generalconfig.ui:51
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreSelection)
 #: rc.cpp:70 rc.cpp:121 rc.cpp:229
-#, fuzzy
 #| msgid "&Ignore selection"
 msgid "Ignore selection"
-msgstr "&Ignorëjë wëbiérk"
+msgstr "Ignorëjë wëbiérk"
 
 #. i18n: file: generalconfig.ui:58
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreImages)
@@ -413,24 +400,22 @@ msgstr "Zachówanié tacnika/wëbiérkù"
 #. i18n: file: generalconfig.ui:71
 #. i18n: ectx: property (text), widget (QRadioButton, rbSynchronize)
 #: rc.cpp:79 rc.cpp:238
-#, fuzzy
 #| msgid "Sy&nchronize contents of the clipboard and the selection"
 msgid "Synchronize contents of the clipboard and the selection"
-msgstr "&Synchronizëjë zamkłosc tacnika ë zaznaczenia"
+msgstr "Synchronizëjë zamkłosc tacnika ë zaznaczenia"
 
 #. i18n: file: generalconfig.ui:78
 #. i18n: ectx: property (text), widget (QRadioButton, rbSeparate)
 #: rc.cpp:82 rc.cpp:241
 msgid "Separate clipboard and selection"
-msgstr "Rozdzél tacnik ë zaznaczenié"
+msgstr "Rozparłãczë tacnik ë zaznaczenié"
 
 #. i18n: file: generalconfig.ui:88
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:85 rc.cpp:244
-#, fuzzy
 #| msgid "Tim&eout for action popups:"
 msgid "Timeout for action popups:"
-msgstr "&Czas wëskrzëniwóniô menu dzejaniów:"
+msgstr "Czas wëskrzëniwaniô menu dzejaniów:"
 
 #. i18n: file: generalconfig.ui:98
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_TimeoutForActionPopups)
@@ -441,43 +426,38 @@ msgstr " s."
 #. i18n: file: generalconfig.ui:105
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:91 rc.cpp:250
-#, fuzzy
 #| msgid "C&lipboard history size:"
 msgid "Clipboard history size:"
-msgstr "&Miara historëji tacnika:"
+msgstr "Miara historëji tacnika:"
 
 #. i18n: file: generalconfig.ui:115
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MaxClipItems)
 #: rc.cpp:94 rc.cpp:253
-#, fuzzy
 #| msgid " entry"
 #| msgid_plural " entries"
 msgid " entries"
-msgstr " wéńdzenié"
+msgstr " wéńdzenia"
 
 #. i18n: file: klipper.kcfg:9
 #. i18n: ectx: label, entry (Version), group (General)
 #: rc.cpp:97
-#, fuzzy
 #| msgid "Klipper"
 msgid "Klipper version"
-msgstr "Klipper"
+msgstr "Wersëjô klippera"
 
 #. i18n: file: klipper.kcfg:12
 #. i18n: ectx: label, entry (PopupAtMousePosition), group (General)
 #: rc.cpp:100
-#, fuzzy
 #| msgid "&Popup menu at mouse-cursor position"
 msgid "Popup at mouse position"
-msgstr "&Menu w leżnoscë kùrsora mëszë"
+msgstr "Menu w placu kùrsora mëszë"
 
 #. i18n: file: klipper.kcfg:16
 #. i18n: ectx: label, entry (KeepClipboardContents), group (General)
 #: rc.cpp:103
-#, fuzzy
 #| msgid "Save clipboard contents on e&xit"
 msgid "Keep clipboard contents"
-msgstr "Zapiszë &tacnik przë wińdzenim"
+msgstr "Zatrzëmôj zamkłoscë tacnika"
 
 #. i18n: file: klipper.kcfg:20
 #. i18n: ectx: label, entry (StripWhiteSpace), group (General)
@@ -504,10 +484,9 @@ msgstr ""
 #. i18n: file: klipper.kcfg:25
 #. i18n: ectx: label, entry (ReplayActionInHistory), group (General)
 #: rc.cpp:112
-#, fuzzy
 #| msgid "&Replay actions on an item selected from history"
 msgid "Replay action in history"
-msgstr "&Zrëszë dzejania na leżnoscë wëbróny z historëji"
+msgstr "Zrëszë z historëji dzejanié znowa"
 
 #. i18n: file: klipper.kcfg:31
 #. i18n: ectx: whatsthis, entry (PreventEmptyClipboard), group (General)
@@ -527,22 +506,21 @@ msgid ""
 "This option prevents the selection being recorded in the clipboard history. "
 "Only explicit clipboard changes are recorded."
 msgstr ""
-"Wëbranié ti òptacëji sprawi, że zaznaczony tekst nie mdze dopisywóny do "
+"Wëbiérk ti òptacëji sprawi, że zaznaczony tekst nie mdze dopisywóny do "
 "historëji tacnika - mdã henë blós dzéle jawno kòpiérowóné do tacnika."
 
 #. i18n: file: klipper.kcfg:43
 #. i18n: ectx: label, entry (Synchronize), group (General)
 #: rc.cpp:130
-#, fuzzy
 #| msgid "Separate clipboard and selection"
 msgid "Synchronize clipboard and selection"
-msgstr "Rozdzél tacnik ë zaznaczenié"
+msgstr "Synchronizëjë tacnik ë zaznaczenié"
 
 #. i18n: file: klipper.kcfg:47
 #. i18n: ectx: label, entry (SelectionTextOnly), group (General)
 #: rc.cpp:133
 msgid "Selection text only"
-msgstr ""
+msgstr "Wëbiérk blós tekstu"
 
 #. i18n: file: klipper.kcfg:49
 #. i18n: ectx: whatsthis, entry (SelectionTextOnly), group (General)
@@ -566,41 +544,39 @@ msgstr ""
 #. i18n: ectx: label, entry (UseGUIRegExpEditor), group (General)
 #: rc.cpp:139
 msgid "Use graphical regexp editor"
-msgstr ""
+msgstr "Brëkùjë graficznegò editora regexp"
 
 #. i18n: file: klipper.kcfg:56
 #. i18n: ectx: label, entry (URLGrabberEnabled), group (General)
 #: rc.cpp:142
 msgid "URL grabber enabled"
-msgstr ""
+msgstr "URL grabber włączony"
 
 #. i18n: file: klipper.kcfg:61
 #. i18n: ectx: label, entry (NoActionsForWM_CLASS), group (General)
 #: rc.cpp:145
 msgid "No actions for WM_CLASS"
-msgstr ""
+msgstr "Felëją dzejania dlô WM_CLASS"
 
 #. i18n: file: klipper.kcfg:64
 #. i18n: ectx: label, entry (TimeoutForActionPopups), group (General)
 #: rc.cpp:148
-#, fuzzy
 #| msgid "Tim&eout for action popups:"
 msgid "Timeout for action popups (seconds)"
-msgstr "&Czas wëskrzëniwóniô menu dzejaniów:"
+msgstr "Czas wëskrzëniwóniô menu dzejaniów (sekùndë)"
 
 #. i18n: file: klipper.kcfg:68
 #. i18n: ectx: tooltip, entry (TimeoutForActionPopups), group (General)
 #: rc.cpp:151
 msgid "A value of 0 disables the timeout"
-msgstr "Wôrtosc 0 wëłącza znikanié menu"
+msgstr "Wôrtnota 0 wëłączô znikanié menu"
 
 #. i18n: file: klipper.kcfg:71
 #. i18n: ectx: label, entry (MaxClipItems), group (General)
 #: rc.cpp:154
-#, fuzzy
 #| msgid "C&lipboard history size:"
 msgid "Clipboard history size"
-msgstr "&Miara historëji tacnika:"
+msgstr "Miara historëji tacnika"
 
 #. i18n: file: klipper.kcfg:77
 #. i18n: ectx: label, entry (ActionList), group (General)
