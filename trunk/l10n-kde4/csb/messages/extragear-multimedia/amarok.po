@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-21 11:38+0200\n"
+"POT-Creation-Date: 2009-05-22 11:25+0200\n"
 "PO-Revision-Date: 2009-01-08 18:45+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -523,17 +523,17 @@ msgid "Favorite tracks"
 msgstr "Lubòtny sztëcczi"
 
 #: context/applets/albums/AlbumsView.cpp:109 Systray.cpp:243
-#: browsers/CollectionTreeView.cpp:624
+#: browsers/CollectionTreeView.cpp:716
 #: browsers/filebrowser/MyDirOperator.cpp:271
 #: browsers/playlistbrowser/UserPlaylistModel.cpp:449
-#: browsers/playlistbrowser/PodcastModel.cpp:692
+#: browsers/playlistbrowser/PodcastModel.cpp:693
 #: services/lastfm/LastFmTreeView.cpp:116
 msgid "&Append to Playlist"
 msgstr "&Dodôj do lëstë graniô"
 
 #: context/applets/albums/AlbumsView.cpp:110
 #: browsers/playlistbrowser/UserPlaylistModel.cpp:455
-#: browsers/playlistbrowser/PodcastModel.cpp:705
+#: browsers/playlistbrowser/PodcastModel.cpp:706
 msgctxt "Replace the currently loaded tracks with these"
 msgid "&Load"
 msgstr "Ł&adëjë"
@@ -570,28 +570,28 @@ msgstr[1] "%1 sztëcczi"
 msgstr[2] "%1 sztëczków"
 
 #: context/applets/lyrics/LyricsApplet.cpp:38
-#: context/applets/lyrics/LyricsApplet.cpp:61
-#: context/applets/lyrics/LyricsApplet.cpp:230 dialogs/TagDialog.cpp:582
+#: context/applets/lyrics/LyricsApplet.cpp:59
+#: context/applets/lyrics/LyricsApplet.cpp:227 dialogs/TagDialog.cpp:582
 msgid "Lyrics"
 msgstr "Tekstë"
 
-#: context/applets/lyrics/LyricsApplet.cpp:68
+#: context/applets/lyrics/LyricsApplet.cpp:65
 #, fuzzy
 #| msgid "Lyrics"
 msgid "Reload Lyrics"
 msgstr "Tekstë"
 
-#: context/applets/lyrics/LyricsApplet.cpp:184
+#: context/applets/lyrics/LyricsApplet.cpp:181
 #, fuzzy
 #| msgid "No lyrics script is running!"
 msgid "No lyrics script is running."
 msgstr "Niżóden skript tekstów frantówków nie je zrëszony!"
 
-#: context/applets/lyrics/LyricsApplet.cpp:190
+#: context/applets/lyrics/LyricsApplet.cpp:187
 msgid "Lyrics are being fetched."
 msgstr "Tekst je ladowóny."
 
-#: context/applets/lyrics/LyricsApplet.cpp:196
+#: context/applets/lyrics/LyricsApplet.cpp:193
 #, fuzzy, kde-format
 #| msgid ""
 #| "Lyrics were not able to be downloaded. Please check your internet "
@@ -602,7 +602,7 @@ msgid ""
 msgstr ""
 "Ni mòże zladowac teksta. Proszã sprôwdzëc swòjé pòłączenié z jinternetã."
 
-#: context/applets/lyrics/LyricsApplet.cpp:238
+#: context/applets/lyrics/LyricsApplet.cpp:235
 msgid "There were no lyrics found for this track"
 msgstr "Nie są nalazłé tekstë dlô tegò sztëczka"
 
@@ -1049,7 +1049,7 @@ msgstr "Titel"
 #. i18n: file: dialogs/EditFilterDialog.ui:81
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
 #: dialogs/FilenameLayoutDialog.cpp:117 dialogs/FilenameLayoutDialog.cpp:332
-#: dialogs/transferdialog.cpp:89 browsers/CollectionTreeItemModelBase.cpp:764
+#: dialogs/transferdialog.cpp:89 browsers/CollectionTreeItemModelBase.cpp:772
 #: browsers/collectionbrowser/CollectionWidget.cpp:87
 #: browsers/collectionbrowser/CollectionWidget.cpp:116
 #: browsers/collectionbrowser/CollectionWidget.cpp:148
@@ -1065,7 +1065,7 @@ msgstr "Artista"
 #. i18n: file: dialogs/EditFilterDialog.ui:86
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
 #: dialogs/FilenameLayoutDialog.cpp:118
-#: browsers/CollectionTreeItemModelBase.cpp:765
+#: browsers/CollectionTreeItemModelBase.cpp:773
 #: browsers/collectionbrowser/CollectionWidget.cpp:96
 #: browsers/collectionbrowser/CollectionWidget.cpp:125
 #: browsers/collectionbrowser/CollectionWidget.cpp:157
@@ -1078,7 +1078,7 @@ msgstr "Kòmpòzytor"
 #. i18n: file: dialogs/EditFilterDialog.ui:106
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
 #: dialogs/FilenameLayoutDialog.cpp:119 dialogs/FilenameLayoutDialog.cpp:342
-#: browsers/CollectionTreeItemModelBase.cpp:767
+#: browsers/CollectionTreeItemModelBase.cpp:775
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:250
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:693 rc.cpp:933
 #: playlist/PlaylistModel.cpp:699 widgets/SmartPlaylistEditor.cpp:185
@@ -1089,7 +1089,7 @@ msgstr "Rok"
 #. i18n: file: dialogs/EditFilterDialog.ui:76
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
 #: dialogs/FilenameLayoutDialog.cpp:120 dialogs/FilenameLayoutDialog.cpp:347
-#: dialogs/transferdialog.cpp:90 browsers/CollectionTreeItemModelBase.cpp:763
+#: dialogs/transferdialog.cpp:90 browsers/CollectionTreeItemModelBase.cpp:771
 #: browsers/collectionbrowser/CollectionWidget.cpp:90
 #: browsers/collectionbrowser/CollectionWidget.cpp:119
 #: browsers/collectionbrowser/CollectionWidget.cpp:151
@@ -1110,12 +1110,12 @@ msgstr "Dopòwiesc"
 #. i18n: file: dialogs/EditFilterDialog.ui:91
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
 #: dialogs/FilenameLayoutDialog.cpp:122 dialogs/FilenameLayoutDialog.cpp:357
-#: dialogs/transferdialog.cpp:91 browsers/CollectionTreeItemModelBase.cpp:766
+#: dialogs/transferdialog.cpp:91 browsers/CollectionTreeItemModelBase.cpp:774
 #: browsers/collectionbrowser/CollectionWidget.cpp:93
 #: browsers/collectionbrowser/CollectionWidget.cpp:122
 #: browsers/collectionbrowser/CollectionWidget.cpp:154
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:249 rc.cpp:924
-#: playlist/PlaylistModel.cpp:704 widgets/ProgressiveSearchWidget.cpp:95
+#: playlist/PlaylistModel.cpp:704 widgets/ProgressiveSearchWidget.cpp:96
 #: widgets/SmartPlaylistEditor.cpp:184 widgets/SmartPlaylistEditor.cpp:198
 msgid "Genre"
 msgstr "Zort"
@@ -1180,7 +1180,7 @@ msgid "&Advanced..."
 msgstr "Dodôj ùrządzenie..."
 
 #: dialogs/FilenameLayoutDialog.cpp:337
-#: browsers/CollectionTreeItemModelBase.cpp:540
+#: browsers/CollectionTreeItemModelBase.cpp:548
 msgid "composer"
 msgstr "kòmpòzytor"
 
@@ -2038,22 +2038,22 @@ msgstr "&Czas déraniô"
 msgid "&Update Channel"
 msgstr "&Zaktualni wszëtkò"
 
-#: podcasts/sql/SqlPodcastProvider.cpp:594
+#: podcasts/sql/SqlPodcastProvider.cpp:593
 msgid "Downloading Podcast Media"
 msgstr "Ladowanié mediów podcastu"
 
-#: podcasts/sql/SqlPodcastProvider.cpp:594
+#: podcasts/sql/SqlPodcastProvider.cpp:593
 #, kde-format
 msgid "Downloading Podcast \"%1\""
 msgstr "Ladowanié podcastu \"%1\""
 
-#: podcasts/sql/SqlPodcastProvider.cpp:690
+#: podcasts/sql/SqlPodcastProvider.cpp:689
 #, kde-format
 msgid "Unable to save podcast episode file to %1"
 msgstr ""
 
 #: podcasts/sql/SqlPodcastProvider.h:46
-#: browsers/playlistbrowser/PodcastModel.cpp:595
+#: browsers/playlistbrowser/PodcastModel.cpp:596
 #: services/opmldirectory/OpmlDirectoryService.cpp:235
 msgid "Local Podcasts"
 msgstr "Môlowé podcastë"
@@ -2561,23 +2561,23 @@ msgstr "Stanislav Karchebny"
 msgid "Stefan Bogner"
 msgstr "Stefan Bogner"
 
-#: browsers/CollectionTreeView.cpp:230
+#: browsers/CollectionTreeView.cpp:236
 #: browsers/filebrowser/MyDirOperator.cpp:114
 msgid "Copy to Collection"
 msgstr "Kòpiérëjë do kòlekcëji"
 
-#: browsers/CollectionTreeView.cpp:241
+#: browsers/CollectionTreeView.cpp:247
 #: browsers/filebrowser/MyDirOperator.cpp:105
 msgid "Move to Collection"
 msgstr "Przeniesë do kòlekcëji"
 
-#: browsers/CollectionTreeView.cpp:388 services/lastfm/LastFmTreeView.cpp:204
+#: browsers/CollectionTreeView.cpp:488 services/lastfm/LastFmTreeView.cpp:204
 #, fuzzy
 #| msgid "More.."
 msgid "More..."
 msgstr "Wicy..."
 
-#: browsers/CollectionTreeView.cpp:632
+#: browsers/CollectionTreeView.cpp:724
 #: browsers/filebrowser/MyDirOperator.cpp:272
 #: services/lastfm/LastFmTreeView.cpp:124
 #, fuzzy
@@ -2586,91 +2586,91 @@ msgctxt "Replace the currently loaded tracks with these"
 msgid "&Replace Playlist"
 msgstr "Pòwtórzë lëstã graniô"
 
-#: browsers/CollectionTreeView.cpp:650
+#: browsers/CollectionTreeView.cpp:742
 msgid "&Edit Track Details"
 msgstr "&Editëjë detale sztëczka"
 
-#: browsers/CollectionTreeView.cpp:685
+#: browsers/CollectionTreeView.cpp:777
 msgctxt "Organize Files"
 msgid "Organize Files"
 msgstr "Òrganizëjë lopczi"
 
-#: browsers/CollectionTreeItemModelBase.cpp:525
+#: browsers/CollectionTreeItemModelBase.cpp:533
 msgid "album"
 msgstr "albùm"
 
-#: browsers/CollectionTreeItemModelBase.cpp:530
+#: browsers/CollectionTreeItemModelBase.cpp:538
 msgid "artist"
 msgstr "artista"
 
-#: browsers/CollectionTreeItemModelBase.cpp:535
+#: browsers/CollectionTreeItemModelBase.cpp:543
 msgid "genre"
 msgstr "zort"
 
-#: browsers/CollectionTreeItemModelBase.cpp:545
+#: browsers/CollectionTreeItemModelBase.cpp:553
 msgid "year"
 msgstr "rok"
 
-#: browsers/CollectionTreeItemModelBase.cpp:550
+#: browsers/CollectionTreeItemModelBase.cpp:558
 msgid "comment"
 msgstr "dopòwiesc"
 
-#: browsers/CollectionTreeItemModelBase.cpp:554
+#: browsers/CollectionTreeItemModelBase.cpp:562
 msgid "rating"
 msgstr "notowanié"
 
-#: browsers/CollectionTreeItemModelBase.cpp:558
+#: browsers/CollectionTreeItemModelBase.cpp:566
 msgid "score"
 msgstr "pùnktë"
 
-#: browsers/CollectionTreeItemModelBase.cpp:562
+#: browsers/CollectionTreeItemModelBase.cpp:570
 msgid "playcount"
 msgstr "rechòwnik òdegraniów"
 
-#: browsers/CollectionTreeItemModelBase.cpp:566
+#: browsers/CollectionTreeItemModelBase.cpp:574
 msgid "length"
 msgstr "długòta"
 
-#: browsers/CollectionTreeItemModelBase.cpp:570
+#: browsers/CollectionTreeItemModelBase.cpp:578
 msgid "discnumber"
 msgstr "numer diskù"
 
-#: browsers/CollectionTreeItemModelBase.cpp:574
+#: browsers/CollectionTreeItemModelBase.cpp:582
 msgid "tracknumber"
 msgstr "numer sztëczka"
 
-#: browsers/CollectionTreeItemModelBase.cpp:578
+#: browsers/CollectionTreeItemModelBase.cpp:586
 msgid "added"
 msgstr ""
 
-#: browsers/CollectionTreeItemModelBase.cpp:584
+#: browsers/CollectionTreeItemModelBase.cpp:592
 #, fuzzy
 #| msgid "Modify"
 msgid "today"
 msgstr "Mòdifikùjë"
 
-#: browsers/CollectionTreeItemModelBase.cpp:586
+#: browsers/CollectionTreeItemModelBase.cpp:594
 msgid "last week"
 msgstr ""
 
-#: browsers/CollectionTreeItemModelBase.cpp:588
+#: browsers/CollectionTreeItemModelBase.cpp:596
 #, fuzzy
 #| msgid "Play Count"
 msgid "last month"
 msgstr "Rechòwnik graniô"
 
-#: browsers/CollectionTreeItemModelBase.cpp:590
+#: browsers/CollectionTreeItemModelBase.cpp:598
 msgid "two months ago"
 msgstr ""
 
-#: browsers/CollectionTreeItemModelBase.cpp:592
+#: browsers/CollectionTreeItemModelBase.cpp:600
 #, fuzzy
 #| msgid "One minute ago"
 #| msgid_plural "%1 minutes ago"
 msgid "three months ago"
 msgstr "Jedna minuta nazôd"
 
-#: browsers/CollectionTreeItemModelBase.cpp:763
+#: browsers/CollectionTreeItemModelBase.cpp:771
 msgid "Year - Album"
 msgstr "Rok - Albùm"
 
@@ -5140,13 +5140,13 @@ msgstr "Môl:"
 
 #. i18n: file: dialogs/TagDialogBase.ui:695
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_previous)
-#: rc.cpp:849 widgets/ProgressiveSearchWidget.cpp:63
+#: rc.cpp:849 widgets/ProgressiveSearchWidget.cpp:64
 msgid "&Previous"
 msgstr "&Pòprzédny"
 
 #. i18n: file: dialogs/TagDialogBase.ui:705
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_next)
-#: rc.cpp:852 widgets/ProgressiveSearchWidget.cpp:60
+#: rc.cpp:852 widgets/ProgressiveSearchWidget.cpp:61
 msgid "&Next"
 msgstr "&Pòstãpny"
 
@@ -7660,7 +7660,7 @@ msgstr "Kònfigùracëjë..."
 msgid "Track Number - Title"
 msgstr "Numer sztëczka - titel"
 
-#: playlist/PlaylistWidget.cpp:123
+#: playlist/PlaylistWidget.cpp:124
 #, fuzzy
 #| msgid "Skip this track"
 msgid "Show active track"
@@ -8038,42 +8038,42 @@ msgstr "Jinteligentnô lësta gróniô"
 msgid "Start typing to progressively search through the playlist"
 msgstr ""
 
-#: widgets/ProgressiveSearchWidget.cpp:74
+#: widgets/ProgressiveSearchWidget.cpp:75
 #, fuzzy
 #| msgctxt "Items, as in music"
 #| msgid "&Tracks"
 msgid "Tracks"
 msgstr "S&ztëcczi"
 
-#: widgets/ProgressiveSearchWidget.cpp:81
+#: widgets/ProgressiveSearchWidget.cpp:82
 #, fuzzy
 #| msgid "&Albums"
 msgid "Albums"
 msgstr "&Albùmë"
 
-#: widgets/ProgressiveSearchWidget.cpp:88
+#: widgets/ProgressiveSearchWidget.cpp:89
 #, fuzzy
 #| msgid "Artist"
 msgid "Artists"
 msgstr "Artista"
 
-#: widgets/ProgressiveSearchWidget.cpp:102
+#: widgets/ProgressiveSearchWidget.cpp:103
 #, fuzzy
 #| msgid "Composer"
 msgid "Composers"
 msgstr "Kòmpòzytor"
 
-#: widgets/ProgressiveSearchWidget.cpp:109 widgets/SmartPlaylistEditor.cpp:977
+#: widgets/ProgressiveSearchWidget.cpp:110 widgets/SmartPlaylistEditor.cpp:977
 msgid "Years"
 msgstr "Lat"
 
-#: widgets/ProgressiveSearchWidget.cpp:118
+#: widgets/ProgressiveSearchWidget.cpp:119
 #, fuzzy
 #| msgid "Play Counter"
 msgid "Show only matches"
 msgstr "Rechòwnik graniô"
 
-#: widgets/ProgressiveSearchWidget.cpp:128
+#: widgets/ProgressiveSearchWidget.cpp:129
 msgid "Search Preferences"
 msgstr ""
 
