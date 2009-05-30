@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmlocale\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-06 12:08+0200\n"
+"POT-Creation-Date: 2009-05-30 12:06+0200\n"
 "PO-Revision-Date: 2008-12-10 21:06+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -346,7 +346,7 @@ msgstr "Ò&znaczenié plusowëch lëczbów:"
 msgid "&Negative sign:"
 msgstr "Òznaczenié ùjim&nëch lëczbów:"
 
-#: localenum.cpp:90
+#: localenum.cpp:90 localetime.cpp:217
 msgid "Di&git set:"
 msgstr ""
 
@@ -506,39 +506,39 @@ msgstr "WEEKDAY"
 msgid "Calendar system:"
 msgstr "Kalãdôrz:"
 
-#: localetime.cpp:220
+#: localetime.cpp:228
 msgid "Time format:"
 msgstr "Fòrmat czasu:"
 
-#: localetime.cpp:230
+#: localetime.cpp:238
 msgid "Date format:"
 msgstr "Fòrmat datuma:"
 
-#: localetime.cpp:238
+#: localetime.cpp:246
 msgid "Short date format:"
 msgstr "Krótczi fòrmat datuma:"
 
-#: localetime.cpp:246
+#: localetime.cpp:254
 msgid "Use declined form of month name"
 msgstr "Deklinëjë miono miesąca w datumie"
 
-#: localetime.cpp:256
+#: localetime.cpp:264
 msgid "First day of the week:"
 msgstr "Pierszi dzéń tidzénia:"
 
-#: localetime.cpp:264
+#: localetime.cpp:272
 msgid "First working day of the week:"
 msgstr "Pierszi robòczi dzéń tidzénia:"
 
-#: localetime.cpp:272
+#: localetime.cpp:280
 msgid "Last working day of the week:"
 msgstr "Pierszi robòczi dzéń tidzénia:"
 
-#: localetime.cpp:281
+#: localetime.cpp:289
 msgid "Day of the week for religious observance:"
 msgstr "Dzéń tidzénia dlô religjòwich òbchôdów:"
 
-#: localetime.cpp:508
+#: localetime.cpp:530
 msgctxt "some reasonable time formats for the language"
 msgid ""
 "HH:MM:SS\n"
@@ -547,7 +547,7 @@ msgstr ""
 "HH:MM:SS\n"
 "pH:MM:SS AMPM"
 
-#: localetime.cpp:516
+#: localetime.cpp:538
 msgctxt "some reasonable date formats for the language"
 msgid ""
 "WEEKDAY MONTH dD YYYY\n"
@@ -556,7 +556,7 @@ msgstr ""
 "WEEKDAY MONTH dD YYYY\n"
 "SHORTWEEKDAY MONTH dD YYYY"
 
-#: localetime.cpp:524
+#: localetime.cpp:546
 msgctxt "some reasonable short date formats for the language"
 msgid ""
 "YYYY-MM-DD\n"
@@ -567,27 +567,27 @@ msgstr ""
 "dD.mM.YYYY\n"
 "DD.MM.YYYY"
 
-#: localetime.cpp:535
+#: localetime.cpp:558
 msgctxt "Calendar System Gregorian"
 msgid "Gregorian"
 msgstr "Gregòrjańsczi"
 
-#: localetime.cpp:537
+#: localetime.cpp:560
 msgctxt "Calendar System Hijri"
 msgid "Hijri"
 msgstr "Hijri"
 
-#: localetime.cpp:539
+#: localetime.cpp:562
 msgctxt "Calendar System Hebrew"
 msgid "Hebrew"
 msgstr "Hebrajsczi"
 
-#: localetime.cpp:541
+#: localetime.cpp:564
 msgctxt "Calendar System Jalali"
 msgid "Jalali"
 msgstr "Jalali"
 
-#: localetime.cpp:544
+#: localetime.cpp:567
 msgid ""
 "<p>The text in this textbox will be used to format time strings. The "
 "sequences below will be replaced:</p><table><tr><td><b>HH</b></td><td>The "
@@ -612,7 +612,7 @@ msgstr ""
 "tr><tr><td><b>AMPM</b></td><td>\"am\" abò \"pm\", zanôlégò òd czasu. Pôłnie "
 "òstanié òznôczoné\"pm\", a noc - \"am\".</td></tr></table>"
 
-#: localetime.cpp:567
+#: localetime.cpp:590
 msgid ""
 "<table><tr><td><b>YYYY</b></td><td>The year with century as a decimal number."
 "</td></tr><tr><td><b>YY</b></td><td>The year without century as a decimal "
@@ -637,7 +637,7 @@ msgstr ""
 "lëterë dnia tidzénia.</td></tr><tr><td><b>WEEKDAY</b></td><td>Dzéń tidzénia."
 "</td></tr></table>"
 
-#: localetime.cpp:588
+#: localetime.cpp:611
 msgid ""
 "<p>The text in this textbox will be used to format long dates. The sequences "
 "below will be replaced:</p>"
@@ -645,7 +645,7 @@ msgstr ""
 "<p>Wpisóny tuwò tekst bãdze brëkòwóny do wëskrzëniwaniô fùl datumów. Tekst "
 "mòże zamëkac w se pòdóné niżi céchë:</p>"
 
-#: localetime.cpp:594
+#: localetime.cpp:617
 msgid ""
 "<p>The text in this textbox will be used to format short dates. For "
 "instance, this is used when listing files. The sequences below will be "
@@ -654,14 +654,14 @@ msgstr ""
 "<p>Wpisóny tuwò tekst bãdze brëkòwóny do wëskrzëniwaniô krótczich datumów. "
 "Tekst mòże zamëkac w se pòdóné niżi céchë:</p>"
 
-#: localetime.cpp:601
+#: localetime.cpp:636
 msgid ""
 "<p>This option determines which day will be considered as the first one of "
 "the week.</p>"
 msgstr ""
 "<p>Na òptacëjô òpisëje, jaczi dzéń je trzëmóny za pierszi w tidzéniu.</p>"
 
-#: localetime.cpp:606
+#: localetime.cpp:641
 msgid ""
 "<p>This option determines which day will be considered as the first working "
 "day of the week.</p>"
@@ -669,7 +669,7 @@ msgstr ""
 "<p>Na òptacëjô òpisëje, jaczi dzéń je trzëmóny za pierszi robòczi dzéń w "
 "tidzéniu.</p>"
 
-#: localetime.cpp:611
+#: localetime.cpp:646
 msgid ""
 "<p>This option determines which day will be considered as the last working "
 "day of the week.</p>"
@@ -677,7 +677,7 @@ msgstr ""
 "<p>Na òptacëjô òpisëje, jaczi dzéń je trzëmóny za pierszi robòczi dzéń w "
 "tidzéniu.</p>"
 
-#: localetime.cpp:616
+#: localetime.cpp:651
 msgid ""
 "<p>This option determines which day will be considered as the day of the "
 "week for religious observance.</p>"
@@ -685,7 +685,7 @@ msgstr ""
 "<p>Na òptacëjô òpisëje, jaczi dzéń je trzëmóny za pierszi robòczi dzéń w "
 "tidzéniu.</p>"
 
-#: localetime.cpp:623
+#: localetime.cpp:658
 msgid ""
 "<p>This option determines whether possessive form of month names should be "
 "used in dates.</p>"
@@ -693,7 +693,7 @@ msgstr ""
 "<p>Na òptacëjô òpisëje, czë w datumie nót je brëkòwac zjinaczonégò miona "
 "miesąca (np. 1 séwnika).</p>"
 
-#: localetime.cpp:633
+#: localetime.cpp:668
 msgctxt "Day name list, option for no day of religious observance"
 msgid "None"
 msgstr "Felënk"
