@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-31 11:52+0200\n"
+"POT-Creation-Date: 2009-06-01 11:40+0200\n"
 "PO-Revision-Date: 2009-01-08 18:45+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -571,7 +571,7 @@ msgstr[2] "%1 sztëczków"
 
 #: context/applets/lyrics/LyricsApplet.cpp:38
 #: context/applets/lyrics/LyricsApplet.cpp:59
-#: context/applets/lyrics/LyricsApplet.cpp:227 dialogs/TagDialog.cpp:582
+#: context/applets/lyrics/LyricsApplet.cpp:228 dialogs/TagDialog.cpp:582
 msgid "Lyrics"
 msgstr "Tekstë"
 
@@ -581,17 +581,17 @@ msgstr "Tekstë"
 msgid "Reload Lyrics"
 msgstr "Tekstë"
 
-#: context/applets/lyrics/LyricsApplet.cpp:181
+#: context/applets/lyrics/LyricsApplet.cpp:182
 #, fuzzy
 #| msgid "No lyrics script is running!"
 msgid "No lyrics script is running."
 msgstr "Niżóden skript tekstów frantówków nie je zrëszony!"
 
-#: context/applets/lyrics/LyricsApplet.cpp:187
+#: context/applets/lyrics/LyricsApplet.cpp:188
 msgid "Lyrics are being fetched."
 msgstr "Tekst je ladowóny."
 
-#: context/applets/lyrics/LyricsApplet.cpp:193
+#: context/applets/lyrics/LyricsApplet.cpp:194
 #, fuzzy, kde-format
 #| msgid ""
 #| "Lyrics were not able to be downloaded. Please check your internet "
@@ -602,7 +602,7 @@ msgid ""
 msgstr ""
 "Ni mòże zladowac teksta. Proszã sprôwdzëc swòjé pòłączenié z jinternetã."
 
-#: context/applets/lyrics/LyricsApplet.cpp:235
+#: context/applets/lyrics/LyricsApplet.cpp:236
 msgid "There were no lyrics found for this track"
 msgstr "Nie są nalazłé tekstë dlô tegò sztëczka"
 
@@ -1238,7 +1238,7 @@ msgid "Rename playlist layout"
 msgstr "Miono lëstë òdegraniô"
 
 #: dialogs/PlaylistLayoutEditDialog.cpp:144
-#: dialogs/PlaylistLayoutEditDialog.cpp:183
+#: dialogs/PlaylistLayoutEditDialog.cpp:188
 #, fuzzy
 #| msgid "Configure..."
 msgid "Choose a name for the new playlist layout"
@@ -1249,67 +1249,72 @@ msgid "Please enter a name for the playlist layout you are about to define:"
 msgstr ""
 
 #: dialogs/PlaylistLayoutEditDialog.cpp:148
-#: dialogs/PlaylistLayoutEditDialog.cpp:153
-#: dialogs/PlaylistLayoutEditDialog.cpp:188
 #: dialogs/PlaylistLayoutEditDialog.cpp:193
-#: dialogs/PlaylistLayoutEditDialog.cpp:237
-#: dialogs/PlaylistLayoutEditDialog.cpp:241
-#: dialogs/PlaylistLayoutEditDialog.cpp:243
+msgid "Cannot create a layout with no name."
+msgstr ""
+
+#: dialogs/PlaylistLayoutEditDialog.cpp:148
+#: dialogs/PlaylistLayoutEditDialog.cpp:153
+#: dialogs/PlaylistLayoutEditDialog.cpp:158
+#: dialogs/PlaylistLayoutEditDialog.cpp:193
+#: dialogs/PlaylistLayoutEditDialog.cpp:198
+#: dialogs/PlaylistLayoutEditDialog.cpp:242
+#: dialogs/PlaylistLayoutEditDialog.cpp:246
+#: dialogs/PlaylistLayoutEditDialog.cpp:248
 #, fuzzy
 #| msgid "playcount"
 msgid "Layout name error"
 msgstr "rechòwnik òdegraniów"
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:148
-#: dialogs/PlaylistLayoutEditDialog.cpp:188
-msgid "Cannot create a layout with no name."
-msgstr ""
-
 #: dialogs/PlaylistLayoutEditDialog.cpp:153
-#: dialogs/PlaylistLayoutEditDialog.cpp:193
+#: dialogs/PlaylistLayoutEditDialog.cpp:198
 msgid "Cannot create a layout with the same name as an existing layout."
 msgstr ""
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:184
+#: dialogs/PlaylistLayoutEditDialog.cpp:158
+msgid "Cannot create a layout containing '/'."
+msgstr ""
+
+#: dialogs/PlaylistLayoutEditDialog.cpp:189
 #, kde-format
 msgid ""
 "Please enter a name for the playlist layout you are about to define as copy "
 "of the layout '%1':"
 msgstr ""
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:233
+#: dialogs/PlaylistLayoutEditDialog.cpp:238
 #, fuzzy
 #| msgid "Configure..."
 msgid "Choose a new name for the playlist layout"
 msgstr "Kònfigùracëjë..."
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:234
+#: dialogs/PlaylistLayoutEditDialog.cpp:239
 msgid ""
 "Please enter a new name for the playlist layout you are about to rename:"
 msgstr ""
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:237
+#: dialogs/PlaylistLayoutEditDialog.cpp:242
 #, fuzzy
 #| msgid "Configure..."
 msgid "Cannot rename one of the default layouts."
 msgstr "Kònfigùracëjë..."
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:241
+#: dialogs/PlaylistLayoutEditDialog.cpp:246
 msgid "Cannot rename a layout to have no name."
 msgstr ""
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:243
+#: dialogs/PlaylistLayoutEditDialog.cpp:248
 msgid "Cannot rename a layout to have the same name as an existing layout."
 msgstr ""
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:345
+#: dialogs/PlaylistLayoutEditDialog.cpp:350
 #, kde-format
 msgid ""
 "The layout '%1' you modified is one of the default layouts and cannot be "
 "overwritten.                 Please select a different name to save a copy."
 msgstr ""
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:347
+#: dialogs/PlaylistLayoutEditDialog.cpp:352
 #, fuzzy
 #| msgid "Current Playlist"
 msgid "Reserved Layout Name"
