@@ -2,22 +2,22 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Michôł Òstrowsczi <michol@linuxcsb.org>, 2007, 2008.
+# Michôł Òstrowsczi <michol@linuxcsb.org>, 2007, 2008, 2009.
 # Mark Kwidzińsczi <mark@linuxcsb.org>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-06-10 12:30+0200\n"
-"PO-Revision-Date: 2009-01-08 18:45+0100\n"
-"Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
+"PO-Revision-Date: 2009-06-11 00:01+0200\n"
+"Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
-"X-Generator: Lokalize 0.2\n"
+"X-Generator: Lokalize 0.3\n"
 
 #: mac/GrowlInterface.cpp:34 context/engines/current/CurrentEngine.cpp:129
 #: context/applets/currenttrack/CurrentTrack.cpp:99 widgets/Osd.cpp:566
@@ -101,17 +101,15 @@ msgctxt "The quality of music"
 msgid "Not rated"
 msgstr "Nie markòwóné"
 
-#: meta/stream/Stream.cpp:55
-#, fuzzy, kde-format
+#: meta/stream/Stream.cpp:55, kde-format
 #| msgid "Stream ("
 msgid "Stream (%1)"
-msgstr "Strëga ("
+msgstr "Strëga (%1)"
 
-#: meta/capabilities/TimecodeWriteCapability.cpp:105
-#, fuzzy, kde-format
+#: meta/capabilities/TimecodeWriteCapability.cpp:105, kde-format
 #| msgid "%1 - %2"
 msgid "%1 - Stopped %2"
-msgstr "%1 - %2"
+msgstr "%1 - Zatrzëmóny %2"
 
 #: meta/capabilities/TimecodeWriteCapability.cpp:110
 msgid "Playback Ended Markers"
@@ -139,10 +137,9 @@ msgstr ""
 #: collection/ipodcollection/CollectionCapabilityIpod.cpp:47
 #: collection/mtpcollection/CollectionCapabilityMtp.cpp:48
 #: collection/sqlcollection/SqlCollectionCapability.cpp:51
-#, fuzzy
 #| msgid "Selected Tracks"
 msgid "&Delete Tracks"
-msgstr "Wëbróné sztëcczi"
+msgstr "&Rëmôj sztëcczi"
 
 #: collection/ipodcollection/handler/IpodHandler.cpp:522
 msgid "Deleting Tracks from iPod"
@@ -173,10 +170,9 @@ msgid "Unknown Genre"
 msgstr "Nieznony zort"
 
 #: collection/mtpcollection/handler/MtpHandler.cpp:611
-#, fuzzy
 #| msgid "Transferring Tracks to iPod"
 msgid "Transferring Tracks to MTP"
-msgstr "Przenoszenié sztëczków do iPoda"
+msgstr "Przenoszenié sztëczków do MTP"
 
 #: collection/mtpcollection/handler/MtpHandler.cpp:661
 msgid "Could not send track"
@@ -203,10 +199,9 @@ msgid "Unknown genre"
 msgstr "Nieznóny zort"
 
 #: collection/mtpcollection/handler/MtpHandler.cpp:861
-#, fuzzy
 #| msgid "Deleting Tracks from iPod"
 msgid "Deleting Tracks from MTP"
-msgstr "Rëmanié traków z iPoda"
+msgstr "Rëmanié traków z MTP"
 
 #: collection/mtpcollection/handler/MtpHandler.cpp:905
 msgid "Could not delete item"
@@ -217,22 +212,19 @@ msgid "Delete failed"
 msgstr "Rëmniãcé nie darzëło sã"
 
 #: collection/mtpcollection/handler/MtpHandler.cpp:1219
-#, fuzzy
 #| msgid "Transferring Tracks to iPod"
 msgid "Transferring Tracks to MTP Device"
-msgstr "Przenoszenié sztëczków do iPoda"
+msgstr "Przenoszenié sztëczków do MTP"
 
 #: collection/mtpcollection/MtpMeta.cpp:81
-#, fuzzy
 #| msgid "&Remove from iPod"
 msgid "&Remove from MTP Device"
-msgstr "&Rëmôj z iPoda"
+msgstr "&Rëmôj z MTP"
 
 #: collection/mtpcollection/MtpMeta.cpp:107
-#, fuzzy
 #| msgid "&Disconnect the iPod"
 msgid "&Disconnect the MTP Device"
-msgstr "&Rozłączë iPoda"
+msgstr "&Rozłączë MTP"
 
 #: collection/mtpcollection/MtpCollection.cpp:481
 #, kde-format
@@ -252,20 +244,20 @@ msgstr "Kòlekcëjô Nepomuk (wòlné, Redland)"
 msgid "Local Collection"
 msgstr "Môlowô kòlekcëjô"
 
-#: collection/sqlcollection/SqlCollection.cpp:359
-#, fuzzy, kde-format
+#: collection/sqlcollection/SqlCollection.cpp:359, kde-format
 #| msgid "Do you really want to remove this %1?"
 msgctxt "@info"
 msgid ""
 "Do you really want to delete these %1 tracks? They will be removed from disk "
 "as well as your collection."
-msgstr "Na gwës chcesz rëmnąc %1?"
+msgstr ""
+"Na gwës chcesz rëmnąc ne %1 sztëków? Òstaną rëmniãté tak z diskù jak ë z "
+"twòji kòlekcëji."
 
 #: collection/sqlcollection/SqlCollection.cpp:363
-#, fuzzy
 #| msgid "Delete failed"
 msgid "Delete Files"
-msgstr "Rëmniãcé nie darzëło sã"
+msgstr "Rëmniãcé lopków"
 
 #: collection/sqlcollection/OrganizeCollectionDialog.cpp:165
 #: collection/sqlcollection/ScanManager.cpp:681
@@ -308,11 +300,10 @@ msgstr ""
 "Jeżlë òbjimôsz dzele tekstu, co zamëkają w se znacznik, wãsowima klamrama to "
 "na sekcëjô mdzë niewidzalnô, jeżlë znacznik je pùsti."
 
-#: collection/sqlcollection/SqlCollectionLocation.cpp:239
-#, fuzzy, kde-format
+#: collection/sqlcollection/SqlCollectionLocation.cpp:239, kde-format
 #| msgid "Transferring Tracks"
 msgid "Transferring: %1"
-msgstr "Przenoszenié sztëczków"
+msgstr "Przenoszenié: %1"
 
 #: collection/sqlcollection/ScanManager.cpp:500
 msgid ""
@@ -321,10 +312,9 @@ msgid ""
 msgstr ""
 
 #: collection/sqlcollection/ScanManager.cpp:501
-#, fuzzy
 #| msgid "Collection Scanner for Amarok"
 msgid "Collection Scan Error"
-msgstr "Przeszëkiwôcz kòlekcëjów dlô Amaroka"
+msgstr "Szëkba kòlekcëji nie darzëła sã"
 
 #: collection/sqlcollection/ScanManager.cpp:589
 msgid "Scanning music"
