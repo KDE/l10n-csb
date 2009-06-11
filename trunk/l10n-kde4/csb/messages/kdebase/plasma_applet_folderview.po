@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-06-10 12:21+0200\n"
-"PO-Revision-Date: 2009-06-10 20:52+0200\n"
+"PO-Revision-Date: 2009-06-11 10:16+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
 "MIME-Version: 1.0\n"
@@ -25,28 +25,24 @@ msgid "Unsorted"
 msgstr "Niépòzortowóné"
 
 #: folderview.cpp:506
-#, fuzzy
 #| msgid "Top to Bottom"
 msgid "Top to Bottom, Left to Right"
-msgstr "Z górë na dół"
+msgstr "Z górë na dół, z prawa do lewa"
 
 #: folderview.cpp:507
-#, fuzzy
 #| msgid "Top to Bottom"
 msgid "Top to Bottom, Right to Left"
-msgstr "Z górë na dół"
+msgstr "Z górë na dół, z prawa do lewa"
 
 #: folderview.cpp:508
-#, fuzzy
 #| msgid "Left to Right"
 msgid "Left to Right, Top to Bottom"
-msgstr "Z lewò na prawò"
+msgstr "Z lewò na prawò, z górë na dół"
 
 #: folderview.cpp:509
-#, fuzzy
 #| msgid "Left to Right"
 msgid "Right to Left, Top to Bottom"
-msgstr "Z lewò na prawò"
+msgstr "Z lewa na prawò, z górë na dół"
 
 #: folderview.cpp:547
 msgctxt ""
@@ -111,11 +107,11 @@ msgstr "Zrëszë pòlét..."
 
 #: folderview.cpp:1319
 msgid "Lock Screen"
-msgstr ""
+msgstr "Zablokùjë ekran"
 
 #: folderview.cpp:1323
 msgid "Leave..."
-msgstr ""
+msgstr "Òpùscë..."
 
 #: folderview.cpp:1333
 msgid "Align to Grid"
@@ -193,7 +189,7 @@ msgstr[2] "%1 lopków."
 
 #: iconview.cpp:1840
 msgid "Set as &Wallpaper"
-msgstr ""
+msgstr "Ùstawi wszëtczé &tapétë"
 
 #. i18n: file: folderviewDisplayConfig.ui:24
 #. i18n: ectx: property (text), widget (QLabel, lblCustomLabel)
@@ -436,6 +432,22 @@ msgid ""
 "\"*\" as your pattern, but have nothing selected in the MIME types, no files "
 "will be shown.</p></body></html>"
 msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Jeżlë môsz wëbróné"
+"\"Pòkażë dopasowanié lopków\" abò \"Zatacë dopasowanié lopków\", blós lopczi "
+"spełniwającé ÒBA warënczi òstaną pòkazóné abò zataconé.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Na przëmiôr, jeżlë môsz "
+"dóné"
+"\"*\" jakno szëkóny szlach, ale ni môsz wëbróné ôrtów MIME, niżóden lopk nie "
+"bãdze pòkazóny.</p></body></html>"
 
 #. i18n: file: folderviewFilterConfig.ui:41
 #. i18n: ectx: property (text), item, widget (QComboBox, filterType)
@@ -478,12 +490,18 @@ msgid ""
 "For example, if you have \"*\" as your pattern, but have nothing selected in "
 "the MIME types, no files will be shown."
 msgstr ""
+"Jeżlë môsz wëbróné"
+"\"Pòkażë dopasowanié lopków\" abò \"Zatacë dopasowanié lopków\", blós lopczi "
+"spełniwającé ÒBA warënczi òstaną pòkazóné abò zataconé.\n"
+"Na przëmiôr, jeżlë môsz dóné"
+"\"*\" jakno szëkóny szlach, ale ni môsz wëbróné ôrtów MIME, niżóden lopk nie "
+"bãdze pòkazóny."
 
 #. i18n: file: folderviewFilterConfig.ui:157
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:122
 msgid "<a href=\"null\">Cannot See Any Files?</a>"
-msgstr ""
+msgstr "<a href=\"null\">Nie widzysz lopków?</a>"
 
 #. i18n: file: folderviewFilterConfig.ui:184
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, searchMimetype)
@@ -534,7 +552,6 @@ msgstr "Wëskrzëni katalog pùltu"
 #. i18n: file: folderviewLocationConfig.ui:23
 #. i18n: ectx: property (text), widget (QRadioButton, showPlace)
 #: rc.cpp:146
-#, fuzzy
 #| msgid "Show a Place:"
 msgid "Show a place:"
 msgstr "Wëskrzëni môl:"
@@ -560,48 +577,47 @@ msgstr "Wëbierzë ôrt lopka dlô jaczegò mô sã wëskrzënic pòdzérk lopka
 #: tooltipwidget.cpp:111
 msgctxt "Music"
 msgid "Artist:"
-msgstr ""
+msgstr "Artista:"
 
 #: tooltipwidget.cpp:114
 msgctxt "Music"
 msgid "Title:"
-msgstr ""
+msgstr "Titel:"
 
 #: tooltipwidget.cpp:117
 msgctxt "Music"
 msgid "Album:"
-msgstr ""
+msgstr "Albùm:"
 
 #: tooltipwidget.cpp:139
 #, kde-format
 msgid "1 MPixel"
 msgid_plural "%1 MPixels"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "1 MPiksel"
+msgstr[1] "%1 MPiksele"
+msgstr[2] "%1 MPikselów"
 
 #: tooltipwidget.cpp:141
-#, fuzzy
 #| msgctxt "Sort icons"
 #| msgid "By Size"
 msgid "Size:"
-msgstr "Wedle miarë"
+msgstr "Miara:"
 
 #: tooltipwidget.cpp:144
 msgid "Camera:"
-msgstr ""
+msgstr "Aparat:"
 
 #: tooltipwidget.cpp:148
 #, kde-format
 msgctxt "Length in millimeters"
 msgid "%1 mm"
-msgstr ""
+msgstr "%1 mm"
 
 #: tooltipwidget.cpp:151
 #, kde-format
 msgctxt "In photography"
 msgid "35 mm equivalent: %1 mm"
-msgstr ""
+msgstr "Równoznaczëna 35 mm: %1 mm"
 
 #: tooltipwidget.cpp:153
 msgctxt "On a camera"
@@ -611,13 +627,13 @@ msgstr ""
 #: tooltipwidget.cpp:163
 msgctxt "On a camera"
 msgid "Exposure Time:"
-msgstr ""
+msgstr "Czas ekspòzycëji:"
 
 #: tooltipwidget.cpp:164
 #, kde-format
 msgctxt "Fraction of a second, or number of seconds"
 msgid "%1 s"
-msgstr ""
+msgstr "%1 s"
 
 #: tooltipwidget.cpp:173
 msgctxt "On a camera"
@@ -631,37 +647,36 @@ msgstr ""
 
 #: tooltipwidget.cpp:182
 msgid "Time:"
-msgstr ""
+msgstr "Czas:"
 
 #: tooltipwidget.cpp:190
 #, kde-format
 msgctxt "Inserted as %1 in the message below."
 msgid "1 page"
 msgid_plural "%1 pages"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "1 starna"
+msgstr[1] "%1 starnë"
+msgstr[2] "%1 starnów"
 
 #: tooltipwidget.cpp:191
 #, kde-format
 msgctxt "Inserted as %2 in the message below."
 msgid "1 word"
 msgid_plural "%1 words"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "1 słowò"
+msgstr[1] "%1 słowa"
+msgstr[2] "%1 słowów"
 
-#: tooltipwidget.cpp:231
-#, fuzzy, kde-format
+#: tooltipwidget.cpp:231, kde-format
 #| msgctxt "Inserted as %2 in the message below."
 #| msgid "1 file"
 #| msgid_plural "%1 files"
 msgctxt "Items in a folder"
 msgid "1 item"
 msgid_plural "%1 items"
-msgstr[0] "1 lopk"
-msgstr[1] "%1 lopczi"
-msgstr[2] "%1 lopków"
+msgstr[0] "1 element"
+msgstr[1] "%1 elementë"
+msgstr[2] "%1 elementów"
 
 #~ msgid ""
 #~ "<html><body><b>Note: The Desktop folder currently does not exist.<br />If "
