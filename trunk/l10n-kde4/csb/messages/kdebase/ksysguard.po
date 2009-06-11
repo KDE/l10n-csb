@@ -1,25 +1,25 @@
 # translation of ksysguard.po to Kaszëbsczi
-# Michôł Òstrowsczi <michol@linuxcsb.org>, 2007, 2008.
+# Michôł Òstrowsczi <michol@linuxcsb.org>, 2007, 2008, 2009.
 # Mark Kwidzińsczi <mark@linuxcsb.org>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-06-08 20:30+0200\n"
-"PO-Revision-Date: 2008-12-13 01:22+0100\n"
-"Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
+"PO-Revision-Date: 2009-06-11 15:47+0200\n"
+"Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.2\n"
+"X-Generator: Lokalize 0.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
 #: WorkSheet.cc:97
 #, kde-format
 msgid "Cannot open the file %1."
-msgstr "Nie mòże òtemknąc lopka %1."
+msgstr "Ni mòże òtemknąc lopka %1."
 
 #: WorkSheet.cc:105
 #, kde-format
@@ -43,11 +43,11 @@ msgstr "Lopk %1 zamëkô w se zmiłkòwą miarã robòczi bòdżi."
 #: WorkSheet.cc:238
 #, kde-format
 msgid "Cannot save file %1"
-msgstr "Nie mòże zapisac lopkù %1"
+msgstr "Ni mòże zapisac lopkù %1"
 
 #: WorkSheet.cc:284
 msgid "The clipboard does not contain a valid display description."
-msgstr "Tacnik nie mô bezzmiłkòwigò òpisënkù wëzdrzatkù."
+msgstr "Tacnik ni mô bezzmiłkòwigò òpisënkù wëzdrzatkù."
 
 #: WorkSheet.cc:382
 msgid "Select Display Type"
@@ -77,8 +77,7 @@ msgstr "Czë na gwës chcesz rëmnąc prezentacëjã pòdôwków?"
 msgid "Delete Display"
 msgstr "Rëmôj prezentacëji pòdôwków"
 
-#: ksgrd/SensorAgent.cc:109
-#, fuzzy, kde-format
+#: ksgrd/SensorAgent.cc:109, kde-format
 #| msgid ""
 #| "Message from %1:\n"
 #| "%2"
@@ -125,7 +124,6 @@ msgid "User Load"
 msgstr "Òbladowanié przez brëkòwnika"
 
 #: ksgrd/SensorManager.cc:63
-#, fuzzy
 #| msgid "System Load"
 msgctxt "@item sensor description"
 msgid "System Load"
@@ -301,7 +299,6 @@ msgid "Packets"
 msgstr "Paczétë"
 
 #: ksgrd/SensorManager.cc:106
-#, fuzzy
 #| msgid "Carrier"
 msgctxt "@item sensor description ('carrier' is a type of network signal)"
 msgid "Carrier"
@@ -663,12 +660,16 @@ msgid ""
 "subject='System Monitor Tab'&attach='file://%2'\">john.tapsell@kde.org</a></"
 "qt>"
 msgstr ""
+"<qt>Bë zabédowac biéżną swòją załókã jakno nowi Mònitor systemë, sélôj "
+"e-mail do"
+"<br><a href=\"file:%1\">%2</a><br> to <a href=\"mailto:john.tapsell@kde.org?"
+"subject='System Monitor Tab'&attach='file://%2'\">john.tapsell@kde.org</a></"
+"qt>"
 
 #: Workspace.cc:296
-#, fuzzy
 #| msgid "System Monitor"
 msgid "Upload custom System Monitor tab"
-msgstr "Mònitora systemë"
+msgstr "Dodôj swòją załóżkã Mònitora systemë"
 
 #: SensorDisplayLib/DancingBarsSettings.cc:43
 msgid "Edit BarGraph Preferences"
@@ -776,7 +777,6 @@ msgid "Upper limit:"
 msgstr "Górnô grëńca:"
 
 #: SensorDisplayLib/DancingBarsSettings.cc:157
-#, fuzzy
 #| msgid "Look"
 msgctxt "@title:tab Appearance of the bar graph"
 msgid "Look"
@@ -937,7 +937,7 @@ msgstr "Tekst"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:181
 msgid "Show axis labels"
-msgstr ""
+msgstr "Pòkażë etiketë òsów"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:182
 msgid ""
@@ -958,10 +958,9 @@ msgid "Font:"
 msgstr "Fònt:"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:209
-#, fuzzy
 #| msgid "Vertical lines:"
 msgid "Grid lines:"
-msgstr "Wertikalné rézë:"
+msgstr "Rézë mrzéżczi:"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:215
 msgid "Background:"
@@ -1022,15 +1021,13 @@ msgctxt "Largest axis title"
 msgid "99999 XXXX"
 msgstr "99999 XXXX"
 
-#: SensorDisplayLib/FancyPlotter.cc:397
-#, fuzzy, kde-format
+#: SensorDisplayLib/FancyPlotter.cc:397, kde-format
 #| msgid "<p><b>%1:</b><br>"
 msgctxt "%1 is what is being shown statistics for, like 'Memory', 'Swap', etc."
 msgid "<p><b>%1:</b><br>"
 msgstr "<p><b>%1:</b><br>"
 
-#: SensorDisplayLib/FancyPlotter.cc:448
-#, fuzzy, kde-format
+#: SensorDisplayLib/FancyPlotter.cc:448, kde-format
 #| msgid "%1 of %2"
 msgctxt "%1 and %2 are sensor's last and maximum value"
 msgid "%1 of %2"
@@ -1105,12 +1102,11 @@ msgid "Foreground color:"
 msgstr "Pierszô farwa:"
 
 #: SensorDisplayLib/MultiMeterSettings.cc:31
-#, fuzzy
 #| msgid "Multimeter Settings"
 msgctxt ""
 "Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
 msgid "Multimeter Settings"
-msgstr "Nastôwë dijagramë wskôzéwôcza"
+msgstr "Nastawë dijagramë wskôzéwôcza"
 
 #: SensorDisplayLib/ListViewSettings.cc:30
 msgid "List View Settings"
@@ -1193,10 +1189,9 @@ msgstr "Włą&czë alarm"
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:25
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:50
-#, fuzzy
 #| msgid "Title:"
 msgid "&Title:"
-msgstr "Titel:"
+msgstr "&Titel:"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:42
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_showUnit)
@@ -1263,10 +1258,9 @@ msgstr "&Tekst"
 #. i18n: file: SensorDisplayLib/LogFileSettings.ui:36
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:122
-#, fuzzy
 #| msgid "Title:"
 msgid "T&itle:"
-msgstr "Titel:"
+msgstr "T&itel:"
 
 #. i18n: file: SensorDisplayLib/LogFileSettings.ui:154
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
@@ -1357,13 +1351,11 @@ msgid "Sensor Browser"
 msgstr "Przezérnik ùzérôczów"
 
 #: SensorBrowser.cc:438
-#, fuzzy
 #| msgid "Drag sensors to empty cells of a worksheet or the panel applet."
 msgid "Drag sensors to empty cells of a worksheet "
-msgstr "Przecygni ùzérôczë na wòlny plac robòczy bòdżi abò apletu na panelu."
+msgstr "Przecygni ùzérôczë na wòlny plac robòczy bòdż"
 
 #: SensorBrowser.cc:439
-#, fuzzy
 #| msgid ""
 #| "The sensor browser lists the connected hosts and the sensors that they "
 #| "provide. Click and drag sensors into drop zones of a worksheet or the "
@@ -1378,7 +1370,7 @@ msgid ""
 "on to the display to add more sensors."
 msgstr ""
 "Lësta ùzérôczów ùprzëstãpniónëch przez pòdłączoné kòmpùtrë. Klëkni ë "
-"przëcygni ùzérôcz na wòlny plac robòczy bòdżi abò apletu na panelu. Zjôwi sã "
+"przëcygni ùzérôcz na wòlny plac robòczy bòdżi. Zjôwi sã "
 "wëzdrzatk pòkôzujący pòdôwczi ladowóné przez ùzérôcz. Niechtërné wëzdrzatczi "
 "mògą jednoczasno òbrôzowac pòdôwczi z czilu ùzérôczów. Zwëkòwò przecygni "
 "zôstné ùzérôczë, abë dodac je do wëzdrzatkù."
@@ -1416,22 +1408,20 @@ msgid "&Download New Tabs..."
 msgstr "Zlad&ëjë nową kôrtã..."
 
 #: ksysguard.cc:162
-#, fuzzy
 #| msgid "&Download New Tabs..."
 msgid "&Upload Current Tab..."
-msgstr "Zlad&ëjë nową kôrtã..."
+msgstr "&Dodôj nową kôrtã..."
 
 #: ksysguard.cc:164
 msgid "Tab &Properties"
 msgstr "&Swòjiznë"
 
-#: ksysguard.cc:435
-#, fuzzy, kde-format
+#: ksysguard.cc:435, kde-format
 #| msgid " %1 processes "
 msgid " 1 process "
 msgid_plural " %1 processes "
-msgstr[0] " %1 procesów "
-msgstr[1] " %1 procesów "
+msgstr[0] "%1 proces"
+msgstr[1] " %1 procesë"
 msgstr[2] " %1 procesów "
 
 #: ksysguard.cc:441
@@ -1439,8 +1429,7 @@ msgstr[2] " %1 procesów "
 msgid " CPU: %1% "
 msgstr "Procesor: %1"
 
-#: ksysguard.cc:455
-#, fuzzy, kde-format
+#: ksysguard.cc:455, kde-format
 #| msgid " Memory: %1 / %2 "
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid " Memory: %1 / %2 "
@@ -1450,8 +1439,7 @@ msgstr " Pamiãc: %1 / %2 "
 msgid " No swap space available "
 msgstr "Felënk wòlny pamiãcë wëmianë "
 
-#: ksysguard.cc:484
-#, fuzzy, kde-format
+#: ksysguard.cc:484, kde-format
 #| msgid " Swap: %1 / %2 "
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid " Swap: %1 / %2 "
