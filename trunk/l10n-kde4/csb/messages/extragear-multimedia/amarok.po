@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-11 11:24+0200\n"
+"POT-Creation-Date: 2009-06-12 11:25+0200\n"
 "PO-Revision-Date: 2009-06-11 22:16+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -377,24 +377,19 @@ msgstr ""
 
 #: context/engines/current/CurrentEngine.cpp:137
 #: context/applets/albums/Albums.cpp:62
-#| msgid "Recently Played Tracks"
 msgid "Recently added albums"
 msgstr "Slédno dodóné albùmë"
 
-#: context/engines/current/CurrentEngine.cpp:285, kde-format
-#| msgid "Albums By"
+#: context/engines/current/CurrentEngine.cpp:285
+#, kde-format
 msgid "Albums by %1"
 msgstr "Albùmë artistë %1"
 
 #: context/engines/songkick/SongkickEngine.cpp:45
-#| msgctxt "The quality of music"
-#| msgid "Good"
 msgid "ontour"
 msgstr ""
 
 #: context/engines/songkick/SongkickEngine.cpp:45
-#| msgctxt "Fetch new information from the website"
-#| msgid "Update"
 msgid "dates"
 msgstr "datumë"
 
@@ -409,7 +404,6 @@ msgid "Unable to retrieve Wikipedia information: %1"
 msgstr "Ni mòże wëdostaw wëdowiédzë z Wikipediji: %1"
 
 #: context/engines/wikipedia/WikipediaEngine.cpp:207
-#| msgid "Device information for "
 msgid "No information found..."
 msgstr "Ni mô nalazłi wedowiédzë..."
 
@@ -419,17 +413,14 @@ msgstr "Jine jãzëczi Wikipediji: <br/>"
 
 #: context/toolbar/AppletItemOverlay.cpp:101
 #: context/toolbar/AppletToolbarAppletItem.cpp:49
-#| msgid "Remove selected"
 msgid "Remove Applet"
 msgstr "Rëmôj aplet"
 
 #: context/toolbar/AppletToolbarConfigItem.cpp:33
-#| msgid "Configure..."
 msgid "Configure Applets..."
 msgstr "Kònfigùrëjë apletë..."
 
 #: context/toolbar/AppletToolbarAddItem.cpp:43
-#| msgid "Add Applet..."
 msgid "Add Applets..."
 msgstr "Dodôj apletë..."
 
@@ -439,31 +430,45 @@ msgid "Add Applet..."
 msgstr "Dodôj aplet..."
 
 #: context/toolbar/AppletToolbarAppletItem.cpp:47
-#| msgctxt "The name of the file this track is stored in"
-#| msgid "Filename"
 msgid "no applet name"
 msgstr "ni mô miona apletu"
 
 #: context/LyricsManager.cpp:110
-#| msgid "This object could not be created."
 msgid "Lyrics data could not be parsed"
 msgstr "Pòdôwczi tekstu ni mòga òstac òdczëtóné"
 
+#: context/applets/songkick/SongkickApplet.cpp:173
+msgid "Concert information is being fetched."
+msgstr ""
+
+#: context/applets/songkick/SongkickApplet.cpp:178
+#, fuzzy, kde-format
+#| msgid ""
+#| "Lyrics were not able to be downloaded. Please check your internet "
+#| "connection: %1"
+msgid ""
+"Songkick were not able to be downloaded. Please check your internet "
+"connection: %1"
+msgstr ""
+"Ni mòże zladowac teksta. Proszã sprôwdzëc swòjé pòłączenié z jinternetã: %1"
+
+#: context/applets/songkick/SongkickApplet.cpp:217
+#: context/applets/lyrics/LyricsApplet.cpp:238
+msgid "There were no lyrics found for this track"
+msgstr "Nie są nalazłé tekstë dlô tegò sztëczka"
+
 #: context/applets/currenttrack/CurrentTrack.cpp:76
-#| msgid "Modify"
 msgctxt "What artist is this track by"
 msgid "By"
 msgstr "Przez"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:77
-#| msgid "On"
 msgctxt "What album is this track on"
 msgid "On"
 msgstr "Włączony"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:105
 #: context/applets/currenttrack/CurrentTrack.cpp:497
-#| msgid "Playcount"
 msgid "Play count"
 msgstr "Rechòwnik òdegraniô"
 
@@ -483,12 +488,10 @@ msgid "Last Played"
 msgstr "Slédno gróné"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:112
-#| msgid "Last Played"
 msgid "Last played"
 msgstr "Slédno gróné"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:113
-#| msgid "Favorite Tracks"
 msgid "Favorite tracks"
 msgstr "Lubòtny sztëcczi"
 
@@ -509,7 +512,6 @@ msgid "&Load"
 msgstr "Ł&adëjë"
 
 #: context/applets/albums/AlbumsView.cpp:111
-#| msgid "&Queue Track"
 msgid "&Queue"
 msgstr "&Régùjë"
 
@@ -519,8 +521,8 @@ msgstr "&Régùjë"
 msgid "Edit Track Details"
 msgstr "Editëjë detale sztëczka"
 
-#: context/applets/albums/Albums.cpp:167, kde-format
-#| msgid "disc"
+#: context/applets/albums/Albums.cpp:167
+#, kde-format
 msgid "Disc %1"
 msgstr "Disk %1"
 
@@ -544,12 +546,10 @@ msgid "Lyrics"
 msgstr "Tekstë"
 
 #: context/applets/lyrics/LyricsApplet.cpp:65
-#| msgid "Lyrics"
 msgid "Reload Lyrics"
 msgstr "Ladejë tekstë znôù"
 
 #: context/applets/lyrics/LyricsApplet.cpp:184
-#| msgid "No lyrics script is running!"
 msgid "No lyrics script is running."
 msgstr "Niżóden skript tekstów frantówków nie je zrëszony."
 
@@ -557,26 +557,19 @@ msgstr "Niżóden skript tekstów frantówków nie je zrëszony."
 msgid "Lyrics are being fetched."
 msgstr "Tekst je ladowóny."
 
-#: context/applets/lyrics/LyricsApplet.cpp:196, kde-format
-#| msgid ""
-#| "Lyrics were not able to be downloaded. Please check your internet "
-#| "connection."
+#: context/applets/lyrics/LyricsApplet.cpp:196
+#, kde-format
 msgid ""
 "Lyrics were not able to be downloaded. Please check your internet "
 "connection: %1"
 msgstr ""
 "Ni mòże zladowac teksta. Proszã sprôwdzëc swòjé pòłączenié z jinternetã: %1"
 
-#: context/applets/lyrics/LyricsApplet.cpp:238
-msgid "There were no lyrics found for this track"
-msgstr "Nie są nalazłé tekstë dlô tegò sztëczka"
-
 #: context/applets/wikipedia/WikipediaApplet.cpp:80
 msgid "Wikipedia"
 msgstr "Wikipedia"
 
 #: context/applets/wikipedia/WikipediaApplet.cpp:82
-#| msgid "Redownload"
 msgid "Reload"
 msgstr "Zladëjë znôù"
 
@@ -590,7 +583,6 @@ msgid "Width"
 msgstr "Szérz"
 
 #: context/containments/oldcontainment/ColumnContainment.cpp:177
-#| msgid "Add Widgets..."
 msgid "Remove Widgets..."
 msgstr "Remôj widżetë..."
 
@@ -608,12 +600,10 @@ msgid "Add Widgets..."
 msgstr "Dodôj widżetë..."
 
 #: context/containments/oldcontainment/ColumnContainment.cpp:212
-#| msgid "New Group"
 msgid "Next Group"
 msgstr "Pòstãpnô grëpa"
 
 #: context/containments/oldcontainment/ColumnContainment.cpp:217
-#| msgid "Previous Track"
 msgid "Previous Group"
 msgstr "Pòprzédnô grëpa"
 
@@ -629,18 +619,16 @@ msgid "Hide menu"
 msgstr "Zatacë menu"
 
 #: context/widgets/ToolBoxMenu.cpp:123
-#| msgid "&Install Script"
 msgid "Install Applets"
 msgstr "Jinstalëjë apletë"
 
 #: context/widgets/TrackWidget.cpp:37
-#| msgid "Score:"
 msgctxt "Score of a track"
 msgid "Score:"
 msgstr "Pùnktacëjô:"
 
-#: context/widgets/TrackWidget.cpp:136, kde-format
-#| msgid "%1 GB %2 (x%3)"
+#: context/widgets/TrackWidget.cpp:136
+#, kde-format
 msgid "%1 - %2 (%3)"
 msgstr "%1 - %2 (%3)"
 
@@ -964,7 +952,6 @@ msgid "Rescan Collection"
 msgstr "Przeskanëjë znowa kòlekcëjã"
 
 #: dialogs/CollectionSetup.cpp:66 dialogs/DatabaseImporterDialog.cpp:34
-#| msgid "Update Collection"
 msgid "Import Collection"
 msgstr "Impòrtëjë kòlekcjã"
 
@@ -989,7 +976,6 @@ msgstr ""
 "bãdze zmienionô, np. czej dodóny òstanié nowi lopk."
 
 #: dialogs/FilenameLayoutDialog.cpp:88
-#| msgid "Collection"
 msgid "Collection root"
 msgstr "Spòdlé kòlekcëji"
 
@@ -1084,7 +1070,6 @@ msgid "Genre"
 msgstr "Zort"
 
 #: dialogs/FilenameLayoutDialog.cpp:130 dialogs/FilenameLayoutDialog.cpp:367
-#| msgid "genre"
 msgid "Ignore"
 msgstr "Ignorëjë"
 
@@ -1098,22 +1083,19 @@ msgid ""
 "scheme:                                      <br>%track, %title, %artist, %"
 "composer, %year, %album, %comment, %genre, %ignore."
 msgstr ""
-"Ne tokenë mògą òstac ùżëté do definiowaniô schematu nazëwaniô"
-"lopków:                                      <br>%track, %title, %artist, %"
-"composer, %year, %album, %comment, %genre, %ignore."
+"Ne tokenë mògą òstac ùżëté do definiowaniô schematu "
+"nazëwaniôlopków:                                      <br>%track, %title, %"
+"artist, %composer, %year, %album, %comment, %genre, %ignore."
 
 #: dialogs/FilenameLayoutDialog.cpp:139 dialogs/FilenameLayoutDialog.cpp:377
-#| msgid "Uninstall"
 msgid "Initial"
 msgstr "Pòczątkòwi"
 
 #: dialogs/FilenameLayoutDialog.cpp:140 dialogs/FilenameLayoutDialog.cpp:362
-#| msgid "Device type"
 msgid "File type"
 msgstr "Ôrt lopka"
 
 #: dialogs/FilenameLayoutDialog.cpp:141 dialogs/FilenameLayoutDialog.cpp:382
-#| msgid "Disc Number"
 msgid "Disc number"
 msgstr "Numer diskù"
 
@@ -1128,10 +1110,10 @@ msgid ""
 "composer, %year, %album, %comment, %genre, %initial, %folder, %filetype, %"
 "discnumber."
 msgstr ""
-"Ne tokenë mògą òstac ùżëté do definiowaniô schematu nazëwaniô"
-"lopków:                                      <br>%track, %title, %artist, %"
-"composer, %year, %album, %comment, %genre, %initial, %folder, %filetype, %"
-"discnumber."
+"Ne tokenë mògą òstac ùżëté do definiowaniô schematu "
+"nazëwaniôlopków:                                      <br>%track, %title, %"
+"artist, %composer, %year, %album, %comment, %genre, %initial, %folder, %"
+"filetype, %discnumber."
 
 #: dialogs/FilenameLayoutDialog.cpp:261
 msgid "&Basic..."
@@ -1140,7 +1122,6 @@ msgstr "&Spòdlowé..."
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:213
 #. i18n: ectx: property (text), widget (KPushButton, kpbAdvanced)
 #: dialogs/FilenameLayoutDialog.cpp:271 rc.cpp:883
-#| msgid "Add Device..."
 msgid "&Advanced..."
 msgstr "&Awansowóné..."
 
@@ -1150,7 +1131,6 @@ msgid "composer"
 msgstr "kòmpòzytor"
 
 #: dialogs/FilenameLayoutDialog.cpp:372
-#| msgid "Add Folder"
 msgid "Folder"
 msgstr "Katalog"
 
@@ -1161,17 +1141,14 @@ msgid "Head"
 msgstr "Głowa"
 
 #: dialogs/PlaylistLayoutEditDialog.cpp:76
-#| msgid "Modify"
 msgid "Body"
 msgstr "Cało"
 
 #: dialogs/PlaylistLayoutEditDialog.cpp:77
-#| msgid "single"
 msgid "Single"
 msgstr "Singel"
 
 #: dialogs/PlaylistLayoutEditDialog.cpp:111
-#| msgid "Playlist name:"
 msgid "New playlist layout"
 msgstr "Nowi wëzdrzatk lëstë graniô"
 
