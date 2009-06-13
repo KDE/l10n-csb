@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_extragear-multimedia_amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-03 10:28+0000\n"
+"POT-Creation-Date: 2009-06-13 10:25+0000\n"
 "PO-Revision-Date: 2008-07-19 10:51+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi\n"
@@ -20,6 +20,11 @@ msgctxt "Name"
 msgid "Cloud"
 msgstr ""
 
+#: playground/src/context/applets/jssample/metadata.desktop:3
+msgctxt "Name"
+msgid "Javascript Applet"
+msgstr ""
+
 #: playground/src/context/applets/lastfmevents/amarok-context-applet-lastfmevents.desktop:2
 msgctxt "Name"
 msgid "Last.Fm Events"
@@ -28,11 +33,6 @@ msgstr "Przëtrôfczi Last.fm"
 #: playground/src/context/applets/scriptedsample/metadata.desktop:3
 msgctxt "Name"
 msgid "Scripted Applet"
-msgstr ""
-
-#: playground/src/context/applets/songkick/amarok-context-applet-songkick.desktop:2
-msgctxt "Name"
-msgid "Songkick Concert Information"
 msgstr ""
 
 #: playground/src/context/applets/video/amarok-context-applet-video.desktop:2
@@ -50,19 +50,20 @@ msgctxt "Name"
 msgid "Cloud Data Engine"
 msgstr "Mòtór pòdôwków Blóna"
 
+#: playground/src/context/engines/jsengine/metadata.desktop:2
+msgctxt "Name"
+msgid "JS Sample Engine"
+msgstr ""
+
+#: playground/src/context/engines/jsengine/metadata.desktop:3
+msgctxt "Comment"
+msgid "Javascript Sample Engine"
+msgstr ""
+
 #: playground/src/context/engines/lastfm/amarok-data-engine-lastfm.desktop:2
 msgctxt "Name"
 msgid "LastFM Data Engine"
 msgstr "Mòtór pòdôwków Last.fm"
-
-#: playground/src/context/engines/songkick/amarok-data-engine-songkick.desktop:2
-#: src/context/engines/songkick/amarok-data-engine-songkick.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Lyrics Data Engine"
-msgctxt "Name"
-msgid "Songkick Data Engine"
-msgstr "Mòtór tekstów"
 
 #: playground/src/context/engines/videoclip/amarok-data-engine-videoclip.desktop:2
 #, fuzzy
@@ -121,6 +122,22 @@ msgstr "Grôj aùdio CD w Amarokù"
 msgctxt "Comment"
 msgid "Plugin for Amarok"
 msgstr "Wtëkôcz dlô Amaroka"
+
+#: src/collection/audiocd/amarok_collection-audiocdcollection.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Ipod Collection"
+msgctxt "Name"
+msgid "AudioCd Collection"
+msgstr "Kòlekcëjô Ipoda"
+
+#: src/collection/audiocd/amarok_collection-audiocdcollection.desktop:4
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Ipod collection plugin for Amarok"
+msgctxt "Comment"
+msgid "AudioCd collection plugin for Amarok"
+msgstr "Wtëkôcz kòlekcëji Ipoda dlô Amaroka"
 
 #: src/collection/daap/amarok_collection-daapcollection.desktop:3
 msgctxt "Name"
@@ -315,10 +332,39 @@ msgctxt "Name"
 msgid "Service Info Data Engine"
 msgstr "Mòtór serwisu wëdowiedzë ò pòdôwkach"
 
+#: src/context/engines/songkick/amarok-data-engine-songkick.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Lyrics Data Engine"
+msgctxt "Name"
+msgid "Songkick Data Engine"
+msgstr "Mòtór tekstów"
+
 #: src/context/engines/wikipedia/amarok-data-engine-wikipedia.desktop:2
 msgctxt "Name"
 msgid "Wikipedia Data Engine"
 msgstr "Mòtór pòdôwków z Wikipedijë"
+
+#: src/context/scriptengine/javascript/amarok-scriptengine-applet-simple-javascript.desktop:2
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Amarok Context applet"
+msgctxt "Name"
+msgid "Amarok JavaScript Applet"
+msgstr "Aplet kòntekstu Amaroka"
+
+#: src/context/scriptengine/javascript/amarok-scriptengine-applet-simple-javascript.desktop:3
+msgctxt "Comment"
+msgid "Native Amarok applet written in JavaScript"
+msgstr ""
+
+#: src/context/scriptengine/javascript/amarok-scriptengine-runner-javascript.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Amarok Data Engine"
+msgctxt "Name"
+msgid "Amarok JavaScript Runner"
+msgstr "Mòtór pòdôwków Amaroka"
 
 #: src/context/servicetypes/amarok_animator.desktop:5
 msgctxt "Comment"
