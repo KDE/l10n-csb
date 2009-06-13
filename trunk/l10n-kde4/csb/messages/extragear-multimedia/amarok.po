@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-06-13 12:16+0200\n"
-"PO-Revision-Date: 2009-06-11 22:16+0200\n"
+"PO-Revision-Date: 2009-06-13 23:05+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
 "MIME-Version: 1.0\n"
@@ -389,13 +389,11 @@ msgid ""
 msgstr ""
 
 #: collection/audiocd/FormatSelectionDialog.cpp:116
-#, fuzzy
 #| msgid "Sound System - Amarok"
 msgid "Audiocd settings - Amarok"
-msgstr "Sound System - Amarok"
+msgstr "Nastawë Audiocd - Amarok"
 
 #: collection/CollectionManager.cpp:124
-#, fuzzy
 #| msgid ""
 #| "<p>Amarok could not find any collection plugins. Amarok is now updating "
 #| "the KDE configuration database. Please wait a couple of minutes, then "
@@ -415,32 +413,29 @@ msgid ""
 "in the README file. For further assistance join us at #amarok on irc."
 "freenode.net.</p>"
 msgstr ""
-"<p>Amarok ni mógł nalezc wtëkaczów kòlekcrji. Dérô aktualizacëjô bazë "
-"pòdôwków kònfigùracëji KDE. Proszã pòżdac czile minutów, a zôs znowa zrëszëc "
-"Amaroka.</p><p>Jeżlë to nie pòmòże, gwës Amarok òstôł zajinstalowónyz lëchim "
-"prefiksã; proszã pòprawic swòją jinstalacëjã przez: <pre>$ cd /path/to/"
-"amarok/source-code/<br>$ su -c \"make uninstall\"<br>$ ./configure --"
-"prefix=`kde-config --prefix` && su -c \"make install\"<br>$ kbuildsycoca4<br>"
-"$ amarok</pre>Wicy wëdowiédzë mòże nalezc w lopkù README. Abë zwëskac wicy "
+"<p>Amarok ni mógł nalezc wtëkaczów kòlekcëji.Mòże bëc, że Amarok òstôł "
+"zajinstalowónyz lëchim "
+"prefiksã; proszã pòprawic swòją jinstalacëjã przez: <pre>"
+"$ cd /path/to/amarok/source-code/<br>$ su -c \"make uninstall\"<br>$ cmake -"
+"DCMAKE_INSTALL_PREFIX=`kde4-config --prefix` && su -c \"make install\"<br>$ "
+"kbuildsycoca4 --noincremental<br>$ amarok</pre>Wicy wëdowiédzë mòże nalezc w "
+"lopkù README. Abë zwëskac wicy "
 "pòmòcë przëłączë sã do naji na #amarok na irc.freenode.net.</p>"
 
 #: context/tools/amarokpkg.cpp:38
-#, fuzzy
 #| msgid "&Install Script"
 msgid "Install, list, remove Amarok applets"
-msgstr "&Jinstalëjë skript"
+msgstr "&Jinstalëjë, lëstëjë, rëmôj apletë Amaroka"
 
 #: context/tools/amarokpkg.cpp:74
-#, fuzzy
 #| msgid "Amarok is paused"
 msgid "Amarok Applet Manager"
-msgstr "Òdgriwónié w Amarokù je spaùzowóné"
+msgstr "Menadżer apletów Amaroka"
 
 #: context/tools/amarokpkg.cpp:76
-#, fuzzy
 #| msgid "(C) 2008, Aaron Seigo"
 msgid "(C) 2008, Aaron Seigo, (C) 2009, Leo franchi"
-msgstr "(C) 2008, Aaron Seigo"
+msgstr "(C) 2008, Aaron Seigo, (C) 2009, Leo franchi"
 
 #: context/tools/amarokpkg.cpp:77
 msgid "Aaron Seigo"
@@ -455,32 +450,29 @@ msgid "Leo Franchi"
 msgstr "Leo Franchi"
 
 #: context/tools/amarokpkg.cpp:81
-#, fuzzy
 #| msgid "Device type"
 msgid "Developer"
-msgstr "Ôrt ùrządzenia"
+msgstr "Programista"
 
 #: context/tools/amarokpkg.cpp:90
 msgid "For install or remove, operates on applets installed for all users."
 msgstr ""
 
 #: context/tools/amarokpkg.cpp:93
-#, fuzzy
 #| msgid "Install Applets"
 msgctxt "Do not translate <path>"
 msgid "Install the applet at <path>"
-msgstr "Jinstalëjë apletë"
+msgstr "Jinstalëjë apletë w <path>"
 
 #: context/tools/amarokpkg.cpp:95
 msgctxt "Do not translate <path>"
 msgid "Upgrade the applet at <path>"
-msgstr ""
+msgstr "Aktualizëjë apletë w <path>"
 
 #: context/tools/amarokpkg.cpp:97
-#, fuzzy
 #| msgid "Install Applets"
 msgid "List installed applet"
-msgstr "Jinstalëjë apletë"
+msgstr "Lësta zajinstalowónëch apletów"
 
 #: context/tools/amarokpkg.cpp:99
 msgctxt "Do not translate <name>"
@@ -508,17 +500,15 @@ msgstr ""
 msgid "Plugin %1 is not installed."
 msgstr ""
 
-#: context/tools/amarokpkg.cpp:172
-#, fuzzy, kde-format
+#: context/tools/amarokpkg.cpp:172, kde-format
 #| msgid "Script successfully installed."
 msgid "Successfully installed %1"
-msgstr "Skrip zainstalowóny."
+msgstr "Zajinstalowóno %1"
 
-#: context/tools/amarokpkg.cpp:175
-#, fuzzy, kde-format
+#: context/tools/amarokpkg.cpp:175, kde-format
 #| msgid "Install From File..."
 msgid "Installation of %1 failed."
-msgstr "Zajinstalëjë z lopka..."
+msgstr "Jinstalacëjô %1 nie darzëła sã."
 
 #: context/tools/amarokpkg.cpp:181
 msgctxt ""
@@ -573,74 +563,72 @@ msgstr ""
 
 #: context/scriptengine/javascript/simplejavascriptapplet.cpp:514
 msgid "i18n() takes at least one argument"
-msgstr ""
+msgstr "i18n() mùszi miec conômni jeden argùment"
 
 #: context/scriptengine/javascript/simplejavascriptapplet.cpp:530
 msgid "i18nc() takes at least two arguments"
-msgstr ""
+msgstr "i18nc() mùszi miec conômni dwa argumentë"
 
 #: context/scriptengine/javascript/simplejavascriptapplet.cpp:547
 msgid "i18np() takes at least two arguments"
-msgstr ""
+msgstr "i18np() mùszi miec conômni dwa argùmentë"
 
 #: context/scriptengine/javascript/simplejavascriptapplet.cpp:564
 msgid "i18ncp() takes at least three arguments"
-msgstr ""
+msgstr "i18ncp() mùszi miec conômni trzë argumentë"
 
 #: context/scriptengine/javascript/simplejavascriptapplet.cpp:582
 msgid "dataEngine() takes one argument"
-msgstr ""
+msgstr "dataEngine() mùszi miec conômni jeden argùment"
 
 #: context/scriptengine/javascript/simplejavascriptapplet.cpp:592
 #: context/scriptengine/javascript/simplejavascriptapplet.cpp:617
 #: context/scriptengine/javascript/simplejavascriptapplet.cpp:784
-#, fuzzy
 #| msgid "Could not read this package."
 msgid "Could not extract the AppletObject"
-msgstr "Ni mòże òdczëtac negò paczéta."
+msgstr "Ni mòże wëdobëc AppletObject"
 
 #: context/scriptengine/javascript/simplejavascriptapplet.cpp:597
 #: context/scriptengine/javascript/simplejavascriptapplet.cpp:622
 #: context/scriptengine/javascript/simplejavascriptapplet.cpp:789
-#, fuzzy
 #| msgid "Could not read this package."
 msgid "Could not extract the Applet"
-msgstr "Ni mòże òdczëtac negò paczéta."
+msgstr "Ni mòże wëdobëc Applet"
 
 #: context/scriptengine/javascript/simplejavascriptapplet.cpp:607
 msgid "service() takes two arguments"
-msgstr ""
+msgstr "service() mô miec dwa argumentë"
 
 #: context/scriptengine/javascript/simplejavascriptapplet.cpp:635
 msgid "loadui() takes one argument"
-msgstr ""
+msgstr "loadui() mô miec jeden argùment"
 
 #: context/scriptengine/javascript/simplejavascriptapplet.cpp:641
 #, kde-format
 msgid "Unable to open '%1'"
-msgstr ""
+msgstr "Ni mòże òtemknąc '%1'"
 
 #: context/scriptengine/javascript/simplejavascriptapplet.cpp:681
 #: context/scriptengine/javascript/simplejavascriptapplet.cpp:714
 msgid "Constructor takes at least 1 argument"
-msgstr ""
+msgstr "Kònstruktor mô miec conômni 1 argùment"
 
 #: context/scriptengine/javascript/simplejavascriptapplet.cpp:766
 msgid "CreateWidget takes one argument"
-msgstr ""
+msgstr "CreateWidget mô miec jeden argùment"
 
 #: context/scriptengine/javascript/simplejavascriptapplet.cpp:774
 msgid "The parent must be a QGraphicsWidget"
-msgstr ""
+msgstr "Rodzëcã mùszi bëc QGraphicWidget"
 
 #: context/scriptengine/javascript/simplejavascriptapplet.cpp:819
 #, kde-format
 msgid "This operation was not supported, %1"
-msgstr ""
+msgstr "Na òperacëjô nie je wspiérónô, %1"
 
 #: context/scriptengine/javascript/simplejavascriptapplet.cpp:826
 msgid "print() takes one argument"
-msgstr ""
+msgstr "print() mô miec dwa argùmentë"
 
 #: context/toolbar/AppletItemOverlay.cpp:101
 #: context/toolbar/AppletToolbarAppletItem.cpp:49
@@ -829,10 +817,9 @@ msgid "Hide menu"
 msgstr "Zatacë menu"
 
 #: context/widgets/ToolBoxMenu.cpp:123
-#, fuzzy
 #| msgid "Install Applets"
 msgid "Install New Applets"
-msgstr "Jinstalëjë apletë"
+msgstr "Jinstalëjë nowi apletë"
 
 #: context/widgets/TrackWidget.cpp:37
 msgctxt "Score of a track"
@@ -1365,29 +1352,25 @@ msgid "New playlist layout"
 msgstr "Nowi wëzdrzatk lëstë graniô"
 
 #: dialogs/PlaylistLayoutEditDialog.cpp:116
-#, fuzzy
 #| msgid "Playlist name:"
 msgid "Copy playlist layout"
-msgstr "Miono lëstë òdegraniô"
+msgstr "Kòpérëjë wëzdrzatk lëstë òdegraniô"
 
 #: dialogs/PlaylistLayoutEditDialog.cpp:121
-#, fuzzy
 #| msgid "Playlist name:"
 msgid "Delete playlist layout"
-msgstr "Miono lëstë òdegraniô"
+msgstr "Rëmôj wëzdrzatk lëstë òdegraniô"
 
 #: dialogs/PlaylistLayoutEditDialog.cpp:127
-#, fuzzy
 #| msgid "Playlist name:"
 msgid "Rename playlist layout"
-msgstr "Miono lëstë òdegraniô"
+msgstr "Nazwi jinaczi wëzdrzatk lëstë òdegraniô"
 
 #: dialogs/PlaylistLayoutEditDialog.cpp:144
 #: dialogs/PlaylistLayoutEditDialog.cpp:188
-#, fuzzy
 #| msgid "Configure..."
 msgid "Choose a name for the new playlist layout"
-msgstr "Kònfigùracëjë..."
+msgstr "Wëbiérzë miono dlô nowégò wëzdrzatkù lëstë graniô"
 
 #: dialogs/PlaylistLayoutEditDialog.cpp:145
 msgid "Please enter a name for the playlist layout you are about to define:"
@@ -1406,10 +1389,9 @@ msgstr ""
 #: dialogs/PlaylistLayoutEditDialog.cpp:249
 #: dialogs/PlaylistLayoutEditDialog.cpp:253
 #: dialogs/PlaylistLayoutEditDialog.cpp:255
-#, fuzzy
 #| msgid "playcount"
 msgid "Layout name error"
-msgstr "rechòwnik òdegraniów"
+msgstr "Fela miona wëzdrzatkù"
 
 #: dialogs/PlaylistLayoutEditDialog.cpp:153
 #: dialogs/PlaylistLayoutEditDialog.cpp:198
@@ -1428,10 +1410,9 @@ msgid ""
 msgstr ""
 
 #: dialogs/PlaylistLayoutEditDialog.cpp:239
-#, fuzzy
 #| msgid "Configure..."
 msgid "Choose a new name for the playlist layout"
-msgstr "Kònfigùracëjë..."
+msgstr "Wëbiérzë nowé miono dlô nowégò wëzdrzatkù lëstë graniô"
 
 #: dialogs/PlaylistLayoutEditDialog.cpp:240
 msgid ""
@@ -1439,10 +1420,9 @@ msgid ""
 msgstr ""
 
 #: dialogs/PlaylistLayoutEditDialog.cpp:249
-#, fuzzy
 #| msgid "Configure..."
 msgid "Cannot rename one of the default layouts."
-msgstr "Kònfigùracëjë..."
+msgstr "Ni mòże zmienic miona domëslnégò wëzdrzatkòwi."
 
 #: dialogs/PlaylistLayoutEditDialog.cpp:253
 msgid "Cannot rename a layout to have no name."
@@ -1460,16 +1440,14 @@ msgid ""
 msgstr ""
 
 #: dialogs/PlaylistLayoutEditDialog.cpp:359
-#, fuzzy
 #| msgid "Current Playlist"
 msgid "Reserved Layout Name"
-msgstr "Biéżnô lësta òdgrëwaniô"
+msgstr "Zarezerwòwóné miono wëzdrzatkù"
 
 #: dialogs/ScriptSelector.cpp:34
-#, fuzzy
 #| msgid "Scripts"
 msgid "Search Scripts"
-msgstr "Skriptë"
+msgstr "Szëkôj w skriptach"
 
 #: dialogs/DatabaseImporterDialog.cpp:39
 msgid ""
@@ -1483,44 +1461,38 @@ msgid ""
 msgstr ""
 
 #: dialogs/DatabaseImporterDialog.cpp:49
-#, fuzzy
 #| msgid "Amarok"
 msgid "Amarok 1.4"
-msgstr "Amarok"
+msgstr "Amarok 1.4"
 
 #: dialogs/DatabaseImporterDialog.cpp:50
-#, fuzzy
 #| msgid "Minutes"
 msgid "iTunes"
-msgstr "Minutë"
+msgstr "iTunes"
 
 #: dialogs/DatabaseImporterDialog.cpp:51
-#, fuzzy
 #| msgid "Ban"
 msgid "Banshee"
-msgstr "Blokùjë"
+msgstr "Banshee"
 
 #: dialogs/DatabaseImporterDialog.cpp:52
 msgid "Rhythmbox"
-msgstr ""
+msgstr "Rhythmbox"
 
 #: dialogs/DatabaseImporterDialog.cpp:72
-#, fuzzy
 #| msgid "Select Format:"
 msgid "Select Importer"
-msgstr "Wëbiérk fòrmatu:"
+msgstr "Wëbiérk jimpòrtera"
 
 #: dialogs/DatabaseImporterDialog.cpp:77
-#, fuzzy
 #| msgid "Podcast Configuration"
 msgid "Configuration"
-msgstr "Kònfigùracëjô podcasta"
+msgstr "Kònfigùracëjô"
 
 #: dialogs/DatabaseImporterDialog.cpp:86
-#, fuzzy
 #| msgid "rating"
 msgid "Migrating"
-msgstr "notowanié"
+msgstr "Migrowanié"
 
 #: dialogs/DatabaseImporterDialog.cpp:148
 msgid "<b><font color='red'>Failed:</font></b> No tracks were imported"
@@ -1541,13 +1513,13 @@ msgstr ""
 #: dialogs/DatabaseImporterDialog.cpp:176
 #, kde-format
 msgid "<b><font color='red'>Error:</font></b> %1"
-msgstr ""
+msgstr "<b><font color='red'>Fela:</font></b> %1"
 
 #: dialogs/DatabaseImporterDialog.cpp:188
 #, kde-format
 msgctxt "Track has been imported, format: Artist - Track"
 msgid "Imported <b>%1 - %2</b>"
-msgstr ""
+msgstr "Zajimpòrtowóné <b>%1 - %2</b>"
 
 #: dialogs/DatabaseImporterDialog.cpp:191
 #, kde-format
@@ -1595,24 +1567,21 @@ msgstr "<b>%1</b> wëkònywóny przez <b>%2</b>"
 msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgstr "<b>%1</b> wëkònywóny przez <b>%2</b> z albùmù <b>%3</b>"
 
-#: dialogs/TagDialog.cpp:870
-#, fuzzy, kde-format
+#: dialogs/TagDialog.cpp:870, kde-format
 #| msgid " by <b>%1</b>"
 msgid "<b>%1</b>"
-msgstr " przez <b>%1</b>"
+msgstr "<b>%1</b>"
 
 #: dialogs/TagDialog.cpp:899
 msgid "Length:"
 msgstr "Długòta:"
 
 #: dialogs/TagDialog.cpp:900
-#, fuzzy
 #| msgid "Bitrate:"
 msgid "Bit rate:"
 msgstr "Chùtkòsc transmisëji:"
 
 #: dialogs/TagDialog.cpp:901
-#, fuzzy
 #| msgid "Samplerate:"
 msgid "Sample rate:"
 msgstr "Probkòwanié:"
@@ -1638,10 +1607,9 @@ msgid "Rating:"
 msgstr "Notowania:"
 
 #: dialogs/TagDialog.cpp:910
-#, fuzzy
 #| msgid "Play Count"
 msgid "Play Count:"
-msgstr "Rechòwnik graniô"
+msgstr "Rechòwnik graniô:"
 
 #: dialogs/TagDialog.cpp:913
 msgid "First Played:"
@@ -1663,13 +1631,11 @@ msgid "Never"
 msgstr "Nigdë"
 
 #: dialogs/TagDialog.cpp:917
-#, fuzzy
 #| msgid "Collection"
 msgid "Collection:"
-msgstr "Kòlekcëjô"
+msgstr "Kòlekcëjô:"
 
 #: dialogs/TagDialog.cpp:918
-#, fuzzy
 #| msgid "None"
 msgctxt "The collection this track is part of"
 msgid "None"
@@ -1912,7 +1878,6 @@ msgid "The audio player for KDE"
 msgstr "Òdgriwôcz mùzyczi dlô KE"
 
 #: App.cpp:95
-#, fuzzy
 #| msgid ""
 #| "(C) 2002-2003, Mark Kretschmann\n"
 #| "(C) 2003-2008, The Amarok Development Squad"
@@ -1921,10 +1886,9 @@ msgid ""
 "(C) 2003-2009, The Amarok Development Squad"
 msgstr ""
 "(C) 2002-2003, Mark Kretschmann\n"
-"(C) 2003-2008, The Amarok Development Squad"
+"(C) 2003-2009, The Amarok Development Squad"
 
-#: App.cpp:96
-#, fuzzy, kde-format
+#: App.cpp:96, kde-format
 #| msgid ""
 #| "IRC:\n"
 #| "irc.freenode.net - #amarok, #amarok.de, #amarok.es, #amarok.fr\n"
@@ -1948,7 +1912,7 @@ msgstr ""
 "Wspiarcé:\n"
 "amarok@kde.org\n"
 "\n"
-"(Datum wersëji: "
+"(Datum wersëji: %1)"
 
 #: App.cpp:437
 msgid "Files/URLs to open"
@@ -2081,29 +2045,26 @@ msgctxt "number of months ago"
 msgid "%1M"
 msgstr "%1M"
 
-#: App.cpp:851
-#, fuzzy, kde-format
+#: App.cpp:851, kde-format
 #| msgctxt "number of months ago"
 #| msgid "%1M"
 msgctxt "w for weeks"
 msgid "%1w"
-msgstr "%1M"
+msgstr "%1w"
 
-#: App.cpp:860
-#, fuzzy, no-c-format, kde-format
+#: App.cpp:860, no-c-format, kde-format
 #| msgctxt "number of months ago"
 #| msgid "%1M"
 msgctxt "d for days"
 msgid "%1d"
-msgstr "%1M"
+msgstr "%1d"
 
-#: App.cpp:863
-#, fuzzy, kde-format
+#: App.cpp:863, kde-format
 #| msgctxt "number of months ago"
 #| msgid "%1M"
 msgctxt "h for hours"
 msgid "%1h"
-msgstr "%1M"
+msgstr "%1h"
 
 #: App.cpp:872
 msgid "0"
@@ -2114,16 +2075,14 @@ msgid "Local Playlists stored in the database"
 msgstr ""
 
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:100
-#, fuzzy
 #| msgid "&Save Playlist"
 msgid "Change playlist"
-msgstr "&Zapiszë lëstã graniô"
+msgstr "Zmieni lëstã graniô"
 
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:101
-#, fuzzy
 #| msgid "Enter artist name"
 msgid "Enter new name for playlist:"
-msgstr "Wpiszë miono artistë"
+msgstr "Wpiszë nowé miono dlô lëstë graniô:"
 
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:116
 #: equalizerpresetmanager.cpp:58 amarokurls/BookmarkTreeView.cpp:131
@@ -2171,26 +2130,23 @@ msgid "&Delete Downloaded Episode"
 msgstr ""
 
 #: podcasts/sql/SqlPodcastProvider.cpp:386
-#, fuzzy
 #| msgid "Download options"
 msgid "&Download Episode"
-msgstr "Òptacëjë zladënkù"
+msgstr "&Zladëjë epizod"
 
 #: podcasts/sql/SqlPodcastProvider.cpp:409
 msgid "&Configure"
 msgstr "&Kònfigùrëjë"
 
 #: podcasts/sql/SqlPodcastProvider.cpp:422
-#, fuzzy
 #| msgid "&Duration:"
 msgid "&Remove Subscription"
-msgstr "&Czas déraniô"
+msgstr "&Rëmôj subskripcëjã"
 
 #: podcasts/sql/SqlPodcastProvider.cpp:435
-#, fuzzy
 #| msgid "&Update All"
 msgid "&Update Channel"
-msgstr "&Zaktualni wszëtkò"
+msgstr "&Zaktualni kanał"
 
 #: podcasts/sql/SqlPodcastProvider.cpp:593
 msgid "Downloading Podcast Media"
@@ -2221,28 +2177,25 @@ msgstr ""
 msgid "Updating podcast channel"
 msgstr ""
 
-#: podcasts/PodcastReader.cpp:78
-#, fuzzy, kde-format
+#: podcasts/PodcastReader.cpp:78, kde-format
 #| msgid "Rating: %1"
 msgid "Updating \"%1\""
-msgstr "Notowania: %1"
+msgstr "Aktualizacëjô: %1"
 
 #: Systray.cpp:135
 #, kde-format
 msgid " by <b>%1</b>"
 msgstr " przez <b>%1</b>"
 
-#: Systray.cpp:140
-#, fuzzy, kde-format
+#: Systray.cpp:140, kde-format
 #| msgid " by <b>%1</b>"
 msgid " on <b>%1</b>"
 msgstr " przez <b>%1</b>"
 
 #: Systray.cpp:161
-#, fuzzy
 #| msgid "Minutes"
 msgid "Muted"
-msgstr "Minutë"
+msgstr "Wëcëszony"
 
 #: Systray.cpp:189 browsers/playlistbrowser/DynamicBiasWidgets.cpp:252
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:695
@@ -2264,10 +2217,9 @@ msgid "Length"
 msgstr "Długòta"
 
 #: Systray.cpp:221
-#, fuzzy
 #| msgid "Amarok - No track playing."
 msgid "Amarok - No track playing"
-msgstr "Amarok - nie je gróny niżóden lopk."
+msgstr "Amarok - nie je gróny niżóden lopk"
 
 #: Systray.cpp:244
 msgid "Append && &Play"
@@ -2360,19 +2312,16 @@ msgstr ""
 
 #: databaseimporter/itunes/ITunesImporterConfig.cpp:35
 #: databaseimporter/amarok14/FastForwardImporterConfig.cpp:39
-#, fuzzy
 #| msgid "Database name"
 msgid "Database Location"
-msgstr "Miono bazë pòdôwków"
+msgstr "Môl bazë pòdôwków"
 
 #: databaseimporter/amarok14/FastForwardImporterConfig.cpp:33
-#, fuzzy
 #| msgid "Connect"
 msgid "Connection"
-msgstr "Pòłączë"
+msgstr "Pòłączenié"
 
 #: databaseimporter/amarok14/FastForwardImporterConfig.cpp:47
-#, fuzzy
 #| msgctxt "Username for audioscrobbler login"
 #| msgid "Username"
 msgid "Username"
@@ -2386,23 +2335,20 @@ msgid "Password"
 msgstr "Parola"
 
 #: databaseimporter/amarok14/FastForwardImporterConfig.cpp:56
-#, fuzzy
 #| msgid "Database name"
 msgid "Database Name"
 msgstr "Miono bazë pòdôwków"
 
 #: databaseimporter/amarok14/FastForwardImporterConfig.cpp:60
-#, fuzzy
 #| msgid "Hostname:"
 msgid "Hostname"
-msgstr "Mino kòmpùtra:"
+msgstr "Miono kòmpùtra"
 
 #: databaseimporter/amarok14/FastForwardImporterConfig.cpp:86
 msgid "Import downloaded artwork"
 msgstr ""
 
 #: databaseimporter/amarok14/FastForwardImporterConfig.cpp:95
-#, fuzzy
 #| msgctxt "The location on disc of this track"
 #| msgid "Directory"
 msgid "Artwork directory"
@@ -2437,20 +2383,18 @@ msgstr ""
 
 #: dynamic/CustomBiasEntryWidget.cpp:55
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:204
-#, fuzzy
 #| msgid "Port:"
 msgid "Proportion:"
-msgstr "Pòrt"
+msgstr "Propòrcja:"
 
 #: dynamic/CustomBiasEntryWidget.cpp:56
 msgid "Match Type:"
 msgstr ""
 
 #: dynamic/biases/EchoNest.cpp:49
-#, fuzzy
 #| msgid "Similar Artists to \"%1\""
 msgid "EchoNest Similar Artists"
-msgstr "Artistë szlachùjący za \"%1\""
+msgstr "Szlachùja¢y artistë z EchoNest"
 
 #: dynamic/biases/EchoNest.cpp:109
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:205
@@ -2459,22 +2403,19 @@ msgid "Match:"
 msgstr ""
 
 #: dynamic/biases/EchoNest.cpp:112
-#, fuzzy
 #| msgid "Love Current Track"
 msgid "Current Track"
-msgstr "Achtnij biéżny sztëczk"
+msgstr "Biéżny sztëczk"
 
 #: dynamic/biases/EchoNest.cpp:113 MainWindow.cpp:231
-#, fuzzy
 #| msgid "&Playlist"
 msgid "Playlist"
-msgstr "&Lësta graniô"
+msgstr "Lësta graniô"
 
 #: dynamic/biases/EchoNest.cpp:120
-#, fuzzy
 #| msgid "%1's Loved Radio"
 msgid "Recommendations by EchoNest."
-msgstr "Lubòtné radio %1"
+msgstr "Rekòmendowóné przez EchoNest."
 
 #: dynamic/BiasedPlaylist.cpp:133
 msgid "Generating playlist..."
@@ -2520,10 +2461,9 @@ msgid "Jeff 'IROCKSOHARD' Mitchell"
 msgstr "Jeff 'IROCKSOHARD' Mitchell"
 
 #: main.cpp:42
-#, fuzzy
 #| msgid "Lydia Pintscher"
 msgid "Lydia 'is wrong(TM)' Pintscher"
-msgstr "Lydia Pintscher"
+msgstr "Lydia 'is wrong(TM)' Pintscher"
 
 #: main.cpp:44
 msgid "Mark 'It's good, but it's not irssi' Kretschmann"
@@ -2626,10 +2566,9 @@ msgid "Shane King"
 msgstr "Shane King"
 
 #: main.cpp:75
-#, fuzzy
 #| msgid "&Seek Forward"
 msgid "Soren Harward"
-msgstr "&Szëkôj w przódk"
+msgstr "Soren Harward"
 
 #: main.cpp:76
 msgid "Sven Krohlas"
@@ -2778,7 +2717,6 @@ msgid "Move to Collection"
 msgstr "Przeniesë do kòlekcëji"
 
 #: browsers/CollectionTreeView.cpp:488 services/lastfm/LastFmTreeView.cpp:204
-#, fuzzy
 #| msgid "More.."
 msgid "More..."
 msgstr "Wicy..."
@@ -2786,11 +2724,10 @@ msgstr "Wicy..."
 #: browsers/CollectionTreeView.cpp:724
 #: browsers/filebrowser/MyDirOperator.cpp:272
 #: services/lastfm/LastFmTreeView.cpp:124
-#, fuzzy
 #| msgid "Repeat Playlist"
 msgctxt "Replace the currently loaded tracks with these"
 msgid "&Replace Playlist"
-msgstr "Pòwtórzë lëstã graniô"
+msgstr "&Pòdmieni lëstã graniô"
 
 #: browsers/CollectionTreeView.cpp:742
 msgid "&Edit Track Details"
@@ -2850,41 +2787,37 @@ msgid "added"
 msgstr ""
 
 #: browsers/CollectionTreeItemModelBase.cpp:584
-#, fuzzy
 #| msgid "Modify"
 msgid "today"
-msgstr "Mòdifikùjë"
+msgstr "dzysô"
 
 #: browsers/CollectionTreeItemModelBase.cpp:586
 msgid "last week"
-msgstr ""
+msgstr "w ùszłim tidzéniu"
 
 #: browsers/CollectionTreeItemModelBase.cpp:588
-#, fuzzy
 #| msgid "Play Count"
 msgid "last month"
-msgstr "Rechòwnik graniô"
+msgstr "w ùszłim miesącu"
 
 #: browsers/CollectionTreeItemModelBase.cpp:590
 msgid "two months ago"
 msgstr ""
 
 #: browsers/CollectionTreeItemModelBase.cpp:592
-#, fuzzy
 #| msgid "One minute ago"
 #| msgid_plural "%1 minutes ago"
 msgid "three months ago"
-msgstr "Jedna minuta nazôd"
+msgstr "trzë miesące dowslôdë"
 
 #: browsers/CollectionTreeItemModelBase.cpp:763
 msgid "Year - Album"
 msgstr "Rok - Albùm"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:55
-#, fuzzy
 #| msgid "Rescan Collection"
 msgid "Search collection"
-msgstr "Przeskanëjë znowa kòlekcëjã"
+msgstr "Szëkôj w kòlekcëji"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:72
 #: services/magnatune/MagnatuneStore.cpp:202
@@ -2904,40 +2837,35 @@ msgid "Genre / Artist / Album"
 msgstr "Zort / Artista / Albùm"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:86
-#, fuzzy
 #| msgid "First Play"
 msgid "First Level"
-msgstr "Pierszi rôz gróné"
+msgstr "Pierszô równiô"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:113
-#, fuzzy
 #| msgid "Seconds"
 msgid "Second Level"
-msgstr "Sekùndë"
+msgstr "Drëgô równiô"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:145
 msgid "Third Level"
 msgstr ""
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:178
-#, fuzzy
 #| msgid "Show details"
 msgid "Show Years"
-msgstr "Pòkażë detale"
+msgstr "Pòkażë rok"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:183
-#, fuzzy
 #| msgid "Show details"
 msgid "Show Cover Art"
-msgstr "Pòkażë detale"
+msgstr "Pòkażë òbkłôdkã"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:257
 #: services/magnatune/MagnatuneStore.cpp:214
 #: services/jamendo/JamendoService.cpp:150
-#, fuzzy
 #| msgid "Options"
 msgid "Sort Options"
-msgstr "Òptacëje"
+msgstr "Zortëjë òptacëje"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:267
 msgid ""
@@ -3010,16 +2938,14 @@ msgid "Random"
 msgstr "Kawlowò"
 
 #: browsers/playlistbrowser/DynamicModel.cpp:221
-#, fuzzy
 #| msgid "Modified Date"
 msgid "modified"
-msgstr "Datum mòdifkacëji"
+msgstr "mòdifikòwóny"
 
 #: browsers/playlistbrowser/DynamicModel.cpp:558
-#, fuzzy
 #| msgid "Modified Date"
 msgid "Random (modified)"
-msgstr "Datum mòdifkacëji"
+msgstr "Kawlowò (mòdifikòwóny)"
 
 #: browsers/playlistbrowser/PlaylistBrowser.cpp:68
 msgid ""
@@ -3030,29 +2956,25 @@ msgstr ""
 
 #: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:486
 #: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:506
-#, fuzzy
 #| msgid "Rename"
 msgid "New name"
-msgstr "Zmieni miono"
+msgstr "Nowi miono"
 
 #: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:487
-#, fuzzy
 #| msgid "Enter artist name"
 msgctxt "Enter a new name for a group that already exists"
 msgid "Enter new group name:"
-msgstr "Wpiszë miono artistë"
+msgstr "Wpiszë nowi miono grëpë:"
 
 #: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:507
-#, fuzzy
 #| msgid "Enter artist name"
 msgid "Enter new group name:"
-msgstr "Wpiszë miono artistë"
+msgstr "Wpiszë miono nowi grëpë:"
 
 #: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:526
-#, fuzzy
 #| msgid "&Delete"
 msgid "&Delete group"
-msgstr "&Rëmôj"
+msgstr "&Rëmôj grëpã"
 
 #: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:533
 #, fuzzy
