@@ -2,20 +2,20 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Michôł Òstrowsczi <michol@linuxcsb.org>, 2007.
+# Michôł Òstrowsczi <michol@linuxcsb.org>, 2007, 2009.
 # Mark Kwidzińsczi <mark@linuxcsb.org>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: kwin_effects\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-06-11 11:16+0200\n"
-"PO-Revision-Date: 2008-12-17 20:42+0100\n"
-"Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
+"PO-Revision-Date: 2009-06-14 20:04+0200\n"
+"Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.2\n"
+"X-Generator: Lokalize 0.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
@@ -24,16 +24,14 @@ msgid "Desktop Cube"
 msgstr "Kòstka pùltu"
 
 #: cube/cube.cpp:214 cube/cube_config.cpp:66
-#, fuzzy
 #| msgid "Desktop Cube"
 msgid "Desktop Cylinder"
-msgstr "Kòstka pùltu"
+msgstr "Cylinder pùltu"
 
 #: cube/cube.cpp:218 cube/cube_config.cpp:70
-#, fuzzy
 #| msgid "Desktop Cube"
 msgid "Desktop Sphere"
-msgstr "Kòstka pùltu"
+msgstr "Kùgla pùltu"
 
 #: cube/cube_config.cpp:52
 msgctxt "@title:tab Basic Settings"
@@ -313,10 +311,9 @@ msgstr ""
 #. i18n: file: cube/cube_config.ui:297
 #. i18n: ectx: property (text), widget (QLabel, capColorLabel)
 #: rc.cpp:64
-#, fuzzy
 #| msgid "&Color"
 msgid "Cap color:"
-msgstr "&Farwa"
+msgstr ""
 
 #. i18n: file: cube/cube_config.ui:320
 #. i18n: ectx: property (text), widget (QCheckBox, capsImageBox)
@@ -387,21 +384,20 @@ msgstr "Brëkùjë tegò efektu do rëchaniô sã pò pùlce"
 #. i18n: ectx: property (text), widget (QCheckBox, invertKeysBox)
 #: rc.cpp:95
 msgid "Invert cursor keys"
-msgstr ""
+msgstr "Òdwrócë farwã klawiszów"
 
 #. i18n: file: cube/cube_config.ui:438
 #. i18n: ectx: property (text), widget (QCheckBox, invertMouseBox)
 #: rc.cpp:98
 msgid "Invert mouse"
-msgstr ""
+msgstr "Òdwrócr mësz"
 
 #. i18n: file: cube/cube_config.ui:448
 #. i18n: ectx: property (title), widget (QGroupBox, capDeformationGroupBox)
 #: rc.cpp:101
-#, fuzzy
 #| msgid "Decorations:"
 msgid "Sphere Cap Deformation"
-msgstr "Dokòracëjë:"
+msgstr ""
 
 #. i18n: file: cube/cube_config.ui:470
 #. i18n: ectx: property (text), widget (QLabel, capDeformationSphereLabel)
@@ -418,16 +414,15 @@ msgstr "Rówizna"
 #. i18n: file: cube/cubeslide_config.ui:17
 #. i18n: ectx: property (text), widget (QCheckBox, dontSlideStickyWindowsBox)
 #: rc.cpp:110
-#, fuzzy
 #| msgid "Toggle Present Windows (All desktops)"
 msgid "Do not animate windows on all desktops"
-msgstr "Włączë òkna wszëtczich pùltów"
+msgstr "Nie animùjë òknów na wszëtczich pùltach"
 
 #. i18n: file: cube/cubeslide_config.ui:65
 #. i18n: ectx: property (text), widget (QCheckBox, dontSlidePanelsBox)
 #: rc.cpp:119
 msgid "Do not animate panels"
-msgstr ""
+msgstr "Nie animùjë panelów"
 
 #. i18n: file: cube/cubeslide_config.ui:85
 #. i18n: ectx: property (text), widget (QCheckBox, usePagerBox)
@@ -616,9 +611,8 @@ msgstr "Animùjë przestôwnika òknów"
 #. i18n: file: coverswitch/coverswitch_config.ui:123
 #. i18n: ectx: property (text), widget (QCheckBox, checkAnimateStart)
 #: rc.cpp:252
-#, fuzzy
 msgid "Animation on tab box open"
-msgstr "Animùjë pòkazëwanié sã przestôwnika"
+msgstr ""
 
 #. i18n: file: coverswitch/coverswitch_config.ui:130
 #. i18n: ectx: property (text), widget (QCheckBox, checkAnimateStop)
@@ -664,7 +658,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: rc.cpp:279
 msgid "Dra&g:"
-msgstr ""
+msgstr "Prze&cygôj:"
 
 #. i18n: file: wobblywindows/wobblywindows_config.ui:77
 #. i18n: ectx: property (text), widget (QLabel, label_6)
@@ -891,11 +885,10 @@ msgstr "Przesëniãcé &Y:"
 
 #. i18n: file: shadow/shadow_config.ui:121
 #. i18n: ectx: property (suffix), widget (QSpinBox, opacitySpin)
-#: rc.cpp:424
-#, fuzzy, no-c-format
+#: rc.cpp:424, no-c-format
 #| msgid " %"
 msgid "%"
-msgstr " %"
+msgstr "%"
 
 #. i18n: file: shadow/shadow_config.ui:140
 #. i18n: ectx: property (text), widget (QLabel, label_5)
@@ -912,10 +905,9 @@ msgstr "&Miara:"
 #. i18n: file: shadow/shadow_config.ui:238
 #. i18n: ectx: property (text), widget (QCheckBox, strongerActiveBox)
 #: rc.cpp:436
-#, fuzzy
 #| msgid "&Active windows has stronger shadow"
 msgid "&Active windows have stronger shadows"
-msgstr "Aktiwné òkna mają mòcnészą ceniã"
+msgstr "&Aktiwné òkna mają mòcnészą ceniã"
 
 #. i18n: file: diminactive/diminactive_config.ui:16
 #. i18n: ectx: property (text), widget (QCheckBox, checkPanel)
@@ -1000,7 +992,7 @@ msgstr "Ignorëjë z&minimalizowóné òkna"
 #. i18n: ectx: property (text), widget (QCheckBox, showPanelBox)
 #: rc.cpp:487
 msgid "Show &panels"
-msgstr ""
+msgstr "Pòkażë &panele"
 
 #. i18n: file: presentwindows/presentwindows_config.ui:155
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
