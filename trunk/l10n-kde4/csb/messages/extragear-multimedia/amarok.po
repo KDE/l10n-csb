@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-17 12:27+0200\n"
+"POT-Creation-Date: 2009-06-19 11:38+0200\n"
 "PO-Revision-Date: 2009-06-18 20:48+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Generator: Lokalize 0.3\n"
 
 #: mac/GrowlInterface.cpp:34 context/engines/current/CurrentEngine.cpp:129
-#: context/applets/currenttrack/CurrentTrack.cpp:99 widgets/Osd.cpp:571
+#: context/applets/currenttrack/CurrentTrack.cpp:100 widgets/Osd.cpp:571
 msgid "No track playing"
 msgstr "Nick nie je gróné"
 
@@ -391,7 +391,6 @@ msgid ""
 msgstr ""
 
 #: collection/audiocd/FormatSelectionDialog.cpp:116
-#| msgid "Audiocd settings - Amarok"
 msgid "Audio CD settings - Amarok"
 msgstr "Nastawë Audio CD - Amarok"
 
@@ -508,18 +507,17 @@ msgstr ""
 "Jednô òptacëjô z instalacëji, jakno rëmniãcé, zaktualnienié abò "
 "wëskrzënienié je żądóné."
 
-#: context/engines/videoclip/VideoclipEngine.cpp:188, kde-format
-#| msgid "Unable to retrieve Wikipedia information: %1"
+#: context/engines/videoclip/VideoclipEngine.cpp:188
+#, kde-format
 msgid "Unable to retrieve Youtube information: %1"
 msgstr "Ni mòże wëdostac wëdowiédzë z Youtube: %1"
 
-#: context/engines/videoclip/VideoclipEngine.cpp:299, kde-format
-#| msgid "Unable to retrieve Wikipedia information: %1"
+#: context/engines/videoclip/VideoclipEngine.cpp:299
+#, kde-format
 msgid "Unable to retrieve Dailymotion information: %1"
 msgstr "Ni mòże wëdostaw wëdowiédzë z Dailymotion: %1"
 
 #: context/engines/videoclip/VideoclipEngine.cpp:532
-#| msgid "No information found..."
 msgid "No video clip found..."
 msgstr "Ni mô nalazłi telediskù..."
 
@@ -668,7 +666,6 @@ msgid "E&xit fullscreen"
 msgstr ""
 
 #: context/applets/videoclip/VideoItemButton.cpp:85
-#| msgid "&Append to Playlist"
 msgid "&Append to playlist"
 msgstr "&Dodôj do lëstë graniô"
 
@@ -678,45 +675,44 @@ msgid "&Queue"
 msgstr "&Régùjë"
 
 #: context/applets/videoclip/VideoItemButton.cpp:87
-#| msgid "&Append to Playlist"
 msgid "Append and &Play"
 msgstr "Dodôj ë &grôj"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:76
+#: context/applets/currenttrack/CurrentTrack.cpp:77
 msgctxt "What artist is this track by"
 msgid "By"
 msgstr "Przez"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:77
+#: context/applets/currenttrack/CurrentTrack.cpp:78
 msgctxt "What album is this track on"
 msgid "On"
 msgstr "Włączony"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:105
-#: context/applets/currenttrack/CurrentTrack.cpp:497
+#: context/applets/currenttrack/CurrentTrack.cpp:106
+#: context/applets/currenttrack/CurrentTrack.cpp:496
 msgid "Play count"
 msgstr "Rechòwnik òdegraniô"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:106
-#: context/applets/currenttrack/CurrentTrack.cpp:498 Systray.cpp:171
+#: context/applets/currenttrack/CurrentTrack.cpp:107
+#: context/applets/currenttrack/CurrentTrack.cpp:497 Systray.cpp:171
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:253
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:696
 #: playlist/PlaylistModel.cpp:711 widgets/SmartPlaylistEditor.cpp:186
 msgid "Score"
 msgstr "Pùnktacëjô"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:107
-#: context/applets/currenttrack/CurrentTrack.cpp:499 Systray.cpp:201
+#: context/applets/currenttrack/CurrentTrack.cpp:108
+#: context/applets/currenttrack/CurrentTrack.cpp:498 Systray.cpp:201
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:258
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:701
 msgid "Last Played"
 msgstr "Slédno gróné"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:112
+#: context/applets/currenttrack/CurrentTrack.cpp:113
 msgid "Last played"
 msgstr "Slédno gróné"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:113
+#: context/applets/currenttrack/CurrentTrack.cpp:114
 msgid "Favorite tracks"
 msgstr "Lubòtny sztëcczi"
 
@@ -790,12 +786,10 @@ msgid "Wikipedia"
 msgstr "Wikipedia"
 
 #: context/applets/wikipedia/WikipediaApplet.cpp:103
-#| msgid "&Previous"
 msgid "Previous"
 msgstr "Pòprzédny"
 
 #: context/applets/wikipedia/WikipediaApplet.cpp:110
-#| msgid "&Next"
 msgid "Next"
 msgstr "Pòstãpny"
 
@@ -841,7 +835,6 @@ msgid "Track"
 msgstr "Sztëczk"
 
 #: context/applets/wikipedia/WikipediaApplet.cpp:138
-#| msgid "Rating"
 msgid "Lang"
 msgstr "Jãzëk"
 
@@ -864,19 +857,16 @@ msgstr "Anielsczi"
 #. i18n: file: context/applets/wikipedia/wikipediaSettings.ui:37
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
 #: context/applets/wikipedia/WikipediaApplet.cpp:434 rc.cpp:614
-#| msgid "France"
 msgid "French"
 msgstr "Francësczi"
 
 #. i18n: file: context/applets/wikipedia/wikipediaSettings.ui:42
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
 #: context/applets/wikipedia/WikipediaApplet.cpp:437 rc.cpp:617
-#| msgid "Germany"
 msgid "German"
 msgstr "Miemiecczi"
 
 #: context/applets/wikipedia/WikipediaApplet.cpp:464
-#| msgid "Wikipedia"
 msgid "Wikipedia Settings"
 msgstr "Ùstawë Wikipediji"
 
@@ -2974,7 +2964,6 @@ msgid "&Delete group"
 msgstr "&Rëmôj grëpã"
 
 #: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:533
-#| msgid "&Rename"
 msgid "&Rename group"
 msgstr "&Zmieni miono grëpë"
 
@@ -2994,13 +2983,11 @@ msgstr "Sztëczk #"
 
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:256
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:699
-#| msgid "disc"
 msgid "Disc #"
 msgstr "Disk #"
 
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:257
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:700
-#| msgid "First Played:"
 msgid "First Played"
 msgstr "Pierszi rôz gróné"
 
@@ -3012,12 +2999,10 @@ msgstr "Miono lopka"
 
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:351
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:709
-#| msgid "Width"
 msgid "With:"
 msgstr "Z:"
 
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:403
-#| msgid "larger than"
 msgid "less than"
 msgstr "mni jak"
 
@@ -3026,7 +3011,6 @@ msgid "equal to"
 msgstr "równy"
 
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:405
-#| msgid "is greater than"
 msgid "greater than"
 msgstr "wicy jak"
 
@@ -3056,7 +3040,6 @@ msgid "Match a certain portion of the playlist to a value."
 msgstr ""
 
 #: browsers/playlistbrowser/DynamicBiasModel.cpp:101
-#| msgid "custom"
 msgid "Custom Bias"
 msgstr ""
 
@@ -3118,7 +3101,6 @@ msgid "Replace the upcoming tracks with fresh ones."
 msgstr "&Zamieni przechôdającé sztëcczi nowima."
 
 #: browsers/playlistbrowser/DynamicCategory.cpp:88
-#| msgid "&Playlist"
 msgid "Playlist:"
 msgstr "Lësta graniô:"
 
@@ -3130,27 +3112,23 @@ msgstr "Zapiszë ùstawë."
 msgid "Delete the preset."
 msgstr "Rëmôj ùstawë."
 
-#: browsers/playlistbrowser/DynamicCategory.cpp:274
-#| msgid "Playlist name:"
+#: browsers/playlistbrowser/DynamicCategory.cpp:275
 msgid "Playlist Name"
 msgstr "Miono lëstë graniô"
 
-#: browsers/playlistbrowser/DynamicCategory.cpp:275
+#: browsers/playlistbrowser/DynamicCategory.cpp:276
 msgid "Enter a name for the playlist:"
 msgstr "Wpiszë miono dlô lëstë graniô:"
 
-#: browsers/playlistbrowser/DynamicCategory.cpp:285
-#| msgid "Rating"
+#: browsers/playlistbrowser/DynamicCategory.cpp:286
 msgid "Warning"
 msgstr "Òstrzéga"
 
-#: browsers/playlistbrowser/DynamicCategory.cpp:285
-#| msgid "Cannot write playlist (%1)."
+#: browsers/playlistbrowser/DynamicCategory.cpp:286
 msgid "Cannot overwrite the random playlist."
 msgstr "Nie mògã zapisac kawlowi lëstë graniô."
 
 #: browsers/playlistbrowser/PlaylistCategory.cpp:47
-#| msgid "Playlists"
 msgid "User Playlists"
 msgstr "Lësta graniô brëkòwnika"
 
@@ -3189,13 +3167,11 @@ msgid "Unknown"
 msgstr "Nieznóné"
 
 #: browsers/CollectionTreeItem.cpp:170
-#| msgid "Connect"
 msgid "Counting"
 msgstr "Rechòwanié"
 
-#: browsers/CollectionTreeItem.cpp:188 playlist/PlaylistModel.cpp:281, kde-format
-#| msgid "%1 track"
-#| msgid_plural "%1 tracks"
+#: browsers/CollectionTreeItem.cpp:188 playlist/PlaylistModel.cpp:281
+#, kde-format
 msgid "1 track"
 msgid_plural "%1 tracks"
 msgstr[0] "1 sztëczk"
@@ -3203,8 +3179,6 @@ msgstr[1] "%1 sztëcczi"
 msgstr[2] "%1 sztëczków"
 
 #: firstruntutorial/FirstRunTutorialPage.cpp:59
-#| msgctxt "@action:button"
-#| msgid "Close"
 msgid "Close"
 msgstr "Zamkni"
 
@@ -3374,17 +3348,14 @@ msgid "Error Removing File"
 msgstr ""
 
 #: MainWindow.cpp:221
-#| msgid "Default Browser"
 msgid "Browsers"
 msgstr "Przezérniczi"
 
 #: MainWindow.cpp:255
-#| msgid "Context Browser"
 msgid "Context"
 msgstr "Kòntekst"
 
 #: MainWindow.cpp:288
-#| msgid "Collection"
 msgid "Collections"
 msgstr "Kòlekcëje"
 
@@ -3564,13 +3535,13 @@ msgstr "&Nôrzãdza"
 msgid "&Settings"
 msgstr "Ùs&towë"
 
-#: MainWindow.cpp:959, kde-format
-#| msgid "Paused  -  %1"
+#: MainWindow.cpp:959
+#, kde-format
 msgid "Paused  ::  %1"
 msgstr "Paùza :: %1"
 
-#: MainWindow.cpp:971, kde-format
-#| msgid "%1 - %2 -  %3"
+#: MainWindow.cpp:971
+#, kde-format
 msgid "%1 - %2  ::  %3"
 msgstr "%1 - %2  ::  %3"
 
@@ -4824,7 +4795,6 @@ msgstr "Nôdpiszë &cel"
 #. i18n: file: collection/audiocd/FormatSelectionDialog.ui:29
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: rc.cpp:584
-#| msgid "Filename Layout Chooser"
 msgid "Available formats"
 msgstr "Przëstãpné fòrmatë"
 
@@ -4837,7 +4807,6 @@ msgstr "Ogg Vorbis"
 #. i18n: file: collection/audiocd/FormatSelectionDialog.ui:42
 #. i18n: ectx: property (text), widget (QRadioButton, flacButton)
 #: rc.cpp:590
-#| msgid "France"
 msgid "Flac"
 msgstr "Flac"
 
@@ -4856,28 +4825,24 @@ msgstr "Mp3"
 #. i18n: file: collection/audiocd/FormatSelectionDialog.ui:66
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: rc.cpp:599
-#| msgid "&Duration:"
 msgid "Description"
 msgstr "Òpisënk"
 
 #. i18n: file: collection/audiocd/FormatSelectionDialog.ui:85
 #. i18n: ectx: property (text), widget (QPushButton, advancedButton)
 #: rc.cpp:602
-#| msgid "Add Device..."
 msgid "Advanced"
 msgstr "Awansowóné"
 
 #. i18n: file: context/applets/wikipedia/wikipediaSettings.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, wikipediaSettings)
 #: rc.cpp:605
-#| msgid "Settings"
 msgid "wikipediaSettings"
 msgstr "wikipediaSettings"
 
 #. i18n: file: configdialog/dialogs/PlaybackConfig.ui:17
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: rc.cpp:620
-#| msgid "Podcast Configuration"
 msgid "Sound system configuration"
 msgstr "Kònfigùracëjô zwãkòwi systemë"
 
@@ -5003,14 +4968,12 @@ msgstr ""
 #. i18n: file: configdialog/dialogs/GeneralConfig.ui:56
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_LockLayout)
 #: rc.cpp:684
-#| msgid "playcount"
 msgid "Lock layout"
 msgstr "Zablokùjë widok"
 
 #. i18n: file: configdialog/dialogs/GeneralConfig.ui:71
 #. i18n: ectx: property (title), widget (QGroupBox, playlistBox)
 #: rc.cpp:687
-#| msgid "Playlist Files"
 msgid "Playlist Options"
 msgstr "Òptacëje listë graniô"
 
@@ -5194,14 +5157,12 @@ msgstr ""
 #. i18n: file: dialogs/PlaylistLayoutEditDialog.ui:14
 #. i18n: ectx: property (windowTitle), widget (QDialog, PlaylistLayoutEditDialog)
 #: rc.cpp:785
-#| msgid "Playlist name:"
 msgid "Playlist Layout Editor"
 msgstr "Editor wëzdrzatkù lëstë graniô"
 
 #. i18n: file: dialogs/PlaylistLayoutEditDialog.ui:26
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: rc.cpp:788
-#| msgid "Filename Layout Chooser"
 msgid "Available Layouts"
 msgstr "Przëstãpné wëzdrzatczi"
 
@@ -5216,7 +5177,6 @@ msgstr ""
 #. i18n: file: dialogs/PlaylistLayoutEditDialog.ui:181
 #. i18n: ectx: property (text), widget (QPushButton, previewButton)
 #: rc.cpp:797
-#| msgid "Previous Track"
 msgid "Preview"
 msgstr "Pòdzérk"
 
@@ -5235,8 +5195,6 @@ msgstr "Lokalizacëjô Amazona:"
 #. i18n: file: dialogs/EditCoverSearchDialog.ui:62
 #. i18n: ectx: property (text), item, widget (KComboBox, amazonLocale)
 #: rc.cpp:806
-#| msgctxt "Search Amazon's main site for images: amazon.com"
-#| msgid "International"
 msgid "International"
 msgstr "Midzenôrodny"
 
@@ -5285,7 +5243,6 @@ msgstr "Wrdowiédzô ò sztëczkù"
 #. i18n: file: dialogs/TagDialogBase.ui:38
 #. i18n: ectx: attribute (title), widget (QWidget, summaryTab)
 #: rc.cpp:831
-#| msgid "Summary"
 msgid "S&ummary"
 msgstr "Pòdrë&chòwanié"
 
@@ -5300,7 +5257,6 @@ msgstr "Sztëcczi wedle artistów w albùmie"
 #. i18n: file: dialogs/TagDialogBase.ui:146
 #. i18n: ectx: attribute (title), widget (QWidget, tagsTab)
 #: rc.cpp:837
-#| msgid "Tags"
 msgid "Ta&gs"
 msgstr "&Tadżi"
 
@@ -5367,21 +5323,18 @@ msgstr ""
 #. i18n: file: dialogs/TagDialogBase.ui:442
 #. i18n: ectx: attribute (title), widget (QWidget, lyricsTab)
 #: rc.cpp:870
-#| msgid "Lyrics"
 msgid "L&yrics"
 msgstr "T&ekstë"
 
 #. i18n: file: dialogs/TagDialogBase.ui:459
 #. i18n: ectx: attribute (title), widget (QWidget, statisticsTab)
 #: rc.cpp:873
-#| msgid "Statistics"
 msgid "St&atistics"
 msgstr "&Statisticzi"
 
 #. i18n: file: dialogs/TagDialogBase.ui:610
 #. i18n: ectx: attribute (title), widget (QWidget, labelsTab)
 #: rc.cpp:885
-#| msgid "Labels"
 msgid "La&bels"
 msgstr "Et&iczétë"
 
@@ -5514,7 +5467,6 @@ msgstr ""
 #. i18n: file: dialogs/EditFilterDialog.ui:57
 #. i18n: ectx: property (text), widget (QLabel, attributeLabel)
 #: rc.cpp:954
-#| msgid "Attribute:"
 msgid "Attribute"
 msgstr "Atribùt"
 
@@ -5545,28 +5497,24 @@ msgstr "Wôrtnota atribùta"
 #. i18n: file: dialogs/EditFilterDialog.ui:154
 #. i18n: ectx: property (text), item, widget (KComboBox, conditionCombo)
 #: rc.cpp:990
-#| msgid "smaller than"
 msgid "Smaller Than"
 msgstr "Mniszi jak"
 
 #. i18n: file: dialogs/EditFilterDialog.ui:159
 #. i18n: ectx: property (text), item, widget (KComboBox, conditionCombo)
 #: rc.cpp:993
-#| msgid "larger than"
 msgid "Larger Than"
 msgstr "Wikszi jak"
 
 #. i18n: file: dialogs/EditFilterDialog.ui:164
 #. i18n: ectx: property (text), item, widget (KComboBox, conditionCombo)
 #: rc.cpp:996
-#| msgid "equal to"
 msgid "Equal To"
 msgstr "Równy"
 
 #. i18n: file: dialogs/EditFilterDialog.ui:169
 #. i18n: ectx: property (text), item, widget (KComboBox, conditionCombo)
 #: rc.cpp:999
-#| msgid "between"
 msgid "Between"
 msgstr "Midze"
 
@@ -5581,7 +5529,6 @@ msgstr "ë"
 #. i18n: file: dialogs/EditFilterDialog.ui:217
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: rc.cpp:1005
-#| msgid "Filter action"
 msgid "Filter Action"
 msgstr "Akcëja filtera"
 
@@ -5596,7 +5543,6 @@ msgstr ""
 #. i18n: file: dialogs/EditFilterDialog.ui:226
 #. i18n: ectx: property (text), widget (QRadioButton, matchAll)
 #: rc.cpp:1011
-#| msgid "Match all words"
 msgid "Match All Words"
 msgstr "Dopasëjë wszëtczé słowa"
 
@@ -5611,7 +5557,6 @@ msgstr ""
 #. i18n: file: dialogs/EditFilterDialog.ui:236
 #. i18n: ectx: property (text), widget (QRadioButton, matchAny)
 #: rc.cpp:1017
-#| msgid "Match any word"
 msgid "Match Any Word"
 msgstr "Dopasëjë równojaczé słowò"
 
@@ -5626,7 +5571,6 @@ msgstr ""
 #. i18n: file: dialogs/EditFilterDialog.ui:246
 #. i18n: ectx: property (text), widget (QRadioButton, matchLiteral)
 #: rc.cpp:1023
-#| msgid "Exact match"
 msgid "Exact Match"
 msgstr "Dokładné dopasowanié"
 
@@ -5661,8 +5605,6 @@ msgstr ""
 #. i18n: file: dialogs/EditFilterDialog.ui:287
 #. i18n: ectx: property (text), widget (QRadioButton, andButton)
 #: rc.cpp:1038
-#| msgctxt "AND logic condition"
-#| msgid "AND"
 msgid "AND"
 msgstr "AND"
 
@@ -5677,8 +5619,6 @@ msgstr ""
 #. i18n: file: dialogs/EditFilterDialog.ui:297
 #. i18n: ectx: property (text), widget (QRadioButton, orButton)
 #: rc.cpp:1044
-#| msgctxt "OR logic condition"
-#| msgid "OR"
 msgid "OR"
 msgstr "OR"
 
@@ -5700,15 +5640,12 @@ msgstr ""
 #. i18n: file: dialogs/EditFilterDialog.ui:315
 #. i18n: ectx: property (text), widget (QCheckBox, invertButton)
 #: rc.cpp:1053
-#| msgctxt "Search Amazon's main site for images: amazon.com"
-#| msgid "International"
 msgid "Invert Condition"
 msgstr "Midzenôrodny"
 
 #. i18n: file: dialogs/ScriptManagerBase.ui:29
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:1056
-#| msgid "&Install Script"
 msgid "Installed Amarok Scripts:"
 msgstr "Zajinstalowóné skriptë Amaroka:"
 
@@ -5897,16 +5834,12 @@ msgstr "&Parola"
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:86
 #. i18n: ectx: property (text), widget (QLabel, kActiveLabel1)
 #: rc.cpp:1161
-#| msgid ""
-#| "To use last.fm with Amarok, you need a <a href=\"http://www.last.fm:80/"
-#| "signup.php\">last.fm profile</a>."
 msgid "<a href=\"http://www.last.fm:80/signup.php\">Sign up to last.fm</a>"
 msgstr "<a href=\"http://www.last.fm:80/signup.php\">Zapiszë sã do last.fm</a>"
 
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:96
 #. i18n: ectx: property (text), widget (QPushButton, testLogin)
 #: rc.cpp:1164
-#| msgid "Mp3tunes login"
 msgid "&Test Login"
 msgstr "&Testowi login"
 
@@ -5927,7 +5860,6 @@ msgstr "Serwisë Last.fm"
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:125
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SubmitPlayedSongs)
 #: rc.cpp:1173
-#| msgid "Skip this track"
 msgid "&Submit tracks"
 msgstr "&Dodôj sztëcczi"
 
@@ -6297,8 +6229,6 @@ msgstr "Serwera:"
 #. i18n: file: services/ampache/AmpacheConfigWidget.ui:51
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: rc.cpp:1354
-#| msgctxt "Username for logins to Magnatune"
-#| msgid "Username:"
 msgctxt "The username to use for logins to an Ampache server"
 msgid "Username:"
 msgstr "Miono brëkòwnika:"
@@ -6332,7 +6262,6 @@ msgstr "Mòdifikùjë"
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: rc.cpp:1375
-#| msgid "Mp3tunes login"
 msgid "Mp3tunes Login"
 msgstr "Login Mp3tunes"
 
@@ -6570,8 +6499,8 @@ msgstr "Nen serwis nie akceptëje niżódnëch wiadłów"
 msgid "ERROR: unknown message"
 msgstr "FELA: nienóné wiadło"
 
-#: services/opmldirectory/OpmlDirectoryXmlParser.cpp:63, kde-format
-#| msgid "OpmlDirectory update complete. Added %1 feeds in %2 categories"
+#: services/opmldirectory/OpmlDirectoryXmlParser.cpp:63
+#, kde-format
 msgctxt ""
 "This string is the first part of the following example phrase: Podcast "
 "Directory update complete. Added 4 feeds in 6 categories."
@@ -6593,8 +6522,6 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: services/opmldirectory/OpmlDirectoryService.cpp:40
-#| msgctxt "The location on disc of this track"
-#| msgid "Directory"
 msgid "Podcast Directory"
 msgstr "Katalog podcasta"
 
@@ -6619,17 +6546,14 @@ msgid "Subscribe"
 msgstr "Subskribùjë"
 
 #: services/opmldirectory/OpmlDirectoryService.cpp:151
-#| msgid "Downloading OpmlDirectory Database"
 msgid "Downloading Podcast Directory Database"
 msgstr "Ladowanié bazë pòdôwków katalogù podcasta"
 
 #: services/opmldirectory/OpmlDirectoryService.cpp:180
-#| msgid "Updating the local OPML database."
 msgid "Updating the local Podcast database."
 msgstr "Zakutalnianié môlowi bazë podcastów"
 
 #: services/opmldirectory/OpmlDirectoryInfoParser.cpp:58
-#| msgid "Fetching Podcast Info"
 msgid "Loading Podcast Info..."
 msgstr "Ladowanié wëdowiédzë ò podcasce"
 
@@ -6701,8 +6625,8 @@ msgstr "Swòje radio %1"
 msgid "%1's Loved Radio"
 msgstr "Lubòtné radio %1"
 
-#: services/lastfm/meta/LastFmMeta.cpp:427, kde-format
-#| msgid "%1's Loved Radio"
+#: services/lastfm/meta/LastFmMeta.cpp:427
+#, kde-format
 msgid "%1's Recommended Radio"
 msgstr "Rekòmendowóné radio przez %1"
 
@@ -6739,57 +6663,46 @@ msgid "Personal Radio"
 msgstr "Swòjé radio"
 
 #: services/lastfm/LastFmTreeModel.cpp:168
-#| msgid "Recently Loved Tracks"
 msgid "Loved Tracks"
 msgstr "Lubòtné sztëcczi"
 
 #: services/lastfm/LastFmTreeModel.cpp:169
-#| msgid "Neighbor Radio"
 msgid "Neighborhood"
 msgstr "Sąsedztwò"
 
 #: services/lastfm/LastFmTreeModel.cpp:351
-#| msgid "%1's Loved Radio"
 msgid "My Recommendations"
 msgstr "Mòje rekòmendacëje"
 
 #: services/lastfm/LastFmTreeModel.cpp:353
-#| msgid "Custom Station"
 msgid "My Radio Station"
 msgstr "Mòja radiowô stacëjô"
 
 #: services/lastfm/LastFmTreeModel.cpp:355
-#| msgid "Recently Loved Tracks"
 msgid "My Loved Tracks"
 msgstr "Mòje lubòtné sztëcczi"
 
 #: services/lastfm/LastFmTreeModel.cpp:357
-#| msgid "Neighbor Radio"
 msgid "My Neighborhood"
 msgstr "Mòje sąsedztwò"
 
 #: services/lastfm/LastFmTreeModel.cpp:362
-#| msgid "No Artist"
 msgid "My Top Artists"
 msgstr "Mòje nôwikszé gwiôzdë"
 
 #: services/lastfm/LastFmTreeModel.cpp:364
-#| msgid "Tags"
 msgid "My Tags"
 msgstr "Mòje tadżi"
 
 #: services/lastfm/LastFmTreeModel.cpp:366
-#| msgid "Files"
 msgid "Friends"
 msgstr "Drësze"
 
 #: services/lastfm/LastFmTreeModel.cpp:368
-#| msgid "Neighbor Radio"
 msgid "Neighbors"
 msgstr "Sąsedzë"
 
 #: services/lastfm/biases/WeeklyTopBias.cpp:52
-#| msgid "No Artist"
 msgid "Weekly Top Artists"
 msgstr "Nowikszé gwiôzdë tidzénia"
 
@@ -6798,13 +6711,11 @@ msgid "Play Top Tracks From"
 msgstr ""
 
 #: services/lastfm/biases/WeeklyTopBias.cpp:120
-#| msgid "Stop"
 msgctxt "From one date to another, this text is in between"
 msgid "to"
 msgstr "do"
 
 #: services/lastfm/biases/SimilarArtistsBias.cpp:49
-#| msgid "Similar Artists to \"%1\""
 msgid "Last.Fm Similar Artists"
 msgstr "Artistë szlachùjący za \"%1\" wedle Last.fm"
 
@@ -6814,12 +6725,10 @@ msgstr ""
 
 #: services/lastfm/LoveTrackAction.cpp:28
 #: services/lastfm/LastFmService.cpp:285
-#| msgid "Last.fm: &Love"
 msgid "Last.fm: Love"
 msgstr "Last.fm: Lubòtné"
 
 #: services/lastfm/LastFmService.cpp:187
-#| msgid "Last.fm: The social music revolution."
 msgid "Last.fm: The social music revolution"
 msgstr "Last.fm: Spòlëznowa mùzycznô rewòlucëja"
 
@@ -6838,9 +6747,6 @@ msgid "Ctrl+L"
 msgstr "Ctrl+L"
 
 #: services/lastfm/LastFmService.cpp:339
-#| msgid ""
-#| "There seems to be an error in the supplied membership information. Please "
-#| "correct this and try again."
 msgctxt "Last.fm: errorMessage"
 msgid "Either the username was not recognized, or the password was incorrect."
 msgstr "Abò miono brëkòwnika nie je rozpòznóné abò parola je ze zmiłką."
@@ -6853,22 +6759,18 @@ msgid ""
 msgstr ""
 
 #: services/lastfm/LastFmService.cpp:445
-#| msgid "Enter artist name"
 msgid "Enter an artist name"
 msgstr "Wpiszë miono artistë"
 
 #: services/lastfm/LastFmService.cpp:448
-#| msgid "Enter artist name"
 msgid "Enter a tag"
 msgstr "Wpiszë tag"
 
 #: services/lastfm/LastFmService.cpp:451
-#| msgid "Enter artist name"
 msgid "Enter a last.fm user name"
 msgstr "Wpiszë miono brëkòwnika Last.fm"
 
 #: services/lastfm/LastFmService.cpp:465
-#| msgid "Username:"
 msgid "Username: "
 msgstr "Miono brëkòwnika:"
 
@@ -6877,23 +6779,18 @@ msgid "Age: "
 msgstr "Wiek:"
 
 #: services/lastfm/LastFmService.cpp:467
-#| msgid "Genre:"
 msgid "Gender: "
 msgstr "Płec:"
 
 #: services/lastfm/LastFmService.cpp:474
-#| msgid "Play Count"
 msgid "Play Count: "
 msgstr "Rechòwnik graniô:"
 
 #: services/lastfm/LastFmService.cpp:474
-#| msgid "%1 play"
-#| msgid_plural "%1 plays"
 msgid " plays"
 msgstr "grania"
 
 #: services/lastfm/LastFmService.cpp:484
-#| msgid "Device information for "
 msgid "Enter login information for Last.fm"
 msgstr "Wpiszr wëdowiédzë ò loginie do Last.fm"
 
@@ -6902,7 +6799,6 @@ msgid "Create a Custom Last.fm Station"
 msgstr ""
 
 #: services/lastfm/LastFmService.cpp:545
-#| msgid "Tags"
 msgid "Tag"
 msgstr "Tag"
 
@@ -6910,33 +6806,27 @@ msgstr "Tag"
 msgid "User"
 msgstr "Brëkòwnik"
 
-#: services/lastfm/LastFmService.cpp:578 services/lastfm/LastFmService.cpp:591, kde-format
-#| msgid "Recently Loved Tracks"
+#: services/lastfm/LastFmService.cpp:578 services/lastfm/LastFmService.cpp:591
+#, kde-format
 msgctxt "As in, lastfm"
 msgid "Loved Track: %1"
 msgstr "Lubòtny sztëczk: %1"
 
 #: services/lastfm/LastFmServiceSettings.cpp:94
-#| msgid "Connecting..."
 msgid "Testing..."
 msgstr "Testowanié..."
 
 #: services/lastfm/LastFmServiceSettings.cpp:135
-#| msgid "Files"
 msgctxt "The operation was rejected by the server"
 msgid "Failed"
 msgstr "Nie darzëło sã"
 
 #: services/lastfm/LastFmServiceSettings.cpp:140
-#| msgid "Scores"
 msgctxt "The operation completed as expected"
 msgid "Success"
 msgstr "Sukces"
 
 #: services/lastfm/LastFmServiceSettings.cpp:147
-#| msgid ""
-#| "There seems to be an error in the supplied membership information. Please "
-#| "correct this and try again."
 msgid ""
 "Either the username or the password is incorrect, please correct and try "
 "again"
@@ -6945,12 +6835,10 @@ msgstr ""
 "znôù."
 
 #: services/lastfm/LastFmServiceSettings.cpp:147
-#| msgid "Files"
 msgid "Failed"
 msgstr "Nie darzëło sã"
 
 #: services/lastfm/LastFmServiceSettings.cpp:148
-#| msgid "Mp3tunes login"
 msgid "Test Login"
 msgstr "Testowi login"
 
@@ -6958,13 +6846,12 @@ msgstr "Testowi login"
 msgid "Play Similar Artists from Last.fm"
 msgstr "Grôj juwernëch artistów z Last.fm"
 
-#: services/lastfm/LastFmServiceCollection.cpp:37, kde-format
-#| msgid "Stream"
+#: services/lastfm/LastFmServiceCollection.cpp:37
+#, kde-format
 msgid "%1's Streams"
 msgstr "Strëdżi brekòwnika %1"
 
 #: services/lastfm/LastFmServiceCollection.cpp:41
-#| msgid "Global Tag Radio: \"%1\""
 msgid "Global Tags"
 msgstr "Òglowé tadżi"
 
@@ -6989,8 +6876,6 @@ msgid "last.fm"
 msgstr "last.fm"
 
 #: services/shoutcast/ShoutcastService.cpp:33
-#| msgctxt "The location on disc of this track"
-#| msgid "Directory"
 msgid "Shoutcast Directory"
 msgstr "Katalog Shoutcast"
 
@@ -7009,7 +6894,6 @@ msgid "Go to artist in %1 service"
 msgstr "Biéj do artistë w serwisu %1"
 
 #: services/magnatune/MagnatuneInfoParser.cpp:34
-#| msgid "Loading Thumbnails..."
 msgid "Loading artist info..."
 msgstr "Ladowanié wëdowiédzë ò artisce..."
 
@@ -7019,7 +6903,6 @@ msgid "Fetching %1 Artist Info"
 msgstr "Ladowanié wëdowédzë ò artisce %1"
 
 #: services/magnatune/MagnatuneInfoParser.cpp:55
-#| msgid "Loading Thumbnails..."
 msgid "Loading album info..."
 msgstr "Ladowanié wëdowiédzë ò albùmie..."
 
@@ -7028,17 +6911,14 @@ msgid "Release Year: "
 msgstr ""
 
 #: services/magnatune/MagnatuneInfoParser.cpp:81
-#| msgid "&Duration:"
 msgid "Description:"
 msgstr "Òpisënk:"
 
 #: services/magnatune/MagnatuneInfoParser.cpp:85
-#| msgid "Purchase Album from Magnatune.com"
 msgid "From Magnatune.com"
 msgstr "Z Magnatune.com"
 
 #: services/magnatune/MagnatuneInfoParser.cpp:160
-#| msgid "Downloading Magnatune.com Database"
 msgid "Loading Magnatune.com frontpage..."
 msgstr "Ladowanié przédny starnë Magnatune..."
 
@@ -7048,12 +6928,10 @@ msgstr ""
 
 #: services/magnatune/MagnatuneInfoParser.cpp:176
 #: services/magnatune/MagnatuneInfoParser.cpp:187
-#| msgid "Downloading Magnatune.com Database"
 msgid "Loading your Magnatune.com favorites page..."
 msgstr "Ladowanié twòji nôlepszi starnë Magnatune..."
 
 #: services/magnatune/MagnatuneCollectionLocation.cpp:43
-#| msgid "Previous Track"
 msgid "Preview Tracks"
 msgstr "Pòdzérk sztëczka"
 
@@ -7095,10 +6973,13 @@ msgstr "Ladowanié albùmù"
 msgid "Adding album cover to collection"
 msgstr "Dodôj òbkłôdkã albùmù do kòlekcëji"
 
-#: services/magnatune/MagnatuneXmlParser.cpp:66, kde-format
-#| msgid ""
-#| "Jamendo.com database update complete. Added %1 tracks on %2 albums from %"
-#| "3 artists"
+#: services/magnatune/MagnatuneXmlParser.cpp:66
+#, kde-format
+#| msgctxt ""
+#| "First part of: Magnatune.com database update complete. Added 3 tracks on "
+#| "4 albums from 5 artists."
+#| msgid "Magnatune.com database update complete. Added 1 track on "
+#| msgid_plural "Magnatune.com database update complete. Added %1 tracks on "
 msgctxt ""
 "First part of: Magnatune.com database update complete. Added 3 tracks on 4 "
 "albums from 5 artists."
@@ -7108,9 +6989,8 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: services/magnatune/MagnatuneXmlParser.cpp:67, kde-format
-#| msgid "1 album"
-#| msgid_plural "%1 albums"
+#: services/magnatune/MagnatuneXmlParser.cpp:67
+#, kde-format
 msgctxt ""
 "Middle part of: Magnatune.com database update complete. Added 3 tracks on 4 "
 "albums from 5 artists."
@@ -7120,9 +7000,8 @@ msgstr[0] "1 albùm z"
 msgstr[1] "%1 albùmë z"
 msgstr[2] "%1 albùmów z"
 
-#: services/magnatune/MagnatuneXmlParser.cpp:68, kde-format
-#| msgid "%1 artist"
-#| msgid_plural "%1 artists"
+#: services/magnatune/MagnatuneXmlParser.cpp:68
+#, kde-format
 msgctxt ""
 "Last part of: Magnatune.com database update complete. Added 3 tracks on 4 "
 "albums from 5 artists."
@@ -7133,7 +7012,6 @@ msgstr[1] "%1 artistów."
 msgstr[2] "%1 artistów."
 
 #: services/magnatune/MagnatuneRedownloadHandler.cpp:60
-#| msgid "No cover found"
 msgid "No purchases found."
 msgstr "Nie je nalazłé niżódné zamówienié."
 
@@ -7146,7 +7024,6 @@ msgid "Could not re-download album"
 msgstr "Ni mòże znladowac znowa albùmù"
 
 #: services/magnatune/MagnatuneRedownloadHandler.cpp:140
-#| msgid "There seems to be a problem with the selected redownload info file."
 msgid "There seems to be a problem with the selected re-download info file."
 msgstr ""
 "Wëzdrzi na to, że je probléma z wëbrónym wëdowiédnym lopkã ò pònownym "
@@ -7167,7 +7044,6 @@ msgid ""
 msgstr ""
 
 #: services/magnatune/MagnatuneStore.cpp:230
-#| msgid "Redownload"
 msgid "Re-download"
 msgstr "Zladëjë znôù"
 
@@ -7176,7 +7052,6 @@ msgid "Update Database"
 msgstr "Zaktualni bazã pòdôwków"
 
 #: services/magnatune/MagnatuneStore.cpp:236
-#| msgid "&Tools"
 msgid "Tools"
 msgstr "Nôrzãdza"
 
@@ -7287,8 +7162,8 @@ msgstr "Ni mògã przeprowadzëc procesu zladënkù"
 msgid "No service named %1 is curretly loaded"
 msgstr "Niżódnô ùsłëżnota ò mionie %1 nie je terô zaladowónô"
 
-#: services/ServicePluginManager.cpp:247, kde-format
-#| msgid "No service named %1 is curretly loaded"
+#: services/ServicePluginManager.cpp:247
+#, kde-format
 msgid "No service named %1 is currently loaded"
 msgstr "Niżódnô ùsłëżnota ò mionie %1 nie je terô zaladowónô"
 
@@ -7296,17 +7171,14 @@ msgstr "Niżódnô ùsłëżnota ò mionie %1 nie je terô zaladowónô"
 #: services/scriptable/ScriptableServiceInfoParser.cpp:65
 #: services/scriptable/ScriptableServiceInfoParser.cpp:81
 #: services/scriptable/ScriptableServiceInfoParser.cpp:97
-#| msgid "Loading Thumbnails..."
 msgid "Loading info..."
 msgstr "Ladowanié wëdowiédzë..."
 
 #: services/ampache/AmpacheService.cpp:121
-#| msgid "Use Amarok as a seamless frontend to your Ampache server!"
 msgid "Amarok frontend for your Ampache server."
 msgstr "Nakłôdka Amaroka na twòją serwerã Ampache."
 
 #: services/ampache/AmpacheService.cpp:124
-#| msgid "Use Amarok as a seamless frontend to your Ampache server!"
 msgid ""
 "Use Amarok as a seamless frontend to your Ampache server. This lets you "
 "browse and play all the Ampache contents from within Amarok."
@@ -7319,12 +7191,10 @@ msgid "Enter the server name and a password"
 msgstr "Wpiszë miono serwerë ë parolã"
 
 #: services/ampache/AmpacheService.cpp:265
-#| msgid "Authenticating"
 msgid "Authenticating with Ampache"
 msgstr "Ùdowiérzanié z Ampache"
 
 #: services/ampache/AmpacheService.cpp:293
-#| msgid "Authentication Error!"
 msgid "Authentication Error"
 msgstr "Fela ùdowiérzania"
 
@@ -7349,12 +7219,10 @@ msgid "The MP3tunes Locker: Your Music Everywhere!"
 msgstr "Szafka MP3Tunes: Twòja mùzyka wszãdze!"
 
 #: services/mp3tunes/Mp3tunesService.cpp:221
-#| msgid "MP3Tunes AutoSync Disabled"
 msgid "MP3tunes AutoSync Enabled"
 msgstr "Aùtomatnô synchronizacëjô MP3Tunes włączonô"
 
 #: services/mp3tunes/Mp3tunesService.cpp:237
-#| msgid "MP3Tunes AutoSync Disabled"
 msgid "MP3tunes AutoSync Disabled"
 msgstr "Aùtomatnô synchronizacëjô MP3tunes wëłączonô"
 
@@ -7367,18 +7235,15 @@ msgid "Mp3tunes failed to Authenticate."
 msgstr "Nie darzëło sã ùdowiérzanié do MP3Tunes."
 
 #: services/mp3tunes/Mp3tunesService.cpp:302
-#| msgid "MP3Tunes Harmony: Disconnected"
 msgid "MP3tunes Harmony: Disconnected"
 msgstr "MP3tunes Harmony: Rozłączoné"
 
 #: services/mp3tunes/Mp3tunesService.cpp:309
 #: services/mp3tunes/Mp3tunesService.cpp:322
-#| msgid "MP3Tunes Harmony: Disconnected"
 msgid "MP3tunes Harmony: Waiting for PIN Input"
 msgstr "MP3Tunes Harmony: Żdónié na wprowadzenié PIN-a"
 
 #: services/mp3tunes/Mp3tunesService.cpp:334
-#| msgid "MP3Tunes Harmony: Disconnected"
 msgid "MP3tunes Harmony: Successfully Connected"
 msgstr "MP3Tunes Harmony: Szczestlewé pòłączenié"
 
@@ -7392,7 +7257,6 @@ msgstr ""
 "%1"
 
 #: services/mp3tunes/harmonydaemon/main.cpp:34
-#| msgid "Amarok's MP3Tunes Harmony Daemon"
 msgid "Amarok's MP3tunes Harmony Daemon"
 msgstr "Demon MP3Tunes Harmony dlô Amaroka"
 
@@ -7448,8 +7312,8 @@ msgstr ""
 msgid "Upload to MP3tunes Initiated"
 msgstr "Ladowanié do MP3Tunes naczãté"
 
-#: services/mp3tunes/Mp3tunesWorkers.cpp:266, kde-format
-#| msgid "Uploading Track "
+#: services/mp3tunes/Mp3tunesWorkers.cpp:266
+#, kde-format
 msgid "Uploading Track %1/%2"
 msgstr "Zladowónié sztëczka %1/%2"
 
@@ -7458,7 +7322,6 @@ msgid "Jamendo.com: &Download"
 msgstr "Jamendo.com: &Ladëjë"
 
 #: services/jamendo/JamendoMeta.cpp:178
-#| msgid "A site where artists can showcase their creations to the world"
 msgid "A site where artists can freely share their music"
 msgstr "Starna na chtërny artistowie mògą dzelec sã swòją mùzyką"
 
@@ -7493,10 +7356,8 @@ msgstr "Felëje òpisënkù..."
 msgid "From Jamendo.com"
 msgstr ""
 
-#: services/jamendo/JamendoXmlParser.cpp:147, kde-format
-#| msgid ""
-#| "Jamendo.com database update complete. Added %1 tracks on %2 albums from %"
-#| "3 artists"
+#: services/jamendo/JamendoXmlParser.cpp:147
+#, kde-format
 msgctxt ""
 "First part of: Jamendo.com database update complete. Added 3 tracks on 4 "
 "albums from 5 artists."
@@ -7508,9 +7369,8 @@ msgstr[1] ""
 msgstr[2] ""
 "Zaktualnianié bazë pòdôwków Jamendo je ju fardich. Dodóno %1 sztëczków"
 
-#: services/jamendo/JamendoXmlParser.cpp:148, kde-format
-#| msgid "1 album"
-#| msgid_plural "%1 albums"
+#: services/jamendo/JamendoXmlParser.cpp:148
+#, kde-format
 msgctxt ""
 "Middle part of: Jamendo.com database update complete. Added 3 tracks on 4 "
 "albums from 5 artists."
@@ -7520,9 +7380,8 @@ msgstr[0] "1 albùm z"
 msgstr[1] "%1 albùmë z"
 msgstr[2] "%1 albùmów z"
 
-#: services/jamendo/JamendoXmlParser.cpp:149, kde-format
-#| msgid "%1 artist"
-#| msgid_plural "%1 artists"
+#: services/jamendo/JamendoXmlParser.cpp:149
+#, kde-format
 msgctxt ""
 "Last part of: Jamendo.com database update complete. Added 3 tracks on 4 "
 "albums from 5 artists."
@@ -7537,23 +7396,18 @@ msgid "The following sources are available for this track:"
 msgstr ""
 
 #: playlist/view/listview/SourceSelectionPopup.cpp:43
-#| msgctxt "The quality of music"
-#| msgid "Okay"
 msgid "Ok"
 msgstr "Ok"
 
 #: playlist/view/PlaylistViewCommon.cpp:63
-#| msgid "Most Played Tracks"
 msgid "Stop Playing After This Track"
 msgstr "Wëłączë pò tim sztëczkù"
 
 #: playlist/view/PlaylistViewCommon.cpp:70
-#| msgid "&Queue Track"
 msgid "Queue Track"
 msgstr "Régùjë sztëczk"
 
 #: playlist/view/PlaylistViewCommon.cpp:70
-#| msgid "&Dequeue Track"
 msgid "Dequeue Track"
 msgstr "Wërégùjë sztëczk"
 
@@ -7562,7 +7416,6 @@ msgid "Remove From Playlist"
 msgstr "Rëmôj z lëstë graniô"
 
 #: playlist/view/PlaylistViewCommon.cpp:132
-#| msgid "Select Format:"
 msgid "Select Source"
 msgstr "Wëbiérk fòrmatu"
 
@@ -7572,25 +7425,21 @@ msgid "Placeholder"
 msgstr ""
 
 #: playlist/PlaylistDefines.h:70
-#| msgid "Album"
 msgctxt "'Album' playlist column name and token for playlist layouts"
 msgid "Album"
 msgstr "Albùm"
 
 #: playlist/PlaylistDefines.h:71
-#| msgid "Album Artist"
 msgctxt "'Album artist' playlist column name and token for playlist layouts"
 msgid "Album artist"
 msgstr "Artista albùmù"
 
 #: playlist/PlaylistDefines.h:72
-#| msgid "Artist"
 msgctxt "'Artist' playlist column name and token for playlist layouts"
 msgid "Artist"
 msgstr "Artista"
 
 #: playlist/PlaylistDefines.h:73
-#| msgid "Bitrate"
 msgctxt "'Bitrate' playlist column name and token for playlist layouts"
 msgid "Bitrate"
 msgstr "Chùtkòsc transmisëji"
@@ -7603,32 +7452,26 @@ msgid "Bpm"
 msgstr "Bpm"
 
 #: playlist/PlaylistDefines.h:75
-#| msgid "Comment"
 msgctxt "'Comment' playlist column name and token for playlist layouts"
 msgid "Comment"
 msgstr "Dopòwiesc"
 
 #: playlist/PlaylistDefines.h:76
-#| msgid "Composer"
 msgctxt "'Composer' playlist column name and token for playlist layouts"
 msgid "Composer"
 msgstr "Kòmpòzytor"
 
 #: playlist/PlaylistDefines.h:77
-#| msgid "Cover Image"
 msgctxt "'Cover image' playlist column name and token for playlist layouts"
 msgid "Cover image"
 msgstr "Òbkłôdka"
 
 #: playlist/PlaylistDefines.h:78
-#| msgctxt "The location on disc of this track"
-#| msgid "Directory"
 msgctxt "'Directory' playlist column name and token for playlist layouts"
 msgid "Directory"
 msgstr "Katalog"
 
 #: playlist/PlaylistDefines.h:79
-#| msgid "Disc Number"
 msgctxt "'Disc number' playlist column name and token for playlist layouts"
 msgid "Disc number"
 msgstr "Numer diskù"
@@ -7640,26 +7483,21 @@ msgid "Divider"
 msgstr ""
 
 #: playlist/PlaylistDefines.h:81
-#| msgctxt "The name of the file this track is stored in"
-#| msgid "Filename"
 msgctxt "'File name' playlist column name and token for playlist layouts"
 msgid "File name"
 msgstr "Miono lopka"
 
 #: playlist/PlaylistDefines.h:82
-#| msgid "File Size"
 msgctxt "'File size' playlist column name and token for playlist layouts"
 msgid "File size"
 msgstr "Miara lopka"
 
 #: playlist/PlaylistDefines.h:83
-#| msgid "Genre"
 msgctxt "'Genre' playlist column name and token for playlist layouts"
 msgid "Genre"
 msgstr "Zort"
 
 #: playlist/PlaylistDefines.h:84
-#| msgid "Groupings"
 msgctxt ""
 "'Group length' (total play time of group) playlist column name and token for "
 "playlist layouts"
@@ -7667,7 +7505,6 @@ msgid "Group length"
 msgstr "Dłùgòta grëpë"
 
 #: playlist/PlaylistDefines.h:85
-#| msgid "tracks"
 msgctxt ""
 "'Group tracks' (number of tracks in group) playlist column name and token "
 "for playlist layouts"
@@ -7675,7 +7512,6 @@ msgid "Group tracks"
 msgstr "Grëpa sztëczków"
 
 #: playlist/PlaylistDefines.h:86
-#| msgid "Last Played"
 msgctxt ""
 "'Last played' (when was track last played) playlist column name and token "
 "for playlist layouts"
@@ -7683,44 +7519,37 @@ msgid "Last played"
 msgstr "Slédno gróné"
 
 #: playlist/PlaylistDefines.h:87
-#| msgid "Length"
 msgctxt ""
 "'Length' (track length) playlist column name and token for playlist layouts"
 msgid "Length"
 msgstr "Długòta"
 
 #: playlist/PlaylistDefines.h:88
-#| msgid "Mood"
 msgctxt "'Mood' playlist column name and token for playlist layouts"
 msgid "Mood"
 msgstr "Òdczëcé"
 
 #: playlist/PlaylistDefines.h:89
-#| msgid "Playcount"
 msgctxt "'Play count' playlist column name and token for playlist layouts"
 msgid "Play count"
 msgstr "Rechòwnik òdegraniô"
 
 #: playlist/PlaylistDefines.h:90
-#| msgid "Rating"
 msgctxt "'Rating' playlist column name and token for playlist layouts"
 msgid "Rating"
 msgstr "Notowania"
 
 #: playlist/PlaylistDefines.h:91
-#| msgid "Samplerate:"
 msgctxt "'Sample rate' playlist column name and token for playlist layouts"
 msgid "Sample rate"
 msgstr "Probkòwanié:"
 
 #: playlist/PlaylistDefines.h:92
-#| msgid "Score"
 msgctxt "'Score' playlist column name and token for playlist layouts"
 msgid "Score"
 msgstr "Pùnktacëjô"
 
 #: playlist/PlaylistDefines.h:93
-#| msgid "Score"
 msgctxt ""
 "'Source' (local collection, Magnatune.com, last.fm, ... ) playlist column "
 "name and token for playlist layouts"
@@ -7728,20 +7557,17 @@ msgid "Source"
 msgstr "Zdrój"
 
 #: playlist/PlaylistDefines.h:94
-#| msgid "Score"
 msgctxt "'SourceEmblem' playlist column name and token for playlist layouts"
 msgid "SourceEmblem"
 msgstr ""
 
 #: playlist/PlaylistDefines.h:95
-#| msgid "Title"
 msgctxt ""
 "'Title' (track name) playlist column name and token for playlist layouts"
 msgid "Title"
 msgstr "Titel"
 
 #: playlist/PlaylistDefines.h:96
-#| msgid "tracknumber"
 msgctxt ""
 "'Title (with track number)' (track name prefixed with the track number) "
 "playlist column name and token for playlist layouts"
@@ -7749,27 +7575,23 @@ msgid "Title (with track number)"
 msgstr "Titel (z numerã sztëczka)"
 
 #: playlist/PlaylistDefines.h:97
-#| msgid "Track Number"
 msgctxt "'Track number' playlist column name and token for playlist layouts"
 msgid "Track number"
 msgstr "Numer sztëczka"
 
 #: playlist/PlaylistDefines.h:98
-#| msgid "Type"
 msgctxt ""
 "'Type' (file format) playlist column name and token for playlist layouts"
 msgid "Type"
 msgstr "Ôrt"
 
 #: playlist/PlaylistDefines.h:99
-#| msgid "Year"
 msgctxt "'Year' playlist column name and token for playlist layouts"
 msgid "Year"
 msgstr "Rok"
 
 #: playlist/layouts/LayoutEditWidget.cpp:42
 #: playlist/layouts/LayoutEditWidget.cpp:56
-#| msgid "Show details"
 msgid "Show Cover"
 msgstr "Pòkażë óbkłôdkã"
 
@@ -7783,12 +7605,10 @@ msgid "Cannot Delete Default Layouts"
 msgstr ""
 
 #: playlist/layouts/LayoutConfigAction.cpp:43
-#| msgid "Playlist name:"
 msgid "Playlist layouts"
 msgstr "Wëdrzatczi lëstë graniô"
 
 #: playlist/layouts/LayoutConfigAction.cpp:70
-#| msgid "Configure..."
 msgid "Configure playlist layouts..."
 msgstr "Kònfigùrëjë wëzdrzatczi lëstë graniô..."
 
@@ -7801,7 +7621,6 @@ msgid "Dynamic Mode Enabled"
 msgstr ""
 
 #: playlist/PlaylistWidget.cpp:139
-#| msgid "Skip this track"
 msgid "Show active track"
 msgstr "Pòkażë biéżné sztëcczi"
 
@@ -7814,7 +7633,6 @@ msgid "Tracks Removed"
 msgstr "Sztëcczi rëmniãté"
 
 #: playlist/UndoCommands.cpp:71
-#| msgid "Tracks Removed"
 msgid "Track moved"
 msgstr "Sztëczk przesëniãti"
 
@@ -7823,8 +7641,6 @@ msgid "Too many errors encountered in playlist. Playback stopped."
 msgstr ""
 
 #: playlist/PlaylistModel.cpp:286
-#| msgctxt "When this track was first played"
-#| msgid "Never"
 msgid "Never"
 msgstr "Nigdë"
 
@@ -7906,10 +7722,8 @@ msgstr "z"
 msgid "Playing: %1"
 msgstr "Grô: %1"
 
-#: statusbar/StatusBar.cpp:341, kde-format
-#| msgctxt "The Amount of tracks in queue; %2 total playtime"
-#| msgid "1 track (%2)"
-#| msgid_plural "%1 tracks (%2)"
+#: statusbar/StatusBar.cpp:341
+#, kde-format
 msgctxt "%1 is number of tracks, %2 is time"
 msgid "%1 track (%2)"
 msgid_plural "%1 tracks (%2)"
@@ -7917,9 +7731,8 @@ msgstr[0] "%1 sztëczk (%2)"
 msgstr[1] "%1 sztëcczi (%2)"
 msgstr[2] "%1 sztëczków (%2)"
 
-#: statusbar/StatusBar.cpp:347, kde-format
-#| msgid "%1 track"
-#| msgid_plural "%1 tracks"
+#: statusbar/StatusBar.cpp:347
+#, kde-format
 msgctxt "%1 is number of tracks"
 msgid "%1 track"
 msgid_plural "%1 tracks"
@@ -7940,7 +7753,6 @@ msgstr "W spódkù robi wiele dzejaniów"
 
 #: statusbar/CompoundProgressBar.cpp:75 statusbar/CompoundProgressBar.cpp:147
 #: statusbar/CompoundProgressBar.cpp:182
-#| msgid "Abort all background-operations"
 msgid "Abort all background operations"
 msgstr "Wstrzëmôj wszëtczé òperacëje w spódkù"
 
@@ -7949,8 +7761,6 @@ msgid "New Group"
 msgstr "Nowa grëpa"
 
 #: amarokurls/BookmarkTreeView.cpp:119
-#| msgctxt "Replace the currently loaded tracks with these"
-#| msgid "&Load"
 msgctxt "Load the view represented by this bookmark"
 msgid "&Load"
 msgstr "L&adëjë"
@@ -7960,7 +7770,6 @@ msgid "&Create timecode track"
 msgstr ""
 
 #: amarokurls/BookmarkTreeView.cpp:317
-#| msgid "Selected Tracks"
 msgid "New Timecode Track"
 msgstr ""
 
@@ -7969,33 +7778,26 @@ msgid "Url:"
 msgstr ""
 
 #: amarokurls/BookmarkManagerWidget.cpp:63
-#| msgid "Love Current Track"
 msgid "Get Current"
 msgstr "Wez biéżny"
 
 #: amarokurls/BookmarkManagerWidget.cpp:69
-#| msgctxt "The quality of music"
-#| msgid "Good"
 msgid "Goto"
 msgstr "Biéj do"
 
 #: amarokurls/BookmarkManagerWidget.cpp:85
-#| msgid "Bookmarks"
 msgid "New Bookmark"
 msgstr "Nowé załóżczi"
 
 #: amarokurls/BookmarkManagerWidget.cpp:140
-#| msgid "Server"
 msgid "Save"
 msgstr "Zapiszë"
 
 #: amarokurls/BookmarkMetaActions.cpp:34
-#| msgid "Burn This Album"
 msgid "Bookmark this Album"
 msgstr "Dodôj nen albùm do załóżków"
 
 #: amarokurls/BookmarkMetaActions.cpp:51
-#| msgid "Various Artists"
 msgid "Bookmark this Artist"
 msgstr "Dodôj negò artistã do załóżków"
 
@@ -8008,8 +7810,8 @@ msgstr ""
 msgid "Album \"%1\" from %2"
 msgstr "Albùm \"%1\" z %2"
 
-#: amarokurls/NavigationUrlGenerator.cpp:150, kde-format
-#| msgid "Albums By"
+#: amarokurls/NavigationUrlGenerator.cpp:150
+#, kde-format
 msgid "Album \"%1\""
 msgstr "Albùm \"%1\""
 
@@ -8018,13 +7820,12 @@ msgstr "Albùm \"%1\""
 msgid "Artist \"%1\" from %2"
 msgstr ""
 
-#: amarokurls/NavigationUrlGenerator.cpp:202, kde-format
-#| msgid "Artist"
+#: amarokurls/NavigationUrlGenerator.cpp:202
+#, kde-format
 msgid "Artist \"%1\""
 msgstr "Artista \"%1\""
 
 #: widgets/VolumeWidget.cpp:36
-#| msgid "Minutes"
 msgid "Mute"
 msgstr "Wëcëszë"
 
@@ -8036,8 +7837,8 @@ msgstr "Kòntrola głosnoscë"
 msgid "Rating changed"
 msgstr ""
 
-#: widgets/Osd.cpp:140, kde-format
-#| msgid "Volume"
+#: widgets/Osd.cpp:140
+#, kde-format
 msgid "Volume: %1% %2"
 msgstr "Głosnosc: %1% %2"
 
@@ -8058,7 +7859,6 @@ msgid "Warning: tracks have been hidden in the playlist"
 msgstr ""
 
 #: widgets/ProgressiveSearchWidget.cpp:48
-#| msgid "Smart Playlist"
 msgid "Search playlist"
 msgstr "Przëszëkôj lësta gróniô"
 
@@ -8067,23 +7867,18 @@ msgid "Start typing to progressively search through the playlist"
 msgstr ""
 
 #: widgets/ProgressiveSearchWidget.cpp:75
-#| msgctxt "Items, as in music"
-#| msgid "&Tracks"
 msgid "Tracks"
 msgstr "Sztëcczi"
 
 #: widgets/ProgressiveSearchWidget.cpp:82
-#| msgid "&Albums"
 msgid "Albums"
 msgstr "Albùmë"
 
 #: widgets/ProgressiveSearchWidget.cpp:89
-#| msgid "Artist"
 msgid "Artists"
 msgstr "Artistowie"
 
 #: widgets/ProgressiveSearchWidget.cpp:103
-#| msgid "Composer"
 msgid "Composers"
 msgstr "Kòmpòzytorowie"
 
@@ -8092,7 +7887,6 @@ msgid "Years"
 msgstr "Lat"
 
 #: widgets/ProgressiveSearchWidget.cpp:119
-#| msgid "Play Counter"
 msgid "Show only matches"
 msgstr "Pòkażë le dopasowóné"
 
@@ -8101,17 +7895,14 @@ msgid "Search Preferences"
 msgstr ""
 
 #: widgets/SearchWidget.cpp:67
-#| msgid "Enter space-separated terms to search in the albums"
 msgid "Enter space-separated terms to search."
 msgstr "Wpiszë, òddzéloné spacjama, kriteria przeszëkiwaniô."
 
 #: widgets/SearchWidget.cpp:77 widgets/SearchWidget.cpp:111
-#| msgid "Edit Filter"
 msgid "Edit filter"
 msgstr "Editëjë filter"
 
 #: widgets/MainToolbar.cpp:43
-#| msgid "Moodbar"
 msgid "Main Toolbar"
 msgstr "Przédnô lëstwa nôrzãdzów"
 
@@ -8148,17 +7939,14 @@ msgid "Bold"
 msgstr "Pògrëbienié"
 
 #: widgets/TokenWithLayout.cpp:72
-#| msgid "Uninstall"
 msgid "Italic"
 msgstr "Kùrsywa"
 
 #: widgets/TokenWithLayout.cpp:77
-#| msgid "Length"
 msgid "Left"
 msgstr "Lewò"
 
 #: widgets/TokenWithLayout.cpp:78
-#| msgid "Comment"
 msgid "Center"
 msgstr "Centróm"
 
@@ -8167,19 +7955,14 @@ msgid "Right"
 msgstr "Prawò"
 
 #: widgets/TokenWithLayout.cpp:101
-#| msgid "All Widgets"
 msgid "Alignment"
 msgstr "Pòłożenié"
 
 #: widgets/TokenWithLayout.cpp:178
-#| msgid "playcount"
 msgid "Layout"
 msgstr "Wëzdrzatk"
 
 #: widgets/TokenLayoutWidget.cpp:48
-#| msgid ""
-#| "<div align=center><i>Drag tokens here to define a filename scheme.</i></"
-#| "div>"
 msgid "Drag tokens here to define a filename scheme."
 msgstr "Przecygni znaczniczi tuwò, abë zdefiniowac schémã miona lopka."
 
@@ -8204,7 +7987,6 @@ msgid "The amount of time remaining in current song"
 msgstr "Czas jaczi òstôł do kùńca sztëczka"
 
 #: widgets/BookmarkPopup.cpp:40 widgets/BookmarkPopup.cpp:83
-#| msgid "Bookmarks"
 msgid "Bookmark"
 msgstr "Załóżka"
 

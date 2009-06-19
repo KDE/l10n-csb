@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_extragear-multimedia_amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-17 10:33+0000\n"
+"POT-Creation-Date: 2009-06-19 09:45+0000\n"
 "PO-Revision-Date: 2009-06-18 20:01+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -40,6 +40,11 @@ msgctxt "Name"
 msgid "Video"
 msgstr "Wideò"
 
+#: playground/src/context/applets/wiki/amarok-context-applet-wiki.desktop:2
+msgctxt "Name"
+msgid "Wiki-MetaApplet"
+msgstr ""
+
 #: playground/src/context/engines/cloud/amarok-data-engine-cloud.desktop:2
 msgctxt "Name"
 msgid "Cloud Data Engine"
@@ -50,7 +55,7 @@ msgctxt "Name"
 msgid "JS Sample Engine"
 msgstr "Przëmiarowi mòtór JS"
 
-#: playground/src/context/engines/jsengine/metadata.desktop:7
+#: playground/src/context/engines/jsengine/metadata.desktop:12
 msgctxt "Comment"
 msgid "Javascript Sample Engine"
 msgstr "Przëmiarowi mòtór Javascript"
@@ -59,6 +64,14 @@ msgstr "Przëmiarowi mòtór Javascript"
 msgctxt "Name"
 msgid "LastFM Data Engine"
 msgstr "Mòtór pòdôwków Last.fm"
+
+#: playground/src/context/engines/wiki/amarok-data-engine-wiki.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Wikipedia Data Engine"
+msgctxt "Name"
+msgid "Wiki Data Engine"
+msgstr "Mòtór pòdôwków z Wikipedijë"
 
 #: src/amarok_addaspodcast.desktop:5
 msgctxt "Name"
@@ -111,15 +124,11 @@ msgid "Plugin for Amarok"
 msgstr "Wtëkôcz dlô Amaroka"
 
 #: src/collection/audiocd/amarok_collection-audiocdcollection.desktop:3
-#| msgctxt "Name"
-#| msgid "Ipod Collection"
 msgctxt "Name"
 msgid "AudioCd Collection"
 msgstr "Kòlekcëjô AudioCd"
 
-#: src/collection/audiocd/amarok_collection-audiocdcollection.desktop:8
-#| msgctxt "Comment"
-#| msgid "Ipod collection plugin for Amarok"
+#: src/collection/audiocd/amarok_collection-audiocdcollection.desktop:13
 msgctxt "Comment"
 msgid "AudioCd collection plugin for Amarok"
 msgstr "Wtëkôcz kòlekcëji AudioCd dlô Amaroka"
@@ -155,15 +164,11 @@ msgid "Media Device collection plugin for Amarok"
 msgstr "Wtëkôcz kòlekcëji ùrządzenia medium dlô Amaroka"
 
 #: src/collection/mtpcollection/amarok_collection-mtpcollection.desktop:3
-#| msgctxt "Name"
-#| msgid "DAAP Collection"
 msgctxt "Name"
 msgid "MTP Collection"
 msgstr "Kòlekcëjô MTP"
 
 #: src/collection/mtpcollection/amarok_collection-mtpcollection.desktop:45
-#| msgctxt "Comment"
-#| msgid "DAAP collection plugin for Amarok"
 msgctxt "Comment"
 msgid "MTP collection plugin for Amarok"
 msgstr "Wtëkôcz kòlekcëji MTP dlô Amaroka"
@@ -234,8 +239,6 @@ msgid "Bookmarks"
 msgstr "Załóżczi"
 
 #: src/context/applets/currenttrack/amarok-context-applet-currenttrack.desktop:2
-#| msgctxt "Name"
-#| msgid "Current Track Info"
 msgctxt "Name"
 msgid "Current Track"
 msgstr "Biéżny sztëczk"
@@ -246,8 +249,6 @@ msgid "Lyrics"
 msgstr "Tekstë"
 
 #: src/context/applets/mediadevices/amarok-context-applet-mediadevices.desktop:2
-#| msgctxt "Name"
-#| msgid "MTP Media Device"
 msgctxt "Name"
 msgid "Media Devices"
 msgstr "Ùrządzenia"
@@ -258,8 +259,6 @@ msgid "Playlist Information"
 msgstr "Wëdowiédza ò lësce graniô"
 
 #: src/context/applets/serviceinfo/amarok-context-applet-serviceinfo.desktop:2
-#| msgctxt "Name"
-#| msgid "Service Info"
 msgctxt "Name"
 msgid "Services"
 msgstr "Serwisë"
@@ -275,8 +274,6 @@ msgid "Videoclip"
 msgstr "Teledisk"
 
 #: src/context/applets/wikipedia/amarok-context-applet-wikipedia.desktop:2
-#| msgctxt "Name"
-#| msgid "Wikipedia Data Engine"
 msgctxt "Name"
 msgid "Wikipedia"
 msgstr "Wikipedia"
@@ -317,15 +314,11 @@ msgid "Service Info Data Engine"
 msgstr "Mòtór serwisu wëdowiedzë ò pòdôwkach"
 
 #: src/context/engines/songkick/amarok-data-engine-songkick.desktop:2
-#| msgctxt "Name"
-#| msgid "Lyrics Data Engine"
 msgctxt "Name"
 msgid "Songkick Data Engine"
 msgstr "Mòtór Songkicka"
 
 #: src/context/engines/videoclip/amarok-data-engine-videoclip.desktop:2
-#| msgctxt "Name"
-#| msgid "Cloud Data Engine"
 msgctxt "Name"
 msgid "Video Clip Data Engine"
 msgstr "Mòtór pòdôwków teledisków"
@@ -336,20 +329,16 @@ msgid "Wikipedia Data Engine"
 msgstr "Mòtór pòdôwków z Wikipedijë"
 
 #: src/context/scriptengine/javascript/amarok-scriptengine-applet-simple-javascript.desktop:2
-#| msgctxt "Comment"
-#| msgid "Amarok Context applet"
 msgctxt "Name"
 msgid "Amarok JavaScript Applet"
 msgstr "Aplet JavaScriptu Amaroka"
 
-#: src/context/scriptengine/javascript/amarok-scriptengine-applet-simple-javascript.desktop:7
+#: src/context/scriptengine/javascript/amarok-scriptengine-applet-simple-javascript.desktop:12
 msgctxt "Comment"
 msgid "Native Amarok applet written in JavaScript"
 msgstr "Aplet Amaroka napisóny w JavaScript"
 
 #: src/context/scriptengine/javascript/amarok-scriptengine-runner-javascript.desktop:2
-#| msgctxt "Name"
-#| msgid "Amarok Data Engine"
 msgctxt "Name"
 msgid "Amarok JavaScript Runner"
 msgstr "Zrëszôcz JavaScriptu Amaroka"
@@ -420,8 +409,6 @@ msgid "Set up Last.fm username and password"
 msgstr ""
 
 #: src/services/lastfm/amarok_service_lastfm.desktop:5
-#| msgctxt "Name"
-#| msgid "Last.fm Service"
 msgctxt "Name"
 msgid "Last.fm"
 msgstr "Last.fm"
