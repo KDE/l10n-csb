@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-20 12:23+0200\n"
+"POT-Creation-Date: 2009-06-21 11:30+0200\n"
 "PO-Revision-Date: 2009-06-18 20:48+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -233,7 +233,7 @@ msgstr "Kòlekcëjô Nepomuk"
 msgid "Nepomuk Collection (slow, Redland)"
 msgstr "Kòlekcëjô Nepomuk (wòlné, Redland)"
 
-#: collection/sqlcollection/SqlCollection.cpp:72
+#: collection/sqlcollection/SqlCollection.cpp:59
 #, fuzzy, kde-format
 #| msgid "Collection Database"
 msgid "Local Collection (via database at %1)"
@@ -244,7 +244,7 @@ msgstr "Baza pòdôwków kòlekcëji"
 msgid "Local Collection"
 msgstr "Môlowô kòlekcëjô"
 
-#: collection/sqlcollection/SqlCollection.cpp:365
+#: collection/sqlcollection/SqlCollection.cpp:371
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -254,12 +254,12 @@ msgstr ""
 "Na gwës chcesz rëmnąc ne %1 sztëków? Òstaną rëmniãté tak z diskù jak ë z "
 "twòji kòlekcëji."
 
-#: collection/sqlcollection/SqlCollection.cpp:369
+#: collection/sqlcollection/SqlCollection.cpp:375
 msgid "Delete Files"
 msgstr "Rëmniãcé lopków"
 
 #: collection/sqlcollection/OrganizeCollectionDialog.cpp:165
-#: collection/sqlcollection/ScanManager.cpp:679
+#: collection/sqlcollection/ScanManager.cpp:677
 #: browsers/CollectionTreeItem.cpp:159 covermanager/CoverViewDialog.h:45
 #: covermanager/CoverManager.cpp:855
 msgid "Various Artists"
@@ -304,7 +304,7 @@ msgstr ""
 msgid "Transferring: %1"
 msgstr "Przenoszenié: %1"
 
-#: collection/sqlcollection/ScanManager.cpp:500
+#: collection/sqlcollection/ScanManager.cpp:498
 msgid ""
 "<p>Sorry, the collection scan had to be aborted.</p><p>Too many errors were "
 "encountered during the scan.</p>"
@@ -312,11 +312,11 @@ msgstr ""
 "<p>Żôl, le skanowanié kòlekcëji mùszi bëc òprzestóné.</p><p>Za wiele felów "
 "òbczas skanownaiô.</p>"
 
-#: collection/sqlcollection/ScanManager.cpp:501
+#: collection/sqlcollection/ScanManager.cpp:499
 msgid "Collection Scan Error"
 msgstr "Szëkba kòlekcëji nie darzëła sã"
 
-#: collection/sqlcollection/ScanManager.cpp:590
+#: collection/sqlcollection/ScanManager.cpp:588
 msgid "Scanning music"
 msgstr "Przeszukiwanié mùzyczi"
 
@@ -388,7 +388,7 @@ msgstr ""
 msgid "Audio CD settings - Amarok"
 msgstr "Nastawë Audio CD - Amarok"
 
-#: collection/CollectionManager.cpp:124
+#: collection/CollectionManager.cpp:122
 msgid ""
 "<p>Amarok could not find any collection plugins. It is possible that Amarok "
 "is installed under the wrong prefix, please fix your installation using:<pre>"
@@ -1417,76 +1417,76 @@ msgstr "Rëmôj wëzdrzatk lëstë òdegraniô"
 msgid "Rename playlist layout"
 msgstr "Nazwi jinaczi wëzdrzatk lëstë òdegraniô"
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:144
-#: dialogs/PlaylistLayoutEditDialog.cpp:188
+#: dialogs/PlaylistLayoutEditDialog.cpp:145
+#: dialogs/PlaylistLayoutEditDialog.cpp:192
 msgid "Choose a name for the new playlist layout"
 msgstr "Wëbiérzë miono dlô nowégò wëzdrzatkù lëstë graniô"
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:145
+#: dialogs/PlaylistLayoutEditDialog.cpp:146
 msgid "Please enter a name for the playlist layout you are about to define:"
 msgstr ""
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:148
-#: dialogs/PlaylistLayoutEditDialog.cpp:193
+#: dialogs/PlaylistLayoutEditDialog.cpp:151
+#: dialogs/PlaylistLayoutEditDialog.cpp:199
 msgid "Cannot create a layout with no name."
 msgstr ""
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:148
-#: dialogs/PlaylistLayoutEditDialog.cpp:153
-#: dialogs/PlaylistLayoutEditDialog.cpp:158
-#: dialogs/PlaylistLayoutEditDialog.cpp:193
-#: dialogs/PlaylistLayoutEditDialog.cpp:198
-#: dialogs/PlaylistLayoutEditDialog.cpp:249
-#: dialogs/PlaylistLayoutEditDialog.cpp:253
+#: dialogs/PlaylistLayoutEditDialog.cpp:151
+#: dialogs/PlaylistLayoutEditDialog.cpp:156
+#: dialogs/PlaylistLayoutEditDialog.cpp:161
+#: dialogs/PlaylistLayoutEditDialog.cpp:199
+#: dialogs/PlaylistLayoutEditDialog.cpp:204
 #: dialogs/PlaylistLayoutEditDialog.cpp:255
+#: dialogs/PlaylistLayoutEditDialog.cpp:259
+#: dialogs/PlaylistLayoutEditDialog.cpp:261
 msgid "Layout name error"
 msgstr "Fela miona wëzdrzatkù"
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:153
-#: dialogs/PlaylistLayoutEditDialog.cpp:198
+#: dialogs/PlaylistLayoutEditDialog.cpp:156
+#: dialogs/PlaylistLayoutEditDialog.cpp:204
 msgid "Cannot create a layout with the same name as an existing layout."
 msgstr ""
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:158
+#: dialogs/PlaylistLayoutEditDialog.cpp:161
 msgid "Cannot create a layout containing '/'."
 msgstr ""
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:189
+#: dialogs/PlaylistLayoutEditDialog.cpp:193
 #, kde-format
 msgid ""
 "Please enter a name for the playlist layout you are about to define as copy "
 "of the layout '%1':"
 msgstr ""
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:239
+#: dialogs/PlaylistLayoutEditDialog.cpp:245
 msgid "Choose a new name for the playlist layout"
 msgstr "Wëbiérzë nowé miono dlô nowégò wëzdrzatkù lëstë graniô"
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:240
+#: dialogs/PlaylistLayoutEditDialog.cpp:246
 msgid ""
 "Please enter a new name for the playlist layout you are about to rename:"
 msgstr ""
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:249
+#: dialogs/PlaylistLayoutEditDialog.cpp:255
 msgid "Cannot rename one of the default layouts."
 msgstr "Ni mòże zmienic miona domëslnégò wëzdrzatkòwi."
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:253
+#: dialogs/PlaylistLayoutEditDialog.cpp:259
 msgid "Cannot rename a layout to have no name."
 msgstr ""
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:255
+#: dialogs/PlaylistLayoutEditDialog.cpp:261
 msgid "Cannot rename a layout to have the same name as an existing layout."
 msgstr ""
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:357
+#: dialogs/PlaylistLayoutEditDialog.cpp:363
 #, kde-format
 msgid ""
 "The layout '%1' you modified is one of the default layouts and cannot be "
 "overwritten.                 Please select a different name to save a copy."
 msgstr ""
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:359
+#: dialogs/PlaylistLayoutEditDialog.cpp:365
 msgid "Reserved Layout Name"
 msgstr "Zarezerwòwóné miono wëzdrzatkù"
 
@@ -2139,41 +2139,41 @@ msgstr "Dinamiczné lëstë graniô"
 msgid "Smart Playlist"
 msgstr "Jinteligentnô lësta gróniô"
 
-#: podcasts/sql/SqlPodcastProvider.cpp:202
+#: podcasts/sql/SqlPodcastProvider.cpp:201
 #, kde-format
 msgid "Already subscribed to %1."
 msgstr ""
 
-#: podcasts/sql/SqlPodcastProvider.cpp:355
+#: podcasts/sql/SqlPodcastProvider.cpp:354
 msgid "&Delete Downloaded Episode"
 msgstr ""
 
-#: podcasts/sql/SqlPodcastProvider.cpp:386
+#: podcasts/sql/SqlPodcastProvider.cpp:385
 msgid "&Download Episode"
 msgstr "&Zladëjë epizod"
 
-#: podcasts/sql/SqlPodcastProvider.cpp:409
+#: podcasts/sql/SqlPodcastProvider.cpp:408
 msgid "&Configure"
 msgstr "&Kònfigùrëjë"
 
-#: podcasts/sql/SqlPodcastProvider.cpp:422
+#: podcasts/sql/SqlPodcastProvider.cpp:421
 msgid "&Remove Subscription"
 msgstr "&Rëmôj subskripcëjã"
 
-#: podcasts/sql/SqlPodcastProvider.cpp:435
+#: podcasts/sql/SqlPodcastProvider.cpp:434
 msgid "&Update Channel"
 msgstr "&Zaktualni kanał"
 
-#: podcasts/sql/SqlPodcastProvider.cpp:593
+#: podcasts/sql/SqlPodcastProvider.cpp:592
 msgid "Downloading Podcast Media"
 msgstr "Ladowanié mediów podcastu"
 
-#: podcasts/sql/SqlPodcastProvider.cpp:593
+#: podcasts/sql/SqlPodcastProvider.cpp:592
 #, kde-format
 msgid "Downloading Podcast \"%1\""
 msgstr "Ladowanié podcastu \"%1\""
 
-#: podcasts/sql/SqlPodcastProvider.cpp:689
+#: podcasts/sql/SqlPodcastProvider.cpp:688
 #, kde-format
 msgid "Unable to save podcast episode file to %1"
 msgstr ""
@@ -3366,7 +3366,7 @@ msgid "Internet"
 msgstr "Internet"
 
 #: MainWindow.cpp:300
-msgid "Sources  of online content"
+msgid "Sources of online content"
 msgstr ""
 
 #: MainWindow.cpp:309
@@ -7831,6 +7831,12 @@ msgid "Rating changed"
 msgstr ""
 
 #: widgets/Osd.cpp:140
+#, fuzzy
+#| msgid "Muted"
+msgid "(muted)"
+msgstr "Wëcëszony"
+
+#: widgets/Osd.cpp:140
 #, kde-format
 msgid "Volume: %1% %2"
 msgstr "Głosnosc: %1% %2"
@@ -7843,7 +7849,7 @@ msgstr ""
 msgid "OSD Preview - drag to reposition"
 msgstr ""
 
-#: widgets/Osd.cpp:671
+#: widgets/Osd.cpp:669
 msgid "Paused"
 msgstr "Paùza"
 
