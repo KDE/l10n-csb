@@ -1,0 +1,175 @@
+# translation of solid-network.po to Kaszëbsczi
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Michôł Òstrowsczi <michol@linuxcsb.org>, 2007, 2008.
+# Mark Kwidzińsczi <mark@linuxcsb.org>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: solid-network\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-06-02 13:33+0200\n"
+"PO-Revision-Date: 2008-12-13 09:17+0100\n"
+"Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
+"Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.2\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2)\n"
+
+#: solid-network.cpp:54
+msgid "solid-network"
+msgstr "solid-network"
+
+#: solid-network.cpp:56
+msgid ""
+"KDE tool for querying and controlling your network interfaces from the "
+"command line"
+msgstr ""
+"Nôrzãdzé KDE dlô zapëtaniów a kòntrolë twòjich interfejsów sécë z rézë "
+"pòlétów"
+
+#: solid-network.cpp:366
+msgid "Syntax Error: Not enough arguments"
+msgstr "Fela syntaksë: felëje argùmentów"
+
+#: solid-network.cpp:372
+msgid "Syntax Error: Too many arguments"
+msgstr "Fela syntaksë: za wiele argùmentów"
+
+#: solid-network.cpp:384
+msgid "Show available commands by domains"
+msgstr "Pòkôżë przëstãpné pòlétë pò domenach"
+
+#: solid-network.cpp:386
+msgid "Command (see --commands)"
+msgstr "Pòlét (zdrzë --commands)"
+
+#: solid-network.cpp:388
+msgid "Arguments for command"
+msgstr "Argùmentë dlô pòlétu"
+
+#: solid-network.cpp:400
+msgid "Syntax:"
+msgstr "Syntaksa:"
+
+#: solid-network.cpp:403
+msgid "             # List the network devices present.\n"
+msgstr "             # Pòkôżë biéżné sécowé ùrządzenia.\n"
+
+#: solid-network.cpp:406
+msgid ""
+"             # List the networks known to the device specified by 'uni'.\n"
+msgstr "             # Pòkôżë znóné sécë dlô ùrządzeniô pòdónegò bez 'uni'.\n"
+
+#: solid-network.cpp:409
+msgid ""
+"             # Query whether networking features are active or not.\n"
+"             # - If the 'status' option is given, return whether\n"
+"             # networking is enabled for the system\n"
+"             # - If the 'wireless' option is given, return whether\n"
+"             # wireless is enabled for the system\n"
+"             # - If the 'wireless-hardware' option is given,\n"
+"             #  return whether the wireless hardware is enabled\n"
+"             # - If the 'interface' option is given, print the\n"
+"             # properties of the network interface that 'uni' refers to.\n"
+"             # - If the 'network' option is given, print the\n"
+"             # properties of the network on 'device-uni' that 'network-uni' "
+"refers to.\n"
+msgstr ""
+
+#: solid-network.cpp:422 solid-network.cpp:425
+msgid "             # Enable or disable networking on this system.\n"
+msgstr "             # Włączë abò wëłączë séc w ti systemie.\n"
+
+#: solid-network.cpp:428
+msgid ""
+"             # Activate the network 'network-uni' on 'device-uni'.\n"
+"             # Optionally, use WEP128, open-system encryption with hex key "
+"'key'. (Hardcoded)\n"
+"             # Where 'authentication' is one of:\n"
+"             # wep hex64|ascii64|hex128|ascii128|passphrase64|passphrase128 "
+"'key' [open|shared]\n"
+"             # wpapsk wpa|wpa2 tkip|ccmp-aes password\n"
+"             # wpaeap UNIMPLEMENTED IN SOLIDSHELL\n"
+msgstr ""
+
+#: solid-network.cpp:478 solid-network.cpp:498 solid-network.cpp:517
+#, kde-format
+msgid "Syntax Error: Unknown option '%1'"
+msgstr "Fela syntaksë: Nieznónô òptacëjô '%1'"
+
+#: solid-network.cpp:528
+msgid "Not implemented"
+msgstr "Niezajimplementowóné"
+
+#: solid-network.cpp:579
+#, kde-format
+msgid "Unrecognised WEP type '%1'"
+msgstr "Nierozpòznóny ôrt WEP '%1'"
+
+#: solid-network.cpp:595
+#, kde-format
+msgid "Unrecognised WEP method '%1'"
+msgstr "Nierozpòznónô metoda WEP '%1'"
+
+#: solid-network.cpp:612
+#, kde-format
+msgid "Unrecognised WPA version '%1'"
+msgstr "Nierozpòznónô wersëja WPA '%1'"
+
+#: solid-network.cpp:623
+#, kde-format
+msgid "Unrecognised WPA encryption protocol '%1'"
+msgstr "Nierozpòznóny protokół enkripcëji WPA '%1'"
+
+#: solid-network.cpp:634
+#, kde-format
+msgid "Unimplemented auth scheme '%1'"
+msgstr "Niezaimplementowónô schéma aùtorizacëji '%1'"
+
+#: solid-network.cpp:651
+#, kde-format
+msgid "Syntax Error: Unknown object '%1'"
+msgstr "Fela syntaksë: Nieznóny òbiekt '%1'"
+
+#: solid-network.cpp:667
+#, kde-format
+msgid "Syntax Error: Unknown command '%1'"
+msgstr "Fela syntaksë: Nieznóny pòlét '%1'"
+
+#: solid-network.cpp:676
+msgid "networking: is enabled"
+msgstr "séc: je włączonô"
+
+#: solid-network.cpp:678
+msgid "networking: is not enabled"
+msgstr "séc: nie je włączonô"
+
+#: solid-network.cpp:685
+msgid "wireless: is enabled"
+msgstr "bezkablowô séc: je włączonô"
+
+#: solid-network.cpp:687
+msgid "wireless: is not enabled"
+msgstr "bezkablowô séc: nie je włączonô"
+
+#: solid-network.cpp:694
+msgid "wireless hardware: is enabled"
+msgstr "bezkablowé ùrządzenie je włączoné"
+
+#: solid-network.cpp:696
+msgid "wireless hardware: is not enabled"
+msgstr "bezkablowé ùrządzenié: nie je włączoné"
+
+#: solid-network.cpp:805
+#, kde-format
+msgid "Progress: %1%"
+msgstr "Pòkrok: %1%"
+
+#: solid-network.cpp:810
+#, kde-format
+msgid "Info: %1"
+msgstr "Wëdowiédzô: %1"
