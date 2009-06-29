@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-06-27 12:58+0200\n"
-"PO-Revision-Date: 2009-06-18 13:46+0200\n"
+"PO-Revision-Date: 2009-06-29 20:35+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
 "MIME-Version: 1.0\n"
@@ -35,14 +35,12 @@ msgid "Moving"
 msgstr "Przenoszenié"
 
 #: kio/job.cpp:130 kio/job.cpp:137 kio/job.cpp:162 kio/fileundomanager.cpp:120
-#, fuzzy
 #| msgid "Source"
 msgctxt "The source of a file operation"
 msgid "Source"
 msgstr "Zdrój"
 
 #: kio/job.cpp:131 kio/job.cpp:138 kio/fileundomanager.cpp:121
-#, fuzzy
 #| msgid "Destination"
 msgctxt "The destination of a file operation"
 msgid "Destination"
@@ -121,10 +119,9 @@ msgid "Data format:"
 msgstr "Fòrmat pòdôwków:"
 
 #: kio/slaveinterface.cpp:460
-#, fuzzy
 #| msgid "The peer SSL certificate chainappears to be corrupt."
 msgid "The peer SSL certificate chain appears to be corrupt."
-msgstr "Certifikat SSL je zepsëti"
+msgstr "Certifikat SSL wëzdrzi na zepsëti."
 
 #: kio/slaveinterface.cpp:462 kio/tcpslavebase.cpp:714
 msgid "SSL"
@@ -261,14 +258,12 @@ msgid ""
 msgstr ""
 
 #: kio/renamedialog.cpp:128
-#, fuzzy
 #| msgid "O&verwrite All"
 msgctxt "Write files into any existing directory"
 msgid "&Write Into All"
-msgstr "Nad&piszë wszëtczé"
+msgstr "&Piszë we wszëtczich"
 
 #: kio/renamedialog.cpp:128
-#, fuzzy
 #| msgid "O&verwrite All"
 msgid "&Overwrite All"
 msgstr "Nad&piszë wszëtczé"
@@ -317,11 +312,10 @@ msgstr "Lopk ò mionie '%1' ju je."
 msgid "A newer item named '%1' already exists."
 msgstr "Nowszi lopk jakno '%1' ju je."
 
-#: kio/renamedialog.cpp:215 kio/renamedialog.cpp:252
-#, fuzzy, kde-format
+#: kio/renamedialog.cpp:215 kio/renamedialog.cpp:252, kde-format
 #| msgid "%1 (%2)"
 msgid "size %1 (%2)"
-msgstr "%1 (%2)"
+msgstr "miara %1 (%2)"
 
 #: kio/renamedialog.cpp:224 kio/renamedialog.cpp:260
 #, kde-format
@@ -431,8 +425,7 @@ msgstr "Ni mòże òtemknąc certifikatu.Spróbòwac jinszi parolë?"
 msgid "The procedure to set the client certificate for the session failed."
 msgstr "Òperacëjô ùstawieniô certifikatu klienta na nã sesëjã nie darzëła sã."
 
-#: kio/tcpslavebase.cpp:758 kssl/sslui.cpp:71
-#, fuzzy, kde-format
+#: kio/tcpslavebase.cpp:758 kssl/sslui.cpp:71, kde-format
 #| msgid ""
 #| "The server failed the authenticity check (%1)\n"
 #| "\n"
@@ -440,7 +433,7 @@ msgid ""
 "The server failed the authenticity check (%1).\n"
 "\n"
 msgstr ""
-"Certifikat serwera nie przeszed ùwierzëtelnienia (%1)\n"
+"Certifikat serwera nie przeszedł ùwierzëtelnienia (%1).\n"
 "\n"
 
 #: kio/tcpslavebase.cpp:768 kio/tcpslavebase.cpp:785 kio/tcpslavebase.cpp:887
@@ -468,10 +461,9 @@ msgid "&Forever"
 msgstr "&Wiedno"
 
 #: kio/tcpslavebase.cpp:787 kssl/sslui.cpp:121
-#, fuzzy
 #| msgid "&Current Sessions Only"
 msgid "&Current Session only"
-msgstr "Blós dlô &terôczasny sesëji"
+msgstr "Blós dlô &biéżny sesëji"
 
 #: kio/tcpslavebase.cpp:886
 msgid ""
@@ -501,22 +493,20 @@ msgstr[2] "Na gwës rëmnąc %1 elementów?"
 msgid "Delete Files"
 msgstr "Rëmôj lopczi"
 
-#: kio/jobuidelegate.cpp:142
-#, fuzzy, kde-format
+#: kio/jobuidelegate.cpp:142, kde-format
 #| msgid "Do you really want to delete this item?"
 #| msgid_plural "Do you really want to delete these %1 items?"
 msgid "Do you really want to move this item to the trash?"
 msgid_plural "Do you really want to move these %1 items to the trash?"
-msgstr[0] "Na gwës rëmnąc %1 element?"
-msgstr[1] "Na gwës rëmnąc %1 elementë?"
-msgstr[2] "Na gwës rëmnąc %1 elementów?"
+msgstr[0] "Na gwës rëmnąc nen element do kòsza?"
+msgstr[1] "Na gwës rëmnąc ne %1 elementë do kòsza?"
+msgstr[2] "Na gwës rëmnąc nëch %1 elementów do kòsza?"
 
 #: kio/jobuidelegate.cpp:144 ../kfile/kdiroperator.cpp:1858
 msgid "Move to Trash"
 msgstr "Przesënié do kòsza"
 
 #: kio/jobuidelegate.cpp:145
-#, fuzzy
 #| msgctxt "to trash"
 #| msgid "&Trash"
 msgctxt "Verb"
@@ -544,11 +534,10 @@ msgid "Already Exists as Folder"
 msgstr "Ju je jakno katalog"
 
 #: kio/kfileitemactions.cpp:392
-#, fuzzy
 #| msgid "Options"
 msgctxt "@title:menu"
 msgid "&Actions"
-msgstr "Òptacëje"
+msgstr "&Dzejania"
 
 #: kio/kfileitemactions.cpp:510
 msgctxt "@title:menu"
@@ -586,16 +575,15 @@ msgstr[0] "1 dzéń %2"
 msgstr[1] "%1 dni %2"
 msgstr[2] "%1 dniów %2"
 
-#: kio/global.cpp:120 kio/global.cpp:137
-#, fuzzy, kde-format
+#: kio/global.cpp:120 kio/global.cpp:137, kde-format
 #| msgctxt "Items in a folder"
 #| msgid "1 item"
 #| msgid_plural "%1 items"
 msgid "%1 Item"
 msgid_plural "%1 Items"
-msgstr[0] "1 wpisënk"
-msgstr[1] "%1 wpisënczi"
-msgstr[2] "%1 wpisënków"
+msgstr[0] "1 element"
+msgstr[1] "%1 elementë"
+msgstr[2] "%1 elementów"
 
 #: kio/global.cpp:124
 #, fuzzy, kde-format
