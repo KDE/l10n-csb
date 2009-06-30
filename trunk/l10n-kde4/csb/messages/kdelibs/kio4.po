@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-27 12:58+0200\n"
+"POT-Creation-Date: 2009-06-30 11:35+0200\n"
 "PO-Revision-Date: 2009-06-29 20:35+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -35,13 +35,11 @@ msgid "Moving"
 msgstr "Przenoszenié"
 
 #: kio/job.cpp:130 kio/job.cpp:137 kio/job.cpp:162 kio/fileundomanager.cpp:120
-#| msgid "Source"
 msgctxt "The source of a file operation"
 msgid "Source"
 msgstr "Zdrój"
 
 #: kio/job.cpp:131 kio/job.cpp:138 kio/fileundomanager.cpp:121
-#| msgid "Destination"
 msgctxt "The destination of a file operation"
 msgid "Destination"
 msgstr "Przeznaczenié"
@@ -119,7 +117,6 @@ msgid "Data format:"
 msgstr "Fòrmat pòdôwków:"
 
 #: kio/slaveinterface.cpp:460
-#| msgid "The peer SSL certificate chainappears to be corrupt."
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr "Certifikat SSL wëzdrzi na zepsëti."
 
@@ -258,13 +255,11 @@ msgid ""
 msgstr ""
 
 #: kio/renamedialog.cpp:128
-#| msgid "O&verwrite All"
 msgctxt "Write files into any existing directory"
 msgid "&Write Into All"
 msgstr "&Piszë we wszëtczich"
 
 #: kio/renamedialog.cpp:128
-#| msgid "O&verwrite All"
 msgid "&Overwrite All"
 msgstr "Nad&piszë wszëtczé"
 
@@ -312,8 +307,8 @@ msgstr "Lopk ò mionie '%1' ju je."
 msgid "A newer item named '%1' already exists."
 msgstr "Nowszi lopk jakno '%1' ju je."
 
-#: kio/renamedialog.cpp:215 kio/renamedialog.cpp:252, kde-format
-#| msgid "%1 (%2)"
+#: kio/renamedialog.cpp:215 kio/renamedialog.cpp:252
+#, kde-format
 msgid "size %1 (%2)"
 msgstr "miara %1 (%2)"
 
@@ -425,10 +420,8 @@ msgstr "Ni mòże òtemknąc certifikatu.Spróbòwac jinszi parolë?"
 msgid "The procedure to set the client certificate for the session failed."
 msgstr "Òperacëjô ùstawieniô certifikatu klienta na nã sesëjã nie darzëła sã."
 
-#: kio/tcpslavebase.cpp:758 kssl/sslui.cpp:71, kde-format
-#| msgid ""
-#| "The server failed the authenticity check (%1)\n"
-#| "\n"
+#: kio/tcpslavebase.cpp:758 kssl/sslui.cpp:71
+#, kde-format
 msgid ""
 "The server failed the authenticity check (%1).\n"
 "\n"
@@ -461,7 +454,6 @@ msgid "&Forever"
 msgstr "&Wiedno"
 
 #: kio/tcpslavebase.cpp:787 kssl/sslui.cpp:121
-#| msgid "&Current Sessions Only"
 msgid "&Current Session only"
 msgstr "Blós dlô &biéżny sesëji"
 
@@ -493,9 +485,8 @@ msgstr[2] "Na gwës rëmnąc %1 elementów?"
 msgid "Delete Files"
 msgstr "Rëmôj lopczi"
 
-#: kio/jobuidelegate.cpp:142, kde-format
-#| msgid "Do you really want to delete this item?"
-#| msgid_plural "Do you really want to delete these %1 items?"
+#: kio/jobuidelegate.cpp:142
+#, kde-format
 msgid "Do you really want to move this item to the trash?"
 msgid_plural "Do you really want to move these %1 items to the trash?"
 msgstr[0] "Na gwës rëmnąc nen element do kòsza?"
@@ -507,8 +498,6 @@ msgid "Move to Trash"
 msgstr "Przesënié do kòsza"
 
 #: kio/jobuidelegate.cpp:145
-#| msgctxt "to trash"
-#| msgid "&Trash"
 msgctxt "Verb"
 msgid "&Trash"
 msgstr "&Kòsz"
@@ -534,7 +523,6 @@ msgid "Already Exists as Folder"
 msgstr "Ju je jakno katalog"
 
 #: kio/kfileitemactions.cpp:392
-#| msgid "Options"
 msgctxt "@title:menu"
 msgid "&Actions"
 msgstr "&Dzejania"
@@ -575,10 +563,8 @@ msgstr[0] "1 dzéń %2"
 msgstr[1] "%1 dni %2"
 msgstr[2] "%1 dniów %2"
 
-#: kio/global.cpp:120 kio/global.cpp:137, kde-format
-#| msgctxt "Items in a folder"
-#| msgid "1 item"
-#| msgid_plural "%1 items"
+#: kio/global.cpp:120 kio/global.cpp:137
+#, kde-format
 msgid "%1 Item"
 msgid_plural "%1 Items"
 msgstr[0] "1 element"
@@ -4696,7 +4682,7 @@ msgctxt "@title:window"
 msgid "Add Bookmarks"
 msgstr "Pòkôżë załóżczi"
 
-#: bookmarks/kbookmarkdialog.cc:123 ../kfile/kdirselectdialog.cpp:265
+#: bookmarks/kbookmarkdialog.cc:123 ../kfile/kdirselectdialog.cpp:266
 #, fuzzy
 #| msgid "One Folder"
 #| msgid_plural "%1 Folders"
@@ -4704,7 +4690,7 @@ msgctxt "@title:window"
 msgid "Select Folder"
 msgstr "Jeden katalog"
 
-#: bookmarks/kbookmarkdialog.cc:148 ../kfile/kdirselectdialog.cpp:131
+#: bookmarks/kbookmarkdialog.cc:148 ../kfile/kdirselectdialog.cpp:132
 #, fuzzy
 #| msgid "New Folder..."
 msgctxt "@title:window"
@@ -5631,14 +5617,14 @@ msgstr "Fela przë próbie ùzwëskaniô przistãpù do '%1'"
 msgid "Custom Path"
 msgstr "Swòjô stegna"
 
-#: ../kfile/kdirselectdialog.cpp:127
+#: ../kfile/kdirselectdialog.cpp:128
 #, fuzzy
 #| msgid "New Folder..."
 msgctxt "folder name"
 msgid "New Folder"
 msgstr "Nowi katalog..."
 
-#: ../kfile/kdirselectdialog.cpp:132
+#: ../kfile/kdirselectdialog.cpp:133
 #, fuzzy, kde-format
 #| msgid ""
 #| "Create new folder in:\n"
@@ -5651,51 +5637,51 @@ msgstr ""
 "Ùsôdzë nowi katalog w:\n"
 "%1"
 
-#: ../kfile/kdirselectdialog.cpp:155 ../kfile/kdiroperator.cpp:769
+#: ../kfile/kdirselectdialog.cpp:156 ../kfile/kdiroperator.cpp:769
 #, kde-format
 msgid "A file or folder named %1 already exists."
 msgstr "Lopk abò katalog ò mionie %1 ju je."
 
-#: ../kfile/kdirselectdialog.cpp:159 ../kfile/kdiroperator.cpp:772
+#: ../kfile/kdirselectdialog.cpp:160 ../kfile/kdiroperator.cpp:772
 msgid "You do not have permission to create that folder."
 msgstr "Ni môsz prawa do ùsôdzaniô negò kataloga."
 
-#: ../kfile/kdirselectdialog.cpp:267
+#: ../kfile/kdirselectdialog.cpp:268
 #, fuzzy
 #| msgid "New Folder..."
 msgctxt "@action:button"
 msgid "New Folder..."
 msgstr "Nowi katalog..."
 
-#: ../kfile/kdirselectdialog.cpp:308
+#: ../kfile/kdirselectdialog.cpp:309
 #, fuzzy
 #| msgid "New Folder..."
 msgctxt "@action:inmenu"
 msgid "New Folder..."
 msgstr "Nowi katalog..."
 
-#: ../kfile/kdirselectdialog.cpp:315
+#: ../kfile/kdirselectdialog.cpp:316
 #, fuzzy
 #| msgid "Move to Trash"
 msgctxt "@action:inmenu"
 msgid "Move to trash"
 msgstr "Przesënié do kòsza"
 
-#: ../kfile/kdirselectdialog.cpp:322
+#: ../kfile/kdirselectdialog.cpp:323
 #, fuzzy
 #| msgid "Delete"
 msgctxt "@action:inmenu"
 msgid "Delete"
 msgstr "Rëmôj"
 
-#: ../kfile/kdirselectdialog.cpp:331
+#: ../kfile/kdirselectdialog.cpp:332
 #, fuzzy
 #| msgid "Show Hidden Folders"
 msgctxt "@option:check"
 msgid "Show Hidden Folders"
 msgstr "Pòkôżë zataconé lopczi"
 
-#: ../kfile/kdirselectdialog.cpp:338
+#: ../kfile/kdirselectdialog.cpp:339
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr ""
