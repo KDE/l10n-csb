@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-01 06:57+0200\n"
+"POT-Creation-Date: 2009-08-02 06:11+0200\n"
 "PO-Revision-Date: 2009-06-29 20:23+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -503,7 +503,7 @@ msgstr "&Wëcygni"
 #: collection/audiocd/AudioCdCollection.cpp:378
 #: collection/audiocd/AudioCdCollection.cpp:379
 #: collection/audiocd/AudioCdCollection.cpp:380
-#: context/applets/albums/AlbumItem.cpp:72 MainWindow.cpp:970
+#: context/applets/albums/AlbumItem.cpp:72 MainWindow.cpp:982
 #: amarokurls/BookmarkTreeView.cpp:330 amarokurls/BookmarkTreeView.cpp:331
 #: amarokurls/BookmarkTreeView.cpp:332
 msgid "Unknown"
@@ -1236,7 +1236,7 @@ msgstr "S&ztëczk"
 msgid "&Album"
 msgstr "&Albùm"
 
-#: ActionClasses.cpp:359 MainWindow.cpp:822
+#: ActionClasses.cpp:359 MainWindow.cpp:832
 msgid "&Playlist"
 msgstr "&Lësta graniô"
 
@@ -2080,7 +2080,7 @@ msgstr "Òptacëje"
 msgid "Convert spaces to underscores"
 msgstr "Zmieni spacëje na pòdsztrichniãca"
 
-#: dialogs/ScriptManager.cpp:114 MainWindow.cpp:650
+#: dialogs/ScriptManager.cpp:114 MainWindow.cpp:660
 msgid "Script Manager"
 msgstr "Menadżer skriptów"
 
@@ -2667,7 +2667,7 @@ msgstr ""
 msgid "Current Track"
 msgstr "Biéżny sztëczk"
 
-#: dynamic/biases/EchoNest.cpp:116 MainWindow.cpp:256
+#: dynamic/biases/EchoNest.cpp:116 MainWindow.cpp:257
 msgid "Playlist"
 msgstr "Lësta graniô"
 
@@ -3086,6 +3086,18 @@ msgstr "trzë miesące dowslôdë"
 msgid "Year - Album"
 msgstr "Rok - Albùm"
 
+#: browsers/BreadcrumbItemButton.cpp:215
+#, fuzzy
+#| msgid "Bookmarks"
+msgid "Browser Bookmarks"
+msgstr "Załóżczi"
+
+#: browsers/BreadcrumbItemButton.cpp:217
+#, fuzzy
+#| msgid "Bookmark"
+msgid "Bookmark current"
+msgstr "Załóżka"
+
 #: browsers/collectionbrowser/CollectionTreeItemDelegate.cpp:160
 #, kde-format
 msgid "%1% used"
@@ -3463,198 +3475,204 @@ msgstr[2] "%1 sztëczków"
 msgid "Close"
 msgstr "Zamkni"
 
-#: MainWindow.cpp:245
+#: MainWindow.cpp:246
 msgid "Browsers"
 msgstr "Przezérniczi"
 
-#: MainWindow.cpp:279
+#: MainWindow.cpp:280
 msgid "Context"
 msgstr "Kòntekst"
 
-#: MainWindow.cpp:309
+#: MainWindow.cpp:310
 msgid "Local Music"
 msgstr ""
 
-#: MainWindow.cpp:311
+#: MainWindow.cpp:312
 msgid "Local sources of content"
 msgstr ""
 
-#: MainWindow.cpp:319
+#: MainWindow.cpp:320
 msgid "Internet"
 msgstr "Internet"
 
-#: MainWindow.cpp:321
+#: MainWindow.cpp:322
 msgid "Online sources of content"
 msgstr ""
 
-#: MainWindow.cpp:330
+#: MainWindow.cpp:331
 msgid "Playlists"
 msgstr "Lësta graniô"
 
-#: MainWindow.cpp:332
+#: MainWindow.cpp:333
 #, fuzzy
 #| msgid "Various Artists"
 msgid "Various types of playlists"
 msgstr "Rozmajiti wëkònywaczë"
 
-#: MainWindow.cpp:339
+#: MainWindow.cpp:340
 msgid "Files"
 msgstr "Lopczi"
 
-#: MainWindow.cpp:341
+#: MainWindow.cpp:342
 msgid "Browse local hard drive for content"
 msgstr ""
 
-#: MainWindow.cpp:458
+#: MainWindow.cpp:459
 msgid ""
 "<qt>Closing the main window will keep Amarok running in the System Tray. Use "
 "<B>Quit</B> from the menu, or the Amarok tray icon to exit the application.</"
 "qt>"
 msgstr ""
 
-#: MainWindow.cpp:460
+#: MainWindow.cpp:461
 msgid "Docking in System Tray"
 msgstr ""
 
-#: MainWindow.cpp:485
+#: MainWindow.cpp:486
 msgid "Use relative path for &saving"
 msgstr ""
 
-#: MainWindow.cpp:490
+#: MainWindow.cpp:491
 msgid "Save As"
 msgstr ""
 
-#: MainWindow.cpp:528
+#: MainWindow.cpp:534
 msgid "Play Media (Files or URLs)"
 msgstr "Grôj media (lopczi abò adresë URL)"
 
-#: MainWindow.cpp:528
+#: MainWindow.cpp:534
 msgid "Add Media (Files or URLs)"
 msgstr "Dodôj media (lopczi abò adresë URL)"
 
-#: MainWindow.cpp:543
+#: MainWindow.cpp:549
 msgid "Add Stream"
 msgstr "Dodôj strëgã"
 
-#: MainWindow.cpp:543
+#: MainWindow.cpp:549
 msgid "Enter Stream URL:"
 msgstr "Wpiszë URL strëdżi:"
 
-#: MainWindow.cpp:621
+#: MainWindow.cpp:627
 msgid "&Add Media..."
 msgstr "&Dodôj media..."
 
-#: MainWindow.cpp:626
+#: MainWindow.cpp:632
 msgctxt "clear playlist"
 msgid "&Clear Playlist"
 msgstr "Wë&czëszczë lëstã graniô"
 
-#: MainWindow.cpp:630
+#: MainWindow.cpp:636
 msgid "&Add Stream..."
 msgstr "&Dodôj strëgã..."
 
-#: MainWindow.cpp:634
+#: MainWindow.cpp:640
 msgid "&Export Playlist As..."
 msgstr "&Ekspòrtëjë lëstã graniô jakno..."
 
-#: MainWindow.cpp:638
+#: MainWindow.cpp:644
 msgid "&Save Playlist"
 msgstr "&Zapiszë lëstã graniô"
 
-#: MainWindow.cpp:642 covermanager/CoverManager.cpp:97
+#: MainWindow.cpp:648 amarokurls/BookmarkManager.cpp:42
+#, fuzzy
+#| msgid "Bookmark"
+msgid "Bookmark Manager"
+msgstr "Załóżka"
+
+#: MainWindow.cpp:652 covermanager/CoverManager.cpp:97
 msgid "Cover Manager"
 msgstr ""
 
-#: MainWindow.cpp:646
+#: MainWindow.cpp:656
 msgid "Play Media..."
 msgstr "Grôj media..."
 
-#: MainWindow.cpp:654
+#: MainWindow.cpp:664
 msgid "&Seek Forward"
 msgstr "&Szëkôj w przódk"
 
-#: MainWindow.cpp:660
+#: MainWindow.cpp:670
 msgid "&Seek Backward"
 msgstr "&Szëkôj dowslôdë"
 
-#: MainWindow.cpp:667
+#: MainWindow.cpp:677
 msgid "Update Collection"
 msgstr "Aktualizëjë kòlekcëjã"
 
-#: MainWindow.cpp:674
+#: MainWindow.cpp:684
 msgid "Previous Track"
 msgstr "Piprzédny sztëczk"
 
-#: MainWindow.cpp:682
+#: MainWindow.cpp:692
 msgid "Next Track"
 msgstr "Pòstãpny sztëczk"
 
-#: MainWindow.cpp:685
+#: MainWindow.cpp:695
 msgid "Increase Volume"
 msgstr "Zwikszë głosnosc"
 
-#: MainWindow.cpp:691
+#: MainWindow.cpp:701
 msgid "Decrease Volume"
 msgstr "Zminészë głosnosc"
 
-#: MainWindow.cpp:697
+#: MainWindow.cpp:707
 msgid "Toggle Main Window"
 msgstr "Przełączë przédne òkno"
 
-#: MainWindow.cpp:702
+#: MainWindow.cpp:712
 msgid "Show On Screen Display"
 msgstr "Pòkażë wëskrzëniwaniô-na-ekranie (OSD)"
 
-#: MainWindow.cpp:707
+#: MainWindow.cpp:717
 msgid "Mute Volume"
 msgstr "Wëcëszë głosnosc"
 
-#: MainWindow.cpp:712
+#: MainWindow.cpp:722
 msgid "Love Current Track"
 msgstr "Achtnij biéżny sztëczk"
 
-#: MainWindow.cpp:717
+#: MainWindow.cpp:727
 msgid "Rate Current Track: 1"
 msgstr "Òtaksëjë biéżny sztëczk: 1"
 
-#: MainWindow.cpp:722
+#: MainWindow.cpp:732
 msgid "Rate Current Track: 2"
 msgstr "Òtaksëjë biéżny sztëczk: 2"
 
-#: MainWindow.cpp:727
+#: MainWindow.cpp:737
 msgid "Rate Current Track: 3"
 msgstr "Òtaksëjë biéżny sztëczk: 3"
 
-#: MainWindow.cpp:732
+#: MainWindow.cpp:742
 msgid "Rate Current Track: 4"
 msgstr "Òtaksëjë biéżny sztëczk: 4"
 
-#: MainWindow.cpp:737
+#: MainWindow.cpp:747
 msgid "Rate Current Track: 5"
 msgstr "Òtaksëjë biéżny sztëczk: 5"
 
-#: MainWindow.cpp:799
+#: MainWindow.cpp:809
 msgid "&Music"
 msgstr "&Mùzyka"
 
-#: MainWindow.cpp:803
+#: MainWindow.cpp:813
 msgid "&Amarok"
 msgstr "&Amarok"
 
-#: MainWindow.cpp:846
+#: MainWindow.cpp:856
 msgid "&Tools"
 msgstr "&Nôrzãdza"
 
-#: MainWindow.cpp:857
+#: MainWindow.cpp:869
 msgid "&Settings"
 msgstr "Ùs&towë"
 
-#: MainWindow.cpp:958
+#: MainWindow.cpp:970
 #, kde-format
 msgid "Paused  ::  %1"
 msgstr "Paùza :: %1"
 
-#: MainWindow.cpp:970
+#: MainWindow.cpp:982
 #, kde-format
 msgid "%1 - %2  ::  %3"
 msgstr "%1 - %2  ::  %3"
