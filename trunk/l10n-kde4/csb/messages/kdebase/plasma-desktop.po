@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-15 06:23+0200\n"
+"POT-Creation-Date: 2009-08-18 06:22+0200\n"
 "PO-Revision-Date: 2009-06-11 21:53+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -19,19 +19,25 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: backgrounddialog.cpp:363
+#: backgrounddialog.cpp:364
 msgid "Desktop Settings"
 msgstr "Nastôwë pùltu"
 
-#: backgrounddialog.cpp:376
+#: backgrounddialog.cpp:377
 msgid ""
 "This picture of a monitor contains a preview of what the current settings "
 "will look like on your desktop."
 msgstr "W tim pòdzérkù mòże òbôczëc jak bãdą wëzdrzałë nastôwë pùltu."
 
-#: backgrounddialog.cpp:401
+#: backgrounddialog.cpp:402
 msgid "Appearance"
 msgstr "Wëzdrzatk"
+
+#. i18n: file: MousePlugins.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, MousePlugins)
+#: backgrounddialog.cpp:406 rc.cpp:36 rc.cpp:68
+msgid "Mouse Plugins"
+msgstr ""
 
 #: dashboardview.cpp:62
 msgid "Hide Dashboard"
@@ -49,11 +55,11 @@ msgstr "Dodôj widżetë"
 msgid "Desktop"
 msgstr "Pùlt"
 
-#: desktopview.cpp:152
+#: desktopview.cpp:153
 msgid "Next Activity"
 msgstr "Pòstãpnô aktiwnota"
 
-#: desktopview.cpp:156
+#: desktopview.cpp:157
 msgid "Previous Activity"
 msgstr "Pòprzédnô aktiwnota"
 
@@ -84,6 +90,66 @@ msgstr "John Lions"
 #: main.cpp:104
 msgid "In memory of his contributions, 1937-1998."
 msgstr "Kù pamiãcë jegò wkłôdu, 1937-1998."
+
+#: mouseinputbutton.cpp:36
+msgid "Left-Button"
+msgstr ""
+
+#: mouseinputbutton.cpp:37
+msgid "Right-Button"
+msgstr ""
+
+#: mouseinputbutton.cpp:38
+msgid "Middle-Button"
+msgstr ""
+
+#: mouseinputbutton.cpp:40
+msgid "Vertical-Scroll"
+msgstr ""
+
+#: mouseinputbutton.cpp:41
+msgid "Horizontal-Scroll"
+msgstr ""
+
+#: mouseinputbutton.cpp:44
+msgid "Shift"
+msgstr ""
+
+#: mouseinputbutton.cpp:45
+#, fuzzy
+#| msgid "Center"
+msgid "Ctrl"
+msgstr "Wëstrzódno"
+
+#: mouseinputbutton.cpp:46
+msgid "Alt"
+msgstr ""
+
+#: mouseinputbutton.cpp:47
+msgid "Meta"
+msgstr ""
+
+#: mouseinputbutton.cpp:58
+msgid "Input here..."
+msgstr ""
+
+#: mouseinputbutton.cpp:102
+msgid "No Button"
+msgstr ""
+
+#: mouseplugins.cpp:102
+msgid "This trigger is assigned to another plugin."
+msgstr ""
+
+#: mouseplugins.cpp:102
+msgid "Reassign"
+msgstr ""
+
+#: mousepluginwidget.cpp:136
+#, fuzzy
+#| msgid "Configure Plasma..."
+msgid "Configure Plugin"
+msgstr "Kònfigùrëje Plasmã..."
 
 #: panelcontroller.cpp:440
 msgid "Panel Alignment"
@@ -193,7 +259,7 @@ msgstr "Przësënié nen sztripk bë nastawic minimalną miarã panela"
 
 #. i18n: file: BackgroundDialog.ui:35
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:3 rc.cpp:44
+#: rc.cpp:3 rc.cpp:71
 msgid "Desktop Activity"
 msgstr "Aktiwnota pùltu"
 
@@ -205,77 +271,125 @@ msgstr "Aktiwnota pùltu"
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: file: BackgroundDialog.ui:239
 #. i18n: ectx: property (text), widget (QLabel, m_wallpaperTypeLabel)
-#: rc.cpp:6 rc.cpp:27 rc.cpp:47 rc.cpp:68
+#: rc.cpp:6 rc.cpp:27 rc.cpp:74 rc.cpp:95
 msgid "Type:"
 msgstr "Ôrt:"
 
 #. i18n: file: BackgroundDialog.ui:93
 #. i18n: ectx: property (text), widget (QLabel, m_monitor)
-#: rc.cpp:9 rc.cpp:50
+#: rc.cpp:9 rc.cpp:77
 msgid "Monitor"
 msgstr "Mònitór:"
 
 #. i18n: file: BackgroundDialog.ui:118
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:12 rc.cpp:53
+#: rc.cpp:12 rc.cpp:80
 msgid "Name:"
 msgstr "Miono:"
 
 #. i18n: file: BackgroundDialog.ui:160
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:15 rc.cpp:56
+#: rc.cpp:15 rc.cpp:83
 msgid "Desktop Theme"
 msgstr "Téma pùltu"
 
 #. i18n: file: BackgroundDialog.ui:173
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:18 rc.cpp:59
+#: rc.cpp:18 rc.cpp:86
 msgid "Theme:"
 msgstr "Téma:"
 
 #. i18n: file: BackgroundDialog.ui:199
 #. i18n: ectx: property (text), widget (QPushButton, m_newThemeButton)
-#: rc.cpp:21 rc.cpp:62
+#: rc.cpp:21 rc.cpp:89
 msgid "New Theme..."
 msgstr "Nowô téma..."
 
 #. i18n: file: BackgroundDialog.ui:218
 #. i18n: ectx: property (text), widget (QLabel, m_wallpaperLabel)
-#: rc.cpp:24 rc.cpp:65
+#: rc.cpp:24 rc.cpp:92
 msgid "Wallpaper"
 msgstr "Òbrôzk spódkù"
 
 #. i18n: file: globaloptions.ui:17
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:30 rc.cpp:71
+#: rc.cpp:30 rc.cpp:119
 msgid "Different activity for each desktop"
 msgstr "Różné aktiwnotë dlô kòżdégò pùltu"
 
 #. i18n: file: globaloptions.ui:31
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:33 rc.cpp:74
+#: rc.cpp:33 rc.cpp:122
 msgid "Use a separate dashboard"
 msgstr "Bëëkùjë jiny tablëcë"
 
-#: rc.cpp:34
+#. i18n: file: MousePluginWidget.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, MousePluginWidget)
+#: rc.cpp:39 rc.cpp:98
+msgid "Form"
+msgstr ""
+
+#. i18n: file: MousePluginWidget.ui:25
+#. i18n: ectx: property (text), widget (QLabel, name)
+#: rc.cpp:42 rc.cpp:101
+#, fuzzy
+#| msgid "Name:"
+msgid "Name"
+msgstr "Miono:"
+
+#. i18n: file: MousePluginWidget.ui:32
+#. i18n: ectx: property (text), widget (QToolButton, aboutButton)
+#. i18n: file: MousePluginWidget.ui:46
+#. i18n: ectx: property (text), widget (QToolButton, clearButton)
+#. i18n: file: MousePluginWidget.ui:32
+#. i18n: ectx: property (text), widget (QToolButton, aboutButton)
+#. i18n: file: MousePluginWidget.ui:46
+#. i18n: ectx: property (text), widget (QToolButton, clearButton)
+#: rc.cpp:45 rc.cpp:51 rc.cpp:104 rc.cpp:110
+msgid "..."
+msgstr ""
+
+#. i18n: file: MousePluginWidget.ui:39
+#. i18n: ectx: property (text), widget (MouseInputButton, inputButton)
+#: rc.cpp:48 rc.cpp:107
+#, fuzzy
+#| msgid "Bottom"
+msgid "Button:"
+msgstr "Dół"
+
+#. i18n: file: MousePluginWidget.ui:53
+#. i18n: ectx: property (text), widget (QLabel, description)
+#: rc.cpp:54 rc.cpp:113
+msgid "Description"
+msgstr ""
+
+#. i18n: file: MousePluginWidget.ui:63
+#. i18n: ectx: property (text), widget (QPushButton, configButton)
+#: rc.cpp:57 rc.cpp:116
+#, fuzzy
+#| msgid "Configure Plasma..."
+msgid "Configure..."
+msgstr "Kònfigùrëje Plasmã..."
+
+#: rc.cpp:58
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Michôł Òstrowsczi,Mark Kwidzińsczi"
 
-#: rc.cpp:35
+#: rc.cpp:59
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "michol@linuxcsb.org,mark@linuxcsb.org"
 
 #. i18n: file: kcfg/plasma-shell-desktop.kcfg:10
 #. i18n: ectx: label, entry, group (General)
-#: rc.cpp:38
+#: rc.cpp:62
 msgid "The font to use on the desktop"
 msgstr "Fònt do ùżëcô na pùlce"
 
 #. i18n: file: kcfg/plasma-shell-desktop.kcfg:15
 #. i18n: ectx: label, entry, group (General)
-#: rc.cpp:41
+#: rc.cpp:65
 msgid ""
 "Set to true if each virtual desktop should get its own, unique Plasma view."
 msgstr ""
