@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-19 07:34+0200\n"
+"POT-Creation-Date: 2009-08-20 06:40+0200\n"
 "PO-Revision-Date: 2009-06-29 20:23+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -535,7 +535,7 @@ msgstr "Przeszukiwanié mùzyczi"
 #: collection/sqlcollection/ScanManager.cpp:676
 #: dialogs/OrganizeCollectionDialog.cpp:143
 #: browsers/CollectionTreeItem.cpp:163 covermanager/CoverViewDialog.h:45
-#: covermanager/CoverManager.cpp:854
+#: covermanager/CoverManager.cpp:784
 msgid "Various Artists"
 msgstr "Rozmajiti wëkònywaczë"
 
@@ -547,7 +547,7 @@ msgstr "Strëga"
 
 #: collection/sqlcollection/SqlMeta.cpp:403
 #: services/lastfm/meta/LastFmMeta.cpp:137 covermanager/CoverViewDialog.h:44
-#: covermanager/CoverManager.cpp:854
+#: covermanager/CoverManager.cpp:784
 #, kde-format
 msgid "%1 - %2"
 msgstr "%1 - %2"
@@ -5245,31 +5245,31 @@ msgstr "Midzenôrodny"
 
 #. i18n: file: dialogs/EditCoverSearchDialog.ui:67
 #. i18n: ectx: property (text), item, widget (KComboBox, amazonLocale)
-#: rc.cpp:751 covermanager/CoverManager.cpp:211
+#: rc.cpp:751
 msgid "Canada"
 msgstr "Kanada"
 
 #. i18n: file: dialogs/EditCoverSearchDialog.ui:72
 #. i18n: ectx: property (text), item, widget (KComboBox, amazonLocale)
-#: rc.cpp:754 covermanager/CoverManager.cpp:215
+#: rc.cpp:754
 msgid "France"
 msgstr "Francëjô"
 
 #. i18n: file: dialogs/EditCoverSearchDialog.ui:77
 #. i18n: ectx: property (text), item, widget (KComboBox, amazonLocale)
-#: rc.cpp:757 covermanager/CoverManager.cpp:219
+#: rc.cpp:757
 msgid "Germany"
 msgstr "Miemcë"
 
 #. i18n: file: dialogs/EditCoverSearchDialog.ui:82
 #. i18n: ectx: property (text), item, widget (KComboBox, amazonLocale)
-#: rc.cpp:760 covermanager/CoverManager.cpp:223
+#: rc.cpp:760
 msgid "Japan"
 msgstr "Japòńskô"
 
 #. i18n: file: dialogs/EditCoverSearchDialog.ui:87
 #. i18n: ectx: property (text), item, widget (KComboBox, amazonLocale)
-#: rc.cpp:763 covermanager/CoverManager.cpp:227
+#: rc.cpp:763
 msgid "United Kingdom"
 msgstr "Wiôlgô Britanijô"
 
@@ -8280,7 +8280,7 @@ msgstr[2] "%1 sztëczków"
 
 #: statusbar/ProgressBar.cpp:47 statusbar/CompoundProgressBar.cpp:67
 #: statusbar/CompoundProgressBar.cpp:139 statusbar/CompoundProgressBar.cpp:174
-#: covermanager/CoverManager.cpp:261
+#: covermanager/CoverManager.cpp:214
 msgid "Abort"
 msgstr "Òpùszczë"
 
@@ -8743,91 +8743,35 @@ msgstr[2] "Ùstawi swòją òbkłôdką dlô nëch %1 albùmów"
 msgid "Select Cover Image File"
 msgstr "Wëbiérzë lopk òbkłôdczi"
 
-#: covermanager/CoverFetcher.cpp:180
-msgid "disc"
-msgstr "disk"
-
-#: covermanager/CoverFetcher.cpp:180
-msgid "disk"
-msgstr "disk"
-
-#: covermanager/CoverFetcher.cpp:180
-msgid "remaster"
-msgstr "pònowny wëdôwk"
-
-#: covermanager/CoverFetcher.cpp:180
-msgid "cd"
-msgstr "cd"
-
-#: covermanager/CoverFetcher.cpp:180
-msgid "single"
-msgstr "singel"
-
-#: covermanager/CoverFetcher.cpp:180
-msgid "soundtrack"
-msgstr "filmòwò stegna"
-
-#: covermanager/CoverFetcher.cpp:180
-msgid "part"
-msgstr "part"
-
-#: covermanager/CoverFetcher.cpp:246 covermanager/CoverFetcher.cpp:504
-msgid "No cover found"
-msgstr "Nie je nalazłô niżódnô òbkłôdka"
-
-#: covermanager/CoverFetcher.cpp:279 covermanager/CoverFetcher.cpp:463
+#: covermanager/CoverFetcher.cpp:197
 msgid "Fetching Cover"
 msgstr "Ladowanié òbkłôdczi"
 
-#: covermanager/CoverFetcher.cpp:289
-msgid "There was an error communicating with Amazon."
+#: covermanager/CoverFetcher.cpp:206
+#, fuzzy
+#| msgid "There was an error communicating with Amazon."
+msgid "There was an error communicating with last.fm."
 msgstr "Wëstąpiła fela òbczas łączbë z Amazon."
 
-#: covermanager/CoverFetcher.cpp:311
-msgid "The XML obtained from Amazon is invalid."
+#: covermanager/CoverFetcher.cpp:219
+#, fuzzy
+#| msgid "The XML obtained from Amazon is invalid."
+msgid "The XML obtained from Last.fm is invalid."
 msgstr "XML dostóny òd Amazon je zmiłkòwi."
 
-#: covermanager/CoverFetcher.cpp:424
+#: covermanager/CoverFetcher.cpp:264
 msgid "The cover could not be retrieved."
 msgstr "Nie jidze zladowac òbkłôdczi."
 
-#: covermanager/CoverFetcher.cpp:433
-msgid "The cover-data produced an invalid image."
-msgstr "Pòdôwczi òbkłôdczi dôwają zmiłkòwi òbrôzk."
-
-#: covermanager/CoverFetcher.cpp:495
-msgid ""
-"You have seen all the covers Amazon returned using the query below. Perhaps "
-"you can refine it:"
-msgstr ""
-"Të widzôł ju wszëtczé òbklłôdczi, jaczi zwrócëł Amazon brëkùjącë negò "
-"zapëtaniô. Mòże darzë sã je zakùrôtnic:"
-
-#: covermanager/CoverFetcher.cpp:518
-msgid "Amazon Query Editor"
-msgstr "Editora zapëtaniów Amazona"
-
-#: covermanager/CoverFetcher.cpp:585
-msgid "Ask Amazon for covers using this query:"
-msgstr "Przeszëkôj bazã òbkłôdków Amazon z tim zapëtanim:"
-
-#: covermanager/CoverFetcher.cpp:606 covermanager/CoverFetcher.cpp:683
-msgid "Aborted."
-msgstr "Pòcësniãto."
-
-#: covermanager/CoverFetcher.cpp:626
-msgid "Ne&w Search..."
-msgstr "No&wô szëbka..."
-
-#: covermanager/CoverFetcher.cpp:628
-msgid "&Next Cover"
-msgstr "&Nowô òbkłôdka"
-
-#: covermanager/CoverFetcher.cpp:639
+#: covermanager/CoverFetcher.cpp:305
 msgid "Cover Found"
 msgstr "Òbkłôdka je nalazłô"
 
-#: covermanager/CoverFetcher.cpp:692
+#: covermanager/CoverFetcher.cpp:337
+msgid "Aborted."
+msgstr "Pòcësniãto."
+
+#: covermanager/CoverFetcher.cpp:346
 msgid "Retrieved cover successfully"
 msgstr "ùdałé wëdostónié òbkłôdków"
 
@@ -8835,7 +8779,7 @@ msgstr "ùdałé wëdostónié òbkłôdków"
 msgid "Albums By"
 msgstr "Albùmë artistë"
 
-#: covermanager/CoverManager.cpp:112 covermanager/CoverManager.cpp:358
+#: covermanager/CoverManager.cpp:112 covermanager/CoverManager.cpp:296
 msgid "All Artists"
 msgstr "Wszëtcy artisce"
 
@@ -8855,34 +8799,20 @@ msgstr "Albùmë z òbkłôdkama"
 msgid "Albums Without Cover"
 msgstr "Albùmë bez òbkłôdków"
 
-#: covermanager/CoverManager.cpp:207
-msgctxt "The locale to use when fetching covers from amazon.com"
-msgid "International"
-msgstr "Midzenôrodny"
-
-#: covermanager/CoverManager.cpp:234
-msgctxt "@title buttontext for popup-menu"
-msgid "View"
-msgstr "Òbezdrzë"
-
-#: covermanager/CoverManager.cpp:239
-msgid "Amazon Locale"
-msgstr "Regionalné ùstawë Amazona"
-
-#: covermanager/CoverManager.cpp:245
+#: covermanager/CoverManager.cpp:198
 msgid "Fetch Missing Covers"
 msgstr "Zladëjë felëjącé òbkłôdczi"
 
-#: covermanager/CoverManager.cpp:434
+#: covermanager/CoverManager.cpp:372
 msgid "Loading Thumbnails..."
 msgstr "Ladowanié miniaturów..."
 
-#: covermanager/CoverManager.cpp:698
+#: covermanager/CoverManager.cpp:628
 msgctxt "The fetching is done."
 msgid "Finished."
 msgstr "Fardich."
 
-#: covermanager/CoverManager.cpp:700
+#: covermanager/CoverManager.cpp:630
 #, kde-format
 msgid " Cover not found"
 msgid_plural " <b>%1</b> covers not found"
@@ -8890,17 +8820,17 @@ msgstr[0] "Òbkłôdka nie je nalazłô"
 msgstr[1] "<b>%1</b> òbkłôdczi nie są nalazłé"
 msgstr[2] "<b>%1</b> òbkłôdków nie je nalazłéch"
 
-#: covermanager/CoverManager.cpp:713
+#: covermanager/CoverManager.cpp:643
 #, kde-format
 msgid "Fetching cover for %1..."
 msgstr "Ladowanié òbkłôdczi dlô %1..."
 
-#: covermanager/CoverManager.cpp:715
+#: covermanager/CoverManager.cpp:645
 #, kde-format
 msgid "Fetching cover for %1 - %2..."
 msgstr "Ladowanié òbkłôdczi dlô %1 - %2..."
 
-#: covermanager/CoverManager.cpp:722
+#: covermanager/CoverManager.cpp:652
 #, kde-format
 msgid "Fetching 1 cover: "
 msgid_plural "Fetching <b>%1</b> covers... : "
@@ -8908,7 +8838,7 @@ msgstr[0] "Ladowanié 1 òbkłôdczi: "
 msgstr[1] "Ladowanié <b>%1</b> òbkłôdków... :"
 msgstr[2] "Ladowanié <b>%1</b> òbkłôdków... :"
 
-#: covermanager/CoverManager.cpp:724
+#: covermanager/CoverManager.cpp:654
 #, kde-format
 msgid "1 fetched"
 msgid_plural "%1 fetched"
@@ -8916,11 +8846,11 @@ msgstr[0] "1 zladowónô"
 msgstr[1] "%1 zladowóné"
 msgstr[2] "%1 zladowónëch"
 
-#: covermanager/CoverManager.cpp:728
+#: covermanager/CoverManager.cpp:658
 msgid " - "
 msgstr " - "
 
-#: covermanager/CoverManager.cpp:729
+#: covermanager/CoverManager.cpp:659
 #, kde-format
 msgid "1 not found"
 msgid_plural "%1 not found"
@@ -8928,11 +8858,11 @@ msgstr[0] "%1 nie nalazłô"
 msgstr[1] "%1 nie nalazłe"
 msgstr[2] "%1 nie nalazłëch"
 
-#: covermanager/CoverManager.cpp:732
+#: covermanager/CoverManager.cpp:662
 msgid "Connecting..."
 msgstr "Pòłączenié"
 
-#: covermanager/CoverManager.cpp:757
+#: covermanager/CoverManager.cpp:687
 #, kde-format
 msgid "1 result for \"%2\""
 msgid_plural "%1 results for \"%2\""
@@ -8940,7 +8870,7 @@ msgstr[0] "1 rezultat dlô \"%2\""
 msgstr[1] "%1 rezultatë dlô \"%2\""
 msgstr[2] "%1 rezultatów dlô \"%2\""
 
-#: covermanager/CoverManager.cpp:760
+#: covermanager/CoverManager.cpp:690
 #, kde-format
 msgid "1 album"
 msgid_plural "%1 albums"
@@ -8948,22 +8878,79 @@ msgstr[0] "1 albùm"
 msgstr[1] "%1 albùmë"
 msgstr[2] "%1 albùmów"
 
-#: covermanager/CoverManager.cpp:766
+#: covermanager/CoverManager.cpp:696
 msgid " by "
 msgstr " wëkònywóny przez "
 
-#: covermanager/CoverManager.cpp:771
+#: covermanager/CoverManager.cpp:701
 #, kde-format
 msgid " - ( <b>%1</b> without cover )"
 msgstr " - ( <b>%1</b> bez òbkłôdczi )"
 
-#: covermanager/CoverManager.cpp:817
+#: covermanager/CoverManager.cpp:747
 msgid "Cover Image"
 msgstr "Òbkłôdka"
 
-#: covermanager/CoverManager.cpp:875
+#: covermanager/CoverManager.cpp:805
 msgid "No Artist"
 msgstr "Felëje artistë"
+
+#~ msgid "disc"
+#~ msgstr "disk"
+
+#~ msgid "disk"
+#~ msgstr "disk"
+
+#~ msgid "remaster"
+#~ msgstr "pònowny wëdôwk"
+
+#~ msgid "cd"
+#~ msgstr "cd"
+
+#~ msgid "single"
+#~ msgstr "singel"
+
+#~ msgid "soundtrack"
+#~ msgstr "filmòwò stegna"
+
+#~ msgid "part"
+#~ msgstr "part"
+
+#~ msgid "No cover found"
+#~ msgstr "Nie je nalazłô niżódnô òbkłôdka"
+
+#~ msgid "The cover-data produced an invalid image."
+#~ msgstr "Pòdôwczi òbkłôdczi dôwają zmiłkòwi òbrôzk."
+
+#~ msgid ""
+#~ "You have seen all the covers Amazon returned using the query below. "
+#~ "Perhaps you can refine it:"
+#~ msgstr ""
+#~ "Të widzôł ju wszëtczé òbklłôdczi, jaczi zwrócëł Amazon brëkùjącë negò "
+#~ "zapëtaniô. Mòże darzë sã je zakùrôtnic:"
+
+#~ msgid "Amazon Query Editor"
+#~ msgstr "Editora zapëtaniów Amazona"
+
+#~ msgid "Ask Amazon for covers using this query:"
+#~ msgstr "Przeszëkôj bazã òbkłôdków Amazon z tim zapëtanim:"
+
+#~ msgid "Ne&w Search..."
+#~ msgstr "No&wô szëbka..."
+
+#~ msgid "&Next Cover"
+#~ msgstr "&Nowô òbkłôdka"
+
+#~ msgctxt "The locale to use when fetching covers from amazon.com"
+#~ msgid "International"
+#~ msgstr "Midzenôrodny"
+
+#~ msgctxt "@title buttontext for popup-menu"
+#~ msgid "View"
+#~ msgstr "Òbezdrzë"
+
+#~ msgid "Amazon Locale"
+#~ msgstr "Regionalné ùstawë Amazona"
 
 #~ msgid "Collections"
 #~ msgstr "Kòlekcëje"
