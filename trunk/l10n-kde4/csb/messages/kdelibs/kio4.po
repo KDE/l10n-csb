@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-18 06:20+0200\n"
+"POT-Creation-Date: 2009-08-25 07:06+0200\n"
 "PO-Revision-Date: 2009-06-29 20:35+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -4366,7 +4366,7 @@ msgstr ""
 
 #. i18n: file: kfile/kpropertiesdesktopbase.ui:37
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:173 ../kfile/kfileplaceeditdialog.cpp:101
+#: rc.cpp:173
 msgid "&Description:"
 msgstr ""
 
@@ -5280,10 +5280,6 @@ msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "Kòsz"
 
-#: ../kfile/kfileplacesview.cpp:684
-msgid "Enter a description"
-msgstr ""
-
 #: ../kfile/kfilefiltercombo.cpp:36 ../kfile/kfilewidget.cpp:1783
 msgid "*|All Files"
 msgstr "*|Wszëtczé lopczi"
@@ -5700,16 +5696,30 @@ msgid "Edit Places Entry"
 msgstr "Zmieni wpisënk chùtczégò przistãpù"
 
 #: ../kfile/kfileplaceeditdialog.cpp:97
+#, fuzzy
+#| msgid ""
+#| "<qt>This is the text that will appear in the Places panel.<br /><br />The "
+#| "description should consist of one or two words that will help you "
+#| "remember what this entry refers to.</qt>"
 msgid ""
 "<qt>This is the text that will appear in the Places panel.<br /><br />The "
-"description should consist of one or two words that will help you remember "
-"what this entry refers to.</qt>"
+"label should consist of one or two words that will help you remember what "
+"this entry refers to. If you do not enter a label, it will be derived from "
+"the location's URL.</qt>"
 msgstr ""
 "<qt>Tekst wëskrzëniany w listwie chùtczégò przistãpù.<br /><br /> Òpisënk "
 "mùszi skłôdac sã z jednegò abò dwóch słów, parłãczącëch sã z lokalizacëją, "
 "do jaczi prowôdzi skrodzëna.</qt>"
 
-#: ../kfile/kfileplaceeditdialog.cpp:106
+#: ../kfile/kfileplaceeditdialog.cpp:103
+msgid "L&abel:"
+msgstr ""
+
+#: ../kfile/kfileplaceeditdialog.cpp:105
+msgid "Enter descriptive label here"
+msgstr ""
+
+#: ../kfile/kfileplaceeditdialog.cpp:109
 #, kde-format
 msgid ""
 "<qt>This is the location associated with the entry. Any valid URL may be "
@@ -5722,11 +5732,11 @@ msgstr ""
 "org<br /> ftp://ftp.kde.org/pub/kde/stable<br /><br />Knąpa kòl edicejnegò "
 "pòla zezwôlô wëbrac pasowny URL.</qt>"
 
-#: ../kfile/kfileplaceeditdialog.cpp:112
+#: ../kfile/kfileplaceeditdialog.cpp:115
 msgid "&Location:"
 msgstr "&Lokalizacëjô:"
 
-#: ../kfile/kfileplaceeditdialog.cpp:116
+#: ../kfile/kfileplaceeditdialog.cpp:119
 msgid ""
 "<qt>This is the icon that will appear in the Places panel.<br /><br />Click "
 "on the button to select a different icon.</qt>"
@@ -5734,16 +5744,16 @@ msgstr ""
 "<qt>Ikòna wëskrzënianiô w listwie chùtczégò przistãpù.<br /><br />Klëkni na "
 "knąpã, bë wëbrac jinszą ikònã.</qt>"
 
-#: ../kfile/kfileplaceeditdialog.cpp:119
+#: ../kfile/kfileplaceeditdialog.cpp:122
 msgid "Choose an &icon:"
 msgstr "Wëbierzë &ikònã:"
 
-#: ../kfile/kfileplaceeditdialog.cpp:136
+#: ../kfile/kfileplaceeditdialog.cpp:139
 #, kde-format
 msgid "&Only show when using this application (%1)"
 msgstr "Blós dlô &ti programë (%1)"
 
-#: ../kfile/kfileplaceeditdialog.cpp:138
+#: ../kfile/kfileplaceeditdialog.cpp:141
 #, kde-format
 msgid ""
 "<qt>Select this setting if you want this entry to show only when using the "
