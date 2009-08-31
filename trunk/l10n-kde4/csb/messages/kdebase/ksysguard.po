@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-29 07:19+0200\n"
+"POT-Creation-Date: 2009-08-31 06:07+0200\n"
 "PO-Revision-Date: 2009-06-13 21:59+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -16,17 +16,17 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: WorkSheet.cc:97
+#: WorkSheet.cc:88
 #, kde-format
 msgid "Cannot open the file %1."
 msgstr "Ni mòże òtemknąc lopka %1."
 
-#: WorkSheet.cc:105
+#: WorkSheet.cc:96
 #, kde-format
 msgid "The file %1 does not contain valid XML."
 msgstr "Lopk %1 zamëkô w se zmiłkòwi fòrmat XML."
 
-#: WorkSheet.cc:112
+#: WorkSheet.cc:103
 #, kde-format
 msgid ""
 "The file %1 does not contain a valid worksheet definition, which must have a "
@@ -35,49 +35,53 @@ msgstr ""
 "Lopk %1 nie zamëkô w se bezzmiłkòwi definicëji robòczi bòdżi. Lopk mùszi bëc "
 "ôrtu 'KSysGuardWorkSheet'."
 
-#: WorkSheet.cc:136
+#: WorkSheet.cc:127
 #, kde-format
 msgid "The file %1 has an invalid worksheet size."
 msgstr "Lopk %1 zamëkô w se zmiłkòwą miarã robòczi bòdżi."
 
-#: WorkSheet.cc:238
+#: WorkSheet.cc:228
 #, kde-format
 msgid "Cannot save file %1"
 msgstr "Ni mòże zapisac lopkù %1"
 
-#: WorkSheet.cc:284
+#: WorkSheet.cc:274
 msgid "The clipboard does not contain a valid display description."
 msgstr "Tacnik ni mô bezzmiłkòwigò òpisënkù wëzdrzatkù."
 
-#: WorkSheet.cc:382
+#: WorkSheet.cc:372
 msgid "Select Display Type"
 msgstr "Wëbiérzë ôrt prezentacëji pòdôwków"
 
-#: WorkSheet.cc:383
+#: WorkSheet.cc:373
 msgid "&Line graph"
 msgstr "&Liniowô dijagrama"
 
-#: WorkSheet.cc:384
+#: WorkSheet.cc:374
 msgid "&Digital display"
 msgstr "&Cyfrowy pòdzérk"
 
-#: WorkSheet.cc:385
+#: WorkSheet.cc:375
 msgid "&Bar graph"
 msgstr "&Stołpk"
 
-#: WorkSheet.cc:386
+#: WorkSheet.cc:376
 msgid "Log to a &file"
 msgstr "Zapiszë dniewnik do &lopkù"
 
-#: WorkSheet.cc:546
-msgid "Do you really want to delete the display?"
-msgstr "Czë na gwës chcesz rëmnąc prezentacëjã pòdôwków?"
+#: WorkSheet.cc:530
+#, fuzzy
+#| msgid "&Remove Display"
+msgid "Remove this display?"
+msgstr "&Rëmôj dijagram"
 
-#: WorkSheet.cc:547
-msgid "Delete Display"
-msgstr "Rëmôj prezentacëji pòdôwków"
+#: WorkSheet.cc:531
+#, fuzzy
+#| msgid "&Remove Display"
+msgid "Remove Display"
+msgstr "&Rëmôj dijagram"
 
-#: WorkSheet.cc:588
+#: WorkSheet.cc:572
 msgid "Dummy"
 msgstr "Domëslny"
 
@@ -1097,12 +1101,12 @@ msgstr "Przesënie w dół"
 msgid "Sensor Logger"
 msgstr "Registrator ùzérôcza"
 
-#: SensorDisplayLib/DancingBars.cc:96 SensorDisplayLib/FancyPlotter.cc:213
+#: SensorDisplayLib/DancingBars.cc:96 SensorDisplayLib/FancyPlotter.cc:215
 msgid "OK"
 msgstr "OK"
 
-#: SensorDisplayLib/DancingBars.cc:96 SensorDisplayLib/FancyPlotter.cc:213
-#: SensorDisplayLib/FancyPlotter.cc:439 SensorDisplayLib/FancyPlotter.cc:507
+#: SensorDisplayLib/DancingBars.cc:96 SensorDisplayLib/FancyPlotter.cc:215
+#: SensorDisplayLib/FancyPlotter.cc:441 SensorDisplayLib/FancyPlotter.cc:509
 msgid "Error"
 msgstr "Fela"
 
@@ -1127,79 +1131,79 @@ msgstr ""
 "kòntekstowégò menu. Wëbiérzë <i>Rëmôj</i>, abë rëmnąc dijagramã z wëzdrzatkù."
 "</p>%1</qt>"
 
-#: SensorDisplayLib/FancyPlotter.cc:107
+#: SensorDisplayLib/FancyPlotter.cc:109
 msgctxt "Largest axis title"
 msgid "99999 XXXX"
 msgstr "99999 XXXX"
 
-#: SensorDisplayLib/FancyPlotter.cc:435 SensorDisplayLib/FancyPlotter.cc:498
-#: SensorDisplayLib/FancyPlotter.cc:559
+#: SensorDisplayLib/FancyPlotter.cc:437 SensorDisplayLib/FancyPlotter.cc:500
+#: SensorDisplayLib/FancyPlotter.cc:561
 #, kde-format
 msgctxt "units"
 msgid "%1%"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:442
+#: SensorDisplayLib/FancyPlotter.cc:444
 #, kde-format
 msgctxt "%1 is what is being shown statistics for, like 'Memory', 'Swap', etc."
 msgid "<p><b>%1:</b><br>"
 msgstr "<p><b>%1:</b><br>"
 
-#: SensorDisplayLib/FancyPlotter.cc:505
+#: SensorDisplayLib/FancyPlotter.cc:507
 #, kde-format
 msgctxt "%1 and %2 are sensor's last and maximum value"
 msgid "%1 of %2"
 msgstr "%1 z %2"
 
-#: SensorDisplayLib/FancyPlotter.cc:532
+#: SensorDisplayLib/FancyPlotter.cc:534
 #, kde-format
 msgctxt "units"
 msgid "%1 TiB"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:535
+#: SensorDisplayLib/FancyPlotter.cc:537
 #, kde-format
 msgctxt "units"
 msgid "%1 GiB"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:538
+#: SensorDisplayLib/FancyPlotter.cc:540
 #, kde-format
 msgctxt "units"
 msgid "%1 MiB"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:541
+#: SensorDisplayLib/FancyPlotter.cc:543
 #, kde-format
 msgctxt "units"
 msgid "%1 KiB"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:546
+#: SensorDisplayLib/FancyPlotter.cc:548
 #, kde-format
 msgctxt "units"
 msgid "%1 TiB/s"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:549
+#: SensorDisplayLib/FancyPlotter.cc:551
 #, kde-format
 msgctxt "units"
 msgid "%1 GiB/s"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:552
+#: SensorDisplayLib/FancyPlotter.cc:554
 #, kde-format
 msgctxt "units"
 msgid "%1 MiB/s"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:555
+#: SensorDisplayLib/FancyPlotter.cc:557
 #, kde-format
 msgctxt "units"
 msgid "%1 KiB/s"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:561
+#: SensorDisplayLib/FancyPlotter.cc:563
 #, fuzzy, kde-format
 #| msgctxt "a percentage"
 #| msgid "%"
@@ -1679,6 +1683,12 @@ msgstr ""
 #: ksysguard.cc:550
 msgid "Optional worksheet files to load"
 msgstr "Dodôwné lopczi robòczëch bògów do wladowaniô"
+
+#~ msgid "Do you really want to delete the display?"
+#~ msgstr "Czë na gwës chcesz rëmnąc prezentacëjã pòdôwków?"
+
+#~ msgid "Delete Display"
+#~ msgstr "Rëmôj prezentacëji pòdôwków"
 
 #~ msgid "&Edit"
 #~ msgstr "&Edicëjô"
