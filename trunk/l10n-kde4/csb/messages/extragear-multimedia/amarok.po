@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-12 06:55+0200\n"
+"POT-Creation-Date: 2009-09-14 06:26+0200\n"
 "PO-Revision-Date: 2009-06-29 20:23+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -703,7 +703,9 @@ msgstr "Òridżinalny aùtor"
 msgid "Leo Franchi"
 msgstr "Leo Franchi"
 
-#: context/tools/amarokpkg.cpp:83
+#: context/tools/amarokpkg.cpp:83 main.cpp:88 main.cpp:124 main.cpp:128
+#: main.cpp:130 main.cpp:142 main.cpp:152 main.cpp:158 main.cpp:160
+#: main.cpp:172 main.cpp:178 main.cpp:180 main.cpp:184 main.cpp:192
 msgid "Developer"
 msgstr "Programista"
 
@@ -1316,10 +1318,6 @@ msgstr ""
 #: context/widgets/ToolBoxMenu.cpp:106
 msgid "Hide menu"
 msgstr "Zatacë menu"
-
-#: context/widgets/ToolBoxMenu.cpp:125
-msgid "Install New Applets"
-msgstr "Jinstalëjë nowi apletë"
 
 #: context/widgets/TrackWidget.cpp:39
 msgctxt "Score of a track"
@@ -3132,11 +3130,11 @@ msgstr ""
 msgid "Could not execute import query: %1"
 msgstr "ni mòże zrëszëc %1"
 
-#: databaseimporter/amarok14/FastForwardWorker.cpp:312
+#: databaseimporter/amarok14/FastForwardWorker.cpp:315
 msgid "Synchronizing Amarok database..."
 msgstr ""
 
-#: databaseimporter/amarok14/FastForwardWorker.cpp:320
+#: databaseimporter/amarok14/FastForwardWorker.cpp:323
 msgid "Importing downloaded album art"
 msgstr ""
 
@@ -3201,41 +3199,103 @@ msgstr ""
 msgid "Alejandro Wainzinger"
 msgstr "Alejandro Wainzinger"
 
+#: main.cpp:36
+#, fuzzy
+#| msgid "Developer"
+msgid "Developer (xevix)"
+msgstr "Programista"
+
 #: main.cpp:37
 msgid "Bart 'Where are my toothpicks' Cerneels"
 msgstr "Bart 'Where are my toothpicks' Cerneels"
+
+#: main.cpp:38
+#, fuzzy
+#| msgid "Developer"
+msgid "Developer (Stecchino)"
+msgstr "Programista"
 
 #: main.cpp:39
 msgid "Dan 'Hey, it compiled...' Meltzer"
 msgstr "Dan 'Hey, it compiled...' Meltzer"
 
+#: main.cpp:40
+#, fuzzy
+#| msgid "Developer"
+msgid "Developer (hydrogen)"
+msgstr "Programista"
+
 #: main.cpp:41
 msgid "Ian 'The Beard' Monroe"
 msgstr "Ian 'The Beard' Monroe"
+
+#: main.cpp:42
+#, fuzzy
+#| msgid "Developer"
+msgid "Developer (eean)"
+msgstr "Programista"
 
 #: main.cpp:43
 msgid "Jeff 'IROCKSOHARD' Mitchell"
 msgstr "Jeff 'IROCKSOHARD' Mitchell"
 
+#: main.cpp:44
+#, fuzzy
+#| msgid "Developer"
+msgid "Developer (jefferai)"
+msgstr "Programista"
+
+#: main.cpp:46
+#, fuzzy
+#| msgid "Developer"
+msgid "Developer (lfranchi)"
+msgstr "Programista"
+
 #: main.cpp:47
 msgid "Lydia 'is wrong(TM)' Pintscher"
 msgstr "Lydia 'is wrong(TM)' Pintscher"
+
+#: main.cpp:48
+msgid "Release Vixen (Nightrose)"
+msgstr ""
 
 #: main.cpp:49
 msgid "Mark 'It's good, but it's not irssi' Kretschmann"
 msgstr "Mark 'It's good, but it's not irssi' Kretschmann"
 
+#: main.cpp:50
+msgid "Project founder (markey)"
+msgstr ""
+
 #: main.cpp:51
 msgid "Maximilian Kossick"
 msgstr "Maximilian Kossick"
+
+#: main.cpp:52
+#, fuzzy
+#| msgid "Developer"
+msgid "Developer (maxx_k)"
+msgstr "Programista"
 
 #: main.cpp:53
 msgid "Nikolaj Hald 'Also very hot' Nielsen"
 msgstr "Nikolaj Hald 'Also very hot' Nielsen"
 
+#: main.cpp:54
+#, fuzzy
+#| msgid "Developer"
+msgid "Developer (nhn)"
+msgstr "Programista"
+
 #: main.cpp:55
 msgid "Seb 'Surfin' down under' Ruiz"
 msgstr "Seb 'Surfin' down under' Ruiz"
+
+#: main.cpp:56
+#, fuzzy
+#| msgid "Developer"
+msgid "Developer (sebr)"
+msgstr "Programista"
 
 #: main.cpp:57
 #, fuzzy
@@ -3243,33 +3303,73 @@ msgstr "Seb 'Surfin' down under' Ruiz"
 msgid "Téo Mrnjavac"
 msgstr "Teo Mrnjavac"
 
+#: main.cpp:58
+#, fuzzy
+#| msgid "Developer"
+msgid "Developer (Teo`)"
+msgstr "Programista"
+
 #: main.cpp:74
 msgid "Alex Merry"
+msgstr ""
+
+#: main.cpp:74
+msgid "Developer, Replay gain support"
 msgstr ""
 
 #: main.cpp:76
 msgid "Casey Link"
 msgstr "Casey Link"
 
+#: main.cpp:76
+#, fuzzy
+#| msgid "Mp3tunes Login"
+msgid "MP3tunes integration"
+msgstr "Login Mp3tunes"
+
 #: main.cpp:78
 msgid "Casper van Donderen"
+msgstr ""
+
+#: main.cpp:78
+msgid "Windows porting"
 msgstr ""
 
 #: main.cpp:80
 msgid "Christie Harris"
 msgstr "Christie Harris"
 
+#: main.cpp:80
+msgid "Rokymoter (dangle)"
+msgstr ""
+
 #: main.cpp:82
 msgid "Dan Leinir Turthra Jensen"
 msgstr "Dan Leinir Turthra Jensen"
+
+#: main.cpp:82
+msgid "Usability"
+msgstr ""
 
 #: main.cpp:84
 msgid "Daniel Caleb Jones"
 msgstr "Daniel Caleb Jones"
 
+#: main.cpp:84
+#, fuzzy
+#| msgid "&Save Playlist"
+msgid "Biased playlists"
+msgstr "&Zapiszë lëstã graniô"
+
 #: main.cpp:86
 msgid "Daniel Winter"
 msgstr "Daniel Winter"
+
+#: main.cpp:86
+#, fuzzy
+#| msgid "Nepomuk Collection"
+msgid "Nepomuk integration"
+msgstr "Kòlekcëjô Nepomuk"
 
 #: main.cpp:88
 msgid "Edward \"Hades\" Toroshchin"
@@ -3279,41 +3379,87 @@ msgstr ""
 msgid "Greg Meyer"
 msgstr "Greg Meyer"
 
+#: main.cpp:90
+msgid "Live CD, Bug squashing (oggb4mp3)"
+msgstr ""
+
 #: main.cpp:92
 msgid "Harald Sitter"
 msgstr "Harald Sitter"
+
+#: main.cpp:92
+msgid "Rokymoter (apachelogger)"
+msgstr ""
 
 #: main.cpp:94
 msgid "Kenneth Wesley Wimer II"
 msgstr "Kenneth Wesley Wimer II"
 
+#: main.cpp:94
+#, fuzzy
+#| msgid "Icon"
+msgid "Icons"
+msgstr "Ikòna"
+
 #: main.cpp:96
 msgid "Kevin Funk"
 msgstr "Kevin Funk"
 
+#: main.cpp:96
+msgid "Developer, Website theme (KRF)"
+msgstr ""
+
 #: main.cpp:98
 msgid "Kuba Serafinowski"
+msgstr ""
+
+#: main.cpp:98
+msgid "Rokymoter"
 msgstr ""
 
 #: main.cpp:100
 msgid "Lee Olson"
 msgstr "Lee Olson"
 
+#: main.cpp:100 main.cpp:110
+#, fuzzy
+#| msgid "Amarok"
+msgid "Artwork"
+msgstr "Amarok"
+
 #: main.cpp:102
 msgid "Ljubomir Simin"
 msgstr "Ljubomir Simin"
+
+#: main.cpp:102
+msgid "Rokymoter (ljubomir)"
+msgstr ""
 
 #: main.cpp:104
 msgid "Max Howell"
 msgstr "Max Howell"
 
+#: main.cpp:104
+#, fuzzy
+#| msgid "Developer"
+msgid "Developer, Vision"
+msgstr "Programista"
+
 #: main.cpp:106
 msgid "Mikko Caldara"
+msgstr ""
+
+#: main.cpp:106
+msgid "Bug triaging and sanitizing"
 msgstr ""
 
 #: main.cpp:108
 msgid "Myriam Schweingruber"
 msgstr "Myriam Schweingruber"
+
+#: main.cpp:108
+msgid "Rokymoter, bug squashing (Mamarok)"
+msgstr ""
 
 #: main.cpp:110
 msgid "Nuno Pinheiro"
@@ -3323,24 +3469,50 @@ msgstr ""
 msgid "Olivier Bédard"
 msgstr "Olivier Bédard"
 
+#: main.cpp:112
+msgid "Website hosting"
+msgstr ""
+
 #: main.cpp:114
 msgid "Pasi Lalinaho"
 msgstr "Pasi Lalinaho"
+
+#: main.cpp:114
+msgid "Rokymoter (emunkki)"
+msgstr ""
 
 #: main.cpp:116
 msgid "Peter Zhou Lei"
 msgstr "Peter Zhou Lei"
 
+#: main.cpp:116
+#, fuzzy
+#| msgid "Scripted Services"
+msgid "Scripting interface"
+msgstr "Skriptowé ùãłëżnotë"
+
 #: main.cpp:118
 msgid "Scott Wheeler"
 msgstr "Scott Wheeler"
+
+#: main.cpp:118
+msgid "TagLib & ktrm code"
+msgstr ""
 
 #: main.cpp:120
 msgid "Shane King"
 msgstr "Shane King"
 
+#: main.cpp:120
+msgid "Patches & Windows porting (shakes)"
+msgstr ""
+
 #: main.cpp:122
 msgid "Simon Esneault"
+msgstr ""
+
+#: main.cpp:122
+msgid "Photos & Videos applets, Context View"
 msgstr ""
 
 #: main.cpp:124
@@ -3350,6 +3522,10 @@ msgstr "Soren Harward"
 #: main.cpp:126
 msgid "Sven Krohlas"
 msgstr "Sven Krohlas"
+
+#: main.cpp:126
+msgid "Rokymoter (sven423)"
+msgstr ""
 
 #: main.cpp:128
 msgid "Thomas Lübking"
@@ -3365,21 +3541,45 @@ msgstr ""
 msgid "Wade Olson"
 msgstr "Lee Olson"
 
+#: main.cpp:132
+msgid "Splash screen artist"
+msgstr ""
+
 #: main.cpp:134
 msgid "William Viana Soares"
 msgstr "William Viana Soares"
+
+#: main.cpp:134
+#, fuzzy
+#| msgid "Context"
+msgid "Context view"
+msgstr "Kòntekst"
 
 #: main.cpp:136
 msgid "Former contributors"
 msgstr "Przédny programisce"
 
+#: main.cpp:136
+msgid "People listed below have contributed to Amarok in the past. Thank you!"
+msgstr ""
+
 #: main.cpp:138
 msgid "Adam Pigg"
 msgstr "Adam Pigg"
 
+#: main.cpp:138
+msgid "Analyzers, patches, shoutcast"
+msgstr ""
+
 #: main.cpp:140
 msgid "Adeodato Simó"
 msgstr "Adeodato Simó"
+
+#: main.cpp:140 main.cpp:148
+#, fuzzy
+#| msgid "dates"
+msgid "Patches"
+msgstr "datumë"
 
 #: main.cpp:142
 msgid "Alexandre Oliveira"
@@ -3389,9 +3589,17 @@ msgstr "Alexandre Oliveira"
 msgid "Andreas Mair"
 msgstr "Andreas Mair"
 
+#: main.cpp:144
+msgid "MySQL support"
+msgstr ""
+
 #: main.cpp:146
 msgid "Andrew de Quincey"
 msgstr "Andrew de Quincey"
+
+#: main.cpp:146
+msgid "Postgresql support"
+msgstr ""
 
 #: main.cpp:148
 msgid "Andrew Turner"
@@ -3401,6 +3609,10 @@ msgstr "Andrew Turner"
 msgid "Andy Kelk"
 msgstr "Andy Kelk"
 
+#: main.cpp:150
+msgid "MTP and Rio Karma media devices, patches"
+msgstr ""
+
 #: main.cpp:152
 msgid "Christian Muehlhaeuser"
 msgstr "Christian Muehlhaeuser"
@@ -3409,9 +3621,17 @@ msgstr "Christian Muehlhaeuser"
 msgid "Derek Nelson"
 msgstr "Derek Nelson"
 
+#: main.cpp:154
+msgid "Graphics, splash-screen"
+msgstr ""
+
 #: main.cpp:156
 msgid "Enrico Ros"
 msgstr "Enrico Ros"
+
+#: main.cpp:156
+msgid "Analyzers, Context Browser and systray eye-candy"
+msgstr ""
 
 #: main.cpp:158
 msgid "Frederik Holljen"
@@ -3425,21 +3645,41 @@ msgstr "Gábor Lehel"
 msgid "Gérard Dürrmeyer"
 msgstr "Gérard Dürrmeyer"
 
+#: main.cpp:162
+msgid "Icons and image work"
+msgstr ""
+
 #: main.cpp:164
 msgid "Giovanni Venturi"
 msgstr "Giovanni Venturi"
+
+#: main.cpp:164
+msgid "Dialog to filter the collection titles"
+msgstr ""
 
 #: main.cpp:166
 msgid "Jarkko Lehti"
 msgstr "Jarkko Lehti"
 
+#: main.cpp:166
+msgid "Tester, IRC channel operator, whipping"
+msgstr ""
+
 #: main.cpp:168
 msgid "Jocke Andersson"
 msgstr "Jocke Andersson"
 
+#: main.cpp:168
+msgid "Rokymoter, bug fixer (Firetech)"
+msgstr ""
+
 #: main.cpp:170
 msgid "Marco Gulino"
 msgstr "Marco Gulino"
+
+#: main.cpp:170
+msgid "Konqueror Sidebar, some DCOP methods"
+msgstr ""
 
 #: main.cpp:172
 msgid "Martin Aumueller"
@@ -3449,9 +3689,17 @@ msgstr "Martin Aumueller"
 msgid "Melchior Franz"
 msgstr "Melchior Franz"
 
+#: main.cpp:174
+msgid "FHT routine, bugfixes"
+msgstr ""
+
 #: main.cpp:176
 msgid "Michael Pyne"
 msgstr "Michael Pyne"
+
+#: main.cpp:176
+msgid "K3b export code"
+msgstr ""
 
 #: main.cpp:178
 msgid "Mike Diehl"
@@ -3465,6 +3713,10 @@ msgstr "Paul Cifarelli"
 msgid "Peter C. Ndikuwera"
 msgstr "Peter C. Ndikuwera"
 
+#: main.cpp:182
+msgid "Bugfixes, PostgreSQL support"
+msgstr ""
+
 #: main.cpp:184
 msgid "Pierpaolo Panfilo"
 msgstr "Pierpaolo Panfilo"
@@ -3473,13 +3725,25 @@ msgstr "Pierpaolo Panfilo"
 msgid "Reigo Reinmets"
 msgstr "Reigo Reinmets"
 
+#: main.cpp:186
+msgid "Wikipedia support, patches"
+msgstr ""
+
 #: main.cpp:188
 msgid "Roman Becker"
 msgstr "Roman Becker"
 
+#: main.cpp:188
+msgid "Former Amarok logo, former splash screen, former icons"
+msgstr ""
+
 #: main.cpp:190
 msgid "Sami Nieminen"
 msgstr "Sami Nieminen"
+
+#: main.cpp:190
+msgid "Audioscrobbler support"
+msgstr ""
 
 #: main.cpp:192
 msgid "Stanislav Karchebny"
@@ -3488,6 +3752,10 @@ msgstr "Stanislav Karchebny"
 #: main.cpp:194
 msgid "Stefan Bogner"
 msgstr "Stefan Bogner"
+
+#: main.cpp:194
+msgid "Loads of stuff"
+msgstr ""
 
 #: browsers/InfoProxy.cpp:164
 msgid "Home"
@@ -9634,6 +9902,9 @@ msgstr "Òbkłôdka"
 msgid "No Artist"
 msgstr "Felëje artistë"
 
+#~ msgid "Install New Applets"
+#~ msgstr "Jinstalëjë nowi apletë"
+
 #~ msgid "Enter new group name:"
 #~ msgstr "Wpiszë miono nowi grëpë:"
 
@@ -10242,9 +10513,6 @@ msgstr "Felëje artistë"
 #~| msgid "%1 Options"
 #~ msgid "%1 Options"
 #~ msgstr "Òptacëje %1"
-
-#~ msgid "Icon"
-#~ msgstr "Ikòna"
 
 #, fuzzy
 #~| msgid "Do you really want to remove this %1?"
@@ -10943,9 +11211,6 @@ msgstr "Felëje artistë"
 
 #~ msgid "General"
 #~ msgstr "Òglowé"
-
-#~ msgid "Scripted Services"
-#~ msgstr "Skriptowé ùãłëżnotë"
 
 #~ msgid "Show Output &Log"
 #~ msgstr "Pòkażë wińdzeniowi &log"
