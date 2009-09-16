@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-15 06:11+0200\n"
+"POT-Creation-Date: 2009-09-16 07:03+0200\n"
 "PO-Revision-Date: 2009-06-11 21:53+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -106,75 +106,75 @@ msgstr "John Lions"
 msgid "In memory of his contributions, 1937-1998."
 msgstr "Kù pamiãcë jegò wkłôdu, 1937-1998."
 
-#: panelcontroller.cpp:454
+#: panelcontroller.cpp:139
 msgid "Panel Alignment"
 msgstr "Pòłożenié panela"
 
-#: panelcontroller.cpp:457 panelcontroller.cpp:741
+#: panelcontroller.cpp:142 panelcontroller.cpp:385
 msgid "Left"
 msgstr "Lewò"
 
-#: panelcontroller.cpp:463
+#: panelcontroller.cpp:148
 msgid "Center"
 msgstr "Wëstrzódno"
 
-#: panelcontroller.cpp:468 panelcontroller.cpp:742
+#: panelcontroller.cpp:153 panelcontroller.cpp:386
 msgid "Right"
 msgstr "Prawò"
 
-#: panelcontroller.cpp:479
+#: panelcontroller.cpp:164
 msgid "Visibility"
 msgstr "Widzawnota"
 
-#: panelcontroller.cpp:482
+#: panelcontroller.cpp:167
 msgid "Always visible"
 msgstr "Wiédno widzawno"
 
-#: panelcontroller.cpp:487
+#: panelcontroller.cpp:172
 msgid "Auto-hide"
 msgstr "Zatacë aùtomatno"
 
-#: panelcontroller.cpp:492
+#: panelcontroller.cpp:177
 msgid "Windows can cover"
 msgstr "Òkna mògą nachòdzëc na listwã"
 
-#: panelcontroller.cpp:497
+#: panelcontroller.cpp:182
 msgid "Windows go below"
 msgstr "Òkna jidą pòniżi"
 
-#: panelcontroller.cpp:503
+#: panelcontroller.cpp:188
 msgid "Screen Edge"
 msgstr "Nórcëk ekranu"
 
-#: panelcontroller.cpp:509 panelcontroller.cpp:738
+#: panelcontroller.cpp:194 panelcontroller.cpp:382
 msgid "Height"
 msgstr "Wiżô"
 
-#: panelcontroller.cpp:519
+#: panelcontroller.cpp:204
 msgid "More Settings"
 msgstr "Wicy nastôwów"
 
-#: panelcontroller.cpp:531
+#: panelcontroller.cpp:216
 msgid "Maximize Panel"
 msgstr "Maksymalizëjë panel"
 
-#: panelcontroller.cpp:537
+#: panelcontroller.cpp:222
 msgid "Close this configuration window"
 msgstr "Zamkni no òkno kònfigùracëji"
 
-#: panelcontroller.cpp:598
+#: panelcontroller.cpp:270
 msgid "Add Spacer"
 msgstr "Dodôj pùsté pòle"
 
-#: panelcontroller.cpp:725
+#: panelcontroller.cpp:369
 msgid "Width"
 msgstr "Szérzô"
 
-#: panelcontroller.cpp:728
+#: panelcontroller.cpp:372
 msgid "Top"
 msgstr "Góra"
 
-#: panelcontroller.cpp:729
+#: panelcontroller.cpp:373
 msgid "Bottom"
 msgstr "Dół"
 
@@ -212,15 +212,15 @@ msgstr ""
 msgid "Add to current activity"
 msgstr "Dodôj aktiwnota"
 
-#: positioningruler.cpp:462
+#: positioningruler.cpp:466
 msgid "Move this slider to set the panel position"
 msgstr "Przësënié nen sztripk bë nastawic môl panela"
 
-#: positioningruler.cpp:465
+#: positioningruler.cpp:469
 msgid "Move this slider to set the maximum panel size"
 msgstr "Przësënié nen sztripk bë nastawic maksymalną miarã panela"
 
-#: positioningruler.cpp:468
+#: positioningruler.cpp:472
 msgid "Move this slider to set the minimum panel size"
 msgstr "Przësënié nen sztripk bë nastawic minimalną miarã panela"
 
@@ -260,6 +260,36 @@ msgid ""
 msgstr ""
 "Ùstawi na prôwdã (true) jeżlë kòżdi wirtualny pùlt mô miec swój ùnikatowi "
 "widok Plasmë."
+
+#: scripting/containment.cpp:174
+msgid "widgetById requires an id"
+msgstr ""
+
+#: scripting/containment.cpp:198
+msgid "widgetById requires a name of a widget or a widget object"
+msgstr ""
+
+#: scripting/scriptengine.cpp:79 scripting/scriptengine.cpp:230
+msgid "activityById requires an id"
+msgstr ""
+
+#: scripting/scriptengine.cpp:96
+msgid "activityForScreen requires a screen id"
+msgstr ""
+
+#: scripting/scriptengine.cpp:131
+#, kde-format
+msgid "Could not find an %1 plugin named %2."
+msgstr ""
+
+#: scripting/scriptengine.cpp:278
+#, kde-format
+msgid ""
+"Error: %1 at line %2\n"
+"\n"
+"Backtrace:\n"
+"%3"
+msgstr ""
 
 #, fuzzy
 #~| msgid "Center"
