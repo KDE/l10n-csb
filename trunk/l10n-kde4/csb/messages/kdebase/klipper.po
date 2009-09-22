@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-21 05:58+0200\n"
+"POT-Creation-Date: 2009-09-22 06:08+0200\n"
 "PO-Revision-Date: 2009-06-18 13:42+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -105,27 +105,27 @@ msgstr "Włączë dzejania &tacnika"
 msgid "C&lear Clipboard History"
 msgstr "&Wëczëszczë historëjã tacnika"
 
-#: klipper.cpp:150
+#: klipper.cpp:149
 msgid "&Configure Klipper..."
 msgstr "&Kònfigùracëjô Klippera..."
 
-#: klipper.cpp:155
+#: klipper.cpp:154
 msgid "&Quit"
 msgstr "&Zakùńczë"
 
-#: klipper.cpp:186
+#: klipper.cpp:185
 msgid "Show Klipper Popup-Menu"
 msgstr "Wëskrzëni pòdrãczné menu Klippera"
 
-#: klipper.cpp:191
+#: klipper.cpp:190
 msgid "Manually Invoke Action on Current Clipboard"
 msgstr "Rãczno wëwòłôj dzejanié na zamkłoscë tacnika"
 
-#: klipper.cpp:195
+#: klipper.cpp:194
 msgid "Enable Clipboard Actions"
 msgstr "Włączë dzejania tacnika"
 
-#: klipper.cpp:485
+#: klipper.cpp:491
 msgid ""
 "You can enable URL actions later by right-clicking on the Klipper icon and "
 "selecting 'Enable Actions'"
@@ -133,31 +133,31 @@ msgstr ""
 "Mòżesz wëłãczëc dzejania URL pózdni, klëkając prawą knąpą mëszë na ikònie "
 "Klippera ë wëbierając 'Włączë dzejania'"
 
-#: klipper.cpp:513
+#: klipper.cpp:519
 msgid "Should Klipper start automatically when you login?"
 msgstr "Czë zrëszac Klippera aùtomatno przë logòwaniu?"
 
-#: klipper.cpp:514
+#: klipper.cpp:520
 msgid "Automatically Start Klipper?"
 msgstr "Aùtomatno zrëszëc Klippera?"
 
-#: klipper.cpp:514
+#: klipper.cpp:520
 msgid "Start"
 msgstr "Zrëszë"
 
-#: klipper.cpp:515
+#: klipper.cpp:521
 msgid "Do Not Start"
 msgstr "Ni zrësziwôj"
 
-#: klipper.cpp:990
+#: klipper.cpp:997
 msgid "KDE cut & paste history utility"
 msgstr "Historëjô tacnika KDE"
 
-#: klipper.cpp:994
+#: klipper.cpp:1001
 msgid "Klipper"
 msgstr "Klipper"
 
-#: klipper.cpp:996
+#: klipper.cpp:1003
 msgid ""
 "(c) 1998, Andrew Stanley-Jones\n"
 "1998-2002, Carsten Pfeiffer\n"
@@ -167,45 +167,57 @@ msgstr ""
 "1998-2002, Carsten Pfeiffer\n"
 "2001, Patrick Dubroy"
 
-#: klipper.cpp:1000
+#: klipper.cpp:1007
 msgid "Carsten Pfeiffer"
 msgstr "Carsten Pfeiffer"
 
-#: klipper.cpp:1001
+#: klipper.cpp:1008
 msgid "Author"
 msgstr "Ùsôdzca"
 
-#: klipper.cpp:1004
+#: klipper.cpp:1011
 msgid "Andrew Stanley-Jones"
 msgstr "Andrew Stanley-Jones"
 
-#: klipper.cpp:1005
+#: klipper.cpp:1012
 msgid "Original Author"
 msgstr "Ùsôdzca pierszi wersëji"
 
-#: klipper.cpp:1008
+#: klipper.cpp:1015
 msgid "Patrick Dubroy"
 msgstr "Patrick Dubroy"
 
-#: klipper.cpp:1009
+#: klipper.cpp:1016
 msgid "Contributor"
 msgstr "Pòmòc"
 
-#: klipper.cpp:1012
+#: klipper.cpp:1019
 msgid "Luboš Luňák"
 msgstr "Luboš Luňák"
 
-#: klipper.cpp:1013
+#: klipper.cpp:1020
 msgid "Bugfixes and optimizations"
 msgstr "Pòprawczi ë òptimalizacëje"
 
-#: klipper.cpp:1016
+#: klipper.cpp:1023
 msgid "Esben Mose Hansen"
 msgstr "Esben Mose Hansen"
 
-#: klipper.cpp:1017
+#: klipper.cpp:1024
 msgid "Maintainer"
 msgstr "Òpiekùn"
+
+#: klipper.cpp:1056
+#, fuzzy
+#| msgid "C&lear Clipboard History"
+msgid "Really delete entire clipboard history?"
+msgstr "&Wëczëszczë historëjã tacnika"
+
+#: klipper.cpp:1057
+#, fuzzy
+#| msgid "C&lear Clipboard History"
+msgid "Delete clipboard history?"
+msgstr "&Wëczëszczë historëjã tacnika"
 
 #: klipperpopup.cpp:88
 msgid "<empty clipboard>"
@@ -565,9 +577,11 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
 
-#: tray.cpp:35
-msgid "Klipper - clipboard tool"
-msgstr "Klipper - nôrzãdze tacnika"
+#: tray.cpp:47
+#, fuzzy
+#| msgid "Clipboard history size"
+msgid "Clipboard is empty"
+msgstr "Miara historëji tacnika"
 
 #: urlgrabber.cpp:218
 #, kde-format
@@ -589,6 +603,9 @@ msgstr "&Anulëjë"
 #: urlgrabber.cpp:333
 msgid "Edit Contents"
 msgstr "Editëjë zamkłosc"
+
+#~ msgid "Klipper - clipboard tool"
+#~ msgstr "Klipper - nôrzãdze tacnika"
 
 #, fuzzy
 #~| msgid "Action &list (right click to add/remove commands):"
