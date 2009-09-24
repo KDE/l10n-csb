@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-07 01:20+0200\n"
+"POT-Creation-Date: 2009-09-24 01:24+0200\n"
 "PO-Revision-Date: 2009-06-11 10:19+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -398,12 +398,14 @@ msgstr ""
 "Strigi naczął indeksowanié. Zindeksowanié wszëtczich lopków dlô chùtczi "
 "szëkbë pùltu mòże kąsk zbawic."
 
-#: services/strigi/eventmonitor.cpp:99 services/strigi/eventmonitor.cpp:130
-msgid "Resuming Strigi file indexing."
-msgstr "Indeksowanié lopków Strigi jidze dali."
+#: services/strigi/eventmonitor.cpp:99
+msgid "Resuming indexing of files for fast searching."
+msgstr ""
 
 #: services/strigi/eventmonitor.cpp:106
-msgid "Suspending Strigi file indexing to preserve resources."
+#, fuzzy
+#| msgid "Suspending Strigi file indexing to preserve resources."
+msgid "Suspending the indexing of files to preserve resources."
 msgstr ""
 "Indeksowanié lopków Strigi bãdze zatrzëmóné dlô òbszczãdzenia dostónków "
 "systemë."
@@ -414,6 +416,10 @@ msgid ""
 "Local disk space is running low (%1 left). Suspending Strigi file indexing."
 msgstr ""
 "Môlowi plac na diskù sã kùńczi (%1 òstało). Zatrzëmanié indeksownika Strigi."
+
+#: services/strigi/eventmonitor.cpp:130
+msgid "Resuming Strigi file indexing."
+msgstr "Indeksowanié lopków Strigi jidze dali."
 
 #: services/strigi/eventmonitor.cpp:147
 #, kde-format
