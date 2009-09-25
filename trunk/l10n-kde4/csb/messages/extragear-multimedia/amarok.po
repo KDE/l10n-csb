@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-24 06:45+0200\n"
+"POT-Creation-Date: 2009-09-25 06:50+0200\n"
 "PO-Revision-Date: 2009-06-29 20:23+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -616,7 +616,7 @@ msgstr "&Wëcygni"
 #: collection/audiocd/AudioCdCollection.cpp:413
 #: collection/audiocd/AudioCdCollection.cpp:414
 #: collection/audiocd/AudioCdCollection.cpp:415
-#: context/applets/albums/AlbumItem.cpp:72 MainWindow.cpp:1070
+#: context/applets/albums/AlbumItem.cpp:72 MainWindow.cpp:1076
 #: amarokurls/BookmarkTreeView.cpp:317 amarokurls/BookmarkTreeView.cpp:318
 #: amarokurls/BookmarkTreeView.cpp:319
 msgid "Unknown"
@@ -1404,7 +1404,7 @@ msgstr "S&ztëczk"
 msgid "&Album"
 msgstr "&Albùm"
 
-#: ActionClasses.cpp:365 MainWindow.cpp:882
+#: ActionClasses.cpp:365 MainWindow.cpp:887
 msgid "&Playlist"
 msgstr "&Lësta graniô"
 
@@ -1791,27 +1791,23 @@ msgstr ""
 msgid "These folders will be scanned for media to make up your collection:"
 msgstr "Ne katalodżi òstaną przeszëkóné za mùltimediama dlô twòji kòlekcëji:"
 
-#: dialogs/CollectionSetup.cpp:65
-msgid "Rescan Collection"
-msgstr "Przeskanëjë znowa kòlekcëjã"
-
-#: dialogs/CollectionSetup.cpp:68 dialogs/DatabaseImporterDialog.cpp:37
+#: dialogs/CollectionSetup.cpp:65 dialogs/DatabaseImporterDialog.cpp:37
 msgid "Import Collection"
 msgstr "Impòrtëjë kòlekcjã"
 
-#: dialogs/CollectionSetup.cpp:71
+#: dialogs/CollectionSetup.cpp:68
 msgid "&Scan folders recursively"
 msgstr "&Skanëjr katalodżi rekùrencëjno"
 
-#: dialogs/CollectionSetup.cpp:72
+#: dialogs/CollectionSetup.cpp:69
 msgid "&Watch folders for changes"
 msgstr "&Szlachùje za zmianama w katalogach"
 
-#: dialogs/CollectionSetup.cpp:76
+#: dialogs/CollectionSetup.cpp:73
 msgid "If selected, Amarok will read all subfolders."
 msgstr "Jeżlë zaznaczoné, Amarok òdczëtô wszëtczé pòdkatalodżi."
 
-#: dialogs/CollectionSetup.cpp:77
+#: dialogs/CollectionSetup.cpp:74
 msgid ""
 "If selected, folders will automatically get rescanned when the content is "
 "modified, e.g. when a new file was added."
@@ -4424,80 +4420,84 @@ msgstr "&Szëkôj dowslôdë"
 msgid "Update Collection"
 msgstr "Aktualizëjë kòlekcëjã"
 
-#: MainWindow.cpp:733
+#: MainWindow.cpp:731
+msgid "Rescan Collection"
+msgstr "Przeskanëjë znowa kòlekcëjã"
+
+#: MainWindow.cpp:738
 msgid "Previous Track"
 msgstr "Piprzédny sztëczk"
 
-#: MainWindow.cpp:741
+#: MainWindow.cpp:746
 msgid "Next Track"
 msgstr "Pòstãpny sztëczk"
 
-#: MainWindow.cpp:744
+#: MainWindow.cpp:749
 msgid "Increase Volume"
 msgstr "Zwikszë głosnosc"
 
-#: MainWindow.cpp:750
+#: MainWindow.cpp:755
 msgid "Decrease Volume"
 msgstr "Zminészë głosnosc"
 
-#: MainWindow.cpp:756
+#: MainWindow.cpp:761
 msgid "Toggle Main Window"
 msgstr "Przełączë przédne òkno"
 
-#: MainWindow.cpp:761
+#: MainWindow.cpp:766
 msgid "Show On Screen Display"
 msgstr "Pòkażë wëskrzëniwaniô-na-ekranie (OSD)"
 
-#: MainWindow.cpp:766
+#: MainWindow.cpp:771
 msgid "Mute Volume"
 msgstr "Wëcëszë głosnosc"
 
-#: MainWindow.cpp:771
+#: MainWindow.cpp:776
 msgid "Love Current Track"
 msgstr "Achtnij biéżny sztëczk"
 
-#: MainWindow.cpp:776
+#: MainWindow.cpp:781
 msgid "Rate Current Track: 1"
 msgstr "Òtaksëjë biéżny sztëczk: 1"
 
-#: MainWindow.cpp:781
+#: MainWindow.cpp:786
 msgid "Rate Current Track: 2"
 msgstr "Òtaksëjë biéżny sztëczk: 2"
 
-#: MainWindow.cpp:786
+#: MainWindow.cpp:791
 msgid "Rate Current Track: 3"
 msgstr "Òtaksëjë biéżny sztëczk: 3"
 
-#: MainWindow.cpp:791
+#: MainWindow.cpp:796
 msgid "Rate Current Track: 4"
 msgstr "Òtaksëjë biéżny sztëczk: 4"
 
-#: MainWindow.cpp:796
+#: MainWindow.cpp:801
 msgid "Rate Current Track: 5"
 msgstr "Òtaksëjë biéżny sztëczk: 5"
 
-#: MainWindow.cpp:859
+#: MainWindow.cpp:864
 msgid "&Music"
 msgstr "&Mùzyka"
 
-#: MainWindow.cpp:863
+#: MainWindow.cpp:868
 msgid "&Amarok"
 msgstr "&Amarok"
 
-#: MainWindow.cpp:906
+#: MainWindow.cpp:911
 msgid "&Tools"
 msgstr "&Nôrzãdza"
 
-#: MainWindow.cpp:919
+#: MainWindow.cpp:925
 msgid "&Settings"
 msgstr "Ùs&towë"
 
-#: MainWindow.cpp:1046
+#: MainWindow.cpp:1052
 #, kde-format
 msgid "Paused  ::  %1"
 msgstr "Paùza :: %1"
 
-#: MainWindow.cpp:1070
+#: MainWindow.cpp:1076
 #, kde-format
 msgid "%1 - %2  ::  %3"
 msgstr "%1 - %2  ::  %3"
