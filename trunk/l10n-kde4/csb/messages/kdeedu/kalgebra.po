@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalgebra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-29 06:12+0200\n"
+"POT-Creation-Date: 2009-09-30 06:54+0200\n"
 "PO-Revision-Date: 2008-01-02 18:44+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -40,6 +40,11 @@ msgstr "Wôrtnota"
 #: src/consolehtml.cpp:104
 #, kde-format
 msgid "<ul class='error'>Error: %1<li>%2</li></ul>"
+msgstr ""
+
+#: src/consolehtml.cpp:214
+#, kde-format
+msgid "Paste \"%1\" to input"
 msgstr ""
 
 #: src/dictionary.cpp:47
@@ -218,174 +223,178 @@ msgstr ""
 msgid "Remove '%1'"
 msgstr ""
 
-#: src/graph2d.cpp:413
+#: src/graph2d.cpp:414
 msgid "Selected viewport too small"
 msgstr ""
 
-#: src/graph3d.cpp:412 src/graph3d.cpp:438
+#: src/graph3d.cpp:433 src/graph3d.cpp:459
 #, kde-format
 msgid "Error: %1"
 msgstr "Fela: %1"
 
-#: src/graph3d.cpp:426
+#: src/graph3d.cpp:447
 msgid "Generating... Please wait"
 msgstr "Generowanié... Proszã żdac"
 
-#: src/graph3d.cpp:431
+#: src/graph3d.cpp:452
 #, fuzzy, no-c-format, kde-format
 #| msgid "Done: %1ms"
 msgctxt "3D graph done in x miliseconds"
 msgid "Done: %1ms"
 msgstr "Parôt: %1ms"
 
-#: src/graph3d.cpp:436
+#: src/graph3d.cpp:457
 msgid "Error: We need values to draw a graph"
 msgstr ""
 
-#: src/kalgebra.cpp:69 src/kalgebra.cpp:145
+#: src/kalgebra.cpp:70 src/kalgebra.cpp:149
 msgid "Variables"
 msgstr "Zmieniwne"
 
-#: src/kalgebra.cpp:87
+#: src/kalgebra.cpp:88
 msgid "&Console"
 msgstr "&Kònsola"
 
-#: src/kalgebra.cpp:99
+#: src/kalgebra.cpp:101
 msgid "C&onsole"
 msgstr "Kò&nsola"
 
-#: src/kalgebra.cpp:102
+#: src/kalgebra.cpp:104
 msgctxt "@item:inmenu"
 msgid "&Load Script"
 msgstr "&Wladëjë skript"
 
-#: src/kalgebra.cpp:104
+#: src/kalgebra.cpp:106
 msgctxt "@item:inmenu"
 msgid "&Save Script"
 msgstr "&Zapiszë skript"
 
-#: src/kalgebra.cpp:106
+#: src/kalgebra.cpp:108
 msgctxt "@item:inmenu"
 msgid "&Save Log"
 msgstr "&Zapiszë log"
 
-#: src/kalgebra.cpp:118
+#: src/kalgebra.cpp:120
 msgid "Functions"
 msgstr "Fùnkcje"
 
-#: src/kalgebra.cpp:130
+#: src/kalgebra.cpp:132
 msgid "List"
 msgstr "Lësta"
 
-#: src/kalgebra.cpp:135 src/kalgebra.cpp:302
+#: src/kalgebra.cpp:137 src/kalgebra.cpp:309
 msgid "&Add"
 msgstr "&Dodôj"
 
-#: src/kalgebra.cpp:152
+#: src/kalgebra.cpp:153
+msgid "Viewport"
+msgstr ""
+
+#: src/kalgebra.cpp:157
 msgid "&2D Graph"
 msgstr "Graf &2D"
 
-#: src/kalgebra.cpp:161
+#: src/kalgebra.cpp:168
 msgid "2&D Graph"
 msgstr "Graf 2&D"
 
-#: src/kalgebra.cpp:163
+#: src/kalgebra.cpp:170
 msgid "&Grid"
 msgstr "&Mrzéżka"
 
-#: src/kalgebra.cpp:164
+#: src/kalgebra.cpp:171
 msgid "&Keep Aspect Ratio"
 msgstr ""
 
-#: src/kalgebra.cpp:170
+#: src/kalgebra.cpp:177
 msgid "Resolution"
 msgstr "Rozdzelnota"
 
-#: src/kalgebra.cpp:171
+#: src/kalgebra.cpp:178
 msgctxt "@item:inmenu"
 msgid "Poor"
 msgstr "Lëchô"
 
-#: src/kalgebra.cpp:172
+#: src/kalgebra.cpp:179
 msgctxt "@item:inmenu"
 msgid "Normal"
 msgstr "Normalnô"
 
-#: src/kalgebra.cpp:173
+#: src/kalgebra.cpp:180
 msgctxt "@item:inmenu"
 msgid "Fine"
 msgstr "Dobrô"
 
-#: src/kalgebra.cpp:174
+#: src/kalgebra.cpp:181
 msgctxt "@item:inmenu"
 msgid "Very Fine"
 msgstr "Barô dobrô"
 
-#: src/kalgebra.cpp:202
+#: src/kalgebra.cpp:209
 msgid "&3D Graph"
 msgstr "Graf &3D"
 
-#: src/kalgebra.cpp:210
+#: src/kalgebra.cpp:217
 msgid "3D &Graph"
 msgstr "&Graf 3D"
 
-#: src/kalgebra.cpp:212
+#: src/kalgebra.cpp:219
 msgid "&Transparency"
 msgstr "Przezérnota"
 
-#: src/kalgebra.cpp:214
+#: src/kalgebra.cpp:221
 msgid "&Reset View"
 msgstr "&Wëczëszczë wëzdrzatk"
 
-#: src/kalgebra.cpp:215
+#: src/kalgebra.cpp:222
 msgid "Type"
 msgstr "Ôrt"
 
-#: src/kalgebra.cpp:216
+#: src/kalgebra.cpp:223
 msgid "Dots"
 msgstr "Pùnktë"
 
-#: src/kalgebra.cpp:217
+#: src/kalgebra.cpp:224
 msgid "Lines"
 msgstr "Linie"
 
-#: src/kalgebra.cpp:218
+#: src/kalgebra.cpp:225
 msgid "Solid"
 msgstr "Nieprzeriwnô"
 
-#: src/kalgebra.cpp:235
+#: src/kalgebra.cpp:242
 msgid "Operations"
 msgstr ""
 
-#: src/kalgebra.cpp:239
+#: src/kalgebra.cpp:246
 msgid "&Dictionary"
 msgstr "&Słowôrz"
 
-#: src/kalgebra.cpp:251
+#: src/kalgebra.cpp:258
 msgid "Look for:"
 msgstr ""
 
-#: src/kalgebra.cpp:291
+#: src/kalgebra.cpp:298
 msgid "&Editing"
 msgstr "&Editowanié"
 
-#: src/kalgebra.cpp:339 src/kalgebra.cpp:346
+#: src/kalgebra.cpp:346 src/kalgebra.cpp:353
 msgid "Script (*.kal)"
 msgstr "Skript (*.kal)"
 
-#: src/kalgebra.cpp:339
+#: src/kalgebra.cpp:346
 msgid "Choose a script"
 msgstr "Wëbiérzë skript"
 
-#: src/kalgebra.cpp:353
+#: src/kalgebra.cpp:360
 msgid "Text File (*)"
 msgstr "Tekstowi lopk (*)"
 
-#: src/kalgebra.cpp:395
+#: src/kalgebra.cpp:402
 msgid "*.png|PNG File"
 msgstr "*.png|Lopk PNG"
 
-#: src/kalgebra.cpp:420
+#: src/kalgebra.cpp:427
 msgid ""
 "*.png|Image File\n"
 "*.svg|SVG File"
@@ -393,18 +402,18 @@ msgstr ""
 "*.png|Lopk òbrazu\n"
 "*.svg|Lopk SVG"
 
-#: src/kalgebra.cpp:456
+#: src/kalgebra.cpp:463
 msgctxt "@info:status"
 msgid "Ready"
 msgstr "Parôt"
 
-#: src/kalgebra.cpp:480
+#: src/kalgebra.cpp:487
 #, fuzzy
 #| msgid "Add/Edit a variable"
 msgid "Add variable"
 msgstr "Dodôj/Editëjë zmieniwną"
 
-#: src/kalgebra.cpp:484
+#: src/kalgebra.cpp:491
 msgid "Enter a name for the new variable"
 msgstr ""
 
@@ -415,7 +424,7 @@ msgstr "Kalkùlatora"
 #: src/main.cpp:27
 #, fuzzy
 #| msgid "(C) 2006 Aleix Pol Gonzalez"
-msgid "(C) 2006-2008 Aleix Pol Gonzalez"
+msgid "(C) 2006-2009 Aleix Pol Gonzalez"
 msgstr "(C) 2006 Aleix Pol Gonzalez"
 
 #: src/main.cpp:28
@@ -739,6 +748,26 @@ msgstr "<b style='color:red'>LËCHÒ</b>"
 #, kde-format
 msgid "<b style='color:#090'>%1 := %2</b>"
 msgstr "<b style='color:#090'>%1 := %2</b>"
+
+#: src/viewportwidget.cpp:45
+msgid "Left:"
+msgstr ""
+
+#: src/viewportwidget.cpp:46
+msgid "Top:"
+msgstr ""
+
+#: src/viewportwidget.cpp:47
+msgid "Width:"
+msgstr ""
+
+#: src/viewportwidget.cpp:48
+msgid "Height:"
+msgstr ""
+
+#: src/viewportwidget.cpp:50
+msgid "Apply"
+msgstr ""
 
 #: analitza/analitza.cpp:63 analitza/analitza.cpp:73
 msgid "Must specify a correct operation"
