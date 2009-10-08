@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-06 05:59+0200\n"
+"POT-Creation-Date: 2009-10-08 06:08+0200\n"
 "PO-Revision-Date: 2009-06-11 10:19+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -43,7 +43,7 @@ msgstr "Mòdul kònfigùracëji Nepomuk"
 msgid "Copyright 2007 Sebastian Trüg"
 msgstr "Copyright 2007 Sebastian Trüg"
 
-#: kcm/nepomukserverkcm.cpp:91 server/main.cpp:96 servicestub/main.cpp:74
+#: kcm/nepomukserverkcm.cpp:91 server/main.cpp:96 servicestub/main.cpp:75
 msgid "Sebastian Trüg"
 msgstr "Sebastian Trüg"
 
@@ -301,22 +301,22 @@ msgstr "Serwera Nepomuk - sprôwiô serwisama ë dostónkama Nepomuka"
 msgid "(c) 2008, Sebastian Trüg"
 msgstr "(c) 2008, Sebastian Trüg"
 
-#: server/main.cpp:96 servicestub/main.cpp:74
+#: server/main.cpp:96 servicestub/main.cpp:75
 msgid "Maintainer"
 msgstr "Òpiekùn"
 
-#: services/storage/repository.cpp:274
+#: services/storage/repository.cpp:282
 msgctxt "@info - notification message"
 msgid "Converting Nepomuk data to a new backend. This might take a while."
 msgstr ""
 "Pòdôwczi Nepomuka bãdą kònwertowóné do fòrmatu czérowników. To kąsk zbawi."
 
-#: services/storage/repository.cpp:285
+#: services/storage/repository.cpp:293
 msgctxt "@info - notification message"
 msgid "Rebuilding Nepomuk full text search index for new features done."
 msgstr "Zbùdowanié znowa fùltekstowi szëkbë Nepomuka òstało zakùńczoné."
 
-#: services/storage/repository.cpp:304
+#: services/storage/repository.cpp:314
 msgctxt "@info - notification message"
 msgid ""
 "Converting Nepomuk data to the new backend failed. Data may still be "
@@ -325,12 +325,12 @@ msgstr ""
 "Kònwertowanié pòdôwków Nepomuka do nowégò czérownika nie darzëło sã. "
 "Pòdôwczi mòże równak zjinaczëc rãczno."
 
-#: services/storage/repository.cpp:312
+#: services/storage/repository.cpp:322
 msgctxt "@info - notification message"
 msgid "Successfully converted Nepomuk data to the new backend."
 msgstr "Ùdałé kònwertowanié pòdôwków Nepomuka dlô nowégò czérownika."
 
-#: services/storage/repository.cpp:375
+#: services/storage/repository.cpp:385
 msgctxt "@info - notification message"
 msgid ""
 "Rebuilding Nepomuk full text search index for new features. This will only "
@@ -339,13 +339,20 @@ msgstr ""
 "Zbùdowanié znowa fùltekstowi szëkbë Nepomuka dlô nowich fùnkcëjów. Na "
 "zjinaka bãdze le rôz zrobionô ë mòże kąsk bawic."
 
-#: services/storage/modelcopyjob.cpp:43
+#: services/storage/modelcopyjob.cpp:124
+#, fuzzy
+#| msgid "Converting Nepomuk database"
+msgctxt "@title job"
 msgid "Converting Nepomuk database"
 msgstr "Kònwertowanié bazë pòdôwków Nepomuka"
 
-#: services/storage/modelcopyjob.cpp:78
-msgid "Some data was lost in the conversion."
-msgstr "Niechtërné pòdôwczi zadżinãłe òbczas kònwersëji."
+#: services/storage/modelcopyjob.cpp:125
+msgid "Old backend"
+msgstr ""
+
+#: services/storage/modelcopyjob.cpp:126
+msgid "New backend"
+msgstr ""
 
 #: services/ontologyloader/ontologyloader.cpp:116
 #, kde-format
@@ -455,18 +462,21 @@ msgstr "Pierszé indeksowanié szëkbë pùltu bãdze zakùńczoné za mni wicy 
 msgid "Nepomuk Service Stub"
 msgstr "Ùsłëżnota Nepomuka"
 
-#: servicestub/main.cpp:77
+#: servicestub/main.cpp:78
 msgctxt "@info:shell"
 msgid "Service to start"
 msgstr "Zrëszë ùsłëżnotã"
 
-#: servicestub/main.cpp:93
+#: servicestub/main.cpp:94
 msgid "No service name specified"
 msgstr "Nie pòdónô miona ùsłëżnotë"
 
-#: servicestub/main.cpp:117
+#: servicestub/main.cpp:118
 msgid "Unknown service name:"
 msgstr "Nieznóné miono ùsłëżnotë:"
+
+#~ msgid "Some data was lost in the conversion."
+#~ msgstr "Niechtërné pòdôwczi zadżinãłe òbczas kònwersëji."
 
 #~ msgid "Resuming Strigi file indexing."
 #~ msgstr "Indeksowanié lopków Strigi jidze dali."
