@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-18 06:19+0200\n"
+"POT-Creation-Date: 2009-10-20 06:07+0200\n"
 "PO-Revision-Date: 2009-10-19 14:12+0200\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -82,19 +82,19 @@ msgctxt "@title:menu"
 msgid "Columns"
 msgstr "Kòlumnë"
 
-#: dolphinview.cpp:545
+#: dolphinview.cpp:548
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected"
 msgstr "<filename>%1</filename> wëbróné"
 
-#: dolphinview.cpp:546
+#: dolphinview.cpp:549
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected (%2)"
 msgstr "<filename>%1</filename> wëbróny (%2)"
 
-#: dolphinview.cpp:550
+#: dolphinview.cpp:553
 #, kde-format
 msgctxt "@info:status"
 msgid "1 Folder selected"
@@ -103,7 +103,7 @@ msgstr[0] "1 katalog zaznaczony"
 msgstr[1] "%1 katalodżi zaznaczoné"
 msgstr[2] "%1 zaznaczonëch katalogów"
 
-#: dolphinview.cpp:551
+#: dolphinview.cpp:554
 #, kde-format
 msgctxt "@info:status"
 msgid "1 File selected"
@@ -112,29 +112,29 @@ msgstr[0] "1 lopk wëbróny"
 msgstr[1] "%1 lopczi zaznaczoné"
 msgstr[2] "%1 zaznaczonëch lopków"
 
-#: dolphinview.cpp:553
+#: dolphinview.cpp:556
 #, kde-format
 msgctxt "@info:status folders, files (size)"
 msgid "%1, %2 (%3)"
 msgstr "%1, %2 (%3)"
 
-#: dolphinview.cpp:556
+#: dolphinview.cpp:559
 #, kde-format
 msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: dolphinview.cpp:1102
+#: dolphinview.cpp:1105
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "Rëmôj skùńczoné òperacëje."
 
-#: dolphinview.cpp:1163
+#: dolphinview.cpp:1166
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "Lokacëjô je pùstô."
 
-#: dolphinview.cpp:1165
+#: dolphinview.cpp:1168
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
@@ -542,64 +542,46 @@ msgid "Configure Shown Data"
 msgstr "Kònfigùrëjé wëskrzënióné pòdôwczi"
 
 #: panels/information/metadataconfigurationdialog.cpp:72
-#| msgctxt "@label:textbox"
-#| msgid "Configure which services should be shown in the context menu."
 msgctxt "@label:textbox"
 msgid "Configure which data should be shown."
 msgstr "Kònfigurëje pòdôwczi jaczé mają bëc wëskrzënioné."
 
 #: panels/information/metadataconfigurationdialog.cpp:110
-#| msgctxt "@option:check Additional Information"
-#| msgid "Type"
 msgctxt "@item::inlistbox"
 msgid "Type"
 msgstr "Ôrt"
 
 #: panels/information/metadataconfigurationdialog.cpp:113
-#| msgctxt "@option:check Additional Information"
-#| msgid "Size"
 msgctxt "@item::inlistbox"
 msgid "Size"
 msgstr "Miara"
 
 #: panels/information/metadataconfigurationdialog.cpp:116
-#| msgctxt "@label"
-#| msgid "Modified:"
 msgctxt "@item::inlistbox"
 msgid "Modified"
 msgstr "Zjinaczoné"
 
 #: panels/information/metadataconfigurationdialog.cpp:119
-#| msgctxt "@option:check Additional Information"
-#| msgid "Owner"
 msgctxt "@item::inlistbox"
 msgid "Owner"
 msgstr "Miéwca"
 
 #: panels/information/metadataconfigurationdialog.cpp:122
-#| msgctxt "@option:check Additional Information"
-#| msgid "Permissions"
 msgctxt "@item::inlistbox"
 msgid "Permissions"
 msgstr "Prawa przistãpù"
 
 #: panels/information/metadataconfigurationdialog.cpp:127
-#| msgctxt "@action:inmenu"
-#| msgid "Rating"
 msgctxt "@item::inlistbox"
 msgid "Rating"
 msgstr "Taksa"
 
 #: panels/information/metadataconfigurationdialog.cpp:130
-#| msgctxt "@action:inmenu"
-#| msgid "Tags"
 msgctxt "@item::inlistbox"
 msgid "Tags"
 msgstr "Znakòwniczi"
 
 #: panels/information/metadataconfigurationdialog.cpp:133
-#| msgctxt "@action:inmenu"
-#| msgid "Comment"
 msgctxt "@item::inlistbox"
 msgid "Comment"
 msgstr "Dopòwiesc"
@@ -694,14 +676,12 @@ msgstr[0] "%1 element wëbróny"
 msgstr[1] "%1 wëbróné elementë"
 msgstr[2] "%1 wëbrónëch elementów"
 
-#: panels/information/informationpanelcontent.cpp:289
+#: panels/information/informationpanelcontent.cpp:284
 msgctxt "@action:inmenu"
 msgid "Preview"
 msgstr "Pòdzérk"
 
-#: panels/information/informationpanelcontent.cpp:294
-#| msgctxt "@label"
-#| msgid "Change..."
+#: panels/information/informationpanelcontent.cpp:289
 msgctxt "@action:inmenu"
 msgid "Configure..."
 msgstr "Kònfigùrëjë..."
@@ -725,15 +705,11 @@ msgid "Add Tags"
 msgstr "Dodôj znakòwnik"
 
 #: panels/information/edittagsdialog.cpp:52
-#| msgctxt "@label:textbox"
-#| msgid "Configure which services should be shown in the context menu."
 msgctxt "@label:textbox"
 msgid "Configure which tags should be applied."
 msgstr "Kònfigurëje to jaczé znakòwniczi mają bëc ùżëté."
 
 #: panels/information/edittagsdialog.cpp:59
-#| msgctxt "@title:window"
-#| msgid "Create New Tag"
 msgctxt "@label"
 msgid "Create new tag:"
 msgstr "Ùsôdzë nowi znakòwnik:"
@@ -1485,8 +1461,6 @@ msgid "Click to begin the search"
 msgstr "Klëkni bë zrëszëc szëkbã"
 
 #: search/dolphinsearchoptionsconfigurator.cpp:37
-#| msgctxt "@label:textbox"
-#| msgid "Search..."
 msgctxt "@label"
 msgid "Search:"
 msgstr "Szëkba:"
@@ -1517,17 +1491,19 @@ msgid "Images"
 msgstr "Òbrôzczi"
 
 #: search/dolphinsearchoptionsconfigurator.cpp:49
+#, fuzzy
 #| msgctxt "@title:group"
 #| msgid "Text"
 msgctxt "label"
-msgid "Texts"
+msgid "Text"
 msgstr "Tekst"
 
 #: search/dolphinsearchoptionsconfigurator.cpp:50
-#| msgctxt "@title"
-#| msgid "File Manager"
+#, fuzzy
+#| msgctxt "label"
+#| msgid "File Names"
 msgctxt "label"
-msgid "File Names"
+msgid "Filenames"
 msgstr "Miona lopków"
 
 #: search/dolphinsearchoptionsconfigurator.cpp:56
@@ -1906,8 +1882,6 @@ msgid "Natural sorting of items"
 msgstr "Naturalné zortowanie elementów"
 
 #: settings/behaviorsettingspage.cpp:189
-#| msgctxt "@label"
-#| msgid "Change..."
 msgctxt "@action:button"
 msgid "Configure..."
 msgstr "Kònfigùrëjë..."
@@ -2358,6 +2332,12 @@ msgstr "Detale"
 msgctxt "@action:inmenu View Mode"
 msgid "Columns"
 msgstr "Kòlumnë"
+
+#~| msgctxt "@title:group"
+#~| msgid "Text"
+#~ msgctxt "label"
+#~ msgid "Texts"
+#~ msgstr "Tekst"
 
 #~ msgid "Show rating"
 #~ msgstr "Wëskrzëni òbtaksowanié"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-17 06:44+0200\n"
+"POT-Creation-Date: 2009-10-20 06:07+0200\n"
 "PO-Revision-Date: 2009-06-18 13:42+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -1284,11 +1284,18 @@ msgstr ""
 msgid "Location to open"
 msgstr "Adresa do òtemkniãcô"
 
-#: sidebar/trees/konqsidebar_tree.cpp:138
+#: sidebar/test/modulemanagertest.cpp:87
+#: sidebar/test/modulemanagertest.cpp:114
+#, fuzzy
+#| msgid "Web SideBar Plugin"
+msgid "SideBar Test Plugin"
+msgstr "Sécowi wtëkôcz bòczny listwë"
+
+#: sidebar/trees/konqsidebar_tree.cpp:161
 msgid "Select Type"
 msgstr "Wëbierzë ôrt"
 
-#: sidebar/trees/konqsidebar_tree.cpp:139
+#: sidebar/trees/konqsidebar_tree.cpp:162
 msgid "Select type:"
 msgstr "Wëbierzë ôrt:"
 
@@ -1335,7 +1342,7 @@ msgid "&Create New Folder"
 msgstr "Ùsôdzë nowi &katalog"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:77
-#: sidebar/trees/konq_sidebartree.cpp:932
+#: sidebar/trees/konq_sidebartree.cpp:905
 msgid "Delete Folder"
 msgstr "Rëmôj katalog"
 
@@ -1344,17 +1351,17 @@ msgid "Delete Bookmark"
 msgstr "Rëmôj załóżkã"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:85
-#: sidebar/trees/konq_sidebartree.cpp:941
+#: sidebar/trees/konq_sidebartree.cpp:914
 msgid "Properties"
 msgstr "Swòjiznë"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:89
-#: sidebar/trees/konq_sidebartree.cpp:944
+#: sidebar/trees/konq_sidebartree.cpp:917
 msgid "Open in New Window"
 msgstr "Òtemkni w nowim òknie"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:93
-#: sidebar/trees/konq_sidebartree.cpp:947
+#: sidebar/trees/konq_sidebartree.cpp:920
 msgid "Open in New Tab"
 msgstr "Òtemkni w nowi karce"
 
@@ -1363,7 +1370,7 @@ msgid "Open Folder in Tabs"
 msgstr "Òtemkni katalog w kôrtach"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:101
-#: sidebar/trees/konq_sidebartree.cpp:950
+#: sidebar/trees/konq_sidebartree.cpp:923
 msgid "Copy Link Address"
 msgstr "Kòpérëjë adresã lënka"
 
@@ -1413,27 +1420,27 @@ msgstr "Lokalizacëjô:"
 msgid "Add Bookmark"
 msgstr "Dodôj załóżkã"
 
-#: sidebar/trees/konq_sidebartree.cpp:929
+#: sidebar/trees/konq_sidebartree.cpp:902
 msgid "&Create New Folder..."
 msgstr "Ùsôdzë nowi &katalog..."
 
-#: sidebar/trees/konq_sidebartree.cpp:935
+#: sidebar/trees/konq_sidebartree.cpp:908
 msgid "Rename"
 msgstr "Zmieni miono"
 
-#: sidebar/trees/konq_sidebartree.cpp:938
+#: sidebar/trees/konq_sidebartree.cpp:911
 msgid "Delete Link"
 msgstr "Rëmôj lënk"
 
-#: sidebar/trees/konq_sidebartree.cpp:989
+#: sidebar/trees/konq_sidebartree.cpp:962
 msgid "New Folder"
 msgstr "Nowi katalog"
 
-#: sidebar/trees/konq_sidebartree.cpp:993
+#: sidebar/trees/konq_sidebartree.cpp:966
 msgid "Create New Folder"
 msgstr "Ùsôdzë nowi katalog"
 
-#: sidebar/trees/konq_sidebartree.cpp:994
+#: sidebar/trees/konq_sidebartree.cpp:967
 msgid "Enter folder name:"
 msgstr "Miono katalogù:"
 
@@ -1441,11 +1448,39 @@ msgstr "Miono katalogù:"
 msgid "Extended Sidebar"
 msgstr "Rozszérzonô bòcznô listew"
 
-#: sidebar/sidebar_widget.cpp:99
+#: sidebar/sidebar_widget.cpp:84
 msgid "Rollback to System Default"
 msgstr "Doprowôdzë nazôd do domëslnegò nastôwù systemë"
 
-#: sidebar/sidebar_widget.cpp:105
+#: sidebar/sidebar_widget.cpp:171
+msgid "Configure Navigation Panel"
+msgstr "Kònfigùracëjô nawigacjowi listwë"
+
+#: sidebar/sidebar_widget.cpp:173
+msgid "Add New"
+msgstr "Dodôj nowi"
+
+#: sidebar/sidebar_widget.cpp:177
+msgid "Multiple Views"
+msgstr "Wiele wëzdrzatków"
+
+#: sidebar/sidebar_widget.cpp:179 sidebar/sidebar_widget.cpp:276
+msgid "Show Tabs Left"
+msgstr "Pòkôżë kôrtë z lewi starnë"
+
+#: sidebar/sidebar_widget.cpp:180
+msgid "Show Configuration Button"
+msgstr "Pòkôżë knąpã kònfigùracëji"
+
+#: sidebar/sidebar_widget.cpp:183
+msgid "Close Navigation Panel"
+msgstr "Zamkni nawigacjową listew"
+
+#: sidebar/sidebar_widget.cpp:211
+msgid "This entry already exists."
+msgstr "Nen wpisënk ju je."
+
+#: sidebar/sidebar_widget.cpp:234
 msgid ""
 "<qt>This removes all your entries from the sidebar and adds the system "
 "default ones.<br /><b>This procedure is irreversible</b><br />Do you want to "
@@ -1454,65 +1489,28 @@ msgstr ""
 "<qt>To rëmô wszëtczé Twòje wpisënczi w bòczny listwie ë dodô tam domëslné."
 "<br /><b>Tegò procesu ni mòże copnąc.</b> <br />Jisc dali?</qt>"
 
-#: sidebar/sidebar_widget.cpp:234
-msgid "Configure Navigation Panel"
-msgstr "Kònfigùracëjô nawigacjowi listwë"
-
-#: sidebar/sidebar_widget.cpp:236
-msgid "Add New"
-msgstr "Dodôj nowi"
-
-#: sidebar/sidebar_widget.cpp:238
-msgid "Multiple Views"
-msgstr "Wiele wëzdrzatków"
-
-#: sidebar/sidebar_widget.cpp:240 sidebar/sidebar_widget.cpp:353
-msgid "Show Tabs Left"
-msgstr "Pòkôżë kôrtë z lewi starnë"
-
-#: sidebar/sidebar_widget.cpp:241
-msgid "Show Configuration Button"
-msgstr "Pòkôżë knąpã kònfigùracëji"
-
-#: sidebar/sidebar_widget.cpp:244
-msgid "Close Navigation Panel"
-msgstr "Zamkni nawigacjową listew"
-
-#: sidebar/sidebar_widget.cpp:287
-msgid "This entry already exists."
-msgstr "Nen wpisënk ju je."
-
-#: sidebar/sidebar_widget.cpp:301 sidebar/web_module/web_module.cpp:217
-msgid "Web SideBar Plugin"
-msgstr "Sécowi wtëkôcz bòczny listwë"
-
-#: sidebar/sidebar_widget.cpp:353
+#: sidebar/sidebar_widget.cpp:276
 msgid "Show Tabs Right"
 msgstr "Pòkażë kôrtë z prawa"
 
-#: sidebar/sidebar_widget.cpp:424
+#: sidebar/sidebar_widget.cpp:286
 msgid "Set Name"
 msgstr "Ùstôwi miono"
 
-#: sidebar/sidebar_widget.cpp:424
+#: sidebar/sidebar_widget.cpp:286
 msgid "Enter the name:"
 msgstr "Wpiszë miono:"
 
-#: sidebar/sidebar_widget.cpp:442
+#: sidebar/sidebar_widget.cpp:301
 msgid "Enter a URL:"
 msgstr "Wpiszë adresã URL:"
 
-#: sidebar/sidebar_widget.cpp:450
-#, kde-format
-msgid "<qt><b>%1</b> does not exist</qt>"
-msgstr "<qt><b>%1</b>felëje</qt>"
-
-#: sidebar/sidebar_widget.cpp:481
+#: sidebar/sidebar_widget.cpp:324
 #, kde-format
 msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
 msgstr "<qt>Jes gwës tegò, że chcesz rëmnąc kôrtã <b>\"%1\"</b>?</qt>"
 
-#: sidebar/sidebar_widget.cpp:529
+#: sidebar/sidebar_widget.cpp:370
 msgid ""
 "You have hidden the navigation panel configuration button. To make it "
 "visible again, click the right mouse button on any of the navigation panel "
@@ -1522,37 +1520,41 @@ msgstr ""
 "nót klëknąc prawą knąpã mëszë na dowólny knąpie nawigacjowi listwë ë wëbrac "
 "\"Pòkôżë knąpã kònfigùracëji\"."
 
-#: sidebar/sidebar_widget.cpp:598
+#: sidebar/sidebar_widget.cpp:438
 msgid "Configure Sidebar"
 msgstr "Kònfigùracëjô bòczny listwë"
 
-#: sidebar/sidebar_widget.cpp:715
+#: sidebar/sidebar_widget.cpp:551
 msgid "Set Name..."
 msgstr "Ùstôwi miono..."
 
-#: sidebar/sidebar_widget.cpp:716
+#: sidebar/sidebar_widget.cpp:552
 msgid "Set URL..."
 msgstr "Ùstôwi adresã URL..."
 
-#: sidebar/sidebar_widget.cpp:717
+#: sidebar/sidebar_widget.cpp:553
 msgid "Set Icon..."
 msgstr "Ùstôwi ikònã..."
 
-#: sidebar/sidebar_widget.cpp:719
+#: sidebar/sidebar_widget.cpp:555
 msgid "Remove"
 msgstr "Rëmôj"
 
-#: sidebar/web_module/web_module.cpp:90
+#: sidebar/web_module/web_module.cpp:86
 msgid "Set Refresh Timeout (0 disables)"
 msgstr "Ùstôwi czas òdswierzaniô (0 wëłączô)"
 
-#: sidebar/web_module/web_module.cpp:98
+#: sidebar/web_module/web_module.cpp:94
 msgid " min"
 msgstr " min."
 
-#: sidebar/web_module/web_module.cpp:100
+#: sidebar/web_module/web_module.cpp:96
 msgid " sec"
 msgstr " sek."
+
+#: sidebar/web_module/web_module.cpp:210
+msgid "Web SideBar Plugin"
+msgstr "Sécowi wtëkôcz bòczny listwë"
 
 #: sidebar/web_module/web_module.h:52
 msgid "&Open Link"
@@ -2439,6 +2441,9 @@ msgid ""
 msgstr ""
 "Jeżlë prôwdzëwi, òbczas òtmëkaniô sesëjów z bënë dialogòwégò òkna sesëjów, "
 "kôrtë bãdą òtemkniãté bënë biéżnégò òkna."
+
+#~ msgid "<qt><b>%1</b> does not exist</qt>"
+#~ msgstr "<qt><b>%1</b>felëje</qt>"
 
 #~ msgid "Minutes"
 #~ msgstr "minut"
