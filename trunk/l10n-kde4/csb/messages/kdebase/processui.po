@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-10-10 06:20+0200\n"
-"PO-Revision-Date: 2009-10-21 09:42+0200\n"
+"PO-Revision-Date: 2009-10-21 12:01+0200\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
 "MIME-Version: 1.0\n"
@@ -293,6 +293,8 @@ msgstr "Zakùńczë"
 msgid ""
 "Interpret output as containing VT100 commands. For console-based programs."
 msgstr ""
+"Interpretujë wińdzenié jakno zamëkającé w se pòlétë VT100. Dlô programów "
+"òpiartëch na kònsolach."
 
 #. i18n: file: DisplayProcessUi.ui:28
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkColorOutput)
@@ -301,36 +303,41 @@ msgid ""
 "If this is checked then ANSI escape sequences will be interpreted and not "
 "displayed.  Useful for when monitoring bash."
 msgstr ""
+"Jeżlë na òptacëjô je wëbrónô, to specjalné sekwencëje ANSI bãdą "
+"interpretowóné, "
+"a ni wëskrzënióné. Brëkòwané przë mònitorowaniu basha."
 
 #. i18n: file: DisplayProcessUi.ui:31
 #. i18n: ectx: property (text), widget (QCheckBox, chkColorOutput)
 #: rc.cpp:9 rc.cpp:218
 msgid "Interpret ANSI escape sequences"
-msgstr ""
+msgstr "Interpretëjë specjalné sekwencëjë ANSI"
 
 #. i18n: file: DisplayProcessUi.ui:41
 #. i18n: ectx: property (statusTip), widget (QCheckBox, chkMonitorChildProcesses)
 #: rc.cpp:12 rc.cpp:221
 msgid "Show the output from processes launched by this process."
-msgstr ""
+msgstr "Wëskrzëni wińdzenié procesów zrëszanych przez nen proces."
 
 #. i18n: file: DisplayProcessUi.ui:44
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkMonitorChildProcesses)
 #: rc.cpp:15 rc.cpp:224
 msgid "Follow fork and clone commands to monitor child processes"
 msgstr ""
+"Biéj za dzejaniama klonowaniô procesów (fork oraz clone) ë mònitorëjë"
+"pòchódné procesë"
 
 #. i18n: file: DisplayProcessUi.ui:47
 #. i18n: ectx: property (text), widget (QCheckBox, chkMonitorChildProcesses)
 #: rc.cpp:18 rc.cpp:227
 msgid "Monitor child processes"
-msgstr ""
+msgstr "Mònitorëjë pòchódné procesë"
 
 #. i18n: file: DisplayProcessUi.ui:59
 #. i18n: ectx: property (toolTip), widget (QPushButton, btnPause)
 #: rc.cpp:21 rc.cpp:230
 msgid "Pause the process and its output"
-msgstr ""
+msgstr "Zatrzëmôj proces ë jegò wińdzenié"
 
 #. i18n: file: DisplayProcessUi.ui:62
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btnPause)
@@ -340,78 +347,81 @@ msgid ""
 "blocked, effectively pausing it. The process can be resumed by resuming, "
 "detaching or closing the dialog."
 msgstr ""
+"Zakùńczë czëtanié wińdzenia z procesu. To doprowôdzy do jegò blokadë ë "
+"zatrzëmaniô. Proces mòże znowic przez znowienié mònitorowaniô, "
+"odparłãczenié sã òd procesu abò zamkniãcé negò òkna."
 
 #. i18n: file: DisplayProcessUi.ui:88
 #. i18n: ectx: property (statusTip), widget (QPushButton, btnDetach)
 #: rc.cpp:30 rc.cpp:239
 msgid "Stop monitoring the process"
-msgstr ""
+msgstr "Zakùńczë mònitorowanié procesu"
 
 #. i18n: file: DisplayProcessUi.ui:91
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btnDetach)
 #: rc.cpp:33 rc.cpp:242
 msgid "Stop monitoring the process and allow the process to resume running."
-msgstr ""
+msgstr "Zakùńczë mònitorowanié procesu ë zezwòlë na znowienié dzejaniô."
 
 #. i18n: file: ProcessWidgetUI.ui:39
 #. i18n: ectx: property (text), widget (QPushButton, btnKillProcess)
 #: rc.cpp:39 rc.cpp:248
 msgid "&Kill Process"
-msgstr ""
+msgstr "&Zakùńczë proces"
 
 #. i18n: file: ProcessWidgetUI.ui:52
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, txtFilter)
 #: rc.cpp:42 rc.cpp:251
 msgid "Quick search"
-msgstr ""
+msgstr "Chùtkô szëkba"
 
 #. i18n: file: ProcessWidgetUI.ui:75
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFilter)
 #: rc.cpp:45 rc.cpp:254
 msgid "All Processes"
-msgstr ""
+msgstr "Wszëtczé procesë"
 
 #. i18n: file: ProcessWidgetUI.ui:80
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFilter)
 #: rc.cpp:48 rc.cpp:257
 msgid "All Processes, Tree"
-msgstr ""
+msgstr "Wszëtczé procesë, drzéwiã"
 
 #. i18n: file: ProcessWidgetUI.ui:85
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFilter)
 #: rc.cpp:51 rc.cpp:260
 msgid "System Processes"
-msgstr ""
+msgstr "Systemòwé procesë"
 
 #. i18n: file: ProcessWidgetUI.ui:90
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFilter)
 #: rc.cpp:54 rc.cpp:263
 msgid "User Processes"
-msgstr ""
+msgstr "Procesë brëkòwnika"
 
 #. i18n: file: ProcessWidgetUI.ui:95
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFilter)
 #: rc.cpp:57 rc.cpp:266
 msgid "Own Processes"
-msgstr ""
+msgstr "Swòjé procesë"
 
 #. i18n: file: ProcessWidgetUI.ui:100
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFilter)
 #: rc.cpp:60 rc.cpp:269
 msgid "Programs Only"
-msgstr ""
+msgstr "Blós programë"
 
 #. i18n: file: ReniceDlgUi.ui:22
 #. i18n: ectx: property (text), widget (QLabel, lblMessage1)
 #: rc.cpp:63 rc.cpp:272
 msgid "Change scheduling priority for:"
-msgstr ""
+msgstr "Zmieni prioritet planowaniô dlô:"
 
 #. i18n: file: ReniceDlgUi.ui:86
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:66 rc.cpp:275
 msgid "CPU Scheduler"
-msgstr ""
+msgstr "Planowanié CPU"
 
 #. i18n: file: ReniceDlgUi.ui:99
 #. i18n: ectx: property (toolTip), widget (QRadioButton, radioNormal)
@@ -426,6 +436,14 @@ msgid ""
 "right:0px; -qt-block-indent:0; text-indent:0px;\">The standard time-sharing "
 "scheduler for processes without special requirements.</p></body></html>"
 msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Standardowé planowanié dlô "
+"procesów bez òsoblëwich wëmògów.</p></body></html>"
 
 #. i18n: file: ReniceDlgUi.ui:106
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioNormal)
@@ -452,6 +470,29 @@ msgid ""
 "process is ready to run, but denied to run by the scheduler. This ensures "
 "fair progress among all Normal processes.</span></p></body></html>"
 msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Zwykły planista: Domyślny w systemie Linux  (inne)</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;"
+"\">Zwëczjané planowanié<span style=\" font-weight:400;\"> to standardowé "
+"plaowanié z dzeleniém czasu w Linuksie. Wëmëslóny dlô procesów, chtërny "
+"nie je nót òpiartëch ò statuczné prioritetë mechanizmów realnegò czasu. "
+"Zrëszany proces je wëbieróny z lëstë jinszëch procesów jakno </span> "
+"zwëczajnych<span style=\" font-weight:400;\"> abò </span>wsadowich<span "
+"style="
+"\" font-weight:400;\"> na spòdlém dinamicznégò prioritetu blós "
+"z ti lëstë. Dinamiczny prioritet je òpiarti ò pòdóné pòłożenié  "
+"prioritetu ë zwikszóny pò kòżdi pòjedińczoscë czasu, jak proces bëł fardich "
+"do dzejaniô, rówank ni òstôłł zrëszony przez planowanié. To prowôdzy do  "
+"równych dzejaniów wszëtczich procesów sparłsczonych z klasy zwéczajnych.<"
+"/span> "
+"</p></body></html>"
 
 #. i18n: file: ReniceDlgUi.ui:109
 #. i18n: ectx: property (text), widget (QRadioButton, radioNormal)
@@ -463,7 +504,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, radioIONormal)
 #: rc.cpp:82 rc.cpp:149 rc.cpp:291 rc.cpp:358
 msgid "Normal"
-msgstr ""
+msgstr "Zwëczajny"
 
 #. i18n: file: ReniceDlgUi.ui:119
 #. i18n: ectx: property (toolTip), widget (QRadioButton, radioBatch)
@@ -479,6 +520,16 @@ msgid ""
 "interactive processes.  Process is mildly disfavored in scheduling decisions."
 "</p></body></html>"
 msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Dlô brëkùjących wiele "
+"czasu "
+"procesora nieinteraktiwnych procesów.  Przez planowanié ne procesë są "
+"trzimóné kąsk gòrzi.</p></body></html>"
 
 #. i18n: file: ReniceDlgUi.ui:126
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioBatch)
