@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_fifteenPuzzle\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-19 06:35+0200\n"
+"POT-Creation-Date: 2009-10-21 07:18+0200\n"
 "PO-Revision-Date: 2007-12-30 17:56+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -34,9 +34,9 @@ msgstr ""
 msgid "General"
 msgstr ""
 
-#. i18n: file: fifteenPuzzleConfig.ui:97
+#. i18n: file: fifteenPuzzleConfig.ui:161
 #. i18n: ectx: property (text), widget (QPushButton, pb_shuffle)
-#: fifteenPuzzle.cpp:134 rc.cpp:24
+#: fifteenPuzzle.cpp:134 rc.cpp:27
 msgid "Shuffle Pieces"
 msgstr "Wëmiészôj elementë"
 
@@ -46,43 +46,51 @@ msgstr "Wëmiészôj elementë"
 msgid "Configure Fifteen Puzzle"
 msgstr "Kònfigùrëje Piãtnôsce Pùzzlów"
 
-#. i18n: file: fifteenPuzzleConfig.ui:20
-#. i18n: ectx: property (title), widget (QGroupBox, gb_appearance)
+#. i18n: file: fifteenPuzzleConfig.ui:26
+#. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:6
 msgid "Appearance"
 msgstr ""
 
-#. i18n: file: fifteenPuzzleConfig.ui:29
-#. i18n: ectx: property (text), widget (QRadioButton, rb_identical)
+#. i18n: file: fifteenPuzzleConfig.ui:49
+#. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:9
 #, fuzzy
+#| msgid "File:"
+msgid "Size:"
+msgstr "Lopk:ｏｐｋ："
+
+#. i18n: file: fifteenPuzzleConfig.ui:59
+#. i18n: ectx: property (suffix), widget (QSpinBox, size)
+#: rc.cpp:12
+msgid " pieces wide"
+msgstr ""
+
+#. i18n: file: fifteenPuzzleConfig.ui:69
+#. i18n: ectx: property (text), widget (QRadioButton, rb_identical)
+#: rc.cpp:15
+#, fuzzy
 #| msgid "Plain pieces"
-msgid "Use plain pieces"
+msgid "Use plain pieces:"
 msgstr "Prosté elementë"
 
-#. i18n: file: fifteenPuzzleConfig.ui:39
+#. i18n: file: fifteenPuzzleConfig.ui:82
 #. i18n: ectx: property (text), widget (QRadioButton, rb_split)
-#: rc.cpp:12
+#: rc.cpp:18
 msgid "Use custom image:"
 msgstr ""
 
-#. i18n: file: fifteenPuzzleConfig.ui:56
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:15
-msgid "Size"
-msgstr ""
-
-#. i18n: file: fifteenPuzzleConfig.ui:76
-#. i18n: ectx: property (text), widget (QCheckBox, cb_showNumerals)
-#: rc.cpp:18
+#. i18n: file: fifteenPuzzleConfig.ui:120
+#. i18n: ectx: property (text), widget (QLabel, lb_showNumbers)
+#: rc.cpp:21
 #, fuzzy
 #| msgid "Show Numerals"
-msgid "Show numerals"
+msgid "Show numerals:"
 msgstr "Pòkażë lëczbë"
 
-#. i18n: file: fifteenPuzzleConfig.ui:86
-#. i18n: ectx: property (title), widget (QGroupBox, gb_actions)
-#: rc.cpp:21
+#. i18n: file: fifteenPuzzleConfig.ui:154
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:24
 msgid "Actions"
 msgstr ""
 
@@ -100,6 +108,3 @@ msgstr ""
 
 #~ msgid "Image Options"
 #~ msgstr "Òptacje òbrôzka"
-
-#~ msgid "File:"
-#~ msgstr "Lopk:ｏｐｋ："
