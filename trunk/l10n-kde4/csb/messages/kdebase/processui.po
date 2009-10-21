@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-10-10 06:20+0200\n"
-"PO-Revision-Date: 2009-10-21 12:01+0200\n"
+"PO-Revision-Date: 2009-10-21 16:02+0200\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
 "MIME-Version: 1.0\n"
@@ -484,7 +484,7 @@ msgstr ""
 "plaowanié z dzeleniém czasu w Linuksie. Wëmëslóny dlô procesów, chtërny "
 "nie je nót òpiartëch ò statuczné prioritetë mechanizmów realnegò czasu. "
 "Zrëszany proces je wëbieróny z lëstë jinszëch procesów jakno </span> "
-"zwëczajnych<span style=\" font-weight:400;\"> abò </span>wsadowich<span "
+"zwëczajnych<span style=\" font-weight:400;\"> abò </span>wsôdowich<span "
 "style="
 "\" font-weight:400;\"> na spòdlém dinamicznégò prioritetu blós "
 "z ti lëstë. Dinamiczny prioritet je òpiarti ò pòdóné pòłożenié  "
@@ -556,12 +556,32 @@ msgid ""
 "policy without interactivity causing extra preemptions (between the "
 "workload's tasks).</span></p></body></html>"
 msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Wsôdowé planowanié</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;\"><span "
+"style=\" font-weight:400; font-style:italic;\">(Òd Linuksa 2.6.16.)</"
+"span><span style=\" font-weight:400;\"> Na pòlitika schlachùje za </"
+"span>zwëczajną<span style=\" font-weight:400;\">,równak na doprowôdzô do  "
+"tegò, że planowanié zakłôdô wiôldżé brëkòwanié procesora przez proces. "
+"Przez to nałożi niewiôlgą sztrafã, chtërnô dô kąsk gòrszé achtniãcé taczegò "
+"procesu. Na pòlitika je brëkòwnô dlô karnów nieinteraktiwnych dzejaniôw, "
+"chtërné równak ni chcą zmniészëc prioritetu (wôrtnotë nice), a téż dlô  "
+"dzejaniów brëkùjących deterministicznegò dzejaniô planowaniô bez  "
+"interaktiwnotë prowôdzący do dodôwné sparłãczenia (midzy dzejaniama "
+"przënôlegającyma do karna).</span></p></body></html>"
 
 #. i18n: file: ReniceDlgUi.ui:129
 #. i18n: ectx: property (text), widget (QRadioButton, radioBatch)
 #: rc.cpp:98 rc.cpp:307
 msgid "Batch"
-msgstr ""
+msgstr "Wsôdowi"
 
 #. i18n: file: ReniceDlgUi.ui:139
 #. i18n: ectx: property (toolTip), widget (QRadioButton, radioRR)
@@ -577,6 +597,15 @@ msgid ""
 "runnable.  Higher priority than Normal or Batch.  Has Timeslicing.</p></"
 "body></html>"
 msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Procesë bãdą robic jak  "
+"to bãdze blós mòżlëwé. Wëższi prioritet jak w karnie zwëczajnych abò "
+"wsadowich, Je pòdzelënk czasu (timeslicing).</p></body></html>"
 
 #. i18n: file: ReniceDlgUi.ui:146
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioRR)
@@ -598,12 +627,28 @@ msgid ""
 "weight:600;\">Round Robin</span>, except that each process is only allowed "
 "to run for a maximum time quantum.</p></body></html>"
 msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Rotacjowé planowanié</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Rotacjowé planowanié (Round Robin)</span> je prostim "
+"rozszérzeniém <span style=\" font-weight:600;\">FIFO</span>.  Wszëtkò co "
+"stoi niżi na témã <span style=\" font-weight:600;\">FIFO</span> trôfiô "
+"téż w przëtrôfkù <span style=\" font-weight:600;\">rotacjowégò</span>  "
+"planowania, le kòżdi proces mòże robic blós przez "
+"maksymalno kwant czasu.</p></body></html>"
 
 #. i18n: file: ReniceDlgUi.ui:149
 #. i18n: ectx: property (text), widget (QRadioButton, radioRR)
 #: rc.cpp:114 rc.cpp:323
 msgid "Round robin"
-msgstr ""
+msgstr "Rotacjowi (Round Robin)"
 
 #. i18n: file: ReniceDlgUi.ui:159
 #. i18n: ectx: property (toolTip), widget (QRadioButton, radioFIFO)
@@ -619,6 +664,15 @@ msgid ""
 "runnable.  Higher priority than Normal or Batch.  No timeslicing.</p></"
 "body></html>"
 msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Procesë bãdą robic jak "
+"to le mòżlëwé.  Wëższi prioritet jak w karnie zwëczajnych ë wsôdowich.  "
+"To nie dô pòdzelënkù czasu (timeslicing).</p></body></html>"
 
 #. i18n: file: ReniceDlgUi.ui:166
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioFIFO)
@@ -639,18 +693,32 @@ msgid ""
 "\">Normal</span> or <span style=\" font-weight:600;\">Batch</span> process.</"
 "p></body></html>"
 msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Pòsobnica FIFO</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Jak proces <span style="
+"\" font-weight:600;\">FIFO</span> mòże robic, wiedno przeriwô robòtã "
+"aktualnegò procesu z klasë <span style=\" font-weight:600;\">zwëczajnych<"
+"/span> "
+"ë <span style=\" font-weight:600;\">wsôdowich</span>.</p></body></html>"
 
 #. i18n: file: ReniceDlgUi.ui:169
 #. i18n: ectx: property (text), widget (QRadioButton, radioFIFO)
 #: rc.cpp:130 rc.cpp:339
 msgid "FIFO"
-msgstr ""
+msgstr "FIFO"
 
 #. i18n: file: ReniceDlgUi.ui:227
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:133 rc.cpp:342
 msgid "I/O Scheduler"
-msgstr ""
+msgstr "Planowanié I/O"
 
 #. i18n: file: ReniceDlgUi.ui:240
 #. i18n: ectx: property (toolTip), widget (QRadioButton, radioIONormal)
@@ -665,6 +733,14 @@ msgid ""
 "right:0px; -qt-block-indent:0; text-indent:0px;\">Process's priority is "
 "based on the CPU priority.</p></body></html>"
 msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Prioritetë procesów są "
+"opiarté ò prioritetë procesora.</p></body></html>"
 
 #. i18n: file: ReniceDlgUi.ui:247
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioIONormal)
@@ -687,6 +763,23 @@ msgid ""
 "Normal</span> priority are served in a <span style=\" font-weight:600;"
 "\">Round Robin</span> fashion.</p></body></html>"
 msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Zwëczajné planowanié</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Je to dzejanié równé "
+"planowaniô <span style=\" font-weight:600;\">jak nôlepi</span>, "
+"króm tegò, że prioritet je òbrëchòwóny aùtomatno na spòdlém "
+"prioritetu procesora.  Procesë o wëższim prioritece bãdą miec "
+"pierszosc w przëstãpie do diskù. Programë z klasów <span style=\" font-"
+"weight:600;\">jak nôlepi/zwëczajno</span> ò równym prioritece są "
+"zortowóné z pòmòcą <span style=\" font-weight:600;"
+"\">rotacjowégò</span> algòritmù.</p></body></html>"
 
 #. i18n: file: ReniceDlgUi.ui:260
 #. i18n: ectx: property (toolTip), widget (QRadioButton, radioIdle)
@@ -701,6 +794,15 @@ msgid ""
 "right:0px; -qt-block-indent:0; text-indent:0px;\">Process can only use the "
 "hard disk when no other process has used it very recently.</p></body></html>"
 msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Proces mòże ùżëwac diskù "
+"blós jeżlë niżóden jinszi proces gò slédno ni brëkòwôł.</p></body></"
+"html>"
 
 #. i18n: file: ReniceDlgUi.ui:267
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioIdle)
