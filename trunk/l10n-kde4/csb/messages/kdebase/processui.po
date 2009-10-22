@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-10-10 06:20+0200\n"
-"PO-Revision-Date: 2009-10-21 17:56+0200\n"
+"PO-Revision-Date: 2009-10-22 19:19+0200\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
 "MIME-Version: 1.0\n"
@@ -65,11 +65,11 @@ msgstr ""
 "i><br/>"
 
 #: ksysguardprocesslist.cpp:155 ksysguardprocesslist.cpp:403
-#, fuzzy
 msgid "Renice Process..."
 msgid_plural "Renice Processes..."
 msgstr[0] "Zmieni prioritet procesu..."
-msgstr[1] "Zmieni prioritetë procesu..."
+msgstr[1] "Zmieni prioritetë procesów..."
+msgstr[2] "Zmieni prioritetë procesów..."
 
 #: ksysguardprocesslist.cpp:156 ksysguardprocesslist.cpp:482
 msgid "Jump to Parent Process"
@@ -77,7 +77,7 @@ msgstr "Skòkni do wëższegò procesu"
 
 #: ksysguardprocesslist.cpp:158
 msgid "Jump to Process Debugging This One"
-msgstr "Skòknie do procesu nen debùgùjącegò"
+msgstr "Skòkni do procesu nen debùgùjącegò"
 
 #: ksysguardprocesslist.cpp:159
 msgid "Show Application Window"
@@ -85,22 +85,22 @@ msgstr "Wëskrzëni òkno programë"
 
 #: ksysguardprocesslist.cpp:161
 msgid "Monitor Input && Output"
-msgstr "Mòniturëjë wëńdzenie ë w&ińdzenié"
+msgstr "Mònitorëjë wëńdzenie ë w&ińdzenié"
 
 #: ksysguardprocesslist.cpp:165
 msgid "Resume Stopped Process"
 msgstr "Znowi wstrzëmóny proces"
 
 #: ksysguardprocesslist.cpp:166 ksysguardprocesslist.cpp:404
-#, fuzzy
 msgid "Kill Process"
 msgid_plural "Kill Processes"
 msgstr[0] "Zakùńczë proces"
 msgstr[1] "Zakùńczë procesë"
+msgstr[2] "Zakùńczë procesë"
 
 #: ksysguardprocesslist.cpp:169
 msgid "Suspend (STOP)"
-msgstr "Óprzestóń (STOP)"
+msgstr "Òprzestóń (STOP)"
 
 #: ksysguardprocesslist.cpp:170
 msgid "Continue (CONT)"
@@ -219,7 +219,7 @@ msgid ""
 "You do not have the permission to renice the process and there was a problem "
 "trying to run as root.  Error %1 %2"
 msgstr ""
-"Ni môsz dosc praws, abë zatrzëmac nen proces, króm tegò pòkôza sã téż fela "
+"Ni môsz dosc prawa, abë zatrzëmac nen proces, króm tegò pòkôza sã téż fela "
 "przë próbie dzejaniô jakno sprôwnik. Fela %1 %2"
 
 #: ksysguardprocesslist.cpp:1002 ksysguardprocesslist.cpp:1211
@@ -270,19 +270,19 @@ msgstr ""
 "Ni môsz dosc prawa bë zakùńczëc nen proces, króm tegò pòkôza sã fela przë "
 "zrëszaniu jakno sprôwnik. Fela %1 %2"
 
-#: ksysguardprocesslist.cpp:1217
-#, fuzzy, kde-format
+#: ksysguardprocesslist.cpp:1217, kde-format
 msgid "Are you sure you want to kill this process?"
 msgid_plural "Are you sure you want to kill these %1 processes?"
 msgstr[0] "Zakùńczëc nen proces?"
 msgstr[1] "Zakùńczëc %1 procesë?"
+msgstr[2] "Zakùńczëc %1 procesów?"
 
-#: ksysguardprocesslist.cpp:1222
-#, fuzzy, kde-format
+#: ksysguardprocesslist.cpp:1222, kde-format
 msgid "Kill process"
 msgid_plural "Kill %1 processes"
 msgstr[0] "Zakùńczë proces"
 msgstr[1] "Zakùńczë %1 procesë "
+msgstr[2] "Zakùńczë %1 procesów"
 
 #: ksysguardprocesslist.cpp:1223
 msgid "Kill"
@@ -294,7 +294,7 @@ msgstr "Zakùńczë"
 msgid ""
 "Interpret output as containing VT100 commands. For console-based programs."
 msgstr ""
-"Interpretujë wińdzenié jakno zamëkającé w se pòlétë VT100. Dlô programów "
+"Interpretëjë wińdzenié jakno zamëkającé w se pòlétë VT100. Dlô programów "
 "òpiartëch na kònsolach."
 
 #. i18n: file: DisplayProcessUi.ui:28
@@ -305,7 +305,7 @@ msgid ""
 "displayed.  Useful for when monitoring bash."
 msgstr ""
 "Jeżlë na òptacëjô je wëbrónô, to specjalné sekwencëje ANSI bãdą "
-"interpretowóné, a ni wëskrzënióné. Brëkòwané przë mònitorowaniu basha."
+"interpretowóné, a ni wëskrzënióné. Brëkòwóné przë mònitorowaniu basha."
 
 #. i18n: file: DisplayProcessUi.ui:31
 #. i18n: ectx: property (text), widget (QCheckBox, chkColorOutput)
@@ -325,7 +325,7 @@ msgstr "Wëskrzëni wińdzenié procesów zrëszanych przez nen proces."
 msgid "Follow fork and clone commands to monitor child processes"
 msgstr ""
 "Biéj za dzejaniama klonowaniô procesów (fork oraz clone) ë "
-"mònitorëjëpòchódné procesë"
+"mònitorëjë pòchódné procesë"
 
 #. i18n: file: DisplayProcessUi.ui:47
 #. i18n: ectx: property (text), widget (QCheckBox, chkMonitorChildProcesses)
@@ -477,7 +477,8 @@ msgstr ""
 "weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"weight:600;\">Zwykły planista: Domyślny w systemie Linux  (inne)</span></p>\n"
+"weight:600;\">Zwëczajné planowanié: Domëslny w systemie Linux  (inne)</span>"
+"</p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;\">Zwëczjané "
 "planowanié<span style=\" font-weight:400;\"> to standardowé plaowanié z "
@@ -487,9 +488,9 @@ msgstr ""
 "\" font-weight:400;\"> abò </span>wsôdowich<span style=\" font-weight:400;"
 "\"> na spòdlém dinamicznégò prioritetu blós z ti lëstë. Dinamiczny prioritet "
 "je òpiarti ò pòdóné pòłożenié  prioritetu ë zwikszóny pò kòżdi pòjedińczoscë "
-"czasu, jak proces bëł fardich do dzejaniô, rówank ni òstôłł zrëszony przez "
+"czasu, jak proces bëł fardich do dzejaniô, rówank ni òstôł zrëszony przez "
 "planowanié. To prowôdzy do  równych dzejaniów wszëtczich procesów "
-"sparłsczonych z klasy zwéczajnych.</span> </p></body></html>"
+"sparłãczonych z klasy zwëczajnych.</span> </p></body></html>"
 
 #. i18n: file: ReniceDlgUi.ui:109
 #. i18n: ectx: property (text), widget (QRadioButton, radioNormal)
@@ -524,7 +525,7 @@ msgstr ""
 "weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\">Dlô brëkùjących wiele "
-"czasu procesora nieinteraktiwnych procesów.  Przez planowanié ne procesë są "
+"czasu procesora nieinteraktiwnych procesów. Przez planowanié ne procesë są "
 "trzimóné kąsk gòrzi.</p></body></html>"
 
 #. i18n: file: ReniceDlgUi.ui:126
@@ -735,7 +736,7 @@ msgstr ""
 "weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\">Prioritetë procesów są "
-"opiarté ò prioritetë procesora.</p></body></html>"
+"òpiarté ò prioritetë procesora.</p></body></html>"
 
 #. i18n: file: ReniceDlgUi.ui:247
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioIONormal)
@@ -922,7 +923,7 @@ msgstr ""
 "weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\">Proces dobiwô zarô "
-"przëstãp do diskù, niezanôléżno ò tegò, co je lós.</p></body></html>"
+"przëstãpù do diskù, niezanôléżno ò tegò, co je lós.</p></body></html>"
 
 #. i18n: file: ReniceDlgUi.ui:307
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioRealTime)
@@ -994,8 +995,7 @@ msgstr "Nisczi prioritet"
 msgid "High Priority"
 msgstr "Wësoczi prioritet"
 
-#: scripting.cpp:74
-#, fuzzy, kde-format
+#: scripting.cpp:74, kde-format
 msgid ""
 "Script error: There needs to be exactly one argument to setHtml(), but there "
 "was %1."
@@ -1006,13 +1006,14 @@ msgstr[0] ""
 "Fela skriptu: To mùszi bëc akùratno jeden argùment dlô setHtml(), a je %1. "
 msgstr[1] ""
 "Fela skriptu: To mùszi bëc akùratno jeden argùment dlô setHtml(), a są  %1. "
+msgstr[2] ""
+"Fela skriptu: To mùszi bëc akùratno jeden argùment dlô setHtml(), a je  %1. "
 
 #: scripting.cpp:80
 msgid "Script error: Argument to setHtml() was not a string"
 msgstr "Fela skriptu: Argùment dlô setHtml() ni bëł stegną"
 
-#: scripting.cpp:112
-#, fuzzy, kde-format
+#: scripting.cpp:112, kde-format
 msgid ""
 "Script error: There needs to be exactly one argument to fileExists(), but "
 "there was %1."
@@ -1023,6 +1024,8 @@ msgstr[0] ""
 "Fela skriptu: To mùszi bë akùratno jeden argùment dlô fileExists(), a je %1. "
 msgstr[1] ""
 "Fela skriptu: To mùszi bë akùratno jeden argùment dlô fileExists(), a są %1. "
+msgstr[2] ""
+"Fela skriptu: To mùszi bë akùratno jeden argùment dlô fileExists(), a je %1. "
 
 #: scripting.cpp:118
 msgid "Script error: Argument to fileExists() was not a string"
@@ -1037,8 +1040,7 @@ msgstr ""
 msgid "Script error: fileExists() can only read from /proc or /sys, not '%1'."
 msgstr "Fela skriptu: fileExists() mòże le czëtac z  /proc or /sys, ni '%1'."
 
-#: scripting.cpp:146
-#, fuzzy, kde-format
+#: scripting.cpp:146, kde-format
 msgid ""
 "Script error: There needs to be exactly one argument to readFile(), but "
 "there was %1."
@@ -1049,6 +1051,8 @@ msgstr[0] ""
 "Fela skriptu: To mùszi bëc akùratno jeden argùment dlô readFile(), a je %1. "
 msgstr[1] ""
 "Fela skriptu: To mùszi bëc akùratno jeden argùment dlô readFile(), a są %1. "
+msgstr[2] ""
+"Fela skriptu: To mùszi bëc akùratno jeden argùment dlô readFile(), a je %1. "
 
 #: scripting.cpp:152
 msgid "Script error: Argument to readFile() was not a string"
@@ -1101,7 +1105,7 @@ msgstr ""
 msgid ""
 "- Process has finished and is now dead, but the parent process has not "
 "cleaned up."
-msgstr "- Proces zakùńczëł dzejanié, le wëższi proces ni zrobił czëszczenia."
+msgstr "- Proces zakùńczëł dzejanié, le wëższi proces ni zrobił czëszczeniô."
 
 #: ProcessModel.cc:557
 msgid "The process name."
@@ -1125,7 +1129,7 @@ msgstr ""
 
 #: ProcessModel.cc:566
 msgid "The current CPU usage of the process."
-msgstr "Aktualny brëkùnk procesa przez nen proces."
+msgstr "Aktualny brëkùnk procesora przez nen proces."
 
 #: ProcessModel.cc:571
 #, kde-format
@@ -1137,6 +1141,7 @@ msgid_plural ""
 "cores in the machine."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
 
 #: ProcessModel.cc:573
 msgid "The current total CPU usage of the process."
@@ -1614,3 +1619,4 @@ msgstr "%1%"
 #: ReniceDlg.cc:39
 msgid "Renice Process"
 msgstr "Zmieni prioritet procesu"
+
