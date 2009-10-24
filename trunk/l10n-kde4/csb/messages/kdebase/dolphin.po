@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-22 06:11+0200\n"
+"POT-Creation-Date: 2009-10-24 06:12+0200\n"
 "PO-Revision-Date: 2009-10-19 14:12+0200\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -1460,56 +1460,145 @@ msgctxt "@info:tooltip"
 msgid "Click to begin the search"
 msgstr "Klëkni bë zrëszëc szëkbã"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:37
+#: search/dolphinsearchoptionsconfigurator.cpp:45
 msgctxt "@label"
 msgid "Search:"
 msgstr "Szëkba:"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:40
-msgctxt "label"
+#: search/dolphinsearchoptionsconfigurator.cpp:48
+#, fuzzy
+#| msgctxt "label"
+#| msgid "Everywhere"
+msgctxt "@label"
 msgid "Everywhere"
 msgstr "Wszëtkò"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:41
-msgctxt "label"
+#: search/dolphinsearchoptionsconfigurator.cpp:49
+#, fuzzy
+#| msgctxt "label"
+#| msgid "From Here"
+msgctxt "@label"
 msgid "From Here"
 msgstr "Òd tądka"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:44
+#: search/dolphinsearchoptionsconfigurator.cpp:52
 msgctxt "@label"
 msgid "What:"
 msgstr "Za:"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:47
-msgctxt "label"
+#: search/dolphinsearchoptionsconfigurator.cpp:55
+#, fuzzy
+#| msgctxt "label"
+#| msgid "All"
+msgctxt "@label"
 msgid "All"
 msgstr "Wszëtkò"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:48
-msgctxt "label"
+#: search/dolphinsearchoptionsconfigurator.cpp:56
+#, fuzzy
+#| msgctxt "label"
+#| msgid "Images"
+msgctxt "@label"
 msgid "Images"
 msgstr "Òbrôzczi"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:49
+#: search/dolphinsearchoptionsconfigurator.cpp:57
 #, fuzzy
 #| msgctxt "@title:group"
 #| msgid "Text"
-msgctxt "label"
+msgctxt "@label"
 msgid "Text"
 msgstr "Tekst"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:50
+#: search/dolphinsearchoptionsconfigurator.cpp:58
 #, fuzzy
 #| msgctxt "label"
 #| msgid "File Names"
-msgctxt "label"
+msgctxt "@label"
 msgid "Filenames"
 msgstr "Miona lopków"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:56
+#: search/dolphinsearchoptionsconfigurator.cpp:64
 msgctxt "@action:button"
 msgid "Save"
 msgstr "Zapiszë"
+
+#: search/searchcriterionselector.cpp:43
+#: search/searchcriterionselector.cpp:121
+#, fuzzy
+#| msgctxt "@label:textbox"
+#| msgid "Search..."
+msgctxt "@label"
+msgid "Select..."
+msgstr "Szëkba..."
+
+#: search/searchcriterionselector.cpp:79
+msgctxt "@label"
+msgid "greater than"
+msgstr ""
+
+#: search/searchcriterionselector.cpp:80
+msgctxt "@label"
+msgid "greater than or equal to"
+msgstr ""
+
+#: search/searchcriterionselector.cpp:81
+msgctxt "@label"
+msgid "less than"
+msgstr ""
+
+#: search/searchcriterionselector.cpp:82
+msgctxt "@label"
+msgid "less than or equal to"
+msgstr ""
+
+#: search/searchcriterionselector.cpp:87
+#, fuzzy
+#| msgctxt "@item::inlistbox"
+#| msgid "Modified"
+msgctxt "@label"
+msgid "Date Modified"
+msgstr "Zjinaczoné"
+
+#: search/searchcriterionselector.cpp:95
+#, fuzzy
+#| msgctxt "@title:group"
+#| msgid "Preview Size"
+msgctxt "@label"
+msgid "File Size"
+msgstr "Miara pòdzérkù"
+
+#: search/searchcriterionvalue.cpp:74
+#, fuzzy
+#| msgctxt "@item:inlistbox Sort"
+#| msgid "By Date"
+msgctxt "@label"
+msgid "Byte"
+msgstr "Datumama"
+
+#: search/searchcriterionvalue.cpp:75
+#, fuzzy
+#| msgctxt "@item:inlistbox Sort"
+#| msgid "By Date"
+msgctxt "@label"
+msgid "KByte"
+msgstr "Datumama"
+
+#: search/searchcriterionvalue.cpp:76
+#, fuzzy
+#| msgctxt "@item:inlistbox Sort"
+#| msgid "By Date"
+msgctxt "@label"
+msgid "MByte"
+msgstr "Datumama"
+
+#: search/searchcriterionvalue.cpp:77
+#, fuzzy
+#| msgctxt "@item:inlistbox Sort"
+#| msgid "By Date"
+msgctxt "@label"
+msgid "GByte"
+msgstr "Datumama"
 
 #: selectiontoggle.cpp:128
 msgctxt "@info:tooltip"
@@ -2704,10 +2793,6 @@ msgstr "Kòlumnë"
 #~ msgctxt "@item:inrange Icon Size"
 #~ msgid "Large"
 #~ msgstr "Wiôldżé"
-
-#~ msgctxt "@title:group"
-#~ msgid "Preview Size"
-#~ msgstr "Miara pòdzérkù"
 
 #~ msgctxt "@item:inrange Preview Size"
 #~ msgid "Small"

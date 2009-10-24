@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-10 06:20+0200\n"
+"POT-Creation-Date: 2009-10-24 06:13+0200\n"
 "PO-Revision-Date: 2009-06-13 21:59+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -615,6 +615,25 @@ msgstr "Wëstąpiła fela ze sécą (np. sécowi kabel òstôł òdłączony) k�
 #, kde-format
 msgid "Error for host %1: %2"
 msgstr "Fela kòmpùtra %1: %2"
+
+#: tests/signalplottertest.cpp:297 tests/signalplottertest.cpp:321
+#, fuzzy, kde-format
+#| msgid " sec"
+msgctxt "Units"
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] " sekùnda"
+msgstr[1] " sekùnda"
+msgstr[2] " sekùnda"
+
+#: tests/signalplottertest.cpp:310
+#, kde-format
+msgctxt "Units"
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: TimerSettings.cc:38
 msgid "Timer Settings"
@@ -1311,6 +1330,13 @@ msgstr ""
 "To je wòlny môl na robòczi bòdze. Chwôcë ùzérôcz z przezérnika ùzérôczów ë "
 "pùszczë gò w tim môlu. Zjôwi sã prezentacëjô wôrtnotów dostowónych z tegò "
 "ùzérôcza w czase."
+
+#: SensorDisplayLib/SignalPlotter.cc:89
+#, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
+msgid "%1"
+msgstr "%"
 
 #. i18n: file: ksysguardui.rc:4
 #. i18n: ectx: Menu (file)
