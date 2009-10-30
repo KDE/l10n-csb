@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_pager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-18 06:20+0200\n"
+"POT-Creation-Date: 2009-10-30 06:17+0100\n"
 "PO-Revision-Date: 2009-06-11 10:01+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -19,25 +19,31 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: pager.cpp:205
+#: pager.cpp:208
 #, fuzzy
 #| msgid "&Configure Desktops..."
 msgid "&Configure Virtual Desktops..."
 msgstr "&Kònfigùrëjë pùltë..."
 
-#: pager.cpp:209
+#: pager.cpp:212
 msgid "&Add Virtual Desktop"
 msgstr ""
 
-#: pager.cpp:238
+#: pager.cpp:215
+#, fuzzy
+#| msgid "&Configure Desktops..."
+msgid "&Remove Last Virtual Desktop"
+msgstr "&Kònfigùrëjë pùltë..."
+
+#: pager.cpp:259
 msgid "General"
 msgstr "Òglowò"
 
-#: pager.cpp:259
+#: pager.cpp:280
 msgid "Number of columns:"
 msgstr "Lëczba kòlumnów:"
 
-#: pager.cpp:1295
+#: pager.cpp:1323
 #, kde-format
 msgid "One window:"
 msgid_plural "%1 windows:"
@@ -45,7 +51,7 @@ msgstr[0] "Jedno òkno:"
 msgstr[1] "%1 òkna"
 msgstr[2] "%1 òknów"
 
-#: pager.cpp:1299
+#: pager.cpp:1327
 #, kde-format
 msgid "and 1 other"
 msgid_plural "and %1 others"
