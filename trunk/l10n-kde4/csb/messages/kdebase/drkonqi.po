@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-26 06:23+0100\n"
+"POT-Creation-Date: 2009-11-05 06:17+0100\n"
 "PO-Revision-Date: 2009-10-19 13:54+0200\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -102,7 +102,7 @@ msgstr ""
 "paczetów debùgòwaniô) to mòżesz jisc ju dali. "
 
 #: aboutbugreportingdialog.cpp:80 aboutbugreportingdialog.cpp:174
-#: reportassistantdialog.cpp:57
+#: reportassistantdialog.cpp:62
 msgctxt "@title"
 msgid "What do you know about the crash?"
 msgstr "Co wiész ò tim załómaniu?"
@@ -215,7 +215,7 @@ msgstr ""
 "wlogòwanié sã do systemë szlachòwaniô felów. Mòżesz téż warcëcë zmienic "
 "wëdowiédzã ë zladowac paczetë debùgòwaniô."
 
-#: aboutbugreportingdialog.cpp:122 reportassistantdialog.cpp:88
+#: aboutbugreportingdialog.cpp:122 reportassistantdialog.cpp:93
 msgctxt "@title"
 msgid "KDE Bug Tracking System Login"
 msgstr "Logòwanié do systemë szlachòwaniô felów KDE"
@@ -350,7 +350,7 @@ msgctxt "@info/rich"
 msgid "<note>You should write in English.</note>"
 msgstr "<note>Je nót pisac pò anielskù.</note>"
 
-#: aboutbugreportingdialog.cpp:178 reportassistantdialog.cpp:127
+#: aboutbugreportingdialog.cpp:178 reportassistantdialog.cpp:132
 msgctxt "@title"
 msgid "Send Crash Report"
 msgstr "Sélôj rapòrt ò załómaniu"
@@ -420,7 +420,7 @@ msgstr ""
 "Brëkùjë ti knąpë do zapisaniô do lopka wëdowiédzë ò załómaniu. Brëkòwné je "
 "to jeżlë chcesz pòzdze przezdrzec rapòrt ò felë."
 
-#: backtracewidget.cpp:97 reportassistantpages_bugzilla_duplicates.cpp:459
+#: backtracewidget.cpp:97 reportassistantpages_bugzilla_duplicates.cpp:522
 msgctxt "@info:status"
 msgid "Loading..."
 msgstr "Ladowanié..."
@@ -538,33 +538,33 @@ msgctxt "@title:window"
 msgid "Error during the installation of debug symbols"
 msgstr "Fela przë instalacëji symbòlë debùgòwaniô"
 
-#: bugzillalib.cpp:246
+#: bugzillalib.cpp:245
 msgctxt "@info"
 msgid "Unknown response from the server"
 msgstr "Nieznónô òdpòwiesc z serwera"
 
-#: bugzillalib.cpp:266
+#: bugzillalib.cpp:265
 msgctxt "@info"
 msgid "Invalid bug report: corrupted data"
 msgstr "Lëchi rapòrt felów: zepsëté pòdôwczi"
 
-#: bugzillalib.cpp:286
+#: bugzillalib.cpp:285
 msgctxt "@info"
 msgid "Invalid bug list: corrupted data"
 msgstr "Lëchi lesta felów: zepsëté pòdôwczi"
 
-#: bugzillalib.cpp:325 bugzillalib.cpp:364 bugzillalib.cpp:397
+#: bugzillalib.cpp:324 bugzillalib.cpp:363 bugzillalib.cpp:396
 msgctxt "@info"
 msgid "Unknown error"
 msgstr "Nieznónô fela"
 
-#: bugzillalib.cpp:367
+#: bugzillalib.cpp:366
 #, kde-format
 msgctxt "@info"
 msgid "Error while attaching the data to the bug report: %1"
 msgstr "Fela przë dodôwaniu pòdôwków do rapòrtu felë: %1"
 
-#: bugzillalib.cpp:400
+#: bugzillalib.cpp:399
 #, kde-format
 msgctxt "@info"
 msgid "Error while adding yourself to the CC list: %1"
@@ -1016,47 +1016,81 @@ msgstr "Zrëszë aplikacëjã znowa pò klëkniãcô na knąpã Zakùńczë"
 msgid "Restart the application when clicking the Finish button"
 msgstr "Zrëszë aplikacëjã znowa pò klëkniãcô na knąpã Zakùńczë"
 
-#: reportassistantdialog.cpp:43
+#: reportassistantdialog.cpp:48
 msgctxt "@title:window"
 msgid "Crash Reporting Assistant"
 msgstr "Asystent rapòrtowaniô załómaniô"
 
-#: reportassistantdialog.cpp:67
+#: reportassistantdialog.cpp:72
 msgctxt "@title"
 msgid "Crash Information (Backtrace)"
 msgstr "Wëdowiédzô ò załómaniu (szlach)"
 
-#: reportassistantdialog.cpp:77
+#: reportassistantdialog.cpp:82
 msgctxt "@title"
 msgid "Crash Analysis Results"
 msgstr "Skùtczi analizë załómaniô"
 
-#: reportassistantdialog.cpp:99
+#: reportassistantdialog.cpp:104
 msgctxt "@title"
 msgid "Bug Report Possible Duplicates List"
 msgstr "Lësta prôwdopòdóbnych duplikatów felë"
 
-#: reportassistantdialog.cpp:109
+#: reportassistantdialog.cpp:114
 msgctxt "@title"
 msgid "Details of the Bug Report"
 msgstr "Detale rapòrtu ò felë"
 
-#: reportassistantdialog.cpp:118
+#: reportassistantdialog.cpp:123
 msgctxt "@title"
 msgid "Preview Report"
 msgstr "Pòdzérk rapòrtu"
 
-#: reportassistantdialog.cpp:302
+#: reportassistantdialog.cpp:308
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Close Crash Reporting Assistant"
+msgctxt "@action:button"
+msgid "Close the assistant"
+msgstr "Zamkni asysntenta rapòrtowniô załómania"
+
+#: reportassistantdialog.cpp:311
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr ""
+
+#: reportassistantdialog.cpp:318
+msgctxt "@action:button"
+msgid "Save information and close"
+msgstr ""
+
+#: reportassistantdialog.cpp:321
+#, fuzzy
+#| msgctxt "@info"
+#| msgid ""
+#| "Do you really want to close the bug assistant without submitting the bug "
+#| "report?"
+msgctxt "@info"
+msgid ""
+"Do you really want to close the bug assistant without submitting the report? "
+"<note>The crash information is still valid so you can save the report before "
+"closing</note>"
+msgstr "Na gwës chcesz zamknąc asystenta felë bez sélaniô rapòrtu ò felë?"
+
+#: reportassistantdialog.cpp:324 reportassistantdialog.cpp:339
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Close Crash Reporting Assistant"
+msgctxt "@title:window"
+msgid "Close the Reporting Assistant"
+msgstr "Zamkni asysntenta rapòrtowniô załómania"
+
+#: reportassistantdialog.cpp:337
 msgctxt "@info"
 msgid ""
 "Do you really want to close the bug assistant without submitting the bug "
 "report?"
 msgstr "Na gwës chcesz zamknąc asystenta felë bez sélaniô rapòrtu ò felë?"
-
-#: reportassistantdialog.cpp:304
-msgctxt "@title:window"
-msgid "Close Crash Reporting Assistant"
-msgstr "Zamkni asysntenta rapòrtowniô załómania"
 
 #: reportassistantpages_base.cpp:85
 msgctxt "@info"
@@ -1562,40 +1596,90 @@ msgctxt "@info:tooltip"
 msgid "Use this button to remove a selected possible duplicate"
 msgstr "Brëkùjë ti knąpë do rëmniãcô wëbrónych mòżlëwich duplikatów."
 
-#: reportassistantpages_bugzilla_duplicates.cpp:160
+#: reportassistantpages_bugzilla_duplicates.cpp:192
 #, kde-format
 msgctxt "@info:status"
 msgid "Searching for duplicates (from %1 to %2)..."
 msgstr "Szëkba za duplikatama (òd %1 do %2)..."
 
-#: reportassistantpages_bugzilla_duplicates.cpp:189
+#: reportassistantpages_bugzilla_duplicates.cpp:222
 msgctxt "@info:status"
 msgid "Search stopped."
 msgstr "Szëkba zatrzëmanô."
 
-#: reportassistantpages_bugzilla_duplicates.cpp:191
+#: reportassistantpages_bugzilla_duplicates.cpp:224
 #, kde-format
 msgctxt "@info:status"
 msgid "Search stopped. Showing results from %1 to %2"
 msgstr "Szëkba zatrzëmanô. Wëskrzëni skùtczi òd %1 do %2"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:233
+#: reportassistantpages_bugzilla_duplicates.cpp:266
 #, kde-format
 msgctxt "@info:status"
 msgid "Showing results from %1 to %2"
 msgstr "Wëskrzënianié skùtków òd %1 do %2"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:260
+#: reportassistantpages_bugzilla_duplicates.cpp:281
+#, fuzzy
+#| msgctxt "@info bug status"
+#| msgid "Open"
+msgctxt "@info/plain bug status"
+msgid "[Open]"
+msgstr "Òtemkłé"
+
+#: reportassistantpages_bugzilla_duplicates.cpp:286
+#, fuzzy
+#| msgctxt "@info bug resolution"
+#| msgid "Fixed"
+msgctxt "@info/plain bug resolution"
+msgid "[Fixed]"
+msgstr "Fardich"
+
+#: reportassistantpages_bugzilla_duplicates.cpp:288
+#, fuzzy
+#| msgctxt "@info bug resolution"
+#| msgid "Non-reproducible"
+msgctxt "@info/plain bug resolution"
+msgid "[Non-reproducible]"
+msgstr "Niereproduktiwné"
+
+#: reportassistantpages_bugzilla_duplicates.cpp:290
+#, fuzzy
+#| msgctxt "@info bug resolution"
+#| msgid "Already reported"
+msgctxt "@info/plain bug resolution"
+msgid "[Already reported]"
+msgstr "Ju zrapòrtowóné"
+
+#: reportassistantpages_bugzilla_duplicates.cpp:292
+msgctxt "@info/plain bug resolution"
+msgid "[Invalid]"
+msgstr ""
+
+#: reportassistantpages_bugzilla_duplicates.cpp:295
+#, fuzzy
+#| msgctxt "@info bug resolution"
+#| msgid "Not a KDE bug"
+msgctxt "@info/plain bug resolution"
+msgid "[Not a KDE bug]"
+msgstr "To nie je fela KDE"
+
+#: reportassistantpages_bugzilla_duplicates.cpp:298
+msgctxt "@info bug/plain status"
+msgid "[Incomplete]"
+msgstr ""
+
+#: reportassistantpages_bugzilla_duplicates.cpp:323
 msgctxt "@info:status"
 msgid "Search Finished. No reports found."
 msgstr "Szëkba zakùńczonô. Felëją rapòrtë."
 
-#: reportassistantpages_bugzilla_duplicates.cpp:276
+#: reportassistantpages_bugzilla_duplicates.cpp:339
 msgctxt "@info:status"
 msgid "Error fetching the bug report list"
 msgstr "Fela ladowaniô lëstë rapòrtów ò felach"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:278
+#: reportassistantpages_bugzilla_duplicates.cpp:341
 #, kde-format
 msgctxt "@info/rich"
 msgid ""
@@ -1605,17 +1689,17 @@ msgstr ""
 "Fela ladowaniô lëstë rapòrtów ò felach<nl/><message>%1.</message><nl/> "
 "Proszã kąsk pòżdac ë spróbòwac znowa."
 
-#: reportassistantpages_bugzilla_duplicates.cpp:307
+#: reportassistantpages_bugzilla_duplicates.cpp:370
 msgctxt "@title:window"
 msgid "Enter a custom bug report number"
 msgstr "Wpiszë swój numer rapòrtu ò felë"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:308
+#: reportassistantpages_bugzilla_duplicates.cpp:371
 msgctxt "@label"
 msgid "Enter the number of the bug report you want to check"
 msgstr "Wpiszë numer rapòrtu ò felë jaczi chcesz sprôwdzëc"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:381
+#: reportassistantpages_bugzilla_duplicates.cpp:444
 #, kde-format
 msgctxt "@label"
 msgid ""
@@ -1625,17 +1709,17 @@ msgstr ""
 "Rapòrt wësłóny do <strong>dodaniô</strong> do felë <numid>%1</numid>. <a "
 "href=\"#\">Òprzestóń</a>"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:409
+#: reportassistantpages_bugzilla_duplicates.cpp:472
 msgctxt "@title:window"
 msgid "Bug Description"
 msgstr "Òpisënk felë"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:416
+#: reportassistantpages_bugzilla_duplicates.cpp:479
 msgctxt "@action:button"
 msgid "Add as a possible duplicate"
 msgstr "Dodôj mòżlëwé duplikatë"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:417
+#: reportassistantpages_bugzilla_duplicates.cpp:480
 msgctxt "@info:tooltip"
 msgid ""
 "Use this button to mark your crash as related to the currently shown bug "
@@ -1646,12 +1730,12 @@ msgstr ""
 "terôwëskrzënionym rapòrce ò felë. To pòmòże rozwijôrzóm KDE nacéchòwac to, "
 "czë je to duplikat czë téż ni."
 
-#: reportassistantpages_bugzilla_duplicates.cpp:423
+#: reportassistantpages_bugzilla_duplicates.cpp:486
 msgctxt "@action:button"
 msgid "Attach to this report (Advanced)"
 msgstr "Dodôj do tegò rapòrtu (awansowóné)"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:424
+#: reportassistantpages_bugzilla_duplicates.cpp:487
 msgctxt "@info:tooltip"
 msgid ""
 "Use this button to attach your crash information to this report; only if you "
@@ -1660,7 +1744,7 @@ msgstr ""
 "Brëkùjë ti knąpë do dodaniô twòji wëdowiédzë ò załómaniu, jeżlë jes gwës "
 "tegò, że to to samò załómanié."
 
-#: reportassistantpages_bugzilla_duplicates.cpp:462
+#: reportassistantpages_bugzilla_duplicates.cpp:525
 #, kde-format
 msgctxt "@info"
 msgid "<link url='%1'>Bug report page at the KDE bug tracking system</link>"
@@ -1668,95 +1752,119 @@ msgstr ""
 "<link url='%1'>Starna rapòrtowaniô felów w systemie szlachòwania felów KDE</"
 "link>"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:466
+#: reportassistantpages_bugzilla_duplicates.cpp:529
 #, kde-format
 msgctxt "@info:status"
 msgid "Loading information about bug <numid>%1</numid> from %2...."
 msgstr "Ladowanié wëdowiédzë ò felë <numid>%1</numid> z %2..."
 
-#: reportassistantpages_bugzilla_duplicates.cpp:494
+#: reportassistantpages_bugzilla_duplicates.cpp:551
+msgctxt "@action:button let the user to choose to read the main report"
+msgid "Yes, read the main report"
+msgstr ""
+
+#: reportassistantpages_bugzilla_duplicates.cpp:555
+msgctxt "@action:button let the user choose to read the original report"
+msgid "No, let me read the report I selected"
+msgstr ""
+
+#: reportassistantpages_bugzilla_duplicates.cpp:558
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The report you selected (bug <numid>%1</numid>) is already marked as "
+"duplicate of another bug report (bug <numid>%2</numid>). Do you want to read "
+"it ?"
+msgstr ""
+
+#: reportassistantpages_bugzilla_duplicates.cpp:562
+msgctxt "@title:window"
+msgid "Nested duplicate detected"
+msgstr ""
+
+#: reportassistantpages_bugzilla_duplicates.cpp:585
 msgctxt "@info bug status"
 msgid "Open"
 msgstr "Òtemkłé"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:501
+#: reportassistantpages_bugzilla_duplicates.cpp:592
 msgctxt "@info bug resolution"
 msgid "Fixed"
 msgstr "Fardich"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:503
+#: reportassistantpages_bugzilla_duplicates.cpp:594
 msgctxt "@info bug resolution"
 msgid "Non-reproducible"
 msgstr "Niereproduktiwné"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:505
+#: reportassistantpages_bugzilla_duplicates.cpp:596
 msgctxt "@info bug resolution"
 msgid "Already reported"
 msgstr "Ju zrapòrtowóné"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:507
+#: reportassistantpages_bugzilla_duplicates.cpp:598
 msgctxt "@info bug resolution"
 msgid "Not a valid report/crash"
 msgstr "Lëchi rapòrt/załómanié"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:510
+#: reportassistantpages_bugzilla_duplicates.cpp:601
 msgctxt "@info bug resolution"
 msgid "Not a KDE bug"
 msgstr "To nie je fela KDE"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:515
+#: reportassistantpages_bugzilla_duplicates.cpp:606
 #, kde-format
 msgctxt "@info bug status, %1 is the resolutin"
 msgid "Closed (%1)"
 msgstr "Zamkłé (%1)"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:518
+#: reportassistantpages_bugzilla_duplicates.cpp:609
 msgctxt "@info bug status"
 msgid "Temporarily closed, because of a lack of information"
 msgstr "Czasowò zamkłé przez felënk wëdowiédzë"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:526
+#: reportassistantpages_bugzilla_duplicates.cpp:617
 #, kde-format
 msgctxt "@label:textbox bug report label and value"
 msgid "<strong>Product:</strong> %1 (%2)<br />"
 msgstr "<strong>Produkt:</strong> %1 (%2)<br />"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:529
+#: reportassistantpages_bugzilla_duplicates.cpp:620
 #, kde-format
 msgctxt "@label:textbox bug report label and value"
 msgid "<strong>Title:</strong> %1<br />"
 msgstr "<strong>Titel:</strong> %1<br />"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:531
+#: reportassistantpages_bugzilla_duplicates.cpp:622
 #, kde-format
 msgctxt "@label:textbox bug report label and value"
 msgid "<strong>Status:</strong> %1<br />"
 msgstr "<strong>Status:</strong> %1<br />"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:533
+#: reportassistantpages_bugzilla_duplicates.cpp:624
 #, kde-format
 msgctxt "@label:textbox bug report label and value"
 msgid "<strong>Full Description:</strong><br />%1"
 msgstr "<strong>Fùl òpisënk:</strong><br />%1"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:538
+#: reportassistantpages_bugzilla_duplicates.cpp:629
 #, kde-format
 msgctxt "@label:textbox bug report label and value"
 msgid "<br /><br /><strong>Comments:</strong> %1"
 msgstr "<br /><br /><strong>Dopòwiescë:</strong> %1"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:547
+#: reportassistantpages_bugzilla_duplicates.cpp:638
 #, kde-format
 msgctxt "@info:status"
 msgid "Showing report <numid>%1</numid>"
 msgstr "Wëskrzënianié rapòrtu <numid>%1</numid>"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:550
+#: reportassistantpages_bugzilla_duplicates.cpp:641
 msgctxt "@info"
 msgid "Invalid report data"
 msgstr "Lëché pòdôwczi rapòrtu"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:564
+#: reportassistantpages_bugzilla_duplicates.cpp:655
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1768,13 +1876,13 @@ msgstr ""
 "gwës tegò, że tikô sã to tegò samegò załómaniô.<nl />Jes gwës tegò bë dodac "
 "twój rapòrt ò felë do <numid>%1</numid> ?"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:567
+#: reportassistantpages_bugzilla_duplicates.cpp:658
 #, kde-format
 msgctxt "@title:window"
 msgid "Attach the information to bug <numid>%1</numid>"
 msgstr "Dodôj wëdowiédzã do felë <numid>%1</numid>"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:577
+#: reportassistantpages_bugzilla_duplicates.cpp:668
 #, kde-format
 msgctxt "@info/rich"
 msgid ""
@@ -1784,12 +1892,12 @@ msgstr ""
 "Fela ladowaniô rapòrtu ò felë <nl/><message>%1.</message><nl/>Proszã kąsk "
 "pòżdac ë spróbòwac znowa."
 
-#: reportassistantpages_bugzilla_duplicates.cpp:581
+#: reportassistantpages_bugzilla_duplicates.cpp:672
 msgctxt "@info"
 msgid "Error fetching the bug report"
 msgstr "Fela ladowaniô rapòrtu ò felë"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:582
+#: reportassistantpages_bugzilla_duplicates.cpp:673
 msgctxt "@info:status"
 msgid "Error fetching the bug report"
 msgstr "Fela ladowaniô rapòrtu ò felë"

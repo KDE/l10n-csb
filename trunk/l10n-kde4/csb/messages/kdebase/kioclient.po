@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kioclient\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-10 10:19+0100\n"
+"POT-Creation-Date: 2009-11-05 06:17+0100\n"
 "PO-Revision-Date: 2009-05-15 18:46+0200\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -19,15 +19,15 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: kioclient.cpp:42
+#: kioclient.cpp:43
 msgid "KIO Client"
 msgstr "Klient KIO"
 
-#: kioclient.cpp:43
+#: kioclient.cpp:44
 msgid "Command-line tool for network-transparent operations"
 msgstr "Nôrzãdze rézë pòlétów dlô przezérnëch òperacëjów sécowëch"
 
-#: kioclient.cpp:54
+#: kioclient.cpp:55
 msgid ""
 "\n"
 "Syntax:\n"
@@ -35,7 +35,7 @@ msgstr ""
 "\n"
 "Syntaksa:\n"
 
-#: kioclient.cpp:55
+#: kioclient.cpp:56
 msgid ""
 "  kioclient openProperties 'url'\n"
 "            # Opens a properties menu\n"
@@ -45,7 +45,7 @@ msgstr ""
 "            # Òtmëkô menu swòjiznów\n"
 "\n"
 
-#: kioclient.cpp:57
+#: kioclient.cpp:58
 msgid ""
 "  kioclient exec 'url' ['mimetype']\n"
 "            # Tries to open the document pointed to by 'url', in the "
@@ -64,7 +64,7 @@ msgstr ""
 "            #   sprôwdzóny. Adresa mòże bëc adresą\n"
 "            #   dokùmentu abò lopkã .desktop.\n"
 
-#: kioclient.cpp:64
+#: kioclient.cpp:65
 msgid ""
 "  kioclient move 'src' 'dest'\n"
 "            # Moves the URL 'src' to 'dest'.\n"
@@ -74,14 +74,20 @@ msgstr ""
 "            # Przenoszi adresã 'src' do 'dest'.\n"
 "            #   'src' mòże bëc lëstą adersów.\n"
 
-#: kioclient.cpp:67
+#: kioclient.cpp:68
 msgid ""
 "            #   'dest' may be \"trash:/\" to move the files\n"
 "            #   in the trash bin.\n"
+msgstr ""
+
+#: kioclient.cpp:70 kioclient.cpp:79
+msgid ""
+"            #   the short version kioclient mv\n"
+"            #   is also available.\n"
 "\n"
 msgstr ""
 
-#: kioclient.cpp:69
+#: kioclient.cpp:72
 msgid ""
 "  kioclient download ['src']\n"
 "            # Copies the URL 'src' to a user-specified location'.\n"
@@ -95,19 +101,24 @@ msgstr ""
 "            #   to programa zapëta ò nen argùment.\n"
 "\n"
 
-#: kioclient.cpp:73
+#: kioclient.cpp:76
+#, fuzzy
+#| msgid ""
+#| "  kioclient copy 'src' 'dest'\n"
+#| "            # Copies the URL 'src' to 'dest'.\n"
+#| "            #   'src' may be a list of URLs.\n"
+#| "\n"
 msgid ""
 "  kioclient copy 'src' 'dest'\n"
 "            # Copies the URL 'src' to 'dest'.\n"
 "            #   'src' may be a list of URLs.\n"
-"\n"
 msgstr ""
 "  kioclient copy 'src' 'dest'\n"
 "            # Kòpérëjë adresã 'src' do 'dest'.\n"
 "            #   'src' mòże bëc lëstą adresów.\n"
 "\n"
 
-#: kioclient.cpp:76
+#: kioclient.cpp:81
 msgid ""
 "  kioclient cat 'url'\n"
 "            # Writes out the contents of 'url' to stdout\n"
@@ -117,7 +128,29 @@ msgstr ""
 "            # Zapisëjë zamkłosc adresë 'url' do stdout\n"
 "\n"
 
-#: kioclient.cpp:79
+#: kioclient.cpp:83
+#, fuzzy
+#| msgid ""
+#| "  kioclient move 'src' 'dest'\n"
+#| "            # Moves the URL 'src' to 'dest'.\n"
+#| "            #   'src' may be a list of URLs.\n"
+msgid ""
+"  kioclient remove 'url'\n"
+"            # Removes the URL\n"
+"            #   'url' may be a list of URLs.\n"
+msgstr ""
+"  kioclient move 'src' 'dest'\n"
+"            # Przenoszi adresã 'src' do 'dest'.\n"
+"            #   'src' mòże bëc lëstą adersów.\n"
+
+#: kioclient.cpp:86
+msgid ""
+"            #   the short version kioclient rm\n"
+"            #   is also available.\n"
+"\n"
+msgstr ""
+
+#: kioclient.cpp:89
 msgid ""
 "*** Examples:\n"
 "  kioclient exec file:/root/Desktop/cdrom.desktop \"Mount default\"\n"
@@ -129,7 +162,7 @@ msgstr ""
 "             // Montëjë CD-ROM\n"
 "\n"
 
-#: kioclient.cpp:82
+#: kioclient.cpp:92
 msgid ""
 "  kioclient exec file:/home/weis/data/test.html\n"
 "             // Opens the file with default binding\n"
@@ -139,7 +172,7 @@ msgstr ""
 "             // Òtmëmkô lopk w domëslny programie\n"
 "\n"
 
-#: kioclient.cpp:84
+#: kioclient.cpp:94
 msgid ""
 "  kioclient exec file:/home/weis/data/test.html Netscape\n"
 "             // Opens the file with netscape\n"
@@ -149,7 +182,7 @@ msgstr ""
 "             // Òtmëkô lopk w netscape\n"
 "\n"
 
-#: kioclient.cpp:86
+#: kioclient.cpp:96
 msgid ""
 "  kioclient exec ftp://localhost/\n"
 "             // Opens new window with URL\n"
@@ -159,7 +192,7 @@ msgstr ""
 "             // Òtmëmkô nowé òkno z adresą URL\n"
 "\n"
 
-#: kioclient.cpp:88
+#: kioclient.cpp:98
 msgid ""
 "  kioclient exec file:/root/Desktop/emacs.desktop\n"
 "             // Starts emacs\n"
@@ -169,7 +202,7 @@ msgstr ""
 "             // Startëjë emacsa\n"
 "\n"
 
-#: kioclient.cpp:90
+#: kioclient.cpp:100
 msgid ""
 "  kioclient exec file:/root/Desktop/cdrom.desktop\n"
 "             // Opens the CDROM's mount directory\n"
@@ -179,7 +212,7 @@ msgstr ""
 "             // Òtmëkô katalog zamòntowaniô diskù CD-ROM\n"
 "\n"
 
-#: kioclient.cpp:92
+#: kioclient.cpp:102
 msgid ""
 "  kioclient exec .\n"
 "             // Opens the current directory. Very convenient.\n"
@@ -189,47 +222,47 @@ msgstr ""
 "             // Òtmëkô biéżny katalog. Barô brëkòwné..\n"
 "\n"
 
-#: kioclient.cpp:103
+#: kioclient.cpp:113
 msgid "Non-interactive use: no message boxes"
 msgstr "Nieinteraktiwny trib: bez òknów wiadłów"
 
-#: kioclient.cpp:105
+#: kioclient.cpp:115
 msgid "URL or URLs"
 msgstr "URL abò URL-ë"
 
-#: kioclient.cpp:107 kioclient.cpp:110
+#: kioclient.cpp:117 kioclient.cpp:120
 msgid "Source URL or URLs"
 msgstr "Zdrój url abò url-i"
 
-#: kioclient.cpp:108 kioclient.cpp:111
+#: kioclient.cpp:118 kioclient.cpp:121
 msgid "Destination URL"
 msgstr "Docélowy url"
 
-#: kioclient.cpp:113
+#: kioclient.cpp:123
 msgid "Show available commands"
 msgstr "Pòkażë przëstãpné pòlétë"
 
-#: kioclient.cpp:114
+#: kioclient.cpp:124
 msgid "Command (see --commands)"
 msgstr "Pòlét (zdrzë --commands)"
 
-#: kioclient.cpp:115
+#: kioclient.cpp:125
 msgid "Arguments for command"
 msgstr "Argùmentë dlô pòlétu"
 
-#: kioclient.cpp:150
+#: kioclient.cpp:160
 msgid "Syntax Error: Not enough arguments\n"
 msgstr "Fela syntaksë: za môło argùmentów\n"
 
-#: kioclient.cpp:155
+#: kioclient.cpp:165
 msgid "Syntax Error: Too many arguments\n"
 msgstr "Fela syntaksë: za wiele argùmentów\n"
 
-#: kioclient.cpp:287
+#: kioclient.cpp:312
 msgid "Unable to download from an invalid URL."
 msgstr "Nie mòże zladowac ze zmiłkòwy adresë URL."
 
-#: kioclient.cpp:325
+#: kioclient.cpp:355
 #, kde-format
 msgid "Syntax Error: Unknown command '%1'\n"
 msgstr "Fela syntaksë: Nieznóny pòlét '%1'\n"
