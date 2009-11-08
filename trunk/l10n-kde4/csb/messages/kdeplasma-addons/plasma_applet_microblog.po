@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_twitter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-06 05:55+0100\n"
+"POT-Creation-Date: 2009-11-08 06:05+0100\n"
 "PO-Revision-Date: 2007-12-30 17:53+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -18,33 +18,33 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: microblog.cpp:183
+#: microblog.cpp:173
 msgid "Failed to load twitter DataEngine"
 msgstr ""
 
-#: microblog.cpp:252
+#: microblog.cpp:242
 #, fuzzy
 #| msgid "Timeline size"
 msgid "Timeline"
 msgstr "Miara ùcékù czasu"
 
-#: microblog.cpp:253
+#: microblog.cpp:243
 msgid "Replies"
 msgstr ""
 
-#: microblog.cpp:254
+#: microblog.cpp:244
 msgid "Messages"
 msgstr ""
 
-#: microblog.cpp:398
+#: microblog.cpp:388
 msgid "Failed to access kwallet. Store password in config file instead?"
 msgstr "Fela przëstãpù do kwalleta. Trzëmac parolã w kònfigùracjowim lopkù?"
 
-#: microblog.cpp:417 microblog.cpp:876
+#: microblog.cpp:407 microblog.cpp:763
 msgid "Refreshing timeline..."
 msgstr "Òdsiéżanié ùcékù czasu..."
 
-#: microblog.cpp:443
+#: microblog.cpp:433
 #, fuzzy, kde-format
 #| msgid "%1 new tweets"
 msgid "1 new tweet"
@@ -53,19 +53,14 @@ msgstr[0] "%1nowëch czirkaniów"
 msgstr[1] "%1nowëch czirkaniów"
 msgstr[2] "%1nowëch czirkaniów"
 
-#: microblog.cpp:617
-#, kde-format
-msgid " from %1"
-msgstr ""
-
-#: microblog.cpp:676
+#: microblog.cpp:563
 msgid " message"
 msgid_plural " messages"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: microblog.cpp:678
+#: microblog.cpp:565
 #, fuzzy
 #| msgid " minutes"
 msgid " minute"
@@ -74,11 +69,11 @@ msgstr[0] " minëtë"
 msgstr[1] " minëtë"
 msgstr[2] " minëtë"
 
-#: microblog.cpp:681
+#: microblog.cpp:568
 msgid "General"
 msgstr ""
 
-#: microblog.cpp:797
+#: microblog.cpp:684
 #, kde-format
 msgid "%1 character left"
 msgid_plural "%1 characters left"
@@ -86,13 +81,18 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: microblog.cpp:986
+#: postwidget.cpp:101
+#, kde-format
+msgid "%1 from %2"
+msgstr ""
+
+#: postwidget.cpp:145
 #, fuzzy
 #| msgid "less than 5 seconds ago"
 msgid "Less than a minute ago"
 msgstr "mni jak 5 sek nazôd"
 
-#: microblog.cpp:988
+#: postwidget.cpp:147
 #, fuzzy, kde-format
 #| msgid "%1 minutes ago"
 msgid "1 minute ago"
@@ -101,13 +101,13 @@ msgstr[0] "%1 minët nazôd"
 msgstr[1] "%1 minët nazôd"
 msgstr[2] "%1 minët nazôd"
 
-#: microblog.cpp:990
+#: postwidget.cpp:149
 #, fuzzy
 #| msgid "about %1 hours ago"
 msgid "Over an hour ago"
 msgstr "kòle %1 gòdzënów nazôd"
 
-#: microblog.cpp:992
+#: postwidget.cpp:151
 #, fuzzy, kde-format
 #| msgid "about %1 hours ago"
 msgid "1 hour ago"
