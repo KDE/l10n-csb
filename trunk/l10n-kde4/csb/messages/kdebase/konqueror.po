@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-19 06:19+0100\n"
+"POT-Creation-Date: 2009-11-23 06:14+0100\n"
 "PO-Revision-Date: 2009-06-18 13:42+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -415,7 +415,7 @@ msgstr ""
 #: src/konqmainwindow.cpp:2405 src/konqmainwindow.cpp:2494
 #: src/konqmainwindow.cpp:2512 src/konqmainwindow.cpp:2532
 #: src/konqmainwindow.cpp:2580 src/konqmainwindow.cpp:2613
-#: src/konqmainwindow.cpp:5064 src/konqviewmanager.cpp:1405
+#: src/konqmainwindow.cpp:5061 src/konqviewmanager.cpp:1405
 msgid "Discard Changes?"
 msgstr "Pòcësnąc zmianë?"
 
@@ -423,7 +423,7 @@ msgstr "Pòcësnąc zmianë?"
 #: src/konqmainwindow.cpp:2405 src/konqmainwindow.cpp:2494
 #: src/konqmainwindow.cpp:2512 src/konqmainwindow.cpp:2532
 #: src/konqmainwindow.cpp:2580 src/konqmainwindow.cpp:2613
-#: src/konqmainwindow.cpp:5064 src/konqviewmanager.cpp:1405
+#: src/konqmainwindow.cpp:5061 src/konqviewmanager.cpp:1405
 msgid "&Discard Changes"
 msgstr "&Pòcësni zmianë"
 
@@ -620,8 +620,10 @@ msgctxt "@action:inmenu Go"
 msgid "Show History"
 msgstr "Pòkôżë historëjã"
 
-#: src/konqmainwindow.cpp:3616 src/konqmainwindow.cpp:4244
-msgid "&Save View Profile..."
+#: src/konqmainwindow.cpp:3616
+#, fuzzy
+#| msgid "&Save View Profile..."
+msgid "&Save View Profile As..."
 msgstr "&Zapiszë profil wëzdrzatkù..."
 
 #: src/konqmainwindow.cpp:3637
@@ -920,12 +922,7 @@ msgstr "Kòpérëjë &lopczi..."
 msgid "M&ove Files..."
 msgstr "&Przeniesë lopczi..."
 
-#: src/konqmainwindow.cpp:4243
-#, kde-format
-msgid "&Save View Profile \"%1\"..."
-msgstr "&Zapiszë profil wëzdrzatkù \"%1\"..."
-
-#: src/konqmainwindow.cpp:4451
+#: src/konqmainwindow.cpp:4448
 msgid ""
 "You have requested to open more than 20 bookmarks in tabs. This might take a "
 "while. Continue?"
@@ -933,63 +930,63 @@ msgstr ""
 "Chcesz òtemknąc wicy jakno 20 załóżków w kôrtach. To mòże kąsk dérowac. Jisc "
 "dali?"
 
-#: src/konqmainwindow.cpp:4453
+#: src/konqmainwindow.cpp:4450
 msgid "Open bookmarks folder in new tabs"
 msgstr "Òtemkni katalog załóżków w nowich kôrtach"
 
-#: src/konqmainwindow.cpp:4619
+#: src/konqmainwindow.cpp:4616
 msgid "Open in T&his Window"
 msgstr "Òtemkni w &tim òknie"
 
-#: src/konqmainwindow.cpp:4620
+#: src/konqmainwindow.cpp:4617
 msgid "Open the document in current window"
 msgstr "Òtemkni dokùment w tim òknie"
 
-#: src/konqmainwindow.cpp:4626 src/konqhistoryview.cpp:60
+#: src/konqmainwindow.cpp:4623 src/konqhistoryview.cpp:60
 #: sidebar/web_module/web_module.h:54
 msgid "Open in New &Window"
 msgstr "Òtemkni w nowim ò&knie"
 
-#: src/konqmainwindow.cpp:4627
+#: src/konqmainwindow.cpp:4624
 msgid "Open the document in a new window"
 msgstr "Òtemkni dokùment w nowim òknie"
 
-#: src/konqmainwindow.cpp:4633
+#: src/konqmainwindow.cpp:4630
 msgid "Open in &New Tab"
 msgstr "Òtemkni w &nowi karce"
 
-#: src/konqmainwindow.cpp:4635
+#: src/konqmainwindow.cpp:4632
 msgid "Open the document in a new tab"
 msgstr "Òtemkni dokùment w nowi karce"
 
-#: src/konqmainwindow.cpp:4845
+#: src/konqmainwindow.cpp:4842
 msgid "&Open With"
 msgstr "Ò&temkni w"
 
-#: src/konqmainwindow.cpp:4859
+#: src/konqmainwindow.cpp:4856
 #, kde-format
 msgid "Open with %1"
 msgstr "Òtemkni w %1"
 
-#: src/konqmainwindow.cpp:4905
+#: src/konqmainwindow.cpp:4902
 msgctxt "@action:inmenu View"
 msgid "&View Mode"
 msgstr "Ôrt &wëzdrzatkù"
 
-#: src/konqmainwindow.cpp:5024
+#: src/konqmainwindow.cpp:5021
 msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr "W tim òknie je òtemkłëch wiele kôrtów. Na gwës zakùńczëc?"
 
-#: src/konqmainwindow.cpp:5026 src/konqviewmanager.cpp:1387
+#: src/konqmainwindow.cpp:5023 src/konqviewmanager.cpp:1387
 msgid "Confirmation"
 msgstr "Pòcwierdzenié"
 
-#: src/konqmainwindow.cpp:5028
+#: src/konqmainwindow.cpp:5025
 msgid "C&lose Current Tab"
 msgstr "Zamkni &aktualną kôrtã"
 
-#: src/konqmainwindow.cpp:5061
+#: src/konqmainwindow.cpp:5058
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
@@ -997,7 +994,7 @@ msgstr ""
 "Na kôrta zamëkô w se jesz nie wësłóné zmianë.\n"
 "Zamëkając to òknò niechôsz te zmianë."
 
-#: src/konqmainwindow.cpp:5062
+#: src/konqmainwindow.cpp:5059
 msgid ""
 "This page contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
@@ -1005,36 +1002,36 @@ msgstr ""
 "Na starna zamëkô w se jesz ni wësłóné zmianë.\n"
 "Zamëkając to òknò niechôsz te zmianë."
 
-#: src/konqmainwindow.cpp:5103 src/konqmainwindow.cpp:5163
+#: src/konqmainwindow.cpp:5100 src/konqmainwindow.cpp:5160
 #: src/konqclosedwindowsmanager.cpp:418
 msgid "no name"
 msgstr "bez miona"
 
-#: src/konqmainwindow.cpp:5230
+#: src/konqmainwindow.cpp:5227
 msgid ""
 "Your sidebar is not functional or unavailable. A new entry cannot be added."
 msgstr ""
 "Twòjô bòcznô listew nie fùnkcjonëje abò je nieprzistãpnô. Ni mòże dodac "
 "wpisënkù."
 
-#: src/konqmainwindow.cpp:5230 src/konqmainwindow.cpp:5237
+#: src/konqmainwindow.cpp:5227 src/konqmainwindow.cpp:5234
 msgid "Web Sidebar"
 msgstr "Sécowô bòcznô listew"
 
-#: src/konqmainwindow.cpp:5235
+#: src/konqmainwindow.cpp:5232
 #, kde-format
 msgid "Add new web extension \"%1\" to your sidebar?"
 msgstr "Dodac nowé sécowé rozszérzenié \"%1\" do twòji bòczni listewë?"
 
-#: src/konqmainwindow.cpp:5237
+#: src/konqmainwindow.cpp:5234
 msgid "Add"
 msgstr "Dodôj"
 
-#: src/konqmainwindow.cpp:5237
+#: src/konqmainwindow.cpp:5234
 msgid "Do Not Add"
 msgstr "Nie dodôwôj"
 
-#: src/konqmainwindow.cpp:5534
+#: src/konqmainwindow.cpp:5531
 #, kde-format
 msgid ""
 "There appears to be a configuration error. You have associated Konqueror "
@@ -1727,12 +1724,19 @@ msgid ""
 msgstr "Akùratnô dokùmentacëjô Konquerora nachôdô sã <a href=\"%1\">tuwò</a>."
 
 #: about/konq_aboutpage.cc:159
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "<em>Tuning Tip:</em> If you want the Konqueror web browser to start "
+#| "faster, you can turn off this information screen by clicking <a href=\"%1"
+#| "\">here</a>. You can re-enable it by choosing the Help -> Konqueror "
+#| "Introduction menu option, and then pressing Settings -> Save View Profile "
+#| "\"Web Browsing\"."
 msgid ""
 "<em>Tuning Tip:</em> If you want the Konqueror web browser to start faster, "
 "you can turn off this information screen by clicking <a href=\"%1\">here</"
 "a>. You can re-enable it by choosing the Help -> Konqueror Introduction menu "
-"option, and then pressing Settings -> Save View Profile \"Web Browsing\"."
+"option, and then pressing Settings -> Save View Profile As... -> \"Web "
+"Browsing\"."
 msgstr ""
 "<em>Dopasowanié:</em> Jeżlë chcesz przërëchlëc zrëszanié Konquerora, mòżesz "
 "wëłączëc tã wëdowiédzã, klëkając <a HREF=\"%1\">tuwò</a>. Bë jã doprowôdzëc "
@@ -2482,6 +2486,9 @@ msgid ""
 msgstr ""
 "Jeżlë prôwdzëwi, òbczas òtmëkaniô sesëjów z bënë dialogòwégò òkna sesëjów, "
 "kôrtë bãdą òtemkniãté bënë biéżnégò òkna."
+
+#~ msgid "&Save View Profile \"%1\"..."
+#~ msgstr "&Zapiszë profil wëzdrzatkù \"%1\"..."
 
 #~ msgid "Configure Navigation Panel"
 #~ msgstr "Kònfigùracëjô nawigacjowi listwë"
