@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-06 06:47+0100\n"
+"POT-Creation-Date: 2009-12-07 06:20+0100\n"
 "PO-Revision-Date: 2009-10-19 16:57+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kaszubski <i18n-csb@linuxcsb.org>\n"
@@ -1067,7 +1067,7 @@ msgstr "&Pòdmieni lëstã graniô"
 
 #: context/applets/albums/AlbumsView.cpp:115
 #: browsers/filebrowser/MyDirOperator.cpp:274
-#: playlist/view/PlaylistViewCommon.cpp:135
+#: playlist/view/PlaylistViewCommon.cpp:198
 msgid "Edit Track Details"
 msgstr "Editëjë detale sztëczka"
 
@@ -2181,16 +2181,16 @@ msgctxt "When this track was last played"
 msgid "Never"
 msgstr "Nigdë"
 
-#: dialogs/TagDialog.cpp:1042
+#: dialogs/TagDialog.cpp:1045
 msgid "Collection:"
 msgstr "Kòlekcëjô:"
 
-#: dialogs/TagDialog.cpp:1043
+#: dialogs/TagDialog.cpp:1047
 msgctxt "The collection this track is part of"
 msgid "None"
 msgstr "Felënk"
 
-#: dialogs/TagDialog.cpp:1165
+#: dialogs/TagDialog.cpp:1170
 #, kde-format
 msgctxt "The amount of tracks being edited"
 msgid "1 Track"
@@ -2199,7 +2199,7 @@ msgstr[0] "Wëdowiédzô dlô %1 sztëczka"
 msgstr[1] "Wëdowiédzô dlô %1 sztëczków"
 msgstr[2] "Wëdowiédzô dlô %1 sztëczków"
 
-#: dialogs/TagDialog.cpp:1295
+#: dialogs/TagDialog.cpp:1300
 #, kde-format
 msgid "Editing 1 file"
 msgid_plural "Editing %1 files"
@@ -2207,23 +2207,23 @@ msgstr[0] "Editëjë 1 lopk"
 msgstr[1] "Editëjë %1 lopczi"
 msgstr[2] "Editëjë %1 lopków"
 
-#: dialogs/TagDialog.cpp:1300
+#: dialogs/TagDialog.cpp:1305
 msgid "Rated Songs:"
 msgstr "Notowanié sztëcczi"
 
-#: dialogs/TagDialog.cpp:1302
+#: dialogs/TagDialog.cpp:1307
 msgid "Average Rating:"
 msgstr "Strzédné notowanié:"
 
-#: dialogs/TagDialog.cpp:1304
+#: dialogs/TagDialog.cpp:1309
 msgid "Scored Songs:"
 msgstr "Pùnktowóné sztëcczi"
 
-#: dialogs/TagDialog.cpp:1306
+#: dialogs/TagDialog.cpp:1311
 msgid "Average Score:"
 msgstr "Strzédné pùnktë:"
 
-#: dialogs/TagDialog.cpp:1641
+#: dialogs/TagDialog.cpp:1646
 msgid ""
 "Writing to file failed. Please check permissions and available disc space."
 msgstr ""
@@ -4780,7 +4780,7 @@ msgstr "Achtnij biéżny sztëczk"
 msgid "Last.fm: Skip Current Track"
 msgstr "Achtnij biéżny sztëczk"
 
-#: MainWindow.cpp:864 playlist/view/PlaylistViewCommon.cpp:67
+#: MainWindow.cpp:864 playlist/view/PlaylistViewCommon.cpp:106
 msgid "Queue Track"
 msgstr "Régùjë sztëczk"
 
@@ -8361,7 +8361,7 @@ msgstr "Ladowanié bazë pòdôwków katalogù podcasta"
 msgid "Updating the local Podcast database."
 msgstr "Zakutalnianié môlowi bazë podcastów"
 
-#: services/opmldirectory/OpmlDirectoryService.cpp:221
+#: services/opmldirectory/OpmlDirectoryService.cpp:220
 #, kde-format
 msgctxt ""
 "This string is the first part of the following example phrase: Podcast "
@@ -8372,7 +8372,7 @@ msgstr[0] "Katalog podcasta je ju fardich. Dodóno 1 zdrój w"
 msgstr[1] "Katalog podcasta je ju fardich. Dodóno %1 zdróje w"
 msgstr[2] "Katalog podcasta je ju fardich. Dodóno %1 zdrójów w"
 
-#: services/opmldirectory/OpmlDirectoryService.cpp:226
+#: services/opmldirectory/OpmlDirectoryService.cpp:225
 #, kde-format
 msgctxt ""
 "This string is the second part of the following example phrase: Podcast "
@@ -8799,7 +8799,7 @@ msgstr ""
 msgid "Add to Magnatune.com &favorites"
 msgstr "Ladowanié twòji nôlepszi starnë Magnatune..."
 
-#: services/magnatune/MagnatuneDownloadInfo.cpp:230
+#: services/magnatune/MagnatuneDownloadInfo.cpp:209
 #, kde-format
 msgid ""
 "Redownload of a previously purchased album \"%1\" by \"%2\" from Magnatune."
@@ -8809,29 +8809,29 @@ msgid ""
 "Password: %4\n"
 msgstr ""
 
-#: services/magnatune/MagnatuneAlbumDownloader.cpp:70
+#: services/magnatune/MagnatuneAlbumDownloader.cpp:64
 #, fuzzy, kde-format
 #| msgid "Downloading Magnatune.com Database"
 msgid "Downloading '%1' by %2 from Magnatune.com"
 msgstr "Ladowanié bazë pòdôwków Magnatune"
 
-#: services/magnatune/MagnatuneAlbumDownloader.cpp:72
+#: services/magnatune/MagnatuneAlbumDownloader.cpp:66
 #, fuzzy
 #| msgid "Purchase Album from Magnatune.com"
 msgid "Downloading album from Magnatune.com"
 msgstr "Kùpi albùm w Magnatune.com"
 
-#: services/magnatune/MagnatuneAlbumDownloader.cpp:101
+#: services/magnatune/MagnatuneAlbumDownloader.cpp:95
 msgid "Magnatune download seems to have failed. Cannot read zip file"
 msgstr ""
 
-#: services/magnatune/MagnatuneAlbumDownloader.cpp:110
+#: services/magnatune/MagnatuneAlbumDownloader.cpp:104
 #, fuzzy
 #| msgid "Loading Magnatune.com frontpage..."
 msgid "Uncompressing Magnatune.com download..."
 msgstr "Ladowanié przédny starnë Magnatune..."
 
-#: services/magnatune/MagnatuneAlbumDownloader.cpp:135
+#: services/magnatune/MagnatuneAlbumDownloader.cpp:128
 msgid "Adding album cover to collection"
 msgstr "Dodôj òbkłôdkã albùmù do kòlekcëji"
 
@@ -8868,25 +8868,7 @@ msgstr[0] "1 artista."
 msgstr[1] "%1 artistów."
 msgstr[2] "%1 artistów."
 
-#: services/magnatune/MagnatuneRedownloadHandler.cpp:59
-msgid "No purchases found."
-msgstr "Nie je nalazłé niżódné zamówienié."
-
-#: services/magnatune/MagnatuneRedownloadHandler.cpp:60
-msgid "No previous purchases have been found. Nothing to re-download...."
-msgstr ""
-
-#: services/magnatune/MagnatuneRedownloadHandler.cpp:140
-msgid "Could not re-download album"
-msgstr "Ni mòże znladowac znowa albùmù"
-
-#: services/magnatune/MagnatuneRedownloadHandler.cpp:141
-msgid "There seems to be a problem with the selected re-download info file."
-msgstr ""
-"Wëzdrzi na to, że je probléma z wëbrónym wëdowiédnym lopkã ò pònownym "
-"zladënkù."
-
-#: services/magnatune/MagnatuneRedownloadHandler.cpp:214
+#: services/magnatune/MagnatuneRedownloadHandler.cpp:150
 msgid "Getting list of previous Magnatune.com purchases"
 msgstr ""
 
@@ -8932,7 +8914,7 @@ msgstr "Ladowanié bazë pòdôwków Magnatune"
 msgid "Updating the local Magnatune database."
 msgstr "Zaktualnianié môlowi bazë pòdôwków Magnatune."
 
-#: services/magnatune/MagnatuneStore.cpp:627
+#: services/magnatune/MagnatuneStore.cpp:626
 #, c-format
 msgid ""
 "The Magnatune.com service accepts the following messages: \n"
@@ -8942,23 +8924,23 @@ msgid ""
 "with %%20"
 msgstr ""
 
-#: services/magnatune/MagnatuneStore.cpp:638
+#: services/magnatune/MagnatuneStore.cpp:637
 msgid "ERROR: No arguments supplied"
 msgstr "FELA: Nie są pòdóné niżódné argùmentë"
 
-#: services/magnatune/MagnatuneStore.cpp:643
+#: services/magnatune/MagnatuneStore.cpp:642
 msgid "ERROR: Wrong number of arguments for addMoodyTracks"
 msgstr "FELA: Lëchô lëczba argùmentów dlô addMoodyTracks"
 
-#: services/magnatune/MagnatuneStore.cpp:653
+#: services/magnatune/MagnatuneStore.cpp:652
 msgid "ERROR: Parse error for argument 2 ( count )"
 msgstr "FELA: Fela parosowaniô dlô 2 argùmentu (rechòwanié )"
 
-#: services/magnatune/MagnatuneStore.cpp:657
+#: services/magnatune/MagnatuneStore.cpp:656
 msgid "ok"
 msgstr "ok"
 
-#: services/magnatune/MagnatuneStore.cpp:660
+#: services/magnatune/MagnatuneStore.cpp:659
 msgid "ERROR: Unknown argument."
 msgstr "FELA: Nieznóny argùment."
 
@@ -8987,26 +8969,26 @@ msgstr "Przerobiónié zladënkù"
 msgid "Processing Payment"
 msgstr "Przerabianié płatnoscë"
 
-#: services/magnatune/MagnatunePurchaseHandler.cpp:229
+#: services/magnatune/MagnatunePurchaseHandler.cpp:232
 msgid "check the gift card code"
 msgstr "sprôwdzë kòd kartë z prezentã"
 
-#: services/magnatune/MagnatunePurchaseHandler.cpp:231
+#: services/magnatune/MagnatunePurchaseHandler.cpp:234
 msgid "check the credit card information"
 msgstr "sprôwdzë jinfòrmacëje kreditowi kartë"
 
-#: services/magnatune/MagnatunePurchaseHandler.cpp:235
+#: services/magnatune/MagnatunePurchaseHandler.cpp:238
 #, kde-format
 msgid ""
 "There seems to be an error in the information entered (%1), please try "
 "again\n"
 msgstr ""
 
-#: services/magnatune/MagnatunePurchaseHandler.cpp:235
+#: services/magnatune/MagnatunePurchaseHandler.cpp:238
 msgid "Could not process payment"
 msgstr "Ni mògã przeprowadzëc procesu płaceniô"
 
-#: services/magnatune/MagnatunePurchaseHandler.cpp:241
+#: services/magnatune/MagnatunePurchaseHandler.cpp:244
 msgid ""
 "There seems to be an error in the supplied membership information. Please "
 "correct this and try again."
@@ -9014,7 +8996,7 @@ msgstr ""
 "We wpisóny jinfòrmacëji nôleżnika je fela. Proszã jã pòprawic ë spróbòawc "
 "znôù."
 
-#: services/magnatune/MagnatunePurchaseHandler.cpp:241
+#: services/magnatune/MagnatunePurchaseHandler.cpp:244
 msgid "Could not process download"
 msgstr "Ni mògã przeprowadzëc procesu zladënkù"
 
@@ -9274,19 +9256,25 @@ msgstr ""
 msgid "Ok"
 msgstr "Ok"
 
-#: playlist/view/PlaylistViewCommon.cpp:60
+#: playlist/view/PlaylistViewCommon.cpp:48
+#, fuzzy
+#| msgid "Album"
+msgid " Album"
+msgstr "Albùm"
+
+#: playlist/view/PlaylistViewCommon.cpp:99
 msgid "Stop Playing After This Track"
 msgstr "Wëłączë pò tim sztëczkù"
 
-#: playlist/view/PlaylistViewCommon.cpp:67
+#: playlist/view/PlaylistViewCommon.cpp:106
 msgid "Dequeue Track"
 msgstr "Wërégùjë sztëczk"
 
-#: playlist/view/PlaylistViewCommon.cpp:78
+#: playlist/view/PlaylistViewCommon.cpp:117
 msgid "Remove From Playlist"
 msgstr "Rëmôj z lëstë graniô"
 
-#: playlist/view/PlaylistViewCommon.cpp:129
+#: playlist/view/PlaylistViewCommon.cpp:181
 msgid "Select Source"
 msgstr "Wëbiérk fòrmatu"
 
@@ -10594,6 +10582,17 @@ msgstr "Dodôj ë &grôj"
 #: TrayIcon.cpp:224
 msgid "&Queue Track"
 msgstr "&Régùjë sztëczk"
+
+#~ msgid "No purchases found."
+#~ msgstr "Nie je nalazłé niżódné zamówienié."
+
+#~ msgid "Could not re-download album"
+#~ msgstr "Ni mòże znladowac znowa albùmù"
+
+#~ msgid "There seems to be a problem with the selected re-download info file."
+#~ msgstr ""
+#~ "Wëzdrzi na to, że je probléma z wëbrónym wëdowiédnym lopkã ò pònownym "
+#~ "zladënkù."
 
 #, fuzzy
 #~| msgid "Authors"
