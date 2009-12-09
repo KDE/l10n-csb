@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalgebra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-26 06:18+0100\n"
+"POT-Creation-Date: 2009-12-09 07:57+0100\n"
 "PO-Revision-Date: 2008-01-02 18:44+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -27,6 +27,7 @@ msgid ""
 msgstr "Fela: %1"
 
 #: src/console.cpp:141 src/functionsmodel.cpp:75 src/variablesmodel.cpp:86
+#: analitzagui/operatorsmodel.cpp:79
 msgctxt "@title:column"
 msgid "Name"
 msgstr "Miono"
@@ -496,6 +497,287 @@ msgstr ""
 msgid "Apply"
 msgstr ""
 
+#: analitzagui/operatorsmodel.cpp:82
+msgctxt "@title:column"
+msgid "Description"
+msgstr "òpisënk"
+
+#: analitzagui/operatorsmodel.cpp:85
+msgctxt "@title:column"
+msgid "Parameters"
+msgstr "Paramétrë"
+
+#: analitzagui/operatorsmodel.cpp:88
+msgctxt "@title:column"
+msgid "Example"
+msgstr ""
+
+#: analitzagui/operatorsmodel.cpp:121
+#, kde-format
+msgid "%1("
+msgstr "%1("
+
+#: analitzagui/operatorsmodel.cpp:124
+#, fuzzy, kde-format
+#| msgid "%1... parameters, ...)"
+msgid "%1... parameters, ...%2)"
+msgstr "%1... paramétrë, ...)"
+
+#: analitzagui/operatorsmodel.cpp:127
+#, kde-format
+msgid "par%1"
+msgstr "par%1"
+
+#: analitzagui/operatorsmodel.cpp:140
+msgid "Addition"
+msgstr "Dodôwanié"
+
+#: analitzagui/operatorsmodel.cpp:143
+msgid "Multiplication"
+msgstr "Wielenié"
+
+#: analitzagui/operatorsmodel.cpp:146
+msgid "Division"
+msgstr "Dzelenié"
+
+#: analitzagui/operatorsmodel.cpp:149
+msgid "Subtraction"
+msgstr "Òdjimanié"
+
+#: analitzagui/operatorsmodel.cpp:152
+msgid "Power"
+msgstr "Zwielëna"
+
+#: analitzagui/operatorsmodel.cpp:155
+msgid "Remainder"
+msgstr "Reszta"
+
+#: analitzagui/operatorsmodel.cpp:158
+msgid "Quotient"
+msgstr "Dzél"
+
+#: analitzagui/operatorsmodel.cpp:161
+msgid "The factor of"
+msgstr "Dzélnik"
+
+#: analitzagui/operatorsmodel.cpp:164
+msgid "Factorial. factorial(n)=n!"
+msgstr "Sëlnia, sëlnia(n)=n!"
+
+#: analitzagui/operatorsmodel.cpp:167
+msgid "Function to calculate the sine of a given angle"
+msgstr "Fùnkcjô do rëchòwaniô synusa dónégò nórtu"
+
+#: analitzagui/operatorsmodel.cpp:170
+msgid "Function to calculate the cosine of a given angle"
+msgstr "Fùnkcjô do rëchòwaniô kòsynusa dónégò nórtu"
+
+#: analitzagui/operatorsmodel.cpp:173
+msgid "Function to calculate the tangent of a given angle"
+msgstr "Fùnkcjô do rëchòwaniô tangenta dónégò nórtu"
+
+#: analitzagui/operatorsmodel.cpp:176
+msgid "Secant"
+msgstr "Sekans"
+
+#: analitzagui/operatorsmodel.cpp:179
+msgid "Cosecant"
+msgstr "Kòsekans"
+
+#: analitzagui/operatorsmodel.cpp:182
+msgid "Cotangent"
+msgstr "Kòtangens"
+
+#: analitzagui/operatorsmodel.cpp:185
+msgid "Hyperbolic sine"
+msgstr "Hiperbòlikòwi synus"
+
+#: analitzagui/operatorsmodel.cpp:188
+msgid "Hyperbolic cosine"
+msgstr "Hiperbòlikòwi kòsynus"
+
+#: analitzagui/operatorsmodel.cpp:191
+msgid "Hyperbolic tangent"
+msgstr "Hiperbòlikòwi tangens"
+
+#: analitzagui/operatorsmodel.cpp:194
+msgid "Hyperbolic secant"
+msgstr "Hiperbòlikòwi sekans"
+
+#: analitzagui/operatorsmodel.cpp:197
+msgid "Hyperbolic cosecant"
+msgstr "Hiperbòlikòwi kòsekans"
+
+#: analitzagui/operatorsmodel.cpp:200
+msgid "Hyperbolic cotangent"
+msgstr "Hiperbòlikòwi kòtangtens"
+
+#: analitzagui/operatorsmodel.cpp:203
+msgid "Arc sine"
+msgstr "Arkùs synus"
+
+#: analitzagui/operatorsmodel.cpp:206
+msgid "Arc cosine"
+msgstr "Arkùs kòsynus"
+
+#: analitzagui/operatorsmodel.cpp:209
+msgid "Arc tangent"
+msgstr "Arkùs tangens"
+
+#: analitzagui/operatorsmodel.cpp:212
+msgid "Arc cotangent"
+msgstr "Arkùs kòtangens"
+
+#: analitzagui/operatorsmodel.cpp:218
+msgid "Hyperbolic arc tangent"
+msgstr "Hiperbòlikòwi arkùs tangens"
+
+#: analitzagui/operatorsmodel.cpp:221
+msgid "Summatory"
+msgstr "Pòdrëchùjący"
+
+#: analitzagui/operatorsmodel.cpp:224
+msgid "Productory"
+msgstr "Wielący"
+
+#: analitzagui/operatorsmodel.cpp:227
+msgid "Differentiation"
+msgstr "Òdprôwôdnô"
+
+#: analitzagui/operatorsmodel.cpp:230
+msgid "Hyperbolic arc sine"
+msgstr "Hiperbòlikòwi arkùs synus"
+
+#: analitzagui/operatorsmodel.cpp:233
+msgid "Hyperbolic arc cosine"
+msgstr "Hiperbòlikòwi arkùs kòsynus"
+
+#: analitzagui/operatorsmodel.cpp:236
+msgid "Arc cosecant"
+msgstr "Arkùs kòsekans"
+
+#: analitzagui/operatorsmodel.cpp:239
+msgid "Hyperbolic arc cosecant"
+msgstr "Hiperbòlikòwi arkùs kòsekans"
+
+#: analitzagui/operatorsmodel.cpp:242
+msgid "Arc secant"
+msgstr "Arkùs sekans"
+
+#: analitzagui/operatorsmodel.cpp:245
+msgid "Hyperbolic arc secant"
+msgstr "Hiperbòlikòwi arkùs kòsekans"
+
+#: analitzagui/operatorsmodel.cpp:248
+msgid "Exponent (e^x)"
+msgstr "Pòkôzywôczowô fùnkcjô (e^x)"
+
+#: analitzagui/operatorsmodel.cpp:251
+msgid "Base-e logarithm"
+msgstr "Naturalny logaritm"
+
+#: analitzagui/operatorsmodel.cpp:254
+msgid "Base-10 logarithm"
+msgstr "Dzesãtny logaritm"
+
+#: analitzagui/operatorsmodel.cpp:257
+msgid "Absolute value. abs(n)=|n|"
+msgstr "Absolutnô wôrtnota. abs(n)=|n|"
+
+#: analitzagui/operatorsmodel.cpp:272
+msgid "Floor value. floor(n)=⌊n⌋"
+msgstr "Zaòkrãglënié w dół. floor(n)=⌊n⌋"
+
+#: analitzagui/operatorsmodel.cpp:275
+msgid "Ceil value. ceil(n)=⌈n⌉"
+msgstr "Zaòkrãglënié w górã. ceil(n)=⌊n⌋"
+
+#: analitzagui/operatorsmodel.cpp:278
+msgid "Minimum"
+msgstr "Minimum"
+
+#: analitzagui/operatorsmodel.cpp:281
+msgid "Maximum"
+msgstr "Maksimum"
+
+#: analitzagui/operatorsmodel.cpp:284
+msgid "Greater than. gt(a,b)=a>b"
+msgstr "Wiksze jak. gt(a,b)=a>b"
+
+#: analitzagui/operatorsmodel.cpp:287
+msgid "Less than. lt(a,b)=a<b"
+msgstr "Mniésze jak. lt(a,b)=a<b"
+
+#: analitzagui/operatorsmodel.cpp:290
+msgid "Equal. eq(a,b) = a=b"
+msgstr "Równe. eq(a,b) = a=b"
+
+#: analitzagui/operatorsmodel.cpp:293
+#, fuzzy
+#| msgid "Approximation approx(a)=a±n"
+msgid "Approximation. approx(a)=a±n"
+msgstr "Przëkrodzenié approx(a)=a±n"
+
+#: analitzagui/operatorsmodel.cpp:296
+msgid "Not equal. neq(a,b)=a≠b"
+msgstr "Nie równe. neq(a,b)=a≠b"
+
+#: analitzagui/operatorsmodel.cpp:299
+msgid "Greater or equal. geq(a,b)=a≥b"
+msgstr "Wiksze abò równe. geq(a,b)=a≥b"
+
+#: analitzagui/operatorsmodel.cpp:302
+msgid "Less or equal. leq(a,b)=a≤b"
+msgstr "Mniésze abò równe. leq(a,b)=a≤b"
+
+#: analitzagui/operatorsmodel.cpp:305
+msgid "Boolean and"
+msgstr "Logiczné ë"
+
+#: analitzagui/operatorsmodel.cpp:308
+msgid "Boolean not"
+msgstr "Logiczné nié"
+
+#: analitzagui/operatorsmodel.cpp:311
+msgid "Boolean or"
+msgstr "Logiczné abò"
+
+#: analitzagui/operatorsmodel.cpp:314
+msgid "Boolean xor"
+msgstr "logiczné xabò (xor)"
+
+#: analitzagui/operatorsmodel.cpp:317
+msgid "Boolean implication"
+msgstr "Logiczné nastãpstwò"
+
+#: analitzagui/operatorsmodel.cpp:320
+msgid "Greatest common divisor"
+msgstr "Nôwikszi wespólny dzélnik"
+
+#: analitzagui/operatorsmodel.cpp:323
+msgid "Least common multiple"
+msgstr "Nômniészô wespólnô wielenô"
+
+#: analitzagui/operatorsmodel.cpp:326
+msgid "Root"
+msgstr "Pierwińc"
+
+#: analitzagui/operatorsmodel.cpp:329
+msgid "Cardinal"
+msgstr ""
+
+#: analitzagui/operatorsmodel.cpp:332
+msgid "Scalar product"
+msgstr ""
+
+#: analitzagui/operatorsmodel.cpp:335
+msgid "Select an element from a container"
+msgstr ""
+
+#: analitzagui/operatorsmodel.cpp:338
+msgid "Joins several items of the same type"
+msgstr ""
+
 #: analitza/analitza.cpp:80 analitza/analitza.cpp:91
 msgid "Must specify a correct operation"
 msgstr ""
@@ -761,201 +1043,6 @@ msgstr ""
 #, kde-format
 msgid "Could not calculate a list's %1"
 msgstr ""
-
-#~ msgctxt "@title:column"
-#~ msgid "Description"
-#~ msgstr "òpisënk"
-
-#~ msgctxt "@title:column"
-#~ msgid "Parameters"
-#~ msgstr "Paramétrë"
-
-#~ msgid "%1("
-#~ msgstr "%1("
-
-#, fuzzy
-#~| msgid "%1... parameters, ...)"
-#~ msgid "%1... parameters, ...%2)"
-#~ msgstr "%1... paramétrë, ...)"
-
-#~ msgid "par%1"
-#~ msgstr "par%1"
-
-#~ msgid "Addition"
-#~ msgstr "Dodôwanié"
-
-#~ msgid "Multiplication"
-#~ msgstr "Wielenié"
-
-#~ msgid "Division"
-#~ msgstr "Dzelenié"
-
-#~ msgid "Subtraction"
-#~ msgstr "Òdjimanié"
-
-#~ msgid "Power"
-#~ msgstr "Zwielëna"
-
-#~ msgid "Remainder"
-#~ msgstr "Reszta"
-
-#~ msgid "Quotient"
-#~ msgstr "Dzél"
-
-#~ msgid "The factor of"
-#~ msgstr "Dzélnik"
-
-#~ msgid "Factorial. factorial(n)=n!"
-#~ msgstr "Sëlnia, sëlnia(n)=n!"
-
-#~ msgid "Function to calculate the sine of a given angle"
-#~ msgstr "Fùnkcjô do rëchòwaniô synusa dónégò nórtu"
-
-#~ msgid "Function to calculate the cosine of a given angle"
-#~ msgstr "Fùnkcjô do rëchòwaniô kòsynusa dónégò nórtu"
-
-#~ msgid "Function to calculate the tangent of a given angle"
-#~ msgstr "Fùnkcjô do rëchòwaniô tangenta dónégò nórtu"
-
-#~ msgid "Secant"
-#~ msgstr "Sekans"
-
-#~ msgid "Cosecant"
-#~ msgstr "Kòsekans"
-
-#~ msgid "Cotangent"
-#~ msgstr "Kòtangens"
-
-#~ msgid "Hyperbolic sine"
-#~ msgstr "Hiperbòlikòwi synus"
-
-#~ msgid "Hyperbolic cosine"
-#~ msgstr "Hiperbòlikòwi kòsynus"
-
-#~ msgid "Hyperbolic tangent"
-#~ msgstr "Hiperbòlikòwi tangens"
-
-#~ msgid "Hyperbolic secant"
-#~ msgstr "Hiperbòlikòwi sekans"
-
-#~ msgid "Hyperbolic cosecant"
-#~ msgstr "Hiperbòlikòwi kòsekans"
-
-#~ msgid "Hyperbolic cotangent"
-#~ msgstr "Hiperbòlikòwi kòtangtens"
-
-#~ msgid "Arc sine"
-#~ msgstr "Arkùs synus"
-
-#~ msgid "Arc cosine"
-#~ msgstr "Arkùs kòsynus"
-
-#~ msgid "Arc tangent"
-#~ msgstr "Arkùs tangens"
-
-#~ msgid "Arc cotangent"
-#~ msgstr "Arkùs kòtangens"
-
-#~ msgid "Hyperbolic arc tangent"
-#~ msgstr "Hiperbòlikòwi arkùs tangens"
-
-#~ msgid "Summatory"
-#~ msgstr "Pòdrëchùjący"
-
-#~ msgid "Productory"
-#~ msgstr "Wielący"
-
-#~ msgid "Differentiation"
-#~ msgstr "Òdprôwôdnô"
-
-#~ msgid "Hyperbolic arc sine"
-#~ msgstr "Hiperbòlikòwi arkùs synus"
-
-#~ msgid "Hyperbolic arc cosine"
-#~ msgstr "Hiperbòlikòwi arkùs kòsynus"
-
-#~ msgid "Arc cosecant"
-#~ msgstr "Arkùs kòsekans"
-
-#~ msgid "Hyperbolic arc cosecant"
-#~ msgstr "Hiperbòlikòwi arkùs kòsekans"
-
-#~ msgid "Arc secant"
-#~ msgstr "Arkùs sekans"
-
-#~ msgid "Hyperbolic arc secant"
-#~ msgstr "Hiperbòlikòwi arkùs kòsekans"
-
-#~ msgid "Exponent (e^x)"
-#~ msgstr "Pòkôzywôczowô fùnkcjô (e^x)"
-
-#~ msgid "Base-e logarithm"
-#~ msgstr "Naturalny logaritm"
-
-#~ msgid "Base-10 logarithm"
-#~ msgstr "Dzesãtny logaritm"
-
-#~ msgid "Absolute value. abs(n)=|n|"
-#~ msgstr "Absolutnô wôrtnota. abs(n)=|n|"
-
-#~ msgid "Floor value. floor(n)=⌊n⌋"
-#~ msgstr "Zaòkrãglënié w dół. floor(n)=⌊n⌋"
-
-#~ msgid "Ceil value. ceil(n)=⌈n⌉"
-#~ msgstr "Zaòkrãglënié w górã. ceil(n)=⌊n⌋"
-
-#~ msgid "Minimum"
-#~ msgstr "Minimum"
-
-#~ msgid "Maximum"
-#~ msgstr "Maksimum"
-
-#~ msgid "Greater than. gt(a,b)=a>b"
-#~ msgstr "Wiksze jak. gt(a,b)=a>b"
-
-#~ msgid "Less than. lt(a,b)=a<b"
-#~ msgstr "Mniésze jak. lt(a,b)=a<b"
-
-#~ msgid "Equal. eq(a,b) = a=b"
-#~ msgstr "Równe. eq(a,b) = a=b"
-
-#, fuzzy
-#~| msgid "Approximation approx(a)=a±n"
-#~ msgid "Approximation. approx(a)=a±n"
-#~ msgstr "Przëkrodzenié approx(a)=a±n"
-
-#~ msgid "Not equal. neq(a,b)=a≠b"
-#~ msgstr "Nie równe. neq(a,b)=a≠b"
-
-#~ msgid "Greater or equal. geq(a,b)=a≥b"
-#~ msgstr "Wiksze abò równe. geq(a,b)=a≥b"
-
-#~ msgid "Less or equal. leq(a,b)=a≤b"
-#~ msgstr "Mniésze abò równe. leq(a,b)=a≤b"
-
-#~ msgid "Boolean and"
-#~ msgstr "Logiczné ë"
-
-#~ msgid "Boolean not"
-#~ msgstr "Logiczné nié"
-
-#~ msgid "Boolean or"
-#~ msgstr "Logiczné abò"
-
-#~ msgid "Boolean xor"
-#~ msgstr "logiczné xabò (xor)"
-
-#~ msgid "Boolean implication"
-#~ msgstr "Logiczné nastãpstwò"
-
-#~ msgid "Greatest common divisor"
-#~ msgstr "Nôwikszi wespólny dzélnik"
-
-#~ msgid "Least common multiple"
-#~ msgstr "Nômniészô wespólnô wielenô"
-
-#~ msgid "Root"
-#~ msgstr "Pierwińc"
 
 #, fuzzy
 #~| msgid "<b style='color:red'>WRONG</b>"
