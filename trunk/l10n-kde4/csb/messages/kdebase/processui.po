@@ -92,8 +92,6 @@ msgid "Resume Stopped Process"
 msgstr "Znowi wstrzëmóny proces"
 
 #: ksysguardprocesslist.cpp:174
-#| msgid "Kill Process"
-#| msgid_plural "Kill Processes"
 msgid "Kill Process..."
 msgid_plural "Kill Processes..."
 msgstr[0] "Zakùńczë proces..."
@@ -133,7 +131,6 @@ msgid "User 2 (USR2)"
 msgstr "Brëkòwnika 2 (USR2)"
 
 #: ksysguardprocesslist.cpp:188
-#| msgid "Quick search"
 msgid "Focus on Quick Search"
 msgstr "Zblëżenié na chùtką szëkbã"
 
@@ -391,22 +388,6 @@ msgstr ""
 #. i18n: file: ProcessWidgetUI.ui:41
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btnKillProcess)
 #: rc.cpp:44 rc.cpp:293
-#| msgid ""
-#| "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#| "css\">\n"
-#| "p, li { white-space: pre-wrap; }\n"
-#| "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#| "font-weight:400; font-style:normal;\">\n"
-#| "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#| "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-#| "weight:600;\">Idle Scheduling</span></p>\n"
-#| "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#| "right:0px; -qt-block-indent:0; text-indent:0px;\">A  program running with "
-#| "<span style=\" font-weight:600;\">Idle</span> I/O priority will only get "
-#| "disk time when no other program has asked for disk I/O for a defined "
-#| "grace period. The impact of <span style=\" font-weight:600;\">Idle</span> "
-#| "I/O processes on normal system activity should be zero. Priority is not "
-#| "applicable to this scheduling class.</p></body></html>"
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -441,16 +422,14 @@ msgstr ""
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:"
 "italic;\">Technische Informationen: </span><br />Sygnał SIGTERM bãdze  "
 "wësłony do wëbrónegò procesu. Jeżlë nié môsz dosc prawa dlô negò dzejaniô,  "
-"bãdzesz spëtóny ò parolã.<br />Brëkùjąc programã  "
-"<span style=\" font-family:'Courier New,courier';\">polkit-kde-"
-"authorization</span> mòżesz wëbrac brëkòwników z prawama zakùńczeniô "
-"procesu, bez mùszebnotë pòdôwaniô parolë.</p></"
-"body></html>"
+"bãdzesz spëtóny ò parolã.<br />Brëkùjąc programã  <span style=\" font-"
+"family:'Courier New,courier';\">polkit-kde-authorization</span> mòżesz "
+"wëbrac brëkòwników z prawama zakùńczeniô procesu, bez mùszebnotë pòdôwaniô "
+"parolë.</p></body></html>"
 
 #. i18n: file: ProcessWidgetUI.ui:44
 #. i18n: ectx: property (text), widget (QPushButton, btnKillProcess)
 #: rc.cpp:52 rc.cpp:301
-#| msgid "&Kill Process"
 msgid "&Kill Process..."
 msgstr "&Zakùńczë proces..."
 
@@ -1278,14 +1257,14 @@ msgid_plural ""
 "The current total CPU usage of the process, divided by the %1 processor "
 "cores in the machine."
 msgstr[0] ""
-"Aktualny brëkùnk procesów w CPU, pòdzelony przez  %1 jądro procesora "
-"w kòmpùtrze."
+"Aktualny brëkùnk procesów w CPU, pòdzelony przez  %1 jądro procesora w "
+"kòmpùtrze."
 msgstr[1] ""
-"Aktualny brëkùnk procesów w CPU, pòdzelony przez  %1 jądra procesora "
-"w kòmpùtrze."
+"Aktualny brëkùnk procesów w CPU, pòdzelony przez  %1 jądra procesora w "
+"kòmpùtrze."
 msgstr[2] ""
-"Aktualny brëkùnk procesów w CPU, pòdzelony przez  %1 jądrów procesora "
-"w kòmpùtrze."
+"Aktualny brëkùnk procesów w CPU, pòdzelony przez  %1 jądrów procesora w "
+"kòmpùtrze."
 
 #: ProcessModel.cc:692
 msgid "The current total CPU usage of the process."
@@ -1297,9 +1276,9 @@ msgid ""
 "included shared libraries, graphics memory, files on disk, and so on. This "
 "number is almost meaningless.</qt>"
 msgstr ""
-"<qt>To wielëna wirtualny pamiãcë brëkòwóny przez nen proces, "
-"do grëpë z bibloekama, pamiãcą graficzi, lopków na diskù ët.p.  "
-"Na wielëna nié mô za wiôldżegò zanczeniô.</qt>"
+"<qt>To wielëna wirtualny pamiãcë brëkòwóny przez nen proces, do grëpë z "
+"bibloekama, pamiãcą graficzi, lopków na diskù ët.p.  Na wielëna nié mô za "
+"wiôldżegò zanczeniô.</qt>"
 
 #: ProcessModel.cc:697
 msgid ""
@@ -1537,8 +1516,8 @@ msgid ""
 "<b>KThreadd</b> manages kernel threads. The children processes run in the "
 "kernel, controlling hard disk access, etc.<br/>"
 msgstr ""
-"<b>KThreadd</b> sprôwiô jądrã threads. Ne procesë robią w jądrze,"
-"kònrtolëją przëstãpã do cwiardi platë ët.p.<br/>"
+"<b>KThreadd</b> sprôwiô jądrã threads. Ne procesë robią w jądrze,kònrtolëją "
+"przëstãpã do cwiardi platë ët.p.<br/>"
 
 #: ProcessModel.cc:1080
 #, kde-format
@@ -1553,9 +1532,8 @@ msgid ""
 "<b>%1</b><br />Process ID: <numid>%2</numid><br />Parent: %3<br />Parent's "
 "ID: <numid>%4</numid>"
 msgstr ""
-"<b>%1</b><br />Numer ID procesu: <numid>%2</numid><br />Wëższi proces: %3<br "
-"/> "
-"Numer ID wëższegò procesu: <numid>%4</numid>"
+"<b>%1</b><br />Numer ID procesu: <numid>%2</numid><br />Wëższi proces: %"
+"3<br /> Numer ID wëższegò procesu: <numid>%4</numid>"
 
 #: ProcessModel.cc:1087
 #, kde-format
@@ -1565,8 +1543,7 @@ msgid ""
 "numid>"
 msgstr ""
 "<b>%1</b><br />Numer ID procesu: <numid>%2</numid><br />Numer ID wëższegò "
-"procesu: <numid>%3</"
-"numid>"
+"procesu: <numid>%3</numid>"
 
 #: ProcessModel.cc:1091
 #, kde-format
@@ -1619,8 +1596,8 @@ msgid ""
 "<qt><p style='white-space:pre'>Process status: %1 %2<br />User CPU usage: %3%"
 "<br />System CPU usage: %4%"
 msgstr ""
-"<qt><p style='white-space:pre'>Status procesu: %1 %2<br />Brëkùnk CPU"
-"przez brëkòwnika: %3 %<br />Brëkùnk CPU przez systemã: %4 %"
+"<qt><p style='white-space:pre'>Status procesu: %1 %2<br />Brëkùnk CPUprzez "
+"brëkòwnika: %3 %<br />Brëkùnk CPU przez systemã: %4 %"
 
 #: ProcessModel.cc:1149
 #, kde-format
@@ -1629,8 +1606,8 @@ msgid ""
 "System CPU usage: %3%<br />Total CPU usage: %4%"
 msgstr ""
 "<br />Wielëna niższich procesów: %1<br />Całowny brëkùnk CPU przez "
-"brëkòwnika: %2 %<br /> "
-"Całowny brëkùnk CPU przez systemã: %3 %<br />Całowny brëkùnk CPU: %4 %"
+"brëkòwnika: %2 %<br /> Całowny brëkùnk CPU przez systemã: %3 %<br />Całowny "
+"brëkùnk CPU: %4 %"
 
 #: ProcessModel.cc:1158
 #, kde-format
@@ -1691,8 +1668,8 @@ msgid ""
 msgstr ""
 "Przeczëtónych céchów: %1 (%2 KiB/s)<br>Napisónych céchów: %3 (%4 KiB/s)"
 "<br>Przeczëtónych òdwòłaniów systemë: %5 (%6 s⁻¹)<br>Napisónych òdwòłaniów "
-"systemë: %7 (%8 s⁻¹)<br>Przeczëtóné bajtë: %9 (%10 KiB/s) "
-"<br>Napisóné bajtë: %11 (%12 KiB/s)"
+"systemë: %7 (%8 s⁻¹)<br>Przeczëtóné bajtë: %9 (%10 KiB/s) <br>Napisóné "
+"bajtë: %11 (%12 KiB/s)"
 
 #: ProcessModel.cc:1470
 msgctxt "process heading"
@@ -1783,4 +1760,3 @@ msgstr "%1%"
 #: ReniceDlg.cc:39
 msgid "Renice Process"
 msgstr "Zmieni prioritet procesu"
-
