@@ -4,18 +4,19 @@
 #
 # Michôł Òstrowsczi <michol@linuxcsb.org>, 2007, 2008, 2009.
 # Mark Kwidzińsczi <mark@linuxcsb.org>, 2008.
+# Mark Kwidzińśczi <mark@linuxcsb.org>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-12-11 06:05+0100\n"
-"PO-Revision-Date: 2009-06-11 10:19+0200\n"
-"Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
-"Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
+"PO-Revision-Date: 2009-12-15 00:16+0100\n"
+"Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
+"Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
@@ -82,7 +83,6 @@ msgid "Failed to contact Strigi indexer (%1)"
 msgstr "Felënk sparłãczeniô z indeksownikã Strigi (%1)"
 
 #: kcm/nepomukserverkcm.cpp:269
-#, fuzzy
 #| msgctxt "@info_status"
 #| msgid ""
 #| "Strigi service failed to initialize, most likely due to an installation "
@@ -92,10 +92,10 @@ msgid ""
 "Strigi service failed to initialize, most likely due to an installation "
 "problem."
 msgstr ""
-"Ùsługa Strigi nie mògła òstac zrëszonô, gwësno przez problem z jinstalacëją."
+"Ùsłëżnota Strigi nie mògła òstac zrëszonô, gwës przez problemã z "
+"jinstalacëją."
 
 #: kcm/nepomukserverkcm.cpp:273
-#, fuzzy
 #| msgctxt "@info_status"
 #| msgid "Strigi service not running."
 msgctxt "@info:status"
@@ -104,28 +104,28 @@ msgstr "Ùsłëżnota Strigi nie je zrëszonô."
 
 #: kioslaves/nepomuk/resourcepagegenerator.cpp:182
 msgid "Resource does not exist"
-msgstr ""
+msgstr "Nie dô dostónka"
 
 #: kioslaves/nepomuk/resourcepagegenerator.cpp:184
 msgid "Relations:"
-msgstr ""
+msgstr "Pòwiązania:"
 
 #: kioslaves/nepomuk/resourcepagegenerator.cpp:212
 msgid "Backlinks:"
-msgstr ""
+msgstr "Lënczi nazôd:"
 
 #: kioslaves/nepomuk/resourcepagegenerator.cpp:232
 msgid "Actions:"
-msgstr ""
+msgstr "Dzejania:"
 
 #: kioslaves/nepomuk/resourcepagegenerator.cpp:233
 msgid "Delete resource"
-msgstr ""
+msgstr "Rëmôj dostónk"
 
 #: kioslaves/nepomuk/kio_nepomuk.cpp:271
 msgid ""
 "Do you really want to delete the resource and all relations to and from it?"
-msgstr ""
+msgstr "Chcesz na gwës rëmnąc nen dostónk ë wszëtczé jegò pòwiązania?"
 
 #: kioslaves/nepomuk/kio_nepomuk.cpp:274
 msgid "Delete Resource"
@@ -239,16 +239,15 @@ msgstr "Włączë pùltowi indeksownik lopków Stigi"
 #. i18n: file: kcm/nepomukconfigwidget.ui:123
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: rc.cpp:26
-#, fuzzy
 #| msgid "Strigi File Indexing"
 msgid "File Indexing"
-msgstr "Indeksownik lopków Strigi"
+msgstr "Indeksownik lopków"
 
 #. i18n: file: kcm/nepomukconfigwidget.ui:129
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: rc.cpp:29
 msgid "Strigi Index Folders"
-msgstr "Indeksowóny katalog dlô Strigi"
+msgstr "Indeksowóné katalodżi Strigi"
 
 #. i18n: file: kcm/nepomukconfigwidget.ui:135
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -257,7 +256,7 @@ msgid ""
 "Select the local folders that contain files to be indexed for fast desktop "
 "searches"
 msgstr ""
-"Wëbierzr môlowi katalog, jaczégò lopczi mają òsta indeksowólné dlô szëkbë "
+"Wëbierzë môlowi katalog, chtërnegò lopczi mają òstac indeksowóné dlô szëkbë "
 "pùltu."
 
 #. i18n: file: kcm/nepomukconfigwidget.ui:148
@@ -270,7 +269,7 @@ msgstr "Sprôwdzë czë mòże wëbrac zataconé katalodżi"
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkShowHiddenFolders)
 #: rc.cpp:38
 msgid "Show hidden folders"
-msgstr "Pòkażë zataconé katalodżi"
+msgstr "Wëskrzëni zataconé katalodżi"
 
 #. i18n: file: kcm/nepomukconfigwidget.ui:158
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_checkIndexRemovableMedia)
@@ -408,7 +407,6 @@ msgstr ""
 "Pòdôwczi Nepomuka bãdą kònwertowóné do fòrmatu czérowników. To kąsk zbawi."
 
 #: services/storage/repository.cpp:267
-#, fuzzy
 #| msgctxt "@info - notification message"
 #| msgid ""
 #| "Converting Nepomuk data to the new backend failed. Data may still be "
@@ -419,7 +417,7 @@ msgid ""
 "Nepomuk will be disabled until the situation has been resolved manually."
 msgstr ""
 "Kònwertowanié pòdôwków Nepomuka do nowégò czérownika nie darzëło sã. "
-"Pòdôwczi mòże równak zjinaczëc rãczno."
+"Nepomuk bãdze wëłączony, pòdôwczi mòże równak zjinaczëc rãczno."
 
 #: services/storage/repository.cpp:281
 msgctxt "@info - notification message"
@@ -427,7 +425,6 @@ msgid "Successfully converted Nepomuk data to the new backend."
 msgstr "Ùdałé kònwertowanié pòdôwków Nepomuka dlô nowégò czérownika."
 
 #: services/storage/modelcopyjob.cpp:127
-#, fuzzy
 #| msgid "Converting Nepomuk database"
 msgctxt "@title job"
 msgid "Converting Nepomuk database"
@@ -473,22 +470,19 @@ msgid "Search Service"
 msgstr ""
 
 #: services/strigi/systray.cpp:46 services/strigi/systray.cpp:47
-#, fuzzy
 #| msgid "Suspend Strigi Indexing"
 msgid "Suspend File Indexing"
-msgstr "Zatrzëmôj indeksownika lopków Strigi"
+msgstr "Zatrzëmôj indeksowanié lopków"
 
 #: services/strigi/systray.cpp:48
-#, fuzzy
 #| msgid "Suspend or resume the Strigi file indexer manually"
 msgid "Suspend or resume the file indexer manually"
-msgstr "Rãczno zatrzëmôj abò biéj dali z indeksownikã lopków Strigi"
+msgstr "Rãczno zatrzëmôj abò biéj dali z indeksownikã lopków"
 
 #: services/strigi/systray.cpp:53
-#, fuzzy
 #| msgid "Strigi Desktop File Indexer"
 msgid "Configure File Indexer"
-msgstr "Pùltowi indeksownik lopków Stigi"
+msgstr "Kònfigùrëjë indeksownika lopków"
 
 #: services/strigi/statuswidget.cpp:53
 msgid "Configure"
@@ -507,43 +501,34 @@ msgstr[1] "%1 lopczi w indekse"
 msgstr[2] "%1 lopków w indekse"
 
 #: services/strigi/eventmonitor.cpp:70
-#, fuzzy
 #| msgid ""
 #| "Strigi file indexing started. Indexing all files for fast desktop "
 #| "searches may take a while."
 msgid "Indexing files for fast searching. This process may take a while."
-msgstr ""
-"Strigi naczął indeksowanié. Zindeksowanié wszëtczich lopków dlô chùtczi "
-"szëkbë pùltu mòże kąsk zbawic."
+msgstr "Indeksowanié lopków dlô chùtczi szëkbë. To mòże kąsk zbawic."
 
 #: services/strigi/eventmonitor.cpp:99 services/strigi/eventmonitor.cpp:131
 msgid "Resuming indexing of files for fast searching."
 msgstr ""
 
 #: services/strigi/eventmonitor.cpp:107
-#, fuzzy
 #| msgid "Suspending Strigi file indexing to preserve resources."
 msgid "Suspending the indexing of files to preserve resources."
-msgstr ""
-"Indeksowanié lopków Strigi bãdze zatrzëmóné dlô òbszczãdzenia dostónków "
-"systemë."
+msgstr "Indeksowanié lopków zatrzëmóné dlô òbszczãdzenia dostónków systemë."
 
-#: services/strigi/eventmonitor.cpp:122
-#, fuzzy, kde-format
+#: services/strigi/eventmonitor.cpp:122, kde-format
 #| msgid ""
 #| "Local disk space is running low (%1 left). Suspending Strigi file "
 #| "indexing."
 msgid "Disk space is running low (%1 left). Suspending indexing of files."
-msgstr ""
-"Môlowi plac na diskù sã kùńczi (%1 òstało). Zatrzëmanié indeksownika Strigi."
+msgstr "Plac na diskù sã kùńczi (%1 òstało). Zatrzëmanié indeksowaniô."
 
-#: services/strigi/eventmonitor.cpp:148
-#, fuzzy, kde-format
+#: services/strigi/eventmonitor.cpp:148, kde-format
 #| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
 #| msgid "Initial Desktop Search file indexing finished in %1"
 msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
 msgid "Initial indexing of files for fast searching finished in %1"
-msgstr "Pierszé indeksowanié szëkbë pùltu bãdze zakùńczoné za mni wicy %1"
+msgstr "Pierszé indeksowanié lopków dlô chùtczi szëkbë zakùńczi sã za %1"
 
 #: servicestub/main.cpp:67 servicestub/main.cpp:69
 msgid "Nepomuk Service Stub"
