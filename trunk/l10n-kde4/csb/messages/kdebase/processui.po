@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-12-14 06:44+0100\n"
-"PO-Revision-Date: 2009-12-12 19:46+0100\n"
+"PO-Revision-Date: 2009-12-14 21:35+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
 "MIME-Version: 1.0\n"
@@ -384,6 +384,9 @@ msgid ""
 "See What's This for more information.\n"
 "Right click on a process to send other signals."
 msgstr ""
+"Sélôj sygnał SIGTERM do wëbrónegò procesu.\n"
+"Òbôczë pòmòc „Céż to je“ do dobëcô wicy wëdowiédzë.\n"
+"Klëkni prawą knąpą na proces abë wësłac jinszy sygnał."
 
 #. i18n: file: ProcessWidgetUI.ui:41
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btnKillProcess)
@@ -452,6 +455,21 @@ msgid ""
 "<b>1234</b>.</td></th></tr>\n"
 "</table>\n"
 msgstr ""
+"Filtrëje jaczi proces mô bëc wëskrzëniony wedle tuwò wpisónegò tekstu. Tekst "
+"mòże bëc w dzélu równy mionie procesu, dzejaniu czë titlu òkna. Mòże téż "
+"szëkac "
+"za mionã brëkòwnika czë numerze ID procesu. <p>\n"
+"Na przëmiôr:\n"
+"\n"
+"<table>\n"
+"<tr><th>ksys</th><td>Wëskrzëniô procesë zamëkającé \"<b>ksys</b>\" w mionie, "
+"na przëmiôr proces \"<i>ksysguard</i>\" ë \"<i>ksysguardd</i>\"."
+"<td></tr>\n"
+"<tr><th>root</th><td>Wëskrzëniô procesë brëkòwnika <b>root</b>.  N.p. "
+"<i>init</i></td></tr>\n"
+"<tr><th>1234</th><td>Wëskrzëniô procesë z PID abò wëższim PID z "
+"<b>1234</b>.</td></th></tr>\n"
+"</table>\n"
 
 #. i18n: file: ProcessWidgetUI.ui:68
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, txtFilter)
@@ -1276,8 +1294,8 @@ msgid ""
 "included shared libraries, graphics memory, files on disk, and so on. This "
 "number is almost meaningless.</qt>"
 msgstr ""
-"<qt>To wielëna wirtualny pamiãcë brëkòwóny przez nen proces, do grëpë z "
-"bibloekama, pamiãcą graficzi, lopków na diskù ët.p.  Na wielëna nié mô za "
+"<qt>To je wielëna wirtualny pamiãcë brëkòwóny przez nen proces, do grëpë z "
+"biblotekama, pamiãcą graficzi, lopków na diskù ët.p.  Na wielëna nié mô za "
 "wiôldżegò zanczeniô.</qt>"
 
 #: ProcessModel.cc:699
@@ -1287,6 +1305,10 @@ msgid ""
 "its shared libraries.<br>This is often the most useful figure to judge the "
 "memory use of a program.</qt>"
 msgstr ""
+"<qt>To je wielëna fizyczny pamiãcë brëkòwóny przez nen proces. "
+"<br>Nié zamëkô òna w se pamiãcë swap, ani téż miarë kòdu "
+"brëkòwónych bibloteków.<br>Na wôrtnota je nôbarżi sensownô do "
+"dobëcô wielënë brëkòwówny pamiãcë w programie.</qt>"
 
 #: ProcessModel.cc:701
 msgid ""
@@ -1294,26 +1316,33 @@ msgid ""
 "libraries are using.<br>This memory is shared among all processes that use "
 "this library.</qt>"
 msgstr ""
+"<qt>To je wielëna fizyczny pamiãcë brëkòwóny przez nen proces do grëpë z "
+"wespółdzeloną bibloteką. <br>Na pamiãc je do grëpë brëkòwónô przez  wszëtczé "
+"procesë co brëkùją ti bibloteczi.</qt>"
 
 #: ProcessModel.cc:703
 msgid "<qt>The command with which this process was launched.</qt>"
-msgstr ""
+msgstr "<qt>Pòlét z jaczim òstôł zrëszony proces.</qt>"
 
 #: ProcessModel.cc:705
 msgid "<qt>The title of any windows that this process is showing.</qt>"
-msgstr ""
+msgstr "<qt>Titel òkna chtërné mòżlëwié ne proces wëskrzëniô.</qt>"
 
 #: ProcessModel.cc:707
 msgid "The unique Process ID that identifies this process."
-msgstr ""
+msgstr "Ùnikalny numer ID jidentifikùjący proces."
 
 #: ProcessModel.cc:709
 msgid "The number of bytes read.  See What's This for more information."
 msgstr ""
+"Wielëna przeczëtónych bajtów. Òbôczë pòmòc „Céż to je“ do dobëcô wicy "
+"wëdowiédzë."
 
 #: ProcessModel.cc:711
 msgid "The number of bytes written.  See What's This for more information."
 msgstr ""
+"Wielëna zapisónych bajtów. Òbôczë pòmòc „Céż to je“ do dobëcô wicy "
+"wëdowiédzë."
 
 #: ProcessModel.cc:720
 msgid ""
@@ -1358,7 +1387,7 @@ msgstr ""
 
 #: ProcessModel.cc:736
 msgid "The CPU usage of a process and all of its threads."
-msgstr ""
+msgstr "Brëkùnk CPU przez procesë ë wszëtczé jich dzejania."
 
 #: ProcessModel.cc:738
 msgid ""
@@ -1369,7 +1398,7 @@ msgstr ""
 
 #: ProcessModel.cc:740
 msgid "<qt><i>Technical information: </i>This is from /proc/*/cmdline"
-msgstr ""
+msgstr "<qt><i>Technicznô wëdowiédzô: </i>Pòchôdô z  /proc/*/cmdline"
 
 #: ProcessModel.cc:742
 msgid ""
@@ -1417,11 +1446,11 @@ msgstr ""
 #: ProcessModel.cc:834
 #, kde-format
 msgid "Login Name: %1<br/>"
-msgstr ""
+msgstr "Miono bëkòwnika: %1<br/>"
 
 #: ProcessModel.cc:838
 msgid "This user is not recognized for some reason."
-msgstr "Nen brëkòwnik je z nieznóny przëczënë rozpòznóny."
+msgstr "Nen brëkòwnik je z nieznóny przëczënë nie rozpòznóny."
 
 #: ProcessModel.cc:841
 #, kde-format
@@ -1760,3 +1789,4 @@ msgstr "%1%"
 #: ReniceDlg.cc:39
 msgid "Renice Process"
 msgstr "Zmieni prioritet procesu"
+
