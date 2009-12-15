@@ -1,25 +1,26 @@
 # translation of ksysguard.po to Kaszëbsczi
 # Michôł Òstrowsczi <michol@linuxcsb.org>, 2007, 2008, 2009.
 # Mark Kwidzińsczi <mark@linuxcsb.org>, 2008.
+# Mark Kwidzińśczi <mark@linuxcsb.org>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-11-23 06:14+0100\n"
-"PO-Revision-Date: 2009-06-13 21:59+0200\n"
-"Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
-"Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
+"PO-Revision-Date: 2009-12-15 23:20+0100\n"
+"Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
+"Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
 #: WorkSheet.cc:88
 #, kde-format
 msgid "Cannot open the file %1."
-msgstr "Ni mòże òtemknąc lopka %1."
+msgstr "Nié mòże òtemknąc lopka %1."
 
 #: WorkSheet.cc:96
 #, kde-format
@@ -43,11 +44,11 @@ msgstr "Lopk %1 zamëkô w se zmiłkòwą miarã robòczi bòdżi."
 #: WorkSheet.cc:228
 #, kde-format
 msgid "Cannot save file %1"
-msgstr "Ni mòże zapisac lopkù %1"
+msgstr "Nié mòże zapisac lopka %1"
 
 #: WorkSheet.cc:274
 msgid "The clipboard does not contain a valid display description."
-msgstr "Tacnik ni mô bezzmiłkòwigò òpisënkù wëzdrzatkù."
+msgstr "Tacnik ni mô bezzmiłkòwigò òpisënka wëzdrzatkù."
 
 #: WorkSheet.cc:372
 msgid "Select Display Type"
@@ -55,7 +56,7 @@ msgstr "Wëbiérzë ôrt prezentacëji pòdôwków"
 
 #: WorkSheet.cc:373
 msgid "&Line graph"
-msgstr "&Liniowô dijagrama"
+msgstr "&Liniowô diagrama"
 
 #: WorkSheet.cc:374
 msgid "&Digital display"
@@ -67,19 +68,17 @@ msgstr "&Stołpk"
 
 #: WorkSheet.cc:376
 msgid "Log to a &file"
-msgstr "Zapiszë dniewnik do &lopkù"
+msgstr "Zapiszë dniewnik do &lopka"
 
 #: WorkSheet.cc:525
-#, fuzzy
 #| msgid "&Remove Display"
 msgid "Remove this display?"
-msgstr "&Rëmôj dijagram"
+msgstr "Rëmnąc nen pòdzérk?"
 
 #: WorkSheet.cc:526
-#, fuzzy
 #| msgid "&Remove Display"
 msgid "Remove Display"
-msgstr "&Rëmôj dijagram"
+msgstr "Rëmôj pòdzérk"
 
 #: WorkSheet.cc:567
 msgid "Dummy"
@@ -98,7 +97,7 @@ msgstr ""
 #: ksgrd/SensorShellAgent.cc:126
 #, kde-format
 msgid "Could not run daemon program '%1'."
-msgstr "Nie mòże zrëszëc programë demona '%1'."
+msgstr "Nié mòże zrëszëc programë demona '%1'."
 
 #: ksgrd/SensorShellAgent.cc:133
 #, kde-format
@@ -272,52 +271,44 @@ msgid "Transmitter"
 msgstr "Wësélôcz"
 
 #: ksgrd/SensorManager.cc:103
-#, fuzzy
 #| msgid "Rate"
 msgid "Data Rate"
-msgstr "Czãstotlëwòsc"
+msgstr "Wielëna pòdôwków"
 
 #: ksgrd/SensorManager.cc:104
-#, fuzzy
 #| msgid "Compressed Packets"
 msgid "Compressed Packets Rate"
-msgstr "Skòmpresowóné paczétë"
+msgstr "Skòmpresowónô wielëna paczétów"
 
 #: ksgrd/SensorManager.cc:105
-#, fuzzy
 #| msgid "Dropped Packets"
 msgid "Dropped Packets Rate"
-msgstr "Zgùbioné paczétë"
+msgstr "Wielëna òpùszczonych paczétów"
 
 #: ksgrd/SensorManager.cc:106
-#, fuzzy
 #| msgid "Errors"
 msgid "Error Rate"
-msgstr "Felë"
+msgstr "Wielëna felów"
 
 #: ksgrd/SensorManager.cc:107
-#, fuzzy
 #| msgid "FIFO Overruns"
 msgid "FIFO Overruns Rate"
-msgstr "Felë w FIFO"
+msgstr "Wielëna przelónych felów w FIFO"
 
 #: ksgrd/SensorManager.cc:108
-#, fuzzy
 #| msgid "Frame Errors"
 msgid "Frame Error Rate"
-msgstr "Felë ramë"
+msgstr "Wielëna felë ramë"
 
 #: ksgrd/SensorManager.cc:109
-#, fuzzy
 #| msgid "Multicast"
 msgid "Multicast Packet Rate"
-msgstr "Grëpòwé sélanié"
+msgstr "Wielëna paczétów Multicast"
 
 #: ksgrd/SensorManager.cc:110
-#, fuzzy
 #| msgid "Packets"
 msgid "Packet Rate"
-msgstr "Paczétë"
+msgstr "Wielëna paczétów"
 
 #: ksgrd/SensorManager.cc:111
 #, fuzzy
@@ -329,7 +320,7 @@ msgstr "Nëk"
 
 #: ksgrd/SensorManager.cc:112 ksgrd/SensorManager.cc:123
 msgid "Collisions"
-msgstr "Zbùcënë"
+msgstr "Kòlizëje"
 
 #: ksgrd/SensorManager.cc:114
 msgid "Data"
@@ -356,10 +347,9 @@ msgid "Frame Errors"
 msgstr "Felë ramë"
 
 #: ksgrd/SensorManager.cc:120
-#, fuzzy
 #| msgid "Multicast"
 msgid "Multicast Packets"
-msgstr "Grëpòwé sélanié"
+msgstr "Paczétë Multicast"
 
 #: ksgrd/SensorManager.cc:121
 msgid "Packets"
@@ -486,16 +476,14 @@ msgid "Cores"
 msgstr "Dzërżenie"
 
 #: ksgrd/SensorManager.cc:153
-#, fuzzy
 #| msgid "Number of displays:"
 msgid "Number of Blocks"
-msgstr "Wielëna wëzdrzatków:"
+msgstr "Wielëna bloków"
 
 #: ksgrd/SensorManager.cc:154
-#, fuzzy
 #| msgid "Total Number"
 msgid "Total Number of Devices"
-msgstr "Całownô lëczba"
+msgstr "Całownô wielëna ùrządzeniów"
 
 #: ksgrd/SensorManager.cc:155
 msgid "Failed Devices"
@@ -506,32 +494,30 @@ msgid "Spare Devices"
 msgstr ""
 
 #: ksgrd/SensorManager.cc:157
-#, fuzzy
 #| msgid "Number of displays:"
 msgid "Number of Raid Devices"
-msgstr "Wielëna wëzdrzatków:"
+msgstr "Wielëna ùrządzeniów Raid"
 
 #: ksgrd/SensorManager.cc:158
 msgid "Working Devices"
-msgstr ""
+msgstr "Robiącé ùrządzenia"
 
 #: ksgrd/SensorManager.cc:159
 msgid "Active Devices"
-msgstr ""
+msgstr "Aktiwné ùrządzenia"
 
 #: ksgrd/SensorManager.cc:160
-#, fuzzy
 #| msgid "Number of displays:"
 msgid "Number of Devices"
-msgstr "Wielëna wëzdrzatków:"
+msgstr "Wielëna ùrządzeniów"
 
 #: ksgrd/SensorManager.cc:161
 msgid "Resyncing Percent"
-msgstr ""
+msgstr "Synchronizacëjô znowa - w procentach"
 
 #: ksgrd/SensorManager.cc:162
 msgid "Disk Information"
-msgstr ""
+msgstr "Wëdowiédzô ò diskù"
 
 #: ksgrd/SensorManager.cc:165
 #, kde-format
@@ -616,28 +602,27 @@ msgstr "Wëstąpiła fela ze sécą (np. sécowi kabel òstôł òdłączony) k�
 msgid "Error for host %1: %2"
 msgstr "Fela kòmpùtra %1: %2"
 
-#: tests/signalplottertest.cpp:386 tests/signalplottertest.cpp:410
-#, fuzzy, kde-format
+#: tests/signalplottertest.cpp:386 tests/signalplottertest.cpp:410, kde-format
 #| msgid " sec"
 msgctxt "Units"
 msgid "%1 second"
 msgid_plural "%1 seconds"
-msgstr[0] " sekùnda"
-msgstr[1] " sekùnda"
-msgstr[2] " sekùnda"
+msgstr[0] "%1  sekùnda"
+msgstr[1] "%1  sekùndë"
+msgstr[2] "%1 sekùnd"
 
 #: tests/signalplottertest.cpp:399
 #, kde-format
 msgctxt "Units"
 msgid "%1 minute"
 msgid_plural "%1 minutes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%1 minuta"
+msgstr[1] "%1 minutë"
+msgstr[2] "%1 minut"
 
 #: TimerSettings.cc:38
 msgid "Timer Settings"
-msgstr "Ùstôwë sekùndnika"
+msgstr "Nastôwë sekùndnika"
 
 #: TimerSettings.cc:49
 msgid "Use update interval of worksheet"
@@ -969,10 +954,9 @@ msgid "Enter new label:"
 msgstr "Wpiszë nową eticzétã:"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:51
-#, fuzzy
 #| msgid "Signal Plotter Settings"
 msgid "Plotter Settings"
-msgstr "Swòjiznë dijagramë plotera"
+msgstr "Nastôwë plotera"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:65
 msgid "General"
@@ -987,14 +971,13 @@ msgid "Scales"
 msgstr "Skale"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:91
-#, fuzzy
 #| msgid "Vertical Scale"
 msgid "Vertical scale"
 msgstr "Wertikalnô skala"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:97
 msgid "Specify graph range:"
-msgstr ""
+msgstr "Rum skalë:"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:98
 msgid ""
@@ -1007,10 +990,9 @@ msgstr ""
 "òptacëji, nót je pòdac kréz w pòlach niżi."
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:108
-#, fuzzy
 #| msgid "Enter the title of the display here."
 msgid "Enter the minimum value for the display here."
-msgstr "Tuwò wprowadzë miono wëzdrzatkù."
+msgstr "Wpiszë tuwò minimalną wôrtnotã dlô wëskrzëniôcza."
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:119
 msgid ""
@@ -1020,16 +1002,14 @@ msgid ""
 msgstr ""
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:126
-#, fuzzy
 #| msgid "Horizontal Scale"
 msgid "Horizontal scale"
 msgstr "Hòrizontalnô skala"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:133
-#, fuzzy
 #| msgid "pixels per time period"
 msgid "Pixels per time period:"
-msgstr "pikselów na jednotã czasu"
+msgstr "pikslów na jednostkã czasu"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:140
 msgid "Grid"
@@ -1077,7 +1057,7 @@ msgstr "Tekst"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:180
 msgid "Show axis labels"
-msgstr "Pòkażë etiketë òsów"
+msgstr "Wëskrzëni eticzétë òsów"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:181
 msgid ""
@@ -1145,7 +1125,7 @@ msgstr "99999 XXXX"
 #, kde-format
 msgctxt "units"
 msgid "%1%"
-msgstr ""
+msgstr "%1%"
 
 #: SensorDisplayLib/FancyPlotter.cc:533
 #, kde-format
@@ -1153,68 +1133,66 @@ msgctxt "%1 is what is being shown statistics for, like 'Memory', 'Swap', etc."
 msgid "<p><b>%1:</b><br>"
 msgstr "<p><b>%1:</b><br>"
 
-#: SensorDisplayLib/FancyPlotter.cc:597
-#, fuzzy, kde-format
+#: SensorDisplayLib/FancyPlotter.cc:597, kde-format
 #| msgctxt "%1 and %2 are sensor's last and maximum value"
 #| msgid "%1 of %2"
 msgid "%1 of %2%1"
-msgstr "%1 z %2"
+msgstr "%1 of %2%1"
 
 #: SensorDisplayLib/FancyPlotter.cc:625
 #, kde-format
 msgctxt "units"
 msgid "%1 TiB"
-msgstr ""
+msgstr "%1 TiB"
 
 #: SensorDisplayLib/FancyPlotter.cc:628
 #, kde-format
 msgctxt "units"
 msgid "%1 GiB"
-msgstr ""
+msgstr "%1 GiB"
 
 #: SensorDisplayLib/FancyPlotter.cc:631
 #, kde-format
 msgctxt "units"
 msgid "%1 MiB"
-msgstr ""
+msgstr "%1 MiB"
 
 #: SensorDisplayLib/FancyPlotter.cc:634
 #, kde-format
 msgctxt "units"
 msgid "%1 KiB"
-msgstr ""
+msgstr "%1 KiB"
 
 #: SensorDisplayLib/FancyPlotter.cc:639
 #, kde-format
 msgctxt "units"
 msgid "%1 TiB/s"
-msgstr ""
+msgstr "%1 TiB/s"
 
 #: SensorDisplayLib/FancyPlotter.cc:642
 #, kde-format
 msgctxt "units"
 msgid "%1 GiB/s"
-msgstr ""
+msgstr "%1 GiB/s"
 
 #: SensorDisplayLib/FancyPlotter.cc:645
 #, kde-format
 msgctxt "units"
 msgid "%1 MiB/s"
-msgstr ""
+msgstr "%1 MiB/s"
 
 #: SensorDisplayLib/FancyPlotter.cc:648
 #, kde-format
 msgctxt "units"
 msgid "%1 KiB/s"
-msgstr ""
+msgstr "%1 KiB/s"
 
-#: SensorDisplayLib/FancyPlotter.cc:654
-#, fuzzy, kde-format
+#: SensorDisplayLib/FancyPlotter.cc:654, kde-format
 #| msgctxt "a percentage"
 #| msgid "%"
 msgctxt "unitless - just a number"
 msgid "%1"
-msgstr "%"
+msgstr "%1"
 
 #: SensorDisplayLib/SensorLogger.cc:138
 msgid "Logging"
@@ -1288,7 +1266,7 @@ msgstr "Pierszô farwa:"
 msgctxt ""
 "Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
 msgid "Multimeter Settings"
-msgstr "Nastawë dijagramë wskôzéwôcza"
+msgstr "Nastôwë dijagramë wskôzéwôcza"
 
 #: SensorDisplayLib/ListViewSettings.cc:30
 msgid "List View Settings"
@@ -1312,12 +1290,11 @@ msgstr ""
 "pùszczë gò w tim môlu. Zjôwi sã prezentacëjô wôrtnotów dostowónych z tegò "
 "ùzérôcza w czase."
 
-#: SensorDisplayLib/SignalPlotter.cc:87
-#, fuzzy, kde-format
+#: SensorDisplayLib/SignalPlotter.cc:87, kde-format
 #| msgctxt "a percentage"
 #| msgid "%"
 msgid "%1"
-msgstr "%"
+msgstr "%1"
 
 #. i18n: file: ksysguardui.rc:4
 #. i18n: ectx: Menu (file)
@@ -1328,10 +1305,9 @@ msgstr "&Lopk"
 #. i18n: file: ksysguardui.rc:14
 #. i18n: ectx: Menu (view)
 #: rc.cpp:6
-#, fuzzy
 #| msgid "&File"
 msgid "&View"
-msgstr "&Lopk"
+msgstr "&Wëzdrzatk"
 
 #. i18n: file: ksysguardui.rc:18
 #. i18n: ectx: Menu (settings)
@@ -1348,12 +1324,12 @@ msgstr "Przédnô listew nôrzãdzów"
 #: rc.cpp:13
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Michôł Òstrowsczi,Mark Kwidzińsczi"
+msgstr "Michôł Òstrowsczi, Mark Kwidzińsczi"
 
 #: rc.cpp:14
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "michol@linuxcsb.org,mark@linuxcsb.org"
+msgstr "michol@linuxcsb.org, mark@linuxcsb.org"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, fileFrame)
@@ -1575,7 +1551,7 @@ msgstr "Mònitora systemë"
 
 #: ksysguard.cc:155
 msgid "&Refresh Tab"
-msgstr ""
+msgstr "Ò&dswierzë kôrtã"
 
 #: ksysguard.cc:156
 msgid "&New Tab..."
@@ -1609,39 +1585,36 @@ msgstr "&Dodôj nową kôrtã..."
 msgid "Tab &Properties"
 msgstr "&Swòjiznë"
 
-#: ksysguard.cc:359
-#, fuzzy, kde-format
+#: ksysguard.cc:359, kde-format
 #| msgid " 1 process "
 #| msgid_plural " %1 processes "
 msgid "1 process1"
 msgid_plural "%1 processes%1"
-msgstr[0] "%1 proces"
-msgstr[1] " %1 procesë"
-msgstr[2] " %1 procesów "
+msgstr[0] "1 proces1"
+msgstr[1] " %1 procesë%1"
+msgstr[2] " %1 procesów%1"
 
-#: ksysguard.cc:443
-#, fuzzy, kde-format
+#: ksysguard.cc:443, kde-format
 #| msgid " CPU: %1% "
 msgid "CPU: %1%%1%"
-msgstr "Procesor: %1"
+msgstr "Procesor: %1%%1%"
 
 #: ksysguard.cc:458
 #, kde-format
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid "Memory: %1 / %2Mem: %1 / %2Mem: %1%1"
-msgstr ""
+msgstr "Pamiãc: %1 / %2Pam: %1 / %2Pam: %1%1"
 
 #: ksysguard.cc:485
 msgid " No swap space available "
-msgstr "Felënk wòlny pamiãcë wëmianë "
+msgstr " Felënk wòlny pamiãcë wëmianë "
 
-#: ksysguard.cc:487
-#, fuzzy, kde-format
+#: ksysguard.cc:487, kde-format
 #| msgctxt "Arguments are formatted byte sizes (used/total)"
 #| msgid " Swap: %1 / %2 "
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid "Swap: %1 / %2Swap: %1%1"
-msgstr " Pamiãc wëmianë %1 / %2 "
+msgstr "Pamiãc wëmianë: %1 / %2Pamiãc wëmianë: %1%1"
 
 #: ksysguard.cc:532
 msgid "(c) 1996-2008 The KDE System Monitor Developers"
