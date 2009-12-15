@@ -61,8 +61,8 @@ msgid ""
 "The Nepomuk Server is not running. The settings will be used the next time "
 "the server is started."
 msgstr ""
-"Serwera Nepomuk nie robi. Nastôwë bãdą w ùżëcym przë pòstãpnym "
-"zrëszeniu serwerë."
+"Serwera Nepomuk nie robi. Nastôwë bãdą w ùżëcym przë pòstãpnym zrëszeniu "
+"serwerë."
 
 #: kcm/nepomukserverkcm.cpp:155 kcm/nepomukserverkcm.cpp:232
 msgid "Nepomuk server not running"
@@ -83,10 +83,6 @@ msgid "Failed to contact Strigi indexer (%1)"
 msgstr "Felënk sparłãczeniô z indeksownikã Strigi (%1)"
 
 #: kcm/nepomukserverkcm.cpp:269
-#| msgctxt "@info_status"
-#| msgid ""
-#| "Strigi service failed to initialize, most likely due to an installation "
-#| "problem."
 msgctxt "@info:status"
 msgid ""
 "Strigi service failed to initialize, most likely due to an installation "
@@ -96,8 +92,6 @@ msgstr ""
 "jinstalacëją."
 
 #: kcm/nepomukserverkcm.cpp:273
-#| msgctxt "@info_status"
-#| msgid "Strigi service not running."
 msgctxt "@info:status"
 msgid "Strigi service not running."
 msgstr "Ùsłëżnota Strigi nie je zrëszonô."
@@ -138,8 +132,8 @@ msgid ""
 "Please insert the removable medium <resource>%1</resource> to access this "
 "file."
 msgstr ""
-"Proszã wetknąc przenosné ùrządzenié <resource>%1</resource> dlô przëstãpù "
-"do negò lopka."
+"Proszã wetknąc przenosné ùrządzenié <resource>%1</resource> dlô przëstãpù do "
+"negò lopka."
 
 #: kioslaves/nepomuk/kio_nepomuk.cpp:500
 #: kioslaves/search/kio_nepomuksearch.cpp:136
@@ -242,7 +236,6 @@ msgstr "Włączë pùltowi indeksownik lopków Stigi"
 #. i18n: file: kcm/nepomukconfigwidget.ui:123
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: rc.cpp:26
-#| msgid "Strigi File Indexing"
 msgid "File Indexing"
 msgstr "Indeksownik lopków"
 
@@ -412,17 +405,13 @@ msgstr ""
 "Pòdôwczi Nepomuka bãdą kònwertowóné do fòrmatu czérowników. To kąsk zbawi."
 
 #: services/storage/repository.cpp:267
-#| msgctxt "@info - notification message"
-#| msgid ""
-#| "Converting Nepomuk data to the new backend failed. Data may still be "
-#| "recovered manually though."
 msgctxt "@info - notification message"
 msgid ""
 "Converting Nepomuk data to the new backend failed. For data security reasons "
 "Nepomuk will be disabled until the situation has been resolved manually."
 msgstr ""
-"Kònwertowanié pòdôwków Nepomuka do nowégò czérownika nie darzëło sã. "
-"Nepomuk bãdze wëłączony, pòdôwczi mòże równak zjinaczëc rãczno."
+"Kònwertowanié pòdôwków Nepomuka do nowégò czérownika nie darzëło sã. Nepomuk "
+"bãdze wëłączony, pòdôwczi mòże równak zjinaczëc rãczno."
 
 #: services/storage/repository.cpp:281
 msgctxt "@info - notification message"
@@ -430,7 +419,6 @@ msgid "Successfully converted Nepomuk data to the new backend."
 msgstr "Ùdałé kònwertowanié pòdôwków Nepomuka dlô nowégò czérownika."
 
 #: services/storage/modelcopyjob.cpp:127
-#| msgid "Converting Nepomuk database"
 msgctxt "@title job"
 msgid "Converting Nepomuk database"
 msgstr "Kònwertowanié bazë pòdôwków Nepomuka"
@@ -475,17 +463,14 @@ msgid "Search Service"
 msgstr "Ùsłëżnota szëkbë"
 
 #: services/strigi/systray.cpp:46 services/strigi/systray.cpp:47
-#| msgid "Suspend Strigi Indexing"
 msgid "Suspend File Indexing"
 msgstr "Zatrzëmôj indeksowanié lopków"
 
 #: services/strigi/systray.cpp:48
-#| msgid "Suspend or resume the Strigi file indexer manually"
 msgid "Suspend or resume the file indexer manually"
 msgstr "Rãczno zatrzëmôj abò biéj dali z indeksownikã lopków"
 
 #: services/strigi/systray.cpp:53
-#| msgid "Strigi Desktop File Indexer"
 msgid "Configure File Indexer"
 msgstr "Kònfigùrëjë indeksownika lopków"
 
@@ -506,9 +491,6 @@ msgstr[1] "%1 lopczi w indekse"
 msgstr[2] "%1 lopków w indekse"
 
 #: services/strigi/eventmonitor.cpp:70
-#| msgid ""
-#| "Strigi file indexing started. Indexing all files for fast desktop "
-#| "searches may take a while."
 msgid "Indexing files for fast searching. This process may take a while."
 msgstr "Indeksowanié lopków dlô chùtczi szëkbë. To mòże kąsk zbawic."
 
@@ -517,20 +499,16 @@ msgid "Resuming indexing of files for fast searching."
 msgstr "Kòntinuacëjô indeksowaniô lopków dlô chùtczi szëkbë. "
 
 #: services/strigi/eventmonitor.cpp:107
-#| msgid "Suspending Strigi file indexing to preserve resources."
 msgid "Suspending the indexing of files to preserve resources."
 msgstr "Indeksowanié lopków zatrzëmóné dlô òbszczãdzenia dostónków systemë."
 
-#: services/strigi/eventmonitor.cpp:122, kde-format
-#| msgid ""
-#| "Local disk space is running low (%1 left). Suspending Strigi file "
-#| "indexing."
+#: services/strigi/eventmonitor.cpp:122
+#, kde-format
 msgid "Disk space is running low (%1 left). Suspending indexing of files."
 msgstr "Plac na diskù sã kùńczi (%1 òstało). Zatrzëmanié indeksowaniô."
 
-#: services/strigi/eventmonitor.cpp:148, kde-format
-#| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
-#| msgid "Initial Desktop Search file indexing finished in %1"
+#: services/strigi/eventmonitor.cpp:148
+#, kde-format
 msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
 msgid "Initial indexing of files for fast searching finished in %1"
 msgstr "Pierszé indeksowanié lopków dlô chùtczi szëkbë zakùńczi sã za %1"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-09 07:53+0100\n"
+"POT-Creation-Date: 2009-12-15 06:04+0100\n"
 "PO-Revision-Date: 2009-12-14 21:59+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -52,15 +52,30 @@ msgstr "Wësënié"
 msgid "Safely Remove"
 msgstr "Rëmôj bezpieczno"
 
+#: ui/launcher.cpp:116 ui/launcher.cpp:175 core/favoritesmodel.cpp:48
+#: core/favoritesmodel.cpp:302 simpleapplet/simpleapplet.cpp:186
+msgid "Favorites"
+msgstr "Ùlëbnicë"
+
+#: ui/launcher.cpp:118 ui/launcher.cpp:205 core/recentlyusedmodel.cpp:120
+#: core/systemmodel.cpp:82 simpleapplet/simpleapplet.cpp:188
+msgid "Applications"
+msgstr "Aplikacëje"
+
+#: ui/launcher.cpp:118 ui/launcher.cpp:239 core/systemmodel.cpp:347
+#: simpleapplet/simpleapplet.cpp:189
+msgid "Computer"
+msgstr "Kòmpùtr"
+
+#: ui/launcher.cpp:119 ui/launcher.cpp:218 core/recentlyusedmodel.cpp:186
+#: simpleapplet/simpleapplet.cpp:190
+msgid "Recently Used"
+msgstr "Slédno brëkòwóne"
+
 #: ui/launcher.cpp:163 core/leavemodel.cpp:105
 #: simpleapplet/simpleapplet.cpp:204
 msgid "Leave"
 msgstr "Wińdzë"
-
-#: ui/launcher.cpp:175 core/favoritesmodel.cpp:48 core/favoritesmodel.cpp:302
-#: simpleapplet/simpleapplet.cpp:186
-msgid "Favorites"
-msgstr "Ùlëbnicë"
 
 #: ui/launcher.cpp:178
 msgid "Sort Alphabetically (A to Z)"
@@ -70,16 +85,6 @@ msgstr "Zortëjë alfabétno (òd A do Z)"
 msgid "Sort Alphabetically (Z to A)"
 msgstr "Zortëjë alfabétno (òd Z do A)"
 
-#: ui/launcher.cpp:205 core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:82
-#: simpleapplet/simpleapplet.cpp:188
-msgid "Applications"
-msgstr "Aplikacëje"
-
-#: ui/launcher.cpp:218 core/recentlyusedmodel.cpp:186
-#: simpleapplet/simpleapplet.cpp:190
-msgid "Recently Used"
-msgstr "Slédno brëkòwóne"
-
 #: ui/launcher.cpp:220
 msgid "Clear Recent Applications"
 msgstr "Wëczëszczë slédné aplikacëje"
@@ -87,11 +92,6 @@ msgstr "Wëczëszczë slédné aplikacëje"
 #: ui/launcher.cpp:221
 msgid "Clear Recent Documents"
 msgstr "Wëczëszczë slédné dokùmentë"
-
-#: ui/launcher.cpp:239 core/systemmodel.cpp:347
-#: simpleapplet/simpleapplet.cpp:189
-msgid "Computer"
-msgstr "Kòmpùtr"
 
 #: ui/launcher.cpp:527
 #, kde-format
@@ -106,7 +106,6 @@ msgid "<b>%1 (%2)</b> on <b>%3</b>"
 msgstr "<b>%1 (%2)</b> na <b>%3</b>"
 
 #: ui/searchbar.cpp:70
-#| msgid "Search:"
 msgctxt "Label of the search bar textedit"
 msgid "Search:"
 msgstr "Szëkba:"
@@ -174,7 +173,6 @@ msgid "Hibernate"
 msgstr "Hibernëje"
 
 #: core/leavemodel.cpp:78
-#| msgid "Suspend to Disk"
 msgid "Suspend to disk"
 msgstr "Ùspi do diskù"
 
@@ -270,7 +268,6 @@ msgid "Switch to Classic Menu Style"
 msgstr "Przełączë do klasikòwégò sztélu menu"
 
 #: applet/applet.cpp:152
-#| msgid "General"
 msgctxt "General configuration page"
 msgid "General"
 msgstr "Òglowò"
@@ -288,21 +285,18 @@ msgstr "michol@linuxcsb.org,mark@linuxcsb.org"
 #. i18n: file: applet/kickoffConfig.ui:27
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:5
-#| msgid "Show applications by name:"
 msgid "Show applications by &name:"
 msgstr "Wëskrzëni aplikacëje wedle mionów:"
 
 #. i18n: file: applet/kickoffConfig.ui:73
 #. i18n: ectx: property (text), widget (QLabel, iconLabel)
 #: rc.cpp:8
-#| msgid "Icon:"
 msgid "&Icon:"
 msgstr "&Ikòna:"
 
 #. i18n: file: applet/kickoffConfig.ui:86
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:11
-#| msgid "Switch tabs on hover:"
 msgid "Switch &tabs on hover:"
 msgstr "Przełączë &kôrtë pò najachaniu na nie mëszą:"
 
