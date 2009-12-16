@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-12-15 06:04+0100\n"
-"PO-Revision-Date: 2009-05-26 20:43+0200\n"
+"PO-Revision-Date: 2009-12-16 20:48+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: interfaces/default/interface.cpp:80 interfaces/default/interface.cpp:81
 #: interfaces/quicksand/qs_dialog.cpp:53 interfaces/quicksand/qs_dialog.cpp:54
@@ -33,12 +33,11 @@ msgstr "Pòmòc"
 msgid "Information on using this application"
 msgstr "Wëdowiédzô przë brëkòwaniu ti aplikacëji"
 
-#: interfaces/default/interface.cpp:255
-#, fuzzy, kde-format
+#: interfaces/default/interface.cpp:255, kde-format
 #| msgid "%1: %2"
 msgctxt "tooltip, shortcut"
 msgid "%1 (%2)"
-msgstr "%1: %2"
+msgstr "%1 (%2)"
 
 #: interfaces/default/interface.cpp:441
 #, kde-format
@@ -53,23 +52,21 @@ msgstr "Dzejaniô"
 msgid "Type to search."
 msgstr "Wpiszë do szëkbë."
 
-#: interfaces/quicksand/qs_matchview.cpp:261
-#, fuzzy, kde-format
+#: interfaces/quicksand/qs_matchview.cpp:261, kde-format
 #| msgid "items"
 msgid "1 item"
 msgid_plural "%1 items"
-msgstr[0] "elementë"
-msgstr[1] "elementë"
-msgstr[2] "elementë"
+msgstr[0] "1 element"
+msgstr[1] "%1 elementë"
+msgstr[2] "%1 elementów"
 
-#: interfaces/quicksand/qs_matchview.cpp:263
-#, fuzzy, kde-format
+#: interfaces/quicksand/qs_matchview.cpp:263, kde-format
 #| msgid "actions"
 msgid "1 action"
 msgid_plural "%1 actions"
-msgstr[0] "dzejaniô"
-msgstr[1] "dzejaniô"
-msgstr[2] "dzejaniô"
+msgstr[0] "1 dzejanié"
+msgstr[1] "%1 dzejaniô"
+msgstr[2] "%1 dzejaniów"
 
 #: interfaces/quicksand/qs_matchview.cpp:348
 msgid "Loading..."
@@ -79,12 +76,11 @@ msgstr "Ladowanié..."
 msgid "No results found."
 msgstr "Felënk"
 
-#: interfaces/quicksand/qs_statusbar.cpp:57
-#, fuzzy, kde-format
+#: interfaces/quicksand/qs_statusbar.cpp:57, kde-format
 #| msgid "%1 %2"
 msgctxt "%1 current item number, %2 total number of items"
 msgid "%1 of %2"
-msgstr "%1 %2"
+msgstr "%1 z %2"
 
 #: lock/autologout.cc:38
 msgid "<qt><nobr><b>Automatic Log Out</b></nobr></qt>"
@@ -137,16 +133,16 @@ msgstr "startëjë z òdblokòwóną dlô kònfigùracëji plasmã"
 
 #: lock/lockprocess.cc:793
 msgid "Will not lock the session, as unlocking would be impossible:\n"
-msgstr "Ni blokùjë sesëji, jeżlë òdblokòwanié bãdze niemòżebné:\n"
+msgstr "Nié blokùjë sesëji, jeżlë òdblokòwanié bãdze niemòżebné:\n"
 
 #: lock/lockprocess.cc:797
 msgid "Cannot start <i>kcheckpass</i>."
-msgstr "Ni mòże zrëszëc <i>kcheckpass</i>."
+msgstr "Nié mòże zrëszëc <i>kcheckpass</i>."
 
 #: lock/lockprocess.cc:798
 msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
 msgstr ""
-"<i>kcheckpass</i> ni mòże dzejac. Mòże bëc, że ni ma ùstôwionégò SetUID "
+"<i>kcheckpass</i> nié mòże dzejac. Mòże bëc, że ni ma ùstôwionégò SetUID "
 "sprôwnika."
 
 #: lock/lockprocess.cc:861
@@ -272,25 +268,25 @@ msgstr "Przëstãpné dodôwczi"
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:3
 msgid "Positioning:"
-msgstr ""
+msgstr "Pòłożenié:"
 
 #. i18n: file: interfaceOptions.ui:27
 #. i18n: ectx: property (text), widget (QRadioButton, topEdgeButton)
 #: rc.cpp:6
 msgid "Top edge of screen"
-msgstr ""
+msgstr "Górny rańt ekranu"
 
 #. i18n: file: interfaceOptions.ui:37
 #. i18n: ectx: property (text), widget (QRadioButton, freeFloatingButton)
 #: rc.cpp:9
 msgid "Free floating window"
-msgstr ""
+msgstr "Wòlno płënacé òkno"
 
 #. i18n: file: interfaceOptions.ui:57
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:12
 msgid "Style:"
-msgstr ""
+msgstr "Sztél:"
 
 #. i18n: file: interfaceOptions.ui:67
 #. i18n: ectx: property (text), widget (QRadioButton, commandButton)
@@ -333,18 +329,20 @@ msgid ""
 "Set to true to show the interface in a freely floating dialog instead of at "
 "the top of the screen"
 msgstr ""
+"Aktiwùjë abë wëskrzënic interfejs w wòlno płënącym òknie, a nié w górze  "
+"ekranu."
 
 #. i18n: file: kcfg/krunner.kcfg:26
 #. i18n: ectx: label, entry, group (General)
 #: rc.cpp:32
 msgid "Completion mode used for the query text."
-msgstr ""
+msgstr "Mòdus dofùlowaniô brëkòwóny dlô tekstu szëkbë"
 
 #. i18n: file: kcfg/krunner.kcfg:31
 #. i18n: ectx: label, entry (PastQueries), group (General)
 #: rc.cpp:35
 msgid "History if past queries successfully completed"
-msgstr ""
+msgstr "Historëjô, jeżlë rechlijszé zapëtania darzëłë sã"
 
 #. i18n: file: kcfg/krunner.kcfg:40
 #. i18n: ectx: label, entry (KeepTaskDialogAbove), group (TaskDialog)
@@ -392,6 +390,12 @@ msgid ""
 "       actually perform useful computations, so it is not desirable to "
 "suspend them."
 msgstr ""
+"Zwëczajno wëgaszôcz ekranu je wëłączony przë ùspionym ekranie\n"
+"       dlôte, że ë tak nick nié mòże bëc òbôczoné Niejedné wëgaszôcze ekranu "
+"\n"
+"       rechùją n.p. w tim czasu przëdatné rzeczë przez co je przëdatné "
+"òstawic je "
+"włączoné."
 
 #: ksystemactivitydialog.h:25
 msgid "System Activity"
@@ -433,7 +437,7 @@ msgstr "Zrëszë znowa bez pòcwierdzeniô"
 #, kde-format
 msgctxt "Run krunner restricting the search only to runner %1"
 msgid "Run Command (runner \"%1\" only)"
-msgstr ""
+msgstr "Zrëszë pòlét (blós zrëszôcz \"%1\")"
 
 #: krunnerapp.cpp:366
 msgid ""
