@@ -7,13 +7,13 @@ msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-11-12 06:11+0100\n"
-"PO-Revision-Date: 2009-05-24 13:37+0200\n"
+"PO-Revision-Date: 2009-12-16 22:32+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
@@ -139,14 +139,13 @@ msgstr "Kòpérëjë weńdzenié"
 msgid "Edit Profile"
 msgstr "Editëjë profil"
 
-#: EditProfileDialog.cpp:149
-#, fuzzy, kde-format
+#: EditProfileDialog.cpp:149, kde-format
 #| msgid "Editing %1 profiles: %2"
 msgid "Editing profile: %2"
 msgid_plural "Editing %1 profiles: %2"
-msgstr[0] "Edicëjô %1 profilu: %2"
-msgstr[1] "Edicëjô %1 profilu: %2"
-msgstr[2] "Edicëjô %1 profilu: %2"
+msgstr[0] "Edicëjô profilu: %2"
+msgstr[1] "Edicëjô %1 profilë: %2"
+msgstr[2] "Edicëjô %1 profilów: %2"
 
 #: EditProfileDialog.cpp:152
 #, kde-format
@@ -186,6 +185,8 @@ msgid ""
 "This color scheme uses a transparent background which does not appear to be "
 "supported on your desktop"
 msgstr ""
+"Nen schemat farwë brëkùje przezérnegò spódka, chtëren nie je wspieróny przez "
+"twój pùlt."
 
 #: EditProfileDialog.cpp:596
 #, kde-format
@@ -202,11 +203,11 @@ msgstr "Editëjë zëstôwk farwów"
 
 #: EditProfileDialog.cpp:844 EditProfileDialog.cpp:855
 msgid "New Key Binding List"
-msgstr ""
+msgstr "Nowô lësta dopasowaniô knapów"
 
 #: EditProfileDialog.cpp:846
 msgid "Edit Key Binding List"
-msgstr ""
+msgstr "Editëjë lëstã dopasowaniô knapów"
 
 #: Filter.cpp:516
 msgid "Open Link"
@@ -256,7 +257,7 @@ msgstr "Zamkni lëstwã szëkbë"
 
 #: IncrementalSearchBar.cpp:58
 msgid "Find:"
-msgstr "Naleze:"
+msgstr "Nalezë:"
 
 #: IncrementalSearchBar.cpp:63
 msgid "Enter the text to search for here"
@@ -284,15 +285,15 @@ msgstr "Pòdsztrichnié wszëtkò"
 
 #: IncrementalSearchBar.cpp:102
 msgid "Sets whether matching text should be highlighted"
-msgstr ""
+msgstr "Nastôwiô czë nalazłi tekst mô bëc pòdsztëchniãti"
 
 #: IncrementalSearchBar.cpp:110
 msgid "Match case"
-msgstr "Dopasowainé"
+msgstr "Dopasowanié miarë"
 
 #: IncrementalSearchBar.cpp:112
 msgid "Sets whether the search is case sensitive"
-msgstr ""
+msgstr "Nastôwiô czë szëkba mô ùwzglãdniac dopasowanié miarë"
 
 #: IncrementalSearchBar.cpp:118
 msgid "Match regular expression"
@@ -303,18 +304,20 @@ msgid ""
 "Sets whether the search phrase is interpreted as normal text or as a regular "
 "expression"
 msgstr ""
+"Nastôwiô, czë szëkónô fraza mô bëc interpretowónô jakno zwëczajny tekst "
+"czë regùlarny wësłów"
 
 #: IncrementalSearchBar.cpp:246
 msgid "Search reached bottom, continued from top."
-msgstr "Szëkba sygła kùńca, jidzë dali òd zaczątkù."
+msgstr "Szëkba sygła kùńca, jidzë dali òd zôczątkù."
 
 #: IncrementalSearchBar.cpp:251
 msgid "Search reached top, continued from bottom."
-msgstr "Szëkba sygła zaczątkù, jidzë dai òd kùńca."
+msgstr "Szëkba sygła zaczątkù, jidzë dali òd kùńca."
 
 #: KeyBindingEditor.cpp:49
 msgid "Key Combination"
-msgstr "Kòmbinacëja klawiszów"
+msgstr "Kòmbinacëjô klawiszów"
 
 #: KeyBindingEditor.cpp:49
 msgid "Output"
@@ -330,51 +333,54 @@ msgstr "Emùlatora terminala"
 
 #: main.cpp:91
 msgid "Name of profile to use for new Konsole instance"
-msgstr ""
+msgstr "Miono profilu dlô nowegò pòsedzeniô kònsolë"
 
 #: main.cpp:92
 msgid "List the available profiles"
-msgstr ""
+msgstr "Lësta przëstãpnych profilów"
 
 #: main.cpp:94
 msgid ""
 "Start Konsole in the background and bring to the front when the F12 key is "
 "pressed"
 msgstr ""
+"Zrëszë kònsolã w spódkù ë przeniesë na wiérzk przë wcësniãcu klawiszë F12 "
 
 #: main.cpp:97
 msgid ""
 "Create a new tab in an existing window rather than creating a new window"
-msgstr ""
+msgstr "Òtemkni bënë nową kôrtã w placu òtemkniãcô nowégò òkna"
 
 #: main.cpp:98
 msgid "Set the initial working directory of the new tab or window to 'dir'"
 msgstr ""
+"Zmieni robòczi katalog kònsolë dlô nowi kôrtë abò òkna na katalog 'dir'"
 
 #: main.cpp:100
 msgid "Disable transparent backgrounds, even if the system supports them."
-msgstr ""
+msgstr "Wëłączë przezérny spódk, nawetka jeżlë systema gò wspiérô."
 
 #: main.cpp:101
 msgid ""
 "Try to enable transparency, even if the system does not appear to support it."
 msgstr ""
+"Właczë przezérnotã, nawetka jeżlë wëdôwô sã, że systema ji nie wspiérô."
 
 #: main.cpp:103
 msgid "Do not close the initial session automatically when it ends."
-msgstr ""
+msgstr "NIé zamëkôj aùtomatno sesëji pò ji zakùńczeniu."
 
 #: main.cpp:105
 msgid "Change the value of a profile property."
-msgstr ""
+msgstr "Zmieni wôrtnotã swòjiznë profilu."
 
 #: main.cpp:106
 msgid "Command to execute"
-msgstr ""
+msgstr "Pòlét do zrëszeniô"
 
 #: main.cpp:107
 msgid "Arguments passed to command"
-msgstr ""
+msgstr "Argùmentë pòlétu"
 
 #: main.cpp:112
 msgid "Robert Knight"
@@ -410,13 +416,12 @@ msgstr "Stephan Binner"
 
 #: main.cpp:123
 msgid "Thomas Dreibholz"
-msgstr ""
+msgstr "Thomas Dreibholz"
 
 #: main.cpp:124
-#, fuzzy
 #| msgid "Bug fixes and general improvements"
 msgid "General improvements"
-msgstr "Rëmanié felów ë òglowé pòprawczi"
+msgstr "Òglowé pòprôwczi"
 
 #: main.cpp:126
 msgid "Chris Machemer"
@@ -440,7 +445,7 @@ msgstr "Alexander Neundorf"
 
 #: main.cpp:133
 msgid "Bug fixes and improved startup performance"
-msgstr ""
+msgstr "Rëmanié felów ë schùtczanié startowaniô"
 
 #: main.cpp:135
 msgid "Peter Silva"
@@ -460,7 +465,7 @@ msgid ""
 "Toolbar and session names"
 msgstr ""
 "Wbùdowónô kònsola\n"
-"Miono sesëji ë lëstwë nôrzãdzy"
+"Miono sesëji ë listwë nôrzãdzów"
 
 #: main.cpp:142
 msgid "David Faure"
@@ -471,6 +476,8 @@ msgid ""
 "Embedded Konsole\n"
 "General improvements"
 msgstr ""
+"Wbùdowónô kònsola\n"
+"Òglowé pòprôwczi"
 
 #: main.cpp:146
 msgid "Antonio Larrosa"
@@ -489,6 +496,8 @@ msgid ""
 "Code from the kvt project\n"
 "General improvements"
 msgstr ""
+"Kòd z ùdbë kvt\n"
+"Òglowé pòprôwczi"
 
 #: main.cpp:153
 msgid "Warwick Allison"
@@ -496,7 +505,7 @@ msgstr "Warwick Allison"
 
 #: main.cpp:154
 msgid "Schema and text selection improvements"
-msgstr "Pòprawczi dlô zestôwków ë zaznaczenia"
+msgstr "Pòprôwczi dlô zestôwków ë zaznaczenia"
 
 #: main.cpp:156
 msgid "Dan Pilone"
@@ -544,7 +553,7 @@ msgstr "&Nowé òkno"
 
 #: MainWindow.cpp:246
 msgid "Remote Connection..."
-msgstr "Daleczé pòłączenié..."
+msgstr "Daleczé sparłãczenié..."
 
 #: MainWindow.cpp:257
 msgid "&Bookmarks"
@@ -552,7 +561,7 @@ msgstr "&Załóżczi"
 
 #: MainWindow.cpp:268
 msgid "Show Menu Bar"
-msgstr "Pòkôżë lëstew menu"
+msgstr "Wëskrzëni listew menu"
 
 #: MainWindow.cpp:290 Part.cpp:117
 msgid "Manage Profiles..."
@@ -560,11 +569,11 @@ msgstr "Sprôwiôj profilama..."
 
 #: MainWindow.cpp:363
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
-msgstr ""
+msgstr "Môsz òtemkłich wiele kôrtów, chcesz na gwës zakùńczëc?"
 
 #: MainWindow.cpp:365 SessionController.cpp:633
 msgid "Confirm Close"
-msgstr ""
+msgstr "Pòcwierdzë zamkniãcé"
 
 #: MainWindow.cpp:367
 msgid "Close Current Tab"
@@ -572,11 +581,11 @@ msgstr "Zamkni biéżną kôrtã"
 
 #: ManageProfilesDialog.cpp:48
 msgid "Manage Profiles"
-msgstr "Sprôwiô profilama..."
+msgstr "Sprôwiôj profilama..."
 
 #: ManageProfilesDialog.cpp:223
 msgid "Show in Menu"
-msgstr "Pòkôżë w menu"
+msgstr "Wëskrzëni w menu"
 
 #: ManageProfilesDialog.cpp:224
 msgid "Shortcut"
@@ -622,7 +631,7 @@ msgstr "Procent"
 #. i18n: ectx: property (text), widget (QCheckBox, randomizedBackgroundCheck)
 #: rc.cpp:12 rc.cpp:756
 msgid "Vary the background color for each tab"
-msgstr ""
+msgstr "Wszelejaczé farwë spódka dlô różnëch kôrtów"
 
 #. i18n: file: CopyInputDialog.ui:18
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -679,25 +688,26 @@ msgid ""
 "The command to execute when new terminal sessions are created using this "
 "profile"
 msgstr ""
+"Pòlét do zrëszeniô przë ùsôdzeniu nowi sesëji terminal brëkùjący negò profilu"
 
 #. i18n: file: EditProfileDialog.ui:92
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #: rc.cpp:42 rc.cpp:445
 msgid "Initial directory:"
-msgstr "Zaczątkòwi katalog:"
+msgstr "Zôczątkòwi katalog:"
 
 #. i18n: file: EditProfileDialog.ui:102
 #. i18n: ectx: property (toolTip), widget (KLineEdit, initialDirEdit)
 #: rc.cpp:45 rc.cpp:448
 msgid ""
 "The initial working directory for new terminal sessions using this profile"
-msgstr ""
+msgstr "Startowi katalog dlô nowi sesëji terminal brëkùjący negò profilu"
 
 #. i18n: file: EditProfileDialog.ui:112
 #. i18n: ectx: property (toolTip), widget (QToolButton, dirSelectButton)
 #: rc.cpp:48 rc.cpp:451
 msgid "Browse for initial directory"
-msgstr "Szëkôj za zaczątkòwim katalogã"
+msgstr "Szëkôj za zôczątkòwim katalogã"
 
 #. i18n: file: EditProfileDialog.ui:115
 #. i18n: ectx: property (text), widget (QToolButton, dirSelectButton)
@@ -715,7 +725,7 @@ msgstr "Ikòna:"
 #. i18n: ectx: property (toolTip), widget (QPushButton, iconSelectButton)
 #: rc.cpp:57 rc.cpp:460
 msgid "Select the icon displayed on tabs using this profile"
-msgstr ""
+msgstr "Wëbierzë ikònã kôrtë brëkòwóną w tim profilu"
 
 #. i18n: file: EditProfileDialog.ui:179
 #. i18n: ectx: property (text), widget (QLabel, environmentLabel)
@@ -727,7 +737,7 @@ msgstr "Òkrãżé:"
 #. i18n: ectx: property (toolTip), widget (QPushButton, environmentEditButton)
 #: rc.cpp:63 rc.cpp:466
 msgid "Edit the list of environment variables and associated values"
-msgstr ""
+msgstr "Editëjë lëstã zmiennych òkrãżô ë przëpisónych wôrtnotów"
 
 #. i18n: file: EditProfileDialog.ui:192
 #. i18n: ectx: property (text), widget (QPushButton, environmentEditButton)
@@ -749,7 +759,7 @@ msgstr "Editëjë..."
 #. i18n: ectx: property (text), widget (QCheckBox, startInSameDirButton)
 #: rc.cpp:69 rc.cpp:472
 msgid "Start in same directory as current tab"
-msgstr ""
+msgstr "Startëjë w tim sómym katalogù co aktualnô kôrta"
 
 #. i18n: file: EditProfileDialog.ui:209
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_12)
@@ -785,7 +795,7 @@ msgstr "Title kôrtów"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:87 rc.cpp:490
 msgid "Tab title format:"
-msgstr "Fòrmat titlë kôrtë:"
+msgstr "Fòrmat titla kôrtë:"
 
 #. i18n: file: EditProfileDialog.ui:284
 #. i18n: ectx: property (toolTip), widget (KLineEdit, tabTitleEdit)
@@ -824,12 +834,14 @@ msgid ""
 "Tab title format used when a remote command (e.g. connection to another "
 "computer via SSH) is being executed"
 msgstr ""
+"Brëkòwóny fòrmat titla dlô zrëszónych daleczich pòlétów (n.p. sparłãczenié "
+"z jinszim kòmpùtrã przez SSH)"
 
 #. i18n: file: EditProfileDialog.ui:318
 #. i18n: ectx: property (toolTip), widget (QPushButton, remoteTabTitleEditButton)
 #: rc.cpp:105 rc.cpp:508
 msgid "Edit tab title format used when executing remote commands"
-msgstr ""
+msgstr "Editëjë brëkòwóny fòrmat titla dlô zrëszónych daleczich pòlétów "
 
 #. i18n: file: EditProfileDialog.ui:331
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
@@ -847,7 +859,7 @@ msgstr "Wëskrzënianié listwë kôrtów:"
 #. i18n: ectx: property (text), widget (QLabel, label_13)
 #: rc.cpp:117 rc.cpp:520
 msgid "Tab bar position:"
-msgstr "Pòzycëjô listwë kôrtów"
+msgstr "Pòłożenié listwë kôrtów"
 
 #. i18n: file: EditProfileDialog.ui:383
 #. i18n: ectx: property (text), widget (QCheckBox, newTabButton)
@@ -871,7 +883,7 @@ msgstr "Schéma farwë ë spòdlé"
 #. i18n: ectx: property (toolTip), widget (QPushButton, newColorSchemeButton)
 #: rc.cpp:129 rc.cpp:532
 msgid "Create a new color scheme based upon the selected scheme"
-msgstr ""
+msgstr "Ùsôdzë nową schémã farwów òpiartą na wëbróny"
 
 #. i18n: file: EditProfileDialog.ui:446
 #. i18n: ectx: property (text), widget (QPushButton, newColorSchemeButton)
@@ -941,7 +953,7 @@ msgstr "Môłi"
 #. i18n: ectx: property (toolTip), widget (QSlider, fontSizeSlider)
 #: rc.cpp:160 rc.cpp:563
 msgid "Adjust the font size used in this profile"
-msgstr ""
+msgstr "Nastôwi miarã fòntów brëkòwóną w tim profilu"
 
 #. i18n: file: EditProfileDialog.ui:560
 #. i18n: ectx: property (text), widget (QLabel, label_6)
@@ -953,7 +965,7 @@ msgstr "Wiôldżi"
 #. i18n: ectx: property (toolTip), widget (QPushButton, editFontButton)
 #: rc.cpp:166 rc.cpp:569
 msgid "Change the font used in this profile"
-msgstr ""
+msgstr "Zmieni fònt brëkòwóny w tim profilu"
 
 #. i18n: file: EditProfileDialog.ui:570
 #. i18n: ectx: property (text), widget (QPushButton, editFontButton)
@@ -965,7 +977,7 @@ msgstr "Editëjë fònt..."
 #. i18n: ectx: property (text), widget (QCheckBox, antialiasTextButton)
 #: rc.cpp:172 rc.cpp:575
 msgid "Smooth fonts"
-msgstr ""
+msgstr "Wëgładzóné fòntë"
 
 #. i18n: file: EditProfileDialog.ui:598
 #. i18n: ectx: attribute (title), widget (QWidget, scrollingTab)
@@ -983,37 +995,37 @@ msgstr "Przewijanié"
 #. i18n: ectx: property (toolTip), widget (QRadioButton, disableScrollbackButton)
 #: rc.cpp:181 rc.cpp:584
 msgid "Disable scroll bar and do not remember previous output"
-msgstr ""
+msgstr "Wëłączë listew przewijaniô ë nié pamiãtôj rechlijszich wińdzeniów"
 
 #. i18n: file: EditProfileDialog.ui:622
 #. i18n: ectx: property (text), widget (QRadioButton, disableScrollbackButton)
 #: rc.cpp:184 rc.cpp:587
 msgid "Disable scrollback"
-msgstr "Wëłączë lëstwã przewijaniô"
+msgstr "Wëłączë listew przewijaniô"
 
 #. i18n: file: EditProfileDialog.ui:637
 #. i18n: ectx: property (toolTip), widget (QRadioButton, fixedScrollbackButton)
 #: rc.cpp:187 rc.cpp:590
 msgid "Limit the remembered output to a fixed number of lines"
-msgstr ""
+msgstr "Ògańczô pamiãtóné wińdzenia do stałi wielënë rézów"
 
 #. i18n: file: EditProfileDialog.ui:640
 #. i18n: ectx: property (text), widget (QRadioButton, fixedScrollbackButton)
 #: rc.cpp:190 rc.cpp:593
 msgid "Fixed number of lines: "
-msgstr "Szatbilnô lëczba rézów: "
+msgstr "Stałô wielëna rézów: "
 
 #. i18n: file: EditProfileDialog.ui:647
 #. i18n: ectx: property (toolTip), widget (KIntSpinBox, scrollBackLinesSpinner)
 #: rc.cpp:193 rc.cpp:596
 msgid "Number of lines of output to remember"
-msgstr ""
+msgstr "Wielëna rézów wińdzeniô do spamiãtaniô"
 
 #. i18n: file: EditProfileDialog.ui:681
 #. i18n: ectx: property (toolTip), widget (QRadioButton, unlimitedScrollbackButton)
 #: rc.cpp:196 rc.cpp:599
 msgid "Remember all output produced by the terminal"
-msgstr ""
+msgstr "Pamiãtôj wszëtczé wińdzenia terminala"
 
 #. i18n: file: EditProfileDialog.ui:694
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_7)
