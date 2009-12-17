@@ -7,13 +7,13 @@ msgstr ""
 "Project-Id-Version: kinfocenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-11-21 06:19+0100\n"
-"PO-Revision-Date: 2009-05-15 18:44+0200\n"
+"PO-Revision-Date: 2009-12-17 23:30+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
@@ -46,11 +46,10 @@ msgid "Value"
 msgstr "Wôrtnota"
 
 #: base/info_aix.cpp:307
-#, fuzzy
 #| msgid "MB"
 msgctxt "Mebibyte"
 msgid "MiB "
-msgstr "MB"
+msgstr "MiB "
 
 #: base/info_aix.cpp:312 base/info_fbsd.cpp:277 base/info_fbsd.cpp:305
 #: base/info_hpux.cpp:361 base/info_linux.cpp:476 base/info_netbsd.cpp:161
@@ -101,49 +100,53 @@ msgid ""
 "Your sound system could not be queried.  /dev/sndstat does not exist or is "
 "not readable."
 msgstr ""
-"Twòjô zwãkòwô systema ni mòże òstac òdwòłanô. Felëje /dev/sndstat, abò ni "
+"Twòjô zwãkòwô systema nié mòże bëc òdwòłanô. Felëje /dev/sndstat, abò ni "
 "mòże ji czëtac."
 
 #: base/info_fbsd.cpp:173
 msgid ""
 "SCSI subsystem could not be queried: /sbin/camcontrol could not be found"
-msgstr "Pòdsystema SCSI  ni mòże òstac òdwòłanô: felëje /sbin/camcontrol"
+msgstr "Pòdsystema SCSI  nié mòże bëc òdwòłanô: felëje /sbin/camcontrol"
 
 #: base/info_fbsd.cpp:178
 msgid ""
 "SCSI subsystem could not be queried: /sbin/camcontrol could not be executed"
 msgstr ""
+"Pòdsystema SCSI  nié mòże bëc òdwòłanô: /sbin/camcontrol nie je wëkònywólny"
 
 #: base/info_fbsd.cpp:226
 msgid ""
 "Could not find any programs with which to query your system's PCI information"
 msgstr ""
+"Nié mòżé nalezc niżódny programë z chtërną bë szło dobëc wëdowiédzã ò twòji "
+"systemie PCI"
 
 #: base/info_fbsd.cpp:243
 #, kde-format
 msgid "PCI subsystem could not be queried: %1 could not be executed"
-msgstr ""
+msgstr "Nié mòże òdpëtac pòdsystemë PCI:  %1 nie je wëkònywólny"
 
 #: base/info_fbsd.cpp:255
 msgid "The PCI subsystem could not be queried, this may need root privileges."
 msgstr ""
+"Nié mòże òdpëtac pòdsystemë PCI, mòże je nót do tegò sprôwniczëch prawów."
 
 #: base/info_fbsd.cpp:270
 msgid "Could not check file system info: "
-msgstr ""
+msgstr "Nié mòże dobëc wëdowiédzë ò systemie lopków: "
 
 #: base/info_fbsd.cpp:277 base/info_linux.cpp:476 base/info_openbsd.cpp:267
 #: base/info_solaris.cpp:174
 msgid "Mount Options"
-msgstr "Òptacëje mountowaniô"
+msgstr "Òptacëje mòntowaniô"
 
 #: base/info_hpux.cpp:129
 msgid "PA-RISC Processor"
-msgstr "Procesor PA-RISC"
+msgstr "Procesora PA-RISC"
 
 #: base/info_hpux.cpp:131
 msgid "PA-RISC Revision"
-msgstr ""
+msgstr "PA-RISC Revision"
 
 #: base/info_hpux.cpp:168
 msgid "Machine"
@@ -155,7 +158,7 @@ msgstr "Mòdel"
 
 #: base/info_hpux.cpp:182
 msgid "Machine Identification Number"
-msgstr ""
+msgstr "Identifikacjowi numer maszinë"
 
 #: base/info_hpux.cpp:183 base/info_solaris.cpp:619
 msgid "(none)"
@@ -163,7 +166,7 @@ msgstr "(nick)"
 
 #: base/info_hpux.cpp:188
 msgid "Number of Active Processors"
-msgstr "Wielena aktiwnëch procesów"
+msgstr "Wielëna aktiwnych procesów"
 
 #: base/info_hpux.cpp:192
 msgid "CPU Clock"
@@ -191,14 +194,13 @@ msgstr "wëłączoné"
 
 #: base/info_hpux.cpp:238
 msgid "Numerical Coprocessor (FPU)"
-msgstr "Kòòprocesor matematiczny (FPU)"
+msgstr "Matematicznô kòprocesora (FPU)"
 
 #: base/info_hpux.cpp:242 base/info_linux.cpp:334 base/info_linux.cpp:445
-#, fuzzy
 #| msgid "MB"
 msgctxt "Mebibyte"
 msgid "MiB"
-msgstr "MB"
+msgstr "MiB"
 
 #: base/info_hpux.cpp:243
 msgid "Total Physical Memory"
@@ -206,7 +208,7 @@ msgstr "Całowô fizycznô pamiãc"
 
 #: base/info_hpux.cpp:245
 msgid " Bytes"
-msgstr "Bajtów"
+msgstr " Bajtów"
 
 #: base/info_hpux.cpp:246
 msgid "Size of One Page"
@@ -230,7 +232,7 @@ msgstr "Wersëjô Aliba"
 
 #: base/info_hpux.cpp:447
 msgid "Protocol Revision"
-msgstr ""
+msgstr "Wersëjô protokòła"
 
 #: base/info_hpux.cpp:451
 msgid "Vendor Number"
@@ -242,7 +244,7 @@ msgstr "Wersëjô"
 
 #: base/info_hpux.cpp:457
 msgid "Byte Order"
-msgstr ""
+msgstr "Pòrządk bajtów"
 
 #: base/info_hpux.cpp:458
 msgid "ALSBFirst (LSB)"
@@ -254,11 +256,11 @@ msgstr "AMSBFirst (MSB)"
 
 #: base/info_hpux.cpp:460
 msgid "Invalid Byteorder."
-msgstr ""
+msgstr "Léchi pòrządk bajtów"
 
 #: base/info_hpux.cpp:462
 msgid "Bit Order"
-msgstr ""
+msgstr "Pòrządk bitów"
 
 #: base/info_hpux.cpp:464
 msgid "ALeastSignificant (LSB)"
@@ -270,7 +272,7 @@ msgstr "AMostSignificant (MSB)"
 
 #: base/info_hpux.cpp:466
 msgid "Invalid Bitorder."
-msgstr ""
+msgstr "Léchi pòrządk bitów"
 
 #: base/info_hpux.cpp:468
 msgid "Data Formats"
@@ -278,11 +280,11 @@ msgstr "Fòrmatë pòdôwków"
 
 #: base/info_hpux.cpp:475
 msgid "Sampling Rates"
-msgstr ""
+msgstr "Chùtkòsc òdpëtëwaniô"
 
 #: base/info_hpux.cpp:481
 msgid "Input Sources"
-msgstr "Zdroje wéńdzenia"
+msgstr "Zdroje wéńdzeniô"
 
 #: base/info_hpux.cpp:483
 msgid "Mono-Microphone"
@@ -290,7 +292,7 @@ msgstr "Mikrofón mono"
 
 #: base/info_hpux.cpp:485
 msgid "Mono-Auxiliary"
-msgstr ""
+msgstr "Mono-Aux"
 
 #: base/info_hpux.cpp:487
 msgid "Left-Microphone"
@@ -302,11 +304,11 @@ msgstr "Prawi mikrofón"
 
 #: base/info_hpux.cpp:491
 msgid "Left-Auxiliary"
-msgstr ""
+msgstr "Lewi-Aux"
 
 #: base/info_hpux.cpp:493
 msgid "Right-Auxiliary"
-msgstr ""
+msgstr "Prawi-Aux"
 
 #: base/info_hpux.cpp:496
 msgid "Input Channels"
@@ -326,7 +328,7 @@ msgstr "Prawi kanał"
 
 #: base/info_hpux.cpp:505
 msgid "Output Destinations"
-msgstr ""
+msgstr "Ùrządzenia wińdzeniô"
 
 #: base/info_hpux.cpp:507
 msgid "Mono-InternalSpeaker"
@@ -354,35 +356,35 @@ msgstr "Prawi Jack"
 
 #: base/info_hpux.cpp:520
 msgid "Output Channels"
-msgstr "Kanałë wińdzenia"
+msgstr "Kanałë wińdzeniô"
 
 #: base/info_hpux.cpp:529
 msgid "Gain"
-msgstr ""
+msgstr "Zmòcnienié sygnału"
 
 #: base/info_hpux.cpp:530
 msgid "Input Gain Limits"
-msgstr ""
+msgstr "Maksymalné zmòcnienié wéńdzeniô"
 
 #: base/info_hpux.cpp:532
 msgid "Output Gain Limits"
-msgstr ""
+msgstr "Maksymalné zmòcnienié wińdzeniô"
 
 #: base/info_hpux.cpp:535
 msgid "Monitor Gain Limits"
-msgstr ""
+msgstr "Maksymalné zmòcnienié mònitora"
 
 #: base/info_hpux.cpp:538
 msgid "Gain Restricted"
-msgstr ""
+msgstr "Ùtrzëmanié zmòcnieniô"
 
 #: base/info_hpux.cpp:542
 msgid "Lock"
-msgstr ""
+msgstr "Zablokòwanié"
 
 #: base/info_hpux.cpp:544
 msgid "Queue Length"
-msgstr ""
+msgstr "Długòta żdaniô"
 
 #: base/info_hpux.cpp:546
 msgid "Block Size"
@@ -390,7 +392,7 @@ msgstr "Miara blokù"
 
 #: base/info_hpux.cpp:548
 msgid "Stream Port (decimal)"
-msgstr ""
+msgstr "Pòrt Stream(decymalno)"
 
 #: base/info_linux.cpp:130
 msgid "DMA-Channel"
@@ -398,11 +400,11 @@ msgstr "Kanał DMA"
 
 #: base/info_linux.cpp:130 base/info_linux.cpp:181
 msgid "Used By"
-msgstr "Ùżëwóny bez"
+msgstr "Ùżëwóny przez"
 
 #: base/info_linux.cpp:181
 msgid "I/O-Range"
-msgstr ""
+msgstr "Rum Wé/Wi"
 
 #: base/info_linux.cpp:206
 msgid "Devices"
@@ -410,23 +412,23 @@ msgstr "Ùrządzenia"
 
 #: base/info_linux.cpp:206
 msgid "Major Number"
-msgstr ""
+msgstr "Wëższi numer"
 
 #: base/info_linux.cpp:206
 msgid "Minor Number"
-msgstr ""
+msgstr "Niższi numer"
 
 #: base/info_linux.cpp:220
 msgid "Character Devices"
-msgstr ""
+msgstr "Ùrządzenia céchów"
 
 #: base/info_linux.cpp:227
 msgid "Block Devices"
-msgstr ""
+msgstr "Blokòwé ùrządzenia"
 
 #: base/info_linux.cpp:262
 msgid "Miscellaneous Devices"
-msgstr ""
+msgstr "Jinszé ùrządzenia"
 
 #: base/info_netbsd.cpp:161 base/info_openbsd.cpp:172
 msgid "IRQ"
@@ -434,27 +436,27 @@ msgstr "IRQ"
 
 #: base/info_netbsd.cpp:179 base/info_openbsd.cpp:185
 msgid "No PCI devices found."
-msgstr ""
+msgstr "Felëje ùrządzenia PCI."
 
 #: base/info_netbsd.cpp:188 base/info_openbsd.cpp:194
 msgid "No I/O port devices found."
-msgstr ""
+msgstr "Felëjë ùrządzenia Wé/Wi."
 
 #: base/info_netbsd.cpp:199 base/info_openbsd.cpp:203
 msgid "No audio devices found."
-msgstr ""
+msgstr "Felëje ùrządzenia aùdio."
 
 #: base/info_netbsd.cpp:237 base/info_openbsd.cpp:247
 msgid "No SCSI devices found."
-msgstr ""
+msgstr "Felëje ùrządzenia SCSI."
 
 #: base/info_netbsd.cpp:273
 msgid "Total Nodes"
-msgstr ""
+msgstr "Całowno Nodes"
 
 #: base/info_netbsd.cpp:273
 msgid "Free Nodes"
-msgstr ""
+msgstr "Wòlné Nodes"
 
 #: base/info_netbsd.cpp:273
 msgid "Flags"
@@ -462,7 +464,7 @@ msgstr "Fanë"
 
 #: base/info_openbsd.cpp:261
 msgid "Unable to run /sbin/mount."
-msgstr "Ni mòże zrëszëc /sbin/mount."
+msgstr "Nié mòże zrëszëc /sbin/mount."
 
 #: base/info_osx.cpp:121
 msgid "Device Name"
@@ -470,11 +472,11 @@ msgstr "Miono ùrządzenia"
 
 #: base/info_osx.cpp:131
 msgid "Manufacturer"
-msgstr ""
+msgstr "Producent"
 
 #: base/info_solaris.cpp:69
 msgid "Instance"
-msgstr ""
+msgstr "Wëdôwk"
 
 #: base/info_solaris.cpp:69
 msgid "CPU Type"
