@@ -3,20 +3,21 @@
 #
 # Michôł Òstrowsczi <michol@linuxcsb.org>, 2007, 2008.
 # Mark Kwidzińsczi <mark@linuxcsb.org>, 2008.
+# Mark Kwidzińśczi <mark@linuxcsb.org>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-11-16 06:13+0100\n"
-"PO-Revision-Date: 2008-07-12 23:25+0200\n"
-"Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
-"Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
+"PO-Revision-Date: 2009-12-18 21:29+0100\n"
+"Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
+"Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2)\n"
-"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) "
+"? 1 : 2)\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -32,7 +33,7 @@ msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
 #. i18n: ectx: ToolBar (mainToolBar)
 #: rc.cpp:5
 msgid "&Main Toolbar"
-msgstr ""
+msgstr "&Przédnô listew nôrzãdzów"
 
 #: apps/Installer.cpp:54 kcmfontinst/KCmFontInst.cpp:985
 msgid ""
@@ -87,6 +88,8 @@ msgid ""
 "Font to print, specified as \"Family,Style\" where Style is a 24-bit decimal "
 "number composed as: <weight><width><slant>"
 msgstr ""
+"Fònt do drëkù pòdóny jakno \"Familëjô, Sztél\". Nen sztél je "
+"24-bitowim decymalnym fòrmatã: <wôga><szérzô><ùchëł>"
 
 #: apps/Printer.cpp:246
 msgid "File containing list of fonts to print"
@@ -130,16 +133,15 @@ msgstr "Nie sã nalazłé duplikòwóné fòntë."
 
 #: kcmfontinst/DuplicatesDialog.cpp:132
 msgid "Delete Marked Files"
-msgstr ""
+msgstr "Rëmôj wëbróné lopczi"
 
-#: kcmfontinst/DuplicatesDialog.cpp:134
-#, fuzzy, kde-format
+#: kcmfontinst/DuplicatesDialog.cpp:134, kde-format
 #| msgid "%1 duplicate fonts found."
 msgid "%1 duplicate font found."
 msgid_plural "%1 duplicate fonts found."
-msgstr[0] "Duplikòwóné fòntë: %1."
-msgstr[1] "Duplikòwóné fòntë: %1."
-msgstr[2] "Duplikòwóné fòntë: %1."
+msgstr[0] "%1 duplikòwóny fònt"
+msgstr[1] "%1 duplikòwóné fòntë"
+msgstr[2] "%1 duplikòwónych fòntów"
 
 #: kcmfontinst/DuplicatesDialog.cpp:223
 #, kde-format
@@ -156,11 +158,11 @@ msgstr "Na gwës chcesz to rëmnąc:"
 
 #: kcmfontinst/DuplicatesDialog.cpp:249
 msgid "Cancel font scan?"
-msgstr ""
+msgstr "Òprzestac skanowanié fòntów?"
 
 #: kcmfontinst/DuplicatesDialog.cpp:251
 msgid "Canceling..."
-msgstr ""
+msgstr "Òprzestanié..."
 
 #: kcmfontinst/DuplicatesDialog.cpp:409
 msgid "Font/File"
@@ -188,11 +190,11 @@ msgstr "Swòjiznë"
 
 #: kcmfontinst/DuplicatesDialog.cpp:430
 msgid "Unmark for Deletion"
-msgstr ""
+msgstr "Copni wëbiérk do rëmniãcô"
 
 #: kcmfontinst/DuplicatesDialog.cpp:432
 msgid "Mark for Deletion"
-msgstr ""
+msgstr "Wëbierzë do rëmniãcô"
 
 #: kcmfontinst/DuplicatesDialog.cpp:532 kcmfontinst/FontList.cpp:1805
 #, kde-format
@@ -201,23 +203,23 @@ msgstr "Òtemknąc wszëtczé %1 fòntë w przezérnikù fòntów?"
 
 #: kcmfontinst/FontFilter.cpp:82
 msgid "Set Criteria"
-msgstr ""
+msgstr "Nastôwi kriterëja"
 
 #: kcmfontinst/FontFilter.cpp:94
 msgid "Family"
-msgstr "Rodzëzna"
+msgstr "Familëjô"
 
 #: kcmfontinst/FontFilter.cpp:95
 msgid "Style"
-msgstr ""
+msgstr "Sztél"
 
 #: kcmfontinst/FontFilter.cpp:97
 msgid "Foundry"
-msgstr ""
+msgstr "Producent"
 
 #: kcmfontinst/FontFilter.cpp:104
 msgid "FontConfig Match"
-msgstr ""
+msgstr "Szëkôj za FontConfig"
 
 #: kcmfontinst/FontFilter.cpp:105
 msgid "File"
@@ -225,15 +227,15 @@ msgstr "Lopk"
 
 #: kcmfontinst/FontFilter.cpp:106
 msgid "File Location"
-msgstr ""
+msgstr "Pòłóżenié lopka"
 
 #: kcmfontinst/FontFilter.cpp:108
 msgid "Writing System"
-msgstr ""
+msgstr "Systema pisaniô"
 
 #: kcmfontinst/FontFilter.cpp:117
 msgid "Symbol/Other"
-msgstr ""
+msgstr "Céch/Jinszé"
 
 #: kcmfontinst/FontFilter.cpp:191 kcmfontinst/FontFilter.cpp:256
 #, kde-format
@@ -249,6 +251,8 @@ msgid ""
 "This column shows the status of the font family, and of the individual font "
 "styles."
 msgstr ""
+"Na kòlumna wëskrzëniô stón familëji fòntów ë indiwidualnych sztélów "
+"fòntów."
 
 #: kcmfontinst/FontList.cpp:718
 msgid ""
@@ -485,8 +489,7 @@ msgstr ""
 #| msgid ""
 #| "You cannot install bitmap fonts, as these have been disabled on your "
 #| "system."
-msgid ""
-"<i>%1</i> is a bitmap font, and these have been disabled on your system."
+msgid "<i>%1</i> is a bitmap font, and these have been disabled on your system."
 msgstr ""
 "Ni mòżesz zajinstalowac bitmapòwëch fòntów, ga ne òstałë wëłączoné bez twòją "
 "systemã."
@@ -898,12 +901,9 @@ msgid ""
 msgid_plural ""
 "<p>Do you really want to enable these %1 fonts contained within group '<b>%"
 "2</b>'?</p>"
-msgstr[0] ""
-"<p>Czë na gwës chcesz włączëc nen fònt zamkłi w grëpie '<b>%2</b>'?</p>"
-msgstr[1] ""
-"<p>Czë na gwës chcesz włączëc ne %1 fòntë zamkłi w grëpie '<b>%2</b>'?</p>"
-msgstr[2] ""
-"<p>Czë na gwës chcesz włączëc ne %1 fòntów zamkłëch w grëpie '<b>%2</b>'?</p>"
+msgstr[0] "<p>Czë na gwës chcesz włączëc nen fònt zamkłi w grëpie '<b>%2</b>'?</p>"
+msgstr[1] "<p>Czë na gwës chcesz włączëc ne %1 fòntë zamkłi w grëpie '<b>%2</b>'?</p>"
+msgstr[2] "<p>Czë na gwës chcesz włączëc ne %1 fòntów zamkłëch w grëpie '<b>%2</b>'?</p>"
 
 #: kcmfontinst/KCmFontInst.cpp:1183
 #, kde-format
@@ -913,12 +913,9 @@ msgid ""
 msgid_plural ""
 "<p>Do you really want to disable these %1 fonts contained within group '<b>%"
 "2</b>'?</p>"
-msgstr[0] ""
-"<p>Czë na gwës chcesz wëłączëc nen fònt zamkłi w grëpie '<b>%2</b>'?</p>"
-msgstr[1] ""
-"<p>Czë na gwës chcesz wëłączëc ne %1 fòntë zamkłé w grëpie '<b>%2</b>'?</p>"
-msgstr[2] ""
-"<p>Czë na gwës chcesz włączëc ne %1 fòntów zamkłëch w grëpie '<b>%2</b>'?</p>"
+msgstr[0] "<p>Czë na gwës chcesz wëłączëc nen fònt zamkłi w grëpie '<b>%2</b>'?</p>"
+msgstr[1] "<p>Czë na gwës chcesz wëłączëc ne %1 fòntë zamkłé w grëpie '<b>%2</b>'?</p>"
+msgstr[2] "<p>Czë na gwës chcesz włączëc ne %1 fòntów zamkłëch w grëpie '<b>%2</b>'?</p>"
 
 #: kcmfontinst/KCmFontInst.cpp:1189 kcmfontinst/KCmFontInst.cpp:1190
 msgid "Enable Fonts"
@@ -1041,8 +1038,7 @@ msgstr ""
 #| "File %1 contains the font:\n"
 #| "%2\n"
 #| "A font with this name is already installed.\n"
-msgid ""
-"%1 contains the font <b>%2</b>, which is already installed on your system."
+msgid "%1 contains the font <b>%2</b>, which is already installed on your system."
 msgstr ""
 "Lopk %1 zamrkô fònt:\n"
 "%2\n"
@@ -1070,8 +1066,7 @@ msgid "Aa"
 msgstr "Aa"
 
 #: lib/FcEngine.cpp:708
-msgctxt ""
-"All letters of the alphabet (in upper/lower case pairs), followed by numbers"
+msgctxt "All letters of the alphabet (in upper/lower case pairs), followed by numbers"
 msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789"
 msgstr "AaĄąÃãBbCcDdEeÉéËëFfGgHhIiJjKkLlŁłMmNnŃńOoÒòÔôÓóPpQqRrSsTtUuÙùVvWwXxYyZzŻż0123456789"
 
