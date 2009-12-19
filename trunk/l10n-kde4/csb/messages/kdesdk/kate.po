@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-14 06:50+0100\n"
+"POT-Creation-Date: 2009-12-19 05:49+0100\n"
 "PO-Revision-Date: 2009-12-19 02:07+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -120,7 +120,6 @@ msgstr ""
 
 #. i18n: file ./plugins/filetemplates/templates/docbookchapter.xml.katetemplate line 2
 #: rc.cpp:38
-#| msgid "Document to open"
 msgctxt "@item:inmenu"
 msgid "Documentation"
 msgstr "Dokùmentacëjô"
@@ -191,7 +190,6 @@ msgstr "&Wëzdrzatczi"
 #. i18n: file: data/kateui.rc:58
 #. i18n: ectx: Menu (view-split)
 #: rc.cpp:71
-#| msgid "Split Ve&rtical"
 msgid "Split View"
 msgstr "Rozdzëlë wëzdrzatczi"
 
@@ -478,22 +476,20 @@ msgstr ""
 "<p>Wcësni <strong>F8</strong> abò <strong>Shift+F8</strong>, bë przełączac \n"
 "wëzdrzatczi.</p>\n"
 
-#: app/kateviewspace.cpp:272 app/kateviewspace.cpp:366
+#: app/kateviewspace.cpp:273 app/kateviewspace.cpp:372
 #, kde-format
 msgid " Line: %1 Col: %2 "
 msgstr " Réżka: %1 Kòl: %2 "
 
-#: app/kateviewspace.cpp:286
+#: app/kateviewspace.cpp:287
 msgid " INS "
 msgstr " WST "
 
-#: app/kateviewspace.cpp:291 app/kateviewspace.cpp:375
-#| msgid " INS "
+#: app/kateviewspace.cpp:292 app/kateviewspace.cpp:381
 msgid " LINE "
 msgstr " RÉŻKA "
 
-#: app/kateviewspace.cpp:375
-#| msgid " BLK "
+#: app/kateviewspace.cpp:381
 msgid " BLOCK "
 msgstr " BLOK "
 
@@ -546,7 +542,6 @@ msgid "&Reload All"
 msgstr "&Zladëjë wszëtkò znowa"
 
 #: app/katemainwindow.cpp:317
-#| msgid "Close all open documents."
 msgid "Reload all open documents."
 msgstr "Zladëjë wszëtczé òtemkłé dokùmentë znowa."
 
@@ -654,7 +649,6 @@ msgid "Save &As..."
 msgstr "Zapiszë j&akno..."
 
 #: app/katemainwindow.cpp:408
-#| msgid "Save &As..."
 msgid "Save as &Default..."
 msgstr "Zapiszë j&akno domëslné"
 
@@ -685,8 +679,8 @@ msgstr "%1 [*]"
 msgid "&Other..."
 msgstr "&Jinszé..."
 
-#: app/katemainwindow.cpp:814, kde-format
-#| msgid "Application '%1' not found!"
+#: app/katemainwindow.cpp:814
+#, kde-format
 msgid "Application '%1' not found."
 msgstr "Aplikacëjô '%1' nie òstała nalazłô."
 
@@ -731,9 +725,6 @@ msgstr ""
 "wicy òbsłëgiwónëch dokùmentów."
 
 #: app/katemwmodonhddialog.cpp:96
-#| msgid ""
-#| "<qt>The documents listed below has changed on disk.<p>Select one or more "
-#| "at the time and press an action button until the list is empty.</qt>"
 msgid ""
 "<qt>The documents listed below have changed on disk.<p>Select one or more at "
 "once, and press an action button until the list is empty.</p></qt>"
@@ -809,12 +800,10 @@ msgid "Diff Output"
 msgstr ""
 
 #: app/kateappcommands.cpp:76
-#| msgid "Documents Modified on Disk"
 msgid "All documents written to disk"
 msgstr "Dokùmentë zapisóné na diskù"
 
 #: app/kateappcommands.cpp:79
-#| msgid "Documents Modified on Disk"
 msgid "Document written to disk"
 msgstr "Dokùmentë zapisóné na diskù"
 
@@ -948,7 +937,6 @@ msgid "Editor Component Options"
 msgstr "Òptacëje editora kòmpònentów"
 
 #: app/kateconfigdialog.cpp:363
-#| msgid " day(s)"
 msgctxt "The suffix of 'Delete unused meta-information after'"
 msgid " day"
 msgid_plural " days"
@@ -1186,7 +1174,6 @@ msgid "Start Kate with a given session"
 msgstr "Zrëszë Kate z pòdaną sesëją"
 
 #: app/katemain.cpp:123
-#| msgid "Start Kate with a given session"
 msgid "Start Kate with a new anonymous session, implies '-n'"
 msgstr "Zrëszë Kate z nową anonimòwą sesëją, dodôwôjąc  '-n'"
 
@@ -1244,10 +1231,8 @@ msgstr ""
 msgid "Delete File?"
 msgstr "Rëmnąc lopk?"
 
-#: app/katedocmanager.cpp:461, kde-format
-#| msgid ""
-#| "<p>The document '%1' has been modified, but not saved.<p>Do you want to "
-#| "save your changes or discard them?"
+#: app/katedocmanager.cpp:461
+#, kde-format
 msgid ""
 "<p>The document '%1' has been modified, but not saved.</p><p>Do you want to "
 "save your changes or discard them?</p>"
@@ -1300,7 +1285,6 @@ msgid "No Session Selected"
 msgstr "Nie wëbrano sesëji"
 
 #: app/katesession.cpp:505
-#| msgid "No session selected to open."
 msgid "No session selected to copy."
 msgstr "Nié wëbróno sesëji do kòpérowaniô."
 
@@ -1384,7 +1368,6 @@ msgid "Session Renaming"
 msgstr "Zmienioné miono sesëji"
 
 #: app/katefilelist.cpp:52
-#| msgid "Clos&e All"
 msgid "Close"
 msgstr "Zamkni"
 
@@ -1421,7 +1404,6 @@ msgid "&Modified documents' shade:"
 msgstr ""
 
 #: app/katefilelist.cpp:247
-#| msgid "Sort &By"
 msgid "&Sort by:"
 msgstr "Zortëjë we&dle:"
 
@@ -1471,7 +1453,6 @@ msgid "Close the currently active splitted view"
 msgstr "Zamkni biéżny, pòdzelony wëzdrzatk"
 
 #: app/kateviewmanager.cpp:138
-#| msgid "Next View"
 msgid "Next Split View"
 msgstr "Nôslédny pòdzelony wëzdrzatk"
 
@@ -1480,7 +1461,6 @@ msgid "Make the next split view the active one."
 msgstr "Aktiwùjë nôslédny pòdwëzdrzatk."
 
 #: app/kateviewmanager.cpp:145
-#| msgid "Previous View"
 msgid "Previous Split View"
 msgstr "Wczasniészi pòdzelony wëzdrzatk"
 
@@ -1581,7 +1561,6 @@ msgid "&Save Selected"
 msgstr "&Zapiszë wëbróné"
 
 #: app/katesavemodifieddialog.cpp:178
-#| msgid "Do Not Save"
 msgid "Do &Not Close"
 msgstr "&Nié zamëkôj"
 
