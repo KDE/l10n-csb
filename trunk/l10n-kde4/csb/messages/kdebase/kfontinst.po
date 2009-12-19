@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-11-16 06:13+0100\n"
-"PO-Revision-Date: 2009-12-19 12:00+0100\n"
+"PO-Revision-Date: 2009-12-19 14:06+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
 "MIME-Version: 1.0\n"
@@ -809,10 +809,13 @@ msgid ""
 "td><td>%2</td></tr><tr><td>Partially enabled fonts:</td><td>%3</td></"
 "tr><tr><td>Total fonts:</td><td>%4</td></tr></table>"
 msgstr ""
+"<table><tr><td>Włączoné fòntë:</td><td>%1</td></tr><tr><td>Wëłączoné fòntë:</"
+"td><td>%2</td></tr><tr><td>Dzélowò włączoné fòntë:</td><td>%3</td></"
+"tr><tr><td>Całowné fòntë:</td><td>%4</td></tr></table>"
 
 #: kcmfontinst/KCmFontInst.cpp:1019
 msgid "Looking for any associated files..."
-msgstr "Szëkanié za równojaczima zrzeszonëma lopkama..."
+msgstr "Wzéranié za sparłãczonyma lopkama..."
 
 #: kcmfontinst/KCmFontInst.cpp:1023
 msgid "Scanning Files..."
@@ -820,12 +823,12 @@ msgstr "Skanowanié lopków..."
 
 #: kcmfontinst/KCmFontInst.cpp:1024
 msgid "Looking for additional files to install..."
-msgstr "Szëkanié za dodôwnëma lopkama do jinstalacëji..."
+msgstr "Szëkba za dodôwnëma lopkama do instalacëji..."
 
 #: kcmfontinst/KCmFontInst.cpp:1041
 #, kde-format
 msgid "Looking for files associated with %1"
-msgstr "Szëkanié za lopkama zrzëszonëma z %1"
+msgstr "Szëkba za lopkama sparłãczonyma z %1"
 
 #: kcmfontinst/KCmFontInst.cpp:1068
 msgid "Installing font(s)..."
@@ -833,29 +836,29 @@ msgstr "Instalowanié fòntów..."
 
 #: kcmfontinst/KCmFontInst.cpp:1134
 msgid "You did not select anything to enable."
-msgstr "Ni môsz wëbróné nick do włączeniô."
+msgstr "Nié môsz wëbróné nick do włączeniô."
 
 #: kcmfontinst/KCmFontInst.cpp:1135
 msgid "You did not select anything to disable."
-msgstr "Ni môsz wëbróné nick do wëłączëniô."
+msgstr "Néi môsz wëbróné nick do wëłączëniô."
 
 #: kcmfontinst/KCmFontInst.cpp:1136
 msgid "Nothing to Enable"
-msgstr "Ni ma nick do włączeniô"
+msgstr "Nie dô nick do włączeniô"
 
 #: kcmfontinst/KCmFontInst.cpp:1136
 msgid "Nothing to Disable"
-msgstr "Ni ma nick do wëłączeniô"
+msgstr "Nie dô nick do wëłączeniô"
 
 #: kcmfontinst/KCmFontInst.cpp:1153
 #, kde-format
 msgid "<p>Do you really want to enable</p><p>'<b>%1</b>'?</p>"
-msgstr "<p>Czë na gwës chcesz włączëc</p><p>'<b>%1</b>'?</p>"
+msgstr "<p>Chcesz na gwës włączëc</p><p>'<b>%1</b>'?</p>"
 
 #: kcmfontinst/KCmFontInst.cpp:1155
 #, kde-format
 msgid "<p>Do you really want to disable</p><p>'<b>%1</b>'?</p>"
-msgstr "<p>Czë na gwës chcesz wëłączëc</p><p>'<b>%1</b>?</p>"
+msgstr "<p>Chcesz na gwës wëłączëc</p><p>'<b>%1</b>?</p>"
 
 #: kcmfontinst/KCmFontInst.cpp:1157
 #, kde-format
@@ -863,6 +866,8 @@ msgid ""
 "<p>Do you really want to enable</p><p>'<b>%1</b>', contained within group "
 "'<b>%2</b>'?</p>"
 msgstr ""
+"<p>Chcesz na gwës właczëc</p><p>'<b>%1</b>', chtërné je zamkłé w karnie  "
+"'<b>%2</b>'?</p>"
 
 #: kcmfontinst/KCmFontInst.cpp:1161
 #, kde-format
@@ -870,6 +875,8 @@ msgid ""
 "<p>Do you really want to disable</p><p>'<b>%1</b>', contained within group "
 "'<b>%2</b>'?</p>"
 msgstr ""
+"<p>Chcesz na gwës wëłaczëc</p><p>'<b>%1</b>', chtërné je zamkłé w karnie  "
+"'<b>%2</b>'?</p>"
 
 #: kcmfontinst/KCmFontInst.cpp:1165 kcmfontinst/KCmFontInst.cpp:1166
 msgid "Enable Font"
@@ -903,9 +910,12 @@ msgid ""
 msgid_plural ""
 "<p>Do you really want to enable these %1 fonts contained within group '<b>%"
 "2</b>'?</p>"
-msgstr[0] "<p>Czë na gwës chcesz włączëc nen fònt zamkłi w grëpie '<b>%2</b>'?</p>"
-msgstr[1] "<p>Czë na gwës chcesz włączëc ne %1 fòntë zamkłi w grëpie '<b>%2</b>'?</p>"
-msgstr[2] "<p>Czë na gwës chcesz włączëc ne %1 fòntów zamkłëch w grëpie '<b>%2</b>'?</p>"
+msgstr[0] ""
+"<p>Czë na gwës chcesz włączëc nen fònt, chtëren je zamkłi w karnie '<b>%2</b>'?</p>"
+msgstr[1] ""
+"<p>Czë na gwës chcesz włączëc ne %1 fòntë, chtërné są zamkłé w karnie '<b>%2</b>'?</p>"
+msgstr[2] ""
+"<p>Czë na gwës chcesz włączëc ne %1 fòntów, chtërné są zamkłé w karnie '<b>%2</b>'?</p>"
 
 #: kcmfontinst/KCmFontInst.cpp:1183
 #, kde-format
@@ -915,17 +925,20 @@ msgid ""
 msgid_plural ""
 "<p>Do you really want to disable these %1 fonts contained within group '<b>%"
 "2</b>'?</p>"
-msgstr[0] "<p>Czë na gwës chcesz wëłączëc nen fònt zamkłi w grëpie '<b>%2</b>'?</p>"
-msgstr[1] "<p>Czë na gwës chcesz wëłączëc ne %1 fòntë zamkłé w grëpie '<b>%2</b>'?</p>"
-msgstr[2] "<p>Czë na gwës chcesz włączëc ne %1 fòntów zamkłëch w grëpie '<b>%2</b>'?</p>"
+msgstr[0] ""
+"<p>Czë na gwës chcesz wëłączëc nen fònt, chtëren je zamkłi w karnie '<b>%2</b>'?</p>"
+msgstr[1] ""
+"<p>Czë na gwës chcesz wëłączëc ne %1 fòntë, chtërné są zamkłé w karnie '<b>%2</b>'?</p>"
+msgstr[2] ""
+"<p>Czë na gwës chcesz włączëc ne %1 fòntów, chtërné są zamkłé w karnie '<b>%2</b>'?</p>"
 
 #: kcmfontinst/KCmFontInst.cpp:1189 kcmfontinst/KCmFontInst.cpp:1190
 msgid "Enable Fonts"
-msgstr "Włączë fòntów"
+msgstr "Włączë fòntë"
 
 #: kcmfontinst/KCmFontInst.cpp:1189 kcmfontinst/KCmFontInst.cpp:1191
 msgid "Disable Fonts"
-msgstr "Wëłączë fòntów"
+msgstr "Wëłączë fòntë"
 
 #: kcmfontinst/KCmFontInst.cpp:1197
 msgid "Enabling font(s)..."
@@ -937,7 +950,7 @@ msgstr "Wëłączanié fòntów..."
 
 #: kcmfontinst/PrintDialog.cpp:37
 msgid "Print Font Samples"
-msgstr "Wëdrëkùjë próbczi fòntów"
+msgstr "Drëkùjë próbczi fòntów"
 
 #: kcmfontinst/PrintDialog.cpp:48
 msgid "Select size to print font:"
@@ -970,7 +983,7 @@ msgstr "48pt"
 #: kio/KioFonts.cpp:228
 #, kde-format
 msgid "Can only install fonts to either \"%1\" or \"%2\"."
-msgstr ""
+msgstr "Fòntë mòże winstalowac blós do \"%1\" abò \"%2\"."
 
 #: kio/KioFonts.cpp:231
 #, kde-format
@@ -978,30 +991,27 @@ msgid ""
 "You cannot install a fonts package directly.\n"
 "Please extract %1, and install the components individually."
 msgstr ""
+"Nié mòżesz winstalowac prosto pczétë fòntów.\n"
+"Proszã rozpakùjë wprzód  %1 ë winstalëjë kòmpònenetë rãczno."
 
 #: kio/KioFonts.cpp:479
-#, fuzzy
 #| msgid "Copy Fonts"
 msgid "Cannot copy fonts"
-msgstr "Kòpérëjë Fòntë"
+msgstr "Nié mòże skòpérowac fòntów"
 
 #: kio/KioFonts.cpp:484
-#, fuzzy
 #| msgid "Cannot Print"
 msgid "Cannot move fonts"
-msgstr "Drëkòwanié niemòżebné"
+msgstr "Nié mòże przeniesc fòntów"
 
 #: kio/KioFonts.cpp:495
 msgid "Only fonts may be deleted."
-msgstr ""
+msgstr "Blós fòntë mògą bëc rëmniãté."
 
-#: kio/KioFonts.cpp:498
-#, fuzzy, kde-format
+#: kio/KioFonts.cpp:498, kde-format
 #| msgid "You cannot rename, move, copy, or delete either \"%1\" or \"%2\"."
 msgid "Can only remove fonts from either \"%1\" or \"%2\"."
-msgstr ""
-"Bòdôj, le ni mòże zmienic miona, przeniesc, skòpijowac czë rëmnąc tak \"%1"
-"\", jakno ë \"%2\"."
+msgstr "Mòże blós rëmnąc fòntë z \"%1\" abò \"%2\"."
 
 #: kio/KioFonts.cpp:528
 #, kde-format
@@ -1010,7 +1020,7 @@ msgstr "Proszã wëbrac \"%1\" abò \"%2\"."
 
 #: kio/KioFonts.cpp:552
 msgid "No special methods supported."
-msgstr ""
+msgstr "Ekstra metodë nié są wspiéróne."
 
 #: kio/KioFonts.cpp:632
 msgid "Fonts"
@@ -1018,45 +1028,36 @@ msgstr "Fòntë"
 
 #: kio/KioFonts.cpp:786
 msgid "Failed to start the system daemon"
-msgstr ""
+msgstr "Fela zrëszaniô systemòwégò demòna"
 
 #: kio/KioFonts.cpp:789
 msgid "Backend died"
-msgstr ""
+msgstr "W spódkù robiącô programa załôma sã"
 
-#: kio/KioFonts.cpp:793
-#, fuzzy, kde-format
+#: kio/KioFonts.cpp:793, kde-format
 #| msgid ""
 #| "You cannot install bitmap fonts, as these have been disabled on your "
 #| "system."
 msgid "%1 is a bitmap font, and these have been disabled on your system."
-msgstr ""
-"Ni mòżesz zajinstalowac bitmapòwëch fòntów, ga ne òstałë wëłączoné bez twòją "
-"systemã."
+msgstr "%1 je bitmapą fònta, a ne są w twòji systemie wëłączoné."
 
-#: kio/KioFonts.cpp:797
-#, fuzzy, kde-format
+#: kio/KioFonts.cpp:797, kde-format
 #| msgid ""
 #| "File %1 contains the font:\n"
 #| "%2\n"
 #| "A font with this name is already installed.\n"
 msgid "%1 contains the font <b>%2</b>, which is already installed on your system."
-msgstr ""
-"Lopk %1 zamrkô fònt:\n"
-"%2\n"
-"A fònt z taczim mionã ju je zajinstalowóny.\n"
+msgstr "%1 zamëkô w se fònt <b>%2</b>, chtëren je w twòji systemie ju winstalowóny."
 
-#: kio/KioFonts.cpp:801
-#, fuzzy, kde-format
+#: kio/KioFonts.cpp:801, kde-format
 #| msgid "Could not read font."
 msgid "%1 is not a font."
-msgstr "Ni mòże czëtac fòntu."
+msgstr "%1 nie je fòntã"
 
-#: kio/KioFonts.cpp:804
-#, fuzzy, kde-format
+#: kio/KioFonts.cpp:804, kde-format
 #| msgid "Looking for files associated with %1"
 msgid "Could not remove all files associated with %1"
-msgstr "Szëkanié za lopkama zrzëszonëma z %1"
+msgstr "Nié mòże rëmnąc wszëtczich lopków sparłãczonych z %1"
 
 #: lib/Fc.cpp:421 lib/KfiConstants.h:135
 msgid "Unknown"
@@ -1074,7 +1075,7 @@ msgstr "AaĄąÃãBbCcDdEeÉéËëFfGgHhIiJjKkLlŁłMmNnŃńOoÒòÔôÓóPpQqRr
 
 #: lib/FcEngine.cpp:893
 msgid "No characters found."
-msgstr "Nie je nalazłé znak."
+msgstr "Céch nie je nalazłi."
 
 #: lib/FcEngine.cpp:930
 msgctxt "A sentence that uses all of the letters of the alphabet"
@@ -1098,55 +1099,55 @@ msgstr "0123456789.:,;(*!?'/\\\")£$€%^&-+@~#<>{}[]"
 
 #: lib/FcEngine.cpp:1342
 msgid "ERROR: Could not determine font's name."
-msgstr "FELA: Ni mòże nalezc miona fòntu."
+msgstr "FELA: Nié mòże nalezc miona fòntu."
 
 #: lib/FcEngine.cpp:1346
 #, kde-format
 msgid "%2 [1 pixel]"
 msgid_plural "%2 [%1 pixels]"
-msgstr[0] "%2 [1 piksel]"
-msgstr[1] "%2 [%1 piksele]"
-msgstr[2] "%2 [%1 pikselów]"
+msgstr[0] "%2 [1 piksla]"
+msgstr[1] "%2 [%1 piksle]"
+msgstr[2] "%2 [%1 pikslów]"
 
 #: viewpart/CharTip.cpp:65
 msgid "Other, Control"
-msgstr "Jine, kòntrola"
+msgstr "Jinszé, kòntrola"
 
 #: viewpart/CharTip.cpp:67
 msgid "Other, Format"
-msgstr "Jine, fòrmat"
+msgstr "Jinszé, fòrmat"
 
 #: viewpart/CharTip.cpp:69
 msgid "Other, Not Assigned"
-msgstr "Jine, nie przëpisóné"
+msgstr "Jinszé, nié przëpisóné"
 
 #: viewpart/CharTip.cpp:71
 msgid "Other, Private Use"
-msgstr "Jine, priwatny brëkunk"
+msgstr "Jinszé, priwatny brëkùnk"
 
 #: viewpart/CharTip.cpp:73
 msgid "Other, Surrogate"
-msgstr ""
+msgstr "Jinszé, surogatë"
 
 #: viewpart/CharTip.cpp:75
 msgid "Letter, Lowercase"
-msgstr "Lëtera, môłé znaczi"
+msgstr "Lëtera, môłé céchë"
 
 #: viewpart/CharTip.cpp:77
 msgid "Letter, Modifier"
-msgstr ""
+msgstr "Lëtera, zmienioné"
 
 #: viewpart/CharTip.cpp:79
 msgid "Letter, Other"
-msgstr "Lëtera, jine"
+msgstr "Lëtera, jinszé"
 
 #: viewpart/CharTip.cpp:81
 msgid "Letter, Titlecase"
-msgstr ""
+msgstr "Lëtera, titlowé skrodzënë"
 
 #: viewpart/CharTip.cpp:83
 msgid "Letter, Uppercase"
-msgstr "Lëtera, wipldżé znaczi"
+msgstr "Lëtera, wiôldżé céchë"
 
 #: viewpart/CharTip.cpp:85
 msgid "Mark, Spacing Combining"
