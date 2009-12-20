@@ -10,15 +10,15 @@ msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-12-19 06:02+0100\n"
-"PO-Revision-Date: 2009-10-19 16:57+0200\n"
-"Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
-"Language-Team: Kaszubski <i18n-csb@linuxcsb.org>\n"
+"PO-Revision-Date: 2009-12-21 00:36+0100\n"
+"Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
+"Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: mac/GrowlInterface.cpp:37 context/engines/current/CurrentEngine.cpp:150
 #: context/applets/currenttrack/CurrentTrack.cpp:110
@@ -28,7 +28,7 @@ msgstr "Nick nie je gróné"
 
 #: mac/GrowlInterface.cpp:58 widgets/Osd.cpp:601
 msgid "No information available for this track"
-msgstr "Felëje wëdowiédzô dlô tegò sztëczka"
+msgstr "Felënk wëdowiédzé dlô tegò titla"
 
 #: meta/default/DefaultMetaTypes.h:39 meta/default/DefaultMetaTypes.h:79
 #: meta/default/DefaultMetaTypes.h:97
@@ -261,7 +261,7 @@ msgstr ""
 
 #: collection/ipodcollection/handler/IpodHandler.cpp:406
 msgid "Find Stale Tracks"
-msgstr "Nalézë zùżëté sztëcczi"
+msgstr "Nalézë zùżëté title"
 
 #: collection/ipodcollection/handler/IpodHandler.cpp:481
 #, kde-format
@@ -298,11 +298,11 @@ msgstr ""
 
 #: collection/ipodcollection/handler/IpodHandler.cpp:2086
 msgid "Select Stale Tracks To Delete"
-msgstr "Wëbiérzë zùżëté sztëcczi do rëmniãcô"
+msgstr "Wëbiérzë zùżëté title do rëmniãcô"
 
 #: collection/ipodcollection/handler/IpodHandler.cpp:2086
 msgid "Stale Tracks"
-msgstr "Zùżëté sztëcczi"
+msgstr "Zùżëté title"
 
 #: collection/ipodcollection/handler/IpodHandler.cpp:2139
 msgid "Adding Orphaned Tracks to iPod Database"
@@ -321,7 +321,7 @@ msgstr[2] ""
 #, fuzzy
 #| msgid "Tracks Added"
 msgid "Orphaned Tracks Added"
-msgstr "Sztëcczi dodóné"
+msgstr "Title dodóné"
 
 #: collection/CollectionLocation.cpp:289
 #, kde-format
@@ -333,13 +333,13 @@ msgid_plural ""
 "Do you really want to delete these %1 tracks? They will be removed from disk "
 "as well as your collection."
 msgstr[0] ""
-"Na gwës chcesz rëmnąc nn sztëczk? Òstanie rëmniãti tak z diskù jak ë z twòji "
+"Na gwës chcesz rëmnąc nen titel? Òstanie rëmniãti tak z diskù jak ë z twòji "
 "kòlekcëji."
 msgstr[1] ""
-"Na gwës chcesz rëmnąc ne %1 sztëcczi? Òstaną rëmniãté tak z diskù jak ë z "
+"Na gwës chcesz rëmnąc ne %1 title? Òstaną rëmniãté tak z diskù jak ë z "
 "twòji kòlekcëji."
 msgstr[2] ""
-"Na gwës chcesz rëmnąc ne %1 sztëków? Òstaną rëmniãté tak z diskù jak ë z "
+"Na gwës chcesz rëmnąc ne %1 titlów? Òstaną rëmniãté tak z diskù jak ë z "
 "twòji kòlekcëji."
 
 #: collection/CollectionLocation.cpp:294
@@ -365,7 +365,7 @@ msgstr "Ni mòże pòłączëc do ùrządzeniô MTP"
 
 #: collection/mtpcollection/handler/MtpHandler.cpp:377
 msgid "Could not copy track from device."
-msgstr "Ni mòże kòpérowac sztëczka z ùrządzeniô."
+msgstr "Ni mòże kòpérowac titla z ùrządzeniô."
 
 #: collection/mtpcollection/handler/MtpHandler.cpp:420
 msgid "Unknown Artist"
@@ -420,29 +420,27 @@ msgstr ""
 
 #: collection/mediadevicecollection/handler/MediaDeviceHandler.cpp:434
 msgid "Transferring Tracks to Device"
-msgstr "Przenoszenié sztëczków do ùrządzenia"
+msgstr "Przenoszenié titlów do ùrządzenia"
 
-#: collection/mediadevicecollection/handler/MediaDeviceHandler.cpp:554
-#, fuzzy, kde-format
+#: collection/mediadevicecollection/handler/MediaDeviceHandler.cpp:554, kde-format
 #| msgid "The tracks to copy are already on the device!"
 msgid "%1 track failed to copy to the device"
 msgid_plural "%1 tracks failed to copy to the device"
-msgstr[0] "Sztëcczi co je chcesz skòpérowac są ju na tim ùrządzeniu!"
-msgstr[1] "Sztëcczi co je chcesz skòpérowac są ju na tim ùrządzeniu!"
-msgstr[2] "Sztëcczi co je chcesz skòpérowac są ju na tim ùrządzeniu!"
+msgstr[0] "Nié mòże skòpérowac %1 titla do ùrządzenia"
+msgstr[1] "Nié mòże skòpérowac %1 title do ùrządzenia"
+msgstr[2] "Nié mòże skòpérowac %1 titlów do ùrządzenia"
 
 #: collection/mediadevicecollection/handler/MediaDeviceHandler.cpp:579
 msgid "The track failed to copy to the device"
 msgstr ""
 
 #: collection/mediadevicecollection/handler/MediaDeviceHandler.cpp:589
-#, fuzzy
 #| msgid "Tracks Removed"
 msgid "Track not deleted:"
 msgid_plural "Tracks not deleted:"
-msgstr[0] "Sztëcczi rëmniãté"
-msgstr[1] "Sztëcczi rëmniãté"
-msgstr[2] "Sztëcczi rëmniãté"
+msgstr[0] "Nié rëmniãti titel:"
+msgstr[1] "Nié rëmniãti title:"
+msgstr[2] "Nié rëmniãtich titlów:"
 
 #: collection/mediadevicecollection/handler/MediaDeviceHandler.cpp:590
 #, fuzzy
