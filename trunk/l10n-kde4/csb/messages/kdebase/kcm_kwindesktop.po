@@ -3,18 +3,19 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Michôł Òstrowsczi <michol@linuxcsb.org>, 2007.
+# Mark Kwidzińśczi <mark@linuxcsb.org>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcm_kwindesktop\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-12-17 06:05+0100\n"
-"PO-Revision-Date: 2007-12-11 17:16+0100\n"
-"Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
-"Language-Team: Kashubian\n"
+"PO-Revision-Date: 2009-12-20 19:12+0100\n"
+"Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
+"Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
@@ -43,41 +44,40 @@ msgstr ""
 
 #: main.cpp:101
 msgid "Switch to Next Desktop"
-msgstr ""
+msgstr "Skòkni do nôslédnegò pùltu"
 
 #: main.cpp:106
 msgid "Switch to Previous Desktop"
-msgstr ""
+msgstr "Skòkni do wczasniészegò pùltu"
 
 #: main.cpp:111
 msgid "Switch One Desktop to the Right"
-msgstr ""
+msgstr "Skòkni jeden pùlt na prawò"
 
 #: main.cpp:116
 msgid "Switch One Desktop to the Left"
-msgstr ""
+msgstr "Skòkni jeden pùlt na lewò"
 
 #: main.cpp:121
 msgid "Switch One Desktop Up"
-msgstr ""
+msgstr "Skòkni jeden pùlt w górã"
 
 #: main.cpp:126
 msgid "Switch One Desktop Down"
-msgstr ""
+msgstr "Skòkni jeden pùlt w dół"
 
 #: main.cpp:129 main.cpp:149 main.cpp:509 main.cpp:510
 msgid "Desktop Switching"
-msgstr ""
+msgstr "Przełączanié pùltów"
 
-#: main.cpp:140 main.cpp:483
-#, fuzzy, kde-format
+#: main.cpp:140 main.cpp:483, kde-format
 #| msgid "Desktop %1"
 msgid "Switch to Desktop %1"
-msgstr "Pùlt %1"
+msgstr "Skòkni do pùltu %1"
 
 #: main.cpp:169
 msgid "No Animation"
-msgstr ""
+msgstr "Bez animacëji"
 
 #: main.cpp:488
 #, kde-format
@@ -97,47 +97,41 @@ msgstr ""
 #. i18n: file: main.ui:24
 #. i18n: ectx: attribute (title), widget (QWidget, desktop)
 #: rc.cpp:3
-#, fuzzy
 #| msgid "Desktop %1"
 msgid "Desktops"
-msgstr "Pùlt %1"
+msgstr "Pùltë"
 
 #. i18n: file: main.ui:30
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: rc.cpp:6
 msgid "Layout"
-msgstr ""
+msgstr "Wëzdrzatk"
 
 #. i18n: file: main.ui:39
 #. i18n: ectx: property (whatsThis), widget (QLabel, numberLabel)
 #. i18n: file: main.ui:52
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, numberSpinBox)
 #: rc.cpp:9 rc.cpp:15
-#, fuzzy
 #| msgid ""
 #| "Here you can set how many virtual desktops you want on your KDE desktop. "
 #| "Move the slider to change the value."
 msgid ""
 "Here you can set how many virtual desktops you want on your KDE desktop."
-msgstr ""
-"Tuwò mòżesz òtakoswac kùli wirtualnëch pùltów w KDE chcesz. Przesënié pòsuwk "
-"bë zmienic wôrtnotã."
+msgstr "Tuwò mòżesz nastôwic jak wiele wirtualnych pùltów chcesz w KDE."
 
 #. i18n: file: main.ui:42
 #. i18n: ectx: property (text), widget (QLabel, numberLabel)
 #: rc.cpp:12
-#, fuzzy
 #| msgid "N&umber of desktops: "
 msgid "Number of desktops:"
-msgstr "Lë&czba pùltów:"
+msgstr "Wielëna pùltów:"
 
 #. i18n: file: main.ui:71
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:18
-#, fuzzy
 #| msgid "N&umber of desktops: "
 msgid "Number of rows:"
-msgstr "Lë&czba pùltów:"
+msgstr "Wielëna rézów:"
 
 #. i18n: file: main.ui:88
 #. i18n: ectx: property (text), widget (QCheckBox, activityCheckBox)
@@ -148,16 +142,15 @@ msgstr ""
 #. i18n: file: main.ui:98
 #. i18n: ectx: property (title), widget (QGroupBox, nameGroup)
 #: rc.cpp:24
-#, fuzzy
 #| msgid "Desktop &Names"
 msgid "Desktop Names"
-msgstr "&Miona pùltów"
+msgstr "Miona pùltów"
 
 #. i18n: file: main.ui:131
 #. i18n: ectx: attribute (title), widget (QWidget, switching)
 #: rc.cpp:27
 msgid "Switching"
-msgstr ""
+msgstr "Przełącznié"
 
 #. i18n: file: main.ui:137
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, wrapAroundBox)
@@ -184,7 +177,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:39
 msgid "Animation:"
-msgstr ""
+msgstr "Animacëjô:"
 
 #. i18n: file: main.ui:196
 #. i18n: ectx: property (title), widget (QGroupBox, popupInfoCheckBox)
@@ -196,13 +189,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, hideLabel)
 #: rc.cpp:45
 msgid "Duration:"
-msgstr ""
+msgstr "Dérowanié:"
 
 #. i18n: file: main.ui:221
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, popupHideSpinBox)
 #: rc.cpp:48
 msgid " msec"
-msgstr ""
+msgstr " msek."
 
 #. i18n: file: main.ui:234
 #. i18n: ectx: property (toolTip), widget (QCheckBox, desktopLayoutIndicatorCheckBox)
@@ -222,23 +215,23 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, shortcutsGroupBox)
 #: rc.cpp:57
 msgid "Shortcuts"
-msgstr ""
+msgstr "Skrodzënë"
 
 #. i18n: file: main.ui:266
 #. i18n: ectx: property (text), widget (QCheckBox, allShortcutsCheckBox)
 #: rc.cpp:60
 msgid "Show shortcuts for all possible desktops"
-msgstr ""
+msgstr "Wëskrzëni skrodzënë dlô wszëtczich przëstãpnych pùltów"
 
 #: rc.cpp:61
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Mark Kwidzińsczi"
 
 #: rc.cpp:62
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "mark@linuxcsb.org"
 
 #~ msgid "Mouse wheel over desktop background switches desktop"
 #~ msgstr "Kółkò mëszë nad spòdlém pùltu przełącziwô pùltë"
