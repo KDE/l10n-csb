@@ -6,13 +6,13 @@ msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-12-20 06:12+0100\n"
-"PO-Revision-Date: 2009-05-15 00:17+0200\n"
+"PO-Revision-Date: 2009-12-20 18:45+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
@@ -39,7 +39,7 @@ msgstr "Szëkba..."
 
 #: kfinddlg.cpp:200
 msgid "Canceled."
-msgstr ""
+msgstr "Òprzestóné."
 
 #: kfinddlg.cpp:203 kfinddlg.cpp:208 kfinddlg.cpp:214
 msgid "Error."
@@ -47,11 +47,11 @@ msgstr "Fela."
 
 #: kfinddlg.cpp:204
 msgid "Please specify an absolute path in the \"Look in\" box."
-msgstr "Proszã pòdac bezògôdkòwą stegnã w pòlu \"Szëkôj w\"."
+msgstr "Proszã pòdac absolutną stegnã w pòlu \"Szëkôj w\"."
 
 #: kfinddlg.cpp:209
 msgid "Could not find the specified folder."
-msgstr "Nie mòże nalezc pòdónégò katalogù."
+msgstr "Nié mòże nalezc pòdónégò kataloga."
 
 #: kfindpart.cpp:81
 msgctxt "Name of the component that finds things"
@@ -130,7 +130,7 @@ msgstr "Tekstowi lopk"
 
 #: kfindtreeview.cpp:461
 msgid "Unable to save results."
-msgstr "Nie mòże zapisac rezultatu."
+msgstr "Nié mòże zapisac skùtkù."
 
 #: kfindtreeview.cpp:477
 msgid "KFind Results File"
@@ -138,7 +138,7 @@ msgstr "Lopk szëkbë KFind"
 
 #: kfindtreeview.cpp:498
 msgid "Results were saved to file\n"
-msgstr "Rezultat òstôł zapisóny do lopkù\n"
+msgstr "Skùtk òstôł zapisóny do lopka\n"
 
 #: kftabdlg.cpp:73
 msgctxt "this is the label for the name textfield"
@@ -155,7 +155,7 @@ msgstr "&Szëkôj w:"
 
 #: kftabdlg.cpp:83
 msgid "Include &subfolders"
-msgstr "Przeszëkùj &pòdkatalodżi"
+msgstr "Właczë w niã &pòdkatalodżi"
 
 #: kftabdlg.cpp:84
 msgid "Case s&ensitive search"
@@ -213,7 +213,7 @@ msgstr "Nalezë lopczi ùsôdzoné abò &mòdifikòwóné:"
 
 #: kftabdlg.cpp:174
 msgid "&between"
-msgstr "&midze"
+msgstr "&midzy"
 
 #: kftabdlg.cpp:176
 msgid "and"
@@ -221,7 +221,7 @@ msgstr "a"
 
 #: kftabdlg.cpp:197
 msgid "File &size is:"
-msgstr "&Miara lopkù:"
+msgstr "&Miara lopka:"
 
 #: kftabdlg.cpp:210
 msgid "Files owned by &user:"
@@ -249,11 +249,10 @@ msgid "Equal To"
 msgstr "równy"
 
 #: kftabdlg.cpp:223 kftabdlg.cpp:889
-#, fuzzy
 #| msgid "Bytes"
 msgid "Byte"
 msgid_plural "Bytes"
-msgstr[0] "bajtów"
+msgstr[0] "bajt"
 msgstr[1] "bajtów"
 msgstr[2] "bajtów"
 
@@ -428,67 +427,61 @@ msgid "Do Not Set"
 msgstr "Nie ùstawiôj"
 
 #: kftabdlg.cpp:879
-#, fuzzy
 #| msgid "&during the previous"
 msgctxt ""
 "during the previous minute(s)/hour(s)/...; dynamic context 'type': 'i' "
 "minutes, 'h' hours, 'd' days, 'm' months, 'y' years"
 msgid "&during the previous"
 msgid_plural "&during the previous"
-msgstr[0] "&w cządze slédnëch"
-msgstr[1] "&w cządze slédnëch"
-msgstr[2] "&w cządze slédnëch"
+msgstr[0] "&w cządze slédny"
+msgstr[1] "&w cządze slédnych"
+msgstr[2] "&w cządze slédnych"
 
 #: kftabdlg.cpp:880
-#, fuzzy
 #| msgid "minute(s)"
 msgctxt "use date ranges to search files by modified time"
 msgid "minute"
 msgid_plural "minutes"
-msgstr[0] "min."
-msgstr[1] "min."
-msgstr[2] "min."
+msgstr[0] "minutë"
+msgstr[1] "minut"
+msgstr[2] "minut"
 
 #: kftabdlg.cpp:881
-#, fuzzy
 #| msgid "hour(s)"
 msgctxt "use date ranges to search files by modified time"
 msgid "hour"
 msgid_plural "hours"
-msgstr[0] "gòdz."
-msgstr[1] "gòdz."
-msgstr[2] "gòdz."
+msgstr[0] "gòdzënë"
+msgstr[1] "gòdzën"
+msgstr[2] "gòdzënów"
 
 #: kftabdlg.cpp:882
-#, fuzzy
 #| msgctxt "use date ranges to search files by modified time"
 #| msgid "day(s)"
 msgctxt "use date ranges to search files by modified time"
 msgid "day"
 msgid_plural "days"
-msgstr[0] "dzé/dni"
-msgstr[1] "dzé/dni"
-msgstr[2] "dzé/dni"
+msgstr[0] "dnia"
+msgstr[1] "dni"
+msgstr[2] "dniów"
 
 #: kftabdlg.cpp:883
-#, fuzzy
 #| msgid "month(s)"
 msgctxt "use date ranges to search files by modified time"
 msgid "month"
 msgid_plural "months"
-msgstr[0] "miesãc/miesãcy"
-msgstr[1] "miesãc/miesãcy"
-msgstr[2] "miesãc/miesãcy"
+msgstr[0] "miesãc"
+msgstr[1] "miesãcy"
+msgstr[2] "miesãców"
 
 #: kftabdlg.cpp:884
-#, fuzzy
 #| msgid "year(s)"
 msgctxt "use date ranges to search files by modified time"
 msgid "year"
 msgid_plural "years"
-msgstr[0] "rok/lat"
-msgstr[1] "rok/lat"
-msgstr[2] "rok/lat"
+msgstr[0] "rokù"
+msgstr[1] "lat"
+msgstr[2] "lat"
 
 #: kquery.cpp:552
 msgid "Error while using locate"
