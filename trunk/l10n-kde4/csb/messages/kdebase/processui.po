@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-21 06:23+0100\n"
+"POT-Creation-Date: 2009-12-31 06:14+0100\n"
 "PO-Revision-Date: 2009-12-14 21:35+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -1163,16 +1163,7 @@ msgstr[2] ""
 msgid "Script error: Argument to fileExists() was not a string"
 msgstr "Fela skriptu: Argùment dlô fileExists() ni bëł stegną "
 
-#: scripting.cpp:120
-msgid "Script error: fileExists() was passed a relative path"
-msgstr "Fela skriptu: fileExists() dobëło relatiwną stegnã"
-
-#: scripting.cpp:127
-#, kde-format
-msgid "Script error: fileExists() can only read from /proc or /sys, not '%1'."
-msgstr "Fela skriptu: fileExists() mòże le czëtac z  /proc or /sys, ni '%1'."
-
-#: scripting.cpp:142
+#: scripting.cpp:129
 #, kde-format
 msgid ""
 "Script error: There needs to be exactly one argument to readFile(), but "
@@ -1187,35 +1178,11 @@ msgstr[1] ""
 msgstr[2] ""
 "Fela skriptu: To mùszi bëc akùratno jeden argùment dlô readFile(), a je %1. "
 
-#: scripting.cpp:148
+#: scripting.cpp:135
 msgid "Script error: Argument to readFile() was not a string"
 msgstr "Fela skriptu: Argùment dlô readFile() ni bëł stegną"
 
-#: scripting.cpp:154
-msgid "Script error: readFile() was passed a relative path"
-msgstr "Fela skriptu: readFile() dobëło relatiwną stegnã"
-
-#: scripting.cpp:159 scripting.cpp:169
-#, kde-format
-msgid "Script error: readFile() '%1' does not exist"
-msgstr "Fela skriptu: Felëjë readFile() '%1' "
-
-#: scripting.cpp:163
-#, kde-format
-msgid "Script error: readFile() can only read from /proc or /sys, not '%1'."
-msgstr "Fela skriptu: readFile() mòże le czëtac z /proc or /sys, ni '%1'."
-
-#: scripting.cpp:174
-#, kde-format
-msgid "Script error: Insufficient privileges to read from '%1'"
-msgstr "Fela skriptu: Za mało praw do czëtaniô z '%1'"
-
-#: scripting.cpp:179
-#, kde-format
-msgid "Script error: readFile() could not read from '%1'"
-msgstr "Fela skriptu: readFile() ni mòże czëtac z '%1'"
-
-#: scripting.cpp:238
+#: scripting.cpp:199
 #, kde-format
 msgid "Could not read script '%1'.  Error %2"
 msgstr "Ni mòże czëtac skriptu '%1'.  Fela %2"
@@ -1787,3 +1754,26 @@ msgstr "%1%"
 #: ReniceDlg.cc:39
 msgid "Renice Process"
 msgstr "Zmieni prioritet procesu"
+
+#~ msgid "Script error: fileExists() was passed a relative path"
+#~ msgstr "Fela skriptu: fileExists() dobëło relatiwną stegnã"
+
+#~ msgid ""
+#~ "Script error: fileExists() can only read from /proc or /sys, not '%1'."
+#~ msgstr ""
+#~ "Fela skriptu: fileExists() mòże le czëtac z  /proc or /sys, ni '%1'."
+
+#~ msgid "Script error: readFile() was passed a relative path"
+#~ msgstr "Fela skriptu: readFile() dobëło relatiwną stegnã"
+
+#~ msgid "Script error: readFile() '%1' does not exist"
+#~ msgstr "Fela skriptu: Felëjë readFile() '%1' "
+
+#~ msgid "Script error: readFile() can only read from /proc or /sys, not '%1'."
+#~ msgstr "Fela skriptu: readFile() mòże le czëtac z /proc or /sys, ni '%1'."
+
+#~ msgid "Script error: Insufficient privileges to read from '%1'"
+#~ msgstr "Fela skriptu: Za mało praw do czëtaniô z '%1'"
+
+#~ msgid "Script error: readFile() could not read from '%1'"
+#~ msgstr "Fela skriptu: readFile() ni mòże czëtac z '%1'"
