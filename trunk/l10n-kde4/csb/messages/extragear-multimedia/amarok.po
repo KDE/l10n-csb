@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-13 07:34+0100\n"
+"POT-Creation-Date: 2010-01-14 06:14+0100\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: mac/GrowlInterface.cpp:37 context/engines/current/CurrentEngine.cpp:150
 #: context/applets/currenttrack/CurrentTrack.cpp:127
-#: context/applets/photos/PhotosApplet.cpp:132 App.cpp:1045
+#: context/applets/photos/PhotosApplet.cpp:132 App.cpp:1072
 #: widgets/Osd.cpp:578
 msgid "No track playing"
 msgstr "Nick nie je gróné"
@@ -774,12 +774,6 @@ msgstr ""
 msgid "dates"
 msgstr "datumë"
 
-#: context/engines/photos/PhotosEngine.cpp:159
-#, fuzzy
-#| msgid "Fetching content.."
-msgid "Fetching"
-msgstr "Ladowanié zamkłoscë.."
-
 #: context/engines/photos/PhotosEngine.cpp:190
 #, fuzzy
 #| msgid "Unable to retrieve Flickr : %1"
@@ -1086,9 +1080,9 @@ msgstr[2] "%1 sztëczków"
 
 #: context/applets/lyrics/LyricsApplet.cpp:48
 #: context/applets/lyrics/LyricsApplet.cpp:82
-#: context/applets/lyrics/LyricsApplet.cpp:227
-#: context/applets/lyrics/LyricsApplet.cpp:281
-#: context/applets/lyrics/LyricsApplet.cpp:292 dialogs/TagDialog.cpp:685
+#: context/applets/lyrics/LyricsApplet.cpp:228
+#: context/applets/lyrics/LyricsApplet.cpp:282
+#: context/applets/lyrics/LyricsApplet.cpp:293 dialogs/TagDialog.cpp:685
 msgid "Lyrics"
 msgstr "Tekstë"
 
@@ -1113,21 +1107,21 @@ msgstr "Tekstë"
 msgid "Reload Lyrics"
 msgstr "Ladejë tekstë znôù"
 
-#: context/applets/lyrics/LyricsApplet.cpp:234
+#: context/applets/lyrics/LyricsApplet.cpp:235
 msgid "No lyrics script is running."
 msgstr "Niżóden skript tekstów frantówków nie je zrëszony."
 
-#: context/applets/lyrics/LyricsApplet.cpp:246
+#: context/applets/lyrics/LyricsApplet.cpp:247
 #, fuzzy
 #| msgid "Fetching content.."
 msgid "Lyrics : Fetching ..."
 msgstr "Ladowanié zamkłoscë.."
 
-#: context/applets/lyrics/LyricsApplet.cpp:247
+#: context/applets/lyrics/LyricsApplet.cpp:248
 msgid "Lyrics are being fetched."
 msgstr "Tekst je ladowóny."
 
-#: context/applets/lyrics/LyricsApplet.cpp:253
+#: context/applets/lyrics/LyricsApplet.cpp:254
 #, fuzzy, kde-format
 #| msgid ""
 #| "Lyrics were not able to be downloaded. Please check your internet "
@@ -1140,18 +1134,18 @@ msgid ""
 msgstr ""
 "Ni mòże zladowac teksta. Proszã sprôwdzëc swòjé pòłączenié z jinternetã: %1"
 
-#: context/applets/lyrics/LyricsApplet.cpp:303
+#: context/applets/lyrics/LyricsApplet.cpp:304
 msgid "There were no lyrics found for this track"
 msgstr "Nie są nalazłé tekstë dlô tegò sztëczka"
 
-#: context/applets/lyrics/LyricsApplet.cpp:388
+#: context/applets/lyrics/LyricsApplet.cpp:389
 msgctxt "@info"
 msgid ""
 "Do you really want to refetch lyrics for this track ? All changes you may "
 "have made will be lost."
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:389
+#: context/applets/lyrics/LyricsApplet.cpp:390
 #, fuzzy
 #| msgid "Repeat Playlist"
 msgid "Refetch lyrics"
@@ -2442,15 +2436,15 @@ msgstr ""
 
 #. i18n: file: collection/audiocd/FormatSelectionDialog.ui:14
 #. i18n: ectx: property (windowTitle), widget (QDialog, FormatSelectionDialog)
-#: App.cpp:116 rc.cpp:536
+#: App.cpp:117 rc.cpp:536
 msgid "Amarok"
 msgstr "Amarok"
 
-#: App.cpp:117
+#: App.cpp:118
 msgid "The audio player for KDE"
 msgstr "Òdgriwôcz mùzyczi dlô KE"
 
-#: App.cpp:118
+#: App.cpp:119
 #, fuzzy
 #| msgid ""
 #| "(C) 2002-2003, Mark Kretschmann\n"
@@ -2462,7 +2456,7 @@ msgstr ""
 "(C) 2002-2003, Mark Kretschmann\n"
 "(C) 2003-2009, The Amarok Development Squad"
 
-#: App.cpp:119
+#: App.cpp:120
 #, kde-format
 msgid ""
 "IRC:\n"
@@ -2481,121 +2475,128 @@ msgstr ""
 "\n"
 "(Datum wersëji: %1)"
 
-#: App.cpp:487
+#: App.cpp:488
 msgid "Files/URLs to open"
 msgstr "Lopczi/adresë do òtemkniãcô"
 
-#: App.cpp:489
+#: App.cpp:490
 msgid "Skip backwards in playlist"
 msgstr "Skóknié dowslôdë na lësce graniô"
 
-#: App.cpp:491
+#: App.cpp:492
 msgid "Start playing current playlist"
 msgstr "Naczni òdgrëwac biéżną lëstã"
 
-#: App.cpp:493
+#: App.cpp:494
 msgid "Play if stopped, pause if playing"
 msgstr "Grôj czedë zatrzëmóné, zatrzëmôj czedë gróné"
 
-#: App.cpp:494
+#: App.cpp:495
 msgid "Pause playback"
 msgstr "Paùzëjë grónié"
 
-#: App.cpp:496
+#: App.cpp:497
 msgid "Stop playback"
 msgstr "Zakùńczë grónié"
 
-#: App.cpp:498
+#: App.cpp:499
 msgid "Skip forwards in playlist"
 msgstr "Skóknié w przódk na lësce graniô"
 
-#: App.cpp:499
+#: App.cpp:500
 msgid "Additional options:"
 msgstr "Dodôwné òptacëje:"
 
-#: App.cpp:501
+#: App.cpp:502
 msgid "Append files/URLs to playlist"
 msgstr "Dodôj lopczi/adresë URL do lëstë graniô"
 
-#: App.cpp:502
+#: App.cpp:503
 msgid "Queue URLs after the currently playing track"
 msgstr "Ùstawi adresë URL w réze za biéżnym sztëczkã"
 
-#: App.cpp:504
+#: App.cpp:505
 msgid "Load URLs, replacing current playlist"
 msgstr "Ladëjë URL-ë, pòdmieniającë biéżną lëstã graniô"
 
-#: App.cpp:506
+#: App.cpp:507
 msgid "Print verbose debugging information"
 msgstr "Wëdrëkùjë wëdowiédzã ò przebiégù procesu"
 
-#: App.cpp:508
+#: App.cpp:509
 msgid "Allow running multiple Amarok instances"
 msgstr ""
 
-#: App.cpp:509
+#: App.cpp:510
 msgid "Base for relative filenames/URLs"
 msgstr "Baza dlô wzglãdnëch mionów lopków/adresów URL"
 
-#: App.cpp:511
+#: App.cpp:512
 #, fuzzy
 #| msgid "Stream options"
 msgid "Unit test options:"
 msgstr "Òptacëjë strëdżi"
 
-#: App.cpp:512
+#: App.cpp:513
 msgid "Run integrated unit tests"
 msgstr ""
 
-#: App.cpp:513
+#: App.cpp:514
 msgid "Destination of test output: 'stdout', 'log'"
 msgstr ""
 
-#: App.cpp:514
+#: App.cpp:515
 msgid "Format of test output: 'xml', 'lightxml', 'plaintext'"
 msgstr ""
 
-#: App.cpp:515
+#: App.cpp:516
 msgid "Verbosity from 0-3 (highest)"
 msgstr ""
 
-#: App.cpp:772
+#: App.cpp:773
 msgid ""
 "The embedded database was not found; you must set up a database server "
 "connection.\n"
 "You must restart Amarok after doing this."
 msgstr ""
 
-#: App.cpp:773
+#: App.cpp:774
 msgid ""
 "The connection details for the database server were invalid.\n"
 "You must enter correct settings and restart Amarok after doing this."
 msgstr ""
 
-#: App.cpp:774
+#: App.cpp:775
 #, fuzzy
 #| msgid "Database:"
 msgid "Database Error"
 msgstr "Baza pòdôwków:"
 
-#: App.cpp:819
+#: App.cpp:792
+#, kde-format
+msgid ""
+"A music path, %1, is set in System Settings.\n"
+"Would you like to use that as a collection folder?"
+msgstr ""
+
+#: App.cpp:846
 msgid "Moving files to trash"
 msgstr ""
 
-#: App.cpp:917
+#: App.cpp:944
 #, fuzzy
 #| msgid "Unknown"
 msgctxt "When this track was last played"
 msgid "Unknown"
 msgstr "Nieznóny"
 
-#: App.cpp:922
+#: App.cpp:949
 #, kde-format
 msgctxt "monthname year"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: App.cpp:929
+#: App.cpp:956
 #, kde-format
 msgid "One week ago"
 msgid_plural "%1 weeks ago"
@@ -2603,11 +2604,11 @@ msgstr[0] "Tidzéń nazôd"
 msgstr[1] "%1 tidzénie nazôd"
 msgstr[2] "%1 tidzéniów nazôd"
 
-#: App.cpp:935
+#: App.cpp:962
 msgid "Yesterday"
 msgstr "Wczora"
 
-#: App.cpp:936
+#: App.cpp:963
 #, kde-format
 msgid "One day ago"
 msgid_plural "%1 days ago"
@@ -2615,7 +2616,7 @@ msgstr[0] "Jeden dzén nazôd"
 msgstr[1] "%1 dni nazôd"
 msgstr[2] "%1 dniów nazôd"
 
-#: App.cpp:939
+#: App.cpp:966
 #, kde-format
 msgid "One hour ago"
 msgid_plural "%1 hours ago"
@@ -2623,7 +2624,7 @@ msgstr[0] "Jedna gòdzëna nazôd"
 msgstr[1] "%1 gòdzënë nazôd"
 msgstr[2] "%1 gòdzënów nazôd"
 
-#: App.cpp:945
+#: App.cpp:972
 #, kde-format
 msgid "One minute ago"
 msgid_plural "%1 minutes ago"
@@ -2631,48 +2632,48 @@ msgstr[0] "Jedna minuta nazôd"
 msgstr[1] "%1 minutë nazôd"
 msgstr[2] "%1 minutów nazôd"
 
-#: App.cpp:946
+#: App.cpp:973
 msgid "Within the last minute"
 msgstr "Òb slédną minutã"
 
-#: App.cpp:948
+#: App.cpp:975
 msgid "The future"
 msgstr "Przińdnota"
 
-#: App.cpp:954
+#: App.cpp:981
 msgctxt "The amount of time since last played"
 msgid "Never"
 msgstr "Nigdë"
 
-#: App.cpp:964
+#: App.cpp:991
 msgctxt "The amount of time since last played"
 msgid "0"
 msgstr "0"
 
-#: App.cpp:973
+#: App.cpp:1000
 #, kde-format
 msgctxt "number of months ago"
 msgid "%1M"
 msgstr "%1M"
 
-#: App.cpp:977
+#: App.cpp:1004
 #, kde-format
 msgctxt "w for weeks"
 msgid "%1w"
 msgstr "%1w"
 
-#: App.cpp:980
+#: App.cpp:1007
 msgctxt "When this track was last played"
 msgid "Tomorrow"
 msgstr "Witro"
 
-#: App.cpp:986
+#: App.cpp:1013
 #, no-c-format, kde-format
 msgctxt "d for days"
 msgid "%1d"
 msgstr "%1d"
 
-#: App.cpp:989
+#: App.cpp:1016
 #, kde-format
 msgctxt "h for hours"
 msgid "%1h"
@@ -2700,34 +2701,34 @@ msgstr "%1h"
 #. i18n: ectx: property (text), widget (QLabel, eqBand8Value)
 #. i18n: file: configdialog/dialogs/EqualizerConfig.ui:1218
 #. i18n: ectx: property (text), widget (QLabel, eqBand9Value)
-#: App.cpp:998 rc.cpp:749 rc.cpp:755 rc.cpp:761 rc.cpp:767 rc.cpp:773
+#: App.cpp:1025 rc.cpp:749 rc.cpp:755 rc.cpp:761 rc.cpp:767 rc.cpp:773
 #: rc.cpp:779 rc.cpp:785 rc.cpp:791 rc.cpp:797 rc.cpp:803 rc.cpp:809
 msgid "0"
 msgstr "0"
 
-#: App.cpp:1015
+#: App.cpp:1042
 #, kde-format
 msgctxt "track by artist on album"
 msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgstr "<b>%1</b> wëkònywóné przez <b>%2</b> z albùmù <b>%3</b>"
 
-#: App.cpp:1018
+#: App.cpp:1045
 #, kde-format
 msgctxt "track by artist"
 msgid "<b>%1</b> by <b>%2</b>"
 msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
 
-#: App.cpp:1022
+#: App.cpp:1049
 #, kde-format
 msgctxt "track on album"
 msgid "<b>%1</b> on <b>%2</b>"
 msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
 
-#: App.cpp:1027
+#: App.cpp:1054
 msgid "Unknown track"
 msgstr "Nieznóny sztëczk"
 
-#: App.cpp:1034
+#: App.cpp:1061
 #, fuzzy, kde-format
 #| msgid " on <b>%1</b>"
 msgctxt "track from source"
@@ -10671,6 +10672,11 @@ msgstr "Dodôj ë &grôj"
 #: TrayIcon.cpp:224
 msgid "&Queue Track"
 msgstr "&Régùjë sztëczk"
+
+#, fuzzy
+#~| msgid "Fetching content.."
+#~ msgid "Fetching"
+#~ msgstr "Ladowanié zamkłoscë.."
 
 #~ msgid "Configure"
 #~ msgstr "Kònfigùracëjô"
