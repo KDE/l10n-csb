@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-19 06:59+0100\n"
+"POT-Creation-Date: 2010-01-20 07:27+0100\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: mac/GrowlInterface.cpp:37 context/engines/current/CurrentEngine.cpp:150
 #: context/applets/currenttrack/CurrentTrack.cpp:127
-#: context/applets/photos/PhotosApplet.cpp:132 App.cpp:1108
+#: context/applets/photos/PhotosApplet.cpp:132 App.cpp:1111
 #: widgets/Osd.cpp:578
 msgid "No track playing"
 msgstr "Nick nie je gróné"
@@ -342,11 +342,18 @@ msgstr[2] ""
 msgid "Delete Files"
 msgstr "Rëmniãcé lopków"
 
-#: collection/umscollection/handler/UmsHandler.cpp:393
+#: collection/umscollection/UmsPodcastProvider.cpp:90
+#, fuzzy, kde-format
+#| msgid "Podcasts"
+msgctxt "Podcasts on a media device"
+msgid "Podcasts on %1"
+msgstr "Podcastë"
+
+#: collection/umscollection/handler/UmsHandler.cpp:412
 msgid "&Read Device"
 msgstr "Ù&rządzenie òdczëtu"
 
-#: collection/proxycollection/ProxyCollection.cpp:58
+#: collection/proxycollection/ProxyCollection.cpp:52
 msgid "Proxy Collection"
 msgstr "Kòlekcëjô Proxy"
 
@@ -458,13 +465,13 @@ msgstr[2] "Rëmanié traków z ùrządzenia"
 
 #: collection/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.cpp:113
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:90
-#: playlistmanager/PlaylistManager.cpp:373
+#: playlistmanager/PlaylistManager.cpp:374
 msgid "Change playlist"
 msgstr "Zmieni lëstã graniô"
 
 #: collection/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.cpp:114
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:91
-#: playlistmanager/PlaylistManager.cpp:374
+#: playlistmanager/PlaylistManager.cpp:375
 msgid "Enter new name for playlist:"
 msgstr "Wpiszë nowé miono dlô lëstë graniô:"
 
@@ -1224,9 +1231,9 @@ msgstr "&Szëkôj w przódk"
 #: context/applets/wikipedia/WikipediaApplet.cpp:120
 #: dialogs/FilenameLayoutDialog.cpp:170 dialogs/FilenameLayoutDialog.cpp:497
 #: dialogs/transferdialog.cpp:88 browsers/CollectionTreeItemModelBase.cpp:931
-#: browsers/collectionbrowser/CollectionWidget.cpp:122
-#: browsers/collectionbrowser/CollectionWidget.cpp:151
-#: browsers/collectionbrowser/CollectionWidget.cpp:183
+#: browsers/collectionbrowser/CollectionWidget.cpp:132
+#: browsers/collectionbrowser/CollectionWidget.cpp:161
+#: browsers/collectionbrowser/CollectionWidget.cpp:193
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:248 rc.cpp:1240
 #: services/lastfm/LastFmService.cpp:538
 #: services/magnatune/MagnatuneStore.cpp:205
@@ -1241,9 +1248,9 @@ msgstr "Artista"
 #: context/applets/wikipedia/WikipediaApplet.cpp:127
 #: dialogs/FilenameLayoutDialog.cpp:182 dialogs/FilenameLayoutDialog.cpp:518
 #: dialogs/transferdialog.cpp:89 browsers/CollectionTreeItemModelBase.cpp:930
-#: browsers/collectionbrowser/CollectionWidget.cpp:125
-#: browsers/collectionbrowser/CollectionWidget.cpp:154
-#: browsers/collectionbrowser/CollectionWidget.cpp:186
+#: browsers/collectionbrowser/CollectionWidget.cpp:135
+#: browsers/collectionbrowser/CollectionWidget.cpp:164
+#: browsers/collectionbrowser/CollectionWidget.cpp:196
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:250 rc.cpp:1237
 #: services/magnatune/MagnatuneStore.cpp:211
 #: services/jamendo/JamendoInfoParser.cpp:83
@@ -1416,9 +1423,9 @@ msgstr "&Wëłączony"
 msgid "Burn"
 msgstr "Nagrôj"
 
-#: ActionClasses.cpp:458 playlistmanager/PlaylistManager.cpp:227
-#: playlistmanager/PlaylistManager.cpp:246
-#: playlistmanager/PlaylistManager.cpp:265
+#: ActionClasses.cpp:458 playlistmanager/PlaylistManager.cpp:228
+#: playlistmanager/PlaylistManager.cpp:247
+#: playlistmanager/PlaylistManager.cpp:266
 msgid "Current Playlist"
 msgstr "Biéżnô lësta òdgrëwaniô"
 
@@ -1855,9 +1862,9 @@ msgstr "Titel"
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
 #: dialogs/FilenameLayoutDialog.cpp:174 dialogs/FilenameLayoutDialog.cpp:504
 #: browsers/CollectionTreeItemModelBase.cpp:932
-#: browsers/collectionbrowser/CollectionWidget.cpp:131
-#: browsers/collectionbrowser/CollectionWidget.cpp:160
-#: browsers/collectionbrowser/CollectionWidget.cpp:192
+#: browsers/collectionbrowser/CollectionWidget.cpp:141
+#: browsers/collectionbrowser/CollectionWidget.cpp:170
+#: browsers/collectionbrowser/CollectionWidget.cpp:202
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:249 rc.cpp:1246
 #: playlist/PlaylistModel.cpp:702 widgets/SmartPlaylistEditor.cpp:183
 #: widgets/SmartPlaylistEditor.cpp:197
@@ -1885,11 +1892,11 @@ msgstr "Dopòwiesc"
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
 #: dialogs/FilenameLayoutDialog.cpp:190 dialogs/FilenameLayoutDialog.cpp:532
 #: dialogs/transferdialog.cpp:90 browsers/CollectionTreeItemModelBase.cpp:933
-#: browsers/collectionbrowser/CollectionWidget.cpp:128
-#: browsers/collectionbrowser/CollectionWidget.cpp:157
-#: browsers/collectionbrowser/CollectionWidget.cpp:189
+#: browsers/collectionbrowser/CollectionWidget.cpp:138
+#: browsers/collectionbrowser/CollectionWidget.cpp:167
+#: browsers/collectionbrowser/CollectionWidget.cpp:199
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:252 rc.cpp:1249
-#: playlist/ProgressiveSearchWidget.cpp:97 playlist/PlaylistModel.cpp:708
+#: playlist/ProgressiveSearchWidget.cpp:98 playlist/PlaylistModel.cpp:708
 #: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
 msgid "Genre"
 msgstr "Zort"
@@ -2364,8 +2371,8 @@ msgid "Select third grouping:\n"
 msgstr "Wëbierzë trzecé grëpòwónié:\n"
 
 #: dialogs/transferdialog.cpp:87
-#: browsers/collectionbrowser/CollectionWidget.cpp:148
-#: browsers/collectionbrowser/CollectionWidget.cpp:180
+#: browsers/collectionbrowser/CollectionWidget.cpp:158
+#: browsers/collectionbrowser/CollectionWidget.cpp:190
 #: playlist/navigators/NavigatorConfigAction.cpp:76
 msgid "None"
 msgstr "Felënk"
@@ -2591,31 +2598,31 @@ msgid ""
 "Would you like to use that as a collection folder?"
 msgstr ""
 
-#: App.cpp:839
+#: App.cpp:842
 msgid ""
 "<p>The version of the 'amarokcollectionscanner' tool\n"
 "does not match your Amarok version.</p><p>Please note that Collection "
 "Scanning may not work correctly.</p>"
 msgstr ""
 
-#: App.cpp:882
+#: App.cpp:885
 msgid "Moving files to trash"
 msgstr ""
 
-#: App.cpp:980
+#: App.cpp:983
 #, fuzzy
 #| msgid "Unknown"
 msgctxt "When this track was last played"
 msgid "Unknown"
 msgstr "Nieznóny"
 
-#: App.cpp:985
+#: App.cpp:988
 #, kde-format
 msgctxt "monthname year"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: App.cpp:992
+#: App.cpp:995
 #, kde-format
 msgid "One week ago"
 msgid_plural "%1 weeks ago"
@@ -2623,11 +2630,11 @@ msgstr[0] "Tidzéń nazôd"
 msgstr[1] "%1 tidzénie nazôd"
 msgstr[2] "%1 tidzéniów nazôd"
 
-#: App.cpp:998
+#: App.cpp:1001
 msgid "Yesterday"
 msgstr "Wczora"
 
-#: App.cpp:999
+#: App.cpp:1002
 #, kde-format
 msgid "One day ago"
 msgid_plural "%1 days ago"
@@ -2635,7 +2642,7 @@ msgstr[0] "Jeden dzén nazôd"
 msgstr[1] "%1 dni nazôd"
 msgstr[2] "%1 dniów nazôd"
 
-#: App.cpp:1002
+#: App.cpp:1005
 #, kde-format
 msgid "One hour ago"
 msgid_plural "%1 hours ago"
@@ -2643,7 +2650,7 @@ msgstr[0] "Jedna gòdzëna nazôd"
 msgstr[1] "%1 gòdzënë nazôd"
 msgstr[2] "%1 gòdzënów nazôd"
 
-#: App.cpp:1008
+#: App.cpp:1011
 #, kde-format
 msgid "One minute ago"
 msgid_plural "%1 minutes ago"
@@ -2651,48 +2658,48 @@ msgstr[0] "Jedna minuta nazôd"
 msgstr[1] "%1 minutë nazôd"
 msgstr[2] "%1 minutów nazôd"
 
-#: App.cpp:1009
+#: App.cpp:1012
 msgid "Within the last minute"
 msgstr "Òb slédną minutã"
 
-#: App.cpp:1011
+#: App.cpp:1014
 msgid "The future"
 msgstr "Przińdnota"
 
-#: App.cpp:1017
+#: App.cpp:1020
 msgctxt "The amount of time since last played"
 msgid "Never"
 msgstr "Nigdë"
 
-#: App.cpp:1027
+#: App.cpp:1030
 msgctxt "The amount of time since last played"
 msgid "0"
 msgstr "0"
 
-#: App.cpp:1036
+#: App.cpp:1039
 #, kde-format
 msgctxt "number of months ago"
 msgid "%1M"
 msgstr "%1M"
 
-#: App.cpp:1040
+#: App.cpp:1043
 #, kde-format
 msgctxt "w for weeks"
 msgid "%1w"
 msgstr "%1w"
 
-#: App.cpp:1043
+#: App.cpp:1046
 msgctxt "When this track was last played"
 msgid "Tomorrow"
 msgstr "Witro"
 
-#: App.cpp:1049
+#: App.cpp:1052
 #, no-c-format, kde-format
 msgctxt "d for days"
 msgid "%1d"
 msgstr "%1d"
 
-#: App.cpp:1052
+#: App.cpp:1055
 #, kde-format
 msgctxt "h for hours"
 msgid "%1h"
@@ -2720,34 +2727,34 @@ msgstr "%1h"
 #. i18n: ectx: property (text), widget (QLabel, eqBand8Value)
 #. i18n: file: configdialog/dialogs/EqualizerConfig.ui:1218
 #. i18n: ectx: property (text), widget (QLabel, eqBand9Value)
-#: App.cpp:1061 rc.cpp:749 rc.cpp:755 rc.cpp:761 rc.cpp:767 rc.cpp:773
+#: App.cpp:1064 rc.cpp:749 rc.cpp:755 rc.cpp:761 rc.cpp:767 rc.cpp:773
 #: rc.cpp:779 rc.cpp:785 rc.cpp:791 rc.cpp:797 rc.cpp:803 rc.cpp:809
 msgid "0"
 msgstr "0"
 
-#: App.cpp:1078
+#: App.cpp:1081
 #, kde-format
 msgctxt "track by artist on album"
 msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgstr "<b>%1</b> wëkònywóné przez <b>%2</b> z albùmù <b>%3</b>"
 
-#: App.cpp:1081
+#: App.cpp:1084
 #, kde-format
 msgctxt "track by artist"
 msgid "<b>%1</b> by <b>%2</b>"
 msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
 
-#: App.cpp:1085
+#: App.cpp:1088
 #, kde-format
 msgctxt "track on album"
 msgid "<b>%1</b> on <b>%2</b>"
 msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
 
-#: App.cpp:1090
+#: App.cpp:1093
 msgid "Unknown track"
 msgstr "Nieznóny sztëczk"
 
-#: App.cpp:1097
+#: App.cpp:1100
 #, fuzzy, kde-format
 #| msgid " on <b>%1</b>"
 msgctxt "track from source"
@@ -3013,43 +3020,43 @@ msgstr ""
 msgid "The playlist file \"%1\" could not be loaded."
 msgstr "Nie mòże ùsôdzëc òbiektu"
 
-#: playlistmanager/PlaylistManager.cpp:199
+#: playlistmanager/PlaylistManager.cpp:200
 msgid "Downloading Playlist"
 msgstr "Ladowanié lëstë gróniô"
 
-#: playlistmanager/PlaylistManager.cpp:228
+#: playlistmanager/PlaylistManager.cpp:229
 #: browsers/playlistbrowser/PlaylistCategory.cpp:44
 #, fuzzy
 #| msgid "&Save Playlist"
 msgid "Saved Playlists"
 msgstr "&Zapiszë lëstã graniô"
 
-#: playlistmanager/PlaylistManager.cpp:229
-#: playlistmanager/PlaylistManager.cpp:248
-#: playlistmanager/PlaylistManager.cpp:270
+#: playlistmanager/PlaylistManager.cpp:230
+#: playlistmanager/PlaylistManager.cpp:249
+#: playlistmanager/PlaylistManager.cpp:271
 #: browsers/playlistbrowser/PodcastCategory.cpp:90
 msgid "Podcasts"
 msgstr "Podcastë"
 
-#: playlistmanager/PlaylistManager.cpp:230
-#: playlistmanager/PlaylistManager.cpp:249
-#: playlistmanager/PlaylistManager.cpp:271
+#: playlistmanager/PlaylistManager.cpp:231
+#: playlistmanager/PlaylistManager.cpp:250
+#: playlistmanager/PlaylistManager.cpp:272
 #: browsers/playlistbrowser/DynamicCategory.cpp:53
 msgid "Dynamic Playlists"
 msgstr "Dinamiczné lëstë graniô"
 
-#: playlistmanager/PlaylistManager.cpp:231
-#: playlistmanager/PlaylistManager.cpp:250
-#: playlistmanager/PlaylistManager.cpp:272
+#: playlistmanager/PlaylistManager.cpp:232
+#: playlistmanager/PlaylistManager.cpp:251
+#: playlistmanager/PlaylistManager.cpp:273
 msgid "Smart Playlist"
 msgstr "Jinteligentnô lësta gróniô"
 
-#: playlistmanager/PlaylistManager.cpp:247
+#: playlistmanager/PlaylistManager.cpp:248
 #: browsers/playlistbrowser/PlaylistCategory.cpp:45
 msgid "User generated and imported playlists"
 msgstr ""
 
-#: playlistmanager/PlaylistManager.cpp:267
+#: playlistmanager/PlaylistManager.cpp:268
 #: browsers/playlistbrowser/PlaylistCategory.cpp:48
 msgid ""
 "Create, edit, organize and load playlists. Amarok automatically adds any "
@@ -3151,7 +3158,7 @@ msgstr ""
 msgid "Local Podcasts"
 msgstr "Môlowé podcastë"
 
-#: podcasts/sql/SqlPodcastMeta.cpp:358 podcasts/PodcastMeta.h:414
+#: podcasts/sql/SqlPodcastMeta.cpp:358 podcasts/PodcastMeta.h:415
 msgid "Podcast"
 msgstr "Podcast"
 
@@ -3548,7 +3555,7 @@ msgid "Alex Merry"
 msgstr "Alex Merry"
 
 #: main.cpp:74
-msgid "Developer, Replay gain support"
+msgid "Developer, Replay Gain support"
 msgstr ""
 
 #: main.cpp:76
@@ -4183,58 +4190,58 @@ msgstr "Rok - Albùm"
 msgid "%1% used"
 msgstr ""
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:61
+#: browsers/collectionbrowser/CollectionWidget.cpp:62
 msgid "Search collection"
 msgstr "Szëkôj w kòlekcëji"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:106
+#: browsers/collectionbrowser/CollectionWidget.cpp:116
 #: services/magnatune/MagnatuneStore.cpp:208
 msgid "Artist / Album"
 msgstr "Artista / Albùm"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:110
+#: browsers/collectionbrowser/CollectionWidget.cpp:120
 #: services/magnatune/MagnatuneStore.cpp:214
 #: services/jamendo/JamendoService.cpp:150
 msgid "Genre / Artist"
 msgstr "Zort / Artista"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:114
+#: browsers/collectionbrowser/CollectionWidget.cpp:124
 #: services/magnatune/MagnatuneStore.cpp:217
 #: services/jamendo/JamendoService.cpp:153
 msgid "Genre / Artist / Album"
 msgstr "Zort / Artista / Albùm"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:120
+#: browsers/collectionbrowser/CollectionWidget.cpp:130
 msgid "First Level"
 msgstr "Pierszô równiô"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:147
+#: browsers/collectionbrowser/CollectionWidget.cpp:157
 msgid "Second Level"
 msgstr "Drëgô równiô"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:179
+#: browsers/collectionbrowser/CollectionWidget.cpp:189
 msgid "Third Level"
 msgstr ""
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:212
+#: browsers/collectionbrowser/CollectionWidget.cpp:222
 msgid "Show Years"
 msgstr "Pòkażë rok"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:217
+#: browsers/collectionbrowser/CollectionWidget.cpp:227
 msgid "Show Cover Art"
 msgstr "Pòkażë òbkłôdkã"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:295
+#: browsers/collectionbrowser/CollectionWidget.cpp:305
 #: services/magnatune/MagnatuneStore.cpp:220
 #: services/jamendo/JamendoService.cpp:156
 msgid "Sort Options"
 msgstr "Zortëjë òptacëje"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:300
+#: browsers/collectionbrowser/CollectionWidget.cpp:310
 msgid "Toggle unified view mode"
 msgstr ""
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:309
+#: browsers/collectionbrowser/CollectionWidget.cpp:319
 msgid ""
 "This is where you will find your local music, as well as music from mobile "
 "audio players and cd's."
@@ -4380,7 +4387,7 @@ msgstr "Rechòwnik graniô"
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:255
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:694 rc.cpp:1255
-#: playlist/ProgressiveSearchWidget.cpp:111 playlist/PlaylistModel.cpp:716
+#: playlist/ProgressiveSearchWidget.cpp:112 playlist/PlaylistModel.cpp:716
 #: widgets/SmartPlaylistEditor.cpp:185 TrayIcon.cpp:177
 msgid "Rating"
 msgstr "Notowania"
@@ -5525,7 +5532,7 @@ msgstr ""
 #. i18n: file: amarokconfig.kcfg:281
 #. i18n: ectx: label, entry, group (Playback)
 #: rc.cpp:258 rc.cpp:2004
-msgid "Disable replay gain"
+msgid "Disable Replay Gain"
 msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:284
@@ -7098,13 +7105,13 @@ msgstr "Môl:"
 
 #. i18n: file: dialogs/TagDialogBase.ui:894
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_previous)
-#: rc.cpp:1115 playlist/ProgressiveSearchWidget.cpp:65
+#: rc.cpp:1115 playlist/ProgressiveSearchWidget.cpp:66
 msgid "&Previous"
 msgstr "&Pòprzédny"
 
 #. i18n: file: dialogs/TagDialogBase.ui:904
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_next)
-#: rc.cpp:1118 playlist/ProgressiveSearchWidget.cpp:62
+#: rc.cpp:1118 playlist/ProgressiveSearchWidget.cpp:63
 msgid "&Next"
 msgstr "&Pòstãpny"
 
@@ -8671,12 +8678,12 @@ msgid "Add tracks based on recommended:"
 msgstr ""
 
 #: services/lastfm/biases/LastFmBias.cpp:124
-#: playlist/ProgressiveSearchWidget.cpp:90
+#: playlist/ProgressiveSearchWidget.cpp:91
 msgid "Artists"
 msgstr "Artistowie"
 
 #: services/lastfm/biases/LastFmBias.cpp:125
-#: playlist/ProgressiveSearchWidget.cpp:76
+#: playlist/ProgressiveSearchWidget.cpp:77
 msgid "Tracks"
 msgstr "Sztëcczi"
 
@@ -9812,24 +9819,24 @@ msgstr "Przëszëkôj lësta gróniô"
 msgid "Start typing to progressively search through the playlist"
 msgstr ""
 
-#: playlist/ProgressiveSearchWidget.cpp:83
+#: playlist/ProgressiveSearchWidget.cpp:84
 msgid "Albums"
 msgstr "Albùmë"
 
-#: playlist/ProgressiveSearchWidget.cpp:104
+#: playlist/ProgressiveSearchWidget.cpp:105
 msgid "Composers"
 msgstr "Kòmpòzytorowie"
 
-#: playlist/ProgressiveSearchWidget.cpp:118
+#: playlist/ProgressiveSearchWidget.cpp:119
 #: widgets/SmartPlaylistEditor.cpp:976
 msgid "Years"
 msgstr "Lat"
 
-#: playlist/ProgressiveSearchWidget.cpp:127
+#: playlist/ProgressiveSearchWidget.cpp:128
 msgid "Show only matches"
 msgstr "Pòkażë le dopasowóné"
 
-#: playlist/ProgressiveSearchWidget.cpp:137
+#: playlist/ProgressiveSearchWidget.cpp:138
 msgid "Search Preferences"
 msgstr ""
 
@@ -10227,9 +10234,13 @@ msgstr "20%"
 msgid "0%"
 msgstr "0%"
 
-#: widgets/SliderWidget.cpp:467
+#: widgets/SliderWidget.cpp:472
 #, kde-format
-msgid "Time position: %1"
+msgctxt ""
+"Tooltip shown when the mouse is over the progress slider, representing the "
+"position in the currently playing track that amarok will seek to if you "
+"click the mouse. Keep it short and consice."
+msgid "Track position under cursor: %1"
 msgstr ""
 
 #: widgets/TokenWithLayout.cpp:242
