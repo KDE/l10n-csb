@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-01 06:21+0100\n"
+"POT-Creation-Date: 2010-02-02 06:19+0100\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -4942,11 +4942,11 @@ msgstr "(wëcëszony)"
 msgid "Volume: %1% %2"
 msgstr "Głosnosc: %1% %2"
 
-#: toolbar/Toolbar_3.cpp:54
+#: toolbar/Toolbar_3.cpp:55
 msgid "Rediscover Your Music"
 msgstr ""
 
-#: toolbar/Toolbar_3.cpp:63
+#: toolbar/Toolbar_3.cpp:65
 #, fuzzy
 #| msgid "Main Toolbar"
 msgid "Toolbar 3G"
@@ -10161,6 +10161,10 @@ msgstr "Paùza"
 msgid "Drag in and out items from above."
 msgstr ""
 
+#: widgets/VolumeDial.cpp:215 TrayIcon.cpp:149
+msgid "Muted"
+msgstr "Wëcëszony"
+
 #: widgets/SearchWidget.cpp:70
 msgid "Enter space-separated terms to search."
 msgstr "Wpiszë, òddzéloné spacjama, kriteria przeszëkiwaniô."
@@ -10232,6 +10236,19 @@ msgstr "Wicy kòrektorów"
 #: widgets/AnalyzerWidget.cpp:69
 msgid "&Visualizations"
 msgstr "&Wizualizacëjô"
+
+#: widgets/PlayPauseButton.cpp:39 widgets/PlayPauseButton.cpp:97
+#, fuzzy
+#| msgctxt "state, as in playing"
+#| msgid "Play"
+msgid "Play"
+msgstr "Grónié"
+
+#: widgets/PlayPauseButton.cpp:97
+#, fuzzy
+#| msgid "Paused"
+msgid "Pause"
+msgstr "Paùza"
 
 #: widgets/ProgressWidget.cpp:47
 msgid "Track Progress"
@@ -10680,10 +10697,6 @@ msgstr "Òbkłôdka"
 #: covermanager/CoverManager.cpp:867
 msgid "No Artist"
 msgstr "Felëje artistë"
-
-#: TrayIcon.cpp:149
-msgid "Muted"
-msgstr "Wëcëszony"
 
 #: TrayIcon.cpp:222
 msgid "Add && &Play"
@@ -11862,10 +11875,6 @@ msgstr "&Régùjë sztëczk"
 #~ "<qt>Pò klëkniãcym <b>Zladëjë nowé widżetë</b>, òtemknié sã òkno, jaczé "
 #~ "pòzwòlë na zladowanié nowëch widżetów prosto z Interneta. Jinstalëjë z "
 #~ "lopka pòzwôlë na dodanié nowëch widżetów z diskù.</qt>"
-
-#~ msgctxt "state, as in playing"
-#~ msgid "Play"
-#~ msgstr "Grónié"
 
 #, fuzzy
 #~| msgid "The user's password"
