@@ -1,0 +1,179 @@
+# translation of plasmapkg.po to Kaszëbsczi
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Michôł Òstrowsczi <michol@linuxcsb.org>, 2008, 2009.
+# Mark Kwidzińsczi <mark@linuxcsb.org>, 2008.
+# Mark Kwidzińśczi <mark@linuxcsb.org>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasmapkg\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-11-04 07:09+0100\n"
+"PO-Revision-Date: 2009-12-14 23:53+0100\n"
+"Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
+"Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2)\n"
+
+#: main.cpp:38
+msgid "Install, list, remove Plasma packages"
+msgstr "Instalëjë, wëskrzëniô, rëmô paczétë Plasmë"
+
+#: main.cpp:75
+msgid "Plasma Package Manager"
+msgstr "Menadżera paczétów Plasmë"
+
+#: main.cpp:77
+msgid "(C) 2008, Aaron Seigo"
+msgstr "(C) 2008, Aaron Seigo"
+
+#: main.cpp:78
+msgid "Aaron Seigo"
+msgstr "Aaron Seigo"
+
+#: main.cpp:79
+msgid "Original author"
+msgstr "Òridżinalny aùtor"
+
+#: main.cpp:88
+msgid "For install or remove, operates on packages installed for all users."
+msgstr ""
+"Abë winstalowac abò rëmnąc dzejanié na paczétach winstalowónëch dlô "
+"wszëtczich brëkòwników."
+
+#: main.cpp:94
+msgctxt ""
+"theme, wallpaper, etc. are keywords, but they may be translated, as both "
+"versions are recognized by the application (if translated, should be same as "
+"messages with 'package type' context below)"
+msgid ""
+"The type of package, e.g. theme, wallpaper, plasmoid, dataengine, runner, "
+"etc."
+msgstr "Ôrt paczétu, np. téma, tapéta, plasmoid, mòtór pòdôwków, runner ëtd."
+
+#: main.cpp:98
+msgctxt "Do not translate <path>"
+msgid "Install the package at <path>"
+msgstr "Instalëjë paczét w <path>"
+
+#: main.cpp:100
+msgctxt "Do not translate <path>"
+msgid "Upgrade the package at <path>"
+msgstr "Zaktualni paczét w <path>"
+
+#: main.cpp:102
+msgid "List installed packages"
+msgstr "Lësta winstalowónëch paczétów"
+
+#: main.cpp:104
+msgctxt "Do not translate <name>"
+msgid "Remove the package named <name>"
+msgstr "Rëmô paczétë zwóné <name>"
+
+#: main.cpp:106
+msgid ""
+"Absolute path to the package root. If not supplied, then the standard data "
+"directories for this KDE session will be searched instead."
+msgstr ""
+"Bezwzglądnô stegna do spòdla paczétu. Jeżlë nie mdze wpisónô, standardowé "
+"katalodżi dlô ti KDE sesëji bãdą przeszëkóne."
+
+#: main.cpp:134 main.cpp:162
+msgctxt "package type"
+msgid "wallpaper"
+msgstr "tapéta"
+
+#: main.cpp:155
+msgctxt "package type"
+msgid "plasmoid"
+msgstr "plasmoid"
+
+#: main.cpp:160
+msgctxt "package type"
+msgid "theme"
+msgstr "téma"
+
+#: main.cpp:164
+msgctxt "package type"
+msgid "dataengine"
+msgstr "mòtór pòdôwków"
+
+#: main.cpp:168
+msgctxt "package type"
+msgid "runner"
+msgstr "runner"
+
+#: main.cpp:172
+msgctxt "package type"
+msgid "wallpaperplugin"
+msgstr "wtëkôcz tapétë"
+
+#: main.cpp:180
+#, kde-format
+msgid "Could not find a suitable installer for package of type %1"
+msgstr "Ni mòże nalezc dobrégò instalownika dlô paczéta ôrtu %1"
+
+#: main.cpp:189
+#, kde-format
+msgid "Could not load installer for package of type %1. Error reported was: %2"
+msgstr ""
+"Ni mòże wladowac instalownika dlô paczétu ôrtu %1. Zarapòrtowónô fela: %2"
+
+#: main.cpp:207
+msgctxt ""
+"The user entered conflicting options packageroot and global, this is the "
+"error message telling the user he can use only one"
+msgid ""
+"The packageroot and global options conflict each other, please select only "
+"one."
+msgstr ""
+"Paczétë root ë globalné òptacëje są w zwadze, proszã wëbrac blós jedno."
+
+#: main.cpp:232
+#, kde-format
+msgid "Successfully removed %1"
+msgstr "Ùdało rëmniãté: %1"
+
+#: main.cpp:234
+#, kde-format
+msgid "Removal of %1 failed."
+msgstr "Nié ùdałé rëmniãcé: %1"
+
+#: main.cpp:239
+#, kde-format
+msgid "Plugin %1 is not installed."
+msgstr "Wtëkôcz %1 nie je winstalowóny."
+
+#: main.cpp:244
+#, kde-format
+msgid "Successfully installed %1"
+msgstr "Ùdało winstalowóné: %1"
+
+#: main.cpp:246
+#, kde-format
+msgid "Installation of %1 failed."
+msgstr "Nié ùdałé winstalowanié: %1"
+
+#: main.cpp:252
+msgctxt ""
+"No option was given, this is the error message telling the user he needs at "
+"least one, do not translate install, remove, upgrade nor list"
+msgid "One of install, remove, upgrade or list is required."
+msgstr ""
+"Jednô òptacëjô z instalacëji, jakno rëmniãcé, zaktualnienié abò "
+"wëskrzënienié je żądóné."
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Michôł Òstrowsczi,Mark Kwidzińsczi"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "michol@linuxcsb.org,mark@linuxcsb.org"
