@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-03 07:11+0100\n"
+"POT-Creation-Date: 2010-02-04 06:58+0100\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -2891,7 +2891,7 @@ msgstr "&Zapiszë lëstã graniô"
 #: playlistmanager/PlaylistManager.cpp:230
 #: playlistmanager/PlaylistManager.cpp:249
 #: playlistmanager/PlaylistManager.cpp:271
-#: browsers/playlistbrowser/PodcastCategory.cpp:91
+#: browsers/playlistbrowser/PodcastCategory.cpp:94
 msgid "Podcasts"
 msgstr "Podcastë"
 
@@ -3855,7 +3855,7 @@ msgstr "Òrganizëjë lopczi"
 msgid "Delete Tracks"
 msgstr "&Rëmôj sztëcczi"
 
-#: browsers/BrowserCategoryList.cpp:45
+#: browsers/BrowserCategoryList.cpp:46
 #, fuzzy
 #| msgid "File Extension of Source"
 msgid "Filter Music Sources"
@@ -4024,6 +4024,7 @@ msgid "Sort Options"
 msgstr "Zortëjë òptacëje"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:310
+#: browsers/playlistbrowser/PodcastCategory.cpp:137
 msgid "Toggle unified view mode"
 msgstr ""
 
@@ -4287,39 +4288,40 @@ msgstr ""
 msgid "Loosely match the playlist to an approximate value."
 msgstr ""
 
-#: browsers/playlistbrowser/PodcastCategory.cpp:92
+#: browsers/playlistbrowser/PodcastCategory.cpp:95
 msgid "List of subscribed podcasts and episodes"
 msgstr ""
 
-#: browsers/playlistbrowser/PodcastCategory.cpp:95
+#: browsers/playlistbrowser/PodcastCategory.cpp:98
 msgid ""
 "Manage your podcast subscriptions and browse individual episodes. "
 "Downloading episodes to the disk is also done here, or you can tell Amarok "
 "to do this automatically."
 msgstr ""
 
-#: browsers/playlistbrowser/PodcastCategory.cpp:111
+#: browsers/playlistbrowser/PodcastCategory.cpp:114
 msgid "&Add Podcast"
 msgstr "&Dodôj podcast"
 
-#: browsers/playlistbrowser/PodcastCategory.cpp:116
+#: browsers/playlistbrowser/PodcastCategory.cpp:119
 msgid "&Update All"
 msgstr "&Zaktualni wszëtkò"
 
-#: browsers/playlistbrowser/PodcastCategory.cpp:131
+#: browsers/playlistbrowser/PodcastCategory.cpp:189
+#: browsers/playlistbrowser/PodcastCategory.cpp:192
 #, fuzzy
 #| msgid "Import playlist"
 msgid "Import OPML File"
 msgstr "Jimpòrtëjë lëstã graniô"
 
-#: browsers/playlistbrowser/PodcastCategory.cpp:204
+#: browsers/playlistbrowser/PodcastCategory.cpp:223
 #, fuzzy
 #| msgctxt "What artist is this track by"
 #| msgid "By"
 msgid "By"
 msgstr "Przez"
 
-#: browsers/playlistbrowser/PodcastCategory.cpp:243
+#: browsers/playlistbrowser/PodcastCategory.cpp:262
 #, fuzzy
 #| msgctxt "What album is this track on"
 #| msgid "On"
@@ -4327,23 +4329,23 @@ msgctxt "Podcast published on date"
 msgid "On"
 msgstr "Włączony"
 
-#: browsers/playlistbrowser/PodcastCategory.cpp:261
+#: browsers/playlistbrowser/PodcastCategory.cpp:280
 #, fuzzy
 #| msgid "File Size"
 msgid "File Size:"
 msgstr "Miara lopka"
 
-#: browsers/playlistbrowser/PodcastCategory.cpp:273
+#: browsers/playlistbrowser/PodcastCategory.cpp:292
 #, fuzzy
 #| msgid "Description:"
 msgid "Subscription Date:"
 msgstr "Òpisënk:"
 
-#: browsers/playlistbrowser/PodcastCategory.cpp:281
+#: browsers/playlistbrowser/PodcastCategory.cpp:300
 msgid "Keywords:"
 msgstr ""
 
-#: browsers/playlistbrowser/PodcastCategory.cpp:314
+#: browsers/playlistbrowser/PodcastCategory.cpp:333
 msgid "Select OPML file to import"
 msgstr ""
 
@@ -4790,14 +4792,12 @@ msgstr "(wëcëszony)"
 msgid "Volume: %1% %2"
 msgstr "Głosnosc: %1% %2"
 
-#: toolbar/Toolbar_3.cpp:55
+#: toolbar/MainToolbar.cpp:55
 msgid "Rediscover Your Music"
 msgstr ""
 
-#: toolbar/Toolbar_3.cpp:65
-#, fuzzy
-#| msgid "Main Toolbar"
-msgid "Toolbar 3G"
+#: toolbar/MainToolbar.cpp:65
+msgid "Main Toolbar"
 msgstr "Przédnô lëstwa nôrzãdzów"
 
 #. i18n: file: amarokconfig.kcfg:13
@@ -10706,7 +10706,9 @@ msgstr "Dodôj ë &grôj"
 msgid "&Queue Track"
 msgstr "&Régùjë sztëczk"
 
-#~ msgid "Main Toolbar"
+#, fuzzy
+#~| msgid "Main Toolbar"
+#~ msgid "Toolbar 3G"
 #~ msgstr "Przédnô lëstwa nôrzãdzów"
 
 #, fuzzy
