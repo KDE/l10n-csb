@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-29 06:06+0100\n"
+"POT-Creation-Date: 2010-02-05 02:24+0100\n"
 "PO-Revision-Date: 2009-12-09 23:08+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -173,29 +173,29 @@ msgctxt "@info:status"
 msgid "A folder cannot be dropped into itself"
 msgstr "Katalog ni mòże bëc przesëniãti do se"
 
-#: dolphindetailsview.cpp:150
+#: dolphindetailsview.cpp:151
 msgctxt "@option:check"
 msgid "Expandable Folders"
 msgstr "Rozszérzólné katalodżi"
 
-#: dolphindetailsview.cpp:593
+#: dolphindetailsview.cpp:594
 msgctxt "@title:menu"
 msgid "Columns"
 msgstr "Kòlumnë"
 
-#: dolphinview.cpp:554
+#: dolphinview.cpp:504
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected"
 msgstr "<filename>%1</filename> wëbróné"
 
-#: dolphinview.cpp:555
+#: dolphinview.cpp:505
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected (%2)"
 msgstr "<filename>%1</filename> wëbróny (%2)"
 
-#: dolphinview.cpp:559
+#: dolphinview.cpp:509
 #, kde-format
 msgctxt "@info:status"
 msgid "1 Folder selected"
@@ -204,7 +204,7 @@ msgstr[0] "1 katalog zaznaczony"
 msgstr[1] "%1 katalodżi zaznaczoné"
 msgstr[2] "%1 zaznaczonëch katalogów"
 
-#: dolphinview.cpp:560
+#: dolphinview.cpp:510
 #, kde-format
 msgctxt "@info:status"
 msgid "1 File selected"
@@ -213,29 +213,29 @@ msgstr[0] "1 lopk wëbróny"
 msgstr[1] "%1 lopczi zaznaczoné"
 msgstr[2] "%1 zaznaczonëch lopków"
 
-#: dolphinview.cpp:562
+#: dolphinview.cpp:512
 #, kde-format
 msgctxt "@info:status folders, files (size)"
 msgid "%1, %2 (%3)"
 msgstr "%1, %2 (%3)"
 
-#: dolphinview.cpp:565
+#: dolphinview.cpp:515
 #, kde-format
 msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: dolphinview.cpp:1170
+#: dolphinview.cpp:1114
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "Rëmôj skùńczoné òperacëje."
 
-#: dolphinview.cpp:1262
+#: dolphinview.cpp:1205
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "Lokacëjô je pùstô."
 
-#: dolphinview.cpp:1264
+#: dolphinview.cpp:1207
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
@@ -253,32 +253,32 @@ msgstr "Zladëjë znowa"
 msgid "Default"
 msgstr "Domëszlnô"
 
-#: dolphinviewcontainer.cpp:296
+#: dolphinviewcontainer.cpp:283
 msgctxt "@info"
 msgid "Searching..."
 msgstr "Szëkba..."
 
-#: dolphinviewcontainer.cpp:304
+#: dolphinviewcontainer.cpp:291
 msgctxt "@info:progress"
 msgid "Loading folder..."
 msgstr "Ladowanié kataloga..."
 
-#: dolphinviewcontainer.cpp:319
+#: dolphinviewcontainer.cpp:306
 msgctxt "@info:status"
 msgid "No items found."
 msgstr "Nié nalazłé elementë."
 
-#: dolphinviewcontainer.cpp:432
+#: dolphinviewcontainer.cpp:402
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr "Dolphin nie wspiérô internetowich starnów, przezérnik òstôł zrëszony"
 
-#: dolphinviewcontainer.cpp:444
+#: dolphinviewcontainer.cpp:414
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, Konqueror has been launched"
 msgstr "Protokół nie wspiéróny przez Dolphina, Konqueror òstôł zrëszony"
 
-#: dolphinviewcontainer.cpp:451
+#: dolphinviewcontainer.cpp:421
 msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr "Lëchi protokół"
@@ -439,7 +439,7 @@ msgctxt "@action:inmenu"
 msgid "Restore"
 msgstr "Przëwrócë"
 
-#: dolphincontextmenu.cpp:199 dolphinmainwindow.cpp:1267
+#: dolphincontextmenu.cpp:199 dolphinmainwindow.cpp:1323
 msgctxt "@title:menu Create new folder, file, link, etc."
 msgid "Create New"
 msgstr "Ùsôdzë nowi"
@@ -920,7 +920,7 @@ msgctxt "@action:inmenu Edit"
 msgid "Unselect All"
 msgstr "Copni całowny wëbiérk"
 
-#: dolphinpart.cpp:184 dolphinmainwindow.cpp:1317
+#: dolphinpart.cpp:184 dolphinmainwindow.cpp:1373
 msgctxt "@action:inmenu Edit"
 msgid "Invert Selection"
 msgstr "Zmieni wëbiérk"
@@ -1470,224 +1470,232 @@ msgstr "Wëskrzëni pùrgôcza zwikszaniô w lëstwie stónu"
 msgid "Show the space information in the statusbar"
 msgstr "Wëskrzëni pùrgôcza zwikszaniô w lëstwie stónu"
 
-#: dolphinmainwindow.cpp:236
+#: dolphinmainwindow.cpp:237
 msgctxt "@info:status"
 msgid "Successfully copied."
 msgstr "Ùdało skòpérowóné."
 
-#: dolphinmainwindow.cpp:240
+#: dolphinmainwindow.cpp:241
 msgctxt "@info:status"
 msgid "Successfully moved."
 msgstr "Ùdało przeniosłé"
 
-#: dolphinmainwindow.cpp:244
+#: dolphinmainwindow.cpp:245
 msgctxt "@info:status"
 msgid "Successfully linked."
 msgstr "Ùdało dowiązóné"
 
-#: dolphinmainwindow.cpp:248
+#: dolphinmainwindow.cpp:249
 msgctxt "@info:status"
 msgid "Successfully moved to trash."
 msgstr "Ùdało przeniosłé do kòsza"
 
-#: dolphinmainwindow.cpp:252
+#: dolphinmainwindow.cpp:253
 msgctxt "@info:status"
 msgid "Successfully renamed."
 msgstr "Ùdało zmienioné miono"
 
-#: dolphinmainwindow.cpp:257
+#: dolphinmainwindow.cpp:258
 msgctxt "@info:status"
 msgid "Created folder."
 msgstr "Ùsôdzony katalog."
 
-#: dolphinmainwindow.cpp:363
+#: dolphinmainwindow.cpp:364
 msgctxt "@info"
 msgid "Go back"
 msgstr "Biéj nazôd"
 
-#: dolphinmainwindow.cpp:369
+#: dolphinmainwindow.cpp:370
 msgctxt "@info"
 msgid "Go forward"
 msgstr "Biéj w przódk"
 
-#: dolphinmainwindow.cpp:527
+#: dolphinmainwindow.cpp:528
 msgctxt "@title:window"
 msgid "Confirmation"
 msgstr "Pòcwierdzenié"
 
-#: dolphinmainwindow.cpp:532
+#: dolphinmainwindow.cpp:533
 msgid "C&lose Current Tab"
 msgstr "Z&amkni tã kôrtã"
 
-#: dolphinmainwindow.cpp:540
+#: dolphinmainwindow.cpp:541
 msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr "Môsz òtemkłich czile kôrtów w tim òknie, na gwës chcesz zakùńczëc?"
 
-#: dolphinmainwindow.cpp:542
+#: dolphinmainwindow.cpp:543
 msgid "Do not ask again"
 msgstr "Nie pëtôj znowa"
 
-#: dolphinmainwindow.cpp:1043
+#: dolphinmainwindow.cpp:1048
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "Nowô kôrta"
 
-#: dolphinmainwindow.cpp:1046
+#: dolphinmainwindow.cpp:1051
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Search Bar"
+msgctxt "@action:inmenu"
+msgid "Detach Tab"
+msgstr "Listew szëkbë"
+
+#: dolphinmainwindow.cpp:1053
 msgctxt "@action:inmenu"
 msgid "Close Other Tabs"
 msgstr "Zamkni jine kôrtë"
 
-#: dolphinmainwindow.cpp:1048
+#: dolphinmainwindow.cpp:1055
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Zamkni kôrtë"
 
-#: dolphinmainwindow.cpp:1274
+#: dolphinmainwindow.cpp:1330
 msgctxt "@action:inmenu File"
 msgid "New &Window"
 msgstr "Nowé ò&kno"
 
-#: dolphinmainwindow.cpp:1280
+#: dolphinmainwindow.cpp:1336
 msgctxt "@action:inmenu File"
 msgid "New Tab"
 msgstr "Nowô kôrta"
 
-#: dolphinmainwindow.cpp:1286
+#: dolphinmainwindow.cpp:1342
 msgctxt "@action:inmenu File"
 msgid "Close Tab"
 msgstr "Zamkni kôrtë"
 
-#: dolphinmainwindow.cpp:1309
+#: dolphinmainwindow.cpp:1365
 msgctxt "@action:inmenu Edit"
 msgid "Paste"
 msgstr "Wlepi"
 
-#: dolphinmainwindow.cpp:1312
+#: dolphinmainwindow.cpp:1368
 msgctxt "@action:inmenu Edit"
 msgid "Select All"
 msgstr "Wëbiérzë wszëtkò"
 
-#: dolphinmainwindow.cpp:1330
+#: dolphinmainwindow.cpp:1386
 msgctxt "@action:inmenu View"
 msgid "Reload"
 msgstr "Zladëjë znowa"
 
-#: dolphinmainwindow.cpp:1336
+#: dolphinmainwindow.cpp:1392
 msgctxt "@action:inmenu View"
 msgid "Stop"
 msgstr "Stop"
 
-#: dolphinmainwindow.cpp:1337
+#: dolphinmainwindow.cpp:1393
 msgctxt "@info"
 msgid "Stop loading"
 msgstr "Òprzestóń zladënk"
 
-#: dolphinmainwindow.cpp:1342
+#: dolphinmainwindow.cpp:1398
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Editable Location"
 msgstr "Edicjowólné pòłożenié"
 
-#: dolphinmainwindow.cpp:1347
+#: dolphinmainwindow.cpp:1403
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Replace Location"
 msgstr "Zastãpi lokacëjã"
 
-#: dolphinmainwindow.cpp:1358
+#: dolphinmainwindow.cpp:1414
 msgid "Recently Closed Tabs"
 msgstr "Prawie zamkłé kôrtë"
 
-#: dolphinmainwindow.cpp:1381
+#: dolphinmainwindow.cpp:1437
 msgctxt "@action:inmenu Tools"
 msgid "Show Search Bar"
 msgstr "Wëskrzëni listew szëkbë"
 
-#: dolphinmainwindow.cpp:1386
+#: dolphinmainwindow.cpp:1442
 msgctxt "@action:inmenu Tools"
 msgid "Show Filter Bar"
 msgstr "Wëskrzëni listew filtra"
 
-#: dolphinmainwindow.cpp:1392
+#: dolphinmainwindow.cpp:1448
 msgctxt "@action:inmenu Tools"
 msgid "Compare Files"
 msgstr "Przerównôj lopczi"
 
-#: dolphinmainwindow.cpp:1398
+#: dolphinmainwindow.cpp:1454
 msgctxt "@action:inmenu Tools"
 msgid "Open Terminal"
 msgstr "Òtemkni Terminal"
 
-#: dolphinmainwindow.cpp:1409
+#: dolphinmainwindow.cpp:1465
 msgctxt "@action:inmenu"
 msgid "Activate Next Tab"
 msgstr "Aktiwùjë nôslédną kartã"
 
-#: dolphinmainwindow.cpp:1415
+#: dolphinmainwindow.cpp:1471
 msgctxt "@action:inmenu"
 msgid "Activate Previous Tab"
 msgstr "Aktiwùjë zôstną kartã"
 
-#: dolphinmainwindow.cpp:1422
+#: dolphinmainwindow.cpp:1478
 msgctxt "@action:inmenu"
 msgid "Open in New Tab"
 msgstr "Òtemkni w nowi kôrce"
 
-#: dolphinmainwindow.cpp:1427
+#: dolphinmainwindow.cpp:1483
 msgctxt "@action:inmenu"
 msgid "Open in New Window"
 msgstr "Òtemkni w nowim òknie"
 
-#: dolphinmainwindow.cpp:1437
+#: dolphinmainwindow.cpp:1493
 msgctxt "@action:inmenu"
 msgid "Search Bar"
 msgstr "Listew szëkbë"
 
-#: dolphinmainwindow.cpp:1445 dolphinmainwindow.cpp:1453
+#: dolphinmainwindow.cpp:1501 dolphinmainwindow.cpp:1509
 msgctxt "@title:window"
 msgid "Information"
 msgstr "Wëdowiédzô"
 
-#: dolphinmainwindow.cpp:1468 dolphinmainwindow.cpp:1475
+#: dolphinmainwindow.cpp:1524 dolphinmainwindow.cpp:1531
 msgctxt "@title:window"
 msgid "Folders"
 msgstr "Katalodżi"
 
-#: dolphinmainwindow.cpp:1489 dolphinmainwindow.cpp:1498
+#: dolphinmainwindow.cpp:1545 dolphinmainwindow.cpp:1554
 msgctxt "@title:window Shell terminal"
 msgid "Terminal"
 msgstr "Terminal"
 
-#: dolphinmainwindow.cpp:1518 dolphinmainwindow.cpp:1528
+#: dolphinmainwindow.cpp:1574 dolphinmainwindow.cpp:1584
 msgctxt "@title:window"
 msgid "Places"
 msgstr "Place"
 
-#: dolphinmainwindow.cpp:1661
+#: dolphinmainwindow.cpp:1723
 msgctxt "@action:intoolbar Close right view"
 msgid "Close"
 msgstr "Zamkni"
 
-#: dolphinmainwindow.cpp:1662
+#: dolphinmainwindow.cpp:1724
 msgctxt "@info"
 msgid "Close right view"
 msgstr "Zamkni prawi wëzdrzatk"
 
-#: dolphinmainwindow.cpp:1665
+#: dolphinmainwindow.cpp:1727
 msgctxt "@action:intoolbar Close left view"
 msgid "Close"
 msgstr "Zamkni"
 
-#: dolphinmainwindow.cpp:1666
+#: dolphinmainwindow.cpp:1728
 msgctxt "@info"
 msgid "Close left view"
 msgstr "Zamkni lewi wëzdrzatk"
 
-#: dolphinmainwindow.cpp:1670
+#: dolphinmainwindow.cpp:1732
 msgctxt "@action:intoolbar Split view"
 msgid "Split"
 msgstr "Rozdzélë"
 
-#: dolphinmainwindow.cpp:1671
+#: dolphinmainwindow.cpp:1733
 msgctxt "@info"
 msgid "Split view"
 msgstr "Rozdzélë wëzdrzatk"
@@ -1702,92 +1710,82 @@ msgctxt "@label:textbox"
 msgid "Search..."
 msgstr "Szëkba..."
 
-#: search/dolphinsearchoptionsconfigurator.cpp:61
+#: search/dolphinsearchoptionsconfigurator.cpp:62
 msgctxt "@label"
 msgid "Everywhere"
 msgstr "Wszãdze"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:62
+#: search/dolphinsearchoptionsconfigurator.cpp:63
 msgctxt "@label"
 msgid "From Here"
 msgstr "Òd tądka"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:68
+#: search/dolphinsearchoptionsconfigurator.cpp:69
 msgctxt "@label"
 msgid "All"
 msgstr "Wszëtkò"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:69
+#: search/dolphinsearchoptionsconfigurator.cpp:70
 msgctxt "@label"
 msgid "Images"
 msgstr "Òbrôzczi"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:70
+#: search/dolphinsearchoptionsconfigurator.cpp:71
 msgctxt "@label"
 msgid "Text"
 msgstr "Tekst"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:71
+#: search/dolphinsearchoptionsconfigurator.cpp:72
 msgctxt "@label"
 msgid "Filenames"
 msgstr "Miona lopków"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:105
+#: search/dolphinsearchoptionsconfigurator.cpp:106
 msgctxt "@label"
 msgid "Search:"
 msgstr "Szëkba:"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:113
+#: search/dolphinsearchoptionsconfigurator.cpp:114
 msgctxt "@label"
 msgid "What:"
 msgstr "Za:"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:124
+#: search/dolphinsearchoptionsconfigurator.cpp:125
 msgctxt "@info"
 msgid "Add search option"
 msgstr "Dodôj òptacëjã szëkbë"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:131
+#: search/dolphinsearchoptionsconfigurator.cpp:132
 msgctxt "@action:button"
 msgid "Search"
 msgstr "Szëkba"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:132
+#: search/dolphinsearchoptionsconfigurator.cpp:133
 msgctxt "@info"
 msgid "Start searching"
 msgstr "Startëjë szëkbã"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:139
-#: search/dolphinsearchoptionsconfigurator.cpp:297
+#: search/dolphinsearchoptionsconfigurator.cpp:140
+#: search/searchoptiondialogbox.cpp:46
 msgctxt "@action:button"
 msgid "Save"
 msgstr "Zapiszë"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:140
+#: search/dolphinsearchoptionsconfigurator.cpp:141
 msgctxt "@info"
 msgid "Save search options"
 msgstr "Zapiszë òptacëje szëkbë"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:147
+#: search/dolphinsearchoptionsconfigurator.cpp:148
 #: statusbar/statusbarmessagelabel.cpp:50
 msgctxt "@action:button"
 msgid "Close"
 msgstr "Zamkni"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:148
+#: search/dolphinsearchoptionsconfigurator.cpp:149
 msgctxt "@info"
 msgid "Close search options"
 msgstr "Zamkni òptacëje szëkbë"
-
-#: search/dolphinsearchoptionsconfigurator.cpp:285
-msgctxt "@label"
-msgid "Name:"
-msgstr "Miono:"
-
-#: search/dolphinsearchoptionsconfigurator.cpp:294
-msgctxt "@title:window"
-msgid "Save Search Options"
-msgstr "Zapiszë òptacëje szëkbë"
 
 #: search/searchcriterionselector.cpp:65
 msgctxt "@info"
@@ -1898,6 +1896,16 @@ msgstr "MBajtë"
 msgctxt "@label"
 msgid "GByte"
 msgstr "GBajtë"
+
+#: search/searchoptiondialogbox.cpp:32
+msgctxt "@label"
+msgid "Name:"
+msgstr "Miono:"
+
+#: search/searchoptiondialogbox.cpp:43
+msgctxt "@title:window"
+msgid "Save Search Options"
+msgstr "Zapiszë òptacëje szëkbë"
 
 #: selectiontoggle.cpp:128
 msgctxt "@info:tooltip"
@@ -2401,8 +2409,11 @@ msgid "Current folder"
 msgstr "Biéżny katalog"
 
 #: settings/viewpropertiesdialog.cpp:185
+#, fuzzy
+#| msgctxt "@option:radio Apply View Properties To"
+#| msgid "Current folder including all sub folders"
 msgctxt "@option:radio Apply View Properties To"
-msgid "Current folder including all sub folders"
+msgid "Current folder including all sub-folders"
 msgstr "Biéżny katalog włączô wszëtczé pòdkatalodżi"
 
 #: settings/viewpropertiesdialog.cpp:187
@@ -2416,9 +2427,14 @@ msgid "Use as default for new folders"
 msgstr "Ùżëjë jakno domëslné dlô nowych katalogów"
 
 #: settings/viewpropertiesdialog.cpp:337
+#, fuzzy
+#| msgctxt "@info"
+#| msgid ""
+#| "The view properties of all sub folders will be changed. Do you want to "
+#| "continue?"
 msgctxt "@info"
 msgid ""
-"The view properties of all sub folders will be changed. Do you want to "
+"The view properties of all sub-folders will be changed. Do you want to "
 "continue?"
 msgstr ""
 "Swòjiznë wëzdrzatkù wszëtczich pòdkatalogów òstaną zmienioné. Chcesz "
