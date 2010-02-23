@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-21 06:07+0000\n"
+"POT-Creation-Date: 2010-02-23 06:25+0000\n"
 "PO-Revision-Date: 2009-12-13 21:28+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -2292,8 +2292,8 @@ msgstr "Wstãpny wladënk Konquerora przë zrëszaniu KDE"
 
 #: apps/konqueror/preloader/konqy_preloader.desktop:3
 msgctxt "Name"
-msgid "KDED Konqueror Preloader Module"
-msgstr "Mòduł wstãpnegò wladënkù Konquerora"
+msgid "Browser Preloader"
+msgstr ""
 
 #: apps/konqueror/preloader/konqy_preloader.desktop:87
 msgctxt "Comment"
@@ -2927,15 +2927,15 @@ msgid "Bookmark Toolbar"
 msgstr "Lëstew załóżków"
 
 #: apps/lib/konq/favicons/favicons.desktop:3
+#: workspace/plasma/generic/dataengines/favicons/plasma-dataengine-favicons.desktop:3
 msgctxt "Name"
-msgid "KDED Favicon Module"
-msgstr "Ikònczi serwerów"
+msgid "Favicons"
+msgstr "Faviconë (ikònczi)"
 
 #: apps/lib/konq/favicons/favicons.desktop:91
-#: runtime/platforms/win/kwinstartmenu/winstartmenu.desktop:76
 msgctxt "Comment"
-msgid "Shortcut icon support"
-msgstr "Òbsłużënk ikònów serwerów"
+msgid "Stores website icons"
+msgstr ""
 
 #: apps/lib/konq/konqdndpopupmenuplugin.desktop:4
 msgctxt "Comment"
@@ -3621,9 +3621,17 @@ msgid "Configure the CGI KIO slave"
 msgstr "Kònfigùracëjô procedurë òbsłużënkù CGI"
 
 #: runtime/kioslave/desktop/desktopnotifier.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Network Watcher"
 msgctxt "Name"
-msgid "KDED Desktop Folder Notifier"
-msgstr "Dôwanié wiédzë ò dzéjaniach na pùlce KDED"
+msgid "Directory Watcher"
+msgstr "Dozérôcz sécë"
+
+#: runtime/kioslave/desktop/desktopnotifier.desktop:84
+msgctxt "Comment"
+msgid "Monitors directories for changes"
+msgstr ""
 
 #: runtime/kioslave/desktop/directory.trash:3
 #: runtime/kioslave/trash/kcmtrash.desktop:1
@@ -3670,9 +3678,17 @@ msgid ""
 msgstr "Dozérô sécë ë aktualizëje wëskrzënianié katalogów sécë:/ protocol"
 
 #: runtime/kioslave/remote/kdedmodule/remotedirnotify.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDED Remote Base URL Notifier"
 msgctxt "Name"
-msgid "KDED Remote Base URL Notifier"
+msgid "Remote URL Change Notifier"
 msgstr "Dôwanié wiédzë ò daleczich URL-ach dlô KDED"
+
+#: runtime/kioslave/remote/kdedmodule/remotedirnotify.desktop:80
+msgctxt "Comment"
+msgid "Provides change notification to the remote:/ ioslave"
+msgstr ""
 
 #: runtime/kioslave/sftp/sftp.protocol:15
 msgctxt "Description"
@@ -3969,13 +3985,19 @@ msgid "KDE Notification Daemon"
 msgstr "Ùsłëżnota dôwanié wiédzë KDE"
 
 #: runtime/kpasswdserver/kpasswdserver.desktop:3
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Password caching support"
 msgctxt "Name"
-msgid "KDED Password Module"
-msgstr "Mòduł parolów KDED"
+msgid "Password Caching"
+msgstr "Wspiarcé pòdrãczny pamiãcë dlô parolów"
 
 #: runtime/kpasswdserver/kpasswdserver.desktop:82
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Password caching support"
 msgctxt "Comment"
-msgid "Password caching support"
+msgid "Temporary password caching"
 msgstr "Wspiarcé pòdrãczny pamiãcë dlô parolów"
 
 #: runtime/kstyles/highcontrast/highcontrast.themerc:2
@@ -4203,14 +4225,17 @@ msgid "Web widget style"
 msgstr "Sztél blësczi bedënk do sécë"
 
 #: runtime/ktimezoned/ktimezoned.desktop:10
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDE Time Zone Daemon"
 msgctxt "Name"
-msgid "KDE Time Zone Daemon"
+msgid "Time Zone"
 msgstr "Ùsłëżnota czasowi conë KDE"
 
 #: runtime/ktimezoned/ktimezoned.desktop:90
 msgctxt "Comment"
-msgid "Time zone daemon for KDE"
-msgstr "Ùsłëżnota czasowi conë KDE"
+msgid "Holds the configured time zone for the desktop"
+msgstr ""
 
 #: runtime/kuiserver/kuiserver.desktop:3
 msgctxt "Name"
@@ -8080,15 +8105,17 @@ msgid "Xine Backend Configuration"
 msgstr "Kònfigùracëjô czérownika Xine"
 
 #: runtime/phonon/kded-module/phononserver.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Sound Policy Server"
 msgctxt "Name"
-msgid "Sound Policy Server"
+msgid "Sound Policy"
 msgstr "Ùsłëżnota nastôwù zwãkù"
 
 #: runtime/phonon/kded-module/phononserver.desktop:78
 msgctxt "Comment"
-msgid "A server to centralize decisions and data of applications using Phonon"
+msgid "Provides sound system policy to applications"
 msgstr ""
-"Ùsłëżnota do centralnegò òdkłôdaniô pòdôwków aplikacrjów brëkùjących Phonon"
 
 #: runtime/phonon/platform_kde/phononbackend.desktop:4
 msgctxt "Name"
@@ -8163,6 +8190,11 @@ msgctxt "Name"
 msgid "KDED Windows Start Menu Module"
 msgstr "Mòdule sztartowégò menu òknów KDED"
 
+#: runtime/platforms/win/kwinstartmenu/winstartmenu.desktop:76
+msgctxt "Comment"
+msgid "Shortcut icon support"
+msgstr "Òbsłużënk ikònów serwerów"
+
 #: runtime/renamedlgplugins/audio/renaudiodlg.desktop:3
 msgctxt "Name"
 msgid "Audio Preview"
@@ -8174,14 +8206,20 @@ msgid "Image Displayer"
 msgstr "Przezérnik òbrôzków"
 
 #: runtime/solidautoeject/solidautoeject.desktop:7
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Driver"
 msgctxt "Name"
-msgid "Solid Auto-eject service"
-msgstr "Ùsłëżnota aùtomatnegò wësëwaniô Solid"
+msgid "Drive Ejector"
+msgstr "Czérownik"
 
 #: runtime/solidautoeject/solidautoeject.desktop:62
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid ""
+#| "Allows to automatically release drives when their eject button is pushed"
 msgctxt "Comment"
-msgid ""
-"Allows to automatically release drives when their eject button is pushed"
+msgid "Automatically releases drives when their eject button is pushed"
 msgstr "Zezwôlô na aùtomatné ùwòlnienié nëków przë wcësniãcô knąpë wësëwaniô"
 
 #: runtime/solid-device-automounter/kcm/device_automounter_kcm.desktop:11
@@ -8200,21 +8238,26 @@ msgid "Removable Device Automounter"
 msgstr "Aùtomatné dodôwanié przenosnych mediów"
 
 #: runtime/solid-device-automounter/kded/device_automounter.desktop:55
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Automatically mounts devices when they are plugged in, or at login"
 msgctxt "Comment"
-msgid "Automatically mounts devices when they are plugged in, or at login"
+msgid "Automatically mounts devices as needed"
 msgstr ""
 "Dodôwô aùtomatno przenosné media przë wlogòwaniu abò przë jich wëtkniãcu"
 
 #: runtime/soliduiserver/soliduiserver.desktop:8
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Show hardware info"
 msgctxt "Name"
-msgid "Solid User Interface Server"
-msgstr "Solid - serwer interfejsu brëkòwnika"
+msgid "Hardware Detection"
+msgstr "Wëskrzëniô wëdowiédzã ò hardwôrze"
 
 #: runtime/soliduiserver/soliduiserver.desktop:82
 msgctxt "Comment"
-msgid "A User Interface server for Solid, the hardware detection system"
+msgid "Provides a user interface for hardware events"
 msgstr ""
-"Ùsłëżnota interfejsu brëkòwnika dlô Solid, systemë rozpòznôwaniô hardwôrë "
 
 #: workspace/kcontrol/access/kaccess.desktop:3
 msgctxt "Name"
@@ -8666,8 +8709,13 @@ msgstr "Panel apletu do zmianë miarë ë pòłóżenia ekranów X"
 
 #: workspace/kcontrol/randr/module/randrmonitor.desktop:2
 msgctxt "Name"
-msgid "Detecting RANDR (monitor) changes"
-msgstr "Rozpòznôwanié zmianów RANDR (mònitór)"
+msgid "Display Management change monitor"
+msgstr ""
+
+#: workspace/kcontrol/randr/module/randrmonitor.desktop:47
+msgctxt "Comment"
+msgid "Is this required when kephal has its own kded module?"
+msgstr ""
 
 #: workspace/kcontrol/randr/randr.desktop:14
 msgctxt "Name"
@@ -9275,14 +9323,16 @@ msgid "Oxygen Theme"
 msgstr "Wëzdrzatk Lëft"
 
 #: workspace/khotkeys/app/khotkeys.desktop:3
+#: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:12
+#: workspace/khotkeys/kcm_hotkeys/settings-input-actions.desktop:8
 msgctxt "Name"
-msgid "KHotKeys"
-msgstr "Skrodzënë ë gestë"
+msgid "Input Actions"
+msgstr "Klawiszowé dzéjania"
 
 #: workspace/khotkeys/app/khotkeys.desktop:88
 msgctxt "Comment"
-msgid "KHotKeys daemon. No daemon, no hotkeys."
-msgstr "Ùsłëżnota skrodzënów ë gestów. Bez ni felëją klawiszowé skrodzënë."
+msgid "Input Actions service performing configured actions on key presses"
+msgstr ""
 
 #: workspace/khotkeys/data/defaults.khotkeys:5
 #: workspace/khotkeys/data/defaults.khotkeys:141
@@ -9734,12 +9784,6 @@ msgstr "Zrëszô KSnapShot, jeżlë je wcësniãté „Drëkùjë ekran“."
 msgctxt "Name"
 msgid "PrintScreen"
 msgstr "Drëkùjë ekran"
-
-#: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:12
-#: workspace/khotkeys/kcm_hotkeys/settings-input-actions.desktop:8
-msgctxt "Name"
-msgid "Input Actions"
-msgstr "Klawiszowé dzéjania"
 
 #: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:95
 msgctxt "Comment"
@@ -11341,7 +11385,6 @@ msgid "Some effects are not supported by backend or hardware."
 msgstr ""
 
 #: workspace/kwrited/kwrited-autostart.desktop:2
-#: workspace/kwrited/kwrited.desktop:2
 msgctxt "Name"
 msgid "KDE Write Daemon"
 msgstr "Demóna zôpisu KDE"
@@ -11352,6 +11395,14 @@ msgctxt "Comment"
 msgid "Watch for messages from local users sent with write(1) or wall(1)"
 msgstr ""
 "Dozérô wiadłów òd môlowëch brëkòwników wësłónëch przez write(1) abò wall(1)"
+
+#: workspace/kwrited/kwrited.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDE Write Daemon"
+msgctxt "Name"
+msgid "Write Daemon"
+msgstr "Demóna zôpisu KDE"
 
 #: workspace/kwrited/kwrited.notifyrc:3
 msgctxt "Comment"
@@ -11369,8 +11420,16 @@ msgid "The daemon received a new message sent with wall(1) or write(1)"
 msgstr ""
 
 #: workspace/libs/kephal/kded_kephal/kephal.desktop:10
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "File Management"
 msgctxt "Name"
-msgid "KDED-module for screen-management"
+msgid "Display Management"
+msgstr "Sprôwianié lopkama"
+
+#: workspace/libs/kephal/kded_kephal/kephal.desktop:75
+msgctxt "Comment"
+msgid "Manages displays and video outputs"
 msgstr ""
 
 #: workspace/libs/ksysguard/processcore/actions.actions:2
@@ -11806,15 +11865,16 @@ msgstr ""
 "Dôwô mòżnotã taceniô ë minimalizowaniô aplikacëjów do systemòwégò zabiérnika"
 
 #: workspace/plasma/generic/applets/systemtray/statusnotifierwatcher/statusnotifierwatcher.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDED Status Notifier watcher"
 msgctxt "Name"
-msgid "KDED Status Notifier watcher"
+msgid "Status Notifier Manager"
 msgstr "Ùsłëżnota dôwaniô wiédzë dozérôcza KDE"
 
 #: workspace/plasma/generic/applets/systemtray/statusnotifierwatcher/statusnotifierwatcher.desktop:51
 msgctxt "Comment"
-msgid ""
-"Keep track of applications that want to use the D-Bus based status notifier "
-"protocol."
+msgid "Manages services that provide status notifier user interfaces"
 msgstr ""
 
 #: workspace/plasma/generic/applets/webbrowser/plasma-applet-webbrowser.desktop:3
@@ -11952,11 +12012,6 @@ msgstr "Zrëszanié pòlétów"
 msgctxt "Comment"
 msgid "Run Executable Data Engine"
 msgstr "Zrëszanié wëkònëwólnëgò mòtóra pòdôwków"
-
-#: workspace/plasma/generic/dataengines/favicons/plasma-dataengine-favicons.desktop:3
-msgctxt "Name"
-msgid "Favicons"
-msgstr "Faviconë (ikònczi)"
 
 #: workspace/plasma/generic/dataengines/favicons/plasma-dataengine-favicons.desktop:73
 msgctxt "Comment"
@@ -12250,7 +12305,6 @@ msgid "Basic Power Management Operations"
 msgstr "Spòdlowé òperacejë sprôwiania mòcą"
 
 #: workspace/plasma/generic/runners/powerdevil/plasma-runner-powerdevil.desktop:70
-#: workspace/powerdevil/daemon/powerdevil.desktop:11
 msgctxt "Name"
 msgid "PowerDevil"
 msgstr ""
@@ -12654,16 +12708,17 @@ msgctxt "Comment"
 msgid "Set up policies for applications using PolicyKit"
 msgstr ""
 
-#: workspace/powerdevil/daemon/powerdevil.desktop:80
-msgctxt "Comment"
-msgid "A Laptop Power Management Daemon"
-msgstr "Ùsłëżnota  sprôwianiô mòcą laptopów"
-
+#: workspace/powerdevil/daemon/powerdevil.desktop:11
 #: workspace/powerdevil/kcmodule/powerdevilconfig.desktop:13
 #: workspace/powerdevil/powerdevil.notifyrc:2
 msgctxt "Name"
 msgid "Power Management"
 msgstr "Sprôwianié mòcą"
+
+#: workspace/powerdevil/daemon/powerdevil.desktop:80
+msgctxt "Comment"
+msgid "Battery, Display and CPU power management and notification"
+msgstr ""
 
 #: workspace/powerdevil/kcmodule/powerdevilconfig.desktop:85
 msgctxt "Comment"
@@ -12841,9 +12896,12 @@ msgid "Linux Infrared Remote Control"
 msgstr ""
 
 #: workspace/solid/networking/kded/networkstatus.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Network Settings"
 msgctxt "Name"
-msgid "Network Status Daemon"
-msgstr ""
+msgid "Network Status"
+msgstr "Sécowi nastôw"
 
 #: workspace/solid/networking/kded/networkstatus.desktop:75
 msgctxt "Comment"
@@ -13416,6 +13474,62 @@ msgstr ""
 msgctxt "Name"
 msgid "The Rings of Saturn"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "KDED Konqueror Preloader Module"
+#~ msgstr "Mòduł wstãpnegò wladënkù Konquerora"
+
+#~ msgctxt "Name"
+#~ msgid "KDED Favicon Module"
+#~ msgstr "Ikònczi serwerów"
+
+#~ msgctxt "Name"
+#~ msgid "KDED Desktop Folder Notifier"
+#~ msgstr "Dôwanié wiédzë ò dzéjaniach na pùlce KDED"
+
+#~ msgctxt "Name"
+#~ msgid "KDED Password Module"
+#~ msgstr "Mòduł parolów KDED"
+
+#~ msgctxt "Comment"
+#~ msgid "Time zone daemon for KDE"
+#~ msgstr "Ùsłëżnota czasowi conë KDE"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "A server to centralize decisions and data of applications using Phonon"
+#~ msgstr ""
+#~ "Ùsłëżnota do centralnegò òdkłôdaniô pòdôwków aplikacrjów brëkùjących "
+#~ "Phonon"
+
+#~ msgctxt "Name"
+#~ msgid "Solid Auto-eject service"
+#~ msgstr "Ùsłëżnota aùtomatnegò wësëwaniô Solid"
+
+#~ msgctxt "Name"
+#~ msgid "Solid User Interface Server"
+#~ msgstr "Solid - serwer interfejsu brëkòwnika"
+
+#~ msgctxt "Comment"
+#~ msgid "A User Interface server for Solid, the hardware detection system"
+#~ msgstr ""
+#~ "Ùsłëżnota interfejsu brëkòwnika dlô Solid, systemë rozpòznôwaniô hardwôrë "
+
+#~ msgctxt "Name"
+#~ msgid "Detecting RANDR (monitor) changes"
+#~ msgstr "Rozpòznôwanié zmianów RANDR (mònitór)"
+
+#~ msgctxt "Name"
+#~ msgid "KHotKeys"
+#~ msgstr "Skrodzënë ë gestë"
+
+#~ msgctxt "Comment"
+#~ msgid "KHotKeys daemon. No daemon, no hotkeys."
+#~ msgstr "Ùsłëżnota skrodzënów ë gestów. Bez ni felëją klawiszowé skrodzënë."
+
+#~ msgctxt "Comment"
+#~ msgid "A Laptop Power Management Daemon"
+#~ msgstr "Ùsłëżnota  sprôwianiô mòcą laptopów"
 
 #~ msgctxt "Name"
 #~ msgid "Sound"
