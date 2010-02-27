@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-15 01:24+0100\n"
+"POT-Creation-Date: 2010-02-26 20:27+0100\n"
 "PO-Revision-Date: 2009-12-16 20:48+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -20,29 +20,10 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2)\n"
 "X-Generator: Lokalize 1.0\n"
 
-#: interfaces/default/interface.cpp:80 interfaces/default/interface.cpp:81
 #: interfaces/quicksand/qs_dialog.cpp:53 interfaces/quicksand/qs_dialog.cpp:54
+#: interfaces/default/interface.cpp:80 interfaces/default/interface.cpp:81
 msgid "Settings"
 msgstr "Nastôwë"
-
-#: interfaces/default/interface.cpp:115
-msgid "Help"
-msgstr "Pòmòc"
-
-#: interfaces/default/interface.cpp:116
-msgid "Information on using this application"
-msgstr "Wëdowiédzô przë brëkòwaniu ti aplikacëji"
-
-#: interfaces/default/interface.cpp:255
-#, kde-format
-msgctxt "tooltip, shortcut"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: interfaces/default/interface.cpp:440
-#, kde-format
-msgid "(From %1, %2)"
-msgstr "(Òd %1, %2)"
 
 #: interfaces/quicksand/qs_dialog.cpp:86
 msgid "Actions"
@@ -82,72 +63,24 @@ msgctxt "%1 current item number, %2 total number of items"
 msgid "%1 of %2"
 msgstr "%1 z %2"
 
-#: lock/autologout.cc:38
-msgid "<qt><nobr><b>Automatic Log Out</b></nobr></qt>"
-msgstr "<qt><nobr><b>Aùtomatné wëlogòwanié</b></nobr></qt>"
+#: interfaces/default/interface.cpp:115
+msgid "Help"
+msgstr "Pòmòc"
 
-#: lock/autologout.cc:39
-msgid ""
-"<qt>To prevent being logged out, resume using this session by moving the "
-"mouse or pressing a key.</qt>"
-msgstr ""
-"<qt>Abë zascëgnąc wëlogòwaniu, znowi nã sesëjã rëszając mëszã abò wcëskając "
-"klawiszã.</qt>"
+#: interfaces/default/interface.cpp:116
+msgid "Information on using this application"
+msgstr "Wëdowiédzô przë brëkòwaniu ti aplikacëji"
 
-#: lock/autologout.cc:44
-msgid "Time Remaining:"
-msgstr "Òstałi czas:"
-
-#: lock/autologout.cc:77
+#: interfaces/default/interface.cpp:255
 #, kde-format
-msgid "<qt><nobr>You will be automatically logged out in 1 second</nobr></qt>"
-msgid_plural ""
-"<qt><nobr>You will be automatically logged out in %1 seconds</nobr></qt>"
-msgstr[0] "<qt><nobr>Bãdzesz aùtomatno wëlogòwóny za 1 sekùndã</nobr></qt>"
-msgstr[1] "<qt><nobr>Bãdzesz aùtomatno wëlogòwóny za %1 sekùndë</nobr></qt>"
-msgstr[2] "<qt><nobr>Bãdzesz aùtomatno wëlogòwóny za %1 sekùndów</nobr></qt>"
+msgctxt "tooltip, shortcut"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
 
-#: lock/main.cc:61
-msgid "KDE Screen Locker"
-msgstr "Blokada ekranu KDE"
-
-#: lock/main.cc:62
-msgid "Session Locker for KDE Workspace"
-msgstr "Blokòwanié sesëji dlô robòcy òbédë KDE"
-
-#: lock/main.cc:65
-msgid "Force session locking"
-msgstr "Wëmùszë zablokòwanié sesëji"
-
-#: lock/main.cc:66
-msgid "Only start screen saver"
-msgstr "Startëjë le wëgaszôcz ekranu"
-
-#: lock/main.cc:67
-msgid "Only use the blank screen saver"
-msgstr "Brëkùjë le pùstégò wëgaszôcza ekranu"
-
-#: lock/main.cc:68
-msgid "start with plasma unlocked for configuring"
-msgstr "startëjë z òdblokòwóną dlô kònfigùracëji plasmã"
-
-#: lock/lockprocess.cc:793
-msgid "Will not lock the session, as unlocking would be impossible:\n"
-msgstr "Nié blokùjë sesëji, jeżlë òdblokòwanié bãdze niemòżebné:\n"
-
-#: lock/lockprocess.cc:797
-msgid "Cannot start <i>kcheckpass</i>."
-msgstr "Nié mòże zrëszëc <i>kcheckpass</i>."
-
-#: lock/lockprocess.cc:798
-msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
-msgstr ""
-"<i>kcheckpass</i> nié mòże dzejac. Mòże bëc, że ni ma ùstôwionégò SetUID "
-"sprôwnika."
-
-#: lock/lockprocess.cc:861
-msgid "No appropriate greeter plugin configured."
-msgstr "Ni mô skònfigùrowónégò wtëkôcza przëwitënkù."
+#: interfaces/default/interface.cpp:440
+#, kde-format
+msgid "(From %1, %2)"
+msgstr "(Òd %1, %2)"
 
 #: lock/lockdlg.cc:100
 msgid "<nobr><b>The session is locked</b></nobr><br />"
@@ -228,6 +161,77 @@ msgstr "&Aktiwùjë"
 msgid "Start &New Session"
 msgstr "Zrëszë &nową sesëjã"
 
+#: lock/autologout.cc:38
+msgid "<qt><nobr><b>Automatic Log Out</b></nobr></qt>"
+msgstr "<qt><nobr><b>Aùtomatné wëlogòwanié</b></nobr></qt>"
+
+#: lock/autologout.cc:39
+msgid ""
+"<qt>To prevent being logged out, resume using this session by moving the "
+"mouse or pressing a key.</qt>"
+msgstr ""
+"<qt>Abë zascëgnąc wëlogòwaniu, znowi nã sesëjã rëszając mëszã abò wcëskając "
+"klawiszã.</qt>"
+
+#: lock/autologout.cc:44
+msgid "Time Remaining:"
+msgstr "Òstałi czas:"
+
+#: lock/autologout.cc:77
+#, kde-format
+msgid "<qt><nobr>You will be automatically logged out in 1 second</nobr></qt>"
+msgid_plural ""
+"<qt><nobr>You will be automatically logged out in %1 seconds</nobr></qt>"
+msgstr[0] "<qt><nobr>Bãdzesz aùtomatno wëlogòwóny za 1 sekùndã</nobr></qt>"
+msgstr[1] "<qt><nobr>Bãdzesz aùtomatno wëlogòwóny za %1 sekùndë</nobr></qt>"
+msgstr[2] "<qt><nobr>Bãdzesz aùtomatno wëlogòwóny za %1 sekùndów</nobr></qt>"
+
+#: lock/main.cc:61
+msgid "KDE Screen Locker"
+msgstr "Blokada ekranu KDE"
+
+#: lock/main.cc:62
+msgid "Session Locker for KDE Workspace"
+msgstr "Blokòwanié sesëji dlô robòcy òbédë KDE"
+
+#: lock/main.cc:65
+msgid "Force session locking"
+msgstr "Wëmùszë zablokòwanié sesëji"
+
+#: lock/main.cc:66
+msgid "Only start screen saver"
+msgstr "Startëjë le wëgaszôcz ekranu"
+
+#: lock/main.cc:67
+msgid "Only use the blank screen saver"
+msgstr "Brëkùjë le pùstégò wëgaszôcza ekranu"
+
+#: lock/main.cc:68
+msgid "start with plasma unlocked for configuring"
+msgstr "startëjë z òdblokòwóną dlô kònfigùracëji plasmã"
+
+#: lock/lockprocess.cc:793
+msgid "Will not lock the session, as unlocking would be impossible:\n"
+msgstr "Nié blokùjë sesëji, jeżlë òdblokòwanié bãdze niemòżebné:\n"
+
+#: lock/lockprocess.cc:797
+msgid "Cannot start <i>kcheckpass</i>."
+msgstr "Nié mòże zrëszëc <i>kcheckpass</i>."
+
+#: lock/lockprocess.cc:798
+msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
+msgstr ""
+"<i>kcheckpass</i> nié mòże dzejac. Mòże bëc, że ni ma ùstôwionégò SetUID "
+"sprôwnika."
+
+#: lock/lockprocess.cc:861
+msgid "No appropriate greeter plugin configured."
+msgstr "Ni mô skònfigùrowónégò wtëkôcza przëwitënkù."
+
+#: ksystemactivitydialog.h:28
+msgid "System Activity"
+msgstr "Systemòwô aktiwnota"
+
 #: krunnerdialog.cpp:67 krunnerapp.cpp:124
 msgid "Run Command"
 msgstr "Zrëszë pòlét"
@@ -251,6 +255,56 @@ msgstr "Aaron J. Seigo"
 #: main.cpp:54
 msgid "Author and maintainer"
 msgstr "Ùsôdzca ë òpiekùn"
+
+#: krunnerapp.cpp:129
+msgid "Run Command on clipboard contents"
+msgstr "Zrëszë pòlét na zamkłoscë tacnika"
+
+#: krunnerapp.cpp:135
+msgid "Show System Activity"
+msgstr "Pòkôżë systemòwą aktiwnotã"
+
+#: krunnerapp.cpp:148
+msgid "Switch User"
+msgstr "Przełączë brëkòwnika"
+
+#: krunnerapp.cpp:158
+msgid "Lock Session"
+msgstr "Zablokùjë sesëjã"
+
+#: krunnerapp.cpp:166
+msgid "Log Out"
+msgstr "Wëlogùjë"
+
+#: krunnerapp.cpp:171
+msgid "Log Out Without Confirmation"
+msgstr "Wëlogùjë bez pòcwierdzeniô"
+
+#: krunnerapp.cpp:176
+msgid "Halt Without Confirmation"
+msgstr "Zatrzëmôj bez pòcwierwdzeniô"
+
+#: krunnerapp.cpp:181
+msgid "Reboot Without Confirmation"
+msgstr "Zrëszë znowa bez pòcwierdzeniô"
+
+#: krunnerapp.cpp:219
+#, kde-format
+msgctxt "Run krunner restricting the search only to runner %1"
+msgid "Run Command (runner \"%1\" only)"
+msgstr "Zrëszë pòlét (blós zrëszôcz \"%1\")"
+
+#: krunnerapp.cpp:397
+msgid ""
+"Could not log out properly.\n"
+"The session manager cannot be contacted. You can try to force a shutdown by "
+"pressing Ctrl+Alt+Backspace; note, however, that your current session will "
+"not be saved with a forced shutdown."
+msgstr ""
+"Ni mòże pòprôwno wëlogòwac.\n"
+"Menadżera sesëji ni mòże bëc pòdłączonô. Mòżesz spróbòwac wëmùszëc zamkniãcé "
+"wcëskając Ctrl+Alt+Backspace. Bôczë, że Twòjô biéżnô sesëja nie mdze "
+"zapisónô pò wëmùszonym zamkniãcu."
 
 #: configdialog.cpp:50
 msgid "Plugins"
@@ -395,60 +449,6 @@ msgstr ""
 "ekranu \n"
 "       rechùją n.p. w tim czasu przëdatné rzeczë przez co je przëdatné "
 "òstawic je włączoné."
-
-#: ksystemactivitydialog.h:28
-msgid "System Activity"
-msgstr "Systemòwô aktiwnota"
-
-#: krunnerapp.cpp:129
-msgid "Run Command on clipboard contents"
-msgstr "Zrëszë pòlét na zamkłoscë tacnika"
-
-#: krunnerapp.cpp:135
-msgid "Show System Activity"
-msgstr "Pòkôżë systemòwą aktiwnotã"
-
-#: krunnerapp.cpp:148
-msgid "Switch User"
-msgstr "Przełączë brëkòwnika"
-
-#: krunnerapp.cpp:158
-msgid "Lock Session"
-msgstr "Zablokùjë sesëjã"
-
-#: krunnerapp.cpp:166
-msgid "Log Out"
-msgstr "Wëlogùjë"
-
-#: krunnerapp.cpp:171
-msgid "Log Out Without Confirmation"
-msgstr "Wëlogùjë bez pòcwierdzeniô"
-
-#: krunnerapp.cpp:176
-msgid "Halt Without Confirmation"
-msgstr "Zatrzëmôj bez pòcwierwdzeniô"
-
-#: krunnerapp.cpp:181
-msgid "Reboot Without Confirmation"
-msgstr "Zrëszë znowa bez pòcwierdzeniô"
-
-#: krunnerapp.cpp:219
-#, kde-format
-msgctxt "Run krunner restricting the search only to runner %1"
-msgid "Run Command (runner \"%1\" only)"
-msgstr "Zrëszë pòlét (blós zrëszôcz \"%1\")"
-
-#: krunnerapp.cpp:397
-msgid ""
-"Could not log out properly.\n"
-"The session manager cannot be contacted. You can try to force a shutdown by "
-"pressing Ctrl+Alt+Backspace; note, however, that your current session will "
-"not be saved with a forced shutdown."
-msgstr ""
-"Ni mòże pòprôwno wëlogòwac.\n"
-"Menadżera sesëji ni mòże bëc pòdłączonô. Mòżesz spróbòwac wëmùszëc zamkniãcé "
-"wcëskając Ctrl+Alt+Backspace. Bôczë, że Twòjô biéżnô sesëja nie mdze "
-"zapisónô pò wëmùszonym zamkniãcu."
 
 #~ msgid "KRunner Settings"
 #~ msgstr "Nastôwë KRunner"
