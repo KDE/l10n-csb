@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-14 06:34+0100\n"
+"POT-Creation-Date: 2010-03-02 04:18+0100\n"
 "PO-Revision-Date: 2009-12-16 20:48+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -20,29 +20,10 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2)\n"
 "X-Generator: Lokalize 1.0\n"
 
-#: interfaces/default/interface.cpp:80 interfaces/default/interface.cpp:81
 #: interfaces/quicksand/qs_dialog.cpp:53 interfaces/quicksand/qs_dialog.cpp:54
+#: interfaces/default/interface.cpp:80 interfaces/default/interface.cpp:81
 msgid "Settings"
 msgstr "Nastôwë"
-
-#: interfaces/default/interface.cpp:115
-msgid "Help"
-msgstr "Pòmòc"
-
-#: interfaces/default/interface.cpp:116
-msgid "Information on using this application"
-msgstr "Wëdowiédzô przë brëkòwaniu ti aplikacëji"
-
-#: interfaces/default/interface.cpp:255
-#, kde-format
-msgctxt "tooltip, shortcut"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: interfaces/default/interface.cpp:440
-#, kde-format
-msgid "(From %1, %2)"
-msgstr "(Òd %1, %2)"
 
 #: interfaces/quicksand/qs_dialog.cpp:86
 msgid "Actions"
@@ -81,6 +62,104 @@ msgstr "Felënk"
 msgctxt "%1 current item number, %2 total number of items"
 msgid "%1 of %2"
 msgstr "%1 z %2"
+
+#: interfaces/default/interface.cpp:115
+msgid "Help"
+msgstr "Pòmòc"
+
+#: interfaces/default/interface.cpp:116
+msgid "Information on using this application"
+msgstr "Wëdowiédzô przë brëkòwaniu ti aplikacëji"
+
+#: interfaces/default/interface.cpp:255
+#, kde-format
+msgctxt "tooltip, shortcut"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: interfaces/default/interface.cpp:440
+#, kde-format
+msgid "(From %1, %2)"
+msgstr "(Òd %1, %2)"
+
+#: lock/lockdlg.cc:100
+msgid "<nobr><b>The session is locked</b></nobr><br />"
+msgstr "<nobr><b>Na sesëjô je zablokòwónô</b></nobr><br />"
+
+#: lock/lockdlg.cc:101
+#, kde-format
+msgid "<nobr><b>The session was locked by %1</b></nobr><br />"
+msgstr "<nobr><b>Na sesëjô òsta zablokòwónô przez %1</b></nobr><br />"
+
+#: lock/lockdlg.cc:114
+msgid "Unl&ock"
+msgstr "Òd&blokùjë"
+
+#: lock/lockdlg.cc:116
+msgid "Sw&itch User..."
+msgstr "&Przełączë brëkòwnika..."
+
+#: lock/lockdlg.cc:184
+msgid "<b>Unlocking failed</b>"
+msgstr "<b>Òdblokòwanié nie darzëło sã</b>"
+
+#: lock/lockdlg.cc:192
+msgid "<b>Warning: Caps Lock on</b>"
+msgstr "<b>Bôczënk: Caps Lock je włączony</b>"
+
+#: lock/lockdlg.cc:429
+#, kde-format
+msgid ""
+"Cannot unlock the session because the authentication system failed to work;\n"
+"you must kill kscreenlocker (pid %1) manually."
+msgstr ""
+"Ni mòżé òdblokòwac sesëji bò felëje systema ùdowierzaniô;\n"
+"je nót rãczno wëłączëc kscreenlocker (pid %1)."
+
+#: lock/lockdlg.cc:518
+msgid "&Start New Session"
+msgstr "&Zrëszë nową sesëjã"
+
+#: lock/lockdlg.cc:526
+#, kde-format
+msgid ""
+"You have chosen to open another desktop session instead of resuming the "
+"current one.\n"
+"The current session will be hidden and a new login screen will be "
+"displayed.\n"
+"An F-key is assigned to each session; F%1 is usually assigned to the first "
+"session, F%2 to the second session and so on. You can switch between "
+"sessions by pressing Ctrl, Alt and the appropriate F-key at the same time. "
+"Additionally, the KDE Panel and Desktop menus have actions for switching "
+"between sessions."
+msgstr ""
+"Môsz wëbróné òtemkniãcé pòstãpny sesëji pùltu w môl dostaniô nazôd biéżny.\n"
+"Biéżnô sesëjô òstanié zataconô a nowi ekran logòwaniô bãdze wëskrzëniony.\n"
+"Fùnkcjowi klawisza je przepisóny dlô kòżdi sesëji: F%1 je zwëkòwò przepisóny "
+"do pierszi sesëji, F%2 do drëdżi ë tak dali. Mòżesz przełączëwac sã midze "
+"sesjama wcëskając Ctrl, Alt ë apartny F-klawisza w tim samym czasu. "
+"Dodôwnie, panel KDE ë menu pùltu mają òptacëje przełączaniô midze sesëjama."
+
+#: lock/lockdlg.cc:539
+msgid "&Do not ask again"
+msgstr "&Nie pëtôj znowa"
+
+#: lock/lockdlg.cc:595
+msgid "Session"
+msgstr "Sesëjô"
+
+#: lock/lockdlg.cc:595
+msgid "Location"
+msgstr "Môl"
+
+#: lock/lockdlg.cc:623
+msgctxt "session"
+msgid "&Activate"
+msgstr "&Aktiwùjë"
+
+#: lock/lockdlg.cc:632
+msgid "Start &New Session"
+msgstr "Zrëszë &nową sesëjã"
 
 #: lock/autologout.cc:38
 msgid "<qt><nobr><b>Automatic Log Out</b></nobr></qt>"
@@ -149,89 +228,6 @@ msgstr ""
 msgid "No appropriate greeter plugin configured."
 msgstr "Ni mô skònfigùrowónégò wtëkôcza przëwitënkù."
 
-#: lock/lockdlg.cc:100
-msgid "<nobr><b>The session is locked</b></nobr><br />"
-msgstr "<nobr><b>Na sesëjô je zablokòwónô</b></nobr><br />"
-
-#: lock/lockdlg.cc:101
-#, kde-format
-msgid "<nobr><b>The session was locked by %1</b></nobr><br />"
-msgstr "<nobr><b>Na sesëjô òsta zablokòwónô przez %1</b></nobr><br />"
-
-#: lock/lockdlg.cc:114
-msgid "Unl&ock"
-msgstr "Òd&blokùjë"
-
-#: lock/lockdlg.cc:116
-msgid "Sw&itch User..."
-msgstr "&Przełączë brëkòwnika..."
-
-#: lock/lockdlg.cc:184
-msgid "<b>Unlocking failed</b>"
-msgstr "<b>Òdblokòwanié nie darzëło sã</b>"
-
-#: lock/lockdlg.cc:192
-msgid "<b>Warning: Caps Lock on</b>"
-msgstr "<b>Bôczënk: Caps Lock je włączony</b>"
-
-#: lock/lockdlg.cc:429
-#, kde-format
-msgid ""
-"Cannot unlock the session because the authentication system failed to work;\n"
-"you must kill kscreenlocker (pid %1) manually."
-msgstr ""
-"Ni mòżé òdblokòwac sesëji bò felëje systema ùdowierzaniô;\n"
-"je nót rãczno wëłączëc kscreenlocker (pid %1)."
-
-#: lock/lockdlg.cc:521
-msgid "&Start New Session"
-msgstr "&Zrëszë nową sesëjã"
-
-#: lock/lockdlg.cc:529
-#, kde-format
-msgid ""
-"You have chosen to open another desktop session instead of resuming the "
-"current one.\n"
-"The current session will be hidden and a new login screen will be "
-"displayed.\n"
-"An F-key is assigned to each session; F%1 is usually assigned to the first "
-"session, F%2 to the second session and so on. You can switch between "
-"sessions by pressing Ctrl, Alt and the appropriate F-key at the same time. "
-"Additionally, the KDE Panel and Desktop menus have actions for switching "
-"between sessions."
-msgstr ""
-"Môsz wëbróné òtemkniãcé pòstãpny sesëji pùltu w môl dostaniô nazôd biéżny.\n"
-"Biéżnô sesëjô òstanié zataconô a nowi ekran logòwaniô bãdze wëskrzëniony.\n"
-"Fùnkcjowi klawisza je przepisóny dlô kòżdi sesëji: F%1 je zwëkòwò przepisóny "
-"do pierszi sesëji, F%2 do drëdżi ë tak dali. Mòżesz przełączëwac sã midze "
-"sesjama wcëskając Ctrl, Alt ë apartny F-klawisza w tim samym czasu. "
-"Dodôwnie, panel KDE ë menu pùltu mają òptacëje przełączaniô midze sesëjama."
-
-#: lock/lockdlg.cc:542
-msgid "&Do not ask again"
-msgstr "&Nie pëtôj znowa"
-
-#: lock/lockdlg.cc:598
-msgid "Session"
-msgstr "Sesëjô"
-
-#: lock/lockdlg.cc:598
-msgid "Location"
-msgstr "Môl"
-
-#: lock/lockdlg.cc:626
-msgctxt "session"
-msgid "&Activate"
-msgstr "&Aktiwùjë"
-
-#: lock/lockdlg.cc:635
-msgid "Start &New Session"
-msgstr "Zrëszë &nową sesëjã"
-
-#: ksystemactivitydialog.cpp:39
-msgid "System Activity"
-msgstr "Systemòwô aktiwnota"
-
 #: krunnerdialog.cpp:67 krunnerapp.cpp:124
 msgid "Run Command"
 msgstr "Zrëszë pòlét"
@@ -256,6 +252,56 @@ msgstr "Aaron J. Seigo"
 msgid "Author and maintainer"
 msgstr "Ùsôdzca ë òpiekùn"
 
+#: krunnerapp.cpp:129
+msgid "Run Command on clipboard contents"
+msgstr "Zrëszë pòlét na zamkłoscë tacnika"
+
+#: krunnerapp.cpp:135
+msgid "Show System Activity"
+msgstr "Pòkôżë systemòwą aktiwnotã"
+
+#: krunnerapp.cpp:148
+msgid "Switch User"
+msgstr "Przełączë brëkòwnika"
+
+#: krunnerapp.cpp:158
+msgid "Lock Session"
+msgstr "Zablokùjë sesëjã"
+
+#: krunnerapp.cpp:166
+msgid "Log Out"
+msgstr "Wëlogùjë"
+
+#: krunnerapp.cpp:171
+msgid "Log Out Without Confirmation"
+msgstr "Wëlogùjë bez pòcwierdzeniô"
+
+#: krunnerapp.cpp:176
+msgid "Halt Without Confirmation"
+msgstr "Zatrzëmôj bez pòcwierwdzeniô"
+
+#: krunnerapp.cpp:181
+msgid "Reboot Without Confirmation"
+msgstr "Zrëszë znowa bez pòcwierdzeniô"
+
+#: krunnerapp.cpp:219
+#, kde-format
+msgctxt "Run krunner restricting the search only to runner %1"
+msgid "Run Command (runner \"%1\" only)"
+msgstr "Zrëszë pòlét (blós zrëszôcz \"%1\")"
+
+#: krunnerapp.cpp:397
+msgid ""
+"Could not log out properly.\n"
+"The session manager cannot be contacted. You can try to force a shutdown by "
+"pressing Ctrl+Alt+Backspace; note, however, that your current session will "
+"not be saved with a forced shutdown."
+msgstr ""
+"Ni mòże pòprôwno wëlogòwac.\n"
+"Menadżera sesëji ni mòże bëc pòdłączonô. Mòżesz spróbòwac wëmùszëc zamkniãcé "
+"wcëskając Ctrl+Alt+Backspace. Bôczë, że Twòjô biéżnô sesëja nie mdze "
+"zapisónô pò wëmùszonym zamkniãcu."
+
 #: configdialog.cpp:50
 msgid "Plugins"
 msgstr "Wtëkôczë"
@@ -267,6 +313,10 @@ msgstr "Interfejs brëkòwnika"
 #: configdialog.cpp:80
 msgid "Available Features"
 msgstr "Przëstãpné dodôwczi"
+
+#: ksystemactivitydialog.cpp:39
+msgid "System Activity"
+msgstr "Systemòwô aktiwnota"
 
 #. i18n: file: interfaceOptions.ui:17
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -399,56 +449,6 @@ msgstr ""
 "ekranu \n"
 "       rechùją n.p. w tim czasu przëdatné rzeczë przez co je przëdatné "
 "òstawic je włączoné."
-
-#: krunnerapp.cpp:129
-msgid "Run Command on clipboard contents"
-msgstr "Zrëszë pòlét na zamkłoscë tacnika"
-
-#: krunnerapp.cpp:135
-msgid "Show System Activity"
-msgstr "Pòkôżë systemòwą aktiwnotã"
-
-#: krunnerapp.cpp:148
-msgid "Switch User"
-msgstr "Przełączë brëkòwnika"
-
-#: krunnerapp.cpp:158
-msgid "Lock Session"
-msgstr "Zablokùjë sesëjã"
-
-#: krunnerapp.cpp:166
-msgid "Log Out"
-msgstr "Wëlogùjë"
-
-#: krunnerapp.cpp:171
-msgid "Log Out Without Confirmation"
-msgstr "Wëlogùjë bez pòcwierdzeniô"
-
-#: krunnerapp.cpp:176
-msgid "Halt Without Confirmation"
-msgstr "Zatrzëmôj bez pòcwierwdzeniô"
-
-#: krunnerapp.cpp:181
-msgid "Reboot Without Confirmation"
-msgstr "Zrëszë znowa bez pòcwierdzeniô"
-
-#: krunnerapp.cpp:219
-#, kde-format
-msgctxt "Run krunner restricting the search only to runner %1"
-msgid "Run Command (runner \"%1\" only)"
-msgstr "Zrëszë pòlét (blós zrëszôcz \"%1\")"
-
-#: krunnerapp.cpp:397
-msgid ""
-"Could not log out properly.\n"
-"The session manager cannot be contacted. You can try to force a shutdown by "
-"pressing Ctrl+Alt+Backspace; note, however, that your current session will "
-"not be saved with a forced shutdown."
-msgstr ""
-"Ni mòże pòprôwno wëlogòwac.\n"
-"Menadżera sesëji ni mòże bëc pòdłączonô. Mòżesz spróbòwac wëmùszëc zamkniãcé "
-"wcëskając Ctrl+Alt+Backspace. Bôczë, że Twòjô biéżnô sesëja nie mdze "
-"zapisónô pò wëmùszonym zamkniãcu."
 
 #~ msgid "KRunner Settings"
 #~ msgstr "Nastôwë KRunner"
