@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_devicenotifier\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-09 04:12+0100\n"
+"POT-Creation-Date: 2010-03-10 04:49+0100\n"
 "PO-Revision-Date: 2009-12-14 23:19+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -68,15 +68,20 @@ msgid "Last plugged in device: %1"
 msgstr "Slédno dodóné ùrządzenié: %1"
 
 #: devicenotifier.cpp:377
-msgctxt "General options page"
-msgid "General"
-msgstr "Òglowò"
+#, fuzzy
+#| msgid "Display:"
+msgid "Display"
+msgstr "Wëskrzëni:"
 
-#: notifierdialog.cpp:66
+#: devicenotifier.cpp:380
+msgid "Automounting"
+msgstr ""
+
+#: notifierdialog.cpp:67
 msgid "Show hidden devices"
 msgstr "Wëskrzëni zataconé ùrządzenia"
 
-#: notifierdialog.cpp:518
+#: notifierdialog.cpp:519
 msgid ""
 "Could not unmount the device.\n"
 "One or more files on this device are open within an application."
@@ -84,7 +89,7 @@ msgstr ""
 "Nié mòże òdmòntowac ùrządzenia.\n"
 "Jeden abò wicy lopków na tim ùrządzeniô je òtemkłé w aplikacëji."
 
-#: notifierdialog.cpp:537
+#: notifierdialog.cpp:538
 msgid ""
 "Cannot eject the disc.\n"
 "One or more files on this disc are open within an application."
@@ -92,49 +97,47 @@ msgstr ""
 "Nié mòże wësënąc diskù.\n"
 "Jeden abò wicy lopków na tim diskù je òtemkłi w aplikacëji."
 
-#: notifierdialog.cpp:552
+#: notifierdialog.cpp:553
 msgid "Cannot mount the disc."
 msgstr "Nié mòże zamòntowac diskù."
 
-#: notifierdialog.cpp:761
+#: notifierdialog.cpp:762
 #, kde-format
 msgctxt "Hide a device"
 msgid "Hide %1"
 msgstr "Zatacë %1"
 
-#: notifierdialog.cpp:825
+#: notifierdialog.cpp:826
 #, fuzzy
 #| msgid "All devices"
 msgid "Available Devices"
 msgstr "Wszëtczé ùrządzenia"
 
-#: notifierdialog.cpp:827
+#: notifierdialog.cpp:828
 msgid "No Devices Available"
 msgstr ""
 
-#. i18n: file: configurationpage.ui:23
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:3 rc.cpp:15
-msgid "Display:"
-msgstr "Wëskrzëni:"
-
-#. i18n: file: configurationpage.ui:37
-#. i18n: ectx: property (text), item, widget (KComboBox, showDevices)
-#: rc.cpp:6 rc.cpp:18
+#. i18n: file: configurationpage.ui:17
+#. i18n: ectx: property (text), widget (QRadioButton, removableDevices)
+#: rc.cpp:3 rc.cpp:12
 msgid "Removable devices only"
 msgstr "Blós przenosné ùrządzenia"
 
-#. i18n: file: configurationpage.ui:42
-#. i18n: ectx: property (text), item, widget (KComboBox, showDevices)
-#: rc.cpp:9 rc.cpp:21
+#. i18n: file: configurationpage.ui:24
+#. i18n: ectx: property (text), widget (QRadioButton, nonRemovableDevices)
+#: rc.cpp:6 rc.cpp:15
 msgid "Non-removable devices only"
 msgstr "Blós nieprzenosné ùrządzenia"
 
-#. i18n: file: configurationpage.ui:47
-#. i18n: ectx: property (text), item, widget (KComboBox, showDevices)
-#: rc.cpp:12 rc.cpp:24
+#. i18n: file: configurationpage.ui:44
+#. i18n: ectx: property (text), widget (QRadioButton, allDevices)
+#: rc.cpp:9 rc.cpp:18
 msgid "All devices"
 msgstr "Wszëtczé ùrządzenia"
+
+#~ msgctxt "General options page"
+#~ msgid "General"
+#~ msgstr "Òglowò"
 
 #~ msgid "No devices plugged in."
 #~ msgstr "Felëją dodóné ùrządzenia."
