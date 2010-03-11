@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-10 04:04+0000\n"
+"POT-Creation-Date: 2010-03-11 03:28+0000\n"
 "PO-Revision-Date: 2009-12-13 21:28+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -2244,7 +2244,7 @@ msgctxt "Name"
 msgid "Bookmark Editor"
 msgstr "Lëstew załóżków"
 
-#: apps/keditbookmarks/keditbookmarks.desktop:12
+#: apps/keditbookmarks/keditbookmarks.desktop:15
 msgctxt "Comment"
 msgid "Bookmark Organizer and Editor"
 msgstr ""
@@ -2311,7 +2311,7 @@ msgctxt "Name"
 msgid "Konqueror Browser Preloader"
 msgstr "Mòduł wstãpnegò wladënkù Konquerora"
 
-#: apps/konqueror/preloader/konqy_preloader.desktop:13
+#: apps/konqueror/preloader/konqy_preloader.desktop:15
 msgctxt "Comment"
 msgid "Reduces Konqueror startup time"
 msgstr "Zmiészô czas zrëszaniô Konquerora"
@@ -2739,6 +2739,21 @@ msgctxt "Comment"
 msgid "This folder contains your personal files"
 msgstr "Nen katalog zamëkô w se wszëtczé twòje priwatné lopczi"
 
+#: apps/konqueror/sidebar/default_entries/places.desktop:4
+#: workspace/plasma/generic/dataengines/places/plasma-dataengine-places.desktop:2
+#: workspace/plasma/generic/runners/places/plasma-runner-places.desktop:2
+msgctxt "Name"
+msgid "Places"
+msgstr "Place"
+
+#: apps/konqueror/sidebar/default_entries/places.desktop:5
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "This is the root of the filesystem"
+msgctxt "Comment"
+msgid "This is the list of places."
+msgstr "Je to kòrzéń systemë lopków (przédny katalog - root)"
+
 #: apps/konqueror/sidebar/default_entries/remote.desktop:2
 #: apps/konqueror/sidebar/trees/init/remote/.directory:2
 #: runtime/kioslave/network/ioslave/network.desktop:7
@@ -2771,6 +2786,14 @@ msgstr "Mòduł historëji bòczny listwë"
 msgctxt "Name"
 msgid "Sidebar"
 msgstr "Bòcznô listew"
+
+#: apps/konqueror/sidebar/places_module/konqsidebar_places.desktop:4
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Web SideBar Module"
+msgctxt "Name"
+msgid "Places SideBar Module"
+msgstr "Moduł bòczny lëstwë WWW"
 
 #: apps/konqueror/sidebar/test/test.desktop:5
 #: workspace/plasma/generic/containmentactions/test/plasma-containmentactions-test.desktop:2
@@ -3408,38 +3431,38 @@ msgctxt "Comment"
 msgid "Global Keyboard Shortcuts"
 msgstr "Globalné klawiszowé skrodzënë"
 
-#: runtime/kglobalaccel/kglobalaccel.notifyrc:16
+#: runtime/kglobalaccel/kglobalaccel.notifyrc:17
 msgctxt "Name"
 msgid "kglobalaccel"
 msgstr "kglobalaccel"
 
-#: runtime/kglobalaccel/kglobalaccel.notifyrc:79
-#: runtime/phonon/platform_kde/phonon.notifyrc:17
+#: runtime/kglobalaccel/kglobalaccel.notifyrc:80
+#: runtime/phonon/platform_kde/phonon.notifyrc:18
 msgctxt "Name"
 msgid "Application"
 msgstr "Programa"
 
-#: runtime/kglobalaccel/kglobalaccel.notifyrc:156
+#: runtime/kglobalaccel/kglobalaccel.notifyrc:157
 msgctxt "Comment"
 msgid "The application name"
 msgstr "Miono aplikacëji"
 
-#: runtime/kglobalaccel/kglobalaccel.notifyrc:216
+#: runtime/kglobalaccel/kglobalaccel.notifyrc:217
 msgctxt "Name"
 msgid "Global Shortcut Registration"
 msgstr "Globalnô registracëjô skrodzënë"
 
-#: runtime/kglobalaccel/kglobalaccel.notifyrc:273
+#: runtime/kglobalaccel/kglobalaccel.notifyrc:274
 msgctxt "Comment"
 msgid "An application registered new global shortcuts."
 msgstr "Aplikacëjô zaregistrowa nową globalną skrodzënã."
 
-#: runtime/kglobalaccel/kglobalaccel.notifyrc:332
+#: runtime/kglobalaccel/kglobalaccel.notifyrc:333
 msgctxt "Name"
 msgid "Global Shortcut Triggered"
 msgstr "Zrëszonô globalnô skrodzëna "
 
-#: runtime/kglobalaccel/kglobalaccel.notifyrc:385
+#: runtime/kglobalaccel/kglobalaccel.notifyrc:386
 msgctxt "Comment"
 msgid "The user triggered a global shortcut"
 msgstr "Brëkòwnik zrëszëł globalną skrodzënã"
@@ -3647,7 +3670,7 @@ msgctxt "Name"
 msgid "Directory Watcher"
 msgstr "Dozérôcz sécë"
 
-#: runtime/kioslave/desktop/desktopnotifier.desktop:23
+#: runtime/kioslave/desktop/desktopnotifier.desktop:24
 msgctxt "Comment"
 msgid "Monitors directories for changes"
 msgstr ""
@@ -3704,7 +3727,7 @@ msgctxt "Name"
 msgid "Remote URL Change Notifier"
 msgstr "Dôwanié wiédzë ò daleczich URL-ach dlô KDED"
 
-#: runtime/kioslave/remote/kdedmodule/remotedirnotify.desktop:12
+#: runtime/kioslave/remote/kdedmodule/remotedirnotify.desktop:13
 msgctxt "Comment"
 msgid "Provides change notification for network folders"
 msgstr ""
@@ -3822,176 +3845,176 @@ msgctxt "Comment"
 msgid "KDE Workspace"
 msgstr "Robòczi plac"
 
-#: runtime/knotify/kde.notifyrc:18
+#: runtime/knotify/kde.notifyrc:19
 msgctxt "Name"
 msgid "Trash: Emptied"
 msgstr "Kòsz: wëczëszczony"
 
-#: runtime/knotify/kde.notifyrc:94
+#: runtime/knotify/kde.notifyrc:95
 msgctxt "Comment"
 msgid "The trash has been emptied"
 msgstr "Kòsz òstôł wëczëszczony"
 
-#: runtime/knotify/kde.notifyrc:175
+#: runtime/knotify/kde.notifyrc:176
 msgctxt "Name"
 msgid "Textcompletion: Rotation"
 msgstr "Dofùlowanié tekstu: rotacëjô"
 
-#: runtime/knotify/kde.notifyrc:248
+#: runtime/knotify/kde.notifyrc:249
 msgctxt "Comment"
 msgid "The end of the list of matches has been reached"
 msgstr "Kùńc listë trafieniów"
 
-#: runtime/knotify/kde.notifyrc:328
+#: runtime/knotify/kde.notifyrc:329
 msgctxt "Name"
 msgid "Textcompletion: No Match"
 msgstr "Dofùlowanié tekstu: felënk trafieniô"
 
-#: runtime/knotify/kde.notifyrc:403
+#: runtime/knotify/kde.notifyrc:404
 msgctxt "Comment"
 msgid "No matching completion was found"
 msgstr "Nie òstała nalazłô niżódnô mòżnota dofùlowaniô"
 
-#: runtime/knotify/kde.notifyrc:483
+#: runtime/knotify/kde.notifyrc:484
 msgctxt "Name"
 msgid "Textcompletion: Partial Match"
 msgstr "Dofùlowanié tesktu: dzélowé trafienia"
 
-#: runtime/knotify/kde.notifyrc:558
+#: runtime/knotify/kde.notifyrc:559
 msgctxt "Comment"
 msgid "There is more than one possible match"
 msgstr "To dô wicy jakno jedno mòżlëwé trafienié"
 
-#: runtime/knotify/kde.notifyrc:638
+#: runtime/knotify/kde.notifyrc:639
 msgctxt "Name"
 msgid "Fatal Error"
 msgstr "Cãżkô fela"
 
-#: runtime/knotify/kde.notifyrc:717
+#: runtime/knotify/kde.notifyrc:718
 msgctxt "Comment"
 msgid "There was a serious error causing the program to exit"
 msgstr "Pòkôza sã cãżkô fela, przez jaką programa òsta zakùńczonô."
 
-#: runtime/knotify/kde.notifyrc:798
-#: workspace/powerdevil/powerdevil.notifyrc:237
+#: runtime/knotify/kde.notifyrc:799
+#: workspace/powerdevil/powerdevil.notifyrc:238
 msgctxt "Name"
 msgid "Notification"
 msgstr "Dôwanié wiédzë"
 
-#: runtime/knotify/kde.notifyrc:879
+#: runtime/knotify/kde.notifyrc:880
 msgctxt "Comment"
 msgid "Something special happened in the program"
 msgstr "W programie stało sã cos òsoblëwégò"
 
-#: runtime/knotify/kde.notifyrc:959
-#: workspace/powerdevil/powerdevil.notifyrc:86
+#: runtime/knotify/kde.notifyrc:960
+#: workspace/powerdevil/powerdevil.notifyrc:87
 msgctxt "Name"
 msgid "Warning"
 msgstr "Bôczënk"
 
-#: runtime/knotify/kde.notifyrc:1041
+#: runtime/knotify/kde.notifyrc:1042
 msgctxt "Comment"
 msgid "There was an error in the program which may cause problems"
 msgstr "W programie pòkôża sã fela, jakô mògła doprowôdzëc do problemów"
 
-#: runtime/knotify/kde.notifyrc:1121
+#: runtime/knotify/kde.notifyrc:1122
 msgctxt "Name"
 msgid "Catastrophe"
 msgstr "Katastrofa"
 
-#: runtime/knotify/kde.notifyrc:1197
+#: runtime/knotify/kde.notifyrc:1198
 msgctxt "Comment"
 msgid "A very serious error occurred, at least causing the program to exit"
 msgstr "Pòkôza sã cãżkô fela, jakô przënômni nã programã zakùńcza"
 
-#: runtime/knotify/kde.notifyrc:1276
+#: runtime/knotify/kde.notifyrc:1277
 #: workspace/kwin/effects/login/login.desktop:2
 msgctxt "Name"
 msgid "Login"
 msgstr "Logòwanié"
 
-#: runtime/knotify/kde.notifyrc:1357
+#: runtime/knotify/kde.notifyrc:1358
 msgctxt "Comment"
 msgid "KDE is starting up"
 msgstr "KDE sztartëje"
 
-#: runtime/knotify/kde.notifyrc:1441
+#: runtime/knotify/kde.notifyrc:1442
 #: workspace/kwin/effects/logout/logout.desktop:2
 msgctxt "Name"
 msgid "Logout"
 msgstr "Wëlogòwanié"
 
-#: runtime/knotify/kde.notifyrc:1522
+#: runtime/knotify/kde.notifyrc:1523
 msgctxt "Comment"
 msgid "KDE is exiting"
 msgstr "KDE òstanié zakùńczoné"
 
-#: runtime/knotify/kde.notifyrc:1606
+#: runtime/knotify/kde.notifyrc:1607
 msgctxt "Name"
 msgid "Logout Canceled"
 msgstr "Przerwóné wëlogòwanié"
 
-#: runtime/knotify/kde.notifyrc:1685
+#: runtime/knotify/kde.notifyrc:1686
 msgctxt "Comment"
 msgid "KDE logout was canceled"
 msgstr "Wëlogòwanié z KDE òstało przerwóné"
 
-#: runtime/knotify/kde.notifyrc:1765
+#: runtime/knotify/kde.notifyrc:1766
 msgctxt "Name"
 msgid "Print Error"
 msgstr "Fela drëkera"
 
-#: runtime/knotify/kde.notifyrc:1845
+#: runtime/knotify/kde.notifyrc:1846
 msgctxt "Comment"
 msgid "A print error has occurred"
 msgstr "Pòkôza sã fela przë drëkòwaniô"
 
-#: runtime/knotify/kde.notifyrc:1926
+#: runtime/knotify/kde.notifyrc:1927
 msgctxt "Name"
 msgid "Information Message"
 msgstr "Wëdowiédné wiadło"
 
-#: runtime/knotify/kde.notifyrc:2006
+#: runtime/knotify/kde.notifyrc:2007
 msgctxt "Comment"
 msgid "An information message is being shown"
 msgstr "Pòkôże sã wëdowiédné wiadło"
 
-#: runtime/knotify/kde.notifyrc:2087
+#: runtime/knotify/kde.notifyrc:2088
 msgctxt "Name"
 msgid "Warning Message"
 msgstr "Wiadło òstrzedżi"
 
-#: runtime/knotify/kde.notifyrc:2167
+#: runtime/knotify/kde.notifyrc:2168
 msgctxt "Comment"
 msgid "A warning message is being shown"
 msgstr "Pòkôże sã wiadło òstrzedżi"
 
-#: runtime/knotify/kde.notifyrc:2247
+#: runtime/knotify/kde.notifyrc:2248
 msgctxt "Name"
 msgid "Critical Message"
 msgstr "Wiadło felë"
 
-#: runtime/knotify/kde.notifyrc:2321
+#: runtime/knotify/kde.notifyrc:2322
 msgctxt "Comment"
 msgid "A critical message is being shown"
 msgstr "Pòkôże sã kriticzné wiadło felë"
 
-#: runtime/knotify/kde.notifyrc:2400
+#: runtime/knotify/kde.notifyrc:2401
 msgctxt "Name"
 msgid "Question"
 msgstr "Pëtanié"
 
-#: runtime/knotify/kde.notifyrc:2482
+#: runtime/knotify/kde.notifyrc:2483
 msgctxt "Comment"
 msgid "A question is being asked"
 msgstr "Pëtanié bãdze zadóné"
 
-#: runtime/knotify/kde.notifyrc:2564
+#: runtime/knotify/kde.notifyrc:2565
 msgctxt "Name"
 msgid "Beep"
 msgstr "Beep"
 
-#: runtime/knotify/kde.notifyrc:2644
+#: runtime/knotify/kde.notifyrc:2645
 msgctxt "Comment"
 msgid "Sound bell"
 msgstr "Zwãk zwónka"
@@ -4014,7 +4037,7 @@ msgctxt "Name"
 msgid "Password Caching"
 msgstr "Wspiarcé pòdrãczny pamiãcë dlô parolów"
 
-#: runtime/kpasswdserver/kpasswdserver.desktop:15
+#: runtime/kpasswdserver/kpasswdserver.desktop:16
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Password caching support"
@@ -4030,7 +4053,7 @@ msgctxt "Name"
 msgid "Time Zone"
 msgstr "Ùsłëżnota czasowi conë KDE"
 
-#: runtime/ktimezoned/ktimezoned.desktop:23
+#: runtime/ktimezoned/ktimezoned.desktop:24
 msgctxt "Comment"
 msgid "Provides the system's time zone to applications"
 msgstr ""
@@ -4081,8 +4104,11 @@ msgid "Alexa"
 msgstr "Alexa"
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/alexa.desktop:92
+#, fuzzy
+#| msgctxt "Query"
+#| msgid "http://info.alexa.com/search?q=\\\\{@}"
 msgctxt "Query"
-msgid "http://info.alexa.com/search?q=\\\\{@}"
+msgid "http://www.alexa.com/search?q=\\\\{@}"
 msgstr "http://info.alexa.com/search?q=\\\\{@}"
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/alexa_url.desktop:3
@@ -4091,8 +4117,11 @@ msgid "Alexa URL"
 msgstr "Lënk Alexa"
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/alexa_url.desktop:93
+#, fuzzy
+#| msgctxt "Query"
+#| msgid "http://info.alexa.com/data/details?url=\\\\{@}"
 msgctxt "Query"
-msgid "http://info.alexa.com/data/details?url=\\\\{@}"
+msgid "http://www.alexa.com/data/details?url=\\\\{@}"
 msgstr "http://info.alexa.com/data/details?url=\\\\{@}"
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/alltheweb.desktop:3
@@ -4165,7 +4194,7 @@ msgctxt "Name"
 msgid "Beolingus Online Dictionary"
 msgstr ""
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/beolingus.desktop:11
+#: runtime/kurifilter-plugins/ikws/searchproviders/beolingus.desktop:14
 msgctxt "Query"
 msgid ""
 "http://dict.tu-chemnitz.de/dings.cgi?"
@@ -4357,7 +4386,7 @@ msgctxt "Name"
 msgid "Ecosia search engine"
 msgstr "Szëkôrz"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/ecosia.desktop:11
+#: runtime/kurifilter-plugins/ikws/searchproviders/ecosia.desktop:14
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.ethicle.com/search.php?q=\\\\{@}"
@@ -4579,7 +4608,7 @@ msgctxt "Name"
 msgid "Google Maps"
 msgstr "Google - archiwa diskùsjowëch karnów"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/google_maps.desktop:6
+#: runtime/kurifilter-plugins/ikws/searchproviders/google_maps.desktop:13
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://news.google.com/news?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
@@ -5118,10 +5147,14 @@ msgid "Whatis Query"
 msgstr "Whatis - infòrmaticznô baza wiedzbë"
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/whatis.desktop:90
+#, fuzzy
+#| msgctxt "Query"
+#| msgid ""
+#| "http://whatis.techtarget.com/definitionsSearchResults/1,289878,sid9,00."
+#| "html?query=\\\\{@}"
 msgctxt "Query"
 msgid ""
-"http://whatis.techtarget.com/definitionsSearchResults/1,289878,sid9,00.html?"
-"query=\\\\{@}"
+"http://whatis.techtarget.com/wsearchResultsB/0,,sid9,00.html?query=\\\\{@}"
 msgstr ""
 "http://whatis.techtarget.com/definitionsSearchResults/1,289878,sid9,00.html?"
 "query=\\\\{@}"
@@ -5171,7 +5204,7 @@ msgctxt "Name"
 msgid "YouTube"
 msgstr ""
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/youtube.desktop:4
+#: runtime/kurifilter-plugins/ikws/searchproviders/youtube.desktop:11
 msgctxt "Query"
 msgid "http://www.youtube.com/results?search_query=\\\\{@}&search_type=&aq=f"
 msgstr ""
@@ -5204,17 +5237,17 @@ msgctxt "Comment"
 msgid "Wallet"
 msgstr "kwalletd"
 
-#: runtime/kwalletd/kwalletd.notifyrc:15
+#: runtime/kwalletd/kwalletd.notifyrc:16
 msgctxt "Name"
 msgid "kwalletd"
 msgstr "kwalletd"
 
-#: runtime/kwalletd/kwalletd.notifyrc:80
+#: runtime/kwalletd/kwalletd.notifyrc:81
 msgctxt "Name"
 msgid "Needs password"
 msgstr "Wëmôgô zjinaczi parolë"
 
-#: runtime/kwalletd/kwalletd.notifyrc:143
+#: runtime/kwalletd/kwalletd.notifyrc:144
 msgctxt "Comment"
 msgid "The KDE Wallet Daemon requests a password"
 msgstr "Demóna KDE Wallet żądô parolë"
@@ -7859,7 +7892,7 @@ msgctxt "Name"
 msgid "Semantic Data Storage"
 msgstr "Trzëmanié pòdôwków Nepomuka"
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:13
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:14
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Desktop"
@@ -7867,42 +7900,42 @@ msgctxt "Comment"
 msgid "Semantic Desktop"
 msgstr "Pùlt"
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:26
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:28
 msgctxt "Name"
 msgid "Failed to start Nepomuk"
 msgstr "Fela przë zrëszaniu Nepomùka"
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:76
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:78
 msgctxt "Comment"
 msgid "The Nepomuk Semantic Desktop system could not be started"
 msgstr "Semanticznô systema pùltu Nepomùka nié mòże bëc zrëszonô"
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:124
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:126
 msgctxt "Name"
 msgid "Converting Nepomuk data"
 msgstr "Kònwertowanié pòdôwków Nepomùka"
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:195
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:197
 msgctxt "Comment"
 msgid "All Nepomuk data is converted to a new storage backend"
 msgstr "Wszëtczé pòdôwczi Nepomùka są kònwertowóné do nowégò fòrmôtu zôpisu"
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:267
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:269
 msgctxt "Name"
 msgid "Converting Nepomuk data failed"
 msgstr "Fela kònwertowaniô pòdôwków Nepomùka"
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:338
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:340
 msgctxt "Comment"
 msgid "Converting Nepomuk data to a new backend failed"
 msgstr "Fela kònwertowaniô pòdôwków Nepomùka do nowégò fòrmôtu zôpisu"
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:410
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:412
 msgctxt "Name"
 msgid "Converting Nepomuk data done"
 msgstr "Kònwertowanié pòdôwków Nepomùka je parôt"
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:481
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:483
 msgctxt "Comment"
 msgid "Successfully converted Nepomuk data to new backend"
 msgstr "Ùdałé kònwertowóné pòdôwków Nepomùka do nowégò fòrmôtu zôpisu"
@@ -7929,44 +7962,44 @@ msgctxt "Comment"
 msgid "Desktop Search"
 msgstr "Szëkba na pùlce"
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:16
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:17
 msgctxt "Name"
 msgid "Initial Indexing started"
 msgstr "Zrëszoné indeksowanié"
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:89
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:90
 msgctxt "Comment"
 msgid "Indexing of local files for fast searches has started."
 msgstr "Indeksowanié môlowich lopków dlô chùtczi szëkbë òstôł zrëszony."
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:142
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:143
 msgctxt "Name"
 msgid "Initial Indexing finished"
 msgstr "Indeksowanié zakùńczoné"
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:214
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:215
 msgctxt "Comment"
 msgid ""
 "The initial indexing of local files for fast desktop searches has completed."
 msgstr ""
 "Indeksowanié môlowich lopków dlô chùtczi szëkbë pùltu òstôło zakùńczoné."
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:267
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:268
 msgctxt "Name"
 msgid "Indexing suspended"
 msgstr "Indeksowanié òprzestóné"
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:339
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:340
 msgctxt "Comment"
 msgid "File indexing has been suspended by the search service."
 msgstr "Indeksowanié òprzestóné przez ùsłëżnotã szëkbë."
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:392
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:393
 msgctxt "Name"
 msgid "Indexing resumed"
 msgstr "Dalszé indeksowanié"
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:464
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:465
 msgctxt "Comment"
 msgid "File indexing has been resumed by the search service."
 msgstr "Dalszé indeksowaniém zrëszoné przez ùsłëżnotã szëkbë."
@@ -7994,7 +8027,7 @@ msgctxt "Name"
 msgid "Sound Policy"
 msgstr "Ùsłëżnota nastôwù zwãkù"
 
-#: runtime/phonon/kded-module/phononserver.desktop:19
+#: runtime/phonon/kded-module/phononserver.desktop:20
 msgctxt "Comment"
 msgid "Provides sound system policy to applications"
 msgstr ""
@@ -8012,12 +8045,12 @@ msgctxt "Comment"
 msgid "Multimedia System"
 msgstr "Mùltimedialny grôcz"
 
-#: runtime/phonon/platform_kde/phonon.notifyrc:97
+#: runtime/phonon/platform_kde/phonon.notifyrc:98
 msgctxt "Name"
 msgid "Audio Device Fallback"
 msgstr "Zmiana zwãkòwégò ùrządzeniô"
 
-#: runtime/phonon/platform_kde/phonon.notifyrc:168
+#: runtime/phonon/platform_kde/phonon.notifyrc:169
 msgctxt "Comment"
 msgid ""
 "Notification on automatic fallback if the preferred device is unavailable"
@@ -8098,7 +8131,7 @@ msgctxt "Name"
 msgid "Drive Ejector"
 msgstr "Czérownik"
 
-#: runtime/solidautoeject/solidautoeject.desktop:17
+#: runtime/solidautoeject/solidautoeject.desktop:18
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid ""
@@ -8139,7 +8172,7 @@ msgctxt "Name"
 msgid "Hardware Detection"
 msgstr "Wëskrzëniô wëdowiédzã ò hardwôrze"
 
-#: runtime/soliduiserver/soliduiserver.desktop:19
+#: runtime/soliduiserver/soliduiserver.desktop:20
 msgctxt "Comment"
 msgid "Provides a user interface for hardware events"
 msgstr ""
@@ -8592,7 +8625,7 @@ msgctxt "Name"
 msgid "Display Management change monitor"
 msgstr ""
 
-#: workspace/kcontrol/randr/module/randrmonitor.desktop:11
+#: workspace/kcontrol/randr/module/randrmonitor.desktop:12
 msgctxt "Comment"
 msgid "Is this required when kephal has its own kded module?"
 msgstr ""
@@ -8947,7 +8980,7 @@ msgctxt "Name"
 msgid "LXDE"
 msgstr ""
 
-#: workspace/kdm/kfrontend/sessions/lxde.desktop:10
+#: workspace/kdm/kfrontend/sessions/lxde.desktop:13
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "The UNIX Desktop Environment"
@@ -9654,7 +9687,7 @@ msgid "Press, move down, release."
 msgstr "Wcësni, w dół, pùszczë."
 
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:3407
-#: workspace/kwin/kwin.notifyrc:3479
+#: workspace/kwin/kwin.notifyrc:3480
 msgctxt "Name"
 msgid "New Window"
 msgstr "Nowé òkno"
@@ -9974,52 +10007,52 @@ msgctxt "Comment"
 msgid "Screen Saver"
 msgstr "Wëgaszôcz ekranu"
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:18
+#: workspace/krunner/lock/kscreenlocker.notifyrc:19
 msgctxt "Name"
 msgid "Screen saver started"
 msgstr "Zrëszony wëgaszôcz ekranu"
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:73
+#: workspace/krunner/lock/kscreenlocker.notifyrc:74
 msgctxt "Comment"
 msgid "The screen saver has been started"
 msgstr "Wëgaszôcz ekranu òstôł zrëszony"
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:130
+#: workspace/krunner/lock/kscreenlocker.notifyrc:131
 msgctxt "Name"
 msgid "Screen locked"
 msgstr "Zablokòwóny ekranu"
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:186
+#: workspace/krunner/lock/kscreenlocker.notifyrc:187
 msgctxt "Comment"
 msgid "The screen has been locked"
 msgstr "Ekran òstôł zablokòwóny"
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:245
+#: workspace/krunner/lock/kscreenlocker.notifyrc:246
 msgctxt "Name"
 msgid "Screen saver exited"
 msgstr "Wëgaszôcz ekranu òstôł zakùńczony"
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:299
+#: workspace/krunner/lock/kscreenlocker.notifyrc:300
 msgctxt "Comment"
 msgid "The screen saver has finished"
 msgstr "Wëgaszôcz ekranu òstôł zakùńczony"
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:356
+#: workspace/krunner/lock/kscreenlocker.notifyrc:357
 msgctxt "Name"
 msgid "Screen unlocked"
 msgstr "Ekran òdblokòwóny"
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:413
+#: workspace/krunner/lock/kscreenlocker.notifyrc:414
 msgctxt "Comment"
 msgid "The screen has been unlocked"
 msgstr "Ekran òstôł òdblokòwóny"
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:469
+#: workspace/krunner/lock/kscreenlocker.notifyrc:470
 msgctxt "Name"
 msgid "Screen unlock failed"
 msgstr "Felënk òdblokòwaniô ekranu"
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:525
+#: workspace/krunner/lock/kscreenlocker.notifyrc:526
 msgctxt "Comment"
 msgid "Failed attempt to unlock the screen"
 msgstr "Felënk przëstãpù do òdblokòwaniô ekranu"
@@ -10297,22 +10330,22 @@ msgctxt "Comment"
 msgid "System Monitor"
 msgstr "Mònitor systemë"
 
-#: workspace/ksysguard/example/ksysguard.notifyrc:17
+#: workspace/ksysguard/example/ksysguard.notifyrc:18
 msgctxt "Name"
 msgid "Pattern Matched"
 msgstr "Nalazłi mùster"
 
-#: workspace/ksysguard/example/ksysguard.notifyrc:92
+#: workspace/ksysguard/example/ksysguard.notifyrc:93
 msgctxt "Comment"
 msgid "Search pattern matched"
 msgstr "Mùster szëkbë nalazłi"
 
-#: workspace/ksysguard/example/ksysguard.notifyrc:171
+#: workspace/ksysguard/example/ksysguard.notifyrc:172
 msgctxt "Name"
 msgid "Sensor Alarm"
 msgstr "Sensor alarmù"
 
-#: workspace/ksysguard/example/ksysguard.notifyrc:246
+#: workspace/ksysguard/example/ksysguard.notifyrc:247
 msgctxt "Comment"
 msgid "Sensor exceeded critical limit"
 msgstr "Sensor przekroczëł kriticzny limit"
@@ -11078,428 +11111,428 @@ msgctxt "Comment"
 msgid "KWin Window Manager"
 msgstr "Mendżer òknów"
 
-#: workspace/kwin/kwin.notifyrc:17
+#: workspace/kwin/kwin.notifyrc:18
 msgctxt "Name"
 msgid "Change to Desktop 1"
 msgstr "Skòknie na pùlt 1"
 
-#: workspace/kwin/kwin.notifyrc:100
+#: workspace/kwin/kwin.notifyrc:101
 msgctxt "Comment"
 msgid "Virtual desktop one is selected"
 msgstr "Wëbróny wirtualny pùlt 1"
 
-#: workspace/kwin/kwin.notifyrc:184
+#: workspace/kwin/kwin.notifyrc:185
 msgctxt "Name"
 msgid "Change to Desktop 2"
 msgstr "Skòknie na pùlt 2"
 
-#: workspace/kwin/kwin.notifyrc:267
+#: workspace/kwin/kwin.notifyrc:268
 msgctxt "Comment"
 msgid "Virtual desktop two is selected"
 msgstr "Wëbróny wirtualny pùlt 2"
 
-#: workspace/kwin/kwin.notifyrc:352
+#: workspace/kwin/kwin.notifyrc:353
 msgctxt "Name"
 msgid "Change to Desktop 3"
 msgstr "Skòknie na pùlt 3"
 
-#: workspace/kwin/kwin.notifyrc:435
+#: workspace/kwin/kwin.notifyrc:436
 msgctxt "Comment"
 msgid "Virtual desktop three is selected"
 msgstr "Wëbróny wirtualny pùlt 3"
 
-#: workspace/kwin/kwin.notifyrc:520
+#: workspace/kwin/kwin.notifyrc:521
 msgctxt "Name"
 msgid "Change to Desktop 4"
 msgstr "Skòknie na pùlt 4"
 
-#: workspace/kwin/kwin.notifyrc:603
+#: workspace/kwin/kwin.notifyrc:604
 msgctxt "Comment"
 msgid "Virtual desktop four is selected"
 msgstr "Wëbróny wirtualny pùlt 4"
 
-#: workspace/kwin/kwin.notifyrc:687
+#: workspace/kwin/kwin.notifyrc:688
 msgctxt "Name"
 msgid "Change to Desktop 5"
 msgstr "Skòknie na pùlt 5"
 
-#: workspace/kwin/kwin.notifyrc:770
+#: workspace/kwin/kwin.notifyrc:771
 msgctxt "Comment"
 msgid "Virtual desktop five is selected"
 msgstr "Wëbróny wirtualny pùlt 5"
 
-#: workspace/kwin/kwin.notifyrc:855
+#: workspace/kwin/kwin.notifyrc:856
 msgctxt "Name"
 msgid "Change to Desktop 6"
 msgstr "Skòknie na pùlt 6"
 
-#: workspace/kwin/kwin.notifyrc:938
+#: workspace/kwin/kwin.notifyrc:939
 msgctxt "Comment"
 msgid "Virtual desktop six is selected"
 msgstr "Wëbróny wirtualny pùlt 6"
 
-#: workspace/kwin/kwin.notifyrc:1021
+#: workspace/kwin/kwin.notifyrc:1022
 msgctxt "Name"
 msgid "Change to Desktop 7"
 msgstr "Skòknie na pùlt 7"
 
-#: workspace/kwin/kwin.notifyrc:1104
+#: workspace/kwin/kwin.notifyrc:1105
 msgctxt "Comment"
 msgid "Virtual desktop seven is selected"
 msgstr "Wëbróny wirtualny pùlt 7"
 
-#: workspace/kwin/kwin.notifyrc:1189
+#: workspace/kwin/kwin.notifyrc:1190
 msgctxt "Name"
 msgid "Change to Desktop 8"
 msgstr "Skòknie na pùlt 8"
 
-#: workspace/kwin/kwin.notifyrc:1272
+#: workspace/kwin/kwin.notifyrc:1273
 msgctxt "Comment"
 msgid "Virtual desktop eight is selected"
 msgstr "Wëbróny wirtualny pùlt 8"
 
-#: workspace/kwin/kwin.notifyrc:1357
+#: workspace/kwin/kwin.notifyrc:1358
 msgctxt "Name"
 msgid "Change to Desktop 9"
 msgstr "Skòknie na pùlt 9"
 
-#: workspace/kwin/kwin.notifyrc:1438
+#: workspace/kwin/kwin.notifyrc:1439
 msgctxt "Comment"
 msgid "Virtual desktop nine is selected"
 msgstr "Wëbróny wirtualny pùlt 9"
 
-#: workspace/kwin/kwin.notifyrc:1521
+#: workspace/kwin/kwin.notifyrc:1522
 msgctxt "Name"
 msgid "Change to Desktop 10"
 msgstr "Skòknie na pùlt 10"
 
-#: workspace/kwin/kwin.notifyrc:1602
+#: workspace/kwin/kwin.notifyrc:1603
 msgctxt "Comment"
 msgid "Virtual desktop ten is selected"
 msgstr "Wëbróny wirtualny pùlt 10"
 
-#: workspace/kwin/kwin.notifyrc:1685
+#: workspace/kwin/kwin.notifyrc:1686
 msgctxt "Name"
 msgid "Change to Desktop 11"
 msgstr "Skòknie na pùlt 11"
 
-#: workspace/kwin/kwin.notifyrc:1766
+#: workspace/kwin/kwin.notifyrc:1767
 msgctxt "Comment"
 msgid "Virtual desktop eleven is selected"
 msgstr "Wëbróny wirtualny pùlt 11"
 
-#: workspace/kwin/kwin.notifyrc:1848
+#: workspace/kwin/kwin.notifyrc:1849
 msgctxt "Name"
 msgid "Change to Desktop 12"
 msgstr "Skòknie na pùlt 12"
 
-#: workspace/kwin/kwin.notifyrc:1929
+#: workspace/kwin/kwin.notifyrc:1930
 msgctxt "Comment"
 msgid "Virtual desktop twelve is selected"
 msgstr "Wëbróny wirtualny pùlt 12"
 
-#: workspace/kwin/kwin.notifyrc:2011
+#: workspace/kwin/kwin.notifyrc:2012
 msgctxt "Name"
 msgid "Change to Desktop 13"
 msgstr "Skòknie na pùlt 13"
 
-#: workspace/kwin/kwin.notifyrc:2092
+#: workspace/kwin/kwin.notifyrc:2093
 msgctxt "Comment"
 msgid "Virtual desktop thirteen is selected"
 msgstr "Wëbróny wirtualny pùlt 13"
 
-#: workspace/kwin/kwin.notifyrc:2175
+#: workspace/kwin/kwin.notifyrc:2176
 msgctxt "Name"
 msgid "Change to Desktop 14"
 msgstr "Skòknie na pùlt 14"
 
-#: workspace/kwin/kwin.notifyrc:2256
+#: workspace/kwin/kwin.notifyrc:2257
 msgctxt "Comment"
 msgid "Virtual desktop fourteen is selected"
 msgstr "Wëbróny wirtualny pùlt 14"
 
-#: workspace/kwin/kwin.notifyrc:2338
+#: workspace/kwin/kwin.notifyrc:2339
 msgctxt "Name"
 msgid "Change to Desktop 15"
 msgstr "Skòknie na pùlt 15"
 
-#: workspace/kwin/kwin.notifyrc:2419
+#: workspace/kwin/kwin.notifyrc:2420
 msgctxt "Comment"
 msgid "Virtual desktop fifteen is selected"
 msgstr "Wëbróny wirtualny pùlt 15"
 
-#: workspace/kwin/kwin.notifyrc:2502
+#: workspace/kwin/kwin.notifyrc:2503
 msgctxt "Name"
 msgid "Change to Desktop 16"
 msgstr "Skòknie na pùlt 16"
 
-#: workspace/kwin/kwin.notifyrc:2583
+#: workspace/kwin/kwin.notifyrc:2584
 msgctxt "Comment"
 msgid "Virtual desktop sixteen is selected"
 msgstr "Wëbróny wirtualny pùlt 16"
 
-#: workspace/kwin/kwin.notifyrc:2666
+#: workspace/kwin/kwin.notifyrc:2667
 msgctxt "Name"
 msgid "Change to Desktop 17"
 msgstr "Skòknie na pùlt 17"
 
-#: workspace/kwin/kwin.notifyrc:2747
+#: workspace/kwin/kwin.notifyrc:2748
 msgctxt "Comment"
 msgid "Virtual desktop seventeen is selected"
 msgstr "Wëbróny wirtualny pùlt 17"
 
-#: workspace/kwin/kwin.notifyrc:2829
+#: workspace/kwin/kwin.notifyrc:2830
 msgctxt "Name"
 msgid "Change to Desktop 18"
 msgstr "Skòknie na pùlt 18"
 
-#: workspace/kwin/kwin.notifyrc:2910
+#: workspace/kwin/kwin.notifyrc:2911
 msgctxt "Comment"
 msgid "Virtual desktop eighteen is selected"
 msgstr "Wëbróny wirtualny pùlt 18"
 
-#: workspace/kwin/kwin.notifyrc:2993
+#: workspace/kwin/kwin.notifyrc:2994
 msgctxt "Name"
 msgid "Change to Desktop 19"
 msgstr "Skòknie na pùlt 19"
 
-#: workspace/kwin/kwin.notifyrc:3074
+#: workspace/kwin/kwin.notifyrc:3075
 msgctxt "Comment"
 msgid "Virtual desktop nineteen is selected"
 msgstr "Wëbróny wirtualny pùlt 19"
 
-#: workspace/kwin/kwin.notifyrc:3157
+#: workspace/kwin/kwin.notifyrc:3158
 msgctxt "Name"
 msgid "Change to Desktop 20"
 msgstr "Skòknie na pùlt 20"
 
-#: workspace/kwin/kwin.notifyrc:3238
+#: workspace/kwin/kwin.notifyrc:3239
 msgctxt "Comment"
 msgid "Virtual desktop twenty is selected"
 msgstr "Wëbróny wirtualny pùlt 20"
 
-#: workspace/kwin/kwin.notifyrc:3321
+#: workspace/kwin/kwin.notifyrc:3322
 msgctxt "Name"
 msgid "Activate Window"
 msgstr "Aktiwacëjô òkna"
 
-#: workspace/kwin/kwin.notifyrc:3400
+#: workspace/kwin/kwin.notifyrc:3401
 msgctxt "Comment"
 msgid "Another window is activated"
 msgstr "Jinszé òkno bãdze aktiwòwóné"
 
-#: workspace/kwin/kwin.notifyrc:3566
+#: workspace/kwin/kwin.notifyrc:3567
 msgctxt "Comment"
 msgid "New window"
 msgstr "Nowé òkno"
 
-#: workspace/kwin/kwin.notifyrc:3651
+#: workspace/kwin/kwin.notifyrc:3652
 msgctxt "Name"
 msgid "Delete Window"
 msgstr "Rëmôj òkno"
 
-#: workspace/kwin/kwin.notifyrc:3729
+#: workspace/kwin/kwin.notifyrc:3730
 msgctxt "Comment"
 msgid "Delete window"
 msgstr "Rëmôj òkno"
 
-#: workspace/kwin/kwin.notifyrc:3812
+#: workspace/kwin/kwin.notifyrc:3813
 msgctxt "Name"
 msgid "Window Close"
 msgstr "Zamkni òkno"
 
-#: workspace/kwin/kwin.notifyrc:3892
+#: workspace/kwin/kwin.notifyrc:3893
 msgctxt "Comment"
 msgid "A window closes"
 msgstr "Òkno bãdze zamkłé"
 
-#: workspace/kwin/kwin.notifyrc:3977
+#: workspace/kwin/kwin.notifyrc:3978
 msgctxt "Name"
 msgid "Window Shade Up"
 msgstr "Złożë òkno"
 
-#: workspace/kwin/kwin.notifyrc:4051
+#: workspace/kwin/kwin.notifyrc:4052
 msgctxt "Comment"
 msgid "A window is shaded up"
 msgstr "Òkno bãdze złożoné"
 
-#: workspace/kwin/kwin.notifyrc:4127
+#: workspace/kwin/kwin.notifyrc:4128
 msgctxt "Name"
 msgid "Window Shade Down"
 msgstr "Rozłożë òkno"
 
-#: workspace/kwin/kwin.notifyrc:4200
+#: workspace/kwin/kwin.notifyrc:4201
 msgctxt "Comment"
 msgid "A window is shaded down"
 msgstr "Òkno bãdze rozłożoné"
 
-#: workspace/kwin/kwin.notifyrc:4274
+#: workspace/kwin/kwin.notifyrc:4275
 msgctxt "Name"
 msgid "Window Minimize"
 msgstr "Minimalizëjë òkno"
 
-#: workspace/kwin/kwin.notifyrc:4352
+#: workspace/kwin/kwin.notifyrc:4353
 msgctxt "Comment"
 msgid "A window is minimized"
 msgstr "Òkno bãdze zminimalizowóné"
 
-#: workspace/kwin/kwin.notifyrc:4434
+#: workspace/kwin/kwin.notifyrc:4435
 msgctxt "Name"
 msgid "Window Unminimize"
 msgstr "Doprowôdzë òkno nazôd"
 
-#: workspace/kwin/kwin.notifyrc:4508
+#: workspace/kwin/kwin.notifyrc:4509
 msgctxt "Comment"
 msgid "A Window is restored"
 msgstr "Òkno bãdze doprowadzoné nazôd"
 
-#: workspace/kwin/kwin.notifyrc:4589
+#: workspace/kwin/kwin.notifyrc:4590
 msgctxt "Name"
 msgid "Window Maximize"
 msgstr "Maksymilizëjë òkno"
 
-#: workspace/kwin/kwin.notifyrc:4668
+#: workspace/kwin/kwin.notifyrc:4669
 msgctxt "Comment"
 msgid "A window is maximized"
 msgstr "Òkno bãdze zmaksymilizowóné"
 
-#: workspace/kwin/kwin.notifyrc:4750
+#: workspace/kwin/kwin.notifyrc:4751
 msgctxt "Name"
 msgid "Window Unmaximize"
 msgstr "Doprowôdzë nazôd maksymilizowanié òkna"
 
-#: workspace/kwin/kwin.notifyrc:4827
+#: workspace/kwin/kwin.notifyrc:4828
 msgctxt "Comment"
 msgid "A window loses maximization"
 msgstr "Òkno nie bãdze wicy maksymilizowóné"
 
-#: workspace/kwin/kwin.notifyrc:4905
+#: workspace/kwin/kwin.notifyrc:4906
 msgctxt "Name"
 msgid "Window on All Desktops"
 msgstr "Òkno na wszëtczich pùltach"
 
-#: workspace/kwin/kwin.notifyrc:4980
+#: workspace/kwin/kwin.notifyrc:4981
 msgctxt "Comment"
 msgid "A window is made visible on all desktops"
 msgstr "Òkno pòkôże sã na wszëtczich pùltach"
 
-#: workspace/kwin/kwin.notifyrc:5061
+#: workspace/kwin/kwin.notifyrc:5062
 msgctxt "Name"
 msgid "Window Not on All Desktops"
 msgstr "Òkno nié na wszëtczich pùltach"
 
-#: workspace/kwin/kwin.notifyrc:5134
+#: workspace/kwin/kwin.notifyrc:5135
 msgctxt "Comment"
 msgid "A Window is no longer visible on all desktops"
 msgstr "Òkno nié ma sã pòkôzac na wszëtczich pùltach"
 
-#: workspace/kwin/kwin.notifyrc:5213
+#: workspace/kwin/kwin.notifyrc:5214
 msgctxt "Name"
 msgid "New Dialog"
 msgstr "Nowi dialog"
 
-#: workspace/kwin/kwin.notifyrc:5296
+#: workspace/kwin/kwin.notifyrc:5297
 msgctxt "Comment"
 msgid "Transient window (a dialog) appears"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:5369
+#: workspace/kwin/kwin.notifyrc:5370
 msgctxt "Name"
 msgid "Delete Dialog"
 msgstr "Zamkni dialog"
 
-#: workspace/kwin/kwin.notifyrc:5450
+#: workspace/kwin/kwin.notifyrc:5451
 msgctxt "Comment"
 msgid "Transient window (a dialog) is removed"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:5524
+#: workspace/kwin/kwin.notifyrc:5525
 msgctxt "Name"
 msgid "Window Move Start"
 msgstr "Przesëwanié òknów (Sztart)"
 
-#: workspace/kwin/kwin.notifyrc:5601
+#: workspace/kwin/kwin.notifyrc:5602
 msgctxt "Comment"
 msgid "A window has begun moving"
 msgstr "Òkno bãdze przesëniãté (sztart)"
 
-#: workspace/kwin/kwin.notifyrc:5677
+#: workspace/kwin/kwin.notifyrc:5678
 msgctxt "Name"
 msgid "Window Move End"
 msgstr "Przesëwanié òknów (kùńc)"
 
-#: workspace/kwin/kwin.notifyrc:5754
+#: workspace/kwin/kwin.notifyrc:5755
 msgctxt "Comment"
 msgid "A window has completed its moving"
 msgstr "Òkno bãdze przesëniãté (kùńc)"
 
-#: workspace/kwin/kwin.notifyrc:5830
+#: workspace/kwin/kwin.notifyrc:5831
 msgctxt "Name"
 msgid "Window Resize Start"
 msgstr "Zmiana miarë òkna (sztart)"
 
-#: workspace/kwin/kwin.notifyrc:5907
+#: workspace/kwin/kwin.notifyrc:5908
 msgctxt "Comment"
 msgid "A window has begun resizing"
 msgstr "Zôczątk zmianë miarë òkna"
 
-#: workspace/kwin/kwin.notifyrc:5983
+#: workspace/kwin/kwin.notifyrc:5984
 msgctxt "Name"
 msgid "Window Resize End"
 msgstr "Zmiana miarë òkna (kùńc)"
 
-#: workspace/kwin/kwin.notifyrc:6060
+#: workspace/kwin/kwin.notifyrc:6061
 msgctxt "Comment"
 msgid "A window has finished resizing"
 msgstr "Zakùńczonô zmiana miarë òkna"
 
-#: workspace/kwin/kwin.notifyrc:6136
+#: workspace/kwin/kwin.notifyrc:6137
 msgctxt "Name"
 msgid "Window on Current Desktop Demands Attention"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6204
+#: workspace/kwin/kwin.notifyrc:6205
 msgctxt "Comment"
 msgid "A window on the current virtual desktop demands attention"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6276
+#: workspace/kwin/kwin.notifyrc:6277
 msgctxt "Name"
 msgid "Window on Other Desktop Demands Attention"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6344
+#: workspace/kwin/kwin.notifyrc:6345
 msgctxt "Comment"
 msgid "A window on an inactive virtual desktop demands attention"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6413
+#: workspace/kwin/kwin.notifyrc:6414
 msgctxt "Name"
 msgid "Compositing Performance Is Slow"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6474
+#: workspace/kwin/kwin.notifyrc:6475
 msgctxt "Comment"
 msgid ""
 "The compositing performance was too slow and compositing has been suspended"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6536
+#: workspace/kwin/kwin.notifyrc:6537
 msgctxt "Name"
 msgid "Compositing has been suspended"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6593
+#: workspace/kwin/kwin.notifyrc:6594
 msgctxt "Comment"
 msgid "Another application has requested to suspend compositing."
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6647
+#: workspace/kwin/kwin.notifyrc:6648
 msgctxt "Name"
 msgid "Effects not supported"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6706
+#: workspace/kwin/kwin.notifyrc:6707
 msgctxt "Comment"
 msgid "Some effects are not supported by backend or hardware."
 msgstr ""
@@ -11510,7 +11543,7 @@ msgid "KDE Write Daemon"
 msgstr "Demóna zôpisu KDE"
 
 #: workspace/kwrited/kwrited-autostart.desktop:88
-#: workspace/kwrited/kwrited.desktop:15
+#: workspace/kwrited/kwrited.desktop:16
 msgctxt "Comment"
 msgid "Watch for messages from local users sent with write(1) or wall(1)"
 msgstr ""
@@ -11529,12 +11562,12 @@ msgctxt "Comment"
 msgid "Local system message service"
 msgstr ""
 
-#: workspace/kwrited/kwrited.notifyrc:15
+#: workspace/kwrited/kwrited.notifyrc:16
 msgctxt "Name"
 msgid "New message received"
 msgstr ""
 
-#: workspace/kwrited/kwrited.notifyrc:82
+#: workspace/kwrited/kwrited.notifyrc:83
 msgctxt "Comment"
 msgid "The daemon received a new message sent with wall(1) or write(1)"
 msgstr ""
@@ -11547,7 +11580,7 @@ msgctxt "Name"
 msgid "Display Management"
 msgstr "Sprôwianié lopkama"
 
-#: workspace/libs/kephal/kded_kephal/kephal.desktop:22
+#: workspace/libs/kephal/kded_kephal/kephal.desktop:23
 msgctxt "Comment"
 msgid "Manages displays and video outputs"
 msgstr ""
@@ -11682,7 +11715,7 @@ msgctxt "Name"
 msgid "Task Manager"
 msgstr "Menedżer dzejaniów"
 
-#: workspace/plasma/desktop/applets/tasks/plasma-tasks-default.desktop:77
+#: workspace/plasma/desktop/applets/tasks/plasma-tasks-default.desktop:79
 msgctxt "Comment"
 msgid "Switch between running applications"
 msgstr ""
@@ -11992,7 +12025,7 @@ msgctxt "Name"
 msgid "Status Notifier Manager"
 msgstr "Ùsłëżnota dôwaniô wiédzë dozérôcza KDE"
 
-#: workspace/plasma/generic/applets/systemtray/statusnotifierwatcher/statusnotifierwatcher.desktop:14
+#: workspace/plasma/generic/applets/systemtray/statusnotifierwatcher/statusnotifierwatcher.desktop:15
 msgctxt "Comment"
 msgid "Manages services that provide status notifier user interfaces"
 msgstr ""
@@ -12247,12 +12280,6 @@ msgstr "Terô grajë"
 msgctxt "Comment"
 msgid "Lists currently playing music"
 msgstr ""
-
-#: workspace/plasma/generic/dataengines/places/plasma-dataengine-places.desktop:2
-#: workspace/plasma/generic/runners/places/plasma-runner-places.desktop:2
-msgctxt "Name"
-msgid "Places"
-msgstr "Place"
 
 #: workspace/plasma/generic/dataengines/places/plasma-dataengine-places.desktop:72
 msgctxt "Comment"
@@ -12853,52 +12880,52 @@ msgctxt "Comment"
 msgid "Power Management"
 msgstr "Sprôwianié mòcą"
 
-#: workspace/powerdevil/powerdevil.notifyrc:168
+#: workspace/powerdevil/powerdevil.notifyrc:169
 msgctxt "Comment"
 msgid "Used for warning notifications"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:318
+#: workspace/powerdevil/powerdevil.notifyrc:319
 msgctxt "Comment"
 msgid "Used for standard notifications"
 msgstr "Brëkòwóné dlô sztandardowi notifikacëji"
 
-#: workspace/powerdevil/powerdevil.notifyrc:388
+#: workspace/powerdevil/powerdevil.notifyrc:389
 msgctxt "Name"
 msgid "Critical notification"
 msgstr "Dôwanié kriticzny wiédzë"
 
-#: workspace/powerdevil/powerdevil.notifyrc:458
+#: workspace/powerdevil/powerdevil.notifyrc:459
 msgctxt "Comment"
 msgid "Notifies a critical event"
 msgstr "Dôwô kriticzną wiedzã"
 
-#: workspace/powerdevil/powerdevil.notifyrc:529
+#: workspace/powerdevil/powerdevil.notifyrc:530
 msgctxt "Name"
 msgid "Low Battery"
 msgstr "Nisczi stón baterëji"
 
-#: workspace/powerdevil/powerdevil.notifyrc:597
+#: workspace/powerdevil/powerdevil.notifyrc:598
 msgctxt "Comment"
 msgid "Your battery has reached low level"
 msgstr "Twòjô baterëjô mô nisczi stón naładowaniô"
 
-#: workspace/powerdevil/powerdevil.notifyrc:673
+#: workspace/powerdevil/powerdevil.notifyrc:674
 msgctxt "Name"
 msgid "Battery at warning level"
 msgstr "Baro nisczi stón baterëji"
 
-#: workspace/powerdevil/powerdevil.notifyrc:743
+#: workspace/powerdevil/powerdevil.notifyrc:744
 msgctxt "Comment"
 msgid "Your battery has reached warning level"
 msgstr "Stón naładowaniô twòji baterëji je doszłi do baro nisczi lédżi"
 
-#: workspace/powerdevil/powerdevil.notifyrc:819
+#: workspace/powerdevil/powerdevil.notifyrc:820
 msgctxt "Name"
 msgid "Battery at critical level"
 msgstr "Kriticzny stón baterëji"
 
-#: workspace/powerdevil/powerdevil.notifyrc:889
+#: workspace/powerdevil/powerdevil.notifyrc:890
 msgctxt "Comment"
 msgid ""
 "Your battery has reached critical level. This notification triggers a "
@@ -12906,74 +12933,74 @@ msgid ""
 "to leave that on."
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:958
+#: workspace/powerdevil/powerdevil.notifyrc:959
 msgctxt "Name"
 msgid "AC adaptor plugged in"
 msgstr "Wëtkniãti zasëlôcz"
 
-#: workspace/powerdevil/powerdevil.notifyrc:1028
+#: workspace/powerdevil/powerdevil.notifyrc:1029
 msgctxt "Comment"
 msgid "The power adaptor has been plugged in"
 msgstr "Zasëlôcz òstôł wetkniãti"
 
-#: workspace/powerdevil/powerdevil.notifyrc:1104
+#: workspace/powerdevil/powerdevil.notifyrc:1105
 msgctxt "Name"
 msgid "AC adaptor unplugged"
 msgstr "Zasëlôcz òstôł wëjãti"
 
-#: workspace/powerdevil/powerdevil.notifyrc:1174
+#: workspace/powerdevil/powerdevil.notifyrc:1175
 msgctxt "Comment"
 msgid "The power adaptor has been unplugged"
 msgstr "Zasëlôcz òstôł wëjãti"
 
-#: workspace/powerdevil/powerdevil.notifyrc:1250
+#: workspace/powerdevil/powerdevil.notifyrc:1251
 msgctxt "Name"
 msgid "Job error"
 msgstr "Fela robòtë"
 
-#: workspace/powerdevil/powerdevil.notifyrc:1320
+#: workspace/powerdevil/powerdevil.notifyrc:1321
 msgctxt "Comment"
 msgid "There was an error while performing a job"
 msgstr "W programie pòkôza sã fela przë robòce"
 
-#: workspace/powerdevil/powerdevil.notifyrc:1392
+#: workspace/powerdevil/powerdevil.notifyrc:1393
 msgctxt "Name"
 msgid "Profile Changed"
 msgstr "Zmieniony profil"
 
-#: workspace/powerdevil/powerdevil.notifyrc:1462
+#: workspace/powerdevil/powerdevil.notifyrc:1463
 msgctxt "Comment"
 msgid "The profile was changed"
 msgstr "Profil òstôł zmieniony"
 
-#: workspace/powerdevil/powerdevil.notifyrc:1537
+#: workspace/powerdevil/powerdevil.notifyrc:1538
 msgctxt "Name"
 msgid "Performing a suspension job"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:1603
+#: workspace/powerdevil/powerdevil.notifyrc:1604
 msgctxt "Comment"
 msgid ""
 "This notification is displayed when a suspension job is about to be done, "
 "and it triggers a countdown. Hence, it is strongly advised to leave it on."
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:1667
+#: workspace/powerdevil/powerdevil.notifyrc:1668
 msgctxt "Name"
 msgid "Internal PowerDevil Error"
 msgstr "Bënowô fela PowerDevil"
 
-#: workspace/powerdevil/powerdevil.notifyrc:1734
+#: workspace/powerdevil/powerdevil.notifyrc:1735
 msgctxt "Comment"
 msgid "PowerDevil has triggered an internal error"
 msgstr "PowerDevil doprowôdzëł do bënowi felë"
 
-#: workspace/powerdevil/powerdevil.notifyrc:1804
+#: workspace/powerdevil/powerdevil.notifyrc:1805
 msgctxt "Name"
 msgid "Suspension inhibited"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:1867
+#: workspace/powerdevil/powerdevil.notifyrc:1868
 msgctxt "Comment"
 msgid "The suspension has been inhibited because an application requested it"
 msgstr ""
@@ -13026,7 +13053,7 @@ msgctxt "Name"
 msgid "Network Status"
 msgstr "Sécowi nastôw"
 
-#: workspace/solid/networking/kded/networkstatus.desktop:15
+#: workspace/solid/networking/kded/networkstatus.desktop:16
 msgctxt "Comment"
 msgid ""
 "Tracks status of network interfaces and provides notification to "
