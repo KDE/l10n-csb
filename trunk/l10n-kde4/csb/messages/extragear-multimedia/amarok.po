@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-30 04:36+0200\n"
+"POT-Creation-Date: 2010-03-31 04:37+0200\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -6341,7 +6341,7 @@ msgstr "Włączony"
 #: context/applets/photos/PhotosApplet.cpp:134
 #: context/applets/similarartists/SimilarArtistsApplet.cpp:261
 #: context/engines/current/CurrentEngine.cpp:150 mac/GrowlInterface.cpp:39
-#: EngineController.cpp:1262 widgets/Osd.cpp:578
+#: EngineController.cpp:1270 widgets/Osd.cpp:578
 msgid "No track playing"
 msgstr "Nick nie je gróné"
 
@@ -7041,137 +7041,6 @@ msgstr "%1 - %2 (%3)"
 msgid "Lyrics data could not be parsed"
 msgstr "Pòdôwczi tekstu ni mòga òstac òdczëtóné"
 
-#: covermanager/CoverFoundDialog.cpp:77
-#, fuzzy
-#| msgid "Fetching cover for %1..."
-msgid "Finding cover for"
-msgstr "Ladowanié òbkłôdczi dlô %1..."
-
-#: covermanager/CoverFoundDialog.cpp:93
-#, fuzzy
-#| msgid "Set Custom Cover"
-msgid "Enter Custom Search"
-msgstr "Ùstôwi &swòją òbkłôdkã"
-
-#: covermanager/CoverFoundDialog.cpp:119
-#, fuzzy
-#| msgid "last.fm"
-msgid "Last.fm"
-msgstr "last.fm"
-
-#: covermanager/CoverFoundDialog.cpp:120
-#, fuzzy
-#| msgid "Goto"
-msgid "Google"
-msgstr "Biéj do"
-
-#: covermanager/CoverFoundDialog.cpp:121
-msgid "Yahoo!"
-msgstr ""
-
-#: covermanager/CoverFoundDialog.cpp:122
-#, fuzzy
-#| msgid "Disc #"
-msgid "Discogs"
-msgstr "Disk #"
-
-#: covermanager/CoverFoundDialog.cpp:132
-msgid "Sort by size"
-msgstr ""
-
-#: covermanager/CoverFoundDialog.cpp:311
-#: covermanager/CoverFetchingActions.cpp:66
-msgid "Display Cover"
-msgstr "Pòkażë wòbkłôdkã"
-
-#: covermanager/CoverFoundDialog.cpp:434
-#, fuzzy
-#| msgid "Text color:"
-msgid "Text completion"
-msgstr "Farwa tekstu"
-
-#: covermanager/CoverFoundDialog.cpp:435
-msgid "Switch to previous completion"
-msgstr ""
-
-#: covermanager/CoverFoundDialog.cpp:436
-#, fuzzy
-#| msgid "Stream options"
-msgid "Switch to next completion"
-msgstr "Òptacëjë strëdżi"
-
-#: covermanager/CoverFoundDialog.cpp:437
-msgid "Substring completion"
-msgstr ""
-
-#: covermanager/CoverFoundDialog.cpp:433
-#, kde-format
-msgid ""
-"<b>Useful text completion shortcuts:</b><br> %1 (%2)<br> %3 (%4)<br> %5 (%6)"
-"<br> %7 (%8)"
-msgstr ""
-
-#: covermanager/CoverFoundDialog.cpp:484
-#, fuzzy
-#| msgid "&Search"
-msgid "Search"
-msgstr "&Szëkba"
-
-#: covermanager/CoverFoundDialog.cpp:484
-#, fuzzy
-#| msgid "MusicBrainz Results"
-msgid "Search For More Results"
-msgstr "Rezultatë MusicBrainz"
-
-#: covermanager/CoverFoundDialog.cpp:500
-#, fuzzy
-#| msgid "No purchases found."
-msgid "No Images Found"
-msgstr "Nie je nalazłé niżódné zamówienié."
-
-#: covermanager/CoverFoundDialog.cpp:501
-#, kde-format
-msgid "1 Image Found"
-msgid_plural "%1 Images Found"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
-#: covermanager/CoverFoundDialog.cpp:525
-#, fuzzy
-#| msgid "Track Information"
-msgid "Information"
-msgstr "Wrdowiédzô ò sztëczkù"
-
-#: covermanager/CoverFoundDialog.cpp:526
-#, fuzzy
-#| msgid "None"
-msgid "Notes"
-msgstr "Felënk"
-
-#: covermanager/CoverFoundDialog.cpp:601
-#, fuzzy, kde-format
-#| msgid "<b>%1</b>"
-msgid "<b>%1:</b>"
-msgstr "<b>%1</b>"
-
-#: covermanager/CoverFoundDialog.cpp:631
-#, kde-format
-msgid "<a href=\"%1\">link</a>"
-msgstr ""
-
-#: covermanager/CoverFoundDialog.cpp:637
-#, fuzzy
-#| msgid "<b>%1</b>"
-msgid "<b>URL:</b>"
-msgstr "<b>%1</b>"
-
-#: covermanager/CoverFoundDialog.cpp:723
-#, fuzzy
-#| msgid "Fetching Cover"
-msgid "Fetching Large Cover"
-msgstr "Ladowanié òbkłôdczi"
-
 #: covermanager/CoverViewDialog.h:44 covermanager/CoverManager.cpp:846
 #: services/lastfm/meta/LastFmMeta.cpp:137
 #: core-implementations/collections/sqlcollection/SqlMeta.cpp:243
@@ -7240,6 +7109,11 @@ msgid_plural "Fetch artwork for %1 albums"
 msgstr[0] "Zladëjë òbkłôdkã dlô tegò albùmù"
 msgstr[1] "Zladëjë òbkłôdkã dlô nëch %1 albùmów"
 msgstr[2] "Zladëjë òbkłôdkã dlô nëch %1 albùmów"
+
+#: covermanager/CoverFetchingActions.cpp:66
+#: covermanager/CoverFoundDialog.cpp:311
+msgid "Display Cover"
+msgstr "Pòkażë wòbkłôdkã"
 
 #: covermanager/CoverFetchingActions.cpp:68
 msgid "Display artwork for this album"
@@ -7412,6 +7286,132 @@ msgstr "Òbkłôdka"
 #: covermanager/CoverManager.cpp:866
 msgid "No Artist"
 msgstr "Felëje artistë"
+
+#: covermanager/CoverFoundDialog.cpp:77
+#, fuzzy
+#| msgid "Fetching cover for %1..."
+msgid "Finding cover for"
+msgstr "Ladowanié òbkłôdczi dlô %1..."
+
+#: covermanager/CoverFoundDialog.cpp:93
+#, fuzzy
+#| msgid "Set Custom Cover"
+msgid "Enter Custom Search"
+msgstr "Ùstôwi &swòją òbkłôdkã"
+
+#: covermanager/CoverFoundDialog.cpp:119
+#, fuzzy
+#| msgid "last.fm"
+msgid "Last.fm"
+msgstr "last.fm"
+
+#: covermanager/CoverFoundDialog.cpp:120
+#, fuzzy
+#| msgid "Goto"
+msgid "Google"
+msgstr "Biéj do"
+
+#: covermanager/CoverFoundDialog.cpp:121
+msgid "Yahoo!"
+msgstr ""
+
+#: covermanager/CoverFoundDialog.cpp:122
+#, fuzzy
+#| msgid "Disc #"
+msgid "Discogs"
+msgstr "Disk #"
+
+#: covermanager/CoverFoundDialog.cpp:132
+msgid "Sort by size"
+msgstr ""
+
+#: covermanager/CoverFoundDialog.cpp:434
+#, fuzzy
+#| msgid "Text color:"
+msgid "Text completion"
+msgstr "Farwa tekstu"
+
+#: covermanager/CoverFoundDialog.cpp:435
+msgid "Switch to previous completion"
+msgstr ""
+
+#: covermanager/CoverFoundDialog.cpp:436
+#, fuzzy
+#| msgid "Stream options"
+msgid "Switch to next completion"
+msgstr "Òptacëjë strëdżi"
+
+#: covermanager/CoverFoundDialog.cpp:437
+msgid "Substring completion"
+msgstr ""
+
+#: covermanager/CoverFoundDialog.cpp:433
+#, kde-format
+msgid ""
+"<b>Useful text completion shortcuts:</b><br> %1 (%2)<br> %3 (%4)<br> %5 (%6)"
+"<br> %7 (%8)"
+msgstr ""
+
+#: covermanager/CoverFoundDialog.cpp:484
+#, fuzzy
+#| msgid "&Search"
+msgid "Search"
+msgstr "&Szëkba"
+
+#: covermanager/CoverFoundDialog.cpp:484
+#, fuzzy
+#| msgid "MusicBrainz Results"
+msgid "Search For More Results"
+msgstr "Rezultatë MusicBrainz"
+
+#: covermanager/CoverFoundDialog.cpp:500
+#, fuzzy
+#| msgid "No purchases found."
+msgid "No Images Found"
+msgstr "Nie je nalazłé niżódné zamówienié."
+
+#: covermanager/CoverFoundDialog.cpp:501
+#, kde-format
+msgid "1 Image Found"
+msgid_plural "%1 Images Found"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: covermanager/CoverFoundDialog.cpp:525
+#, fuzzy
+#| msgid "Track Information"
+msgid "Information"
+msgstr "Wrdowiédzô ò sztëczkù"
+
+#: covermanager/CoverFoundDialog.cpp:526
+#, fuzzy
+#| msgid "None"
+msgid "Notes"
+msgstr "Felënk"
+
+#: covermanager/CoverFoundDialog.cpp:601
+#, fuzzy, kde-format
+#| msgid "<b>%1</b>"
+msgid "<b>%1:</b>"
+msgstr "<b>%1</b>"
+
+#: covermanager/CoverFoundDialog.cpp:631
+#, kde-format
+msgid "<a href=\"%1\">link</a>"
+msgstr ""
+
+#: covermanager/CoverFoundDialog.cpp:637
+#, fuzzy
+#| msgid "<b>%1</b>"
+msgid "<b>URL:</b>"
+msgstr "<b>%1</b>"
+
+#: covermanager/CoverFoundDialog.cpp:723
+#, fuzzy
+#| msgid "Fetching Cover"
+msgid "Fetching Large Cover"
+msgstr "Ladowanié òbkłôdczi"
 
 #: databaseimporter/amarok14/FastForwardImporterConfig.cpp:36
 msgid "Connection"
@@ -9045,29 +9045,29 @@ msgstr ""
 msgid "Preamp"
 msgstr "Strëga"
 
-#: EngineController.cpp:1232
+#: EngineController.cpp:1240
 #, kde-format
 msgctxt "track by artist on album"
 msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgstr "<b>%1</b> wëkònywóné przez <b>%2</b> z albùmù <b>%3</b>"
 
-#: EngineController.cpp:1235
+#: EngineController.cpp:1243
 #, kde-format
 msgctxt "track by artist"
 msgid "<b>%1</b> by <b>%2</b>"
 msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
 
-#: EngineController.cpp:1239
+#: EngineController.cpp:1247
 #, kde-format
 msgctxt "track on album"
 msgid "<b>%1</b> on <b>%2</b>"
 msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
 
-#: EngineController.cpp:1244
+#: EngineController.cpp:1252
 msgid "Unknown track"
 msgstr "Nieznóny sztëczk"
 
-#: EngineController.cpp:1251
+#: EngineController.cpp:1259
 #, fuzzy, kde-format
 #| msgid " on <b>%1</b>"
 msgctxt "track from source"
