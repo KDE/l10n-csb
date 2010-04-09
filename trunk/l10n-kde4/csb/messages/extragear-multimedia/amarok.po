@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-08 04:36+0200\n"
+"POT-Creation-Date: 2010-04-09 05:07+0200\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -1620,13 +1620,13 @@ msgstr[2] "Rëmanié traków z ùrządzenia"
 
 #: core-impl/collections/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.cpp:115
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:121
-#: playlistmanager/PlaylistManager.cpp:252
+#: playlistmanager/PlaylistManager.cpp:253
 msgid "Change playlist"
 msgstr "Zmieni lëstã graniô"
 
 #: core-impl/collections/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.cpp:116
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:122
-#: playlistmanager/PlaylistManager.cpp:253
+#: playlistmanager/PlaylistManager.cpp:254
 msgid "Enter new name for playlist:"
 msgstr "Wpiszë nowé miono dlô lëstë graniô:"
 
@@ -1948,7 +1948,7 @@ msgstr "Rëmniãcé lopków"
 
 #: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:251
 #: browsers/filebrowser/FileView.cpp:456
-#: playlistmanager/file/PlaylistFileProvider.cpp:271
+#: playlistmanager/file/PlaylistFileProvider.cpp:272
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:238
 #, fuzzy
 #| msgid "Configure Playback"
@@ -2736,7 +2736,7 @@ msgstr "Albùm"
 #: dialogs/FilenameLayoutDialog.cpp:219 dialogs/FilenameLayoutDialog.cpp:556
 #: dialogs/transferdialog.cpp:88 playlist/PlaylistModel.cpp:696
 #: playlist/PlaylistHeader.cpp:40 services/jamendo/JamendoInfoParser.cpp:51
-#: services/lastfm/LastFmService.cpp:537
+#: services/lastfm/LastFmService.cpp:539
 #: services/magnatune/MagnatuneStore.cpp:215
 #: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
 #: rc.cpp:1263
@@ -2805,13 +2805,13 @@ msgid "Artist / Album"
 msgstr "Artista / Albùm"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:109
-#: services/jamendo/JamendoService.cpp:150
+#: services/jamendo/JamendoService.cpp:152
 #: services/magnatune/MagnatuneStore.cpp:224
 msgid "Genre / Artist"
 msgstr "Zort / Artista"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:113
-#: services/jamendo/JamendoService.cpp:153
+#: services/jamendo/JamendoService.cpp:155
 #: services/magnatune/MagnatuneStore.cpp:227
 msgid "Genre / Artist / Album"
 msgstr "Zort / Artista / Albùm"
@@ -2846,7 +2846,7 @@ msgid "Show Cover Art"
 msgstr "Pòkażë òbkłôdkã"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:319
-#: services/jamendo/JamendoService.cpp:156
+#: services/jamendo/JamendoService.cpp:158
 #: services/magnatune/MagnatuneStore.cpp:230
 msgid "Sort Options"
 msgstr "Zortëjë òptacëje"
@@ -2927,7 +2927,7 @@ msgstr[1] "Na gwës chcesz rëmnąc %1?"
 msgstr[2] "Na gwës chcesz rëmnąc %1?"
 
 #: browsers/filebrowser/FileView.cpp:463
-#: playlistmanager/file/PlaylistFileProvider.cpp:278
+#: playlistmanager/file/PlaylistFileProvider.cpp:279
 msgid "Yes, delete from disk."
 msgstr ""
 
@@ -3750,7 +3750,9 @@ msgstr "Ùstawë"
 msgid "Photos"
 msgstr "Òbrazczi"
 
-#: context/applets/photos/PhotosApplet.cpp:94
+#. i18n: file: context/applets/photos/photosSettings.ui:52
+#. i18n: ectx: property (text), item, widget (KComboBox, animationComboBox)
+#: context/applets/photos/PhotosApplet.cpp:94 rc.cpp:909
 #, fuzzy
 #| msgid "Automatic"
 msgctxt "animation type"
@@ -3898,8 +3900,13 @@ msgstr "Sztëczk"
 msgid "Reload"
 msgstr "Zladëjë znôù"
 
+#. i18n: file: context/applets/wikipedia/wikipediaSettings.ui:24
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
+#. i18n: file: context/applets/similarartists/similarArtistsSettings.ui:56
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
 #: context/applets/wikipedia/WikipediaApplet.cpp:407
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:325
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:325 rc.cpp:935
+#: rc.cpp:971
 #, fuzzy
 #| msgid "Automatic"
 msgctxt "automatic language selection"
@@ -5758,17 +5765,6 @@ msgstr "Ùsôdzanié lëstë graniô..."
 msgid "No information available for this track"
 msgstr "Felënk wëdowiédzé dlô tegò titla"
 
-#: playlistgenerator/ConstraintSolver.cpp:228
-msgid "The playlist generator failed to load any tracks from the collection."
-msgstr ""
-
-#: playlistgenerator/ConstraintSolver.cpp:235
-msgid ""
-"There are no tracks that match all constraints.  The playlist generator will "
-"find the tracks that match best, but you may want to consider loosening the "
-"constraints to find more tracks."
-msgstr ""
-
 #: playlistgenerator/Preset.cpp:41 playlistgenerator/Preset.cpp:54
 #, fuzzy
 #| msgid "New playlist layout"
@@ -6083,6 +6079,17 @@ msgstr ""
 #| msgid "part"
 msgid "Export"
 msgstr "part"
+
+#: playlistgenerator/ConstraintSolver.cpp:229
+msgid "The playlist generator failed to load any tracks from the collection."
+msgstr ""
+
+#: playlistgenerator/ConstraintSolver.cpp:236
+msgid ""
+"There are no tracks that match all constraints.  The playlist generator will "
+"find the tracks that match best, but you may want to consider loosening the "
+"constraints to find more tracks."
+msgstr ""
 
 #: playlist/PlaylistBreadcrumbItem.cpp:110
 #, fuzzy
@@ -6771,14 +6778,14 @@ msgstr "Sztëczk przesëniãti"
 msgid "Too many errors encountered in playlist. Playback stopped."
 msgstr ""
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:78
+#: playlistmanager/file/PlaylistFileProvider.cpp:79
 #, fuzzy
 #| msgid "Playlist Files"
 msgid "Playlist Files on Disk"
 msgstr "Lopczi lëstë gróniô"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:130
-#: playlistmanager/file/PlaylistFileProvider.cpp:139
+#: playlistmanager/file/PlaylistFileProvider.cpp:131
+#: playlistmanager/file/PlaylistFileProvider.cpp:140
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:199
 #, fuzzy, kde-format
 #| msgid "Remove %1"
@@ -6790,11 +6797,11 @@ msgstr "Rëmôj %1"
 #. i18n: ectx: property (text), widget (QPushButton, removeButton)
 #. i18n: file: services/ampache/AmpacheConfigWidget.ui:98
 #. i18n: ectx: property (text), widget (KPushButton, removeButton)
-#: playlistmanager/file/PlaylistFileProvider.cpp:156 rc.cpp:1196 rc.cpp:1928
+#: playlistmanager/file/PlaylistFileProvider.cpp:157 rc.cpp:1196 rc.cpp:1928
 msgid "Remove"
 msgstr "Rëmôj"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:273
+#: playlistmanager/file/PlaylistFileProvider.cpp:274
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:240
 #, fuzzy, kde-format
 #| msgid "Do you really want to remove this %1?"
@@ -6804,8 +6811,8 @@ msgstr[0] "Na gwës chcesz rëmnąc %1?"
 msgstr[1] "Na gwës chcesz rëmnąc %1?"
 msgstr[2] "Na gwës chcesz rëmnąc %1?"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:320
-#: playlistmanager/file/PlaylistFileProvider.cpp:346
+#: playlistmanager/file/PlaylistFileProvider.cpp:321
+#: playlistmanager/file/PlaylistFileProvider.cpp:347
 #, fuzzy, kde-format
 #| msgid "This object could not be created."
 msgid "The playlist file \"%1\" could not be loaded."
@@ -6855,7 +6862,7 @@ msgstr "&Rëmôj"
 msgid "Yes, delete from database."
 msgstr ""
 
-#: playlistmanager/PlaylistManager.cpp:176
+#: playlistmanager/PlaylistManager.cpp:177
 msgid "Downloading Playlist"
 msgstr "Ladowanié lëstë gróniô"
 
@@ -6943,11 +6950,11 @@ msgstr "Nie są nalazłé tekstë dlô tegò sztëczka"
 msgid "Ampache Server %1"
 msgstr "Serwera Ampache %1"
 
-#: services/ampache/AmpacheService.cpp:125
+#: services/ampache/AmpacheService.cpp:126
 msgid "Amarok frontend for your Ampache server."
 msgstr "Nakłôdka Amaroka na twòją serwerã Ampache."
 
-#: services/ampache/AmpacheService.cpp:127
+#: services/ampache/AmpacheService.cpp:128
 msgid ""
 "Use Amarok as a seamless frontend to your Ampache server. This lets you "
 "browse and play all the Ampache contents from within Amarok."
@@ -6955,15 +6962,15 @@ msgstr ""
 "Brëkùjë Amaroka jakno jedny le nôkładczi na twòją serwerã Ampache. To "
 "pòzwôlô ce przezérac ë grac całą zamkłosc Ampache brëkùjącë Amaroka."
 
-#: services/ampache/AmpacheService.cpp:212
+#: services/ampache/AmpacheService.cpp:213
 msgid "Enter the server name and a password"
 msgstr "Wpiszë miono serwerë ë parolã"
 
-#: services/ampache/AmpacheService.cpp:271
+#: services/ampache/AmpacheService.cpp:272
 msgid "Authenticating with Ampache"
 msgstr "Ùdowiérzanié z Ampache"
 
-#: services/ampache/AmpacheService.cpp:299
+#: services/ampache/AmpacheService.cpp:300
 msgid "Authentication Error"
 msgstr "Fela ùdowiérzania"
 
@@ -6993,7 +7000,39 @@ msgstr "Jamendo.com: &Ladëjë"
 msgid "A site where artists can freely share their music"
 msgstr "Starna na chtërny artistowie mògą dzelec sã swòją mùzyką"
 
-#: services/jamendo/JamendoXmlParser.cpp:152
+#: services/jamendo/JamendoService.cpp:79
+msgid "A site where artists can showcase their creations to the world"
+msgstr "Starna na chtërny artistowie mògò pòkazac swòje sztëcczi swiatu"
+
+#: services/jamendo/JamendoService.cpp:82
+msgid ""
+"Jamendo.com puts artists and music lovers in touch with each other. The site "
+"allows artists to upload their own albums to share them with the world and "
+"users to download all of them for free. Listen to and download all Jamendo."
+"com contents from within Amarok."
+msgstr ""
+
+#: services/jamendo/JamendoService.cpp:118
+#: services/opmldirectory/OpmlDirectoryService.cpp:102
+msgctxt "Fetch new information from the website"
+msgid "Update"
+msgstr "Aktualizacëjô"
+
+#. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:95
+#. i18n: ectx: property (text), item, widget (QComboBox, typeComboBox)
+#: services/jamendo/JamendoService.cpp:124 rc.cpp:2040
+msgid "Download"
+msgstr "Zladënk"
+
+#: services/jamendo/JamendoService.cpp:188
+msgid "Downloading Jamendo.com Database"
+msgstr "Ladowanié bazë pòdôwków Jamendo"
+
+#: services/jamendo/JamendoService.cpp:210
+msgid "Updating the local Jamendo database."
+msgstr "Zaktualnianié môlowi bazë pòdôwków Jamendo."
+
+#: services/jamendo/JamendoXmlParser.cpp:153
 #, kde-format
 msgctxt ""
 "First part of: Jamendo.com database update complete. Added 3 tracks on 4 "
@@ -7006,7 +7045,7 @@ msgstr[1] ""
 msgstr[2] ""
 "Zaktualnianié bazë pòdôwków Jamendo je ju fardich. Dodóno %1 sztëczków"
 
-#: services/jamendo/JamendoXmlParser.cpp:153
+#: services/jamendo/JamendoXmlParser.cpp:154
 #, kde-format
 msgctxt ""
 "Middle part of: Jamendo.com database update complete. Added 3 tracks on 4 "
@@ -7017,7 +7056,7 @@ msgstr[0] "1 albùm z"
 msgstr[1] "%1 albùmë z"
 msgstr[2] "%1 albùmów z"
 
-#: services/jamendo/JamendoXmlParser.cpp:154
+#: services/jamendo/JamendoXmlParser.cpp:155
 #, kde-format
 msgctxt ""
 "Last part of: Jamendo.com database update complete. Added 3 tracks on 4 "
@@ -7028,40 +7067,8 @@ msgstr[0] "1 artista."
 msgstr[1] "%1 artistów."
 msgstr[2] "%1 artistów."
 
-#: services/jamendo/JamendoService.cpp:77
-msgid "A site where artists can showcase their creations to the world"
-msgstr "Starna na chtërny artistowie mògò pòkazac swòje sztëcczi swiatu"
-
-#: services/jamendo/JamendoService.cpp:80
-msgid ""
-"Jamendo.com puts artists and music lovers in touch with each other. The site "
-"allows artists to upload their own albums to share them with the world and "
-"users to download all of them for free. Listen to and download all Jamendo."
-"com contents from within Amarok."
-msgstr ""
-
-#: services/jamendo/JamendoService.cpp:116
-#: services/opmldirectory/OpmlDirectoryService.cpp:102
-msgctxt "Fetch new information from the website"
-msgid "Update"
-msgstr "Aktualizacëjô"
-
-#. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:95
-#. i18n: ectx: property (text), item, widget (QComboBox, typeComboBox)
-#: services/jamendo/JamendoService.cpp:122 rc.cpp:2040
-msgid "Download"
-msgstr "Zladënk"
-
-#: services/jamendo/JamendoService.cpp:186
-msgid "Downloading Jamendo.com Database"
-msgstr "Ladowanié bazë pòdôwków Jamendo"
-
-#: services/jamendo/JamendoService.cpp:209
-msgid "Updating the local Jamendo database."
-msgstr "Zaktualnianié môlowi bazë pòdôwków Jamendo."
-
 #: services/lastfm/LoveTrackAction.cpp:25
-#: services/lastfm/LastFmService.cpp:298
+#: services/lastfm/LastFmService.cpp:299
 msgid "Last.fm: Love"
 msgstr "Last.fm: Lubòtné"
 
@@ -7237,83 +7244,6 @@ msgstr "Testowi login"
 msgid "&Test Login"
 msgstr "&Testowi login"
 
-#: services/lastfm/ScrobblerAdapter.cpp:218
-#: services/lastfm/LastFmService.cpp:573
-#, kde-format
-msgctxt "As in, lastfm"
-msgid "Loved Track: %1"
-msgstr "Lubòtny sztëczk: %1"
-
-#: services/lastfm/LastFmService.cpp:197
-msgid "Last.fm: The social music revolution"
-msgstr "Last.fm: Spòlëznowa mùzycznô rewòlucëja"
-
-#: services/lastfm/LastFmService.cpp:199
-msgid ""
-"Last.fm is a popular online service that provides personal radio stations "
-"and music recommendations. A personal listening station is tailored based on "
-"your listening habits and provides you with recommendations for new music. "
-"It is also possible to play stations with music that is similar to a "
-"particular artist as well as listen to streams from people you have added as "
-"friends or that last.fm considers your musical \"neighbors\""
-msgstr ""
-
-#: services/lastfm/LastFmService.cpp:300
-msgid "Ctrl+L"
-msgstr "Ctrl+L"
-
-#: services/lastfm/LastFmService.cpp:352
-msgctxt "Last.fm: errorMessage"
-msgid "Either the username was not recognized, or the password was incorrect."
-msgstr "Abò miono brëkòwnika nie je rozpòznóné abò parola je ze zmiłką."
-
-#: services/lastfm/LastFmService.cpp:356
-msgctxt "Last.fm: errorMessage"
-msgid ""
-"There was a problem communicating with the Last.fm services. Please try "
-"again later."
-msgstr ""
-
-#: services/lastfm/LastFmService.cpp:443
-msgid "Enter an artist name"
-msgstr "Wpiszë miono artistë"
-
-#: services/lastfm/LastFmService.cpp:446
-msgid "Enter a tag"
-msgstr "Wpiszë tag"
-
-#: services/lastfm/LastFmService.cpp:449
-msgid "Enter a last.fm user name"
-msgstr "Wpiszë miono brëkòwnika Last.fm"
-
-#: services/lastfm/LastFmService.cpp:462
-msgid "Username: "
-msgstr "Miono brëkòwnika:"
-
-#: services/lastfm/LastFmService.cpp:467
-#, kde-format
-msgid "Play Count: %1 play"
-msgid_plural "Play Count: %1 plays"
-msgstr[0] "Rechòwnik graniô: %1 granié"
-msgstr[1] "Rechòwnik graniô: %1 grania"
-msgstr[2] "Rechòwnik graniô: %1 graniów"
-
-#: services/lastfm/LastFmService.cpp:477
-msgid "Enter login information for Last.fm"
-msgstr "Wpiszr wëdowiédzë ò loginie do Last.fm"
-
-#: services/lastfm/LastFmService.cpp:534
-msgid "Create a Custom Last.fm Station"
-msgstr "ùsôdzë swòją stacëjã Last.fm"
-
-#: services/lastfm/LastFmService.cpp:537
-msgid "Tag"
-msgstr "Tag"
-
-#: services/lastfm/LastFmService.cpp:537
-msgid "User"
-msgstr "Brëkòwnik"
-
 #: services/lastfm/LastFmServiceCollection.cpp:42
 #, kde-format
 msgid "%1's Streams"
@@ -7390,6 +7320,83 @@ msgstr "Sąsedzë"
 #: services/lastfm/SimilarArtistsAction.cpp:26
 msgid "Play Similar Artists from Last.fm"
 msgstr "Grôj juwernëch artistów z Last.fm"
+
+#: services/lastfm/LastFmService.cpp:198
+msgid "Last.fm: The social music revolution"
+msgstr "Last.fm: Spòlëznowa mùzycznô rewòlucëja"
+
+#: services/lastfm/LastFmService.cpp:200
+msgid ""
+"Last.fm is a popular online service that provides personal radio stations "
+"and music recommendations. A personal listening station is tailored based on "
+"your listening habits and provides you with recommendations for new music. "
+"It is also possible to play stations with music that is similar to a "
+"particular artist as well as listen to streams from people you have added as "
+"friends or that last.fm considers your musical \"neighbors\""
+msgstr ""
+
+#: services/lastfm/LastFmService.cpp:301
+msgid "Ctrl+L"
+msgstr "Ctrl+L"
+
+#: services/lastfm/LastFmService.cpp:354
+msgctxt "Last.fm: errorMessage"
+msgid "Either the username was not recognized, or the password was incorrect."
+msgstr "Abò miono brëkòwnika nie je rozpòznóné abò parola je ze zmiłką."
+
+#: services/lastfm/LastFmService.cpp:358
+msgctxt "Last.fm: errorMessage"
+msgid ""
+"There was a problem communicating with the Last.fm services. Please try "
+"again later."
+msgstr ""
+
+#: services/lastfm/LastFmService.cpp:445
+msgid "Enter an artist name"
+msgstr "Wpiszë miono artistë"
+
+#: services/lastfm/LastFmService.cpp:448
+msgid "Enter a tag"
+msgstr "Wpiszë tag"
+
+#: services/lastfm/LastFmService.cpp:451
+msgid "Enter a last.fm user name"
+msgstr "Wpiszë miono brëkòwnika Last.fm"
+
+#: services/lastfm/LastFmService.cpp:464
+msgid "Username: "
+msgstr "Miono brëkòwnika:"
+
+#: services/lastfm/LastFmService.cpp:469
+#, kde-format
+msgid "Play Count: %1 play"
+msgid_plural "Play Count: %1 plays"
+msgstr[0] "Rechòwnik graniô: %1 granié"
+msgstr[1] "Rechòwnik graniô: %1 grania"
+msgstr[2] "Rechòwnik graniô: %1 graniów"
+
+#: services/lastfm/LastFmService.cpp:479
+msgid "Enter login information for Last.fm"
+msgstr "Wpiszr wëdowiédzë ò loginie do Last.fm"
+
+#: services/lastfm/LastFmService.cpp:536
+msgid "Create a Custom Last.fm Station"
+msgstr "ùsôdzë swòją stacëjã Last.fm"
+
+#: services/lastfm/LastFmService.cpp:539
+msgid "Tag"
+msgstr "Tag"
+
+#: services/lastfm/LastFmService.cpp:539
+msgid "User"
+msgstr "Brëkòwnik"
+
+#: services/lastfm/LastFmService.cpp:575
+#: services/lastfm/ScrobblerAdapter.cpp:219
+#, kde-format
+msgctxt "As in, lastfm"
+msgid "Loved Track: %1"
+msgstr "Lubòtny sztëczk: %1"
 
 #: services/magnatune/MagnatuneInfoParser.cpp:31
 msgid "Loading artist info..."
@@ -7559,7 +7566,7 @@ msgstr ""
 msgid "Getting list of previous Magnatune.com purchases"
 msgstr ""
 
-#: services/magnatune/MagnatuneXmlParser.cpp:62
+#: services/magnatune/MagnatuneXmlParser.cpp:57
 #, kde-format
 msgctxt ""
 "First part of: Magnatune.com database update complete. Added 3 tracks on 4 "
@@ -7570,7 +7577,7 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: services/magnatune/MagnatuneXmlParser.cpp:63
+#: services/magnatune/MagnatuneXmlParser.cpp:58
 #, kde-format
 msgctxt ""
 "Middle part of: Magnatune.com database update complete. Added 3 tracks on 4 "
@@ -7581,7 +7588,7 @@ msgstr[0] "1 albùm z"
 msgstr[1] "%1 albùmë z"
 msgstr[2] "%1 albùmów z"
 
-#: services/magnatune/MagnatuneXmlParser.cpp:64
+#: services/magnatune/MagnatuneXmlParser.cpp:59
 #, kde-format
 msgctxt ""
 "Last part of: Magnatune.com database update complete. Added 3 tracks on 4 "
@@ -10480,16 +10487,6 @@ msgstr ""
 msgid "Animation"
 msgstr "Kònfigùracëjô"
 
-#. i18n: file: context/applets/photos/photosSettings.ui:52
-#. i18n: ectx: property (text), item, widget (KComboBox, animationComboBox)
-#. i18n: file: context/applets/wikipedia/wikipediaSettings.ui:24
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
-#. i18n: file: context/applets/similarartists/similarArtistsSettings.ui:56
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
-#: rc.cpp:909 rc.cpp:935 rc.cpp:971
-msgid "Automatic"
-msgstr "Aùtomatno"
-
 #. i18n: file: context/applets/photos/photosSettings.ui:70
 #. i18n: ectx: property (text), widget (QLabel, numberofphotosLabel)
 #: rc.cpp:918
@@ -12629,6 +12626,9 @@ msgstr "Trib aùdio"
 #: k3bexporter.cpp:245
 msgid "Data Mode"
 msgstr "Trib pòdôwków"
+
+#~ msgid "Automatic"
+#~ msgstr "Aùtomatno"
 
 #, fuzzy
 #~| msgid "Url:"
