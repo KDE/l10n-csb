@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-13 05:35+0200\n"
+"POT-Creation-Date: 2010-04-14 04:58+0200\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -6887,8 +6887,8 @@ msgid "bitrate"
 msgstr "Chùtkòsc transmisëji"
 
 #: browsers/CollectionTreeItemModelBase.cpp:634
-#: playlistgenerator/constraints/TagMatch.cpp:677
 #: playlistgenerator/constraints/TagMatchFieldsModel.cpp:95
+#: playlistgenerator/constraints/TagMatch.cpp:677
 msgid "rating"
 msgstr "notowanié"
 
@@ -6909,10 +6909,10 @@ msgid "samplerate"
 msgstr "Probkòwanié:"
 
 #: browsers/CollectionTreeItemModelBase.cpp:650
+#: playlistgenerator/constraints/TagMatchFieldsModel.cpp:92
 #: playlistgenerator/constraints/TagMatch.cpp:176
 #: playlistgenerator/constraints/TagMatch.cpp:191
 #: playlistgenerator/constraints/TagMatch.cpp:681
-#: playlistgenerator/constraints/TagMatchFieldsModel.cpp:92
 msgid "length"
 msgstr "długòta"
 
@@ -7795,11 +7795,21 @@ msgid "There were no lyrics found for this track"
 msgstr "Nie są nalazłé tekstë dlô tegò sztëczka"
 
 #: context/applets/lyrics/LyricsApplet.cpp:391
+#, fuzzy
+#| msgctxt "@info"
+#| msgid ""
+#| "Do you really want to delete this track? It will be removed from disk as "
+#| "well as your collection."
+#| msgid_plural ""
+#| "Do you really want to delete these %1 tracks? They will be removed from "
+#| "disk as well as your collection."
 msgctxt "@info"
 msgid ""
-"Do you really want to refetch lyrics for this track ? All changes you may "
+"Do you really want to refetch lyrics for this track? All changes you may "
 "have made will be lost."
 msgstr ""
+"Na gwës chcesz rëmnąc nen titel? Òstanie rëmniãti tak z diskù jak ë z twòji "
+"kòlekcëji."
 
 #: context/applets/lyrics/LyricsApplet.cpp:392
 #, fuzzy
@@ -9747,49 +9757,6 @@ msgstr "Lësta_gróniô_%1"
 msgid "unknown comparison"
 msgstr "Nieznony zort"
 
-#: playlistgenerator/constraints/PreventDuplicates.cpp:52
-#, fuzzy
-#| msgid "Remove Applet"
-msgid "PreventDuplicates"
-msgstr "Rëmôj aplet"
-
-#: playlistgenerator/constraints/PreventDuplicates.cpp:53
-msgid ""
-"Prevents duplicate tracks, albums, or artists from appearing in the playlist"
-msgstr ""
-
-#: playlistgenerator/constraints/PreventDuplicates.cpp:97
-#, fuzzy, kde-format
-#| msgid "Remove Applet"
-msgid "Prevent duplicate %1"
-msgstr "Rëmôj aplet"
-
-#: playlistgenerator/constraints/TagMatch.cpp:54
-#, fuzzy
-#| msgid "dates"
-msgid "TagMatch"
-msgstr "datumë"
-
-#: playlistgenerator/constraints/TagMatch.cpp:55
-msgid "Make all tracks in the playlist match the specified characteristic"
-msgstr ""
-
-#: playlistgenerator/constraints/TagMatch.cpp:172
-#, fuzzy
-#| msgid "is not"
-msgid " not"
-msgstr "nie je"
-
-#: playlistgenerator/constraints/TagMatch.cpp:485
-#, fuzzy
-#| msgid "with"
-msgid "within"
-msgstr "z"
-
-#: playlistgenerator/constraints/TagMatch.cpp:497
-msgid "regexp"
-msgstr ""
-
 #: playlistgenerator/constraints/TagMatchFieldsModel.cpp:82
 #, fuzzy
 #| msgid "Url:"
@@ -9843,6 +9810,49 @@ msgstr "Slédno gróné"
 #| msgid "playcount"
 msgid "play count"
 msgstr "rechòwnik òdegraniów"
+
+#: playlistgenerator/constraints/PreventDuplicates.cpp:52
+#, fuzzy
+#| msgid "Remove Applet"
+msgid "PreventDuplicates"
+msgstr "Rëmôj aplet"
+
+#: playlistgenerator/constraints/PreventDuplicates.cpp:53
+msgid ""
+"Prevents duplicate tracks, albums, or artists from appearing in the playlist"
+msgstr ""
+
+#: playlistgenerator/constraints/PreventDuplicates.cpp:97
+#, fuzzy, kde-format
+#| msgid "Remove Applet"
+msgid "Prevent duplicate %1"
+msgstr "Rëmôj aplet"
+
+#: playlistgenerator/constraints/TagMatch.cpp:54
+#, fuzzy
+#| msgid "dates"
+msgid "TagMatch"
+msgstr "datumë"
+
+#: playlistgenerator/constraints/TagMatch.cpp:55
+msgid "Make all tracks in the playlist match the specified characteristic"
+msgstr ""
+
+#: playlistgenerator/constraints/TagMatch.cpp:172
+#, fuzzy
+#| msgid "is not"
+msgid " not"
+msgstr "nie je"
+
+#: playlistgenerator/constraints/TagMatch.cpp:485
+#, fuzzy
+#| msgid "with"
+msgid "within"
+msgstr "z"
+
+#: playlistgenerator/constraints/TagMatch.cpp:497
+msgid "regexp"
+msgstr ""
 
 #: playlistgenerator/PresetModel.cpp:150
 #, fuzzy
