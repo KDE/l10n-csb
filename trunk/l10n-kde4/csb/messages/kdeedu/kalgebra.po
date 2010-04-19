@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalgebra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-18 04:50+0200\n"
+"POT-Creation-Date: 2010-04-19 04:47+0200\n"
 "PO-Revision-Date: 2008-01-02 18:44+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -63,12 +63,12 @@ msgstr "<b>%1</b>"
 msgid "<b>Formula</b>"
 msgstr "<b>%1</b>"
 
-#: src/expressionedit.cpp:281
+#: src/expressionedit.cpp:295
 #, kde-format
 msgid "Result: %1"
 msgstr ""
 
-#: src/expressionedit.cpp:292
+#: src/expressionedit.cpp:308
 #, fuzzy
 #| msgctxt "Current parameter is the bounding"
 #| msgid "bounds"
@@ -76,57 +76,57 @@ msgctxt "Current parameter is the bounding"
 msgid " : bounds"
 msgstr "greńce"
 
-#: src/expressionedit.cpp:297
+#: src/expressionedit.cpp:313
 #, kde-format
 msgctxt "n-ary function prototype"
 msgid "<em>%1</em>(..., <b>par%2</b>, ...)"
 msgstr "<em>%1</em>(..., <b>par%2</b>, ...)"
 
-#: src/expressionedit.cpp:301 src/expressionedit.cpp:330
+#: src/expressionedit.cpp:317 src/expressionedit.cpp:346
 #, kde-format
 msgctxt "Function name in function prototype"
 msgid "<em>%1</em>("
 msgstr "<em>%1</em>("
 
-#: src/expressionedit.cpp:302
+#: src/expressionedit.cpp:318
 #, kde-format
 msgctxt "Uncorrect function name in function prototype"
 msgid "<em style='color:red'><b>%1</b></em>("
 msgstr "<em style='color:red'><b>%1</b></em>("
 
-#: src/expressionedit.cpp:305
+#: src/expressionedit.cpp:321
 #, kde-format
 msgctxt "Parameter in function prototype"
 msgid "par%1"
 msgstr "par%1"
 
-#: src/expressionedit.cpp:308 src/expressionedit.cpp:317
-#: src/expressionedit.cpp:336
+#: src/expressionedit.cpp:324 src/expressionedit.cpp:333
+#: src/expressionedit.cpp:352
 #, kde-format
 msgctxt "Current parameter in function prototype"
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
 
-#: src/expressionedit.cpp:311 src/expressionedit.cpp:341
+#: src/expressionedit.cpp:327 src/expressionedit.cpp:357
 msgctxt "Function parameter separator"
 msgid ", "
 msgstr ", "
 
-#: src/expressionedit.cpp:331
+#: src/expressionedit.cpp:347
 #, kde-format
 msgctxt "Uncorrect function name in function prototype"
 msgid "<em style='color:red'>%1</em>("
 msgstr "<em style='color:red'>%1</em>("
 
-#: src/expressionedit.cpp:442
+#: src/expressionedit.cpp:456
 msgid "To Expression"
 msgstr "Do wësłowù"
 
-#: src/expressionedit.cpp:444
+#: src/expressionedit.cpp:458
 msgid "To MathML"
 msgstr "Do MathML"
 
-#: src/expressionedit.cpp:446
+#: src/expressionedit.cpp:460
 msgid "Simplify"
 msgstr "Ùproszczë"
 
@@ -268,154 +268,161 @@ msgstr "Parôt: %1ms"
 msgid "Error: We need values to draw a graph"
 msgstr ""
 
-#: src/kalgebra.cpp:73 src/kalgebra.cpp:152
+#: src/kalgebra.cpp:67
+#, fuzzy
+#| msgctxt "@item:inmenu"
+#| msgid "Fine"
+msgid "File"
+msgstr "Dobrô"
+
+#: src/kalgebra.cpp:79 src/kalgebra.cpp:157
 msgid "Variables"
 msgstr "Zmieniwne"
 
-#: src/kalgebra.cpp:91
+#: src/kalgebra.cpp:97
 msgid "&Console"
 msgstr "&Kònsola"
 
-#: src/kalgebra.cpp:104
+#: src/kalgebra.cpp:110
 msgid "C&onsole"
 msgstr "Kò&nsola"
 
-#: src/kalgebra.cpp:107
+#: src/kalgebra.cpp:112
 msgctxt "@item:inmenu"
 msgid "&Load Script"
 msgstr "&Wladëjë skript"
 
-#: src/kalgebra.cpp:109
+#: src/kalgebra.cpp:114
 msgctxt "@item:inmenu"
 msgid "&Save Script"
 msgstr "&Zapiszë skript"
 
-#: src/kalgebra.cpp:111
+#: src/kalgebra.cpp:116
 msgctxt "@item:inmenu"
 msgid "&Save Log"
 msgstr "&Zapiszë log"
 
-#: src/kalgebra.cpp:123
+#: src/kalgebra.cpp:128
 msgid "Functions"
 msgstr "Fùnkcje"
 
-#: src/kalgebra.cpp:135
+#: src/kalgebra.cpp:140
 msgid "List"
 msgstr "Lësta"
 
-#: src/kalgebra.cpp:140 src/kalgebra.cpp:314
+#: src/kalgebra.cpp:145 src/kalgebra.cpp:324
 msgid "&Add"
 msgstr "&Dodôj"
 
-#: src/kalgebra.cpp:156
+#: src/kalgebra.cpp:161
 msgid "Viewport"
 msgstr ""
 
-#: src/kalgebra.cpp:160
+#: src/kalgebra.cpp:165
 msgid "&2D Graph"
 msgstr "Graf &2D"
 
-#: src/kalgebra.cpp:171
+#: src/kalgebra.cpp:176
 msgid "2&D Graph"
 msgstr "Graf 2&D"
 
-#: src/kalgebra.cpp:173
+#: src/kalgebra.cpp:178
 msgid "&Grid"
 msgstr "&Mrzéżka"
 
-#: src/kalgebra.cpp:174
+#: src/kalgebra.cpp:179
 msgid "&Keep Aspect Ratio"
 msgstr ""
 
-#: src/kalgebra.cpp:182
+#: src/kalgebra.cpp:187
 msgid "Resolution"
 msgstr "Rozdzelnota"
 
-#: src/kalgebra.cpp:183
+#: src/kalgebra.cpp:188
 msgctxt "@item:inmenu"
 msgid "Poor"
 msgstr "Lëchô"
 
-#: src/kalgebra.cpp:184
+#: src/kalgebra.cpp:189
 msgctxt "@item:inmenu"
 msgid "Normal"
 msgstr "Normalnô"
 
-#: src/kalgebra.cpp:185
+#: src/kalgebra.cpp:190
 msgctxt "@item:inmenu"
 msgid "Fine"
 msgstr "Dobrô"
 
-#: src/kalgebra.cpp:186
+#: src/kalgebra.cpp:191
 msgctxt "@item:inmenu"
 msgid "Very Fine"
 msgstr "Barô dobrô"
 
-#: src/kalgebra.cpp:214
+#: src/kalgebra.cpp:219
 msgid "&3D Graph"
 msgstr "Graf &3D"
 
-#: src/kalgebra.cpp:222
+#: src/kalgebra.cpp:227
 msgid "3D &Graph"
 msgstr "&Graf 3D"
 
-#: src/kalgebra.cpp:224
+#: src/kalgebra.cpp:229
 msgid "&Transparency"
 msgstr "Przezérnota"
 
-#: src/kalgebra.cpp:226
+#: src/kalgebra.cpp:231
 msgid "&Reset View"
 msgstr "&Wëczëszczë wëzdrzatk"
 
-#: src/kalgebra.cpp:227
+#: src/kalgebra.cpp:232
 msgid "Type"
 msgstr "Ôrt"
 
-#: src/kalgebra.cpp:228
+#: src/kalgebra.cpp:233
 msgid "Dots"
 msgstr "Pùnktë"
 
-#: src/kalgebra.cpp:229
+#: src/kalgebra.cpp:234
 msgid "Lines"
 msgstr "Linie"
 
-#: src/kalgebra.cpp:230
+#: src/kalgebra.cpp:235
 msgid "Solid"
 msgstr "Nieprzeriwnô"
 
-#: src/kalgebra.cpp:247
+#: src/kalgebra.cpp:252
 msgid "Operations"
 msgstr ""
 
-#: src/kalgebra.cpp:251
+#: src/kalgebra.cpp:256
 msgid "&Dictionary"
 msgstr "&Słowôrz"
 
-#: src/kalgebra.cpp:263
+#: src/kalgebra.cpp:268
 msgid "Look for:"
 msgstr ""
 
-#: src/kalgebra.cpp:303
+#: src/kalgebra.cpp:313
 msgid "&Editing"
 msgstr "&Editowanié"
 
-#: src/kalgebra.cpp:353 src/kalgebra.cpp:360
+#: src/kalgebra.cpp:363 src/kalgebra.cpp:370
 msgid "Script (*.kal)"
 msgstr "Skript (*.kal)"
 
-#: src/kalgebra.cpp:353
+#: src/kalgebra.cpp:363
 msgid "Choose a script"
 msgstr "Wëbiérzë skript"
 
-#: src/kalgebra.cpp:367
+#: src/kalgebra.cpp:377
 msgid "Text File (*)"
 msgstr "Tekstowi lopk (*)"
 
-#: src/kalgebra.cpp:409
+#: src/kalgebra.cpp:419
 msgid "*.png|PNG File"
 msgstr "*.png|Lopk PNG"
 
-#: src/kalgebra.cpp:434
+#: src/kalgebra.cpp:444
 msgid ""
 "*.png|Image File\n"
 "*.svg|SVG File"
@@ -423,18 +430,18 @@ msgstr ""
 "*.png|Lopk òbrazu\n"
 "*.svg|Lopk SVG"
 
-#: src/kalgebra.cpp:472
+#: src/kalgebra.cpp:490
 msgctxt "@info:status"
 msgid "Ready"
 msgstr "Parôt"
 
-#: src/kalgebra.cpp:496
+#: src/kalgebra.cpp:514
 #, fuzzy
 #| msgid "Add/Edit a variable"
 msgid "Add variable"
 msgstr "Dodôj/Editëjë zmieniwną"
 
-#: src/kalgebra.cpp:500
+#: src/kalgebra.cpp:518
 msgid "Enter a name for the new variable"
 msgstr ""
 
