@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keditbookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-19 04:43+0200\n"
+"POT-Creation-Date: 2010-04-25 04:52+0200\n"
 "PO-Revision-Date: 2009-12-20 18:48+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -197,91 +197,6 @@ msgstr "*.xbel|Lopcz załóżczków Galeona (*.xbel)"
 #: importers.cpp:208
 msgid "*.xml|KDE Bookmark Files (*.xml)"
 msgstr "*.xml|Lopczi załóżków KDE (*.xml)"
-
-#: bookmarkmodel.cpp:107
-#, fuzzy
-#| msgid "Bookmarks"
-msgctxt "name of the container of all browser bookmarks"
-msgid "Bookmarks"
-msgstr "Załóżczi"
-
-#: bookmarkmodel.cpp:206
-#, fuzzy
-#| msgid "Name:"
-msgctxt "@title:column name of a bookmark"
-msgid "Name"
-msgstr "Miono:"
-
-#: bookmarkmodel.cpp:210
-#, fuzzy
-#| msgid "Location:"
-msgctxt "@title:column name of a bookmark"
-msgid "Location"
-msgstr "Môl:"
-
-#: bookmarkmodel.cpp:214
-#, fuzzy
-#| msgid "Comment"
-msgctxt "@title:column comment for a bookmark"
-msgid "Comment"
-msgstr "Dopòwiesc"
-
-#: bookmarkmodel.cpp:218
-#, fuzzy
-#| msgid "Status"
-msgctxt "@title:column status of a bookmark"
-msgid "Status"
-msgstr "Stón"
-
-#: commands.cpp:68
-msgid "Insert Separator"
-msgstr "Wlepi òdstãp"
-
-#: commands.cpp:77
-msgid "Create Bookmark"
-msgstr "Ùsôdzë załóżkã"
-
-#: commands.cpp:86
-msgid "Create Folder"
-msgstr "Ùsôdzë katalog"
-
-#: commands.cpp:95
-#, kde-format
-msgid "Copy %1"
-msgstr "Kòpérejë %1"
-
-#: commands.cpp:183
-msgid "Icon Change"
-msgstr "Zmiana ikònë"
-
-#: commands.cpp:185
-msgid "Title Change"
-msgstr "Zmiana titla"
-
-#: commands.cpp:187
-msgid "URL Change"
-msgstr "Zmiana adresë URL"
-
-#: commands.cpp:189
-msgid "Comment Change"
-msgstr "Zmiana dopòwiescë"
-
-#: commands.cpp:359
-#, kde-format
-msgid "Move %1"
-msgstr "Przesënié %1"
-
-#: commands.cpp:476
-msgid "Set as Bookmark Toolbar"
-msgstr "Ùstôwi jakno lisetw nôrzãdzów załóżków"
-
-#: commands.cpp:512
-msgid "Copy Items"
-msgstr "Kòpiérëjë elementë"
-
-#: commands.cpp:513
-msgid "Move Items"
-msgstr "Przësënié elementë "
 
 #: updater.cpp:87
 #, kde-format
@@ -533,6 +448,91 @@ msgstr "Slédny raz przezéróny:"
 #: bookmarkinfowidget.cpp:275
 msgid "Times visited:"
 msgstr "Razë widzóny:"
+
+#: kbookmarkmodel/model.cpp:112
+#, fuzzy
+#| msgid "Bookmarks"
+msgctxt "name of the container of all browser bookmarks"
+msgid "Bookmarks"
+msgstr "Załóżczi"
+
+#: kbookmarkmodel/model.cpp:216
+#, fuzzy
+#| msgid "Name:"
+msgctxt "@title:column name of a bookmark"
+msgid "Name"
+msgstr "Miono:"
+
+#: kbookmarkmodel/model.cpp:220
+#, fuzzy
+#| msgid "Location:"
+msgctxt "@title:column name of a bookmark"
+msgid "Location"
+msgstr "Môl:"
+
+#: kbookmarkmodel/model.cpp:224
+#, fuzzy
+#| msgid "Comment"
+msgctxt "@title:column comment for a bookmark"
+msgid "Comment"
+msgstr "Dopòwiesc"
+
+#: kbookmarkmodel/model.cpp:228
+#, fuzzy
+#| msgid "Status"
+msgctxt "@title:column status of a bookmark"
+msgid "Status"
+msgstr "Stón"
+
+#: kbookmarkmodel/commands.cpp:68
+msgid "Insert Separator"
+msgstr "Wlepi òdstãp"
+
+#: kbookmarkmodel/commands.cpp:77
+msgid "Create Bookmark"
+msgstr "Ùsôdzë załóżkã"
+
+#: kbookmarkmodel/commands.cpp:86
+msgid "Create Folder"
+msgstr "Ùsôdzë katalog"
+
+#: kbookmarkmodel/commands.cpp:95
+#, kde-format
+msgid "Copy %1"
+msgstr "Kòpérejë %1"
+
+#: kbookmarkmodel/commands.cpp:183
+msgid "Icon Change"
+msgstr "Zmiana ikònë"
+
+#: kbookmarkmodel/commands.cpp:185
+msgid "Title Change"
+msgstr "Zmiana titla"
+
+#: kbookmarkmodel/commands.cpp:187
+msgid "URL Change"
+msgstr "Zmiana adresë URL"
+
+#: kbookmarkmodel/commands.cpp:189
+msgid "Comment Change"
+msgstr "Zmiana dopòwiescë"
+
+#: kbookmarkmodel/commands.cpp:359
+#, kde-format
+msgid "Move %1"
+msgstr "Przesënié %1"
+
+#: kbookmarkmodel/commands.cpp:476
+msgid "Set as Bookmark Toolbar"
+msgstr "Ùstôwi jakno lisetw nôrzãdzów załóżków"
+
+#: kbookmarkmodel/commands.cpp:512
+msgid "Copy Items"
+msgstr "Kòpiérëjë elementë"
+
+#: kbookmarkmodel/commands.cpp:513
+msgid "Move Items"
+msgstr "Przësënié elementë "
 
 #. i18n: file: keditbookmarks-genui.rc:6
 #. i18n: ectx: Menu (file)
