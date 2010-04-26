@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-29 04:26+0200\n"
+"POT-Creation-Date: 2010-04-26 04:38+0200\n"
 "PO-Revision-Date: 2009-12-15 22:22+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: activation.cpp:747
+#: activation.cpp:750
 #, kde-format
 msgid "Window '%1' demands attention."
 msgstr "Òkno '%1' żądô reakcëji."
@@ -603,6 +603,94 @@ msgstr "Blokùjë òglowé skrodzënë"
 msgid "Suspend Compositing"
 msgstr "Òdstawic Compositing"
 
+#: kwinbindings.cpp:223
+msgid "Tiling"
+msgstr ""
+
+#: kwinbindings.cpp:224
+#, fuzzy
+#| msgid "Toggle Video Recording"
+msgid "Toggle Tiling"
+msgstr "Włączë nagriwanié wideò"
+
+#: kwinbindings.cpp:225
+msgid "Toggle Orientation"
+msgstr ""
+
+#: kwinbindings.cpp:226
+msgid "Increase Ratio"
+msgstr ""
+
+#: kwinbindings.cpp:227
+msgid "Decrease Ratio"
+msgstr ""
+
+#: kwinbindings.cpp:228
+msgid "Toggle Floating"
+msgstr ""
+
+#: kwinbindings.cpp:230
+#, fuzzy
+#| msgid "Switch to Desktop 1"
+msgid "Switch Focus Left"
+msgstr "Przełączë na pùlt 1"
+
+#: kwinbindings.cpp:231
+msgid "Switch Focus Right"
+msgstr ""
+
+#: kwinbindings.cpp:232
+#, fuzzy
+#| msgid "Switch One Desktop Up"
+msgid "Switch Focus Up"
+msgstr "Przełączë na pùlt wëżi"
+
+#: kwinbindings.cpp:233
+#, fuzzy
+#| msgid "Switch One Desktop Down"
+msgid "Switch Focus Down"
+msgstr "Przełączë na pùlt niżi"
+
+#: kwinbindings.cpp:234
+#, fuzzy
+#| msgid "Left"
+msgid "Move Left"
+msgstr "Lewò"
+
+#: kwinbindings.cpp:235
+#, fuzzy
+#| msgid "Right"
+msgid "Move Right"
+msgstr "Prawò"
+
+#: kwinbindings.cpp:236
+#, fuzzy
+#| msgid "&Move"
+msgid "Move Up"
+msgstr "&Przeniesë"
+
+#: kwinbindings.cpp:237
+#, fuzzy
+#| msgid "Move Window"
+msgid "Move Down"
+msgstr "Przeniesë òkno"
+
+#: kwinbindings.cpp:238
+msgid "Next Layout"
+msgstr ""
+
+#: kwinbindings.cpp:239
+msgid "Previous Layout"
+msgstr ""
+
+#: kwinbindings.cpp:241
+msgid "Test Dump tiles"
+msgstr ""
+
+#: kwinbindings.cpp:242
+msgid "Test Below Cursor"
+msgstr ""
+
 #: main.cpp:178
 msgid ""
 "kwin: it looks like there's already a window manager running. kwin not "
@@ -701,6 +789,21 @@ msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
 msgctxt "Special entry in alt+tab list for minimizing all windows"
 msgid "Show Desktop"
 msgstr "Wëskrzëni pùlt"
+
+#: tiling.cpp:72
+#, fuzzy
+#| msgid "Disabled"
+msgid "Tiling Disabled"
+msgstr "Wëłączoné"
+
+#: tiling.cpp:78
+msgid "Tiling Enabled"
+msgstr ""
+
+#: tilinglayoutfactory.cpp:43
+#, kde-format
+msgid "Layout changed to %1"
+msgstr ""
 
 #: useractions.cpp:73
 msgid "Keep &Above Others"
@@ -803,12 +906,12 @@ msgstr "&Wszëtczé pùltë"
 msgid "Activate Window (%1)"
 msgstr "Aktiwùjë òkno (%1)"
 
-#: workspace.cpp:1190 workspace.cpp:1210
+#: workspace.cpp:1210 workspace.cpp:1230
 #, kde-format
 msgid "Desktop %1"
 msgstr "Pùlt %1"
 
-#: workspace.cpp:2603
+#: workspace.cpp:2636
 #, kde-format
 msgid ""
 "You have selected to show a window without its border.\n"
@@ -821,7 +924,7 @@ msgstr ""
 "nót mdze brëkòwac menu òperacëji na òknie, jaczé wëwołôsz klawiszową "
 "skrodzëną %1."
 
-#: workspace.cpp:2617
+#: workspace.cpp:2650
 #, kde-format
 msgid ""
 "You have selected to show a window in fullscreen mode.\n"
@@ -999,17 +1102,11 @@ msgstr "*** Felëjë òknów ***"
 #~ msgid "Advanced"
 #~ msgstr "&Awansowóné"
 
-#~ msgid "Disabled"
-#~ msgstr "Wëłączoné"
-
 #~ msgid "Top"
 #~ msgstr "Góra"
 
 #~ msgid "Top-Right"
 #~ msgstr "Góra-prawò"
-
-#~ msgid "Right"
-#~ msgstr "Prawò"
 
 #~ msgid "Bottom-Right"
 #~ msgstr "Dół-prawò"
@@ -1019,9 +1116,6 @@ msgstr "*** Felëjë òknów ***"
 
 #~ msgid "Bottom-Left"
 #~ msgstr "Dół-lewò"
-
-#~ msgid "Left"
-#~ msgstr "Lewò"
 
 #~ msgid "Top-Left"
 #~ msgstr "Góra-lewò"
@@ -1072,9 +1166,6 @@ msgstr "*** Felëjë òknów ***"
 
 #~ msgid "Hold Ctrl+Meta keys to see where the mouse cursor is."
 #~ msgstr "Trzëmôj knąpë Ctrl+Meta bë òbôczëc dze je wskazëwôcz mëszë."
-
-#~ msgid "Toggle Video Recording"
-#~ msgstr "Włączë nagriwanié wideò"
 
 #~ msgid "Path to save video:"
 #~ msgstr "Stegna so zapisu wideò:"
