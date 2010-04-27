@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalgebra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-26 04:43+0200\n"
+"POT-Creation-Date: 2010-04-27 05:21+0200\n"
 "PO-Revision-Date: 2008-01-02 18:44+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -37,12 +37,17 @@ msgctxt "@title:column"
 msgid "Value"
 msgstr "Wôrtnota"
 
-#: src/consolehtml.cpp:105
+#: src/consolehtml.cpp:110
 #, kde-format
 msgid "<ul class='error'>Error: <b>%1</b><li>%2</li></ul>"
 msgstr ""
 
-#: src/consolehtml.cpp:218
+#: src/consolehtml.cpp:168
+#, kde-format
+msgid "<ul class='error'>Error: Could not load %1</ul>"
+msgstr ""
+
+#: src/consolehtml.cpp:256
 #, kde-format
 msgid "Paste \"%1\" to input"
 msgstr ""
@@ -139,7 +144,7 @@ msgstr ""
 msgid "Function type not recognized"
 msgstr ""
 
-#: src/function.cpp:64 exp.g:394
+#: src/function.cpp:64 exp.g:396
 #, fuzzy
 #| msgctxt "Function parameter separator"
 #| msgid ", "
@@ -274,154 +279,154 @@ msgstr ""
 msgid "Session"
 msgstr "Do wësłowù"
 
-#: src/kalgebra.cpp:79 src/kalgebra.cpp:157
+#: src/kalgebra.cpp:80 src/kalgebra.cpp:158
 msgid "Variables"
 msgstr "Zmieniwne"
 
-#: src/kalgebra.cpp:97
+#: src/kalgebra.cpp:98
 msgid "&Console"
 msgstr "&Kònsola"
 
-#: src/kalgebra.cpp:110
+#: src/kalgebra.cpp:111
 msgid "C&onsole"
 msgstr "Kò&nsola"
 
-#: src/kalgebra.cpp:112
+#: src/kalgebra.cpp:113
 msgctxt "@item:inmenu"
 msgid "&Load Script"
 msgstr "&Wladëjë skript"
 
-#: src/kalgebra.cpp:114
+#: src/kalgebra.cpp:115
 msgctxt "@item:inmenu"
 msgid "&Save Script"
 msgstr "&Zapiszë skript"
 
-#: src/kalgebra.cpp:116
+#: src/kalgebra.cpp:117
 msgctxt "@item:inmenu"
 msgid "&Save Log"
 msgstr "&Zapiszë log"
 
-#: src/kalgebra.cpp:128
+#: src/kalgebra.cpp:129
 msgid "Functions"
 msgstr "Fùnkcje"
 
-#: src/kalgebra.cpp:140
+#: src/kalgebra.cpp:141
 msgid "List"
 msgstr "Lësta"
 
-#: src/kalgebra.cpp:145 src/kalgebra.cpp:324
+#: src/kalgebra.cpp:146 src/kalgebra.cpp:326
 msgid "&Add"
 msgstr "&Dodôj"
 
-#: src/kalgebra.cpp:161
+#: src/kalgebra.cpp:162
 msgid "Viewport"
 msgstr ""
 
-#: src/kalgebra.cpp:165
+#: src/kalgebra.cpp:166
 msgid "&2D Graph"
 msgstr "Graf &2D"
 
-#: src/kalgebra.cpp:176
+#: src/kalgebra.cpp:177
 msgid "2&D Graph"
 msgstr "Graf 2&D"
 
-#: src/kalgebra.cpp:178
+#: src/kalgebra.cpp:179
 msgid "&Grid"
 msgstr "&Mrzéżka"
 
-#: src/kalgebra.cpp:179
+#: src/kalgebra.cpp:180
 msgid "&Keep Aspect Ratio"
 msgstr ""
 
-#: src/kalgebra.cpp:187
+#: src/kalgebra.cpp:188
 msgid "Resolution"
 msgstr "Rozdzelnota"
 
-#: src/kalgebra.cpp:188
+#: src/kalgebra.cpp:189
 msgctxt "@item:inmenu"
 msgid "Poor"
 msgstr "Lëchô"
 
-#: src/kalgebra.cpp:189
+#: src/kalgebra.cpp:190
 msgctxt "@item:inmenu"
 msgid "Normal"
 msgstr "Normalnô"
 
-#: src/kalgebra.cpp:190
+#: src/kalgebra.cpp:191
 msgctxt "@item:inmenu"
 msgid "Fine"
 msgstr "Dobrô"
 
-#: src/kalgebra.cpp:191
+#: src/kalgebra.cpp:192
 msgctxt "@item:inmenu"
 msgid "Very Fine"
 msgstr "Barô dobrô"
 
-#: src/kalgebra.cpp:219
+#: src/kalgebra.cpp:220
 msgid "&3D Graph"
 msgstr "Graf &3D"
 
-#: src/kalgebra.cpp:227
+#: src/kalgebra.cpp:228
 msgid "3D &Graph"
 msgstr "&Graf 3D"
 
-#: src/kalgebra.cpp:229
+#: src/kalgebra.cpp:230
 msgid "&Transparency"
 msgstr "Przezérnota"
 
-#: src/kalgebra.cpp:231
+#: src/kalgebra.cpp:232
 msgid "&Reset View"
 msgstr "&Wëczëszczë wëzdrzatk"
 
-#: src/kalgebra.cpp:232
+#: src/kalgebra.cpp:233
 msgid "Type"
 msgstr "Ôrt"
 
-#: src/kalgebra.cpp:233
+#: src/kalgebra.cpp:234
 msgid "Dots"
 msgstr "Pùnktë"
 
-#: src/kalgebra.cpp:234
+#: src/kalgebra.cpp:235
 msgid "Lines"
 msgstr "Linie"
 
-#: src/kalgebra.cpp:235
+#: src/kalgebra.cpp:236
 msgid "Solid"
 msgstr "Nieprzeriwnô"
 
-#: src/kalgebra.cpp:252
+#: src/kalgebra.cpp:254
 msgid "Operations"
 msgstr ""
 
-#: src/kalgebra.cpp:256
+#: src/kalgebra.cpp:258
 msgid "&Dictionary"
 msgstr "&Słowôrz"
 
-#: src/kalgebra.cpp:268
+#: src/kalgebra.cpp:270
 msgid "Look for:"
 msgstr ""
 
-#: src/kalgebra.cpp:313
+#: src/kalgebra.cpp:315
 msgid "&Editing"
 msgstr "&Editowanié"
 
-#: src/kalgebra.cpp:363 src/kalgebra.cpp:370
+#: src/kalgebra.cpp:365 src/kalgebra.cpp:374
 msgid "Script (*.kal)"
 msgstr "Skript (*.kal)"
 
-#: src/kalgebra.cpp:363
+#: src/kalgebra.cpp:365
 msgid "Choose a script"
 msgstr "Wëbiérzë skript"
 
-#: src/kalgebra.cpp:377
+#: src/kalgebra.cpp:381
 msgid "Text File (*)"
 msgstr "Tekstowi lopk (*)"
 
-#: src/kalgebra.cpp:419
+#: src/kalgebra.cpp:423
 msgid "*.png|PNG File"
 msgstr "*.png|Lopk PNG"
 
-#: src/kalgebra.cpp:444
+#: src/kalgebra.cpp:448
 msgid ""
 "*.png|Image File\n"
 "*.svg|SVG File"
@@ -429,18 +434,18 @@ msgstr ""
 "*.png|Lopk òbrazu\n"
 "*.svg|Lopk SVG"
 
-#: src/kalgebra.cpp:490
+#: src/kalgebra.cpp:494
 msgctxt "@info:status"
 msgid "Ready"
 msgstr "Parôt"
 
-#: src/kalgebra.cpp:514
+#: src/kalgebra.cpp:518
 #, fuzzy
 #| msgid "Add/Edit a variable"
 msgid "Add variable"
 msgstr "Dodôj/Editëjë zmieniwną"
 
-#: src/kalgebra.cpp:518
+#: src/kalgebra.cpp:522
 msgid "Enter a name for the new variable"
 msgstr ""
 
@@ -890,7 +895,7 @@ msgstr ""
 
 #: analitza/expression.cpp:242
 msgctxt "this is an error message. otherwise is the else in a mathml condition"
-msgid "Only one <em>otherwise</em> parameters is enough"
+msgid "The <em>otherwise</em> parameter should be the last one"
 msgstr ""
 
 #: analitza/expression.cpp:250
@@ -943,21 +948,21 @@ msgctxt "Error message due to an unrecognized input"
 msgid "Not supported/unknown: %1"
 msgstr ""
 
-#: exp.g:394
+#: exp.g:396
 #, kde-format
 msgctxt "error message"
 msgid "Expected %1 instead of '%2'"
 msgstr ""
 
-#: exp.g:396
+#: exp.g:398
 msgid "Missing right parenthesis"
 msgstr ""
 
-#: exp.g:398
+#: exp.g:400
 msgid "Unbalanced right parenthesis"
 msgstr ""
 
-#: exp.g:400
+#: exp.g:402
 #, kde-format
 msgid "Unexpected token %1"
 msgstr ""
@@ -993,6 +998,12 @@ msgstr ""
 #, kde-format
 msgctxt "html representation of an operator"
 msgid "<span class='op'>%1</span>"
+msgstr ""
+
+#: analitza/htmlexpressionwriter.cpp:51
+#, kde-format
+msgctxt "html representation of an operator"
+msgid "<span class='keyword'>%1</span>"
 msgstr ""
 
 #: analitza/mathmlpresentationlexer.cpp:88
