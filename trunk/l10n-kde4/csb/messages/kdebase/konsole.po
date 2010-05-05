@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-03 04:52+0200\n"
+"POT-Creation-Date: 2010-05-05 04:49+0200\n"
 "PO-Revision-Date: 2009-12-17 00:21+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -235,7 +235,7 @@ msgstr "Wëslë emailã do..."
 msgid "Copy Email Address"
 msgstr "Kòpérëjë adresã email"
 
-#: HistorySizeDialog.cpp:51 SessionController.cpp:501
+#: HistorySizeDialog.cpp:51
 msgid "Scrollback Options"
 msgstr "Òptacëje lëstwë przewijaniô"
 
@@ -556,49 +556,39 @@ msgstr "Lars Knoll"
 msgid "Thanks to many others.\n"
 msgstr "Dzãka dlô wielu jinszëch.\n"
 
-#. i18n: file: ../desktop/konsoleui.rc:45
-#. i18n: ectx: Menu (new-tab)
-#: MainWindow.cpp:233 rc.cpp:882
-msgid "New &Tab"
+#: MainWindow.cpp:233
+#, fuzzy
+#| msgid "New &Tab"
+msgid "&New Tab"
 msgstr "Nowô &kôrta"
 
-#: MainWindow.cpp:238
-#, fuzzy
-#| msgid "Delete Profile"
-msgid "&Default Profile"
-msgstr "Rëmôj profil"
-
-#: MainWindow.cpp:244
+#: MainWindow.cpp:240
 msgid "New &Window"
 msgstr "&Nowé òkno"
 
-#: MainWindow.cpp:249
+#: MainWindow.cpp:245
 msgid "Remote Connection..."
 msgstr "Daleczé sparłãczenié..."
 
-#: MainWindow.cpp:260
+#: MainWindow.cpp:256
 msgid "&Bookmarks"
 msgstr "&Załóżczi"
 
-#: MainWindow.cpp:271
-msgid "Show Menu Bar"
-msgstr "Wëskrzëni listew menu"
-
-#: MainWindow.cpp:293 Part.cpp:116
+#: MainWindow.cpp:284 Part.cpp:116
 #, fuzzy
 #| msgid "Manage Profiles..."
 msgid "Configure Profiles..."
 msgstr "Sprôwiôj profilama..."
 
-#: MainWindow.cpp:376
+#: MainWindow.cpp:375
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr "Môsz òtemkłich wiele kôrtów, chcesz na gwës zakùńczëc?"
 
-#: MainWindow.cpp:378 SessionController.cpp:608
+#: MainWindow.cpp:377 SessionController.cpp:597
 msgid "Confirm Close"
 msgstr "Pòcwierdzë zamkniãcé"
 
-#: MainWindow.cpp:380
+#: MainWindow.cpp:379
 msgid "Close Current Tab"
 msgstr "Zamkni biéżną kôrtã"
 
@@ -618,7 +608,7 @@ msgstr "Wëskrzëni w menu"
 msgid "Shortcut"
 msgstr "Skrodzënô"
 
-#: ManageProfilesDialog.cpp:350
+#: ManageProfilesDialog.cpp:352
 msgid "New Profile"
 msgstr "Nowi profil"
 
@@ -1500,13 +1490,13 @@ msgstr "michol@linuxcsb.org, mark@linuxcsb.org"
 msgid "Copy Input To"
 msgstr "Kòpérëjë weńdzenié do"
 
-#. i18n: file: ../desktop/sessionui.rc:43
+#. i18n: file: ../desktop/sessionui.rc:37
 #. i18n: ectx: Menu (debug)
 #: rc.cpp:852
 msgid "Debug"
 msgstr "Debùgòwanié"
 
-#. i18n: file: ../desktop/sessionui.rc:62
+#. i18n: file: ../desktop/sessionui.rc:56
 #. i18n: ectx: Menu (change-profile)
 #. i18n: file: ../desktop/partui.rc:25
 #. i18n: ectx: Menu (change-profile)
@@ -1555,6 +1545,12 @@ msgstr "Nastôwë"
 #: rc.cpp:879
 msgid "Help"
 msgstr "Pòmòc"
+
+#. i18n: file: ../desktop/konsoleui.rc:45
+#. i18n: ectx: Menu (new-tab)
+#: rc.cpp:882
+msgid "New &Tab"
+msgstr "Nowô &kôrta"
 
 #: RemoteConnectionDialog.cpp:39
 msgid "New Remote Connection"
@@ -1616,98 +1612,100 @@ msgstr "Kònsola nie rozmieje jakno òtemknąc załóżkã: "
 msgid "&Close Tab"
 msgstr "&Zamkni kôrtã"
 
-#: SessionController.cpp:401
+#: SessionController.cpp:400
 msgid "Open File Manager"
 msgstr "Òtemkni menadżerã lopków"
 
-#: SessionController.cpp:416
+#: SessionController.cpp:414
 msgid "Paste Selection"
 msgstr "Wlepi wëbiérk"
 
-#: SessionController.cpp:422
+#: SessionController.cpp:419
 msgid "&Rename Tab..."
 msgstr "&Zmieni miono kôrtë..."
 
-#: SessionController.cpp:429
+#: SessionController.cpp:425
 msgid "&All Tabs in Current Window"
 msgstr "&Wszëtczé kôrtë w aktualnych òknach"
 
-#: SessionController.cpp:436
+#: SessionController.cpp:431
 msgid "&Select Tabs..."
 msgstr "Wë&bierzë kôrtë..."
 
-#: SessionController.cpp:443
+#: SessionController.cpp:436
 msgid "&None"
 msgstr "&Felënk"
 
-#: SessionController.cpp:450
-#, fuzzy
-#| msgid "Clear && Reset"
-msgid "Clear and Reset"
-msgstr "Wëczëszczë ë &copni terminal"
-
-#: SessionController.cpp:455
+#: SessionController.cpp:442
 msgid "&ZModem Upload..."
 msgstr "Wladëjë &ZModem ..."
 
-#: SessionController.cpp:461
+#: SessionController.cpp:447
 msgid "Monitor for &Activity"
 msgstr "Mònitorëje &aktiwnotã"
 
-#: SessionController.cpp:466
+#: SessionController.cpp:452
 msgid "Monitor for &Silence"
 msgstr "Mònitorëjë &nieaktiwnotã"
 
-#: SessionController.cpp:472
-msgid "Character Encoding"
-msgstr "Kòdowanié céchów"
+#: SessionController.cpp:458
+#, fuzzy
+#| msgid "Encoding"
+msgid "Set &Encoding"
+msgstr "Kòdowanié"
 
-#: SessionController.cpp:479
+#: SessionController.cpp:466
 msgid "Enlarge Font"
 msgstr ""
 
-#: SessionController.cpp:482
+#: SessionController.cpp:471
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Shrink View"
 msgid "Shrink Font"
 msgstr "Zmiészë wëzdrzatk"
 
-#: SessionController.cpp:498
+#: SessionController.cpp:489
 #, fuzzy
 #| msgid "Save Output..."
-msgid "Save Output As..."
+msgid "Save Output &As..."
 msgstr "Zapiszë wińdzenié..."
 
-#: SessionController.cpp:506
+#: SessionController.cpp:492
 #, fuzzy
-#| msgid "Clear Scrollback && Reset"
-msgid "Clear Scrollback and Reset"
-msgstr "Wëczëszczë lëstwã przewijaniô ë zresetëje"
+#| msgid "Manage Profiles..."
+msgid "Configure Scrollback..."
+msgstr "Sprôwiôj profilama..."
 
-#: SessionController.cpp:513
-msgid "Edit Current Profile..."
-msgstr "Editëjë biéżny profil..."
+#: SessionController.cpp:496
+msgid "Clear Scrollback"
+msgstr "Wëczëszczë lëstwã przewijaniô"
 
-#: SessionController.cpp:517
+#: SessionController.cpp:502
+#, fuzzy
+#| msgid "Manage Profiles..."
+msgid "Configure Current Profile..."
+msgstr "Sprôwiôj profilama..."
+
+#: SessionController.cpp:505
 msgid "Change Profile"
 msgstr "Zmieni profil"
 
-#: SessionController.cpp:558
+#: SessionController.cpp:547
 msgid "Rename Tab"
 msgstr "Zmieni miono kôrtë"
 
-#: SessionController.cpp:559
+#: SessionController.cpp:548
 msgid "Enter new tab text:"
 msgstr "Wpiszë nowi tekst kôrtë:"
 
-#: SessionController.cpp:602
+#: SessionController.cpp:591
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr "Programa robi prawie w ti sesëji. Jes gwës tegò, że chcesz jã zamknąc?"
 
-#: SessionController.cpp:605
+#: SessionController.cpp:594
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
@@ -1715,11 +1713,11 @@ msgid ""
 msgstr ""
 "Programa '%1' robi prawie w ti sesëji. Jes gwës tegò, że chcesz jã zamknąc?"
 
-#: SessionController.cpp:1163
+#: SessionController.cpp:1139
 msgid "Save ZModem Download to..."
 msgstr "Zapiszë zladënk ZModem do..."
 
-#: SessionController.cpp:1172
+#: SessionController.cpp:1148
 #, fuzzy
 #| msgid ""
 #| "<p>A ZModem file transfer attempt has been detected, but no suitable "
@@ -1734,7 +1732,7 @@ msgstr ""
 "twòji systemie softwôrë ZModem.\n"
 "<p>Winstalëje mòże paczétë 'rzsz' abò 'lrzsz'.\n"
 
-#: SessionController.cpp:1184
+#: SessionController.cpp:1160
 #, fuzzy
 #| msgid ""
 #| "<p>The current session already has a ZModem file transfer in progress."
@@ -1742,7 +1740,7 @@ msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr "<p>W aktualny sesëji dérëje sélanié lopków ZModem."
 
-#: SessionController.cpp:1193
+#: SessionController.cpp:1169
 #, fuzzy
 #| msgid ""
 #| "<p>No suitable ZModem software was found on this system.\n"
@@ -1754,21 +1752,21 @@ msgstr ""
 "<p>Felëje softwôrë ZModem w twòji systemie.\n"
 "<p>Winstalëje mòże paczétë 'rzsz' abò 'lrzsz'.\n"
 
-#: SessionController.cpp:1199
+#: SessionController.cpp:1175
 msgid "Select Files for ZModem Upload"
 msgstr "Wëbierzë lopczi dlô wladënkù ZModem"
 
-#: SessionController.cpp:1271
+#: SessionController.cpp:1247
 #, kde-format
 msgid "Save Output From %1"
 msgstr "Zapiszë wińdzenié z %1"
 
-#: SessionController.cpp:1282
+#: SessionController.cpp:1258
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 je zmiłkòwim URL-a, wińdzenié nie mòże òstac zapisóné."
 
-#: SessionController.cpp:1371
+#: SessionController.cpp:1347
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -1962,8 +1960,10 @@ msgid "Close Others"
 msgstr "Zamkni jine"
 
 #: ViewManager.cpp:183
-msgid "&Detach View"
-msgstr "Ò&dłączë wëzdrzatk"
+#, fuzzy
+#| msgid "Close Current Tab"
+msgid "D&etach Current Tab"
+msgstr "Zamkni biéżną kôrtã"
 
 #: ViewManager.cpp:192
 msgctxt "@action:inmenu"
@@ -1992,6 +1992,33 @@ msgstr ""
 #: ZModemDialog.cpp:35
 msgid "&Stop"
 msgstr "&Zatrzëmôj"
+
+#, fuzzy
+#~| msgid "Delete Profile"
+#~ msgid "&Default Profile"
+#~ msgstr "Rëmôj profil"
+
+#~ msgid "Show Menu Bar"
+#~ msgstr "Wëskrzëni listew menu"
+
+#, fuzzy
+#~| msgid "Clear && Reset"
+#~ msgid "Clear and Reset"
+#~ msgstr "Wëczëszczë ë &copni terminal"
+
+#~ msgid "Character Encoding"
+#~ msgstr "Kòdowanié céchów"
+
+#, fuzzy
+#~| msgid "Clear Scrollback && Reset"
+#~ msgid "Clear Scrollback and Reset"
+#~ msgstr "Wëczëszczë lëstwã przewijaniô ë zresetëje"
+
+#~ msgid "Edit Current Profile..."
+#~ msgstr "Editëjë biéżny profil..."
+
+#~ msgid "&Detach View"
+#~ msgstr "Ò&dłączë wëzdrzatk"
 
 #~ msgid "Scrollback"
 #~ msgstr "Listew przewijaniô"
@@ -2022,9 +2049,6 @@ msgstr "&Zatrzëmôj"
 
 #~ msgid "C&lear Display"
 #~ msgstr "Wëczëszczë &ekran"
-
-#~ msgid "Clear Scrollback"
-#~ msgstr "Wëczëszczë lëstwã przewijaniô"
 
 #~ msgid "KWrited - Listening on Device %1"
 #~ msgstr "KWrited - nasłëchòwanié ùrządzenia %1"
