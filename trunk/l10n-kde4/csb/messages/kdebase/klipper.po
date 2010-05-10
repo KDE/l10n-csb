@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-03 04:52+0200\n"
+"POT-Creation-Date: 2010-05-10 04:41+0200\n"
 "PO-Revision-Date: 2009-12-16 23:31+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -148,11 +148,15 @@ msgid "&Edit Contents..."
 msgstr "&Editëjë zamkłosc..."
 
 #: klipper.cpp:213
-msgid "Next history item"
+#, fuzzy
+#| msgid "Next history item"
+msgid "Next History Item"
 msgstr "Nôslédny element historëji"
 
 #: klipper.cpp:217
-msgid "Previous history item"
+#, fuzzy
+#| msgid "Previous history item"
+msgid "Previous History Item"
 msgstr "wczasniészi element historëji"
 
 #: klipper.cpp:222
@@ -453,17 +457,17 @@ msgstr "Ignorëjë òbrôzczi"
 #. i18n: file: generalconfig.ui:59
 #. i18n: ectx: property (title), widget (QGroupBox, selection_group)
 #: rc.cpp:79 rc.cpp:245
-msgid "Selection and clipboard"
+#, fuzzy
+#| msgid "Selection and clipboard"
+msgid "Selection and Clipboard"
 msgstr "Wëbiérk ë tacnik"
 
 #. i18n: file: generalconfig.ui:65
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreSelection)
-#. i18n: file: klipper.kcfg:29
-#. i18n: ectx: label, entry (IgnoreSelection), group (General)
-#. i18n: file: generalconfig.ui:65
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreSelection)
-#: rc.cpp:82 rc.cpp:115 rc.cpp:248
-msgid "Ignore Selection"
+#: rc.cpp:82 rc.cpp:248
+#, fuzzy
+#| msgid "Ignore Selection"
+msgid "Ignore selection"
 msgstr "Ignorëjë wëbiérk"
 
 #. i18n: file: generalconfig.ui:72
@@ -518,6 +522,12 @@ msgid ""
 msgstr ""
 "Wëbiérk ti òptacëji sprawi, że tacnik nigdë nie mdze pùsti. Np. czedë "
 "programa kùńczë dzejanié, zwëkòwô tacnik je czeszczony."
+
+#. i18n: file: klipper.kcfg:29
+#. i18n: ectx: label, entry (IgnoreSelection), group (General)
+#: rc.cpp:115
+msgid "Ignore Selection"
+msgstr "Ignorëjë wëbiérk"
 
 #. i18n: file: klipper.kcfg:31
 #. i18n: ectx: whatsthis, entry (IgnoreSelection), group (General)

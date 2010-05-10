@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-08 04:42+0200\n"
+"POT-Creation-Date: 2010-05-10 04:41+0200\n"
 "PO-Revision-Date: 2009-12-15 00:04+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -19,6 +19,18 @@ msgstr ""
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
+
+#: activity.cpp:108
+#, kde-format
+msgctxt "%1 is the name of the activity"
+msgid "Do you really want to remove this %1?"
+msgstr ""
+
+#: activity.cpp:109
+#, kde-format
+msgctxt "@title:window %1 is the name of the activity"
+msgid "Remove %1"
+msgstr ""
 
 #: dashboardview.cpp:108
 msgid "Hide Dashboard"
@@ -187,23 +199,27 @@ msgstr "Góra"
 msgid "Bottom"
 msgstr "Dół"
 
-#: plasmaapp.cpp:231
+#: plasmaapp.cpp:234
 msgid "Show Dashboard"
 msgstr "Wëskrzëni przédną tôflã"
 
-#: plasmaapp.cpp:693
+#: plasmaapp.cpp:697
 #, fuzzy
 #| msgid "Add Activity"
 msgid "Activities..."
 msgstr "Dodôj aktiwnota"
 
-#: plasmaapp.cpp:1110
+#: plasmaapp.cpp:1000 plasmaapp.cpp:1002 plasmaapp.cpp:1198 plasmaapp.cpp:1200
+msgid "unnamed"
+msgstr ""
+
+#: plasmaapp.cpp:1133
 #, kde-format
 msgid ""
 "A new widget has become available on the network:<br><b>%1</b> - <i>%2</i>"
 msgstr "Nowi widżet je przëstãpny w sécë:<br><b>%1</b> - <i>%2</i>"
 
-#: plasmaapp.cpp:1112
+#: plasmaapp.cpp:1135
 msgid "Add to current activity"
 msgstr "Dodôj do aktualny aktiwnotë"
 
