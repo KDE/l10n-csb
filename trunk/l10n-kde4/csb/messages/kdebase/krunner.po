@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-21 04:36+0200\n"
+"POT-Creation-Date: 2010-05-22 04:46+0200\n"
 "PO-Revision-Date: 2009-12-16 20:48+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -20,20 +20,26 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2)\n"
 "X-Generator: Lokalize 1.0\n"
 
-#: interfaces/quicksand/qs_dialog.cpp:53 interfaces/quicksand/qs_dialog.cpp:54
+#: interfaces/quicksand/qs_dialog.cpp:59 interfaces/quicksand/qs_dialog.cpp:60
 #: interfaces/default/interface.cpp:84 interfaces/default/interface.cpp:85
 msgid "Settings"
 msgstr "Nastôwë"
 
-#: interfaces/quicksand/qs_dialog.cpp:86
+#: interfaces/quicksand/qs_dialog.cpp:108
 msgid "Actions"
 msgstr "Dzejaniô"
 
-#: interfaces/quicksand/qs_matchview.cpp:175
+#: interfaces/quicksand/qs_dialog.cpp:317 interfaces/default/interface.cpp:253
+#, kde-format
+msgctxt "tooltip, shortcut"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: interfaces/quicksand/qs_matchview.cpp:190
 msgid "Type to search."
 msgstr "Wpiszë do szëkbë."
 
-#: interfaces/quicksand/qs_matchview.cpp:260
+#: interfaces/quicksand/qs_matchview.cpp:273
 #, kde-format
 msgid "1 item"
 msgid_plural "%1 items"
@@ -41,7 +47,7 @@ msgstr[0] "1 element"
 msgstr[1] "%1 elementë"
 msgstr[2] "%1 elementów"
 
-#: interfaces/quicksand/qs_matchview.cpp:262
+#: interfaces/quicksand/qs_matchview.cpp:275
 #, kde-format
 msgid "1 action"
 msgid_plural "%1 actions"
@@ -49,11 +55,11 @@ msgstr[0] "1 dzejanié"
 msgstr[1] "%1 dzejaniô"
 msgstr[2] "%1 dzejaniów"
 
-#: interfaces/quicksand/qs_matchview.cpp:347
+#: interfaces/quicksand/qs_matchview.cpp:360
 msgid "Loading..."
 msgstr "Ladowanié..."
 
-#: interfaces/quicksand/qs_matchview.cpp:431
+#: interfaces/quicksand/qs_matchview.cpp:445
 msgid "No results found."
 msgstr "Felënk"
 
@@ -70,12 +76,6 @@ msgstr "Pòmòc"
 #: interfaces/default/interface.cpp:107
 msgid "Information on using this application"
 msgstr "Wëdowiédzô przë brëkòwaniu ti aplikacëji"
-
-#: interfaces/default/interface.cpp:253
-#, kde-format
-msgctxt "tooltip, shortcut"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
 
 #: interfaces/default/interface.cpp:403
 #, kde-format
@@ -278,11 +278,11 @@ msgstr "Zrëszë pòlét (blós zrëszôcz \"%1\")"
 msgid "Plugins"
 msgstr "Wtëkôczë"
 
-#: configdialog.cpp:76
+#: configdialog.cpp:81
 msgid "User Interface"
 msgstr "Interfejs brëkòwnika"
 
-#: configdialog.cpp:82
+#: configdialog.cpp:87
 msgid "Available Features"
 msgstr "Przëstãpné dodôwczi"
 
