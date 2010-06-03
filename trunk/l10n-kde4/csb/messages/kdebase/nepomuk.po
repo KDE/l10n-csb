@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-01 05:45+0200\n"
+"POT-Creation-Date: 2010-06-03 04:50+0200\n"
 "PO-Revision-Date: 2009-12-15 18:43+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -34,7 +34,7 @@ msgid "Query Results"
 msgstr "Skùtczi zapëtaniów"
 
 #: kioslaves/search/kio_nepomuksearch.cpp:147
-#: kioslaves/nepomuk/kio_nepomuk.cpp:637
+#: kioslaves/nepomuk/kio_nepomuk.cpp:264
 msgid ""
 "The Nepomuk system is not activated. Unable to answer queries without it."
 msgstr "Systema Nepomuk nie je włączonô. Nié mòże terô przerôbiac zapëtaniów."
@@ -69,7 +69,20 @@ msgstr "Dzysô"
 msgid "Calendar"
 msgstr "Kalãdôrz"
 
-#: kioslaves/nepomuk/kio_nepomuk.cpp:303
+#: kioslaves/common/resourcestat.cpp:201
+#, kde-format
+msgctxt ""
+"%1 is a filename of a file on a removable device, %2 is the name of the "
+"removable medium which often is something like 'X GiB Removable Media."
+msgid "%1 (on unmounted medium <resource>%2</resource>)"
+msgstr ""
+
+#: kioslaves/common/resourcestat.cpp:311
+#, kde-format
+msgid "Things tagged '%1'"
+msgstr ""
+
+#: kioslaves/nepomuk/kio_nepomuk.cpp:111
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -79,22 +92,14 @@ msgstr ""
 "Proszã wetknąc przenosné ùrządzenié <resource>%1</resource> dlô przëstãpù do "
 "negò lopka."
 
-#: kioslaves/nepomuk/kio_nepomuk.cpp:325
+#: kioslaves/nepomuk/kio_nepomuk.cpp:131
 msgid ""
 "Do you really want to delete the resource and all relations to and from it?"
 msgstr "Chcesz na gwës rëmnąc nen dostónk ë wszëtczé jegò pòwiązania?"
 
-#: kioslaves/nepomuk/kio_nepomuk.cpp:328
+#: kioslaves/nepomuk/kio_nepomuk.cpp:134
 msgid "Delete Resource"
 msgstr "Rëmôj dostónk"
-
-#: kioslaves/nepomuk/kio_nepomuk.cpp:415
-#, kde-format
-msgctxt ""
-"%1 is a filename of a file on a removable device, %2 is the name of the "
-"removable medium which often is something like 'X GiB Removable Media."
-msgid "%1 (on unmounted medium <resource>%2</resource>)"
-msgstr ""
 
 #: kioslaves/nepomuk/resourcepagegenerator.cpp:191
 msgid "Resource does not exist"
