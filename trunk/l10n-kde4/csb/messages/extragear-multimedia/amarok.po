@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-24 04:53+0200\n"
+"POT-Creation-Date: 2010-06-25 05:16+0200\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -6531,49 +6531,51 @@ msgstr "Artistë szlachùjący za \"%1\""
 msgid "no similar artists found"
 msgstr "Artistë szlachùjący za \"%1\" wedle Last.fm"
 
-#: context/applets/similarartists/ArtistWidget.cpp:97
+#: context/applets/similarartists/ArtistWidget.cpp:96
 #: playlist/view/PlaylistViewCommon.cpp:184
 #, fuzzy
 #| msgid "File Extension of Source"
 msgid "Show in Media Sources"
 msgstr "Rozszérzenié lopkù zdroju"
 
-#: context/applets/similarartists/ArtistWidget.cpp:108
+#: context/applets/similarartists/ArtistWidget.cpp:107
 #, fuzzy
 #| msgid "Enter a name for the playlist:"
 msgid "Add last.fm artist station to the Playlist"
 msgstr "Wpiszë miono dlô lëstë graniô:"
 
-#: context/applets/similarartists/ArtistWidget.cpp:171
+#: context/applets/similarartists/ArtistWidget.cpp:167
 #, fuzzy
 #| msgid "Loading info..."
 msgid "Loading the picture..."
 msgstr "Ladowanié wëdowiédzë..."
 
-#: context/applets/similarartists/ArtistWidget.cpp:193
-msgid "Unable to fetch the picture"
-msgstr ""
+#: context/applets/similarartists/ArtistWidget.cpp:188
+#, fuzzy, kde-format
+#| msgid "Unable to retrieve Youtube information: %1"
+msgid "Unable to fetch the picture: %1"
+msgstr "Ni mòże wëdostac wëdowiédzë z Youtube: %1"
 
-#: context/applets/similarartists/ArtistWidget.cpp:256
+#: context/applets/similarartists/ArtistWidget.cpp:247
 #, fuzzy
 #| msgid "dates"
 msgid "Match"
 msgstr "datumë"
 
-#: context/applets/similarartists/ArtistWidget.cpp:291
+#: context/applets/similarartists/ArtistWidget.cpp:282
 #, fuzzy
 #| msgid "No description available..."
 msgid "No description available in your language"
 msgstr "Felëje òpisënkù..."
 
-#: context/applets/similarartists/ArtistWidget.cpp:312
+#: context/applets/similarartists/ArtistWidget.cpp:303
 #, fuzzy
 #| msgid " Cover not found"
 #| msgid_plural " <b>%1</b> covers not found"
 msgid "Top track not found"
 msgstr "Òbkłôdka nie je nalazłô"
 
-#: context/applets/similarartists/ArtistWidget.cpp:314
+#: context/applets/similarartists/ArtistWidget.cpp:305
 #, fuzzy
 #| msgctxt ""
 #| "'Group tracks' (number of tracks in group) playlist column name and token "
@@ -6653,13 +6655,13 @@ msgctxt "automatic time span"
 msgid "Automatic"
 msgstr "Aùtomatno"
 
-#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:135
+#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:128
 #, fuzzy
 #| msgid "Loading info..."
 msgid "Loading picture..."
 msgstr "Ladowanié wëdowiédzë..."
 
-#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:232
+#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:222
 msgid "Event website"
 msgstr ""
 
@@ -6775,17 +6777,17 @@ msgstr ""
 msgid "Albums by %1"
 msgstr "Albùmë artistë %1"
 
-#: context/engines/photos/PhotosEngine.cpp:192
-#, fuzzy
+#: context/engines/photos/PhotosEngine.cpp:184
+#, fuzzy, kde-format
 #| msgid "Unable to retrieve Flickr : %1"
-msgid "Unable to retrieve from Flickr.com "
+msgid "Unable to retrieve from Flickr.com: %1"
 msgstr "Ni mòże wëdostac Flickr: %1"
 
-#: context/engines/photos/PhotosEngine.cpp:281
-#: context/engines/wikipedia/WikipediaEngine.cpp:156
-#: context/engines/wikipedia/WikipediaEngine.cpp:176
-#: context/engines/wikipedia/WikipediaEngine.cpp:193
-#: context/engines/wikipedia/WikipediaEngine.cpp:270
+#: context/engines/photos/PhotosEngine.cpp:262
+#: context/engines/wikipedia/WikipediaEngine.cpp:151
+#: context/engines/wikipedia/WikipediaEngine.cpp:171
+#: context/engines/wikipedia/WikipediaEngine.cpp:188
+#: context/engines/wikipedia/WikipediaEngine.cpp:263
 msgid "No information found..."
 msgstr "Ni ma nalazłi wedowiédzë..."
 
@@ -6797,38 +6799,38 @@ msgstr ""
 msgid "dates"
 msgstr "datumë"
 
-#: context/engines/videoclip/VideoclipEngine.cpp:214
+#: context/engines/videoclip/VideoclipEngine.cpp:206
 #, kde-format
 msgid "Unable to retrieve Youtube information: %1"
 msgstr "Ni mòże wëdostac wëdowiédzë z Youtube: %1"
 
-#: context/engines/videoclip/VideoclipEngine.cpp:366
+#: context/engines/videoclip/VideoclipEngine.cpp:353
 #, kde-format
 msgid "Unable to retrieve Dailymotion information: %1"
 msgstr "Ni mòże wëdostaw wëdowiédzë z Dailymotion: %1"
 
-#: context/engines/videoclip/VideoclipEngine.cpp:513
+#: context/engines/videoclip/VideoclipEngine.cpp:495
 #, fuzzy, kde-format
 #| msgid "Unable to retrieve Wikipedia information: %1"
 msgid "Unable to retrieve Vimeo information: %1"
 msgstr "Ni mòże wëdostaw wëdowiédzë z Wikipediji: %1"
 
-#: context/engines/videoclip/VideoclipEngine.cpp:562
+#: context/engines/videoclip/VideoclipEngine.cpp:541
 #, fuzzy, kde-format
 #| msgid "Unable to retrieve Wikipedia information: %1"
 msgid "Unable to retrieve Vimeo Bis information: %1"
 msgstr "Ni mòże wëdostaw wëdowiédzë z Wikipediji: %1"
 
-#: context/engines/videoclip/VideoclipEngine.cpp:698
+#: context/engines/videoclip/VideoclipEngine.cpp:668
 msgid "No video clip found..."
 msgstr "Ni ma nalazłi telediskù..."
 
-#: context/engines/wikipedia/WikipediaEngine.cpp:250
+#: context/engines/wikipedia/WikipediaEngine.cpp:244
 #, kde-format
 msgid "Unable to retrieve Wikipedia information: %1"
 msgstr "Ni mòże wëdostaw wëdowiédzë z Wikipediji: %1"
 
-#: context/engines/wikipedia/WikipediaEngine.cpp:415
+#: context/engines/wikipedia/WikipediaEngine.cpp:407
 msgid "Wikipedia Other Languages: <br/>"
 msgstr "Jine jãzëczi Wikipediji: <br/>"
 
@@ -8117,7 +8119,7 @@ msgstr[1] "Zladëjë òbkłôdkã dlô nëch %1 albùmów"
 msgstr[2] "Zladëjë òbkłôdkã dlô nëch %1 albùmów"
 
 #: covermanager/CoverFetchingActions.cpp:66
-#: covermanager/CoverFoundDialog.cpp:366
+#: covermanager/CoverFoundDialog.cpp:360
 msgid "Display Cover"
 msgstr "Pòkażë wòbkłôdkã"
 
@@ -8304,131 +8306,131 @@ msgstr "Felëje artistë"
 msgid "Cover View"
 msgstr "Òbkłôdka"
 
-#: covermanager/CoverFetcher.cpp:170
+#: covermanager/CoverFetcher.cpp:164
 msgid "Fetching Cover"
 msgstr "Ladowanié òbkłôdczi"
 
-#: covermanager/CoverFetcher.cpp:194
-#, fuzzy
+#: covermanager/CoverFetcher.cpp:186
+#, fuzzy, kde-format
 #| msgid "There was an error communicating with Amazon."
-msgid "There was an error communicating with cover provider."
+msgid "There was an error communicating with cover provider: %1"
 msgstr "Wëstąpiła fela òbczas łączbë z Amazon."
 
-#: covermanager/CoverFetcher.cpp:335
+#: covermanager/CoverFetcher.cpp:319
 #, fuzzy, kde-format
 #| msgid "Retrieved cover successfully"
 msgid "Retrieved cover successfully for '%1'."
 msgstr "ùdałé wëdostónié òbkłôdków"
 
-#: covermanager/CoverFetcher.cpp:346
+#: covermanager/CoverFetcher.cpp:330
 #, fuzzy, kde-format
 #| msgid "Fetching cover for %1..."
 msgid "Fetching cover for '%1' failed."
 msgstr "Ladowanié òbkłôdczi dlô %1..."
 
-#: covermanager/CoverFetcher.cpp:359
+#: covermanager/CoverFetcher.cpp:343
 #, fuzzy, kde-format
 #| msgid "Fetching cover for %1..."
 msgid "Canceled fetching cover for '%1'."
 msgstr "Ladowanié òbkłôdczi dlô %1..."
 
-#: covermanager/CoverFetcher.cpp:368
+#: covermanager/CoverFetcher.cpp:352
 #, fuzzy, kde-format
 #| msgid "Unable to find a cover for %1."
 msgid "Unable to find a cover for '%1'."
 msgstr "Ni mòże nalezc òbkłôdczi dlô %1..."
 
-#: covermanager/CoverFoundDialog.cpp:82
+#: covermanager/CoverFoundDialog.cpp:79
 #, fuzzy
 #| msgid "Fetching cover for %1..."
 msgid "Finding cover for"
 msgstr "Ladowanié òbkłôdczi dlô %1..."
 
-#: covermanager/CoverFoundDialog.cpp:114
+#: covermanager/CoverFoundDialog.cpp:111
 #, fuzzy
 #| msgid "Set Custom Cover"
 msgid "Enter Custom Search"
 msgstr "Ùstôwi &swòją òbkłôdkã"
 
-#: covermanager/CoverFoundDialog.cpp:129
+#: covermanager/CoverFoundDialog.cpp:126
 #, fuzzy
 #| msgid "last.fm"
 msgid "Last.fm"
 msgstr "last.fm"
 
-#: covermanager/CoverFoundDialog.cpp:130
+#: covermanager/CoverFoundDialog.cpp:127
 #, fuzzy
 #| msgid "Goto"
 msgid "Google"
 msgstr "Biéj do"
 
-#: covermanager/CoverFoundDialog.cpp:131
+#: covermanager/CoverFoundDialog.cpp:128
 msgid "Yahoo!"
 msgstr ""
 
-#: covermanager/CoverFoundDialog.cpp:132
+#: covermanager/CoverFoundDialog.cpp:129
 #, fuzzy
 #| msgid "Disc #"
 msgid "Discogs"
 msgstr "Disk #"
 
-#: covermanager/CoverFoundDialog.cpp:142
+#: covermanager/CoverFoundDialog.cpp:139
 msgid "Sort by size"
 msgstr ""
 
-#: covermanager/CoverFoundDialog.cpp:369 MainWindow.cpp:567
+#: covermanager/CoverFoundDialog.cpp:363 MainWindow.cpp:567
 msgid "Save As"
 msgstr ""
 
-#: covermanager/CoverFoundDialog.cpp:387
+#: covermanager/CoverFoundDialog.cpp:381
 #, fuzzy
 #| msgid "Save location:"
 msgid "Cover Image Save Location"
 msgstr "Zapiszë môl:"
 
-#: covermanager/CoverFoundDialog.cpp:413 covermanager/CoverFoundDialog.cpp:430
+#: covermanager/CoverFoundDialog.cpp:407 covermanager/CoverFoundDialog.cpp:424
 #, fuzzy
 #| msgid "The cover could not be retrieved."
 msgid "Sorry, the cover could not be saved."
 msgstr "Nie jidze zladowac òbkłôdczi."
 
-#: covermanager/CoverFoundDialog.cpp:485
+#: covermanager/CoverFoundDialog.cpp:474
 #, fuzzy
 #| msgid "The cover could not be retrieved."
 msgid "Sorry, the cover image could not be retrieved."
 msgstr "Nie jidze zladowac òbkłôdczi."
 
-#: covermanager/CoverFoundDialog.cpp:510
+#: covermanager/CoverFoundDialog.cpp:497
 #, fuzzy
 #| msgid "Fetching Cover"
 msgid "Fetching Large Cover"
 msgstr "Ladowanié òbkłôdczi"
 
-#: covermanager/CoverFoundDialog.cpp:511
+#: covermanager/CoverFoundDialog.cpp:498
 #, fuzzy
 #| msgid "Download to:"
 msgid "Download Progress"
 msgstr "Zladëjë do:"
 
-#: covermanager/CoverFoundDialog.cpp:696
+#: covermanager/CoverFoundDialog.cpp:683
 #, fuzzy
 #| msgid "&Search"
 msgid "Search"
 msgstr "&Szëkba"
 
-#: covermanager/CoverFoundDialog.cpp:696
+#: covermanager/CoverFoundDialog.cpp:683
 #, fuzzy
 #| msgid "MusicBrainz Results"
 msgid "Search For More Results"
 msgstr "Rezultatë MusicBrainz"
 
-#: covermanager/CoverFoundDialog.cpp:712
+#: covermanager/CoverFoundDialog.cpp:699
 #, fuzzy
 #| msgid "No purchases found."
 msgid "No Images Found"
 msgstr "Nie je nalazłé niżódné zamówienié."
 
-#: covermanager/CoverFoundDialog.cpp:713
+#: covermanager/CoverFoundDialog.cpp:700
 #, kde-format
 msgid "1 Image Found"
 msgid_plural "%1 Images Found"
@@ -8436,82 +8438,82 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: covermanager/CoverFoundDialog.cpp:737
+#: covermanager/CoverFoundDialog.cpp:724
 #, fuzzy
 #| msgid "Track Information"
 msgid "Information"
 msgstr "Wrdowiédzô ò sztëczkù"
 
-#: covermanager/CoverFoundDialog.cpp:738
+#: covermanager/CoverFoundDialog.cpp:725
 #, fuzzy
 #| msgid "None"
 msgid "Notes"
 msgstr "Felënk"
 
-#: covermanager/CoverFoundDialog.cpp:810
+#: covermanager/CoverFoundDialog.cpp:797
 #, fuzzy
 #| msgid "Artist"
 msgctxt "@item::intable"
 msgid "Artist"
 msgstr "Artista"
 
-#: covermanager/CoverFoundDialog.cpp:811
+#: covermanager/CoverFoundDialog.cpp:798
 #, fuzzy
 #| msgid "Counting"
 msgctxt "@item::intable"
 msgid "Country"
 msgstr "Rechòwanié"
 
-#: covermanager/CoverFoundDialog.cpp:812
+#: covermanager/CoverFoundDialog.cpp:799
 #, fuzzy
 #| msgid "Database:"
 msgctxt "@item::intable"
 msgid "Date"
 msgstr "Baza pòdôwków:"
 
-#: covermanager/CoverFoundDialog.cpp:813
+#: covermanager/CoverFoundDialog.cpp:800
 #, fuzzy
 #| msgid "Format:"
 msgctxt "@item::intable File Format"
 msgid "Format"
 msgstr "Fòrmat:"
 
-#: covermanager/CoverFoundDialog.cpp:814
+#: covermanager/CoverFoundDialog.cpp:801
 #, fuzzy
 #| msgid "Right"
 msgctxt "@item::intable Image Height"
 msgid "Height"
 msgstr "Prawò"
 
-#: covermanager/CoverFoundDialog.cpp:815 covermanager/CoverFoundDialog.cpp:820
+#: covermanager/CoverFoundDialog.cpp:802 covermanager/CoverFoundDialog.cpp:807
 #, fuzzy
 #| msgid "Title"
 msgctxt "@item::intable Album Title"
 msgid "Title"
 msgstr "Titel"
 
-#: covermanager/CoverFoundDialog.cpp:816
+#: covermanager/CoverFoundDialog.cpp:803
 #, fuzzy
 #| msgid "Type"
 msgctxt "@item::intable Release Type"
 msgid "Type"
 msgstr "Ôrt"
 
-#: covermanager/CoverFoundDialog.cpp:817
+#: covermanager/CoverFoundDialog.cpp:804
 #, fuzzy
 #| msgid "Reload"
 msgctxt "@item::intable Release Date"
 msgid "Released"
 msgstr "Zladëjë znôù"
 
-#: covermanager/CoverFoundDialog.cpp:818
+#: covermanager/CoverFoundDialog.cpp:805
 #, fuzzy
 #| msgid "Size:"
 msgctxt "@item::intable File Size"
 msgid "Size"
 msgstr "Miara:"
 
-#: covermanager/CoverFoundDialog.cpp:819
+#: covermanager/CoverFoundDialog.cpp:806
 #, fuzzy
 #| msgctxt ""
 #| "'Source' (local collection, Magnatune.com, last.fm, ... ) playlist column "
@@ -8521,14 +8523,14 @@ msgctxt "@item::intable Cover Provider"
 msgid "Source"
 msgstr "Zdrój"
 
-#: covermanager/CoverFoundDialog.cpp:821
+#: covermanager/CoverFoundDialog.cpp:808
 #, fuzzy
 #| msgid "Width"
 msgctxt "@item::intable Image Width"
 msgid "Width"
 msgstr "Szérz"
 
-#: covermanager/CoverFoundDialog.cpp:861
+#: covermanager/CoverFoundDialog.cpp:848
 #, fuzzy
 #| msgctxt "state, as in playing"
 #| msgid "Play"
@@ -8536,7 +8538,7 @@ msgctxt "@item::intable URL"
 msgid "link"
 msgstr "Grónié"
 
-#: covermanager/CoverFoundDialog.cpp:867
+#: covermanager/CoverFoundDialog.cpp:854
 #, fuzzy
 #| msgid "URL"
 msgctxt "@item::intable"
@@ -11327,7 +11329,7 @@ msgstr "Zaktualni bazã pòdôwków"
 msgid "Local playlists stored in the database"
 msgstr ""
 
-#: scriptengine/AmarokNetworkScript.cpp:73
+#: scriptengine/AmarokNetworkScript.cpp:69
 msgctxt "do not translate 'DataDownloader' or 'qt.core'"
 msgid "qt.core must be loaded to use DataDownloader"
 msgstr ""
@@ -11364,11 +11366,16 @@ msgstr "Nie są nalazłé tekstë dlô tegò sztëczka"
 msgid "<p>No information found for this artist.</p>"
 msgstr "Nie są nalazłé tekstë dlô tegò sztëczka"
 
-#: services/ampache/AmpacheService.cpp:128
+#: services/ampache/AmpacheServiceCollection.cpp:56
+#, kde-format
+msgid "Ampache Server %1"
+msgstr "Serwera Ampache %1"
+
+#: services/ampache/AmpacheService.cpp:126
 msgid "Amarok frontend for your Ampache server."
 msgstr "Nakłôdka Amaroka na twòją serwerã Ampache."
 
-#: services/ampache/AmpacheService.cpp:130
+#: services/ampache/AmpacheService.cpp:128
 msgid ""
 "Use Amarok as a seamless frontend to your Ampache server. This lets you "
 "browse and play all the Ampache contents from within Amarok."
@@ -11376,18 +11383,13 @@ msgstr ""
 "Brëkùjë Amaroka jakno jedny le nôkładczi na twòją serwerã Ampache. To "
 "pòzwôlô ce przezérac ë grac całą zamkłosc Ampache brëkùjącë Amaroka."
 
-#: services/ampache/AmpacheService.cpp:231
+#: services/ampache/AmpacheService.cpp:224
 msgid "Enter the server name and a password"
 msgstr "Wpiszë miono serwerë ë parolã"
 
-#: services/ampache/AmpacheService.cpp:326
+#: services/ampache/AmpacheService.cpp:315
 msgid "Authentication Error"
 msgstr "Fela ùdowiérzania"
-
-#: services/ampache/AmpacheServiceCollection.cpp:56
-#, kde-format
-msgid "Ampache Server %1"
-msgstr "Serwera Ampache %1"
 
 #: services/jamendo/JamendoInfoParser.cpp:46
 #: services/jamendo/JamendoInfoParser.cpp:77
