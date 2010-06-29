@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdmgreet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-27 04:46+0200\n"
+"POT-Creation-Date: 2010-06-29 02:39+0200\n"
 "PO-Revision-Date: 2009-12-20 18:51+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -364,6 +364,13 @@ msgctxt "... host"
 msgid "X login on %1"
 msgstr "Zalogòwóny pòd X na %1"
 
+#: kdmconfig.cpp:131
+msgctxt ""
+"@item:intext substitution for an undefined %X placeholder wrongly given in "
+"the config file 'kdmrc', telling the user to fix it"
+msgid "[fix kdmrc]"
+msgstr "[pòprôwi kdmrc]"
+
 #: krootimage.cpp:330
 msgid "KRootImage"
 msgstr "KRootImage"
@@ -375,13 +382,6 @@ msgstr "Czekawé spòdlé pùltu dlô kdm"
 #: krootimage.cpp:334
 msgid "Name of the configuration file"
 msgstr "Miono kònfigùracëjowëgò lopkù"
-
-#: kdmconfig.cpp:131
-msgctxt ""
-"@item:intext substitution for an undefined %X placeholder wrongly given in "
-"the config file 'kdmrc', telling the user to fix it"
-msgid "[fix kdmrc]"
-msgstr "[pòprôwi kdmrc]"
 
 #: kgreeter.cpp:481
 msgctxt "@item:inlistbox session type"
@@ -456,6 +456,18 @@ msgstr "&Daleczé logòwanié"
 msgid "Login failed"
 msgstr "Logòwanié nie darzëło sã"
 
+#: kconsole.cpp:70
+msgid "*** Cannot connect to console log ***"
+msgstr "*** Ni mòże sparłãczëc sã z logòwaniém kònsolë ***"
+
+#: kconsole.cpp:154
+msgid ""
+"\n"
+"*** Lost connection with console log ***"
+msgstr ""
+"\n"
+"*** Zgùbioné sparłączenié z logòwaniém kònsolë ***"
+
 #: kchooser.cpp:54
 msgctxt "@action:inmenu"
 msgid "&Local Login"
@@ -504,18 +516,6 @@ msgstr "<nieznóny>"
 #, kde-format
 msgid "Unknown host %1"
 msgstr "Nieznónô serwera %1"
-
-#: kconsole.cpp:70
-msgid "*** Cannot connect to console log ***"
-msgstr "*** Ni mòże sparłãczëc sã z logòwaniém kònsolë ***"
-
-#: kconsole.cpp:154
-msgid ""
-"\n"
-"*** Lost connection with console log ***"
-msgstr ""
-"\n"
-"*** Zgùbioné sparłączenié z logòwaniém kònsolë ***"
 
 #: kgverify.cpp:187
 msgid "No greeter widget plugin loaded. Check the configuration."
