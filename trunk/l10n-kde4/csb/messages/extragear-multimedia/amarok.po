@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-25 05:16+0200\n"
+"POT-Creation-Date: 2010-07-02 04:58+0200\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -11046,16 +11046,6 @@ msgstr ""
 msgid "Export `%1' preset"
 msgstr ""
 
-#: playlistgenerator/constraints/Checkpoint.cpp:59
-msgid "Checkpoint"
-msgstr ""
-
-#: playlistgenerator/constraints/Checkpoint.cpp:60
-#, fuzzy
-#| msgid "Enter space-separated terms to search in the playlist."
-msgid "Fixes a track, album, or artist to a certain position in the playlist"
-msgstr "Wpiszë òddzéloné spacëjama kriteria przeszëkiwaniô lëstë graniô"
-
 #: playlistgenerator/constraints/PlaylistLength.cpp:56
 #, fuzzy
 #| msgid "Playlist"
@@ -11236,6 +11226,59 @@ msgstr "Slédno gróné"
 #| msgid "playcount"
 msgid "play count"
 msgstr "rechòwnik òdegraniów"
+
+#: playlistgenerator/constraints/Checkpoint.cpp:59
+msgid "Checkpoint"
+msgstr ""
+
+#: playlistgenerator/constraints/Checkpoint.cpp:60
+#, fuzzy
+#| msgid "Enter space-separated terms to search in the playlist."
+msgid "Fixes a track, album, or artist to a certain position in the playlist"
+msgstr "Wpiszë òddzéloné spacëjama kriteria przeszëkiwaniô lëstë graniô"
+
+#: playlistgenerator/constraints/Checkpoint.cpp:169
+#, fuzzy, kde-format
+#| msgid " on <b>%1</b>"
+msgid "Checkpoint: %1"
+msgstr " przez <b>%1</b>"
+
+#: playlistgenerator/constraints/Checkpoint.cpp:177
+#: playlistgenerator/constraints/Checkpoint.cpp:185
+#: playlistgenerator/constraints/Checkpoint.cpp:197
+msgid "unassigned"
+msgstr ""
+
+#: playlistgenerator/constraints/Checkpoint.cpp:179
+#, fuzzy, kde-format
+#| msgctxt "%1 is number of tracks, %2 is time"
+#| msgid "%1 track (%2)"
+#| msgid_plural "%1 tracks (%2)"
+msgid "\"%1\" (track) by %2"
+msgstr "%1 sztëczk (%2)"
+
+#: playlistgenerator/constraints/Checkpoint.cpp:188
+#, fuzzy, kde-format
+#| msgid "%1 by %2"
+msgid "\"%1\" (album) by %2"
+msgstr "%1 wëkònywóné przez %2"
+
+#: playlistgenerator/constraints/Checkpoint.cpp:190
+#, fuzzy, kde-format
+#| msgid "%1 album"
+#| msgid_plural "%1 albums"
+msgid "\"%1\" (album)"
+msgstr "%1 albùm"
+
+#: playlistgenerator/constraints/Checkpoint.cpp:199
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Last part of: Jamendo.com database update complete. Added 3 tracks on 4 "
+#| "albums from 5 artists."
+#| msgid "1 artist."
+#| msgid_plural "%1 artists."
+msgid "\"%1\" (artist)"
+msgstr "1 artista."
 
 #: playlistmanager/PlaylistManager.cpp:221
 msgid "Downloading Playlist"
@@ -14770,9 +14813,6 @@ msgstr "%1 - %2  ::  %3"
 #~ msgid "Next: %1"
 #~ msgstr "Pòstãpny: %1"
 
-#~ msgid "%1 by %2"
-#~ msgstr "%1 wëkònywóné przez %2"
-
 #~ msgid ""
 #~ "<p>One of Mike Oldfield's best pieces of work, Amarok, inspired the name "
 #~ "behind the audio-player you are currently using. Thanks for choosing "
@@ -14845,12 +14885,6 @@ msgstr "%1 - %2  ::  %3"
 
 #~ msgid "Collection Statistics"
 #~ msgstr "Statisticzi kòlekcëji"
-
-#~ msgid "%1 album"
-#~ msgid_plural "%1 albums"
-#~ msgstr[0] "%1 albùm"
-#~ msgstr[1] "%1 albùmë"
-#~ msgstr[2] "%1 albùmów"
 
 #~ msgid "Favorite Genres"
 #~ msgstr "Lubòtné zortë"
