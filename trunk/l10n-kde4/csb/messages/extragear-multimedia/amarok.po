@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-07-15 05:27+0200\n"
+"POT-Creation-Date: 2010-07-17 05:03+0200\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -1270,7 +1270,7 @@ msgstr "&Editëjë detale sztëczka"
 
 #: browsers/filebrowser/FileView.cpp:515
 #: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:251
-#: playlistmanager/file/PlaylistFileProvider.cpp:327
+#: playlistmanager/file/PlaylistFileProvider.cpp:328
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:239
 #, fuzzy
 #| msgid "Configure Playback"
@@ -1287,7 +1287,7 @@ msgstr[1] "Na gwës chcesz rëmnąc %1?"
 msgstr[2] "Na gwës chcesz rëmnąc %1?"
 
 #: browsers/filebrowser/FileView.cpp:522
-#: playlistmanager/file/PlaylistFileProvider.cpp:334
+#: playlistmanager/file/PlaylistFileProvider.cpp:335
 msgid "Yes, delete from disk."
 msgstr ""
 
@@ -1594,29 +1594,6 @@ msgid ""
 "podcast subscriptions and episodes."
 msgstr ""
 
-#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:33
-#, fuzzy
-#| msgid "&Rename group"
-msgid "&Rename Folder..."
-msgstr "&Zmieni miono grëpë"
-
-#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:39
-#, fuzzy
-#| msgid "Delete Files"
-msgid "&Delete Folder"
-msgstr "Rëmniãcé lopków"
-
-#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:294
-msgid "New name"
-msgstr "Nowi miono"
-
-#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:296
-#, fuzzy
-#| msgid "Enter new group name:"
-msgctxt "Enter a new name for a folder that already exists"
-msgid "Enter new folder name:"
-msgstr "Wpiszë miono nowi grëpë:"
-
 #: browsers/playlistbrowser/PodcastCategory.cpp:97
 msgid "Podcasts"
 msgstr "Podcastë"
@@ -1831,6 +1808,29 @@ msgstr[2] "Lësta graniô"
 #| msgid "Source"
 msgid "Source"
 msgstr "Zdrój"
+
+#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:33
+#, fuzzy
+#| msgid "&Rename group"
+msgid "&Rename Folder..."
+msgstr "&Zmieni miono grëpë"
+
+#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:39
+#, fuzzy
+#| msgid "Delete Files"
+msgid "&Delete Folder"
+msgstr "Rëmniãcé lopków"
+
+#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:295
+msgid "New name"
+msgstr "Nowi miono"
+
+#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:297
+#, fuzzy
+#| msgid "Enter new group name:"
+msgctxt "Enter a new name for a folder that already exists"
+msgid "Enter new folder name:"
+msgstr "Wpiszë miono nowi grëpë:"
 
 #: browsers/servicebrowser/ServiceBrowser.cpp:44
 msgid ""
@@ -3300,16 +3300,16 @@ msgstr[1] "Rëmanié traków z ùrządzenia"
 msgstr[2] "Rëmanié traków z ùrządzenia"
 
 #: core-impl/collections/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.cpp:115
-#: playlistmanager/file/PlaylistFileProvider.cpp:440
+#: playlistmanager/file/PlaylistFileProvider.cpp:442
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:122
-#: playlistmanager/PlaylistManager.cpp:299
+#: playlistmanager/PlaylistManager.cpp:343
 msgid "Change playlist"
 msgstr "Zmieni lëstã graniô"
 
 #: core-impl/collections/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.cpp:116
-#: playlistmanager/file/PlaylistFileProvider.cpp:441
+#: playlistmanager/file/PlaylistFileProvider.cpp:443
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:123
-#: playlistmanager/PlaylistManager.cpp:300
+#: playlistmanager/PlaylistManager.cpp:344
 msgid "Enter new name for playlist:"
 msgstr "Wpiszë nowé miono dlô lëstë graniô:"
 
@@ -7637,7 +7637,7 @@ msgstr "Rëmôj %1"
 msgid "Remove"
 msgstr "Rëmôj"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:329
+#: playlistmanager/file/PlaylistFileProvider.cpp:330
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:241
 #, fuzzy, kde-format
 #| msgid "Do you really want to remove this %1?"
@@ -7647,8 +7647,8 @@ msgstr[0] "Na gwës chcesz rëmnąc %1?"
 msgstr[1] "Na gwës chcesz rëmnąc %1?"
 msgstr[2] "Na gwës chcesz rëmnąc %1?"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:371
-#: playlistmanager/file/PlaylistFileProvider.cpp:399
+#: playlistmanager/file/PlaylistFileProvider.cpp:373
+#: playlistmanager/file/PlaylistFileProvider.cpp:401
 #, fuzzy, kde-format
 #| msgid "This object could not be created."
 msgid "The playlist file \"%1\" could not be loaded."
@@ -7686,7 +7686,7 @@ msgstr "Zaktualni bazã pòdôwków"
 msgid "Local playlists stored in the database"
 msgstr ""
 
-#: playlistmanager/PlaylistManager.cpp:223
+#: playlistmanager/PlaylistManager.cpp:267
 msgid "Downloading Playlist"
 msgstr "Ladowanié lëstë gróniô"
 
