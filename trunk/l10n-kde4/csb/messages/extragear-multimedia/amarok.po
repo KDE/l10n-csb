@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-07-23 05:24+0200\n"
+"POT-Creation-Date: 2010-07-24 05:41+0200\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -890,7 +890,7 @@ msgid "Add Position Marker"
 msgstr ""
 
 #: amarokurls/BookmarkModel.cpp:86
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:363
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:366
 #, fuzzy
 #| msgid "Group By"
 msgid "Group"
@@ -903,13 +903,13 @@ msgstr "Grëpòwóny"
 #. i18n: file: aboutdialog/OcsPersonItem.ui:137
 #. i18n: ectx: property (text), widget (QLabel, m_textLabel)
 #: amarokurls/BookmarkModel.cpp:265
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:362
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:365
 #: playlistgenerator/TreeModel.cpp:67 rc.cpp:1178 rc.cpp:1184 rc.cpp:1190
 msgid "Name"
 msgstr "Miono"
 
 #: amarokurls/BookmarkModel.cpp:266
-#: browsers/playlistbrowser/PodcastModel.cpp:330
+#: browsers/playlistbrowser/PodcastModel.cpp:334
 #: playlist/PlaylistModel.cpp:661
 msgid "Type"
 msgstr "Ôrt"
@@ -1432,90 +1432,6 @@ msgstr ""
 msgid "Accuracy"
 msgstr ""
 
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:90
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:171
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:216
-#, fuzzy, kde-format
-#| msgid "Playlist"
-msgctxt "number of playlists from one source"
-msgid "One Playlist"
-msgid_plural "%1 playlists"
-msgstr[0] "Lësta graniô"
-msgstr[1] "Lësta graniô"
-msgstr[2] "Lësta graniô"
-
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:364
-#, fuzzy
-#| msgctxt ""
-#| "'Source' (local collection, Magnatune.com, last.fm, ... ) playlist column "
-#| "name and token for playlist layouts"
-#| msgid "Source"
-msgid "Source"
-msgstr "Zdrój"
-
-#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:33
-#, fuzzy
-#| msgid "&Rename group"
-msgid "&Rename Folder..."
-msgstr "&Zmieni miono grëpë"
-
-#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:39
-#, fuzzy
-#| msgid "Delete Files"
-msgid "&Delete Folder"
-msgstr "Rëmniãcé lopków"
-
-#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:295
-msgid "New name"
-msgstr "Nowi miono"
-
-#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:297
-#, fuzzy
-#| msgid "Enter new group name:"
-msgctxt "Enter a new name for a folder that already exists"
-msgid "Enter new folder name:"
-msgstr "Wpiszë miono nowi grëpë:"
-
-#: browsers/playlistbrowser/PodcastModel.cpp:73
-#, fuzzy
-#| msgid "&Next"
-msgctxt "toggle the \"new\" status of this podcast episode"
-msgid "&New"
-msgstr "&Pòstãpny"
-
-#: browsers/playlistbrowser/PodcastModel.cpp:265
-#, fuzzy, kde-format
-#| msgid "&Update Channel"
-msgctxt "number of podcasts from one source"
-msgid "One Channel"
-msgid_plural "%1 channels"
-msgstr[0] "&Zaktualni kanał"
-msgstr[1] "&Zaktualni kanał"
-msgstr[2] "&Zaktualni kanał"
-
-#: browsers/playlistbrowser/PodcastModel.cpp:331
-#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:335
-#: dialogs/FilenameLayoutDialog.cpp:216 dialogs/FilenameLayoutDialog.cpp:550
-#: playlist/PlaylistModel.cpp:649 widgets/SmartPlaylistEditor.cpp:183
-msgid "Title"
-msgstr "Titel"
-
-#: browsers/playlistbrowser/PodcastModel.cpp:332 dialogs/TagDialog.cpp:696
-msgid "Summary"
-msgstr "Pòdrëchòwanié"
-
-#: browsers/playlistbrowser/PodcastModel.cpp:352
-#, fuzzy
-#| msgid "&Add Podcast"
-msgid "Add Podcast"
-msgstr "&Dodôj podcast"
-
-#: browsers/playlistbrowser/PodcastModel.cpp:353
-#, fuzzy
-#| msgid "Enter Stream URL:"
-msgid "Enter RSS 1.0/2.0 or Atom feed URL:"
-msgstr "Wpiszë URL strëdżi:"
-
 #: browsers/playlistbrowser/DynamicBiasModel.cpp:83
 msgid "Proportional Bias"
 msgstr ""
@@ -1600,6 +1516,13 @@ msgstr "Propòrcja:"
 #: rc.cpp:2552 rc.cpp:2603 rc.cpp:2633
 msgid "Match:"
 msgstr ""
+
+#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:335
+#: browsers/playlistbrowser/PodcastModel.cpp:335
+#: dialogs/FilenameLayoutDialog.cpp:216 dialogs/FilenameLayoutDialog.cpp:550
+#: playlist/PlaylistModel.cpp:649 widgets/SmartPlaylistEditor.cpp:183
+msgid "Title"
+msgstr "Titel"
 
 #. i18n: file: dialogs/EditFilterDialog.ui:206
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
@@ -1752,6 +1675,50 @@ msgctxt "default name for new folder"
 msgid "New Folder (%1)"
 msgstr "Katalog"
 
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:90
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:171
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:216
+#, fuzzy, kde-format
+#| msgid "Playlist"
+msgctxt "number of playlists from one source"
+msgid "One Playlist"
+msgid_plural "%1 playlists"
+msgstr[0] "Lësta graniô"
+msgstr[1] "Lësta graniô"
+msgstr[2] "Lësta graniô"
+
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:367
+#, fuzzy
+#| msgctxt ""
+#| "'Source' (local collection, Magnatune.com, last.fm, ... ) playlist column "
+#| "name and token for playlist layouts"
+#| msgid "Source"
+msgid "Source"
+msgstr "Zdrój"
+
+#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:33
+#, fuzzy
+#| msgid "&Rename group"
+msgid "&Rename Folder..."
+msgstr "&Zmieni miono grëpë"
+
+#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:39
+#, fuzzy
+#| msgid "Delete Files"
+msgid "&Delete Folder"
+msgstr "Rëmniãcé lopków"
+
+#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:295
+msgid "New name"
+msgstr "Nowi miono"
+
+#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:297
+#, fuzzy
+#| msgid "Enter new group name:"
+msgctxt "Enter a new name for a folder that already exists"
+msgid "Enter new folder name:"
+msgstr "Wpiszë miono nowi grëpë:"
+
 #: browsers/playlistbrowser/PodcastCategory.cpp:99
 msgid "Podcasts"
 msgstr "Podcastë"
@@ -1767,14 +1734,29 @@ msgid ""
 "to do this automatically."
 msgstr ""
 
-#: browsers/playlistbrowser/PodcastCategory.cpp:173
+#: browsers/playlistbrowser/PodcastCategory.cpp:109
+msgid "&Add Podcast"
+msgstr "&Dodôj podcast"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:115
+msgid "&Update All"
+msgstr "&Zaktualni wszëtkò"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:122
+#: browsers/playlistbrowser/PodcastCategory.cpp:125
+#, fuzzy
+#| msgid "Import playlist"
+msgid "Import OPML File"
+msgstr "Jimpòrtëjë lëstã graniô"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:175
 #, fuzzy
 #| msgctxt "What artist is this track by"
 #| msgid "By"
 msgid "By"
 msgstr "Przez"
 
-#: browsers/playlistbrowser/PodcastCategory.cpp:212
+#: browsers/playlistbrowser/PodcastCategory.cpp:214
 #, fuzzy
 #| msgctxt "What album is this track on"
 #| msgid "On"
@@ -1782,25 +1764,58 @@ msgctxt "Podcast published on date"
 msgid "On"
 msgstr "Włączony"
 
-#: browsers/playlistbrowser/PodcastCategory.cpp:230
+#: browsers/playlistbrowser/PodcastCategory.cpp:232
 #, fuzzy
 #| msgid "File Size"
 msgid "File Size:"
 msgstr "Miara lopka"
 
-#: browsers/playlistbrowser/PodcastCategory.cpp:242
+#: browsers/playlistbrowser/PodcastCategory.cpp:244
 #, fuzzy
 #| msgid "Description:"
 msgid "Subscription Date:"
 msgstr "Òpisënk:"
 
-#: browsers/playlistbrowser/PodcastCategory.cpp:250
+#: browsers/playlistbrowser/PodcastCategory.cpp:252
 msgid "Keywords:"
 msgstr ""
 
-#: browsers/playlistbrowser/PodcastCategory.cpp:287
+#: browsers/playlistbrowser/PodcastCategory.cpp:289
 msgid "Select OPML file to import"
 msgstr ""
+
+#: browsers/playlistbrowser/PodcastModel.cpp:73
+#, fuzzy
+#| msgid "&Next"
+msgctxt "toggle the \"new\" status of this podcast episode"
+msgid "&New"
+msgstr "&Pòstãpny"
+
+#: browsers/playlistbrowser/PodcastModel.cpp:265
+#, fuzzy, kde-format
+#| msgid "&Update Channel"
+msgctxt "number of podcasts from one source"
+msgid "One Channel"
+msgid_plural "%1 channels"
+msgstr[0] "&Zaktualni kanał"
+msgstr[1] "&Zaktualni kanał"
+msgstr[2] "&Zaktualni kanał"
+
+#: browsers/playlistbrowser/PodcastModel.cpp:336 dialogs/TagDialog.cpp:696
+msgid "Summary"
+msgstr "Pòdrëchòwanié"
+
+#: browsers/playlistbrowser/PodcastModel.cpp:356
+#, fuzzy
+#| msgid "&Add Podcast"
+msgid "Add Podcast"
+msgstr "&Dodôj podcast"
+
+#: browsers/playlistbrowser/PodcastModel.cpp:357
+#, fuzzy
+#| msgid "Enter Stream URL:"
+msgid "Enter RSS 1.0/2.0 or Atom feed URL:"
+msgstr "Wpiszë URL strëdżi:"
 
 #: browsers/playlistbrowser/UserPlaylistCategory.cpp:58
 #, fuzzy
@@ -3774,6 +3789,10 @@ msgstr[2] "Elementë"
 msgid "Podcast"
 msgstr "Podcast"
 
+#: core-impl/podcasts/sql/SqlPodcastProvider.h:50
+msgid "Local Podcasts"
+msgstr "Môlowé podcastë"
+
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:269
 #, fuzzy
 #| msgid "&Update Channel"
@@ -3787,32 +3806,32 @@ msgid "&Configure General Settings"
 msgstr "Kònfigùracëjô òglowëch òptacëjów"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:301
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:784
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:787
 msgid "&Configure"
 msgstr "&Kònfigùrëjë"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:319
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:802
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:805
 msgid "&Remove Subscription"
 msgstr "&Rëmôj subskripcëjã"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:340
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:823
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:826
 msgid "&Update Channel"
 msgstr "&Zaktualni kanał"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:379
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:704
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:707
 msgid "&Delete Downloaded Episode"
 msgstr ""
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:390
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:717
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:720
 msgid "&Write Feed Information to File"
 msgstr ""
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:414
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:754
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:757
 msgid "&Download Episode"
 msgstr "&Zladëjë epizod"
 
@@ -3821,7 +3840,17 @@ msgstr "&Zladëjë epizod"
 msgid "Already subscribed to %1."
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:576
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:578
+#, fuzzy
+#| msgid "Never"
+msgctxt "prefix to 'x minutes'"
+msgid "every "
+msgid_plural "every "
+msgstr[0] "Nigdë"
+msgstr[1] "Nigdë"
+msgstr[2] "Nigdë"
+
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:579
 #, fuzzy
 #| msgid "Minutes"
 msgid " minute"
@@ -3830,35 +3859,35 @@ msgstr[0] "Minutë"
 msgstr[1] "Minutë"
 msgstr[2] "Minutë"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:585
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:588
 #, fuzzy
 #| msgid "Configure Podcasts..."
 msgid "Configure Local Podcasts"
 msgstr "Kònfigùrëjë podcast..."
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:875
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:878
 #, fuzzy
 #| msgid "Subscribe"
 msgid "Unsubscribe"
 msgstr "Subskribùjë"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:879
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:882
 #, fuzzy
 #| msgid "Do you really want to remove this %1?"
 msgid "Do you really want to unsubscribe from "
 msgstr "Na gwës chcesz rëmnąc %1?"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:886
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:889
 #, fuzzy
 #| msgid "&Download Episode"
 msgid "Delete downloaded episodes"
 msgstr "&Zladëjë epizod"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1015
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1018
 msgid "Waiting for Podcast Downloads to Finish"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1016
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1019
 #, kde-format
 msgid "There is still a podcast download in progress"
 msgid_plural "There are still %1 podcast downloads in progress"
@@ -3866,28 +3895,24 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1020
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1023
 msgid "Cancel Download and Quit."
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1183
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1186
 msgid "Downloading Podcast Media"
 msgstr "Ladowanié mediów podcastu"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1184
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1187
 #, kde-format
 msgid "Downloading Podcast \"%1\""
 msgstr "Ladowanié podcastu \"%1\""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1258
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1408
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1261
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1411
 #, kde-format
 msgid "Unable to save podcast episode file to %1"
 msgstr ""
-
-#: core-impl/podcasts/sql/SqlPodcastProvider.h:50
-msgid "Local Podcasts"
-msgstr "Môlowé podcastë"
 
 #: core/meta/support/MetaUtility.cpp:355
 msgctxt "The quality of music"
@@ -11168,7 +11193,7 @@ msgstr ""
 msgid "Write feed information to tags after downloading."
 msgstr ""
 
-#. i18n: file: core-impl/podcasts/sql/SqlPodcastProviderSettingsWidget.ui:29
+#. i18n: file: core-impl/podcasts/sql/SqlPodcastProviderSettingsWidget.ui:32
 #. i18n: ectx: property (text), widget (QLabel, m_intervalLabel)
 #: rc.cpp:1617
 #, fuzzy
@@ -11176,7 +11201,7 @@ msgstr ""
 msgid "Auto-update:"
 msgstr "Aùtomatno"
 
-#. i18n: file: core-impl/podcasts/sql/SqlPodcastProviderSettingsWidget.ui:54
+#. i18n: file: core-impl/podcasts/sql/SqlPodcastProviderSettingsWidget.ui:57
 #. i18n: ectx: property (specialValueText), widget (KIntSpinBox, m_autoUpdateInterval)
 #: rc.cpp:1620
 #, fuzzy
@@ -11185,7 +11210,7 @@ msgctxt "automatic updates turned off"
 msgid "disabled"
 msgstr "Wëłączë"
 
-#. i18n: file: core-impl/podcasts/sql/SqlPodcastProviderSettingsWidget.ui:57
+#. i18n: file: core-impl/podcasts/sql/SqlPodcastProviderSettingsWidget.ui:60
 #. i18n: ectx: property (prefix), widget (KIntSpinBox, m_autoUpdateInterval)
 #: rc.cpp:1623
 #, fuzzy
@@ -11194,7 +11219,7 @@ msgctxt "prefix to update interval in minutes"
 msgid "every "
 msgstr "Nigdë"
 
-#. i18n: file: core-impl/podcasts/sql/SqlPodcastProviderSettingsWidget.ui:76
+#. i18n: file: core-impl/podcasts/sql/SqlPodcastProviderSettingsWidget.ui:79
 #. i18n: ectx: property (text), widget (QLabel, m_baseDirLabel)
 #: rc.cpp:1626
 #, fuzzy
@@ -11202,7 +11227,7 @@ msgstr "Nigdë"
 msgid "Base directory:"
 msgstr "Katalog podcasta"
 
-#. i18n: file: core-impl/podcasts/sql/SqlPodcastProviderSettingsWidget.ui:104
+#. i18n: file: core-impl/podcasts/sql/SqlPodcastProviderSettingsWidget.ui:107
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, m_baseDirUrl)
 #: rc.cpp:1629
 #, fuzzy
@@ -11252,7 +11277,7 @@ msgstr ""
 "underline; color:#0057ae;\">Wëdostónił kastkã Mp3Tunes</span></a></p></"
 "body></html>"
 
-#. i18n: file: core-impl/podcasts/sql/SqlPodcastProviderSettingsWidget.ui:109
+#. i18n: file: core-impl/podcasts/sql/SqlPodcastProviderSettingsWidget.ui:112
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, m_baseDirUrl)
 #: rc.cpp:1638
 msgid ""
@@ -13410,17 +13435,6 @@ msgstr "Grëpòwania"
 #: rc.cpp:2849
 msgid "Verbose"
 msgstr ""
-
-#~ msgid "&Add Podcast"
-#~ msgstr "&Dodôj podcast"
-
-#~ msgid "&Update All"
-#~ msgstr "&Zaktualni wszëtkò"
-
-#, fuzzy
-#~| msgid "Import playlist"
-#~ msgid "Import OPML File"
-#~ msgstr "Jimpòrtëjë lëstã graniô"
 
 #, fuzzy
 #~| msgid "Update Database"
