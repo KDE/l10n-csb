@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-07 05:11+0200\n"
+"POT-Creation-Date: 2010-08-08 05:17+0200\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -1355,10 +1355,7 @@ msgstr ""
 #: browsers/playlistbrowser/DynamicModel.cpp:99
 #: browsers/playlistbrowser/DynamicModel.cpp:179
 #: browsers/playlistbrowser/DynamicModel.cpp:559
-#: playlist/PlaylistBreadcrumbItem.cpp:122
-#: playlist/PlaylistBreadcrumbLevel.cpp:30
-#: playlist/PlaylistBreadcrumbLevel.cpp:48
-#: playlist/proxymodels/SortScheme.cpp:91 widgets/SmartPlaylistEditor.cpp:238
+#: widgets/SmartPlaylistEditor.cpp:238
 msgid "Random"
 msgstr "Kawlowò"
 
@@ -6259,12 +6256,6 @@ msgstr "Stefan Bogner"
 msgid "Loads of stuff"
 msgstr ""
 
-#: playlist/PlaylistBreadcrumbItem.cpp:110
-#, fuzzy
-#| msgid "Enter a name for the playlist:"
-msgid "Add a sorting level to the playlist."
-msgstr "Wpiszë miono dlô lëstë graniô:"
-
 #: playlist/PlaylistDefines.h:86
 msgctxt "Empty placeholder token used for spacing in playlist layouts"
 msgid "Placeholder"
@@ -6451,14 +6442,6 @@ msgstr "Ôrt"
 msgctxt "'Year' playlist column name and token for playlist layouts"
 msgid "Year"
 msgstr "Rok"
-
-#: playlist/PlaylistSortWidget.cpp:43
-msgid "Clear the playlist sorting configuration."
-msgstr ""
-
-#: playlist/PlaylistSortWidget.cpp:53
-msgid "Add a playlist sorting level."
-msgstr ""
 
 #: playlist/ProgressiveSearchWidget.cpp:44
 msgid "Warning: tracks have been hidden in the playlist"
@@ -6813,6 +6796,13 @@ msgstr "Wëższé &notowania"
 msgid "Not Recently Played"
 msgstr "Slédno nie &gróné"
 
+#: playlist/proxymodels/SortScheme.cpp:91
+#: playlist/PlaylistBreadcrumbItem.cpp:122
+#: playlist/PlaylistBreadcrumbLevel.cpp:30
+#: playlist/PlaylistBreadcrumbLevel.cpp:48
+msgid "Shuffle"
+msgstr ""
+
 #: playlist/view/PlaylistViewCommon.cpp:118 MainWindow.cpp:917
 msgid "Queue Track"
 msgstr "Régùjë sztëczk"
@@ -6902,15 +6892,6 @@ msgstr "grania"
 msgid "Bookmark Playlist Setup"
 msgstr "Jinteligentnô lësta gróniô"
 
-#: playlist/PlaylistViewUrlRunner.cpp:107
-#, fuzzy
-#| msgid "Playlist"
-msgctxt ""
-"A type of command that affects the sorting, layout and filtering int he "
-"Playlist"
-msgid "Playlist"
-msgstr "Lësta graniô"
-
 #: playlist/PlaylistDock.cpp:72
 msgid "Dynamic Mode Enabled"
 msgstr ""
@@ -6930,6 +6911,29 @@ msgstr "&Zapiszë lëstã graniô"
 #: playlist/PlaylistActions.cpp:408
 msgid "Too many errors encountered in playlist. Playback stopped."
 msgstr ""
+
+#: playlist/PlaylistBreadcrumbItem.cpp:110
+#, fuzzy
+#| msgid "Enter a name for the playlist:"
+msgid "Add a sorting level to the playlist."
+msgstr "Wpiszë miono dlô lëstë graniô:"
+
+#: playlist/PlaylistSortWidget.cpp:43
+msgid "Clear the playlist sorting configuration."
+msgstr ""
+
+#: playlist/PlaylistSortWidget.cpp:53
+msgid "Add a playlist sorting level."
+msgstr ""
+
+#: playlist/PlaylistViewUrlRunner.cpp:107
+#, fuzzy
+#| msgid "Playlist"
+msgctxt ""
+"A type of command that affects the sorting, layout and filtering int he "
+"Playlist"
+msgid "Playlist"
+msgstr "Lësta graniô"
 
 #: playlistgenerator/ConstraintGroup.cpp:84
 #, fuzzy
