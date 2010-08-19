@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-18 05:25+0200\n"
+"POT-Creation-Date: 2010-08-19 05:37+0200\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -474,7 +474,7 @@ msgid "Bookmark Manager"
 msgstr "Załóżka"
 
 #: amarokurls/BookmarkManagerWidget.cpp:44
-#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:78
+#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:80
 msgid "Add Folder"
 msgstr "Dodôj katalog"
 
@@ -835,7 +835,7 @@ msgid "Show Cover Art"
 msgstr "Pòkażë òbkłôdkã"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:403
-#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:93
+#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:95
 msgid "Merged View"
 msgstr ""
 
@@ -1364,26 +1364,6 @@ msgid ""
 "save are also shown here."
 msgstr ""
 
-#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:88
-#, fuzzy
-#| msgid "File Extension of Source"
-msgid "Visible Sources"
-msgstr "Rozszérzenié lopkù zdroju"
-
-#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:231
-#, fuzzy
-#| msgid "Folder"
-msgctxt "default name for new folder"
-msgid "New Folder"
-msgstr "Katalog"
-
-#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:233
-#, fuzzy, kde-format
-#| msgid "Folder"
-msgctxt "default name for new folder"
-msgid "New Folder (%1)"
-msgstr "Katalog"
-
 #: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:33
 #, fuzzy
 #| msgid "&Rename group"
@@ -1460,6 +1440,19 @@ msgstr[2] "Lësta graniô"
 #| msgid "Source"
 msgid "Source"
 msgstr "Zdrój"
+
+#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:90
+#, fuzzy
+#| msgid "File Extension of Source"
+msgid "Visible Sources"
+msgstr "Rozszérzenié lopkù zdroju"
+
+#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:231
+#, fuzzy
+#| msgid "Folder"
+msgctxt "default name for new folder"
+msgid "New Folder"
+msgstr "Katalog"
 
 #: browsers/servicebrowser/ServiceBrowser.cpp:44
 msgid ""
@@ -6850,27 +6843,6 @@ msgstr "Slédno gróné"
 msgid "Mood"
 msgstr "Òdczëcé"
 
-#: playlistgenerator/ConstraintGroup.cpp:84
-#, fuzzy
-#| msgid "Match Any Word"
-msgctxt "name of a type of constraint group"
-msgid "\"Match Any\" group"
-msgstr "Dopasëjë równojaczé słowò"
-
-#: playlistgenerator/ConstraintGroup.cpp:86
-#, fuzzy
-#| msgid "Match All Words"
-msgctxt "name of a type of constraint group"
-msgid "\"Match All\" group"
-msgstr "Dopasëjë wszëtczé słowa"
-
-#: playlistgenerator/ConstraintGroup.cpp:88
-#, fuzzy
-#| msgid "Unknown track"
-msgctxt "name of a type of constraint group"
-msgid "Unknown match group"
-msgstr "Nieznóny sztëczk"
-
 #: playlistgenerator/ConstraintSolver.cpp:230
 msgid "The playlist generator failed to load any tracks from the collection."
 msgstr ""
@@ -7364,6 +7336,27 @@ msgstr "Ùstowë òbrazków"
 #| msgid "Remove Applet"
 msgid "Remove selected"
 msgstr "Rëmôj aplet"
+
+#: playlistgenerator/ConstraintGroup.cpp:84
+#, fuzzy
+#| msgid "Match Any Word"
+msgctxt "name of a type of constraint group"
+msgid "\"Match Any\" group"
+msgstr "Dopasëjë równojaczé słowò"
+
+#: playlistgenerator/ConstraintGroup.cpp:86
+#, fuzzy
+#| msgid "Match All Words"
+msgctxt "name of a type of constraint group"
+msgid "\"Match All\" group"
+msgstr "Dopasëjë wszëtczé słowa"
+
+#: playlistgenerator/ConstraintGroup.cpp:88
+#, fuzzy
+#| msgid "Unknown track"
+msgctxt "name of a type of constraint group"
+msgid "Unknown match group"
+msgstr "Nieznóny sztëczk"
 
 #: playlistmanager/SyncedPlaylist.cpp:40 playlistmanager/SyncedPlaylist.cpp:48
 #: playlistmanager/SyncedPlaylist.cpp:56
@@ -13457,6 +13450,12 @@ msgstr "Grëpòwania"
 #: rc.cpp:2849
 msgid "Verbose"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Folder"
+#~ msgctxt "default name for new folder"
+#~ msgid "New Folder (%1)"
+#~ msgstr "Katalog"
 
 #, fuzzy
 #~| msgid "Show active track"
