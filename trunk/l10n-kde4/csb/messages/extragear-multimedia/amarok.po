@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-19 05:37+0200\n"
+"POT-Creation-Date: 2010-08-20 05:40+0200\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -242,7 +242,7 @@ msgstr "Slédno gróné"
 
 #: TrayIconLegacy.cpp:218 browsers/filebrowser/FileView.cpp:347
 #: browsers/playlistbrowser/PlaylistBrowserModel.cpp:43
-#: browsers/CollectionTreeView.cpp:799
+#: browsers/CollectionTreeView.cpp:804
 #: context/applets/albums/AlbumsView.cpp:117
 #: services/lastfm/LastFmTreeView.cpp:112
 #, fuzzy
@@ -748,8 +748,8 @@ msgstr "Artista"
 #: browsers/collectionbrowser/CollectionWidget.cpp:236
 #: browsers/collectionbrowser/CollectionWidget.cpp:273
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:334
-#: browsers/CollectionTreeView.cpp:225
 #: browsers/CollectionTreeItemModelBase.cpp:1119
+#: browsers/CollectionTreeView.cpp:226
 #: context/applets/albums/AlbumsView.cpp:132
 #: context/applets/wikipedia/WikipediaApplet.cpp:130
 #: dialogs/transferdialog.cpp:89 dialogs/EditFilterDialog.cpp:315
@@ -835,7 +835,7 @@ msgid "Show Cover Art"
 msgstr "Pòkażë òbkłôdkã"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:403
-#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:95
+#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:98
 msgid "Merged View"
 msgstr ""
 
@@ -871,24 +871,24 @@ msgstr ""
 msgid "Places"
 msgstr "datumë"
 
-#: browsers/filebrowser/FileView.cpp:119 browsers/CollectionTreeView.cpp:264
+#: browsers/filebrowser/FileView.cpp:119 browsers/CollectionTreeView.cpp:265
 msgid "Move to Collection"
 msgstr "Przeniesë do kòlekcëji"
 
-#: browsers/filebrowser/FileView.cpp:128 browsers/CollectionTreeView.cpp:256
+#: browsers/filebrowser/FileView.cpp:128 browsers/CollectionTreeView.cpp:257
 msgid "Copy to Collection"
 msgstr "Kòpiérëjë do kòlekcëji"
 
 #: browsers/filebrowser/FileView.cpp:356
 #: browsers/playlistbrowser/PlaylistBrowserModel.cpp:50
-#: browsers/CollectionTreeView.cpp:808
+#: browsers/CollectionTreeView.cpp:813
 #: context/applets/albums/AlbumsView.cpp:118
 #: services/lastfm/LastFmTreeView.cpp:121
 msgctxt "Replace the currently loaded tracks with these"
 msgid "&Replace Playlist"
 msgstr "&Pòdmieni lëstã graniô"
 
-#: browsers/filebrowser/FileView.cpp:365 browsers/CollectionTreeView.cpp:827
+#: browsers/filebrowser/FileView.cpp:365 browsers/CollectionTreeView.cpp:832
 msgid "&Edit Track Details"
 msgstr "&Editëjë detale sztëczka"
 
@@ -1282,71 +1282,6 @@ msgstr "mòdifikòwóny"
 msgid "Random (modified)"
 msgstr "Kawlowò (mòdifikòwóny)"
 
-#: browsers/playlistbrowser/PodcastCategory.cpp:99
-msgid "Podcasts"
-msgstr "Podcastë"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:100
-msgid "List of podcast subscriptions and episodes"
-msgstr ""
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:103
-msgid ""
-"Manage your podcast subscriptions and browse individual episodes. "
-"Downloading episodes to the disk is also done here, or you can tell Amarok "
-"to do this automatically."
-msgstr ""
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:109
-msgid "&Add Podcast"
-msgstr "&Dodôj podcast"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:115
-msgid "&Update All"
-msgstr "&Zaktualni wszëtkò"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:122
-#: browsers/playlistbrowser/PodcastCategory.cpp:125
-#, fuzzy
-#| msgid "Import playlist"
-msgid "Import OPML File"
-msgstr "Jimpòrtëjë lëstã graniô"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:175
-#, fuzzy
-#| msgctxt "What artist is this track by"
-#| msgid "By"
-msgid "By"
-msgstr "Przez"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:214
-#, fuzzy
-#| msgctxt "What album is this track on"
-#| msgid "On"
-msgctxt "Podcast published on date"
-msgid "On"
-msgstr "Włączony"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:232
-#, fuzzy
-#| msgid "File Size"
-msgid "File Size:"
-msgstr "Miara lopka"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:244
-#, fuzzy
-#| msgid "Description:"
-msgid "Subscription Date:"
-msgstr "Òpisënk:"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:252
-msgid "Keywords:"
-msgstr ""
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:289
-msgid "Select OPML file to import"
-msgstr ""
-
 #: browsers/playlistbrowser/UserPlaylistCategory.cpp:58
 #, fuzzy
 #| msgid "&Save Playlist"
@@ -1441,18 +1376,83 @@ msgstr[2] "Lësta graniô"
 msgid "Source"
 msgstr "Zdrój"
 
-#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:90
+#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:93
 #, fuzzy
 #| msgid "File Extension of Source"
 msgid "Visible Sources"
 msgstr "Rozszérzenié lopkù zdroju"
 
-#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:231
+#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:234
 #, fuzzy
 #| msgid "Folder"
 msgctxt "default name for new folder"
 msgid "New Folder"
 msgstr "Katalog"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:99
+msgid "Podcasts"
+msgstr "Podcastë"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:100
+msgid "List of podcast subscriptions and episodes"
+msgstr ""
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:103
+msgid ""
+"Manage your podcast subscriptions and browse individual episodes. "
+"Downloading episodes to the disk is also done here, or you can tell Amarok "
+"to do this automatically."
+msgstr ""
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:109
+msgid "&Add Podcast"
+msgstr "&Dodôj podcast"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:115
+msgid "&Update All"
+msgstr "&Zaktualni wszëtkò"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:122
+#: browsers/playlistbrowser/PodcastCategory.cpp:125
+#, fuzzy
+#| msgid "Import playlist"
+msgid "Import OPML File"
+msgstr "Jimpòrtëjë lëstã graniô"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:175
+#, fuzzy
+#| msgctxt "What artist is this track by"
+#| msgid "By"
+msgid "By"
+msgstr "Przez"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:214
+#, fuzzy
+#| msgctxt "What album is this track on"
+#| msgid "On"
+msgctxt "Podcast published on date"
+msgid "On"
+msgstr "Włączony"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:232
+#, fuzzy
+#| msgid "File Size"
+msgid "File Size:"
+msgstr "Miara lopka"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:244
+#, fuzzy
+#| msgid "Description:"
+msgid "Subscription Date:"
+msgstr "Òpisënk:"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:252
+msgid "Keywords:"
+msgstr ""
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:289
+msgid "Select OPML file to import"
+msgstr ""
 
 #: browsers/servicebrowser/ServiceBrowser.cpp:44
 msgid ""
@@ -1470,25 +1470,6 @@ msgstr "Rozszérzenié lopkù zdroju"
 #: browsers/BrowserBreadcrumbWidget.cpp:62
 msgid "Click For Location Navigation"
 msgstr ""
-
-#: browsers/CollectionTreeView.cpp:239 configdialog/ConfigDialog.cpp:55
-msgid "Collection"
-msgstr "Kòlekcëjô"
-
-#: browsers/CollectionTreeView.cpp:512 services/lastfm/LastFmTreeView.cpp:202
-msgid "More..."
-msgstr "Wicy..."
-
-#: browsers/CollectionTreeView.cpp:862
-msgctxt "Organize Files"
-msgid "Organize Files"
-msgstr "Òrganizëjë lopczi"
-
-#: browsers/CollectionTreeView.cpp:1045
-#, fuzzy
-#| msgid "&Delete Tracks"
-msgid "Delete Tracks"
-msgstr "&Rëmôj sztëcczi"
 
 #: browsers/BrowserDock.cpp:28
 #, fuzzy
@@ -1682,6 +1663,25 @@ msgstr ""
 #: browsers/CollectionTreeItemModelBase.cpp:1201
 msgid "three months ago"
 msgstr "trzë miesące dowslôdë"
+
+#: browsers/CollectionTreeView.cpp:240 configdialog/ConfigDialog.cpp:55
+msgid "Collection"
+msgstr "Kòlekcëjô"
+
+#: browsers/CollectionTreeView.cpp:517 services/lastfm/LastFmTreeView.cpp:202
+msgid "More..."
+msgstr "Wicy..."
+
+#: browsers/CollectionTreeView.cpp:867
+msgctxt "Organize Files"
+msgid "Organize Files"
+msgstr "Òrganizëjë lopczi"
+
+#: browsers/CollectionTreeView.cpp:1050
+#, fuzzy
+#| msgid "&Delete Tracks"
+msgid "Delete Tracks"
+msgstr "&Rëmôj sztëcczi"
 
 #: configdialog/dialogs/DatabaseConfig.cpp:93
 #, fuzzy
@@ -8386,53 +8386,10 @@ msgstr[2] "%1 kategòrëjów."
 msgid "Loading info..."
 msgstr "Ladowanié wëdowiédzë..."
 
-#: statusbar/ProgressBar.cpp:47 statusbar/CompoundProgressBar.cpp:64
-#: statusbar/CompoundProgressBar.cpp:157
+#: statusbar/CompoundProgressBar.cpp:64 statusbar/CompoundProgressBar.cpp:157
+#: statusbar/ProgressBar.cpp:47
 msgid "Abort"
 msgstr "Òpùszczë"
-
-#: statusbar/StatusBar.cpp:308
-msgid "Amarok is paused"
-msgstr "Òdgriwónié w Amarokù je spaùzowóné"
-
-#: statusbar/StatusBar.cpp:359
-#, kde-format
-msgid "Playing: %1"
-msgstr "Grô: %1"
-
-#: statusbar/StatusBar.cpp:399
-#, kde-format
-msgctxt "%1 is number of tracks, %2 is time"
-msgid "%1 track (%2)"
-msgid_plural "%1 tracks (%2)"
-msgstr[0] "%1 sztëczk (%2)"
-msgstr[1] "%1 sztëcczi (%2)"
-msgstr[2] "%1 sztëczków (%2)"
-
-#: statusbar/StatusBar.cpp:422 statusbar/StatusBar.cpp:428
-#, fuzzy, kde-format
-#| msgid "&Save Playlist"
-msgid "Total playlist size: %1"
-msgstr "&Zapiszë lëstã graniô"
-
-#: statusbar/StatusBar.cpp:423
-#, kde-format
-msgid "Queue size: %1"
-msgstr ""
-
-#: statusbar/StatusBar.cpp:424
-#, kde-format
-msgid "Queue length: %1"
-msgstr ""
-
-#: statusbar/StatusBar.cpp:436
-#, kde-format
-msgctxt "%1 is number of tracks"
-msgid "%1 track"
-msgid_plural "%1 tracks"
-msgstr[0] "%1 sztëczk"
-msgstr[1] "%1 sztëcczi"
-msgstr[2] "%1 sztëczków"
 
 #: statusbar/CompoundProgressBar.cpp:68 statusbar/CompoundProgressBar.cpp:169
 #, fuzzy
@@ -8445,6 +8402,49 @@ msgstr "W spódkù robi wiele dzejaniów"
 #| msgid "Abort all background operations"
 msgid "Abort all background tasks"
 msgstr "Wstrzëmôj wszëtczé òperacëje w spódkù"
+
+#: statusbar/StatusBar.cpp:309
+msgid "Amarok is paused"
+msgstr "Òdgriwónié w Amarokù je spaùzowóné"
+
+#: statusbar/StatusBar.cpp:360
+#, kde-format
+msgid "Playing: %1"
+msgstr "Grô: %1"
+
+#: statusbar/StatusBar.cpp:400
+#, kde-format
+msgctxt "%1 is number of tracks, %2 is time"
+msgid "%1 track (%2)"
+msgid_plural "%1 tracks (%2)"
+msgstr[0] "%1 sztëczk (%2)"
+msgstr[1] "%1 sztëcczi (%2)"
+msgstr[2] "%1 sztëczków (%2)"
+
+#: statusbar/StatusBar.cpp:423 statusbar/StatusBar.cpp:429
+#, fuzzy, kde-format
+#| msgid "&Save Playlist"
+msgid "Total playlist size: %1"
+msgstr "&Zapiszë lëstã graniô"
+
+#: statusbar/StatusBar.cpp:424
+#, kde-format
+msgid "Queue size: %1"
+msgstr ""
+
+#: statusbar/StatusBar.cpp:425
+#, kde-format
+msgid "Queue length: %1"
+msgstr ""
+
+#: statusbar/StatusBar.cpp:437
+#, kde-format
+msgctxt "%1 is number of tracks"
+msgid "%1 track"
+msgid_plural "%1 tracks"
+msgstr[0] "%1 sztëczk"
+msgstr[1] "%1 sztëcczi"
+msgstr[2] "%1 sztëczków"
 
 #: toolbar/SlimToolbar.cpp:36
 #, fuzzy
