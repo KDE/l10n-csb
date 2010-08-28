@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-25 05:04+0200\n"
+"POT-Creation-Date: 2010-08-28 05:31+0200\n"
 "PO-Revision-Date: 2009-12-09 23:08+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -82,7 +82,7 @@ msgctxt "@action:inmenu"
 msgid "Delete"
 msgstr "Rëmôj"
 
-#: panels/folders/treeviewcontextmenu.cpp:112 dolphincontextmenu.cpp:312
+#: panels/folders/treeviewcontextmenu.cpp:112 dolphincontextmenu.cpp:295
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "Swòjizna"
@@ -898,6 +898,452 @@ msgctxt "@info"
 msgid "Close"
 msgstr "Zamkni"
 
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Michôł Òstrowsczi, Mark Kwidzińsczi"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "michol@linuxcsb.org, mark@linuxcsb.org"
+
+#. i18n: file: panels/information/dolphin_informationpanelsettings.kcfg:10
+#. i18n: ectx: label, entry (showPreview), group (InformationPanel)
+#: rc.cpp:5
+msgid "Show preview"
+msgstr "Wëskrzëni pòdzérk"
+
+#. i18n: file: panels/folders/dolphin_folderspanelsettings.kcfg:10
+#. i18n: ectx: label, entry (ShowHiddenFiles), group (FoldersPanel)
+#: rc.cpp:8
+msgid "Show hidden files"
+msgstr "Pòkażë zataconé lopczi"
+
+#. i18n: file: settings/dolphin_detailsmodesettings.kcfg:12
+#. i18n: ectx: label, entry (FontFamily), group (DetailsMode)
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:21
+#. i18n: ectx: label, entry (FontFamily), group (IconsMode)
+#. i18n: file: settings/dolphin_columnmodesettings.kcfg:12
+#. i18n: ectx: label, entry (FontFamily), group (ColumnMode)
+#: rc.cpp:11 rc.cpp:44 rc.cpp:77
+msgid "Font family"
+msgstr "Familëjô fònta"
+
+#. i18n: file: settings/dolphin_detailsmodesettings.kcfg:16
+#. i18n: ectx: label, entry (UseSystemFont), group (DetailsMode)
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:17
+#. i18n: ectx: label, entry (UseSystemFont), group (IconsMode)
+#. i18n: file: settings/dolphin_columnmodesettings.kcfg:16
+#. i18n: ectx: label, entry (UseSystemFont), group (ColumnMode)
+#: rc.cpp:14 rc.cpp:41 rc.cpp:80
+msgid "Use system font"
+msgstr "Ùżëjë systemòwégò fònta"
+
+#. i18n: file: settings/dolphin_detailsmodesettings.kcfg:20
+#. i18n: ectx: label, entry (FontSize), group (DetailsMode)
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:25
+#. i18n: ectx: label, entry (FontSize), group (IconsMode)
+#. i18n: file: settings/dolphin_columnmodesettings.kcfg:20
+#. i18n: ectx: label, entry (FontSize), group (ColumnMode)
+#: rc.cpp:17 rc.cpp:47 rc.cpp:83
+msgid "Font size"
+msgstr "Miara fònta"
+
+#. i18n: file: settings/dolphin_detailsmodesettings.kcfg:24
+#. i18n: ectx: label, entry (ItalicFont), group (DetailsMode)
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:29
+#. i18n: ectx: label, entry (ItalicFont), group (IconsMode)
+#. i18n: file: settings/dolphin_columnmodesettings.kcfg:24
+#. i18n: ectx: label, entry (ItalicFont), group (ColumnMode)
+#: rc.cpp:20 rc.cpp:50 rc.cpp:86
+msgid "Italic"
+msgstr "Kùrsywa"
+
+#. i18n: file: settings/dolphin_detailsmodesettings.kcfg:28
+#. i18n: ectx: label, entry (FontWeight), group (DetailsMode)
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:33
+#. i18n: ectx: label, entry (FontWeight), group (IconsMode)
+#. i18n: file: settings/dolphin_columnmodesettings.kcfg:28
+#. i18n: ectx: label, entry (FontWeight), group (ColumnMode)
+#: rc.cpp:23 rc.cpp:53 rc.cpp:89
+msgid "Font weight"
+msgstr "Waga fònta"
+
+#. i18n: file: settings/dolphin_detailsmodesettings.kcfg:32
+#. i18n: ectx: label, entry (IconSize), group (DetailsMode)
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:57
+#. i18n: ectx: label, entry (IconSize), group (IconsMode)
+#. i18n: file: settings/dolphin_columnmodesettings.kcfg:32
+#. i18n: ectx: label, entry (IconSize), group (ColumnMode)
+#: rc.cpp:26 rc.cpp:65 rc.cpp:92
+msgid "Icon size"
+msgstr "Miara ikònów"
+
+#. i18n: file: settings/dolphin_detailsmodesettings.kcfg:36
+#. i18n: ectx: label, entry (PreviewSize), group (DetailsMode)
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:66
+#. i18n: ectx: label, entry (PreviewSize), group (IconsMode)
+#. i18n: file: settings/dolphin_columnmodesettings.kcfg:36
+#. i18n: ectx: label, entry (PreviewSize), group (ColumnMode)
+#: rc.cpp:29 rc.cpp:71 rc.cpp:95
+msgid "Preview size"
+msgstr "Pòdzérk miarë"
+
+#. i18n: file: settings/dolphin_detailsmodesettings.kcfg:40
+#. i18n: ectx: label, entry (ExpandableFolders), group (DetailsMode)
+#: rc.cpp:32
+msgid "Expandable folders"
+msgstr "Rozszérzólné katalodżi"
+
+#. i18n: file: settings/dolphin_detailsmodesettings.kcfg:44
+#. i18n: ectx: label, entry (ColumnPositions), group (DetailsMode)
+#: rc.cpp:35
+msgid "Position of columns"
+msgstr "Pòłożenié kòlumnów"
+
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:13
+#. i18n: ectx: label, entry (Arrangement), group (IconsMode)
+#: rc.cpp:38
+msgid "Arrangement"
+msgstr "Nastôwë"
+
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:37
+#. i18n: ectx: label, entry (ItemHeight), group (IconsMode)
+#: rc.cpp:56
+msgid "Item height"
+msgstr "Wiżô elementu"
+
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:45
+#. i18n: ectx: label, entry (ItemWidth), group (IconsMode)
+#: rc.cpp:59
+msgid "Item width"
+msgstr "Szérzô elementu"
+
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:53
+#. i18n: ectx: label, entry (GridSpacing), group (IconsMode)
+#: rc.cpp:62
+msgid "Grid spacing"
+msgstr "Òdstãpë mrzéżków"
+
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:61
+#. i18n: ectx: label, entry (NumberOfTextlines), group (IconsMode)
+#: rc.cpp:68
+msgid "Number of textlines"
+msgstr "Lëczba rézów tekstu"
+
+#. i18n: file: settings/dolphin_versioncontrolsettings.kcfg:10
+#. i18n: ectx: label, entry (enabledPlugins), group (VersionControl)
+#: rc.cpp:74
+msgid "Enabled plugins"
+msgstr ""
+
+#. i18n: file: settings/dolphin_columnmodesettings.kcfg:40
+#. i18n: ectx: label, entry (ColumnWidth), group (ColumnMode)
+#: rc.cpp:98
+msgid "Column width"
+msgstr "Szérzô kòlumnë"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:12
+#. i18n: ectx: label, entry (EditableUrl), group (General)
+#: rc.cpp:101
+msgid "Should the URL be editable for the user"
+msgstr "Czë URL mô bëc editowólny dlô brëkòwnika"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:16
+#. i18n: ectx: label, entry (UrlCompletionMode), group (General)
+#: rc.cpp:104
+msgid "Text completion mode of the URL Navigator"
+msgstr "Trib dofùlowaniô tekstu w nawigatorze URL"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:20
+#. i18n: ectx: label, entry (ShowFullPath), group (General)
+#: rc.cpp:107
+msgid "Should the full path be shown inside the location bar"
+msgstr "Czë fùl stegna mô bëc wëskrzënionô na lëstwie adresu"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:24
+#. i18n: ectx: label, entry (FirstRun), group (General)
+#: rc.cpp:110
+msgid "Is the application started the first time"
+msgstr "Czë aplikacëjô òsta zrëszonô pierszi rôz"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:28
+#. i18n: ectx: label, entry (HomeUrl), group (General)
+#: rc.cpp:113
+msgid "Home URL"
+msgstr "Domôcô adresa URL"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:32
+#. i18n: ectx: label, entry (SplitView), group (General)
+#: rc.cpp:116
+msgid "Split the view into two panes"
+msgstr "Pòdzélë wëzdrzatk na dwa panele"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:36
+#. i18n: ectx: label, entry (FilterBar), group (General)
+#: rc.cpp:119
+msgid "Should the filter bar be shown"
+msgstr "Czë listew filtra mô bëc pòkôzónô"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:40
+#. i18n: ectx: label, entry (GlobalViewProps), group (General)
+#: rc.cpp:122
+msgid "Should the view properties be used for all directories"
+msgstr "Czë wëzdrzatk swòjiznów mô bëc ùżëti dlô wszëtczich katalogów"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:44
+#. i18n: ectx: label, entry (BrowseThroughArchives), group (General)
+#: rc.cpp:125
+msgid "Browse through archives"
+msgstr "Przezérôj archiwa"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:48
+#. i18n: ectx: label, entry (ConfirmClosingMultipleTabs), group (General)
+#: rc.cpp:128
+msgid "Ask for confirmation when closing windows with multiple tabs."
+msgstr "Pëtôj za pòcwierdzenim czedë zamëkóné są òkna z wieloma załóżkama."
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:52
+#. i18n: ectx: label, entry (RenameInline), group (General)
+#: rc.cpp:131
+msgid "Rename inline"
+msgstr "Zmieni w réze"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:56
+#. i18n: ectx: label, entry (ShowSelectionToggle), group (General)
+#: rc.cpp:134
+msgid "Show selection toggle"
+msgstr "Pòkażë òptacëje wëbiérkù"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:60
+#. i18n: ectx: label, entry (ShowToolTips), group (General)
+#: rc.cpp:137
+msgid "Show tooltips"
+msgstr "Pòkażë pòdpòwiescë"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:64
+#. i18n: ectx: label, entry (ShowCopyMoveMenu), group (General)
+#: rc.cpp:140
+msgid "Show 'Copy To' and 'Move To' commands in context menu"
+msgstr "Pòkôżë pòlétë 'Kòpérëjë do' ë 'Przeniesë do' w kòntekstowim menu"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:68
+#. i18n: ectx: label, entry (ViewPropsTimestamp), group (General)
+#: rc.cpp:143
+msgid "Timestamp since when the view properties are valid"
+msgstr "Czas òd czedë swòjiznë wëzdrzatkù są wôżné"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:71
+#. i18n: ectx: label, entry (AutoExpandFolders), group (General)
+#: rc.cpp:146
+msgid "Use auto-expanding folders for all view types"
+msgstr "Ùżëjë samòrozszérznëch katalogów we wszëtczich ôrtach widokù"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:75
+#. i18n: ectx: label, entry (ShowZoomSlider), group (General)
+#: rc.cpp:149
+msgid "Show zoom slider in the statusbar"
+msgstr "Wëskrzëni pùrgôcza zwikszaniô w lëstwie stónu"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:79
+#. i18n: ectx: label, entry (ShowSpaceInfo), group (General)
+#: rc.cpp:152
+msgid "Show the space information in the statusbar"
+msgstr "Wëskrzëni pùrgôcza zwikszaniô w lëstwie stónu"
+
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:11
+#. i18n: ectx: label, entry (ShowHiddenFiles), group (Settings)
+#: rc.cpp:155
+msgctxt "@label"
+msgid "Show hidden files"
+msgstr "Wëskrzëni zataconé lopczi"
+
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:12
+#. i18n: ectx: whatsthis, entry (ShowHiddenFiles), group (Settings)
+#: rc.cpp:158
+msgctxt "@info:whatsthis"
+msgid ""
+"When this option is enabled hidden files, such as those starting with a '.', "
+"will be shown in the file view."
+msgstr ""
+"Czej na òptacëjô je włączonô, zataconé lopczi, jak ne co naczinają sã '.', "
+"bãdą wëskrzënioné w òbzérkù lopków."
+
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:19
+#. i18n: ectx: label, entry (ViewMode), group (Dolphin)
+#: rc.cpp:161
+msgctxt "@label"
+msgid "View Mode"
+msgstr "Trib wëzdrzatkù"
+
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:20
+#. i18n: ectx: whatsthis, entry (ViewMode), group (Dolphin)
+#: rc.cpp:164
+msgctxt "@info:whatsthis"
+msgid ""
+"This option controls the style of the view. Currently supported values "
+"include icons (0), details (1) and column (2) views."
+msgstr ""
+"Na òptacëjô kòntrolëje sztél wëzdrzatkù. Narô wspieróné wôrtnotë to "
+"wëzdrzatczi ikònów (0), detalów (1) ë kòlumnów (2)"
+
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:27
+#. i18n: ectx: label, entry (ShowPreview), group (Dolphin)
+#: rc.cpp:167
+msgctxt "@label"
+msgid "Show preview"
+msgstr "Wëskrzëni pòdzérk"
+
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:28
+#. i18n: ectx: whatsthis, entry (ShowPreview), group (Dolphin)
+#: rc.cpp:170
+msgctxt "@info:whatsthis"
+msgid ""
+"When this option is enabled, a preview of the file content is shown as an "
+"icon."
+msgstr ""
+"Czej na òptacëjô je włączonô, pòdzérk zamkłoscë lopków je pòkôzóny jakno "
+"ikòna."
+
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:33
+#. i18n: ectx: label, entry (CategorizedSorting), group (Dolphin)
+#: rc.cpp:173
+msgctxt "@label"
+msgid "Categorized Sorting"
+msgstr "Zortowanié skategòrëzowóné"
+
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:34
+#. i18n: ectx: whatsthis, entry (CategorizedSorting), group (Dolphin)
+#: rc.cpp:176
+msgctxt "@info:whatsthis"
+msgid ""
+"When this option is enabled, the sorted items are summarized by their "
+"category."
+msgstr ""
+"Czej na òptacëjô je włączonô, zortowóné elementë pòłączone są swòjima "
+"kategòrëjama."
+
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:39
+#. i18n: ectx: label, entry (Sorting), group (Dolphin)
+#: rc.cpp:179
+msgctxt "@label"
+msgid "Sort files by"
+msgstr "Wëskrzëni listew filtra"
+
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:40
+#. i18n: ectx: whatsthis, entry (Sorting), group (Dolphin)
+#: rc.cpp:182
+msgctxt "@info:whatsthis"
+msgid ""
+"This option defines which attribute (name, size, date, etc.) sorting is "
+"performed on."
+msgstr ""
+"Na òptacëjô definiuje pò jaczich atribùtach (miono, miara, datum ëtd) je "
+"włączoné zortowanié."
+
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:47
+#. i18n: ectx: label, entry (SortOrder), group (Dolphin)
+#: rc.cpp:185
+msgctxt "@label"
+msgid "Order in which to sort files"
+msgstr "Réga zortowaniô lopków"
+
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:54
+#. i18n: ectx: label, entry (SortFoldersFirst), group (Dolphin)
+#: rc.cpp:188
+msgctxt "@label"
+msgid "Show folders first when sorting files and folders"
+msgstr "Wëskrzëni katalodżi pierwi dlô zortowaniô lopków ë katalogów"
+
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:59
+#. i18n: ectx: label, entry (AdditionalInfo), group (Dolphin)
+#: rc.cpp:191
+msgctxt "@label"
+msgid "Additional information"
+msgstr "Dodôwnô wëdowiédzô:"
+
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:64
+#. i18n: ectx: label, entry (Timestamp), group (Dolphin)
+#: rc.cpp:194
+msgctxt "@label"
+msgid "Properties last changed"
+msgstr "Slédno zmienioné swòjiznë"
+
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:65
+#. i18n: ectx: whatsthis, entry (Timestamp), group (Dolphin)
+#: rc.cpp:197
+msgctxt "@info:whatsthis"
+msgid "The last time these properties were changed by the user."
+msgstr "Slédno ne swòjiznë bëłë zmienioné bez brëkòwnika."
+
+#. i18n: file: search/dolphin_searchsettings.kcfg:10
+#. i18n: ectx: label, entry (Location), group (Search)
+#: rc.cpp:200
+msgid "Location"
+msgstr "Pòłożenié"
+
+#. i18n: file: search/dolphin_searchsettings.kcfg:14
+#. i18n: ectx: label, entry (What), group (Search)
+#: rc.cpp:203
+msgid "What"
+msgstr "Céż"
+
+#. i18n: file: dolphinui.rc:34
+#. i18n: ectx: Menu (navigation_bar)
+#: rc.cpp:206
+#, fuzzy
+#| msgid "Location"
+msgctxt "@title:menu"
+msgid "Location Bar"
+msgstr "Pòłożenié"
+
+#. i18n: file: dolphinui.rc:88
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:209
+msgctxt "@title:menu"
+msgid "Main Toolbar"
+msgstr "Przédnô listew nôrzãdzów"
+
+#. i18n: file: dolphinpart.rc:4
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:212
+msgid "&Edit"
+msgstr "&Editëjë"
+
+#. i18n: file: dolphinpart.rc:14
+#. i18n: ectx: Menu (selection)
+#: rc.cpp:215
+msgctxt "@title:menu"
+msgid "Selection"
+msgstr "Wëbiérk"
+
+#. i18n: file: dolphinpart.rc:23
+#. i18n: ectx: Menu (view)
+#: rc.cpp:218
+msgid "&View"
+msgstr "&Pòdzérk"
+
+#. i18n: file: dolphinpart.rc:32
+#. i18n: ectx: Menu (go)
+#: rc.cpp:221
+msgid "&Go"
+msgstr "&Biéj"
+
+#. i18n: file: dolphinpart.rc:40
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:224
+msgctxt "@title:menu"
+msgid "Tools"
+msgstr "Nôrzãdza"
+
+#. i18n: file: dolphinpart.rc:48
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:227
+msgctxt "@title:menu"
+msgid "Dolphin Toolbar"
+msgstr "Listew nôrzãdzów Dolphina"
+
 #: dolphinpart.cpp:164
 msgctxt "@action:inmenu Edit"
 msgid "&Edit File Type..."
@@ -981,7 +1427,7 @@ msgctxt "@action:inmenu"
 msgid "Empty Trash"
 msgstr "Wëczëszczë kòsz"
 
-#: dolphincontextmenu.cpp:126 dolphincontextmenu.cpp:303
+#: dolphincontextmenu.cpp:126 dolphincontextmenu.cpp:290
 msgctxt "@action:inmenu Add current folder to places"
 msgid "Add to Places"
 msgstr "Dodôj do placów"
@@ -1011,17 +1457,12 @@ msgctxt "@title:menu Create new folder, file, link, etc."
 msgid "Create New"
 msgstr "Ùsôdzë nowi"
 
-#: dolphincontextmenu.cpp:219
+#: dolphincontextmenu.cpp:233
 msgctxt "@action:inmenu Add selected folder to places"
 msgid "Add to Places"
 msgstr "Dodôj do placów"
 
-#: dolphincontextmenu.cpp:285
-msgctxt "@title:menu"
-msgid "View Mode"
-msgstr "Trib wëzdrzatkù"
-
-#: dolphincontextmenu.cpp:407
+#: dolphincontextmenu.cpp:390
 msgctxt "@action:inmenu"
 msgid "Paste Into Folder"
 msgstr "Wlepi do kataloga"
@@ -1889,451 +2330,9 @@ msgctxt "@label:textbox"
 msgid "Filter:"
 msgstr "Filter:"
 
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Michôł Òstrowsczi, Mark Kwidzińsczi"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "michol@linuxcsb.org, mark@linuxcsb.org"
-
-#. i18n: file: panels/information/dolphin_informationpanelsettings.kcfg:10
-#. i18n: ectx: label, entry (showPreview), group (InformationPanel)
-#: rc.cpp:5
-msgid "Show preview"
-msgstr "Wëskrzëni pòdzérk"
-
-#. i18n: file: panels/folders/dolphin_folderspanelsettings.kcfg:10
-#. i18n: ectx: label, entry (ShowHiddenFiles), group (FoldersPanel)
-#: rc.cpp:8
-msgid "Show hidden files"
-msgstr "Pòkażë zataconé lopczi"
-
-#. i18n: file: settings/dolphin_detailsmodesettings.kcfg:12
-#. i18n: ectx: label, entry (FontFamily), group (DetailsMode)
-#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:21
-#. i18n: ectx: label, entry (FontFamily), group (IconsMode)
-#. i18n: file: settings/dolphin_columnmodesettings.kcfg:12
-#. i18n: ectx: label, entry (FontFamily), group (ColumnMode)
-#: rc.cpp:11 rc.cpp:44 rc.cpp:77
-msgid "Font family"
-msgstr "Familëjô fònta"
-
-#. i18n: file: settings/dolphin_detailsmodesettings.kcfg:16
-#. i18n: ectx: label, entry (UseSystemFont), group (DetailsMode)
-#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:17
-#. i18n: ectx: label, entry (UseSystemFont), group (IconsMode)
-#. i18n: file: settings/dolphin_columnmodesettings.kcfg:16
-#. i18n: ectx: label, entry (UseSystemFont), group (ColumnMode)
-#: rc.cpp:14 rc.cpp:41 rc.cpp:80
-msgid "Use system font"
-msgstr "Ùżëjë systemòwégò fònta"
-
-#. i18n: file: settings/dolphin_detailsmodesettings.kcfg:20
-#. i18n: ectx: label, entry (FontSize), group (DetailsMode)
-#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:25
-#. i18n: ectx: label, entry (FontSize), group (IconsMode)
-#. i18n: file: settings/dolphin_columnmodesettings.kcfg:20
-#. i18n: ectx: label, entry (FontSize), group (ColumnMode)
-#: rc.cpp:17 rc.cpp:47 rc.cpp:83
-msgid "Font size"
-msgstr "Miara fònta"
-
-#. i18n: file: settings/dolphin_detailsmodesettings.kcfg:24
-#. i18n: ectx: label, entry (ItalicFont), group (DetailsMode)
-#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:29
-#. i18n: ectx: label, entry (ItalicFont), group (IconsMode)
-#. i18n: file: settings/dolphin_columnmodesettings.kcfg:24
-#. i18n: ectx: label, entry (ItalicFont), group (ColumnMode)
-#: rc.cpp:20 rc.cpp:50 rc.cpp:86
-msgid "Italic"
-msgstr "Kùrsywa"
-
-#. i18n: file: settings/dolphin_detailsmodesettings.kcfg:28
-#. i18n: ectx: label, entry (FontWeight), group (DetailsMode)
-#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:33
-#. i18n: ectx: label, entry (FontWeight), group (IconsMode)
-#. i18n: file: settings/dolphin_columnmodesettings.kcfg:28
-#. i18n: ectx: label, entry (FontWeight), group (ColumnMode)
-#: rc.cpp:23 rc.cpp:53 rc.cpp:89
-msgid "Font weight"
-msgstr "Waga fònta"
-
-#. i18n: file: settings/dolphin_detailsmodesettings.kcfg:32
-#. i18n: ectx: label, entry (IconSize), group (DetailsMode)
-#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:57
-#. i18n: ectx: label, entry (IconSize), group (IconsMode)
-#. i18n: file: settings/dolphin_columnmodesettings.kcfg:32
-#. i18n: ectx: label, entry (IconSize), group (ColumnMode)
-#: rc.cpp:26 rc.cpp:65 rc.cpp:92
-msgid "Icon size"
-msgstr "Miara ikònów"
-
-#. i18n: file: settings/dolphin_detailsmodesettings.kcfg:36
-#. i18n: ectx: label, entry (PreviewSize), group (DetailsMode)
-#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:66
-#. i18n: ectx: label, entry (PreviewSize), group (IconsMode)
-#. i18n: file: settings/dolphin_columnmodesettings.kcfg:36
-#. i18n: ectx: label, entry (PreviewSize), group (ColumnMode)
-#: rc.cpp:29 rc.cpp:71 rc.cpp:95
-msgid "Preview size"
-msgstr "Pòdzérk miarë"
-
-#. i18n: file: settings/dolphin_detailsmodesettings.kcfg:40
-#. i18n: ectx: label, entry (ExpandableFolders), group (DetailsMode)
-#: rc.cpp:32
-msgid "Expandable folders"
-msgstr "Rozszérzólné katalodżi"
-
-#. i18n: file: settings/dolphin_detailsmodesettings.kcfg:44
-#. i18n: ectx: label, entry (ColumnPositions), group (DetailsMode)
-#: rc.cpp:35
-msgid "Position of columns"
-msgstr "Pòłożenié kòlumnów"
-
-#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:13
-#. i18n: ectx: label, entry (Arrangement), group (IconsMode)
-#: rc.cpp:38
-msgid "Arrangement"
-msgstr "Nastôwë"
-
-#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:37
-#. i18n: ectx: label, entry (ItemHeight), group (IconsMode)
-#: rc.cpp:56
-msgid "Item height"
-msgstr "Wiżô elementu"
-
-#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:45
-#. i18n: ectx: label, entry (ItemWidth), group (IconsMode)
-#: rc.cpp:59
-msgid "Item width"
-msgstr "Szérzô elementu"
-
-#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:53
-#. i18n: ectx: label, entry (GridSpacing), group (IconsMode)
-#: rc.cpp:62
-msgid "Grid spacing"
-msgstr "Òdstãpë mrzéżków"
-
-#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:61
-#. i18n: ectx: label, entry (NumberOfTextlines), group (IconsMode)
-#: rc.cpp:68
-msgid "Number of textlines"
-msgstr "Lëczba rézów tekstu"
-
-#. i18n: file: settings/dolphin_versioncontrolsettings.kcfg:10
-#. i18n: ectx: label, entry (enabledPlugins), group (VersionControl)
-#: rc.cpp:74
-msgid "Enabled plugins"
-msgstr ""
-
-#. i18n: file: settings/dolphin_columnmodesettings.kcfg:40
-#. i18n: ectx: label, entry (ColumnWidth), group (ColumnMode)
-#: rc.cpp:98
-msgid "Column width"
-msgstr "Szérzô kòlumnë"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:12
-#. i18n: ectx: label, entry (EditableUrl), group (General)
-#: rc.cpp:101
-msgid "Should the URL be editable for the user"
-msgstr "Czë URL mô bëc editowólny dlô brëkòwnika"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:16
-#. i18n: ectx: label, entry (UrlCompletionMode), group (General)
-#: rc.cpp:104
-msgid "Text completion mode of the URL Navigator"
-msgstr "Trib dofùlowaniô tekstu w nawigatorze URL"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:20
-#. i18n: ectx: label, entry (ShowFullPath), group (General)
-#: rc.cpp:107
-msgid "Should the full path be shown inside the location bar"
-msgstr "Czë fùl stegna mô bëc wëskrzënionô na lëstwie adresu"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:24
-#. i18n: ectx: label, entry (FirstRun), group (General)
-#: rc.cpp:110
-msgid "Is the application started the first time"
-msgstr "Czë aplikacëjô òsta zrëszonô pierszi rôz"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:28
-#. i18n: ectx: label, entry (HomeUrl), group (General)
-#: rc.cpp:113
-msgid "Home URL"
-msgstr "Domôcô adresa URL"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:32
-#. i18n: ectx: label, entry (SplitView), group (General)
-#: rc.cpp:116
-msgid "Split the view into two panes"
-msgstr "Pòdzélë wëzdrzatk na dwa panele"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:36
-#. i18n: ectx: label, entry (FilterBar), group (General)
-#: rc.cpp:119
-msgid "Should the filter bar be shown"
-msgstr "Czë listew filtra mô bëc pòkôzónô"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:40
-#. i18n: ectx: label, entry (GlobalViewProps), group (General)
-#: rc.cpp:122
-msgid "Should the view properties be used for all directories"
-msgstr "Czë wëzdrzatk swòjiznów mô bëc ùżëti dlô wszëtczich katalogów"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:44
-#. i18n: ectx: label, entry (BrowseThroughArchives), group (General)
-#: rc.cpp:125
-msgid "Browse through archives"
-msgstr "Przezérôj archiwa"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:48
-#. i18n: ectx: label, entry (ConfirmClosingMultipleTabs), group (General)
-#: rc.cpp:128
-msgid "Ask for confirmation when closing windows with multiple tabs."
-msgstr "Pëtôj za pòcwierdzenim czedë zamëkóné są òkna z wieloma załóżkama."
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:52
-#. i18n: ectx: label, entry (RenameInline), group (General)
-#: rc.cpp:131
-msgid "Rename inline"
-msgstr "Zmieni w réze"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:56
-#. i18n: ectx: label, entry (ShowSelectionToggle), group (General)
-#: rc.cpp:134
-msgid "Show selection toggle"
-msgstr "Pòkażë òptacëje wëbiérkù"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:60
-#. i18n: ectx: label, entry (ShowToolTips), group (General)
-#: rc.cpp:137
-msgid "Show tooltips"
-msgstr "Pòkażë pòdpòwiescë"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:64
-#. i18n: ectx: label, entry (ShowCopyMoveMenu), group (General)
-#: rc.cpp:140
-msgid "Show 'Copy To' and 'Move To' commands in context menu"
-msgstr "Pòkôżë pòlétë 'Kòpérëjë do' ë 'Przeniesë do' w kòntekstowim menu"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:68
-#. i18n: ectx: label, entry (ViewPropsTimestamp), group (General)
-#: rc.cpp:143
-msgid "Timestamp since when the view properties are valid"
-msgstr "Czas òd czedë swòjiznë wëzdrzatkù są wôżné"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:71
-#. i18n: ectx: label, entry (AutoExpandFolders), group (General)
-#: rc.cpp:146
-msgid "Use auto-expanding folders for all view types"
-msgstr "Ùżëjë samòrozszérznëch katalogów we wszëtczich ôrtach widokù"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:75
-#. i18n: ectx: label, entry (ShowZoomSlider), group (General)
-#: rc.cpp:149
-msgid "Show zoom slider in the statusbar"
-msgstr "Wëskrzëni pùrgôcza zwikszaniô w lëstwie stónu"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:79
-#. i18n: ectx: label, entry (ShowSpaceInfo), group (General)
-#: rc.cpp:152
-msgid "Show the space information in the statusbar"
-msgstr "Wëskrzëni pùrgôcza zwikszaniô w lëstwie stónu"
-
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:11
-#. i18n: ectx: label, entry (ShowHiddenFiles), group (Settings)
-#: rc.cpp:155
-msgctxt "@label"
-msgid "Show hidden files"
-msgstr "Wëskrzëni zataconé lopczi"
-
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:12
-#. i18n: ectx: whatsthis, entry (ShowHiddenFiles), group (Settings)
-#: rc.cpp:158
-msgctxt "@info:whatsthis"
-msgid ""
-"When this option is enabled hidden files, such as those starting with a '.', "
-"will be shown in the file view."
-msgstr ""
-"Czej na òptacëjô je włączonô, zataconé lopczi, jak ne co naczinają sã '.', "
-"bãdą wëskrzënioné w òbzérkù lopków."
-
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:19
-#. i18n: ectx: label, entry (ViewMode), group (Dolphin)
-#: rc.cpp:161
-msgctxt "@label"
-msgid "View Mode"
-msgstr "Trib wëzdrzatkù"
-
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:20
-#. i18n: ectx: whatsthis, entry (ViewMode), group (Dolphin)
-#: rc.cpp:164
-msgctxt "@info:whatsthis"
-msgid ""
-"This option controls the style of the view. Currently supported values "
-"include icons (0), details (1) and column (2) views."
-msgstr ""
-"Na òptacëjô kòntrolëje sztél wëzdrzatkù. Narô wspieróné wôrtnotë to "
-"wëzdrzatczi ikònów (0), detalów (1) ë kòlumnów (2)"
-
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:27
-#. i18n: ectx: label, entry (ShowPreview), group (Dolphin)
-#: rc.cpp:167
-msgctxt "@label"
-msgid "Show preview"
-msgstr "Wëskrzëni pòdzérk"
-
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:28
-#. i18n: ectx: whatsthis, entry (ShowPreview), group (Dolphin)
-#: rc.cpp:170
-msgctxt "@info:whatsthis"
-msgid ""
-"When this option is enabled, a preview of the file content is shown as an "
-"icon."
-msgstr ""
-"Czej na òptacëjô je włączonô, pòdzérk zamkłoscë lopków je pòkôzóny jakno "
-"ikòna."
-
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:33
-#. i18n: ectx: label, entry (CategorizedSorting), group (Dolphin)
-#: rc.cpp:173
-msgctxt "@label"
-msgid "Categorized Sorting"
-msgstr "Zortowanié skategòrëzowóné"
-
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:34
-#. i18n: ectx: whatsthis, entry (CategorizedSorting), group (Dolphin)
-#: rc.cpp:176
-msgctxt "@info:whatsthis"
-msgid ""
-"When this option is enabled, the sorted items are summarized by their "
-"category."
-msgstr ""
-"Czej na òptacëjô je włączonô, zortowóné elementë pòłączone są swòjima "
-"kategòrëjama."
-
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:39
-#. i18n: ectx: label, entry (Sorting), group (Dolphin)
-#: rc.cpp:179
-msgctxt "@label"
-msgid "Sort files by"
-msgstr "Wëskrzëni listew filtra"
-
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:40
-#. i18n: ectx: whatsthis, entry (Sorting), group (Dolphin)
-#: rc.cpp:182
-msgctxt "@info:whatsthis"
-msgid ""
-"This option defines which attribute (name, size, date, etc.) sorting is "
-"performed on."
-msgstr ""
-"Na òptacëjô definiuje pò jaczich atribùtach (miono, miara, datum ëtd) je "
-"włączoné zortowanié."
-
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:47
-#. i18n: ectx: label, entry (SortOrder), group (Dolphin)
-#: rc.cpp:185
-msgctxt "@label"
-msgid "Order in which to sort files"
-msgstr "Réga zortowaniô lopków"
-
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:54
-#. i18n: ectx: label, entry (SortFoldersFirst), group (Dolphin)
-#: rc.cpp:188
-msgctxt "@label"
-msgid "Show folders first when sorting files and folders"
-msgstr "Wëskrzëni katalodżi pierwi dlô zortowaniô lopków ë katalogów"
-
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:59
-#. i18n: ectx: label, entry (AdditionalInfo), group (Dolphin)
-#: rc.cpp:191
-msgctxt "@label"
-msgid "Additional information"
-msgstr "Dodôwnô wëdowiédzô:"
-
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:64
-#. i18n: ectx: label, entry (Timestamp), group (Dolphin)
-#: rc.cpp:194
-msgctxt "@label"
-msgid "Properties last changed"
-msgstr "Slédno zmienioné swòjiznë"
-
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:65
-#. i18n: ectx: whatsthis, entry (Timestamp), group (Dolphin)
-#: rc.cpp:197
-msgctxt "@info:whatsthis"
-msgid "The last time these properties were changed by the user."
-msgstr "Slédno ne swòjiznë bëłë zmienioné bez brëkòwnika."
-
-#. i18n: file: search/dolphin_searchsettings.kcfg:10
-#. i18n: ectx: label, entry (Location), group (Search)
-#: rc.cpp:200
-msgid "Location"
-msgstr "Pòłożenié"
-
-#. i18n: file: search/dolphin_searchsettings.kcfg:14
-#. i18n: ectx: label, entry (What), group (Search)
-#: rc.cpp:203
-msgid "What"
-msgstr "Céż"
-
-#. i18n: file: dolphinui.rc:34
-#. i18n: ectx: Menu (navigation_bar)
-#: rc.cpp:206
-#, fuzzy
-#| msgid "Location"
-msgctxt "@title:menu"
-msgid "Location Bar"
-msgstr "Pòłożenié"
-
-#. i18n: file: dolphinui.rc:88
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:209
-msgctxt "@title:menu"
-msgid "Main Toolbar"
-msgstr "Przédnô listew nôrzãdzów"
-
-#. i18n: file: dolphinpart.rc:4
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:212
-msgid "&Edit"
-msgstr "&Editëjë"
-
-#. i18n: file: dolphinpart.rc:14
-#. i18n: ectx: Menu (selection)
-#: rc.cpp:215
-msgctxt "@title:menu"
-msgid "Selection"
-msgstr "Wëbiérk"
-
-#. i18n: file: dolphinpart.rc:23
-#. i18n: ectx: Menu (view)
-#: rc.cpp:218
-msgid "&View"
-msgstr "&Pòdzérk"
-
-#. i18n: file: dolphinpart.rc:32
-#. i18n: ectx: Menu (go)
-#: rc.cpp:221
-msgid "&Go"
-msgstr "&Biéj"
-
-#. i18n: file: dolphinpart.rc:40
-#. i18n: ectx: Menu (tools)
-#: rc.cpp:224
-msgctxt "@title:menu"
-msgid "Tools"
-msgstr "Nôrzãdza"
-
-#. i18n: file: dolphinpart.rc:48
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:227
-msgctxt "@title:menu"
-msgid "Dolphin Toolbar"
-msgstr "Listew nôrzãdzów Dolphina"
+#~ msgctxt "@title:menu"
+#~ msgid "View Mode"
+#~ msgstr "Trib wëzdrzatkù"
 
 #~ msgctxt "@label"
 #~ msgid "No Tags Available"
