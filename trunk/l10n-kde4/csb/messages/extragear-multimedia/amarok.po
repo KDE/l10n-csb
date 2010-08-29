@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-28 05:42+0200\n"
+"POT-Creation-Date: 2010-08-29 05:30+0200\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -1671,7 +1671,7 @@ msgstr "Włączony"
 #: context/applets/similarartists/SimilarArtistsApplet.cpp:264
 #: context/applets/labels/LabelsApplet.cpp:241
 #: context/engines/current/CurrentEngine.cpp:134 mac/GrowlInterface.cpp:39
-#: widgets/Osd.cpp:581 EngineController.cpp:1327
+#: widgets/Osd.cpp:582 EngineController.cpp:1327
 msgid "No track playing"
 msgstr "Nick nie je gróné"
 
@@ -5410,7 +5410,7 @@ msgctxt "Dialog box title"
 msgid "Comment Sending Error"
 msgstr "Szëkba kòlekcëji nie darzëła sã"
 
-#: mac/GrowlInterface.cpp:60 widgets/Osd.cpp:605
+#: mac/GrowlInterface.cpp:60 widgets/Osd.cpp:606
 msgid "No information available for this track"
 msgstr "Felënk wëdowiédzé dlô tegò titla"
 
@@ -6641,10 +6641,6 @@ msgstr "Biéżnô lësta òdgrëwaniô"
 msgid "&Save playlist to \"%1\""
 msgstr "&Zapiszë lëstã graniô"
 
-#: playlist/PlaylistActions.cpp:408
-msgid "Too many errors encountered in playlist. Playback stopped."
-msgstr ""
-
 #: playlist/PlaylistBreadcrumbItem.cpp:110
 #, fuzzy
 #| msgid "Enter a name for the playlist:"
@@ -6698,6 +6694,10 @@ msgstr "Slédno gróné"
 #: playlist/PlaylistModel.cpp:669
 msgid "Mood"
 msgstr "Òdczëcé"
+
+#: playlist/PlaylistActions.cpp:405
+msgid "Too many errors encountered in playlist. Playback stopped."
+msgstr ""
 
 #: playlistgenerator/ConstraintSolver.cpp:230
 msgid "The playlist generator failed to load any tracks from the collection."
@@ -8353,24 +8353,6 @@ msgstr "Załóżczi"
 msgid "Copy Current View Bookmark to Clipboard"
 msgstr ""
 
-#: widgets/Osd.cpp:137
-msgid "Rating changed"
-msgstr "Notowanié zmienioné"
-
-#: widgets/Osd.cpp:215
-msgid "Volume: 100% (muted)"
-msgstr ""
-
-#: widgets/Osd.cpp:445
-msgid ""
-"On-Screen-Display preview\n"
-"Drag to reposition"
-msgstr ""
-
-#: widgets/Osd.cpp:691
-msgid "Paused"
-msgstr "Paùza"
-
 #: widgets/PlayPauseButton.cpp:31 widgets/PlayPauseButton.cpp:81
 #, fuzzy
 #| msgctxt "state, as in playing"
@@ -8671,6 +8653,24 @@ msgstr "Czas jaczi ùlécôł òd zaczątkù sztëczka"
 #: widgets/ProgressWidget.cpp:51
 msgid "The amount of time remaining in current song"
 msgstr "Czas jaczi òstôł do kùńca sztëczka"
+
+#: widgets/Osd.cpp:137
+msgid "Rating changed"
+msgstr "Notowanié zmienioné"
+
+#: widgets/Osd.cpp:215
+msgid "Volume: 100% (muted)"
+msgstr ""
+
+#: widgets/Osd.cpp:446
+msgid ""
+"On-Screen-Display preview\n"
+"Drag to reposition"
+msgstr ""
+
+#: widgets/Osd.cpp:692
+msgid "Paused"
+msgstr "Paùza"
 
 #: EngineController.cpp:256
 msgid ""
