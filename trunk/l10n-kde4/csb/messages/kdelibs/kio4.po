@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-08 06:57+0200\n"
+"POT-Creation-Date: 2010-09-09 06:06+0200\n"
 "PO-Revision-Date: 2009-06-29 20:35+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -2736,7 +2736,7 @@ msgid "Select Folder"
 msgstr "Jeden katalog"
 
 #: bookmarks/kbookmarkdialog.cc:159 ../kfile/kdirselectdialog.cpp:132
-#: ../kfile/knewfilemenu.cpp:513
+#: ../kfile/knewfilemenu.cpp:991
 #, fuzzy
 #| msgid "New Folder..."
 msgctxt "@title:window"
@@ -6356,19 +6356,17 @@ msgstr ""
 msgid "Custom Path"
 msgstr "Swòjô stegna"
 
-#: ../kfile/knewfilemenu.cpp:177
-#, fuzzy
-#| msgid "Detailed View"
-msgid "Create New"
-msgstr "Detalowi wëzdrzatk"
+#: ../kfile/knewfilemenu.cpp:354 ../kfile/knewfilemenu.cpp:848
+msgid "Sorry"
+msgstr ""
 
-#: ../kfile/knewfilemenu.cpp:190
-#, fuzzy
-#| msgid "Device"
-msgid "Link to Device"
-msgstr "Ùrządzenié"
+#: ../kfile/knewfilemenu.cpp:363
+#, fuzzy, kde-format
+#| msgid "The file or folder %1 does not exist."
+msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
+msgstr "Felëje lopk, abò katalog %1."
 
-#: ../kfile/knewfilemenu.cpp:486
+#: ../kfile/knewfilemenu.cpp:382
 #, fuzzy
 #| msgctxt "@title job"
 #| msgid "Creating directory"
@@ -6376,33 +6374,73 @@ msgctxt "@action:button"
 msgid "Create directory"
 msgstr "Ùsôdzanié katalogów"
 
-#: ../kfile/knewfilemenu.cpp:488
+#: ../kfile/knewfilemenu.cpp:384
 msgctxt "@action:button"
 msgid "Enter a different name"
 msgstr ""
 
-#: ../kfile/knewfilemenu.cpp:491
-#, kde-format
-msgid ""
-"The name \"%1\" starts with a dot, so the directory will be hidden by "
-"default."
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:492
+#: ../kfile/knewfilemenu.cpp:387
 #, fuzzy
 #| msgctxt "@title job"
 #| msgid "Creating directory"
 msgid "Create hidden directory?"
 msgstr "Ùsôdzanié katalogów"
 
-#: ../kfile/knewfilemenu.cpp:504
+#: ../kfile/knewfilemenu.cpp:391
+#, kde-format
+msgid ""
+"The name \"%1\" starts with a dot, so the directory will be hidden by "
+"default."
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:393
+msgid "Do not ask again"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:475 ../kfile/knewfilemenu.cpp:533
+#, fuzzy
+#| msgid "Filename Error"
+msgid "File name:"
+msgstr "Lëché miono lopka"
+
+#: ../kfile/knewfilemenu.cpp:478
+#, fuzzy
+#| msgid "Could Not Create Symbolic Link"
+msgid "Create Symlink"
+msgstr "Ni mòże ùsôdzëc symbòlicznegò lënka"
+
+#: ../kfile/knewfilemenu.cpp:537
+#, fuzzy
+#| msgid "Detailed View"
+msgid "Create link to URL"
+msgstr "Detalowi wëzdrzatk"
+
+#: ../kfile/knewfilemenu.cpp:858
+msgid ""
+"Basic links can only point to local files or directories.\n"
+"Please use \"Link to Location\" for remote URLs."
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:923
+#, fuzzy
+#| msgid "Detailed View"
+msgid "Create New"
+msgstr "Detalowi wëzdrzatk"
+
+#: ../kfile/knewfilemenu.cpp:936
+#, fuzzy
+#| msgid "Device"
+msgid "Link to Device"
+msgstr "Ùrządzenié"
+
+#: ../kfile/knewfilemenu.cpp:981
 #, fuzzy
 #| msgid "New Folder..."
 msgctxt "Default name for a new folder"
 msgid "New Folder"
 msgstr "Nowi katalog..."
 
-#: ../kfile/knewfilemenu.cpp:514
+#: ../kfile/knewfilemenu.cpp:995
 #, kde-format
 msgid ""
 "Create new folder in:\n"
@@ -6410,24 +6448,6 @@ msgid ""
 msgstr ""
 "Ùsôdzë nowi katalog w:\n"
 "%1"
-
-#: ../kfile/knewfilemenu.cpp:606
-#, fuzzy, kde-format
-#| msgid "The file or folder %1 does not exist."
-msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
-msgstr "Felëje lopk, abò katalog %1."
-
-#: ../kfile/knewfilemenu.cpp:615 ../kfile/knewfilemenu.cpp:661
-#, fuzzy
-#| msgid "Filename Error"
-msgid "File name:"
-msgstr "Lëché miono lopka"
-
-#: ../kfile/knewfilemenu.cpp:675
-msgid ""
-"Basic links can only point to local files or directories.\n"
-"Please use \"Link to Location\" for remote URLs."
-msgstr ""
 
 #: ../kfile/kfileplacesmodel.cpp:117
 #, fuzzy
@@ -6533,12 +6553,6 @@ msgstr "Pòkôżë zataconé lopczi"
 #~ msgctxt "@info"
 #~ msgid "Do you really want to empty the trash? All items will be deleted."
 #~ msgstr "Na gwës rëmnąc %1 element?"
-
-#, fuzzy
-#~| msgid "Detailed View"
-#~ msgctxt "@label"
-#~ msgid "Create new tag:"
-#~ msgstr "Detalowi wëzdrzatk"
 
 #, fuzzy
 #~| msgid "Delete"
