@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-21 07:21+0200\n"
+"POT-Creation-Date: 2010-09-22 06:12+0200\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -64,9 +64,9 @@ msgstr "Slédno gróné"
 msgid "Last Played"
 msgstr "Slédno gróné"
 
-#: TrayIconLegacy.cpp:218 browsers/filebrowser/FileView.cpp:347
+#: TrayIconLegacy.cpp:218 browsers/filebrowser/FileView.cpp:350
 #: browsers/playlistbrowser/PlaylistBrowserModel.cpp:43
-#: browsers/CollectionTreeView.cpp:804
+#: browsers/CollectionTreeView.cpp:813
 #: context/applets/albums/AlbumsView.cpp:117
 #: services/lastfm/LastFmTreeView.cpp:112
 #, fuzzy
@@ -376,7 +376,7 @@ msgctxt "Load the view represented by this bookmark"
 msgid "&Load"
 msgstr "L&adëjë"
 
-#: amarokurls/BookmarkTreeView.cpp:118 browsers/filebrowser/FileView.cpp:382
+#: amarokurls/BookmarkTreeView.cpp:118 browsers/filebrowser/FileView.cpp:385
 msgid "&Delete"
 msgstr "&Rëmôj"
 
@@ -560,8 +560,8 @@ msgstr "Artista"
 #: browsers/collectionbrowser/CollectionWidget.cpp:202
 #: browsers/collectionbrowser/CollectionWidget.cpp:236
 #: browsers/collectionbrowser/CollectionWidget.cpp:273
-#: browsers/CollectionTreeView.cpp:226
 #: browsers/CollectionTreeItemModelBase.cpp:1147
+#: browsers/CollectionTreeView.cpp:228
 #: context/applets/albums/AlbumsView.cpp:132
 #: context/applets/wikipedia/WikipediaApplet.cpp:130
 #: dialogs/transferdialog.cpp:89 dialogs/FilenameLayoutDialog.cpp:232
@@ -676,37 +676,35 @@ msgstr ""
 msgid "Places"
 msgstr "datumë"
 
-#: browsers/filebrowser/FileView.cpp:119 browsers/CollectionTreeView.cpp:265
+#: browsers/filebrowser/FileView.cpp:122 browsers/CollectionTreeView.cpp:267
 msgid "Move to Collection"
 msgstr "Przeniesë do kòlekcëji"
 
-#: browsers/filebrowser/FileView.cpp:128 browsers/CollectionTreeView.cpp:257
+#: browsers/filebrowser/FileView.cpp:131 browsers/CollectionTreeView.cpp:259
 msgid "Copy to Collection"
 msgstr "Kòpiérëjë do kòlekcëji"
 
-#: browsers/filebrowser/FileView.cpp:356
+#: browsers/filebrowser/FileView.cpp:359
 #: browsers/playlistbrowser/PlaylistBrowserModel.cpp:50
-#: browsers/CollectionTreeView.cpp:813
+#: browsers/CollectionTreeView.cpp:822
 #: context/applets/albums/AlbumsView.cpp:118
 #: services/lastfm/LastFmTreeView.cpp:121
 msgctxt "Replace the currently loaded tracks with these"
 msgid "&Replace Playlist"
 msgstr "&Pòdmieni lëstã graniô"
 
-#: browsers/filebrowser/FileView.cpp:365 browsers/CollectionTreeView.cpp:832
+#: browsers/filebrowser/FileView.cpp:368 browsers/CollectionTreeView.cpp:841
 msgid "&Edit Track Details"
 msgstr "&Editëjë detale sztëczka"
 
-#: browsers/filebrowser/FileView.cpp:515
-#: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:251
-#: playlistmanager/file/PlaylistFileProvider.cpp:328
-#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:240
+#: browsers/filebrowser/FileView.cpp:523
 #, fuzzy
 #| msgid "Configure Playback"
+msgctxt "@title:window"
 msgid "Confirm Delete"
 msgstr "Kònfigùracëjô graniô"
 
-#: browsers/filebrowser/FileView.cpp:517
+#: browsers/filebrowser/FileView.cpp:524
 #, fuzzy, kde-format
 #| msgid "Do you really want to remove this %1?"
 msgid "Are you sure you want to delete this item?"
@@ -715,9 +713,25 @@ msgstr[0] "Na gwës chcesz rëmnąc %1?"
 msgstr[1] "Na gwës chcesz rëmnąc %1?"
 msgstr[2] "Na gwës chcesz rëmnąc %1?"
 
-#: browsers/filebrowser/FileView.cpp:522
-#: playlistmanager/file/PlaylistFileProvider.cpp:335
-msgid "Yes, delete from disk."
+#: browsers/filebrowser/FileView.cpp:530
+#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:70
+msgctxt "@title:window"
+msgid "Confirm Move to Trash"
+msgstr ""
+
+#: browsers/filebrowser/FileView.cpp:531
+#, fuzzy, kde-format
+#| msgid "Do you really want to remove this %1?"
+msgid "Are you sure you want to move this item to trash?"
+msgid_plural "Are you sure you want to move these %1 items to trash?"
+msgstr[0] "Na gwës chcesz rëmnąc %1?"
+msgstr[1] "Na gwës chcesz rëmnąc %1?"
+msgstr[2] "Na gwës chcesz rëmnąc %1?"
+
+#: browsers/filebrowser/FileView.cpp:558
+#, kde-format
+msgctxt "@info:status"
+msgid "Moving to trash: %1 files"
 msgstr ""
 
 #: browsers/playlistbrowser/DynamicCategory.cpp:53
@@ -1197,25 +1211,6 @@ msgstr[0] "1 sztëczk"
 msgstr[1] "%1 sztëcczi"
 msgstr[2] "%1 sztëczków"
 
-#: browsers/CollectionTreeView.cpp:240 configdialog/ConfigDialog.cpp:55
-msgid "Collection"
-msgstr "Kòlekcëjô"
-
-#: browsers/CollectionTreeView.cpp:517 services/lastfm/LastFmTreeView.cpp:202
-msgid "More..."
-msgstr "Wicy..."
-
-#: browsers/CollectionTreeView.cpp:867
-msgctxt "Organize Files"
-msgid "Organize Files"
-msgstr "Òrganizëjë lopczi"
-
-#: browsers/CollectionTreeView.cpp:1050
-#, fuzzy
-#| msgid "&Delete Tracks"
-msgid "Delete Tracks"
-msgstr "&Rëmôj sztëcczi"
-
 #: browsers/CollectionTreeItemModelBase.cpp:653
 #: widgets/MetaQueryWidget.cpp:818
 msgid "album"
@@ -1389,6 +1384,25 @@ msgstr ""
 #: browsers/CollectionTreeItemModelBase.cpp:1229
 msgid "three months ago"
 msgstr "trzë miesące dowslôdë"
+
+#: browsers/CollectionTreeView.cpp:242 configdialog/ConfigDialog.cpp:55
+msgid "Collection"
+msgstr "Kòlekcëjô"
+
+#: browsers/CollectionTreeView.cpp:519 services/lastfm/LastFmTreeView.cpp:202
+msgid "More..."
+msgstr "Wicy..."
+
+#: browsers/CollectionTreeView.cpp:876
+msgctxt "Organize Files"
+msgid "Organize Files"
+msgstr "Òrganizëjë lopczi"
+
+#: browsers/CollectionTreeView.cpp:1059
+#, fuzzy
+#| msgid "&Delete Tracks"
+msgid "Delete Tracks"
+msgstr "&Rëmôj sztëcczi"
 
 #: configdialog/dialogs/DatabaseConfig.cpp:93
 #, fuzzy
@@ -2111,7 +2125,7 @@ msgstr "Pòstãpnô grëpa"
 msgid "Previous Group"
 msgstr "Pòprzédnô grëpa"
 
-#: context/containments/verticallayout/VerticalToolbarContainment.cpp:187
+#: context/containments/verticallayout/VerticalToolbarContainment.cpp:189
 msgid ""
 "Please add some applets from the toolbar at the bottom of the context view."
 msgstr ""
@@ -2790,54 +2804,17 @@ msgstr "Kòlekcëjô Nepomuk (wòlné, Redland)"
 msgid "Proxy Collection"
 msgstr "Kòlekcëjô Proxy"
 
-#: core-impl/collections/sqlcollection/SqlCollectionLocation.cpp:71
-#: core-impl/collections/sqlcollection/mysqlecollection/MySqlEmbeddedCollection.cpp:35
-#: core-impl/collections/sqlcollection/mysqlservercollection/MySqlServerCollection.cpp:41
-msgid "Local Collection"
-msgstr "Môlowô kòlekcëjô"
-
-#: core-impl/collections/sqlcollection/SqlCollectionLocation.cpp:380
-msgid "Organizing tracks"
-msgstr ""
-
-#: core-impl/collections/sqlcollection/SqlCollectionLocation.cpp:382
-#, fuzzy
-#| msgid "Favorite tracks"
-msgid "Moving tracks"
-msgstr "Lubòtny sztëcczi"
-
-#: core-impl/collections/sqlcollection/SqlCollectionLocation.cpp:384
-#, fuzzy
-#| msgctxt ""
-#| "'Group tracks' (number of tracks in group) playlist column name and token "
-#| "for playlist layouts"
-#| msgid "Group tracks"
-msgid "Copying tracks"
-msgstr "Grëpa sztëczków"
-
-#: core-impl/collections/sqlcollection/SqlCollectionLocation.cpp:597
-#, fuzzy, kde-format
-#| msgid "could not execute %1"
-msgid "Could not create directory: %1"
-msgstr "ni mòże zrëszëc %1"
-
-#: core-impl/collections/sqlcollection/SqlCollectionLocation.cpp:629
-#, kde-format
-msgid "Transferring: %1"
-msgstr "Przenoszenié: %1"
-
-#: core-impl/collections/sqlcollection/SqlCollectionLocation.cpp:670
-#: core-impl/collections/support/FileCollectionLocation.cpp:117
-#, fuzzy, kde-format
-#| msgid "Remove this %1"
-msgid "Removing: %1"
-msgstr "Rëmôj %1"
-
 #: core-impl/collections/sqlcollection/SqlImportedPlaylistProvider.h:29
 #, fuzzy
 #| msgid "Import playlist"
 msgid "Imported Playlist Files"
 msgstr "Jimpòrtëjë lëstã graniô"
+
+#: core-impl/collections/sqlcollection/mysqlecollection/MySqlEmbeddedCollection.cpp:35
+#: core-impl/collections/sqlcollection/mysqlservercollection/MySqlServerCollection.cpp:41
+#: core-impl/collections/sqlcollection/SqlCollectionLocation.cpp:71
+msgid "Local Collection"
+msgstr "Môlowô kòlekcëjô"
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:21
 #. i18n: ectx: property (windowTitle), widget (QWidget, OrganizeCollectionDialogBase)
@@ -2897,6 +2874,61 @@ msgctxt "(Front) Cover of an album"
 msgid "cover"
 msgstr "Wiedno"
 
+#: core-impl/collections/sqlcollection/SqlCollectionLocation.cpp:383
+msgid "Organizing tracks"
+msgstr ""
+
+#: core-impl/collections/sqlcollection/SqlCollectionLocation.cpp:385
+#, fuzzy
+#| msgid "Favorite tracks"
+msgid "Moving tracks"
+msgstr "Lubòtny sztëcczi"
+
+#: core-impl/collections/sqlcollection/SqlCollectionLocation.cpp:387
+#, fuzzy
+#| msgctxt ""
+#| "'Group tracks' (number of tracks in group) playlist column name and token "
+#| "for playlist layouts"
+#| msgid "Group tracks"
+msgid "Copying tracks"
+msgstr "Grëpa sztëczków"
+
+#: core-impl/collections/sqlcollection/SqlCollectionLocation.cpp:600
+#, fuzzy, kde-format
+#| msgid "could not execute %1"
+msgid "Could not create directory: %1"
+msgstr "ni mòże zrëszëc %1"
+
+#: core-impl/collections/sqlcollection/SqlCollectionLocation.cpp:632
+#, kde-format
+msgid "Transferring: %1"
+msgstr "Przenoszenié: %1"
+
+#: core-impl/collections/sqlcollection/SqlCollectionLocation.cpp:676
+#: core-impl/collections/support/FileCollectionLocation.cpp:117
+#, fuzzy, kde-format
+#| msgid "Remove this %1"
+msgid "Removing: %1"
+msgstr "Rëmôj %1"
+
+#: core-impl/collections/support/CollectionManager.cpp:161
+msgid ""
+"<p>Amarok could not find any collection plugins. It is possible that Amarok "
+"is installed under the wrong prefix, please fix your installation using:<pre>"
+"$ cd /path/to/amarok/source-code/<br>$ su -c \"make uninstall\"<br>$ cmake -"
+"DCMAKE_INSTALL_PREFIX=`kde4-config --prefix` && su -c \"make install\"<br>$ "
+"kbuildsycoca4 --noincremental<br>$ amarok</pre>More information can be found "
+"in the README file. For further assistance join us at #amarok on irc."
+"freenode.net.</p>"
+msgstr ""
+"<p>Amarok ni mógł nalezc wtëkaczów kòlekcëji.Mòże bëc, że Amarok òstôł "
+"zajinstalowónyz lëchim prefiksã; proszã pòprawic swòją jinstalacëjã przez: "
+"<pre>$ cd /path/to/amarok/source-code/<br>$ su -c \"make uninstall\"<br>$ "
+"cmake -DCMAKE_INSTALL_PREFIX=`kde4-config --prefix` && su -c \"make install"
+"\"<br>$ kbuildsycoca4 --noincremental<br>$ amarok</pre>Wicy wëdowiédzë mòże "
+"nalezc w lopkù README. Abë zwëskac wicy pòmòcë przëłączë sã do naji na "
+"#amarok na irc.freenode.net.</p>"
+
 #: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:40
 #, kde-format
 msgctxt "@info"
@@ -2920,7 +2952,33 @@ msgstr[2] ""
 msgid "Delete Files"
 msgstr "Rëmniãcé lopków"
 
-#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:58
+#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:61
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid ""
+#| "Do you really want to delete this track? It will be removed from disk as "
+#| "well as your collection."
+#| msgid_plural ""
+#| "Do you really want to delete these %1 tracks? They will be removed from "
+#| "disk as well as your collection."
+msgctxt "@info"
+msgid ""
+"Do you really want to move this track to the trash? It will be removed from "
+"disk as well as your collection."
+msgid_plural ""
+"Do you really want to move these %1 tracks to the trash? They will be "
+"removed from disk as well as your collection."
+msgstr[0] ""
+"Na gwës chcesz rëmnąc nen titel? Òstanie rëmniãti tak z diskù jak ë z twòji "
+"kòlekcëji."
+msgstr[1] ""
+"Na gwës chcesz rëmnąc ne %1 title? Òstaną rëmniãté tak z diskù jak ë z twòji "
+"kòlekcëji."
+msgstr[2] ""
+"Na gwës chcesz rëmnąc ne %1 titlów? Òstaną rëmniãté tak z diskù jak ë z "
+"twòji kòlekcëji."
+
+#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:82
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid ""
@@ -2946,13 +3004,13 @@ msgstr[2] ""
 "Na gwës chcesz rëmnąc ne %1 titlów? Òstaną rëmniãté tak z diskù jak ë z "
 "twòji kòlekcëji."
 
-#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:63
+#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:87
 #, fuzzy
 #| msgid "Files"
 msgid "Move Files"
 msgstr "Lopczi"
 
-#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:74
+#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:98
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -2965,42 +3023,36 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:79
+#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:103
 #, fuzzy
 #| msgid "Unable to retrieve Flickr : %1"
 msgid "Unable to be removed tracks"
 msgstr "Ni mòże wëdostac Flickr: %1"
 
-#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:85
+#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:109
 msgid ""
 "The collection does not have enough free space available or is not writeable."
 msgstr ""
 
-#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:90
+#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:114
 msgid "Do you want to remove empty folders?"
 msgstr ""
 
-#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:91
+#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:115
 msgid "Remove empty folders?"
 msgstr ""
 
-#: core-impl/collections/support/CollectionManager.cpp:161
-msgid ""
-"<p>Amarok could not find any collection plugins. It is possible that Amarok "
-"is installed under the wrong prefix, please fix your installation using:<pre>"
-"$ cd /path/to/amarok/source-code/<br>$ su -c \"make uninstall\"<br>$ cmake -"
-"DCMAKE_INSTALL_PREFIX=`kde4-config --prefix` && su -c \"make install\"<br>$ "
-"kbuildsycoca4 --noincremental<br>$ amarok</pre>More information can be found "
-"in the README file. For further assistance join us at #amarok on irc."
-"freenode.net.</p>"
-msgstr ""
-"<p>Amarok ni mógł nalezc wtëkaczów kòlekcëji.Mòże bëc, że Amarok òstôł "
-"zajinstalowónyz lëchim prefiksã; proszã pòprawic swòją jinstalacëjã przez: "
-"<pre>$ cd /path/to/amarok/source-code/<br>$ su -c \"make uninstall\"<br>$ "
-"cmake -DCMAKE_INSTALL_PREFIX=`kde4-config --prefix` && su -c \"make install"
-"\"<br>$ kbuildsycoca4 --noincremental<br>$ amarok</pre>Wicy wëdowiédzë mòże "
-"nalezc w lopkù README. Abë zwëskac wicy pòmòcë przëłączë sã do naji na "
-"#amarok na irc.freenode.net.</p>"
+#: core-impl/collections/support/TrashCollectionLocation.cpp:46
+#, fuzzy
+#| msgid "Tracks"
+msgid "Trash"
+msgstr "Sztëcczi"
+
+#: core-impl/collections/support/TrashCollectionLocation.cpp:97
+#, fuzzy, kde-format
+#| msgid "Favorite tracks"
+msgid "Moving to trash: %1"
+msgstr "Lubòtny sztëcczi"
 
 #: core-impl/collections/umscollection/handler/UmsHandler.cpp:476
 #, fuzzy
@@ -3026,6 +3078,14 @@ msgstr "Kònfigùrëjë ùrządzenié medium"
 #| msgid "Delete Files"
 msgid "&Delete Episode"
 msgstr "Rëmniãcé lopków"
+
+#: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:251
+#: playlistmanager/file/PlaylistFileProvider.cpp:328
+#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:240
+#, fuzzy
+#| msgid "Configure Playback"
+msgid "Confirm Delete"
+msgstr "Kònfigùracëjô graniô"
 
 #: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:253
 #, fuzzy, kde-format
@@ -3116,58 +3176,63 @@ msgstr[0] "Elementë"
 msgstr[1] "Elementë"
 msgstr[2] "Elementë"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.h:50
-msgid "Local Podcasts"
-msgstr "Môlowé podcastë"
+#: core-impl/podcasts/sql/SqlPodcastMeta.cpp:380
+#: core/podcasts/PodcastMeta.h:412
+msgid "Podcast"
+msgstr "Podcast"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:269
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:271
 #, fuzzy
 #| msgid "&Update Channel"
 msgid "&Update All Channels"
 msgstr "&Zaktualni kanał"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:277
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:279
 #, fuzzy
 #| msgid "Configure General Options"
 msgid "&Configure General Settings"
 msgstr "Kònfigùracëjô òglowëch òptacëjów"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:301
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:787
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:287
+msgid "&Export to subscriptions to OPML file"
+msgstr ""
+
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:311
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:843
 msgid "&Configure"
 msgstr "&Kònfigùrëjë"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:319
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:805
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:329
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:861
 msgid "&Remove Subscription"
 msgstr "&Rëmôj subskripcëjã"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:340
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:826
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:350
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:882
 msgid "&Update Channel"
 msgstr "&Zaktualni kanał"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:379
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:707
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:389
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:763
 msgid "&Delete Downloaded Episode"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:390
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:720
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:400
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:776
 msgid "&Write Feed Information to File"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:414
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:757
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:424
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:813
 msgid "&Download Episode"
 msgstr "&Zladëjë epizod"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:457
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:467
 #, kde-format
 msgid "Already subscribed to %1."
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:578
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:588
 #, fuzzy
 #| msgid "Never"
 msgctxt "prefix to 'x minutes'"
@@ -3177,7 +3242,7 @@ msgstr[0] "Nigdë"
 msgstr[1] "Nigdë"
 msgstr[2] "Nigdë"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:579
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:589
 #, fuzzy
 #| msgid "Minutes"
 msgid " minute"
@@ -3186,35 +3251,39 @@ msgstr[0] "Minutë"
 msgstr[1] "Minutë"
 msgstr[2] "Minutë"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:588
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:598
 #, fuzzy
 #| msgid "Configure Podcasts..."
 msgid "Configure Local Podcasts"
 msgstr "Kònfigùrëjë podcast..."
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:878
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:650
+msgid "Select file for OPML export"
+msgstr ""
+
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:934
 #, fuzzy
 #| msgid "Subscribe"
 msgid "Unsubscribe"
 msgstr "Subskribùjë"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:882
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:938
 #, fuzzy
 #| msgid "Do you really want to remove this %1?"
 msgid "Do you really want to unsubscribe from "
 msgstr "Na gwës chcesz rëmnąc %1?"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:889
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:945
 #, fuzzy
 #| msgid "&Download Episode"
 msgid "Delete downloaded episodes"
 msgstr "&Zladëjë epizod"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1018
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1074
 msgid "Waiting for Podcast Downloads to Finish"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1019
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1075
 #, kde-format
 msgid "There is still a podcast download in progress"
 msgid_plural "There are still %1 podcast downloads in progress"
@@ -3222,29 +3291,28 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1023
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1079
 msgid "Cancel Download and Quit."
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1186
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1242
 msgid "Downloading Podcast Media"
 msgstr "Ladowanié mediów podcastu"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1187
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1243
 #, kde-format
 msgid "Downloading Podcast \"%1\""
 msgstr "Ladowanié podcastu \"%1\""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1261
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1411
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1317
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1467
 #, kde-format
 msgid "Unable to save podcast episode file to %1"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastMeta.cpp:380
-#: core/podcasts/PodcastMeta.h:412
-msgid "Podcast"
-msgstr "Podcast"
+#: core-impl/podcasts/sql/SqlPodcastProvider.h:50
+msgid "Local Podcasts"
+msgstr "Môlowé podcastë"
 
 #: core/meta/support/MetaUtility.cpp:355
 msgctxt "The quality of music"
@@ -7112,6 +7180,10 @@ msgstr[0] "Na gwës chcesz rëmnąc %1?"
 msgstr[1] "Na gwës chcesz rëmnąc %1?"
 msgstr[2] "Na gwës chcesz rëmnąc %1?"
 
+#: playlistmanager/file/PlaylistFileProvider.cpp:335
+msgid "Yes, delete from disk."
+msgstr ""
+
 #: playlistmanager/file/PlaylistFileProvider.cpp:373
 #: playlistmanager/file/PlaylistFileProvider.cpp:401
 #, fuzzy, kde-format
@@ -8647,6 +8719,166 @@ msgstr ""
 #| msgid "Last played"
 msgid "played"
 msgstr "Slédno gróné"
+
+#. i18n: file: core-impl/collections/audiocd/FormatSelectionDialog.ui:14
+#. i18n: ectx: property (windowTitle), widget (QDialog, FormatSelectionDialog)
+#: App.cpp:113 rc.cpp:1010
+msgid "Amarok"
+msgstr "Amarok"
+
+#: App.cpp:114
+msgid "The audio player for KDE"
+msgstr "Òdgriwôcz mùzyczi dlô KE"
+
+#: App.cpp:115
+#, fuzzy
+#| msgid ""
+#| "(C) 2002-2003, Mark Kretschmann\n"
+#| "(C) 2003-2009, The Amarok Development Squad"
+msgid ""
+"(C) 2002-2003, Mark Kretschmann\n"
+"(C) 2003-2010, The Amarok Development Squad"
+msgstr ""
+"(C) 2002-2003, Mark Kretschmann\n"
+"(C) 2003-2009, The Amarok Development Squad"
+
+#: App.cpp:116
+#, kde-format
+msgid ""
+"IRC:\n"
+"irc.freenode.net - #amarok, #amarok.de, #amarok.es, #amarok.fr\n"
+"\n"
+"Feedback:\n"
+"amarok@kde.org\n"
+"\n"
+"(Build Date: %1)"
+msgstr ""
+"IRC:\n"
+"irc.freenode.net - #amarok, #amarok.de, #amarok.es, #amarok.fr\n"
+"\n"
+"Wspiarcé:\n"
+"amarok@kde.org\n"
+"\n"
+"(Datum wersëji: %1)"
+
+#: App.cpp:453
+msgid "Files/URLs to open"
+msgstr "Lopczi/adresë do òtemkniãcô"
+
+#: App.cpp:454
+msgid "Immediately start playing an audio cd"
+msgstr ""
+
+#: App.cpp:456
+msgid "Skip backwards in playlist"
+msgstr "Skóknié dowslôdë na lësce graniô"
+
+#: App.cpp:458
+msgid "Start playing current playlist"
+msgstr "Naczni òdgrëwac biéżną lëstã"
+
+#: App.cpp:460
+msgid "Play if stopped, pause if playing"
+msgstr "Grôj czedë zatrzëmóné, zatrzëmôj czedë gróné"
+
+#: App.cpp:461
+msgid "Pause playback"
+msgstr "Paùzëjë grónié"
+
+#: App.cpp:463
+msgid "Stop playback"
+msgstr "Zakùńczë grónié"
+
+#: App.cpp:465
+msgid "Skip forwards in playlist"
+msgstr "Skóknié w przódk na lësce graniô"
+
+#: App.cpp:466
+msgid "Additional options:"
+msgstr "Dodôwné òptacëje:"
+
+#: App.cpp:468
+msgid "Append files/URLs to playlist"
+msgstr "Dodôj lopczi/adresë URL do lëstë graniô"
+
+#: App.cpp:469
+msgid "Queue URLs after the currently playing track"
+msgstr "Ùstawi adresë URL w réze za biéżnym sztëczkã"
+
+#: App.cpp:471
+msgid "Load URLs, replacing current playlist"
+msgstr "Ladëjë URL-ë, pòdmieniającë biéżną lëstã graniô"
+
+#: App.cpp:473
+msgid "Print verbose debugging information"
+msgstr "Wëdrëkùjë wëdowiédzã ò przebiégù procesu"
+
+#: App.cpp:475
+msgid "Allow running multiple Amarok instances"
+msgstr ""
+
+#: App.cpp:476
+msgid "Base for relative filenames/URLs"
+msgstr "Baza dlô wzglãdnëch mionów lopków/adresów URL"
+
+#: App.cpp:478
+#, fuzzy
+#| msgid "Stream options"
+msgid "Unit test options:"
+msgstr "Òptacëjë strëdżi"
+
+#: App.cpp:479
+msgid "Run integrated unit tests"
+msgstr ""
+
+#: App.cpp:480
+msgid "Destination of test output: 'stdout', 'log'"
+msgstr ""
+
+#: App.cpp:481
+msgid "Format of test output: 'xml', 'lightxml', 'plaintext'"
+msgstr ""
+
+#: App.cpp:482
+msgid "Verbosity from 0-3 (highest)"
+msgstr ""
+
+#: App.cpp:732
+msgid ""
+"The embedded database was not found; you must set up a database server "
+"connection.\n"
+"You must restart Amarok after doing this."
+msgstr ""
+
+#: App.cpp:733
+msgid ""
+"The connection details for the database server were invalid.\n"
+"You must enter correct settings and restart Amarok after doing this."
+msgstr ""
+
+#: App.cpp:734
+#, fuzzy
+#| msgid "Database:"
+msgid "Database Error"
+msgstr "Baza pòdôwków:"
+
+#: App.cpp:751
+#, kde-format
+msgid ""
+"A music path, %1, is set in System Settings.\n"
+"Would you like to use that as a collection folder?"
+msgstr ""
+
+#: App.cpp:818
+msgid ""
+"<p>The version of the 'amarokcollectionscanner' tool\n"
+"does not match your Amarok version.</p><p>Please note that Collection "
+"Scanning may not work correctly.</p>"
+msgstr ""
+
+#: App.cpp:859
+msgid "Moving files to trash"
+msgstr ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -10549,12 +10781,6 @@ msgstr "Lësta graniô"
 #| msgid "You can use the following tokens:"
 msgid "Do not show the following labels:"
 msgstr "Mòżesz ùżëc nëch znaczników:"
-
-#. i18n: file: core-impl/collections/audiocd/FormatSelectionDialog.ui:14
-#. i18n: ectx: property (windowTitle), widget (QDialog, FormatSelectionDialog)
-#: rc.cpp:1010 App.cpp:113
-msgid "Amarok"
-msgstr "Amarok"
 
 #. i18n: file: core-impl/collections/audiocd/FormatSelectionDialog.ui:26
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
@@ -13150,160 +13376,6 @@ msgstr "Achtnij biéżny sztëczk"
 #| msgid "Love Current Track"
 msgid "Stop after current track: Off"
 msgstr "Achtnij biéżny sztëczk"
-
-#: App.cpp:114
-msgid "The audio player for KDE"
-msgstr "Òdgriwôcz mùzyczi dlô KE"
-
-#: App.cpp:115
-#, fuzzy
-#| msgid ""
-#| "(C) 2002-2003, Mark Kretschmann\n"
-#| "(C) 2003-2009, The Amarok Development Squad"
-msgid ""
-"(C) 2002-2003, Mark Kretschmann\n"
-"(C) 2003-2010, The Amarok Development Squad"
-msgstr ""
-"(C) 2002-2003, Mark Kretschmann\n"
-"(C) 2003-2009, The Amarok Development Squad"
-
-#: App.cpp:116
-#, kde-format
-msgid ""
-"IRC:\n"
-"irc.freenode.net - #amarok, #amarok.de, #amarok.es, #amarok.fr\n"
-"\n"
-"Feedback:\n"
-"amarok@kde.org\n"
-"\n"
-"(Build Date: %1)"
-msgstr ""
-"IRC:\n"
-"irc.freenode.net - #amarok, #amarok.de, #amarok.es, #amarok.fr\n"
-"\n"
-"Wspiarcé:\n"
-"amarok@kde.org\n"
-"\n"
-"(Datum wersëji: %1)"
-
-#: App.cpp:453
-msgid "Files/URLs to open"
-msgstr "Lopczi/adresë do òtemkniãcô"
-
-#: App.cpp:454
-msgid "Immediately start playing an audio cd"
-msgstr ""
-
-#: App.cpp:456
-msgid "Skip backwards in playlist"
-msgstr "Skóknié dowslôdë na lësce graniô"
-
-#: App.cpp:458
-msgid "Start playing current playlist"
-msgstr "Naczni òdgrëwac biéżną lëstã"
-
-#: App.cpp:460
-msgid "Play if stopped, pause if playing"
-msgstr "Grôj czedë zatrzëmóné, zatrzëmôj czedë gróné"
-
-#: App.cpp:461
-msgid "Pause playback"
-msgstr "Paùzëjë grónié"
-
-#: App.cpp:463
-msgid "Stop playback"
-msgstr "Zakùńczë grónié"
-
-#: App.cpp:465
-msgid "Skip forwards in playlist"
-msgstr "Skóknié w przódk na lësce graniô"
-
-#: App.cpp:466
-msgid "Additional options:"
-msgstr "Dodôwné òptacëje:"
-
-#: App.cpp:468
-msgid "Append files/URLs to playlist"
-msgstr "Dodôj lopczi/adresë URL do lëstë graniô"
-
-#: App.cpp:469
-msgid "Queue URLs after the currently playing track"
-msgstr "Ùstawi adresë URL w réze za biéżnym sztëczkã"
-
-#: App.cpp:471
-msgid "Load URLs, replacing current playlist"
-msgstr "Ladëjë URL-ë, pòdmieniającë biéżną lëstã graniô"
-
-#: App.cpp:473
-msgid "Print verbose debugging information"
-msgstr "Wëdrëkùjë wëdowiédzã ò przebiégù procesu"
-
-#: App.cpp:475
-msgid "Allow running multiple Amarok instances"
-msgstr ""
-
-#: App.cpp:476
-msgid "Base for relative filenames/URLs"
-msgstr "Baza dlô wzglãdnëch mionów lopków/adresów URL"
-
-#: App.cpp:478
-#, fuzzy
-#| msgid "Stream options"
-msgid "Unit test options:"
-msgstr "Òptacëjë strëdżi"
-
-#: App.cpp:479
-msgid "Run integrated unit tests"
-msgstr ""
-
-#: App.cpp:480
-msgid "Destination of test output: 'stdout', 'log'"
-msgstr ""
-
-#: App.cpp:481
-msgid "Format of test output: 'xml', 'lightxml', 'plaintext'"
-msgstr ""
-
-#: App.cpp:482
-msgid "Verbosity from 0-3 (highest)"
-msgstr ""
-
-#: App.cpp:732
-msgid ""
-"The embedded database was not found; you must set up a database server "
-"connection.\n"
-"You must restart Amarok after doing this."
-msgstr ""
-
-#: App.cpp:733
-msgid ""
-"The connection details for the database server were invalid.\n"
-"You must enter correct settings and restart Amarok after doing this."
-msgstr ""
-
-#: App.cpp:734
-#, fuzzy
-#| msgid "Database:"
-msgid "Database Error"
-msgstr "Baza pòdôwków:"
-
-#: App.cpp:751
-#, kde-format
-msgid ""
-"A music path, %1, is set in System Settings.\n"
-"Would you like to use that as a collection folder?"
-msgstr ""
-
-#: App.cpp:818
-msgid ""
-"<p>The version of the 'amarokcollectionscanner' tool\n"
-"does not match your Amarok version.</p><p>Please note that Collection "
-"Scanning may not work correctly.</p>"
-msgstr ""
-
-#: App.cpp:859
-msgid "Moving files to trash"
-msgstr ""
 
 #: MainWindow.cpp:279
 msgid "Local Music"
