@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-20 06:15+0200\n"
+"POT-Creation-Date: 2010-10-21 06:22+0200\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -1580,6 +1580,16 @@ msgstr "&Régùjë"
 msgid "Edit Track Details"
 msgstr "Editëjë detale sztëczka"
 
+#: context/applets/currenttrack/CurrentTrack.h:47
+#: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:417
+msgid "Unknown Artist"
+msgstr "Niznóny artista"
+
+#: context/applets/currenttrack/CurrentTrack.h:48
+#: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:427
+msgid "Unknown Album"
+msgstr "Nieznóny albùm"
+
 #: context/applets/currenttrack/CurrentTrack.cpp:86
 msgctxt "What artist is this track by"
 msgid "By"
@@ -1600,40 +1610,30 @@ msgid "No track playing"
 msgstr "Nick nie je gróné"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:123
-#: context/applets/currenttrack/CurrentTrack.cpp:556
+#: context/applets/currenttrack/CurrentTrack.cpp:551
 msgid "Play count"
 msgstr "Rechòwnik òdegraniô"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:124
-#: context/applets/currenttrack/CurrentTrack.cpp:557
+#: context/applets/currenttrack/CurrentTrack.cpp:552
 #: playlist/PlaylistModel.cpp:821 widgets/SmartPlaylistEditor.cpp:185
-#: widgets/MetaQueryWidget.cpp:231 TrayIcon.cpp:118
+#: widgets/MetaQueryWidget.cpp:231 TrayIcon.cpp:120
 msgid "Score"
 msgstr "Pùnktacëjô"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:125
-#: context/applets/currenttrack/CurrentTrack.cpp:558
+#: context/applets/currenttrack/CurrentTrack.cpp:553
 #: widgets/MetaQueryWidget.cpp:234
 msgid "Last Played"
 msgstr "Slédno gróné"
 
 #. i18n: file: context/applets/currenttrack/currentTrackSettings.ui:26
 #. i18n: ectx: property (windowTitle), widget (QWidget, currentTrackSettings)
-#: context/applets/currenttrack/CurrentTrack.cpp:697 rc.cpp:283
+#: context/applets/currenttrack/CurrentTrack.cpp:692 rc.cpp:283
 #, fuzzy
 #| msgid "Current Track"
 msgid "Current Track Settings"
 msgstr "Biéżny sztëczk"
-
-#: context/applets/currenttrack/CurrentTrack.h:47
-#: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:417
-msgid "Unknown Artist"
-msgstr "Niznóny artista"
-
-#: context/applets/currenttrack/CurrentTrack.h:48
-#: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:427
-msgid "Unknown Album"
-msgstr "Nieznóny albùm"
 
 #: context/applets/labels/LabelGraphicsItem.cpp:43
 #, fuzzy
@@ -2492,21 +2492,21 @@ msgstr "Przenoszenié: %1"
 msgid "Hide menu"
 msgstr "Zatacë menu"
 
-#: context/widgets/TrackWidget.cpp:39
-msgctxt "Score of a track"
-msgid "Score:"
-msgstr "Pùnktacëjô:"
-
-#: context/widgets/TrackWidget.cpp:150
-#, kde-format
-msgid "%1 - %2 (%3)"
-msgstr "%1 - %2 (%3)"
-
 #: context/widgets/appletexplorer/AppletItemModel.cpp:93
 #, fuzzy
 #| msgid "Context"
 msgid "Containments"
 msgstr "Kòntekst"
+
+#: context/widgets/TrackWidget.cpp:39
+msgctxt "Score of a track"
+msgid "Score:"
+msgstr "Pùnktacëjô:"
+
+#: context/widgets/TrackWidget.cpp:162
+#, kde-format
+msgid "%1 - %2 (%3)"
+msgstr "%1 - %2 (%3)"
 
 #: context/ContextDock.cpp:28
 msgid "Context"
@@ -6050,7 +6050,7 @@ msgstr "Kòmpòzytorowie"
 
 #: playlist/ProgressiveSearchWidget.cpp:112 playlist/PlaylistModel.cpp:822
 #: widgets/SmartPlaylistEditor.cpp:185 widgets/MetaQueryWidget.cpp:232
-#: TrayIcon.cpp:136
+#: TrayIcon.cpp:138
 msgid "Rating"
 msgstr "Notowania"
 
@@ -6699,7 +6699,7 @@ msgid "Sample Rate"
 msgstr "Próbkòwónié"
 
 #: playlist/PlaylistModel.cpp:823 widgets/MetaQueryWidget.cpp:235
-#: TrayIcon.cpp:142
+#: TrayIcon.cpp:144
 msgid "Play Count"
 msgstr "Rechòwnik graniô"
 
@@ -7823,7 +7823,7 @@ msgid "User"
 msgstr "Brëkòwnik"
 
 #: services/lastfm/LastFmService.cpp:571
-#: services/lastfm/ScrobblerAdapter.cpp:220
+#: services/lastfm/ScrobblerAdapter.cpp:226
 #, kde-format
 msgctxt "As in, lastfm"
 msgid "Loved Track: %1"
@@ -8447,7 +8447,7 @@ msgstr "Wpiszë, òddzéloné spacjama, kriteria przeszëkiwaniô."
 msgid "Edit filter"
 msgstr "Editëjë filter"
 
-#: widgets/SliderWidget.cpp:243 TrayIcon.cpp:113
+#: widgets/SliderWidget.cpp:243 TrayIcon.cpp:115
 msgid "Volume"
 msgstr "Głosnosc"
 
@@ -8710,7 +8710,7 @@ msgstr "Artista \"%1\""
 msgid "empty"
 msgstr ""
 
-#: widgets/VolumeDial.cpp:301 widgets/VolumeDial.cpp:340 TrayIcon.cpp:107
+#: widgets/VolumeDial.cpp:301 widgets/VolumeDial.cpp:340 TrayIcon.cpp:109
 msgid "Muted"
 msgstr "Wëcëszony"
 
@@ -8927,10 +8927,6 @@ msgstr "Nieznóny sztëczk"
 msgctxt "track from source"
 msgid "from <b>%1</b>"
 msgstr " przez <b>%1</b>"
-
-#: TrayIcon.cpp:146
-msgid "Last played"
-msgstr "Slédno gróné"
 
 #: MainWindow.cpp:282
 msgid "Local Music"
@@ -9365,6 +9361,10 @@ msgstr ""
 #: App.cpp:847
 msgid "Moving files to trash"
 msgstr ""
+
+#: TrayIcon.cpp:148
+msgid "Last played"
+msgstr "Slédno gróné"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
