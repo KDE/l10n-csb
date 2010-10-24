@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-23 06:51+0200\n"
+"POT-Creation-Date: 2010-10-24 06:26+0200\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -1605,7 +1605,7 @@ msgstr "Włączony"
 #: context/applets/photos/PhotosApplet.cpp:136
 #: context/applets/similarartists/SimilarArtistsApplet.cpp:267
 #: context/engines/current/CurrentEngine.cpp:140 mac/GrowlInterface.cpp:39
-#: widgets/Osd.cpp:582 EngineController.cpp:1341
+#: widgets/Osd.cpp:582 EngineController.cpp:1333
 msgid "No track playing"
 msgstr "Nick nie je gróné"
 
@@ -6400,10 +6400,6 @@ msgstr ""
 msgid "Ok"
 msgstr "Ok"
 
-#: playlist/PlaylistActions.cpp:407
-msgid "Too many errors encountered in playlist. Playback stopped."
-msgstr ""
-
 #: playlist/PlaylistBreadcrumbItem.cpp:111
 #, fuzzy
 #| msgid "Enter a name for the playlist:"
@@ -6715,6 +6711,10 @@ msgstr "Òdczëcé"
 #: playlist/PlaylistModel.cpp:835 widgets/MetaQueryWidget.cpp:227
 msgid "File Size"
 msgstr "Miara lopka"
+
+#: playlist/PlaylistActions.cpp:394
+msgid "Too many errors encountered in playlist. Playback stopped."
+msgstr ""
 
 #: playlistgenerator/ConstraintGroup.cpp:87
 #, fuzzy
@@ -8872,62 +8872,6 @@ msgstr "Wëcëszë"
 msgid "Volume: <i>Muted</i>"
 msgstr ""
 
-#: EngineController.cpp:257
-msgid ""
-"<p>Phonon claims it <b>cannot</b> play MP3 files. You may want to examine "
-"the installation of the backend that phonon uses.</p><p>You may find useful "
-"information in the <i>FAQ</i> section of the <i>Amarok Handbook</i>.</p>"
-msgstr ""
-
-#: EngineController.cpp:278
-msgid "Install MP3 Support"
-msgstr ""
-
-#: EngineController.cpp:280
-msgid ""
-"Amarok currently cannot play MP3 files. Do you want to install support for "
-"MP3?"
-msgstr ""
-
-#: EngineController.cpp:281
-msgid "No MP3 Support"
-msgstr ""
-
-#: EngineController.cpp:837
-#, fuzzy
-#| msgid "Stream"
-msgid "Preamp"
-msgstr "Strëga"
-
-#: EngineController.cpp:1309
-#, kde-format
-msgctxt "track by artist on album"
-msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
-msgstr "<b>%1</b> wëkònywóné przez <b>%2</b> z albùmù <b>%3</b>"
-
-#: EngineController.cpp:1312
-#, kde-format
-msgctxt "track by artist"
-msgid "<b>%1</b> by <b>%2</b>"
-msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
-
-#: EngineController.cpp:1316
-#, kde-format
-msgctxt "track on album"
-msgid "<b>%1</b> on <b>%2</b>"
-msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
-
-#: EngineController.cpp:1321
-msgid "Unknown track"
-msgstr "Nieznóny sztëczk"
-
-#: EngineController.cpp:1328
-#, fuzzy, kde-format
-#| msgid " on <b>%1</b>"
-msgctxt "track from source"
-msgid "from <b>%1</b>"
-msgstr " przez <b>%1</b>"
-
 #: MainWindow.cpp:282
 msgid "Local Music"
 msgstr ""
@@ -9365,6 +9309,62 @@ msgstr ""
 #: TrayIcon.cpp:148
 msgid "Last played"
 msgstr "Slédno gróné"
+
+#: EngineController.cpp:257
+msgid ""
+"<p>Phonon claims it <b>cannot</b> play MP3 files. You may want to examine "
+"the installation of the backend that phonon uses.</p><p>You may find useful "
+"information in the <i>FAQ</i> section of the <i>Amarok Handbook</i>.</p>"
+msgstr ""
+
+#: EngineController.cpp:278
+msgid "Install MP3 Support"
+msgstr ""
+
+#: EngineController.cpp:280
+msgid ""
+"Amarok currently cannot play MP3 files. Do you want to install support for "
+"MP3?"
+msgstr ""
+
+#: EngineController.cpp:281
+msgid "No MP3 Support"
+msgstr ""
+
+#: EngineController.cpp:829
+#, fuzzy
+#| msgid "Stream"
+msgid "Preamp"
+msgstr "Strëga"
+
+#: EngineController.cpp:1301
+#, kde-format
+msgctxt "track by artist on album"
+msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
+msgstr "<b>%1</b> wëkònywóné przez <b>%2</b> z albùmù <b>%3</b>"
+
+#: EngineController.cpp:1304
+#, kde-format
+msgctxt "track by artist"
+msgid "<b>%1</b> by <b>%2</b>"
+msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
+
+#: EngineController.cpp:1308
+#, kde-format
+msgctxt "track on album"
+msgid "<b>%1</b> on <b>%2</b>"
+msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
+
+#: EngineController.cpp:1313
+msgid "Unknown track"
+msgstr "Nieznóny sztëczk"
+
+#: EngineController.cpp:1320
+#, fuzzy, kde-format
+#| msgid " on <b>%1</b>"
+msgctxt "track from source"
+msgid "from <b>%1</b>"
+msgstr " przez <b>%1</b>"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
