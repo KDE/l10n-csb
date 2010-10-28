@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-27 06:24+0200\n"
+"POT-Creation-Date: 2010-10-28 06:16+0200\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -665,7 +665,7 @@ msgstr "Brëkùjë Growl dlô dôwaniô wiédzë"
 
 #. i18n: file: context/applets/currenttrack/currentTrackSettings.ui:26
 #. i18n: ectx: property (windowTitle), widget (QWidget, currentTrackSettings)
-#: rc.cpp:283 context/applets/currenttrack/CurrentTrack.cpp:705
+#: rc.cpp:283 context/applets/currenttrack/CurrentTrack.cpp:683
 #, fuzzy
 #| msgid "Current Track"
 msgid "Current Track Settings"
@@ -851,7 +851,7 @@ msgstr "Jãzëk"
 
 #. i18n: file: context/applets/similarartists/similarArtistsSettings.ui:48
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
-#: rc.cpp:367 context/applets/similarartists/SimilarArtistsApplet.cpp:199
+#: rc.cpp:367
 #, fuzzy
 #| msgid "Automatic"
 msgctxt "automatic language selection"
@@ -860,25 +860,25 @@ msgstr "Aùtomatno"
 
 #. i18n: file: context/applets/similarartists/similarArtistsSettings.ui:53
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
-#: rc.cpp:370 context/applets/similarartists/SimilarArtistsApplet.cpp:202
+#: rc.cpp:370 context/applets/similarartists/SimilarArtistsApplet.cpp:190
 msgid "English"
 msgstr "Anielsczi"
 
 #. i18n: file: context/applets/similarartists/similarArtistsSettings.ui:58
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
-#: rc.cpp:373 context/applets/similarartists/SimilarArtistsApplet.cpp:205
+#: rc.cpp:373 context/applets/similarartists/SimilarArtistsApplet.cpp:192
 msgid "French"
 msgstr "Francësczi"
 
 #. i18n: file: context/applets/similarartists/similarArtistsSettings.ui:63
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
-#: rc.cpp:376 context/applets/similarartists/SimilarArtistsApplet.cpp:208
+#: rc.cpp:376 context/applets/similarartists/SimilarArtistsApplet.cpp:194
 msgid "German"
 msgstr "Miemiecczi"
 
 #. i18n: file: context/applets/similarartists/similarArtistsSettings.ui:68
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
-#: rc.cpp:379 context/applets/similarartists/SimilarArtistsApplet.cpp:211
+#: rc.cpp:379 context/applets/similarartists/SimilarArtistsApplet.cpp:196
 #, fuzzy
 #| msgid "Italic"
 msgid "Italian"
@@ -886,7 +886,7 @@ msgstr "Kùrsywa"
 
 #. i18n: file: context/applets/similarartists/similarArtistsSettings.ui:73
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
-#: rc.cpp:382 context/applets/similarartists/SimilarArtistsApplet.cpp:214
+#: rc.cpp:382 context/applets/similarartists/SimilarArtistsApplet.cpp:198
 msgid "Spanish"
 msgstr ""
 
@@ -6582,7 +6582,7 @@ msgstr "Slédno dodóné albùmë"
 #: context/applets/labels/LabelsApplet.cpp:104
 #: context/applets/lyrics/LyricsApplet.cpp:415
 #: context/applets/photos/PhotosApplet.cpp:80
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:86
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:84
 #: context/applets/upcomingevents/UpcomingEventsApplet.cpp:80
 #: context/applets/videoclip/VideoclipApplet.cpp:110
 #: context/applets/wikipedia/WikipediaApplet.cpp:558
@@ -6608,16 +6608,6 @@ msgstr ""
 msgid "Albums Applet Settings"
 msgstr ""
 
-#: context/applets/currenttrack/CurrentTrack.h:47
-#: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:417
-msgid "Unknown Artist"
-msgstr "Niznóny artista"
-
-#: context/applets/currenttrack/CurrentTrack.h:48
-#: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:427
-msgid "Unknown Album"
-msgstr "Nieznóny albùm"
-
 #: context/applets/currenttrack/CurrentTrack.cpp:86
 msgctxt "What artist is this track by"
 msgid "By"
@@ -6637,22 +6627,32 @@ msgid "No track playing"
 msgstr "Nick nie je gróné"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:127
-#: context/applets/currenttrack/CurrentTrack.cpp:564
+#: context/applets/currenttrack/CurrentTrack.cpp:543
 msgid "Play count"
 msgstr "Rechòwnik òdegraniô"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:128
-#: context/applets/currenttrack/CurrentTrack.cpp:565
+#: context/applets/currenttrack/CurrentTrack.cpp:544
 #: playlist/PlaylistModel.cpp:830 widgets/SmartPlaylistEditor.cpp:185
 #: widgets/MetaQueryWidget.cpp:231 TrayIcon.cpp:120
 msgid "Score"
 msgstr "Pùnktacëjô"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:129
-#: context/applets/currenttrack/CurrentTrack.cpp:566
+#: context/applets/currenttrack/CurrentTrack.cpp:545
 #: widgets/MetaQueryWidget.cpp:234
 msgid "Last Played"
 msgstr "Slédno gróné"
+
+#: context/applets/currenttrack/CurrentTrack.h:47
+#: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:417
+msgid "Unknown Artist"
+msgstr "Niznóny artista"
+
+#: context/applets/currenttrack/CurrentTrack.h:48
+#: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:427
+msgid "Unknown Album"
+msgstr "Nieznóny albùm"
 
 #: context/applets/labels/LabelGraphicsItem.cpp:43
 #, fuzzy
@@ -6831,38 +6831,6 @@ msgstr "Kònfigùracëjô apleta jinfòrmacëji ò lësce graniô"
 msgid "Width"
 msgstr "Szérz"
 
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:77
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:130
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:166
-#, fuzzy
-#| msgid "Last.Fm Similar Artists"
-msgid "Similar Artists"
-msgstr "Artistë szlachùjący za \"%1\" wedle Last.fm"
-
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:148
-#, fuzzy
-#| msgid "Amarok - No track playing"
-msgid "Similar Artist: No track playing"
-msgstr "Amarok - nie je gróny niżóden lopk"
-
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:244
-#, fuzzy
-#| msgid "Similar Artists to \"%1\""
-msgid "Similar Artists Settings"
-msgstr "Artistë szlachùjący za \"%1\""
-
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:265
-#, fuzzy, kde-format
-#| msgid "Similar Artists to \"%1\""
-msgid "Similar Artists of %1"
-msgstr "Artistë szlachùjący za \"%1\""
-
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:271
-#, fuzzy
-#| msgid "Similar Artists to \"%1\""
-msgid "Similar Artists: Not Found"
-msgstr "Artistë szlachùjący za \"%1\""
-
 #: context/applets/similarartists/ArtistWidget.cpp:122
 #, fuzzy
 #| msgid "Enter a name for the playlist:"
@@ -6918,6 +6886,38 @@ msgstr "Òbkłôdka nie je nalazłô"
 #| msgid "Group tracks"
 msgid "Top track: %1"
 msgstr "Grëpa sztëczków"
+
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:77
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:128
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:157
+#, fuzzy
+#| msgid "Last.Fm Similar Artists"
+msgid "Similar Artists"
+msgstr "Artistë szlachùjący za \"%1\" wedle Last.fm"
+
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:140
+#, fuzzy
+#| msgid "Amarok - No track playing"
+msgid "Similar Artist: No track playing"
+msgstr "Amarok - nie je gróny niżóden lopk"
+
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:230
+#, fuzzy
+#| msgid "Similar Artists to \"%1\""
+msgid "Similar Artists Settings"
+msgstr "Artistë szlachùjący za \"%1\""
+
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:251
+#, fuzzy, kde-format
+#| msgid "Similar Artists to \"%1\""
+msgid "Similar Artists of %1"
+msgstr "Artistë szlachùjący za \"%1\""
+
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:256
+#, fuzzy
+#| msgid "Similar Artists to \"%1\""
+msgid "Similar Artists: Not Found"
+msgstr "Artistë szlachùjący za \"%1\""
 
 #: context/applets/songkick/SongkickApplet.cpp:41
 #, fuzzy
@@ -7552,11 +7552,11 @@ msgid "Track rating: %1"
 msgstr "Przenoszenié: %1"
 
 #: context/widgets/ToolBoxMenu.cpp:109
-#: context/widgets/appletexplorer/AppletExplorer.cpp:90
+#: context/widgets/appletexplorer/AppletExplorer.cpp:96
 msgid "Hide menu"
 msgstr "Zatacë menu"
 
-#: context/widgets/appletexplorer/AppletItemModel.cpp:93
+#: context/widgets/appletexplorer/AppletExplorer.cpp:161
 #, fuzzy
 #| msgid "Context"
 msgid "Containments"
@@ -11640,18 +11640,6 @@ msgstr "Zajinstalowóno %1"
 msgid "Connection failure"
 msgstr "Pòłączenié"
 
-#: services/ampache/AmpacheService.cpp:98
-msgid "Amarok frontend for your Ampache server."
-msgstr "Nakłôdka Amaroka na twòją serwerã Ampache."
-
-#: services/ampache/AmpacheService.cpp:100
-msgid ""
-"Use Amarok as a seamless frontend to your Ampache server. This lets you "
-"browse and play all the Ampache contents from within Amarok."
-msgstr ""
-"Brëkùjë Amaroka jakno jedny le nôkładczi na twòją serwerã Ampache. To "
-"pòzwôlô ce przezérac ë grac całą zamkłosc Ampache brëkùjącë Amaroka."
-
 #: services/ampache/AmpacheServiceCollection.cpp:56
 #, kde-format
 msgid "Ampache Server %1"
@@ -11682,6 +11670,18 @@ msgstr "Nie są nalazłé tekstë dlô tegò sztëczka"
 #| msgid "There were no lyrics found for this track"
 msgid "<p>No information found for this artist.</p>"
 msgstr "Nie są nalazłé tekstë dlô tegò sztëczka"
+
+#: services/ampache/AmpacheService.cpp:100
+msgid "Amarok frontend for your Ampache server."
+msgstr "Nakłôdka Amaroka na twòją serwerã Ampache."
+
+#: services/ampache/AmpacheService.cpp:102
+msgid ""
+"Use Amarok as a seamless frontend to your Ampache server. This lets you "
+"browse and play all the Ampache contents from within Amarok."
+msgstr ""
+"Brëkùjë Amaroka jakno jedny le nôkładczi na twòją serwerã Ampache. To "
+"pòzwôlô ce przezérac ë grac całą zamkłosc Ampache brëkùjącë Amaroka."
 
 #: services/jamendo/JamendoInfoParser.cpp:46
 #: services/jamendo/JamendoInfoParser.cpp:77
@@ -12052,7 +12052,7 @@ msgid "User"
 msgstr "Brëkòwnik"
 
 #: services/lastfm/LastFmService.cpp:571
-#: services/lastfm/ScrobblerAdapter.cpp:228
+#: services/lastfm/ScrobblerAdapter.cpp:221
 #, kde-format
 msgctxt "As in, lastfm"
 msgid "Loved Track: %1"
@@ -13960,6 +13960,10 @@ msgstr "Paùza :: %1"
 msgid "%1 - %2  ::  %3"
 msgstr "%1 - %2  ::  %3"
 
+#: TrayIcon.cpp:148
+msgid "Last played"
+msgstr "Slédno gróné"
+
 #: App.cpp:112
 msgid "The audio player for KDE"
 msgstr "Òdgriwôcz mùzyczi dlô KE"
@@ -14113,10 +14117,6 @@ msgstr ""
 #: App.cpp:847
 msgid "Moving files to trash"
 msgstr ""
-
-#: TrayIcon.cpp:148
-msgid "Last played"
-msgstr "Slédno gróné"
 
 #: EngineController.cpp:267
 msgid ""
