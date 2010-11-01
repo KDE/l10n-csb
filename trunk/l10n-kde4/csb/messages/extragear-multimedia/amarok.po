@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-31 05:20+0100\n"
+"POT-Creation-Date: 2010-11-01 06:20+0100\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -104,6 +104,336 @@ msgstr "Achtnij biéżny sztëczk"
 #| msgid "Love Current Track"
 msgid "Stop after current track: Off"
 msgstr "Achtnij biéżny sztëczk"
+
+#: MainWindow.cpp:284
+msgid "Local Music"
+msgstr ""
+
+#: MainWindow.cpp:286
+msgid "Local sources of content"
+msgstr ""
+
+#: MainWindow.cpp:294
+msgid "Internet"
+msgstr "Internet"
+
+#: MainWindow.cpp:296
+msgid "Online sources of content"
+msgstr ""
+
+#: MainWindow.cpp:302
+msgid "Playlists"
+msgstr "Lësta graniô"
+
+#: MainWindow.cpp:304
+#, fuzzy
+#| msgid "Various Artists"
+msgid "Various types of playlists"
+msgstr "Rozmajiti wëkònywaczë"
+
+#: MainWindow.cpp:311 amarokurls/NavigationUrlGenerator.cpp:132
+msgid "Files"
+msgstr "Lopczi"
+
+#: MainWindow.cpp:313
+msgid "Browse local hard drive for content"
+msgstr ""
+
+#: MainWindow.cpp:382
+#, fuzzy
+#| msgctxt "@title buttontext for popup-menu"
+#| msgid "View"
+msgctxt "@item:inmenu"
+msgid "&View"
+msgstr "Òbezdrzë"
+
+#: MainWindow.cpp:385
+#, fuzzy
+#| msgid "Lock layout"
+msgid "Lock Layout"
+msgstr "Zablokùjë widok"
+
+#: MainWindow.cpp:536
+msgid ""
+"<qt>Closing the main window will keep Amarok running in the System Tray. Use "
+"<B>Quit</B> from the menu, or the Amarok tray icon to exit the application.</"
+"qt>"
+msgstr ""
+
+#: MainWindow.cpp:538
+msgid "Docking in System Tray"
+msgstr ""
+
+#: MainWindow.cpp:588
+msgid "Use relative path for &saving"
+msgstr ""
+
+#: MainWindow.cpp:599 covermanager/CoverFoundDialog.cpp:364
+msgid "Save As"
+msgstr ""
+
+#: MainWindow.cpp:654
+msgid "Play Media (Files or URLs)"
+msgstr "Grôj media (lopczi abò adresë URL)"
+
+#: MainWindow.cpp:654
+msgid "Add Media (Files or URLs)"
+msgstr "Dodôj media (lopczi abò adresë URL)"
+
+#: MainWindow.cpp:672
+msgid "Add Stream"
+msgstr "Dodôj strëgã"
+
+#: MainWindow.cpp:672
+msgid "Enter Stream URL:"
+msgstr "Wpiszë URL strëdżi:"
+
+#: MainWindow.cpp:814
+msgid "&Add Media..."
+msgstr "&Dodôj media..."
+
+#: MainWindow.cpp:819
+msgctxt "clear playlist"
+msgid "&Clear Playlist"
+msgstr "Wë&czëszczë lëstã graniô"
+
+#: MainWindow.cpp:823
+#, fuzzy
+#| msgid "Remove Applet"
+msgctxt "Remove duplicate and dead (unplayable) tracks from the playlist"
+msgid "Re&move Duplicates"
+msgstr "Rëmôj aplet"
+
+#: MainWindow.cpp:830
+msgid "&Add Stream..."
+msgstr "&Dodôj strëgã..."
+
+#: MainWindow.cpp:834
+msgid "&Export Playlist As..."
+msgstr "&Ekspòrtëjë lëstã graniô jakno..."
+
+#: MainWindow.cpp:838 amarokurls/NavigationUrlGenerator.cpp:250
+#, fuzzy
+#| msgid "Bookmark"
+msgid "Bookmark Media Sources View"
+msgstr "Załóżka"
+
+#: MainWindow.cpp:842 amarokurls/BookmarkManager.cpp:43
+#, fuzzy
+#| msgid "Bookmark"
+msgid "Bookmark Manager"
+msgstr "Załóżka"
+
+#: MainWindow.cpp:846
+msgid "Equalizer"
+msgstr ""
+
+#: MainWindow.cpp:850 playlist/PlaylistViewUrlGenerator.cpp:101
+#, fuzzy
+#| msgid "Smart Playlist"
+msgid "Bookmark Playlist Setup"
+msgstr "Jinteligentnô lësta gróniô"
+
+#: MainWindow.cpp:854
+#, fuzzy
+#| msgid "Bookmark this Artist"
+msgid "Bookmark Context Applets"
+msgstr "Dodôj negò artistã do załóżków"
+
+#: MainWindow.cpp:858 covermanager/CoverManager.cpp:104
+msgid "Cover Manager"
+msgstr ""
+
+#: MainWindow.cpp:862
+msgid "Play Media..."
+msgstr "Grôj media..."
+
+#: MainWindow.cpp:867 dialogs/ScriptManager.cpp:100
+msgid "Script Manager"
+msgstr "Menadżer skriptów"
+
+#: MainWindow.cpp:871
+msgid "&Seek Forward"
+msgstr "&Szëkôj w przódk"
+
+#: MainWindow.cpp:877
+msgid "&Seek Backward"
+msgstr "&Szëkôj dowslôdë"
+
+#: MainWindow.cpp:884
+msgid "Update Collection"
+msgstr "Aktualizëjë kòlekcëjã"
+
+#: MainWindow.cpp:891 widgets/MainControlsWidget.cpp:62
+msgid "Previous Track"
+msgstr "Piprzédny sztëczk"
+
+#: MainWindow.cpp:898
+#, fuzzy
+#| msgid "Rate Current Track: 1"
+msgid "Restart current track"
+msgstr "Òtaksëjë biéżny sztëczk: 1"
+
+#: MainWindow.cpp:904
+#, fuzzy
+#| msgctxt "Replace the currently loaded tracks with these"
+#| msgid "&Replace Playlist"
+msgid "Repopulate Playlist"
+msgstr "&Pòdmieni lëstã graniô"
+
+#: MainWindow.cpp:910
+#, fuzzy
+#| msgid "Default Dynamic Playlist"
+msgid "Disable Dynamic Playlist"
+msgstr "Domëslné dinamiczné lëstë graniô"
+
+#: MainWindow.cpp:914 widgets/MainControlsWidget.cpp:86
+msgid "Next Track"
+msgstr "Pòstãpny sztëczk"
+
+#: MainWindow.cpp:919
+msgid "Increase Volume"
+msgstr "Zwikszë głosnosc"
+
+#: MainWindow.cpp:925
+msgid "Decrease Volume"
+msgstr "Zminészë głosnosc"
+
+#: MainWindow.cpp:931
+msgid "Toggle Main Window"
+msgstr "Przełączë przédne òkno"
+
+#: MainWindow.cpp:936
+msgid "Toggle Full Screen"
+msgstr ""
+
+#: MainWindow.cpp:941
+msgid "Jump to"
+msgstr ""
+
+#: MainWindow.cpp:946
+msgid "Show active track"
+msgstr "Pòkażë biéżné sztëcczi"
+
+#: MainWindow.cpp:950
+#, fuzzy
+#| msgid "Location:"
+msgid "Show Notification Popup"
+msgstr "Môl:"
+
+#: MainWindow.cpp:955
+msgid "Mute Volume"
+msgstr "Wëcëszë głosnosc"
+
+#: MainWindow.cpp:960
+#, fuzzy
+#| msgid "Love Current Track"
+msgid "Last.fm: Love Current Track"
+msgstr "Achtnij biéżny sztëczk"
+
+#: MainWindow.cpp:965
+#, fuzzy
+#| msgid "Love Current Track"
+msgid "Last.fm: Ban Current Track"
+msgstr "Achtnij biéżny sztëczk"
+
+#: MainWindow.cpp:970
+#, fuzzy
+#| msgid "Love Current Track"
+msgid "Last.fm: Skip Current Track"
+msgstr "Achtnij biéżny sztëczk"
+
+#: MainWindow.cpp:975 playlist/view/PlaylistViewCommon.cpp:118
+msgid "Queue Track"
+msgstr "Régùjë sztëczk"
+
+#: MainWindow.cpp:980
+msgid "Rate Current Track: 1"
+msgstr "Òtaksëjë biéżny sztëczk: 1"
+
+#: MainWindow.cpp:985
+msgid "Rate Current Track: 2"
+msgstr "Òtaksëjë biéżny sztëczk: 2"
+
+#: MainWindow.cpp:990
+msgid "Rate Current Track: 3"
+msgstr "Òtaksëjë biéżny sztëczk: 3"
+
+#: MainWindow.cpp:995
+msgid "Rate Current Track: 4"
+msgstr "Òtaksëjë biéżny sztëczk: 4"
+
+#: MainWindow.cpp:1000
+msgid "Rate Current Track: 5"
+msgstr "Òtaksëjë biéżny sztëczk: 5"
+
+#: MainWindow.cpp:1006
+msgid "Network Request Viewer"
+msgstr ""
+
+#: MainWindow.cpp:1024
+#, fuzzy
+#| msgid "&Amarok"
+msgid "&About Amarok"
+msgstr "&Amarok"
+
+#: MainWindow.cpp:1028
+msgid "&Report Bug..."
+msgstr ""
+
+#: MainWindow.cpp:1088
+msgid "&Music"
+msgstr "&Mùzyka"
+
+#: MainWindow.cpp:1092
+msgid "&Amarok"
+msgstr "&Amarok"
+
+#: MainWindow.cpp:1116
+msgid "&Playlist"
+msgstr "&Lësta graniô"
+
+#: MainWindow.cpp:1132
+msgid "&Tools"
+msgstr "&Nôrzãdza"
+
+#: MainWindow.cpp:1147
+msgid "&Settings"
+msgstr "Ùs&towë"
+
+#: MainWindow.cpp:1193
+#, kde-format
+msgid ""
+"You have chosen to hide the menu bar.\n"
+"\n"
+"Please remember that you can always use the shortcut \"%1\" to bring it back."
+msgstr ""
+
+#: MainWindow.cpp:1195
+#, fuzzy
+#| msgid "Hide menu"
+msgid "Hide Menu"
+msgstr "Zatacë menu"
+
+#: MainWindow.cpp:1590
+#, kde-format
+msgid "Paused  ::  %1"
+msgstr "Paùza :: %1"
+
+#: MainWindow.cpp:1609 amarokurls/BookmarkTreeView.cpp:377
+#: amarokurls/BookmarkTreeView.cpp:378 amarokurls/BookmarkTreeView.cpp:379
+#: context/applets/albums/AlbumItem.cpp:84
+#: core-impl/collections/audiocd/AudioCdCollection.cpp:447
+#: core-impl/collections/audiocd/AudioCdCollection.cpp:448
+#: core-impl/collections/audiocd/AudioCdCollection.cpp:449
+#: core-impl/collections/audiocd/AudioCdCollection.cpp:450
+msgid "Unknown"
+msgstr "Nieznóny"
+
+#: MainWindow.cpp:1609
+#, kde-format
+msgid "%1 - %2  ::  %3"
+msgstr "%1 - %2  ::  %3"
 
 #: aboutdialog/ExtendedAboutDialog.cpp:73
 msgid ""
@@ -384,8 +714,8 @@ msgstr "Nowé załóżczi"
 #: context/applets/upcomingevents/UpcomingEventsMapWidget.cpp:163
 #: context/applets/upcomingevents/UpcomingEventsMapWidget.cpp:165
 #: context/applets/upcomingevents/UpcomingEventsMapWidget.cpp:166
-#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:203
-#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:227
+#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:205
+#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:229
 #, fuzzy
 #| msgid "None"
 msgid "none"
@@ -408,15 +738,6 @@ msgstr ""
 msgid "New Timecode Track"
 msgstr ""
 
-#: amarokurls/BookmarkTreeView.cpp:377 amarokurls/BookmarkTreeView.cpp:378
-#: amarokurls/BookmarkTreeView.cpp:379 context/applets/albums/AlbumItem.cpp:84
-#: core-impl/collections/audiocd/AudioCdCollection.cpp:447
-#: core-impl/collections/audiocd/AudioCdCollection.cpp:448
-#: core-impl/collections/audiocd/AudioCdCollection.cpp:449
-#: core-impl/collections/audiocd/AudioCdCollection.cpp:450 MainWindow.cpp:1577
-msgid "Unknown"
-msgstr "Nieznóny"
-
 #: amarokurls/ContextUrlGenerator.cpp:56
 #, fuzzy, kde-format
 #| msgid "Context"
@@ -428,17 +749,6 @@ msgstr "Kòntekst"
 #| msgid "Bookmark this Artist"
 msgid "Bookmark Context View Applets"
 msgstr "Dodôj negò artistã do załóżków"
-
-#: amarokurls/ContextUrlRunner.cpp:72
-#, fuzzy
-#| msgid "Context"
-msgctxt "A type of command that affects the context view"
-msgid "Context"
-msgstr "Kòntekst"
-
-#: amarokurls/NavigationUrlGenerator.cpp:132 MainWindow.cpp:311
-msgid "Files"
-msgstr "Lopczi"
 
 #: amarokurls/NavigationUrlGenerator.cpp:138
 #, fuzzy, kde-format
@@ -466,20 +776,6 @@ msgstr "Artista \"%1\" z %2"
 msgid "Artist \"%1\""
 msgstr "Artista \"%1\""
 
-#: amarokurls/NavigationUrlGenerator.cpp:250 MainWindow.cpp:806
-#, fuzzy
-#| msgid "Bookmark"
-msgid "Bookmark Media Sources View"
-msgstr "Załóżka"
-
-#: amarokurls/NavigationUrlRunner.cpp:128
-#, fuzzy
-#| msgctxt "The quality of music"
-#| msgid "Favorite"
-msgctxt "A type of command that affects the view in the browser category"
-msgid "Navigate"
-msgstr "Lubòtny"
-
 #: amarokurls/PlayUrlRunner.cpp:84
 #, fuzzy
 #| msgctxt "state, as in playing"
@@ -489,17 +785,26 @@ msgctxt ""
 msgid "Play"
 msgstr "Grónié"
 
-#: amarokurls/BookmarkManager.cpp:43 MainWindow.cpp:810
-#, fuzzy
-#| msgid "Bookmark"
-msgid "Bookmark Manager"
-msgstr "Załóżka"
-
 #: amarokurls/PlayUrlGenerator.cpp:87
 #, fuzzy
 #| msgid "Bookmarks"
 msgid "Bookmark Track Position"
 msgstr "Załóżczi"
+
+#: amarokurls/ContextUrlRunner.cpp:75
+#, fuzzy
+#| msgid "Context"
+msgctxt "A type of command that affects the context view"
+msgid "Context"
+msgstr "Kòntekst"
+
+#: amarokurls/NavigationUrlRunner.cpp:130
+#, fuzzy
+#| msgctxt "The quality of music"
+#| msgid "Favorite"
+msgctxt "A type of command that affects the view in the browser category"
+msgid "Navigate"
+msgstr "Lubòtny"
 
 #: browsers/BrowserCategoryList.cpp:46
 #, fuzzy
@@ -698,8 +1003,8 @@ msgstr "Rok - Albùm"
 #: context/applets/albums/AlbumsView.cpp:239
 #: context/applets/wikipedia/WikipediaApplet.cpp:544
 #: dialogs/FilenameLayoutDialog.cpp:232 dialogs/FilenameLayoutDialog.cpp:585
-#: dialogs/transferdialog.cpp:89 musicbrainz/MusicBrainzTagsModel.cpp:105
-#: musicbrainz/MusicBrainzTrackListModel.cpp:60
+#: dialogs/transferdialog.cpp:89 musicbrainz/MusicBrainzTrackListModel.cpp:60
+#: musicbrainz/MusicBrainzTagsModel.cpp:171
 #: playlist/view/PlaylistViewCommon.cpp:66 playlist/PlaylistModel.cpp:819
 #: services/jamendo/JamendoInfoParser.cpp:83
 #: services/magnatune/MagnatuneStore.cpp:222
@@ -715,8 +1020,8 @@ msgstr "Albùm"
 #: context/applets/lyrics/LyricsApplet.cpp:215
 #: context/applets/wikipedia/WikipediaApplet.cpp:537
 #: dialogs/FilenameLayoutDialog.cpp:220 dialogs/FilenameLayoutDialog.cpp:564
-#: dialogs/transferdialog.cpp:88 musicbrainz/MusicBrainzTagsModel.cpp:104
-#: musicbrainz/MusicBrainzTrackListModel.cpp:59 playlist/PlaylistModel.cpp:815
+#: dialogs/transferdialog.cpp:88 musicbrainz/MusicBrainzTrackListModel.cpp:59
+#: musicbrainz/MusicBrainzTagsModel.cpp:170 playlist/PlaylistModel.cpp:815
 #: services/jamendo/JamendoInfoParser.cpp:51
 #: services/lastfm/LastFmService.cpp:535
 #: services/magnatune/MagnatuneStore.cpp:216
@@ -1265,8 +1570,8 @@ msgstr[2] "&Zaktualni kanał"
 #: browsers/playlistbrowser/PodcastModel.cpp:335
 #: context/applets/lyrics/LyricsApplet.cpp:215
 #: dialogs/FilenameLayoutDialog.cpp:216 dialogs/FilenameLayoutDialog.cpp:550
-#: musicbrainz/MusicBrainzTagsModel.cpp:103
-#: musicbrainz/MusicBrainzTrackListModel.cpp:58 playlist/PlaylistModel.cpp:814
+#: musicbrainz/MusicBrainzTrackListModel.cpp:58
+#: musicbrainz/MusicBrainzTagsModel.cpp:169 playlist/PlaylistModel.cpp:814
 #: widgets/SmartPlaylistEditor.cpp:183 widgets/MetaQueryWidget.cpp:211
 msgid "Title"
 msgstr "Titel"
@@ -1573,7 +1878,7 @@ msgstr "Slédno dodóné albùmë"
 #: context/applets/photos/PhotosApplet.cpp:80
 #: context/applets/similarartists/SimilarArtistsApplet.cpp:84
 #: context/applets/upcomingevents/UpcomingEventsApplet.cpp:80
-#: context/applets/videoclip/VideoclipApplet.cpp:110
+#: context/applets/videoclip/VideoclipApplet.cpp:107
 #: context/applets/wikipedia/WikipediaApplet.cpp:558
 msgid "Settings"
 msgstr "Ùstawë"
@@ -1675,7 +1980,7 @@ msgstr "Rëmôj lëstã graniô"
 
 #: context/applets/labels/LabelGraphicsItem.cpp:54
 #: context/applets/similarartists/ArtistWidget.cpp:116
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:158
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:159
 #: playlist/view/PlaylistViewCommon.cpp:184
 #, fuzzy
 #| msgid "File Extension of Source"
@@ -1972,32 +2277,32 @@ msgstr ""
 msgid "Match: %1%"
 msgstr "datumë"
 
-#: context/applets/similarartists/ArtistWidget.cpp:178
+#: context/applets/similarartists/ArtistWidget.cpp:181
 #, fuzzy
 #| msgid "Loading info..."
 msgid "Loading the picture..."
 msgstr "Ladowanié wëdowiédzë..."
 
-#: context/applets/similarartists/ArtistWidget.cpp:197
+#: context/applets/similarartists/ArtistWidget.cpp:202
 #, fuzzy, kde-format
 #| msgid "Unable to retrieve Youtube information: %1"
 msgid "Unable to fetch the picture: %1"
 msgstr "Ni mòże wëdostac wëdowiédzë z Youtube: %1"
 
-#: context/applets/similarartists/ArtistWidget.cpp:261
+#: context/applets/similarartists/ArtistWidget.cpp:266
 #, fuzzy
 #| msgid "No description available..."
 msgid "No description available in your language"
 msgstr "Felëje òpisënkù..."
 
-#: context/applets/similarartists/ArtistWidget.cpp:280
+#: context/applets/similarartists/ArtistWidget.cpp:285
 #, fuzzy
 #| msgid " Cover not found"
 #| msgid_plural " <b>%1</b> covers not found"
 msgid "Top track not found"
 msgstr "Òbkłôdka nie je nalazłô"
 
-#: context/applets/similarartists/ArtistWidget.cpp:285
+#: context/applets/similarartists/ArtistWidget.cpp:290
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "'Group tracks' (number of tracks in group) playlist column name and token "
@@ -2064,6 +2369,13 @@ msgstr ""
 msgid "Collapse this widget"
 msgstr ""
 
+#: context/applets/upcomingevents/UpcomingEventsMapWidget.cpp:122
+#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:121
+#, kde-format
+msgctxt "@label:textbox Title for a cancelled upcoming event"
+msgid "<s>%1</s> (Cancelled)"
+msgstr ""
+
 #: context/applets/upcomingevents/UpcomingEventsApplet.cpp:74
 msgid "View Events Calendar"
 msgstr ""
@@ -2080,26 +2392,26 @@ msgctxt "@title:group"
 msgid "No track is currently playing"
 msgstr "Nick nie je gróné"
 
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:171
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:318
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:172
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:319
 #, fuzzy
 #| msgid "Favorite Genres"
 msgid "Favorite Venues"
 msgstr "Lubòtné zortë"
 
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:237
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:238
 #, fuzzy
 #| msgid "Fetching cover for %1..."
 msgid "No upcoming events"
 msgstr "Ladowanié òbkłôdczi dlô %1..."
 
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:237
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:238
 #, fuzzy, kde-format
 #| msgid "Fetching cover for %1..."
 msgid "%1: No upcoming events"
 msgstr "Ladowanié òbkłôdczi dlô %1..."
 
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:242
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:243
 #, fuzzy, kde-format
 #| msgid "sysevents"
 msgctxt "@title:group Number of upcoming events"
@@ -2109,8 +2421,8 @@ msgstr[0] "sysevents"
 msgstr[1] "sysevents"
 msgstr[2] "sysevents"
 
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:243
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:647
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:244
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:648
 #, kde-format
 msgctxt "@title:group Number of upcoming events"
 msgid "%1: 1 event"
@@ -2119,28 +2431,28 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:317
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:318
 #, fuzzy
 #| msgid "Photos Settings"
 msgid "Upcoming Events Settings"
 msgstr "Ùstowë òbrazków"
 
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:368
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:376
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:369
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:377
 #, fuzzy
 #| msgctxt "state, as in playing"
 #| msgid "Play"
 msgid "link"
 msgstr "Grónié"
 
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:507
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:508
 #, fuzzy
 #| msgctxt "@title buttontext for popup-menu"
 #| msgid "View"
 msgid "Map View"
 msgstr "Òbezdrzë"
 
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:539
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:540
 msgid "Events Calender"
 msgstr ""
 
@@ -2148,7 +2460,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
 #. i18n: file: context/applets/upcomingevents/upcomingEventsGeneralSettings.ui:33
 #. i18n: ectx: property (text), item, widget (QComboBox, filterComboBox)
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:558 rc.cpp:391
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:559 rc.cpp:391
 #: rc.cpp:409
 #, fuzzy
 #| msgid "last week"
@@ -2159,7 +2471,7 @@ msgstr "w ùszłim tidzéniu"
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
 #. i18n: file: context/applets/upcomingevents/upcomingEventsGeneralSettings.ui:38
 #. i18n: ectx: property (text), item, widget (QComboBox, filterComboBox)
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:560 rc.cpp:394
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:561 rc.cpp:394
 #: rc.cpp:412
 #, fuzzy
 #| msgid "last month"
@@ -2170,102 +2482,114 @@ msgstr "w ùszłim miesącu"
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
 #. i18n: file: context/applets/upcomingevents/upcomingEventsGeneralSettings.ui:43
 #. i18n: ectx: property (text), item, widget (QComboBox, filterComboBox)
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:562 rc.cpp:397
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:563 rc.cpp:397
 #: rc.cpp:415
 #, fuzzy
 #| msgid "year"
 msgid "This year"
 msgstr "rok"
 
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:645
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:646
 #, fuzzy
 #| msgid "Favorite Genres"
 msgctxt "@title:group"
 msgid "Favorite Venues"
 msgstr "Lubòtné zortë"
 
-#: context/applets/upcomingevents/UpcomingEventsMapWidget.cpp:122
-#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:119
-#, kde-format
-msgctxt "@label:textbox Title for a cancelled upcoming event"
-msgid "<s>%1</s> (Cancelled)"
-msgstr ""
-
-#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:50
+#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:52
 #, fuzzy
 #| msgid "Loading info..."
 msgid "Loading picture..."
 msgstr "Ladowanié wëdowiédzë..."
 
-#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:73
+#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:75
 #, fuzzy
 #| msgctxt "@title buttontext for popup-menu"
 #| msgid "View"
 msgid "View map"
 msgstr "Òbezdrzë"
 
-#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:82
+#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:84
 msgid "Open Last.fm webpage for this event"
 msgstr ""
 
-#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:89
+#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:91
 #, fuzzy
 #| msgid "Proportion:"
 msgctxt "@label:textbox Supporing acts for an event"
 msgid "Supporting:"
 msgstr "Propòrcja:"
 
-#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:90
+#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:92
 #, fuzzy
 #| msgid "Genre:"
 msgctxt "@label:textbox"
 msgid "Venue:"
 msgstr "Zort:"
 
-#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:91
+#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:93
 #, fuzzy
 #| msgid "Location:"
 msgctxt "@label:textbox"
 msgid "Location:"
 msgstr "Môl:"
 
-#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:92
+#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:94
 #, fuzzy
 #| msgid "Database:"
 msgctxt "@label:textbox"
 msgid "Date:"
 msgstr "Baza pòdôwków:"
 
-#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:93
+#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:95
 #, fuzzy
 #| msgid "Ascending"
 msgctxt "@label:textbox"
 msgid "Attending:"
 msgstr "Roscąco"
 
-#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:94
+#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:96
 #, fuzzy
 #| msgid "Tags"
 msgctxt "@label:textbox"
 msgid "Tags:"
 msgstr "Tadżi"
 
-#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:212
+#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:214
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<strong>Tags:</strong><nl/>%1"
 msgstr ""
 
-#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:236
+#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:238
 #, kde-format
 msgctxt "@info:tooltip Supporting artists for an event"
 msgid "<strong>Supporting artists:</strong><nl/>%1"
 msgstr ""
 
-#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:257
+#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:254
+#, fuzzy, kde-format
+#| msgctxt "When this track was last played"
+#| msgid "Tomorrow"
+msgctxt "@info:tooltip Number of days till an event"
+msgid "Tomorrow"
+msgid_plural "In <strong>%1</strong> days"
+msgstr[0] "Witro"
+msgstr[1] "Witro"
+msgstr[2] "Witro"
+
+#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:266
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<strong>Location:</strong><nl/>%1"
+msgstr ""
+
+#: context/applets/videoclip/CustomVideoWidget.cpp:83
+msgid "Enter &fullscreen"
+msgstr ""
+
+#: context/applets/videoclip/CustomVideoWidget.cpp:89
+msgid "E&xit fullscreen"
 msgstr ""
 
 #: context/applets/videoclip/VideoItemButton.cpp:96
@@ -2278,34 +2602,26 @@ msgstr "Dodôj do lëstë graniô"
 msgid "Append and &Play"
 msgstr "Dodôj ë &grôj"
 
-#: context/applets/videoclip/CustomVideoWidget.cpp:83
-msgid "Enter &fullscreen"
-msgstr ""
-
-#: context/applets/videoclip/CustomVideoWidget.cpp:89
-msgid "E&xit fullscreen"
-msgstr ""
-
-#: context/applets/videoclip/VideoclipApplet.cpp:121
-#: context/applets/videoclip/VideoclipApplet.cpp:286
-#: context/applets/videoclip/VideoclipApplet.cpp:330
-#: context/applets/videoclip/VideoclipApplet.cpp:350
+#: context/applets/videoclip/VideoclipApplet.cpp:118
+#: context/applets/videoclip/VideoclipApplet.cpp:283
+#: context/applets/videoclip/VideoclipApplet.cpp:327
+#: context/applets/videoclip/VideoclipApplet.cpp:347
 msgid "Video Clip"
 msgstr ""
 
-#: context/applets/videoclip/VideoclipApplet.cpp:341
+#: context/applets/videoclip/VideoclipApplet.cpp:338
 #, fuzzy
 #| msgid "Video Clip Settings"
 msgid "Video Clip "
 msgstr "Ùstawë teledisków"
 
-#: context/applets/videoclip/VideoclipApplet.cpp:341
+#: context/applets/videoclip/VideoclipApplet.cpp:338
 #, fuzzy
 #| msgid "No information found..."
 msgid " No information found..."
 msgstr "Ni ma nalazłi wedowiédzë..."
 
-#: context/applets/videoclip/VideoclipApplet.cpp:523
+#: context/applets/videoclip/VideoclipApplet.cpp:520
 msgid "Video Clip Settings"
 msgstr "Ùstawë teledisków"
 
@@ -2466,7 +2782,7 @@ msgstr "Ni ma nalazłi telediskù..."
 msgid "Unable to retrieve Wikipedia information: %1"
 msgstr "Ni mòże wëdostaw wëdowiédzë z Wikipediji: %1"
 
-#: context/engines/wikipedia/WikipediaEngine.cpp:749
+#: context/engines/wikipedia/WikipediaEngine.cpp:777
 #, fuzzy
 #| msgid "Lang"
 msgid "Choose Language"
@@ -3170,13 +3486,7 @@ msgstr "Nie pòkazëjë pòd \"Rozmajiti wëkònywacze\""
 msgid "Show under Various Artists"
 msgstr "Pòkazëjë pòd \"Rozmajiti wëkònywacze\""
 
-#. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:90
-#. i18n: ectx: property (text), item, widget (QComboBox, typeComboBox)
-#: core-impl/collections/sqlcollection/SqlMeta.cpp:230 rc.cpp:1693
-msgid "Stream"
-msgstr "Strëga"
-
-#: core-impl/collections/sqlcollection/SqlMeta.cpp:243
+#: core-impl/collections/sqlcollection/SqlMeta.cpp:268
 #: covermanager/CoverManager.cpp:845 covermanager/CoverViewDialog.h:38
 #: services/lastfm/meta/LastFmMeta.cpp:139
 #, kde-format
@@ -3872,10 +4182,6 @@ msgstr "%1h"
 msgid "0"
 msgstr "0"
 
-#: covermanager/CoverManager.cpp:104 MainWindow.cpp:826
-msgid "Cover Manager"
-msgstr ""
-
 #: covermanager/CoverManager.cpp:115
 msgid "Albums By"
 msgstr "Albùmë artistë"
@@ -4145,10 +4451,6 @@ msgstr "Disk #"
 
 #: covermanager/CoverFoundDialog.cpp:139
 msgid "Sort by size"
-msgstr ""
-
-#: covermanager/CoverFoundDialog.cpp:364 MainWindow.cpp:567
-msgid "Save As"
 msgstr ""
 
 #: covermanager/CoverFoundDialog.cpp:382
@@ -4692,10 +4994,6 @@ msgstr "Miono lopka"
 msgid "New Preset"
 msgstr "Rëmôj ùstawë."
 
-#: dialogs/ScriptManager.cpp:100 MainWindow.cpp:835
-msgid "Script Manager"
-msgstr "Menadżer skriptów"
-
 #: dialogs/ScriptManager.cpp:327
 msgid ""
 "Script Packages (*.amarokscript.tar, *.amarokscript.tar.bz2, *.amarokscript."
@@ -4945,16 +5243,6 @@ msgstr "Òptacëje"
 #: dialogs/transferdialog.cpp:115
 msgid "Convert spaces to underscores"
 msgstr "Zmieni spacëje na pòdsztrichniãca"
-
-#: dialogs/MusicBrainzTagger.cpp:73
-msgid "Click on the first column header to check all tracks"
-msgstr ""
-
-#: dialogs/MusicBrainzTagger.cpp:142
-msgid ""
-"There are tracks that MusicBrainz didn't find. Try to find them with "
-"MusicDNS service?"
-msgstr ""
 
 #: dialogs/TagDialog.cpp:591
 msgid "Filename Layout Chooser"
@@ -5360,6 +5648,16 @@ msgstr ""
 #: dialogs/EditFilterDialog.cpp:108
 msgid "Empty Text Field"
 msgstr "Pùsté tekstowé pòle"
+
+#: dialogs/MusicBrainzTagger.cpp:73
+msgid "Click on the first column header to check all tracks"
+msgstr ""
+
+#: dialogs/MusicBrainzTagger.cpp:142
+msgid ""
+"There are tracks that MusicBrainz didn't find. Try to find them with "
+"MusicDNS service?"
+msgstr ""
 
 #: dynamic/biases/EchoNest.cpp:50
 msgid "Echo Nest Similar Artists"
@@ -5899,15 +6197,11 @@ msgid "Not Recently Played"
 msgstr "Slédno nie &gróné"
 
 #: playlist/proxymodels/SortScheme.cpp:92
-#: playlist/PlaylistBreadcrumbItem.cpp:123
 #: playlist/PlaylistBreadcrumbLevel.cpp:31
 #: playlist/PlaylistBreadcrumbLevel.cpp:49
+#: playlist/PlaylistBreadcrumbItem.cpp:124
 msgid "Shuffle"
 msgstr ""
-
-#: playlist/view/PlaylistViewCommon.cpp:118 MainWindow.cpp:943
-msgid "Queue Track"
-msgstr "Régùjë sztëczk"
 
 #: playlist/view/PlaylistViewCommon.cpp:118
 msgid "Dequeue Track"
@@ -5932,12 +6226,6 @@ msgstr ""
 #: playlist/view/listview/SourceSelectionPopup.cpp:40
 msgid "Ok"
 msgstr "Ok"
-
-#: playlist/PlaylistBreadcrumbItem.cpp:111
-#, fuzzy
-#| msgid "Enter a name for the playlist:"
-msgid "Add a sorting level to the playlist."
-msgstr "Wpiszë miono dlô lëstë graniô:"
 
 #: playlist/PlaylistColumnNames.cpp:34
 msgctxt "Empty placeholder token used for spacing in playlist layouts"
@@ -6159,21 +6447,6 @@ msgstr "&Szëkba"
 msgid "%1 layout"
 msgstr "grania"
 
-#: playlist/PlaylistViewUrlGenerator.cpp:101 MainWindow.cpp:818
-#, fuzzy
-#| msgid "Smart Playlist"
-msgid "Bookmark Playlist Setup"
-msgstr "Jinteligentnô lësta gróniô"
-
-#: playlist/PlaylistViewUrlRunner.cpp:107
-#, fuzzy
-#| msgid "Playlist"
-msgctxt ""
-"A type of command that affects the sorting, layout and filtering int he "
-"Playlist"
-msgid "Playlist"
-msgstr "Lësta graniô"
-
 #: playlist/PlaylistModel.cpp:236
 #, fuzzy
 #| msgid "No information available for this track"
@@ -6309,6 +6582,21 @@ msgstr "Pòkażë le dopasowóné"
 #: playlist/ProgressiveSearchWidget.cpp:139
 msgid "Search Preferences"
 msgstr ""
+
+#: playlist/PlaylistBreadcrumbItem.cpp:112
+#, fuzzy
+#| msgid "Enter a name for the playlist:"
+msgid "Add a sorting level to the playlist."
+msgstr "Wpiszë miono dlô lëstë graniô:"
+
+#: playlist/PlaylistViewUrlRunner.cpp:110
+#, fuzzy
+#| msgid "Playlist"
+msgctxt ""
+"A type of command that affects the sorting, layout and filtering int he "
+"Playlist"
+msgid "Playlist"
+msgstr "Lësta graniô"
 
 #: playlistgenerator/ConstraintGroup.cpp:87
 #, fuzzy
@@ -7957,14 +8245,6 @@ msgstr[0] "%1 sztëczk"
 msgstr[1] "%1 sztëcczi"
 msgstr[2] "%1 sztëczków"
 
-#: toolbar/MainToolbar.cpp:77
-msgid "Main Toolbar"
-msgstr "Przédnô lëstwa nôrzãdzów"
-
-#: toolbar/MainToolbar.cpp:83
-msgid "Rediscover Your Music"
-msgstr ""
-
 #: toolbar/SlimToolbar.cpp:36
 #, fuzzy
 #| msgid "Main Toolbar"
@@ -7981,6 +8261,14 @@ msgstr "(wëcëszony)"
 #, kde-format
 msgid "Volume: %1% %2"
 msgstr "Głosnosc: %1% %2"
+
+#: toolbar/MainToolbar.cpp:77
+msgid "Main Toolbar"
+msgstr "Przédnô lëstwa nôrzãdzów"
+
+#: toolbar/MainToolbar.cpp:83
+msgid "Rediscover Your Music"
+msgstr ""
 
 #: widgets/AnalyzerWidget.cpp:35
 msgid "Click for more analyzers"
@@ -8007,14 +8295,6 @@ msgstr "Załóżczi"
 #: widgets/BreadcrumbItemButton.cpp:276
 msgid "Copy Current View Bookmark to Clipboard"
 msgstr ""
-
-#: widgets/MainControlsWidget.cpp:62 MainWindow.cpp:859
-msgid "Previous Track"
-msgstr "Piprzédny sztëczk"
-
-#: widgets/MainControlsWidget.cpp:86 MainWindow.cpp:882
-msgid "Next Track"
-msgstr "Pòstãpny sztëczk"
 
 #: widgets/PlayPauseButton.cpp:31 widgets/PlayPauseButton.cpp:81
 #, fuzzy
@@ -9086,499 +9366,9 @@ msgstr ""
 msgid "Now playing"
 msgstr "Nick nie je gróné"
 
-#: MainWindow.cpp:284
-msgid "Local Music"
-msgstr ""
-
-#: MainWindow.cpp:286
-msgid "Local sources of content"
-msgstr ""
-
-#: MainWindow.cpp:294
-msgid "Internet"
-msgstr "Internet"
-
-#: MainWindow.cpp:296
-msgid "Online sources of content"
-msgstr ""
-
-#: MainWindow.cpp:302
-msgid "Playlists"
-msgstr "Lësta graniô"
-
-#: MainWindow.cpp:304
-#, fuzzy
-#| msgid "Various Artists"
-msgid "Various types of playlists"
-msgstr "Rozmajiti wëkònywaczë"
-
-#: MainWindow.cpp:313
-msgid "Browse local hard drive for content"
-msgstr ""
-
-#: MainWindow.cpp:382
-#, fuzzy
-#| msgctxt "@title buttontext for popup-menu"
-#| msgid "View"
-msgctxt "@item:inmenu"
-msgid "&View"
-msgstr "Òbezdrzë"
-
-#: MainWindow.cpp:385
-#, fuzzy
-#| msgid "Lock layout"
-msgid "Lock Layout"
-msgstr "Zablokùjë widok"
-
-#: MainWindow.cpp:504
-msgid ""
-"<qt>Closing the main window will keep Amarok running in the System Tray. Use "
-"<B>Quit</B> from the menu, or the Amarok tray icon to exit the application.</"
-"qt>"
-msgstr ""
-
-#: MainWindow.cpp:506
-msgid "Docking in System Tray"
-msgstr ""
-
-#: MainWindow.cpp:556
-msgid "Use relative path for &saving"
-msgstr ""
-
-#: MainWindow.cpp:622
-msgid "Play Media (Files or URLs)"
-msgstr "Grôj media (lopczi abò adresë URL)"
-
-#: MainWindow.cpp:622
-msgid "Add Media (Files or URLs)"
-msgstr "Dodôj media (lopczi abò adresë URL)"
-
-#: MainWindow.cpp:640
-msgid "Add Stream"
-msgstr "Dodôj strëgã"
-
-#: MainWindow.cpp:640
-msgid "Enter Stream URL:"
-msgstr "Wpiszë URL strëdżi:"
-
-#: MainWindow.cpp:782
-msgid "&Add Media..."
-msgstr "&Dodôj media..."
-
-#: MainWindow.cpp:787
-msgctxt "clear playlist"
-msgid "&Clear Playlist"
-msgstr "Wë&czëszczë lëstã graniô"
-
-#: MainWindow.cpp:791
-#, fuzzy
-#| msgid "Remove Applet"
-msgctxt "Remove duplicate and dead (unplayable) tracks from the playlist"
-msgid "Re&move Duplicates"
-msgstr "Rëmôj aplet"
-
-#: MainWindow.cpp:798
-msgid "&Add Stream..."
-msgstr "&Dodôj strëgã..."
-
-#: MainWindow.cpp:802
-msgid "&Export Playlist As..."
-msgstr "&Ekspòrtëjë lëstã graniô jakno..."
-
-#: MainWindow.cpp:814
-msgid "Equalizer"
-msgstr ""
-
-#: MainWindow.cpp:822
-#, fuzzy
-#| msgid "Bookmark this Artist"
-msgid "Bookmark Context Applets"
-msgstr "Dodôj negò artistã do załóżków"
-
-#: MainWindow.cpp:830
-msgid "Play Media..."
-msgstr "Grôj media..."
-
-#: MainWindow.cpp:839
-msgid "&Seek Forward"
-msgstr "&Szëkôj w przódk"
-
-#: MainWindow.cpp:845
-msgid "&Seek Backward"
-msgstr "&Szëkôj dowslôdë"
-
-#: MainWindow.cpp:852
-msgid "Update Collection"
-msgstr "Aktualizëjë kòlekcëjã"
-
-#: MainWindow.cpp:866
-#, fuzzy
-#| msgid "Rate Current Track: 1"
-msgid "Restart current track"
-msgstr "Òtaksëjë biéżny sztëczk: 1"
-
-#: MainWindow.cpp:872
-#, fuzzy
-#| msgctxt "Replace the currently loaded tracks with these"
-#| msgid "&Replace Playlist"
-msgid "Repopulate Playlist"
-msgstr "&Pòdmieni lëstã graniô"
-
-#: MainWindow.cpp:878
-#, fuzzy
-#| msgid "Default Dynamic Playlist"
-msgid "Disable Dynamic Playlist"
-msgstr "Domëslné dinamiczné lëstë graniô"
-
-#: MainWindow.cpp:887
-msgid "Increase Volume"
-msgstr "Zwikszë głosnosc"
-
-#: MainWindow.cpp:893
-msgid "Decrease Volume"
-msgstr "Zminészë głosnosc"
-
-#: MainWindow.cpp:899
-msgid "Toggle Main Window"
-msgstr "Przełączë przédne òkno"
-
-#: MainWindow.cpp:904
-msgid "Toggle Full Screen"
-msgstr ""
-
-#: MainWindow.cpp:909
-msgid "Jump to"
-msgstr ""
-
-#: MainWindow.cpp:914
-msgid "Show active track"
-msgstr "Pòkażë biéżné sztëcczi"
-
-#: MainWindow.cpp:918
-#, fuzzy
-#| msgid "Location:"
-msgid "Show Notification Popup"
-msgstr "Môl:"
-
-#: MainWindow.cpp:923
-msgid "Mute Volume"
-msgstr "Wëcëszë głosnosc"
-
-#: MainWindow.cpp:928
-#, fuzzy
-#| msgid "Love Current Track"
-msgid "Last.fm: Love Current Track"
-msgstr "Achtnij biéżny sztëczk"
-
-#: MainWindow.cpp:933
-#, fuzzy
-#| msgid "Love Current Track"
-msgid "Last.fm: Ban Current Track"
-msgstr "Achtnij biéżny sztëczk"
-
-#: MainWindow.cpp:938
-#, fuzzy
-#| msgid "Love Current Track"
-msgid "Last.fm: Skip Current Track"
-msgstr "Achtnij biéżny sztëczk"
-
-#: MainWindow.cpp:948
-msgid "Rate Current Track: 1"
-msgstr "Òtaksëjë biéżny sztëczk: 1"
-
-#: MainWindow.cpp:953
-msgid "Rate Current Track: 2"
-msgstr "Òtaksëjë biéżny sztëczk: 2"
-
-#: MainWindow.cpp:958
-msgid "Rate Current Track: 3"
-msgstr "Òtaksëjë biéżny sztëczk: 3"
-
-#: MainWindow.cpp:963
-msgid "Rate Current Track: 4"
-msgstr "Òtaksëjë biéżny sztëczk: 4"
-
-#: MainWindow.cpp:968
-msgid "Rate Current Track: 5"
-msgstr "Òtaksëjë biéżny sztëczk: 5"
-
-#: MainWindow.cpp:974
-msgid "Network Request Viewer"
-msgstr ""
-
-#: MainWindow.cpp:992
-#, fuzzy
-#| msgid "&Amarok"
-msgid "&About Amarok"
-msgstr "&Amarok"
-
-#: MainWindow.cpp:996
-msgid "&Report Bug..."
-msgstr ""
-
-#: MainWindow.cpp:1056
-msgid "&Music"
-msgstr "&Mùzyka"
-
-#: MainWindow.cpp:1060
-msgid "&Amarok"
-msgstr "&Amarok"
-
-#: MainWindow.cpp:1084
-msgid "&Playlist"
-msgstr "&Lësta graniô"
-
-#: MainWindow.cpp:1100
-msgid "&Tools"
-msgstr "&Nôrzãdza"
-
-#: MainWindow.cpp:1115
-msgid "&Settings"
-msgstr "Ùs&towë"
-
-#: MainWindow.cpp:1161
-#, kde-format
-msgid ""
-"You have chosen to hide the menu bar.\n"
-"\n"
-"Please remember that you can always use the shortcut \"%1\" to bring it back."
-msgstr ""
-
-#: MainWindow.cpp:1163
-#, fuzzy
-#| msgid "Hide menu"
-msgid "Hide Menu"
-msgstr "Zatacë menu"
-
-#: MainWindow.cpp:1558
-#, kde-format
-msgid "Paused  ::  %1"
-msgstr "Paùza :: %1"
-
-#: MainWindow.cpp:1577
-#, kde-format
-msgid "%1 - %2  ::  %3"
-msgstr "%1 - %2  ::  %3"
-
 #: TrayIcon.cpp:148
 msgid "Last played"
 msgstr "Slédno gróné"
-
-#. i18n: file: core-impl/collections/audiocd/FormatSelectionDialog.ui:14
-#. i18n: ectx: property (windowTitle), widget (QDialog, FormatSelectionDialog)
-#: App.cpp:111 rc.cpp:466
-msgid "Amarok"
-msgstr "Amarok"
-
-#: App.cpp:112
-msgid "The audio player for KDE"
-msgstr "Òdgriwôcz mùzyczi dlô KE"
-
-#: App.cpp:113
-#, fuzzy
-#| msgid ""
-#| "(C) 2002-2003, Mark Kretschmann\n"
-#| "(C) 2003-2009, The Amarok Development Squad"
-msgid ""
-"(C) 2002-2003, Mark Kretschmann\n"
-"(C) 2003-2010, The Amarok Development Squad"
-msgstr ""
-"(C) 2002-2003, Mark Kretschmann\n"
-"(C) 2003-2009, The Amarok Development Squad"
-
-#: App.cpp:114
-#, kde-format
-msgid ""
-"IRC:\n"
-"irc.freenode.net - #amarok, #amarok.de, #amarok.es, #amarok.fr\n"
-"\n"
-"Feedback:\n"
-"amarok@kde.org\n"
-"\n"
-"(Build Date: %1)"
-msgstr ""
-"IRC:\n"
-"irc.freenode.net - #amarok, #amarok.de, #amarok.es, #amarok.fr\n"
-"\n"
-"Wspiarcé:\n"
-"amarok@kde.org\n"
-"\n"
-"(Datum wersëji: %1)"
-
-#: App.cpp:452
-msgid "Files/URLs to open"
-msgstr "Lopczi/adresë do òtemkniãcô"
-
-#: App.cpp:453
-msgid "Immediately start playing an audio cd"
-msgstr ""
-
-#: App.cpp:455
-msgid "Skip backwards in playlist"
-msgstr "Skóknié dowslôdë na lësce graniô"
-
-#: App.cpp:457
-msgid "Start playing current playlist"
-msgstr "Naczni òdgrëwac biéżną lëstã"
-
-#: App.cpp:459
-msgid "Play if stopped, pause if playing"
-msgstr "Grôj czedë zatrzëmóné, zatrzëmôj czedë gróné"
-
-#: App.cpp:460
-msgid "Pause playback"
-msgstr "Paùzëjë grónié"
-
-#: App.cpp:462
-msgid "Stop playback"
-msgstr "Zakùńczë grónié"
-
-#: App.cpp:464
-msgid "Skip forwards in playlist"
-msgstr "Skóknié w przódk na lësce graniô"
-
-#: App.cpp:465
-msgid "Additional options:"
-msgstr "Dodôwné òptacëje:"
-
-#: App.cpp:467
-msgid "Append files/URLs to playlist"
-msgstr "Dodôj lopczi/adresë URL do lëstë graniô"
-
-#: App.cpp:468
-msgid "Queue URLs after the currently playing track"
-msgstr "Ùstawi adresë URL w réze za biéżnym sztëczkã"
-
-#: App.cpp:470
-msgid "Load URLs, replacing current playlist"
-msgstr "Ladëjë URL-ë, pòdmieniającë biéżną lëstã graniô"
-
-#: App.cpp:472
-msgid "Print verbose debugging information"
-msgstr "Wëdrëkùjë wëdowiédzã ò przebiégù procesu"
-
-#: App.cpp:474
-msgid "Allow running multiple Amarok instances"
-msgstr ""
-
-#: App.cpp:475
-msgid "Base for relative filenames/URLs"
-msgstr "Baza dlô wzglãdnëch mionów lopków/adresów URL"
-
-#: App.cpp:477
-#, fuzzy
-#| msgid "Stream options"
-msgid "Unit test options:"
-msgstr "Òptacëjë strëdżi"
-
-#: App.cpp:478
-msgid "Run integrated unit tests"
-msgstr ""
-
-#: App.cpp:479
-msgid "Destination of test output: 'stdout', 'log'"
-msgstr ""
-
-#: App.cpp:480
-msgid "Format of test output: 'xml', 'lightxml', 'plaintext'"
-msgstr ""
-
-#: App.cpp:481
-msgid "Verbosity from 0-3 (highest)"
-msgstr ""
-
-#: App.cpp:732
-msgid ""
-"The embedded database was not found; you must set up a database server "
-"connection.\n"
-"You must restart Amarok after doing this."
-msgstr ""
-
-#: App.cpp:733
-msgid ""
-"The connection details for the database server were invalid.\n"
-"You must enter correct settings and restart Amarok after doing this."
-msgstr ""
-
-#: App.cpp:734
-#, fuzzy
-#| msgid "Database:"
-msgid "Database Error"
-msgstr "Baza pòdôwków:"
-
-#: App.cpp:751
-#, kde-format
-msgid ""
-"A music path, %1, is set in System Settings.\n"
-"Would you like to use that as a collection folder?"
-msgstr ""
-
-#: App.cpp:806
-msgid ""
-"<p>The version of the 'amarokcollectionscanner' tool\n"
-"does not match your Amarok version.</p><p>Please note that Collection "
-"Scanning may not work correctly.</p>"
-msgstr ""
-
-#: App.cpp:847
-msgid "Moving files to trash"
-msgstr ""
-
-#: EngineController.cpp:267
-msgid ""
-"<p>Phonon claims it <b>cannot</b> play MP3 files. You may want to examine "
-"the installation of the backend that phonon uses.</p><p>You may find useful "
-"information in the <i>FAQ</i> section of the <i>Amarok Handbook</i>.</p>"
-msgstr ""
-
-#: EngineController.cpp:288
-msgid "Install MP3 Support"
-msgstr ""
-
-#: EngineController.cpp:290
-msgid ""
-"Amarok currently cannot play MP3 files. Do you want to install support for "
-"MP3?"
-msgstr ""
-
-#: EngineController.cpp:291
-msgid "No MP3 Support"
-msgstr ""
-
-#: EngineController.cpp:851
-#, fuzzy
-#| msgid "Stream"
-msgid "Preamp"
-msgstr "Strëga"
-
-#: EngineController.cpp:1324
-#, kde-format
-msgctxt "track by artist on album"
-msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
-msgstr "<b>%1</b> wëkònywóné przez <b>%2</b> z albùmù <b>%3</b>"
-
-#: EngineController.cpp:1327
-#, kde-format
-msgctxt "track by artist"
-msgid "<b>%1</b> by <b>%2</b>"
-msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
-
-#: EngineController.cpp:1331
-#, kde-format
-msgctxt "track on album"
-msgid "<b>%1</b> on <b>%2</b>"
-msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
-
-#: EngineController.cpp:1336
-msgid "Unknown track"
-msgstr "Nieznóny sztëczk"
-
-#: EngineController.cpp:1343
-#, fuzzy, kde-format
-#| msgid " on <b>%1</b>"
-msgctxt "track from source"
-msgid "from <b>%1</b>"
-msgstr " przez <b>%1</b>"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -10410,6 +10200,12 @@ msgstr "E&kran:"
 #: rc.cpp:463
 msgid "Youtube HQ"
 msgstr "Youtube HQ"
+
+#. i18n: file: core-impl/collections/audiocd/FormatSelectionDialog.ui:14
+#. i18n: ectx: property (windowTitle), widget (QDialog, FormatSelectionDialog)
+#: rc.cpp:466 App.cpp:111
+msgid "Amarok"
+msgstr "Amarok"
 
 #. i18n: file: core-impl/collections/audiocd/FormatSelectionDialog.ui:26
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
@@ -12649,6 +12445,12 @@ msgstr "Jem nôleżnikã"
 msgid "Membership type:"
 msgstr "Ôrt nôleżnictwa"
 
+#. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:90
+#. i18n: ectx: property (text), item, widget (QComboBox, typeComboBox)
+#: rc.cpp:1693
+msgid "Stream"
+msgstr "Strëga"
+
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:103
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:1699
@@ -14189,6 +13991,220 @@ msgstr "Grëpòwania"
 #. i18n: file: data/DefaultPlaylistLayouts.xml:77
 #: rc.cpp:2401
 msgid "Verbose"
+msgstr ""
+
+#: EngineController.cpp:267
+msgid ""
+"<p>Phonon claims it <b>cannot</b> play MP3 files. You may want to examine "
+"the installation of the backend that phonon uses.</p><p>You may find useful "
+"information in the <i>FAQ</i> section of the <i>Amarok Handbook</i>.</p>"
+msgstr ""
+
+#: EngineController.cpp:288
+msgid "Install MP3 Support"
+msgstr ""
+
+#: EngineController.cpp:290
+msgid ""
+"Amarok currently cannot play MP3 files. Do you want to install support for "
+"MP3?"
+msgstr ""
+
+#: EngineController.cpp:291
+msgid "No MP3 Support"
+msgstr ""
+
+#: EngineController.cpp:851
+#, fuzzy
+#| msgid "Stream"
+msgid "Preamp"
+msgstr "Strëga"
+
+#: EngineController.cpp:1324
+#, kde-format
+msgctxt "track by artist on album"
+msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
+msgstr "<b>%1</b> wëkònywóné przez <b>%2</b> z albùmù <b>%3</b>"
+
+#: EngineController.cpp:1327
+#, kde-format
+msgctxt "track by artist"
+msgid "<b>%1</b> by <b>%2</b>"
+msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
+
+#: EngineController.cpp:1331
+#, kde-format
+msgctxt "track on album"
+msgid "<b>%1</b> on <b>%2</b>"
+msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
+
+#: EngineController.cpp:1336
+msgid "Unknown track"
+msgstr "Nieznóny sztëczk"
+
+#: EngineController.cpp:1343
+#, fuzzy, kde-format
+#| msgid " on <b>%1</b>"
+msgctxt "track from source"
+msgid "from <b>%1</b>"
+msgstr " przez <b>%1</b>"
+
+#: App.cpp:112
+msgid "The audio player for KDE"
+msgstr "Òdgriwôcz mùzyczi dlô KE"
+
+#: App.cpp:113
+#, fuzzy
+#| msgid ""
+#| "(C) 2002-2003, Mark Kretschmann\n"
+#| "(C) 2003-2009, The Amarok Development Squad"
+msgid ""
+"(C) 2002-2003, Mark Kretschmann\n"
+"(C) 2003-2010, The Amarok Development Squad"
+msgstr ""
+"(C) 2002-2003, Mark Kretschmann\n"
+"(C) 2003-2009, The Amarok Development Squad"
+
+#: App.cpp:114
+#, kde-format
+msgid ""
+"IRC:\n"
+"irc.freenode.net - #amarok, #amarok.de, #amarok.es, #amarok.fr\n"
+"\n"
+"Feedback:\n"
+"amarok@kde.org\n"
+"\n"
+"(Build Date: %1)"
+msgstr ""
+"IRC:\n"
+"irc.freenode.net - #amarok, #amarok.de, #amarok.es, #amarok.fr\n"
+"\n"
+"Wspiarcé:\n"
+"amarok@kde.org\n"
+"\n"
+"(Datum wersëji: %1)"
+
+#: App.cpp:452
+msgid "Files/URLs to open"
+msgstr "Lopczi/adresë do òtemkniãcô"
+
+#: App.cpp:453
+msgid "Immediately start playing an audio cd"
+msgstr ""
+
+#: App.cpp:455
+msgid "Skip backwards in playlist"
+msgstr "Skóknié dowslôdë na lësce graniô"
+
+#: App.cpp:457
+msgid "Start playing current playlist"
+msgstr "Naczni òdgrëwac biéżną lëstã"
+
+#: App.cpp:459
+msgid "Play if stopped, pause if playing"
+msgstr "Grôj czedë zatrzëmóné, zatrzëmôj czedë gróné"
+
+#: App.cpp:460
+msgid "Pause playback"
+msgstr "Paùzëjë grónié"
+
+#: App.cpp:462
+msgid "Stop playback"
+msgstr "Zakùńczë grónié"
+
+#: App.cpp:464
+msgid "Skip forwards in playlist"
+msgstr "Skóknié w przódk na lësce graniô"
+
+#: App.cpp:465
+msgid "Additional options:"
+msgstr "Dodôwné òptacëje:"
+
+#: App.cpp:467
+msgid "Append files/URLs to playlist"
+msgstr "Dodôj lopczi/adresë URL do lëstë graniô"
+
+#: App.cpp:468
+msgid "Queue URLs after the currently playing track"
+msgstr "Ùstawi adresë URL w réze za biéżnym sztëczkã"
+
+#: App.cpp:470
+msgid "Load URLs, replacing current playlist"
+msgstr "Ladëjë URL-ë, pòdmieniającë biéżną lëstã graniô"
+
+#: App.cpp:472
+msgid "Print verbose debugging information"
+msgstr "Wëdrëkùjë wëdowiédzã ò przebiégù procesu"
+
+#: App.cpp:474
+msgid "Disable colorization for debug output."
+msgstr ""
+
+#: App.cpp:476
+msgid "Allow running multiple Amarok instances"
+msgstr ""
+
+#: App.cpp:477
+msgid "Base for relative filenames/URLs"
+msgstr "Baza dlô wzglãdnëch mionów lopków/adresów URL"
+
+#: App.cpp:479
+#, fuzzy
+#| msgid "Stream options"
+msgid "Unit test options:"
+msgstr "Òptacëjë strëdżi"
+
+#: App.cpp:480
+msgid "Run integrated unit tests"
+msgstr ""
+
+#: App.cpp:481
+msgid "Destination of test output: 'stdout', 'log'"
+msgstr ""
+
+#: App.cpp:482
+msgid "Format of test output: 'xml', 'lightxml', 'plaintext'"
+msgstr ""
+
+#: App.cpp:483
+msgid "Verbosity from 0-3 (highest)"
+msgstr ""
+
+#: App.cpp:734
+msgid ""
+"The embedded database was not found; you must set up a database server "
+"connection.\n"
+"You must restart Amarok after doing this."
+msgstr ""
+
+#: App.cpp:735
+msgid ""
+"The connection details for the database server were invalid.\n"
+"You must enter correct settings and restart Amarok after doing this."
+msgstr ""
+
+#: App.cpp:736
+#, fuzzy
+#| msgid "Database:"
+msgid "Database Error"
+msgstr "Baza pòdôwków:"
+
+#: App.cpp:753
+#, kde-format
+msgid ""
+"A music path, %1, is set in System Settings.\n"
+"Would you like to use that as a collection folder?"
+msgstr ""
+
+#: App.cpp:808
+msgid ""
+"<p>The version of the 'amarokcollectionscanner' tool\n"
+"does not match your Amarok version.</p><p>Please note that Collection "
+"Scanning may not work correctly.</p>"
+msgstr ""
+
+#: App.cpp:849
+msgid "Moving files to trash"
 msgstr ""
 
 #, fuzzy
