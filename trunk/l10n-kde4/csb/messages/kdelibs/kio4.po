@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-30 06:15+0200\n"
+"POT-Creation-Date: 2010-11-02 07:17+0100\n"
 "PO-Revision-Date: 2009-06-29 20:35+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -3140,7 +3140,7 @@ msgstr ""
 msgid "P&review"
 msgstr ""
 
-#: kfile/knfotranslator.cpp:40 kfile/kfilemetadataprovider.cpp:308
+#: kfile/knfotranslator.cpp:40 kfile/kfilemetadataprovider.cpp:406
 msgctxt "@label"
 msgid "Comment"
 msgstr ""
@@ -3984,45 +3984,24 @@ msgstr ""
 msgid "Advanced Options for %1"
 msgstr ""
 
-#: kfile/kfilemetadatawidget.cpp:541
-#, fuzzy
-#| msgid "By Size"
-msgctxt "@label"
-msgid "Size:"
-msgstr "Wedle miarë"
-
-#: kfile/kfilemetadatawidget.cpp:558
-#, fuzzy
-#| msgid "By Size"
-msgctxt "@label"
-msgid "Total Size:"
-msgstr "Wedle miarë"
-
-#: kfile/kfilemetadatawidget.cpp:642
-#, fuzzy
-#| msgid "By Type"
-msgctxt "@label file type"
-msgid "Type:"
-msgstr "Wedle ôrtu"
-
-#: kfile/kfilemetadatawidget.cpp:644
+#: kfile/kfilemetadataprovider.cpp:407
 #, fuzzy
 #| msgid "modified on %1"
 msgctxt "@label"
-msgid "Modified:"
+msgid "Modified"
 msgstr "zjinaczony %1"
 
-#: kfile/kfilemetadatawidget.cpp:645
+#: kfile/kfilemetadataprovider.cpp:408
 msgctxt "@label"
-msgid "Owner:"
+msgid "Owner"
 msgstr ""
 
-#: kfile/kfilemetadatawidget.cpp:646
+#: kfile/kfilemetadataprovider.cpp:409
 msgctxt "@label"
-msgid "Permissions:"
+msgid "Permissions"
 msgstr ""
 
-#: kfile/kfilemetadataprovider.cpp:304
+#: kfile/kfilemetadataprovider.cpp:410
 #, fuzzy
 #| msgctxt "@title job"
 #| msgid "Stating"
@@ -4030,12 +4009,33 @@ msgctxt "@label"
 msgid "Rating"
 msgstr "Stón"
 
-#: kfile/kfilemetadataprovider.cpp:306
+#: kfile/kfilemetadataprovider.cpp:411
+#, fuzzy
+#| msgid "By Size"
+msgctxt "@label"
+msgid "Size"
+msgstr "Wedle miarë"
+
+#: kfile/kfilemetadataprovider.cpp:412
 #, fuzzy
 #| msgid "Trash"
 msgctxt "@label"
 msgid "Tags"
 msgstr "Kòsz"
+
+#: kfile/kfilemetadataprovider.cpp:413
+#, fuzzy
+#| msgid "By Size"
+msgctxt "@label"
+msgid "Total Size"
+msgstr "Wedle miarë"
+
+#: kfile/kfilemetadataprovider.cpp:414
+#, fuzzy
+#| msgid "By Type"
+msgctxt "@label"
+msgid "Type"
+msgstr "Wedle ôrtu"
 
 #: kfile/kfilemetainfowidget.cpp:163
 msgid "<Error>"
@@ -4140,37 +4140,6 @@ msgstr ""
 #: kfile/kcommentwidget.cpp:125
 msgctxt "@title:window"
 msgid "Add Comment"
-msgstr ""
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:171
-#, fuzzy
-#| msgid "By Type"
-msgctxt "@item::inlistbox"
-msgid "Type"
-msgstr "Wedle ôrtu"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:172
-#, fuzzy
-#| msgid "By Size"
-msgctxt "@item::inlistbox"
-msgid "Size"
-msgstr "Wedle miarë"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:173
-#, fuzzy
-#| msgid "modified on %1"
-msgctxt "@item::inlistbox"
-msgid "Modified"
-msgstr "zjinaczony %1"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:174
-msgctxt "@item::inlistbox"
-msgid "Owner"
-msgstr ""
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:175
-msgctxt "@item::inlistbox"
-msgid "Permissions"
 msgstr ""
 
 #: misc/ksendbugmail/main.cpp:43
@@ -6719,6 +6688,42 @@ msgstr "Fela przë próbie ùzwëskaniô przistãpù do '%1'"
 #| msgid "Show Hidden Folders"
 msgid "Show Hidden Folders"
 msgstr "Pòkôżë zataconé lopczi"
+
+#, fuzzy
+#~| msgid "By Size"
+#~ msgctxt "@label"
+#~ msgid "Size:"
+#~ msgstr "Wedle miarë"
+
+#, fuzzy
+#~| msgid "By Type"
+#~ msgctxt "@label file type"
+#~ msgid "Type:"
+#~ msgstr "Wedle ôrtu"
+
+#, fuzzy
+#~| msgid "modified on %1"
+#~ msgctxt "@label"
+#~ msgid "Modified:"
+#~ msgstr "zjinaczony %1"
+
+#, fuzzy
+#~| msgid "By Type"
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Type"
+#~ msgstr "Wedle ôrtu"
+
+#, fuzzy
+#~| msgid "By Size"
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Size"
+#~ msgstr "Wedle miarë"
+
+#, fuzzy
+#~| msgid "modified on %1"
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Modified"
+#~ msgstr "zjinaczony %1"
 
 #, fuzzy
 #~| msgid ""
