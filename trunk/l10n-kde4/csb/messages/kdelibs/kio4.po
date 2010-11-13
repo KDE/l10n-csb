@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-12 06:36+0100\n"
+"POT-Creation-Date: 2010-11-13 12:16+0100\n"
 "PO-Revision-Date: 2009-06-29 20:35+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -2282,10 +2282,6 @@ msgstr ""
 msgid "Undo File Copy Confirmation"
 msgstr "Zaktualnienié kònfigùracëji systemë"
 
-#: kio/accessmanagerreply_p.cpp:69
-msgid "Blocked request."
-msgstr ""
-
 #: kio/pastedialog.cpp:55
 msgid "Data format:"
 msgstr "Fòrmat pòdôwków:"
@@ -2675,6 +2671,16 @@ msgstr ""
 msgctxt "@title:column"
 msgid "Type"
 msgstr ""
+
+#: kio/accessmanager.cpp:154
+msgid "Blocked request."
+msgstr ""
+
+#: kio/accessmanager.cpp:192
+#, fuzzy
+#| msgid "Unknown Error"
+msgid "Unknown HTTP verb."
+msgstr "Nieznónô fela"
 
 #: httpfilter/httpfilter.cc:179
 msgid "Receiving corrupt data."
@@ -6807,11 +6813,6 @@ msgstr "Pòkôżë zataconé lopczi"
 
 #~ msgid "size %1"
 #~ msgstr "miara %1"
-
-#, fuzzy
-#~| msgid "Unknown Error"
-#~ msgid "Unknown Error."
-#~ msgstr "Nieznónô fela"
 
 #, fuzzy
 #~| msgid "No Items"
