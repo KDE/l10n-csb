@@ -1,0 +1,1040 @@
+# translation of kdmconfig.po to Kashubian
+# Michôł Òstrowsczi <michol@linuxcsb.org>, 2007, 2008.
+# Mark Kwidzińsczi <mark@linuxcsb.org>, 2008, 2009.
+# Mark Kwidzińśczi <mark@linuxcsb.org>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdmconfig\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-10-26 06:47+0200\n"
+"PO-Revision-Date: 2009-05-13 20:52+0200\n"
+"Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
+"Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2)\n"
+
+#: background.cpp:39
+msgid "E&nable background"
+msgstr "Włączë &spòdlé"
+
+#: background.cpp:41
+msgid ""
+"If this is checked, KDM will use the settings below for the background. If "
+"it is disabled, you have to look after the background yourself. This is done "
+"by running some program (possibly xsetroot) in the script specified in the "
+"Setup= option in kdmrc (usually Xsetup)."
+msgstr ""
+"Jeżlë te òptacëjô je włączonô, KDM bãdze brëkòwôł ùstôwów spòdlégò pòdónëch "
+"niżi. W procëmnym razuspòdlé bãdze ùstôwióné pòza KDE, zwëkòwò przez "
+"zrëszenié programë ôrtu 'xsetroot' w skripce pòdónym w òptacëji Setup= w "
+"lopkù kdmrc (zwëkòwò skriptã tim je Xsetup)."
+
+#: kdm-conv.cpp:49
+msgid "<big><b><center>Attention<br/>Read help</center></b></big>"
+msgstr "<big><b><center>Bôczënk<br/>Czëtôj pòmòc</center></b></big>"
+
+#: kdm-conv.cpp:59
+msgid "Enable Au&to-Login"
+msgstr "&Włączë aùtomatné logòwanié"
+
+#: kdm-conv.cpp:65
+msgid ""
+"Turn on the auto-login feature. This applies only to KDM's graphical login. "
+"Think twice before enabling this!"
+msgstr ""
+"Włączô aùtomatné logòwanié (tikô blós logòwaniô w grafikòwim tribie za "
+"pòmòcą KDM). Przemëszlë to dobrze przed włączeniém ti òptacëji!"
+
+#: kdm-conv.cpp:72
+msgid "Use&r:"
+msgstr "&Brëkòwnik:"
+
+#: kdm-conv.cpp:81
+msgid "Select the user to be logged in automatically."
+msgstr "Wëbiérzë brëkòwnika, chtërnegò sesëjô mô bëc aùtomatnô naczãtô."
+
+#: kdm-conv.cpp:84
+msgid "Loc&k session"
+msgstr "Za&blokùjë sesëjã"
+
+#: kdm-conv.cpp:88
+msgid ""
+"The automatically started session will be locked immediately (provided it is "
+"a KDE session). This can be used to obtain a super-fast login restricted to "
+"one user."
+msgstr ""
+"Aùtomatné zrëszonô sesëjô bãdze zarôzkù blokòwónô (jeżlë je to sesëjô KDE). "
+"Je to przëdôwné do chùtczégò logòwania w systemie z le jednym brekòwnikã."
+
+#: kdm-conv.cpp:92
+msgctxt "@title:group"
+msgid "Preselect User"
+msgstr "Wëbróny brëkòwnik"
+
+#: kdm-conv.cpp:96
+msgctxt "@option:radio preselected user"
+msgid "&None"
+msgstr "&Niżóden"
+
+#: kdm-conv.cpp:97
+msgctxt "@option:radio preselected user"
+msgid "Prev&ious"
+msgstr "&Pòprzédny"
+
+#: kdm-conv.cpp:99
+msgid ""
+"Preselect the user that logged in previously. Use this if this computer is "
+"usually used several consecutive times by one user."
+msgstr ""
+"Pòkôżë brëkòwnika zalogòwónégò pòprzédno. Wôrt je ùżëc ti òptacëji, jeżlë "
+"kòmpùtr je brëkòwóny czile razów rôz pò rôz bez tegò samegò brëkòwnika."
+
+#: kdm-conv.cpp:101
+msgctxt "@option:radio preselected user"
+msgid "Specifi&ed:"
+msgstr "Pò&dóny:"
+
+#: kdm-conv.cpp:103
+msgid ""
+"Preselect the user specified in the combo box to the right. Use this if this "
+"computer is predominantly used by a certain user."
+msgstr ""
+"Wëbierzë brëkòwnika w òknie z prawi.Mô to cwëk, jeżlë kòmpùtr je ùżëwóny "
+"przez jedengò człowieka."
+
+#: kdm-conv.cpp:120
+msgid ""
+"Select the user to be preselected for login. This box is editable, so you "
+"can specify an arbitrary non-existent user to mislead possible attackers."
+msgstr ""
+"Wëbiérzë, jaczi mô òstac domëszlnô wëbróny do zalogòwaniô. To pòle mòże "
+"zmieniac, mòżesz tedë wpisac niebëtnegò brëkòwnika, bë òchebic mòżlewich "
+"włomników."
+
+#: kdm-conv.cpp:135
+msgctxt "@option:check action"
+msgid "Focus pass&word"
+msgstr "Pòle wprowôdzaniô &parolë aktiwné"
+
+#: kdm-conv.cpp:138
+msgid ""
+"When this option is on, KDM will place the cursor in the password field "
+"instead of the user field after preselecting a user. Use this to save one "
+"key press per login, if the preselection usually does not need to be changed."
+msgstr ""
+"Jeżlë na òptacëjô je wëbrónô, KDM ùstôwi kùrsor w pòlu wpisywania paroli pò "
+"wëbiérkù brëkòwnika. Pòzwôlë to òbsczãdzëc jedno wcësniãcé klawisza, eżlë "
+"miono brëkòwnika rzôdkò sã zmieniô."
+
+#: kdm-conv.cpp:144
+msgid "Enable Password-&Less Logins"
+msgstr "Włączë logòwanié &bez paroli"
+
+#: kdm-conv.cpp:151
+msgid ""
+"When this option is checked, the checked users from the list below will be "
+"allowed to log in without entering their password. This applies only to "
+"KDM's graphical login. Think twice before enabling this!"
+msgstr ""
+"Jeżlë na òptacëjô je włączonô, wszëtcë brëkòwnicë z lëstë niżi bãdą mògle "
+"zalogòwac sã bez pòdówaniô paroli (tikô sã to lós logòwaniô w grafikòwim "
+"tribie za pòmòcą KDM). Przemëszlë to dobrze przed włączeniém ti òptacëji!"
+
+#: kdm-conv.cpp:158
+msgid "No password re&quired for:"
+msgstr "Nie je nót &parolë dlô:"
+
+#: kdm-conv.cpp:164
+msgid ""
+"Check all users you want to allow a password-less login for. Entries denoted "
+"with '@' are user groups. Checking a group is like checking all users in "
+"that group."
+msgstr ""
+"Wëbiérzë brëkòwników, dla jaczéch mô bëc włączoné logòwanié bez pòdôwaniô "
+"paroli. Môle òznôczoné przez '@' to grëpë brëkòwników - zaznaczenié grëpë je "
+"równe zaznaczeniu wszëtczéch brëkòwników z grëpë."
+
+#: kdm-conv.cpp:168 kdm-shut.cpp:95
+msgctxt "@title:group"
+msgid "Miscellaneous"
+msgstr "Wszelejaczé"
+
+#: kdm-conv.cpp:172
+msgid "Automatically log in again after &X server crash"
+msgstr "Aùtomatno wlogùjë pò awarëji serwerë &X"
+
+#: kdm-conv.cpp:174
+msgid ""
+"When this option is on, a user will be logged in again automatically when "
+"their session is interrupted by an X server crash; note that this can open a "
+"security hole: if you use a screen locker than KDE's integrated one, this "
+"will make circumventing a password-secured screen lock possible."
+msgstr ""
+"Jeżlë ne òptacëjô je włączonô, brëkòwnik òstanié aùtomatno wlogòwóny, czedë "
+"jegò sesëjô òstanié przerwónô przez awerëjã serwerë X. Bôczënk: mòże to bëc "
+"niebezpieczné dlô systemë, eżlë brëkùjesz jiné blokadë ekranu nigle "
+"zintegrowóné z KDE - je mòżlewòta òbéńsca zabezpiéczający paroli."
+
+#: kdm-dlg.cpp:64
+msgid "&Greeting:"
+msgstr "&Przëwitanié:"
+
+#: kdm-dlg.cpp:71
+msgid ""
+"<p>This is the \"headline\" for KDM's login window. You may want to put some "
+"nice greeting or information about the operating system here.</p><p>KDM will "
+"substitute the following character pairs with the respective contents:</"
+"p><ul><li>%d -> current display</li><li>%h -> host name, possibly with "
+"domain name</li><li>%n -> node name, most probably the host name without "
+"domain name</li><li>%s -> the operating system</li><li>%r -> the operating "
+"system's version</li><li>%m -> the machine (hardware) type</li><li>%% -> a "
+"single %</li></ul>"
+msgstr ""
+"<p>To je \"titel\" òkna logòwaniô KDE. Mòże tu wpisac np. przëwitanié abò "
+"wëdowiédzã ò òperacjowi systemie.</p><p>KDM zastãpi zôstné parë céchów "
+"gwësna zamkłoscą: </p> <ul> <li>%d--> terny ekran</li> <li>%h--> miono "
+"serwera, mòże bëc z mionã domenë</li> <li>%n--> miono serwerë bez miona "
+"domenë</li> <li>%s--> òperacjowô systema</li> <li>%r--> wersëjô òperacjowi "
+"systemë</li> <li>%m--> ôrt kòmpùtra (procesora)</li> <li>%%--> pòjedińczy "
+"céch %</li> </ul>"
+
+#: kdm-dlg.cpp:92
+msgid "Logo area:"
+msgstr "Logò:"
+
+#: kdm-dlg.cpp:97
+msgctxt "logo area"
+msgid "&None"
+msgstr "&Felënk"
+
+#: kdm-dlg.cpp:98
+msgid "Show cloc&k"
+msgstr "Wëskrzëni &zédżer"
+
+#: kdm-dlg.cpp:99
+msgid "Sho&w logo"
+msgstr "Wëskrzëni &logò"
+
+#: kdm-dlg.cpp:110
+msgid ""
+"You can choose to display a custom logo (see below), a clock or no logo at "
+"all."
+msgstr "Mòżesz wëbrac swój òbrôzk (zdrzë niżi), zédżer abò nic."
+
+#: kdm-dlg.cpp:116
+msgid "&Logo:"
+msgstr "&Logò:"
+
+#: kdm-dlg.cpp:127
+msgid ""
+"Click here to choose an image that KDM will display. You can also drag and "
+"drop an image onto this button (e.g. from Konqueror)."
+msgstr ""
+"Wëbiérzë òbrôzk wëskrzëniwóny przez KDM. Mòżesz téż przcygnąc òbrôzk z jiny "
+"programë (np. Konquerora) ë wlëmic tuwò."
+
+#: kdm-dlg.cpp:138
+msgid "Dialog &position:"
+msgstr "&Pòłożenié dialogòwégò òkna:"
+
+#: kdm-dlg.cpp:221
+#, kde-format
+msgid ""
+"There was an error loading the image:\n"
+"%1\n"
+"It will not be saved."
+msgstr ""
+"Pòkôza sã fela przë ladowaniô òbrôzka:\n"
+"%1\n"
+"Òbrôzk nie òstanié zapisóny."
+
+#: kdm-dlg.cpp:257 kdm-dlg.cpp:285
+#, c-format
+msgid "Welcome to %s at %n"
+msgstr "Witómë na kòmpùtrze %s w %n"
+
+#: kdm-dlg.cpp:295
+msgid ""
+"<h1>KDM - Dialog</h1> Here you can configure the basic appearance of the KDM "
+"login manager in dialog mode, i.e. a greeting string, an icon etc."
+msgstr ""
+"<h1>Wëzdrzatk KDM</h1> Mòże tu skònfigùrowac pòdspòdlowi wëzdrzatk menadżera "
+"logòwania (titel òkna logòwania, logò ëtd)."
+
+#: kdm-gen.cpp:47
+msgctxt "@title:group 'man locale' ..."
+msgid "Locale"
+msgstr "Lokalizacëjô"
+
+#: kdm-gen.cpp:56
+msgid "&Language:"
+msgstr "&Jãzëk:"
+
+#: kdm-gen.cpp:58
+msgid ""
+"Here you can choose the language used by KDM. This setting does not affect a "
+"user's personal settings; that will take effect after login."
+msgstr ""
+"Tuwò mòże wëbrac jãzëk kòmùnikatów òkna logòwaniô. Nie mô to cëskù na ùstôwë "
+"jinëch brëkòwników."
+
+#: kdm-gen.cpp:65
+msgctxt "@title:group"
+msgid "Appearance"
+msgstr "Wëzdrzatk"
+
+#: kdm-gen.cpp:70
+msgid "&Use themed greeter"
+msgstr "&Brëkùjë témòwónégò witôcza"
+
+#: kdm-gen.cpp:73
+msgid "Enable this if you would like to use a themed Login Manager."
+msgstr "Włączë to, czej chcesz brëkòwac témòwónégò menadżera logòwaniô."
+
+#: kdm-gen.cpp:77 kdm-gen.cpp:88 kdm-users.cpp:114
+msgid "<placeholder>default</placeholder>"
+msgstr "<placeholder>domëszlny</placeholder>"
+
+#: kdm-gen.cpp:82
+msgid "GUI s&tyle:"
+msgstr "&Sztél interfejsa:"
+
+#: kdm-gen.cpp:84
+msgid "You can choose a basic GUI style here that will be used by KDM only."
+msgstr "Wëbiérzë pòdspòdlowi sztél GUI dlô òkna logòwaniô."
+
+#: kdm-gen.cpp:92
+msgid "Color sche&me:"
+msgstr "Zestôwk &farwów:"
+
+#: kdm-gen.cpp:94
+msgid "You can choose a basic Color Scheme here that will be used by KDM only."
+msgstr "Wëbiérzë zestôwk farwów dlô òkna logòwaniô."
+
+#: kdm-gen.cpp:97
+msgctxt "@title:group"
+msgid "Fonts"
+msgstr "Fòntë"
+
+#: kdm-gen.cpp:104
+msgid ""
+"This changes the font which is used for all the text in the login manager "
+"except for the greeting and failure messages."
+msgstr ""
+"To zmieni fònt brëkòwóny do wëskrzëniwaniô wszëtczéch tekstów menadżera "
+"logòwania pòza przëwitënkã ë wiadłama ò felach."
+
+#: kdm-gen.cpp:107
+msgctxt "... font"
+msgid "&General:"
+msgstr "Ò&glowé:"
+
+#: kdm-gen.cpp:111
+msgid ""
+"This changes the font which is used for failure messages in the login "
+"manager."
+msgstr ""
+"To zmieni fònt brëkòwóny do wëskrzëniwaniô wiadłów ò felach w menadżerze "
+"logòwaniô."
+
+#: kdm-gen.cpp:113
+msgctxt "font for ..."
+msgid "&Failure:"
+msgstr "&Fela:"
+
+#: kdm-gen.cpp:117
+msgid "This changes the font which is used for the login manager's greeting."
+msgstr ""
+"To zmieni fònt brëkòwóny do wëskrzëniwaniô przëwitënkù w menadżerze "
+"logòwaniô."
+
+#: kdm-gen.cpp:119
+msgctxt "font for ..."
+msgid "Gree&ting:"
+msgstr "&Przëwitanié:"
+
+#: kdm-gen.cpp:121
+msgid "Use anti-aliasing for fonts"
+msgstr "Brëkùjë antyaliasingu"
+
+#: kdm-gen.cpp:123
+msgid ""
+"If you check this box and your X-Server has the Xft extension, fonts will be "
+"antialiased (smoothed) in the login dialog."
+msgstr ""
+"Jeżlë wëłączësz tã òptacëjã, a serwera X òbsłëdżiwô dodôwk Xft, fòntë w "
+"òknie logòwaniô bãdą ùsnôdzoné (wëgłôdzoné)."
+
+#: kdm-shut.cpp:45
+msgid "Allow Shutdown"
+msgstr "Mòżlëwòta zamkniãcô systemë"
+
+#: kdm-shut.cpp:49
+msgctxt "shutdown request origin"
+msgid "&Local:"
+msgstr "&Môlowò:"
+
+#: kdm-shut.cpp:51 kdm-shut.cpp:59
+msgctxt "@item:inlistbox allow shutdown"
+msgid "Everybody"
+msgstr "Wszëtce"
+
+#: kdm-shut.cpp:52 kdm-shut.cpp:60
+msgctxt "@item:inlistbox allow shutdown"
+msgid "Only Root"
+msgstr "Blós sprôwnik"
+
+#: kdm-shut.cpp:53 kdm-shut.cpp:61
+msgctxt "@item:inlistbox allow shutdown"
+msgid "Nobody"
+msgstr "Nicht"
+
+#: kdm-shut.cpp:57
+msgctxt "shutdown request origin"
+msgid "&Remote:"
+msgstr "&Dalekò:"
+
+#: kdm-shut.cpp:64
+msgid ""
+"Here you can select who is allowed to shutdown the computer using KDM. You "
+"can specify different values for local (console) and remote displays. "
+"Possible values are:<ul> <li><em>Everybody:</em> everybody can shutdown the "
+"computer using KDM</li> <li><em>Only root:</em> KDM will only allow shutdown "
+"after the user has entered the root password</li> <li><em>Nobody:</em> "
+"nobody can shutdown the computer using KDM</li></ul>"
+msgstr ""
+"Mòżesz wëbrac, chto mòże zamknąc systemã. Mòżesz wëbrac różne ùstôwë dlô "
+"môlowëch ë daleczéch brëkòwnków. Mòżlewé wôrtnotë to: <ul> <li><em>Wszëtce:</"
+"em> kòżdi mòże zamknąc systemã brëkùjącą KDM</li><li><em>Blós sprôwnik:</em> "
+"KDM pòzwôlë na zamkniãce systemë blós brëkòwnikòwi, co pòdô parolã "
+"sprôwnika</li> <li><em>Nicht:</em> nicht nie mòże zamknąc systemë</li></ul>"
+
+#: kdm-shut.cpp:74
+msgctxt "@title:group shell commands for shutdown"
+msgid "Commands"
+msgstr "Pòlétë"
+
+#: kdm-shut.cpp:77
+msgctxt "command for ..."
+msgid "H&alt:"
+msgstr "&Zatrzëmóné:"
+
+#: kdm-shut.cpp:81
+msgid "Command to initiate the system halt. Typical value: /sbin/halt"
+msgstr "Pòlétë służacé do zamëkaniô systemë. Tipicznô wôrtnota: /sbin/halt"
+
+#: kdm-shut.cpp:86
+msgctxt "command for ..."
+msgid "Reb&oot:"
+msgstr "&Zrëszenié znowa:"
+
+#: kdm-shut.cpp:90
+msgid "Command to initiate the system reboot. Typical value: /sbin/reboot"
+msgstr "Pòlét do zrëszeniô znowa systemë. Tipicznô wôrtnota: /sbin/reboot"
+
+#: kdm-shut.cpp:98
+msgctxt "boot manager"
+msgid "None"
+msgstr "Felënk"
+
+#: kdm-shut.cpp:99
+msgid "Grub"
+msgstr "Grub"
+
+#: kdm-shut.cpp:101
+msgid "Lilo"
+msgstr "Lilo"
+
+#: kdm-shut.cpp:103
+msgid "Boot manager:"
+msgstr "Menadżera zrëszaniô systemë:"
+
+#: kdm-shut.cpp:106
+msgid "Enable boot options in the \"Shutdown...\" dialog."
+msgstr "Pòkôżë òptacëje zrëszaniô systemë w òknie \"Wëłączë systemã...\"."
+
+#: kdm-theme.cpp:98
+msgctxt "@title:column"
+msgid "Theme"
+msgstr "Téma"
+
+#: kdm-theme.cpp:99
+msgctxt "@title:column"
+msgid "Author"
+msgstr "Ùsôdzca"
+
+#: kdm-theme.cpp:103
+msgid ""
+"This is a list of installed themes.\n"
+"Click the one to be used."
+msgstr ""
+"To je lësta winstalowónëch témów.\n"
+"Wëbierzë jedną bë jã ùżëc."
+
+#: kdm-theme.cpp:111
+msgid "This is a screen shot of what KDM will look like."
+msgstr "To je zdrzucënk ekranu, tegò jak KDM bãdzë wëzdrzôł."
+
+#: kdm-theme.cpp:119
+msgid "This contains information about the selected theme."
+msgstr "Tuwò je wëdowiédzô ò wëbróny témie."
+
+#: kdm-theme.cpp:123
+msgctxt "@action:button"
+msgid "Install &new theme"
+msgstr "Instalëjë &nową témã"
+
+#: kdm-theme.cpp:124
+msgid "This will install a theme into the theme directory."
+msgstr "To winstalëjë témã do kataloga z témama."
+
+#: kdm-theme.cpp:128
+msgctxt "@action:button"
+msgid "&Remove theme"
+msgstr "&Rëmôj témã"
+
+#: kdm-theme.cpp:129
+msgid "This will remove the selected theme."
+msgstr "To rëmnié wëbróną témã"
+
+#: kdm-theme.cpp:133
+msgctxt "@action:button"
+msgid "&Get New Themes"
+msgstr "&Dobëjë nowé témë"
+
+#: kdm-theme.cpp:216
+#, kde-format
+msgid "<qt><strong>Copyright:</strong> %1<br/></qt>"
+msgstr "<qt><strong>Copyright:</strong> %1<br/></qt>"
+
+#: kdm-theme.cpp:219
+#, kde-format
+msgid "<qt><strong>Description:</strong> %1</qt>"
+msgstr "<qt><strong>Òpisënk:</strong> %1</qt>"
+
+#: kdm-theme.cpp:236 kdm-users.cpp:339
+#, kde-format
+msgid "Unable to create folder %1"
+msgstr "Nie mòże ùsôdzëc katalogù %1"
+
+#: kdm-theme.cpp:244
+msgid "Drag or Type Theme URL"
+msgstr "Wlëmi abò wpiszë URL témë"
+
+#: kdm-theme.cpp:263
+#, kde-format
+msgid "Unable to find the KDM theme archive %1."
+msgstr "Nie mòże nalezc archiwùm KDM témë %1."
+
+#: kdm-theme.cpp:265
+#, kde-format
+msgid ""
+"Unable to download the KDM theme archive;\n"
+"please check that address %1 is correct."
+msgstr ""
+"Nie mòże zladowac archiwùm KDE témów;\n"
+"proszã sprôwdzë czë adresa %1 je prôwdzëwô."
+
+#: kdm-theme.cpp:288
+msgid "The file is not a valid KDM theme archive."
+msgstr "Nen lopk nie je prôwdzëwim archiwum témë."
+
+#: kdm-theme.cpp:291
+msgctxt "@title:window"
+msgid "Installing KDM themes"
+msgstr "Instalowanié témów KDM"
+
+#: kdm-theme.cpp:303
+#, fuzzy, kde-format
+#| msgctxt "@info:progress"
+#| msgid "<qt>Installing <strong>%1</strong> theme</qt>"
+msgctxt "@info:progress"
+msgid "<qt>Unpacking <strong>%1</strong> theme</qt>"
+msgstr "<qt>Instalowanié <strong>%1</strong> témë</qt>"
+
+#: kdm-theme.cpp:315
+#, fuzzy
+#| msgctxt "@info:progress"
+#| msgid "<qt>Installing <strong>%1</strong> theme</qt>"
+msgctxt "@info:progress"
+msgid "<qt>Installing the themes</qt>"
+msgstr "<qt>Instalowanié <strong>%1</strong> témë</qt>"
+
+#: kdm-theme.cpp:324
+#, fuzzy
+#| msgid ""
+#| "There was an error saving the image:\n"
+#| "%1"
+msgid "There were errors while installing the following themes:\n"
+msgstr ""
+"Pòkôża sã fela przë zapisënkù òbrôzka:\n"
+"%1"
+
+#: kdm-theme.cpp:363
+msgid "Are you sure you want to remove the following themes?"
+msgstr "Na gwës rëmnąc ne témë?"
+
+#: kdm-theme.cpp:364
+msgctxt "@title:window"
+msgid "Remove themes?"
+msgstr "Rëmnąc témë?"
+
+#: kdm-theme.cpp:377
+#, fuzzy
+#| msgid "Are you sure you want to remove the following themes?"
+msgid "There were errors while deleting the following themes:\n"
+msgstr "Na gwës rëmnąc ne témë?"
+
+#: kdm-users.cpp:111
+msgid ""
+"User 'nobody' does not exist. Displaying user images will not work in KDM."
+msgstr ""
+"Nié mô brëkòwnika 'nobody'. Wëskrzënianié òbrôzków brëkòwników nie mdze "
+"dzejac w KDM."
+
+#: kdm-users.cpp:117
+msgctxt "@title:group UIDs belonging to system users like 'cron'"
+msgid "System U&IDs"
+msgstr "Systemòwé U&ID"
+
+#: kdm-users.cpp:119
+msgid ""
+"Users with a UID (numerical user identification) outside this range will not "
+"be listed by KDM and this setup dialog. Note that users with the UID 0 "
+"(typically root) are not affected by this and must be explicitly excluded in "
+"\"Inverse selection\" mode."
+msgstr ""
+"Brëkòwnicë z UID (identifikatorã brëkòwnika) zeza tegò krézu nie mdã "
+"wëskrzëniwóni bez KDM ë to dialogòwé òkno. Bôczënk: ùstôwë ne nie tikają sã "
+"brëkòwnika z numrã 0 (zwëkòwò je to sprôwnik systemë), chtëren mùszi òstac "
+"wëłączony w tribie \"Òdwrotny selekcji\"."
+
+#: kdm-users.cpp:125
+msgctxt "UIDs"
+msgid "Below:"
+msgstr "Niżi:"
+
+#: kdm-users.cpp:132
+msgctxt "UIDs"
+msgid "Above:"
+msgstr "Nad:"
+
+#: kdm-users.cpp:145
+msgctxt "@title:group"
+msgid "Users"
+msgstr "Brëkòwnicë"
+
+#: kdm-users.cpp:146
+msgctxt "... of users"
+msgid "Show list"
+msgstr "Pòkôżë lëstã"
+
+#: kdm-users.cpp:148
+msgid ""
+"If this option is checked, KDM will show a list of users, so users can click "
+"on their name or image rather than typing in their login."
+msgstr ""
+"Jeżlë na òptacëjô je wëbrónô, KDM bãdzë pòkôzëwôł lëstã brëkòwników, "
+"ùmòżebniając wëbiérk brëkòwnika bez klëkniãcé na gwësnym òbrôzkù."
+
+#: kdm-users.cpp:150
+msgctxt "user ..."
+msgid "Autocompletion"
+msgstr "Aùtomatné dofùlowanié"
+
+#: kdm-users.cpp:152
+msgid ""
+"If this option is checked, KDM will automatically complete user names while "
+"they are typed in the line edit."
+msgstr "Jeżlë na òptacëjô je wëbrónô, KDM bãdze dofùlowiwôł miona brëkòwników."
+
+#: kdm-users.cpp:155
+msgctxt "@option:check mode of the user selection"
+msgid "Inverse selection"
+msgstr "Òdwrócë wëbiérk"
+
+#: kdm-users.cpp:157
+msgid ""
+"This option specifies how the users for \"Show list\" and \"Autocompletion\" "
+"are selected in the \"Select users and groups\" list: If not checked, select "
+"only the checked users. If checked, select all non-system users, except the "
+"checked ones."
+msgstr ""
+"Na òptacëjô òpisëje ôrt wëbiérkù brëkòwników w lëstach \"Pòkôżë lëstã\" ë "
+"\"Aùtomatné dofùlowanié\". Eżlë na òptacëjô je wëłączonô, wëbróni brëkòwnicë "
+"bãdą dodóni do lëstë, eżlë włączonô, dodóni bãdą wszëtcë brekòwnicë pòza "
+"tima z lëstë."
+
+#: kdm-users.cpp:161
+msgid "Sor&t users"
+msgstr "&Zortëjë brëkòwników"
+
+#: kdm-users.cpp:163
+msgid ""
+"If this is checked, KDM will alphabetically sort the user list. Otherwise "
+"users are listed in the order they appear in the password file."
+msgstr ""
+"Jeżlë na òptacëjô je wëbrónô, KDM bãdze zortowôł lëstã brëkòwników "
+"alfabétno. W procëmnym razu òstanié ùżëtô réza z lëstë parolów."
+
+#: kdm-users.cpp:180
+msgid "S&elect users and groups:"
+msgstr "&Wëbiérzë brëkòwników ë grëpë:"
+
+#: kdm-users.cpp:184
+msgid "Selected Users"
+msgstr "Wëbróni"
+
+#: kdm-users.cpp:186
+msgid ""
+"KDM will show all checked users. Entries denoted with '@' are user groups. "
+"Checking a group is like checking all users in that group."
+msgstr ""
+"Menadżera logòwaniô wszëtczéch zaznaczonëch brëkòwników. Môle òznôczoné "
+"przez '@' to grëpë brëkòwników - zaznaczenié grëpë je równé zaznaczeniu "
+"wszëtczéch brëkòwników z grëpë."
+
+#: kdm-users.cpp:195
+msgid "Excluded Users"
+msgstr "Wëłączeni brëkòwnicë"
+
+#: kdm-users.cpp:197
+msgid ""
+"KDM will show all non-checked non-system users. Entries denoted with '@' are "
+"user groups. Checking a group is like checking all users in that group."
+msgstr ""
+"Menadżera logòwaniô pòkôże wszëtczéch niezaznaczonëch brëkòwników. Môle "
+"òznôczoné przez '@' to grëpë brëkòwników - zaznaczenié grëpë je równé "
+"zaznaczeniu wszëtczéch brëkòwników z grëpë."
+
+#: kdm-users.cpp:206
+msgctxt "@title:group source for user faces"
+msgid "User Image Source"
+msgstr "Òbrôzczi brëkòwników"
+
+#: kdm-users.cpp:208
+msgid ""
+"Here you can specify where KDM will obtain the images that represent users. "
+"\"System\" represents the global folder; these are the pictures you can set "
+"below. \"User\" means that KDM should read the user's $HOME/.face.icon file. "
+"The two selections in the middle define the order of preference if both "
+"sources are available."
+msgstr ""
+"Tuwò mòże wëbrac, skądka KDM pòbiérô òbrôzczi dlô apartnëch brëkòwników. "
+"\"Òglowé\" to òbrôzczi z òglowégò katalogù - do wëbraniô niżi. \"Indiwidualné"
+"\" òznôczô, że KDM mô ladowac òbrôzk z lopkù .face.icon z katalogù "
+"brëkòwnika. Pòstãpné dwie òptacëje definiują rézã ùżëca, eżlë przistãpné są "
+"òba zdroje."
+
+#: kdm-users.cpp:212
+msgctxt "@option:radio image source"
+msgid "System"
+msgstr "Systema"
+
+#: kdm-users.cpp:213
+msgctxt "@option:radio image source"
+msgid "System, user"
+msgstr "Systema, brëkòwnik"
+
+#: kdm-users.cpp:214
+msgctxt "@option:radio image source"
+msgid "User, system"
+msgstr "Brëkòwnik, systema"
+
+#: kdm-users.cpp:215
+msgctxt "@option:radio image source"
+msgid "User"
+msgstr "Brëkòwnik"
+
+#: kdm-users.cpp:230
+msgctxt "@title:group user face assignments"
+msgid "User Images"
+msgstr "Òbrôzczi brëkòwnika"
+
+#: kdm-users.cpp:232
+msgid "The user the image below belongs to."
+msgstr "Brëkòwnik, do chtërnégò słëchô òbrôzk."
+
+#: kdm-users.cpp:235
+msgid "User:"
+msgstr "Brëkòwnik:"
+
+#: kdm-users.cpp:244
+msgid "Click or drop an image here"
+msgstr "Klëkni abò przeniesë tuwò òbrôzk"
+
+#: kdm-users.cpp:246
+msgid ""
+"Here you can see the image assigned to the user selected in the combo box "
+"above. Click on the image button to select from a list of images or drag and "
+"drop your own image on to the button (e.g. from Konqueror)."
+msgstr ""
+"Tuwò mòże òbaczëc òbrôzk brëkòwnika wëbrónégò z lëstë wëżi. Klëkni na "
+"òbrôzk, żebë òbaczëc lëstã przistãpnëch òbrôzków abò przëcygni gwësny òbrôzk "
+"z jiny programë (np. z Konquerora)."
+
+#: kdm-users.cpp:250
+msgctxt "@action:button assign default user face"
+msgid "R&eset"
+msgstr "Doprowadzë &nazôd"
+
+#: kdm-users.cpp:252
+msgid ""
+"Click this button to make KDM use the default image for the selected user."
+msgstr ""
+"Wcësni tã knąpã, bë przëwrócëc domëszlny òbrôzk dlô wëbrónegò brëkòwnika."
+
+#: kdm-users.cpp:351
+msgid "Save image as default?"
+msgstr "Zapisac òbrôzk jakno domëszlny?"
+
+#: kdm-users.cpp:360
+#, fuzzy, kde-format
+#| msgid ""
+#| "There was an error loading the image\n"
+#| "%1"
+msgid ""
+"There was an error while loading the image\n"
+"%1"
+msgstr ""
+"Pòkôża sã fela przë zladënkù òbrôzka:\n"
+"%1"
+
+#: kdm-users.cpp:379
+#, fuzzy, kde-format
+#| msgid ""
+#| "There was an error saving the image:\n"
+#| "%1"
+msgid ""
+"There was an error while saving the image:\n"
+"%1"
+msgstr ""
+"Pòkôża sã fela przë zapisënkù òbrôzka:\n"
+"%1"
+
+#: kdm-users.cpp:408
+#, fuzzy, kde-format
+#| msgid ""
+#| "There was an error loading the image\n"
+#| "%1"
+msgid ""
+"There was an error while removing the image:\n"
+"%1"
+msgstr ""
+"Pòkôża sã fela przë zladënkù òbrôzka:\n"
+"%1"
+
+#: main.cpp:73
+#, kde-format
+msgid "Unable to authenticate/execute the action: %1 (code %2)"
+msgstr ""
+
+#: main.cpp:96
+#, kde-format
+msgid ""
+"%1 does not appear to be an image file.\n"
+"Please use files with these extensions:\n"
+"%2"
+msgstr ""
+"%1 nie je òbrôzkã.\n"
+"Proszã brëkòwac lopków z zôstnëma dodôwkama:\n"
+"%2"
+
+#: main.cpp:115
+msgid "KDE Login Manager Config Module"
+msgstr "Ùstôwë menadżera logòwania KDE"
+
+#: main.cpp:117
+#, fuzzy
+#| msgid "(c) 1996-2008 The KDM Authors"
+msgid "(c) 1996-2010 The KDM Authors"
+msgstr "(c) 1996 - 2008 Ùsôdzcë KDM"
+
+#: main.cpp:120
+msgid "Thomas Tanghus"
+msgstr "Thomas Tanghus"
+
+#: main.cpp:120
+msgid "Original author"
+msgstr "Ùsôdzca pierszi wersëji"
+
+#: main.cpp:121
+msgid "Steffen Hansen"
+msgstr "Steffen Hansen"
+
+#: main.cpp:122
+msgid "Oswald Buddenhagen"
+msgstr "Oswald Buddenhagen"
+
+#: main.cpp:122
+msgid "Current maintainer"
+msgstr "Biéżny òpiekùn"
+
+#: main.cpp:123
+msgid "Stephen Leaf"
+msgstr "Stephen Leaf"
+
+#: main.cpp:124
+msgid "Igor Krivenko"
+msgstr ""
+
+#: main.cpp:127
+#, fuzzy
+#| msgid ""
+#| "<h1>Login Manager</h1> In this module you can configure the various "
+#| "aspects of the KDE Login Manager. This includes the look and feel as well "
+#| "as the users that can be selected for login. Note that you can only make "
+#| "changes if you run the module with superuser rights. If you have not "
+#| "started the KDE Control Center with superuser rights (which is absolutely "
+#| "the right thing to do, by the way), click on the <em>Modify</em> button "
+#| "to acquire superuser rights. You will be asked for the superuser password."
+#| "<h2>General</h2> On this tab page, you can configure parts of the Login "
+#| "Manager's look, and which language it should use. The language settings "
+#| "made here have no influence on the user's language settings.<h2>Dialog</"
+#| "h2>Here you can configure the look of the \"classical\" dialog based mode "
+#| "if you have chosen to use it. <h2>Background</h2>If you want to set a "
+#| "special background for the dialog based login screen, this is where to do "
+#| "it.<h2>Themes</h2> Here you can specify a theme to be used by the Login "
+#| "Manager.<h2>Shutdown</h2> Here you can specify who is allowed to shutdown/"
+#| "reboot the machine and whether a boot manager should be used.<h2>Users</"
+#| "h2>On this tab page, you can select which users the Login Manager will "
+#| "offer you for logging in.<h2>Convenience</h2> Here you can specify a user "
+#| "to be logged in automatically, users not needing to provide a password to "
+#| "log in, and other convenience features.<br/>Note, that these settings are "
+#| "security holes by their nature, so use them very carefully."
+msgid ""
+"<h1>Login Manager</h1> In this module you can configure the various aspects "
+"of the KDE Login Manager. This includes the look and feel as well as the "
+"users that can be selected for login. Note that you can only make changes if "
+"you run the module with superuser rights.<h2>General</h2> On this tab page, "
+"you can configure parts of the Login Manager's look, and which language it "
+"should use. The language settings made here have no influence on the user's "
+"language settings.<h2>Dialog</h2>Here you can configure the look of the "
+"\"classical\" dialog based mode if you have chosen to use it. "
+"<h2>Background</h2>If you want to set a special background for the dialog-"
+"based login screen, this is where to do it.<h2>Themes</h2> Here you can "
+"specify the theme to be used by the Login Manager.<h2>Shutdown</h2> Here you "
+"can specify who is allowed to shutdown/reboot the machine and whether a boot "
+"manager should be used.<h2>Users</h2>On this tab page, you can select which "
+"users the Login Manager will offer you for logging in.<h2>Convenience</h2> "
+"Here you can specify a user to be logged in automatically, users not needing "
+"to provide a password to log in, and other convenience features.<br/>Note "
+"that by their nature, these settings are security holes, so use them very "
+"carefully."
+msgstr ""
+"<h1>Menadżera logòwaniô</h1> Nen mòduł pòzwôlô na kònfigùracëjã menadżera "
+"logòwaniô KDE: jegò wëzdrzatkù ë òbsłëdżi brëkòwników. Żebë mòżlewé bëło "
+"wprowadzenié równojaczich zmianów, mòduł mùszi bëc zrëszony w tribie "
+"sprôwnika. Żebë przéńc do tegò tribù, klëkni na knąpie <em>Mòdifikùjë</em> ë "
+"pòdôj parolã sprôwnika. <h2>Wëzdrzatk</h2> Na ti kôrce mòże skònfigùrowac "
+"wëzdrzatk menadżera logòwaniô a téż jãzëk wiadłów. <h2>Fònt</h2> Na kôrta "
+"pòzwôlô na wëbiérk fòntów brëkòwónëch przez menadżera logòwaniô do "
+"wëskrzëniwaniô wiadłów ë przëwitënków.<h2>Spòdlé</h2> Kôrta ùmòżebniô "
+"kònfigùracëjã spòdlégò, m.jin. wëbiérk tapétë abò programë do céchòwania "
+"spòdlégò.<h2>Zamëkanié</h2> Tu mòże òpisac, chto mòże zamëkac ë znowa "
+"zrëszac systemã, a téż kònfigùrowac ùżëcé menadżera zrëszania systemë."
+"<h2>Brëkòwnicë</h2> Na kôrta zamëkô ùstôwë tikające sã ôrtu wëskrzëniwainô "
+"apartnëch brëkòwników.<h2>Zletczenia</h2> Na ti kôrce mòże pòdawac "
+"zletczenia dlô niechtërnech brëkòwników (domëszlny brëkòwnik, logòwanié bez "
+"òbòwiązkù pòdôwaniô paroli ëtd.).<br/> Bôczënk: niechtërné z tëch "
+"zletczeniów z nôtërë to dzurë w zabezpieczeniu systemë, téj brëkùjë jich "
+"òbzérno."
+
+#: main.cpp:212
+msgid "&General"
+msgstr "&Spòdlowé"
+
+#: main.cpp:218
+msgid "&Dialog"
+msgstr "Dialogòwé òkno"
+
+#: main.cpp:223
+msgid "There is no login dialog window in themed mode."
+msgstr "Nie mô òkna logòwaniô w tribie témë."
+
+#: main.cpp:229
+msgid "&Background"
+msgstr "S&pòdlé"
+
+#: main.cpp:234
+msgid "The background cannot be configured separately in themed mode."
+msgstr "Spòdlé nie mòże bëc òsóbno skònfigórowóné w tribie témë."
+
+#: main.cpp:240
+msgid "&Theme"
+msgstr "&Téma"
+
+#: main.cpp:242
+msgid "Themed mode is disabled. See \"General\" tab."
+msgstr "Trib témë je wëłączony. Òbaczë załóżkã \"Òglowé\"."
+
+#: main.cpp:251
+msgid "&Shutdown"
+msgstr "&Wëłączë systemã"
+
+#: main.cpp:255
+msgid "&Users"
+msgstr "&Brëkòwnicë"
+
+#: main.cpp:265
+msgid "&Convenience"
+msgstr "&Zletczenia"
+
+#: main.cpp:361
+#, kde-format
+msgid ""
+"Unable to install new kdmrc file from\n"
+"%1"
+msgstr ""
+
+#: main.cpp:366
+#, kde-format
+msgid ""
+"Unable to install new backgroundrc file from\n"
+"%1"
+msgstr ""
+
+#: main.cpp:371
+#, kde-format
+msgid ""
+"Unable to install new kdmrc file from\n"
+"%1\n"
+"and new backgroundrc file from\n"
+"%2"
+msgstr ""
+
+#: positioner.cpp:98
+msgid ""
+"Drag the anchor to move the center of the dialog to the desired position. "
+"Keyboard control is possible as well: Use the arrow keys or Home to center. "
+"Note that the actual proportions of the dialog are probably different."
+msgstr ""
+"Przesënie dragã bë przeniesc wëstrzódk òkna do nowégò pòłożeniô. Mòże téż "
+"ùżëc do tegò klawiaturë: brëkùjë strzélków abò klawiszë Home bë centrowac. "
+"Bôczë, że aktualné propòrcëje òkna mògą bëc jine."
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
+
+#~ msgid "Us&er:"
+#~ msgstr "&Brëkòwnik:"
+
+#~ msgid "General (&1)"
+#~ msgstr "Òglowé (&1)"
+
+#~ msgid "Theme (&4)"
+#~ msgstr "Téma (&4)"
+
+#~ msgid "Users (&6)"
+#~ msgstr "Brëkòwnicë (&6)"
