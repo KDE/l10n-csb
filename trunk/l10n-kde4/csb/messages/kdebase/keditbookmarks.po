@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keditbookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-26 02:55+0100\n"
+"POT-Creation-Date: 2011-01-11 02:35+0100\n"
 "PO-Revision-Date: 2009-12-20 18:48+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -18,91 +18,6 @@ msgstr ""
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
-
-#: kbookmarkmodel/model.cpp:118
-#, fuzzy
-#| msgid "Bookmarks"
-msgctxt "name of the container of all browser bookmarks"
-msgid "Bookmarks"
-msgstr "Załóżczi"
-
-#: kbookmarkmodel/model.cpp:222
-#, fuzzy
-#| msgid "Name:"
-msgctxt "@title:column name of a bookmark"
-msgid "Name"
-msgstr "Miono:"
-
-#: kbookmarkmodel/model.cpp:226
-#, fuzzy
-#| msgid "Location:"
-msgctxt "@title:column name of a bookmark"
-msgid "Location"
-msgstr "Môl:"
-
-#: kbookmarkmodel/model.cpp:230
-#, fuzzy
-#| msgid "Comment"
-msgctxt "@title:column comment for a bookmark"
-msgid "Comment"
-msgstr "Dopòwiesc"
-
-#: kbookmarkmodel/model.cpp:234
-#, fuzzy
-#| msgid "Status"
-msgctxt "@title:column status of a bookmark"
-msgid "Status"
-msgstr "Stón"
-
-#: kbookmarkmodel/commands.cpp:68
-msgid "Insert Separator"
-msgstr "Wlepi òdstãp"
-
-#: kbookmarkmodel/commands.cpp:77
-msgid "Create Bookmark"
-msgstr "Ùsôdzë załóżkã"
-
-#: kbookmarkmodel/commands.cpp:86
-msgid "Create Folder"
-msgstr "Ùsôdzë katalog"
-
-#: kbookmarkmodel/commands.cpp:95
-#, kde-format
-msgid "Copy %1"
-msgstr "Kòpérejë %1"
-
-#: kbookmarkmodel/commands.cpp:183
-msgid "Icon Change"
-msgstr "Zmiana ikònë"
-
-#: kbookmarkmodel/commands.cpp:185
-msgid "Title Change"
-msgstr "Zmiana titla"
-
-#: kbookmarkmodel/commands.cpp:187
-msgid "URL Change"
-msgstr "Zmiana adresë URL"
-
-#: kbookmarkmodel/commands.cpp:189
-msgid "Comment Change"
-msgstr "Zmiana dopòwiescë"
-
-#: kbookmarkmodel/commands.cpp:359
-#, kde-format
-msgid "Move %1"
-msgstr "Przesënié %1"
-
-#: kbookmarkmodel/commands.cpp:476
-msgid "Set as Bookmark Toolbar"
-msgstr "Ùstôwi jakno lisetw nôrzãdzów załóżków"
-
-#: kbookmarkmodel/commands.cpp:512
-msgid "Copy Items"
-msgstr "Kòpiérëjë elementë"
-
-#: kbookmarkmodel/commands.cpp:513
-msgid "Move Items"
-msgstr "Przësënié elementë "
 
 #: kebsearchline.cpp:273
 msgid "Search Columns"
@@ -295,30 +210,6 @@ msgstr "*.xbel|Lopcz załóżczków Galeona (*.xbel)"
 msgid "*.xml|KDE Bookmark Files (*.xml)"
 msgstr "*.xml|Lopczi załóżków KDE (*.xml)"
 
-#: bookmarkinfowidget.cpp:246
-msgid "Name:"
-msgstr "Miono:"
-
-#: bookmarkinfowidget.cpp:254
-msgid "Location:"
-msgstr "Môl:"
-
-#: bookmarkinfowidget.cpp:262
-msgid "Comment:"
-msgstr "Dopòwiesc:"
-
-#: bookmarkinfowidget.cpp:269
-msgid "First viewed:"
-msgstr "Pierszi raz przezéróny:"
-
-#: bookmarkinfowidget.cpp:272
-msgid "Viewed last:"
-msgstr "Slédny raz przezéróny:"
-
-#: bookmarkinfowidget.cpp:275
-msgid "Times visited:"
-msgstr "Razë widzóny:"
-
 #: favicons.cpp:56 testlink.cpp:97
 msgid "OK"
 msgstr "OK"
@@ -327,10 +218,29 @@ msgstr "OK"
 msgid "Updating favicon..."
 msgstr "Aktualizëjë favicon..."
 
-#: faviconupdater.cpp:87
-#, kde-format
-msgid "%1; no HTML component found (%2)"
-msgstr ""
+#: kbookmarkmerger.cpp:39
+msgid "KBookmarkMerger"
+msgstr "KBookmarkMerger"
+
+#: kbookmarkmerger.cpp:40
+msgid "Merges bookmarks installed by 3rd parties into the user's bookmarks"
+msgstr "Łączë załóżczi zainstalowóné bez jine programë z załóżkama brëkòwnika"
+
+#: kbookmarkmerger.cpp:42
+msgid "Copyright © 2005 Frerich Raabe"
+msgstr "Copyright © 2005 Frerich Raabe"
+
+#: kbookmarkmerger.cpp:43
+msgid "Frerich Raabe"
+msgstr "Frerich Raabe"
+
+#: kbookmarkmerger.cpp:43
+msgid "Original author"
+msgstr "Òridżinalny aùtor"
+
+#: kbookmarkmerger.cpp:49
+msgid "Directory to scan for extra bookmarks"
+msgstr "Katalog do skanowania dlô ekstra załóżków"
 
 #: actionsimpl.cpp:97
 msgid "&Delete"
@@ -486,30 +396,6 @@ msgstr "Zortëjë alfabétno"
 msgid "Delete Items"
 msgstr "Rëmôj elementë"
 
-#: kbookmarkmerger.cpp:39
-msgid "KBookmarkMerger"
-msgstr "KBookmarkMerger"
-
-#: kbookmarkmerger.cpp:40
-msgid "Merges bookmarks installed by 3rd parties into the user's bookmarks"
-msgstr "Łączë załóżczi zainstalowóné bez jine programë z załóżkama brëkòwnika"
-
-#: kbookmarkmerger.cpp:42
-msgid "Copyright © 2005 Frerich Raabe"
-msgstr "Copyright © 2005 Frerich Raabe"
-
-#: kbookmarkmerger.cpp:43
-msgid "Frerich Raabe"
-msgstr "Frerich Raabe"
-
-#: kbookmarkmerger.cpp:43
-msgid "Original author"
-msgstr "Òridżinalny aùtor"
-
-#: kbookmarkmerger.cpp:49
-msgid "Directory to scan for extra bookmarks"
-msgstr "Katalog do skanowania dlô ekstra załóżków"
-
 #: importers.h:102
 msgid "Galeon"
 msgstr "Galeon"
@@ -541,6 +427,120 @@ msgstr "Mòje załóżczi"
 #: testlink.cpp:76
 msgid "Checking..."
 msgstr "Sprôwdzanié..."
+
+#: bookmarkinfowidget.cpp:246
+msgid "Name:"
+msgstr "Miono:"
+
+#: bookmarkinfowidget.cpp:254
+msgid "Location:"
+msgstr "Môl:"
+
+#: bookmarkinfowidget.cpp:262
+msgid "Comment:"
+msgstr "Dopòwiesc:"
+
+#: bookmarkinfowidget.cpp:269
+msgid "First viewed:"
+msgstr "Pierszi raz przezéróny:"
+
+#: bookmarkinfowidget.cpp:272
+msgid "Viewed last:"
+msgstr "Slédny raz przezéróny:"
+
+#: bookmarkinfowidget.cpp:275
+msgid "Times visited:"
+msgstr "Razë widzóny:"
+
+#: kbookmarkmodel/model.cpp:118
+#, fuzzy
+#| msgid "Bookmarks"
+msgctxt "name of the container of all browser bookmarks"
+msgid "Bookmarks"
+msgstr "Załóżczi"
+
+#: kbookmarkmodel/model.cpp:222
+#, fuzzy
+#| msgid "Name:"
+msgctxt "@title:column name of a bookmark"
+msgid "Name"
+msgstr "Miono:"
+
+#: kbookmarkmodel/model.cpp:226
+#, fuzzy
+#| msgid "Location:"
+msgctxt "@title:column name of a bookmark"
+msgid "Location"
+msgstr "Môl:"
+
+#: kbookmarkmodel/model.cpp:230
+#, fuzzy
+#| msgid "Comment"
+msgctxt "@title:column comment for a bookmark"
+msgid "Comment"
+msgstr "Dopòwiesc"
+
+#: kbookmarkmodel/model.cpp:234
+#, fuzzy
+#| msgid "Status"
+msgctxt "@title:column status of a bookmark"
+msgid "Status"
+msgstr "Stón"
+
+#: kbookmarkmodel/commands.cpp:68
+msgid "Insert Separator"
+msgstr "Wlepi òdstãp"
+
+#: kbookmarkmodel/commands.cpp:77
+msgid "Create Bookmark"
+msgstr "Ùsôdzë załóżkã"
+
+#: kbookmarkmodel/commands.cpp:86
+msgid "Create Folder"
+msgstr "Ùsôdzë katalog"
+
+#: kbookmarkmodel/commands.cpp:95
+#, kde-format
+msgid "Copy %1"
+msgstr "Kòpérejë %1"
+
+#: kbookmarkmodel/commands.cpp:183
+msgid "Icon Change"
+msgstr "Zmiana ikònë"
+
+#: kbookmarkmodel/commands.cpp:185
+msgid "Title Change"
+msgstr "Zmiana titla"
+
+#: kbookmarkmodel/commands.cpp:187
+msgid "URL Change"
+msgstr "Zmiana adresë URL"
+
+#: kbookmarkmodel/commands.cpp:189
+msgid "Comment Change"
+msgstr "Zmiana dopòwiescë"
+
+#: kbookmarkmodel/commands.cpp:359
+#, kde-format
+msgid "Move %1"
+msgstr "Przesënié %1"
+
+#: kbookmarkmodel/commands.cpp:476
+msgid "Set as Bookmark Toolbar"
+msgstr "Ùstôwi jakno lisetw nôrzãdzów załóżków"
+
+#: kbookmarkmodel/commands.cpp:512
+msgid "Copy Items"
+msgstr "Kòpiérëjë elementë"
+
+#: kbookmarkmodel/commands.cpp:513
+msgid "Move Items"
+msgstr "Przësënié elementë "
+
+#: faviconupdater.cpp:87
+#, kde-format
+msgid "%1; no HTML component found (%2)"
+msgstr ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
