@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxkb\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-25 02:49+0100\n"
+"POT-Creation-Date: 2011-01-29 02:44+0100\n"
 "PO-Revision-Date: 2009-12-15 19:24+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -105,20 +105,28 @@ msgstr "Òpisënk"
 msgid "XKB extension failed to initialize"
 msgstr ""
 
+#: layout_tray_icon.cpp:49 layout_tray_icon.cpp:50
+#, fuzzy
+#| msgid "Keyboard Layout"
+msgctxt "tooltip title"
+msgid "Keyboard Layout"
+msgstr "Ùstôw klawiaturë"
+
 #: flags.cpp:119
 #, kde-format
 msgctxt "layout - variant"
 msgid "%1 - %2"
 msgstr ""
 
-#~ msgid "Configure..."
-#~ msgstr "Kònfigùracëjô..."
+#: layouts_menu.cpp:79
+#, kde-format
+msgctxt "short layout label - full layout name"
+msgid "%1 - %2"
+msgstr ""
 
-#, fuzzy
-#~| msgid "Keyboard Layout"
-#~ msgctxt "tooltip title"
-#~ msgid "Keyboard Layout"
-#~ msgstr "Ùstôw klawiaturë"
+#: layouts_menu.cpp:120
+msgid "Configure..."
+msgstr "Kònfigùracëjô..."
 
 #~ msgid "Layout Name"
 #~ msgstr "Miono ùstôwù"
