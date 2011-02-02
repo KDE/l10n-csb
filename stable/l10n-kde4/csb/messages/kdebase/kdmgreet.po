@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdmgreet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-26 02:55+0100\n"
+"POT-Creation-Date: 2011-02-02 12:18+0100\n"
 "PO-Revision-Date: 2009-12-20 18:51+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -18,105 +18,78 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: themer/kdmlabel.cpp:247
+#: kchooser.cpp:59
+msgctxt "@action:inmenu"
+msgid "&Local Login"
+msgstr "&Môlowé logòwanié"
+
+#: kchooser.cpp:63
+msgid "XDMCP Host Menu"
+msgstr "Menu serwera XDMCP"
+
+#: kchooser.cpp:73
+msgctxt "@title:column"
+msgid "Hostname"
+msgstr "Miono serwera"
+
+#: kchooser.cpp:74
+msgctxt "@title:column ... of named host"
+msgid "Status"
+msgstr "Stón"
+
+#: kchooser.cpp:82
+msgctxt "XDMCP server"
+msgid "Hos&t:"
+msgstr "&Serwera:"
+
+#: kchooser.cpp:84
 msgctxt "@action:button"
-msgid "Lan_guage"
-msgstr "_Jãzëk"
+msgid "A&dd"
+msgstr "&Dodô"
 
-#: themer/kdmlabel.cpp:248
+#: kchooser.cpp:93
 msgctxt "@action:button"
-msgid "Session _Type"
-msgstr "Ôrt _sesëji"
+msgid "&Accept"
+msgstr "&Akceptëjë"
 
-#: themer/kdmlabel.cpp:249
+#: kchooser.cpp:95
 msgctxt "@action:button"
-msgid "_Menu"
-msgstr "_Menu"
+msgid "&Refresh"
+msgstr "Ò&dswieżë"
 
-#. i18n("Actions");
-#: themer/kdmlabel.cpp:250
-msgctxt "@action:button ... from XDMCP server"
-msgid "Disconn_ect"
-msgstr "_Rozłączë"
-
-#: themer/kdmlabel.cpp:251
+#: kchooser.cpp:105 kgreeter.cpp:802
 msgctxt "@action:button"
-msgid "_Quit"
-msgstr "_Zakùńczë"
+msgid "&Menu"
+msgstr "&Menu"
 
-#: themer/kdmlabel.cpp:252
-msgctxt "@action:button"
-msgid "Power o_ff"
-msgstr "Wëłączë _kòmpùtr"
+#: kchooser.cpp:203
+msgctxt "hostname or status"
+msgid "<unknown>"
+msgstr "<nieznóny>"
 
-#: themer/kdmlabel.cpp:254
-msgctxt "@action:button"
-msgid "Re_boot"
-msgstr "Z_rëszë kòmpùtr znowa"
-
-#: themer/kdmlabel.cpp:255
-msgctxt "@action:button"
-msgid "_Remote login"
-msgstr "_Daleczé logòwanié"
-
-#: themer/kdmlabel.cpp:256
-msgid "Caps Lock is enabled"
-msgstr "Caps Lock je włączony"
-
-#: themer/kdmlabel.cpp:257
-msgid "User %u will log in in %t"
-msgstr "Brëkòwnik %u wlogùjë sã na %t"
-
-#: themer/kdmlabel.cpp:258
-msgid "Welcome to %h"
-msgstr "Witómë w %h"
-
-#: themer/kdmlabel.cpp:259
-msgid "_Domain:"
-msgstr "_Domena:"
-
-#: themer/kdmlabel.cpp:260
-msgid "_Username:"
-msgstr "_Miono brëkòwnika:"
-
-#: themer/kdmlabel.cpp:261
-msgid "_Password:"
-msgstr "_Parola:"
-
-#: themer/kdmlabel.cpp:262
-msgctxt "@action:button"
-msgid "_Login"
-msgstr "W_logùjë"
-
-#: themer/kdmlabel.cpp:293
+#: kchooser.cpp:242
 #, kde-format
-msgctxt "will login in ..."
-msgid "1 second"
-msgid_plural "%1 seconds"
-msgstr[0] "1 sekùnda"
-msgstr[1] "%1 sekùndë"
-msgstr[2] "%1 sekùnd"
+msgid "Unknown host %1"
+msgstr "Nieznónô serwera %1"
 
-#: themer/kdmlabel.cpp:301
-#, no-c-format
-msgctxt "date format"
-msgid "%a %d %B"
-msgstr "%a %d %B"
+#: kconsole.cpp:70
+msgid "*** Cannot connect to console log ***"
+msgstr "*** Ni mòże sparłãczëc sã z logòwaniém kònsolë ***"
 
-#: themer/kdmthemer.cpp:67
-#, kde-format
-msgid "Cannot open theme file %1"
-msgstr "Nie mòże òtemknąc lopkù témë %1"
+#: kconsole.cpp:154
+msgid ""
+"\n"
+"*** Lost connection with console log ***"
+msgstr ""
+"\n"
+"*** Zgùbioné sparłączenié z logòwaniém kònsolë ***"
 
-#: themer/kdmthemer.cpp:72
-#, kde-format
-msgid "Cannot parse theme file %1"
-msgstr "Nie mòże zanalizowac lopkù témë %1"
-
-#: themer/kdmthemer.cpp:79
-#, kde-format
-msgid "%1 does not seem to be a correct theme file"
-msgstr "%1 nie wëzdrzi za dobrim lopkã témë"
+#: kdmconfig.cpp:131
+msgctxt ""
+"@item:intext substitution for an undefined %X placeholder wrongly given in "
+"the config file 'kdmrc', telling the user to fix it"
+msgid "[fix kdmrc]"
+msgstr "[pòprôwi kdmrc]"
 
 #: kdmshutdown.cpp:90
 msgid "Root authorization required."
@@ -338,51 +311,6 @@ msgctxt "session (location)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: utils.cpp:87
-#, kde-format
-msgctxt "user: ..."
-msgid "%2: TTY login"
-msgid_plural "%2: %1 TTY logins"
-msgstr[0] "%2: login TTY"
-msgstr[1] "%2: %1 loginë TTY"
-msgstr[2] "%2: %1 loginów TTY"
-
-#: utils.cpp:99
-msgctxt "... session"
-msgid "Unused"
-msgstr "Niébrëkòwónô"
-
-#: utils.cpp:101
-#, kde-format
-msgctxt "user: session type"
-msgid "%1: %2"
-msgstr "%1: %2"
-
-#: utils.cpp:103
-#, kde-format
-msgctxt "... host"
-msgid "X login on %1"
-msgstr "Zalogòwóny pòd X na %1"
-
-#: kdmconfig.cpp:131
-msgctxt ""
-"@item:intext substitution for an undefined %X placeholder wrongly given in "
-"the config file 'kdmrc', telling the user to fix it"
-msgid "[fix kdmrc]"
-msgstr "[pòprôwi kdmrc]"
-
-#: krootimage.cpp:330
-msgid "KRootImage"
-msgstr "KRootImage"
-
-#: krootimage.cpp:331
-msgid "Fancy desktop background for kdm"
-msgstr "Czekawé spòdlé pùltu dlô kdm"
-
-#: krootimage.cpp:334
-msgid "Name of the configuration file"
-msgstr "Miono kònfigùracëjowëgò lopkù"
-
 #: kgreeter.cpp:482
 msgctxt "@item:inlistbox session type"
 msgid "Default"
@@ -432,11 +360,6 @@ msgctxt "@action:button"
 msgid "L&ogin"
 msgstr "W&logùjë"
 
-#: kgreeter.cpp:802 kchooser.cpp:105
-msgctxt "@action:button"
-msgid "&Menu"
-msgstr "&Menu"
-
 #: kgreeter.cpp:833 kgreeter.cpp:970
 msgctxt "@title:menu"
 msgid "Session &Type"
@@ -455,67 +378,6 @@ msgstr "&Daleczé logòwanié"
 #: kgreeter.cpp:921 kgverify.cpp:1085
 msgid "Login failed"
 msgstr "Logòwanié nie darzëło sã"
-
-#: kconsole.cpp:70
-msgid "*** Cannot connect to console log ***"
-msgstr "*** Ni mòże sparłãczëc sã z logòwaniém kònsolë ***"
-
-#: kconsole.cpp:154
-msgid ""
-"\n"
-"*** Lost connection with console log ***"
-msgstr ""
-"\n"
-"*** Zgùbioné sparłączenié z logòwaniém kònsolë ***"
-
-#: kchooser.cpp:59
-msgctxt "@action:inmenu"
-msgid "&Local Login"
-msgstr "&Môlowé logòwanié"
-
-#: kchooser.cpp:63
-msgid "XDMCP Host Menu"
-msgstr "Menu serwera XDMCP"
-
-#: kchooser.cpp:73
-msgctxt "@title:column"
-msgid "Hostname"
-msgstr "Miono serwera"
-
-#: kchooser.cpp:74
-msgctxt "@title:column ... of named host"
-msgid "Status"
-msgstr "Stón"
-
-#: kchooser.cpp:82
-msgctxt "XDMCP server"
-msgid "Hos&t:"
-msgstr "&Serwera:"
-
-#: kchooser.cpp:84
-msgctxt "@action:button"
-msgid "A&dd"
-msgstr "&Dodô"
-
-#: kchooser.cpp:93
-msgctxt "@action:button"
-msgid "&Accept"
-msgstr "&Akceptëjë"
-
-#: kchooser.cpp:95
-msgctxt "@action:button"
-msgid "&Refresh"
-msgstr "Ò&dswieżë"
-
-#: kchooser.cpp:203
-msgctxt "hostname or status"
-msgid "<unknown>"
-msgstr "<nieznóny>"
-
-#: kchooser.cpp:242
-#, kde-format
-msgid "Unknown host %1"
-msgstr "Nieznónô serwera %1"
 
 #: kgverify.cpp:187
 msgid "No greeter widget plugin loaded. Check the configuration."
@@ -635,6 +497,144 @@ msgstr "Na téma nie mòże bëc brëkòwónô przë metodze ùdowierzaniô '%1'
 msgctxt "@title:window"
 msgid "<qt><b>Changing authentication token</b></qt>"
 msgstr "<qt><b>Zmiana tokena ùdowierzaniô</b></qt>"
+
+#: krootimage.cpp:330
+msgid "KRootImage"
+msgstr "KRootImage"
+
+#: krootimage.cpp:331
+msgid "Fancy desktop background for kdm"
+msgstr "Czekawé spòdlé pùltu dlô kdm"
+
+#: krootimage.cpp:334
+msgid "Name of the configuration file"
+msgstr "Miono kònfigùracëjowëgò lopkù"
+
+#: themer/kdmlabel.cpp:247
+msgctxt "@action:button"
+msgid "Lan_guage"
+msgstr "_Jãzëk"
+
+#: themer/kdmlabel.cpp:248
+msgctxt "@action:button"
+msgid "Session _Type"
+msgstr "Ôrt _sesëji"
+
+#: themer/kdmlabel.cpp:249
+msgctxt "@action:button"
+msgid "_Menu"
+msgstr "_Menu"
+
+#. i18n("Actions");
+#: themer/kdmlabel.cpp:250
+msgctxt "@action:button ... from XDMCP server"
+msgid "Disconn_ect"
+msgstr "_Rozłączë"
+
+#: themer/kdmlabel.cpp:251
+msgctxt "@action:button"
+msgid "_Quit"
+msgstr "_Zakùńczë"
+
+#: themer/kdmlabel.cpp:252
+msgctxt "@action:button"
+msgid "Power o_ff"
+msgstr "Wëłączë _kòmpùtr"
+
+#: themer/kdmlabel.cpp:254
+msgctxt "@action:button"
+msgid "Re_boot"
+msgstr "Z_rëszë kòmpùtr znowa"
+
+#: themer/kdmlabel.cpp:255
+msgctxt "@action:button"
+msgid "_Remote login"
+msgstr "_Daleczé logòwanié"
+
+#: themer/kdmlabel.cpp:256
+msgid "Caps Lock is enabled"
+msgstr "Caps Lock je włączony"
+
+#: themer/kdmlabel.cpp:257
+msgid "User %u will log in in %t"
+msgstr "Brëkòwnik %u wlogùjë sã na %t"
+
+#: themer/kdmlabel.cpp:258
+msgid "Welcome to %h"
+msgstr "Witómë w %h"
+
+#: themer/kdmlabel.cpp:259
+msgid "_Domain:"
+msgstr "_Domena:"
+
+#: themer/kdmlabel.cpp:260
+msgid "_Username:"
+msgstr "_Miono brëkòwnika:"
+
+#: themer/kdmlabel.cpp:261
+msgid "_Password:"
+msgstr "_Parola:"
+
+#: themer/kdmlabel.cpp:262
+msgctxt "@action:button"
+msgid "_Login"
+msgstr "W_logùjë"
+
+#: themer/kdmlabel.cpp:293
+#, kde-format
+msgctxt "will login in ..."
+msgid "1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "1 sekùnda"
+msgstr[1] "%1 sekùndë"
+msgstr[2] "%1 sekùnd"
+
+#: themer/kdmlabel.cpp:301
+#, no-c-format
+msgctxt "date format"
+msgid "%a %d %B"
+msgstr "%a %d %B"
+
+#: themer/kdmthemer.cpp:67
+#, kde-format
+msgid "Cannot open theme file %1"
+msgstr "Nie mòże òtemknąc lopkù témë %1"
+
+#: themer/kdmthemer.cpp:72
+#, kde-format
+msgid "Cannot parse theme file %1"
+msgstr "Nie mòże zanalizowac lopkù témë %1"
+
+#: themer/kdmthemer.cpp:79
+#, kde-format
+msgid "%1 does not seem to be a correct theme file"
+msgstr "%1 nie wëzdrzi za dobrim lopkã témë"
+
+#: utils.cpp:87
+#, kde-format
+msgctxt "user: ..."
+msgid "%2: TTY login"
+msgid_plural "%2: %1 TTY logins"
+msgstr[0] "%2: login TTY"
+msgstr[1] "%2: %1 loginë TTY"
+msgstr[2] "%2: %1 loginów TTY"
+
+#: utils.cpp:99
+msgctxt "... session"
+msgid "Unused"
+msgstr "Niébrëkòwónô"
+
+#: utils.cpp:101
+#, kde-format
+msgctxt "user: session type"
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: utils.cpp:103
+#, kde-format
+msgctxt "... host"
+msgid "X login on %1"
+msgstr "Zalogòwóny pòd X na %1"
 
 #~ msgid "Abort S&ession"
 #~ msgstr "Przerwi &sesëjã"

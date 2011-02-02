@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-26 02:55+0100\n"
+"POT-Creation-Date: 2011-02-02 12:18+0100\n"
 "PO-Revision-Date: 2009-12-14 21:59+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -20,92 +20,211 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: simpleapplet/simpleapplet.cpp:193 core/favoritesmodel.cpp:49
-#: core/favoritesmodel.cpp:322 ui/launcher.cpp:116 ui/launcher.cpp:175
+#: applet/applet.cpp:84
+msgid "Kickoff Application Launcher"
+msgstr "Zrëszôcz programów Kickoff"
+
+#: applet/applet.cpp:85
+msgid ""
+"Favorites, applications, computer places, recently used items and desktop "
+"sessions"
+msgstr ""
+"Ùlëbnicë,aplikacëje,place kòmpùtra,terô brëkòwóné elementë ë sesëje pùltu"
+
+#: applet/applet.cpp:108 simpleapplet/simpleapplet.cpp:345
+#, fuzzy
+#| msgid "Applications"
+msgid "Edit Applications..."
+msgstr "Aplikacëje"
+
+#: applet/applet.cpp:114
+msgid "Switch to Classic Menu Style"
+msgstr "Przełączë do klasikòwégò sztélu menu"
+
+#: applet/applet.cpp:159
+msgctxt "General configuration page"
+msgid "General"
+msgstr "Òglowò"
+
+#: core/applicationmodel.cpp:335
+msgid "Games"
+msgstr "Grë"
+
+#: core/applicationmodel.cpp:425 ui/flipscrollview.cpp:138
+msgid "All Applications"
+msgstr "Wszëtczé aplikacëje"
+
+#: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
+#: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:116 ui/launcher.cpp:175
 msgid "Favorites"
 msgstr "Ùlëbnicë"
 
-#: simpleapplet/simpleapplet.cpp:194
-msgid "Bookmarks"
-msgstr "Załóżczi"
-
-#: simpleapplet/simpleapplet.cpp:195 core/systemmodel.cpp:84
-#: core/recentlyusedmodel.cpp:120 ui/launcher.cpp:118 ui/launcher.cpp:205
-msgid "Applications"
-msgstr "Aplikacëje"
-
-#: simpleapplet/simpleapplet.cpp:196 core/systemmodel.cpp:327
-#: ui/launcher.cpp:118 ui/launcher.cpp:239
-msgid "Computer"
-msgstr "Kòmpùtr"
-
-#: simpleapplet/simpleapplet.cpp:197 core/recentlyusedmodel.cpp:186
-#: ui/launcher.cpp:119 ui/launcher.cpp:218
-msgid "Recently Used"
-msgstr "Slédno brëkòwóne"
-
-#: simpleapplet/simpleapplet.cpp:198 core/recentlyusedmodel.cpp:190
-msgid "Recently Used Applications"
-msgstr "Wszëtczé slédno brëkòwóné aplikacëje"
-
-#: simpleapplet/simpleapplet.cpp:199 core/recentlyusedmodel.cpp:188
-msgid "Recently Used Documents"
-msgstr "Slédno brëkòwóné dokùmentë"
-
-#: simpleapplet/simpleapplet.cpp:200
-msgid "System Settings"
-msgstr "Systemòwé nastawë"
-
-#: simpleapplet/simpleapplet.cpp:201 core/systemmodel.cpp:215
-msgid "Run Command..."
-msgstr "Zrëszë pòlét..."
-
-#: simpleapplet/simpleapplet.cpp:202 core/leavemodel.cpp:56
-msgid "Switch User"
-msgstr "Przełączë brëkòwnika"
-
-#: simpleapplet/simpleapplet.cpp:203 core/leavemodel.cpp:68
-msgid "Save Session"
-msgstr "Zapiszë sesëjã"
-
-#: simpleapplet/simpleapplet.cpp:204 core/leavemodel.cpp:54
-msgid "Lock Screen"
-msgstr "Zablokùjë ekran"
-
-#: simpleapplet/simpleapplet.cpp:205 core/leavemodel.cpp:72
-msgctxt "Puts the system on standby"
-msgid "Standby"
-msgstr "Trib żdaniô"
-
-#: simpleapplet/simpleapplet.cpp:206 core/leavemodel.cpp:76
-msgid "Hibernate"
-msgstr "Hibernëje"
-
-#: simpleapplet/simpleapplet.cpp:207 core/leavemodel.cpp:80
-msgid "Sleep"
-msgstr "Ùspi"
-
-#: simpleapplet/simpleapplet.cpp:208
-msgctxt "Restart Computer"
-msgid "Restart"
-msgstr "Zrëszë znowa"
-
-#: simpleapplet/simpleapplet.cpp:209 core/leavemodel.cpp:60
-#, fuzzy
-#| msgid "Shutdown"
-msgid "Shut down"
-msgstr "Wëłączë"
-
-#: simpleapplet/simpleapplet.cpp:210 core/leavemodel.cpp:48
+#: core/leavemodel.cpp:48 simpleapplet/simpleapplet.cpp:210
 #, fuzzy
 #| msgid "Logout"
 msgid "Log out"
 msgstr "Wëlogùjë"
 
-#: simpleapplet/simpleapplet.cpp:211 core/leavemodel.cpp:105
+#: core/leavemodel.cpp:50
+msgid "End session"
+msgstr "Zakùńczë sesëjã"
+
+#: core/leavemodel.cpp:52
+msgid "Lock"
+msgstr "Zablokùjë"
+
+#: core/leavemodel.cpp:54 simpleapplet/simpleapplet.cpp:204
+msgid "Lock Screen"
+msgstr "Zablokùjë ekran"
+
+#: core/leavemodel.cpp:56 simpleapplet/simpleapplet.cpp:202
+msgid "Switch User"
+msgstr "Przełączë brëkòwnika"
+
+#: core/leavemodel.cpp:58
+msgid "Start a parallel session as a different user"
+msgstr "Zrëszë nową sesëjã jakno jiny brëkòwnik"
+
+#: core/leavemodel.cpp:60 simpleapplet/simpleapplet.cpp:209
+#, fuzzy
+#| msgid "Shutdown"
+msgid "Shut down"
+msgstr "Wëłączë"
+
+#: core/leavemodel.cpp:62
+msgid "Turn off computer"
+msgstr "Wëłączë kòmpùtr"
+
+#: core/leavemodel.cpp:64
+msgctxt "Restart computer"
+msgid "Restart"
+msgstr "Zrëszë znowa"
+
+#: core/leavemodel.cpp:66
+msgid "Restart Computer"
+msgstr "Zrëszë kòmpùtr znowa"
+
+#: core/leavemodel.cpp:68 simpleapplet/simpleapplet.cpp:203
+msgid "Save Session"
+msgstr "Zapiszë sesëjã"
+
+#: core/leavemodel.cpp:70
+msgid "Save current session for next login"
+msgstr "Zapiszë tã sesëjã dlô nôslédnegò logòwaniô"
+
+#: core/leavemodel.cpp:72 simpleapplet/simpleapplet.cpp:205
+msgctxt "Puts the system on standby"
+msgid "Standby"
+msgstr "Trib żdaniô"
+
+#: core/leavemodel.cpp:74
+msgid "Pause without logging out"
+msgstr "Pùza bez wëlogòwaniô"
+
+#: core/leavemodel.cpp:76 simpleapplet/simpleapplet.cpp:206
+msgid "Hibernate"
+msgstr "Hibernëje"
+
+#: core/leavemodel.cpp:78
+msgid "Suspend to disk"
+msgstr "Ùspi do diskù"
+
+#: core/leavemodel.cpp:80 simpleapplet/simpleapplet.cpp:207
+msgid "Sleep"
+msgstr "Ùspi"
+
+#: core/leavemodel.cpp:82
+msgid "Suspend to RAM"
+msgstr "Ùspi do RAMù"
+
+#: core/leavemodel.cpp:105 simpleapplet/simpleapplet.cpp:211
 #: ui/launcher.cpp:163
 msgid "Leave"
 msgstr "Wińdzë"
+
+#: core/leavemodel.cpp:117
+msgid "Session"
+msgstr "Sesëjô"
+
+#: core/leavemodel.cpp:139
+msgid "System"
+msgstr "Systema"
+
+#: core/models.cpp:121
+msgid "Home Folder"
+msgstr "Domôcy katalog"
+
+#: core/models.cpp:124
+msgid "Network Folders"
+msgstr "Sécowé katalodżi"
+
+#: core/recentlyusedmodel.cpp:109
+msgid "Documents"
+msgstr "Dokùmentë"
+
+#: core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:84
+#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:118 ui/launcher.cpp:205
+msgid "Applications"
+msgstr "Aplikacëje"
+
+#: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:197
+#: ui/launcher.cpp:119 ui/launcher.cpp:218
+msgid "Recently Used"
+msgstr "Slédno brëkòwóne"
+
+#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:199
+msgid "Recently Used Documents"
+msgstr "Slédno brëkòwóné dokùmentë"
+
+#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:198
+msgid "Recently Used Applications"
+msgstr "Wszëtczé slédno brëkòwóné aplikacëje"
+
+#: core/systemmodel.cpp:85
+msgid "Places"
+msgstr "Môle"
+
+#: core/systemmodel.cpp:86
+msgid "Removable Storage"
+msgstr "Zapisowny disk"
+
+#: core/systemmodel.cpp:87
+msgid "Storage"
+msgstr "Zbérnica"
+
+#: core/systemmodel.cpp:215 simpleapplet/simpleapplet.cpp:201
+msgid "Run Command..."
+msgstr "Zrëszë pòlét..."
+
+#: core/systemmodel.cpp:219
+msgid "Run a command or a search query"
+msgstr "Zrëszë pòlét abò szëkôj za zapëtanim"
+
+#: core/systemmodel.cpp:327 simpleapplet/simpleapplet.cpp:196
+#: ui/launcher.cpp:118 ui/launcher.cpp:239
+msgid "Computer"
+msgstr "Kòmpùtr"
+
+#: main.cpp:32
+msgid "Kickoff"
+msgstr "Kickoff"
+
+#: main.cpp:33
+msgid "Application Launcher"
+msgstr "Zrëszôcz programów"
+
+#: simpleapplet/simpleapplet.cpp:194
+msgid "Bookmarks"
+msgstr "Załóżczi"
+
+#: simpleapplet/simpleapplet.cpp:200
+msgid "System Settings"
+msgstr "Systemòwé nastawë"
+
+#: simpleapplet/simpleapplet.cpp:208
+msgctxt "Restart Computer"
+msgid "Restart"
+msgstr "Zrëszë znowa"
 
 #: simpleapplet/simpleapplet.cpp:267
 msgid "Application Launcher Menu"
@@ -116,12 +235,6 @@ msgstr "Menu zrëszacza programów"
 #| msgid "Kickoff Application Launcher"
 msgid "Switch to Application Launcher Style"
 msgstr "Zrëszôcz programów Kickoff"
-
-#: simpleapplet/simpleapplet.cpp:345 applet/applet.cpp:108
-#, fuzzy
-#| msgid "Applications"
-msgid "Edit Applications..."
-msgstr "Aplikacëje"
 
 #: simpleapplet/simpleapplet.cpp:445
 msgid "View"
@@ -176,111 +289,6 @@ msgstr "Òptacëje"
 #: simpleapplet/simpleapplet.cpp:621
 msgid "Actions"
 msgstr "Dzejania"
-
-#: applet/applet.cpp:84
-msgid "Kickoff Application Launcher"
-msgstr "Zrëszôcz programów Kickoff"
-
-#: applet/applet.cpp:85
-msgid ""
-"Favorites, applications, computer places, recently used items and desktop "
-"sessions"
-msgstr ""
-"Ùlëbnicë,aplikacëje,place kòmpùtra,terô brëkòwóné elementë ë sesëje pùltu"
-
-#: applet/applet.cpp:114
-msgid "Switch to Classic Menu Style"
-msgstr "Przełączë do klasikòwégò sztélu menu"
-
-#: applet/applet.cpp:159
-msgctxt "General configuration page"
-msgid "General"
-msgstr "Òglowò"
-
-#: core/systemmodel.cpp:85
-msgid "Places"
-msgstr "Môle"
-
-#: core/systemmodel.cpp:86
-msgid "Removable Storage"
-msgstr "Zapisowny disk"
-
-#: core/systemmodel.cpp:87
-msgid "Storage"
-msgstr "Zbérnica"
-
-#: core/systemmodel.cpp:219
-msgid "Run a command or a search query"
-msgstr "Zrëszë pòlét abò szëkôj za zapëtanim"
-
-#: core/leavemodel.cpp:50
-msgid "End session"
-msgstr "Zakùńczë sesëjã"
-
-#: core/leavemodel.cpp:52
-msgid "Lock"
-msgstr "Zablokùjë"
-
-#: core/leavemodel.cpp:58
-msgid "Start a parallel session as a different user"
-msgstr "Zrëszë nową sesëjã jakno jiny brëkòwnik"
-
-#: core/leavemodel.cpp:62
-msgid "Turn off computer"
-msgstr "Wëłączë kòmpùtr"
-
-#: core/leavemodel.cpp:64
-msgctxt "Restart computer"
-msgid "Restart"
-msgstr "Zrëszë znowa"
-
-#: core/leavemodel.cpp:66
-msgid "Restart Computer"
-msgstr "Zrëszë kòmpùtr znowa"
-
-#: core/leavemodel.cpp:70
-msgid "Save current session for next login"
-msgstr "Zapiszë tã sesëjã dlô nôslédnegò logòwaniô"
-
-#: core/leavemodel.cpp:74
-msgid "Pause without logging out"
-msgstr "Pùza bez wëlogòwaniô"
-
-#: core/leavemodel.cpp:78
-msgid "Suspend to disk"
-msgstr "Ùspi do diskù"
-
-#: core/leavemodel.cpp:82
-msgid "Suspend to RAM"
-msgstr "Ùspi do RAMù"
-
-#: core/leavemodel.cpp:117
-msgid "Session"
-msgstr "Sesëjô"
-
-#: core/leavemodel.cpp:139
-msgid "System"
-msgstr "Systema"
-
-#: core/models.cpp:121
-msgid "Home Folder"
-msgstr "Domôcy katalog"
-
-#: core/models.cpp:124
-msgid "Network Folders"
-msgstr "Sécowé katalodżi"
-
-#: core/applicationmodel.cpp:335
-msgid "Games"
-msgstr "Grë"
-
-#: core/applicationmodel.cpp:425 ui/flipscrollview.cpp:138
-msgid "All Applications"
-msgstr "Wszëtczé aplikacëje"
-
-#: core/recentlyusedmodel.cpp:109
-msgid "Documents"
-msgstr "Dokùmentë"
 
 #: ui/contextmenufactory.cpp:83
 msgid "Advanced"
@@ -342,14 +350,6 @@ msgstr "<b>%1 (%2)</b> na <b>%3</b>"
 msgctxt "Label of the search bar textedit"
 msgid "Search:"
 msgstr "Szëkba:"
-
-#: main.cpp:32
-msgid "Kickoff"
-msgstr "Kickoff"
-
-#: main.cpp:33
-msgid "Application Launcher"
-msgstr "Zrëszôcz programów"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

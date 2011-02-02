@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-26 02:55+0100\n"
+"POT-Creation-Date: 2011-02-02 12:17+0100\n"
 "PO-Revision-Date: 2009-12-16 23:23+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -17,6 +17,20 @@ msgstr ""
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
+
+#: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:4972
+#: src/konqmainwindow.cpp:5032
+msgid "no name"
+msgstr "bez miona"
+
+#: src/konqextensionmanager.cpp:54
+msgid "Configure"
+msgstr "Kònfigùrëjë"
+
+#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
+#: src/konqextensionmanager.cpp:78
+msgid "Extensions"
+msgstr "Rozszérzenia"
 
 #: src/konqfactory.cpp:90
 #, kde-format
@@ -294,6 +308,159 @@ msgstr "Ùsôdzca (filter AdBlock)"
 #: src/konqfactory.cpp:272
 msgid "Eduardo Robles Elvira"
 msgstr "Eduardo Robles Elvira"
+
+#: src/konqframestatusbar.cpp:109
+msgid ""
+"Checking this box on at least two views sets those views as 'linked'. Then, "
+"when you change directories in one view, the other views linked with it will "
+"automatically update to show the current directory. This is especially "
+"useful with different types of views, such as a directory tree with an icon "
+"view or detailed view, and possibly a terminal emulator window."
+msgstr ""
+"Wëbranié ti òptacëji dô co nômni w dwóch wëzdrzatkach ich sparłączenié. Tedë "
+"zmiana katalogù w jednym wëzdrzatkù sprôwi aùtomatno wëskrzënianié tegò "
+"katalogù w drëdżim. Je to òsoblëwie zdatné dlô rozmajitëch wëzdrzatków, n.p. "
+"wëzdrzatk drzéwiã ë wëzdrzatk ikònów/detalów czë mòżlëwi emùlacëji terminala."
+
+#: src/konqframestatusbar.cpp:156
+msgid "Close View"
+msgstr "Zamkni wëzdrzatk"
+
+#: src/konqframestatusbar.cpp:236
+#, kde-format
+msgid "%1/s"
+msgstr "%1/s"
+
+#: src/konqframestatusbar.cpp:238
+msgid "Stalled"
+msgstr "Zatrzimanié"
+
+#: src/konqguiclients.cpp:66
+#, kde-format
+msgid "Preview &in %1"
+msgstr "Pòdzerk &w %1"
+
+#: src/konqguiclients.cpp:135
+#, kde-format
+msgid "Show %1"
+msgstr "Pòkôżë %1"
+
+#: src/konqhistorydialog.cpp:45
+msgctxt "@title:window"
+msgid "History"
+msgstr "Historëjô"
+
+#: src/konqhistorydialog.cpp:61 src/konqhistoryview.cpp:143
+msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
+msgid "Sort"
+msgstr "Zortëjë"
+
+#: src/konqhistorymodel.cpp:137
+#, kde-format
+msgid ""
+"<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: %"
+"3<br />Number of times visited: %4</qt>"
+msgstr ""
+"<qt><center><b>%1</b></center><hr />Slédno òbzéróné: %2<br />Pierszi rôz "
+"òbzéróné: %3<br />Wielëna òbzéraniô: %4</qt>"
+
+#: src/konqhistorymodel.cpp:233
+msgid "Local"
+msgstr "Môlowò"
+
+#: src/konqhistorymodel.cpp:236
+msgid "Miscellaneous"
+msgstr "Różné"
+
+#: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4499
+#: sidebar/web_module/web_module.cpp:61
+msgid "Open in New &Window"
+msgstr "Òtemkni w nowim ò&knie"
+
+#: src/konqhistoryview.cpp:67
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:94
+#: sidebar/trees/konq_sidebartree.cpp:232
+msgid "Open in New Tab"
+msgstr "Òtemkni w nowi karce"
+
+#: src/konqhistoryview.cpp:71
+msgid "&Copy Link Address"
+msgstr "&Kòpérëjë adresã lënka"
+
+#: src/konqhistoryview.cpp:76
+msgid "&Remove Entry"
+msgstr "&Rëmôj wpisënk"
+
+#: src/konqhistoryview.cpp:83
+msgid "C&lear History"
+msgstr "&Wëczëszczë historëjã"
+
+#: src/konqhistoryview.cpp:88
+msgid "&Preferences..."
+msgstr "&Swòjiznë..."
+
+#: src/konqhistoryview.cpp:95
+msgid "By &Name"
+msgstr "wedle &miona"
+
+#: src/konqhistoryview.cpp:101
+msgid "By &Date"
+msgstr "wedle &datuma"
+
+#: src/konqhistoryview.cpp:111
+msgid "Search in history"
+msgstr "Szëkba w historëji"
+
+#: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
+msgid "Do you really want to clear the entire history?"
+msgstr "Jes gwës tegò, że chcesz wëczëszczëc całą historëjã?"
+
+#: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
+msgid "Clear History?"
+msgstr "Wëczëszczëc historëjã?"
+
+#: src/konqmain.cpp:96
+#, fuzzy
+#| msgid "Start without a default window"
+msgid "Start without a default window, when called without URLs"
+msgstr "Startëjë bez domëslnegò òkna"
+
+#: src/konqmain.cpp:98
+msgid ""
+"Preload for later use. This mode does not support URLs on the command line"
+msgstr ""
+
+#: src/konqmain.cpp:100
+msgid "Profile to open"
+msgstr "Profil do òtemkniãcô"
+
+#: src/konqmain.cpp:102
+msgid "List available profiles"
+msgstr "Pòkôżë przistãpne profile"
+
+#: src/konqmain.cpp:104
+msgid "List available sessions"
+msgstr "Pòkôżë przëstãpne sesëje"
+
+#: src/konqmain.cpp:106
+msgid "Session to open"
+msgstr "Sesëjô do òtemkniãcô"
+
+#: src/konqmain.cpp:108
+msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
+msgstr "Ôrt MIME dlô tegò URL (np. text/html czë inode/directory)"
+
+#: src/konqmain.cpp:110
+msgid ""
+"For URLs that point to files, opens the directory and selects the file, "
+"instead of opening the actual file"
+msgstr ""
+"Dlô adresów URL chtërné są lopkama, òtmëkô katalog ë wëbierô pòdóny lopk w "
+"môlu òtemkniãcô lopkù"
+
+#: src/konqmain.cpp:112
+msgid "Location to open"
+msgstr "Adresa do òtemkniãcô"
 
 #: src/konqmainwindow.cpp:557
 msgctxt "@title:tab"
@@ -852,11 +1019,6 @@ msgstr "Òtemkni w &tim òknie"
 msgid "Open the document in current window"
 msgstr "Òtemkni dokùment w tim òknie"
 
-#: src/konqmainwindow.cpp:4499 src/konqhistoryview.cpp:62
-#: sidebar/web_module/web_module.cpp:61
-msgid "Open in New &Window"
-msgstr "Òtemkni w nowim ò&knie"
-
 #: src/konqmainwindow.cpp:4500
 msgid "Open the document in a new window"
 msgstr "Òtemkni dokùment w nowim òknie"
@@ -912,11 +1074,6 @@ msgstr ""
 "Na starna zamëkô w se jesz ni wësłóné zmianë.\n"
 "Zamëkając to òknò niechôsz te zmianë."
 
-#: src/konqmainwindow.cpp:4972 src/konqmainwindow.cpp:5032
-#: src/konqclosedwindowsmanager.cpp:418
-msgid "no name"
-msgstr "bez miona"
-
 #: src/konqmainwindow.cpp:5099
 msgid ""
 "Your sidebar is not functional or unavailable. A new entry cannot be added."
@@ -950,44 +1107,17 @@ msgstr ""
 "Pòkôza sã wierã fela kòfigùracëji. Konqueror òstôł sparłączony z ôrtã %1 "
 "jaczégò nie rozmie òbsłużëc."
 
-#: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
-msgid "Und&o: Closed Tab"
-msgstr "Przëwrócë: Zamkniãtą kôrtã"
+#: src/konqprofiledlg.cpp:111
+msgid "Profile Management"
+msgstr "Sprôwianié profilama"
 
-#: src/konqundomanager.cpp:112 src/konqundomanager.cpp:120
-#: src/konqundomanager.cpp:162
-msgid "Und&o: Closed Window"
-msgstr "&Przëwrócë: Zamkniãtą kôrtã"
+#: src/konqprofiledlg.cpp:114
+msgid "&Rename Profile"
+msgstr "&Zmieni miono profilu"
 
-#: src/konqundomanager.cpp:122
-msgid "Und&o"
-msgstr "P&rzëwrócë"
-
-#: src/konqhistorymodel.cpp:137
-#, kde-format
-msgid ""
-"<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: %"
-"3<br />Number of times visited: %4</qt>"
-msgstr ""
-"<qt><center><b>%1</b></center><hr />Slédno òbzéróné: %2<br />Pierszi rôz "
-"òbzéróné: %3<br />Wielëna òbzéraniô: %4</qt>"
-
-#: src/konqhistorymodel.cpp:233
-msgid "Local"
-msgstr "Môlowò"
-
-#: src/konqhistorymodel.cpp:236
-msgid "Miscellaneous"
-msgstr "Różné"
-
-#: src/konqextensionmanager.cpp:54
-msgid "Configure"
-msgstr "Kònfigùrëjë"
-
-#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
-#: src/konqextensionmanager.cpp:78
-msgid "Extensions"
-msgstr "Rozszérzenia"
+#: src/konqprofiledlg.cpp:115
+msgid "&Delete Profile"
+msgstr "&Rëmôj profil"
 
 #: src/konqsessiondlg.cpp:77
 msgid "Manage Sessions"
@@ -1015,54 +1145,6 @@ msgstr "Sesëjô z mionã '%1' ju je, chcesz ją nadpisac?"
 msgid "Session exists. Overwrite?"
 msgstr "Sesëjô ju je. Nadpisac?"
 
-#: src/konqviewmanager.cpp:1404
-msgid ""
-"You have multiple tabs open in this window.\n"
-"Loading a view profile will close them."
-msgstr ""
-"W tim òknie òtemkłëch je wiele kôrtów.\n"
-"Wladowanié profilu zamknie je."
-
-#: src/konqviewmanager.cpp:1407
-msgid "Load View Profile"
-msgstr "Wczëtôj profil wëzdrzatkù"
-
-#: src/konqviewmanager.cpp:1419
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Loading a profile will discard these changes."
-msgstr ""
-"Ta kôrta zamëkô w se niewësłóné zmianë.\n"
-"Wladowanié profilu cësnié je."
-
-#: src/konqguiclients.cpp:66
-#, kde-format
-msgid "Preview &in %1"
-msgstr "Pòdzerk &w %1"
-
-#: src/konqguiclients.cpp:135
-#, kde-format
-msgid "Show %1"
-msgstr "Pòkôżë %1"
-
-#: src/konqview.cpp:1199
-msgid ""
-"The page you are trying to view is the result of posted form data. If you "
-"resend the data, any action the form carried out (such as search or online "
-"purchase) will be repeated. "
-msgstr ""
-"Starna jaką chcesz òbezdrzec, je skùtkã wësłónëch pòdôwków fòrmùlaru. Jeżlë "
-"wëslesz pòdôwczi znowa, wszëtczé dzejania jaczi są skùtkã wësłaniô fòlmùlaru "
-"(np. wësłanié zamówieniô czë szëkba), òstaną znowioné. "
-
-#: src/konqview.cpp:1201
-msgid "Warning"
-msgstr "Òstrzéga"
-
-#: src/konqview.cpp:1201
-msgid "Resend"
-msgstr "Wëslë znowa"
-
 #: src/konqsessionmanager.cpp:330
 msgid ""
 "Konqueror did not close correctly. Would you like to restore the previous "
@@ -1085,122 +1167,6 @@ msgstr "Nie doprowôdzôj nazôd"
 #: src/konqsessionmanager.cpp:335
 msgid "Ask Me Later"
 msgstr "Pëtôj mie pózdni"
-
-#: src/konqframestatusbar.cpp:109
-msgid ""
-"Checking this box on at least two views sets those views as 'linked'. Then, "
-"when you change directories in one view, the other views linked with it will "
-"automatically update to show the current directory. This is especially "
-"useful with different types of views, such as a directory tree with an icon "
-"view or detailed view, and possibly a terminal emulator window."
-msgstr ""
-"Wëbranié ti òptacëji dô co nômni w dwóch wëzdrzatkach ich sparłączenié. Tedë "
-"zmiana katalogù w jednym wëzdrzatkù sprôwi aùtomatno wëskrzënianié tegò "
-"katalogù w drëdżim. Je to òsoblëwie zdatné dlô rozmajitëch wëzdrzatków, n.p. "
-"wëzdrzatk drzéwiã ë wëzdrzatk ikònów/detalów czë mòżlëwi emùlacëji terminala."
-
-#: src/konqframestatusbar.cpp:156
-msgid "Close View"
-msgstr "Zamkni wëzdrzatk"
-
-#: src/konqframestatusbar.cpp:236
-#, kde-format
-msgid "%1/s"
-msgstr "%1/s"
-
-#: src/konqframestatusbar.cpp:238
-msgid "Stalled"
-msgstr "Zatrzimanié"
-
-#: src/konqmain.cpp:96
-#, fuzzy
-#| msgid "Start without a default window"
-msgid "Start without a default window, when called without URLs"
-msgstr "Startëjë bez domëslnegò òkna"
-
-#: src/konqmain.cpp:98
-msgid ""
-"Preload for later use. This mode does not support URLs on the command line"
-msgstr ""
-
-#: src/konqmain.cpp:100
-msgid "Profile to open"
-msgstr "Profil do òtemkniãcô"
-
-#: src/konqmain.cpp:102
-msgid "List available profiles"
-msgstr "Pòkôżë przistãpne profile"
-
-#: src/konqmain.cpp:104
-msgid "List available sessions"
-msgstr "Pòkôżë przëstãpne sesëje"
-
-#: src/konqmain.cpp:106
-msgid "Session to open"
-msgstr "Sesëjô do òtemkniãcô"
-
-#: src/konqmain.cpp:108
-msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
-msgstr "Ôrt MIME dlô tegò URL (np. text/html czë inode/directory)"
-
-#: src/konqmain.cpp:110
-msgid ""
-"For URLs that point to files, opens the directory and selects the file, "
-"instead of opening the actual file"
-msgstr ""
-"Dlô adresów URL chtërné są lopkama, òtmëkô katalog ë wëbierô pòdóny lopk w "
-"môlu òtemkniãcô lopkù"
-
-#: src/konqmain.cpp:112
-msgid "Location to open"
-msgstr "Adresa do òtemkniãcô"
-
-#: src/konqhistoryview.cpp:67
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:94
-#: sidebar/trees/konq_sidebartree.cpp:232
-msgid "Open in New Tab"
-msgstr "Òtemkni w nowi karce"
-
-#: src/konqhistoryview.cpp:71
-msgid "&Copy Link Address"
-msgstr "&Kòpérëjë adresã lënka"
-
-#: src/konqhistoryview.cpp:76
-msgid "&Remove Entry"
-msgstr "&Rëmôj wpisënk"
-
-#: src/konqhistoryview.cpp:83
-msgid "C&lear History"
-msgstr "&Wëczëszczë historëjã"
-
-#: src/konqhistoryview.cpp:88
-msgid "&Preferences..."
-msgstr "&Swòjiznë..."
-
-#: src/konqhistoryview.cpp:95
-msgid "By &Name"
-msgstr "wedle &miona"
-
-#: src/konqhistoryview.cpp:101
-msgid "By &Date"
-msgstr "wedle &datuma"
-
-#: src/konqhistoryview.cpp:111
-msgid "Search in history"
-msgstr "Szëkba w historëji"
-
-#: src/konqhistoryview.cpp:143 src/konqhistorydialog.cpp:61
-msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
-msgid "Sort"
-msgstr "Zortëjë"
-
-#: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
-msgid "Do you really want to clear the entire history?"
-msgstr "Jes gwës tegò, że chcesz wëczëszczëc całą historëjã?"
-
-#: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
-msgid "Clear History?"
-msgstr "Wëczëszczëc historëjã?"
 
 #: src/konqtabs.cpp:66
 msgid ""
@@ -1243,180 +1209,56 @@ msgstr "Ò&dłączë kôrtã"
 msgid "&Close Tab"
 msgstr "&Zamkni kôrtã"
 
-#: src/konqhistorydialog.cpp:45
-msgctxt "@title:window"
-msgid "History"
-msgstr "Historëjô"
+#: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
+msgid "Und&o: Closed Tab"
+msgstr "Przëwrócë: Zamkniãtą kôrtã"
 
-#: src/konqprofiledlg.cpp:111
-msgid "Profile Management"
-msgstr "Sprôwianié profilama"
+#: src/konqundomanager.cpp:112 src/konqundomanager.cpp:120
+#: src/konqundomanager.cpp:162
+msgid "Und&o: Closed Window"
+msgstr "&Przëwrócë: Zamkniãtą kôrtã"
 
-#: src/konqprofiledlg.cpp:114
-msgid "&Rename Profile"
-msgstr "&Zmieni miono profilu"
+#: src/konqundomanager.cpp:122
+msgid "Und&o"
+msgstr "P&rzëwrócë"
 
-#: src/konqprofiledlg.cpp:115
-msgid "&Delete Profile"
-msgstr "&Rëmôj profil"
-
-#: sidebar/web_module/web_module.cpp:57
-msgid "&Open Link"
-msgstr "Òtemkni &lënk"
-
-#: sidebar/web_module/web_module.cpp:73
-msgid "Set &Automatic Reload"
-msgstr "Wëłączë &aùtomatné òdswierzanié"
-
-#: sidebar/web_module/web_module.cpp:137
-msgid "Set Refresh Timeout (0 disables)"
-msgstr "Ùstôwi czas òdswierzaniô (0 wëłączô)"
-
-#: sidebar/web_module/web_module.cpp:145
-msgid " min"
-msgstr " min."
-
-#: sidebar/web_module/web_module.cpp:148
-msgid " sec"
-msgstr " sek."
-
-#: sidebar/web_module/web_module.cpp:280
-msgctxt "@action:inmenu Add"
-msgid "Web Sidebar Module"
-msgstr "Sécowi mòduł bòczny listewë"
-
-#: sidebar/web_module/web_module.cpp:300
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-msgctxt "@label"
-msgid "Name:"
-msgstr "Miono:"
-
-#: sidebar/web_module/web_module.cpp:300
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-msgctxt "@label"
-msgid "Path or URL:"
-msgstr "Stgna adresë URL:"
-
-#: sidebar/web_module/web_module.cpp:301
-msgctxt "@title:window"
-msgid "Add web sidebar module"
-msgstr "Dodôj sécowi mòduł bòczny listwë"
-
-#: sidebar/trees/dirtree_module/dirtree_module.cpp:417
-#, kde-format
-msgid "Cannot find parent item %1 in the tree. Internal error."
-msgstr "Ni mòże nalezc nôdrzãdnegò elementu %1 w drzewie. Bënowô fela."
-
-#: sidebar/trees/bookmark_module/bookmark_module.h:88
-msgid "Add Bookmark"
-msgstr "Dodôj załóżkã"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:74
-msgid "&Create New Folder"
-msgstr "Ùsôdzë nowi &katalog"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:78
-#: sidebar/trees/konq_sidebartree.cpp:207
-msgid "Delete Folder"
-msgstr "Rëmôj katalog"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:82
-msgid "Delete Bookmark"
-msgstr "Rëmôj załóżkã"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:86
-#: sidebar/trees/konq_sidebartree.cpp:224
-msgid "Properties"
-msgstr "Swòjiznë"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:90
-#: sidebar/trees/konq_sidebartree.cpp:228
-msgid "Open in New Window"
-msgstr "Òtemkni w nowim òknie"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:98
-msgid "Open Folder in Tabs"
-msgstr "Òtemkni katalog w kôrtach"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:102
-#: sidebar/trees/konq_sidebartree.cpp:236
-msgid "Copy Link Address"
-msgstr "Kòpérëjë adresã lënka"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:335
-#, kde-format
+#: src/konqview.cpp:1199
 msgid ""
-"Are you sure you wish to remove the bookmark folder\n"
-"\"%1\"?"
+"The page you are trying to view is the result of posted form data. If you "
+"resend the data, any action the form carried out (such as search or online "
+"purchase) will be repeated. "
 msgstr ""
-"Jes gwës tegò, że chcesz rëmnąc katalog załóżków\n"
-"\"%1\"?"
+"Starna jaką chcesz òbezdrzec, je skùtkã wësłónëch pòdôwków fòrmùlaru. Jeżlë "
+"wëslesz pòdôwczi znowa, wszëtczé dzejania jaczi są skùtkã wësłaniô fòlmùlaru "
+"(np. wësłanié zamówieniô czë szëkba), òstaną znowioné. "
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:336
-#, kde-format
+#: src/konqview.cpp:1201
+msgid "Warning"
+msgstr "Òstrzéga"
+
+#: src/konqview.cpp:1201
+msgid "Resend"
+msgstr "Wëslë znowa"
+
+#: src/konqviewmanager.cpp:1404
 msgid ""
-"Are you sure you wish to remove the bookmark\n"
-"\"%1\"?"
+"You have multiple tabs open in this window.\n"
+"Loading a view profile will close them."
 msgstr ""
-"Jes gwës tegò, że chcesz rëmnąc załóżkã\n"
-"\"%1\"?"
+"W tim òknie òtemkłëch je wiele kôrtów.\n"
+"Wladowanié profilu zamknie je."
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:337
-msgid "Bookmark Folder Deletion"
-msgstr "Rëminãce katalogù załóżków"
+#: src/konqviewmanager.cpp:1407
+msgid "Load View Profile"
+msgstr "Wczëtôj profil wëzdrzatkù"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:338
-msgid "Bookmark Deletion"
-msgstr "Rëminãce załóżczi"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:380
-msgid "Bookmark Properties"
-msgstr "Swòjizna załóżczi"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:565
-msgid "&Update"
-msgstr "&Aktualizacëjô"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:573
-msgid "Name:"
-msgstr "Miono:"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:581
-msgid "Location:"
-msgstr "Lokalizacëjô:"
-
-#: sidebar/trees/konq_sidebartree.cpp:203
-msgid "&Create New Folder..."
-msgstr "Ùsôdzë nowi &katalog..."
-
-#: sidebar/trees/konq_sidebartree.cpp:211
-msgid "Move to Trash"
-msgstr "Przeniesë do kòsza"
-
-#: sidebar/trees/konq_sidebartree.cpp:215
-msgid "Rename"
-msgstr "Zmieni miono"
-
-#: sidebar/trees/konq_sidebartree.cpp:220
-msgid "Delete Link"
-msgstr "Rëmôj lënk"
-
-#: sidebar/trees/konq_sidebartree.cpp:951
-msgid "New Folder"
-msgstr "Nowi katalog"
-
-#: sidebar/trees/konq_sidebartree.cpp:955
-msgid "Create New Folder"
-msgstr "Ùsôdzë nowi katalog"
-
-#: sidebar/trees/konq_sidebartree.cpp:956
-msgid "Enter folder name:"
-msgstr "Miono katalogù:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
-msgctxt "@title:window"
-msgid "Add folder sidebar module"
-msgstr "Dodôj katalog mòdułu bòcznu listwë"
+#: src/konqviewmanager.cpp:1419
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Loading a profile will discard these changes."
+msgstr ""
+"Ta kôrta zamëkô w se niewësłóné zmianë.\n"
+"Wladowanié profilu cësnié je."
 
 #: sidebar/history_module/history_module.cpp:126
 msgctxt "@action:inmenu Add"
@@ -1574,6 +1416,164 @@ msgstr "Rëmôj"
 #: sidebar/sidebar_widget.cpp:846
 msgid "Web module"
 msgstr "Sécowi mòduł"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:74
+msgid "&Create New Folder"
+msgstr "Ùsôdzë nowi &katalog"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:78
+#: sidebar/trees/konq_sidebartree.cpp:207
+msgid "Delete Folder"
+msgstr "Rëmôj katalog"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:82
+msgid "Delete Bookmark"
+msgstr "Rëmôj załóżkã"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:86
+#: sidebar/trees/konq_sidebartree.cpp:224
+msgid "Properties"
+msgstr "Swòjiznë"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:90
+#: sidebar/trees/konq_sidebartree.cpp:228
+msgid "Open in New Window"
+msgstr "Òtemkni w nowim òknie"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:98
+msgid "Open Folder in Tabs"
+msgstr "Òtemkni katalog w kôrtach"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:102
+#: sidebar/trees/konq_sidebartree.cpp:236
+msgid "Copy Link Address"
+msgstr "Kòpérëjë adresã lënka"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:335
+#, kde-format
+msgid ""
+"Are you sure you wish to remove the bookmark folder\n"
+"\"%1\"?"
+msgstr ""
+"Jes gwës tegò, że chcesz rëmnąc katalog załóżków\n"
+"\"%1\"?"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:336
+#, kde-format
+msgid ""
+"Are you sure you wish to remove the bookmark\n"
+"\"%1\"?"
+msgstr ""
+"Jes gwës tegò, że chcesz rëmnąc załóżkã\n"
+"\"%1\"?"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:337
+msgid "Bookmark Folder Deletion"
+msgstr "Rëminãce katalogù załóżków"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:338
+msgid "Bookmark Deletion"
+msgstr "Rëminãce załóżczi"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:380
+msgid "Bookmark Properties"
+msgstr "Swòjizna załóżczi"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:565
+msgid "&Update"
+msgstr "&Aktualizacëjô"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:573
+msgid "Name:"
+msgstr "Miono:"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:581
+msgid "Location:"
+msgstr "Lokalizacëjô:"
+
+#: sidebar/trees/bookmark_module/bookmark_module.h:88
+msgid "Add Bookmark"
+msgstr "Dodôj załóżkã"
+
+#: sidebar/trees/dirtree_module/dirtree_module.cpp:417
+#, kde-format
+msgid "Cannot find parent item %1 in the tree. Internal error."
+msgstr "Ni mòże nalezc nôdrzãdnegò elementu %1 w drzewie. Bënowô fela."
+
+#: sidebar/trees/konq_sidebartree.cpp:203
+msgid "&Create New Folder..."
+msgstr "Ùsôdzë nowi &katalog..."
+
+#: sidebar/trees/konq_sidebartree.cpp:211
+msgid "Move to Trash"
+msgstr "Przeniesë do kòsza"
+
+#: sidebar/trees/konq_sidebartree.cpp:215
+msgid "Rename"
+msgstr "Zmieni miono"
+
+#: sidebar/trees/konq_sidebartree.cpp:220
+msgid "Delete Link"
+msgstr "Rëmôj lënk"
+
+#: sidebar/trees/konq_sidebartree.cpp:951
+msgid "New Folder"
+msgstr "Nowi katalog"
+
+#: sidebar/trees/konq_sidebartree.cpp:955
+msgid "Create New Folder"
+msgstr "Ùsôdzë nowi katalog"
+
+#: sidebar/trees/konq_sidebartree.cpp:956
+msgid "Enter folder name:"
+msgstr "Miono katalogù:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+msgctxt "@label"
+msgid "Name:"
+msgstr "Miono:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+msgctxt "@label"
+msgid "Path or URL:"
+msgstr "Stgna adresë URL:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
+msgctxt "@title:window"
+msgid "Add folder sidebar module"
+msgstr "Dodôj katalog mòdułu bòcznu listwë"
+
+#: sidebar/web_module/web_module.cpp:57
+msgid "&Open Link"
+msgstr "Òtemkni &lënk"
+
+#: sidebar/web_module/web_module.cpp:73
+msgid "Set &Automatic Reload"
+msgstr "Wëłączë &aùtomatné òdswierzanié"
+
+#: sidebar/web_module/web_module.cpp:137
+msgid "Set Refresh Timeout (0 disables)"
+msgstr "Ùstôwi czas òdswierzaniô (0 wëłączô)"
+
+#: sidebar/web_module/web_module.cpp:145
+msgid " min"
+msgstr " min."
+
+#: sidebar/web_module/web_module.cpp:148
+msgid " sec"
+msgstr " sek."
+
+#: sidebar/web_module/web_module.cpp:280
+msgctxt "@action:inmenu Add"
+msgid "Web Sidebar Module"
+msgstr "Sécowi mòduł bòczny listewë"
+
+#: sidebar/web_module/web_module.cpp:301
+msgctxt "@title:window"
+msgid "Add web sidebar module"
+msgstr "Dodôj sécowi mòduł bòczny listwë"
 
 #: about/konq_aboutpage.cc:79 about/konq_aboutpage.cc:81
 #: about/konq_aboutpage.cc:135 about/konq_aboutpage.cc:137
