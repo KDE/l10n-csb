@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-11 02:35+0100\n"
+"POT-Creation-Date: 2011-02-02 03:06+0100\n"
 "PO-Revision-Date: 2009-12-17 22:11+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -17,30 +17,6 @@ msgstr ""
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
-
-#: kio_trash_win.cpp:228 kio_trash.cpp:140
-msgid "This file is already in the trash bin."
-msgstr "Nen lopk je w kòszu."
-
-#: kio_trash_win.cpp:241
-msgid "not supported"
-msgstr "nie wspieróné"
-
-#: kio_trash_win.cpp:252 kio_trash.cpp:228
-msgid "Internal error in copyOrMove, should never happen"
-msgstr "Bënowô fela w dzéjaniu copyOrMove - to nié mòże sã przëtrôfic"
-
-#: trashimpl.cpp:1125
-msgid ""
-"The trash has reached its maximum size!\n"
-"Cleanup the trash manually."
-msgstr ""
-"Kòsz dobëł swòja maksymalną miarã!\n"
-"Wëczëszczë kòsz rãczno."
-
-#: trashimpl.cpp:1136
-msgid "The file is too large to be trashed."
-msgstr "Nen lopk je za wiôldżi abë gò przesënąc do kòsza."
 
 #: kcmtrash.cpp:120
 msgid "Byte"
@@ -177,6 +153,18 @@ msgstr ""
 "òptacëji doprowadzeniô nazôd, abò przecygnąc nen element dze jindze abë gò "
 "przëwrócëc."
 
+#: kio_trash.cpp:140 kio_trash_win.cpp:228
+msgid "This file is already in the trash bin."
+msgstr "Nen lopk je w kòszu."
+
+#: kio_trash.cpp:228 kio_trash_win.cpp:252
+msgid "Internal error in copyOrMove, should never happen"
+msgstr "Bënowô fela w dzéjaniu copyOrMove - to nié mòże sã przëtrôfic"
+
+#: kio_trash_win.cpp:241
+msgid "not supported"
+msgstr "nie wspieróné"
+
 #: ktrash.cpp:32
 msgid "ktrash"
 msgstr "ktrash"
@@ -202,6 +190,18 @@ msgstr "Przëwrócë lopk z kòsza do jegò apartnegò pòłóżeniô"
 #: ktrash.cpp:42
 msgid "Ignored"
 msgstr "Ignorowóny"
+
+#: trashimpl.cpp:1125
+msgid ""
+"The trash has reached its maximum size!\n"
+"Cleanup the trash manually."
+msgstr ""
+"Kòsz dobëł swòja maksymalną miarã!\n"
+"Wëczëszczë kòsz rãczno."
+
+#: trashimpl.cpp:1136
+msgid "The file is too large to be trashed."
+msgstr "Nen lopk je za wiôldżi abë gò przesënąc do kòsza."
 
 #~ msgid "Protocol name"
 #~ msgstr "Miono protokołu"
