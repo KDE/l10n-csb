@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-02 12:18+0100\n"
+"POT-Creation-Date: 2011-02-04 10:22+0100\n"
 "PO-Revision-Date: 2009-12-14 21:59+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -58,6 +58,61 @@ msgstr "Wszëtczé aplikacëje"
 #: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:116 ui/launcher.cpp:175
 msgid "Favorites"
 msgstr "Ùlëbnicë"
+
+#: core/models.cpp:121
+msgid "Home Folder"
+msgstr "Domôcy katalog"
+
+#: core/models.cpp:124
+msgid "Network Folders"
+msgstr "Sécowé katalodżi"
+
+#: core/recentlyusedmodel.cpp:109
+msgid "Documents"
+msgstr "Dokùmentë"
+
+#: core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:84
+#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:118 ui/launcher.cpp:205
+msgid "Applications"
+msgstr "Aplikacëje"
+
+#: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:197
+#: ui/launcher.cpp:119 ui/launcher.cpp:218
+msgid "Recently Used"
+msgstr "Slédno brëkòwóne"
+
+#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:199
+msgid "Recently Used Documents"
+msgstr "Slédno brëkòwóné dokùmentë"
+
+#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:198
+msgid "Recently Used Applications"
+msgstr "Wszëtczé slédno brëkòwóné aplikacëje"
+
+#: core/systemmodel.cpp:85
+msgid "Places"
+msgstr "Môle"
+
+#: core/systemmodel.cpp:86
+msgid "Removable Storage"
+msgstr "Zapisowny disk"
+
+#: core/systemmodel.cpp:87
+msgid "Storage"
+msgstr "Zbérnica"
+
+#: core/systemmodel.cpp:215 simpleapplet/simpleapplet.cpp:201
+msgid "Run Command..."
+msgstr "Zrëszë pòlét..."
+
+#: core/systemmodel.cpp:219
+msgid "Run a command or a search query"
+msgstr "Zrëszë pòlét abò szëkôj za zapëtanim"
+
+#: core/systemmodel.cpp:327 simpleapplet/simpleapplet.cpp:196
+#: ui/launcher.cpp:118 ui/launcher.cpp:239
+msgid "Computer"
+msgstr "Kòmpùtr"
 
 #: core/leavemodel.cpp:48 simpleapplet/simpleapplet.cpp:210
 #, fuzzy
@@ -149,61 +204,6 @@ msgstr "Sesëjô"
 #: core/leavemodel.cpp:139
 msgid "System"
 msgstr "Systema"
-
-#: core/models.cpp:121
-msgid "Home Folder"
-msgstr "Domôcy katalog"
-
-#: core/models.cpp:124
-msgid "Network Folders"
-msgstr "Sécowé katalodżi"
-
-#: core/recentlyusedmodel.cpp:109
-msgid "Documents"
-msgstr "Dokùmentë"
-
-#: core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:84
-#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:118 ui/launcher.cpp:205
-msgid "Applications"
-msgstr "Aplikacëje"
-
-#: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:197
-#: ui/launcher.cpp:119 ui/launcher.cpp:218
-msgid "Recently Used"
-msgstr "Slédno brëkòwóne"
-
-#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:199
-msgid "Recently Used Documents"
-msgstr "Slédno brëkòwóné dokùmentë"
-
-#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:198
-msgid "Recently Used Applications"
-msgstr "Wszëtczé slédno brëkòwóné aplikacëje"
-
-#: core/systemmodel.cpp:85
-msgid "Places"
-msgstr "Môle"
-
-#: core/systemmodel.cpp:86
-msgid "Removable Storage"
-msgstr "Zapisowny disk"
-
-#: core/systemmodel.cpp:87
-msgid "Storage"
-msgstr "Zbérnica"
-
-#: core/systemmodel.cpp:215 simpleapplet/simpleapplet.cpp:201
-msgid "Run Command..."
-msgstr "Zrëszë pòlét..."
-
-#: core/systemmodel.cpp:219
-msgid "Run a command or a search query"
-msgstr "Zrëszë pòlét abò szëkôj za zapëtanim"
-
-#: core/systemmodel.cpp:327 simpleapplet/simpleapplet.cpp:196
-#: ui/launcher.cpp:118 ui/launcher.cpp:239
-msgid "Computer"
-msgstr "Kòmpùtr"
 
 #: main.cpp:32
 msgid "Kickoff"
@@ -318,6 +318,11 @@ msgstr "Wësënié"
 msgid "Safely Remove"
 msgstr "Rëmôj bezpieczno"
 
+#: ui/searchbar.cpp:70
+msgctxt "Label of the search bar textedit"
+msgid "Search:"
+msgstr "Szëkba:"
+
 #: ui/launcher.cpp:178
 msgid "Sort Alphabetically (A to Z)"
 msgstr "Zortëjë alfabétno (òd A do Z)"
@@ -345,11 +350,6 @@ msgstr "Brëkòwnik <b>%1</b> na <b>%2</b>"
 msgctxt "full name, login name, hostname"
 msgid "<b>%1 (%2)</b> on <b>%3</b>"
 msgstr "<b>%1 (%2)</b> na <b>%3</b>"
-
-#: ui/searchbar.cpp:70
-msgctxt "Label of the search bar textedit"
-msgid "Search:"
-msgstr "Szëkba:"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
