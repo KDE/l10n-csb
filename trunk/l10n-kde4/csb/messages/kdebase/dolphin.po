@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-08 02:35+0100\n"
+"POT-Creation-Date: 2011-02-10 02:47+0100\n"
 "PO-Revision-Date: 2009-12-09 23:08+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -81,7 +81,7 @@ msgctxt "@action:inmenu"
 msgid "Delete"
 msgstr "Rëmôj"
 
-#: panels/folders/treeviewcontextmenu.cpp:111 dolphincontextmenu.cpp:365
+#: panels/folders/treeviewcontextmenu.cpp:111 dolphincontextmenu.cpp:367
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "Swòjizna"
@@ -781,7 +781,7 @@ msgctxt "@option:check"
 msgid "Use these view properties as default"
 msgstr "Ùżëjë domëslny swòjiznë wëzdrzatkù dlô wszëtczich katalogów"
 
-#: settings/viewpropertiesdialog.cpp:338
+#: settings/viewpropertiesdialog.cpp:337
 #, fuzzy
 #| msgctxt "@info"
 #| msgid ""
@@ -795,7 +795,7 @@ msgstr ""
 "Swòjiznë wëzdrzatkù wszëtczich pòdkatalogów òstaną zmienioné. Chcesz "
 "kòntinuòwac?"
 
-#: settings/viewpropertiesdialog.cpp:373
+#: settings/viewpropertiesdialog.cpp:370
 msgctxt "@info"
 msgid ""
 "The view properties of all folders will be changed. Do you want to continue?"
@@ -860,6 +860,69 @@ msgctxt "@info:status Free disk space"
 msgid "%1 free"
 msgstr "%1 wòlne"
 
+#: views/dolphinview.cpp:500
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected"
+msgstr "<filename>%1</filename> wëbróné"
+
+#: views/dolphinview.cpp:501
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected (%2)"
+msgstr "<filename>%1</filename> wëbróny (%2)"
+
+#: views/dolphinview.cpp:505
+#, kde-format
+msgctxt "@info:status"
+msgid "1 Folder selected"
+msgid_plural "%1 Folders selected"
+msgstr[0] "1 katalog zaznaczony"
+msgstr[1] "%1 katalodżi zaznaczoné"
+msgstr[2] "%1 zaznaczonëch katalogów"
+
+#: views/dolphinview.cpp:506
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File selected"
+msgid_plural "%1 Files selected"
+msgstr[0] "1 lopk wëbróny"
+msgstr[1] "%1 lopczi zaznaczoné"
+msgstr[2] "%1 zaznaczonëch lopków"
+
+#: views/dolphinview.cpp:508
+#, kde-format
+msgctxt "@info:status folders, files (size)"
+msgid "%1, %2 (%3)"
+msgstr "%1, %2 (%3)"
+
+#: views/dolphinview.cpp:511
+#, kde-format
+msgctxt "@info:status files (size)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: views/dolphinview.cpp:1039
+msgctxt "@info:status"
+msgid "Delete operation completed."
+msgstr "Rëmôj skùńczoné òperacëje."
+
+#: views/dolphinview.cpp:1141
+msgctxt "@info:status"
+msgid "The location is empty."
+msgstr "Lokacëjô je pùstô."
+
+#: views/dolphinview.cpp:1143
+#, kde-format
+msgctxt "@info:status"
+msgid "The location '%1' is invalid."
+msgstr "Lokacëjô '%1' je zmiłkòwô."
+
+#: views/draganddrophelper.cpp:108
+msgctxt "@info:status"
+msgid "A folder cannot be dropped into itself"
+msgstr "Katalog ni mòże bëc przesëniãti do se"
+
 #: views/renamedialog.cpp:54
 msgctxt "@title:window"
 msgid "Rename Item"
@@ -900,25 +963,175 @@ msgctxt "@info"
 msgid "(# will be replaced by ascending numbers)"
 msgstr "(# òstanié zmienioné na roscącé numrë)"
 
-#: views/selectiontoggle.cpp:132
-msgctxt "@info:tooltip"
-msgid "Deselect Item"
-msgstr "Òdznaczë element"
+#: views/dolphindetailsview.cpp:144
+msgctxt "@option:check"
+msgid "Expandable Folders"
+msgstr "Rozszérzólné katalodżi"
 
-#: views/selectiontoggle.cpp:133
-msgctxt "@info:tooltip"
-msgid "Select Item"
-msgstr "Wëbiérzë element"
+#: views/dolphindetailsview.cpp:372
+msgctxt "@title:menu"
+msgid "Columns"
+msgstr "Kòlumnë"
 
-#: views/versioncontrol/versioncontrolobserver.cpp:189
+#: views/dolphincolumnview.cpp:88
+msgctxt "@info:tooltip"
+msgid "Resize column"
+msgstr ""
+
+#: views/dolphindirlister.cpp:41
+msgctxt "@info:status"
+msgid "Unknown error."
+msgstr "Nieznónô fela."
+
+#: views/dolphinviewactionhandler.cpp:87
+msgctxt "@action"
+msgid "Create Folder..."
+msgstr "Ùsôdzë katalog..."
+
+#: views/dolphinviewactionhandler.cpp:95
+msgctxt "@action:inmenu File"
+msgid "Rename..."
+msgstr "Zmieni miono..."
+
+#: views/dolphinviewactionhandler.cpp:101
+msgctxt "@action:inmenu File"
+msgid "Move to Trash"
+msgstr "Przeniesë do kòsza"
+
+#: views/dolphinviewactionhandler.cpp:109
+msgctxt "@action:inmenu File"
+msgid "Delete"
+msgstr "Rëmôj"
+
+#: views/dolphinviewactionhandler.cpp:119
+#, fuzzy
+#| msgctxt "@action:inmenu File"
+#| msgid "Delete (using shortcut for Trash)"
+msgctxt "@action \"Move to Trash\" for non-local files, etc."
+msgid "Delete (using shortcut for Trash)"
+msgstr "Rëmôj (brëkùjąc skrodzënë dlô kòsza)"
+
+#: views/dolphinviewactionhandler.cpp:126
+msgctxt "@action:inmenu File"
+msgid "Properties"
+msgstr "Swòjizna"
+
+#: views/dolphinviewactionhandler.cpp:137
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "View Mode"
+msgctxt "@action:intoolbar"
+msgid "View Mode"
+msgstr "Trib wëzdrzatkù"
+
+#: views/dolphinviewactionhandler.cpp:153
+msgctxt "@action:intoolbar"
+msgid "Preview"
+msgstr "Pòdzérk"
+
+#: views/dolphinviewactionhandler.cpp:154
+msgctxt "@info"
+msgid "Show preview of files and folders"
+msgstr "Wëskrzëni pòdzerczi lopków ë katalogów"
+
+#: views/dolphinviewactionhandler.cpp:159
+msgctxt "@action:inmenu Sort"
+msgid "Descending"
+msgstr "Malejąco"
+
+#: views/dolphinviewactionhandler.cpp:163
+msgctxt "@action:inmenu Sort"
+msgid "Folders First"
+msgstr "Wprzód katalodżi"
+
+#: views/dolphinviewactionhandler.cpp:171
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Sort By"
+msgctxt "@action:inmenu View"
+msgid "Sort By"
+msgstr "Zortëjë wedle"
+
+#: views/dolphinviewactionhandler.cpp:186
+#: views/dolphinviewactionhandler.cpp:212
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Additional Information"
+msgctxt "@action:inmenu View"
+msgid "Additional Information"
+msgstr "Dodôwnô wedowiédzô"
+
+#: views/dolphinviewactionhandler.cpp:193
+msgctxt "@action:inmenu View"
+msgid "Show in Groups"
+msgstr "Wëskrzëni w grëpach"
+
+#: views/dolphinviewactionhandler.cpp:197
+msgctxt "@action:inmenu View"
+msgid "Show Hidden Files"
+msgstr "Wëskrzëni zataconé lopczi"
+
+#: views/dolphinviewactionhandler.cpp:202
+msgctxt "@action:inmenu View"
+msgid "Adjust View Properties..."
+msgstr "Dopasëjë swòjiznë wëzdrzatkù..."
+
+#: views/dolphinviewactionhandler.cpp:237
+msgctxt "@action:inmenu Sort By"
+msgid "Name"
+msgstr "Mionama"
+
+#: views/dolphinviewactionhandler.cpp:440
+msgctxt "@action:inmenu View Mode"
+msgid "Icons"
+msgstr "Ikònë"
+
+#: views/dolphinviewactionhandler.cpp:441
+msgctxt "@info"
+msgid "Icons view mode"
+msgstr "Ikònë tribù wëzdrzatkù"
+
+#: views/dolphinviewactionhandler.cpp:451
+msgctxt "@action:inmenu View Mode"
+msgid "Details"
+msgstr "Detale"
+
+#: views/dolphinviewactionhandler.cpp:452
+msgctxt "@info"
+msgid "Details view mode"
+msgstr "Detale tribù wëzdrzatkù"
+
+#: views/dolphinviewactionhandler.cpp:462
+msgctxt "@action:inmenu View Mode"
+msgid "Columns"
+msgstr "Kòlumnë"
+
+#: views/dolphinviewactionhandler.cpp:463
+msgctxt "@info"
+msgid "Columns view mode"
+msgstr "Kòlumnë tribù wëzdrzatkù"
+
+#: views/versioncontrol/versioncontrolobserver.cpp:190
 msgctxt "@info:status"
 msgid "Update of version information failed."
 msgstr "Felëje zaktualnienia wëdowiédzë ò wersëji."
 
-#: views/versioncontrol/versioncontrolobserver.cpp:242
+#: views/versioncontrol/versioncontrolobserver.cpp:243
 msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "Zaktualnienie wëdowiédzë ò wersëji..."
+
+#: views/dolphinremoteencoding.cpp:53
+msgid "Select Remote Charset"
+msgstr "Wëbiérzë daleczi zestôwk znaków"
+
+#: views/dolphinremoteencoding.cpp:117
+msgid "Reload"
+msgstr "Zladëjë znowa"
+
+#: views/dolphinremoteencoding.cpp:118
+msgid "Default"
+msgstr "Domëszlnô"
 
 #: views/additionalinfoaccessor.cpp:105
 #, fuzzy
@@ -983,26 +1196,6 @@ msgstr "Òpisënk:"
 msgctxt "@label"
 msgid "Path"
 msgstr "Wlepi"
-
-#: views/dolphincolumnview.cpp:88
-msgctxt "@info:tooltip"
-msgid "Resize column"
-msgstr ""
-
-#: views/dolphindetailsview.cpp:144
-msgctxt "@option:check"
-msgid "Expandable Folders"
-msgstr "Rozszérzólné katalodżi"
-
-#: views/dolphindetailsview.cpp:372
-msgctxt "@title:menu"
-msgid "Columns"
-msgstr "Kòlumnë"
-
-#: views/dolphindirlister.cpp:41
-msgctxt "@info:status"
-msgid "Unknown error."
-msgstr "Nieznónô fela."
 
 #: views/dolphinmodel.cpp:43
 msgctxt "@title:group Name"
@@ -1160,208 +1353,92 @@ msgctxt "@title:group Files and folders by permissions"
 msgid "(User: %1) (Group: %2) (Others: %3)"
 msgstr "(Brëkòwnik: %1) (Grëpa: %2) (Jinszé: %3)"
 
-#: views/dolphinremoteencoding.cpp:53
-msgid "Select Remote Charset"
-msgstr "Wëbiérzë daleczi zestôwk znaków"
+#: views/selectiontoggle.cpp:132
+msgctxt "@info:tooltip"
+msgid "Deselect Item"
+msgstr "Òdznaczë element"
 
-#: views/dolphinremoteencoding.cpp:117
-msgid "Reload"
-msgstr "Zladëjë znowa"
+#: views/selectiontoggle.cpp:133
+msgctxt "@info:tooltip"
+msgid "Select Item"
+msgstr "Wëbiérzë element"
 
-#: views/dolphinremoteencoding.cpp:118
-msgid "Default"
-msgstr "Domëszlnô"
+#: dolphincontextmenu.cpp:169
+msgctxt "@action:inmenu"
+msgid "Empty Trash"
+msgstr "Wëczëszczë kòsz"
 
-#: views/dolphinview.cpp:500
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected"
-msgstr "<filename>%1</filename> wëbróné"
+#: dolphincontextmenu.cpp:175 dolphincontextmenu.cpp:346
+msgctxt "@action:inmenu Add current folder to places"
+msgid "Add to Places"
+msgstr "Dodôj do placów"
 
-#: views/dolphinview.cpp:501
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected (%2)"
-msgstr "<filename>%1</filename> wëbróny (%2)"
+#: dolphincontextmenu.cpp:191
+msgctxt "@info"
+msgid "Do you really want to empty the Trash? All items will be deleted."
+msgstr "Na gwës chcesz wëczëszczëc kòsz? Wszëtczé elementë òstaną rëmniãté."
 
-#: views/dolphinview.cpp:505
-#, kde-format
-msgctxt "@info:status"
-msgid "1 Folder selected"
-msgid_plural "%1 Folders selected"
-msgstr[0] "1 katalog zaznaczony"
-msgstr[1] "%1 katalodżi zaznaczoné"
-msgstr[2] "%1 zaznaczonëch katalogów"
+#: dolphincontextmenu.cpp:195
+msgctxt "@action:button"
+msgid "Empty Trash"
+msgstr "Wëczëszczë kòsz"
 
-#: views/dolphinview.cpp:506
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File selected"
-msgid_plural "%1 Files selected"
-msgstr[0] "1 lopk wëbróny"
-msgstr[1] "%1 lopczi zaznaczoné"
-msgstr[2] "%1 zaznaczonëch lopków"
+#: dolphincontextmenu.cpp:204
+msgctxt "@label"
+msgid "Trash"
+msgstr "Kòsz"
 
-#: views/dolphinview.cpp:508
-#, kde-format
-msgctxt "@info:status folders, files (size)"
-msgid "%1, %2 (%3)"
-msgstr "%1, %2 (%3)"
+#: dolphincontextmenu.cpp:214
+msgctxt "@action:inmenu"
+msgid "Restore"
+msgstr "Przëwrócë"
 
-#: views/dolphinview.cpp:511
-#, kde-format
-msgctxt "@info:status files (size)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
+#: dolphincontextmenu.cpp:253 dolphinmainwindow.cpp:1417
+msgctxt "@title:menu Create new folder, file, link, etc."
+msgid "Create New"
+msgstr "Ùsôdzë nowi"
 
-#: views/dolphinview.cpp:1039
-msgctxt "@info:status"
-msgid "Delete operation completed."
-msgstr "Rëmôj skùńczoné òperacëje."
+#: dolphincontextmenu.cpp:266
+msgctxt "@action:inmenu Add selected folder to places"
+msgid "Add to Places"
+msgstr "Dodôj do placów"
 
-#: views/dolphinview.cpp:1141
-msgctxt "@info:status"
-msgid "The location is empty."
-msgstr "Lokacëjô je pùstô."
+#: dolphincontextmenu.cpp:273
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Window"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Window"
+msgstr "Òtemkni w nowim òknie"
 
-#: views/dolphinview.cpp:1143
-#, kde-format
-msgctxt "@info:status"
-msgid "The location '%1' is invalid."
-msgstr "Lokacëjô '%1' je zmiłkòwô."
+#: dolphincontextmenu.cpp:279
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Tab"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Tab"
+msgstr "Òtemkni w nowi kôrce"
 
-#: views/dolphinviewactionhandler.cpp:87
-msgctxt "@action"
-msgid "Create Folder..."
-msgstr "Ùsôdzë katalog..."
+#: dolphincontextmenu.cpp:450
+msgctxt "@action:inmenu"
+msgid "Paste Into Folder"
+msgstr "Wlepi do kataloga"
 
-#: views/dolphinviewactionhandler.cpp:95
-msgctxt "@action:inmenu File"
-msgid "Rename..."
-msgstr "Zmieni miono..."
-
-#: views/dolphinviewactionhandler.cpp:101
-msgctxt "@action:inmenu File"
-msgid "Move to Trash"
+#: dolphincontextmenu.cpp:562
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Move to Trash"
+msgctxt "@action:inmenu"
+msgid "&Move to Trash"
 msgstr "Przeniesë do kòsza"
 
-#: views/dolphinviewactionhandler.cpp:109
-msgctxt "@action:inmenu File"
-msgid "Delete"
-msgstr "Rëmôj"
-
-#: views/dolphinviewactionhandler.cpp:119
+#: dolphincontextmenu.cpp:565
 #, fuzzy
 #| msgctxt "@action:inmenu File"
-#| msgid "Delete (using shortcut for Trash)"
-msgctxt "@action \"Move to Trash\" for non-local files, etc."
-msgid "Delete (using shortcut for Trash)"
-msgstr "Rëmôj (brëkùjąc skrodzënë dlô kòsza)"
-
-#: views/dolphinviewactionhandler.cpp:126
-msgctxt "@action:inmenu File"
-msgid "Properties"
-msgstr "Swòjizna"
-
-#: views/dolphinviewactionhandler.cpp:137
-#, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "View Mode"
-msgctxt "@action:intoolbar"
-msgid "View Mode"
-msgstr "Trib wëzdrzatkù"
-
-#: views/dolphinviewactionhandler.cpp:153
-msgctxt "@action:intoolbar"
-msgid "Preview"
-msgstr "Pòdzérk"
-
-#: views/dolphinviewactionhandler.cpp:154
-msgctxt "@info"
-msgid "Show preview of files and folders"
-msgstr "Wëskrzëni pòdzerczi lopków ë katalogów"
-
-#: views/dolphinviewactionhandler.cpp:159
-msgctxt "@action:inmenu Sort"
-msgid "Descending"
-msgstr "Malejąco"
-
-#: views/dolphinviewactionhandler.cpp:163
-msgctxt "@action:inmenu Sort"
-msgid "Folders First"
-msgstr "Wprzód katalodżi"
-
-#: views/dolphinviewactionhandler.cpp:171
-#, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Sort By"
-msgctxt "@action:inmenu View"
-msgid "Sort By"
-msgstr "Zortëjë wedle"
-
-#: views/dolphinviewactionhandler.cpp:186
-#: views/dolphinviewactionhandler.cpp:212
-#, fuzzy
-#| msgctxt "@title:window"
-#| msgid "Additional Information"
-msgctxt "@action:inmenu View"
-msgid "Additional Information"
-msgstr "Dodôwnô wedowiédzô"
-
-#: views/dolphinviewactionhandler.cpp:193
-msgctxt "@action:inmenu View"
-msgid "Show in Groups"
-msgstr "Wëskrzëni w grëpach"
-
-#: views/dolphinviewactionhandler.cpp:197
-msgctxt "@action:inmenu View"
-msgid "Show Hidden Files"
-msgstr "Wëskrzëni zataconé lopczi"
-
-#: views/dolphinviewactionhandler.cpp:202
-msgctxt "@action:inmenu View"
-msgid "Adjust View Properties..."
-msgstr "Dopasëjë swòjiznë wëzdrzatkù..."
-
-#: views/dolphinviewactionhandler.cpp:237
-msgctxt "@action:inmenu Sort By"
-msgid "Name"
-msgstr "Mionama"
-
-#: views/dolphinviewactionhandler.cpp:440
-msgctxt "@action:inmenu View Mode"
-msgid "Icons"
-msgstr "Ikònë"
-
-#: views/dolphinviewactionhandler.cpp:441
-msgctxt "@info"
-msgid "Icons view mode"
-msgstr "Ikònë tribù wëzdrzatkù"
-
-#: views/dolphinviewactionhandler.cpp:451
-msgctxt "@action:inmenu View Mode"
-msgid "Details"
-msgstr "Detale"
-
-#: views/dolphinviewactionhandler.cpp:452
-msgctxt "@info"
-msgid "Details view mode"
-msgstr "Detale tribù wëzdrzatkù"
-
-#: views/dolphinviewactionhandler.cpp:462
-msgctxt "@action:inmenu View Mode"
-msgid "Columns"
-msgstr "Kòlumnë"
-
-#: views/dolphinviewactionhandler.cpp:463
-msgctxt "@info"
-msgid "Columns view mode"
-msgstr "Kòlumnë tribù wëzdrzatkù"
-
-#: views/draganddrophelper.cpp:108
-msgctxt "@info:status"
-msgid "A folder cannot be dropped into itself"
-msgstr "Katalog ni mòże bëc przesëniãti do se"
+#| msgid "Delete"
+msgctxt "@action:inmenu"
+msgid "&Delete"
+msgstr "Rëmôj"
 
 #: dolphinmainwindow.cpp:227
 msgctxt "@info:status"
@@ -1443,11 +1520,6 @@ msgstr "Zamkni jine kôrtë"
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Zamkni kôrtë"
-
-#: dolphinmainwindow.cpp:1417 dolphincontextmenu.cpp:251
-msgctxt "@title:menu Create new folder, file, link, etc."
-msgid "Create New"
-msgstr "Ùsôdzë nowi"
 
 #: dolphinmainwindow.cpp:1424
 msgctxt "@action:inmenu File"
@@ -1698,6 +1770,36 @@ msgstr "Copni wëbiérk"
 msgid "Unselect all items matching this pattern:"
 msgstr "Copni wëbiérk elementów pasëjących do mùstra:"
 
+#: dolphinviewcontainer.cpp:313
+msgctxt "@info:progress"
+msgid "Loading folder..."
+msgstr "Ladowanié kataloga..."
+
+#: dolphinviewcontainer.cpp:324
+msgctxt "@info"
+msgid "Searching..."
+msgstr "Szëkba..."
+
+#: dolphinviewcontainer.cpp:344
+msgctxt "@info:status"
+msgid "No items found."
+msgstr "Nié nalazłé elementë."
+
+#: dolphinviewcontainer.cpp:423
+msgctxt "@info:status"
+msgid "Dolphin does not support web pages, the web browser has been launched"
+msgstr "Dolphin nie wspiérô internetowich starnów, przezérnik òstôł zrëszony"
+
+#: dolphinviewcontainer.cpp:435
+msgctxt "@info:status"
+msgid "Protocol not supported by Dolphin, Konqueror has been launched"
+msgstr "Protokół nie wspiéróny przez Dolphina, Konqueror òstôł zrëszony"
+
+#: dolphinviewcontainer.cpp:442
+msgctxt "@info:status"
+msgid "Invalid protocol"
+msgstr "Lëchi protokół"
+
 #: main.cpp:35
 msgctxt "@title"
 msgid "Dolphin"
@@ -1783,108 +1885,6 @@ msgstr ""
 msgctxt "@info:shell"
 msgid "Document to open"
 msgstr "Dokùment do òtemkniãcô"
-
-#: dolphinviewcontainer.cpp:313
-msgctxt "@info:progress"
-msgid "Loading folder..."
-msgstr "Ladowanié kataloga..."
-
-#: dolphinviewcontainer.cpp:324
-msgctxt "@info"
-msgid "Searching..."
-msgstr "Szëkba..."
-
-#: dolphinviewcontainer.cpp:344
-msgctxt "@info:status"
-msgid "No items found."
-msgstr "Nié nalazłé elementë."
-
-#: dolphinviewcontainer.cpp:423
-msgctxt "@info:status"
-msgid "Dolphin does not support web pages, the web browser has been launched"
-msgstr "Dolphin nie wspiérô internetowich starnów, przezérnik òstôł zrëszony"
-
-#: dolphinviewcontainer.cpp:435
-msgctxt "@info:status"
-msgid "Protocol not supported by Dolphin, Konqueror has been launched"
-msgstr "Protokół nie wspiéróny przez Dolphina, Konqueror òstôł zrëszony"
-
-#: dolphinviewcontainer.cpp:442
-msgctxt "@info:status"
-msgid "Invalid protocol"
-msgstr "Lëchi protokół"
-
-#: dolphincontextmenu.cpp:169
-msgctxt "@action:inmenu"
-msgid "Empty Trash"
-msgstr "Wëczëszczë kòsz"
-
-#: dolphincontextmenu.cpp:175 dolphincontextmenu.cpp:344
-msgctxt "@action:inmenu Add current folder to places"
-msgid "Add to Places"
-msgstr "Dodôj do placów"
-
-#: dolphincontextmenu.cpp:191
-msgctxt "@info"
-msgid "Do you really want to empty the Trash? All items will be deleted."
-msgstr "Na gwës chcesz wëczëszczëc kòsz? Wszëtczé elementë òstaną rëmniãté."
-
-#: dolphincontextmenu.cpp:195
-msgctxt "@action:button"
-msgid "Empty Trash"
-msgstr "Wëczëszczë kòsz"
-
-#: dolphincontextmenu.cpp:204
-msgctxt "@label"
-msgid "Trash"
-msgstr "Kòsz"
-
-#: dolphincontextmenu.cpp:214
-msgctxt "@action:inmenu"
-msgid "Restore"
-msgstr "Przëwrócë"
-
-#: dolphincontextmenu.cpp:264
-msgctxt "@action:inmenu Add selected folder to places"
-msgid "Add to Places"
-msgstr "Dodôj do placów"
-
-#: dolphincontextmenu.cpp:271
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Window"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Window"
-msgstr "Òtemkni w nowim òknie"
-
-#: dolphincontextmenu.cpp:277
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Tab"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Tab"
-msgstr "Òtemkni w nowi kôrce"
-
-#: dolphincontextmenu.cpp:448
-msgctxt "@action:inmenu"
-msgid "Paste Into Folder"
-msgstr "Wlepi do kataloga"
-
-#: dolphincontextmenu.cpp:560
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Move to Trash"
-msgctxt "@action:inmenu"
-msgid "&Move to Trash"
-msgstr "Przeniesë do kòsza"
-
-#: dolphincontextmenu.cpp:563
-#, fuzzy
-#| msgctxt "@action:inmenu File"
-#| msgid "Delete"
-msgctxt "@action:inmenu"
-msgid "&Delete"
-msgstr "Rëmôj"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
