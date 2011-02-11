@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-10 02:47+0100\n"
+"POT-Creation-Date: 2011-02-11 02:44+0100\n"
 "PO-Revision-Date: 2009-12-09 23:08+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -109,6 +109,14 @@ msgctxt "@label::textbox"
 msgid "Select which data should be shown:"
 msgstr "Kònfigurëje pòdôwczi chtërné mają bëc wëskrzënioné"
 
+#: panels/information/phononwidget.cpp:139
+msgid "play"
+msgstr "grajë"
+
+#: panels/information/phononwidget.cpp:144
+msgid "stop"
+msgstr "stop"
+
 #: panels/information/informationpanelcontent.cpp:235
 #, kde-format
 msgctxt "@info"
@@ -135,14 +143,6 @@ msgstr "Kònfigùrëjë..."
 msgctxt "@label::textbox"
 msgid "Select which data should be shown in the information panel:"
 msgstr "Kònfigurëje pòdôwczi jaczé mają bëc wëskrzënioné w wëdowiédny listwie."
-
-#: panels/information/phononwidget.cpp:139
-msgid "play"
-msgstr "grajë"
-
-#: panels/information/phononwidget.cpp:144
-msgid "stop"
-msgstr "stop"
 
 #: search/dolphinsearchbox.cpp:105
 #, fuzzy, kde-format
@@ -1363,83 +1363,6 @@ msgctxt "@info:tooltip"
 msgid "Select Item"
 msgstr "Wëbiérzë element"
 
-#: dolphincontextmenu.cpp:169
-msgctxt "@action:inmenu"
-msgid "Empty Trash"
-msgstr "Wëczëszczë kòsz"
-
-#: dolphincontextmenu.cpp:175 dolphincontextmenu.cpp:346
-msgctxt "@action:inmenu Add current folder to places"
-msgid "Add to Places"
-msgstr "Dodôj do placów"
-
-#: dolphincontextmenu.cpp:191
-msgctxt "@info"
-msgid "Do you really want to empty the Trash? All items will be deleted."
-msgstr "Na gwës chcesz wëczëszczëc kòsz? Wszëtczé elementë òstaną rëmniãté."
-
-#: dolphincontextmenu.cpp:195
-msgctxt "@action:button"
-msgid "Empty Trash"
-msgstr "Wëczëszczë kòsz"
-
-#: dolphincontextmenu.cpp:204
-msgctxt "@label"
-msgid "Trash"
-msgstr "Kòsz"
-
-#: dolphincontextmenu.cpp:214
-msgctxt "@action:inmenu"
-msgid "Restore"
-msgstr "Przëwrócë"
-
-#: dolphincontextmenu.cpp:253 dolphinmainwindow.cpp:1417
-msgctxt "@title:menu Create new folder, file, link, etc."
-msgid "Create New"
-msgstr "Ùsôdzë nowi"
-
-#: dolphincontextmenu.cpp:266
-msgctxt "@action:inmenu Add selected folder to places"
-msgid "Add to Places"
-msgstr "Dodôj do placów"
-
-#: dolphincontextmenu.cpp:273
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Window"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Window"
-msgstr "Òtemkni w nowim òknie"
-
-#: dolphincontextmenu.cpp:279
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Tab"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Tab"
-msgstr "Òtemkni w nowi kôrce"
-
-#: dolphincontextmenu.cpp:450
-msgctxt "@action:inmenu"
-msgid "Paste Into Folder"
-msgstr "Wlepi do kataloga"
-
-#: dolphincontextmenu.cpp:562
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Move to Trash"
-msgctxt "@action:inmenu"
-msgid "&Move to Trash"
-msgstr "Przeniesë do kòsza"
-
-#: dolphincontextmenu.cpp:565
-#, fuzzy
-#| msgctxt "@action:inmenu File"
-#| msgid "Delete"
-msgctxt "@action:inmenu"
-msgid "&Delete"
-msgstr "Rëmôj"
-
 #: dolphinmainwindow.cpp:227
 msgctxt "@info:status"
 msgid "Successfully copied."
@@ -1520,6 +1443,11 @@ msgstr "Zamkni jine kôrtë"
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Zamkni kôrtë"
+
+#: dolphinmainwindow.cpp:1417 dolphincontextmenu.cpp:253
+msgctxt "@title:menu Create new folder, file, link, etc."
+msgid "Create New"
+msgstr "Ùsôdzë nowi"
 
 #: dolphinmainwindow.cpp:1424
 msgctxt "@action:inmenu File"
@@ -1885,6 +1813,78 @@ msgstr ""
 msgctxt "@info:shell"
 msgid "Document to open"
 msgstr "Dokùment do òtemkniãcô"
+
+#: dolphincontextmenu.cpp:169
+msgctxt "@action:inmenu"
+msgid "Empty Trash"
+msgstr "Wëczëszczë kòsz"
+
+#: dolphincontextmenu.cpp:175 dolphincontextmenu.cpp:346
+msgctxt "@action:inmenu Add current folder to places"
+msgid "Add to Places"
+msgstr "Dodôj do placów"
+
+#: dolphincontextmenu.cpp:191
+msgctxt "@info"
+msgid "Do you really want to empty the Trash? All items will be deleted."
+msgstr "Na gwës chcesz wëczëszczëc kòsz? Wszëtczé elementë òstaną rëmniãté."
+
+#: dolphincontextmenu.cpp:195
+msgctxt "@action:button"
+msgid "Empty Trash"
+msgstr "Wëczëszczë kòsz"
+
+#: dolphincontextmenu.cpp:204
+msgctxt "@label"
+msgid "Trash"
+msgstr "Kòsz"
+
+#: dolphincontextmenu.cpp:214
+msgctxt "@action:inmenu"
+msgid "Restore"
+msgstr "Przëwrócë"
+
+#: dolphincontextmenu.cpp:266
+msgctxt "@action:inmenu Add selected folder to places"
+msgid "Add to Places"
+msgstr "Dodôj do placów"
+
+#: dolphincontextmenu.cpp:273
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Window"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Window"
+msgstr "Òtemkni w nowim òknie"
+
+#: dolphincontextmenu.cpp:279
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Tab"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Tab"
+msgstr "Òtemkni w nowi kôrce"
+
+#: dolphincontextmenu.cpp:450
+msgctxt "@action:inmenu"
+msgid "Paste Into Folder"
+msgstr "Wlepi do kataloga"
+
+#: dolphincontextmenu.cpp:562
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Move to Trash"
+msgctxt "@action:inmenu"
+msgid "&Move to Trash"
+msgstr "Przeniesë do kòsza"
+
+#: dolphincontextmenu.cpp:565
+#, fuzzy
+#| msgctxt "@action:inmenu File"
+#| msgid "Delete"
+msgctxt "@action:inmenu"
+msgid "&Delete"
+msgstr "Rëmôj"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
