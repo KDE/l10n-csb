@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-15 13:45+0100\n"
+"POT-Creation-Date: 2011-02-22 13:37+0100\n"
 "PO-Revision-Date: 2009-06-29 20:35+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -1563,8 +1563,8 @@ msgctxt "@title job"
 msgid "Unmounting"
 msgstr "Òdmòntowanié"
 
-#: kio/job.cpp:2110 kio/copyjob.cpp:1337 kio/copyjob.cpp:1908
-#: kio/global.cpp:666 kio/paste.cpp:64
+#: kio/job.cpp:2110 kio/global.cpp:666 kio/copyjob.cpp:1349
+#: kio/copyjob.cpp:1920 kio/paste.cpp:64
 msgid "File Already Exists"
 msgstr "Lopk ju je"
 
@@ -1585,14 +1585,6 @@ msgstr "Pò&cësni lopk"
 #, kde-format
 msgid "Unable to create io-slave: %1"
 msgstr ""
-
-#: kio/copyjob.cpp:1025 kio/global.cpp:676
-msgid "Folder Already Exists"
-msgstr "Katalog ju je"
-
-#: kio/copyjob.cpp:1337 kio/copyjob.cpp:1908
-msgid "Already Exists as Folder"
-msgstr "Ju je jakno katalog"
 
 #: kio/fileundomanager.cpp:116
 #, fuzzy
@@ -2614,6 +2606,10 @@ msgstr "Rëmôj pòprzedny lopk ë spróbùjë jesz rôz."
 msgid "Choose an alternate filename for the new file."
 msgstr "Wëbierzë jinszé miono dlô nowégò lopka."
 
+#: kio/global.cpp:676 kio/copyjob.cpp:1030
+msgid "Folder Already Exists"
+msgstr "Katalog ju je"
+
 #: kio/global.cpp:677
 msgid ""
 "The requested folder could not be created because a folder with the same "
@@ -3533,6 +3529,10 @@ msgstr ""
 #: kio/kdesktopfileactions.cpp:221
 msgid "Unmount"
 msgstr ""
+
+#: kio/copyjob.cpp:1349 kio/copyjob.cpp:1920
+msgid "Already Exists as Folder"
+msgstr "Ju je jakno katalog"
 
 #: kio/kdirmodel.cpp:992
 msgctxt "@title:column"
