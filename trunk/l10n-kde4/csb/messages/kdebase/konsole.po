@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-03 03:32+0100\n"
+"POT-Creation-Date: 2011-03-04 03:30+0100\n"
 "PO-Revision-Date: 2009-12-17 00:21+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -266,75 +266,73 @@ msgstr "Zapiszë do biéżnegò profilu"
 msgid "lines"
 msgstr "réżczi"
 
-#: IncrementalSearchBar.cpp:53
+#: IncrementalSearchBar.cpp:52
 msgid "Close the search bar"
 msgstr "Zamkni lëstwã szëkbë"
 
-#: IncrementalSearchBar.cpp:58
+#: IncrementalSearchBar.cpp:57
 msgid "Find:"
 msgstr "Nalezë:"
 
-#: IncrementalSearchBar.cpp:63
+#: IncrementalSearchBar.cpp:62
 msgid "Enter the text to search for here"
 msgstr "Wpiszë tuwò tekst szëkbë"
 
-#: IncrementalSearchBar.cpp:82
+#: IncrementalSearchBar.cpp:81
 #, fuzzy
 #| msgid "Next"
 msgctxt "@action:button Go to the next phrase"
 msgid "Next"
 msgstr "Pòstãpny"
 
-#: IncrementalSearchBar.cpp:86
+#: IncrementalSearchBar.cpp:84
 msgid "Find the next match for the current search phrase"
 msgstr "Nalézë pòstãpny skùtk dlô szëkónegò wësłowia"
 
-#: IncrementalSearchBar.cpp:91
+#: IncrementalSearchBar.cpp:89
 #, fuzzy
 #| msgid "Previous"
 msgctxt "@action:button Go to the previous phrase"
 msgid "Previous"
 msgstr "Pòprzédny"
 
-#: IncrementalSearchBar.cpp:95
+#: IncrementalSearchBar.cpp:92
 msgid "Find the previous match for the current search phrase"
 msgstr "Nalézë pòprzedny skùtk dlô szëkónegò wësłowia"
 
-#: IncrementalSearchBar.cpp:100
-msgid "Highlight all"
-msgstr "Pòdsztrichnié wszëtkò"
+#: IncrementalSearchBar.cpp:97
+msgctxt "@action:button Display options menu"
+msgid "Options"
+msgstr ""
 
 #: IncrementalSearchBar.cpp:102
-msgid "Sets whether matching text should be highlighted"
-msgstr "Nastôwiô czë nalazłi tekst mô bëc pòdsztëchniãti"
+msgid "Display the options menu"
+msgstr ""
 
-#: IncrementalSearchBar.cpp:110
-msgid "Match case"
-msgstr "Dopasowanié miarë"
+#: IncrementalSearchBar.cpp:115
+#, fuzzy
+#| msgctxt "@action:inmenu Close Active View"
+#| msgid "Close Active"
+msgid "Case sensitive"
+msgstr "Zamkni aktiwné"
 
-#: IncrementalSearchBar.cpp:112
+#: IncrementalSearchBar.cpp:117
 msgid "Sets whether the search is case sensitive"
 msgstr "Nastôwiô czë szëkba mô ùwzglãdniac dopasowanié miarë"
 
-#: IncrementalSearchBar.cpp:118
+#: IncrementalSearchBar.cpp:121
 msgid "Match regular expression"
 msgstr "Dopasëjë regùlarny wësłów"
 
-#: IncrementalSearchBar.cpp:120
-msgid ""
-"Sets whether the search phrase is interpreted as normal text or as a regular "
-"expression"
-msgstr ""
-"Nastôwiô, czë szëkónô fraza mô bëc interpretowónô jakno zwëczajny tekst czë "
-"regùlarny wësłów"
+#: IncrementalSearchBar.cpp:126
+#, fuzzy
+#| msgid "Highlight all"
+msgid "Highlight all matches"
+msgstr "Pòdsztrichnié wszëtkò"
 
-#: IncrementalSearchBar.cpp:246
-msgid "Search reached bottom, continued from top."
-msgstr "Szëkba sygła kùńca, jidzë dali òd zôczątkù."
-
-#: IncrementalSearchBar.cpp:251
-msgid "Search reached top, continued from bottom."
-msgstr "Szëkba sygła zaczątkù, jidzë dali òd kùńca."
+#: IncrementalSearchBar.cpp:128
+msgid "Sets whether matching text should be highlighted"
+msgstr "Nastôwiô czë nalazłi tekst mô bëc pòdsztëchniãti"
 
 #: KeyBindingEditor.cpp:49
 msgid "Key Combination"
@@ -1765,11 +1763,11 @@ msgid ""
 msgstr ""
 "Programa '%1' robi prawie w ti sesëji. Jes gwës tegò, że chcesz jã zamknąc?"
 
-#: SessionController.cpp:1157
+#: SessionController.cpp:1159
 msgid "Save ZModem Download to..."
 msgstr "Zapiszë zladënk ZModem do..."
 
-#: SessionController.cpp:1166
+#: SessionController.cpp:1168
 #, fuzzy
 #| msgid ""
 #| "<p>A ZModem file transfer attempt has been detected, but no suitable "
@@ -1784,7 +1782,7 @@ msgstr ""
 "twòji systemie softwôrë ZModem.\n"
 "<p>Winstalëje mòże paczétë 'rzsz' abò 'lrzsz'.\n"
 
-#: SessionController.cpp:1178
+#: SessionController.cpp:1180
 #, fuzzy
 #| msgid ""
 #| "<p>The current session already has a ZModem file transfer in progress."
@@ -1792,7 +1790,7 @@ msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr "<p>W aktualny sesëji dérëje sélanié lopków ZModem."
 
-#: SessionController.cpp:1187
+#: SessionController.cpp:1189
 #, fuzzy
 #| msgid ""
 #| "<p>No suitable ZModem software was found on this system.\n"
@@ -1804,21 +1802,21 @@ msgstr ""
 "<p>Felëje softwôrë ZModem w twòji systemie.\n"
 "<p>Winstalëje mòże paczétë 'rzsz' abò 'lrzsz'.\n"
 
-#: SessionController.cpp:1193
+#: SessionController.cpp:1195
 msgid "Select Files for ZModem Upload"
 msgstr "Wëbierzë lopczi dlô wladënkù ZModem"
 
-#: SessionController.cpp:1265
+#: SessionController.cpp:1267
 #, kde-format
 msgid "Save Output From %1"
 msgstr "Zapiszë wińdzenié z %1"
 
-#: SessionController.cpp:1276
+#: SessionController.cpp:1278
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 je zmiłkòwim URL-a, wińdzenié nie mòże òstac zapisóné."
 
-#: SessionController.cpp:1365
+#: SessionController.cpp:1367
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -2037,6 +2035,22 @@ msgstr ""
 #: ZModemDialog.cpp:35
 msgid "&Stop"
 msgstr "&Zatrzëmôj"
+
+#~ msgid "Match case"
+#~ msgstr "Dopasowanié miarë"
+
+#~ msgid ""
+#~ "Sets whether the search phrase is interpreted as normal text or as a "
+#~ "regular expression"
+#~ msgstr ""
+#~ "Nastôwiô, czë szëkónô fraza mô bëc interpretowónô jakno zwëczajny tekst "
+#~ "czë regùlarny wësłów"
+
+#~ msgid "Search reached bottom, continued from top."
+#~ msgstr "Szëkba sygła kùńca, jidzë dali òd zôczątkù."
+
+#~ msgid "Search reached top, continued from bottom."
+#~ msgstr "Szëkba sygła zaczątkù, jidzë dali òd kùńca."
 
 #, fuzzy
 #~| msgid "&Close Tab"
