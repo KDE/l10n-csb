@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-09 03:23+0100\n"
+"POT-Creation-Date: 2011-03-10 03:21+0100\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -6355,29 +6355,6 @@ msgstr[2] "Lësta graniô"
 msgid "Source"
 msgstr "Zdrój"
 
-#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:33
-#, fuzzy
-#| msgid "&Rename group"
-msgid "&Rename Folder..."
-msgstr "&Zmieni miono grëpë"
-
-#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:39
-#, fuzzy
-#| msgid "Delete Files"
-msgid "&Delete Folder"
-msgstr "Rëmniãcé lopków"
-
-#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:309
-msgid "New name"
-msgstr "Nowi miono"
-
-#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:311
-#, fuzzy
-#| msgid "Enter new group name:"
-msgctxt "Enter a new name for a folder that already exists"
-msgid "Enter new folder name:"
-msgstr "Wpiszë miono nowi grëpë:"
-
 #: browsers/playlistbrowser/UserPlaylistCategory.cpp:58
 #, fuzzy
 #| msgid "&Save Playlist"
@@ -6488,6 +6465,29 @@ msgstr "&Dodôj podcast"
 #| msgid "Enter Stream URL:"
 msgid "Enter RSS 1.0/2.0 or Atom feed URL:"
 msgstr "Wpiszë URL strëdżi:"
+
+#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:33
+#, fuzzy
+#| msgid "&Rename group"
+msgid "&Rename Folder..."
+msgstr "&Zmieni miono grëpë"
+
+#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:39
+#, fuzzy
+#| msgid "Delete Files"
+msgid "&Delete Folder"
+msgstr "Rëmniãcé lopków"
+
+#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:313
+msgid "New name"
+msgstr "Nowi miono"
+
+#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:315
+#, fuzzy
+#| msgid "Enter new group name:"
+msgctxt "Enter a new name for a folder that already exists"
+msgid "Enter new folder name:"
+msgstr "Wpiszë miono nowi grëpë:"
 
 #: browsers/servicebrowser/ServiceBrowser.cpp:44
 msgid ""
@@ -8668,32 +8668,32 @@ msgid "&Export subscriptions to OPML file"
 msgstr ""
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:324
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:854
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:857
 msgid "&Configure"
 msgstr "&Kònfigùrëjë"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:342
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:872
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:875
 msgid "&Remove Subscription"
 msgstr "&Rëmôj subskripcëjã"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:364
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:893
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:896
 msgid "&Update Channel"
 msgstr "&Zaktualni kanał"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:403
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:774
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:777
 msgid "&Delete Downloaded Episode"
 msgstr ""
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:415
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:787
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:790
 msgid "&Write Feed Information to File"
 msgstr ""
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:439
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:824
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:827
 msgid "&Download Episode"
 msgstr "&Zladëjë epizod"
 
@@ -8724,33 +8724,33 @@ msgstr[2] "Minutë"
 msgid "Configure Local Podcasts"
 msgstr "Kònfigùrëjë podcast..."
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:666
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:669
 msgid "Select file for OPML export"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:945
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:948
 #, fuzzy
 #| msgid "Subscribe"
 msgid "Unsubscribe"
 msgstr "Subskribùjë"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:949
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:952
 #, fuzzy
 #| msgid "Do you really want to remove this %1?"
 msgid "Do you really want to unsubscribe from "
 msgstr "Na gwës chcesz rëmnąc %1?"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:956
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:959
 #, fuzzy
 #| msgid "&Download Episode"
 msgid "Delete downloaded episodes"
 msgstr "&Zladëjë epizod"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1079
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1082
 msgid "Waiting for Podcast Downloads to Finish"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1080
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1083
 #, kde-format
 msgid "There is still a podcast download in progress"
 msgid_plural "There are still %1 podcast downloads in progress"
@@ -8758,21 +8758,21 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1084
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1087
 msgid "Cancel Download and Quit."
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1261
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1466
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1264
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1469
 #, kde-format
 msgid "Unable to save podcast episode file to %1"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1271
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1274
 msgid "Downloading Podcast Media"
 msgstr "Ladowanié mediów podcastu"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1272
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1275
 #, kde-format
 msgid "Downloading Podcast \"%1\""
 msgstr "Ladowanié podcastu \"%1\""
@@ -12384,12 +12384,6 @@ msgstr ""
 msgid "The playlist file \"%1\" could not be loaded."
 msgstr "Nie mòże ùsôdzëc òbiektu"
 
-#: playlistmanager/sql/SqlPlaylist.cpp:40
-#, fuzzy
-#| msgid "Playlist name:"
-msgid "Playlist in database"
-msgstr "Miono lëstë òdegraniô"
-
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:90
 #, fuzzy
 #| msgid "Configure Playback"
@@ -12421,6 +12415,12 @@ msgstr "Dodôj do bazë pòdôwków"
 #: playlistmanager/sql/SqlUserPlaylistProvider.h:45
 msgid "Local playlists stored in the database"
 msgstr ""
+
+#: playlistmanager/sql/SqlPlaylist.cpp:40
+#, fuzzy
+#| msgid "Playlist name:"
+msgid "Playlist in database"
+msgstr "Miono lëstë òdegraniô"
 
 #: scriptengine/AmarokNetworkScript.cpp:70
 msgctxt "do not translate 'DataDownloader' or 'qt.core'"
