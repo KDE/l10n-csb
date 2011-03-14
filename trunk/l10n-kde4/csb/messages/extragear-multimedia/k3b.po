@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-10 03:22+0100\n"
+"POT-Creation-Date: 2011-03-14 03:26+0100\n"
 "PO-Revision-Date: 2008-07-22 20:16+0200\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -5340,7 +5340,7 @@ msgstr ""
 msgid "K3b GUI Themes"
 msgstr ""
 
-#: option/k3boptiondialog.cpp:192 rip/k3baudiocdview.cpp:469
+#: option/k3boptiondialog.cpp:192
 msgid "CDDB"
 msgstr "CDDB"
 
@@ -7609,7 +7609,7 @@ msgstr "Kònwersëjô projektu aùdio"
 
 #: rip/k3baudioprojectconvertingdialog.cpp:105
 #: rip/k3baudiorippingdialog.cpp:124 rip/k3bvideocdview.cpp:366
-#: rip/k3baudiocdview.cpp:219
+#: rip/k3baudiocdview.cpp:192
 #, kde-format
 msgid "1 track (%2)"
 msgid_plural "%1 tracks (%2)"
@@ -7793,7 +7793,7 @@ msgstr ""
 
 #: rip/k3baudiorippingdialog.cpp:200 rip/k3bvideocdrippingdialog.cpp:118
 #: rip/k3bvideocdview.cpp:386 rip/videodvd/k3bvideodvdrippingview.cpp:305
-#: rip/k3baudiocdview.cpp:262
+#: rip/k3baudiocdview.cpp:251
 msgid "Start Ripping"
 msgstr "Wësztartëjë zgrëwanié"
 
@@ -8154,22 +8154,22 @@ msgid "Segments"
 msgstr "Segmentë"
 
 #: rip/k3bvideocdview.cpp:374 rip/videodvd/k3bvideodvdrippingview.cpp:285
-#: rip/k3baudiocdview.cpp:250
+#: rip/k3baudiocdview.cpp:223
 msgid "Check All"
 msgstr "Wëbierzë wszëtkò"
 
 #: rip/k3bvideocdview.cpp:377 rip/videodvd/k3bvideodvdrippingview.cpp:290
-#: rip/k3baudiocdview.cpp:252
+#: rip/k3baudiocdview.cpp:227
 msgid "Uncheck All"
 msgstr "Òdznaczë wszëtkò"
 
 #: rip/k3bvideocdview.cpp:380 rip/videodvd/k3bvideodvdrippingview.cpp:295
-#: rip/k3baudiocdview.cpp:254
+#: rip/k3baudiocdview.cpp:231
 msgid "Check Track"
 msgstr "Wëbierzë stegnã"
 
 #: rip/k3bvideocdview.cpp:383 rip/videodvd/k3bvideodvdrippingview.cpp:300
-#: rip/k3baudiocdview.cpp:256
+#: rip/k3baudiocdview.cpp:235
 msgid "Uncheck Track"
 msgstr "Òdznaczë stegnã"
 
@@ -8183,11 +8183,11 @@ msgstr "Lopczi"
 msgid "View plain data files"
 msgstr ""
 
-#: rip/k3bvideocdview.cpp:452 rip/k3baudiocdview.cpp:307
+#: rip/k3bvideocdview.cpp:452 rip/k3baudiocdview.cpp:322
 msgid "Please select the tracks to rip."
 msgstr "Proszã wëbrac stegnã do zgraniô."
 
-#: rip/k3bvideocdview.cpp:452 rip/k3baudiocdview.cpp:308
+#: rip/k3bvideocdview.cpp:452 rip/k3baudiocdview.cpp:323
 msgid "No Tracks Selected"
 msgstr "Niżódnô stegna ni òsta wëbrónô"
 
@@ -8519,104 +8519,6 @@ msgstr ""
 msgid "Subpicture"
 msgstr ""
 
-#: rip/k3baudiocdview.cpp:156
-msgid "Searching for Artist information..."
-msgstr "Szëkba za wëdowiédzą ò artisce..."
-
-#: rip/k3baudiocdview.cpp:187
-#, kde-format
-msgid ""
-"Found Cd-Text (%1 - %2). Do you want to use it instead of CDDB (%3 - %4)?"
-msgstr "Nalazłi CD-Text (%1 - %2). Chcesz gò brëkòwac na placu CDDB (%3 - %4)?"
-
-#: rip/k3baudiocdview.cpp:192
-msgid "Found Cd-Text"
-msgstr "Nalazłi CD-Text"
-
-#: rip/k3baudiocdview.cpp:193
-msgid "Use CD-Text"
-msgstr "Brëkùjë CD-Text"
-
-#: rip/k3baudiocdview.cpp:194
-msgid "Use CDDB"
-msgstr "Brëkùjë CDDB"
-
-#: rip/k3baudiocdview.cpp:241
-msgid "Audio CD"
-msgstr "Audio CD"
-
-#: rip/k3baudiocdview.cpp:258
-#, fuzzy
-#| msgid "Edit Track cddb Info"
-msgid "Edit Track CDDB Info"
-msgstr "Edicëjô wëdowiédzë CDDB dlô stegnë"
-
-#: rip/k3baudiocdview.cpp:260
-#, fuzzy
-#| msgid "Edit Album cddb Info"
-msgid "Edit Album CDDB Info"
-msgstr "Edicëjô wëdowiedzë CDDB ò albùmie"
-
-#: rip/k3baudiocdview.cpp:264
-#: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:49
-#, fuzzy
-#| msgid "Use CDDB"
-msgid "Query CDDB"
-msgstr "Brëkùjë CDDB"
-
-#: rip/k3baudiocdview.cpp:266
-#, fuzzy
-#| msgid "Save Cddb Entry Locally"
-msgid "Save CDDB Entry Locally"
-msgstr "Zapiszë môlowò wpisënczi CDDB"
-
-#: rip/k3baudiocdview.cpp:268
-msgid "Show Data Part"
-msgstr ""
-
-#: rip/k3baudiocdview.cpp:270
-msgid "Mounts the data part of CD"
-msgstr ""
-
-#: rip/k3baudiocdview.cpp:328
-#, fuzzy, kde-format
-#| msgid "Cddb Track %1"
-msgid "CDDB Track %1"
-msgstr "CDDB stegna %1"
-
-#: rip/k3baudiocdview.cpp:343 rip/k3baudiocdview.cpp:405
-msgid "Title:"
-msgstr "Titel:"
-
-#: rip/k3baudiocdview.cpp:346 rip/k3baudiocdview.cpp:407
-msgid "Artist:"
-msgstr "Artista:"
-
-#: rip/k3baudiocdview.cpp:348 rip/k3baudiocdview.cpp:409
-msgid "Extra info:"
-msgstr "Dodôwnô wëdowiédzô:"
-
-#: rip/k3baudiocdview.cpp:367
-msgid "Album Cddb"
-msgstr "Albùm CDDB"
-
-#: rip/k3baudiocdview.cpp:411
-msgid "Genre:"
-msgstr "Ôrt:"
-
-#: rip/k3baudiocdview.cpp:413
-msgid "Year:"
-msgstr "Rok:"
-
-#: rip/k3baudiocdview.cpp:416
-msgid "Category:"
-msgstr "Kategòrëjô:"
-
-#: rip/k3baudiocdview.cpp:470
-#, kde-format
-msgid "Saved entry in category %1."
-msgstr "Zapisóné wpisënczi w kategòrëji %1."
-
 #: rip/k3baudiotrackmodel.cpp:161
 msgid "Artist"
 msgstr "Artista"
@@ -8631,6 +8533,122 @@ msgstr "Titel"
 #| msgid "Select Track"
 msgid "Data Track"
 msgstr "Wëbierzë stegnã"
+
+#: rip/k3baudiocdview.cpp:158
+msgid "Searching for Artist information..."
+msgstr "Szëkba za wëdowiédzą ò artisce..."
+
+#: rip/k3baudiocdview.cpp:214
+msgid "Audio CD"
+msgstr "Audio CD"
+
+#: rip/k3baudiocdview.cpp:239
+#, fuzzy
+#| msgid "Edit Track cddb Info"
+msgid "Edit Track Info..."
+msgstr "Edicëjô wëdowiédzë CDDB dlô stegnë"
+
+#: rip/k3baudiocdview.cpp:240
+msgid "Edit current track information"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:245
+#, fuzzy
+#| msgid "Edit Album cddb Info"
+msgid "Edit Album Info..."
+msgstr "Edicëjô wëdowiedzë CDDB ò albùmie"
+
+#: rip/k3baudiocdview.cpp:246
+#, fuzzy
+#| msgid "Edit Album cddb Info"
+msgid "Edit album information"
+msgstr "Edicëjô wëdowiedzë CDDB ò albùmie"
+
+#: rip/k3baudiocdview.cpp:252
+#, fuzzy
+#| msgid "Start Ripping"
+msgid "Start audio ripping process"
+msgstr "Wësztartëjë zgrëwanié"
+
+#: rip/k3baudiocdview.cpp:257
+#, fuzzy
+#| msgid "Use CDDB"
+msgid "Query CD Database"
+msgstr "Brëkùjë CDDB"
+
+#: rip/k3baudiocdview.cpp:258
+msgid "Look for information on CDDB"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:263
+#, fuzzy
+#| msgid "Use CD-Text"
+msgid "Read CD-Text"
+msgstr "Brëkùjë CD-Text"
+
+#: rip/k3baudiocdview.cpp:264
+msgid "Read CD-Text information"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:269
+msgid "Load CD Info"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:270
+msgid "Load track and album information"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:277
+#, fuzzy
+#| msgid "Save Cddb Entry Locally"
+msgid "Save CD Info Locally"
+msgstr "Zapiszë môlowò wpisënczi CDDB"
+
+#: rip/k3baudiocdview.cpp:278
+msgid "Save track and album information to the local CDDB cache"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:283
+msgid "Show Data Part"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:284
+msgid "Mounts the data part of CD"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:344
+#, fuzzy, kde-format
+#| msgid "Cddb Track %1"
+msgid "CDDB Track %1"
+msgstr "CDDB stegna %1"
+
+#: rip/k3baudiocdview.cpp:359 rip/k3baudiocdview.cpp:421
+msgid "Title:"
+msgstr "Titel:"
+
+#: rip/k3baudiocdview.cpp:362 rip/k3baudiocdview.cpp:423
+msgid "Artist:"
+msgstr "Artista:"
+
+#: rip/k3baudiocdview.cpp:364 rip/k3baudiocdview.cpp:425
+msgid "Extra info:"
+msgstr "Dodôwnô wëdowiédzô:"
+
+#: rip/k3baudiocdview.cpp:383
+msgid "Album Cddb"
+msgstr "Albùm CDDB"
+
+#: rip/k3baudiocdview.cpp:427
+msgid "Genre:"
+msgstr "Ôrt:"
+
+#: rip/k3baudiocdview.cpp:429
+msgid "Year:"
+msgstr "Rok:"
+
+#: rip/k3baudiocdview.cpp:432
+msgid "Category:"
+msgstr "Kategòrëjô:"
 
 #: ../plugins/decoder/ffmpeg/k3bffmpegwrapper.cpp:208
 msgid "Windows Media v1"
@@ -9060,6 +9078,12 @@ msgstr ""
 msgid "Rename audio files based on their meta info."
 msgstr ""
 
+#: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:49
+#, fuzzy
+#| msgid "Use CDDB"
+msgid "Query CDDB"
+msgstr "Brëkùjë CDDB"
+
 #: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:50
 msgid "Query a CDDB entry for the current audio project."
 msgstr ""
@@ -9075,6 +9099,20 @@ msgstr ""
 #: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:125
 msgid "Cddb error"
 msgstr ""
+
+#~ msgid ""
+#~ "Found Cd-Text (%1 - %2). Do you want to use it instead of CDDB (%3 - %4)?"
+#~ msgstr ""
+#~ "Nalazłi CD-Text (%1 - %2). Chcesz gò brëkòwac na placu CDDB (%3 - %4)?"
+
+#~ msgid "Found Cd-Text"
+#~ msgstr "Nalazłi CD-Text"
+
+#~ msgid "Use CDDB"
+#~ msgstr "Brëkùjë CDDB"
+
+#~ msgid "Saved entry in category %1."
+#~ msgstr "Zapisóné wpisënczi w kategòrëji %1."
 
 #, fuzzy
 #~| msgid "No"
