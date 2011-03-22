@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-21 03:23+0100\n"
+"POT-Creation-Date: 2011-03-22 03:38+0100\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -4791,7 +4791,7 @@ msgstr "Albùmë artistë"
 msgid "All Artists"
 msgstr "Wszëtcy artisce"
 
-#: covermanager/CoverManager.cpp:174 widgets/SearchWidget.cpp:81
+#: covermanager/CoverManager.cpp:174 widgets/SearchWidget.cpp:82
 msgid "Enter search terms here"
 msgstr "Wpiszë tuwò kriteria szëkbë"
 
@@ -5677,28 +5677,6 @@ msgstr "Miono lopka"
 msgid "New Preset"
 msgstr "Rëmôj ùstawë."
 
-#. i18n: file: dialogs/EditFilterDialog.ui:172
-#. i18n: ectx: property (text), item, widget (QComboBox, cbAndOr)
-#: dialogs/EditFilterDialog.cpp:37 rc.cpp:1261
-msgid "AND"
-msgstr "AND"
-
-#. i18n: file: dialogs/EditFilterDialog.ui:177
-#. i18n: ectx: property (text), item, widget (QComboBox, cbAndOr)
-#: dialogs/EditFilterDialog.cpp:38 rc.cpp:1264
-msgid "OR"
-msgstr "OR"
-
-#: dialogs/EditFilterDialog.cpp:39
-#, fuzzy
-#| msgid "Sample Rate"
-msgid "Simple text"
-msgstr "Próbkòwónié"
-
-#: dialogs/EditFilterDialog.cpp:46
-msgid "Edit Filter"
-msgstr "Editëjë filter"
-
 #: dialogs/deviceconfiguredialog.cpp:39
 #, kde-format
 msgid "Select Plugin for %1"
@@ -5857,6 +5835,28 @@ msgstr ""
 #| msgid "MusicBrainz Lookup"
 msgid "MusicBrainz Tagger"
 msgstr "Sprôwdzanié w MusicBraiz"
+
+#. i18n: file: dialogs/EditFilterDialog.ui:172
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAndOr)
+#: dialogs/EditFilterDialog.cpp:39 rc.cpp:1261
+msgid "AND"
+msgstr "AND"
+
+#. i18n: file: dialogs/EditFilterDialog.ui:177
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAndOr)
+#: dialogs/EditFilterDialog.cpp:40 rc.cpp:1264
+msgid "OR"
+msgstr "OR"
+
+#: dialogs/EditFilterDialog.cpp:41
+#, fuzzy
+#| msgid "Sample Rate"
+msgid "Simple text"
+msgstr "Próbkòwónié"
+
+#: dialogs/EditFilterDialog.cpp:49
+msgid "Edit Filter"
+msgstr "Editëjë filter"
 
 #: dynamic/BiasedPlaylist.cpp:142
 msgid "Generating playlist..."
@@ -7018,7 +7018,7 @@ msgstr "wicy jak"
 #: playlistgenerator/constraints/PlaylistDuration.cpp:273
 #: playlistgenerator/constraints/PlaylistLength.cpp:210
 #: playlistgenerator/constraints/TagMatch.cpp:473
-#: widgets/MetaQueryWidget.cpp:918
+#: widgets/MetaQueryWidget.cpp:893
 #, fuzzy
 #| msgid "Unknown Genre"
 msgid "unknown comparison"
@@ -7069,7 +7069,7 @@ msgstr "wicy jak"
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonRating)
 #: playlistgenerator/constraints/PlaylistLength.cpp:208
 #: playlistgenerator/constraints/TagMatch.cpp:448
-#: widgets/MetaQueryWidget.cpp:899 rc.cpp:2135 rc.cpp:2219 rc.cpp:2252
+#: widgets/MetaQueryWidget.cpp:880 rc.cpp:2135 rc.cpp:2219 rc.cpp:2252
 msgid "less than"
 msgstr "mni jak"
 
@@ -7152,7 +7152,7 @@ msgid "\"%1\""
 msgstr ""
 
 #: playlistgenerator/constraints/TagMatch.cpp:444
-#: widgets/MetaQueryWidget.cpp:901
+#: widgets/MetaQueryWidget.cpp:882
 #, fuzzy
 #| msgid "equal to"
 msgctxt "a numerical tag (like year or track number) equals a value"
@@ -7166,7 +7166,7 @@ msgstr "równy"
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:614
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonRating)
 #: playlistgenerator/constraints/TagMatch.cpp:446
-#: widgets/MetaQueryWidget.cpp:903 rc.cpp:2141 rc.cpp:2225 rc.cpp:2258
+#: widgets/MetaQueryWidget.cpp:884 rc.cpp:2141 rc.cpp:2225 rc.cpp:2258
 msgid "greater than"
 msgstr "wicy jak"
 
@@ -7208,7 +7208,6 @@ msgid "equals"
 msgstr "równy"
 
 #: playlistgenerator/constraints/TagMatch.cpp:464
-#: widgets/MetaQueryWidget.cpp:911
 #, fuzzy
 #| msgid "starts with"
 msgctxt ""
@@ -7217,7 +7216,6 @@ msgid "starts with"
 msgstr "naczinô sã òd"
 
 #: playlistgenerator/constraints/TagMatch.cpp:466
-#: widgets/MetaQueryWidget.cpp:913
 #, fuzzy
 #| msgid "ends with"
 msgctxt "an alphabetical tag (like title or artist name) ends with some string"
@@ -7225,7 +7223,7 @@ msgid "ends with"
 msgstr "kùńczë sã na"
 
 #: playlistgenerator/constraints/TagMatch.cpp:468
-#: widgets/MetaQueryWidget.cpp:907
+#: widgets/MetaQueryWidget.cpp:888
 #, fuzzy
 #| msgid "contains"
 msgctxt "an alphabetical tag (like title or artist name) contains some string"
@@ -8480,25 +8478,25 @@ msgstr "Katalog podcasta"
 msgid "gpodder.net is an online Podcast Directory & Synchonisation Service."
 msgstr ""
 
-#. i18n: file: playlist/layouts/PlaylistLayoutEditDialog.ui:312
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: services/ServiceBase.cpp:144 rc.cpp:1932
-msgid "Group By"
-msgstr "Grëpòwóny"
-
-#: services/ServiceBase.cpp:308
-msgid "This service does not accept any messages"
-msgstr "Nen serwis nie akceptëje niżódnëch wiadłów"
-
-#: services/ServiceBase.cpp:315
-msgid "ERROR: unknown message"
-msgstr "FELA: nienóné wiadło"
-
 #: services/ServicePluginManager.cpp:161 services/ServicePluginManager.cpp:178
 #: services/ServicePluginManager.cpp:195
 #, kde-format
 msgid "No service named %1 is currently loaded"
 msgstr "Niżódnô ùsłëżnota ò mionie %1 nie je terô zaladowónô"
+
+#. i18n: file: playlist/layouts/PlaylistLayoutEditDialog.ui:312
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: services/ServiceBase.cpp:147 rc.cpp:1932
+msgid "Group By"
+msgstr "Grëpòwóny"
+
+#: services/ServiceBase.cpp:311
+msgid "This service does not accept any messages"
+msgstr "Nen serwis nie akceptëje niżódnëch wiadłów"
+
+#: services/ServiceBase.cpp:318
+msgid "ERROR: unknown message"
+msgstr "FELA: nienóné wiadło"
 
 #: statusbar/CompoundProgressBar.cpp:64 statusbar/CompoundProgressBar.cpp:157
 #: statusbar/ProgressBar.cpp:47
@@ -8689,14 +8687,6 @@ msgstr "Grónié"
 #| msgid "Paused"
 msgid "Pause"
 msgstr "Paùza"
-
-#: widgets/SearchWidget.cpp:72
-msgid "Enter space-separated terms to search."
-msgstr "Wpiszë, òddzéloné spacjama, kriteria przeszëkiwaniô."
-
-#: widgets/SearchWidget.cpp:87 widgets/SearchWidget.cpp:159
-msgid "Edit filter"
-msgstr "Editëjë filter"
 
 #: widgets/SliderWidget.cpp:244
 msgid "100%"
@@ -8901,7 +8891,7 @@ msgstr "je przódë"
 
 #: widgets/SmartPlaylistEditor.cpp:934 widgets/SmartPlaylistEditor.cpp:956
 #: widgets/SmartPlaylistEditor.cpp:984 widgets/SmartPlaylistEditor.cpp:1003
-#: widgets/MetaQueryWidget.cpp:441
+#: widgets/MetaQueryWidget.cpp:436
 msgid "and"
 msgstr "ë"
 
@@ -9038,82 +9028,76 @@ msgstr[0] "Mies."
 msgstr[1] "Mies."
 msgstr[2] "Mies."
 
-#: widgets/MetaQueryWidget.cpp:229
+#: widgets/MetaQueryWidget.cpp:220
 msgid "Simple Search"
 msgstr "Prostô szëkba"
 
-#: widgets/MetaQueryWidget.cpp:551
+#: widgets/MetaQueryWidget.cpp:532
 msgctxt "Unit for data rate kilo bit per seconds"
 msgid "kbps"
 msgstr ""
 
-#: widgets/MetaQueryWidget.cpp:553
+#: widgets/MetaQueryWidget.cpp:534
 #, fuzzy
 #| msgid "Hz"
 msgctxt "Unit for sample rate"
 msgid "Hz"
 msgstr "Hz"
 
-#: widgets/MetaQueryWidget.cpp:555
+#: widgets/MetaQueryWidget.cpp:536
 msgctxt "Unit for file size in mega byte"
 msgid "MiB"
 msgstr ""
 
-#: widgets/MetaQueryWidget.cpp:879
+#: widgets/MetaQueryWidget.cpp:862
 #, fuzzy
 #| msgid "is before"
 msgctxt "The date lies before the given fixed date"
 msgid "before"
 msgstr "je przódë"
 
-#: widgets/MetaQueryWidget.cpp:881
+#: widgets/MetaQueryWidget.cpp:864
 #, fuzzy
 #| msgid "None"
 msgctxt "The date is the same as the given fixed date"
 msgid "on"
 msgstr "Felënk"
 
-#: widgets/MetaQueryWidget.cpp:883
+#: widgets/MetaQueryWidget.cpp:866
 #, fuzzy
 #| msgid "is after"
 msgctxt "The date is after the given fixed date"
 msgid "after"
 msgstr "je za"
 
-#: widgets/MetaQueryWidget.cpp:885
+#: widgets/MetaQueryWidget.cpp:868
 #, fuzzy
 #| msgid "Between"
 msgctxt "The date is between the given fixed dates"
 msgid "between"
 msgstr "Midze"
 
-#: widgets/MetaQueryWidget.cpp:887
+#: widgets/MetaQueryWidget.cpp:870
 #, fuzzy
 #| msgid "Smaller Than"
 msgctxt "The date lies before the given time interval"
 msgid "older than"
 msgstr "Mniszi jak"
 
-#: widgets/MetaQueryWidget.cpp:889
-#, fuzzy
-#| msgid "with"
-msgctxt "The date lies after the given time interval"
-msgid "within"
-msgstr "z"
-
-#: widgets/MetaQueryWidget.cpp:905
+#: widgets/MetaQueryWidget.cpp:886
 #, fuzzy
 #| msgid "Between"
 msgctxt "a numerical tag (like year or track number) is between two values"
 msgid "between"
 msgstr "Midze"
 
-#: widgets/MetaQueryWidget.cpp:909
-#, fuzzy
-#| msgid "dates"
-msgctxt "an alphabetical tag (like title or artist name) equals some string"
-msgid "matches"
-msgstr "datumë"
+#: widgets/SearchWidget.cpp:73
+msgid "Enter space-separated terms to search."
+msgstr "Wpiszë, òddzéloné spacjama, kriteria przeszëkiwaniô."
+
+#: widgets/SearchWidget.cpp:88 widgets/SearchWidget.cpp:160
+msgid "Edit filter"
+msgstr "Editëjë filter"
 
 #: ActionClasses.cpp:85
 msgid "Amarok Menu"
@@ -15260,6 +15244,18 @@ msgstr "Grëpòwania"
 #: rc.cpp:2524
 msgid "Verbose"
 msgstr ""
+
+#, fuzzy
+#~| msgid "with"
+#~ msgctxt "The date lies after the given time interval"
+#~ msgid "within"
+#~ msgstr "z"
+
+#, fuzzy
+#~| msgid "dates"
+#~ msgctxt "an alphabetical tag (like title or artist name) equals some string"
+#~ msgid "matches"
+#~ msgstr "datumë"
 
 #~ msgctxt "Title, as in: the title of this item"
 #~ msgid "Name"
