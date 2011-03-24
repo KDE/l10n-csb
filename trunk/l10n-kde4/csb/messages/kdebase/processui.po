@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-22 03:50+0100\n"
+"POT-Creation-Date: 2011-03-24 03:33+0100\n"
 "PO-Revision-Date: 2009-12-14 21:35+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -202,11 +202,11 @@ msgstr ""
 "Ni môsz dosc prawa, abë zatrzëmac nen proces, króm tegò pòkôza sã téż fela "
 "przë próbie dzejaniô jakno sprôwnik. Fela %1 %2"
 
-#: ksysguardprocesslist.cpp:1037 ksysguardprocesslist.cpp:1253
+#: ksysguardprocesslist.cpp:1039 ksysguardprocesslist.cpp:1268
 msgid "You must select a process first."
 msgstr "Je nót wprzód wëbrac proces"
 
-#: ksysguardprocesslist.cpp:1166
+#: ksysguardprocesslist.cpp:1176
 #, kde-format
 msgid ""
 "You do not have the permission to change the I/O priority of the process and "
@@ -215,7 +215,7 @@ msgstr ""
 "Ni môsz dosc prawa bë zmienic planowanié ë prioritet IO, króm tegò pòkôza  "
 "sã fela przë zrëszaniu jakno sprôwnik. Fela %1 %2"
 
-#: ksysguardprocesslist.cpp:1198
+#: ksysguardprocesslist.cpp:1208
 #, kde-format
 msgid ""
 "You do not have the permission to change the CPU Scheduler for the process "
@@ -224,7 +224,19 @@ msgstr ""
 "Ni môsz dosc prawa bë zmienic planowanié CPU, króm tegò pòkôza  sã fela przë "
 "zrëszaniu jakno sprôwnik. Fela %1 %2"
 
-#: ksysguardprocesslist.cpp:1228
+#: ksysguardprocesslist.cpp:1240
+#, fuzzy, kde-format
+#| msgid ""
+#| "You do not have the permission to kill the process and there was a "
+#| "problem trying to run as root.  Error %1 %2"
+msgid ""
+"You do not have the permission to kill the process and there was a problem "
+"trying to run as root. %1"
+msgstr ""
+"Ni môsz dosc prawa bë zakùńczëc nen proces, króm tegò pòkôza sã fela przë "
+"zrëszaniu jakno sprôwnik. Fela %1 %2"
+
+#: ksysguardprocesslist.cpp:1244
 #, kde-format
 msgid ""
 "You do not have the permission to kill the process and there was a problem "
@@ -233,7 +245,7 @@ msgstr ""
 "Ni môsz dosc prawa bë zakùńczëc nen proces, króm tegò pòkôza sã fela przë "
 "zrëszaniu jakno sprôwnik. Fela %1 %2"
 
-#: ksysguardprocesslist.cpp:1259
+#: ksysguardprocesslist.cpp:1274
 #, fuzzy, kde-format
 #| msgid "Are you sure you want to kill this process?"
 #| msgid_plural "Are you sure you want to kill these %1 processes?"
@@ -246,7 +258,7 @@ msgstr[0] "Zakùńczëc nen proces?"
 msgstr[1] "Zakùńczëc %1 procesë?"
 msgstr[2] "Zakùńczëc %1 procesów?"
 
-#: ksysguardprocesslist.cpp:1264
+#: ksysguardprocesslist.cpp:1279
 #, fuzzy, kde-format
 #| msgid "Own Processes"
 msgctxt "Dialog title"
@@ -256,7 +268,7 @@ msgstr[0] "Swòjé procesë"
 msgstr[1] "Swòjé procesë"
 msgstr[2] "Swòjé procesë"
 
-#: ksysguardprocesslist.cpp:1265
+#: ksysguardprocesslist.cpp:1280
 msgid "End"
 msgstr ""
 
