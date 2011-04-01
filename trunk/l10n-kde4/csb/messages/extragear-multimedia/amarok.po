@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-28 03:30+0200\n"
+"POT-Creation-Date: 2011-04-01 03:35+0200\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -24,6 +24,73 @@ msgstr ""
 #, fuzzy
 #| msgid "No track playing"
 msgid "Now playing"
+msgstr "Nick nie je gróné"
+
+#: EngineController.cpp:267
+msgid ""
+"<p>Phonon claims it <b>cannot</b> play MP3 files. You may want to examine "
+"the installation of the backend that phonon uses.</p><p>You may find useful "
+"information in the <i>FAQ</i> section of the <i>Amarok Handbook</i>.</p>"
+msgstr ""
+
+#: EngineController.cpp:288
+msgid "Install MP3 Support"
+msgstr ""
+
+#: EngineController.cpp:290
+msgid ""
+"Amarok currently cannot play MP3 files. Do you want to install support for "
+"MP3?"
+msgstr ""
+
+#: EngineController.cpp:291
+msgid "No MP3 Support"
+msgstr ""
+
+#: EngineController.cpp:857
+#, fuzzy
+#| msgid "Stream"
+msgid "Preamp"
+msgstr "Strëga"
+
+#: EngineController.cpp:1155
+msgid "Too many errors encountered in playlist. Playback stopped."
+msgstr ""
+
+#: EngineController.cpp:1373
+#, kde-format
+msgctxt "track by artist on album"
+msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
+msgstr "<b>%1</b> wëkònywóné przez <b>%2</b> z albùmù <b>%3</b>"
+
+#: EngineController.cpp:1376
+#, kde-format
+msgctxt "track by artist"
+msgid "<b>%1</b> by <b>%2</b>"
+msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
+
+#: EngineController.cpp:1380
+#, kde-format
+msgctxt "track on album"
+msgid "<b>%1</b> on <b>%2</b>"
+msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
+
+#: EngineController.cpp:1385
+#: core-impl/collections/mediadevicecollection/MediaDeviceMeta.cpp:152
+msgid "Unknown track"
+msgstr "Nieznóny sztëczk"
+
+#: EngineController.cpp:1392
+#, fuzzy, kde-format
+#| msgid " on <b>%1</b>"
+msgctxt "track from source"
+msgid "from <b>%1</b>"
+msgstr " przez <b>%1</b>"
+
+#: EngineController.cpp:1403 context/applets/labels/LabelsApplet.cpp:194
+#: context/engines/current/CurrentEngine.cpp:136 mac/GrowlInterface.cpp:43
+#: widgets/Osd.cpp:623
+msgid "No track playing"
 msgstr "Nick nie je gróné"
 
 #: rc.cpp:1
@@ -5900,54 +5967,6 @@ msgstr ""
 msgid "three months ago"
 msgstr "trzë miesące dowslôdë"
 
-#: browsers/CollectionTreeView.cpp:250 configdialog/ConfigDialog.cpp:59
-msgid "Collection"
-msgstr "Kòlekcëjô"
-
-#: browsers/CollectionTreeView.cpp:273 browsers/filebrowser/FileView.cpp:134
-msgid "Copy to Collection"
-msgstr "Kòpiérëjë do kòlekcëji"
-
-#: browsers/CollectionTreeView.cpp:281 browsers/filebrowser/FileView.cpp:125
-msgid "Move to Collection"
-msgstr "Przeniesë do kòlekcëji"
-
-#: browsers/CollectionTreeView.cpp:542 services/lastfm/LastFmTreeView.cpp:201
-msgid "More..."
-msgstr "Wicy..."
-
-#: browsers/CollectionTreeView.cpp:846 browsers/filebrowser/FileView.cpp:396
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:43
-#: context/applets/albums/AlbumsView.cpp:240
-#: services/lastfm/LastFmTreeView.cpp:111
-#, fuzzy
-#| msgid "Add to Playlist"
-msgid "&Add to Playlist"
-msgstr "Dodôj do lëstë graniô"
-
-#: browsers/CollectionTreeView.cpp:855 browsers/filebrowser/FileView.cpp:405
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:50
-#: context/applets/albums/AlbumsView.cpp:241
-#: services/lastfm/LastFmTreeView.cpp:120
-msgctxt "Replace the currently loaded tracks with these"
-msgid "&Replace Playlist"
-msgstr "&Pòdmieni lëstã graniô"
-
-#: browsers/CollectionTreeView.cpp:874 browsers/filebrowser/FileView.cpp:414
-msgid "&Edit Track Details"
-msgstr "&Editëjë detale sztëczka"
-
-#: browsers/CollectionTreeView.cpp:909
-msgctxt "Organize Files"
-msgid "Organize Files"
-msgstr "Òrganizëjë lopczi"
-
-#: browsers/CollectionTreeView.cpp:1079
-#, fuzzy
-#| msgid "&Delete Tracks"
-msgid "Delete Tracks"
-msgstr "&Rëmôj sztëcczi"
-
 #: browsers/InfoProxy.cpp:164 browsers/filebrowser/FileBrowser.cpp:395
 msgid "Home"
 msgstr "Dodóm"
@@ -6087,6 +6106,37 @@ msgstr ""
 #| msgid "dates"
 msgid "Places"
 msgstr "datumë"
+
+#: browsers/filebrowser/FileView.cpp:125 browsers/CollectionTreeView.cpp:281
+msgid "Move to Collection"
+msgstr "Przeniesë do kòlekcëji"
+
+#: browsers/filebrowser/FileView.cpp:134 browsers/CollectionTreeView.cpp:273
+msgid "Copy to Collection"
+msgstr "Kòpiérëjë do kòlekcëji"
+
+#: browsers/filebrowser/FileView.cpp:396
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:43
+#: browsers/CollectionTreeView.cpp:846
+#: context/applets/albums/AlbumsView.cpp:240
+#: services/lastfm/LastFmTreeView.cpp:111
+#, fuzzy
+#| msgid "Add to Playlist"
+msgid "&Add to Playlist"
+msgstr "Dodôj do lëstë graniô"
+
+#: browsers/filebrowser/FileView.cpp:405
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:50
+#: browsers/CollectionTreeView.cpp:855
+#: context/applets/albums/AlbumsView.cpp:241
+#: services/lastfm/LastFmTreeView.cpp:120
+msgctxt "Replace the currently loaded tracks with these"
+msgid "&Replace Playlist"
+msgstr "&Pòdmieni lëstã graniô"
+
+#: browsers/filebrowser/FileView.cpp:414 browsers/CollectionTreeView.cpp:874
+msgid "&Edit Track Details"
+msgstr "&Editëjë detale sztëczka"
 
 #: browsers/filebrowser/FileView.cpp:569
 #, fuzzy
@@ -6566,6 +6616,25 @@ msgstr[0] "1 sztëczk"
 msgstr[1] "%1 sztëcczi"
 msgstr[2] "%1 sztëczków"
 
+#: browsers/CollectionTreeView.cpp:250 configdialog/ConfigDialog.cpp:59
+msgid "Collection"
+msgstr "Kòlekcëjô"
+
+#: browsers/CollectionTreeView.cpp:542 services/lastfm/LastFmTreeView.cpp:201
+msgid "More..."
+msgstr "Wicy..."
+
+#: browsers/CollectionTreeView.cpp:909
+msgctxt "Organize Files"
+msgid "Organize Files"
+msgstr "Òrganizëjë lopczi"
+
+#: browsers/CollectionTreeView.cpp:1079
+#, fuzzy
+#| msgid "&Delete Tracks"
+msgid "Delete Tracks"
+msgstr "&Rëmôj sztëcczi"
+
 #: configdialog/dialogs/DatabaseConfig.cpp:93
 #, fuzzy
 #| msgid "Password"
@@ -6907,12 +6976,6 @@ msgstr "Eticzétë"
 #: context/applets/wikipedia/WikipediaApplet.cpp:588
 msgid "Reload"
 msgstr "Zladëjë znôù"
-
-#: context/applets/labels/LabelsApplet.cpp:194
-#: context/engines/current/CurrentEngine.cpp:136 mac/GrowlInterface.cpp:43
-#: widgets/Osd.cpp:623 EngineController.cpp:1404
-msgid "No track playing"
-msgstr "Nick nie je gróné"
 
 #: context/applets/labels/LabelsApplet.cpp:514
 #, fuzzy
@@ -8382,11 +8445,6 @@ msgstr "Media"
 msgctxt "Podcasts on a media device"
 msgid "Podcasts on %1"
 msgstr "Podcastë"
-
-#: core-impl/collections/mediadevicecollection/MediaDeviceMeta.cpp:152
-#: EngineController.cpp:1386
-msgid "Unknown track"
-msgstr "Nieznóny sztëczk"
 
 #: core-impl/collections/mediadevicecollection/MediaDeviceCollection.cpp:263
 msgid "&Disconnect Device"
@@ -12696,13 +12754,6 @@ msgstr "Sąsedzë"
 msgid "Last.fm: Love"
 msgstr "Last.fm: Lubòtné"
 
-#: services/lastfm/ScrobblerAdapter.cpp:226
-#: services/lastfm/LastFmService.cpp:570
-#, kde-format
-msgctxt "As in, lastfm"
-msgid "Loved Track: %1"
-msgstr "Lubòtny sztëczk: %1"
-
 #: services/lastfm/SimilarArtistsAction.cpp:26
 msgid "Play Similar Artists from Last.fm"
 msgstr "Grôj juwernëch artistów z Last.fm"
@@ -12939,6 +12990,13 @@ msgstr "Tag"
 #: services/lastfm/LastFmService.cpp:534
 msgid "User"
 msgstr "Brëkòwnik"
+
+#: services/lastfm/LastFmService.cpp:570
+#: services/lastfm/ScrobblerAdapter.cpp:226
+#, kde-format
+msgctxt "As in, lastfm"
+msgid "Loved Track: %1"
+msgstr "Lubòtny sztëczk: %1"
 
 #: services/magnatune/MagnatuneAlbumDownloader.cpp:68
 #, fuzzy, kde-format
@@ -14885,62 +14943,6 @@ msgid ""
 "A music path, %1, is set in System Settings.\n"
 "Would you like to use that as a collection folder?"
 msgstr ""
-
-#: EngineController.cpp:267
-msgid ""
-"<p>Phonon claims it <b>cannot</b> play MP3 files. You may want to examine "
-"the installation of the backend that phonon uses.</p><p>You may find useful "
-"information in the <i>FAQ</i> section of the <i>Amarok Handbook</i>.</p>"
-msgstr ""
-
-#: EngineController.cpp:288
-msgid "Install MP3 Support"
-msgstr ""
-
-#: EngineController.cpp:290
-msgid ""
-"Amarok currently cannot play MP3 files. Do you want to install support for "
-"MP3?"
-msgstr ""
-
-#: EngineController.cpp:291
-msgid "No MP3 Support"
-msgstr ""
-
-#: EngineController.cpp:858
-#, fuzzy
-#| msgid "Stream"
-msgid "Preamp"
-msgstr "Strëga"
-
-#: EngineController.cpp:1156
-msgid "Too many errors encountered in playlist. Playback stopped."
-msgstr ""
-
-#: EngineController.cpp:1374
-#, kde-format
-msgctxt "track by artist on album"
-msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
-msgstr "<b>%1</b> wëkònywóné przez <b>%2</b> z albùmù <b>%3</b>"
-
-#: EngineController.cpp:1377
-#, kde-format
-msgctxt "track by artist"
-msgid "<b>%1</b> by <b>%2</b>"
-msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
-
-#: EngineController.cpp:1381
-#, kde-format
-msgctxt "track on album"
-msgid "<b>%1</b> on <b>%2</b>"
-msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
-
-#: EngineController.cpp:1393
-#, fuzzy, kde-format
-#| msgid " on <b>%1</b>"
-msgctxt "track from source"
-msgid "from <b>%1</b>"
-msgstr " przez <b>%1</b>"
 
 #: MainWindow.cpp:271
 msgid "Local Music"
