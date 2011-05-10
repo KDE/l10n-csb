@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-06 02:23+0100\n"
+"POT-Creation-Date: 2011-05-10 04:06+0200\n"
 "PO-Revision-Date: 2009-12-16 23:23+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -22,15 +22,6 @@ msgstr ""
 #: src/konqmainwindow.cpp:5067
 msgid "no name"
 msgstr "bez miona"
-
-#: src/konqextensionmanager.cpp:54
-msgid "Configure"
-msgstr "Kònfigùrëjë"
-
-#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
-#: src/konqextensionmanager.cpp:78
-msgid "Extensions"
-msgstr "Rozszérzenia"
 
 #: src/konqfactory.cpp:90
 #, kde-format
@@ -372,53 +363,6 @@ msgstr "Môlowò"
 msgid "Miscellaneous"
 msgstr "Różné"
 
-#: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4534
-#: sidebar/web_module/web_module.cpp:61
-msgid "Open in New &Window"
-msgstr "Òtemkni w nowim ò&knie"
-
-#: src/konqhistoryview.cpp:67
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:94
-#: sidebar/trees/konq_sidebartree.cpp:232
-msgid "Open in New Tab"
-msgstr "Òtemkni w nowi karce"
-
-#: src/konqhistoryview.cpp:71
-msgid "&Copy Link Address"
-msgstr "&Kòpérëjë adresã lënka"
-
-#: src/konqhistoryview.cpp:76
-msgid "&Remove Entry"
-msgstr "&Rëmôj wpisënk"
-
-#: src/konqhistoryview.cpp:83
-msgid "C&lear History"
-msgstr "&Wëczëszczë historëjã"
-
-#: src/konqhistoryview.cpp:88
-msgid "&Preferences..."
-msgstr "&Swòjiznë..."
-
-#: src/konqhistoryview.cpp:95
-msgid "By &Name"
-msgstr "wedle &miona"
-
-#: src/konqhistoryview.cpp:101
-msgid "By &Date"
-msgstr "wedle &datuma"
-
-#: src/konqhistoryview.cpp:111
-msgid "Search in history"
-msgstr "Szëkba w historëji"
-
-#: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
-msgid "Do you really want to clear the entire history?"
-msgstr "Jes gwës tegò, że chcesz wëczëszczëc całą historëjã?"
-
-#: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
-msgid "Clear History?"
-msgstr "Wëczëszczëc historëjã?"
-
 #: src/konqmain.cpp:96
 #, fuzzy
 #| msgid "Start without a default window"
@@ -466,6 +410,135 @@ msgstr ""
 msgid "Location to open"
 msgstr "Adresa do òtemkniãcô"
 
+#: src/konqtabs.cpp:66
+msgid ""
+"This bar contains the list of currently open tabs. Click on a tab to make it "
+"active. You can also use keyboard shortcuts to navigate through tabs. The "
+"text on the tab shows the content currently open in it; place your mouse "
+"over the tab to see the full title, in case it has been shortened to fit the "
+"tab width."
+msgstr ""
+"Na listew zamëkô w se lëstã òtemkłëch kôrtów. Klëkni na kôrtã, bë jã "
+"aktiwòwac. Mòże téż brëkòwac klawiszowëch skródzënów. Tekst na kôrce "
+"wëskrzeni zamkłosc aktualny starnë. Jeżlë titel òstôł òbcãti, fùl titel mòże "
+"òbôczëc pò najachaniu kùrsorã mëszë nad kôrtã."
+
+#: src/konqtabs.cpp:100
+msgid "Open a new tab"
+msgstr "Òtemkni nową kôrtã"
+
+#: src/konqtabs.cpp:109
+msgid "Close the current tab"
+msgstr "Zamkni aktualną kôrtã"
+
+#: src/konqtabs.cpp:326 src/konqmainwindow.cpp:3645
+msgid "&Reload All Tabs"
+msgstr "Zladëjë wszëtczé kôrtë z&nowa"
+
+#: src/konqtabs.cpp:349 src/konqmainwindow.cpp:2470
+#: src/konqmainwindow.cpp:3583
+msgid "Close &Other Tabs"
+msgstr "Zamkni &zaòstné kôrtë"
+
+#: src/konqtabs.cpp:460 src/konqmainwindow.cpp:3556
+msgid "&New Tab"
+msgstr "&Nowô kôrta"
+
+#: src/konqtabs.cpp:465
+msgid "&Duplicate Tab"
+msgstr "&Zwielokrotni kôrtã"
+
+#: src/konqtabs.cpp:470
+msgid "&Reload Tab"
+msgstr "&Zladëjë kôrtã znowa"
+
+#: src/konqtabs.cpp:477
+msgid "Other Tabs"
+msgstr "Jinszé kôrtë"
+
+#: src/konqtabs.cpp:482
+msgid "D&etach Tab"
+msgstr "Ò&dłączë kôrtã"
+
+#: src/konqtabs.cpp:488
+msgid "&Close Tab"
+msgstr "&Zamkni kôrtã"
+
+#: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
+msgid "Und&o: Closed Tab"
+msgstr "Przëwrócë: Zamkniãtą kôrtã"
+
+#: src/konqundomanager.cpp:112 src/konqundomanager.cpp:120
+#: src/konqundomanager.cpp:162
+msgid "Und&o: Closed Window"
+msgstr "&Przëwrócë: Zamkniãtą kôrtã"
+
+#: src/konqundomanager.cpp:122
+msgid "Und&o"
+msgstr "P&rzëwrócë"
+
+#: src/konqextensionmanager.cpp:54
+#, fuzzy
+#| msgid "Configure"
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "Kònfigùrëjë"
+
+#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
+#: src/konqextensionmanager.cpp:78
+msgid "Extensions"
+msgstr "Rozszérzenia"
+
+#: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4534
+#: sidebar/web_module/web_module.cpp:61
+msgid "Open in New &Window"
+msgstr "Òtemkni w nowim ò&knie"
+
+#: src/konqhistoryview.cpp:67
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:94
+#: sidebar/trees/konq_sidebartree.cpp:232
+msgid "Open in New Tab"
+msgstr "Òtemkni w nowi karce"
+
+#: src/konqhistoryview.cpp:71
+msgid "&Copy Link Address"
+msgstr "&Kòpérëjë adresã lënka"
+
+#: src/konqhistoryview.cpp:76
+msgid "&Remove Entry"
+msgstr "&Rëmôj wpisënk"
+
+#: src/konqhistoryview.cpp:83
+msgid "C&lear History"
+msgstr "&Wëczëszczë historëjã"
+
+#: src/konqhistoryview.cpp:88
+msgid "&Preferences..."
+msgstr "&Swòjiznë..."
+
+#: src/konqhistoryview.cpp:95
+msgid "By &Name"
+msgstr "wedle &miona"
+
+#: src/konqhistoryview.cpp:101
+msgid "By &Date"
+msgstr "wedle &datuma"
+
+#: src/konqhistoryview.cpp:111
+msgid "Search in history"
+msgstr "Szëkba w historëji"
+
+#: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
+msgid "Do you really want to clear the entire history?"
+msgstr "Jes gwës tegò, że chcesz wëczëszczëc całą historëjã?"
+
+#: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
+#, fuzzy
+#| msgid "Clear History?"
+msgctxt "@title:window"
+msgid "Clear History?"
+msgstr "Wëczëszczëc historëjã?"
+
 #: src/konqmainwindow.cpp:571
 msgctxt "@title:tab"
 msgid "Loading..."
@@ -487,6 +560,9 @@ msgstr ""
 #: src/konqmainwindow.cpp:2414 src/konqmainwindow.cpp:2444
 #: src/konqmainwindow.cpp:2486 src/konqmainwindow.cpp:2508
 #: src/konqmainwindow.cpp:4969 src/konqviewmanager.cpp:1427
+#, fuzzy
+#| msgid "Discard Changes?"
+msgctxt "@title:window"
 msgid "Discard Changes?"
 msgstr "Pòcësnąc zmianë?"
 
@@ -571,13 +647,11 @@ msgid "Do you really want to close all other tabs?"
 msgstr "Pò prôwdze zamknąc wszëtczé zaòstné kôrtë?"
 
 #: src/konqmainwindow.cpp:2470
+#, fuzzy
+#| msgid "Close Other Tabs Confirmation"
+msgctxt "@title:window"
 msgid "Close Other Tabs Confirmation"
 msgstr "Pòcwierdzenié zamkniãcô kôrtów"
-
-#: src/konqmainwindow.cpp:2470 src/konqmainwindow.cpp:3583
-#: src/konqtabs.cpp:349
-msgid "Close &Other Tabs"
-msgstr "Zamkni &zaòstné kôrtë"
 
 #: src/konqmainwindow.cpp:2485
 msgid ""
@@ -596,6 +670,9 @@ msgstr ""
 "Zladowanié znowa wszëtczich kôrtów cësnié te zjinaczi."
 
 #: src/konqmainwindow.cpp:2550
+#, fuzzy
+#| msgid "Enter Target"
+msgctxt "@title:window"
 msgid "Enter Target"
 msgstr "Wpiszë cél"
 
@@ -715,10 +792,6 @@ msgstr "Pòdzelë wëzdrzatk &lewò/prawò"
 msgid "Split View &Top/Bottom"
 msgstr "Pòdzelë wëzdrzatk &góra/dół"
 
-#: src/konqmainwindow.cpp:3556 src/konqtabs.cpp:460
-msgid "&New Tab"
-msgstr "&Nowô kôrta"
-
 #: src/konqmainwindow.cpp:3562
 msgid "&Duplicate Current Tab"
 msgstr "&Duplikùjë nã kôrtã"
@@ -771,10 +844,6 @@ msgstr "&Wladëjë profil wëzdrzatkù"
 #: src/konqmainwindow.cpp:3640 sidebar/web_module/web_module.cpp:68
 msgid "&Reload"
 msgstr "&Zladëjë znowa"
-
-#: src/konqmainwindow.cpp:3645 src/konqtabs.cpp:326
-msgid "&Reload All Tabs"
-msgstr "Zladëjë wszëtczé kôrtë z&nowa"
 
 #: src/konqmainwindow.cpp:3653
 msgid "&Force Reload"
@@ -1012,6 +1081,9 @@ msgstr ""
 "dali?"
 
 #: src/konqmainwindow.cpp:4360
+#, fuzzy
+#| msgid "Open bookmarks folder in new tabs"
+msgctxt "@title:window"
 msgid "Open bookmarks folder in new tabs"
 msgstr "Òtemkni katalog załóżków w nowich kôrtach"
 
@@ -1055,6 +1127,9 @@ msgid ""
 msgstr "W tim òknie je òtemkłëch wiele kôrtów. Na gwës zakùńczëc?"
 
 #: src/konqmainwindow.cpp:4934 src/konqviewmanager.cpp:1413
+#, fuzzy
+#| msgid "Confirmation"
+msgctxt "@title:window"
 msgid "Confirmation"
 msgstr "Pòcwierdzenié"
 
@@ -1086,6 +1161,9 @@ msgstr ""
 "wpisënkù."
 
 #: src/konqmainwindow.cpp:5134 src/konqmainwindow.cpp:5141
+#, fuzzy
+#| msgid "Web Sidebar"
+msgctxt "@title:window"
 msgid "Web Sidebar"
 msgstr "Sécowô bòcznô listew"
 
@@ -1112,6 +1190,9 @@ msgstr ""
 "jaczégò nie rozmie òbsłużëc."
 
 #: src/konqprofiledlg.cpp:111
+#, fuzzy
+#| msgid "Profile Management"
+msgctxt "@title:window"
 msgid "Profile Management"
 msgstr "Sprôwianié profilama"
 
@@ -1124,6 +1205,9 @@ msgid "&Delete Profile"
 msgstr "&Rëmôj profil"
 
 #: src/konqsessiondlg.cpp:77
+#, fuzzy
+#| msgid "Manage Sessions"
+msgctxt "@title:window"
 msgid "Manage Sessions"
 msgstr "Sprôwiôj sesëjama"
 
@@ -1132,10 +1216,16 @@ msgid "&Open"
 msgstr "Ò&temkni"
 
 #: src/konqsessiondlg.cpp:175
+#, fuzzy
+#| msgid "Rename Session"
+msgctxt "@title:window"
 msgid "Rename Session"
 msgstr "Zmieni miono sesëji"
 
 #: src/konqsessiondlg.cpp:223
+#, fuzzy
+#| msgid "Save Session"
+msgctxt "@title:window"
 msgid "Save Session"
 msgstr "Zapiszë sesëjã"
 
@@ -1146,6 +1236,9 @@ msgid ""
 msgstr "Sesëjô z mionã '%1' ju je, chcesz ją nadpisac?"
 
 #: src/konqsessiondlg.cpp:248
+#, fuzzy
+#| msgid "Session exists. Overwrite?"
+msgctxt "@title:window"
 msgid "Session exists. Overwrite?"
 msgstr "Sesëjô ju je. Nadpisac?"
 
@@ -1157,6 +1250,9 @@ msgstr ""
 "Konqueror ni zamknął sã pòprôwno. Chcesz przewrócëc rëchliszą sesëjã nazôd?"
 
 #: src/konqsessionmanager.cpp:332
+#, fuzzy
+#| msgid "Restore Session?"
+msgctxt "@title:window"
 msgid "Restore Session?"
 msgstr "Doprowôdzëc sesëjã nazôd?"
 
@@ -1172,60 +1268,6 @@ msgstr "Nie doprowôdzôj nazôd"
 msgid "Ask Me Later"
 msgstr "Pëtôj mie pózdni"
 
-#: src/konqtabs.cpp:66
-msgid ""
-"This bar contains the list of currently open tabs. Click on a tab to make it "
-"active. You can also use keyboard shortcuts to navigate through tabs. The "
-"text on the tab shows the content currently open in it; place your mouse "
-"over the tab to see the full title, in case it has been shortened to fit the "
-"tab width."
-msgstr ""
-"Na listew zamëkô w se lëstã òtemkłëch kôrtów. Klëkni na kôrtã, bë jã "
-"aktiwòwac. Mòże téż brëkòwac klawiszowëch skródzënów. Tekst na kôrce "
-"wëskrzeni zamkłosc aktualny starnë. Jeżlë titel òstôł òbcãti, fùl titel mòże "
-"òbôczëc pò najachaniu kùrsorã mëszë nad kôrtã."
-
-#: src/konqtabs.cpp:100
-msgid "Open a new tab"
-msgstr "Òtemkni nową kôrtã"
-
-#: src/konqtabs.cpp:109
-msgid "Close the current tab"
-msgstr "Zamkni aktualną kôrtã"
-
-#: src/konqtabs.cpp:465
-msgid "&Duplicate Tab"
-msgstr "&Zwielokrotni kôrtã"
-
-#: src/konqtabs.cpp:470
-msgid "&Reload Tab"
-msgstr "&Zladëjë kôrtã znowa"
-
-#: src/konqtabs.cpp:477
-msgid "Other Tabs"
-msgstr "Jinszé kôrtë"
-
-#: src/konqtabs.cpp:482
-msgid "D&etach Tab"
-msgstr "Ò&dłączë kôrtã"
-
-#: src/konqtabs.cpp:488
-msgid "&Close Tab"
-msgstr "&Zamkni kôrtã"
-
-#: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
-msgid "Und&o: Closed Tab"
-msgstr "Przëwrócë: Zamkniãtą kôrtã"
-
-#: src/konqundomanager.cpp:112 src/konqundomanager.cpp:120
-#: src/konqundomanager.cpp:162
-msgid "Und&o: Closed Window"
-msgstr "&Przëwrócë: Zamkniãtą kôrtã"
-
-#: src/konqundomanager.cpp:122
-msgid "Und&o"
-msgstr "P&rzëwrócë"
-
 #: src/konqview.cpp:1199
 msgid ""
 "The page you are trying to view is the result of posted form data. If you "
@@ -1237,6 +1279,9 @@ msgstr ""
 "(np. wësłanié zamówieniô czë szëkba), òstaną znowioné. "
 
 #: src/konqview.cpp:1201
+#, fuzzy
+#| msgid "Warning"
+msgctxt "@title:window"
 msgid "Warning"
 msgstr "Òstrzéga"
 
@@ -1324,103 +1369,6 @@ msgstr ""
 msgid "Extended Sidebar"
 msgstr "Rozszérzonô bòcznô listew"
 
-#: sidebar/sidebar_widget.cpp:94
-msgid "Rollback to System Default"
-msgstr "Doprowôdzë nazôd do domëslnegò nastôwù systemë"
-
-#: sidebar/sidebar_widget.cpp:154 sidebar/sidebar_widget.cpp:431
-msgid "Configure Sidebar"
-msgstr "Kònfigùracëjô bòczny listwë"
-
-#: sidebar/sidebar_widget.cpp:156
-msgid "Add New"
-msgstr "Dodôj nowi"
-
-#: sidebar/sidebar_widget.cpp:160
-msgid "Multiple Views"
-msgstr "Wiele wëzdrzatków"
-
-#: sidebar/sidebar_widget.cpp:162 sidebar/sidebar_widget.cpp:277
-msgid "Show Tabs Left"
-msgstr "Pòkôżë kôrtë z lewi starnë"
-
-#: sidebar/sidebar_widget.cpp:163
-msgid "Show Configuration Button"
-msgstr "Pòkôżë knąpã kònfigùracëji"
-
-#: sidebar/sidebar_widget.cpp:166
-msgid "Close Sidebar"
-msgstr "Zamkni bòczną listew"
-
-#: sidebar/sidebar_widget.cpp:224
-msgid "This entry already exists."
-msgstr "Nen wpisënk ju je."
-
-#: sidebar/sidebar_widget.cpp:235
-msgid ""
-"<qt>This removes all your entries from the sidebar and adds the system "
-"default ones.<br /><b>This procedure is irreversible</b><br />Do you want to "
-"proceed?</qt>"
-msgstr ""
-"<qt>To rëmô wszëtczé Twòje wpisënczi w bòczny listwie ë dodô tam domëslné."
-"<br /><b>Tegò procesu ni mòże copnąc.</b> <br />Jisc dali?</qt>"
-
-#: sidebar/sidebar_widget.cpp:277
-msgid "Show Tabs Right"
-msgstr "Pòkażë kôrtë z prawa"
-
-#: sidebar/sidebar_widget.cpp:287
-msgid "Set Name"
-msgstr "Ùstôwi miono"
-
-#: sidebar/sidebar_widget.cpp:287
-msgid "Enter the name:"
-msgstr "Wpiszë miono:"
-
-#: sidebar/sidebar_widget.cpp:304
-msgid "Enter a URL:"
-msgstr "Wpiszë adresã URL:"
-
-#: sidebar/sidebar_widget.cpp:327
-#, kde-format
-msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
-msgstr "<qt>Jes gwës tegò, że chcesz rëmnąc kôrtã <b>\"%1\"</b>?</qt>"
-
-#: sidebar/sidebar_widget.cpp:372
-#, fuzzy
-#| msgid ""
-#| "You have hidden the navigation panel configuration button. To make it "
-#| "visible again, click the right mouse button on any of the navigation "
-#| "panel buttons and select \"Show Configuration Button\"."
-msgid ""
-"You have hidden the sidebar configuration button. To make it visible again, "
-"click the right mouse button on any of the sidebar buttons and select \"Show "
-"Configuration Button\"."
-msgstr ""
-"Knąpa kònfigùracëji nawigacjowi listwë òstała zataconô. Bë jã wëskrzënic, je "
-"nót klëknąc prawą knąpã mëszë na dowólny knąpie nawigacjowi listwë ë wëbrac "
-"\"Pòkôżë knąpã kònfigùracëji\"."
-
-#: sidebar/sidebar_widget.cpp:549
-msgid "Set Name..."
-msgstr "Ùstôwi miono..."
-
-#: sidebar/sidebar_widget.cpp:550
-msgid "Set URL..."
-msgstr "Ùstôwi adresã URL..."
-
-#: sidebar/sidebar_widget.cpp:551
-msgid "Set Icon..."
-msgstr "Ùstôwi ikònã..."
-
-#: sidebar/sidebar_widget.cpp:553
-msgid "Remove"
-msgstr "Rëmôj"
-
-#: sidebar/sidebar_widget.cpp:846
-msgid "Web module"
-msgstr "Sécowi mòduł"
-
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:74
 msgid "&Create New Folder"
 msgstr "Ùsôdzë nowi &katalog"
@@ -1472,14 +1420,23 @@ msgstr ""
 "\"%1\"?"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:337
+#, fuzzy
+#| msgid "Bookmark Folder Deletion"
+msgctxt "@title:window"
 msgid "Bookmark Folder Deletion"
 msgstr "Rëminãce katalogù załóżków"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:338
+#, fuzzy
+#| msgid "Bookmark Deletion"
+msgctxt "@title:window"
 msgid "Bookmark Deletion"
 msgstr "Rëminãce załóżczi"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:380
+#, fuzzy
+#| msgid "Bookmark Properties"
+msgctxt "@title:window"
 msgid "Bookmark Properties"
 msgstr "Swòjizna załóżczi"
 
@@ -1496,6 +1453,9 @@ msgid "Location:"
 msgstr "Lokalizacëjô:"
 
 #: sidebar/trees/bookmark_module/bookmark_module.h:88
+#, fuzzy
+#| msgid "Add Bookmark"
+msgctxt "@title:window"
 msgid "Add Bookmark"
 msgstr "Dodôj załóżkã"
 
@@ -1503,6 +1463,23 @@ msgstr "Dodôj załóżkã"
 #, kde-format
 msgid "Cannot find parent item %1 in the tree. Internal error."
 msgstr "Ni mòże nalezc nôdrzãdnegò elementu %1 w drzewie. Bënowô fela."
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+msgctxt "@label"
+msgid "Name:"
+msgstr "Miono:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+msgctxt "@label"
+msgid "Path or URL:"
+msgstr "Stgna adresë URL:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
+msgctxt "@title:window"
+msgid "Add folder sidebar module"
+msgstr "Dodôj katalog mòdułu bòcznu listwë"
 
 #: sidebar/trees/konq_sidebartree.cpp:203
 msgid "&Create New Folder..."
@@ -1525,29 +1502,15 @@ msgid "New Folder"
 msgstr "Nowi katalog"
 
 #: sidebar/trees/konq_sidebartree.cpp:955
+#, fuzzy
+#| msgid "Create New Folder"
+msgctxt "@title:window"
 msgid "Create New Folder"
 msgstr "Ùsôdzë nowi katalog"
 
 #: sidebar/trees/konq_sidebartree.cpp:956
 msgid "Enter folder name:"
 msgstr "Miono katalogù:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#: sidebar/web_module/web_module.cpp:300
-msgctxt "@label"
-msgid "Name:"
-msgstr "Miono:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#: sidebar/web_module/web_module.cpp:300
-msgctxt "@label"
-msgid "Path or URL:"
-msgstr "Stgna adresë URL:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
-msgctxt "@title:window"
-msgid "Add folder sidebar module"
-msgstr "Dodôj katalog mòdułu bòcznu listwë"
 
 #: sidebar/web_module/web_module.cpp:57
 msgid "&Open Link"
@@ -1558,6 +1521,9 @@ msgid "Set &Automatic Reload"
 msgstr "Wëłączë &aùtomatné òdswierzanié"
 
 #: sidebar/web_module/web_module.cpp:137
+#, fuzzy
+#| msgid "Set Refresh Timeout (0 disables)"
+msgctxt "@title:window"
 msgid "Set Refresh Timeout (0 disables)"
 msgstr "Ùstôwi czas òdswierzaniô (0 wëłączô)"
 
@@ -1578,6 +1544,106 @@ msgstr "Sécowi mòduł bòczny listewë"
 msgctxt "@title:window"
 msgid "Add web sidebar module"
 msgstr "Dodôj sécowi mòduł bòczny listwë"
+
+#: sidebar/sidebar_widget.cpp:94
+msgid "Rollback to System Default"
+msgstr "Doprowôdzë nazôd do domëslnegò nastôwù systemë"
+
+#: sidebar/sidebar_widget.cpp:154 sidebar/sidebar_widget.cpp:431
+msgid "Configure Sidebar"
+msgstr "Kònfigùracëjô bòczny listwë"
+
+#: sidebar/sidebar_widget.cpp:156
+msgid "Add New"
+msgstr "Dodôj nowi"
+
+#: sidebar/sidebar_widget.cpp:160
+msgid "Multiple Views"
+msgstr "Wiele wëzdrzatków"
+
+#: sidebar/sidebar_widget.cpp:162 sidebar/sidebar_widget.cpp:277
+msgid "Show Tabs Left"
+msgstr "Pòkôżë kôrtë z lewi starnë"
+
+#: sidebar/sidebar_widget.cpp:163
+msgid "Show Configuration Button"
+msgstr "Pòkôżë knąpã kònfigùracëji"
+
+#: sidebar/sidebar_widget.cpp:166
+msgid "Close Sidebar"
+msgstr "Zamkni bòczną listew"
+
+#: sidebar/sidebar_widget.cpp:224
+msgid "This entry already exists."
+msgstr "Nen wpisënk ju je."
+
+#: sidebar/sidebar_widget.cpp:235
+msgid ""
+"<qt>This removes all your entries from the sidebar and adds the system "
+"default ones.<br /><b>This procedure is irreversible</b><br />Do you want to "
+"proceed?</qt>"
+msgstr ""
+"<qt>To rëmô wszëtczé Twòje wpisënczi w bòczny listwie ë dodô tam domëslné."
+"<br /><b>Tegò procesu ni mòże copnąc.</b> <br />Jisc dali?</qt>"
+
+#: sidebar/sidebar_widget.cpp:277
+msgid "Show Tabs Right"
+msgstr "Pòkażë kôrtë z prawa"
+
+#: sidebar/sidebar_widget.cpp:287
+#, fuzzy
+#| msgid "Set Name"
+msgctxt "@title:window"
+msgid "Set Name"
+msgstr "Ùstôwi miono"
+
+#: sidebar/sidebar_widget.cpp:287
+msgid "Enter the name:"
+msgstr "Wpiszë miono:"
+
+#: sidebar/sidebar_widget.cpp:304
+msgid "Enter a URL:"
+msgstr "Wpiszë adresã URL:"
+
+#: sidebar/sidebar_widget.cpp:327
+#, kde-format
+msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
+msgstr "<qt>Jes gwës tegò, że chcesz rëmnąc kôrtã <b>\"%1\"</b>?</qt>"
+
+#: sidebar/sidebar_widget.cpp:372
+#, fuzzy
+#| msgid ""
+#| "You have hidden the navigation panel configuration button. To make it "
+#| "visible again, click the right mouse button on any of the navigation "
+#| "panel buttons and select \"Show Configuration Button\"."
+msgid ""
+"You have hidden the sidebar configuration button. To make it visible again, "
+"click the right mouse button on any of the sidebar buttons and select \"Show "
+"Configuration Button\"."
+msgstr ""
+"Knąpa kònfigùracëji nawigacjowi listwë òstała zataconô. Bë jã wëskrzënic, je "
+"nót klëknąc prawą knąpã mëszë na dowólny knąpie nawigacjowi listwë ë wëbrac "
+"\"Pòkôżë knąpã kònfigùracëji\"."
+
+#: sidebar/sidebar_widget.cpp:549
+msgid "Set Name..."
+msgstr "Ùstôwi miono..."
+
+#: sidebar/sidebar_widget.cpp:550
+msgid "Set URL..."
+msgstr "Ùstôwi adresã URL..."
+
+#: sidebar/sidebar_widget.cpp:551
+msgid "Set Icon..."
+msgstr "Ùstôwi ikònã..."
+
+#: sidebar/sidebar_widget.cpp:553
+msgid "Remove"
+msgstr "Rëmôj"
+
+#: sidebar/sidebar_widget.cpp:846
+msgid "Web module"
+msgstr "Sécowi mòduł"
 
 #: about/konq_aboutpage.cc:79 about/konq_aboutpage.cc:81
 #: about/konq_aboutpage.cc:135 about/konq_aboutpage.cc:137
@@ -2058,6 +2124,9 @@ msgid ""
 msgstr "Wëłączëc wëskrzeniwanié wprowadzeniô w profilu przezérnika WWW?"
 
 #: about/konq_aboutpage.cc:465
+#, fuzzy
+#| msgid "Faster Startup?"
+msgctxt "@title:window"
 msgid "Faster Startup?"
 msgstr "Chùtczi zrëszanié?"
 
