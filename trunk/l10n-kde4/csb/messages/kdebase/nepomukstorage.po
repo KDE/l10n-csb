@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-10 03:44+0200\n"
+"POT-Creation-Date: 2011-05-12 04:10+0200\n"
 "PO-Revision-Date: 2009-12-15 18:43+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -33,12 +33,31 @@ msgstr "Stôri czérownik"
 msgid "New backend"
 msgstr "Nowi czérownik"
 
+#: test/fakedatamanagementservice.cpp:123
+#: test/fakedatamanagementservice.cpp:125
+msgid "Fake Data Management Service"
+msgstr ""
+
+#: test/fakedatamanagementservice.cpp:127
+#, fuzzy
+#| msgid "(c) 2008, Sebastian Trüg"
+msgid "(c) 2011, Sebastian Trüg"
+msgstr "(c) 2008, Sebastian Trüg"
+
+#: test/fakedatamanagementservice.cpp:131
+msgid "Sebastian Trüg"
+msgstr "Sebastian Trüg"
+
+#: test/fakedatamanagementservice.cpp:131
+msgid "Maintainer"
+msgstr "Òpiekùn"
+
 #: ontologyloader.cpp:135
 #, kde-format
 msgid "Parsing of file %1 failed (%2)"
 msgstr "Wczëtanié lopka %1 nie darzëło sã (%2)"
 
-#: repository.cpp:104
+#: repository.cpp:110
 msgctxt "@info - notification message"
 msgid ""
 "Nepomuk Semantic Desktop needs the Virtuoso RDF server to store its data. "
@@ -47,7 +66,7 @@ msgstr ""
 "Ùsłëżnotë Nepomuk Semantic brëkùją serwera Virtuoso RDF do trzëmaniô "
 "pòdôwków. Abë brëkòwac Nepomuka nót je winstalowac wtëkôcza Virtuoso Soprano."
 
-#: repository.cpp:116
+#: repository.cpp:122
 msgctxt "@info - notification message"
 msgid ""
 "Nepomuk Semantic Desktop needs the Virtuoso RDF server to store its data. "
@@ -58,7 +77,7 @@ msgstr ""
 "pòdôwków. Abë brëkòwac Nepomuka nót je winstalowac serwer Virtuoso ë "
 "czérowniczi ODBC."
 
-#: repository.cpp:239
+#: repository.cpp:257
 #, kde-format
 msgctxt "@info - notification message"
 msgid ""
@@ -70,13 +89,13 @@ msgstr ""
 "mògą bëc brëkòwóné egzystejacé pòdôwczi. Przez bezpiek pòdôwków bãdze "
 "Nepomuk wëłączomy - do rëmniãcô rãczno problemë."
 
-#: repository.cpp:273
+#: repository.cpp:291
 msgctxt "@info - notification message"
 msgid "Converting Nepomuk data to a new backend. This might take a while."
 msgstr ""
 "Pòdôwczi Nepomuka bãdą kònwertowóné do fòrmatu czérowników. To kąsk zbawi."
 
-#: repository.cpp:286
+#: repository.cpp:304
 msgctxt "@info - notification message"
 msgid ""
 "Converting Nepomuk data to the new backend failed. For data security reasons "
@@ -85,10 +104,20 @@ msgstr ""
 "Kònwertowanié pòdôwków Nepomuka do nowégò czérownika nie darzëło sã. Nepomuk "
 "bãdze wëłączony, pòdôwczi mòże równak zjinaczëc rãczno."
 
-#: repository.cpp:300
+#: repository.cpp:318
 msgctxt "@info - notification message"
 msgid "Successfully converted Nepomuk data to the new backend."
 msgstr "Ùdałé kònwertowanié pòdôwków Nepomuka dlô nowégò czérownika."
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Michôł Òstrowsczi, Mark Kwidzińsczi"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "michol@linuxcsb.org, mark@linuxcsb.org"
 
 #, fuzzy
 #~| msgid "Search Service"
@@ -202,12 +231,6 @@ msgstr "Ùdałé kònwertowanié pòdôwków Nepomuka dlô nowégò czérownika.
 #~ msgid "NepomukBackup"
 #~ msgstr "Nepomuk"
 
-#~ msgid "Maintainer"
-#~ msgstr "Òpiekùn"
-
-#~ msgid "Sebastian Trüg"
-#~ msgstr "Sebastian Trüg"
-
 #, fuzzy
 #~| msgid ""
 #~| "The Nepomuk query service is not running. Unable to answer queries "
@@ -225,9 +248,6 @@ msgstr "Ùdałé kònwertowanié pòdôwków Nepomuka dlô nowégò czérownika.
 
 #~ msgid "Nepomuk Server - Manages Nepomuk storage and services"
 #~ msgstr "Serwera Nepomuk - sprôwiô serwisama ë dostónkama Nepomuka"
-
-#~ msgid "(c) 2008, Sebastian Trüg"
-#~ msgstr "(c) 2008, Sebastian Trüg"
 
 #~ msgid "Nepomuk Configuration Module"
 #~ msgstr "Mòdul kònfigùracëji Nepomuka"
@@ -320,14 +340,6 @@ msgstr "Ùdałé kònwertowanié pòdôwków Nepomuka dlô nowégò czérownika.
 
 #~ msgid "Unknown service name:"
 #~ msgstr "Nieznóné miono ùsłëżnotë:"
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Michôł Òstrowsczi, Mark Kwidzińsczi"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "michol@linuxcsb.org, mark@linuxcsb.org"
 
 #, fuzzy
 #~| msgctxt ""
