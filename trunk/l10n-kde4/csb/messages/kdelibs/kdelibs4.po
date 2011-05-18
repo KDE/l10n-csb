@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-17 04:19+0200\n"
+"POT-Creation-Date: 2011-05-18 04:04+0200\n"
 "PO-Revision-Date: 2009-12-04 22:09+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -6160,7 +6160,7 @@ msgid "Reset Toolbars"
 msgstr "Doprowôdzë listew nôrzãdzów nazôd"
 
 #: kdeui/dialogs/kedittoolbar.cpp:602 khtml/khtmlview.cpp:2811
-#: khtml/khtmlview.cpp:2844 khtml/html/html_formimpl.cpp:1839
+#: khtml/khtmlview.cpp:2844 khtml/html/html_formimpl.cpp:1845
 msgid "Reset"
 msgstr "Doprowôdzë nazôd"
 
@@ -7923,12 +7923,6 @@ msgctxt "@action"
 msgid "About KDE"
 msgstr "Wëdowiédzô ò KDE"
 
-#: kdeui/sonnet/configdialog.cpp:51
-#, fuzzy
-#| msgid "Send Confirmation"
-msgid "Spell Checking Configuration"
-msgstr "Wëslë pòcwierdzenié"
-
 #: kdeui/sonnet/dialog.cpp:103 kdeui/sonnet/dialog.cpp:224
 #: kdeui/sonnet/dialog.cpp:445
 msgctxt "@title:window"
@@ -7958,6 +7952,12 @@ msgstr "Òprzëstóné sprôwdzanié pisënkù."
 #: kdeui/sonnet/dialog.cpp:441 kdeui/sonnet/dialog.cpp:445
 msgid "Spell check complete."
 msgstr "Kòmpletné sprôwdzenié pisënkù."
+
+#: kdeui/sonnet/configdialog.cpp:51
+#, fuzzy
+#| msgid "Send Confirmation"
+msgid "Spell Checking Configuration"
+msgstr "Wëslë pòcwierdzenié"
 
 #: kdeui/util/kcompletion.cpp:693
 msgid ""
@@ -10603,70 +10603,6 @@ msgstr "Òbrôzk - %1x%2 pikselów"
 msgid "Done."
 msgstr "Parôt."
 
-#: khtml/test_regression.cpp:619
-msgid "Directory containing tests, basedir and output directories."
-msgstr "Katalog z tekstama, spòdlowim ë skùtkòwim katalogã."
-
-#: khtml/test_regression.cpp:621
-msgid "Do not suppress debug output"
-msgstr "Nie tacë diagnosticznëch wiadłów"
-
-#: khtml/test_regression.cpp:623
-msgid "Regenerate baseline (instead of checking)"
-msgstr "Òbliczë spòdlową linijã (w môlu sprôwdzeniô)"
-
-#: khtml/test_regression.cpp:625
-msgid "Do not show the window while running tests"
-msgstr "Zatacë òkno przë wëkònëwaniô testów"
-
-#: khtml/test_regression.cpp:627
-msgid "Only run a single test. Multiple options allowed."
-msgstr "Zrëszë blós jeden test. Dopùszczalnëch je wiele òptacëji."
-
-#: khtml/test_regression.cpp:628
-msgid "Only run .js tests"
-msgstr "Zrëszë le testë .js"
-
-#: khtml/test_regression.cpp:629
-msgid "Only run .html tests"
-msgstr "Zrëszë le testë .html"
-
-#: khtml/test_regression.cpp:632
-#, fuzzy
-#| msgid "Put output in <directory> instead of <base_dir>/output"
-msgid "Put output in &lt;directory&gt; instead of &lt;base_dir&gt;/output"
-msgstr "Wstôwi skùtk do <directory> w môlu do <base_dir>/output"
-
-#: khtml/test_regression.cpp:634
-#, fuzzy
-#| msgid "Use <directory> as reference instead of <base_dir>/baseline"
-msgid "Use &lt;directory&gt; as reference instead of &lt;base_dir&gt;/baseline"
-msgstr "Brëkùjë <directory> jako òdniesenié w môl <basedir>/baseline"
-
-#: khtml/test_regression.cpp:635
-msgid ""
-"Directory containing tests, basedir and output directories. Only regarded if "
-"-b is not specified."
-msgstr ""
-"Katalog zamëkający w se katalodżi tests, basedir ë output. Wôżné blós, czéj "
-"nie òsta ùżëtô òptacëjô -b."
-
-#: khtml/test_regression.cpp:636
-msgid ""
-"Relative path to testcase, or directory of testcases to be run (equivalent "
-"to -t)."
-msgstr ""
-"Relatiwnô stegna do testowégò kataloga abò katalog z testama do zrëszaniô "
-"(równoznaczëna -t)."
-
-#: khtml/test_regression.cpp:638
-msgid "TestRegression"
-msgstr "TestRegression"
-
-#: khtml/test_regression.cpp:639
-msgid "Regression tester for khtml"
-msgstr "Test regresëji dlô khtml"
-
 #: khtml/test_regression_gui_main.cpp:34
 msgid "TestRegressionGui"
 msgstr "TestRegressionGui"
@@ -10674,44 +10610,6 @@ msgstr "TestRegressionGui"
 #: khtml/test_regression_gui_main.cpp:35
 msgid "GUI for the khtml regression tester"
 msgstr "Interfejs do testów regresëji khtml"
-
-#: khtml/test_regression_gui_window.cpp:76
-msgid "Available Tests: 0"
-msgstr "Przistãpné testë: 0"
-
-#: khtml/test_regression_gui_window.cpp:181
-msgid "Please choose a valid 'khtmltests/regression/' directory."
-msgstr "Proszã wëbrac bezzmiłkòwi katalog khtmltests/regression/'."
-
-#: khtml/test_regression_gui_window.cpp:250
-msgid "Please choose a valid 'khtml/' build directory."
-msgstr "Proszã wëbrac bezzmiłkòwi katalog bùdowaniô 'khtml/' "
-
-#: khtml/test_regression_gui_window.cpp:532
-#, kde-format
-msgid "Available Tests: %1 (ignored: %2)"
-msgstr "Przistãpné testë %1 (ignorowóné: %2)"
-
-#: khtml/test_regression_gui_window.cpp:563
-#: khtml/ecma/debugger/debugwindow.cpp:192
-msgid "Continue"
-msgstr "Kòntinuùjë"
-
-#: khtml/test_regression_gui_window.cpp:632
-msgid "Cannot find testregression executable."
-msgstr "Ni mòże nalezc wëkònëwólnegò lopka executable."
-
-#: khtml/test_regression_gui_window.cpp:1102
-msgid "Run test..."
-msgstr "Zrëszë test..."
-
-#: khtml/test_regression_gui_window.cpp:1104
-msgid "Add to ignores..."
-msgstr "&Dodôj do ignorowónëch..."
-
-#: khtml/test_regression_gui_window.cpp:1105
-msgid "Remove from ignores..."
-msgstr "Rëmôj z ignorowónëch..."
 
 #: khtml/testkhtml.cpp:39
 msgid "URL to open"
@@ -10742,7 +10640,7 @@ msgid "Access Keys activated"
 msgstr "Klawisze przistãpù aktiwòwóné"
 
 #: khtml/khtmlview.cpp:2797 khtml/khtmlview.cpp:2839 khtml/khtml_part.cpp:4764
-#: khtml/html/html_formimpl.cpp:1635 khtml/html/html_formimpl.cpp:1847
+#: khtml/html/html_formimpl.cpp:1641 khtml/html/html_formimpl.cpp:1853
 msgid "Submit"
 msgstr "Wëslë"
 
@@ -11231,6 +11129,108 @@ msgstr "&Dôwôj wiédzã ò blokòwónëch òknach"
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "&Kònfigùrëjë pòlitikã JavaScript dlô nowich òknów..."
 
+#: khtml/test_regression.cpp:619
+msgid "Directory containing tests, basedir and output directories."
+msgstr "Katalog z tekstama, spòdlowim ë skùtkòwim katalogã."
+
+#: khtml/test_regression.cpp:621
+msgid "Do not suppress debug output"
+msgstr "Nie tacë diagnosticznëch wiadłów"
+
+#: khtml/test_regression.cpp:623
+msgid "Regenerate baseline (instead of checking)"
+msgstr "Òbliczë spòdlową linijã (w môlu sprôwdzeniô)"
+
+#: khtml/test_regression.cpp:625
+msgid "Do not show the window while running tests"
+msgstr "Zatacë òkno przë wëkònëwaniô testów"
+
+#: khtml/test_regression.cpp:627
+msgid "Only run a single test. Multiple options allowed."
+msgstr "Zrëszë blós jeden test. Dopùszczalnëch je wiele òptacëji."
+
+#: khtml/test_regression.cpp:628
+msgid "Only run .js tests"
+msgstr "Zrëszë le testë .js"
+
+#: khtml/test_regression.cpp:629
+msgid "Only run .html tests"
+msgstr "Zrëszë le testë .html"
+
+#: khtml/test_regression.cpp:632
+#, fuzzy
+#| msgid "Put output in <directory> instead of <base_dir>/output"
+msgid "Put output in &lt;directory&gt; instead of &lt;base_dir&gt;/output"
+msgstr "Wstôwi skùtk do <directory> w môlu do <base_dir>/output"
+
+#: khtml/test_regression.cpp:634
+#, fuzzy
+#| msgid "Use <directory> as reference instead of <base_dir>/baseline"
+msgid "Use &lt;directory&gt; as reference instead of &lt;base_dir&gt;/baseline"
+msgstr "Brëkùjë <directory> jako òdniesenié w môl <basedir>/baseline"
+
+#: khtml/test_regression.cpp:635
+msgid ""
+"Directory containing tests, basedir and output directories. Only regarded if "
+"-b is not specified."
+msgstr ""
+"Katalog zamëkający w se katalodżi tests, basedir ë output. Wôżné blós, czéj "
+"nie òsta ùżëtô òptacëjô -b."
+
+#: khtml/test_regression.cpp:636
+msgid ""
+"Relative path to testcase, or directory of testcases to be run (equivalent "
+"to -t)."
+msgstr ""
+"Relatiwnô stegna do testowégò kataloga abò katalog z testama do zrëszaniô "
+"(równoznaczëna -t)."
+
+#: khtml/test_regression.cpp:638
+msgid "TestRegression"
+msgstr "TestRegression"
+
+#: khtml/test_regression.cpp:639
+msgid "Regression tester for khtml"
+msgstr "Test regresëji dlô khtml"
+
+#: khtml/test_regression_gui_window.cpp:76
+msgid "Available Tests: 0"
+msgstr "Przistãpné testë: 0"
+
+#: khtml/test_regression_gui_window.cpp:181
+msgid "Please choose a valid 'khtmltests/regression/' directory."
+msgstr "Proszã wëbrac bezzmiłkòwi katalog khtmltests/regression/'."
+
+#: khtml/test_regression_gui_window.cpp:250
+msgid "Please choose a valid 'khtml/' build directory."
+msgstr "Proszã wëbrac bezzmiłkòwi katalog bùdowaniô 'khtml/' "
+
+#: khtml/test_regression_gui_window.cpp:532
+#, kde-format
+msgid "Available Tests: %1 (ignored: %2)"
+msgstr "Przistãpné testë %1 (ignorowóné: %2)"
+
+#: khtml/test_regression_gui_window.cpp:563
+#: khtml/ecma/debugger/debugwindow.cpp:192
+msgid "Continue"
+msgstr "Kòntinuùjë"
+
+#: khtml/test_regression_gui_window.cpp:632
+msgid "Cannot find testregression executable."
+msgstr "Ni mòże nalezc wëkònëwólnegò lopka executable."
+
+#: khtml/test_regression_gui_window.cpp:1102
+msgid "Run test..."
+msgstr "Zrëszë test..."
+
+#: khtml/test_regression_gui_window.cpp:1104
+msgid "Add to ignores..."
+msgstr "&Dodôj do ignorowónëch..."
+
+#: khtml/test_regression_gui_window.cpp:1105
+msgid "Remove from ignores..."
+msgstr "Rëmôj z ignorowónëch..."
+
 #: khtml/ecma/kjs_binding.cpp:185
 #, fuzzy
 #| msgid ""
@@ -11256,7 +11256,7 @@ msgstr "JavaScript"
 msgid "&Stop Script"
 msgstr "Òtemkni skript"
 
-#: khtml/ecma/kjs_window.cpp:1650 khtml/ecma/kjs_html.cpp:2174
+#: khtml/ecma/kjs_window.cpp:1650 khtml/ecma/kjs_html.cpp:2161
 msgid "Confirmation: JavaScript Popup"
 msgstr "Pòcwierdzenié: Òczénkò JavaScript"
 
@@ -11277,11 +11277,11 @@ msgstr ""
 "<qt>Na starna żãdô òtemkniãcô<p>%1</p>w nowim òknie przezérnika brëkùjąc "
 "JavaScript.<br /> Pòzwôlëc na to?</qt>"
 
-#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2181
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2168
 msgid "Allow"
 msgstr "Pòzwôlë"
 
-#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2181
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2168
 msgid "Do Not Allow"
 msgstr "Nie pòzwôlôj"
 
@@ -11319,7 +11319,7 @@ msgstr "Wstôwi"
 msgid "Disallow"
 msgstr "Nie dawôj zgòdë"
 
-#: khtml/ecma/kjs_html.cpp:2176
+#: khtml/ecma/kjs_html.cpp:2163
 msgid ""
 "This site is submitting a form which will open up a new browser window via "
 "JavaScript.\n"
@@ -11329,7 +11329,7 @@ msgstr ""
 "pòmòca Javascript.\n"
 "Dac zgòdã na to?"
 
-#: khtml/ecma/kjs_html.cpp:2179
+#: khtml/ecma/kjs_html.cpp:2166
 #, kde-format
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
@@ -11527,7 +11527,7 @@ msgstr[0] "&Wëslë lopczi"
 msgstr[1] "&Wëslë lopczi"
 msgstr[2] "&Wëslë lopczi"
 
-#: khtml/html/html_formimpl.cpp:2701
+#: khtml/html/html_formimpl.cpp:2717
 msgid "Key Generator"
 msgstr "Generator kluczów"
 
