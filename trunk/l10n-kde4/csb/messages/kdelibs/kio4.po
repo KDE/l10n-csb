@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-18 04:04+0200\n"
+"POT-Creation-Date: 2011-05-20 04:07+0200\n"
 "PO-Revision-Date: 2009-06-29 20:35+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -6405,6 +6405,74 @@ msgstr ""
 "Ùsôdzë nowi katalog w:\n"
 "%1"
 
+#: ../kfile/kfileplacesmodel.cpp:117
+#, fuzzy
+#| msgctxt "Home Directory"
+#| msgid "Home"
+msgctxt "KFile System Bookmarks"
+msgid "Home"
+msgstr "Domôcy katalog"
+
+#: ../kfile/kfileplacesmodel.cpp:120
+#, fuzzy
+#| msgid "Network"
+msgctxt "KFile System Bookmarks"
+msgid "Network"
+msgstr "Séc"
+
+#: ../kfile/kfileplacesmodel.cpp:159
+#, fuzzy
+#| msgid "Root"
+msgctxt "KFile System Bookmarks"
+msgid "Root"
+msgstr "Przédny katalog (root)"
+
+#: ../kfile/kfileplacesmodel.cpp:163
+#, fuzzy
+#| msgid "Trash"
+msgctxt "KFile System Bookmarks"
+msgid "Trash"
+msgstr "Kòsz"
+
+#: ../kfile/kfileplacesmodel.cpp:761
+#, fuzzy, kde-format
+#| msgid "&Remove '%1'"
+msgid "&Release '%1'"
+msgstr "&Rëmôj '%1'"
+
+#: ../kfile/kfileplacesmodel.cpp:763
+#, fuzzy, kde-format
+#| msgid "&Safely remove '%1'"
+msgid "&Safely Remove '%1'"
+msgstr "Rëmôj na bezpieczny ôrt '%1'"
+
+#: ../kfile/kfileplacesmodel.cpp:766
+#, kde-format
+msgid "&Unmount '%1'"
+msgstr "Ò&dmòntujë '%1'"
+
+#: ../kfile/kfileplacesmodel.cpp:787
+#, kde-format
+msgid "&Eject '%1'"
+msgstr "&Wësënie '%1'"
+
+#: ../kfile/kfileplacesmodel.cpp:821
+#, fuzzy, kde-format
+#| msgid "The specified resource may not exist."
+msgid "The device '%1' is not a disk and cannot be ejected."
+msgstr "Mòżlëwé, że to nie dô pòdónegò dostónka."
+
+#: ../kfile/kfileplacesmodel.cpp:857
+#, fuzzy, kde-format
+#| msgid "An error occurred while accessing '%1', the system said: %2"
+msgid "An error occurred while accessing '%1', the system responded: %2"
+msgstr "Fela przë próbie ùzwëskaniô przistãpù do '%1', systema gôdô: %2"
+
+#: ../kfile/kfileplacesmodel.cpp:861
+#, kde-format
+msgid "An error occurred while accessing '%1'"
+msgstr "Fela przë próbie ùzwëskaniô przistãpù do '%1'"
+
 #: ../kfile/kfilewidget.cpp:286
 msgid ""
 "<qt>While typing in the text area, you may be presented with possible "
@@ -6671,74 +6739,6 @@ msgstr ""
 "knąpã włączô menu załóżków, zezwôlającé na dodôwanié, mòdifikacëjã ë wëbiérk "
 "załóżków.<br /><br /> Załóżczi są przëpisóné do òkna wëbiérkù lopków, króm "
 "tegò dzejają òne jak zwëczajné załóżczi w KDE.</qt>"
-
-#: ../kfile/kfileplacesmodel.cpp:117
-#, fuzzy
-#| msgctxt "Home Directory"
-#| msgid "Home"
-msgctxt "KFile System Bookmarks"
-msgid "Home"
-msgstr "Domôcy katalog"
-
-#: ../kfile/kfileplacesmodel.cpp:120
-#, fuzzy
-#| msgid "Network"
-msgctxt "KFile System Bookmarks"
-msgid "Network"
-msgstr "Séc"
-
-#: ../kfile/kfileplacesmodel.cpp:159
-#, fuzzy
-#| msgid "Root"
-msgctxt "KFile System Bookmarks"
-msgid "Root"
-msgstr "Przédny katalog (root)"
-
-#: ../kfile/kfileplacesmodel.cpp:163
-#, fuzzy
-#| msgid "Trash"
-msgctxt "KFile System Bookmarks"
-msgid "Trash"
-msgstr "Kòsz"
-
-#: ../kfile/kfileplacesmodel.cpp:761
-#, fuzzy, kde-format
-#| msgid "&Remove '%1'"
-msgid "&Release '%1'"
-msgstr "&Rëmôj '%1'"
-
-#: ../kfile/kfileplacesmodel.cpp:763
-#, fuzzy, kde-format
-#| msgid "&Safely remove '%1'"
-msgid "&Safely Remove '%1'"
-msgstr "Rëmôj na bezpieczny ôrt '%1'"
-
-#: ../kfile/kfileplacesmodel.cpp:766
-#, kde-format
-msgid "&Unmount '%1'"
-msgstr "Ò&dmòntujë '%1'"
-
-#: ../kfile/kfileplacesmodel.cpp:787
-#, kde-format
-msgid "&Eject '%1'"
-msgstr "&Wësënie '%1'"
-
-#: ../kfile/kfileplacesmodel.cpp:821
-#, fuzzy, kde-format
-#| msgid "The specified resource may not exist."
-msgid "The device '%1' is not a disk and cannot be ejected."
-msgstr "Mòżlëwé, że to nie dô pòdónegò dostónka."
-
-#: ../kfile/kfileplacesmodel.cpp:857
-#, fuzzy, kde-format
-#| msgid "An error occurred while accessing '%1', the system said: %2"
-msgid "An error occurred while accessing '%1', the system responded: %2"
-msgstr "Fela przë próbie ùzwëskaniô przistãpù do '%1', systema gôdô: %2"
-
-#: ../kfile/kfileplacesmodel.cpp:861
-#, kde-format
-msgid "An error occurred while accessing '%1'"
-msgstr "Fela przë próbie ùzwëskaniô przistãpù do '%1'"
 
 #~ msgid "A newer item named '%1' already exists."
 #~ msgstr "Nowszi lopk jakno '%1' ju je."
