@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-19 03:44+0200\n"
+"POT-Creation-Date: 2011-05-21 03:43+0200\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -1675,6 +1675,38 @@ msgstr[0] "1 sztëczk"
 msgstr[1] "%1 sztëcczi"
 msgstr[2] "%1 sztëczków"
 
+#: browsers/CollectionTreeView.cpp:230
+#: browsers/CollectionTreeItemModelBase.cpp:1160
+#: context/applets/albums/AlbumsView.cpp:255
+#: context/applets/wikipedia/WikipediaApplet.cpp:600
+#: dialogs/transferdialog.cpp:89 dialogs/FilenameLayoutDialog.cpp:242
+#: dialogs/FilenameLayoutDialog.cpp:619 musicbrainz/MusicBrainzTags.cpp:360
+#: playlist/view/PlaylistViewCommon.cpp:64 playlist/PlaylistModel.cpp:894
+#: services/jamendo/JamendoInfoParser.cpp:83
+#: services/magnatune/MagnatuneStore.cpp:223
+#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
+msgid "Album"
+msgstr "Albùm"
+
+#: browsers/CollectionTreeView.cpp:250 configdialog/ConfigDialog.cpp:59
+msgid "Collection"
+msgstr "Kòlekcëjô"
+
+#: browsers/CollectionTreeView.cpp:542 services/lastfm/LastFmTreeView.cpp:201
+msgid "More..."
+msgstr "Wicy..."
+
+#: browsers/CollectionTreeView.cpp:909
+msgctxt "Organize Files"
+msgid "Organize Files"
+msgstr "Òrganizëjë lopczi"
+
+#: browsers/CollectionTreeView.cpp:1079
+#, fuzzy
+#| msgid "&Delete Tracks"
+msgid "Delete Tracks"
+msgstr "&Rëmôj sztëcczi"
+
 #: browsers/CollectionTreeItemModelBase.cpp:238
 #: browsers/CollectionTreeItemModelBase.cpp:291
 msgctxt "The Name is not known"
@@ -1692,19 +1724,6 @@ msgstr "Rozmajiti wëkònywaczë"
 #: browsers/CollectionTreeItemModelBase.cpp:1160
 msgid "Year - Album"
 msgstr "Rok - Albùm"
-
-#: browsers/CollectionTreeItemModelBase.cpp:1160
-#: browsers/CollectionTreeView.cpp:230
-#: context/applets/albums/AlbumsView.cpp:255
-#: context/applets/wikipedia/WikipediaApplet.cpp:600
-#: dialogs/transferdialog.cpp:89 dialogs/FilenameLayoutDialog.cpp:242
-#: dialogs/FilenameLayoutDialog.cpp:619 musicbrainz/MusicBrainzTags.cpp:360
-#: playlist/view/PlaylistViewCommon.cpp:64 playlist/PlaylistModel.cpp:894
-#: services/jamendo/JamendoInfoParser.cpp:83
-#: services/magnatune/MagnatuneStore.cpp:223
-#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
-msgid "Album"
-msgstr "Albùm"
 
 #. i18n: file: context/applets/tabs/ReloadEditDialog.ui:73
 #. i18n: ectx: property (text), widget (QLabel, artistLabel)
@@ -1778,25 +1797,6 @@ msgstr ""
 #: browsers/CollectionTreeItemModelBase.cpp:1233
 msgid "three months ago"
 msgstr "trzë miesące dowslôdë"
-
-#: browsers/CollectionTreeView.cpp:250 configdialog/ConfigDialog.cpp:59
-msgid "Collection"
-msgstr "Kòlekcëjô"
-
-#: browsers/CollectionTreeView.cpp:542 services/lastfm/LastFmTreeView.cpp:201
-msgid "More..."
-msgstr "Wicy..."
-
-#: browsers/CollectionTreeView.cpp:909
-msgctxt "Organize Files"
-msgid "Organize Files"
-msgstr "Òrganizëjë lopczi"
-
-#: browsers/CollectionTreeView.cpp:1079
-#, fuzzy
-#| msgid "&Delete Tracks"
-msgid "Delete Tracks"
-msgstr "&Rëmôj sztëcczi"
 
 #: configdialog/dialogs/DatabaseConfig.cpp:93
 #, fuzzy
