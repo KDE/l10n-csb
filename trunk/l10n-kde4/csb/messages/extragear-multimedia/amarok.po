@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-02 03:42+0200\n"
+"POT-Creation-Date: 2011-06-03 03:46+0200\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -19,122 +19,6 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 "X-Generator: Lokalize 1.0\n"
-
-#: App.cpp:427
-msgid "Files/URLs to open"
-msgstr "Lopczi/adresë do òtemkniãcô"
-
-#: App.cpp:428
-msgid "Immediately start playing an audio cd"
-msgstr ""
-
-#: App.cpp:430
-msgid "Skip backwards in playlist"
-msgstr "Skóknié dowslôdë na lësce graniô"
-
-#: App.cpp:432
-msgid "Start playing current playlist"
-msgstr "Naczni òdgrëwac biéżną lëstã"
-
-#: App.cpp:434
-msgid "Play if stopped, pause if playing"
-msgstr "Grôj czedë zatrzëmóné, zatrzëmôj czedë gróné"
-
-#: App.cpp:435
-msgid "Pause playback"
-msgstr "Paùzëjë grónié"
-
-#: App.cpp:437
-msgid "Stop playback"
-msgstr "Zakùńczë grónié"
-
-#: App.cpp:439
-msgid "Skip forwards in playlist"
-msgstr "Skóknié w przódk na lësce graniô"
-
-#: App.cpp:440
-msgid "Additional options:"
-msgstr "Dodôwné òptacëje:"
-
-#: App.cpp:442
-msgid "Append files/URLs to playlist"
-msgstr "Dodôj lopczi/adresë URL do lëstë graniô"
-
-#: App.cpp:443
-msgid "Queue URLs after the currently playing track"
-msgstr "Ùstawi adresë URL w réze za biéżnym sztëczkã"
-
-#: App.cpp:445
-msgid "Load URLs, replacing current playlist"
-msgstr "Ladëjë URL-ë, pòdmieniającë biéżną lëstã graniô"
-
-#: App.cpp:447
-msgid "Print verbose debugging information"
-msgstr "Wëdrëkùjë wëdowiédzã ò przebiégù procesu"
-
-#: App.cpp:449
-msgid "Disable colorization for debug output."
-msgstr ""
-
-#: App.cpp:451
-msgid "Allow running multiple Amarok instances"
-msgstr ""
-
-#: App.cpp:452
-msgid "Base for relative filenames/URLs"
-msgstr "Baza dlô wzglãdnëch mionów lopków/adresów URL"
-
-#: App.cpp:454
-#, fuzzy
-#| msgid "Stream options"
-msgid "Unit test options:"
-msgstr "Òptacëjë strëdżi"
-
-#: App.cpp:455
-msgid "Run integrated unit tests"
-msgstr ""
-
-#: App.cpp:456
-msgid "Destination of test output: 'stdout', 'log'"
-msgstr ""
-
-#: App.cpp:457
-msgid "Format of test output: 'xml', 'lightxml', 'plaintext'"
-msgstr ""
-
-#: App.cpp:458
-msgid "Verbosity from 0-3 (highest)"
-msgstr ""
-
-#: App.cpp:698
-msgid ""
-"The embedded database was not found; you must set up a database server "
-"connection.\n"
-"You must restart Amarok after doing this."
-msgstr ""
-
-#: App.cpp:699
-msgid ""
-"The connection details for the database server were invalid.\n"
-"You must enter correct settings and restart Amarok after doing this."
-msgstr ""
-
-#: App.cpp:700
-#, fuzzy
-#| msgid "Database:"
-msgid "Database Error"
-msgstr "Baza pòdôwków:"
-
-#: App.cpp:745
-msgid "Moving files to trash"
-msgstr ""
-
-#: App.cpp:833
-#, kde-format
-msgid ""
-"A music path, %1, is set in System Settings.\n"
-"Would you like to use that as a collection folder?"
-msgstr ""
 
 #: EngineController.cpp:272
 msgid ""
@@ -197,356 +81,10 @@ msgctxt "track from source"
 msgid "from <b>%1</b>"
 msgstr " przez <b>%1</b>"
 
-#: EngineController.cpp:1420 context/applets/labels/LabelsApplet.cpp:194
-#: context/engines/current/CurrentEngine.cpp:136 mac/GrowlInterface.cpp:43
-#: widgets/Osd.cpp:622
+#: EngineController.cpp:1420 context/engines/current/CurrentEngine.cpp:136
+#: mac/GrowlInterface.cpp:43 widgets/Osd.cpp:622
 msgid "No track playing"
 msgstr "Nick nie je gróné"
-
-#: KNotificationBackend.cpp:121
-#, fuzzy
-#| msgid "No track playing"
-msgid "Now playing"
-msgstr "Nick nie je gróné"
-
-#. i18n: file: core-impl/collections/audiocd/FormatSelectionDialog.ui:14
-#. i18n: ectx: property (windowTitle), widget (QDialog, FormatSelectionDialog)
-#: MainWindow.cpp:106 rc.cpp:1127 main.cpp:40
-msgid "Amarok"
-msgstr "Amarok"
-
-#: MainWindow.cpp:273
-msgid "Local Music"
-msgstr ""
-
-#: MainWindow.cpp:275
-msgid "Local sources of content"
-msgstr ""
-
-#: MainWindow.cpp:283
-msgid "Internet"
-msgstr "Internet"
-
-#: MainWindow.cpp:285
-msgid "Online sources of content"
-msgstr ""
-
-#: MainWindow.cpp:291
-msgid "Playlists"
-msgstr "Lësta graniô"
-
-#: MainWindow.cpp:293
-#, fuzzy
-#| msgid "Various Artists"
-msgid "Various types of playlists"
-msgstr "Rozmajiti wëkònywaczë"
-
-#: MainWindow.cpp:299 amarokurls/NavigationUrlGenerator.cpp:135
-msgid "Files"
-msgstr "Lopczi"
-
-#: MainWindow.cpp:301
-msgid "Browse local hard drive for content"
-msgstr ""
-
-#: MainWindow.cpp:362
-#, fuzzy
-#| msgctxt "@title buttontext for popup-menu"
-#| msgid "View"
-msgctxt "@item:inmenu"
-msgid "&View"
-msgstr "Òbezdrzë"
-
-#: MainWindow.cpp:365
-#, fuzzy
-#| msgid "Lock layout"
-msgid "Lock Layout"
-msgstr "Zablokùjë widok"
-
-#: MainWindow.cpp:476
-msgid ""
-"<qt>Closing the main window will keep Amarok running in the System Tray. Use "
-"<B>Quit</B> from the menu, or the Amarok tray icon to exit the application.</"
-"qt>"
-msgstr ""
-
-#: MainWindow.cpp:478
-msgid "Docking in System Tray"
-msgstr ""
-
-#: MainWindow.cpp:507
-msgid "Use relative path for &saving"
-msgstr ""
-
-#: MainWindow.cpp:518 covermanager/CoverFoundDialog.cpp:361
-msgid "Save As"
-msgstr ""
-
-#: MainWindow.cpp:573
-msgid "Play Media (Files or URLs)"
-msgstr "Grôj media (lopczi abò adresë URL)"
-
-#: MainWindow.cpp:573
-msgid "Add Media (Files or URLs)"
-msgstr "Dodôj media (lopczi abò adresë URL)"
-
-#: MainWindow.cpp:591
-msgid "Add Stream"
-msgstr "Dodôj strëgã"
-
-#: MainWindow.cpp:591
-msgid "Enter Stream URL:"
-msgstr "Wpiszë URL strëdżi:"
-
-#: MainWindow.cpp:715
-msgid "&Add Media..."
-msgstr "&Dodôj media..."
-
-#: MainWindow.cpp:720
-msgctxt "clear playlist"
-msgid "&Clear Playlist"
-msgstr "Wë&czëszczë lëstã graniô"
-
-#: MainWindow.cpp:724
-#, fuzzy
-#| msgid "&Queue"
-msgctxt "edit play queue of playlist"
-msgid "Edit &Queue"
-msgstr "&Régùjë"
-
-#: MainWindow.cpp:727
-#, fuzzy
-#| msgid "Remove Applet"
-msgctxt "Remove duplicate and dead (unplayable) tracks from the playlist"
-msgid "Re&move Duplicates"
-msgstr "Rëmôj aplet"
-
-#: MainWindow.cpp:734
-msgid "&Add Stream..."
-msgstr "&Dodôj strëgã..."
-
-#: MainWindow.cpp:738
-msgid "&Export Playlist As..."
-msgstr "&Ekspòrtëjë lëstã graniô jakno..."
-
-#: MainWindow.cpp:742 amarokurls/NavigationUrlGenerator.cpp:250
-#, fuzzy
-#| msgid "Bookmark"
-msgid "Bookmark Media Sources View"
-msgstr "Załóżka"
-
-#: MainWindow.cpp:746 amarokurls/BookmarkManager.cpp:43
-#, fuzzy
-#| msgid "Bookmark"
-msgid "Bookmark Manager"
-msgstr "Załóżka"
-
-#: MainWindow.cpp:750
-msgid "Equalizer"
-msgstr ""
-
-#: MainWindow.cpp:754 playlist/PlaylistViewUrlGenerator.cpp:101
-#, fuzzy
-#| msgid "Smart Playlist"
-msgid "Bookmark Playlist Setup"
-msgstr "Jinteligentnô lësta gróniô"
-
-#: MainWindow.cpp:758
-#, fuzzy
-#| msgid "Bookmark this Artist"
-msgid "Bookmark Context Applets"
-msgstr "Dodôj negò artistã do załóżków"
-
-#: MainWindow.cpp:762 covermanager/CoverManager.cpp:105
-msgid "Cover Manager"
-msgstr ""
-
-#: MainWindow.cpp:766
-msgid "Play Media..."
-msgstr "Grôj media..."
-
-#: MainWindow.cpp:771
-msgid "&Seek Forward"
-msgstr "&Szëkôj w przódk"
-
-#: MainWindow.cpp:777
-msgid "&Seek Backward"
-msgstr "&Szëkôj dowslôdë"
-
-#: MainWindow.cpp:784
-msgid "Update Collection"
-msgstr "Aktualizëjë kòlekcëjã"
-
-#: MainWindow.cpp:791
-msgid "Previous Track"
-msgstr "Piprzédny sztëczk"
-
-#: MainWindow.cpp:798
-#, fuzzy
-#| msgid "Rate Current Track: 1"
-msgid "Restart current track"
-msgstr "Òtaksëjë biéżny sztëczk: 1"
-
-#: MainWindow.cpp:804
-#, fuzzy
-#| msgctxt "Replace the currently loaded tracks with these"
-#| msgid "&Replace Playlist"
-msgid "Repopulate Playlist"
-msgstr "&Pòdmieni lëstã graniô"
-
-#: MainWindow.cpp:810
-#, fuzzy
-#| msgid "Default Dynamic Playlist"
-msgid "Disable Dynamic Playlist"
-msgstr "Domëslné dinamiczné lëstë graniô"
-
-#: MainWindow.cpp:814
-msgid "Next Track"
-msgstr "Pòstãpny sztëczk"
-
-#: MainWindow.cpp:819
-msgid "Increase Volume"
-msgstr "Zwikszë głosnosc"
-
-#: MainWindow.cpp:825
-msgid "Decrease Volume"
-msgstr "Zminészë głosnosc"
-
-#: MainWindow.cpp:831
-msgid "Toggle Main Window"
-msgstr "Przełączë przédne òkno"
-
-#: MainWindow.cpp:836
-msgid "Toggle Full Screen"
-msgstr ""
-
-#: MainWindow.cpp:841
-msgid "Jump to"
-msgstr ""
-
-#: MainWindow.cpp:846
-msgid "Show active track"
-msgstr "Pòkażë biéżné sztëcczi"
-
-#: MainWindow.cpp:850
-#, fuzzy
-#| msgid "Location:"
-msgid "Show Notification Popup"
-msgstr "Môl:"
-
-#: MainWindow.cpp:855
-msgid "Mute Volume"
-msgstr "Wëcëszë głosnosc"
-
-#: MainWindow.cpp:860
-#, fuzzy
-#| msgid "Love Current Track"
-msgid "Last.fm: Love Current Track"
-msgstr "Achtnij biéżny sztëczk"
-
-#: MainWindow.cpp:865
-#, fuzzy
-#| msgid "Love Current Track"
-msgid "Last.fm: Ban Current Track"
-msgstr "Achtnij biéżny sztëczk"
-
-#: MainWindow.cpp:870
-#, fuzzy
-#| msgid "Love Current Track"
-msgid "Last.fm: Skip Current Track"
-msgstr "Achtnij biéżny sztëczk"
-
-#: MainWindow.cpp:875 playlist/view/PlaylistViewCommon.cpp:115
-msgid "Queue Track"
-msgstr "Régùjë sztëczk"
-
-#: MainWindow.cpp:880
-msgid "Rate Current Track: 1"
-msgstr "Òtaksëjë biéżny sztëczk: 1"
-
-#: MainWindow.cpp:885
-msgid "Rate Current Track: 2"
-msgstr "Òtaksëjë biéżny sztëczk: 2"
-
-#: MainWindow.cpp:890
-msgid "Rate Current Track: 3"
-msgstr "Òtaksëjë biéżny sztëczk: 3"
-
-#: MainWindow.cpp:895
-msgid "Rate Current Track: 4"
-msgstr "Òtaksëjë biéżny sztëczk: 4"
-
-#: MainWindow.cpp:900
-msgid "Rate Current Track: 5"
-msgstr "Òtaksëjë biéżny sztëczk: 5"
-
-#: MainWindow.cpp:906
-msgid "Network Request Viewer"
-msgstr ""
-
-#: MainWindow.cpp:924
-#, fuzzy
-#| msgid "&Amarok"
-msgid "&About Amarok"
-msgstr "&Amarok"
-
-#: MainWindow.cpp:928
-msgid "&Report Bug..."
-msgstr ""
-
-#: MainWindow.cpp:988
-msgid "&Music"
-msgstr "&Mùzyka"
-
-#: MainWindow.cpp:992
-msgid "&Amarok"
-msgstr "&Amarok"
-
-#: MainWindow.cpp:1016 playlist/PlaylistDock.cpp:48
-msgid "&Playlist"
-msgstr "&Lësta graniô"
-
-#: MainWindow.cpp:1032
-msgid "&Tools"
-msgstr "&Nôrzãdza"
-
-#: MainWindow.cpp:1047
-msgid "&Settings"
-msgstr "Ùs&towë"
-
-#: MainWindow.cpp:1094
-#, kde-format
-msgid ""
-"You have chosen to hide the menu bar.\n"
-"\n"
-"Please remember that you can always use the shortcut \"%1\" to bring it back."
-msgstr ""
-
-#: MainWindow.cpp:1096
-#, fuzzy
-#| msgid "Hide menu"
-msgid "Hide Menu"
-msgstr "Zatacë menu"
-
-#: MainWindow.cpp:1138
-#, kde-format
-msgid "Paused  ::  %1"
-msgstr "Paùza :: %1"
-
-#: MainWindow.cpp:1151 amarokurls/BookmarkTreeView.cpp:377
-#: amarokurls/BookmarkTreeView.cpp:378 amarokurls/BookmarkTreeView.cpp:379
-#: context/applets/albums/AlbumItem.cpp:97
-#: core-impl/collections/audiocd/AudioCdCollection.cpp:444
-#: core-impl/collections/audiocd/AudioCdCollection.cpp:445
-#: core-impl/collections/audiocd/AudioCdCollection.cpp:446
-#: core-impl/collections/audiocd/AudioCdCollection.cpp:447
-msgid "Unknown"
-msgstr "Nieznóny"
-
-#: MainWindow.cpp:1151
-#, kde-format
-msgid "%1 - %2  ::  %3"
-msgstr "%1 - %2  ::  %3"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -1516,7 +1054,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QTableWidget, serverList)
 #. i18n: file: services/ampache/NewServerWidget.ui:60
 #. i18n: ectx: property (text), widget (QLabel, labelPassword)
-#: rc.cpp:449 rc.cpp:2301 rc.cpp:2313
+#: rc.cpp:449 rc.cpp:2298 rc.cpp:2310
 #: databaseimporter/amarok14/FastForwardImporterConfig.cpp:57
 msgid "Password"
 msgstr "Parola"
@@ -1538,7 +1076,7 @@ msgstr "kòmpòzytor"
 #. i18n: file: amarokconfig.kcfg:502
 #. i18n: ectx: whatsthis, entry, group (Scrobbler)
 #: rc.cpp:458
-msgid "Use composer data in last.fm as artist"
+msgid "Use composer data in Last.fm as artist"
 msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:506
@@ -1626,7 +1164,7 @@ msgstr "Status synchronizacëji"
 #: rc.cpp:500
 msgid ""
 "Whether Amarok statistics should be synchronized with play count/ratings on "
-"device and whether tracks played should be submitted to last.fm."
+"device and whether tracks played should be submitted to Last.fm."
 msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:541
@@ -1799,7 +1337,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QTableWidget, serverList)
 #. i18n: file: services/ampache/NewServerWidget.ui:17
 #. i18n: ectx: property (text), widget (QLabel, labelName)
-#: rc.cpp:581 rc.cpp:1897 rc.cpp:1903 rc.cpp:2292 rc.cpp:2304
+#: rc.cpp:581 rc.cpp:1894 rc.cpp:1900 rc.cpp:2289 rc.cpp:2301
 #: amarokurls/BookmarkModel.cpp:265
 #: browsers/playlistbrowser/PlaylistBrowserModel.cpp:437
 #: playlistgenerator/TreeModel.cpp:64
@@ -1908,7 +1446,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_User)
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:44
 #. i18n: ectx: property (text), widget (QLabel, labelUsername)
-#: rc.cpp:634 rc.cpp:2322
+#: rc.cpp:634 rc.cpp:2319
 msgid "&Username:"
 msgstr "&Miono brëkòwnika"
 
@@ -1922,7 +1460,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_Password)
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:57
 #. i18n: ectx: property (text), widget (QLabel, labelPassword)
-#: rc.cpp:641 rc.cpp:2325
+#: rc.cpp:641 rc.cpp:2322
 msgid "&Password:"
 msgstr "&Parola"
 
@@ -2080,7 +1618,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MoodbarPaintStyle)
 #. i18n: tag layout attribute name
 #. i18n: file: data/DefaultPlaylistLayouts.xml:3
-#: rc.cpp:728 rc.cpp:2523
+#: rc.cpp:728 rc.cpp:2520
 #, fuzzy
 #| msgid "Playlist layouts"
 msgid "Default"
@@ -2562,7 +2100,7 @@ msgstr "&Zladëjë epizod"
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:213
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:959 rc.cpp:1582
+#: rc.cpp:959 rc.cpp:1579
 msgid "with"
 msgstr "z"
 
@@ -2570,7 +2108,7 @@ msgstr "z"
 #. i18n: ectx: property (text), widget (QPushButton, addPushButton)
 #. i18n: file: dialogs/TagDialogBase.ui:1057
 #. i18n: ectx: property (text), widget (QPushButton, addButton)
-#: rc.cpp:962 rc.cpp:1787
+#: rc.cpp:962 rc.cpp:1784
 msgid "Add"
 msgstr "Dodôj"
 
@@ -2609,7 +2147,7 @@ msgstr "Rëmôj aplet"
 
 #. i18n: file: context/applets/lyrics/lyricsSettings.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, lyricsSettings)
-#: rc.cpp:978 context/applets/lyrics/LyricsApplet.cpp:693
+#: rc.cpp:978 context/applets/lyrics/LyricsApplet.cpp:691
 #, fuzzy
 #| msgid "Settings"
 msgid "Lyrics Settings"
@@ -2724,7 +2262,7 @@ msgstr ""
 #: rc.cpp:1022
 #, fuzzy
 #| msgid "Last.Fm Similar Artists"
-msgid "Maximum artists"
+msgid "Maximum number of artists to show:"
 msgstr "Artistë szlachùjący za \"%1\" wedle Last.fm"
 
 #. i18n: file: context/applets/tabs/ReloadEditDialog.ui:32
@@ -2787,80 +2325,58 @@ msgstr ""
 msgid "Bass"
 msgstr "ë"
 
-#. i18n: file: context/applets/upcomingevents/upcomingEventsGeneralSettings.ui:20
-#. i18n: ectx: property (text), widget (QLabel, filterLabel)
-#: rc.cpp:1049
-msgid "Filter events by date:"
-msgstr ""
-
-#. i18n: file: context/applets/upcomingevents/upcomingEventsGeneralSettings.ui:28
-#. i18n: ectx: property (text), item, widget (QComboBox, filterComboBox)
 #. i18n: file: context/applets/upcomingevents/upcomingEventsSettings.ui:21
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
-#: rc.cpp:1052 rc.cpp:1070
+#. i18n: file: context/applets/upcomingevents/upcomingEventsGeneralSettings.ui:28
+#. i18n: ectx: property (text), item, widget (QComboBox, filterComboBox)
+#: rc.cpp:1049 rc.cpp:1103
 #, fuzzy
 #| msgid "sysevents"
 msgid "All events"
 msgstr "sysevents"
 
-#. i18n: file: context/applets/upcomingevents/upcomingEventsGeneralSettings.ui:33
-#. i18n: ectx: property (text), item, widget (QComboBox, filterComboBox)
 #. i18n: file: context/applets/upcomingevents/upcomingEventsSettings.ui:26
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
-#: rc.cpp:1055 rc.cpp:1073
+#. i18n: file: context/applets/upcomingevents/upcomingEventsGeneralSettings.ui:33
+#. i18n: ectx: property (text), item, widget (QComboBox, filterComboBox)
+#: rc.cpp:1052 rc.cpp:1106
 #: context/applets/upcomingevents/UpcomingEventsApplet.cpp:551
 #, fuzzy
 #| msgid "last week"
 msgid "This week"
 msgstr "w ùszłim tidzéniu"
 
-#. i18n: file: context/applets/upcomingevents/upcomingEventsGeneralSettings.ui:38
-#. i18n: ectx: property (text), item, widget (QComboBox, filterComboBox)
 #. i18n: file: context/applets/upcomingevents/upcomingEventsSettings.ui:31
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
-#: rc.cpp:1058 rc.cpp:1076
+#. i18n: file: context/applets/upcomingevents/upcomingEventsGeneralSettings.ui:38
+#. i18n: ectx: property (text), item, widget (QComboBox, filterComboBox)
+#: rc.cpp:1055 rc.cpp:1109
 #: context/applets/upcomingevents/UpcomingEventsApplet.cpp:553
 #, fuzzy
 #| msgid "last month"
 msgid "This month"
 msgstr "w ùszłim miesącu"
 
-#. i18n: file: context/applets/upcomingevents/upcomingEventsGeneralSettings.ui:43
-#. i18n: ectx: property (text), item, widget (QComboBox, filterComboBox)
 #. i18n: file: context/applets/upcomingevents/upcomingEventsSettings.ui:36
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
-#: rc.cpp:1061 rc.cpp:1079
+#. i18n: file: context/applets/upcomingevents/upcomingEventsGeneralSettings.ui:43
+#. i18n: ectx: property (text), item, widget (QComboBox, filterComboBox)
+#: rc.cpp:1058 rc.cpp:1112
 #: context/applets/upcomingevents/UpcomingEventsApplet.cpp:555
 #, fuzzy
 #| msgid "year"
 msgid "This year"
 msgstr "rok"
 
-#. i18n: file: context/applets/upcomingevents/upcomingEventsGeneralSettings.ui:51
-#. i18n: ectx: property (text), widget (QLabel, groupVenueLabel)
-#: rc.cpp:1064
-msgid "Group venue events:"
-msgstr ""
-
-#. i18n: file: context/applets/upcomingevents/upcomingEventsGeneralSettings.ui:58
-#. i18n: ectx: property (text), widget (QCheckBox, groupVenueCheckBox)
-#. i18n: file: core-impl/collections/umscollection/UmsConfiguration.ui:46
-#. i18n: ectx: property (text), widget (QCheckBox, m_autoConnect)
-#: rc.cpp:1067 rc.cpp:1160 context/applets/albums/Albums.cpp:248
-#, fuzzy
-#| msgid "Disable"
-msgid "Enabled"
-msgstr "Wëłączë"
-
 #. i18n: file: context/applets/upcomingevents/upcomingEventsSettings.ui:44
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox)
-#: rc.cpp:1082
+#: rc.cpp:1061
 msgid "Show places as links"
 msgstr ""
 
 #. i18n: file: context/applets/upcomingevents/upcomingEventsVenueSettings.ui:45
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, searchLineEdit)
-#: rc.cpp:1085
+#: rc.cpp:1064
 #, fuzzy
 #| msgid "&Search"
 msgid "Search Venue"
@@ -2868,13 +2384,13 @@ msgstr "&Szëkba"
 
 #. i18n: file: context/applets/upcomingevents/upcomingEventsVenueSettings.ui:55
 #. i18n: ectx: property (toolTip), widget (KComboBox, countryCombo)
-#: rc.cpp:1088
+#: rc.cpp:1067
 msgid "Restrict venues to a specific country"
 msgstr ""
 
 #. i18n: file: context/applets/upcomingevents/upcomingEventsVenueSettings.ui:65
 #. i18n: ectx: property (text), item, widget (KComboBox, countryCombo)
-#: rc.cpp:1091
+#: rc.cpp:1070
 #, fuzzy
 #| msgid "Counting"
 msgid "Any Country"
@@ -2882,7 +2398,7 @@ msgstr "Rechòwanié"
 
 #. i18n: file: context/applets/upcomingevents/upcomingEventsVenueSettings.ui:75
 #. i18n: ectx: property (text), widget (QLabel, searchResultsLabel)
-#: rc.cpp:1094
+#: rc.cpp:1073
 #, fuzzy
 #| msgid "MusicBrainz Results"
 msgid "Search Results:"
@@ -2890,7 +2406,7 @@ msgstr "Rezultatë MusicBrainz"
 
 #. i18n: file: context/applets/upcomingevents/upcomingEventsVenueSettings.ui:104
 #. i18n: ectx: property (text), widget (QLabel, selectedVenuesLabel)
-#: rc.cpp:1097
+#: rc.cpp:1076
 #, fuzzy
 #| msgid "Selected Tracks"
 msgid "Selected Venues:"
@@ -2898,7 +2414,7 @@ msgstr "Wëbróné sztëcczi"
 
 #. i18n: file: context/applets/upcomingevents/upcomingEventsVenueSettings.ui:155
 #. i18n: ectx: property (text), widget (QLabel, photoLabel)
-#: rc.cpp:1100
+#: rc.cpp:1079
 #, fuzzy
 #| msgid "Photos"
 msgid "Photo"
@@ -2906,13 +2422,13 @@ msgstr "Òbrazczi"
 
 #. i18n: file: context/applets/upcomingevents/upcomingEventsVenueSettings.ui:183
 #. i18n: ectx: property (text), widget (QLabel, nameLabel)
-#: rc.cpp:1103
+#: rc.cpp:1082
 msgid "Name:"
 msgstr "Miono:"
 
 #. i18n: file: context/applets/upcomingevents/upcomingEventsVenueSettings.ui:193
 #. i18n: ectx: property (text), widget (QLabel, cityLabel)
-#: rc.cpp:1106
+#: rc.cpp:1085
 #, fuzzy
 #| msgid "With:"
 msgid "City:"
@@ -2924,7 +2440,7 @@ msgstr "Z:"
 #. i18n: ectx: property (text), widget (QLabel, m_urlLabel)
 #. i18n: file: services/opmldirectory/AddOpmlWidget.ui:65
 #. i18n: ectx: property (text), widget (QLabel, UrlLabel)
-#: rc.cpp:1109 rc.cpp:1205 rc.cpp:2493
+#: rc.cpp:1088 rc.cpp:1202 rc.cpp:2490
 #, fuzzy
 #| msgid "URL"
 msgid "URL:"
@@ -2932,7 +2448,7 @@ msgstr "URL"
 
 #. i18n: file: context/applets/upcomingevents/upcomingEventsVenueSettings.ui:230
 #. i18n: ectx: property (text), widget (QLabel, websiteLabel)
-#: rc.cpp:1112
+#: rc.cpp:1091
 #, fuzzy
 #| msgid "With:"
 msgid "Website:"
@@ -2940,7 +2456,7 @@ msgstr "Z:"
 
 #. i18n: file: context/applets/upcomingevents/upcomingEventsVenueSettings.ui:257
 #. i18n: ectx: property (text), widget (QLabel, countryLabel)
-#: rc.cpp:1115
+#: rc.cpp:1094
 #, fuzzy
 #| msgid "Counting"
 msgid "Country:"
@@ -2948,75 +2464,93 @@ msgstr "Rechòwanié"
 
 #. i18n: file: context/applets/upcomingevents/upcomingEventsVenueSettings.ui:267
 #. i18n: ectx: property (text), widget (QLabel, streetLabel)
-#: rc.cpp:1118
+#: rc.cpp:1097
 #, fuzzy
 #| msgid "Sc&reen:"
 msgid "Street:"
 msgstr "E&kran:"
 
+#. i18n: file: context/applets/upcomingevents/upcomingEventsGeneralSettings.ui:20
+#. i18n: ectx: property (text), widget (QLabel, filterLabel)
+#: rc.cpp:1100
+msgid "Filter events by date:"
+msgstr ""
+
+#. i18n: file: context/applets/upcomingevents/upcomingEventsGeneralSettings.ui:51
+#. i18n: ectx: property (text), widget (QCheckBox, groupVenueCheckBox)
+#: rc.cpp:1115
+msgid "&Group venue events"
+msgstr ""
+
 #. i18n: file: context/applets/videoclip/videoclipSettings.ui:20
 #. i18n: ectx: property (text), widget (QCheckBox, checkYoutubeHQ)
-#: rc.cpp:1121
+#: rc.cpp:1118
 msgid "Youtube HQ"
 msgstr "Youtube HQ"
 
 #. i18n: file: context/applets/wikipedia/wikipediaGeneralSettings.ui:31
 #. i18n: ectx: property (text), widget (QCheckBox, mobileCheckBox)
-#: rc.cpp:1124
+#: rc.cpp:1121
 msgid "Use Wikipedia &mobile version"
 msgstr ""
 
+#. i18n: file: core-impl/collections/audiocd/FormatSelectionDialog.ui:14
+#. i18n: ectx: property (windowTitle), widget (QDialog, FormatSelectionDialog)
+#: rc.cpp:1124 MainWindow.cpp:106 main.cpp:40
+msgid "Amarok"
+msgstr "Amarok"
+
 #. i18n: file: core-impl/collections/audiocd/FormatSelectionDialog.ui:26
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:1130
+#: rc.cpp:1127
 msgid "Available formats"
 msgstr "Przëstãpné fòrmatë"
 
 #. i18n: file: core-impl/collections/audiocd/FormatSelectionDialog.ui:32
 #. i18n: ectx: property (text), widget (QRadioButton, oggButton)
-#: rc.cpp:1133 core/transcoding/formats/TranscodingVorbisFormat.cpp:68
+#: rc.cpp:1130 core/transcoding/formats/TranscodingVorbisFormat.cpp:68
 msgid "Ogg Vorbis"
 msgstr "Ogg Vorbis"
 
 #. i18n: file: core-impl/collections/audiocd/FormatSelectionDialog.ui:39
 #. i18n: ectx: property (text), widget (QRadioButton, flacButton)
-#: rc.cpp:1136
+#: rc.cpp:1133
 msgid "Flac"
 msgstr "Flac"
 
 #. i18n: file: core-impl/collections/audiocd/FormatSelectionDialog.ui:46
 #. i18n: ectx: property (text), widget (QRadioButton, wavButton)
-#: rc.cpp:1139
+#: rc.cpp:1136
 msgid "Wav"
 msgstr "Wav"
 
 #. i18n: file: core-impl/collections/audiocd/FormatSelectionDialog.ui:53
 #. i18n: ectx: property (text), widget (QRadioButton, mp3Button)
-#: rc.cpp:1142
+#: rc.cpp:1139
 msgid "Mp3"
 msgstr "Mp3"
 
 #. i18n: file: core-impl/collections/audiocd/FormatSelectionDialog.ui:63
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:1145 amarokurls/BookmarkModel.cpp:268
+#: rc.cpp:1142 amarokurls/BookmarkModel.cpp:268
 msgid "Description"
 msgstr "Òpisënk"
 
 #. i18n: file: core-impl/collections/audiocd/FormatSelectionDialog.ui:82
 #. i18n: ectx: property (text), widget (QPushButton, advancedButton)
-#: rc.cpp:1148
+#: rc.cpp:1145
 msgid "Advanced"
 msgstr "Awansowóné"
 
 #. i18n: file: core-impl/collections/umscollection/UmsConfiguration.ui:20
 #. i18n: ectx: property (windowTitle), widget (QWidget, UmsConfiguration)
-#: rc.cpp:1151
+#: rc.cpp:1148
 msgid "USB Mass Storage device configuration"
 msgstr ""
 
 #. i18n: file: core-impl/collections/umscollection/UmsConfiguration.ui:26
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:1154
+#: rc.cpp:1151
 #, fuzzy
 #| msgid "Folder"
 msgid "Music folder:"
@@ -3024,21 +2558,29 @@ msgstr "Katalog"
 
 #. i18n: file: core-impl/collections/umscollection/UmsConfiguration.ui:36
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:1157
+#: rc.cpp:1154
 #, fuzzy
 #| msgid "Podcast"
 msgid "Podcast folder:"
 msgstr "Podcast"
 
+#. i18n: file: core-impl/collections/umscollection/UmsConfiguration.ui:46
+#. i18n: ectx: property (text), widget (QCheckBox, m_autoConnect)
+#: rc.cpp:1157
+#, fuzzy
+#| msgid "Disable"
+msgid "Enabled"
+msgstr "Wëłączë"
+
 #. i18n: file: core-impl/collections/umscollection/UmsConfiguration.ui:53
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:1163
+#: rc.cpp:1160
 msgid "Use automatically when connected"
 msgstr ""
 
 #. i18n: file: core-impl/podcasts/sql/SqlPodcastProviderSettingsWidget.ui:32
 #. i18n: ectx: property (text), widget (QLabel, m_intervalLabel)
-#: rc.cpp:1166
+#: rc.cpp:1163
 #, fuzzy
 #| msgid "Automatic"
 msgid "Auto-update:"
@@ -3046,7 +2588,7 @@ msgstr "Aùtomatno"
 
 #. i18n: file: core-impl/podcasts/sql/SqlPodcastProviderSettingsWidget.ui:57
 #. i18n: ectx: property (specialValueText), widget (KIntSpinBox, m_autoUpdateInterval)
-#: rc.cpp:1169
+#: rc.cpp:1166
 #, fuzzy
 #| msgid "Disable"
 msgctxt "automatic updates turned off"
@@ -3055,7 +2597,7 @@ msgstr "Wëłączë"
 
 #. i18n: file: core-impl/podcasts/sql/SqlPodcastProviderSettingsWidget.ui:79
 #. i18n: ectx: property (text), widget (QLabel, m_baseDirLabel)
-#: rc.cpp:1172
+#: rc.cpp:1169
 #, fuzzy
 #| msgid "Podcast Directory"
 msgid "Base directory:"
@@ -3063,7 +2605,7 @@ msgstr "Katalog podcasta"
 
 #. i18n: file: core-impl/podcasts/sql/SqlPodcastProviderSettingsWidget.ui:107
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, m_baseDirUrl)
-#: rc.cpp:1175
+#: rc.cpp:1172
 #, fuzzy
 #| msgid ""
 #| "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -3113,7 +2655,7 @@ msgstr ""
 
 #. i18n: file: core-impl/podcasts/sql/SqlPodcastProviderSettingsWidget.ui:112
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, m_baseDirUrl)
-#: rc.cpp:1184
+#: rc.cpp:1181
 msgid ""
 "Base directory for all new podcast channels.\n"
 "When a podcast channel is added <base directory>/<channel name> is used as "
@@ -3123,7 +2665,7 @@ msgstr ""
 
 #. i18n: file: core-impl/podcasts/sql/PodcastFilenameLayoutConfigWidget.ui:29
 #. i18n: ectx: property (windowTitle), widget (QWidget, PodcastFilenameLayoutConfigWidget)
-#: rc.cpp:1189
+#: rc.cpp:1186
 #, fuzzy
 #| msgid "Podcast Configuration"
 msgid "Podcast Filename Layout Configuration"
@@ -3131,13 +2673,13 @@ msgstr "Kònfigùracëjô podcasta"
 
 #. i18n: file: core-impl/podcasts/sql/PodcastFilenameLayoutConfigWidget.ui:53
 #. i18n: ectx: property (text), widget (QRadioButton, m_filenameLayoutDefault)
-#: rc.cpp:1192
+#: rc.cpp:1189
 msgid "Specified by podcast channel"
 msgstr ""
 
 #. i18n: file: core-impl/podcasts/sql/PodcastFilenameLayoutConfigWidget.ui:78
 #. i18n: ectx: property (text), widget (QRadioButton, m_filenameLayoutCustom)
-#: rc.cpp:1195
+#: rc.cpp:1192
 #, fuzzy
 #| msgid "Custo&m Format"
 msgid "custom"
@@ -3145,7 +2687,7 @@ msgstr "S&wój fòrmat"
 
 #. i18n: file: core-impl/podcasts/sql/PodcastFilenameLayoutConfigWidget.ui:109
 #. i18n: ectx: property (toolTip), widget (QLineEdit, m_filenameLayoutText)
-#: rc.cpp:1199
+#: rc.cpp:1196
 #, no-c-format
 msgid ""
 "Available fields : %artist%,%title%,%genre%,%year%,%composer%,%pubdate%,%"
@@ -3154,13 +2696,13 @@ msgstr ""
 
 #. i18n: file: core-impl/podcasts/sql/PodcastSettingsBase.ui:30
 #. i18n: ectx: property (windowTitle), widget (QWidget, PodcastSettingsBase)
-#: rc.cpp:1202
+#: rc.cpp:1199
 msgid "Podcast Configuration"
 msgstr "Kònfigùracëjô podcasta"
 
 #. i18n: file: core-impl/podcasts/sql/PodcastSettingsBase.ui:68
 #. i18n: ectx: property (text), widget (QLabel, m_saveLocationlabel)
-#: rc.cpp:1208
+#: rc.cpp:1205
 #, fuzzy
 #| msgid "Save location:"
 msgid "Save Location:"
@@ -3170,19 +2712,19 @@ msgstr "Zapiszë môl:"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_autoFetchCheck)
 #. i18n: file: core-impl/podcasts/sql/PodcastSettingsBase.ui:102
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_autoFetchCheck)
-#: rc.cpp:1211 rc.cpp:1214
+#: rc.cpp:1208 rc.cpp:1211
 msgid "When checked, Amarok will automatically scan the podcast for updates"
 msgstr ""
 
 #. i18n: file: core-impl/podcasts/sql/PodcastSettingsBase.ui:105
 #. i18n: ectx: property (text), widget (QCheckBox, m_autoFetchCheck)
-#: rc.cpp:1217
+#: rc.cpp:1214
 msgid "Automatically scan for updates"
 msgstr ""
 
 #. i18n: file: core-impl/podcasts/sql/PodcastSettingsBase.ui:112
 #. i18n: ectx: property (title), widget (KButtonGroup, kbuttongroup)
-#: rc.cpp:1220
+#: rc.cpp:1217
 msgid "Media Download"
 msgstr "Ladowanié mediów"
 
@@ -3190,13 +2732,13 @@ msgstr "Ladowanié mediów"
 #. i18n: ectx: property (toolTip), widget (QRadioButton, m_downloadRadio)
 #. i18n: file: core-impl/podcasts/sql/PodcastSettingsBase.ui:124
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, m_downloadRadio)
-#: rc.cpp:1223 rc.cpp:1226
+#: rc.cpp:1220 rc.cpp:1223
 msgid "Download media as soon as it becomes available"
 msgstr ""
 
 #. i18n: file: core-impl/podcasts/sql/PodcastSettingsBase.ui:127
 #. i18n: ectx: property (text), widget (QRadioButton, m_downloadRadio)
-#: rc.cpp:1229
+#: rc.cpp:1226
 msgid "Download when a&vailable"
 msgstr ""
 
@@ -3204,7 +2746,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QRadioButton, m_streamRadio)
 #. i18n: file: core-impl/podcasts/sql/PodcastSettingsBase.ui:137
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, m_streamRadio)
-#: rc.cpp:1232 rc.cpp:1235
+#: rc.cpp:1229 rc.cpp:1232
 msgid ""
 "Media must be explicitly downloaded, otherwise the podcast will be played "
 "from the remote server."
@@ -3212,7 +2754,7 @@ msgstr ""
 
 #. i18n: file: core-impl/podcasts/sql/PodcastSettingsBase.ui:140
 #. i18n: ectx: property (text), widget (QRadioButton, m_streamRadio)
-#: rc.cpp:1238
+#: rc.cpp:1235
 msgid "Stream or download on re&quest"
 msgstr ""
 
@@ -3220,19 +2762,19 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_purgeCheck)
 #. i18n: file: core-impl/podcasts/sql/PodcastSettingsBase.ui:155
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_purgeCheck)
-#: rc.cpp:1241 rc.cpp:1244
+#: rc.cpp:1238 rc.cpp:1241
 msgid "If checked, Amarok will throw away old podcast episodes"
 msgstr ""
 
 #. i18n: file: core-impl/podcasts/sql/PodcastSettingsBase.ui:158
 #. i18n: ectx: property (text), widget (QCheckBox, m_purgeCheck)
-#: rc.cpp:1247
+#: rc.cpp:1244
 msgid "Limit &number of episodes"
 msgstr ""
 
 #. i18n: file: core-impl/podcasts/sql/PodcastSettingsBase.ui:181
 #. i18n: ectx: property (text), widget (QLabel, m_purgeCountLabel)
-#: rc.cpp:1250
+#: rc.cpp:1247
 msgid "Keep maximum of:"
 msgstr ""
 
@@ -3240,13 +2782,13 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (KIntSpinBox, m_purgeCountSpinBox)
 #. i18n: file: core-impl/podcasts/sql/PodcastSettingsBase.ui:194
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, m_purgeCountSpinBox)
-#: rc.cpp:1253 rc.cpp:1256
+#: rc.cpp:1250 rc.cpp:1253
 msgid "The maximum number of podcast items to store"
 msgstr ""
 
 #. i18n: file: core-impl/podcasts/sql/PodcastSettingsBase.ui:208
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_writeTagsCheck)
-#: rc.cpp:1259
+#: rc.cpp:1256
 msgid ""
 "The RSS feed and the tags in the downloaded file sometimes do not contain "
 "the same information. Writing the tags ensures the information in the "
@@ -3255,13 +2797,13 @@ msgstr ""
 
 #. i18n: file: core-impl/podcasts/sql/PodcastSettingsBase.ui:211
 #. i18n: ectx: property (text), widget (QCheckBox, m_writeTagsCheck)
-#: rc.cpp:1262
+#: rc.cpp:1259
 msgid "Write feed information to tags after downloading."
 msgstr ""
 
 #. i18n: file: core-impl/podcasts/sql/PodcastSettingsBase.ui:251
 #. i18n: ectx: property (text), widget (QPushButton, m_filenameLayoutConfigWidgetButton)
-#: rc.cpp:1265
+#: rc.cpp:1262
 #, fuzzy
 #| msgid "Sound system configuration"
 msgid "Episode Filename Configuration"
@@ -3273,13 +2815,13 @@ msgstr "Kònfigùracëjô zwãkòwi systemë"
 #. i18n: ectx: property (mimeType), widget (TokenPool, tokenPool)
 #. i18n: file: playlist/layouts/PlaylistLayoutEditDialog.ui:262
 #. i18n: ectx: property (mimeType), widget (TokenPool, tokenPool)
-#: rc.cpp:1268 rc.cpp:1385 rc.cpp:1930
+#: rc.cpp:1265 rc.cpp:1382 rc.cpp:1927
 msgid "application/x-amarok-tag-token"
 msgstr ""
 
 #. i18n: file: dialogs/EditFilterDialog.ui:164
 #. i18n: ectx: property (text), widget (QCheckBox, cbInvert)
-#: rc.cpp:1271 dynamic/biases/TagMatchBias.cpp:175
+#: rc.cpp:1268 dynamic/biases/TagMatchBias.cpp:175
 #, fuzzy
 #| msgid "Invert Condition"
 msgid "Invert condition"
@@ -3287,19 +2829,19 @@ msgstr "Midzenôrodny"
 
 #. i18n: file: dialogs/EditFilterDialog.ui:172
 #. i18n: ectx: property (text), item, widget (QComboBox, cbAndOr)
-#: rc.cpp:1274 dialogs/EditFilterDialog.cpp:39
+#: rc.cpp:1271 dialogs/EditFilterDialog.cpp:39
 msgid "AND"
 msgstr "AND"
 
 #. i18n: file: dialogs/EditFilterDialog.ui:177
 #. i18n: ectx: property (text), item, widget (QComboBox, cbAndOr)
-#: rc.cpp:1277 dialogs/EditFilterDialog.cpp:40
+#: rc.cpp:1274 dialogs/EditFilterDialog.cpp:40
 msgid "OR"
 msgstr "OR"
 
 #. i18n: file: dialogs/EqualizerDialog.ui:23
 #. i18n: ectx: property (title), widget (QGroupBox, EqualizerGroupBox)
-#: rc.cpp:1280
+#: rc.cpp:1277
 #, fuzzy
 #| msgid "&Equalizer"
 msgid "Sound Equalizer"
@@ -3307,37 +2849,37 @@ msgstr "&Kòrektor"
 
 #. i18n: file: dialogs/EqualizerDialog.ui:43
 #. i18n: ectx: property (text), widget (QLabel, eqPresetslabel)
-#: rc.cpp:1283
+#: rc.cpp:1280
 msgid "Presets:"
 msgstr ""
 
 #. i18n: file: dialogs/EqualizerDialog.ui:56
 #. i18n: ectx: property (toolTip), widget (QComboBox, eqPresets)
-#: rc.cpp:1286
+#: rc.cpp:1283
 msgid "List of available equalizer presets."
 msgstr ""
 
 #. i18n: file: dialogs/EqualizerDialog.ui:72
 #. i18n: ectx: property (toolTip), widget (QPushButton, eqPresetSaveBtn)
-#: rc.cpp:1289
+#: rc.cpp:1286
 msgid "Save changes of currently selected preset"
 msgstr ""
 
 #. i18n: file: dialogs/EqualizerDialog.ui:75
 #. i18n: ectx: property (text), widget (QPushButton, eqPresetSaveBtn)
-#: rc.cpp:1292
+#: rc.cpp:1289
 msgid "Save"
 msgstr "Zapiszë"
 
 #. i18n: file: dialogs/EqualizerDialog.ui:88
 #. i18n: ectx: property (toolTip), widget (QPushButton, eqPresetDeleteBtn)
-#: rc.cpp:1295
+#: rc.cpp:1292
 msgid "Delete currently selected preset. Not available for built-in presets."
 msgstr ""
 
 #. i18n: file: dialogs/EqualizerDialog.ui:91
 #. i18n: ectx: property (text), widget (QPushButton, eqPresetDeleteBtn)
-#: rc.cpp:1298
+#: rc.cpp:1295
 #, fuzzy
 #| msgid "Delete the preset."
 msgid "Delete Preset"
@@ -3345,7 +2887,7 @@ msgstr "Rëmôj ùstawë."
 
 #. i18n: file: dialogs/EqualizerDialog.ui:104
 #. i18n: ectx: property (toolTip), widget (QPushButton, eqPresetResetBtn)
-#: rc.cpp:1301
+#: rc.cpp:1298
 msgid ""
 "Reset selected preset setting to default. Available only for built-in "
 "presets."
@@ -3353,7 +2895,7 @@ msgstr ""
 
 #. i18n: file: dialogs/EqualizerDialog.ui:107
 #. i18n: ectx: property (text), widget (QPushButton, eqPresetResetBtn)
-#: rc.cpp:1304
+#: rc.cpp:1301
 #, fuzzy
 #| msgid "Playlist layouts"
 msgid "Reset to Default"
@@ -3361,7 +2903,7 @@ msgstr "Wëdrzatczi lëstë graniô"
 
 #. i18n: file: dialogs/EqualizerDialog.ui:129
 #. i18n: ectx: property (title), widget (QGroupBox, eqBandsGroupBox)
-#: rc.cpp:1307
+#: rc.cpp:1304
 #, fuzzy
 #| msgid "and"
 msgid "Bands"
@@ -3369,7 +2911,7 @@ msgstr "ë"
 
 #. i18n: file: dialogs/EqualizerDialog.ui:142
 #. i18n: ectx: property (text), widget (QLabel, eqMaxEq)
-#: rc.cpp:1310
+#: rc.cpp:1307
 #, fuzzy
 #| msgid "+ dB"
 msgid "+dB"
@@ -3409,16 +2951,16 @@ msgstr "+ dB"
 #. i18n: ectx: property (text), widget (QLabel, qLabel_collection)
 #. i18n: file: dialogs/TagDialogBase.ui:431
 #. i18n: ectx: property (text), widget (QLabel, qLabel_playcount)
-#: rc.cpp:1313 rc.cpp:1316 rc.cpp:1319 rc.cpp:1322 rc.cpp:1325 rc.cpp:1328
-#: rc.cpp:1331 rc.cpp:1334 rc.cpp:1337 rc.cpp:1340 rc.cpp:1343 rc.cpp:1679
-#: rc.cpp:1685 rc.cpp:1691 rc.cpp:1697 rc.cpp:1709 rc.cpp:1718
+#: rc.cpp:1310 rc.cpp:1313 rc.cpp:1316 rc.cpp:1319 rc.cpp:1322 rc.cpp:1325
+#: rc.cpp:1328 rc.cpp:1331 rc.cpp:1334 rc.cpp:1337 rc.cpp:1340 rc.cpp:1676
+#: rc.cpp:1682 rc.cpp:1688 rc.cpp:1694 rc.cpp:1706 rc.cpp:1715
 #: core/support/Amarok.cpp:135
 msgid "0"
 msgstr "0"
 
 #. i18n: file: dialogs/EqualizerDialog.ui:280
 #. i18n: ectx: property (text), widget (QLabel, eqZero)
-#: rc.cpp:1346
+#: rc.cpp:1343
 #, fuzzy
 #| msgid "0 dB"
 msgid "0dB"
@@ -3426,7 +2968,7 @@ msgstr "0 dB"
 
 #. i18n: file: dialogs/EqualizerDialog.ui:589
 #. i18n: ectx: property (text), widget (QLabel, eqMinEq)
-#: rc.cpp:1349
+#: rc.cpp:1346
 #, fuzzy
 #| msgid "- dB"
 msgid "-dB"
@@ -3454,14 +2996,14 @@ msgstr "- dB"
 #. i18n: ectx: property (text), widget (QLabel, eqBand8Label)
 #. i18n: file: dialogs/EqualizerDialog.ui:699
 #. i18n: ectx: property (text), widget (QLabel, eqBand9Label)
-#: rc.cpp:1352 rc.cpp:1355 rc.cpp:1358 rc.cpp:1361 rc.cpp:1364 rc.cpp:1367
-#: rc.cpp:1370 rc.cpp:1373 rc.cpp:1376 rc.cpp:1379 rc.cpp:1382
+#: rc.cpp:1349 rc.cpp:1352 rc.cpp:1355 rc.cpp:1358 rc.cpp:1361 rc.cpp:1364
+#: rc.cpp:1367 rc.cpp:1370 rc.cpp:1373 rc.cpp:1376 rc.cpp:1379
 msgid "Hz"
 msgstr "Hz"
 
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:119
 #. i18n: ectx: property (text), widget (QLabel, syntaxLabel)
-#: rc.cpp:1389
+#: rc.cpp:1386
 #, fuzzy, no-c-format
 #| msgid ""
 #| "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -3508,73 +3050,73 @@ msgstr ""
 
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:263
 #. i18n: ectx: property (text), widget (KPushButton, kpbAdvanced)
-#: rc.cpp:1397 dialogs/FilenameLayoutDialog.cpp:526
+#: rc.cpp:1394 dialogs/FilenameLayoutDialog.cpp:526
 msgid "&Advanced..."
 msgstr "&Awansowóné..."
 
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:330
 #. i18n: ectx: property (title), widget (KButtonGroup, optionsFrame)
-#: rc.cpp:1400 dialogs/transferdialog.cpp:111
+#: rc.cpp:1397 dialogs/transferdialog.cpp:111
 msgid "Options"
 msgstr "Òptacëje"
 
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:342
 #. i18n: ectx: property (text), widget (QCheckBox, cbCase)
-#: rc.cpp:1403
+#: rc.cpp:1400
 msgid "Edit &case"
 msgstr ""
 
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:379
 #. i18n: ectx: property (text), widget (QRadioButton, rbTitleCase)
-#: rc.cpp:1406
+#: rc.cpp:1403
 msgid "&Title case"
 msgstr ""
 
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:401
 #. i18n: ectx: property (text), widget (QRadioButton, rbFirstLetter)
-#: rc.cpp:1409
+#: rc.cpp:1406
 msgid "&First letter of every word uppercase"
 msgstr ""
 
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:420
 #. i18n: ectx: property (text), widget (QRadioButton, rbAllUpper)
-#: rc.cpp:1412
+#: rc.cpp:1409
 msgid "All &uppercase"
 msgstr ""
 
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:439
 #. i18n: ectx: property (text), widget (QRadioButton, rbAllLower)
-#: rc.cpp:1415
+#: rc.cpp:1412
 msgid "All &lowercase"
 msgstr ""
 
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:461
 #. i18n: ectx: property (text), widget (QCheckBox, cbEliminateSpaces)
-#: rc.cpp:1418
+#: rc.cpp:1415
 msgid "Remove trailing &spaces in tags"
 msgstr ""
 
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:477
 #. i18n: ectx: property (text), widget (QCheckBox, cbReplaceUnderscores)
-#: rc.cpp:1421
+#: rc.cpp:1418
 msgid "Replace &underscores with spaces"
 msgstr ""
 
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:484
 #. i18n: ectx: property (text), widget (QCheckBox, cbUseFullPath)
-#: rc.cpp:1424
+#: rc.cpp:1421
 msgid "Use full file path"
 msgstr ""
 
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:516
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: rc.cpp:1427
+#: rc.cpp:1424
 msgid "Reduce directories nesting level"
 msgstr ""
 
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:548
 #. i18n: ectx: property (title), widget (QGroupBox, resultGroupBox)
-#: rc.cpp:1430
+#: rc.cpp:1427
 #, fuzzy
 #| msgid "Destination Preview"
 msgid "Result Preview"
@@ -3584,7 +3126,7 @@ msgstr "Pòdzérk célu"
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: file: services/opmldirectory/AddOpmlWidget.ui:78
 #. i18n: ectx: property (text), widget (QLabel, titleLabel)
-#: rc.cpp:1433 rc.cpp:2496
+#: rc.cpp:1430 rc.cpp:2493
 #, fuzzy
 #| msgid "T&itle:"
 msgid "Title:"
@@ -3592,13 +3134,13 @@ msgstr "T&itel:"
 
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:563
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:1436
+#: rc.cpp:1433
 msgid "Artist:"
 msgstr "Artista:"
 
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:570
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:1439
+#: rc.cpp:1436
 #, fuzzy
 #| msgid "&Composer:"
 msgid "Composer:"
@@ -3606,7 +3148,7 @@ msgstr "&Kòmpòzytor:"
 
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:577
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:1442
+#: rc.cpp:1439
 #, fuzzy
 #| msgid "&Year:"
 msgid "Year:"
@@ -3614,7 +3156,7 @@ msgstr "&Rok:"
 
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:584
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: rc.cpp:1445
+#: rc.cpp:1442
 #, fuzzy
 #| msgid "Trac&k:"
 msgid "Track:"
@@ -3622,13 +3164,13 @@ msgstr "Sz&tëczk:"
 
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:591
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: rc.cpp:1448
+#: rc.cpp:1445
 msgid "Album:"
 msgstr "Albùm:"
 
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:598
 #. i18n: ectx: property (text), widget (QLabel, label_11)
-#: rc.cpp:1451
+#: rc.cpp:1448
 #, fuzzy
 #| msgid "Co&mment:"
 msgid "Comment:"
@@ -3636,7 +3178,7 @@ msgstr "&Dopòwiesc:"
 
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:605
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: rc.cpp:1454
+#: rc.cpp:1451
 msgid "Genre:"
 msgstr "Zort:"
 
@@ -3658,14 +3200,14 @@ msgstr "Zort:"
 #. i18n: ectx: property (text), widget (QLabel, Track_result)
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:759
 #. i18n: ectx: property (text), widget (QLabel, AlbumArtist_result)
-#: rc.cpp:1457 rc.cpp:1460 rc.cpp:1463 rc.cpp:1466 rc.cpp:1469 rc.cpp:1472
-#: rc.cpp:1475 rc.cpp:1478 rc.cpp:1484
+#: rc.cpp:1454 rc.cpp:1457 rc.cpp:1460 rc.cpp:1463 rc.cpp:1466 rc.cpp:1469
+#: rc.cpp:1472 rc.cpp:1475 rc.cpp:1481
 msgid "<empty>"
 msgstr ""
 
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:746
 #. i18n: ectx: property (text), widget (QLabel, label_13)
-#: rc.cpp:1481 browsers/CollectionTreeItemModelBase.cpp:916
+#: rc.cpp:1478 browsers/CollectionTreeItemModelBase.cpp:916
 #: dialogs/FilenameLayoutDialog.cpp:246 dialogs/FilenameLayoutDialog.cpp:612
 #: musicbrainz/MusicBrainzTags.cpp:361 playlist/PlaylistModel.cpp:891
 msgid "Album Artist"
@@ -3673,7 +3215,7 @@ msgstr "Artista albùmù"
 
 #. i18n: file: dialogs/MusicBrainzTagger.ui:12
 #. i18n: ectx: property (windowTitle), widget (QWidget, MusicBrainzTagger)
-#: rc.cpp:1487 dialogs/TagDialog.cpp:1427
+#: rc.cpp:1484 dialogs/TagDialog.cpp:1427
 #, fuzzy
 #| msgid "MusicBrainz Lookup"
 msgid "MusicBrainz Tagger"
@@ -3681,13 +3223,13 @@ msgstr "Sprôwdzanié w MusicBraiz"
 
 #. i18n: file: dialogs/MusicBrainzTagger.ui:49
 #. i18n: ectx: property (toolTip), widget (QPushButton, pushButton_saveAndClose)
-#: rc.cpp:1490
+#: rc.cpp:1487
 msgid "Update tags for checked tracks and exit"
 msgstr ""
 
 #. i18n: file: dialogs/MusicBrainzTagger.ui:52
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_saveAndClose)
-#: rc.cpp:1493
+#: rc.cpp:1490
 #, fuzzy
 #| msgid "&Update All"
 msgid "&Update Tags"
@@ -3695,7 +3237,7 @@ msgstr "&Zaktualni wszëtkò"
 
 #. i18n: file: dialogs/MusicBrainzTagger.ui:65
 #. i18n: ectx: property (toolTip), widget (QPushButton, pushButton_cancel)
-#: rc.cpp:1496
+#: rc.cpp:1493
 msgid "Exit without saving"
 msgstr ""
 
@@ -3705,49 +3247,49 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_cancel)
 #. i18n: file: services/magnatune/MagnatuneRedownloadDialogBase.ui:36
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
-#: rc.cpp:1499 rc.cpp:1808 rc.cpp:2431
+#: rc.cpp:1496 rc.cpp:1805 rc.cpp:2428
 msgid "&Cancel"
 msgstr ""
 
 #. i18n: file: dialogs/deletedialogbase.ui:41
 #. i18n: ectx: property (text), widget (QLabel, ddWarningIcon)
-#: rc.cpp:1502
+#: rc.cpp:1499
 msgid "Icon Placeholder, not in GUI"
 msgstr ""
 
 #. i18n: file: dialogs/deletedialogbase.ui:56
 #. i18n: ectx: property (text), widget (QLabel, ddDeleteText)
-#: rc.cpp:1505
+#: rc.cpp:1502
 msgid "Deletion method placeholder, never shown to user."
 msgstr ""
 
 #. i18n: file: dialogs/deletedialogbase.ui:79
 #. i18n: ectx: property (toolTip), widget (K3ListBox, ddFileList)
-#: rc.cpp:1508
+#: rc.cpp:1505
 msgid "List of files that are about to be deleted."
 msgstr ""
 
 #. i18n: file: dialogs/deletedialogbase.ui:82
 #. i18n: ectx: property (whatsThis), widget (K3ListBox, ddFileList)
-#: rc.cpp:1511
+#: rc.cpp:1508
 msgid "This is the list of items that are about to be deleted."
 msgstr ""
 
 #. i18n: file: dialogs/deletedialogbase.ui:89
 #. i18n: ectx: property (text), widget (QLabel, ddNumFiles)
-#: rc.cpp:1514
+#: rc.cpp:1511
 msgid "Placeholder for number of files, not in GUI"
 msgstr ""
 
 #. i18n: file: dialogs/deletedialogbase.ui:102
 #. i18n: ectx: property (text), widget (QCheckBox, ddShouldDelete)
-#: rc.cpp:1517
+#: rc.cpp:1514
 msgid "&Delete files instead of moving them to the trash"
 msgstr ""
 
 #. i18n: file: dialogs/deletedialogbase.ui:105
 #. i18n: ectx: property (toolTip), widget (QCheckBox, ddShouldDelete)
-#: rc.cpp:1520
+#: rc.cpp:1517
 msgid ""
 "If checked, files will be permanently removed instead of being placed in the "
 "Trash Bin"
@@ -3755,7 +3297,7 @@ msgstr ""
 
 #. i18n: file: dialogs/deletedialogbase.ui:110
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, ddShouldDelete)
-#: rc.cpp:1523
+#: rc.cpp:1520
 msgid ""
 "<qt><p>If this box is checked, files will be <b>permanently removed</b> "
 "instead of being placed in the Trash Bin.</p>\n"
@@ -3766,19 +3308,19 @@ msgstr ""
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:21
 #. i18n: ectx: property (windowTitle), widget (QWidget, OrganizeCollectionDialogBase)
-#: rc.cpp:1528 core-impl/collections/db/sql/SqlCollection.cpp:81
+#: rc.cpp:1525 core-impl/collections/db/sql/SqlCollection.cpp:81
 msgid "Organize Files"
 msgstr "Òrganizëjë lopczi"
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:38
 #. i18n: ectx: property (toolTip), widget (QLabel, folderLabel)
-#: rc.cpp:1531
+#: rc.cpp:1528
 msgid "Base directory under which to put files"
 msgstr ""
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:41
 #. i18n: ectx: property (text), widget (QLabel, folderLabel)
-#: rc.cpp:1534
+#: rc.cpp:1531
 msgid "C&ollection Folder:"
 msgstr "Katalog kòlekcëji:"
 
@@ -3786,13 +3328,13 @@ msgstr "Katalog kòlekcëji:"
 #. i18n: ectx: property (toolTip), widget (KComboBox, folderCombo)
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:63
 #. i18n: ectx: property (whatsThis), widget (KComboBox, folderCombo)
-#: rc.cpp:1537 rc.cpp:1540
+#: rc.cpp:1534 rc.cpp:1537
 msgid "The collection folder to which the files will be transferred."
 msgstr ""
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:83
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:1543
+#: rc.cpp:1540
 #, fuzzy
 #| msgid "Import Collection"
 msgid "Format Presets:"
@@ -3800,13 +3342,13 @@ msgstr "Impòrtëjë kòlekcjã"
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:108
 #. i18n: ectx: property (whatsThis), widget (QComboBox, presetCombo)
-#: rc.cpp:1546
+#: rc.cpp:1543
 msgid "A list of selectable filename scheme/format presets."
 msgstr ""
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:115
 #. i18n: ectx: property (toolTip), widget (QPushButton, removePresetButton)
-#: rc.cpp:1549
+#: rc.cpp:1546
 #, fuzzy
 #| msgid "Delete the preset."
 msgid "Removes the currently selected format preset"
@@ -3814,7 +3356,7 @@ msgstr "Rëmôj ùstawë."
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:118
 #. i18n: ectx: property (text), widget (QPushButton, removePresetButton)
-#: rc.cpp:1552
+#: rc.cpp:1549
 #, fuzzy
 #| msgid "Remove Applet"
 msgid "Remove Preset"
@@ -3822,13 +3364,13 @@ msgstr "Rëmôj aplet"
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:125
 #. i18n: ectx: property (toolTip), widget (QPushButton, addPresetButton)
-#: rc.cpp:1555
+#: rc.cpp:1552
 msgid "Saves the current scheme/format above as a preset."
 msgstr ""
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:128
 #. i18n: ectx: property (text), widget (QPushButton, addPresetButton)
-#: rc.cpp:1558
+#: rc.cpp:1555
 #, fuzzy
 #| msgid "Save the preset."
 msgid "Save Preset"
@@ -3836,7 +3378,7 @@ msgstr "Zapiszë ùstawë."
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:135
 #. i18n: ectx: property (text), widget (QPushButton, updatePresetButton)
-#: rc.cpp:1561
+#: rc.cpp:1558
 #, fuzzy
 #| msgid "Save the preset."
 msgid "&Update Preset"
@@ -3844,19 +3386,19 @@ msgstr "Zapiszë ùstawë."
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:166
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:1564
+#: rc.cpp:1561
 msgid "Character Replacement"
 msgstr "Zmiana znaków"
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:181
 #. i18n: ectx: property (toolTip), widget (QCheckBox, spaceCheck)
-#: rc.cpp:1567
+#: rc.cpp:1564
 msgid "If checked, convert spaces to underscores."
 msgstr ""
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:184
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, spaceCheck)
-#: rc.cpp:1570
+#: rc.cpp:1567
 msgid ""
 "If checked all spaces will be replaced with underscores in the file names. "
 "If not, spaces will be left as they are."
@@ -3864,7 +3406,7 @@ msgstr ""
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:187
 #. i18n: ectx: property (text), widget (QCheckBox, spaceCheck)
-#: rc.cpp:1573
+#: rc.cpp:1570
 #, fuzzy
 #| msgid "Convert spaces to underscores"
 msgid "Replace spaces with &underscores"
@@ -3872,31 +3414,31 @@ msgstr "Zmieni spacëje na pòdsztrichniãca"
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:196
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:1576
+#: rc.cpp:1573
 msgid "Replace"
 msgstr "Zamieni"
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:206
 #. i18n: ectx: property (toolTip), widget (KLineEdit, regexpEdit)
-#: rc.cpp:1579
+#: rc.cpp:1576
 msgid "Regular expression"
 msgstr "Regùlarny wësłów"
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:223
 #. i18n: ectx: property (toolTip), widget (KLineEdit, replaceEdit)
-#: rc.cpp:1585
+#: rc.cpp:1582
 msgid "Character string"
 msgstr "réga znaków"
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:238
 #. i18n: ectx: property (toolTip), widget (QCheckBox, ignoreTheCheck)
-#: rc.cpp:1588
+#: rc.cpp:1585
 msgid "If checked, postfix artists' names starting with 'The' with ', The'."
 msgstr ""
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:241
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, ignoreTheCheck)
-#: rc.cpp:1591
+#: rc.cpp:1588
 msgid ""
 "If checked all artists that have the word \"The\" at the beginning will be "
 "treated as if the \"The\" was not there. Example, \"The Beatles\" would "
@@ -3905,7 +3447,7 @@ msgstr ""
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:244
 #. i18n: ectx: property (text), widget (QCheckBox, ignoreTheCheck)
-#: rc.cpp:1594
+#: rc.cpp:1591
 #, fuzzy
 #| msgid "Enter an artist name"
 msgid "I&gnore 'The' in artist names"
@@ -3913,7 +3455,7 @@ msgstr "Wpiszë miono artistë"
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:265
 #. i18n: ectx: property (toolTip), widget (QCheckBox, asciiCheck)
-#: rc.cpp:1597
+#: rc.cpp:1594
 #, fuzzy
 #| msgid ""
 #| "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -3973,7 +3515,7 @@ msgstr ""
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:274
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, asciiCheck)
-#: rc.cpp:1608
+#: rc.cpp:1605
 #, fuzzy
 #| msgid ""
 #| "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -4028,13 +3570,13 @@ msgstr ""
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:277
 #. i18n: ectx: property (text), widget (QCheckBox, asciiCheck)
-#: rc.cpp:1617
+#: rc.cpp:1614
 msgid "Restrict to &ASCII"
 msgstr ""
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:292
 #. i18n: ectx: property (toolTip), widget (QCheckBox, vfatCheck)
-#: rc.cpp:1620
+#: rc.cpp:1617
 msgid ""
 "Replace characters that are incompatible with MS-DOS/VFAT file systems with "
 "underscores. \n"
@@ -4044,7 +3586,7 @@ msgstr ""
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:297
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, vfatCheck)
-#: rc.cpp:1625
+#: rc.cpp:1622
 msgid ""
 "If checked, replace characters that are incompatible with MS-DOS/VFAT file "
 "systems with underscores. Incompatible characters include |?*<\":>+[] and "
@@ -4056,7 +3598,7 @@ msgstr ""
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:300
 #. i18n: ectx: property (text), widget (QCheckBox, vfatCheck)
-#: rc.cpp:1630
+#: rc.cpp:1627
 #, fuzzy
 #| msgid "VFAT Safe &Names"
 msgid "&VFAT safe names"
@@ -4064,13 +3606,13 @@ msgstr "Bezpiéczé &miona VFAT"
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:316
 #. i18n: ectx: property (title), widget (QGroupBox, previewBox)
-#: rc.cpp:1633
+#: rc.cpp:1630
 msgid "Destination Preview"
 msgstr "Pòdzérk célu"
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:329
 #. i18n: ectx: property (text), widget (QTableWidget, previewTableWidget)
-#: rc.cpp:1636
+#: rc.cpp:1633
 #, fuzzy
 #| msgid "Original author"
 msgid "Original"
@@ -4082,13 +3624,13 @@ msgstr "Òridżinalny aùtor"
 #. i18n: ectx: property (text), widget (QPushButton, previewButton)
 #. i18n: file: playlist/layouts/PlaylistLayoutEditDialog.ui:336
 #. i18n: ectx: property (text), widget (QPushButton, previewButton)
-#: rc.cpp:1639 rc.cpp:1642 rc.cpp:1945
+#: rc.cpp:1636 rc.cpp:1639 rc.cpp:1942
 msgid "Preview"
 msgstr "Pòdzérk"
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:351
 #. i18n: ectx: property (text), widget (QCheckBox, autoPreviewCheck)
-#: rc.cpp:1645
+#: rc.cpp:1642
 #, fuzzy
 #| msgid "Automatic"
 msgid "Automatic Preview"
@@ -4096,13 +3638,13 @@ msgstr "Aùtomatno"
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:390
 #. i18n: ectx: property (toolTip), widget (QCheckBox, overwriteCheck)
-#: rc.cpp:1648
+#: rc.cpp:1645
 msgid "If checked, overwrite files of the same name without asking."
 msgstr ""
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:397
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, overwriteCheck)
-#: rc.cpp:1651
+#: rc.cpp:1648
 #, fuzzy
 #| msgid ""
 #| "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -4145,31 +3687,31 @@ msgstr ""
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:400
 #. i18n: ectx: property (text), widget (QCheckBox, overwriteCheck)
-#: rc.cpp:1658
+#: rc.cpp:1655
 msgid "Overwrite &Destination"
 msgstr "Nôdpiszë &cel"
 
 #. i18n: file: dialogs/TagDialogBase.ui:20
 #. i18n: ectx: property (windowTitle), widget (QWidget, TagDialogBase)
-#: rc.cpp:1661
+#: rc.cpp:1658
 msgid "Track Information"
 msgstr "Wrdowiédzô ò sztëczkù"
 
 #. i18n: file: dialogs/TagDialogBase.ui:38
 #. i18n: ectx: attribute (title), widget (QWidget, summaryTab)
-#: rc.cpp:1664
+#: rc.cpp:1661
 msgid "S&ummary"
 msgstr "Pòdrë&chòwanié"
 
 #. i18n: file: dialogs/TagDialogBase.ui:71
 #. i18n: ectx: property (text), widget (QLabel, trackArtistAlbumLabel)
-#: rc.cpp:1667
+#: rc.cpp:1664
 msgid "Track by Artist on Album"
 msgstr "Sztëcczi wedle artistów w albùmie"
 
 #. i18n: file: dialogs/TagDialogBase.ui:119
 #. i18n: ectx: property (text), widget (QLabel, leftHeaderLabel)
-#: rc.cpp:1670
+#: rc.cpp:1667
 #, fuzzy
 #| msgid "Proportion:"
 msgid "Properties"
@@ -4177,43 +3719,43 @@ msgstr "Propòrcja:"
 
 #. i18n: file: dialogs/TagDialogBase.ui:144
 #. i18n: ectx: property (text), widget (QLabel, rightHeaderLabel)
-#: rc.cpp:1673
+#: rc.cpp:1670
 msgid "Statistics"
 msgstr "Statisticzi"
 
 #. i18n: file: dialogs/TagDialogBase.ui:157
 #. i18n: ectx: property (text), widget (QLabel, lenghtLabel)
-#: rc.cpp:1676
+#: rc.cpp:1673
 msgid "Length:"
 msgstr "Długòta:"
 
 #. i18n: file: dialogs/TagDialogBase.ui:189
 #. i18n: ectx: property (text), widget (QLabel, bitrateLabel)
-#: rc.cpp:1682
+#: rc.cpp:1679
 msgid "Bit rate:"
 msgstr "Chùtkòsc transmisëji:"
 
 #. i18n: file: dialogs/TagDialogBase.ui:221
 #. i18n: ectx: property (text), widget (QLabel, samplerateLabel)
-#: rc.cpp:1688
+#: rc.cpp:1685
 msgid "Sample rate:"
 msgstr "Probkòwanié:"
 
 #. i18n: file: dialogs/TagDialogBase.ui:253
 #. i18n: ectx: property (text), widget (QLabel, sizeLabel)
-#: rc.cpp:1694
+#: rc.cpp:1691
 msgid "Size:"
 msgstr "Miara:"
 
 #. i18n: file: dialogs/TagDialogBase.ui:285
 #. i18n: ectx: property (text), widget (QLabel, formatLabel)
-#: rc.cpp:1700
+#: rc.cpp:1697
 msgid "Format:"
 msgstr "Fòrmat:"
 
 #. i18n: file: dialogs/TagDialogBase.ui:304
 #. i18n: ectx: property (text), widget (QLabel, qLabel_format)
-#: rc.cpp:1703
+#: rc.cpp:1700
 #, fuzzy
 #| msgid "Mp3"
 msgid "mp3"
@@ -4221,19 +3763,19 @@ msgstr "Mp3"
 
 #. i18n: file: dialogs/TagDialogBase.ui:317
 #. i18n: ectx: property (text), widget (QLabel, collectionLabel)
-#: rc.cpp:1706
+#: rc.cpp:1703
 msgid "Collection:"
 msgstr "Kòlekcëjô:"
 
 #. i18n: file: dialogs/TagDialogBase.ui:368
 #. i18n: ectx: property (text), widget (QLabel, ratingLabel)
-#: rc.cpp:1712
+#: rc.cpp:1709
 msgid "Rating:"
 msgstr "Notowania:"
 
 #. i18n: file: dialogs/TagDialogBase.ui:406
 #. i18n: ectx: property (text), widget (QLabel, playcountLabel)
-#: rc.cpp:1715
+#: rc.cpp:1712
 #, fuzzy
 #| msgid "Play count"
 msgid "Play count:"
@@ -4241,13 +3783,13 @@ msgstr "Rechòwnik òdegraniô"
 
 #. i18n: file: dialogs/TagDialogBase.ui:444
 #. i18n: ectx: property (text), widget (QLabel, scoreLabel)
-#: rc.cpp:1721
+#: rc.cpp:1718
 msgid "Score:"
 msgstr "Pùnktacëjô:"
 
 #. i18n: file: dialogs/TagDialogBase.ui:460
 #. i18n: ectx: property (text), widget (QLabel, firstPlayedLabel)
-#: rc.cpp:1724
+#: rc.cpp:1721
 #, fuzzy
 #| msgid "First Played:"
 msgid "First played:"
@@ -4255,7 +3797,7 @@ msgstr "Pierszi rôz gróné:"
 
 #. i18n: file: dialogs/TagDialogBase.ui:498
 #. i18n: ectx: property (text), widget (QLabel, lastPlayedLabel)
-#: rc.cpp:1727
+#: rc.cpp:1724
 #, fuzzy
 #| msgid "Last played"
 msgid "Last played:"
@@ -4263,107 +3805,110 @@ msgstr "Slédno gróné"
 
 #. i18n: file: dialogs/TagDialogBase.ui:552
 #. i18n: ectx: attribute (title), widget (QWidget, tagsTab)
-#: rc.cpp:1730
+#: rc.cpp:1727
 msgid "Ta&gs"
 msgstr "&Tadżi"
 
 #. i18n: file: dialogs/TagDialogBase.ui:558
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:1733
+#: rc.cpp:1730
 msgid "T&itle:"
 msgstr "T&itel:"
 
 #. i18n: file: dialogs/TagDialogBase.ui:584
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: rc.cpp:1736
+#: rc.cpp:1733
 msgid "&Artist:"
 msgstr "&Artista:"
 
 #. i18n: file: dialogs/TagDialogBase.ui:616
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3_2)
-#: rc.cpp:1739
+#: rc.cpp:1736
 msgid "&Composer:"
 msgstr "&Kòmpòzytor:"
 
 #. i18n: file: dialogs/TagDialogBase.ui:645
 #. i18n: ectx: property (text), widget (QLabel, textLabel_albumArtist)
-#: rc.cpp:1742
+#: rc.cpp:1739
 #, fuzzy
-#| msgid "Album Artist"
-msgid "Album Artist:"
+#| msgctxt "'Album artist' playlist column name and token for playlist layouts"
+#| msgid "Album artist"
+msgid "Album artist:"
 msgstr "Artista albùmù"
 
 #. i18n: file: dialogs/TagDialogBase.ui:668
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
-#: rc.cpp:1745
+#: rc.cpp:1742
 msgid "Al&bum:"
 msgstr "Al&bùm:"
 
 #. i18n: file: dialogs/TagDialogBase.ui:706
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_6_6)
-#: rc.cpp:1748
+#: rc.cpp:1745
 #, fuzzy
 #| msgid "Track Number"
-msgid "Trac&k Number:"
+msgid "Trac&k number:"
 msgstr "Numer stegnë"
 
 #. i18n: file: dialogs/TagDialogBase.ui:747
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
-#: rc.cpp:1751
+#: rc.cpp:1748
 msgid "&Genre:"
 msgstr "&Zort"
 
 #. i18n: file: dialogs/TagDialogBase.ui:785
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3_2_2)
-#: rc.cpp:1754
-msgid "&Disc Number:"
+#: rc.cpp:1751
+#, fuzzy
+#| msgid "&Disc Number:"
+msgid "&Disc number:"
 msgstr "Numer &diskù:"
 
 #. i18n: file: dialogs/TagDialogBase.ui:823
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_5)
-#: rc.cpp:1757
+#: rc.cpp:1754
 msgid "&Year:"
 msgstr "&Rok:"
 
 #. i18n: file: dialogs/TagDialogBase.ui:867
 #. i18n: ectx: property (text), widget (QLabel, textLabel_BPM)
-#: rc.cpp:1760
-msgid "B&eats Per Minute:"
+#: rc.cpp:1757
+msgid "B&eats per minute:"
 msgstr ""
 
 #. i18n: file: dialogs/TagDialogBase.ui:896
 #. i18n: ectx: property (text), widget (QLabel, textLabel_comment)
-#: rc.cpp:1763
+#: rc.cpp:1760
 msgid "Co&mment:"
 msgstr "&Dopòwiesc:"
 
 #. i18n: file: dialogs/TagDialogBase.ui:927
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_musicbrainz)
-#: rc.cpp:1766
-msgid "Get Tags From MusicBrain&z"
+#: rc.cpp:1763
+msgid "Get Tags from MusicBrain&z"
 msgstr ""
 
 #. i18n: file: dialogs/TagDialogBase.ui:940
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_guessTags)
-#: rc.cpp:1769
-msgid "Guess Tags From &Filename"
+#: rc.cpp:1766
+msgid "Guess Tags from &Filename"
 msgstr ""
 
 #. i18n: file: dialogs/TagDialogBase.ui:948
 #. i18n: ectx: attribute (title), widget (QWidget, lyricsTab)
-#: rc.cpp:1772
+#: rc.cpp:1769
 msgid "L&yrics"
 msgstr "T&ekstë"
 
 #. i18n: file: dialogs/TagDialogBase.ui:965
 #. i18n: ectx: attribute (title), widget (QWidget, labelsTab)
-#: rc.cpp:1775
+#: rc.cpp:1772
 msgid "La&bels"
 msgstr "Et&iczétë"
 
 #. i18n: file: dialogs/TagDialogBase.ui:981
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:1778
+#: rc.cpp:1775
 #, fuzzy
 #| msgid "Label"
 msgid "Label:"
@@ -4371,55 +3916,57 @@ msgstr "Eticzéta"
 
 #. i18n: file: dialogs/TagDialogBase.ui:997
 #. i18n: ectx: property (toolTip), widget (KComboBox, kComboBox_label)
-#: rc.cpp:1781
+#: rc.cpp:1778
 msgid "Insert your custom label here or select one from the list."
 msgstr ""
 
 #. i18n: file: dialogs/TagDialogBase.ui:1028
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:1784
+#: rc.cpp:1781
 msgid "Custom labels for this item:"
 msgstr ""
 
 #. i18n: file: dialogs/TagDialogBase.ui:1073
 #. i18n: ectx: property (text), widget (QPushButton, removeButton)
-#: rc.cpp:1790 playlistmanager/file/PlaylistFileProvider.cpp:198
+#: rc.cpp:1787 playlistmanager/file/PlaylistFileProvider.cpp:198
 msgid "Remove"
 msgstr "Rëmôj"
 
 #. i18n: file: dialogs/TagDialogBase.ui:1102
 #. i18n: ectx: property (text), widget (QLabel, locationLabel)
-#: rc.cpp:1793
+#: rc.cpp:1790
 msgid "Location:"
 msgstr "Môl:"
 
 #. i18n: file: dialogs/TagDialogBase.ui:1145
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_previous)
-#: rc.cpp:1796 playlist/ProgressiveSearchWidget.cpp:66
+#: rc.cpp:1793 playlist/ProgressiveSearchWidget.cpp:66
 msgid "&Previous"
 msgstr "&Pòprzédny"
 
 #. i18n: file: dialogs/TagDialogBase.ui:1155
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_next)
-#: rc.cpp:1799 playlist/ProgressiveSearchWidget.cpp:63
+#: rc.cpp:1796 playlist/ProgressiveSearchWidget.cpp:63
 msgid "&Next"
 msgstr "&Pòstãpny"
 
 #. i18n: file: dialogs/TagDialogBase.ui:1162
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_perTrack)
-#: rc.cpp:1802
-msgid "Per Trac&k"
+#: rc.cpp:1799
+#, fuzzy
+#| msgid "Per Trac&k"
+msgid "Per trac&k"
 msgstr "Na s&ztëczk"
 
 #. i18n: file: dialogs/TagDialogBase.ui:1185
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_ok)
-#: rc.cpp:1805
+#: rc.cpp:1802
 msgid "Sa&ve && Close"
 msgstr "&Zapiszë ë zamkni"
 
 #. i18n: file: likeback/LikeBackBar.ui:29
 #. i18n: ectx: property (toolTip), widget (QToolButton, m_likeButton)
-#: rc.cpp:1811
+#: rc.cpp:1808
 msgid "Tell the developers about something you liked"
 msgstr ""
 
@@ -4431,7 +3978,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QToolButton, m_bugButton)
 #. i18n: file: likeback/LikeBackBar.ui:84
 #. i18n: ectx: property (whatsThis), widget (QToolButton, m_featureButton)
-#: rc.cpp:1814 rc.cpp:1821 rc.cpp:1828 rc.cpp:1835
+#: rc.cpp:1811 rc.cpp:1818 rc.cpp:1825 rc.cpp:1832
 msgid ""
 "<html>Click on one of these icons to send your feedback to the developers of "
 "this application. You can disable the icons with the \"Show Feedback Icons\" "
@@ -4441,19 +3988,19 @@ msgstr ""
 
 #. i18n: file: likeback/LikeBackBar.ui:46
 #. i18n: ectx: property (toolTip), widget (QToolButton, m_dislikeButton)
-#: rc.cpp:1818
+#: rc.cpp:1815
 msgid "Tell the developers about something you did not like"
 msgstr ""
 
 #. i18n: file: likeback/LikeBackBar.ui:63
 #. i18n: ectx: property (toolTip), widget (QToolButton, m_bugButton)
-#: rc.cpp:1825
+#: rc.cpp:1822
 msgid "Tell the developers about a problem in the application"
 msgstr ""
 
 #. i18n: file: likeback/LikeBackBar.ui:80
 #. i18n: ectx: property (toolTip), widget (QToolButton, m_featureButton)
-#: rc.cpp:1832
+#: rc.cpp:1829
 msgid ""
 "Tell the developers about new features you would like to have in this "
 "application"
@@ -4461,7 +4008,7 @@ msgstr ""
 
 #. i18n: file: likeback/LikeBackDialog.ui:45
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:1839
+#: rc.cpp:1836
 #, fuzzy
 #| msgid "comment"
 msgid "Your comment:"
@@ -4469,43 +4016,43 @@ msgstr "dopòwiesc"
 
 #. i18n: file: likeback/LikeBackDialog.ui:71
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:1842
+#: rc.cpp:1839
 msgid "Your comment is about:"
 msgstr ""
 
 #. i18n: file: likeback/LikeBackDialog.ui:86
 #. i18n: ectx: property (text), widget (QRadioButton, likeRadio_)
-#: rc.cpp:1845
+#: rc.cpp:1842
 msgid "Something you like"
 msgstr ""
 
 #. i18n: file: likeback/LikeBackDialog.ui:99
 #. i18n: ectx: property (text), widget (QRadioButton, dislikeRadio_)
-#: rc.cpp:1848
+#: rc.cpp:1845
 msgid "Something you dislike"
 msgstr ""
 
 #. i18n: file: likeback/LikeBackDialog.ui:112
 #. i18n: ectx: property (text), widget (QRadioButton, bugRadio_)
-#: rc.cpp:1851
+#: rc.cpp:1848
 msgid "An improper behavior of the application"
 msgstr ""
 
 #. i18n: file: likeback/LikeBackDialog.ui:125
 #. i18n: ectx: property (text), widget (QRadioButton, featureRadio_)
-#: rc.cpp:1854
+#: rc.cpp:1851
 msgid "A new feature you desire"
 msgstr ""
 
 #. i18n: file: likeback/LikeBackDialog.ui:141
 #. i18n: ectx: property (text), widget (QCheckBox, specifyEmailCheckBox_)
-#: rc.cpp:1857
+#: rc.cpp:1854
 msgid "Specify an email address to be contacted back:"
 msgstr ""
 
 #. i18n: file: likeback/LikeBackDialog.ui:188
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:1860
+#: rc.cpp:1857
 msgid ""
 "<html>Specifying an email address will allow the developers to ask you for "
 "more information on your report, or to tell you when your feature will be "
@@ -4518,7 +4065,7 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QDialog, NetworkRequestsDialog)
 #. i18n: file: network/NetworkRequests.ui:20
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:1864 rc.cpp:1867
+#: rc.cpp:1861 rc.cpp:1864
 #, fuzzy
 #| msgid "Framework Version"
 msgid "Network Requests"
@@ -4526,13 +4073,13 @@ msgstr "Wersëjô wspiarcô"
 
 #. i18n: file: network/NetworkRequests.ui:27
 #. i18n: ectx: property (text), widget (QPushButton, clearButton)
-#: rc.cpp:1870
+#: rc.cpp:1867
 msgid "&Clear"
 msgstr "Wë&czëszczë"
 
 #. i18n: file: network/NetworkRequests.ui:41
 #. i18n: ectx: property (text), widget (QTreeWidget, requestList)
-#: rc.cpp:1873
+#: rc.cpp:1870
 #, fuzzy
 #| msgid "Mood"
 msgid "Method"
@@ -4540,26 +4087,26 @@ msgstr "Òdczëcé"
 
 #. i18n: file: network/NetworkRequests.ui:46
 #. i18n: ectx: property (text), widget (QTreeWidget, requestList)
-#: rc.cpp:1876 amarokurls/BookmarkModel.cpp:267
+#: rc.cpp:1873 amarokurls/BookmarkModel.cpp:267
 msgid "URL"
 msgstr "URL"
 
 #. i18n: file: network/NetworkRequests.ui:51
 #. i18n: ectx: property (text), widget (QTreeWidget, requestList)
-#: rc.cpp:1879
+#: rc.cpp:1876
 msgid "Response"
 msgstr ""
 
 #. i18n: file: network/NetworkRequests.ui:56
 #. i18n: ectx: property (text), widget (QTreeWidget, requestList)
-#: rc.cpp:1882 core/meta/support/MetaConstants.cpp:116
+#: rc.cpp:1879 core/meta/support/MetaConstants.cpp:116
 #: playlist/PlaylistModel.cpp:902 widgets/SmartPlaylistEditor.cpp:183
 msgid "Length"
 msgstr "Długòta"
 
 #. i18n: file: network/NetworkRequests.ui:61
 #. i18n: ectx: property (text), widget (QTreeWidget, requestList)
-#: rc.cpp:1885
+#: rc.cpp:1882
 #, fuzzy
 #| msgid "Context"
 msgid "Content Type"
@@ -4567,13 +4114,13 @@ msgstr "Kòntekst"
 
 #. i18n: file: network/NetworkRequests.ui:66
 #. i18n: ectx: property (text), widget (QTreeWidget, requestList)
-#: rc.cpp:1888
+#: rc.cpp:1885
 msgid "Info"
 msgstr "Wëdowiédzô"
 
 #. i18n: file: network/NetworkRequests.ui:74
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:1891
+#: rc.cpp:1888
 #, fuzzy
 #| msgid "Details"
 msgid "Request Details"
@@ -4581,7 +4128,7 @@ msgstr "Detale"
 
 #. i18n: file: network/NetworkRequests.ui:81
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:1894
+#: rc.cpp:1891
 #, fuzzy
 #| msgid "Details"
 msgid "Response Details"
@@ -4591,7 +4138,7 @@ msgstr "Detale"
 #. i18n: ectx: property (text), widget (QTreeWidget, requestDetails)
 #. i18n: file: network/NetworkRequests.ui:108
 #. i18n: ectx: property (text), widget (QTreeWidget, responseDetails)
-#: rc.cpp:1900 rc.cpp:1906
+#: rc.cpp:1897 rc.cpp:1903
 #, fuzzy
 #| msgid "Volume"
 msgid "Value"
@@ -4599,7 +4146,7 @@ msgstr "Głosnosc"
 
 #. i18n: file: playlist/PlaylistQueueEditor.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, PlaylistQueueEditor)
-#: rc.cpp:1909
+#: rc.cpp:1906
 #, fuzzy
 #| msgid "Amazon Query Editor"
 msgid "Queue Editor"
@@ -4607,7 +4154,7 @@ msgstr "Editora zapëtaniów Amazona"
 
 #. i18n: file: playlist/PlaylistQueueEditor.ui:32
 #. i18n: ectx: property (toolTip), widget (QPushButton, upButton)
-#: rc.cpp:1912
+#: rc.cpp:1909
 #, fuzzy
 #| msgid "Next Applet"
 msgid "Move Up"
@@ -4615,7 +4162,7 @@ msgstr "Pòstãpny aplet"
 
 #. i18n: file: playlist/PlaylistQueueEditor.ui:48
 #. i18n: ectx: property (toolTip), widget (QPushButton, downButton)
-#: rc.cpp:1915
+#: rc.cpp:1912
 #, fuzzy
 #| msgid "Cover Found"
 msgid "Move Down"
@@ -4623,13 +4170,13 @@ msgstr "Òbkłôdka je nalazłô"
 
 #. i18n: file: playlist/PlaylistQueueEditor.ui:61
 #. i18n: ectx: property (toolTip), widget (QPushButton, dequeueTrackButton)
-#: rc.cpp:1918 playlist/view/PlaylistViewCommon.cpp:115
+#: rc.cpp:1915 playlist/view/PlaylistViewCommon.cpp:115
 msgid "Dequeue Track"
 msgstr "Wërégùjë sztëczk"
 
 #. i18n: file: playlist/PlaylistQueueEditor.ui:74
 #. i18n: ectx: property (toolTip), widget (QPushButton, clearButton)
-#: rc.cpp:1921
+#: rc.cpp:1918
 #, fuzzy
 #| msgid "&Clear Queue"
 msgid "Clear Queue"
@@ -4637,37 +4184,37 @@ msgstr "&Wëczëszczë régã"
 
 #. i18n: file: playlist/layouts/PlaylistLayoutEditDialog.ui:20
 #. i18n: ectx: property (windowTitle), widget (QDialog, PlaylistLayoutEditDialog)
-#: rc.cpp:1924
+#: rc.cpp:1921
 msgid "Playlist Layout Editor"
 msgstr "Editor wëzdrzatkù lëstë graniô"
 
 #. i18n: file: playlist/layouts/PlaylistLayoutEditDialog.ui:57
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:1927
+#: rc.cpp:1924
 msgid "Available Layouts"
 msgstr "Przëstãpné wëzdrzatczi"
 
 #. i18n: file: playlist/layouts/PlaylistLayoutEditDialog.ui:294
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:1933
+#: rc.cpp:1930
 msgid "Layout"
 msgstr "Wëzdrzatk"
 
 #. i18n: file: playlist/layouts/PlaylistLayoutEditDialog.ui:300
 #. i18n: ectx: property (text), widget (QCheckBox, inlineControlsChekbox)
-#: rc.cpp:1936
+#: rc.cpp:1933
 msgid "Show inline playback controls"
 msgstr ""
 
 #. i18n: file: playlist/layouts/PlaylistLayoutEditDialog.ui:312
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:1939 services/ServiceBase.cpp:147
+#: rc.cpp:1936 services/ServiceBase.cpp:147
 msgid "Group By"
 msgstr "Grëpòwóny"
 
 #. i18n: file: playlist/layouts/PlaylistLayoutEditDialog.ui:324
 #. i18n: ectx: property (text), widget (QCheckBox, tooltipsCheckbox)
-#: rc.cpp:1942
+#: rc.cpp:1939
 #, fuzzy
 #| msgid "Show only matches"
 msgid "Show tooltips"
@@ -4675,7 +4222,7 @@ msgstr "Pòkażë le dopasowóné"
 
 #. i18n: file: playlistgenerator/ConstraintGroupEditWidget.ui:15
 #. i18n: ectx: property (whatsThis), widget (QWidget, ConstraintGroupEditWidget)
-#: rc.cpp:1948
+#: rc.cpp:1945
 msgid ""
 "An editor for Constraint Groups.  You can set the group type to \"match all"
 "\" or \"match any\".  When the group type is set to \"match all\", the "
@@ -4686,7 +4233,7 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/ConstraintGroupEditWidget.ui:21
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:1951
+#: rc.cpp:1948
 #, fuzzy
 #| msgid "Photos Settings"
 msgid "Constraint Group Settings"
@@ -4694,7 +4241,7 @@ msgstr "Ùstowë òbrazków"
 
 #. i18n: file: playlistgenerator/ConstraintGroupEditWidget.ui:29
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioButton_MatchAll)
-#: rc.cpp:1954
+#: rc.cpp:1951
 msgid ""
 "The APG will consider the constraint group satisfied only if all of the "
 "constraints within the group are satisfied.  This is analogous to a logical "
@@ -4703,13 +4250,13 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/ConstraintGroupEditWidget.ui:32
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton_MatchAll)
-#: rc.cpp:1957
+#: rc.cpp:1954
 msgid "Match all constraints in the group"
 msgstr ""
 
 #. i18n: file: playlistgenerator/ConstraintGroupEditWidget.ui:39
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioButton_MatchAny)
-#: rc.cpp:1960
+#: rc.cpp:1957
 msgid ""
 "The APG will consider the constraint group satisfied if any one of the "
 "constraints within it is satisfied.  This is analogous to a logical OR: "
@@ -4718,25 +4265,25 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/ConstraintGroupEditWidget.ui:42
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton_MatchAny)
-#: rc.cpp:1963
+#: rc.cpp:1960
 msgid "Match any constraint in the group"
 msgstr ""
 
 #. i18n: file: playlistgenerator/PresetEditDialog.ui:15
 #. i18n: ectx: property (windowTitle), widget (QDialog, PresetEditDialog)
-#: rc.cpp:1966
+#: rc.cpp:1963
 msgid "APG Preset Editor"
 msgstr ""
 
 #. i18n: file: playlistgenerator/PresetEditDialog.ui:23
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_Tree)
-#: rc.cpp:1969
+#: rc.cpp:1966
 msgid "Constraint Tree"
 msgstr ""
 
 #. i18n: file: playlistgenerator/PresetEditDialog.ui:41
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_Title)
-#: rc.cpp:1972
+#: rc.cpp:1969
 #, fuzzy
 #| msgid "File Name"
 msgid "APG Preset Name"
@@ -4744,7 +4291,7 @@ msgstr "Miono lopka"
 
 #. i18n: file: playlistgenerator/constraints/CheckpointEditWidget.ui:15
 #. i18n: ectx: property (whatsThis), widget (QWidget, CheckpointEditWidget)
-#: rc.cpp:1975
+#: rc.cpp:1972
 msgid ""
 "An editor for a CheckPoint constraint.  The user can set the track, album, "
 "or artist to be placed at a certain position in the playlist."
@@ -4752,7 +4299,7 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/CheckpointEditWidget.ui:21
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:1978
+#: rc.cpp:1975
 #, fuzzy
 #| msgid "Photos Settings"
 msgid "Checkpoint Constraint Settings"
@@ -4760,13 +4307,13 @@ msgstr "Ùstowë òbrazków"
 
 #. i18n: file: playlistgenerator/constraints/CheckpointEditWidget.ui:35
 #. i18n: ectx: property (whatsThis), widget (TrackSelectWidget, trackSelector)
-#: rc.cpp:1981
+#: rc.cpp:1978
 msgid "Select the track that you want to use as the checkpoint."
 msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/CheckpointEditWidget.ui:48
 #. i18n: ectx: property (text), widget (QLabel, label_Position)
-#: rc.cpp:1984
+#: rc.cpp:1981
 #, fuzzy
 #| msgid "Proportion:"
 msgid "Position:"
@@ -4774,7 +4321,7 @@ msgstr "Propòrcja:"
 
 #. i18n: file: playlistgenerator/constraints/CheckpointEditWidget.ui:69
 #. i18n: ectx: property (whatsThis), widget (QTimeEdit, timeEdit_Position)
-#: rc.cpp:1987
+#: rc.cpp:1984
 msgid ""
 "The desired position of the song in the playlist, in hours, minutes, and "
 "seconds.  Note: because of Qt limitations, the maximum position that you can "
@@ -4787,7 +4334,7 @@ msgstr ""
 #. i18n: ectx: property (displayFormat), widget (QTimeEdit, timeEdit_Duration)
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:500
 #. i18n: ectx: property (displayFormat), widget (QTimeEdit, timeEdit_TimeValue)
-#: rc.cpp:1990 rc.cpp:2029 rc.cpp:2238
+#: rc.cpp:1987 rc.cpp:2026 rc.cpp:2235
 msgid "h:mm:ss"
 msgstr ""
 
@@ -4795,7 +4342,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_Strictness)
 #. i18n: file: playlistgenerator/constraints/CheckpointEditWidget.ui:138
 #. i18n: ectx: property (whatsThis), widget (QSlider, slider_Strictness)
-#: rc.cpp:1993 rc.cpp:2002
+#: rc.cpp:1990 rc.cpp:1999
 msgid ""
 "How strict the APG should be about placing the selected track at the "
 "specified time."
@@ -4815,8 +4362,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_StrictnessTime)
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:655
 #. i18n: ectx: property (text), widget (QLabel, label_StrictnessRating)
-#: rc.cpp:1996 rc.cpp:2035 rc.cpp:2071 rc.cpp:2157 rc.cpp:2193 rc.cpp:2244
-#: rc.cpp:2274
+#: rc.cpp:1993 rc.cpp:2032 rc.cpp:2068 rc.cpp:2154 rc.cpp:2190 rc.cpp:2241
+#: rc.cpp:2271
 msgid "Match:"
 msgstr ""
 
@@ -4834,8 +4381,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_FuzzyTime)
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:667
 #. i18n: ectx: property (text), widget (QLabel, label_FuzzyRating)
-#: rc.cpp:1999 rc.cpp:2038 rc.cpp:2074 rc.cpp:2160 rc.cpp:2196 rc.cpp:2247
-#: rc.cpp:2277
+#: rc.cpp:1996 rc.cpp:2035 rc.cpp:2071 rc.cpp:2157 rc.cpp:2193 rc.cpp:2244
+#: rc.cpp:2274
 msgid "fuzzy"
 msgstr ""
 
@@ -4853,8 +4400,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_ExactTime)
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:690
 #. i18n: ectx: property (text), widget (QLabel, label_ExactRating)
-#: rc.cpp:2005 rc.cpp:2044 rc.cpp:2080 rc.cpp:2166 rc.cpp:2202 rc.cpp:2253
-#: rc.cpp:2283
+#: rc.cpp:2002 rc.cpp:2041 rc.cpp:2077 rc.cpp:2163 rc.cpp:2199 rc.cpp:2250
+#: rc.cpp:2280
 #, fuzzy
 #| msgid "Next"
 msgid "exact"
@@ -4862,7 +4409,7 @@ msgstr "Pòstãpny"
 
 #. i18n: file: playlistgenerator/constraints/PlaylistDurationEditWidget.ui:15
 #. i18n: ectx: property (whatsThis), widget (QWidget, PlaylistDurationEditWidget)
-#: rc.cpp:2008
+#: rc.cpp:2005
 msgid ""
 "An editor for a PlaylistDuration constraint.  The user can set the name of "
 "the constraint; the target duration and whether the playlist should be less "
@@ -4872,7 +4419,7 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/PlaylistDurationEditWidget.ui:21
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:2011
+#: rc.cpp:2008
 #, fuzzy
 #| msgid "Photos Settings"
 msgid "Playlist Duration Constraint Settings"
@@ -4880,7 +4427,7 @@ msgstr "Ùstowë òbrazków"
 
 #. i18n: file: playlistgenerator/constraints/PlaylistDurationEditWidget.ui:32
 #. i18n: ectx: property (whatsThis), widget (QComboBox, comboBox_Comparison)
-#: rc.cpp:2014
+#: rc.cpp:2011
 msgid ""
 "Whether the duration of the generated playlist should be shorter than, equal "
 "to, or longer than the specified value."
@@ -4888,7 +4435,7 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/PlaylistDurationEditWidget.ui:39
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Comparison)
-#: rc.cpp:2017 playlistgenerator/constraints/PlaylistDuration.cpp:271
+#: rc.cpp:2014 playlistgenerator/constraints/PlaylistDuration.cpp:272
 #, fuzzy
 #| msgid "greater than"
 msgid "shorter than"
@@ -4904,13 +4451,13 @@ msgstr "wicy jak"
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonTime)
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:609
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonRating)
-#: rc.cpp:2020 rc.cpp:2059 rc.cpp:2145 rc.cpp:2229 rc.cpp:2262
+#: rc.cpp:2017 rc.cpp:2056 rc.cpp:2142 rc.cpp:2226 rc.cpp:2259
 msgid "equal to"
 msgstr "równy"
 
 #. i18n: file: playlistgenerator/constraints/PlaylistDurationEditWidget.ui:49
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Comparison)
-#: rc.cpp:2023 playlistgenerator/constraints/PlaylistDuration.cpp:269
+#: rc.cpp:2020 playlistgenerator/constraints/PlaylistDuration.cpp:270
 #, fuzzy
 #| msgid "less than"
 msgid "longer than"
@@ -4918,7 +4465,7 @@ msgstr "mni jak"
 
 #. i18n: file: playlistgenerator/constraints/PlaylistDurationEditWidget.ui:62
 #. i18n: ectx: property (whatsThis), widget (QTimeEdit, timeEdit_Duration)
-#: rc.cpp:2026
+#: rc.cpp:2023
 msgid ""
 "The desired duration of the playlist, in hours, minutes, and seconds.  Note: "
 "because of Qt limitations, the maximum playlist duration that you can "
@@ -4931,7 +4478,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QSlider, slider_Strictness)
 #. i18n: file: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:90
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_Strictness)
-#: rc.cpp:2032 rc.cpp:2041 rc.cpp:2068
+#: rc.cpp:2029 rc.cpp:2038 rc.cpp:2065
 msgid ""
 "How strict the APG should be about matching the playlist duration to the "
 "specified time."
@@ -4939,7 +4486,7 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:15
 #. i18n: ectx: property (whatsThis), widget (QWidget, PlaylistLengthEditWidget)
-#: rc.cpp:2047
+#: rc.cpp:2044
 msgid ""
 "An editor for a Playlist Length constraint.  The user can the target number "
 "of tracks and whether the playlist contain fewer than, equal to, or more "
@@ -4949,7 +4496,7 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:21
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:2050
+#: rc.cpp:2047
 #, fuzzy
 #| msgid "Photos Settings"
 msgid "Playlist Length Constraint Settings"
@@ -4957,7 +4504,7 @@ msgstr "Ùstowë òbrazków"
 
 #. i18n: file: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:32
 #. i18n: ectx: property (whatsThis), widget (QComboBox, comboBox_Comparison)
-#: rc.cpp:2053
+#: rc.cpp:2050
 msgid ""
 "Whether the number of tracks in the generated playlist should be less than, "
 "equal to, or more than the specified value."
@@ -4965,7 +4512,7 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:39
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Comparison)
-#: rc.cpp:2056
+#: rc.cpp:2053
 #, fuzzy
 #| msgid "greater than"
 msgid "fewer than"
@@ -4973,7 +4520,7 @@ msgstr "wicy jak"
 
 #. i18n: file: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:49
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Comparison)
-#: rc.cpp:2062 playlistgenerator/constraints/PlaylistLength.cpp:206
+#: rc.cpp:2059 playlistgenerator/constraints/PlaylistLength.cpp:206
 #, fuzzy
 #| msgid "greater than"
 msgid "more than"
@@ -4981,7 +4528,7 @@ msgstr "wicy jak"
 
 #. i18n: file: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:59
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, spinBox_Length)
-#: rc.cpp:2065
+#: rc.cpp:2062
 #, fuzzy
 #| msgid "Enter space-separated terms to search in the playlist."
 msgid "The target number of tracks for the generated playlist."
@@ -4989,7 +4536,7 @@ msgstr "Wpiszë òddzéloné spacëjama kriteria przeszëkiwaniô lëstë grani�
 
 #. i18n: file: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:115
 #. i18n: ectx: property (whatsThis), widget (QSlider, slider_Strictness)
-#: rc.cpp:2077
+#: rc.cpp:2074
 msgid ""
 "How strict the APG should be about matching the playlist length to the "
 "specified number of tracks."
@@ -4997,7 +4544,7 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:15
 #. i18n: ectx: property (whatsThis), widget (QWidget, PreventDuplicatesEditWidget)
-#: rc.cpp:2083
+#: rc.cpp:2080
 msgid ""
 "An editor for a Prevent Duplicates constraint.  When set to \"track\", it "
 "will try to prevent more than one copy of the same track from ending up in "
@@ -5008,7 +4555,7 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:21
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:2086
+#: rc.cpp:2083
 msgid "Prevent Duplicates Constraint Settings"
 msgstr ""
 
@@ -5016,7 +4563,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_Field)
 #. i18n: file: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:47
 #. i18n: ectx: property (whatsThis), widget (QComboBox, comboBox_Field)
-#: rc.cpp:2089 rc.cpp:2095
+#: rc.cpp:2086 rc.cpp:2092
 msgid ""
 "Control which duplicates to prevent.  \"Prevent duplicate tracks\" is the "
 "least restrictive, and \"prevent duplicate artists\" is the most restrictive."
@@ -5024,7 +4571,7 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:32
 #. i18n: ectx: property (text), widget (QLabel, label_Field)
-#: rc.cpp:2092
+#: rc.cpp:2089
 #, fuzzy
 #| msgid "Remove Applet"
 msgid "Prevent duplicate"
@@ -5032,14 +4579,13 @@ msgstr "Rëmôj aplet"
 
 #. i18n: file: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:51
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Field)
-#: rc.cpp:2098 playlistgenerator/constraints/PreventDuplicates.cpp:104
-#: widgets/SmartPlaylistEditor.cpp:253
+#: rc.cpp:2095 widgets/SmartPlaylistEditor.cpp:253
 msgid "tracks"
 msgstr "sztëczków"
 
 #. i18n: file: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:56
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Field)
-#: rc.cpp:2101 playlistgenerator/constraints/PreventDuplicates.cpp:108
+#: rc.cpp:2098
 #, fuzzy
 #| msgid "album"
 msgid "albums"
@@ -5047,7 +4593,7 @@ msgstr "albùm"
 
 #. i18n: file: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:61
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Field)
-#: rc.cpp:2104 playlistgenerator/constraints/PreventDuplicates.cpp:106
+#: rc.cpp:2101
 #, fuzzy
 #| msgid "artist"
 msgid "artists"
@@ -5055,7 +4601,7 @@ msgstr "artista"
 
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:15
 #. i18n: ectx: property (whatsThis), widget (QWidget, TagMatchEditWidget)
-#: rc.cpp:2107
+#: rc.cpp:2104
 msgid ""
 "An editor for a TagMatch constraint.  The user can specify a track "
 "characteristic, and the APG will fill the playlist with tracks that match "
@@ -5065,7 +4611,7 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:21
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:2110
+#: rc.cpp:2107
 #, fuzzy
 #| msgid "Photos Settings"
 msgid "Match Tag Constraint Settings"
@@ -5075,13 +4621,13 @@ msgstr "Ùstowë òbrazków"
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_Match)
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:44
 #. i18n: ectx: property (whatsThis), widget (QComboBox, comboBox_Field)
-#: rc.cpp:2113 rc.cpp:2119
+#: rc.cpp:2110 rc.cpp:2116
 msgid "Selects which track characteristic you want to match."
 msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:32
 #. i18n: ectx: property (text), widget (QLabel, label_Match)
-#: rc.cpp:2116
+#: rc.cpp:2113
 #, fuzzy
 #| msgid "Failed"
 msgid "Field:"
@@ -5091,7 +4637,7 @@ msgstr "Nie darzëło sã"
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, checkBox_Invert)
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:84
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_Invert)
-#: rc.cpp:2122 rc.cpp:2129
+#: rc.cpp:2119 rc.cpp:2126
 #, fuzzy
 #| msgid ""
 #| "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -5134,7 +4680,7 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:87
 #. i18n: ectx: property (text), widget (QLabel, label_Invert)
-#: rc.cpp:2136
+#: rc.cpp:2133
 #, fuzzy
 #| msgid "Internet"
 msgid "Invert:"
@@ -5142,7 +4688,7 @@ msgstr "Internet"
 
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:106
 #. i18n: ectx: property (whatsThis), widget (QComboBox, comboBox_ComparisonInt)
-#: rc.cpp:2139
+#: rc.cpp:2136
 msgid ""
 "Whether the APG should choose tracks that are less than, equal to, or "
 "greater than the specified value."
@@ -5154,7 +4700,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonTime)
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:604
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonRating)
-#: rc.cpp:2142 rc.cpp:2226 rc.cpp:2259
+#: rc.cpp:2139 rc.cpp:2223 rc.cpp:2256
 #: playlistgenerator/constraints/PlaylistLength.cpp:208
 #: playlistgenerator/constraints/TagMatch.cpp:452
 #: widgets/MetaQueryWidget.cpp:879
@@ -5167,7 +4713,7 @@ msgstr "mni jak"
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonTime)
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:614
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonRating)
-#: rc.cpp:2148 rc.cpp:2232 rc.cpp:2265
+#: rc.cpp:2145 rc.cpp:2229 rc.cpp:2262
 #: playlistgenerator/constraints/TagMatch.cpp:450
 #: widgets/MetaQueryWidget.cpp:883
 msgid "greater than"
@@ -5175,7 +4721,7 @@ msgstr "wicy jak"
 
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:133
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, spinBox_ValueInt)
-#: rc.cpp:2151
+#: rc.cpp:2148
 msgid "The numerical value that the track characteristic should match."
 msgstr ""
 
@@ -5183,14 +4729,14 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_StrictnessInt)
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:180
 #. i18n: ectx: property (whatsThis), widget (QSlider, slider_StrictnessInt)
-#: rc.cpp:2154 rc.cpp:2163
+#: rc.cpp:2151 rc.cpp:2160
 msgid ""
 "How strict the APG should be about matching tracks to the specified value."
 msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:226
 #. i18n: ectx: property (whatsThis), widget (QComboBox, comboBox_ComparisonDate)
-#: rc.cpp:2169
+#: rc.cpp:2166
 msgid ""
 "Whether the APG should choose tracks that are before, on, or after a "
 "specific date; or whether it should choose tracks that are within a certain "
@@ -5199,7 +4745,7 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:233
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonDate)
-#: rc.cpp:2172 playlistgenerator/constraints/TagMatch.cpp:456
+#: rc.cpp:2169 playlistgenerator/constraints/TagMatch.cpp:456
 #, fuzzy
 #| msgid "is before"
 msgid "before"
@@ -5207,7 +4753,7 @@ msgstr "je przódë"
 
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:238
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonDate)
-#: rc.cpp:2175 playlistgenerator/constraints/TagMatch.cpp:458
+#: rc.cpp:2172 playlistgenerator/constraints/TagMatch.cpp:458
 #, fuzzy
 #| msgid "None"
 msgid "on"
@@ -5215,7 +4761,7 @@ msgstr "Felënk"
 
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:243
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonDate)
-#: rc.cpp:2178 playlistgenerator/constraints/TagMatch.cpp:460
+#: rc.cpp:2175 playlistgenerator/constraints/TagMatch.cpp:460
 #, fuzzy
 #| msgid "is after"
 msgid "after"
@@ -5223,7 +4769,7 @@ msgstr "je za"
 
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:248
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonDate)
-#: rc.cpp:2181
+#: rc.cpp:2178
 #, fuzzy
 #| msgid "is in the last"
 msgid "within the last"
@@ -5231,13 +4777,13 @@ msgstr "je w slédnëch"
 
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:266
 #. i18n: ectx: property (whatsThis), widget (QWidget, page_DateSpecific)
-#: rc.cpp:2184
+#: rc.cpp:2181
 msgid "The specific date that the APG should use for matching."
 msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:300
 #. i18n: ectx: property (whatsThis), widget (QWidget, page_DateRange)
-#: rc.cpp:2187
+#: rc.cpp:2184
 msgid "The relative time period that the APG should try to match."
 msgstr ""
 
@@ -5245,14 +4791,14 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_strictnessDate)
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:359
 #. i18n: ectx: property (whatsThis), widget (QSlider, slider_StrictnessDate)
-#: rc.cpp:2190 rc.cpp:2199
+#: rc.cpp:2187 rc.cpp:2196
 msgid ""
 "How strict the APG should be about matching tracks to the specified date."
 msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:405
 #. i18n: ectx: property (whatsThis), widget (QComboBox, comboBox_ComparisonString)
-#: rc.cpp:2205
+#: rc.cpp:2202
 msgid ""
 "Whether the APG should match tracks that equal, start with, end with, or "
 "contain the specified string."
@@ -5260,7 +4806,7 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:409
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonString)
-#: rc.cpp:2208
+#: rc.cpp:2205
 #, fuzzy
 #| msgid "equal to"
 msgid "equals"
@@ -5268,34 +4814,34 @@ msgstr "równy"
 
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:414
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonString)
-#: rc.cpp:2211 widgets/SmartPlaylistEditor.cpp:737
+#: rc.cpp:2208 widgets/SmartPlaylistEditor.cpp:737
 #: widgets/SmartPlaylistEditor.cpp:1034
 msgid "starts with"
 msgstr "naczinô sã òd"
 
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:419
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonString)
-#: rc.cpp:2214 widgets/SmartPlaylistEditor.cpp:759
+#: rc.cpp:2211 widgets/SmartPlaylistEditor.cpp:759
 #: widgets/SmartPlaylistEditor.cpp:1035
 msgid "ends with"
 msgstr "kùńczë sã na"
 
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:424
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonString)
-#: rc.cpp:2217 widgets/SmartPlaylistEditor.cpp:715
+#: rc.cpp:2214 widgets/SmartPlaylistEditor.cpp:715
 #: widgets/SmartPlaylistEditor.cpp:1033
 msgid "contains"
 msgstr "zamëkô w se"
 
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:432
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, lineEdit_StringValue)
-#: rc.cpp:2220
+#: rc.cpp:2217
 msgid "The string that the APG should use when matching tracks."
 msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:460
 #. i18n: ectx: property (whatsThis), widget (QComboBox, comboBox_ComparisonTime)
-#: rc.cpp:2223
+#: rc.cpp:2220
 msgid ""
 "Whether the APG should choose tracks that are less than, equal to, or "
 "greater than the specified time."
@@ -5303,7 +4849,7 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:487
 #. i18n: ectx: property (whatsThis), widget (QTimeEdit, timeEdit_TimeValue)
-#: rc.cpp:2235
+#: rc.cpp:2232
 msgid "The time that the APG should try to match."
 msgstr ""
 
@@ -5311,14 +4857,14 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_StrictnessTime)
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:551
 #. i18n: ectx: property (whatsThis), widget (QSlider, slider_StrictnessTime)
-#: rc.cpp:2241 rc.cpp:2250
+#: rc.cpp:2238 rc.cpp:2247
 msgid ""
 "How strict the APG should be about matching tracks to the specified time."
 msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:597
 #. i18n: ectx: property (whatsThis), widget (QComboBox, comboBox_ComparisonRating)
-#: rc.cpp:2256
+#: rc.cpp:2253
 msgid ""
 "Whether the APG should choose tracks that are less than, equal to, or "
 "greater than the specified rating."
@@ -5326,7 +4872,7 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:624
 #. i18n: ectx: property (whatsThis), widget (Amarok::KRatingWidget, rating_RatingValue)
-#: rc.cpp:2268
+#: rc.cpp:2265
 msgid "The rating that the APG should try to match."
 msgstr ""
 
@@ -5334,14 +4880,14 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_StrictnessRating)
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:674
 #. i18n: ectx: property (whatsThis), widget (QSlider, slider_StrictnessRating)
-#: rc.cpp:2271 rc.cpp:2280
+#: rc.cpp:2268 rc.cpp:2277
 msgid ""
 "How strict the APG should be about matching tracks to the specified rating."
 msgstr ""
 
 #. i18n: file: services/ampache/AmpacheConfigWidget.ui:23
 #. i18n: ectx: property (text), widget (QPushButton, addButton)
-#: rc.cpp:2286
+#: rc.cpp:2283
 #, fuzzy
 #| msgid "Server"
 msgid "Add Server"
@@ -5349,7 +4895,7 @@ msgstr "Serwera"
 
 #. i18n: file: services/ampache/AmpacheConfigWidget.ui:30
 #. i18n: ectx: property (text), widget (QPushButton, removeButton)
-#: rc.cpp:2289
+#: rc.cpp:2286
 #, fuzzy
 #| msgid "Remove Applet"
 msgid "Remove Server"
@@ -5359,7 +4905,7 @@ msgstr "Rëmôj aplet"
 #. i18n: ectx: property (text), widget (QTableWidget, serverList)
 #. i18n: file: services/ampache/NewServerWidget.ui:27
 #. i18n: ectx: property (text), widget (QLabel, labelServerAddress)
-#: rc.cpp:2295 rc.cpp:2307
+#: rc.cpp:2292 rc.cpp:2304
 #, fuzzy
 #| msgid "Server"
 msgid "Server Address"
@@ -5369,14 +4915,14 @@ msgstr "Serwera"
 #. i18n: ectx: property (text), widget (QTableWidget, serverList)
 #. i18n: file: services/ampache/NewServerWidget.ui:50
 #. i18n: ectx: property (text), widget (QLabel, labelUsername)
-#: rc.cpp:2298 rc.cpp:2310
+#: rc.cpp:2295 rc.cpp:2307
 #: databaseimporter/amarok14/FastForwardImporterConfig.cpp:53
 msgid "Username"
 msgstr "Miono brëkòwnika"
 
 #. i18n: file: services/ampache/NewServerWidget.ui:74
 #. i18n: ectx: property (text), widget (KPushButton, verifyButton)
-#: rc.cpp:2316
+#: rc.cpp:2313
 #, fuzzy
 #| msgid "Connection"
 msgid "Check Connection"
@@ -5384,57 +4930,59 @@ msgstr "Pòłączenié"
 
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:38
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
-#: rc.cpp:2319
+#: rc.cpp:2316
 msgid "Last.fm Profile"
 msgstr "Profil Last.fm"
 
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:86
 #. i18n: ectx: property (text), widget (QLabel, kActiveLabel1)
-#: rc.cpp:2328
-msgid "<a href=\"http://www.last.fm:80/signup.php\">Sign up to last.fm</a>"
+#: rc.cpp:2325
+#, fuzzy
+#| msgid "<a href=\"http://www.last.fm:80/signup.php\">Sign up to last.fm</a>"
+msgid "<a href=\"http://www.last.fm:80/signup.php\">Sign up to Last.fm</a>"
 msgstr "<a href=\"http://www.last.fm:80/signup.php\">Zapiszë sã do last.fm</a>"
 
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:96
 #. i18n: ectx: property (text), widget (QPushButton, testLogin)
-#: rc.cpp:2331 services/lastfm/LastFmServiceSettings.cpp:220
+#: rc.cpp:2328 services/lastfm/LastFmServiceSettings.cpp:220
 msgid "&Test Login"
 msgstr "&Testowi login"
 
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:106
 #. i18n: ectx: property (text), widget (QLabel, kActiveLabel2)
-#: rc.cpp:2334
+#: rc.cpp:2331
 msgid ""
 "Why not join the <a href=\"http://www.last.fm:80/group/Amarok+Users\">Amarok "
-"last.fm group</a> and share your musical tastes with other Amarok users?"
+"Last.fm group</a> and share your musical tastes with other Amarok users?"
 msgstr ""
 
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:116
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
-#: rc.cpp:2337
+#: rc.cpp:2334
 msgid "Last.fm Services"
 msgstr "Serwisë Last.fm"
 
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:125
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SubmitPlayedSongs)
-#: rc.cpp:2340
+#: rc.cpp:2337
 msgid "&Submit tracks"
 msgstr "&Dodôj sztëcczi"
 
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:135
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_RetrieveSimilarArtists)
-#: rc.cpp:2343
+#: rc.cpp:2340
 msgid "&Retrieve similar artists"
 msgstr ""
 
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:145
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ScrobbleComposer)
-#: rc.cpp:2346
-msgid "&Use composer data if available in last.fm as artist"
+#: rc.cpp:2343
+msgid "&Use composer data if available in Last.fm as artist"
 msgstr ""
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:17
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: rc.cpp:2349
+#: rc.cpp:2346
 #, fuzzy
 #| msgid "Re&download"
 msgid "Redownloads"
@@ -5442,7 +4990,7 @@ msgstr "&pònowny zladënk"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:23
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:2352
+#: rc.cpp:2349
 msgid ""
 "Enter your e-mail here to be able to redownload any previous purchase from "
 "Magnatune directly from within Amarok."
@@ -5450,7 +4998,7 @@ msgstr ""
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:33
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:2355
+#: rc.cpp:2352
 #, fuzzy
 #| msgctxt "The e-mail address of the user"
 #| msgid "E-mail:"
@@ -5460,7 +5008,7 @@ msgstr "E-mail:"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:53
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:2358
+#: rc.cpp:2355
 #, fuzzy
 #| msgid "Membership options"
 msgid "Membership Options"
@@ -5468,44 +5016,44 @@ msgstr "òptacëjë nôleżników"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:59
 #. i18n: ectx: property (text), widget (QCheckBox, isMemberCheckbox)
-#: rc.cpp:2361
+#: rc.cpp:2358
 msgid "I am a member"
 msgstr "Jem nôleżnikã"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:79
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:2364
+#: rc.cpp:2361
 msgid "Membership type:"
 msgstr "Ôrt nôleżnictwa"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:90
 #. i18n: ectx: property (text), item, widget (QComboBox, typeComboBox)
-#: rc.cpp:2367
+#: rc.cpp:2364
 msgid "Stream"
 msgstr "Strëga"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:95
 #. i18n: ectx: property (text), item, widget (QComboBox, typeComboBox)
-#: rc.cpp:2370 services/jamendo/JamendoService.cpp:124
+#: rc.cpp:2367 services/jamendo/JamendoService.cpp:124
 msgid "Download"
 msgstr "Zladënk"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:103
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:2373
+#: rc.cpp:2370
 msgctxt "Username for logins to Magnatune"
 msgid "Username:"
 msgstr "Miono brëkòwnika"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:117
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:2376
+#: rc.cpp:2373
 msgid "Password:"
 msgstr "Parola:"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:135
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:2379
+#: rc.cpp:2376
 #, fuzzy
 #| msgid ""
 #| "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -5555,7 +5103,7 @@ msgstr ""
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:157
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:2386
+#: rc.cpp:2383
 #, fuzzy
 #| msgid "Stream options"
 msgid "Stream Options"
@@ -5563,55 +5111,55 @@ msgstr "Òptacëjë strëdżi"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:163
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:2389
+#: rc.cpp:2386
 msgid "Preview stream type:"
 msgstr "Pòdzérk ôrtu strëdżi:"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:171
 #. i18n: ectx: property (text), item, widget (QComboBox, streamTypeComboBox)
-#: rc.cpp:2392
+#: rc.cpp:2389
 msgid "Ogg"
 msgstr "Ogg"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:176
 #. i18n: ectx: property (text), item, widget (QComboBox, streamTypeComboBox)
-#: rc.cpp:2395
+#: rc.cpp:2392
 msgid "High Quality Mp3"
 msgstr "Mp3 wësoczégò kwaliteta"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:181
 #. i18n: ectx: property (text), item, widget (QComboBox, streamTypeComboBox)
-#: rc.cpp:2398
+#: rc.cpp:2395
 msgid "Low Quality Mp3"
 msgstr "Mp3 nisczégò kwaliteta"
 
 #. i18n: file: services/magnatune/MagnatuneDownloadDialogBase.ui:13
 #. i18n: ectx: property (windowTitle), widget (QDialog, magnatuneDownloadDialogBase)
-#: rc.cpp:2401
+#: rc.cpp:2398
 msgid "Magnatune.com Album Download"
 msgstr "Zladënk albùmù z Magnatune.com"
 
 #. i18n: file: services/magnatune/MagnatuneDownloadDialogBase.ui:19
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: rc.cpp:2404
+#: rc.cpp:2401
 msgid "Download options"
 msgstr "Òptacëjë zladënkù"
 
 #. i18n: file: services/magnatune/MagnatuneDownloadDialogBase.ui:25
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:2407
+#: rc.cpp:2404
 msgid "Select Format:"
 msgstr "Wëbiérk fòrmatu:"
 
 #. i18n: file: services/magnatune/MagnatuneDownloadDialogBase.ui:38
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:2410
+#: rc.cpp:2407
 msgid "Download to:"
 msgstr "Zladëjë do:"
 
 #. i18n: file: services/magnatune/MagnatuneDownloadDialogBase.ui:51
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: rc.cpp:2413
+#: rc.cpp:2410
 msgid ""
 "If you download to a location that is already being monitored by Amarok, the "
 "album will automatically be added to your collection."
@@ -5619,44 +5167,44 @@ msgstr ""
 
 #. i18n: file: services/magnatune/MagnatuneDownloadDialogBase.ui:67
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
-#: rc.cpp:2416
+#: rc.cpp:2413
 msgid "Magnatune info"
 msgstr "Infò Magnatune"
 
 #. i18n: file: services/magnatune/MagnatuneDownloadDialogBase.ui:83
 #. i18n: ectx: property (text), widget (QPushButton, downloadButton)
-#: rc.cpp:2419 services/jamendo/JamendoMeta.cpp:135
+#: rc.cpp:2416 services/jamendo/JamendoMeta.cpp:135
 #: services/jamendo/JamendoMeta.cpp:371
 msgid "&Download"
 msgstr "&Zladënk"
 
 #. i18n: file: services/magnatune/MagnatuneRedownloadDialogBase.ui:13
 #. i18n: ectx: property (windowTitle), widget (QDialog, magnatuneReDownloadDialogBase)
-#: rc.cpp:2422
+#: rc.cpp:2419
 msgid "Redownload manager"
 msgstr "Menedżer pònownégò zladënkù"
 
 #. i18n: file: services/magnatune/MagnatuneRedownloadDialogBase.ui:19
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:2425
+#: rc.cpp:2422
 msgid "These are the albums that you have previously downloaded:"
 msgstr ""
 
 #. i18n: file: services/magnatune/MagnatuneRedownloadDialogBase.ui:29
 #. i18n: ectx: property (text), widget (QPushButton, redownloadButton)
-#: rc.cpp:2428
+#: rc.cpp:2425
 msgid "Re&download"
 msgstr "&pònowny zladënk"
 
 #. i18n: file: services/magnatune/MagnatuneRedownloadDialogBase.ui:60
 #. i18n: ectx: property (text), widget (QTreeWidget, redownloadListView)
-#: rc.cpp:2434
+#: rc.cpp:2431
 msgid "Artist - Album"
 msgstr "Artista - Albùm"
 
 #. i18n: file: services/magnatune/MagnatuneSignupDialogBase.ui:14
 #. i18n: ectx: property (windowTitle), widget (QDialog, SignupDialog)
-#: rc.cpp:2437
+#: rc.cpp:2434
 #, fuzzy
 #| msgid "Magnatune.com Album Download"
 msgid "Magnatune.com member signup"
@@ -5664,7 +5212,7 @@ msgstr "Zladënk albùmù z Magnatune.com"
 
 #. i18n: file: services/magnatune/MagnatuneSignupDialogBase.ui:32
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:2441
+#: rc.cpp:2438
 #, fuzzy, no-c-format
 #| msgid ""
 #| "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -5741,7 +5289,7 @@ msgstr ""
 
 #. i18n: file: services/magnatune/MagnatuneSignupDialogBase.ui:45
 #. i18n: ectx: property (text), widget (QPushButton, closeButton)
-#: rc.cpp:2456 context/applets/albums/Albums.cpp:334
+#: rc.cpp:2453 context/applets/albums/Albums.cpp:334
 #: context/applets/lyrics/LyricsApplet.cpp:462
 #: firstruntutorial/FirstRunTutorialPage.cpp:56
 msgid "Close"
@@ -5749,7 +5297,7 @@ msgstr "Zamkni"
 
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:2459
+#: rc.cpp:2456
 #, fuzzy
 #| msgid "Mp3tunes Login"
 msgid "MP3tunes Login"
@@ -5757,14 +5305,14 @@ msgstr "Login Mp3tunes"
 
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:22
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:2462
+#: rc.cpp:2459
 msgctxt "The e-mail address for Mp3Tunes logins"
 msgid "E-Mail:"
 msgstr "E-Mail:"
 
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:32
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:2465
+#: rc.cpp:2462
 #, fuzzy
 #| msgid "Password:"
 msgctxt "The MP3Tunes password"
@@ -5775,7 +5323,7 @@ msgstr "Parola:"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableHarmony)
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:49
 #. i18n: ectx: property (toolTip), widget (QLabel, label_3)
-#: rc.cpp:2468 rc.cpp:2471
+#: rc.cpp:2465 rc.cpp:2468
 msgid ""
 "AutoSync is a feature from MP3tunes which allows you to automatically move "
 "your music between computers and devices."
@@ -5783,7 +5331,7 @@ msgstr ""
 
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:52
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_3)
-#: rc.cpp:2474
+#: rc.cpp:2471
 msgid ""
 "AutoSync is a feature from MP3tunes which allows you to automatically move "
 "your music between computers and devices. You can upload music from one "
@@ -5792,7 +5340,7 @@ msgstr ""
 
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:55
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:2477
+#: rc.cpp:2474
 #, fuzzy
 #| msgctxt "Enable harmony"
 #| msgid "Enable Auto Sync"
@@ -5802,7 +5350,7 @@ msgstr "Włączë aùtomatną synchronizacëjã"
 
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:62
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:2480
+#: rc.cpp:2477
 #, fuzzy
 #| msgid " PIN Code:"
 msgid "PIN Code:"
@@ -5810,7 +5358,7 @@ msgstr " Kòd PIN"
 
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:89
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:2483
+#: rc.cpp:2480
 #, fuzzy
 #| msgid ""
 #| "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -5854,31 +5402,31 @@ msgstr ""
 
 #. i18n: file: services/opmldirectory/AddOpmlWidget.ui:37
 #. i18n: ectx: property (text), widget (QLabel, instructionsLabel)
-#: rc.cpp:2490
+#: rc.cpp:2487
 msgid "Add a local or remote OPML file to be included in the list."
 msgstr ""
 
 #. i18n: file: services/opmldirectory/AddOpmlWidget.ui:88
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, titleEdit)
-#: rc.cpp:2499
+#: rc.cpp:2496
 msgid "If left blank the title from the OPML will be used."
 msgstr ""
 
 #. i18n: file: transcoding/TranscodingAssistantDialog.ui:105
 #. i18n: ectx: property (text), widget (QCommandLinkButton, justCopyButton)
-#: rc.cpp:2502
+#: rc.cpp:2499
 msgid "&Copy"
 msgstr ""
 
 #. i18n: file: transcoding/TranscodingAssistantDialog.ui:114
 #. i18n: ectx: property (description), widget (QCommandLinkButton, justCopyButton)
-#: rc.cpp:2505
+#: rc.cpp:2502
 msgid "Just copy the tracks without transcoding them."
 msgstr ""
 
 #. i18n: file: transcoding/TranscodingAssistantDialog.ui:127
 #. i18n: ectx: property (text), widget (QCommandLinkButton, transcodeWithDefaultsButton)
-#: rc.cpp:2508
+#: rc.cpp:2505
 #, fuzzy
 #| msgid "Transcoding"
 msgid "&Transcode"
@@ -5886,19 +5434,19 @@ msgstr "Kònwersëjô"
 
 #. i18n: file: transcoding/TranscodingAssistantDialog.ui:149
 #. i18n: ectx: property (text), widget (QCommandLinkButton, transcodeWithOptionsButton)
-#: rc.cpp:2511
+#: rc.cpp:2508
 msgid "Transcode With Custom &Parameters"
 msgstr ""
 
 #. i18n: file: transcoding/TranscodingAssistantDialog.ui:158
 #. i18n: ectx: property (description), widget (QCommandLinkButton, transcodeWithOptionsButton)
-#: rc.cpp:2514
+#: rc.cpp:2511
 msgid "Configure your own encoding parameters for this transcoding operation."
 msgstr ""
 
 #. i18n: file: transcoding/TranscodingAssistantDialog.ui:205
 #. i18n: ectx: property (text), widget (QCommandLinkButton, backButton)
-#: rc.cpp:2517 context/applets/similarartists/SimilarArtistsApplet.cpp:76
+#: rc.cpp:2514 context/applets/similarartists/SimilarArtistsApplet.cpp:76
 #: context/applets/wikipedia/WikipediaApplet.cpp:575
 #, fuzzy
 #| msgid "Track"
@@ -5907,7 +5455,7 @@ msgstr "Sztëczk"
 
 #. i18n: file: transcoding/TranscodingAssistantDialog.ui:340
 #. i18n: ectx: property (text), widget (QLabel, formatNameLabel)
-#: rc.cpp:2520
+#: rc.cpp:2517
 #, fuzzy
 #| msgid "Format:"
 msgid "Format Name"
@@ -5915,7 +5463,7 @@ msgstr "Fòrmat:"
 
 #. i18n: tag layout attribute name
 #. i18n: file: data/DefaultPlaylistLayouts.xml:36
-#: rc.cpp:2526 playlist/layouts/PlaylistLayoutEditDialog.cpp:525
+#: rc.cpp:2523 playlist/layouts/PlaylistLayoutEditDialog.cpp:525
 #, fuzzy
 #| msgid "Groupings"
 msgid "No Grouping"
@@ -5923,7 +5471,7 @@ msgstr "Grëpòwania"
 
 #. i18n: tag layout attribute name
 #. i18n: file: data/DefaultPlaylistLayouts.xml:60
-#: rc.cpp:2529
+#: rc.cpp:2526
 #, fuzzy
 #| msgid "Groupings"
 msgid "No Grouping (Single Line)"
@@ -5931,37 +5479,464 @@ msgstr "Grëpòwania"
 
 #. i18n: tag layout attribute name
 #. i18n: file: data/DefaultPlaylistLayouts.xml:77
-#: rc.cpp:2532
+#: rc.cpp:2529
 msgid "Verbose"
 msgstr ""
 
-#: TrayIcon.cpp:142 widgets/VolumeDial.cpp:301 widgets/VolumeDial.cpp:340
-msgid "Muted"
-msgstr "Wëcëszony"
+#: KNotificationBackend.cpp:121
+#, fuzzy
+#| msgid "No track playing"
+msgid "Now playing"
+msgstr "Nick nie je gróné"
 
-#: TrayIcon.cpp:148 widgets/SliderWidget.cpp:243
-msgid "Volume"
-msgstr "Głosnosc"
+#: MainWindow.cpp:273
+msgid "Local Music"
+msgstr ""
 
-#: TrayIcon.cpp:153 context/applets/currenttrack/CurrentTrack.cpp:449
-#: core/meta/support/MetaConstants.cpp:122 playlist/PlaylistModel.cpp:905
-#: widgets/SmartPlaylistEditor.cpp:185
-msgid "Score"
-msgstr "Pùnktacëjô"
+#: MainWindow.cpp:275
+msgid "Local sources of content"
+msgstr ""
 
-#: TrayIcon.cpp:171 core/meta/support/MetaConstants.cpp:123
-#: playlist/ProgressiveSearchWidget.cpp:109 playlist/PlaylistModel.cpp:906
-#: widgets/SmartPlaylistEditor.cpp:185
-msgid "Rating"
-msgstr "Notowania"
+#: MainWindow.cpp:283
+msgid "Internet"
+msgstr "Internet"
 
-#: TrayIcon.cpp:177 playlist/PlaylistModel.cpp:907
-msgid "Play Count"
-msgstr "Rechòwnik graniô"
+#: MainWindow.cpp:285
+msgid "Online sources of content"
+msgstr ""
 
-#: TrayIcon.cpp:181
-msgid "Last played"
-msgstr "Slédno gróné"
+#: MainWindow.cpp:291
+msgid "Playlists"
+msgstr "Lësta graniô"
+
+#: MainWindow.cpp:293
+#, fuzzy
+#| msgid "Various Artists"
+msgid "Various types of playlists"
+msgstr "Rozmajiti wëkònywaczë"
+
+#: MainWindow.cpp:299 amarokurls/NavigationUrlGenerator.cpp:135
+msgid "Files"
+msgstr "Lopczi"
+
+#: MainWindow.cpp:301
+msgid "Browse local hard drive for content"
+msgstr ""
+
+#: MainWindow.cpp:362
+#, fuzzy
+#| msgctxt "@title buttontext for popup-menu"
+#| msgid "View"
+msgctxt "@item:inmenu"
+msgid "&View"
+msgstr "Òbezdrzë"
+
+#: MainWindow.cpp:365
+#, fuzzy
+#| msgid "Lock layout"
+msgid "Lock Layout"
+msgstr "Zablokùjë widok"
+
+#: MainWindow.cpp:476
+msgid ""
+"<qt>Closing the main window will keep Amarok running in the System Tray. Use "
+"<B>Quit</B> from the menu, or the Amarok tray icon to exit the application.</"
+"qt>"
+msgstr ""
+
+#: MainWindow.cpp:478
+msgid "Docking in System Tray"
+msgstr ""
+
+#: MainWindow.cpp:507
+msgid "Use relative path for &saving"
+msgstr ""
+
+#: MainWindow.cpp:518 covermanager/CoverFoundDialog.cpp:361
+msgid "Save As"
+msgstr ""
+
+#: MainWindow.cpp:573
+msgid "Play Media (Files or URLs)"
+msgstr "Grôj media (lopczi abò adresë URL)"
+
+#: MainWindow.cpp:573
+msgid "Add Media (Files or URLs)"
+msgstr "Dodôj media (lopczi abò adresë URL)"
+
+#: MainWindow.cpp:591
+msgid "Add Stream"
+msgstr "Dodôj strëgã"
+
+#: MainWindow.cpp:591
+msgid "Enter Stream URL:"
+msgstr "Wpiszë URL strëdżi:"
+
+#: MainWindow.cpp:715
+msgid "&Add Media..."
+msgstr "&Dodôj media..."
+
+#: MainWindow.cpp:720
+msgctxt "clear playlist"
+msgid "&Clear Playlist"
+msgstr "Wë&czëszczë lëstã graniô"
+
+#: MainWindow.cpp:724
+#, fuzzy
+#| msgid "&Queue"
+msgctxt "edit play queue of playlist"
+msgid "Edit &Queue"
+msgstr "&Régùjë"
+
+#: MainWindow.cpp:727
+#, fuzzy
+#| msgid "Remove Applet"
+msgctxt "Remove duplicate and dead (unplayable) tracks from the playlist"
+msgid "Re&move Duplicates"
+msgstr "Rëmôj aplet"
+
+#: MainWindow.cpp:734
+msgid "&Add Stream..."
+msgstr "&Dodôj strëgã..."
+
+#: MainWindow.cpp:738
+msgid "&Export Playlist As..."
+msgstr "&Ekspòrtëjë lëstã graniô jakno..."
+
+#: MainWindow.cpp:742 amarokurls/NavigationUrlGenerator.cpp:250
+#, fuzzy
+#| msgid "Bookmark"
+msgid "Bookmark Media Sources View"
+msgstr "Załóżka"
+
+#: MainWindow.cpp:746 amarokurls/BookmarkManager.cpp:43
+#, fuzzy
+#| msgid "Bookmark"
+msgid "Bookmark Manager"
+msgstr "Załóżka"
+
+#: MainWindow.cpp:750
+msgid "Equalizer"
+msgstr ""
+
+#: MainWindow.cpp:754 playlist/PlaylistViewUrlGenerator.cpp:101
+#, fuzzy
+#| msgid "Smart Playlist"
+msgid "Bookmark Playlist Setup"
+msgstr "Jinteligentnô lësta gróniô"
+
+#: MainWindow.cpp:758
+#, fuzzy
+#| msgid "Bookmark this Artist"
+msgid "Bookmark Context Applets"
+msgstr "Dodôj negò artistã do załóżków"
+
+#: MainWindow.cpp:762 covermanager/CoverManager.cpp:105
+msgid "Cover Manager"
+msgstr ""
+
+#: MainWindow.cpp:766
+msgid "Play Media..."
+msgstr "Grôj media..."
+
+#: MainWindow.cpp:771
+msgid "&Seek Forward"
+msgstr "&Szëkôj w przódk"
+
+#: MainWindow.cpp:777
+msgid "&Seek Backward"
+msgstr "&Szëkôj dowslôdë"
+
+#: MainWindow.cpp:784
+msgid "Update Collection"
+msgstr "Aktualizëjë kòlekcëjã"
+
+#: MainWindow.cpp:791
+msgid "Previous Track"
+msgstr "Piprzédny sztëczk"
+
+#: MainWindow.cpp:798
+#, fuzzy
+#| msgid "Rate Current Track: 1"
+msgid "Restart current track"
+msgstr "Òtaksëjë biéżny sztëczk: 1"
+
+#: MainWindow.cpp:804
+#, fuzzy
+#| msgctxt "Replace the currently loaded tracks with these"
+#| msgid "&Replace Playlist"
+msgid "Repopulate Playlist"
+msgstr "&Pòdmieni lëstã graniô"
+
+#: MainWindow.cpp:810
+#, fuzzy
+#| msgid "Default Dynamic Playlist"
+msgid "Disable Dynamic Playlist"
+msgstr "Domëslné dinamiczné lëstë graniô"
+
+#: MainWindow.cpp:814
+msgid "Next Track"
+msgstr "Pòstãpny sztëczk"
+
+#: MainWindow.cpp:819
+msgid "Increase Volume"
+msgstr "Zwikszë głosnosc"
+
+#: MainWindow.cpp:825
+msgid "Decrease Volume"
+msgstr "Zminészë głosnosc"
+
+#: MainWindow.cpp:831
+msgid "Toggle Main Window"
+msgstr "Przełączë przédne òkno"
+
+#: MainWindow.cpp:836
+msgid "Toggle Full Screen"
+msgstr ""
+
+#: MainWindow.cpp:841
+msgid "Jump to"
+msgstr ""
+
+#: MainWindow.cpp:846
+msgid "Show active track"
+msgstr "Pòkażë biéżné sztëcczi"
+
+#: MainWindow.cpp:850
+#, fuzzy
+#| msgid "Location:"
+msgid "Show Notification Popup"
+msgstr "Môl:"
+
+#: MainWindow.cpp:855
+msgid "Mute Volume"
+msgstr "Wëcëszë głosnosc"
+
+#: MainWindow.cpp:860
+#, fuzzy
+#| msgid "Love Current Track"
+msgid "Last.fm: Love Current Track"
+msgstr "Achtnij biéżny sztëczk"
+
+#: MainWindow.cpp:865
+#, fuzzy
+#| msgid "Love Current Track"
+msgid "Last.fm: Ban Current Track"
+msgstr "Achtnij biéżny sztëczk"
+
+#: MainWindow.cpp:870
+#, fuzzy
+#| msgid "Love Current Track"
+msgid "Last.fm: Skip Current Track"
+msgstr "Achtnij biéżny sztëczk"
+
+#: MainWindow.cpp:875 playlist/view/PlaylistViewCommon.cpp:115
+msgid "Queue Track"
+msgstr "Régùjë sztëczk"
+
+#: MainWindow.cpp:880
+msgid "Rate Current Track: 1"
+msgstr "Òtaksëjë biéżny sztëczk: 1"
+
+#: MainWindow.cpp:885
+msgid "Rate Current Track: 2"
+msgstr "Òtaksëjë biéżny sztëczk: 2"
+
+#: MainWindow.cpp:890
+msgid "Rate Current Track: 3"
+msgstr "Òtaksëjë biéżny sztëczk: 3"
+
+#: MainWindow.cpp:895
+msgid "Rate Current Track: 4"
+msgstr "Òtaksëjë biéżny sztëczk: 4"
+
+#: MainWindow.cpp:900
+msgid "Rate Current Track: 5"
+msgstr "Òtaksëjë biéżny sztëczk: 5"
+
+#: MainWindow.cpp:906
+msgid "Network Request Viewer"
+msgstr ""
+
+#: MainWindow.cpp:924
+#, fuzzy
+#| msgid "&Amarok"
+msgid "&About Amarok"
+msgstr "&Amarok"
+
+#: MainWindow.cpp:928
+msgid "&Report Bug..."
+msgstr ""
+
+#: MainWindow.cpp:988
+msgid "&Music"
+msgstr "&Mùzyka"
+
+#: MainWindow.cpp:992
+msgid "&Amarok"
+msgstr "&Amarok"
+
+#: MainWindow.cpp:1016 playlist/PlaylistDock.cpp:48
+msgid "&Playlist"
+msgstr "&Lësta graniô"
+
+#: MainWindow.cpp:1032
+msgid "&Tools"
+msgstr "&Nôrzãdza"
+
+#: MainWindow.cpp:1047
+msgid "&Settings"
+msgstr "Ùs&towë"
+
+#: MainWindow.cpp:1094
+#, kde-format
+msgid ""
+"You have chosen to hide the menu bar.\n"
+"\n"
+"Please remember that you can always use the shortcut \"%1\" to bring it back."
+msgstr ""
+
+#: MainWindow.cpp:1096
+#, fuzzy
+#| msgid "Hide menu"
+msgid "Hide Menu"
+msgstr "Zatacë menu"
+
+#: MainWindow.cpp:1138
+#, kde-format
+msgid "Paused  ::  %1"
+msgstr "Paùza :: %1"
+
+#: MainWindow.cpp:1151 amarokurls/BookmarkTreeView.cpp:377
+#: amarokurls/BookmarkTreeView.cpp:378 amarokurls/BookmarkTreeView.cpp:379
+#: context/applets/albums/AlbumItem.cpp:97
+#: core-impl/collections/audiocd/AudioCdCollection.cpp:444
+#: core-impl/collections/audiocd/AudioCdCollection.cpp:445
+#: core-impl/collections/audiocd/AudioCdCollection.cpp:446
+#: core-impl/collections/audiocd/AudioCdCollection.cpp:447
+msgid "Unknown"
+msgstr "Nieznóny"
+
+#: MainWindow.cpp:1151
+#, kde-format
+msgid "%1 - %2  ::  %3"
+msgstr "%1 - %2  ::  %3"
+
+#: App.cpp:428
+msgid "Files/URLs to open"
+msgstr "Lopczi/adresë do òtemkniãcô"
+
+#: App.cpp:429
+msgid "Immediately start playing an audio cd"
+msgstr ""
+
+#: App.cpp:431
+msgid "Skip backwards in playlist"
+msgstr "Skóknié dowslôdë na lësce graniô"
+
+#: App.cpp:433
+msgid "Start playing current playlist"
+msgstr "Naczni òdgrëwac biéżną lëstã"
+
+#: App.cpp:435
+msgid "Play if stopped, pause if playing"
+msgstr "Grôj czedë zatrzëmóné, zatrzëmôj czedë gróné"
+
+#: App.cpp:436
+msgid "Pause playback"
+msgstr "Paùzëjë grónié"
+
+#: App.cpp:438
+msgid "Stop playback"
+msgstr "Zakùńczë grónié"
+
+#: App.cpp:440
+msgid "Skip forwards in playlist"
+msgstr "Skóknié w przódk na lësce graniô"
+
+#: App.cpp:441
+msgid "Additional options:"
+msgstr "Dodôwné òptacëje:"
+
+#: App.cpp:443
+msgid "Append files/URLs to playlist"
+msgstr "Dodôj lopczi/adresë URL do lëstë graniô"
+
+#: App.cpp:444
+msgid "Queue URLs after the currently playing track"
+msgstr "Ùstawi adresë URL w réze za biéżnym sztëczkã"
+
+#: App.cpp:446
+msgid "Load URLs, replacing current playlist"
+msgstr "Ladëjë URL-ë, pòdmieniającë biéżną lëstã graniô"
+
+#: App.cpp:448
+msgid "Print verbose debugging information"
+msgstr "Wëdrëkùjë wëdowiédzã ò przebiégù procesu"
+
+#: App.cpp:450
+msgid "Disable colorization for debug output."
+msgstr ""
+
+#: App.cpp:452
+msgid "Allow running multiple Amarok instances"
+msgstr ""
+
+#: App.cpp:453
+msgid "Base for relative filenames/URLs"
+msgstr "Baza dlô wzglãdnëch mionów lopków/adresów URL"
+
+#: App.cpp:455
+#, fuzzy
+#| msgid "Stream options"
+msgid "Unit test options:"
+msgstr "Òptacëjë strëdżi"
+
+#: App.cpp:456
+msgid "Run integrated unit tests"
+msgstr ""
+
+#: App.cpp:457
+msgid "Destination of test output: 'stdout', 'log'"
+msgstr ""
+
+#: App.cpp:458
+msgid "Format of test output: 'xml', 'lightxml', 'plaintext'"
+msgstr ""
+
+#: App.cpp:459
+msgid "Verbosity from 0-3 (highest)"
+msgstr ""
+
+#: App.cpp:699
+msgid ""
+"The embedded database was not found; you must set up a database server "
+"connection.\n"
+"You must restart Amarok after doing this."
+msgstr ""
+
+#: App.cpp:700
+msgid ""
+"The connection details for the database server were invalid.\n"
+"You must enter correct settings and restart Amarok after doing this."
+msgstr ""
+
+#: App.cpp:701
+#, fuzzy
+#| msgid "Database:"
+msgid "Database Error"
+msgstr "Baza pòdôwków:"
+
+#: App.cpp:746
+msgid "Moving files to trash"
+msgstr ""
+
+#: App.cpp:834
+#, kde-format
+msgid ""
+"A music path, %1, is set in System Settings.\n"
+"Would you like to use that as a collection folder?"
+msgstr ""
 
 #: aboutdialog/ExtendedAboutDialog.cpp:73
 msgid ""
@@ -6240,23 +6215,6 @@ msgstr "Nowa grëpa"
 msgid "none"
 msgstr "Felënk"
 
-#: amarokurls/BookmarkTreeView.cpp:112
-msgctxt "Load the view represented by this bookmark"
-msgid "&Load"
-msgstr "L&adëjë"
-
-#: amarokurls/BookmarkTreeView.cpp:118 browsers/filebrowser/FileView.cpp:431
-msgid "&Delete"
-msgstr "&Rëmôj"
-
-#: amarokurls/BookmarkTreeView.cpp:125
-msgid "&Create timecode track"
-msgstr ""
-
-#: amarokurls/BookmarkTreeView.cpp:376
-msgid "New Timecode Track"
-msgstr ""
-
 #: amarokurls/ContextUrlGenerator.cpp:56
 #, fuzzy, kde-format
 #| msgid "Context"
@@ -6315,6 +6273,23 @@ msgstr "Lubòtny"
 #| msgid "Bookmarks"
 msgid "Bookmark Track Position"
 msgstr "Załóżczi"
+
+#: amarokurls/BookmarkTreeView.cpp:112
+msgctxt "Load the view represented by this bookmark"
+msgid "&Load"
+msgstr "L&adëjë"
+
+#: amarokurls/BookmarkTreeView.cpp:118 browsers/filebrowser/FileView.cpp:431
+msgid "&Delete"
+msgstr "&Rëmôj"
+
+#: amarokurls/BookmarkTreeView.cpp:125
+msgid "&Create timecode track"
+msgstr ""
+
+#: amarokurls/BookmarkTreeView.cpp:376
+msgid "New Timecode Track"
+msgstr ""
 
 #: amarokurls/PlayUrlRunner.cpp:84
 #, fuzzy
@@ -6950,26 +6925,6 @@ msgstr "Rëmniãcé lopków"
 msgid "&Add new bias"
 msgstr "Dodôj"
 
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:173
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:222
-#, fuzzy, kde-format
-#| msgid "Playlist"
-msgctxt "number of playlists from one source"
-msgid "One Playlist"
-msgid_plural "%1 playlists"
-msgstr[0] "Lësta graniô"
-msgstr[1] "Lësta graniô"
-msgstr[2] "Lësta graniô"
-
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:439
-#, fuzzy
-#| msgctxt ""
-#| "'Source' (local collection, Magnatune.com, last.fm, ... ) playlist column "
-#| "name and token for playlist layouts"
-#| msgid "Source"
-msgid "Source"
-msgstr "Zdrój"
-
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:43
 #, fuzzy
 #| msgid "Lyrics"
@@ -6995,6 +6950,26 @@ msgstr ""
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:178
 msgid "This bias has no settings."
 msgstr ""
+
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:173
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:222
+#, fuzzy, kde-format
+#| msgid "Playlist"
+msgctxt "number of playlists from one source"
+msgid "One Playlist"
+msgid_plural "%1 playlists"
+msgstr[0] "Lësta graniô"
+msgstr[1] "Lësta graniô"
+msgstr[2] "Lësta graniô"
+
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:439
+#, fuzzy
+#| msgctxt ""
+#| "'Source' (local collection, Magnatune.com, last.fm, ... ) playlist column "
+#| "name and token for playlist layouts"
+#| msgid "Source"
+msgid "Source"
+msgstr "Zdrój"
 
 #: browsers/servicebrowser/ServiceBrowser.cpp:44
 msgid ""
@@ -7032,7 +7007,7 @@ msgstr "Nieznóné"
 #: browsers/CollectionTreeItemModelBase.cpp:316
 #: core-impl/collections/db/sql/SqlMeta.cpp:420
 #: core-impl/collections/db/ScanResultProcessor.cpp:270
-#: covermanager/CoverManager.cpp:845 dialogs/TrackOrganizer.cpp:47
+#: covermanager/CoverManager.cpp:843 dialogs/TrackOrganizer.cpp:47
 #: playlist/PlaylistModel.cpp:866 widgets/AlbumBreadcrumbWidget.cpp:60
 msgid "Various Artists"
 msgstr "Rozmajiti wëkònywaczë"
@@ -7154,8 +7129,7 @@ msgstr "Òglowé"
 
 #: configdialog/dialogs/ScriptsConfig.cpp:57
 #: context/applets/lyrics/LyricsApplet.cpp:437
-#: context/applets/lyrics/LyricsApplet.cpp:565
-#: context/applets/lyrics/LyricsApplet.cpp:609 dialogs/TagDialog.cpp:550
+#: context/applets/lyrics/LyricsApplet.cpp:565 dialogs/TagDialog.cpp:550
 msgid "Lyrics"
 msgstr "Tekstë"
 
@@ -7262,7 +7236,9 @@ msgstr[2] "%1 sztëczków"
 
 #: context/applets/albums/Albums.cpp:65
 #: context/engines/current/CurrentEngine.cpp:145
-msgid "Recently added albums"
+#, fuzzy
+#| msgid "Recently added albums"
+msgid "Recently Added Albums"
 msgstr "Slédno dodóné albùmë"
 
 #: context/applets/albums/Albums.cpp:74
@@ -7294,15 +7270,15 @@ msgstr "Albùmë"
 msgid "Disc %1"
 msgstr "Disk %1"
 
+#: context/applets/albums/Albums.cpp:248
+msgid "Right align track lengths"
+msgstr ""
+
 #: context/applets/albums/Albums.cpp:253
 #, fuzzy
 #| msgid "Recently added albums"
 msgid "Number of recently added albums:"
 msgstr "Slédno dodóné albùmë"
-
-#: context/applets/albums/Albums.cpp:254
-msgid "Right align track lengths:"
-msgstr ""
 
 #: context/applets/albums/Albums.cpp:259
 msgid "Albums Applet Settings"
@@ -7354,8 +7330,15 @@ msgid "Tracks"
 msgstr "Sztëcczi"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:448
-msgid "Play count"
-msgstr "Rechòwnik òdegraniô"
+#: playlist/PlaylistModel.cpp:907
+msgid "Play Count"
+msgstr "Rechòwnik graniô"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:449
+#: core/meta/support/MetaConstants.cpp:122 playlist/PlaylistModel.cpp:905
+#: widgets/SmartPlaylistEditor.cpp:185
+msgid "Score"
+msgstr "Pùnktacëjô"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:450
 #, fuzzy
@@ -7423,10 +7406,7 @@ msgid "Add to blacklist"
 msgstr "Dodôj do lëstë graniô"
 
 #: context/applets/labels/LabelsApplet.cpp:91
-#: context/applets/labels/LabelsApplet.cpp:183
-#: context/applets/labels/LabelsApplet.cpp:194
-#: context/applets/labels/LabelsApplet.cpp:514
-#: context/applets/labels/LabelsApplet.cpp:524 dialogs/TagDialog.cpp:551
+#: context/applets/labels/LabelsApplet.cpp:183 dialogs/TagDialog.cpp:551
 msgid "Labels"
 msgstr "Eticzétë"
 
@@ -7435,11 +7415,23 @@ msgstr "Eticzétë"
 msgid "Reload"
 msgstr "Zladëjë znôù"
 
+#: context/applets/labels/LabelsApplet.cpp:194
+#, fuzzy
+#| msgid "No track playing"
+msgid "Labels: No track playing"
+msgstr "Nick nie je gróné"
+
 #: context/applets/labels/LabelsApplet.cpp:514
 #, fuzzy
 #| msgid "Fetching content.."
-msgid "Fetching ..."
+msgid "Labels: Fetching..."
 msgstr "Ladowanié zamkłoscë.."
+
+#: context/applets/labels/LabelsApplet.cpp:524
+#, fuzzy, kde-format
+#| msgid "Label"
+msgid "Labels: %1"
+msgstr "Eticzéta"
 
 #: context/applets/labels/LabelsApplet.cpp:572
 #, fuzzy, kde-format
@@ -7538,14 +7530,21 @@ msgstr "Ladowanié zamkłoscë.."
 msgid "Lyrics: Suggested URLs"
 msgstr "suggestedsongs"
 
-#: context/applets/lyrics/LyricsApplet.cpp:616
+#: context/applets/lyrics/LyricsApplet.cpp:608
+#, fuzzy, kde-format
+#| msgid "Results for: %1"
+msgctxt "Lyrics: <artist> - <title>"
+msgid "Lyrics: %1 - %2"
+msgstr "Rezultat dlô: %1"
+
+#: context/applets/lyrics/LyricsApplet.cpp:614
 #, fuzzy
 #| msgid "1 not found"
 #| msgid_plural "%1 not found"
 msgid "Lyrics: Not found"
 msgstr "%1 nie nalazłô"
 
-#: context/applets/lyrics/LyricsApplet.cpp:656
+#: context/applets/lyrics/LyricsApplet.cpp:654
 #, fuzzy
 #| msgctxt "@info"
 #| msgid ""
@@ -7569,7 +7568,7 @@ msgstr "Òbrazczi"
 #: context/applets/photos/PhotosApplet.cpp:117
 #, fuzzy
 #| msgid "No track playing"
-msgid "Photos: No track playing"
+msgid "Photos: No Track Playing"
 msgstr "Nick nie je gróné"
 
 #: context/applets/photos/PhotosApplet.cpp:132
@@ -7601,6 +7600,51 @@ msgstr "Kònfigùracëjô apleta jinfòrmacëji ò lësce graniô"
 #: context/applets/playlistinfo/PlaylistInfo.cpp:163
 msgid "Width"
 msgstr "Szérz"
+
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:71
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:155
+#, fuzzy
+#| msgid "Last.Fm Similar Artists"
+msgid "Similar Artists"
+msgstr "Artistë szlachùjący za \"%1\" wedle Last.fm"
+
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:83
+#: context/applets/wikipedia/WikipediaApplet.cpp:582
+#, fuzzy
+#| msgid "&Seek Forward"
+msgid "Forward"
+msgstr "&Szëkôj w przódk"
+
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:90
+#, fuzzy
+#| msgid "Amarok - No track playing"
+msgid "Show Similar Artists for Currently Playing Track"
+msgstr "Amarok - nie je gróny niżóden lopk"
+
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:178
+#, fuzzy
+#| msgid "Similar Artists to \"%1\""
+msgid "Similar Artists Settings"
+msgstr "Artistë szlachùjący za \"%1\""
+
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:202
+#, fuzzy, kde-format
+#| msgid "Similar Artists to \"%1\""
+msgid "Similar Artists of %1"
+msgstr "Artistë szlachùjący za \"%1\""
+
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:209
+#, fuzzy
+#| msgid "Similar Artists to \"%1\""
+msgid "Similar Artists: Not Found"
+msgstr "Artistë szlachùjący za \"%1\""
+
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:249
+#, fuzzy, kde-format
+#| msgid "Paused  ::  %1"
+msgctxt "@item:intext Artist biography published date"
+msgid "Published: %1"
+msgstr "Paùza :: %1"
 
 #: context/applets/similarartists/ArtistWidget.cpp:136
 #, fuzzy
@@ -7670,51 +7714,6 @@ msgstr "Òbkłôdka nie je nalazłô"
 msgid "Top track: %1"
 msgstr "Grëpa sztëczków"
 
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:71
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:155
-#, fuzzy
-#| msgid "Last.Fm Similar Artists"
-msgid "Similar Artists"
-msgstr "Artistë szlachùjący za \"%1\" wedle Last.fm"
-
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:83
-#: context/applets/wikipedia/WikipediaApplet.cpp:582
-#, fuzzy
-#| msgid "&Seek Forward"
-msgid "Forward"
-msgstr "&Szëkôj w przódk"
-
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:90
-#, fuzzy
-#| msgid "Amarok - No track playing"
-msgid "Show Similar Artists for Currently Playing Track"
-msgstr "Amarok - nie je gróny niżóden lopk"
-
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:178
-#, fuzzy
-#| msgid "Similar Artists to \"%1\""
-msgid "Similar Artists Settings"
-msgstr "Artistë szlachùjący za \"%1\""
-
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:202
-#, fuzzy, kde-format
-#| msgid "Similar Artists to \"%1\""
-msgid "Similar Artists of %1"
-msgstr "Artistë szlachùjący za \"%1\""
-
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:209
-#, fuzzy
-#| msgid "Similar Artists to \"%1\""
-msgid "Similar Artists: Not Found"
-msgstr "Artistë szlachùjący za \"%1\""
-
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:249
-#, fuzzy, kde-format
-#| msgid "Paused  ::  %1"
-msgctxt "@item:intext Artist biography published date"
-msgid "Published: %1"
-msgstr "Paùza :: %1"
-
 #: context/applets/songkick/SongkickApplet.cpp:41
 #, fuzzy
 #| msgid "Plugin Information"
@@ -7754,6 +7753,10 @@ msgstr ""
 msgid "There was no information found for this track"
 msgstr "Nie są nalazłé tekstë dlô tegò sztëczka"
 
+#: context/applets/tabs/TabsView.cpp:174
+msgid "tab provided from: "
+msgstr ""
+
 #: context/applets/tabs/TabsApplet.cpp:79
 #: context/applets/tabs/TabsApplet.cpp:129
 #: context/applets/tabs/TabsApplet.cpp:146
@@ -7780,7 +7783,7 @@ msgstr "Ladowanié zamkłoscë.."
 #, fuzzy, kde-format
 #| msgid "Results for: %1"
 msgctxt "Guitar tablature"
-msgid "No tabs for %1 by %2"
+msgid "No Tabs for %1 by %2"
 msgstr "Rezultat dlô: %1"
 
 #: context/applets/tabs/TabsApplet.cpp:176
@@ -7794,7 +7797,7 @@ msgstr "Ladowanié zamkłoscë.."
 #, fuzzy, kde-format
 #| msgid "Results for: %1"
 msgctxt "Guitar tablature"
-msgid "Tabs : %1 - %2"
+msgid "Tabs: %1 - %2"
 msgstr "Rezultat dlô: %1"
 
 #: context/applets/tabs/TabsApplet.cpp:266
@@ -7809,10 +7812,6 @@ msgstr "Ùstawë"
 #| msgid "Reload"
 msgid "Reload Tabs"
 msgstr "Zladëjë znôù"
-
-#: context/applets/tabs/TabsView.cpp:174
-msgid "tab provided from: "
-msgstr ""
 
 #: context/applets/upcomingevents/UpcomingEventsApplet.cpp:67
 #: context/applets/upcomingevents/UpcomingEventsApplet.cpp:128
@@ -8049,7 +8048,7 @@ msgstr "Ùstawë teledisków"
 #: context/applets/videoclip/VideoclipApplet.cpp:323
 #, fuzzy
 #| msgid "No information found..."
-msgid "Video Clip: No information found"
+msgid "Video Clip: No Information Found"
 msgstr "Ni ma nalazłi wedowiédzë..."
 
 #: context/applets/videoclip/VideoclipApplet.cpp:516
@@ -8120,18 +8119,20 @@ msgstr "Albùmë artistë %1"
 #: context/engines/labels/LabelsEngine.cpp:268
 #: context/engines/labels/LabelsEngine.cpp:302
 #: context/engines/labels/LabelsEngine.cpp:353
-msgid "No labels found on last.fm"
+msgid "No labels found on Last.fm"
 msgstr ""
 
 #: context/engines/labels/LabelsEngine.cpp:321
 #, fuzzy
 #| msgid "Unable to retrieve Flickr : %1"
-msgid "Unable to retrieve from last.fm"
+msgid "Unable to retrieve from Last.fm"
 msgstr "Ni mòże wëdostac Flickr: %1"
 
 #: context/engines/labels/LabelsEngine.cpp:371
-msgid "No connection to last.fm"
-msgstr ""
+#, fuzzy
+#| msgid "Unable to retrieve Flickr : %1"
+msgid "No connection to Last.fm"
+msgstr "Ni mòże wëdostac Flickr: %1"
 
 #: context/engines/photos/PhotosEngine.cpp:204
 #, fuzzy, kde-format
@@ -8566,7 +8567,7 @@ msgid "Removing: %1"
 msgstr "Rëmôj %1"
 
 #: core-impl/collections/db/sql/SqlMeta.cpp:272
-#: covermanager/CoverManager.cpp:846 services/lastfm/meta/LastFmMeta.cpp:133
+#: covermanager/CoverManager.cpp:844 services/lastfm/meta/LastFmMeta.cpp:133
 #, kde-format
 msgid "%1 - %2"
 msgstr "%1 - %2"
@@ -9341,22 +9342,22 @@ msgid "Unsubscribe"
 msgstr "Subskribùjë"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:998
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Do you really want to remove this %1?"
-msgid "Do you really want to unsubscribe from "
+msgid "Do you really want to unsubscribe from \"%1\"?"
 msgstr "Na gwës chcesz rëmnąc %1?"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1005
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1003
 #, fuzzy
 #| msgid "&Download Episode"
 msgid "Delete downloaded episodes"
 msgstr "&Zladëjë epizod"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1128
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1126
 msgid "Waiting for Podcast Downloads to Finish"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1129
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1127
 #, kde-format
 msgid "There is still a podcast download in progress"
 msgid_plural "There are still %1 podcast downloads in progress"
@@ -9364,21 +9365,21 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1133
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1131
 msgid "Cancel Download and Quit."
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1310
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1551
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1308
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1549
 #, kde-format
 msgid "Unable to save podcast episode file to %1"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1320
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1318
 msgid "Downloading Podcast Media"
 msgstr "Ladowanié mediów podcastu"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1321
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1319
 #, kde-format
 msgid "Downloading Podcast \"%1\""
 msgstr "Ladowanié podcastu \"%1\""
@@ -9534,6 +9535,12 @@ msgstr "Fòrmat:"
 #| msgid "Move to Collection"
 msgid "Added to Collection"
 msgstr "Przeniesë do kòlekcëji"
+
+#: core/meta/support/MetaConstants.cpp:123
+#: playlist/ProgressiveSearchWidget.cpp:109 playlist/PlaylistModel.cpp:906
+#: widgets/SmartPlaylistEditor.cpp:185
+msgid "Rating"
+msgstr "Notowania"
 
 #: core/meta/support/MetaConstants.cpp:124
 msgid "First Played"
@@ -10225,134 +10232,6 @@ msgstr "Ladowanié òbkłôdczi dlô %1..."
 msgid "Unable to find a cover for '%1'."
 msgstr "Ni mòże nalezc òbkłôdczi dlô %1..."
 
-#: covermanager/CoverManager.cpp:116
-msgid "Albums By"
-msgstr "Albùmë artistë"
-
-#: covermanager/CoverManager.cpp:126
-msgid "All Artists"
-msgstr "Wszëtcy artisce"
-
-#: covermanager/CoverManager.cpp:174 widgets/SearchWidget.cpp:82
-msgid "Enter search terms here"
-msgstr "Wpiszë tuwò kriteria szëkbë"
-
-#: covermanager/CoverManager.cpp:187
-msgid "All Albums"
-msgstr "Wszëtczé albùmë"
-
-#: covermanager/CoverManager.cpp:188
-msgid "Albums With Cover"
-msgstr "Albùmë z òbkłôdkama"
-
-#: covermanager/CoverManager.cpp:189
-msgid "Albums Without Cover"
-msgstr "Albùmë bez òbkłôdków"
-
-#: covermanager/CoverManager.cpp:202
-msgid "Fetch Missing Covers"
-msgstr "Zladëjë felëjącé òbkłôdczi"
-
-#: covermanager/CoverManager.cpp:308
-#, fuzzy
-#| msgid "Fetching content.."
-msgid "Fetching"
-msgstr "Ladowanié zamkłoscë.."
-
-#: covermanager/CoverManager.cpp:404
-#, fuzzy
-#| msgid "Rating"
-msgid "Loading"
-msgstr "Notowania"
-
-#: covermanager/CoverManager.cpp:636
-msgctxt "The fetching is done."
-msgid "Finished."
-msgstr "Fardich."
-
-#: covermanager/CoverManager.cpp:638
-#, kde-format
-msgid " Cover not found"
-msgid_plural " <b>%1</b> covers not found"
-msgstr[0] "Òbkłôdka nie je nalazłô"
-msgstr[1] "<b>%1</b> òbkłôdczi nie są nalazłé"
-msgstr[2] "<b>%1</b> òbkłôdków nie je nalazłéch"
-
-#: covermanager/CoverManager.cpp:656
-#, kde-format
-msgid "Fetching cover for %1 - %2..."
-msgstr "Ladowanié òbkłôdczi dlô %1 - %2..."
-
-#: covermanager/CoverManager.cpp:662
-#, kde-format
-msgid "Fetching cover for %1..."
-msgstr "Ladowanié òbkłôdczi dlô %1..."
-
-#: covermanager/CoverManager.cpp:668
-#, kde-format
-msgid "Fetching 1 cover: "
-msgid_plural "Fetching <b>%1</b> covers... : "
-msgstr[0] "Ladowanié 1 òbkłôdczi: "
-msgstr[1] "Ladowanié <b>%1</b> òbkłôdków... :"
-msgstr[2] "Ladowanié <b>%1</b> òbkłôdków... :"
-
-#: covermanager/CoverManager.cpp:670
-#, kde-format
-msgid "1 fetched"
-msgid_plural "%1 fetched"
-msgstr[0] "1 zladowónô"
-msgstr[1] "%1 zladowóné"
-msgstr[2] "%1 zladowónëch"
-
-#: covermanager/CoverManager.cpp:674
-msgid " - "
-msgstr " - "
-
-#: covermanager/CoverManager.cpp:675
-#, kde-format
-msgid "1 not found"
-msgid_plural "%1 not found"
-msgstr[0] "%1 nie nalazłô"
-msgstr[1] "%1 nie nalazłe"
-msgstr[2] "%1 nie nalazłëch"
-
-#: covermanager/CoverManager.cpp:678
-msgid "Connecting..."
-msgstr "Pòłączenié"
-
-#: covermanager/CoverManager.cpp:701
-#, kde-format
-msgid "1 result for \"%2\""
-msgid_plural "%1 results for \"%2\""
-msgstr[0] "1 rezultat dlô \"%2\""
-msgstr[1] "%1 rezultatë dlô \"%2\""
-msgstr[2] "%1 rezultatów dlô \"%2\""
-
-#: covermanager/CoverManager.cpp:705
-#, kde-format
-msgid "1 album"
-msgid_plural "%1 albums"
-msgstr[0] "1 albùm"
-msgstr[1] "%1 albùmë"
-msgstr[2] "%1 albùmów"
-
-#: covermanager/CoverManager.cpp:717
-msgid " by "
-msgstr " wëkònywóny przez "
-
-#: covermanager/CoverManager.cpp:722
-#, kde-format
-msgid " - ( <b>%1</b> without cover )"
-msgstr " - ( <b>%1</b> bez òbkłôdczi )"
-
-#: covermanager/CoverManager.cpp:771
-msgid "Cover Image"
-msgstr "Òbkłôdka"
-
-#: covermanager/CoverManager.cpp:864
-msgid "No Artist"
-msgstr "Felëje artistë"
-
 #: covermanager/CoverViewDialog.cpp:32 covermanager/CoverViewDialog.cpp:43
 #, fuzzy
 #| msgctxt "'Cover image' playlist column name and token for playlist layouts"
@@ -10437,6 +10316,7 @@ msgid "Enter Custom Search"
 msgstr "Ùstôwi &swòją òbkłôdkã"
 
 #: covermanager/CoverFoundDialog.cpp:128
+#: services/lastfm/LastFmServiceCollection.cpp:141
 #, fuzzy
 #| msgid "last.fm"
 msgid "Last.fm"
@@ -10625,6 +10505,134 @@ msgctxt "@item::intable"
 msgid "URL"
 msgstr "URL"
 
+#: covermanager/CoverManager.cpp:116
+msgid "Albums By"
+msgstr "Albùmë artistë"
+
+#: covermanager/CoverManager.cpp:126
+msgid "All Artists"
+msgstr "Wszëtcy artisce"
+
+#: covermanager/CoverManager.cpp:174 widgets/SearchWidget.cpp:82
+msgid "Enter search terms here"
+msgstr "Wpiszë tuwò kriteria szëkbë"
+
+#: covermanager/CoverManager.cpp:187
+msgid "All Albums"
+msgstr "Wszëtczé albùmë"
+
+#: covermanager/CoverManager.cpp:188
+msgid "Albums With Cover"
+msgstr "Albùmë z òbkłôdkama"
+
+#: covermanager/CoverManager.cpp:189
+msgid "Albums Without Cover"
+msgstr "Albùmë bez òbkłôdków"
+
+#: covermanager/CoverManager.cpp:202
+msgid "Fetch Missing Covers"
+msgstr "Zladëjë felëjącé òbkłôdczi"
+
+#: covermanager/CoverManager.cpp:308
+#, fuzzy
+#| msgid "Fetching content.."
+msgid "Fetching"
+msgstr "Ladowanié zamkłoscë.."
+
+#: covermanager/CoverManager.cpp:404
+#, fuzzy
+#| msgid "Rating"
+msgid "Loading"
+msgstr "Notowania"
+
+#: covermanager/CoverManager.cpp:634
+msgctxt "The fetching is done."
+msgid "Finished."
+msgstr "Fardich."
+
+#: covermanager/CoverManager.cpp:636
+#, kde-format
+msgid " Cover not found"
+msgid_plural " <b>%1</b> covers not found"
+msgstr[0] "Òbkłôdka nie je nalazłô"
+msgstr[1] "<b>%1</b> òbkłôdczi nie są nalazłé"
+msgstr[2] "<b>%1</b> òbkłôdków nie je nalazłéch"
+
+#: covermanager/CoverManager.cpp:654
+#, kde-format
+msgid "Fetching cover for %1 - %2..."
+msgstr "Ladowanié òbkłôdczi dlô %1 - %2..."
+
+#: covermanager/CoverManager.cpp:660
+#, kde-format
+msgid "Fetching cover for %1..."
+msgstr "Ladowanié òbkłôdczi dlô %1..."
+
+#: covermanager/CoverManager.cpp:666
+#, kde-format
+msgid "Fetching 1 cover: "
+msgid_plural "Fetching <b>%1</b> covers... : "
+msgstr[0] "Ladowanié 1 òbkłôdczi: "
+msgstr[1] "Ladowanié <b>%1</b> òbkłôdków... :"
+msgstr[2] "Ladowanié <b>%1</b> òbkłôdków... :"
+
+#: covermanager/CoverManager.cpp:668
+#, kde-format
+msgid "1 fetched"
+msgid_plural "%1 fetched"
+msgstr[0] "1 zladowónô"
+msgstr[1] "%1 zladowóné"
+msgstr[2] "%1 zladowónëch"
+
+#: covermanager/CoverManager.cpp:672
+msgid " - "
+msgstr " - "
+
+#: covermanager/CoverManager.cpp:673
+#, kde-format
+msgid "1 not found"
+msgid_plural "%1 not found"
+msgstr[0] "%1 nie nalazłô"
+msgstr[1] "%1 nie nalazłe"
+msgstr[2] "%1 nie nalazłëch"
+
+#: covermanager/CoverManager.cpp:676
+msgid "Connecting..."
+msgstr "Pòłączenié"
+
+#: covermanager/CoverManager.cpp:699
+#, kde-format
+msgid "1 result for \"%2\""
+msgid_plural "%1 results for \"%2\""
+msgstr[0] "1 rezultat dlô \"%2\""
+msgstr[1] "%1 rezultatë dlô \"%2\""
+msgstr[2] "%1 rezultatów dlô \"%2\""
+
+#: covermanager/CoverManager.cpp:703
+#, kde-format
+msgid "1 album"
+msgid_plural "%1 albums"
+msgstr[0] "1 albùm"
+msgstr[1] "%1 albùmë"
+msgstr[2] "%1 albùmów"
+
+#: covermanager/CoverManager.cpp:715
+msgid " by "
+msgstr " wëkònywóny przez "
+
+#: covermanager/CoverManager.cpp:720
+#, kde-format
+msgid " - ( <b>%1</b> without cover )"
+msgstr " - ( <b>%1</b> bez òbkłôdczi )"
+
+#: covermanager/CoverManager.cpp:769
+msgid "Cover Image"
+msgstr "Òbkłôdka"
+
+#: covermanager/CoverManager.cpp:862
+msgid "No Artist"
+msgstr "Felëje artistë"
+
 #: databaseimporter/amarok14/FastForwardImporterConfig.cpp:39
 msgid "Connection"
 msgstr "Pòłączenié"
@@ -10768,12 +10776,6 @@ msgstr[0] "Òbkłôdka"
 msgstr[1] "Òbkłôdka"
 msgstr[2] "Òbkłôdka"
 
-#: databaseimporter/sqlbatch/SqlBatchImporter.cpp:72
-#, fuzzy, kde-format
-#| msgid "could not execute %1"
-msgid "Could not open file \"%1\"."
-msgstr "ni mòże zrëszëc %1"
-
 #: databaseimporter/sqlbatch/SqlBatchImporterConfig.cpp:37
 msgid ""
 "Input file produced by amarokcollectionscanner.<br>See <a href=\"http://"
@@ -10783,6 +10785,12 @@ msgstr ""
 #: databaseimporter/sqlbatch/SqlBatchImporterConfig.cpp:43
 msgid "Input file"
 msgstr ""
+
+#: databaseimporter/sqlbatch/SqlBatchImporter.cpp:72
+#, fuzzy, kde-format
+#| msgid "could not execute %1"
+msgid "Could not open file \"%1\"."
+msgstr "ni mòże zrëszëc %1"
 
 #: dialogs/CollectionSetup.cpp:78
 #, kde-format
@@ -11265,78 +11273,6 @@ msgid "For this feature, a script of type \"Transcode\" has to be running"
 msgstr ""
 "Abë zwëskac z ti òptacëji, skritp ôrtu \"Kònwersëjô\" mùszi bëc zrëszony"
 
-#: dialogs/TagDialog.cpp:431
-msgid "Filename Layout Chooser"
-msgstr "Wëbiérk fòrmë miona lopka"
-
-#: dialogs/TagDialog.cpp:549
-msgid "Tags"
-msgstr "Tadżi"
-
-#: dialogs/TagDialog.cpp:711 dialogs/TagDialog.cpp:719
-msgctxt "The value for this tag is not known"
-msgid "Unknown"
-msgstr "Nieznóné"
-
-#: dialogs/TagDialog.cpp:756
-#, kde-format
-msgid "Track Details: %1 by %2"
-msgstr "Detale sztëczka: %1 wëkònywóny przez %2"
-
-#: dialogs/TagDialog.cpp:762
-#, kde-format
-msgctxt "The amount of tracks being edited"
-msgid "1 Track"
-msgid_plural "Information for %1 Tracks"
-msgstr[0] "Wëdowiédzô dlô %1 sztëczka"
-msgstr[1] "Wëdowiédzô dlô %1 sztëczków"
-msgstr[2] "Wëdowiédzô dlô %1 sztëczków"
-
-#: dialogs/TagDialog.cpp:791 dialogs/TagDialog.cpp:801
-#, kde-format
-msgid "<b>%1</b> by <b>%2</b>"
-msgstr "<b>%1</b> wëkònywóny przez <b>%2</b>"
-
-#: dialogs/TagDialog.cpp:799
-#, kde-format
-msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
-msgstr "<b>%1</b> wëkònywóny przez <b>%2</b> z albùmù <b>%3</b>"
-
-#: dialogs/TagDialog.cpp:803
-#, kde-format
-msgid "<b>%1</b>"
-msgstr "<b>%1</b>"
-
-#: dialogs/TagDialog.cpp:809
-#, kde-format
-msgid "Editing 1 file"
-msgid_plural "Editing %1 files"
-msgstr[0] "Editëjë 1 lopk"
-msgstr[1] "Editëjë %1 lopczi"
-msgstr[2] "Editëjë %1 lopków"
-
-#: dialogs/TagDialog.cpp:841
-#, fuzzy
-#| msgid "Never"
-msgctxt "When this track first played"
-msgid "Never"
-msgstr "Nigdë"
-
-#: dialogs/TagDialog.cpp:846
-msgctxt "When this track was last played"
-msgid "Never"
-msgstr "Nigdë"
-
-#: dialogs/TagDialog.cpp:850
-msgctxt "The collection this track is part of"
-msgid "None"
-msgstr "Felënk"
-
-#: dialogs/TagDialog.cpp:1369
-msgid ""
-"Writing to file failed. Please check permissions and available disc space."
-msgstr ""
-
 #: dialogs/EditFilterDialog.cpp:41
 #, fuzzy
 #| msgid "Sample Rate"
@@ -11452,6 +11388,78 @@ msgstr ""
 
 #: dialogs/MusicBrainzTagger.cpp:70
 msgid "Collapse Chosen"
+msgstr ""
+
+#: dialogs/TagDialog.cpp:431
+msgid "Filename Layout Chooser"
+msgstr "Wëbiérk fòrmë miona lopka"
+
+#: dialogs/TagDialog.cpp:549
+msgid "Tags"
+msgstr "Tadżi"
+
+#: dialogs/TagDialog.cpp:711 dialogs/TagDialog.cpp:719
+msgctxt "The value for this tag is not known"
+msgid "Unknown"
+msgstr "Nieznóné"
+
+#: dialogs/TagDialog.cpp:756
+#, kde-format
+msgid "Track Details: %1 by %2"
+msgstr "Detale sztëczka: %1 wëkònywóny przez %2"
+
+#: dialogs/TagDialog.cpp:762
+#, kde-format
+msgctxt "The amount of tracks being edited"
+msgid "1 Track"
+msgid_plural "Information for %1 Tracks"
+msgstr[0] "Wëdowiédzô dlô %1 sztëczka"
+msgstr[1] "Wëdowiédzô dlô %1 sztëczków"
+msgstr[2] "Wëdowiédzô dlô %1 sztëczków"
+
+#: dialogs/TagDialog.cpp:791 dialogs/TagDialog.cpp:801
+#, kde-format
+msgid "<b>%1</b> by <b>%2</b>"
+msgstr "<b>%1</b> wëkònywóny przez <b>%2</b>"
+
+#: dialogs/TagDialog.cpp:793 dialogs/TagDialog.cpp:803
+#, kde-format
+msgid "<b>%1</b>"
+msgstr "<b>%1</b>"
+
+#: dialogs/TagDialog.cpp:799
+#, kde-format
+msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
+msgstr "<b>%1</b> wëkònywóny przez <b>%2</b> z albùmù <b>%3</b>"
+
+#: dialogs/TagDialog.cpp:809
+#, kde-format
+msgid "Editing 1 file"
+msgid_plural "Editing %1 files"
+msgstr[0] "Editëjë 1 lopk"
+msgstr[1] "Editëjë %1 lopczi"
+msgstr[2] "Editëjë %1 lopków"
+
+#: dialogs/TagDialog.cpp:841
+#, fuzzy
+#| msgid "Never"
+msgctxt "When this track first played"
+msgid "Never"
+msgstr "Nigdë"
+
+#: dialogs/TagDialog.cpp:846
+msgctxt "When this track was last played"
+msgid "Never"
+msgstr "Nigdë"
+
+#: dialogs/TagDialog.cpp:850
+msgctxt "The collection this track is part of"
+msgid "None"
+msgstr "Felënk"
+
+#: dialogs/TagDialog.cpp:1369
+msgid ""
+"Writing to file failed. Please check permissions and available disc space."
 msgstr ""
 
 #: dynamic/BiasFactory.cpp:52
@@ -12611,6 +12619,22 @@ msgstr ""
 msgid "Ok"
 msgstr "Ok"
 
+#: playlist/PlaylistDock.cpp:97
+msgid "Dynamic Mode Enabled"
+msgstr ""
+
+#: playlist/PlaylistDock.cpp:173
+#, fuzzy
+#| msgid "Current Playlist"
+msgid "&Save Current Playlist"
+msgstr "Biéżnô lësta òdgrëwaniô"
+
+#: playlist/PlaylistDock.cpp:252
+#, fuzzy, kde-format
+#| msgid "&Save Playlist"
+msgid "&Save playlist to \"%1\""
+msgstr "&Zapiszë lëstã graniô"
+
 #: playlist/PlaylistModel.cpp:245
 #, fuzzy
 #| msgid "No information available for this track"
@@ -12692,22 +12716,6 @@ msgstr "Slédno gróné"
 msgid "Mood"
 msgstr "Òdczëcé"
 
-#: playlist/PlaylistDock.cpp:97
-msgid "Dynamic Mode Enabled"
-msgstr ""
-
-#: playlist/PlaylistDock.cpp:173
-#, fuzzy
-#| msgid "Current Playlist"
-msgid "&Save Current Playlist"
-msgstr "Biéżnô lësta òdgrëwaniô"
-
-#: playlist/PlaylistDock.cpp:252
-#, fuzzy, kde-format
-#| msgid "&Save Playlist"
-msgid "&Save playlist to \"%1\""
-msgstr "&Zapiszë lëstã graniô"
-
 #: playlistgenerator/ConstraintGroup.cpp:87
 #, fuzzy
 #| msgid "Match Any Word"
@@ -12740,31 +12748,6 @@ msgid ""
 "constraints to find more tracks."
 msgstr ""
 
-#: playlistgenerator/Preset.cpp:40 playlistgenerator/Preset.cpp:53
-#, fuzzy
-#| msgid "New playlist layout"
-msgid "New playlist preset"
-msgstr "Nowi wëzdrzatk lëstë graniô"
-
-#: playlistgenerator/Preset.cpp:43 playlistgenerator/Preset.cpp:65
-#, fuzzy
-#| msgid "&Save Playlist"
-msgid "Unnamed playlist preset"
-msgstr "&Zapiszë lëstã graniô"
-
-#: playlistgenerator/Preset.cpp:127
-#, fuzzy
-#| msgid "Generating playlist..."
-msgid "Generating a new playlist"
-msgstr "Ùsôdzanié lëstë graniô..."
-
-#: playlistgenerator/Preset.cpp:147
-msgid ""
-"The playlist generator created a playlist which does not meet all of your "
-"constraints.  If you are not satisfied with the results, try loosening or "
-"removing some constraints and then generating a new playlist."
-msgstr ""
-
 #: playlistgenerator/PresetEditDialog.cpp:61
 #, fuzzy
 #| msgid "Add"
@@ -12778,40 +12761,6 @@ msgstr "Dodôj"
 #| msgid "Photos Settings"
 msgid "Constraint Group"
 msgstr "Ùstowë òbrazków"
-
-#: playlistgenerator/constraints/PlaylistDuration.cpp:58
-#, fuzzy
-#| msgid "Playlist Options"
-msgid "Playlist Duration"
-msgstr "Òptacëje listë graniô"
-
-#: playlistgenerator/constraints/PlaylistDuration.cpp:59
-#, fuzzy
-#| msgid "Add this filter condition to the list"
-msgid "Sets the preferred duration of the playlist"
-msgstr "Dodôwô nã zastrzégã filtrowóniô do lëstë"
-
-#: playlistgenerator/constraints/PlaylistDuration.cpp:125
-#, fuzzy, kde-format
-#| msgid "Playlist_%1"
-msgid "Playlist duration: %1 %2"
-msgstr "Lësta_gróniô_%1"
-
-#: playlistgenerator/constraints/PlaylistDuration.cpp:267
-#, fuzzy
-#| msgid "equal to"
-msgctxt "duration of playlist equals some time"
-msgid "equals"
-msgstr "równy"
-
-#: playlistgenerator/constraints/PlaylistDuration.cpp:273
-#: playlistgenerator/constraints/PlaylistLength.cpp:210
-#: playlistgenerator/constraints/TagMatch.cpp:477
-#: widgets/MetaQueryWidget.cpp:892
-#, fuzzy
-#| msgid "Unknown Genre"
-msgid "unknown comparison"
-msgstr "Nieznony zort"
 
 #: playlistgenerator/constraints/PlaylistLength.cpp:58
 #, fuzzy
@@ -12842,22 +12791,14 @@ msgctxt "number of tracks in playlist equals some number"
 msgid "equals"
 msgstr "równy"
 
-#: playlistgenerator/constraints/PreventDuplicates.cpp:53
+#: playlistgenerator/constraints/PlaylistLength.cpp:210
+#: playlistgenerator/constraints/TagMatch.cpp:477
+#: playlistgenerator/constraints/PlaylistDuration.cpp:274
+#: widgets/MetaQueryWidget.cpp:892
 #, fuzzy
-#| msgid "Remove Applet"
-msgid "Prevent Duplicates"
-msgstr "Rëmôj aplet"
-
-#: playlistgenerator/constraints/PreventDuplicates.cpp:54
-msgid ""
-"Prevents duplicate tracks, albums, or artists from appearing in the playlist"
-msgstr ""
-
-#: playlistgenerator/constraints/PreventDuplicates.cpp:101
-#, fuzzy, kde-format
-#| msgid "Remove Applet"
-msgid "Prevent duplicate %1"
-msgstr "Rëmôj aplet"
+#| msgid "Unknown Genre"
+msgid "unknown comparison"
+msgstr "Nieznony zort"
 
 #: playlistgenerator/constraints/TagMatchSupport.cpp:86
 #, fuzzy
@@ -12952,59 +12893,6 @@ msgstr "rechòwnik òdegraniów"
 #| msgid "Label"
 msgid "label"
 msgstr "Eticzéta"
-
-#: playlistgenerator/constraints/Checkpoint.cpp:61
-msgid "Checkpoint"
-msgstr ""
-
-#: playlistgenerator/constraints/Checkpoint.cpp:62
-#, fuzzy
-#| msgid "Enter space-separated terms to search in the playlist."
-msgid "Fixes a track, album, or artist to a certain position in the playlist"
-msgstr "Wpiszë òddzéloné spacëjama kriteria przeszëkiwaniô lëstë graniô"
-
-#: playlistgenerator/constraints/Checkpoint.cpp:178
-#, fuzzy, kde-format
-#| msgid " on <b>%1</b>"
-msgid "Checkpoint: %1"
-msgstr " przez <b>%1</b>"
-
-#: playlistgenerator/constraints/Checkpoint.cpp:186
-#: playlistgenerator/constraints/Checkpoint.cpp:194
-#: playlistgenerator/constraints/Checkpoint.cpp:206
-msgid "unassigned"
-msgstr ""
-
-#: playlistgenerator/constraints/Checkpoint.cpp:188
-#, fuzzy, kde-format
-#| msgctxt "%1 is number of tracks, %2 is time"
-#| msgid "%1 track (%2)"
-#| msgid_plural "%1 tracks (%2)"
-msgid "\"%1\" (track) by %2"
-msgstr "%1 sztëczk (%2)"
-
-#: playlistgenerator/constraints/Checkpoint.cpp:197
-#, fuzzy, kde-format
-#| msgid "%1 by %2"
-msgid "\"%1\" (album) by %2"
-msgstr "%1 wëkònywóné przez %2"
-
-#: playlistgenerator/constraints/Checkpoint.cpp:199
-#, fuzzy, kde-format
-#| msgid "%1 album"
-#| msgid_plural "%1 albums"
-msgid "\"%1\" (album)"
-msgstr "%1 albùm"
-
-#: playlistgenerator/constraints/Checkpoint.cpp:208
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "Last part of: Jamendo.com database update complete. Added 3 tracks on 4 "
-#| "albums from 5 artists."
-#| msgid "1 artist."
-#| msgid_plural "%1 artists."
-msgid "\"%1\" (artist)"
-msgstr "1 artista."
 
 #: playlistgenerator/constraints/TagMatch.cpp:57
 #, fuzzy
@@ -13157,6 +13045,113 @@ msgstr[0] "rok"
 msgstr[1] "rok"
 msgstr[2] "rok"
 
+#: playlistgenerator/constraints/Checkpoint.cpp:61
+msgid "Checkpoint"
+msgstr ""
+
+#: playlistgenerator/constraints/Checkpoint.cpp:62
+#, fuzzy
+#| msgid "Enter space-separated terms to search in the playlist."
+msgid "Fixes a track, album, or artist to a certain position in the playlist"
+msgstr "Wpiszë òddzéloné spacëjama kriteria przeszëkiwaniô lëstë graniô"
+
+#: playlistgenerator/constraints/Checkpoint.cpp:178
+#, fuzzy, kde-format
+#| msgid " on <b>%1</b>"
+msgid "Checkpoint: %1"
+msgstr " przez <b>%1</b>"
+
+#: playlistgenerator/constraints/Checkpoint.cpp:186
+#: playlistgenerator/constraints/Checkpoint.cpp:194
+#: playlistgenerator/constraints/Checkpoint.cpp:206
+msgid "unassigned"
+msgstr ""
+
+#: playlistgenerator/constraints/Checkpoint.cpp:188
+#, fuzzy, kde-format
+#| msgctxt "%1 is number of tracks, %2 is time"
+#| msgid "%1 track (%2)"
+#| msgid_plural "%1 tracks (%2)"
+msgid "\"%1\" (track) by %2"
+msgstr "%1 sztëczk (%2)"
+
+#: playlistgenerator/constraints/Checkpoint.cpp:197
+#, fuzzy, kde-format
+#| msgid "%1 by %2"
+msgid "\"%1\" (album) by %2"
+msgstr "%1 wëkònywóné przez %2"
+
+#: playlistgenerator/constraints/Checkpoint.cpp:199
+#, fuzzy, kde-format
+#| msgid "%1 album"
+#| msgid_plural "%1 albums"
+msgid "\"%1\" (album)"
+msgstr "%1 albùm"
+
+#: playlistgenerator/constraints/Checkpoint.cpp:208
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Last part of: Jamendo.com database update complete. Added 3 tracks on 4 "
+#| "albums from 5 artists."
+#| msgid "1 artist."
+#| msgid_plural "%1 artists."
+msgid "\"%1\" (artist)"
+msgstr "1 artista."
+
+#: playlistgenerator/constraints/PlaylistDuration.cpp:58
+#, fuzzy
+#| msgid "Playlist Options"
+msgid "Playlist Duration"
+msgstr "Òptacëje listë graniô"
+
+#: playlistgenerator/constraints/PlaylistDuration.cpp:59
+#, fuzzy
+#| msgid "Add this filter condition to the list"
+msgid "Sets the preferred duration of the playlist"
+msgstr "Dodôwô nã zastrzégã filtrowóniô do lëstë"
+
+#: playlistgenerator/constraints/PlaylistDuration.cpp:125
+#, fuzzy, kde-format
+#| msgid "Playlist_%1"
+msgid "Playlist duration: %1 %2"
+msgstr "Lësta_gróniô_%1"
+
+#: playlistgenerator/constraints/PlaylistDuration.cpp:268
+#, fuzzy
+#| msgid "equal to"
+msgctxt "duration of playlist equals some time"
+msgid "equals"
+msgstr "równy"
+
+#: playlistgenerator/constraints/PreventDuplicates.cpp:53
+#, fuzzy
+#| msgid "Remove Applet"
+msgid "Prevent Duplicates"
+msgstr "Rëmôj aplet"
+
+#: playlistgenerator/constraints/PreventDuplicates.cpp:54
+msgid ""
+"Prevents duplicate tracks, albums, or artists from appearing in the playlist"
+msgstr ""
+
+#: playlistgenerator/constraints/PreventDuplicates.cpp:103
+#, fuzzy
+#| msgid "Remove Applet"
+msgid "Prevent duplicate tracks"
+msgstr "Rëmôj aplet"
+
+#: playlistgenerator/constraints/PreventDuplicates.cpp:105
+#, fuzzy
+#| msgid "Remove Applet"
+msgid "Prevent duplicate artists"
+msgstr "Rëmôj aplet"
+
+#: playlistgenerator/constraints/PreventDuplicates.cpp:107
+#, fuzzy
+#| msgid "Remove Applet"
+msgid "Prevent duplicate albums"
+msgstr "Rëmôj aplet"
+
 #: playlistgenerator/PresetModel.cpp:157 playlistgenerator/PresetModel.cpp:288
 msgid "Preset files (*.xml)"
 msgstr ""
@@ -13215,19 +13210,34 @@ msgstr ""
 msgid "Export \"%1\" preset"
 msgstr "Impòrtëjë kòlekcjã"
 
+#: playlistgenerator/Preset.cpp:40 playlistgenerator/Preset.cpp:53
+#, fuzzy
+#| msgid "New playlist layout"
+msgid "New playlist preset"
+msgstr "Nowi wëzdrzatk lëstë graniô"
+
+#: playlistgenerator/Preset.cpp:43 playlistgenerator/Preset.cpp:65
+#, fuzzy
+#| msgid "&Save Playlist"
+msgid "Unnamed playlist preset"
+msgstr "&Zapiszë lëstã graniô"
+
+#: playlistgenerator/Preset.cpp:127
+#, fuzzy
+#| msgid "Generating playlist..."
+msgid "Generating a new playlist"
+msgstr "Ùsôdzanié lëstë graniô..."
+
+#: playlistgenerator/Preset.cpp:147
+msgid ""
+"The playlist generator created a playlist which does not meet all of your "
+"constraints.  If you are not satisfied with the results, try loosening or "
+"removing some constraints and then generating a new playlist."
+msgstr ""
+
 #: playlistmanager/PlaylistManager.cpp:278
 msgid "Downloading Playlist"
 msgstr "Ladowanié lëstë gróniô"
-
-#: playlistmanager/SyncedPlaylist.cpp:40 playlistmanager/SyncedPlaylist.cpp:48
-#: playlistmanager/SyncedPlaylist.cpp:56
-msgid "<Empty>"
-msgstr ""
-
-#: playlistmanager/SyncedPlaylist.cpp:63
-#, kde-format
-msgid "Synchronized on: %1"
-msgstr ""
 
 #: playlistmanager/file/PlaylistFileProvider.cpp:82
 #, fuzzy
@@ -13321,6 +13331,16 @@ msgstr "Wpiszë miono dlô lëstë graniô:"
 
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:125
 msgid "Yes, delete from database."
+msgstr ""
+
+#: playlistmanager/SyncedPlaylist.cpp:40 playlistmanager/SyncedPlaylist.cpp:48
+#: playlistmanager/SyncedPlaylist.cpp:56
+msgid "<Empty>"
+msgstr ""
+
+#: playlistmanager/SyncedPlaylist.cpp:63
+#, kde-format
+msgid "Synchronized on: %1"
 msgstr ""
 
 #: scriptengine/AmarokNetworkScript.cpp:70
@@ -13468,35 +13488,6 @@ msgstr "Ladowanié bazë pòdôwków Jamendo"
 msgid "Updating the local Jamendo database."
 msgstr "Zaktualnianié môlowi bazë pòdôwków Jamendo."
 
-#: services/lastfm/LastFmServiceCollection.cpp:42
-#, kde-format
-msgid "%1's Streams"
-msgstr "Strëdżi brekòwnika %1"
-
-#: services/lastfm/LastFmServiceCollection.cpp:46
-msgid "Global Tags"
-msgstr "Òglowé tadżi"
-
-#: services/lastfm/LastFmServiceCollection.cpp:50
-msgid "Neighbors' Loved Radio"
-msgstr "Lubòtné radio sąsadów"
-
-#: services/lastfm/LastFmServiceCollection.cpp:54
-msgid "Neighbors' Personal Radio"
-msgstr "Personowé radio sąsadów"
-
-#: services/lastfm/LastFmServiceCollection.cpp:58
-msgid "Friends' Loved Radio"
-msgstr "Lubòtné radio drëchów"
-
-#: services/lastfm/LastFmServiceCollection.cpp:62
-msgid "Friends' Personal Radio"
-msgstr "Personowé radio drëchów"
-
-#: services/lastfm/LastFmServiceCollection.cpp:141
-msgid "last.fm"
-msgstr "last.fm"
-
 #: services/lastfm/LastFmTreeModel.cpp:182
 msgid "Personal Radio"
 msgstr "Swòjé radio"
@@ -13542,10 +13533,6 @@ msgstr "Sąsedzë"
 msgid "Last.fm: Love"
 msgstr "Last.fm: Lubòtné"
 
-#: services/lastfm/SimilarArtistsAction.cpp:26
-msgid "Play Similar Artists from Last.fm"
-msgstr "Grôj juwernëch artistów z Last.fm"
-
 #: services/lastfm/biases/LastFmBias.cpp:48
 #, fuzzy
 #| msgid "Last.Fm Similar Artists"
@@ -13571,7 +13558,7 @@ msgid "Similar to the previous artist (as reported by Last.fm)"
 msgstr ""
 
 #: services/lastfm/biases/LastFmBias.cpp:147
-msgid "LastFM thinks the track is similar to"
+msgid "Last.fm thinks the track is similar to"
 msgstr ""
 
 #: services/lastfm/biases/LastFmBias.cpp:150
@@ -13590,7 +13577,7 @@ msgstr "Piprzédny sztëczk"
 #, fuzzy
 #| msgid "Weekly Top Artists"
 msgctxt "Name of the \"WeeklyTop\" bias"
-msgid "LastFM weekly top artist"
+msgid "Last.fm weekly top artist"
 msgstr "Nowikszé gwiôzdë tidzénia"
 
 #: services/lastfm/biases/WeeklyTopBias.cpp:59
@@ -13717,83 +13704,6 @@ msgstr ""
 msgid "Error starting track from Last.Fm radio"
 msgstr ""
 
-#: services/lastfm/LastFmService.cpp:194
-msgid "Last.fm: The social music revolution"
-msgstr "Last.fm: Spòlëznowa mùzycznô rewòlucëja"
-
-#: services/lastfm/LastFmService.cpp:196
-msgid ""
-"Last.fm is a popular online service that provides personal radio stations "
-"and music recommendations. A personal listening station is tailored based on "
-"your listening habits and provides you with recommendations for new music. "
-"It is also possible to play stations with music that is similar to a "
-"particular artist as well as listen to streams from people you have added as "
-"friends or that last.fm considers your musical \"neighbors\""
-msgstr ""
-
-#: services/lastfm/LastFmService.cpp:289
-msgid "Ctrl+L"
-msgstr "Ctrl+L"
-
-#: services/lastfm/LastFmService.cpp:342
-msgctxt "Last.fm: errorMessage"
-msgid "Either the username was not recognized, or the password was incorrect."
-msgstr "Abò miono brëkòwnika nie je rozpòznóné abò parola je ze zmiłką."
-
-#: services/lastfm/LastFmService.cpp:346
-msgctxt "Last.fm: errorMessage"
-msgid ""
-"There was a problem communicating with the Last.fm services. Please try "
-"again later."
-msgstr ""
-
-#: services/lastfm/LastFmService.cpp:434
-msgid "Enter an artist name"
-msgstr "Wpiszë miono artistë"
-
-#: services/lastfm/LastFmService.cpp:437
-msgid "Enter a tag"
-msgstr "Wpiszë tag"
-
-#: services/lastfm/LastFmService.cpp:440
-msgid "Enter a last.fm user name"
-msgstr "Wpiszë miono brëkòwnika Last.fm"
-
-#: services/lastfm/LastFmService.cpp:453
-msgid "Username: "
-msgstr "Miono brëkòwnika:"
-
-#: services/lastfm/LastFmService.cpp:458
-#, kde-format
-msgid "Play Count: %1 play"
-msgid_plural "Play Count: %1 plays"
-msgstr[0] "Rechòwnik graniô: %1 granié"
-msgstr[1] "Rechòwnik graniô: %1 grania"
-msgstr[2] "Rechòwnik graniô: %1 graniów"
-
-#: services/lastfm/LastFmService.cpp:468
-msgid "Enter login information for Last.fm"
-msgstr "Wpiszr wëdowiédzë ò loginie do Last.fm"
-
-#: services/lastfm/LastFmService.cpp:524
-msgid "Create a Custom Last.fm Station"
-msgstr "ùsôdzë swòją stacëjã Last.fm"
-
-#: services/lastfm/LastFmService.cpp:527
-msgid "Tag"
-msgstr "Tag"
-
-#: services/lastfm/LastFmService.cpp:527
-msgid "User"
-msgstr "Brëkòwnik"
-
-#: services/lastfm/LastFmService.cpp:563
-#: services/lastfm/ScrobblerAdapter.cpp:242
-#, kde-format
-msgctxt "As in, lastfm"
-msgid "Loved Track: %1"
-msgstr "Lubòtny sztëczk: %1"
-
 #: services/lastfm/LastFmServiceSettings.cpp:100
 msgid "Testing..."
 msgstr "Testowanié..."
@@ -13832,6 +13742,13 @@ msgstr "Testowi login"
 msgid "Unable to connect to Last.fm service."
 msgstr "Ni mòże wëdostac Flickr: %1"
 
+#: services/lastfm/ScrobblerAdapter.cpp:242
+#: services/lastfm/LastFmService.cpp:563
+#, kde-format
+msgctxt "As in, lastfm"
+msgid "Loved Track: %1"
+msgstr "Lubòtny sztëczk: %1"
+
 #: services/lastfm/LastFmServiceConfig.cpp:143
 #, fuzzy
 #| msgid "Last.fm Profile"
@@ -13843,6 +13760,109 @@ msgid ""
 "No running KWallet found. Would you like Amarok to save your Last.fm "
 "credentials in plaintext?"
 msgstr ""
+
+#: services/lastfm/LastFmService.cpp:194
+msgid "Last.fm: The social music revolution"
+msgstr "Last.fm: Spòlëznowa mùzycznô rewòlucëja"
+
+#: services/lastfm/LastFmService.cpp:196
+msgid ""
+"Last.fm is a popular online service that provides personal radio stations "
+"and music recommendations. A personal listening station is tailored based on "
+"your listening habits and provides you with recommendations for new music. "
+"It is also possible to play stations with music that is similar to a "
+"particular artist as well as listen to streams from people you have added as "
+"friends or that Last.fm considers your musical \"neighbors\""
+msgstr ""
+
+#: services/lastfm/LastFmService.cpp:289
+msgid "Ctrl+L"
+msgstr "Ctrl+L"
+
+#: services/lastfm/LastFmService.cpp:342
+msgctxt "Last.fm: errorMessage"
+msgid "Either the username was not recognized, or the password was incorrect."
+msgstr "Abò miono brëkòwnika nie je rozpòznóné abò parola je ze zmiłką."
+
+#: services/lastfm/LastFmService.cpp:346
+msgctxt "Last.fm: errorMessage"
+msgid ""
+"There was a problem communicating with the Last.fm services. Please try "
+"again later."
+msgstr ""
+
+#: services/lastfm/LastFmService.cpp:434
+msgid "Enter an artist name"
+msgstr "Wpiszë miono artistë"
+
+#: services/lastfm/LastFmService.cpp:437
+msgid "Enter a tag"
+msgstr "Wpiszë tag"
+
+#: services/lastfm/LastFmService.cpp:440
+#, fuzzy
+#| msgid "Enter a last.fm user name"
+msgid "Enter a Last.fm user name"
+msgstr "Wpiszë miono brëkòwnika Last.fm"
+
+#: services/lastfm/LastFmService.cpp:453
+#, fuzzy, kde-format
+#| msgid "Username: "
+msgid "Username: %1"
+msgstr "Miono brëkòwnika:"
+
+#: services/lastfm/LastFmService.cpp:458
+#, kde-format
+msgid "Play Count: %1 play"
+msgid_plural "Play Count: %1 plays"
+msgstr[0] "Rechòwnik graniô: %1 granié"
+msgstr[1] "Rechòwnik graniô: %1 grania"
+msgstr[2] "Rechòwnik graniô: %1 graniów"
+
+#: services/lastfm/LastFmService.cpp:468
+msgid "Enter login information for Last.fm"
+msgstr "Wpiszr wëdowiédzë ò loginie do Last.fm"
+
+#: services/lastfm/LastFmService.cpp:524
+msgid "Create a Custom Last.fm Station"
+msgstr "ùsôdzë swòją stacëjã Last.fm"
+
+#: services/lastfm/LastFmService.cpp:527
+msgid "Tag"
+msgstr "Tag"
+
+#: services/lastfm/LastFmService.cpp:527
+msgid "User"
+msgstr "Brëkòwnik"
+
+#: services/lastfm/LastFmServiceCollection.cpp:42
+#, kde-format
+msgid "%1's Streams"
+msgstr "Strëdżi brekòwnika %1"
+
+#: services/lastfm/LastFmServiceCollection.cpp:46
+msgid "Global Tags"
+msgstr "Òglowé tadżi"
+
+#: services/lastfm/LastFmServiceCollection.cpp:50
+msgid "Neighbors' Loved Radio"
+msgstr "Lubòtné radio sąsadów"
+
+#: services/lastfm/LastFmServiceCollection.cpp:54
+msgid "Neighbors' Personal Radio"
+msgstr "Personowé radio sąsadów"
+
+#: services/lastfm/LastFmServiceCollection.cpp:58
+msgid "Friends' Loved Radio"
+msgstr "Lubòtné radio drëchów"
+
+#: services/lastfm/LastFmServiceCollection.cpp:62
+msgid "Friends' Personal Radio"
+msgstr "Personowé radio drëchów"
+
+#: services/lastfm/SimilarArtistsAction.cpp:26
+msgid "Play Similar Artists from Last.fm"
+msgstr "Grôj juwernëch artistów z Last.fm"
 
 #: services/magnatune/MagnatuneAlbumDownloader.cpp:68
 #, fuzzy, kde-format
@@ -13907,51 +13927,6 @@ msgid ""
 "Username: %3\n"
 "Password: %4\n"
 msgstr ""
-
-#: services/magnatune/MagnatuneInfoParser.cpp:32
-msgid "Loading artist info..."
-msgstr "Ladowanié wëdowiédzë ò artisce..."
-
-#: services/magnatune/MagnatuneInfoParser.cpp:44
-#, kde-format
-msgid "Fetching %1 Artist Info"
-msgstr "Ladowanié wëdowédzë ò artisce %1"
-
-#: services/magnatune/MagnatuneInfoParser.cpp:53
-msgid "Loading album info..."
-msgstr "Ladowanié wëdowiédzë ò albùmie..."
-
-#: services/magnatune/MagnatuneInfoParser.cpp:75
-msgid "Release Year: "
-msgstr "Rok wëdaniô:"
-
-#: services/magnatune/MagnatuneInfoParser.cpp:80
-msgid "Description:"
-msgstr "Òpisënk:"
-
-#: services/magnatune/MagnatuneInfoParser.cpp:84
-msgid "From Magnatune.com"
-msgstr "Z Magnatune.com"
-
-#: services/magnatune/MagnatuneInfoParser.cpp:166
-msgid "Loading Magnatune.com frontpage..."
-msgstr "Ladowanié przédny starnë Magnatune..."
-
-#: services/magnatune/MagnatuneInfoParser.cpp:169
-msgid "Fetching Magnatune.com front page"
-msgstr ""
-
-#: services/magnatune/MagnatuneInfoParser.cpp:182
-#: services/magnatune/MagnatuneInfoParser.cpp:198
-msgid "Loading your Magnatune.com favorites page..."
-msgstr "Ladowanié twòji nôlepszi starnë Magnatune..."
-
-#: services/magnatune/MagnatuneInfoParser.cpp:211
-#: services/magnatune/MagnatuneInfoParser.cpp:227
-#, fuzzy
-#| msgid "Loading your Magnatune.com favorites page..."
-msgid "Loading your personal Magnatune.com recommendations page..."
-msgstr "Ladowanié twòji nôlepszi starnë Magnatune..."
 
 #: services/magnatune/MagnatuneMeta.cpp:218
 #: services/magnatune/MagnatuneMeta.cpp:426
@@ -14091,6 +14066,53 @@ msgstr "ok"
 #: services/magnatune/MagnatuneStore.cpp:679
 msgid "ERROR: Unknown argument."
 msgstr "FELA: Nieznóny argùment."
+
+#: services/magnatune/MagnatuneInfoParser.cpp:32
+msgid "Loading artist info..."
+msgstr "Ladowanié wëdowiédzë ò artisce..."
+
+#: services/magnatune/MagnatuneInfoParser.cpp:44
+#, kde-format
+msgid "Fetching %1 Artist Info"
+msgstr "Ladowanié wëdowédzë ò artisce %1"
+
+#: services/magnatune/MagnatuneInfoParser.cpp:53
+msgid "Loading album info..."
+msgstr "Ladowanié wëdowiédzë ò albùmie..."
+
+#: services/magnatune/MagnatuneInfoParser.cpp:75
+#, fuzzy, kde-format
+#| msgid "Release Year: "
+msgid "Release Year: %1"
+msgstr "Rok wëdaniô:"
+
+#: services/magnatune/MagnatuneInfoParser.cpp:80
+msgid "Description:"
+msgstr "Òpisënk:"
+
+#: services/magnatune/MagnatuneInfoParser.cpp:84
+msgid "From Magnatune.com"
+msgstr "Z Magnatune.com"
+
+#: services/magnatune/MagnatuneInfoParser.cpp:166
+msgid "Loading Magnatune.com frontpage..."
+msgstr "Ladowanié przédny starnë Magnatune..."
+
+#: services/magnatune/MagnatuneInfoParser.cpp:169
+msgid "Fetching Magnatune.com front page"
+msgstr ""
+
+#: services/magnatune/MagnatuneInfoParser.cpp:182
+#: services/magnatune/MagnatuneInfoParser.cpp:198
+msgid "Loading your Magnatune.com favorites page..."
+msgstr "Ladowanié twòji nôlepszi starnë Magnatune..."
+
+#: services/magnatune/MagnatuneInfoParser.cpp:211
+#: services/magnatune/MagnatuneInfoParser.cpp:227
+#, fuzzy
+#| msgid "Loading your Magnatune.com favorites page..."
+msgid "Loading your personal Magnatune.com recommendations page..."
+msgstr "Ladowanié twòji nôlepszi starnë Magnatune..."
 
 #: services/mp3tunes/Mp3tunesMeta.cpp:45
 msgid ""
@@ -14347,14 +14369,6 @@ msgstr[0] "%1 sztëczk"
 msgstr[1] "%1 sztëcczi"
 msgstr[2] "%1 sztëczków"
 
-#: toolbar/MainToolbar.cpp:81
-msgid "Main Toolbar"
-msgstr "Przédnô lëstwa nôrzãdzów"
-
-#: toolbar/MainToolbar.cpp:87
-msgid "Rediscover Your Music"
-msgstr ""
-
 #: toolbar/SlimToolbar.cpp:36
 #, fuzzy
 #| msgid "Main Toolbar"
@@ -14371,6 +14385,14 @@ msgstr "(wëcëszony)"
 #, kde-format
 msgid "Volume: %1% %2"
 msgstr "Głosnosc: %1% %2"
+
+#: toolbar/MainToolbar.cpp:82
+msgid "Main Toolbar"
+msgstr "Przédnô lëstwa nôrzãdzów"
+
+#: toolbar/MainToolbar.cpp:88
+msgid "Rediscover Your Music"
+msgstr ""
 
 #: transcoding/TranscodingAssistantDialog.cpp:35
 #, fuzzy
@@ -14434,6 +14456,10 @@ msgstr "Grónié"
 #| msgid "Paused"
 msgid "Pause"
 msgstr "Paùza"
+
+#: widgets/SliderWidget.cpp:243
+msgid "Volume"
+msgstr "Głosnosc"
 
 #: widgets/SliderWidget.cpp:244
 msgid "100%"
@@ -14684,6 +14710,10 @@ msgstr "Artista \"%1\""
 #: widgets/TrackSelectWidget.cpp:94
 msgid "empty"
 msgstr ""
+
+#: widgets/VolumeDial.cpp:301 widgets/VolumeDial.cpp:340 TrayIcon.cpp:142
+msgid "Muted"
+msgstr "Wëcëszony"
 
 #: widgets/VolumeDial.cpp:301 widgets/VolumeDial.cpp:340
 #: widgets/VolumeWidget.cpp:52 widgets/VolumeWidget.cpp:84
@@ -15696,6 +15726,72 @@ msgstr ""
 "nalezc w lopkù README. Abë zwëskac wicy pòmòcë przëłączë sã do naji na "
 "#amarok na irc.freenode.net.</p>"
 
+#: TrayIcon.cpp:146
+#, fuzzy, kde-format
+#| msgctxt "monthname year"
+#| msgid "%1 %2"
+msgid "%1%"
+msgstr "%1 %2"
+
+#: TrayIcon.cpp:148
+#, fuzzy, kde-format
+#| msgid "Volume: %1% %2"
+msgid "<i>Volume: %1</i>"
+msgstr "Głosnosc: %1% %2"
+
+#: TrayIcon.cpp:153
+#, fuzzy, kde-format
+#| msgid "Score:"
+msgid "Score: %1"
+msgstr "Pùnktacëjô:"
+
+#: TrayIcon.cpp:171
+#, fuzzy, kde-format
+#| msgid "Rating:"
+msgid "Rating: %1"
+msgstr "Notowania:"
+
+#: TrayIcon.cpp:177
+#, fuzzy, kde-format
+#| msgid "Play count"
+msgid "Play count: %1"
+msgstr "Rechòwnik òdegraniô"
+
+#: TrayIcon.cpp:181
+#, fuzzy, kde-format
+#| msgid "Last played"
+msgid "Last played: %1"
+msgstr "Slédno gróné"
+
+#, fuzzy
+#~| msgid "Last.Fm Similar Artists"
+#~ msgid "Maximum artists"
+#~ msgstr "Artistë szlachùjący za \"%1\" wedle Last.fm"
+
+#, fuzzy
+#~| msgid "Album Artist"
+#~ msgid "Album Artist:"
+#~ msgstr "Artista albùmù"
+
+#~ msgid "Last played"
+#~ msgstr "Slédno gróné"
+
+#~ msgid "Play count"
+#~ msgstr "Rechòwnik òdegraniô"
+
+#, fuzzy
+#~| msgid "Fetching content.."
+#~ msgid "Fetching ..."
+#~ msgstr "Ladowanié zamkłoscë.."
+
+#, fuzzy
+#~| msgid "Remove Applet"
+#~ msgid "Prevent duplicate %1"
+#~ msgstr "Rëmôj aplet"
+
+#~ msgid "last.fm"
+#~ msgstr "last.fm"
+
 #, fuzzy
 #~| msgid "File Extension of Source"
 #~ msgid "Show In Media Sources"
@@ -16028,12 +16124,6 @@ msgstr ""
 #~| msgid "Video Clip Settings"
 #~ msgid "Video Clip "
 #~ msgstr "Ùstawë teledisków"
-
-#, fuzzy
-#~| msgid "No track playing"
-#~ msgctxt "Guitar tablature"
-#~ msgid "Tabs: No track playing"
-#~ msgstr "Nick nie je gróné"
 
 #, fuzzy
 #~| msgid "Lyrics are being fetched."
