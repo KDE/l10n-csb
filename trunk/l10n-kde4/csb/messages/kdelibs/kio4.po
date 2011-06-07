@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-06 04:17+0200\n"
+"POT-Creation-Date: 2011-06-07 04:35+0200\n"
 "PO-Revision-Date: 2009-06-29 20:35+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -60,7 +60,7 @@ msgctxt "@title:window"
 msgid "Add Bookmarks"
 msgstr "Pòkôżë załóżczi"
 
-#: bookmarks/kbookmarkdialog.cc:132 ../kfile/kdirselectdialog.cpp:278
+#: bookmarks/kbookmarkdialog.cc:132 ../kfile/kdirselectdialog.cpp:281
 #, fuzzy
 #| msgid "One Folder"
 #| msgid_plural "%1 Folders"
@@ -68,8 +68,8 @@ msgctxt "@title:window"
 msgid "Select Folder"
 msgstr "Jeden katalog"
 
-#: bookmarks/kbookmarkdialog.cc:159 ../kfile/kdirselectdialog.cpp:132
-#: ../kfile/knewfilemenu.cpp:1015
+#: bookmarks/kbookmarkdialog.cc:159 ../kfile/knewfilemenu.cpp:1015
+#: ../kfile/kdirselectdialog.cpp:135
 #, fuzzy
 #| msgid "New Folder..."
 msgctxt "@title:window"
@@ -5902,75 +5902,6 @@ msgstr "kio_metainfo"
 msgid "No metainfo for %1"
 msgstr "Felënk metawëdowiédzë dlô %1"
 
-#: ../kfile/kdirselectdialog.cpp:128
-#, fuzzy
-#| msgid "New Folder..."
-msgctxt "folder name"
-msgid "New Folder"
-msgstr "Nowi katalog..."
-
-#: ../kfile/kdirselectdialog.cpp:133
-#, fuzzy, kde-format
-#| msgid ""
-#| "Create new folder in:\n"
-#| "%1"
-msgctxt "@label:textbox"
-msgid ""
-"Create new folder in:\n"
-"%1"
-msgstr ""
-"Ùsôdzë nowi katalog w:\n"
-"%1"
-
-#: ../kfile/kdirselectdialog.cpp:156 ../kfile/kdiroperator.cpp:766
-#, kde-format
-msgid "A file or folder named %1 already exists."
-msgstr "Lopk abò katalog ò mionie %1 ju je."
-
-#: ../kfile/kdirselectdialog.cpp:160 ../kfile/kdiroperator.cpp:768
-msgid "You do not have permission to create that folder."
-msgstr "Ni môsz prawa do ùsôdzaniô negò kataloga."
-
-#: ../kfile/kdirselectdialog.cpp:280
-#, fuzzy
-#| msgid "New Folder..."
-msgctxt "@action:button"
-msgid "New Folder..."
-msgstr "Nowi katalog..."
-
-#: ../kfile/kdirselectdialog.cpp:321
-#, fuzzy
-#| msgid "New Folder..."
-msgctxt "@action:inmenu"
-msgid "New Folder..."
-msgstr "Nowi katalog..."
-
-#: ../kfile/kdirselectdialog.cpp:328
-#, fuzzy
-#| msgid "Move to Trash"
-msgctxt "@action:inmenu"
-msgid "Move to Trash"
-msgstr "Przesënié do kòsza"
-
-#: ../kfile/kdirselectdialog.cpp:335
-#, fuzzy
-#| msgid "Delete"
-msgctxt "@action:inmenu"
-msgid "Delete"
-msgstr "Rëmôj"
-
-#: ../kfile/kdirselectdialog.cpp:344
-#, fuzzy
-#| msgid "Show Hidden Folders"
-msgctxt "@option:check"
-msgid "Show Hidden Folders"
-msgstr "Pòkôżë zataconé lopczi"
-
-#: ../kfile/kdirselectdialog.cpp:351
-msgctxt "@action:inmenu"
-msgid "Properties"
-msgstr ""
-
 #: ../kfile/kfileplaceeditdialog.cpp:90
 #, fuzzy
 #| msgid "Edit Places Entry"
@@ -6086,12 +6017,6 @@ msgstr "&Rëmôj '%1'"
 msgctxt "@info"
 msgid "Do you really want to empty the Trash? All items will be deleted."
 msgstr "Na gwës rëmnąc %1 element?"
-
-#: ../kfile/kfiletreeview.cpp:187
-#, fuzzy
-#| msgid "Show Hidden Folders"
-msgid "Show Hidden Folders"
-msgstr "Pòkôżë zataconé lopczi"
 
 #: ../kfile/kurlnavigatorprotocolcombo.cpp:168
 #, fuzzy
@@ -6585,6 +6510,15 @@ msgstr ""
 "załóżków.<br /><br /> Załóżczi są przëpisóné do òkna wëbiérkù lopków, króm "
 "tegò dzejają òne jak zwëczajné załóżczi w KDE.</qt>"
 
+#: ../kfile/kdiroperator.cpp:766 ../kfile/kdirselectdialog.cpp:159
+#, kde-format
+msgid "A file or folder named %1 already exists."
+msgstr "Lopk abò katalog ò mionie %1 ju je."
+
+#: ../kfile/kdiroperator.cpp:768 ../kfile/kdirselectdialog.cpp:163
+msgid "You do not have permission to create that folder."
+msgstr "Ni môsz prawa do ùsôdzaniô negò kataloga."
+
 #: ../kfile/kdiroperator.cpp:783
 msgid "You did not select a file to delete."
 msgstr "Ni môsz wëbrónegò lopka do rëmniãcô"
@@ -6753,6 +6687,72 @@ msgstr ""
 #: ../kfile/kdiroperator.cpp:1990
 msgid "&View"
 msgstr "&Wëzdrzatk"
+
+#: ../kfile/kdirselectdialog.cpp:131
+#, fuzzy
+#| msgid "New Folder..."
+msgctxt "folder name"
+msgid "New Folder"
+msgstr "Nowi katalog..."
+
+#: ../kfile/kdirselectdialog.cpp:136
+#, fuzzy, kde-format
+#| msgid ""
+#| "Create new folder in:\n"
+#| "%1"
+msgctxt "@label:textbox"
+msgid ""
+"Create new folder in:\n"
+"%1"
+msgstr ""
+"Ùsôdzë nowi katalog w:\n"
+"%1"
+
+#: ../kfile/kdirselectdialog.cpp:283
+#, fuzzy
+#| msgid "New Folder..."
+msgctxt "@action:button"
+msgid "New Folder..."
+msgstr "Nowi katalog..."
+
+#: ../kfile/kdirselectdialog.cpp:324
+#, fuzzy
+#| msgid "New Folder..."
+msgctxt "@action:inmenu"
+msgid "New Folder..."
+msgstr "Nowi katalog..."
+
+#: ../kfile/kdirselectdialog.cpp:331
+#, fuzzy
+#| msgid "Move to Trash"
+msgctxt "@action:inmenu"
+msgid "Move to Trash"
+msgstr "Przesënié do kòsza"
+
+#: ../kfile/kdirselectdialog.cpp:338
+#, fuzzy
+#| msgid "Delete"
+msgctxt "@action:inmenu"
+msgid "Delete"
+msgstr "Rëmôj"
+
+#: ../kfile/kdirselectdialog.cpp:347
+#, fuzzy
+#| msgid "Show Hidden Folders"
+msgctxt "@option:check"
+msgid "Show Hidden Folders"
+msgstr "Pòkôżë zataconé lopczi"
+
+#: ../kfile/kdirselectdialog.cpp:354
+msgctxt "@action:inmenu"
+msgid "Properties"
+msgstr ""
+
+#: ../kfile/kfiletreeview.cpp:187
+#, fuzzy
+#| msgid "Show Hidden Folders"
+msgid "Show Hidden Folders"
+msgstr "Pòkôżë zataconé lopczi"
 
 #~ msgid "A newer item named '%1' already exists."
 #~ msgstr "Nowszi lopk jakno '%1' ju je."
