@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-08 03:48+0200\n"
+"POT-Creation-Date: 2011-06-09 03:50+0200\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -7155,25 +7155,6 @@ msgstr "Rok"
 msgid "Label"
 msgstr "Eticzéta"
 
-#: browsers/CollectionTreeView.cpp:248 configdialog/ConfigDialog.cpp:59
-msgid "Collection"
-msgstr "Kòlekcëjô"
-
-#: browsers/CollectionTreeView.cpp:547 services/lastfm/LastFmTreeView.cpp:201
-msgid "More..."
-msgstr "Wicy..."
-
-#: browsers/CollectionTreeView.cpp:907
-msgctxt "Organize Files"
-msgid "Organize Files"
-msgstr "Òrganizëjë lopczi"
-
-#: browsers/CollectionTreeView.cpp:1085
-#, fuzzy
-#| msgid "&Delete Tracks"
-msgid "Delete Tracks"
-msgstr "&Rëmôj sztëcczi"
-
 #: browsers/BrowserDock.cpp:33
 #, fuzzy
 #| msgid "File Extension of Source"
@@ -7207,6 +7188,25 @@ msgid_plural "%1 tracks"
 msgstr[0] "1 sztëczk"
 msgstr[1] "%1 sztëcczi"
 msgstr[2] "%1 sztëczków"
+
+#: browsers/CollectionTreeView.cpp:248 configdialog/ConfigDialog.cpp:59
+msgid "Collection"
+msgstr "Kòlekcëjô"
+
+#: browsers/CollectionTreeView.cpp:547 services/lastfm/LastFmTreeView.cpp:201
+msgid "More..."
+msgstr "Wicy..."
+
+#: browsers/CollectionTreeView.cpp:907
+msgctxt "Organize Files"
+msgid "Organize Files"
+msgstr "Òrganizëjë lopczi"
+
+#: browsers/CollectionTreeView.cpp:1085
+#, fuzzy
+#| msgid "&Delete Tracks"
+msgid "Delete Tracks"
+msgstr "&Rëmôj sztëcczi"
 
 #: configdialog/dialogs/DatabaseConfig.cpp:93
 #, fuzzy
@@ -12783,46 +12783,6 @@ msgstr ""
 msgid "Ok"
 msgstr "Ok"
 
-#: playlist/PlaylistInfoWidget.cpp:60
-#, kde-format
-msgctxt "%1 is number of tracks, %2 is time"
-msgid "%1 track (%2)"
-msgid_plural "%1 tracks (%2)"
-msgstr[0] "%1 sztëczk (%2)"
-msgstr[1] "%1 sztëcczi (%2)"
-msgstr[2] "%1 sztëczków (%2)"
-
-#: playlist/PlaylistInfoWidget.cpp:86 playlist/PlaylistInfoWidget.cpp:92
-#, fuzzy, kde-format
-#| msgid "&Save Playlist"
-msgid "Total playlist size: %1"
-msgstr "&Zapiszë lëstã graniô"
-
-#: playlist/PlaylistInfoWidget.cpp:87
-#, kde-format
-msgid "Queue size: %1"
-msgstr ""
-
-#: playlist/PlaylistInfoWidget.cpp:88
-#, kde-format
-msgid "Queue length: %1"
-msgstr ""
-
-#: playlist/PlaylistInfoWidget.cpp:99
-#, kde-format
-msgctxt "%1 is number of tracks"
-msgid "%1 track"
-msgid_plural "%1 tracks"
-msgstr[0] "%1 sztëczk"
-msgstr[1] "%1 sztëcczi"
-msgstr[2] "%1 sztëczków"
-
-#: playlist/PlaylistInfoWidget.cpp:105
-#, fuzzy
-#| msgid "tracks"
-msgid "No tracks"
-msgstr "sztëczków"
-
 #: playlist/PlaylistModel.cpp:242
 #, fuzzy
 #| msgid "..."
@@ -12925,6 +12885,46 @@ msgstr "Biéżnô lësta òdgrëwaniô"
 #| msgid "&Save Playlist"
 msgid "&Save playlist to \"%1\""
 msgstr "&Zapiszë lëstã graniô"
+
+#: playlist/PlaylistInfoWidget.cpp:68
+#, kde-format
+msgctxt "%1 is number of tracks, %2 is time"
+msgid "%1 track (%2)"
+msgid_plural "%1 tracks (%2)"
+msgstr[0] "%1 sztëczk (%2)"
+msgstr[1] "%1 sztëcczi (%2)"
+msgstr[2] "%1 sztëczków (%2)"
+
+#: playlist/PlaylistInfoWidget.cpp:94 playlist/PlaylistInfoWidget.cpp:100
+#, fuzzy, kde-format
+#| msgid "&Save Playlist"
+msgid "Total playlist size: %1"
+msgstr "&Zapiszë lëstã graniô"
+
+#: playlist/PlaylistInfoWidget.cpp:95
+#, kde-format
+msgid "Queue size: %1"
+msgstr ""
+
+#: playlist/PlaylistInfoWidget.cpp:96
+#, kde-format
+msgid "Queue length: %1"
+msgstr ""
+
+#: playlist/PlaylistInfoWidget.cpp:108
+#, kde-format
+msgctxt "%1 is number of tracks"
+msgid "%1 track"
+msgid_plural "%1 tracks"
+msgstr[0] "%1 sztëczk"
+msgstr[1] "%1 sztëcczi"
+msgstr[2] "%1 sztëczków"
+
+#: playlist/PlaylistInfoWidget.cpp:114
+#, fuzzy
+#| msgid "tracks"
+msgid "No tracks"
+msgstr "sztëczków"
 
 #: playlistgenerator/ConstraintGroup.cpp:87
 #, fuzzy
