@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-13 03:51+0200\n"
+"POT-Creation-Date: 2011-06-15 03:48+0200\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -19,6 +19,91 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 "X-Generator: Lokalize 1.0\n"
+
+#: ActionClasses.cpp:86
+msgid "Amarok Menu"
+msgstr "Menu Amaroka"
+
+#: ActionClasses.cpp:176
+msgid "Play/Pause"
+msgstr "Òdgrëwanié/Paùza"
+
+#: ActionClasses.cpp:313
+msgid "Click to change"
+msgstr "Klëkni abë zmienic"
+
+#: ActionClasses.cpp:330
+msgid "&Replay Gain Mode"
+msgstr ""
+
+#: ActionClasses.cpp:332
+#, fuzzy
+#| msgctxt "State, as in, disabled"
+#| msgid "&Off"
+msgctxt "Replay Gain state, as in, disabled"
+msgid "&Off"
+msgstr "&Wëłączony"
+
+#: ActionClasses.cpp:332
+msgctxt "Item, as in, music"
+msgid "&Track"
+msgstr "S&ztëczk"
+
+#: ActionClasses.cpp:333
+msgid "&Album"
+msgstr "&Albùm"
+
+#: ActionClasses.cpp:342
+msgid "&Equalizer"
+msgstr "&Kòrektor"
+
+#: ActionClasses.cpp:370
+#, fuzzy
+#| msgid "Your machine does not support OpenGL applets."
+msgid "Your current setup does not support the equalizer feature"
+msgstr "Twój kòmpùtr nie wspiérô apletów OpenGL."
+
+#: ActionClasses.cpp:375
+#, fuzzy
+#| msgctxt "State, as in, disabled"
+#| msgid "&Off"
+msgctxt "Equalizer state, as in, disabled"
+msgid "&Off"
+msgstr "&Wëłączony"
+
+#: ActionClasses.cpp:398
+msgid "Burn"
+msgstr "Nagrôj"
+
+#: ActionClasses.cpp:437
+msgid "Current Playlist"
+msgstr "Biéżnô lësta òdgrëwaniô"
+
+#: ActionClasses.cpp:438
+msgid "Selected Tracks"
+msgstr "Wëbróné sztëcczi"
+
+#: ActionClasses.cpp:469
+msgid "Stop"
+msgstr "Zatrzëmôj"
+
+#: ActionClasses.cpp:521
+#, fuzzy
+#| msgid "Love Current Track"
+msgid "Stop after current Track"
+msgstr "Achtnij biéżny sztëczk"
+
+#: ActionClasses.cpp:536
+#, fuzzy
+#| msgid "Love Current Track"
+msgid "Stop after current track: On"
+msgstr "Achtnij biéżny sztëczk"
+
+#: ActionClasses.cpp:542
+#, fuzzy
+#| msgid "Love Current Track"
+msgid "Stop after current track: Off"
+msgstr "Achtnij biéżny sztëczk"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -5431,91 +5516,6 @@ msgstr "Grëpòwania"
 msgid "Verbose"
 msgstr ""
 
-#: ActionClasses.cpp:86
-msgid "Amarok Menu"
-msgstr "Menu Amaroka"
-
-#: ActionClasses.cpp:176
-msgid "Play/Pause"
-msgstr "Òdgrëwanié/Paùza"
-
-#: ActionClasses.cpp:313
-msgid "Click to change"
-msgstr "Klëkni abë zmienic"
-
-#: ActionClasses.cpp:330
-msgid "&Replay Gain Mode"
-msgstr ""
-
-#: ActionClasses.cpp:332
-#, fuzzy
-#| msgctxt "State, as in, disabled"
-#| msgid "&Off"
-msgctxt "Replay Gain state, as in, disabled"
-msgid "&Off"
-msgstr "&Wëłączony"
-
-#: ActionClasses.cpp:332
-msgctxt "Item, as in, music"
-msgid "&Track"
-msgstr "S&ztëczk"
-
-#: ActionClasses.cpp:333
-msgid "&Album"
-msgstr "&Albùm"
-
-#: ActionClasses.cpp:342
-msgid "&Equalizer"
-msgstr "&Kòrektor"
-
-#: ActionClasses.cpp:370
-#, fuzzy
-#| msgid "Your machine does not support OpenGL applets."
-msgid "Your current setup does not support the equalizer feature"
-msgstr "Twój kòmpùtr nie wspiérô apletów OpenGL."
-
-#: ActionClasses.cpp:375
-#, fuzzy
-#| msgctxt "State, as in, disabled"
-#| msgid "&Off"
-msgctxt "Equalizer state, as in, disabled"
-msgid "&Off"
-msgstr "&Wëłączony"
-
-#: ActionClasses.cpp:398
-msgid "Burn"
-msgstr "Nagrôj"
-
-#: ActionClasses.cpp:437
-msgid "Current Playlist"
-msgstr "Biéżnô lësta òdgrëwaniô"
-
-#: ActionClasses.cpp:438
-msgid "Selected Tracks"
-msgstr "Wëbróné sztëcczi"
-
-#: ActionClasses.cpp:469
-msgid "Stop"
-msgstr "Zatrzëmôj"
-
-#: ActionClasses.cpp:521
-#, fuzzy
-#| msgid "Love Current Track"
-msgid "Stop after current Track"
-msgstr "Achtnij biéżny sztëczk"
-
-#: ActionClasses.cpp:536
-#, fuzzy
-#| msgid "Love Current Track"
-msgid "Stop after current track: On"
-msgstr "Achtnij biéżny sztëczk"
-
-#: ActionClasses.cpp:542
-#, fuzzy
-#| msgid "Love Current Track"
-msgid "Stop after current track: Off"
-msgstr "Achtnij biéżny sztëczk"
-
 #: equalizer/EqualizerPresets.cpp:90
 msgid "Manual"
 msgstr ""
@@ -7247,10 +7247,6 @@ msgstr "Ùsłëżnotë Jinterneta"
 msgid "Devices"
 msgstr "Media"
 
-#: configdialog/dialogs/ScriptSelector.cpp:31 dialogs/ScriptSelector.cpp:31
-msgid "Search Scripts"
-msgstr "Szëkôj w skriptach"
-
 #: configdialog/dialogs/ScriptsConfig.cpp:53
 #, fuzzy
 #| msgid "General"
@@ -7280,6 +7276,10 @@ msgid ""
 "<p>Script successfully uninstalled.</p><p>Please restart Amarok to totally "
 "remove the script.</p>"
 msgstr ""
+
+#: configdialog/dialogs/ScriptSelector.cpp:31 dialogs/ScriptSelector.cpp:30
+msgid "Search Scripts"
+msgstr "Szëkôj w skriptach"
 
 #: configdialog/ConfigDialog.cpp:58
 msgctxt "Miscellaneous settings"
@@ -11573,56 +11573,55 @@ msgid ""
 "dB"
 msgstr "0 dB"
 
-#: dialogs/EqualizerDialog.cpp:168 dialogs/EqualizerDialog.cpp:262
-#: dialogs/EqualizerDialog.cpp:318
+#: dialogs/EqualizerDialog.cpp:256
 #, fuzzy
 #| msgid "Off"
 msgctxt "Equalizer state, as in, disabled"
 msgid "Off"
 msgstr "Wëłączony"
 
-#: dialogs/EqualizerDialog.cpp:270
+#: dialogs/EqualizerDialog.cpp:273
 #, fuzzy
 #| msgid "Delete the preset."
 msgid "Cannot delete this preset"
 msgstr "Rëmôj ùstawë."
 
-#: dialogs/EqualizerDialog.cpp:271
+#: dialogs/EqualizerDialog.cpp:274
 msgid "Default presets can not be deleted"
 msgstr ""
 
-#: dialogs/EqualizerDialog.cpp:272
+#: dialogs/EqualizerDialog.cpp:275
 msgid "Error deleting preset"
 msgstr ""
 
-#: dialogs/EqualizerDialog.cpp:284
+#: dialogs/EqualizerDialog.cpp:298
 #, fuzzy
 #| msgid "Delete the preset."
 msgid "Cannot restore this preset"
 msgstr "Rëmôj ùstawë."
 
-#: dialogs/EqualizerDialog.cpp:285
+#: dialogs/EqualizerDialog.cpp:299
 msgid "Only default presets can be restored"
 msgstr ""
 
-#: dialogs/EqualizerDialog.cpp:286
+#: dialogs/EqualizerDialog.cpp:300
 msgid "Error restoring preset"
 msgstr ""
 
-#: dialogs/EqualizerDialog.cpp:305
+#: dialogs/EqualizerDialog.cpp:320
 #, fuzzy
 #| msgid "Save the preset."
 msgid "Cannot save this preset"
 msgstr "Zapiszë ùstawë."
 
-#: dialogs/EqualizerDialog.cpp:306
+#: dialogs/EqualizerDialog.cpp:321
 msgid ""
 "Preset 'Manual' is reserved for momentary settings.\n"
 "                                              Please choose different name "
 "and try again."
 msgstr ""
 
-#: dialogs/EqualizerDialog.cpp:308
+#: dialogs/EqualizerDialog.cpp:323
 msgid "Error saving preset"
 msgstr ""
 
