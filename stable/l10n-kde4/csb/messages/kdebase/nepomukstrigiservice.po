@@ -1,0 +1,645 @@
+# translation of nepomuk.po to Kaszëbsczi
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Michôł Òstrowsczi <michol@linuxcsb.org>, 2007, 2008, 2009.
+# Mark Kwidzińsczi <mark@linuxcsb.org>, 2008.
+# Mark Kwidzińśczi <mark@linuxcsb.org>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: nepomuk\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2011-06-21 04:14+0200\n"
+"PO-Revision-Date: 2009-12-15 18:43+0100\n"
+"Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
+"Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2)\n"
+
+#: indexer/main.cpp:39
+#, fuzzy
+#| msgid "Nepomuk Strigi File Indexing"
+msgid "NepomukIndexer"
+msgstr "Indeksownik lopków Stigi Nepomuka"
+
+#: indexer/main.cpp:41
+msgid ""
+"NepomukIndexer indexes the contents of a file and saves the results in "
+"Nepomuk"
+msgstr ""
+
+#: indexer/main.cpp:43
+msgid "(C) 2011, Vishesh Handa"
+msgstr ""
+
+#: indexer/main.cpp:44
+msgid "Vishesh Handa"
+msgstr ""
+
+#: indexer/main.cpp:44
+#, fuzzy
+#| msgid "Maintainer"
+msgid "Current maintainer"
+msgstr "Òpiekùn"
+
+#: indexer/main.cpp:49
+msgid "The URI provided will be forced on the resource"
+msgstr ""
+
+#: indexer/main.cpp:50
+msgid "The modification time of the resource in time_t format"
+msgstr ""
+
+#: indexer/main.cpp:51
+msgid "The URL of the file to be indexed"
+msgstr ""
+
+#: indexer/main.cpp:52
+msgid "Remove all indexed data of the URL provided"
+msgstr ""
+
+#: eventmonitor.cpp:69
+msgid "Indexing files for fast searching. This process may take a while."
+msgstr "Indeksowanié lopków dlô chùtczi szëkbë. To mòże kąsk zbawic."
+
+#: eventmonitor.cpp:98 eventmonitor.cpp:127
+msgid "Resuming indexing of files for fast searching."
+msgstr "Kòntinuacëjô indeksowaniô lopków dlô chùtczi szëkbë. "
+
+#: eventmonitor.cpp:105
+msgid "Suspending the indexing of files to preserve resources."
+msgstr "Indeksowanié lopków zatrzëmóné dlô òbszczãdzenia dostónków systemë."
+
+#: eventmonitor.cpp:119
+#, kde-format
+msgid "Disk space is running low (%1 left). Suspending indexing of files."
+msgstr "Plac na diskù sã kùńczi (%1 òstało). Zatrzëmanié indeksowaniô."
+
+#: eventmonitor.cpp:147
+#, fuzzy, kde-format
+#| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
+#| msgid "Initial indexing of files for fast searching finished in %1"
+msgctxt "@info %1 is a duration formatted using KLocale::prettyFormatDuration"
+msgid "Initial indexing of files for fast searching finished in %1"
+msgstr "Pierszé indeksowanié lopków dlô chùtczi szëkbë zakùńczi sã za %1"
+
+#: strigiservice.cpp:158
+msgctxt "@info:status"
+msgid "File indexer is suspended"
+msgstr "Indeksownik lopków je zatrzëmóny"
+
+#: strigiservice.cpp:164
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "Strigi is currently indexing files in folder %1"
+msgctxt "@info:status"
+msgid "Strigi is currently indexing files"
+msgstr "Strigi indeksëjë prawie lopczi w katalogù %1"
+
+#: strigiservice.cpp:168
+#, kde-format
+msgctxt "@info:status"
+msgid "Strigi is currently indexing files in folder %1"
+msgstr "Strigi indeksëjë prawie lopczi w katalogù %1"
+
+#: strigiservice.cpp:170
+#, fuzzy, kde-format
+#| msgctxt "@info:status"
+#| msgid "Strigi is currently indexing files in folder %1"
+msgctxt "@info:status"
+msgid "Strigi is currently indexing files in folder %1 (%2)"
+msgstr "Strigi indeksëjë prawie lopczi w katalogù %1"
+
+#: strigiservice.cpp:174
+msgctxt "@info:status"
+msgid "File indexer is idle"
+msgstr "Indeksownik lopków nie je aktiwny"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Michôł Òstrowsczi, Mark Kwidzińsczi"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "michol@linuxcsb.org, mark@linuxcsb.org"
+
+#, fuzzy
+#~| msgid "Search Service"
+#~ msgid "Search excerpt: %1"
+#~ msgstr "Ùsłëżnota szëkbë"
+
+#~ msgid ""
+#~ "The Nepomuk system is not activated. Unable to answer queries without it."
+#~ msgstr ""
+#~ "Systema Nepomuk nie je włączonô. Nié mòże terô przerôbiac zapëtaniów."
+
+#~ msgid ""
+#~ "The Nepomuk query service is not running. Unable to answer queries "
+#~ "without it."
+#~ msgstr ""
+#~ "Ùsłëżnota zapëtania Nepomuka nie robi. Nié mòże terô przerôbiac "
+#~ "zapëtaniów."
+
+#~ msgctxt ""
+#~ "Month and year used in a tree above the actual days. Have a look at "
+#~ "http://api.kde.org/4.x-api/kdelibs-apidocs/kdecore/html/"
+#~ "classKCalendarSystem.html#a560204439a4b670ad36c16c404f292b4 to see which "
+#~ "variables you can use and ask kde-i18n-doc@kde.org if you have problems "
+#~ "understanding how to translate this"
+#~ msgid "%B %Y"
+#~ msgstr "%B %Y"
+
+#~ msgid "Today"
+#~ msgstr "Dzysô"
+
+#~ msgid "Calendar"
+#~ msgstr "Kalãdôrz"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Please insert the removable medium <resource>%1</resource> to access this "
+#~ "file."
+#~ msgstr ""
+#~ "Proszã wetknąc przenosné ùrządzenié <resource>%1</resource> dlô przëstãpù "
+#~ "do negò lopka."
+
+#~ msgid ""
+#~ "Do you really want to delete the resource and all relations to and from "
+#~ "it?"
+#~ msgstr "Chcesz na gwës rëmnąc nen dostónk ë wszëtczé jegò pòwiązania?"
+
+#~ msgid "Delete Resource"
+#~ msgstr "Rëmôj dostónk"
+
+#~ msgid "Resource does not exist"
+#~ msgstr "Felëje dostónka"
+
+#~ msgid "Relations:"
+#~ msgstr "Pòwiązania:"
+
+#~ msgid "Backlinks:"
+#~ msgstr "Lënczi nazôd:"
+
+#~ msgid "Actions:"
+#~ msgstr "Dzejania:"
+
+#~ msgid "Delete resource"
+#~ msgstr "Rëmôj dostónk"
+
+#~ msgctxt "@info - notification message"
+#~ msgid ""
+#~ "Nepomuk Semantic Desktop needs the Virtuoso RDF server to store its data. "
+#~ "Installing the Virtuoso Soprano plugin is mandatory for using Nepomuk."
+#~ msgstr ""
+#~ "Ùsłëżnotë Nepomuk Semantic brëkùją serwera Virtuoso RDF do trzëmaniô "
+#~ "pòdôwków. Abë brëkòwac Nepomuka nót je winstalowac wtëkôcza Virtuoso "
+#~ "Soprano."
+
+#~ msgctxt "@info - notification message"
+#~ msgid ""
+#~ "Nepomuk Semantic Desktop needs the Virtuoso RDF server to store its data. "
+#~ "Installing the Virtuoso server and ODBC driver is mandatory for using "
+#~ "Nepomuk."
+#~ msgstr ""
+#~ "Ùsłëżnotë Nepomuk Semantic brëkùją serwera Virtuoso RDF do trzëmaniô "
+#~ "pòdôwków. Abë brëkòwac Nepomuka nót je winstalowac serwer Virtuoso ë "
+#~ "czérowniczi ODBC."
+
+#~ msgctxt "@info - notification message"
+#~ msgid ""
+#~ "Nepomuk was not able to find the configured database backend '%1'. "
+#~ "Existing data can thus not be accessed. For data security reasons Nepomuk "
+#~ "will be disabled until the situation has been resolved manually."
+#~ msgstr ""
+#~ "Nepomuk nié mòże nalezc skònfigùrowóny bazë czérowników „%1“. Przez to "
+#~ "nié mògą bëc brëkòwóné egzystejacé pòdôwczi. Przez bezpiek pòdôwków bãdze "
+#~ "Nepomuk wëłączomy - do rëmniãcô rãczno problemë."
+
+#~ msgctxt "@info - notification message"
+#~ msgid "Converting Nepomuk data to a new backend. This might take a while."
+#~ msgstr ""
+#~ "Pòdôwczi Nepomuka bãdą kònwertowóné do fòrmatu czérowników. To kąsk zbawi."
+
+#~ msgctxt "@info - notification message"
+#~ msgid ""
+#~ "Converting Nepomuk data to the new backend failed. For data security "
+#~ "reasons Nepomuk will be disabled until the situation has been resolved "
+#~ "manually."
+#~ msgstr ""
+#~ "Kònwertowanié pòdôwków Nepomuka do nowégò czérownika nie darzëło sã. "
+#~ "Nepomuk bãdze wëłączony, pòdôwczi mòże równak zjinaczëc rãczno."
+
+#~ msgctxt "@info - notification message"
+#~ msgid "Successfully converted Nepomuk data to the new backend."
+#~ msgstr "Ùdałé kònwertowanié pòdôwków Nepomuka dlô nowégò czérownika."
+
+#~ msgctxt "@title job"
+#~ msgid "Converting Nepomuk database"
+#~ msgstr "Kònwertowanié bazë pòdôwków Nepomuka"
+
+#~ msgid "Old backend"
+#~ msgstr "Stôri czérownik"
+
+#~ msgid "New backend"
+#~ msgstr "Nowi czérownik"
+
+#~ msgid "Parsing of file %1 failed (%2)"
+#~ msgstr "Wczëtanié lopka %1 nie darzëło sã (%2)"
+
+#, fuzzy
+#~| msgid "Nepomuk"
+#~ msgid "Nepomuk Backup"
+#~ msgstr "Nepomuk"
+
+#, fuzzy
+#~| msgid "Nepomuk"
+#~ msgid "NepomukBackup"
+#~ msgstr "Nepomuk"
+
+#~ msgid "Sebastian Trüg"
+#~ msgstr "Sebastian Trüg"
+
+#, fuzzy
+#~| msgid ""
+#~| "The Nepomuk query service is not running. Unable to answer queries "
+#~| "without it."
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The Nepomuk backup service does not seem to be running. Backups cannot be "
+#~ "handled without it."
+#~ msgstr ""
+#~ "Ùsłëżnota zapëtania Nepomuka nie robi. Nié mòże terô przerôbiac "
+#~ "zapëtaniów."
+
+#~ msgid "Nepomuk Server"
+#~ msgstr "Serwera Nepomuk"
+
+#~ msgid "Nepomuk Server - Manages Nepomuk storage and services"
+#~ msgstr "Serwera Nepomuk - sprôwiô serwisama ë dostónkama Nepomuka"
+
+#~ msgid "(c) 2008, Sebastian Trüg"
+#~ msgstr "(c) 2008, Sebastian Trüg"
+
+#~ msgid "Nepomuk Configuration Module"
+#~ msgstr "Mòdul kònfigùracëji Nepomuka"
+
+#, fuzzy
+#~| msgid "Copyright 2007 Sebastian Trüg"
+#~ msgid "Copyright 2007-2010 Sebastian Trüg"
+#~ msgstr "Copyright 2007 Sebastian Trüg"
+
+#, fuzzy
+#~| msgid ""
+#~| "The Nepomuk Server is not running. The settings have been saved and will "
+#~| "be used the next time the server is started."
+#~ msgid ""
+#~ "Failed to start Nepomuk Server. The settings have been saved and will be "
+#~ "used the next time the server is started."
+#~ msgstr ""
+#~ "Serwera Nepomuk nie robi. Nastôwë òstałë zapisóné ë bãdą w ùżëcym przë "
+#~ "pòstãpnym zrëszeniu serwerë."
+
+#~ msgid "Nepomuk server not running"
+#~ msgstr "Serwera Nepomuk nie robi"
+
+#, fuzzy
+#~| msgid "Nepomuk store size:"
+#~ msgctxt "@info:status"
+#~ msgid "Nepomuk system is active"
+#~ msgstr "Miara pamiãcë Nepomuka"
+
+#, fuzzy
+#~| msgid "Nepomuk store size:"
+#~ msgctxt "@info:status"
+#~ msgid "Nepomuk system is inactive"
+#~ msgstr "Miara pamiãcë Nepomuka"
+
+#~ msgctxt "@info:status %1 is an error message returned by a dbus interface."
+#~ msgid "Failed to contact Strigi indexer (%1)"
+#~ msgstr "Felënk sparłãczeniô z indeksownikã Strigi (%1)"
+
+#~ msgctxt "@info:status"
+#~ msgid ""
+#~ "Strigi service failed to initialize, most likely due to an installation "
+#~ "problem."
+#~ msgstr ""
+#~ "Ùsłëżnota Strigi nie mògła òstac zrëszonô, gwës przez problemã z "
+#~ "jinstalacëją."
+
+#~ msgctxt "@info:status"
+#~ msgid "Strigi service not running."
+#~ msgstr "Ùsłëżnota Strigi nie je zrëszonô."
+
+#~ msgctxt "@info:tooltip %1 is the path of the folder in a listview"
+#~ msgid "<filename>%1</filename><nl/>(will be indexed for desktop search)"
+#~ msgstr "<filename>%1</filename><nl/>(bãdze zindeksowóné dlô szëkbë pùltu)"
+
+#~ msgctxt "@info:tooltip %1 is the path of the folder in a listview"
+#~ msgid ""
+#~ "<filename>%1</filename><nl/> (will <emphasis>not</emphasis> be indexed "
+#~ "for desktop search)"
+#~ msgstr ""
+#~ "<filename>%1</filename><nl/>    (<emphasis>nie</emphasis>bãdze "
+#~ "zindeksowóné dlô szëkbë pùltu)"
+
+#~ msgid "Calculation failed"
+#~ msgstr "Rechòwanié nie darzëło sã"
+
+#~ msgid "1 file in index"
+#~ msgid_plural "%1 files in index"
+#~ msgstr[0] "1 lopk w indekse"
+#~ msgstr[1] "%1 lopczi w indekse"
+#~ msgstr[2] "%1 lopków w indekse"
+
+#, fuzzy
+#~| msgid "Strigi Index Folders"
+#~ msgctxt ""
+#~ "@title:window Referring to the folders which will be searched for files "
+#~ "to index for desktop search"
+#~ msgid "Customizing Index Folders"
+#~ msgstr "Indeksowóné katalodżi Strigi"
+
+#~ msgid "Nepomuk Service Stub"
+#~ msgstr "Ùsłëżnota Nepomuka"
+
+#~ msgctxt "@info:shell"
+#~ msgid "Service to start"
+#~ msgstr "Zrëszë ùsłëżnotã"
+
+#~ msgid "No service name specified"
+#~ msgstr "Nie pòdónô miona ùsłëżnotë"
+
+#~ msgid "Unknown service name:"
+#~ msgstr "Nieznóné miono ùsłëżnotë:"
+
+#, fuzzy
+#~| msgctxt ""
+#~| "Boolean OR keyword in desktop search strings. You can add several "
+#~| "variants separated by spaces, e.g. retain the English one alongside the "
+#~| "translation; keywords are not case sensitive. Make sure there is no "
+#~| "conflict with the AND keyword."
+#~| msgid "or"
+#~ msgid "Form"
+#~ msgstr "abò"
+
+#, fuzzy
+#~| msgid "KSqueezedTextLabel"
+#~ msgid "TextLabel"
+#~ msgstr "KSqueezedTextLabel"
+
+#, fuzzy
+#~| msgctxt "@title job"
+#~| msgid "Converting Nepomuk database"
+#~ msgid "Restore Nepomuk Database"
+#~ msgstr "Kònwertowanié bazë pòdôwków Nepomuka"
+
+#~ msgid "Basic Settings"
+#~ msgstr "Spòdlowé nastôwë"
+
+#~ msgid "Nepomuk Semantic Desktop"
+#~ msgstr "Semanticzny pùlt Nepomuka"
+
+#~ msgid ""
+#~ "Nepomuk Semantic Desktop enables tagging and rating of files integrated "
+#~ "with the Desktop Search."
+#~ msgstr ""
+#~ "Semanticzny pùlt Nepomuka włączô znakòwanié ë taksowanié lopków "
+#~ "sparłączonëch z pùltową szëkbą."
+
+#~ msgid "Enable Nepomuk Semantic Desktop"
+#~ msgstr "Włączë semanticzny pùlt Nepomuka"
+
+#~ msgid "Strigi Desktop File Indexer"
+#~ msgstr "Pùltowi indeksownik lopków Stigi"
+
+#~ msgid ""
+#~ "Strigi desktop search allows searching for files by content instead of "
+#~ "just by name."
+#~ msgstr ""
+#~ "Pùltowô szëkba Strigi pòzwôlô na szëkbã za lopkama, zdrząc na jich "
+#~ "zamkłosc a nié blós na miono."
+
+#~ msgid "Enable Strigi Desktop File Indexer"
+#~ msgstr "Włączë pùltowi indeksownik lopków Stigi"
+
+#~ msgid "File Indexing"
+#~ msgstr "Indeksownik lopków"
+
+#~ msgid ""
+#~ "Select the local folders that contain files to be indexed for fast "
+#~ "desktop searches"
+#~ msgstr ""
+#~ "Wëbierzë môlowi katalog, chtërnegò lopczi mają òstac indeksowóné dlô "
+#~ "szëkbë pùltu."
+
+#~ msgid "KSqueezedTextLabel"
+#~ msgstr "KSqueezedTextLabel"
+
+#, fuzzy
+#~| msgid "Strigi Index Folders"
+#~ msgid "Customize index folders..."
+#~ msgstr "Indeksowóné katalodżi Strigi"
+
+#~ msgid ""
+#~ "Index the files on removable media like USB sticks when they are mounted"
+#~ msgstr ""
+#~ "Indeksowanié lopków na przenosnych ùrządzeniach jakno pendrajwë, jeżlë ne "
+#~ "są zamòntowóné"
+
+#, fuzzy
+#~| msgid "Index Files on removable media"
+#~ msgid "Index files on removable media"
+#~ msgstr "Indeksowanié lopków na przenosnych ùrządzeniach"
+
+#~ msgid "Advanced Settings"
+#~ msgstr "Awansowóné nastôwë"
+
+#~ msgid "Memory Usage"
+#~ msgstr "Brëkùnk pamiãcë"
+
+#, fuzzy
+#~| msgid " MB"
+#~ msgid " MiB"
+#~ msgstr " MB"
+
+#, fuzzy
+#~| msgid "Nepomuk store size:"
+#~ msgid "Nepomuk Repository Details"
+#~ msgstr "Miara pamiãcë Nepomuka"
+
+#~ msgid "Indexed files:"
+#~ msgstr "Indeksowóné lopczi:"
+
+#~ msgid "Calculating..."
+#~ msgstr "Rechòwanié..."
+
+#~ msgid "Nepomuk store size:"
+#~ msgstr "Miara pamiãcë Nepomuka"
+
+#~ msgid "Strigi Index Folders"
+#~ msgstr "Indeksowóné katalodżi Strigi"
+
+#~ msgid "Check to be able to select hidden folders"
+#~ msgstr "Sprôwdzë czë mòże wëbrac zataconé katalodżi"
+
+#~ msgid "Show hidden folders"
+#~ msgstr "Wëskrzëni zataconé katalodżi"
+
+#~ msgid "Strigi Index Exclude Filters"
+#~ msgstr "Filtrë Strigi wëłącziwającë katalodżi"
+
+#~ msgid "Suspend File Indexing"
+#~ msgstr "Zatrzëmôj indeksowanié lopków"
+
+#~ msgid "Suspend or resume the file indexer manually"
+#~ msgstr "Rãczno zatrzëmôj abò biéj dali z indeksownikã lopków"
+
+#~ msgid "Configure File Indexer"
+#~ msgstr "Kònfigùrëjë indeksownika lopków"
+
+#~ msgid "Configure"
+#~ msgstr "Kònfigùracëjô"
+
+#~ msgid ""
+#~ "No Soprano Database backend available. Please check your installation."
+#~ msgstr "Felëje czérownika bazë pòdôwków Soprano. Sprôwdzë instalacëjã."
+
+#~ msgid "Nepomuk cannot be started"
+#~ msgstr "Nepomuk nié mòże òstac zrëszony"
+
+#~ msgid ""
+#~ "The Nepomuk Server is not running. The settings will be used the next "
+#~ "time the server is started."
+#~ msgstr ""
+#~ "Serwera Nepomuk nie robi. Nastôwë bãdą w ùżëcym przë pòstãpnym zrëszeniu "
+#~ "serwerë."
+
+#~ msgid "Strigi Indexing State"
+#~ msgstr "Stón indeksownika lopków Stigi"
+
+#~ msgid "Nepomuk Storage State"
+#~ msgstr "Stón zapisënka Nepomuka"
+
+#~ msgid "Filters which define the files that Strigi should ignore"
+#~ msgstr "Filtrë jaczé definiują lopczi, chtërne Strigi mô ignorowac"
+
+#, fuzzy
+#~| msgid "Query Results"
+#~ msgctxt ""
+#~ "@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
+#~ "user entered."
+#~ msgid "Query Results from '%1'"
+#~ msgstr "Skùtczi zapëtaniów"
+
+#~ msgid "Query Results"
+#~ msgstr "Skùtczi zapëtaniów"
+
+#~ msgid ""
+#~ "The maximum amount of memory the Nepomuk database should use. The more "
+#~ "memory Nepomuk has the more performant it will be."
+#~ msgstr ""
+#~ "Maksymalnô pamiãc jaką mòże brëkòwac baza pòdôwków Nepomuka. Wicy pamiãcë "
+#~ "dlô Nepomuka zwikszô jegò wëdajnotã."
+
+#~ msgctxt "@info:status"
+#~ msgid "Checking file system for new files"
+#~ msgstr "Sprôwdzanié systemë lopków za nowima lopkama"
+
+#~ msgctxt ""
+#~ "Boolean AND keyword in desktop search strings. You can add several "
+#~ "variants separated by spaces, e.g. retain the English one alongside the "
+#~ "translation; keywords are not case sensitive. Make sure there is no "
+#~ "conflict with the OR keyword."
+#~ msgid "and"
+#~ msgstr "ë"
+
+#~ msgctxt "@info - notification message"
+#~ msgid "Rebuilding Nepomuk full text search index for new features done."
+#~ msgstr "Zbùdowanié znowa fùltekstowi szëkbë Nepomuka òstało zakùńczoné."
+
+#~ msgctxt "@info - notification message"
+#~ msgid ""
+#~ "Rebuilding Nepomuk full text search index for new features. This will "
+#~ "only be done once and might take a while."
+#~ msgstr ""
+#~ "Zbùdowanié znowa fùltekstowi szëkbë Nepomuka dlô nowich fùnkcëjów. Na "
+#~ "zjinaka bãdze le rôz zrobionô ë mòże kąsk bawic."
+
+#~ msgid "All Music Files"
+#~ msgstr "Wszëtczé mùzyczné lopczi"
+
+#~ msgid "Recent Files"
+#~ msgstr "Slédno brëkòwóné lopczi"
+
+#~ msgid "Some data was lost in the conversion."
+#~ msgstr "Niechtërné pòdôwczi zadżinãłe òbczas kònwersëji."
+
+#~ msgid "Resuming Strigi file indexing."
+#~ msgstr "Indeksowanié lopków Strigi jidze dali."
+
+#~ msgid "Configure Strigi"
+#~ msgstr "Kònfigùracëjô Strigi"
+
+#~ msgid "Today's Files"
+#~ msgstr "Dzysdniowé lopczi"
+
+#~ msgid "Yesterday's Files"
+#~ msgstr "Wczorajszé lopczi"
+
+#~ msgctxt "@info_status"
+#~ msgid "File indexer is suspended"
+#~ msgstr "Indekswonik lopków òstô zatrzëmóny"
+
+#~ msgctxt "@info_status"
+#~ msgid "Strigi is currently indexing files in folder %1"
+#~ msgstr "Strigi zindeksowôł prawie lopczi w katalogù %1"
+
+#~ msgctxt "@info_status"
+#~ msgid "File indexer is idle"
+#~ msgstr "Indeksownik lopków nie robi"
+
+#~ msgid "Resume Strigi Indexing"
+#~ msgstr "Biéj dali z indeksownikã lopków Strigi"
+
+#, fuzzy
+#~| msgid "Strigi Desktop Search"
+#~ msgid "Nepomuk/Strigi Desktop Search"
+#~ msgstr "Pùltowô szëkba Stigi"
+
+#~ msgid "The folders Strigi scans for indexable files"
+#~ msgstr "Katalodże Strigi skanëje za lopkami do indeksacji"
+
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Select the folders that "
+#~ "Strigi should scan for files to index. The files in these folders will be "
+#~ "searchable through Strigi Desktop Search.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Wëbiérzë katalodżi dze "
+#~ "Strigi mô skanowac za lopkama do indeksowaniô. Lopczi w tëch katalogach "
+#~ "bãdą mòżlewé do przeszëkaniô brëkùjąc pùltowi szëkbë Strigi.</p></body></"
+#~ "html>"
+
+#~ msgid ""
+#~ "Strigi (the desktop file indexer) crashed repeatedly. It will not be "
+#~ "started again."
+#~ msgstr ""
+#~ "Strigi (indeksera lopków) skùńczëła dzejac z felą. Nie mdze zrëszona "
+#~ "znowa."
