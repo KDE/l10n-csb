@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-12 04:01+0200\n"
+"POT-Creation-Date: 2011-07-13 03:51+0200\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -3364,7 +3364,7 @@ msgstr ""
 
 #. i18n: file: dialogs/TagDialogBase.ui:1073
 #. i18n: ectx: property (text), widget (QPushButton, removeButton)
-#: rc.cpp:1558 playlistmanager/file/PlaylistFileProvider.cpp:198
+#: rc.cpp:1558 playlistmanager/file/PlaylistFileProvider.cpp:200
 msgid "Remove"
 msgstr "Rëmôj"
 
@@ -6708,26 +6708,6 @@ msgstr ""
 msgid "This bias has no settings."
 msgstr ""
 
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:173
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:222
-#, fuzzy, kde-format
-#| msgid "Playlist"
-msgctxt "number of playlists from one source"
-msgid "One Playlist"
-msgid_plural "%1 playlists"
-msgstr[0] "Lësta graniô"
-msgstr[1] "Lësta graniô"
-msgstr[2] "Lësta graniô"
-
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:439
-#, fuzzy
-#| msgctxt ""
-#| "'Source' (local collection, Magnatune.com, last.fm, ... ) playlist column "
-#| "name and token for playlist layouts"
-#| msgid "Source"
-msgid "Source"
-msgstr "Zdrój"
-
 #: browsers/playlistbrowser/APGCategory.cpp:42
 msgid "Automated Playlist Generator"
 msgstr ""
@@ -7049,7 +7029,7 @@ msgstr "Wpiszë miono nowi grëpë:"
 
 #: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:333
 #: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:251
-#: playlistmanager/file/PlaylistFileProvider.cpp:418
+#: playlistmanager/file/PlaylistFileProvider.cpp:453
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:117
 #, fuzzy
 #| msgid "Configure Playback"
@@ -7084,6 +7064,26 @@ msgid ""
 "playlists found when scanning your collection, and any playlists that you "
 "save are also shown here."
 msgstr ""
+
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:173
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:222
+#, fuzzy, kde-format
+#| msgid "Playlist"
+msgctxt "number of playlists from one source"
+msgid "One Playlist"
+msgid_plural "%1 playlists"
+msgstr[0] "Lësta graniô"
+msgstr[1] "Lësta graniô"
+msgstr[2] "Lësta graniô"
+
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:439
+#, fuzzy
+#| msgctxt ""
+#| "'Source' (local collection, Magnatune.com, last.fm, ... ) playlist column "
+#| "name and token for playlist layouts"
+#| msgid "Source"
+msgid "Source"
+msgstr "Zdrój"
 
 #: browsers/servicebrowser/ServiceBrowser.cpp:40
 msgid ""
@@ -9036,14 +9036,14 @@ msgstr[2] "Rëmanié traków z ùrządzenia"
 
 #: core-impl/collections/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.cpp:115
 #: playlistmanager/PlaylistManager.cpp:342
-#: playlistmanager/file/PlaylistFileProvider.cpp:446
+#: playlistmanager/file/PlaylistFileProvider.cpp:481
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:148
 msgid "Change playlist"
 msgstr "Zmieni lëstã graniô"
 
 #: core-impl/collections/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.cpp:116
 #: playlistmanager/PlaylistManager.cpp:343
-#: playlistmanager/file/PlaylistFileProvider.cpp:447
+#: playlistmanager/file/PlaylistFileProvider.cpp:482
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:149
 msgid "Enter new name for playlist:"
 msgstr "Wpiszë nowé miono dlô lëstë graniô:"
@@ -13507,34 +13507,34 @@ msgstr "Impòrtëjë kòlekcjã"
 msgid "Downloading Playlist"
 msgstr "Ladowanié lëstë gróniô"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:82
+#: playlistmanager/file/PlaylistFileProvider.cpp:84
 #, fuzzy
 #| msgid "Playlist Files"
 msgid "Playlist Files on Disk"
 msgstr "Lopczi lëstë gróniô"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:124
+#: playlistmanager/file/PlaylistFileProvider.cpp:126
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:190
 #, fuzzy
 #| msgid "&Rename"
 msgid "&Rename..."
 msgstr "&zmieni miono"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:136
+#: playlistmanager/file/PlaylistFileProvider.cpp:138
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:202
 #, fuzzy
 #| msgid "&Delete"
 msgid "&Delete..."
 msgstr "&Rëmôj"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:192
+#: playlistmanager/file/PlaylistFileProvider.cpp:194
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:247
 #, fuzzy
 #| msgid "Repeat Track"
 msgid "Remove tracks"
 msgstr "Pòwtórzë sztëczk"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:195
+#: playlistmanager/file/PlaylistFileProvider.cpp:197
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:250
 #, fuzzy, kde-format
 #| msgid "Remove %1"
@@ -13542,14 +13542,14 @@ msgctxt "Remove a track from a saved playlist"
 msgid "Remove From \"%1\""
 msgstr "Rëmôj %1"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:363
-#: playlistmanager/file/PlaylistFileProvider.cpp:391
+#: playlistmanager/file/PlaylistFileProvider.cpp:365
+#: playlistmanager/file/PlaylistFileProvider.cpp:393
 #, fuzzy, kde-format
 #| msgid "This object could not be created."
 msgid "The playlist file \"%1\" could not be loaded."
 msgstr "Nie mòże ùsôdzëc òbiektu"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:420
+#: playlistmanager/file/PlaylistFileProvider.cpp:455
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:119
 #, fuzzy, kde-format
 #| msgid "Do you really want to remove this %1?"
@@ -13559,7 +13559,7 @@ msgstr[0] "Na gwës chcesz rëmnąc %1?"
 msgstr[1] "Na gwës chcesz rëmnąc %1?"
 msgstr[2] "Na gwës chcesz rëmnąc %1?"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:426
+#: playlistmanager/file/PlaylistFileProvider.cpp:461
 msgid "Yes, delete from disk."
 msgstr ""
 
