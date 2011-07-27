@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-13 04:02+0200\n"
+"POT-Creation-Date: 2011-07-27 04:01+0200\n"
 "PO-Revision-Date: 2009-12-16 20:48+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -198,6 +198,24 @@ msgstr "&Aktiwùjë"
 msgid "Start &New Session"
 msgstr "Zrëszë &nową sesëjã"
 
+#: lock/lockprocess.cc:834
+msgid "Will not lock the session, as unlocking would be impossible:\n"
+msgstr "Nié blokùjë sesëji, jeżlë òdblokòwanié bãdze niemòżebné:\n"
+
+#: lock/lockprocess.cc:838
+msgid "Cannot start <i>kcheckpass</i>."
+msgstr "Nié mòże zrëszëc <i>kcheckpass</i>."
+
+#: lock/lockprocess.cc:839
+msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
+msgstr ""
+"<i>kcheckpass</i> nié mòże dzejac. Mòże bëc, że ni ma ùstôwionégò SetUID "
+"sprôwnika."
+
+#: lock/lockprocess.cc:902
+msgid "No appropriate greeter plugin configured."
+msgstr "Ni mô skònfigùrowónégò wtëkôcza przëwitënkù."
+
 #: lock/main.cc:61
 msgid "KDE Screen Locker"
 msgstr "Blokada ekranu KDE"
@@ -230,24 +248,6 @@ msgstr "startëjë z òdblokòwóną dlô kònfigùracëji plasmã"
 msgid "Fork into the background after starting up"
 msgstr ""
 
-#: lock/lockprocess.cc:834
-msgid "Will not lock the session, as unlocking would be impossible:\n"
-msgstr "Nié blokùjë sesëji, jeżlë òdblokòwanié bãdze niemòżebné:\n"
-
-#: lock/lockprocess.cc:838
-msgid "Cannot start <i>kcheckpass</i>."
-msgstr "Nié mòże zrëszëc <i>kcheckpass</i>."
-
-#: lock/lockprocess.cc:839
-msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
-msgstr ""
-"<i>kcheckpass</i> nié mòże dzejac. Mòże bëc, że ni ma ùstôwionégò SetUID "
-"sprôwnika."
-
-#: lock/lockprocess.cc:902
-msgid "No appropriate greeter plugin configured."
-msgstr "Ni mô skònfigùrowónégò wtëkôcza przëwitënkù."
-
 #: main.cpp:38
 msgid "KDE run command interface"
 msgstr "Interfejs zrëszaniô pòlétów KDE"
@@ -268,35 +268,35 @@ msgstr "Aaron J. Seigo"
 msgid "Author and maintainer"
 msgstr "Ùsôdzca ë òpiekùn"
 
-#: krunnerdialog.cpp:70 krunnerapp.cpp:131
+#: krunnerdialog.cpp:70 krunnerapp.cpp:130
 msgid "Run Command"
 msgstr "Zrëszë pòlét"
-
-#: krunnerapp.cpp:136
-msgid "Run Command on clipboard contents"
-msgstr "Zrëszë pòlét na zamkłoscë tacnika"
-
-#: krunnerapp.cpp:142
-msgid "Show System Activity"
-msgstr "Pòkôżë systemòwą aktiwnotã"
-
-#: krunnerapp.cpp:148
-msgid "Switch User"
-msgstr "Przełączë brëkòwnika"
-
-#: krunnerapp.cpp:158
-msgid "Lock Session"
-msgstr "Zablokùjë sesëjã"
-
-#: krunnerapp.cpp:200
-#, kde-format
-msgctxt "Run krunner restricting the search only to runner %1"
-msgid "Run Command (runner \"%1\" only)"
-msgstr "Zrëszë pòlét (blós zrëszôcz \"%1\")"
 
 #: ksystemactivitydialog.cpp:40
 msgid "System Activity"
 msgstr "Systemòwô aktiwnota"
+
+#: krunnerapp.cpp:135
+msgid "Run Command on clipboard contents"
+msgstr "Zrëszë pòlét na zamkłoscë tacnika"
+
+#: krunnerapp.cpp:141
+msgid "Show System Activity"
+msgstr "Pòkôżë systemòwą aktiwnotã"
+
+#: krunnerapp.cpp:147
+msgid "Switch User"
+msgstr "Przełączë brëkòwnika"
+
+#: krunnerapp.cpp:157
+msgid "Lock Session"
+msgstr "Zablokùjë sesëjã"
+
+#: krunnerapp.cpp:199
+#, kde-format
+msgctxt "Run krunner restricting the search only to runner %1"
+msgid "Run Command (runner \"%1\" only)"
+msgstr "Zrëszë pòlét (blós zrëszôcz \"%1\")"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
