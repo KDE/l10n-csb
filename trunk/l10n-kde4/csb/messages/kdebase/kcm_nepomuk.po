@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-10 04:00+0200\n"
+"POT-Creation-Date: 2011-07-29 04:00+0200\n"
 "PO-Revision-Date: 2009-12-15 18:43+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -72,7 +72,9 @@ msgid "some subfolders excluded"
 msgstr ""
 
 #: nepomukserverkcm.cpp:142
-msgid "Nepomuk Configuration Module"
+#, fuzzy
+#| msgid "Nepomuk Configuration Module"
+msgid "Desktop Search Configuration Module"
 msgstr "Mòdul kònfigùracëji Nepomuka"
 
 #: nepomukserverkcm.cpp:144
@@ -107,7 +109,7 @@ msgstr ""
 
 #: nepomukserverkcm.cpp:231
 msgid ""
-"The Nepomuk installation is not complete. No Nepomuk settings can be "
+"The Nepomuk installation is not complete. No desktop search settings can be "
 "provided."
 msgstr ""
 
@@ -117,29 +119,28 @@ msgstr ""
 #| "The Nepomuk Server is not running. The settings have been saved and will "
 #| "be used the next time the server is started."
 msgid ""
-"Failed to start Nepomuk Server. The settings have been saved and will be "
-"used the next time the server is started."
+"Failed to start the desktop search service (Nepomuk). The settings have been "
+"saved and will be used the next time the server is started."
 msgstr ""
 "Serwera Nepomuk nie robi. Nastôwë òstałë zapisóné ë bãdą w ùżëcym przë "
 "pòstãpnym zrëszeniu serwerë."
 
 #: nepomukserverkcm.cpp:370
-msgid "Nepomuk server not running"
-msgstr "Serwera Nepomuk nie robi"
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "Strigi service not running."
+msgid "Desktop search service not running"
+msgstr "Ùsłëżnota Strigi nie je zrëszonô."
 
 #: nepomukserverkcm.cpp:407
-#, fuzzy
-#| msgid "Nepomuk store size:"
 msgctxt "@info:status"
-msgid "Nepomuk system is active"
-msgstr "Miara pamiãcë Nepomuka"
+msgid "Desktop search services are active"
+msgstr ""
 
 #: nepomukserverkcm.cpp:410
-#, fuzzy
-#| msgid "Nepomuk store size:"
 msgctxt "@info:status"
-msgid "Nepomuk system is inactive"
-msgstr "Miara pamiãcë Nepomuka"
+msgid "Desktop search services are disabled"
+msgstr ""
 
 #: nepomukserverkcm.cpp:422
 #, kde-format
@@ -148,17 +149,25 @@ msgid "Failed to contact Strigi indexer (%1)"
 msgstr "Felënk sparłãczeniô z indeksownikã Strigi (%1)"
 
 #: nepomukserverkcm.cpp:432
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid ""
+#| "Strigi service failed to initialize, most likely due to an installation "
+#| "problem."
 msgctxt "@info:status"
 msgid ""
-"Strigi service failed to initialize, most likely due to an installation "
-"problem."
+"File indexing service failed to initialize, most likely due to an "
+"installation problem."
 msgstr ""
 "Ùsłëżnota Strigi nie mògła òstac zrëszonô, gwës przez problemã z "
 "jinstalacëją."
 
 #: nepomukserverkcm.cpp:436
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "Strigi service not running."
 msgctxt "@info:status"
-msgid "Strigi service not running."
+msgid "File indexing service not running."
 msgstr "Ùsłëżnota Strigi nie je zrëszonô."
 
 #: nepomukserverkcm.cpp:447
@@ -595,6 +604,21 @@ msgstr ""
 #| msgid " MB"
 msgid " MiB"
 msgstr " MB"
+
+#~ msgid "Nepomuk server not running"
+#~ msgstr "Serwera Nepomuk nie robi"
+
+#, fuzzy
+#~| msgid "Nepomuk store size:"
+#~ msgctxt "@info:status"
+#~ msgid "Nepomuk system is active"
+#~ msgstr "Miara pamiãcë Nepomuka"
+
+#, fuzzy
+#~| msgid "Nepomuk store size:"
+#~ msgctxt "@info:status"
+#~ msgid "Nepomuk system is inactive"
+#~ msgstr "Miara pamiãcë Nepomuka"
 
 #~ msgid "KSqueezedTextLabel"
 #~ msgstr "KSqueezedTextLabel"
