@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keditbookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-13 03:56+0200\n"
+"POT-Creation-Date: 2011-08-02 05:23+0200\n"
 "PO-Revision-Date: 2009-12-20 18:48+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -30,11 +31,6 @@ msgstr "OK"
 #: favicons.cpp:72
 msgid "Updating favicon..."
 msgstr "Aktualizëjë favicon..."
-
-#: faviconupdater.cpp:87
-#, kde-format
-msgid "%1; no HTML component found (%2)"
-msgstr ""
 
 #: importers.h:102
 msgid "Galeon"
@@ -203,52 +199,6 @@ msgctxt "(qtundo-format)"
 msgid "Move Items"
 msgstr "Przësënié elementë "
 
-#: kebsearchline.cpp:273
-msgid "Search Columns"
-msgstr "Szëkôj w kòlumnach"
-
-#: kebsearchline.cpp:276
-msgid "All Visible Columns"
-msgstr "Wszëtczé widzawny kòlumnë"
-
-#: kebsearchline.cpp:285
-#, kde-format
-msgctxt "Column number %1"
-msgid "Column No. %1"
-msgstr "Kòlumna nr. %1"
-
-#: kebsearchline.cpp:680
-msgid "S&earch:"
-msgstr "S&zëkôj:"
-
-#: testlink.cpp:76
-msgid "Checking..."
-msgstr "Sprôwdzanié..."
-
-#: bookmarkinfowidget.cpp:240
-msgid "Name:"
-msgstr "Miono:"
-
-#: bookmarkinfowidget.cpp:248
-msgid "Location:"
-msgstr "Môl:"
-
-#: bookmarkinfowidget.cpp:256
-msgid "Comment:"
-msgstr "Dopòwiesc:"
-
-#: bookmarkinfowidget.cpp:263
-msgid "First viewed:"
-msgstr "Pierszi raz przezéróny:"
-
-#: bookmarkinfowidget.cpp:266
-msgid "Viewed last:"
-msgstr "Slédny raz przezéróny:"
-
-#: bookmarkinfowidget.cpp:269
-msgid "Times visited:"
-msgstr "Razë widzóny:"
-
 #: main.cpp:68
 #, kde-format
 msgid ""
@@ -388,6 +338,46 @@ msgstr "Mòżesz le dac jedną òptacëjã --export."
 #: main.cpp:171
 msgid "You may only specify a single --import option."
 msgstr "Mòżesz le dac jedną òptacëjã --import."
+
+#: importers.cpp:56
+#, fuzzy, kde-format
+#| msgid "Import %1 Bookmarks"
+msgctxt "(qtundo-format)"
+msgid "Import %1 Bookmarks"
+msgstr "Impòrtëjë %1 załóżczi"
+
+#: importers.cpp:60
+#, kde-format
+msgid "%1 Bookmarks"
+msgstr "%1 załóżczi"
+
+#: importers.cpp:92
+msgid "Import as a new subfolder or replace all the current bookmarks?"
+msgstr ""
+"Impòrtowac jakno nowi pòdkatalog abò zamienic wszëtczé biéżny załóżczi?"
+
+#: importers.cpp:93
+#, fuzzy, kde-format
+#| msgid "%1 Import"
+msgctxt "@title:window"
+msgid "%1 Import"
+msgstr "%1 impòrt"
+
+#: importers.cpp:94
+msgid "As New Folder"
+msgstr "Jakno nowi katalog"
+
+#: importers.cpp:94
+msgid "Replace"
+msgstr "Zamieni"
+
+#: importers.cpp:199
+msgid "*.xbel|Galeon Bookmark Files (*.xbel)"
+msgstr "*.xbel|Lopcz załóżczków Galeona (*.xbel)"
+
+#: importers.cpp:208
+msgid "*.xml|KDE Bookmark Files (*.xml)"
+msgstr "*.xml|Lopczi załóżków KDE (*.xml)"
 
 #: actionsimpl.cpp:97
 msgid "&Delete"
@@ -565,45 +555,56 @@ msgctxt "(qtundo-format)"
 msgid "Delete Items"
 msgstr "Rëmôj elementë"
 
-#: importers.cpp:56
-#, fuzzy, kde-format
-#| msgid "Import %1 Bookmarks"
-msgctxt "(qtundo-format)"
-msgid "Import %1 Bookmarks"
-msgstr "Impòrtëjë %1 załóżczi"
+#: bookmarkinfowidget.cpp:240
+msgid "Name:"
+msgstr "Miono:"
 
-#: importers.cpp:60
+#: bookmarkinfowidget.cpp:248
+msgid "Location:"
+msgstr "Môl:"
+
+#: bookmarkinfowidget.cpp:256
+msgid "Comment:"
+msgstr "Dopòwiesc:"
+
+#: bookmarkinfowidget.cpp:263
+msgid "First viewed:"
+msgstr "Pierszi raz przezéróny:"
+
+#: bookmarkinfowidget.cpp:266
+msgid "Viewed last:"
+msgstr "Slédny raz przezéróny:"
+
+#: bookmarkinfowidget.cpp:269
+msgid "Times visited:"
+msgstr "Razë widzóny:"
+
+#: faviconupdater.cpp:87
 #, kde-format
-msgid "%1 Bookmarks"
-msgstr "%1 załóżczi"
-
-#: importers.cpp:92
-msgid "Import as a new subfolder or replace all the current bookmarks?"
+msgid "%1; no HTML component found (%2)"
 msgstr ""
-"Impòrtowac jakno nowi pòdkatalog abò zamienic wszëtczé biéżny załóżczi?"
 
-#: importers.cpp:93
-#, fuzzy, kde-format
-#| msgid "%1 Import"
-msgctxt "@title:window"
-msgid "%1 Import"
-msgstr "%1 impòrt"
+#: kebsearchline.cpp:273
+msgid "Search Columns"
+msgstr "Szëkôj w kòlumnach"
 
-#: importers.cpp:94
-msgid "As New Folder"
-msgstr "Jakno nowi katalog"
+#: kebsearchline.cpp:276
+msgid "All Visible Columns"
+msgstr "Wszëtczé widzawny kòlumnë"
 
-#: importers.cpp:94
-msgid "Replace"
-msgstr "Zamieni"
+#: kebsearchline.cpp:285
+#, kde-format
+msgctxt "Column number %1"
+msgid "Column No. %1"
+msgstr "Kòlumna nr. %1"
 
-#: importers.cpp:199
-msgid "*.xbel|Galeon Bookmark Files (*.xbel)"
-msgstr "*.xbel|Lopcz załóżczków Galeona (*.xbel)"
+#: kebsearchline.cpp:680
+msgid "S&earch:"
+msgstr "S&zëkôj:"
 
-#: importers.cpp:208
-msgid "*.xml|KDE Bookmark Files (*.xml)"
-msgstr "*.xml|Lopczi załóżków KDE (*.xml)"
+#: testlink.cpp:76
+msgid "Checking..."
+msgstr "Sprôwdzanié..."
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
