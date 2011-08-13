@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-12 03:26+0200\n"
+"POT-Creation-Date: 2011-08-13 02:54+0200\n"
 "PO-Revision-Date: 2009-12-19 02:07+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -1517,6 +1517,13 @@ msgstr "Aktiwùjë nôslédny pòdwëzdrzatk."
 msgid "Open File"
 msgstr "Òtemkni lopk"
 
+#: app/kateapp.cpp:226 app/kateapp.cpp:352
+#, kde-format
+msgid ""
+"The file '%1' could not be opened: it is not a normal file, it is a folder."
+msgstr ""
+"Plik '%1' nie mógł òstac òtemkłi, to nie je zwëczajny lopk, to katalog."
+
 #: app/katemainwindow.cpp:225
 msgid "Use this command to show or hide the view's statusbar"
 msgstr "Brëkùjë tegò pòletu do tacëniô lëstwë stónu wëzdrzatkù"
@@ -1692,25 +1699,18 @@ msgstr ""
 msgid "Close all documents"
 msgstr "Zamkni wszëtczé dokùmentë"
 
-#: app/katemainwindow.cpp:704
+#: app/katemainwindow.cpp:721
 msgid "&Other..."
 msgstr "&Jinszé..."
 
-#: app/katemainwindow.cpp:730
+#: app/katemainwindow.cpp:747
 #, kde-format
 msgid "Application '%1' not found."
 msgstr "Aplikacëjô '%1' nie òstała nalazłô."
 
-#: app/katemainwindow.cpp:730
+#: app/katemainwindow.cpp:747
 msgid "Application not found"
 msgstr "Aplikacëjô nie òstała nalazłô"
-
-#: app/kateapp.cpp:226 app/kateapp.cpp:352
-#, kde-format
-msgid ""
-"The file '%1' could not be opened: it is not a normal file, it is a folder."
-msgstr ""
-"Plik '%1' nie mógł òstac òtemkłi, to nie je zwëczajny lopk, to katalog."
 
 #: plugins/filetree/katefiletree.cpp:50
 msgid "Close"
