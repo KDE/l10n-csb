@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-15 03:29+0200\n"
+"POT-Creation-Date: 2011-08-16 04:49+0200\n"
 "PO-Revision-Date: 2009-12-09 23:08+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -1084,33 +1084,33 @@ msgctxt "@info:status"
 msgid "Unknown error."
 msgstr "Nieznónô fela."
 
-#: views/renamedialog.cpp:54
+#: views/renamedialog.cpp:57
 msgctxt "@title:window"
 msgid "Rename Item"
 msgstr "Zmieni miono elementowi"
 
-#: views/renamedialog.cpp:55
+#: views/renamedialog.cpp:58
 msgctxt "@title:window"
 msgid "Rename Items"
 msgstr "Zmieni miono elementóm"
 
-#: views/renamedialog.cpp:59
+#: views/renamedialog.cpp:62
 msgctxt "@action:button"
 msgid "&Rename"
 msgstr "&Zmieni miono"
 
-#: views/renamedialog.cpp:69
+#: views/renamedialog.cpp:72
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Rename the item <filename>%1</filename> to:"
 msgstr "Zmieni element <filename>%1</filename> na:"
 
-#: views/renamedialog.cpp:72
+#: views/renamedialog.cpp:75
 msgctxt "@info:status"
 msgid "New name #"
 msgstr "Nowé miono #"
 
-#: views/renamedialog.cpp:74
+#: views/renamedialog.cpp:77
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Rename the %1 selected item to:"
@@ -1119,9 +1119,12 @@ msgstr[0] "Zmieni miono %1 wëbrónemù elementowi:"
 msgstr[1] "Zmieni miono %1 wëbrónym elementom:"
 msgstr[2] "Zmieni miono %1 wëbrónym elementom:"
 
-#: views/renamedialog.cpp:121
+#: views/renamedialog.cpp:124
+#, fuzzy
+#| msgctxt "@info"
+#| msgid "(# will be replaced by ascending numbers)"
 msgctxt "@info"
-msgid "(# will be replaced by ascending numbers)"
+msgid "# will be replaced by ascending numbers starting with:"
 msgstr "(# òstanié zmienioné na roscącé numrë)"
 
 #: dolphinpart.cpp:147
@@ -1212,14 +1215,6 @@ msgctxt "@item:intable"
 msgid "items"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:622
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Description:"
-msgctxt "@item:intable"
-msgid "No destination"
-msgstr "Òpisënk:"
-
 #: kitemviews/kfileitemlistwidget.cpp:624
 #, fuzzy, kde-format
 #| msgctxt "@info"
@@ -1231,6 +1226,14 @@ msgid_plural "%1 items"
 msgstr[0] "%1 element wëbróny"
 msgstr[1] "%1 wëbróné elementë"
 msgstr[2] "%1 wëbrónëch elementów"
+
+#: kitemviews/kfileitemmodel.cpp:622
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Description:"
+msgctxt "@item:intable"
+msgid "No destination"
+msgstr "Òpisënk:"
 
 #: dolphinviewcontainer.cpp:339
 msgctxt "@info:progress"
