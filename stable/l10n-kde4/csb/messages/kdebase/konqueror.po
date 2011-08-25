@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-03 07:45+0200\n"
+"POT-Creation-Date: 2011-08-25 11:07+0200\n"
 "PO-Revision-Date: 2009-12-16 23:23+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -31,8 +31,8 @@ msgstr "Kònfigùrëjë"
 msgid "Extensions"
 msgstr "Rozszérzenia"
 
-#: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:5010
-#: src/konqmainwindow.cpp:5070
+#: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:5014
+#: src/konqmainwindow.cpp:5074
 msgid "no name"
 msgstr "bez miona"
 
@@ -578,6 +578,91 @@ msgstr ""
 msgid "Location to open"
 msgstr "Adresa do òtemkniãcô"
 
+#: src/konqprofiledlg.cpp:111
+#, fuzzy
+#| msgid "Profile Management"
+msgctxt "@title:window"
+msgid "Profile Management"
+msgstr "Sprôwianié profilama"
+
+#: src/konqprofiledlg.cpp:114
+msgid "&Rename Profile"
+msgstr "&Zmieni miono profilu"
+
+#: src/konqprofiledlg.cpp:115
+msgid "&Delete Profile"
+msgstr "&Rëmôj profil"
+
+#: src/konqsessionmanager.cpp:330
+msgid ""
+"Konqueror did not close correctly. Would you like to restore the previous "
+"session?"
+msgstr ""
+"Konqueror ni zamknął sã pòprôwno. Chcesz przewrócëc rëchliszą sesëjã nazôd?"
+
+#: src/konqsessionmanager.cpp:332
+#, fuzzy
+#| msgid "Restore Session?"
+msgctxt "@title:window"
+msgid "Restore Session?"
+msgstr "Doprowôdzëc sesëjã nazôd?"
+
+#: src/konqsessionmanager.cpp:333
+msgid "Restore Session"
+msgstr "Doprowôdzë sesëjã nazôd"
+
+#: src/konqsessionmanager.cpp:334
+msgid "Do Not Restore"
+msgstr "Nie doprowôdzôj nazôd"
+
+#: src/konqsessionmanager.cpp:335
+msgid "Ask Me Later"
+msgstr "Pëtôj mie pózdni"
+
+#: src/konqviewmanager.cpp:1411
+msgid ""
+"You have multiple tabs open in this window.\n"
+"Loading a view profile will close them."
+msgstr ""
+"W tim òknie òtemkłëch je wiele kôrtów.\n"
+"Wladowanié profilu zamknie je."
+
+#: src/konqviewmanager.cpp:1413 src/konqmainwindow.cpp:4941
+#, fuzzy
+#| msgid "Confirmation"
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "Pòcwierdzenié"
+
+#: src/konqviewmanager.cpp:1414
+msgid "Load View Profile"
+msgstr "Wczëtôj profil wëzdrzatkù"
+
+#: src/konqviewmanager.cpp:1426
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Loading a profile will discard these changes."
+msgstr ""
+"Ta kôrta zamëkô w se niewësłóné zmianë.\n"
+"Wladowanié profilu cësnié je."
+
+#: src/konqviewmanager.cpp:1427 src/konqmainwindow.cpp:1615
+#: src/konqmainwindow.cpp:2342 src/konqmainwindow.cpp:2420
+#: src/konqmainwindow.cpp:2450 src/konqmainwindow.cpp:2492
+#: src/konqmainwindow.cpp:2514 src/konqmainwindow.cpp:4976
+#, fuzzy
+#| msgid "Discard Changes?"
+msgctxt "@title:window"
+msgid "Discard Changes?"
+msgstr "Pòcësnąc zmianë?"
+
+#: src/konqviewmanager.cpp:1427 src/konqmainwindow.cpp:1615
+#: src/konqmainwindow.cpp:2342 src/konqmainwindow.cpp:2420
+#: src/konqmainwindow.cpp:2450 src/konqmainwindow.cpp:2492
+#: src/konqmainwindow.cpp:2515 src/konqmainwindow.cpp:4976
+msgid "&Discard Changes"
+msgstr "&Pòcësni zmianë"
+
 #: src/konqmainwindow.cpp:574
 msgctxt "@title:tab"
 msgid "Loading..."
@@ -594,23 +679,6 @@ msgid ""
 msgstr ""
 "Na starna zamikô w se niewësłóné zmianë.\n"
 "Wczëtanié starnë znowa cësnié te zjinaczi."
-
-#: src/konqmainwindow.cpp:1615 src/konqmainwindow.cpp:2342
-#: src/konqmainwindow.cpp:2420 src/konqmainwindow.cpp:2450
-#: src/konqmainwindow.cpp:2492 src/konqmainwindow.cpp:2514
-#: src/konqmainwindow.cpp:4972 src/konqviewmanager.cpp:1427
-#, fuzzy
-#| msgid "Discard Changes?"
-msgctxt "@title:window"
-msgid "Discard Changes?"
-msgstr "Pòcësnąc zmianë?"
-
-#: src/konqmainwindow.cpp:1615 src/konqmainwindow.cpp:2342
-#: src/konqmainwindow.cpp:2420 src/konqmainwindow.cpp:2450
-#: src/konqmainwindow.cpp:2492 src/konqmainwindow.cpp:2515
-#: src/konqmainwindow.cpp:4972 src/konqviewmanager.cpp:1427
-msgid "&Discard Changes"
-msgstr "&Pòcësni zmianë"
 
 #: src/konqmainwindow.cpp:1725
 msgid "File Management"
@@ -1160,23 +1228,16 @@ msgctxt "@action:inmenu View"
 msgid "&View Mode"
 msgstr "Ôrt &wëzdrzatkù"
 
-#: src/konqmainwindow.cpp:4935
+#: src/konqmainwindow.cpp:4939
 msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr "W tim òknie je òtemkłëch wiele kôrtów. Na gwës zakùńczëc?"
 
-#: src/konqmainwindow.cpp:4937 src/konqviewmanager.cpp:1413
-#, fuzzy
-#| msgid "Confirmation"
-msgctxt "@title:window"
-msgid "Confirmation"
-msgstr "Pòcwierdzenié"
-
-#: src/konqmainwindow.cpp:4939
+#: src/konqmainwindow.cpp:4943
 msgid "C&lose Current Tab"
 msgstr "Zamkni &aktualną kôrtã"
 
-#: src/konqmainwindow.cpp:4968
+#: src/konqmainwindow.cpp:4972
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
@@ -1184,7 +1245,7 @@ msgstr ""
 "Na kôrta zamëkô w se jesz nie wësłóné zmianë.\n"
 "Zamëkając to òknò niechôsz te zmianë."
 
-#: src/konqmainwindow.cpp:4969
+#: src/konqmainwindow.cpp:4973
 msgid ""
 "This page contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
@@ -1192,34 +1253,34 @@ msgstr ""
 "Na starna zamëkô w se jesz ni wësłóné zmianë.\n"
 "Zamëkając to òknò niechôsz te zmianë."
 
-#: src/konqmainwindow.cpp:5137
+#: src/konqmainwindow.cpp:5141
 msgid ""
 "Your sidebar is not functional or unavailable. A new entry cannot be added."
 msgstr ""
 "Twòjô bòcznô listew nie fùnkcjonëje abò je nieprzistãpnô. Ni mòże dodac "
 "wpisënkù."
 
-#: src/konqmainwindow.cpp:5137 src/konqmainwindow.cpp:5144
+#: src/konqmainwindow.cpp:5141 src/konqmainwindow.cpp:5148
 #, fuzzy
 #| msgid "Web Sidebar"
 msgctxt "@title:window"
 msgid "Web Sidebar"
 msgstr "Sécowô bòcznô listew"
 
-#: src/konqmainwindow.cpp:5142
+#: src/konqmainwindow.cpp:5146
 #, kde-format
 msgid "Add new web extension \"%1\" to your sidebar?"
 msgstr "Dodac nowé sécowé rozszérzenié \"%1\" do twòji bòczni listewë?"
 
-#: src/konqmainwindow.cpp:5144
+#: src/konqmainwindow.cpp:5148
 msgid "Add"
 msgstr "Dodôj"
 
-#: src/konqmainwindow.cpp:5144
+#: src/konqmainwindow.cpp:5148
 msgid "Do Not Add"
 msgstr "Nie dodôwôj"
 
-#: src/konqmainwindow.cpp:5457
+#: src/konqmainwindow.cpp:5461
 #, kde-format
 msgid ""
 "There appears to be a configuration error. You have associated Konqueror "
@@ -1227,67 +1288,6 @@ msgid ""
 msgstr ""
 "Pòkôza sã wierã fela kòfigùracëji. Konqueror òstôł sparłączony z ôrtã %1 "
 "jaczégò nie rozmie òbsłużëc."
-
-#: src/konqprofiledlg.cpp:111
-#, fuzzy
-#| msgid "Profile Management"
-msgctxt "@title:window"
-msgid "Profile Management"
-msgstr "Sprôwianié profilama"
-
-#: src/konqprofiledlg.cpp:114
-msgid "&Rename Profile"
-msgstr "&Zmieni miono profilu"
-
-#: src/konqprofiledlg.cpp:115
-msgid "&Delete Profile"
-msgstr "&Rëmôj profil"
-
-#: src/konqsessionmanager.cpp:330
-msgid ""
-"Konqueror did not close correctly. Would you like to restore the previous "
-"session?"
-msgstr ""
-"Konqueror ni zamknął sã pòprôwno. Chcesz przewrócëc rëchliszą sesëjã nazôd?"
-
-#: src/konqsessionmanager.cpp:332
-#, fuzzy
-#| msgid "Restore Session?"
-msgctxt "@title:window"
-msgid "Restore Session?"
-msgstr "Doprowôdzëc sesëjã nazôd?"
-
-#: src/konqsessionmanager.cpp:333
-msgid "Restore Session"
-msgstr "Doprowôdzë sesëjã nazôd"
-
-#: src/konqsessionmanager.cpp:334
-msgid "Do Not Restore"
-msgstr "Nie doprowôdzôj nazôd"
-
-#: src/konqsessionmanager.cpp:335
-msgid "Ask Me Later"
-msgstr "Pëtôj mie pózdni"
-
-#: src/konqviewmanager.cpp:1411
-msgid ""
-"You have multiple tabs open in this window.\n"
-"Loading a view profile will close them."
-msgstr ""
-"W tim òknie òtemkłëch je wiele kôrtów.\n"
-"Wladowanié profilu zamknie je."
-
-#: src/konqviewmanager.cpp:1414
-msgid "Load View Profile"
-msgstr "Wczëtôj profil wëzdrzatkù"
-
-#: src/konqviewmanager.cpp:1426
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Loading a profile will discard these changes."
-msgstr ""
-"Ta kôrta zamëkô w se niewësłóné zmianë.\n"
-"Wladowanié profilu cësnié je."
 
 #: src/konqview.cpp:1203
 msgid ""
