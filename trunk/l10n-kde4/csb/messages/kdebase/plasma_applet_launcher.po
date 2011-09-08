@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-18 03:37+0200\n"
+"POT-Creation-Date: 2011-09-08 04:08+0200\n"
 "PO-Revision-Date: 2009-12-14 21:59+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -47,18 +47,18 @@ msgctxt "General configuration page"
 msgid "General"
 msgstr "Òglowò"
 
+#: core/applicationmodel.cpp:335
+msgid "Games"
+msgstr "Grë"
+
+#: core/applicationmodel.cpp:429 ui/launcher.cpp:975
+msgid "All Applications"
+msgstr "Wszëtczé aplikacëje"
+
 #: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
 #: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:121 ui/launcher.cpp:191
 msgid "Favorites"
 msgstr "Ùlëbnicë"
-
-#: core/models.cpp:121
-msgid "Home Folder"
-msgstr "Domôcy katalog"
-
-#: core/models.cpp:124
-msgid "Network Folders"
-msgstr "Sécowé katalodżi"
 
 #: core/leavemodel.cpp:49 simpleapplet/simpleapplet.cpp:210
 #, fuzzy
@@ -157,13 +157,13 @@ msgstr "Sesëjô"
 msgid "System"
 msgstr "Systema"
 
-#: core/applicationmodel.cpp:335
-msgid "Games"
-msgstr "Grë"
+#: core/models.cpp:121
+msgid "Home Folder"
+msgstr "Domôcy katalog"
 
-#: core/applicationmodel.cpp:429 ui/launcher.cpp:975
-msgid "All Applications"
-msgstr "Wszëtczé aplikacëje"
+#: core/models.cpp:124
+msgid "Network Folders"
+msgstr "Sécowé katalodżi"
 
 #: core/recentlyusedmodel.cpp:109
 msgid "Documents"
@@ -308,11 +308,6 @@ msgstr "Òptacëje"
 msgid "Actions"
 msgstr "Dzejania"
 
-#: ui/searchbar.cpp:70
-msgctxt "Label of the search bar textedit"
-msgid "Search:"
-msgstr "Szëkba:"
-
 #: ui/contextmenufactory.cpp:85
 msgid "Advanced"
 msgstr "Awansowóné"
@@ -372,6 +367,11 @@ msgstr "Brëkòwnik <b>%1</b> na <b>%2</b>"
 msgctxt "full name, login name, hostname"
 msgid "<b>%1 (%2)</b> on <b>%3</b>"
 msgstr "<b>%1 (%2)</b> na <b>%3</b>"
+
+#: ui/searchbar.cpp:70
+msgctxt "Label of the search bar textedit"
+msgid "Search:"
+msgstr "Szëkba:"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
