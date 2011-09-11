@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-10 03:05+0200\n"
+"POT-Creation-Date: 2011-09-11 03:38+0200\n"
 "PO-Revision-Date: 2009-12-09 23:08+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -503,14 +503,6 @@ msgctxt "@item:intable"
 msgid "items"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:743
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Description:"
-msgctxt "@item:intable"
-msgid "No destination"
-msgstr "Òpisënk:"
-
 #: kitemviews/kfileitemlistwidget.cpp:673
 #, fuzzy, kde-format
 #| msgctxt "@info"
@@ -522,6 +514,14 @@ msgid_plural "%1 items"
 msgstr[0] "%1 element wëbróny"
 msgstr[1] "%1 wëbróné elementë"
 msgstr[2] "%1 wëbrónëch elementów"
+
+#: kitemviews/kfileitemmodel.cpp:749
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Description:"
+msgctxt "@item:intable"
+msgid "No destination"
+msgstr "Òpisënk:"
 
 #: main.cpp:35
 msgctxt "@title"
@@ -1662,12 +1662,12 @@ msgctxt "@info"
 msgid "# will be replaced by ascending numbers starting with:"
 msgstr "(# òstanié zmienioné na roscącé numrë)"
 
-#: views/versioncontrol/versioncontrolobserver.cpp:187
+#: views/versioncontrol/versioncontrolobserver.cpp:204
 msgctxt "@info:status"
 msgid "Update of version information failed."
 msgstr "Felëje zaktualnienia wëdowiédzë ò wersëji."
 
-#: views/versioncontrol/versioncontrolobserver.cpp:243
+#: views/versioncontrol/versioncontrolobserver.cpp:260
 msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "Zaktualnienie wëdowiédzë ò wersëji..."
