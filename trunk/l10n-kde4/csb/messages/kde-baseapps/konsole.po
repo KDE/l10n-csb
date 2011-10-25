@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-23 04:03+0200\n"
+"POT-Creation-Date: 2011-10-25 04:01+0200\n"
 "PO-Revision-Date: 2009-12-17 00:21+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -715,7 +715,7 @@ msgstr ""
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr "Môsz òtemkłich wiele kôrtów, chcesz na gwës zakùńczëc?"
 
-#: MainWindow.cpp:422 SessionController.cpp:644 SessionController.cpp:670
+#: MainWindow.cpp:422 SessionController.cpp:638 SessionController.cpp:664
 msgid "Confirm Close"
 msgstr "Pòcwierdzë zamkniãcé"
 
@@ -1818,14 +1818,14 @@ msgid "Open File Manager"
 msgstr "Òtemkni menadżerã lopków"
 
 #: SessionController.cpp:448
+msgid "Paste Selection"
+msgstr "Wlepi wëbiérk"
+
+#: SessionController.cpp:452
 #, fuzzy
 #| msgid "Select All"
 msgid "&Select All"
 msgstr "Wëbiérzë wszëtkò"
-
-#: SessionController.cpp:454
-msgid "Paste Selection"
-msgstr "Wlepi wëbiérk"
 
 #: SessionController.cpp:459
 msgid "&Rename Tab..."
@@ -1909,13 +1909,13 @@ msgstr "Sprôwiôj profilama..."
 msgid "Switch Profile"
 msgstr "Editëjë profil"
 
-#: SessionController.cpp:638
+#: SessionController.cpp:632
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr "Programa robi prawie w ti sesëji. Jes gwës tegò, że chcesz jã zamknąc?"
 
-#: SessionController.cpp:641
+#: SessionController.cpp:635
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
@@ -1923,7 +1923,7 @@ msgid ""
 msgstr ""
 "Programa '%1' robi prawie w ti sesëji. Jes gwës tegò, że chcesz jã zamknąc?"
 
-#: SessionController.cpp:664
+#: SessionController.cpp:658
 #, fuzzy
 #| msgid ""
 #| "A program is currently running in this session.  Are you sure you want to "
@@ -1933,7 +1933,7 @@ msgid ""
 "by force?"
 msgstr "Programa robi prawie w ti sesëji. Jes gwës tegò, że chcesz jã zamknąc?"
 
-#: SessionController.cpp:667
+#: SessionController.cpp:661
 #, fuzzy, kde-format
 #| msgid ""
 #| "The program '%1' is currently running in this session.  Are you sure you "
@@ -1944,11 +1944,11 @@ msgid ""
 msgstr ""
 "Programa '%1' robi prawie w ti sesëji. Jes gwës tegò, że chcesz jã zamknąc?"
 
-#: SessionController.cpp:1264
+#: SessionController.cpp:1258
 msgid "Save ZModem Download to..."
 msgstr "Zapiszë zladënk ZModem do..."
 
-#: SessionController.cpp:1273
+#: SessionController.cpp:1267
 #, fuzzy
 #| msgid ""
 #| "<p>A ZModem file transfer attempt has been detected, but no suitable "
@@ -1963,7 +1963,7 @@ msgstr ""
 "twòji systemie softwôrë ZModem.\n"
 "<p>Winstalëje mòże paczétë 'rzsz' abò 'lrzsz'.\n"
 
-#: SessionController.cpp:1285
+#: SessionController.cpp:1279
 #, fuzzy
 #| msgid ""
 #| "<p>The current session already has a ZModem file transfer in progress."
@@ -1971,7 +1971,7 @@ msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr "<p>W aktualny sesëji dérëje sélanié lopków ZModem."
 
-#: SessionController.cpp:1294
+#: SessionController.cpp:1288
 #, fuzzy
 #| msgid ""
 #| "<p>No suitable ZModem software was found on this system.\n"
@@ -1983,21 +1983,21 @@ msgstr ""
 "<p>Felëje softwôrë ZModem w twòji systemie.\n"
 "<p>Winstalëje mòże paczétë 'rzsz' abò 'lrzsz'.\n"
 
-#: SessionController.cpp:1300
+#: SessionController.cpp:1294
 msgid "Select Files for ZModem Upload"
 msgstr "Wëbierzë lopczi dlô wladënkù ZModem"
 
-#: SessionController.cpp:1372
+#: SessionController.cpp:1366
 #, kde-format
 msgid "Save Output From %1"
 msgstr "Zapiszë wińdzenié z %1"
 
-#: SessionController.cpp:1383
+#: SessionController.cpp:1377
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 je zmiłkòwim URL-a, wińdzenié nie mòże òstac zapisóné."
 
-#: SessionController.cpp:1461
+#: SessionController.cpp:1455
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
