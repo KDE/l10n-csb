@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-25 04:01+0200\n"
+"POT-Creation-Date: 2011-10-26 04:18+0200\n"
 "PO-Revision-Date: 2009-12-17 00:21+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -340,31 +340,35 @@ msgstr "Wëslë emailã do..."
 msgid "Copy Email Address"
 msgstr "Kòpérëjë adresã email"
 
-#: HistorySizeDialog.cpp:51
-msgid "Scrollback Options"
-msgstr "Òptacëje lëstwë przewijaniô"
+#: HistorySizeDialog.cpp:49
+#, fuzzy
+#| msgid "Scrollback"
+msgid "Adjust Scrollback"
+msgstr "Listew przewijaniô"
 
-#: HistorySizeDialog.cpp:62
+#: HistorySizeDialog.cpp:60
 msgid "No scrollback"
 msgstr "Bez lëstwë przewijaniô"
 
-#: HistorySizeDialog.cpp:63
+#: HistorySizeDialog.cpp:61
 msgid "Fixed size scrollback: "
 msgstr "Sztabilnô miara lëstwë przewijaniô"
 
 #. i18n: file: EditProfileDialog.ui:757
 #. i18n: ectx: property (text), widget (QRadioButton, unlimitedScrollbackButton)
-#: HistorySizeDialog.cpp:64 rc.cpp:236
+#: HistorySizeDialog.cpp:62 rc.cpp:236
 msgid "Unlimited scrollback"
 msgstr "Lëstwa przewijaniô bez ògreńczeń"
 
-#: HistorySizeDialog.cpp:88
+#: HistorySizeDialog.cpp:86
 msgid "lines"
 msgstr "réżczi"
 
-#: HistorySizeDialog.cpp:95
-msgid "Save to current profile"
-msgstr "Zapiszë do biéżnegò profilu"
+#: HistorySizeDialog.cpp:93
+msgid ""
+"<span style=\"color:gray;\"><center><bold>The adjustment is only temporary.</"
+"bold></center></span>"
+msgstr ""
 
 #: IncrementalSearchBar.cpp:52
 msgid "Close the search bar"
@@ -715,7 +719,7 @@ msgstr ""
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr "Môsz òtemkłich wiele kôrtów, chcesz na gwës zakùńczëc?"
 
-#: MainWindow.cpp:422 SessionController.cpp:638 SessionController.cpp:664
+#: MainWindow.cpp:422 SessionController.cpp:639 SessionController.cpp:665
 msgid "Confirm Close"
 msgstr "Pòcwierdzë zamkniãcé"
 
@@ -1689,69 +1693,69 @@ msgstr "Nastôwi wëbróny profil jakno domëslny dlô nowi sesëji terminala"
 msgid "&Set as Default"
 msgstr "Nastôwi jakno domëslny"
 
-#. i18n: file: ../desktop/sessionui.rc:17
-#. i18n: ectx: Menu (edit-copy-input-to)
-#: rc.cpp:458
-msgid "Copy Input To"
-msgstr "Kòpérëjë weńdzenié do"
-
-#. i18n: file: ../desktop/sessionui.rc:44
-#. i18n: ectx: Menu (debug)
-#: rc.cpp:461
-msgid "Debug"
-msgstr "Debùgòwanié"
-
-#. i18n: file: ../desktop/sessionui.rc:63
-#. i18n: ectx: Menu (switch-profile)
-#. i18n: file: ../desktop/partui.rc:23
-#. i18n: ectx: Menu (switch-profile)
-#: rc.cpp:464 rc.cpp:488
-#, fuzzy
-#| msgid "Edit Profile"
-msgid "&Switch Profile"
-msgstr "Editëjë profil"
-
 #. i18n: file: ../desktop/konsoleui.rc:5
 #. i18n: ectx: Menu (file)
-#: rc.cpp:467
+#: rc.cpp:458
 msgid "File"
 msgstr "Lopk"
 
 #. i18n: file: ../desktop/konsoleui.rc:14
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:470
+#: rc.cpp:461
 msgid "Edit"
 msgstr "Editcëjô"
 
 #. i18n: file: ../desktop/konsoleui.rc:17
 #. i18n: ectx: Menu (view)
-#: rc.cpp:473
+#: rc.cpp:464
 msgid "View"
 msgstr "Wëzdrzatk"
 
 #. i18n: file: ../desktop/konsoleui.rc:18
 #. i18n: ectx: Menu (view-split)
-#: rc.cpp:476
+#: rc.cpp:467
 msgid "Split View"
 msgstr "Pòdzélë wëzdrzatk"
 
 #. i18n: file: ../desktop/konsoleui.rc:33
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:479
+#: rc.cpp:470
 msgid "Settings"
 msgstr "Nastôwë"
 
 #. i18n: file: ../desktop/konsoleui.rc:44
 #. i18n: ectx: Menu (help)
-#: rc.cpp:482
+#: rc.cpp:473
 msgid "Help"
 msgstr "Pòmòc"
 
 #. i18n: file: ../desktop/partui.rc:7
 #. i18n: ectx: Menu (history)
-#: rc.cpp:485
+#: rc.cpp:476
 msgid "S&crollback"
 msgstr "Liste&w przewijaniô"
+
+#. i18n: file: ../desktop/partui.rc:23
+#. i18n: ectx: Menu (switch-profile)
+#. i18n: file: ../desktop/sessionui.rc:63
+#. i18n: ectx: Menu (switch-profile)
+#: rc.cpp:479 rc.cpp:488
+#, fuzzy
+#| msgid "Edit Profile"
+msgid "&Switch Profile"
+msgstr "Editëjë profil"
+
+#. i18n: file: ../desktop/sessionui.rc:17
+#. i18n: ectx: Menu (edit-copy-input-to)
+#: rc.cpp:482
+msgid "Copy Input To"
+msgstr "Kòpérëjë weńdzenié do"
+
+#. i18n: file: ../desktop/sessionui.rc:44
+#. i18n: ectx: Menu (debug)
+#: rc.cpp:485
+msgid "Debug"
+msgstr "Debùgòwanié"
 
 #: RenameTabsDialog.cpp:32
 msgid "Rename Tab"
@@ -1884,38 +1888,38 @@ msgstr "Zapiszë wińdzenié..."
 #: SessionController.cpp:532
 #, fuzzy
 #| msgid "Manage Profiles..."
-msgid "Configure Scrollback..."
+msgid "Adjust Scrollback..."
 msgstr "Sprôwiôj profilama..."
 
-#: SessionController.cpp:536
+#: SessionController.cpp:537
 msgid "Clear Scrollback"
 msgstr "Wëczëszczë lëstwã przewijaniô"
 
-#: SessionController.cpp:540
+#: SessionController.cpp:541
 #, fuzzy
 #| msgid "Clear Scrollback && Reset"
 msgid "Clear Scrollback and Reset"
 msgstr "Wëczëszczë lëstwã przewijaniô ë zresetëje"
 
-#: SessionController.cpp:546
+#: SessionController.cpp:547
 #, fuzzy
 #| msgid "Manage Profiles..."
 msgid "Configure Current Profile..."
 msgstr "Sprôwiôj profilama..."
 
-#: SessionController.cpp:549
+#: SessionController.cpp:550
 #, fuzzy
 #| msgid "Edit Profile"
 msgid "Switch Profile"
 msgstr "Editëjë profil"
 
-#: SessionController.cpp:632
+#: SessionController.cpp:633
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr "Programa robi prawie w ti sesëji. Jes gwës tegò, że chcesz jã zamknąc?"
 
-#: SessionController.cpp:635
+#: SessionController.cpp:636
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
@@ -1923,7 +1927,7 @@ msgid ""
 msgstr ""
 "Programa '%1' robi prawie w ti sesëji. Jes gwës tegò, że chcesz jã zamknąc?"
 
-#: SessionController.cpp:658
+#: SessionController.cpp:659
 #, fuzzy
 #| msgid ""
 #| "A program is currently running in this session.  Are you sure you want to "
@@ -1933,7 +1937,7 @@ msgid ""
 "by force?"
 msgstr "Programa robi prawie w ti sesëji. Jes gwës tegò, że chcesz jã zamknąc?"
 
-#: SessionController.cpp:661
+#: SessionController.cpp:662
 #, fuzzy, kde-format
 #| msgid ""
 #| "The program '%1' is currently running in this session.  Are you sure you "
@@ -1944,11 +1948,11 @@ msgid ""
 msgstr ""
 "Programa '%1' robi prawie w ti sesëji. Jes gwës tegò, że chcesz jã zamknąc?"
 
-#: SessionController.cpp:1258
+#: SessionController.cpp:1240
 msgid "Save ZModem Download to..."
 msgstr "Zapiszë zladënk ZModem do..."
 
-#: SessionController.cpp:1267
+#: SessionController.cpp:1249
 #, fuzzy
 #| msgid ""
 #| "<p>A ZModem file transfer attempt has been detected, but no suitable "
@@ -1963,7 +1967,7 @@ msgstr ""
 "twòji systemie softwôrë ZModem.\n"
 "<p>Winstalëje mòże paczétë 'rzsz' abò 'lrzsz'.\n"
 
-#: SessionController.cpp:1279
+#: SessionController.cpp:1261
 #, fuzzy
 #| msgid ""
 #| "<p>The current session already has a ZModem file transfer in progress."
@@ -1971,7 +1975,7 @@ msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr "<p>W aktualny sesëji dérëje sélanié lopków ZModem."
 
-#: SessionController.cpp:1288
+#: SessionController.cpp:1270
 #, fuzzy
 #| msgid ""
 #| "<p>No suitable ZModem software was found on this system.\n"
@@ -1983,21 +1987,21 @@ msgstr ""
 "<p>Felëje softwôrë ZModem w twòji systemie.\n"
 "<p>Winstalëje mòże paczétë 'rzsz' abò 'lrzsz'.\n"
 
-#: SessionController.cpp:1294
+#: SessionController.cpp:1276
 msgid "Select Files for ZModem Upload"
 msgstr "Wëbierzë lopczi dlô wladënkù ZModem"
 
-#: SessionController.cpp:1366
+#: SessionController.cpp:1348
 #, kde-format
 msgid "Save Output From %1"
 msgstr "Zapiszë wińdzenié z %1"
 
-#: SessionController.cpp:1377
+#: SessionController.cpp:1359
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 je zmiłkòwim URL-a, wińdzenié nie mòże òstac zapisóné."
 
-#: SessionController.cpp:1455
+#: SessionController.cpp:1437
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -2277,6 +2281,12 @@ msgstr ""
 msgid "&Stop"
 msgstr "&Zatrzëmôj"
 
+#~ msgid "Scrollback Options"
+#~ msgstr "Òptacëje lëstwë przewijaniô"
+
+#~ msgid "Save to current profile"
+#~ msgstr "Zapiszë do biéżnegò profilu"
+
 #, fuzzy
 #~| msgid "Manage Profiles..."
 #~ msgid "Configure Profiles..."
@@ -2399,9 +2409,6 @@ msgstr "&Zatrzëmôj"
 
 #~ msgid "&Detach View"
 #~ msgstr "Ò&dłączë wëzdrzatk"
-
-#~ msgid "Scrollback"
-#~ msgstr "Listew przewijaniô"
 
 #~ msgid "&Copy"
 #~ msgstr "&Kòpérëjë"
