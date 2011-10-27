@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-26 03:55+0200\n"
+"POT-Creation-Date: 2011-10-27 03:31+0200\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -2948,6 +2948,20 @@ msgstr ""
 msgid "Close"
 msgstr "Zamkni"
 
+#: context/applets/currenttrack/CurrentTrack.h:38
+#: core-impl/collections/mediadevicecollection/MediaDeviceMeta.cpp:150
+#: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:421
+#: core/meta/Meta.cpp:394 covermanager/CoverFetchUnit.cpp:596
+#: covermanager/CoverFetchUnit.cpp:606
+msgid "Unknown Artist"
+msgstr "Niznóny artista"
+
+#: context/applets/currenttrack/CurrentTrack.h:39
+#: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:431
+#: core/meta/Meta.cpp:444
+msgid "Unknown Album"
+msgstr "Nieznóny albùm"
+
 #: context/applets/currenttrack/CurrentTrack.cpp:104
 #: core-impl/collections/db/sql/mysqlecollection/MySqlEmbeddedCollection.cpp:35
 #: core-impl/collections/db/sql/mysqlservercollection/MySqlServerCollection.cpp:41
@@ -3046,20 +3060,6 @@ msgstr "Rozszérzenié lopkù zdroju"
 #| msgid "File Extension of Source"
 msgid "Show Year in Media Sources"
 msgstr "Rozszérzenié lopkù zdroju"
-
-#: context/applets/currenttrack/CurrentTrack.h:38
-#: core-impl/collections/mediadevicecollection/MediaDeviceMeta.cpp:150
-#: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:421
-#: core/meta/Meta.cpp:394 covermanager/CoverFetchUnit.cpp:596
-#: covermanager/CoverFetchUnit.cpp:606
-msgid "Unknown Artist"
-msgstr "Niznóny artista"
-
-#: context/applets/currenttrack/CurrentTrack.h:39
-#: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:431
-#: core/meta/Meta.cpp:444
-msgid "Unknown Album"
-msgstr "Nieznóny albùm"
 
 #: context/applets/labels/LabelGraphicsItem.cpp:63
 #, fuzzy
@@ -10130,53 +10130,6 @@ msgstr[0] "1 artista."
 msgstr[1] "%1 artistów."
 msgstr[2] "%1 artistów."
 
-#: services/magnatune/MagnatuneInfoParser.cpp:32
-msgid "Loading artist info..."
-msgstr "Ladowanié wëdowiédzë ò artisce..."
-
-#: services/magnatune/MagnatuneInfoParser.cpp:44
-#, kde-format
-msgid "Fetching %1 Artist Info"
-msgstr "Ladowanié wëdowédzë ò artisce %1"
-
-#: services/magnatune/MagnatuneInfoParser.cpp:53
-msgid "Loading album info..."
-msgstr "Ladowanié wëdowiédzë ò albùmie..."
-
-#: services/magnatune/MagnatuneInfoParser.cpp:75
-#, fuzzy, kde-format
-#| msgid "Release Year: "
-msgid "Release Year: %1"
-msgstr "Rok wëdaniô:"
-
-#: services/magnatune/MagnatuneInfoParser.cpp:80
-msgid "Description:"
-msgstr "Òpisënk:"
-
-#: services/magnatune/MagnatuneInfoParser.cpp:84
-msgid "From Magnatune.com"
-msgstr "Z Magnatune.com"
-
-#: services/magnatune/MagnatuneInfoParser.cpp:166
-msgid "Loading Magnatune.com frontpage..."
-msgstr "Ladowanié przédny starnë Magnatune..."
-
-#: services/magnatune/MagnatuneInfoParser.cpp:169
-msgid "Fetching Magnatune.com front page"
-msgstr ""
-
-#: services/magnatune/MagnatuneInfoParser.cpp:182
-#: services/magnatune/MagnatuneInfoParser.cpp:198
-msgid "Loading your Magnatune.com favorites page..."
-msgstr "Ladowanié twòji nôlepszi starnë Magnatune..."
-
-#: services/magnatune/MagnatuneInfoParser.cpp:211
-#: services/magnatune/MagnatuneInfoParser.cpp:227
-#, fuzzy
-#| msgid "Loading your Magnatune.com favorites page..."
-msgid "Loading your personal Magnatune.com recommendations page..."
-msgstr "Ladowanié twòji nôlepszi starnë Magnatune..."
-
 #: services/magnatune/MagnatuneAlbumDownloader.cpp:68
 #, fuzzy, kde-format
 #| msgid "Downloading Magnatune.com Database"
@@ -10294,6 +10247,53 @@ msgstr "ok"
 #: services/magnatune/MagnatuneStore.cpp:680
 msgid "ERROR: Unknown argument."
 msgstr "FELA: Nieznóny argùment."
+
+#: services/magnatune/MagnatuneInfoParser.cpp:32
+msgid "Loading artist info..."
+msgstr "Ladowanié wëdowiédzë ò artisce..."
+
+#: services/magnatune/MagnatuneInfoParser.cpp:44
+#, kde-format
+msgid "Fetching %1 Artist Info"
+msgstr "Ladowanié wëdowédzë ò artisce %1"
+
+#: services/magnatune/MagnatuneInfoParser.cpp:53
+msgid "Loading album info..."
+msgstr "Ladowanié wëdowiédzë ò albùmie..."
+
+#: services/magnatune/MagnatuneInfoParser.cpp:75
+#, fuzzy, kde-format
+#| msgid "Release Year: "
+msgid "Release Year: %1"
+msgstr "Rok wëdaniô:"
+
+#: services/magnatune/MagnatuneInfoParser.cpp:80
+msgid "Description:"
+msgstr "Òpisënk:"
+
+#: services/magnatune/MagnatuneInfoParser.cpp:84
+msgid "From Magnatune.com"
+msgstr "Z Magnatune.com"
+
+#: services/magnatune/MagnatuneInfoParser.cpp:166
+msgid "Loading Magnatune.com frontpage..."
+msgstr "Ladowanié przédny starnë Magnatune..."
+
+#: services/magnatune/MagnatuneInfoParser.cpp:169
+msgid "Fetching Magnatune.com front page"
+msgstr ""
+
+#: services/magnatune/MagnatuneInfoParser.cpp:182
+#: services/magnatune/MagnatuneInfoParser.cpp:198
+msgid "Loading your Magnatune.com favorites page..."
+msgstr "Ladowanié twòji nôlepszi starnë Magnatune..."
+
+#: services/magnatune/MagnatuneInfoParser.cpp:211
+#: services/magnatune/MagnatuneInfoParser.cpp:227
+#, fuzzy
+#| msgid "Loading your Magnatune.com favorites page..."
+msgid "Loading your personal Magnatune.com recommendations page..."
+msgstr "Ladowanié twòji nôlepszi starnë Magnatune..."
 
 #: services/mp3tunes/Mp3tunesMeta.cpp:45
 msgid ""
