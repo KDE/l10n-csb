@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_devicenotifier\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-02 04:14+0100\n"
+"POT-Creation-Date: 2011-11-03 04:17+0100\n"
 "PO-Revision-Date: 2009-12-14 23:19+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -21,6 +21,82 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
+#: package/contents/ui/DeviceItem.qml:92
+msgctxt ""
+"Accessing is a less technical word for Mounting; translation should be short "
+"and mean 'Currently mounting this device'"
+msgid "Accessing..."
+msgstr ""
+
+#: package/contents/ui/DeviceItem.qml:92
+msgctxt ""
+"Removing is a less technical word for Unmounting; translation shoud be short "
+"and mean 'Currently unmounting this device'"
+msgid "Removing..."
+msgstr ""
+
+#: package/contents/ui/DeviceItem.qml:104
+#, fuzzy, kde-format
+#| msgid "1 action for this device"
+#| msgid_plural "%1 actions for this device"
+msgid "%1 actions for this device"
+msgstr "1 dzejanié dlô negò ùrządzeniô"
+
+#: package/contents/ui/DeviceItem.qml:136
+#, kde-format
+msgctxt "@info:status Free disk space"
+msgid "%1 free"
+msgstr "%1 wòlné"
+
+#: package/contents/ui/DeviceItem.qml:156
+#, fuzzy
+#| msgid "Click to safely remove this device from the computer."
+msgid "Click to mount this device."
+msgstr "Klëkni bezpbezpieczno ieczno abë òdłączëc ùrządzenié òd kòmpùtra."
+
+#: package/contents/ui/DeviceItem.qml:158
+#, fuzzy
+#| msgid "Click to safely remove this device from the computer."
+msgid "Click to eject this disc."
+msgstr "Klëkni bezpbezpieczno ieczno abë òdłączëc ùrządzenié òd kòmpùtra."
+
+#: package/contents/ui/DeviceItem.qml:160
+#, fuzzy
+#| msgid "Click to safely remove this device from the computer."
+msgid "Click to safely remove this device."
+msgstr "Klëkni bezpbezpieczno ieczno abë òdłączëc ùrządzenié òd kòmpùtra."
+
+#: package/contents/ui/DeviceItem.qml:162
+msgid "Click to access this device from other applications."
+msgstr "Klëkni dlô przëstãpù jinszą aplikacëją do negò ùrządzenia."
+
+#: package/contents/ui/DeviceItem.qml:172
+msgid ""
+"It is currently <b>not safe</b> to remove this device: applications may be "
+"accessing it. Click the eject button to safely remove this device."
+msgstr ""
+
+#: package/contents/ui/DeviceItem.qml:174
+msgid "This device is currently accessible."
+msgstr ""
+
+#: package/contents/ui/DeviceItem.qml:179
+msgid ""
+"It is currently <b>not safe</b> to remove this device: applications may be "
+"accessing other volumes on this device. Click the eject button on these "
+"other volumes to safely remove this device."
+msgstr ""
+
+#: package/contents/ui/DeviceItem.qml:181
+#, fuzzy
+#| msgid "Click to safely remove this device from the computer."
+msgid "It is currently safe to remove this device."
+msgstr "Klëkni bezpbezpieczno ieczno abë òdłączëc ùrządzenié òd kòmpùtra."
+
+#: package/contents/ui/DeviceItem.qml:184
+msgid "This device is not currently accessible."
+msgstr ""
+
 #: package/contents/ui/devicenotifier.qml:118
 #, fuzzy
 #| msgid "All devices"
@@ -31,28 +107,23 @@ msgstr "Wszëtczé ùrządzenia"
 msgid "No Devices Available"
 msgstr ""
 
-#, fuzzy
-#~| msgid "Click to safely remove this device from the computer."
-#~ msgid "Click to safely remove this device."
-#~ msgstr "Klëkni bezpbezpieczno ieczno abë òdłączëc ùrządzenié òd kòmpùtra."
+#. i18n: file: package/contents/ui/config.ui:17
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_removableDevices)
+#: rc.cpp:3
+msgid "Removable devices only"
+msgstr "Blós przenosné ùrządzenia"
 
-#, fuzzy
-#~| msgid "Click to safely remove this device from the computer."
-#~ msgid "Click to unmount this device."
-#~ msgstr "Klëkni bezpbezpieczno ieczno abë òdłączëc ùrządzenié òd kòmpùtra."
+#. i18n: file: package/contents/ui/config.ui:24
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_nonRemovableDevices)
+#: rc.cpp:6
+msgid "Non-removable devices only"
+msgstr "Blós nieprzenosné ùrządzenia"
 
-#~ msgid "Click to access this device from other applications."
-#~ msgstr "Klëkni dlô przëstãpù jinszą aplikacëją do negò ùrządzenia."
-
-#~ msgctxt "@info:status Free disk space"
-#~ msgid "%1 free"
-#~ msgstr "%1 wòlné"
-
-#~ msgid "1 action for this device"
-#~ msgid_plural "%1 actions for this device"
-#~ msgstr[0] "1 dzejanié dlô negò ùrządzeniô"
-#~ msgstr[1] "%1 dzejania dlô negò ùrządzeniô"
-#~ msgstr[2] "%1 dzejaniół dlô negò ùrządzeniô"
+#. i18n: file: package/contents/ui/config.ui:44
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_allDevices)
+#: rc.cpp:9
+msgid "All devices"
+msgstr "Wszëtczé ùrządzenia"
 
 #, fuzzy
 #~| msgid "No devices plugged in."
@@ -75,15 +146,6 @@ msgstr ""
 #~ msgctxt "Hide a device"
 #~ msgid "Hide %1"
 #~ msgstr "Zatacë %1"
-
-#~ msgid "Removable devices only"
-#~ msgstr "Blós przenosné ùrządzenia"
-
-#~ msgid "Non-removable devices only"
-#~ msgstr "Blós nieprzenosné ùrządzenia"
-
-#~ msgid "All devices"
-#~ msgstr "Wszëtczé ùrządzenia"
 
 #, fuzzy
 #~| msgid "Device is plugged in and can be accessed by applications."
