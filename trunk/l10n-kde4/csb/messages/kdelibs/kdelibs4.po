@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-01 05:27+0100\n"
+"POT-Creation-Date: 2011-11-17 04:04+0100\n"
 "PO-Revision-Date: 2009-12-04 22:09+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -2699,15 +2699,15 @@ msgstr "Sprôwdzanié òbczas pisaniô."
 msgid "Too many misspelled words. As-you-type spell checking disabled."
 msgstr "Je za wiele słów z felama. Wëłączoné sprôwdzanié òbczas pisaniô."
 
-#: kde3support/kdeui/k3textedit.cpp:232 kdeui/widgets/ktextedit.cpp:495
+#: kde3support/kdeui/k3textedit.cpp:232 kdeui/widgets/ktextedit.cpp:493
 msgid "Check Spelling..."
 msgstr "Sprôwdzë pisënk..."
 
-#: kde3support/kdeui/k3textedit.cpp:238 kdeui/widgets/ktextedit.cpp:498
+#: kde3support/kdeui/k3textedit.cpp:238 kdeui/widgets/ktextedit.cpp:496
 msgid "Auto Spell Check"
 msgstr "Aùtomatné sprôwdzanié pisënkù"
 
-#: kde3support/kdeui/k3textedit.cpp:242 kdeui/widgets/ktextedit.cpp:502
+#: kde3support/kdeui/k3textedit.cpp:242 kdeui/widgets/ktextedit.cpp:500
 msgid "Allow Tabulations"
 msgstr "Dopùszczë tabùlacëjã"
 
@@ -9766,6 +9766,31 @@ msgctxt "@item:inmenu Text Completion"
 msgid "Default"
 msgstr "Domëszlné"
 
+#: kdeui/widgets/ktextedit.cpp:527
+msgid "Speak Text"
+msgstr "Gôdôj tekst"
+
+#: kdeui/widgets/ktextedit.cpp:542
+msgid "Starting Jovie Text-to-Speech Service Failed"
+msgstr ""
+
+#: kdeui/widgets/ktextedit.cpp:631
+#, kde-format
+msgid "No suggestions for %1"
+msgstr "Bez pòdpòwiesców dlô %1"
+
+#: kdeui/widgets/ktextedit.cpp:642
+msgid "Ignore"
+msgstr "Przepùszczë"
+
+#: kdeui/widgets/ktextedit.cpp:643
+msgid "Add to Dictionary"
+msgstr "Dodôj do słowarza"
+
+#: kdeui/widgets/ktextedit.cpp:788
+msgid "Nothing to spell check."
+msgstr "NIe dô niczegò dze mòże sprôwdzëc pisënk."
+
 #: kdeui/widgets/kpixmapregionselectorwidget.cpp:195
 msgid "Image Operations"
 msgstr "Òperacëje na òbrôzkù"
@@ -9966,31 +9991,6 @@ msgstr "Superskript"
 #: kdeui/widgets/ksqueezedtextlabel.cpp:165
 msgid "&Copy Full Text"
 msgstr "&Kòpérëjë całi tekst"
-
-#: kdeui/widgets/ktextedit.cpp:526
-msgid "Speak Text"
-msgstr "Gôdôj tekst"
-
-#: kdeui/widgets/ktextedit.cpp:541
-msgid "Starting Jovie Text-to-Speech Service Failed"
-msgstr ""
-
-#: kdeui/widgets/ktextedit.cpp:630
-#, kde-format
-msgid "No suggestions for %1"
-msgstr "Bez pòdpòwiesców dlô %1"
-
-#: kdeui/widgets/ktextedit.cpp:641
-msgid "Ignore"
-msgstr "Przepùszczë"
-
-#: kdeui/widgets/ktextedit.cpp:642
-msgid "Add to Dictionary"
-msgstr "Dodôj do słowarza"
-
-#: kdeui/widgets/ktextedit.cpp:787
-msgid "Nothing to spell check."
-msgstr "NIe dô niczegò dze mòże sprôwdzëc pisënk."
 
 #: kdeui/widgets/ktimezonewidget.cpp:66
 msgctxt "Define an area in the time zone, like a town area"
@@ -10267,10 +10267,6 @@ msgstr "Nôrzãdza"
 msgid "No text"
 msgstr "Felënk tekstu"
 
-#: kdewebkit/kwebpage.cpp:126 khtml/khtml_ext.cpp:879
-msgid "Overwrite File?"
-msgstr "Nôdpisac lopk?"
-
 #: kdewidgets/makekdewidgets.cpp:84
 msgid "Builds Qt widget plugins from an ini style description file."
 msgstr "Ùsôdzô wtëkôcze z elementama interfejsu Qt z lopka òpisënkù sztélu."
@@ -10434,6 +10430,10 @@ msgstr "Pòdôj adresã URL:"
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr "Lopk ò mionie \"%1\" ju je. Nôdpisac gò?"
+
+#: khtml/khtml_ext.cpp:879
+msgid "Overwrite File?"
+msgstr "Nôdpisac lopk?"
 
 #: khtml/khtml_ext.cpp:879
 msgid "Overwrite"
@@ -13871,7 +13871,7 @@ msgstr "-nienazwóny-"
 msgid "No service matching the requirements was found"
 msgstr "Nie nalazłô òbsłëga spôłniajacô wëmôgania"
 
-#: kdecore/services/kservice.h:553
+#: kdecore/services/kservice.h:555
 #, kde-format
 msgid "The service '%1' does not provide an interface '%2' with keyword '%3'"
 msgstr ""
