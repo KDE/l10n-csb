@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-31 04:19+0100\n"
+"POT-Creation-Date: 2011-11-18 04:53+0100\n"
 "PO-Revision-Date: 2009-12-14 21:59+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -51,7 +51,7 @@ msgstr "Òglowò"
 msgid "Games"
 msgstr "Grë"
 
-#: core/applicationmodel.cpp:429 ui/launcher.cpp:975
+#: core/applicationmodel.cpp:429 ui/launcher.cpp:976
 msgid "All Applications"
 msgstr "Wszëtczé aplikacëje"
 
@@ -109,6 +109,11 @@ msgstr "Zrëszë pòlét abò szëkôj za zapëtanim"
 #: ui/launcher.cpp:123 ui/launcher.cpp:270
 msgid "Computer"
 msgstr "Kòmpùtr"
+
+#: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
+#: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:121 ui/launcher.cpp:191
+msgid "Favorites"
+msgstr "Ùlëbnicë"
 
 #: core/leavemodel.cpp:49 simpleapplet/simpleapplet.cpp:210
 #, fuzzy
@@ -206,11 +211,6 @@ msgstr "Sesëjô"
 #: core/leavemodel.cpp:149
 msgid "System"
 msgstr "Systema"
-
-#: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
-#: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:121 ui/launcher.cpp:191
-msgid "Favorites"
-msgstr "Ùlëbnicë"
 
 #: main.cpp:32
 msgid "Kickoff"
@@ -340,6 +340,11 @@ msgstr "Wësënié"
 msgid "Safely Remove"
 msgstr "Rëmôj bezpieczno"
 
+#: ui/searchbar.cpp:70
+msgctxt "Label of the search bar textedit"
+msgid "Search:"
+msgstr "Szëkba:"
+
 #: ui/launcher.cpp:194
 msgid "Sort Alphabetically (A to Z)"
 msgstr "Zortëjë alfabétno (òd A do Z)"
@@ -367,11 +372,6 @@ msgstr "Brëkòwnik <b>%1</b> na <b>%2</b>"
 msgctxt "full name, login name, hostname"
 msgid "<b>%1 (%2)</b> on <b>%3</b>"
 msgstr "<b>%1 (%2)</b> na <b>%3</b>"
-
-#: ui/searchbar.cpp:70
-msgctxt "Label of the search bar textedit"
-msgid "Search:"
-msgstr "Szëkba:"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
