@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-23 04:01+0100\n"
+"POT-Creation-Date: 2011-12-02 04:25+0100\n"
 "PO-Revision-Date: 2009-06-29 20:35+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -70,7 +70,7 @@ msgid "Select Folder"
 msgstr "Jeden katalog"
 
 #: bookmarks/kbookmarkdialog.cc:159 ../kfile/kdirselectdialog.cpp:135
-#: ../kfile/knewfilemenu.cpp:1015
+#: ../kfile/knewfilemenu.cpp:1013
 #, fuzzy
 #| msgid "New Folder..."
 msgctxt "@title:window"
@@ -410,6 +410,34 @@ msgstr ""
 
 #: kfile/kfilemetainfowidget.cpp:163
 msgid "<Error>"
+msgstr ""
+
+#: kfile/kfilemetadatareaderprocess.cpp:216
+msgid "KFileMetaDataReader"
+msgstr ""
+
+#: kfile/kfilemetadatareaderprocess.cpp:218
+msgid "KFileMetaDataReader can be used to read metadata from a file"
+msgstr ""
+
+#: kfile/kfilemetadatareaderprocess.cpp:220
+msgid "(C) 2011, Peter Penz"
+msgstr ""
+
+#: kfile/kfilemetadatareaderprocess.cpp:221
+msgid "Peter Penz"
+msgstr ""
+
+#: kfile/kfilemetadatareaderprocess.cpp:221
+msgid "Current maintainer"
+msgstr ""
+
+#: kfile/kfilemetadatareaderprocess.cpp:226
+msgid "Only the meta data that is part of the file is read"
+msgstr ""
+
+#: kfile/kfilemetadatareaderprocess.cpp:227
+msgid "List of URLs where the meta-data should be read from"
 msgstr ""
 
 #: kfile/kmetaprops.cpp:57
@@ -1487,34 +1515,6 @@ msgstr "Wedle miarë"
 msgctxt "@label"
 msgid "Type"
 msgstr "Wedle ôrtu"
-
-#: kfile/kfilemetadatareaderprocess.cpp:169
-msgid "KFileMetaDataReader"
-msgstr ""
-
-#: kfile/kfilemetadatareaderprocess.cpp:171
-msgid "KFileMetaDataReader can be used to read metadata from a file"
-msgstr ""
-
-#: kfile/kfilemetadatareaderprocess.cpp:173
-msgid "(C) 2011, Peter Penz"
-msgstr ""
-
-#: kfile/kfilemetadatareaderprocess.cpp:174
-msgid "Peter Penz"
-msgstr ""
-
-#: kfile/kfilemetadatareaderprocess.cpp:174
-msgid "Current maintainer"
-msgstr ""
-
-#: kfile/kfilemetadatareaderprocess.cpp:179
-msgid "Only the meta data that is part of the file is read"
-msgstr ""
-
-#: kfile/kfilemetadatareaderprocess.cpp:180
-msgid "List of URLs where the meta-data should be read from"
-msgstr ""
 
 #: kfile/kcommentwidget.cpp:65
 msgctxt "@label"
@@ -5481,11 +5481,11 @@ msgid ""
 "\n"
 msgstr ""
 
-#: ../kioslave/ftp/ftp.cpp:576 ../kioslave/http/http.cpp:3483
+#: ../kioslave/ftp/ftp.cpp:576 ../kioslave/http/http.cpp:3487
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
 
-#: ../kioslave/ftp/ftp.cpp:578 ../kioslave/http/http.cpp:3485
+#: ../kioslave/ftp/ftp.cpp:578 ../kioslave/http/http.cpp:3489
 msgid "Site:"
 msgstr ""
 
@@ -5503,26 +5503,26 @@ msgstr ""
 msgid "Could not login to %1."
 msgstr ""
 
-#: ../kioslave/ftp/ftp.cpp:2561 ../kioslave/http/http.cpp:3495
-#: ../kioslave/http/http.cpp:5400
+#: ../kioslave/ftp/ftp.cpp:2561 ../kioslave/http/http.cpp:3499
+#: ../kioslave/http/http.cpp:5404
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
 msgstr ""
 
-#: ../kioslave/ftp/ftp.cpp:2565 ../kioslave/http/http.cpp:3498
-#: ../kioslave/http/http.cpp:5404
+#: ../kioslave/ftp/ftp.cpp:2565 ../kioslave/http/http.cpp:3502
+#: ../kioslave/http/http.cpp:5408
 msgid "Proxy:"
 msgstr ""
 
-#: ../kioslave/ftp/ftp.cpp:2566 ../kioslave/http/http.cpp:3572
-#: ../kioslave/http/http.cpp:5405
+#: ../kioslave/ftp/ftp.cpp:2566 ../kioslave/http/http.cpp:3576
+#: ../kioslave/http/http.cpp:5409
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr ""
 
-#: ../kioslave/ftp/ftp.cpp:2567 ../kioslave/http/http.cpp:3562
-#: ../kioslave/http/http.cpp:5406
+#: ../kioslave/ftp/ftp.cpp:2567 ../kioslave/http/http.cpp:3566
+#: ../kioslave/http/http.cpp:5410
 msgid "Proxy Authentication Failed."
 msgstr ""
 
@@ -5696,86 +5696,86 @@ msgstr ""
 msgid "Reload configuration file"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:595
+#: ../kioslave/http/http.cpp:599
 msgid "No host specified."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1589
+#: ../kioslave/http/http.cpp:1593
 msgid "Otherwise, the request would have succeeded."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1593
+#: ../kioslave/http/http.cpp:1597
 msgctxt "request type"
 msgid "retrieve property values"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1596
+#: ../kioslave/http/http.cpp:1600
 msgctxt "request type"
 msgid "set property values"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1599
+#: ../kioslave/http/http.cpp:1603
 msgctxt "request type"
 msgid "create the requested folder"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1602
+#: ../kioslave/http/http.cpp:1606
 msgctxt "request type"
 msgid "copy the specified file or folder"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1605
+#: ../kioslave/http/http.cpp:1609
 msgctxt "request type"
 msgid "move the specified file or folder"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1608
+#: ../kioslave/http/http.cpp:1612
 msgctxt "request type"
 msgid "search in the specified folder"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1611
+#: ../kioslave/http/http.cpp:1615
 msgctxt "request type"
 msgid "lock the specified file or folder"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1614
+#: ../kioslave/http/http.cpp:1618
 msgctxt "request type"
 msgid "unlock the specified file or folder"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1617
+#: ../kioslave/http/http.cpp:1621
 msgctxt "request type"
 msgid "delete the specified file or folder"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1620
+#: ../kioslave/http/http.cpp:1624
 msgctxt "request type"
 msgid "query the server's capabilities"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1623
+#: ../kioslave/http/http.cpp:1627
 msgctxt "request type"
 msgid "retrieve the contents of the specified file or folder"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1626
+#: ../kioslave/http/http.cpp:1630
 msgctxt "request type"
 msgid "run a report in the specified folder"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1637
+#: ../kioslave/http/http.cpp:1641
 #, fuzzy, kde-format
 #| msgid "An error occurred while accessing '%1'"
 msgctxt "%1: code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "Fela przë próbie ùzwëskaniô przistãpù do '%1'"
 
-#: ../kioslave/http/http.cpp:1645
+#: ../kioslave/http/http.cpp:1649
 msgid "The server does not support the WebDAV protocol."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1687
+#: ../kioslave/http/http.cpp:1691
 #, kde-format
 msgctxt "%1: request type, %2: url"
 msgid ""
@@ -5783,19 +5783,19 @@ msgid ""
 "below."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1701 ../kioslave/http/http.cpp:1833
+#: ../kioslave/http/http.cpp:1705 ../kioslave/http/http.cpp:1837
 #, kde-format
 msgctxt "%1: request type"
 msgid "Access was denied while attempting to %1."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1714 ../kioslave/http/http.cpp:1839
+#: ../kioslave/http/http.cpp:1718 ../kioslave/http/http.cpp:1843
 msgid ""
 "A resource cannot be created at the destination until one or more "
 "intermediate collections (folders) have been created."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1722
+#: ../kioslave/http/http.cpp:1726
 #, kde-format
 msgid ""
 "The server was unable to maintain the liveness of the properties listed in "
@@ -5803,26 +5803,26 @@ msgid ""
 "requesting that files are not overwritten. %1"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1730
+#: ../kioslave/http/http.cpp:1734
 #, kde-format
 msgid "The requested lock could not be granted. %1"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1736
+#: ../kioslave/http/http.cpp:1740
 msgid "The server does not support the request type of the body."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1741 ../kioslave/http/http.cpp:1847
+#: ../kioslave/http/http.cpp:1745 ../kioslave/http/http.cpp:1851
 #, kde-format
 msgctxt "%1: request type"
 msgid "Unable to %1 because the resource is locked."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1745
+#: ../kioslave/http/http.cpp:1749
 msgid "This action was prevented by another error."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1751 ../kioslave/http/http.cpp:1853
+#: ../kioslave/http/http.cpp:1755 ../kioslave/http/http.cpp:1857
 #, kde-format
 msgctxt "%1: request type"
 msgid ""
@@ -5830,36 +5830,36 @@ msgid ""
 "folder."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1758 ../kioslave/http/http.cpp:1860
+#: ../kioslave/http/http.cpp:1762 ../kioslave/http/http.cpp:1864
 msgid ""
 "The destination resource does not have sufficient space to record the state "
 "of the resource after the execution of this method."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1811
+#: ../kioslave/http/http.cpp:1815
 #, fuzzy
 #| msgid "The specified resource may not exist."
 msgid "The resource cannot be deleted."
 msgstr "Mòżlëwé, że to nie dô pòdónegò dostónka."
 
-#: ../kioslave/http/http.cpp:1824
+#: ../kioslave/http/http.cpp:1828
 #, kde-format
 msgctxt "request type"
 msgid "upload %1"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1874
+#: ../kioslave/http/http.cpp:1878
 #, kde-format
 msgctxt "%1: response code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:2696
+#: ../kioslave/http/http.cpp:2700
 #, kde-format
 msgid "%1 contacted. Waiting for reply..."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:3027
+#: ../kioslave/http/http.cpp:3031
 #, kde-format
 msgctxt "@warning: Security check on url being accessed"
 msgid ""
@@ -5868,37 +5868,37 @@ msgid ""
 "<p>Is \"%1\" the site you want to visit?"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:3034
+#: ../kioslave/http/http.cpp:3038
 msgctxt "@title:window"
 msgid "Confirm Website Access"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:3111
+#: ../kioslave/http/http.cpp:3115
 msgid "Server processing request, please wait..."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:3559
+#: ../kioslave/http/http.cpp:3563
 msgid "Authentication Failed."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:3605
+#: ../kioslave/http/http.cpp:3609
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Authorization failed."
 msgstr "Wëmòga aùtoryzacëji"
 
-#: ../kioslave/http/http.cpp:3622
+#: ../kioslave/http/http.cpp:3626
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Unknown Authorization method."
 msgstr "Wëmòga aùtoryzacëji"
 
-#: ../kioslave/http/http.cpp:4004 ../kioslave/http/http.cpp:4058
+#: ../kioslave/http/http.cpp:4008 ../kioslave/http/http.cpp:4062
 #, kde-format
 msgid "Sending data to %1"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:4524
+#: ../kioslave/http/http.cpp:4528
 #, kde-format
 msgid "Retrieving %1 from %2..."
 msgstr ""
@@ -5965,6 +5965,174 @@ msgstr ""
 msgctxt "@item:inmenu"
 msgid "Other"
 msgstr ""
+
+#: ../kfile/kdirselectdialog.cpp:131
+#, fuzzy
+#| msgid "New Folder..."
+msgctxt "folder name"
+msgid "New Folder"
+msgstr "Nowi katalog..."
+
+#: ../kfile/kdirselectdialog.cpp:136
+#, fuzzy, kde-format
+#| msgid ""
+#| "Create new folder in:\n"
+#| "%1"
+msgctxt "@label:textbox"
+msgid ""
+"Create new folder in:\n"
+"%1"
+msgstr ""
+"Ùsôdzë nowi katalog w:\n"
+"%1"
+
+#: ../kfile/kdirselectdialog.cpp:159 ../kfile/kdiroperator.cpp:766
+#, kde-format
+msgid "A file or folder named %1 already exists."
+msgstr "Lopk abò katalog ò mionie %1 ju je."
+
+#: ../kfile/kdirselectdialog.cpp:163 ../kfile/kdiroperator.cpp:768
+msgid "You do not have permission to create that folder."
+msgstr "Ni môsz prawa do ùsôdzaniô negò kataloga."
+
+#: ../kfile/kdirselectdialog.cpp:283
+#, fuzzy
+#| msgid "New Folder..."
+msgctxt "@action:button"
+msgid "New Folder..."
+msgstr "Nowi katalog..."
+
+#: ../kfile/kdirselectdialog.cpp:324
+#, fuzzy
+#| msgid "New Folder..."
+msgctxt "@action:inmenu"
+msgid "New Folder..."
+msgstr "Nowi katalog..."
+
+#: ../kfile/kdirselectdialog.cpp:331
+#, fuzzy
+#| msgid "Move to Trash"
+msgctxt "@action:inmenu"
+msgid "Move to Trash"
+msgstr "Przesënié do kòsza"
+
+#: ../kfile/kdirselectdialog.cpp:338
+#, fuzzy
+#| msgid "Delete"
+msgctxt "@action:inmenu"
+msgid "Delete"
+msgstr "Rëmôj"
+
+#: ../kfile/kdirselectdialog.cpp:347
+#, fuzzy
+#| msgid "Show Hidden Folders"
+msgctxt "@option:check"
+msgid "Show Hidden Folders"
+msgstr "Pòkôżë zataconé lopczi"
+
+#: ../kfile/kdirselectdialog.cpp:354
+msgctxt "@action:inmenu"
+msgid "Properties"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:368 ../kfile/knewfilemenu.cpp:871
+msgid "Sorry"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:377
+#, fuzzy, kde-format
+#| msgid "The file or folder %1 does not exist."
+msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
+msgstr "Felëje lopk, abò katalog %1."
+
+#: ../kfile/knewfilemenu.cpp:396
+#, fuzzy
+#| msgctxt "@title job"
+#| msgid "Creating directory"
+msgctxt "@action:button"
+msgid "Create directory"
+msgstr "Ùsôdzanié katalogów"
+
+#: ../kfile/knewfilemenu.cpp:398
+msgctxt "@action:button"
+msgid "Enter a different name"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:401
+#, fuzzy
+#| msgctxt "@title job"
+#| msgid "Creating directory"
+msgid "Create hidden directory?"
+msgstr "Ùsôdzanié katalogów"
+
+#: ../kfile/knewfilemenu.cpp:405
+#, kde-format
+msgid ""
+"The name \"%1\" starts with a dot, so the directory will be hidden by "
+"default."
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:407
+msgid "Do not ask again"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:500 ../kfile/knewfilemenu.cpp:557
+#, fuzzy
+#| msgid "Filename Error"
+msgid "File name:"
+msgstr "Lëché miono lopka"
+
+#: ../kfile/knewfilemenu.cpp:503
+#, fuzzy
+#| msgid "Could Not Create Symbolic Link"
+msgid "Create Symlink"
+msgstr "Ni mòże ùsôdzëc symbòlicznegò lënka"
+
+#: ../kfile/knewfilemenu.cpp:561
+#, fuzzy
+#| msgid "Detailed View"
+msgid "Create link to URL"
+msgstr "Detalowi wëzdrzatk"
+
+#: ../kfile/knewfilemenu.cpp:607 ../kfile/knewfilemenu.cpp:655
+#, kde-format
+msgctxt "@item:inmenu Create New"
+msgid "%1"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:881
+msgid ""
+"Basic links can only point to local files or directories.\n"
+"Please use \"Link to Location\" for remote URLs."
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:945
+#, fuzzy
+#| msgid "Detailed View"
+msgid "Create New"
+msgstr "Detalowi wëzdrzatk"
+
+#: ../kfile/knewfilemenu.cpp:958
+#, fuzzy
+#| msgid "Device"
+msgid "Link to Device"
+msgstr "Ùrządzenié"
+
+#: ../kfile/knewfilemenu.cpp:1003
+#, fuzzy
+#| msgid "New Folder..."
+msgctxt "Default name for a new folder"
+msgid "New Folder"
+msgstr "Nowi katalog..."
+
+#: ../kfile/knewfilemenu.cpp:1017
+#, kde-format
+msgid ""
+"Create new folder in:\n"
+"%1"
+msgstr ""
+"Ùsôdzë nowi katalog w:\n"
+"%1"
 
 #: ../kfile/kurlnavigatortogglebutton.cpp:93
 msgid "Click for Location Navigation"
@@ -6052,14 +6220,119 @@ msgstr "Fela przë próbie ùzwëskaniô przistãpù do '%1', systema gôdô: %2
 msgid "An error occurred while accessing '%1'"
 msgstr "Fela przë próbie ùzwëskaniô przistãpù do '%1'"
 
-#: ../kfile/kdiroperator.cpp:766 ../kfile/kdirselectdialog.cpp:159
-#, kde-format
-msgid "A file or folder named %1 already exists."
-msgstr "Lopk abò katalog ò mionie %1 ju je."
+#: ../kfile/kfiletreeview.cpp:187
+#, fuzzy
+#| msgid "Show Hidden Folders"
+msgid "Show Hidden Folders"
+msgstr "Pòkôżë zataconé lopczi"
 
-#: ../kfile/kdiroperator.cpp:768 ../kfile/kdirselectdialog.cpp:163
-msgid "You do not have permission to create that folder."
-msgstr "Ni môsz prawa do ùsôdzaniô negò kataloga."
+#: ../kfile/kfileplaceeditdialog.cpp:90
+#, fuzzy
+#| msgid "Edit Places Entry"
+msgid "Add Places Entry"
+msgstr "Zmieni wpisënk chùtczégò przistãpù"
+
+#: ../kfile/kfileplaceeditdialog.cpp:92
+msgid "Edit Places Entry"
+msgstr "Zmieni wpisënk chùtczégò przistãpù"
+
+#: ../kfile/kfileplaceeditdialog.cpp:103
+#, fuzzy
+#| msgid ""
+#| "<qt>This is the text that will appear in the Places panel.<br /><br />The "
+#| "description should consist of one or two words that will help you "
+#| "remember what this entry refers to.</qt>"
+msgid ""
+"<qt>This is the text that will appear in the Places panel.<br /><br />The "
+"label should consist of one or two words that will help you remember what "
+"this entry refers to. If you do not enter a label, it will be derived from "
+"the location's URL.</qt>"
+msgstr ""
+"<qt>Tekst wëskrzëniany w listwie chùtczégò przistãpù.<br /><br /> Òpisënk "
+"mùszi skłôdac sã z jednegò abò dwóch słów, parłãczącëch sã z lokalizacëją, "
+"do jaczi prowôdzi skrodzëna.</qt>"
+
+#: ../kfile/kfileplaceeditdialog.cpp:109
+msgid "L&abel:"
+msgstr ""
+
+#: ../kfile/kfileplaceeditdialog.cpp:111
+msgid "Enter descriptive label here"
+msgstr ""
+
+#: ../kfile/kfileplaceeditdialog.cpp:115
+#, kde-format
+msgid ""
+"<qt>This is the location associated with the entry. Any valid URL may be "
+"used. For example:<br /><br />%1<br />http://www.kde.org<br />ftp://ftp.kde."
+"org/pub/kde/stable<br /><br />By clicking on the button next to the text "
+"edit box you can browse to an appropriate URL.</qt>"
+msgstr ""
+"<qt>Lokalizacëjô sparłaczonô ze skrodzëną. Mòżlëwé je ùżëcé "
+"dowólnegòbezzmiłkòwegò URL, na przëmiôr <br /><br />%1<br />http://www.kde."
+"org<br /> ftp://ftp.kde.org/pub/kde/stable<br /><br />Knąpa kòl edicejnegò "
+"pòla zezwôlô wëbrac pasowny URL.</qt>"
+
+#: ../kfile/kfileplaceeditdialog.cpp:121
+msgid "&Location:"
+msgstr "&Lokalizacëjô:"
+
+#: ../kfile/kfileplaceeditdialog.cpp:127
+msgid ""
+"<qt>This is the icon that will appear in the Places panel.<br /><br />Click "
+"on the button to select a different icon.</qt>"
+msgstr ""
+"<qt>Ikòna wëskrzënianiô w listwie chùtczégò przistãpù.<br /><br />Klëkni na "
+"knąpã, bë wëbrac jinszą ikònã.</qt>"
+
+#: ../kfile/kfileplaceeditdialog.cpp:130
+msgid "Choose an &icon:"
+msgstr "Wëbierzë &ikònã:"
+
+#: ../kfile/kfileplaceeditdialog.cpp:147
+#, kde-format
+msgid "&Only show when using this application (%1)"
+msgstr "Blós dlô &ti programë (%1)"
+
+#: ../kfile/kfileplaceeditdialog.cpp:149
+#, kde-format
+msgid ""
+"<qt>Select this setting if you want this entry to show only when using the "
+"current application (%1).<br /><br />If this setting is not selected, the "
+"entry will be available in all applications.</qt>"
+msgstr ""
+"<qt> Wëbierzë nã òptacëjã, jeżlë chcesz, bë wprowadzenié tikało sã blós ti "
+"programë (%1).<br /><br />Jinaczi bãdze przistãpné we wszëtczich programach."
+"</qt>"
+
+#: ../kfile/kurlnavigator.cpp:431
+msgid "Copy"
+msgstr "Kòpérëjë"
+
+#: ../kfile/kurlnavigator.cpp:435
+msgid "Paste"
+msgstr "Wlepi"
+
+#: ../kfile/kurlnavigator.cpp:442
+msgid "Edit"
+msgstr "Editëjë"
+
+#: ../kfile/kurlnavigator.cpp:445
+msgid "Navigate"
+msgstr "Nawigùjë"
+
+#: ../kfile/kurlnavigator.cpp:460
+msgid "Show Full Path"
+msgstr ""
+
+#: ../kfile/kurlnavigator.cpp:698
+msgid "Custom Path"
+msgstr "Swòjô stegna"
+
+#: ../kfile/kurlnavigatorbutton.cpp:675
+msgctxt "@action:inmenu"
+msgid "More"
+msgstr ""
 
 #: ../kfile/kdiroperator.cpp:783
 msgid "You did not select a file to delete."
@@ -6229,151 +6502,6 @@ msgstr ""
 #: ../kfile/kdiroperator.cpp:1990
 msgid "&View"
 msgstr "&Wëzdrzatk"
-
-#: ../kfile/kdirselectdialog.cpp:131
-#, fuzzy
-#| msgid "New Folder..."
-msgctxt "folder name"
-msgid "New Folder"
-msgstr "Nowi katalog..."
-
-#: ../kfile/kdirselectdialog.cpp:136
-#, fuzzy, kde-format
-#| msgid ""
-#| "Create new folder in:\n"
-#| "%1"
-msgctxt "@label:textbox"
-msgid ""
-"Create new folder in:\n"
-"%1"
-msgstr ""
-"Ùsôdzë nowi katalog w:\n"
-"%1"
-
-#: ../kfile/kdirselectdialog.cpp:283
-#, fuzzy
-#| msgid "New Folder..."
-msgctxt "@action:button"
-msgid "New Folder..."
-msgstr "Nowi katalog..."
-
-#: ../kfile/kdirselectdialog.cpp:324
-#, fuzzy
-#| msgid "New Folder..."
-msgctxt "@action:inmenu"
-msgid "New Folder..."
-msgstr "Nowi katalog..."
-
-#: ../kfile/kdirselectdialog.cpp:331
-#, fuzzy
-#| msgid "Move to Trash"
-msgctxt "@action:inmenu"
-msgid "Move to Trash"
-msgstr "Przesënié do kòsza"
-
-#: ../kfile/kdirselectdialog.cpp:338
-#, fuzzy
-#| msgid "Delete"
-msgctxt "@action:inmenu"
-msgid "Delete"
-msgstr "Rëmôj"
-
-#: ../kfile/kdirselectdialog.cpp:347
-#, fuzzy
-#| msgid "Show Hidden Folders"
-msgctxt "@option:check"
-msgid "Show Hidden Folders"
-msgstr "Pòkôżë zataconé lopczi"
-
-#: ../kfile/kdirselectdialog.cpp:354
-msgctxt "@action:inmenu"
-msgid "Properties"
-msgstr ""
-
-#: ../kfile/kfiletreeview.cpp:187
-#, fuzzy
-#| msgid "Show Hidden Folders"
-msgid "Show Hidden Folders"
-msgstr "Pòkôżë zataconé lopczi"
-
-#: ../kfile/kfileplaceeditdialog.cpp:90
-#, fuzzy
-#| msgid "Edit Places Entry"
-msgid "Add Places Entry"
-msgstr "Zmieni wpisënk chùtczégò przistãpù"
-
-#: ../kfile/kfileplaceeditdialog.cpp:92
-msgid "Edit Places Entry"
-msgstr "Zmieni wpisënk chùtczégò przistãpù"
-
-#: ../kfile/kfileplaceeditdialog.cpp:103
-#, fuzzy
-#| msgid ""
-#| "<qt>This is the text that will appear in the Places panel.<br /><br />The "
-#| "description should consist of one or two words that will help you "
-#| "remember what this entry refers to.</qt>"
-msgid ""
-"<qt>This is the text that will appear in the Places panel.<br /><br />The "
-"label should consist of one or two words that will help you remember what "
-"this entry refers to. If you do not enter a label, it will be derived from "
-"the location's URL.</qt>"
-msgstr ""
-"<qt>Tekst wëskrzëniany w listwie chùtczégò przistãpù.<br /><br /> Òpisënk "
-"mùszi skłôdac sã z jednegò abò dwóch słów, parłãczącëch sã z lokalizacëją, "
-"do jaczi prowôdzi skrodzëna.</qt>"
-
-#: ../kfile/kfileplaceeditdialog.cpp:109
-msgid "L&abel:"
-msgstr ""
-
-#: ../kfile/kfileplaceeditdialog.cpp:111
-msgid "Enter descriptive label here"
-msgstr ""
-
-#: ../kfile/kfileplaceeditdialog.cpp:115
-#, kde-format
-msgid ""
-"<qt>This is the location associated with the entry. Any valid URL may be "
-"used. For example:<br /><br />%1<br />http://www.kde.org<br />ftp://ftp.kde."
-"org/pub/kde/stable<br /><br />By clicking on the button next to the text "
-"edit box you can browse to an appropriate URL.</qt>"
-msgstr ""
-"<qt>Lokalizacëjô sparłaczonô ze skrodzëną. Mòżlëwé je ùżëcé "
-"dowólnegòbezzmiłkòwegò URL, na przëmiôr <br /><br />%1<br />http://www.kde."
-"org<br /> ftp://ftp.kde.org/pub/kde/stable<br /><br />Knąpa kòl edicejnegò "
-"pòla zezwôlô wëbrac pasowny URL.</qt>"
-
-#: ../kfile/kfileplaceeditdialog.cpp:121
-msgid "&Location:"
-msgstr "&Lokalizacëjô:"
-
-#: ../kfile/kfileplaceeditdialog.cpp:127
-msgid ""
-"<qt>This is the icon that will appear in the Places panel.<br /><br />Click "
-"on the button to select a different icon.</qt>"
-msgstr ""
-"<qt>Ikòna wëskrzënianiô w listwie chùtczégò przistãpù.<br /><br />Klëkni na "
-"knąpã, bë wëbrac jinszą ikònã.</qt>"
-
-#: ../kfile/kfileplaceeditdialog.cpp:130
-msgid "Choose an &icon:"
-msgstr "Wëbierzë &ikònã:"
-
-#: ../kfile/kfileplaceeditdialog.cpp:147
-#, kde-format
-msgid "&Only show when using this application (%1)"
-msgstr "Blós dlô &ti programë (%1)"
-
-#: ../kfile/kfileplaceeditdialog.cpp:149
-#, kde-format
-msgid ""
-"<qt>Select this setting if you want this entry to show only when using the "
-"current application (%1).<br /><br />If this setting is not selected, the "
-"entry will be available in all applications.</qt>"
-msgstr ""
-"<qt> Wëbierzë nã òptacëjã, jeżlë chcesz, bë wprowadzenié tikało sã blós ti "
-"programë (%1).<br /><br />Jinaczi bãdze przistãpné we wszëtczich programach."
-"</qt>"
 
 #: ../kfile/kfilewidget.cpp:286
 msgid ""
@@ -6641,134 +6769,6 @@ msgstr ""
 "knąpã włączô menu załóżków, zezwôlającé na dodôwanié, mòdifikacëjã ë wëbiérk "
 "załóżków.<br /><br /> Załóżczi są przëpisóné do òkna wëbiérkù lopków, króm "
 "tegò dzejają òne jak zwëczajné załóżczi w KDE.</qt>"
-
-#: ../kfile/knewfilemenu.cpp:368 ../kfile/knewfilemenu.cpp:872
-msgid "Sorry"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:377
-#, fuzzy, kde-format
-#| msgid "The file or folder %1 does not exist."
-msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
-msgstr "Felëje lopk, abò katalog %1."
-
-#: ../kfile/knewfilemenu.cpp:396
-#, fuzzy
-#| msgctxt "@title job"
-#| msgid "Creating directory"
-msgctxt "@action:button"
-msgid "Create directory"
-msgstr "Ùsôdzanié katalogów"
-
-#: ../kfile/knewfilemenu.cpp:398
-msgctxt "@action:button"
-msgid "Enter a different name"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:401
-#, fuzzy
-#| msgctxt "@title job"
-#| msgid "Creating directory"
-msgid "Create hidden directory?"
-msgstr "Ùsôdzanié katalogów"
-
-#: ../kfile/knewfilemenu.cpp:405
-#, kde-format
-msgid ""
-"The name \"%1\" starts with a dot, so the directory will be hidden by "
-"default."
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:407
-msgid "Do not ask again"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:500 ../kfile/knewfilemenu.cpp:558
-#, fuzzy
-#| msgid "Filename Error"
-msgid "File name:"
-msgstr "Lëché miono lopka"
-
-#: ../kfile/knewfilemenu.cpp:503
-#, fuzzy
-#| msgid "Could Not Create Symbolic Link"
-msgid "Create Symlink"
-msgstr "Ni mòże ùsôdzëc symbòlicznegò lënka"
-
-#: ../kfile/knewfilemenu.cpp:562
-#, fuzzy
-#| msgid "Detailed View"
-msgid "Create link to URL"
-msgstr "Detalowi wëzdrzatk"
-
-#: ../kfile/knewfilemenu.cpp:608 ../kfile/knewfilemenu.cpp:656
-#, kde-format
-msgctxt "@item:inmenu Create New"
-msgid "%1"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:882
-msgid ""
-"Basic links can only point to local files or directories.\n"
-"Please use \"Link to Location\" for remote URLs."
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:947
-#, fuzzy
-#| msgid "Detailed View"
-msgid "Create New"
-msgstr "Detalowi wëzdrzatk"
-
-#: ../kfile/knewfilemenu.cpp:960
-#, fuzzy
-#| msgid "Device"
-msgid "Link to Device"
-msgstr "Ùrządzenié"
-
-#: ../kfile/knewfilemenu.cpp:1005
-#, fuzzy
-#| msgid "New Folder..."
-msgctxt "Default name for a new folder"
-msgid "New Folder"
-msgstr "Nowi katalog..."
-
-#: ../kfile/knewfilemenu.cpp:1019
-#, kde-format
-msgid ""
-"Create new folder in:\n"
-"%1"
-msgstr ""
-"Ùsôdzë nowi katalog w:\n"
-"%1"
-
-#: ../kfile/kurlnavigator.cpp:431
-msgid "Copy"
-msgstr "Kòpérëjë"
-
-#: ../kfile/kurlnavigator.cpp:435
-msgid "Paste"
-msgstr "Wlepi"
-
-#: ../kfile/kurlnavigator.cpp:442
-msgid "Edit"
-msgstr "Editëjë"
-
-#: ../kfile/kurlnavigator.cpp:445
-msgid "Navigate"
-msgstr "Nawigùjë"
-
-#: ../kfile/kurlnavigator.cpp:460
-msgid "Show Full Path"
-msgstr ""
-
-#: ../kfile/kurlnavigator.cpp:698
-msgid "Custom Path"
-msgstr "Swòjô stegna"
-
-#: ../kfile/kurlnavigatorbutton.cpp:675
-msgctxt "@action:inmenu"
-msgid "More"
-msgstr ""
 
 #~ msgid "A newer item named '%1' already exists."
 #~ msgstr "Nowszi lopk jakno '%1' ju je."
