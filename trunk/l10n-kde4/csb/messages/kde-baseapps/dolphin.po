@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-11 03:23+0100\n"
+"POT-Creation-Date: 2011-12-12 03:24+0100\n"
 "PO-Revision-Date: 2009-12-09 23:08+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -1371,13 +1371,18 @@ msgctxt "@info"
 msgid "Details view mode"
 msgstr "Detale tribù wëzdrzatkù"
 
-#: views/dolphinview.cpp:500
+#: views/draganddrophelper.cpp:49
+msgctxt "@info:status"
+msgid "A folder cannot be dropped into itself"
+msgstr "Katalog ni mòże bëc przesëniãti do se"
+
+#: views/dolphinview.cpp:506
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected"
 msgstr "<filename>%1</filename> wëbróné"
 
-#: views/dolphinview.cpp:503
+#: views/dolphinview.cpp:509
 #, kde-format
 msgctxt "@info:status"
 msgid "1 Folder selected"
@@ -1386,7 +1391,7 @@ msgstr[0] "1 katalog zaznaczony"
 msgstr[1] "%1 katalodżi zaznaczoné"
 msgstr[2] "%1 zaznaczonëch katalogów"
 
-#: views/dolphinview.cpp:504
+#: views/dolphinview.cpp:510
 #, kde-format
 msgctxt "@info:status"
 msgid "1 File selected"
@@ -1395,7 +1400,7 @@ msgstr[0] "1 lopk wëbróny"
 msgstr[1] "%1 lopczi zaznaczoné"
 msgstr[2] "%1 zaznaczonëch lopków"
 
-#: views/dolphinview.cpp:508
+#: views/dolphinview.cpp:514
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Folder"
@@ -1406,7 +1411,7 @@ msgstr[0] "Katalog"
 msgstr[1] "Katalog"
 msgstr[2] "Katalog"
 
-#: views/dolphinview.cpp:509
+#: views/dolphinview.cpp:515
 #, kde-format
 msgctxt "@info:status"
 msgid "1 File"
@@ -1415,38 +1420,33 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: views/dolphinview.cpp:513
+#: views/dolphinview.cpp:519
 #, kde-format
 msgctxt "@info:status folders, files (size)"
 msgid "%1, %2 (%3)"
 msgstr "%1, %2 (%3)"
 
-#: views/dolphinview.cpp:516
+#: views/dolphinview.cpp:522
 #, kde-format
 msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: views/dolphinview.cpp:1057
+#: views/dolphinview.cpp:1063
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "Rëmôj skùńczoné òperacëje."
 
-#: views/dolphinview.cpp:1109
+#: views/dolphinview.cpp:1138
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "Lokacëjô je pùstô."
 
-#: views/dolphinview.cpp:1111
+#: views/dolphinview.cpp:1140
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
 msgstr "Lokacëjô '%1' je zmiłkòwô."
-
-#: views/draganddrophelper.cpp:49
-msgctxt "@info:status"
-msgid "A folder cannot be dropped into itself"
-msgstr "Katalog ni mòże bëc przesëniãti do se"
 
 #: main.cpp:35
 msgctxt "@title"
