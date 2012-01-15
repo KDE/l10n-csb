@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-11 04:03+0100\n"
+"POT-Creation-Date: 2012-01-15 03:43+0100\n"
 "PO-Revision-Date: 2009-12-09 23:08+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -1210,6 +1210,78 @@ msgctxt "@info:status"
 msgid "A folder cannot be dropped into itself"
 msgstr "Katalog ni mòże bëc przesëniãti do se"
 
+#: views/dolphinview.cpp:504
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected"
+msgstr "<filename>%1</filename> wëbróné"
+
+#: views/dolphinview.cpp:507
+#, kde-format
+msgctxt "@info:status"
+msgid "1 Folder selected"
+msgid_plural "%1 Folders selected"
+msgstr[0] "1 katalog zaznaczony"
+msgstr[1] "%1 katalodżi zaznaczoné"
+msgstr[2] "%1 zaznaczonëch katalogów"
+
+#: views/dolphinview.cpp:508
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File selected"
+msgid_plural "%1 Files selected"
+msgstr[0] "1 lopk wëbróny"
+msgstr[1] "%1 lopczi zaznaczoné"
+msgstr[2] "%1 zaznaczonëch lopków"
+
+#: views/dolphinview.cpp:512
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Folder"
+msgctxt "@info:status"
+msgid "1 Folder"
+msgid_plural "%1 Folders"
+msgstr[0] "Katalog"
+msgstr[1] "Katalog"
+msgstr[2] "Katalog"
+
+#: views/dolphinview.cpp:513
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File"
+msgid_plural "%1 Files"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: views/dolphinview.cpp:517
+#, kde-format
+msgctxt "@info:status folders, files (size)"
+msgid "%1, %2 (%3)"
+msgstr "%1, %2 (%3)"
+
+#: views/dolphinview.cpp:520
+#, kde-format
+msgctxt "@info:status files (size)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: views/dolphinview.cpp:1065
+msgctxt "@info:status"
+msgid "Delete operation completed."
+msgstr "Rëmôj skùńczoné òperacëje."
+
+#: views/dolphinview.cpp:1140
+msgctxt "@info:status"
+msgid "The location is empty."
+msgstr "Lokacëjô je pùstô."
+
+#: views/dolphinview.cpp:1142
+#, kde-format
+msgctxt "@info:status"
+msgid "The location '%1' is invalid."
+msgstr "Lokacëjô '%1' je zmiłkòwô."
+
 #: views/dolphinviewactionhandler.cpp:92
 msgctxt "@action"
 msgid "Create Folder..."
@@ -1384,145 +1456,6 @@ msgctxt "@info"
 msgid "# will be replaced by ascending numbers starting with:"
 msgstr "(# òstanié zmienioné na roscącé numrë)"
 
-#: views/dolphinview.cpp:507
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected"
-msgstr "<filename>%1</filename> wëbróné"
-
-#: views/dolphinview.cpp:510
-#, kde-format
-msgctxt "@info:status"
-msgid "1 Folder selected"
-msgid_plural "%1 Folders selected"
-msgstr[0] "1 katalog zaznaczony"
-msgstr[1] "%1 katalodżi zaznaczoné"
-msgstr[2] "%1 zaznaczonëch katalogów"
-
-#: views/dolphinview.cpp:511
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File selected"
-msgid_plural "%1 Files selected"
-msgstr[0] "1 lopk wëbróny"
-msgstr[1] "%1 lopczi zaznaczoné"
-msgstr[2] "%1 zaznaczonëch lopków"
-
-#: views/dolphinview.cpp:515
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "Folder"
-msgctxt "@info:status"
-msgid "1 Folder"
-msgid_plural "%1 Folders"
-msgstr[0] "Katalog"
-msgstr[1] "Katalog"
-msgstr[2] "Katalog"
-
-#: views/dolphinview.cpp:516
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File"
-msgid_plural "%1 Files"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
-#: views/dolphinview.cpp:520
-#, kde-format
-msgctxt "@info:status folders, files (size)"
-msgid "%1, %2 (%3)"
-msgstr "%1, %2 (%3)"
-
-#: views/dolphinview.cpp:523
-#, kde-format
-msgctxt "@info:status files (size)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: views/dolphinview.cpp:1068
-msgctxt "@info:status"
-msgid "Delete operation completed."
-msgstr "Rëmôj skùńczoné òperacëje."
-
-#: views/dolphinview.cpp:1143
-msgctxt "@info:status"
-msgid "The location is empty."
-msgstr "Lokacëjô je pùstô."
-
-#: views/dolphinview.cpp:1145
-#, kde-format
-msgctxt "@info:status"
-msgid "The location '%1' is invalid."
-msgstr "Lokacëjô '%1' je zmiłkòwô."
-
-#: dolphincontextmenu.cpp:173
-msgctxt "@action:inmenu"
-msgid "Empty Trash"
-msgstr "Wëczëszczë kòsz"
-
-#: dolphincontextmenu.cpp:179 dolphincontextmenu.cpp:341
-msgctxt "@action:inmenu Add current folder to places"
-msgid "Add to Places"
-msgstr "Dodôj do placów"
-
-#: dolphincontextmenu.cpp:199
-msgctxt "@label"
-msgid "Trash"
-msgstr "Kòsz"
-
-#: dolphincontextmenu.cpp:209
-msgctxt "@action:inmenu"
-msgid "Restore"
-msgstr "Przëwrócë"
-
-#: dolphincontextmenu.cpp:248 dolphinmainwindow.cpp:1589
-msgctxt "@title:menu Create new folder, file, link, etc."
-msgid "Create New"
-msgstr "Ùsôdzë nowi"
-
-#: dolphincontextmenu.cpp:261
-msgctxt "@action:inmenu Add selected folder to places"
-msgid "Add to Places"
-msgstr "Dodôj do placów"
-
-#: dolphincontextmenu.cpp:268
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Window"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Window"
-msgstr "Òtemkni w nowim òknie"
-
-#: dolphincontextmenu.cpp:274
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Tab"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Tab"
-msgstr "Òtemkni w nowi kôrce"
-
-#: dolphincontextmenu.cpp:440
-msgctxt "@action:inmenu"
-msgid "Paste Into Folder"
-msgstr "Wlepi do kataloga"
-
-#: dolphincontextmenu.cpp:552
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Move to Trash"
-msgctxt "@action:inmenu"
-msgid "&Move to Trash"
-msgstr "Przeniesë do kòsza"
-
-#: dolphincontextmenu.cpp:555
-#, fuzzy
-#| msgctxt "@action:inmenu File"
-#| msgid "Delete"
-msgctxt "@action:inmenu"
-msgid "&Delete"
-msgstr "Rëmôj"
-
 #: dolphinpart.cpp:145
 msgctxt "@action:inmenu Edit"
 msgid "&Edit File Type..."
@@ -1605,44 +1538,6 @@ msgstr "Copni wëbiérk"
 #: dolphinpart.cpp:469
 msgid "Unselect all items matching this pattern:"
 msgstr "Copni wëbiérk elementów pasëjących do mùstra:"
-
-#: dolphinviewcontainer.cpp:337
-msgctxt "@info:progress"
-msgid "Loading folder..."
-msgstr "Ladowanié kataloga..."
-
-#: dolphinviewcontainer.cpp:348
-msgctxt "@info"
-msgid "Searching..."
-msgstr "Szëkba..."
-
-#: dolphinviewcontainer.cpp:368
-msgctxt "@info:status"
-msgid "No items found."
-msgstr "Nié nalazłé elementë."
-
-#: dolphinviewcontainer.cpp:431
-#, fuzzy, kde-format
-#| msgctxt "@info:status files (size)"
-#| msgid "%1 (%2)"
-msgctxt "@info:status filename (type)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: dolphinviewcontainer.cpp:511
-msgctxt "@info:status"
-msgid "Dolphin does not support web pages, the web browser has been launched"
-msgstr "Dolphin nie wspiérô internetowich starnów, przezérnik òstôł zrëszony"
-
-#: dolphinviewcontainer.cpp:523
-msgctxt "@info:status"
-msgid "Protocol not supported by Dolphin, Konqueror has been launched"
-msgstr "Protokół nie wspiéróny przez Dolphina, Konqueror òstôł zrëszony"
-
-#: dolphinviewcontainer.cpp:530
-msgctxt "@info:status"
-msgid "Invalid protocol"
-msgstr "Lëchi protokół"
 
 #: main.cpp:35
 msgctxt "@title"
@@ -1854,6 +1749,11 @@ msgctxt "@action:inmenu"
 msgid "Help"
 msgstr ""
 
+#: dolphinmainwindow.cpp:1589 dolphincontextmenu.cpp:248
+msgctxt "@title:menu Create new folder, file, link, etc."
+msgid "Create New"
+msgstr "Ùsôdzë nowi"
+
 #: dolphinmainwindow.cpp:1596
 msgctxt "@action:inmenu File"
 msgid "New &Window"
@@ -2035,6 +1935,106 @@ msgstr "Rozdzélë"
 msgctxt "@info"
 msgid "Split view"
 msgstr "Rozdzélë wëzdrzatk"
+
+#: dolphincontextmenu.cpp:173
+msgctxt "@action:inmenu"
+msgid "Empty Trash"
+msgstr "Wëczëszczë kòsz"
+
+#: dolphincontextmenu.cpp:179 dolphincontextmenu.cpp:341
+msgctxt "@action:inmenu Add current folder to places"
+msgid "Add to Places"
+msgstr "Dodôj do placów"
+
+#: dolphincontextmenu.cpp:199
+msgctxt "@label"
+msgid "Trash"
+msgstr "Kòsz"
+
+#: dolphincontextmenu.cpp:209
+msgctxt "@action:inmenu"
+msgid "Restore"
+msgstr "Przëwrócë"
+
+#: dolphincontextmenu.cpp:261
+msgctxt "@action:inmenu Add selected folder to places"
+msgid "Add to Places"
+msgstr "Dodôj do placów"
+
+#: dolphincontextmenu.cpp:268
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Window"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Window"
+msgstr "Òtemkni w nowim òknie"
+
+#: dolphincontextmenu.cpp:274
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Tab"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Tab"
+msgstr "Òtemkni w nowi kôrce"
+
+#: dolphincontextmenu.cpp:440
+msgctxt "@action:inmenu"
+msgid "Paste Into Folder"
+msgstr "Wlepi do kataloga"
+
+#: dolphincontextmenu.cpp:551
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Move to Trash"
+msgctxt "@action:inmenu"
+msgid "&Move to Trash"
+msgstr "Przeniesë do kòsza"
+
+#: dolphincontextmenu.cpp:554
+#, fuzzy
+#| msgctxt "@action:inmenu File"
+#| msgid "Delete"
+msgctxt "@action:inmenu"
+msgid "&Delete"
+msgstr "Rëmôj"
+
+#: dolphinviewcontainer.cpp:337
+msgctxt "@info:progress"
+msgid "Loading folder..."
+msgstr "Ladowanié kataloga..."
+
+#: dolphinviewcontainer.cpp:348
+msgctxt "@info"
+msgid "Searching..."
+msgstr "Szëkba..."
+
+#: dolphinviewcontainer.cpp:368
+msgctxt "@info:status"
+msgid "No items found."
+msgstr "Nié nalazłé elementë."
+
+#: dolphinviewcontainer.cpp:436
+#, fuzzy, kde-format
+#| msgctxt "@info:status files (size)"
+#| msgid "%1 (%2)"
+msgctxt "@info:status filename (type)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: dolphinviewcontainer.cpp:516
+msgctxt "@info:status"
+msgid "Dolphin does not support web pages, the web browser has been launched"
+msgstr "Dolphin nie wspiérô internetowich starnów, przezérnik òstôł zrëszony"
+
+#: dolphinviewcontainer.cpp:528
+msgctxt "@info:status"
+msgid "Protocol not supported by Dolphin, Konqueror has been launched"
+msgstr "Protokół nie wspiéróny przez Dolphina, Konqueror òstôł zrëszony"
+
+#: dolphinviewcontainer.cpp:535
+msgctxt "@info:status"
+msgid "Invalid protocol"
+msgstr "Lëchi protokół"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
