@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_comic\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-22 04:48+0100\n"
+"POT-Creation-Date: 2012-02-01 04:44+0100\n"
 "PO-Revision-Date: 2009-06-29 20:47+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -18,6 +18,12 @@ msgstr ""
 "X-Generator: Lokalize 0.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
+
+#: buttonbar.cpp:47
+msgid ""
+"Show at actual size in a different view.  Alternatively, click with the "
+"middle mouse button on the comic."
+msgstr ""
 
 #: comicarchivedialog.cpp:32
 #, kde-format
@@ -52,68 +58,68 @@ msgstr ""
 
 #. i18n: file: comicSettings.ui:32
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: comicarchivejob.cpp:402 comic.cpp:1068 rc.cpp:102
+#: comicarchivejob.cpp:402 comic.cpp:1062 rc.cpp:102
 msgid "Comic"
 msgstr "Kòmiks"
 
-#: comic.cpp:90 comic.cpp:827
+#: comic.cpp:88 comic.cpp:821
 msgid "Go to Strip"
 msgstr "Biéj do sztripka"
 
-#: comic.cpp:105
+#: comic.cpp:103
 msgid "&Strip Number:"
 msgstr "&Numer sztripka:"
 
-#: comic.cpp:196
+#: comic.cpp:190
 msgctxt "here strip means comic strip"
 msgid "&Next Tab with a new Strip"
 msgstr ""
 
-#: comic.cpp:202
+#: comic.cpp:196
 msgid "Jump to &first Strip"
 msgstr "Skóknié do &pierszégò sztripka"
 
-#: comic.cpp:206
+#: comic.cpp:200
 msgid "Jump to &current Strip"
 msgstr "Skóknié do biéżnégò sztripka"
 
-#: comic.cpp:210 comic.cpp:300
+#: comic.cpp:204 comic.cpp:294
 msgid "Jump to Strip ..."
 msgstr "Skóknié do sztripka..."
 
-#: comic.cpp:215
+#: comic.cpp:209
 msgid "Visit the shop &website"
 msgstr "Òbaczë króm &starnë"
 
-#: comic.cpp:222
+#: comic.cpp:216
 msgid "&Save Comic As..."
 msgstr "&Zapiszë kòmiks jakno..."
 
-#: comic.cpp:228
+#: comic.cpp:222
 #, fuzzy
 #| msgid "&Save Comic As..."
 msgid "&Create Comic Book Archive..."
 msgstr "&Zapiszë kòmiks jakno..."
 
-#: comic.cpp:233
+#: comic.cpp:227
 msgctxt "@option:check Context menu of comic image"
 msgid "&Actual Size"
 msgstr "&Aktualnô miara"
 
-#: comic.cpp:239
+#: comic.cpp:233
 msgctxt "@option:check Context menu of comic image"
 msgid "Store current &Position"
 msgstr "Trzëmôj terné &pòłożenié"
 
-#: comic.cpp:311
+#: comic.cpp:305
 msgid "Visit the comic website"
 msgstr "Òbaczë starnã kòmiksu"
 
-#: comic.cpp:389
+#: comic.cpp:383
 msgid "Getting comic strip failed:"
 msgstr ""
 
-#: comic.cpp:391
+#: comic.cpp:385
 msgid ""
 "Maybe there is no Internet connection.\n"
 "Maybe the comic plugin is broken.\n"
@@ -121,14 +127,14 @@ msgid ""
 "so choosing a different one might work."
 msgstr ""
 
-#: comic.cpp:399
+#: comic.cpp:393
 msgid ""
 "\n"
 "\n"
 "Choose the previous strip to go to the last cached strip."
 msgstr ""
 
-#: comic.cpp:469
+#: comic.cpp:463
 #, fuzzy, kde-format
 #| msgctxt "an abbrevation for Number"
 #| msgid "# %1"
@@ -136,32 +142,26 @@ msgctxt "an abbreviation for Number"
 msgid "# %1"
 msgstr "# %1"
 
-#: comic.cpp:564
+#: comic.cpp:558
 msgid "General"
 msgstr "Òglowé"
 
-#: comic.cpp:565
+#: comic.cpp:559
 msgid "Appearance"
 msgstr "Wëzdrzatk"
 
-#: comic.cpp:566
+#: comic.cpp:560
 msgid "Advanced"
 msgstr ""
 
-#: comic.cpp:827
+#: comic.cpp:821
 #, fuzzy
 #| msgid "Show comic &identifier:"
 msgid "Strip identifier:"
 msgstr "Pòkażë &jidentifikator kòmiksa:"
 
-#: comic.cpp:940
+#: comic.cpp:934
 msgid "Archiving comic failed"
-msgstr ""
-
-#: comic.cpp:1198
-msgid ""
-"Show at actual size in a different view.  Alternatively, click with the "
-"middle mouse button on the comic."
 msgstr ""
 
 #. i18n: file: advancedsettings.ui:23
