@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-30 05:14+0100\n"
+"POT-Creation-Date: 2012-02-02 04:22+0100\n"
 "PO-Revision-Date: 2009-12-16 23:23+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -1470,6 +1470,13 @@ msgstr "Rëmôj"
 msgid "Web module"
 msgstr "Sécowi mòduł"
 
+#: sidebar/trees/bookmark_module/bookmark_module.h:88
+#, fuzzy
+#| msgid "Add Bookmark"
+msgctxt "@title:window"
+msgid "Add Bookmark"
+msgstr "Dodôj załóżkã"
+
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:74
 msgid "&Create New Folder"
 msgstr "Ùsôdzë nowi &katalog"
@@ -1502,7 +1509,7 @@ msgstr "Òtemkni katalog w kôrtach"
 msgid "Copy Link Address"
 msgstr "Kòpérëjë adresã lënka"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:335
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:332
 #, kde-format
 msgid ""
 "Are you sure you wish to remove the bookmark folder\n"
@@ -1511,7 +1518,7 @@ msgstr ""
 "Jes gwës tegò, że chcesz rëmnąc katalog załóżków\n"
 "\"%1\"?"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:336
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:333
 #, kde-format
 msgid ""
 "Are you sure you wish to remove the bookmark\n"
@@ -1520,50 +1527,60 @@ msgstr ""
 "Jes gwës tegò, że chcesz rëmnąc załóżkã\n"
 "\"%1\"?"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:337
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:334
 #, fuzzy
 #| msgid "Bookmark Folder Deletion"
 msgctxt "@title:window"
 msgid "Bookmark Folder Deletion"
 msgstr "Rëminãce katalogù załóżków"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:338
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:335
 #, fuzzy
 #| msgid "Bookmark Deletion"
 msgctxt "@title:window"
 msgid "Bookmark Deletion"
 msgstr "Rëminãce załóżczi"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:380
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:377
 #, fuzzy
 #| msgid "Bookmark Properties"
 msgctxt "@title:window"
 msgid "Bookmark Properties"
 msgstr "Swòjizna załóżczi"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:565
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:562
 msgid "&Update"
 msgstr "&Aktualizacëjô"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:573
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:570
 msgid "Name:"
 msgstr "Miono:"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:581
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:578
 msgid "Location:"
 msgstr "Lokalizacëjô:"
-
-#: sidebar/trees/bookmark_module/bookmark_module.h:88
-#, fuzzy
-#| msgid "Add Bookmark"
-msgctxt "@title:window"
-msgid "Add Bookmark"
-msgstr "Dodôj załóżkã"
 
 #: sidebar/trees/dirtree_module/dirtree_module.cpp:417
 #, kde-format
 msgid "Cannot find parent item %1 in the tree. Internal error."
 msgstr "Ni mòże nalezc nôdrzãdnegò elementu %1 w drzewie. Bënowô fela."
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+msgctxt "@label"
+msgid "Name:"
+msgstr "Miono:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+msgctxt "@label"
+msgid "Path or URL:"
+msgstr "Stgna adresë URL:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
+msgctxt "@title:window"
+msgid "Add folder sidebar module"
+msgstr "Dodôj katalog mòdułu bòcznu listwë"
 
 #: sidebar/trees/konq_sidebartree.cpp:203
 msgid "&Create New Folder..."
@@ -1595,23 +1612,6 @@ msgstr "Ùsôdzë nowi katalog"
 #: sidebar/trees/konq_sidebartree.cpp:956
 msgid "Enter folder name:"
 msgstr "Miono katalogù:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#: sidebar/web_module/web_module.cpp:300
-msgctxt "@label"
-msgid "Name:"
-msgstr "Miono:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#: sidebar/web_module/web_module.cpp:300
-msgctxt "@label"
-msgid "Path or URL:"
-msgstr "Stgna adresë URL:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
-msgctxt "@title:window"
-msgid "Add folder sidebar module"
-msgstr "Dodôj katalog mòdułu bòcznu listwë"
 
 #: sidebar/web_module/web_module.cpp:57
 msgid "&Open Link"
