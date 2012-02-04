@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-03 03:48+0100\n"
+"POT-Creation-Date: 2012-02-04 04:02+0100\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -7409,73 +7409,6 @@ msgstr "Rozszérzenié lopkù zdroju"
 msgid "Previous Browser"
 msgstr "Pòprzédnô grëpa"
 
-#: browsers/CollectionTreeView.cpp:226
-#: browsers/CollectionTreeItemModelBase.cpp:981
-#: context/applets/albums/AlbumsView.cpp:255
-#: context/applets/wikipedia/WikipediaApplet.cpp:618
-#: dialogs/FilenameLayoutDialog.cpp:74 dialogs/FilenameLayoutDialog.cpp:463
-#: dialogs/transferdialog.cpp:89 musicbrainz/MusicBrainzTags.cpp:360
-#: playlist/view/PlaylistViewCommon.cpp:64 playlist/PlaylistModel.cpp:896
-#: services/jamendo/JamendoInfoParser.cpp:83
-#: services/magnatune/MagnatuneStore.cpp:224
-#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
-msgid "Album"
-msgstr "Albùm"
-
-#: browsers/CollectionTreeView.cpp:246 configdialog/ConfigDialog.cpp:59
-msgid "Collection"
-msgstr "Kòlekcëjô"
-
-#: browsers/CollectionTreeView.cpp:269 browsers/filebrowser/FileView.cpp:135
-msgid "Copy to Collection"
-msgstr "Kòpiérëjë do kòlekcëji"
-
-#: browsers/CollectionTreeView.cpp:277 browsers/filebrowser/FileView.cpp:126
-msgid "Move to Collection"
-msgstr "Przeniesë do kòlekcëji"
-
-#: browsers/CollectionTreeView.cpp:545 services/lastfm/LastFmTreeView.cpp:201
-msgid "More..."
-msgstr "Wicy..."
-
-#: browsers/CollectionTreeView.cpp:838 browsers/filebrowser/FileView.cpp:399
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:49
-#: context/applets/albums/AlbumsView.cpp:240
-#: services/lastfm/LastFmTreeView.cpp:111
-#, fuzzy
-#| msgid "Add to Playlist"
-msgid "&Add to Playlist"
-msgstr "Dodôj do lëstë graniô"
-
-#: browsers/CollectionTreeView.cpp:847 browsers/filebrowser/FileView.cpp:411
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:56
-#: context/applets/albums/AlbumsView.cpp:241
-#: services/lastfm/LastFmTreeView.cpp:120
-msgctxt "Replace the currently loaded tracks with these"
-msgid "&Replace Playlist"
-msgstr "&Pòdmieni lëstã graniô"
-
-#: browsers/CollectionTreeView.cpp:894
-msgctxt "Organize Files"
-msgid "Organize Files"
-msgstr "Òrganizëjë lopczi"
-
-#: browsers/CollectionTreeView.cpp:925 browsers/filebrowser/FileView.cpp:423
-msgid "&Edit Track Details"
-msgstr "&Editëjë detale sztëczka"
-
-#: browsers/CollectionTreeView.cpp:1072
-#, fuzzy
-#| msgid "My Loved Tracks"
-msgid "Move Tracks to Trash"
-msgstr "Mòje lubòtné sztëcczi"
-
-#: browsers/CollectionTreeView.cpp:1078
-#, fuzzy
-#| msgid "&Delete Tracks"
-msgid "Delete Tracks"
-msgstr "&Rëmôj sztëcczi"
-
 #: browsers/InfoProxy.cpp:164 browsers/filebrowser/FileBrowser.cpp:379
 msgid "Home"
 msgstr "Dodóm"
@@ -7612,6 +7545,37 @@ msgstr ""
 #| msgid "dates"
 msgid "Places"
 msgstr "datumë"
+
+#: browsers/filebrowser/FileView.cpp:126 browsers/CollectionTreeView.cpp:277
+msgid "Move to Collection"
+msgstr "Przeniesë do kòlekcëji"
+
+#: browsers/filebrowser/FileView.cpp:135 browsers/CollectionTreeView.cpp:269
+msgid "Copy to Collection"
+msgstr "Kòpiérëjë do kòlekcëji"
+
+#: browsers/filebrowser/FileView.cpp:399
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:49
+#: browsers/CollectionTreeView.cpp:856
+#: context/applets/albums/AlbumsView.cpp:240
+#: services/lastfm/LastFmTreeView.cpp:111
+#, fuzzy
+#| msgid "Add to Playlist"
+msgid "&Add to Playlist"
+msgstr "Dodôj do lëstë graniô"
+
+#: browsers/filebrowser/FileView.cpp:411
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:56
+#: browsers/CollectionTreeView.cpp:865
+#: context/applets/albums/AlbumsView.cpp:241
+#: services/lastfm/LastFmTreeView.cpp:120
+msgctxt "Replace the currently loaded tracks with these"
+msgid "&Replace Playlist"
+msgstr "&Pòdmieni lëstã graniô"
+
+#: browsers/filebrowser/FileView.cpp:423 browsers/CollectionTreeView.cpp:943
+msgid "&Edit Track Details"
+msgstr "&Editëjë detale sztëczka"
 
 #: browsers/filebrowser/FileView.cpp:573
 #, fuzzy
@@ -8115,6 +8079,19 @@ msgstr "Rozmajiti wëkònywaczë"
 msgid "Year - Album"
 msgstr "Rok - Albùm"
 
+#: browsers/CollectionTreeItemModelBase.cpp:981
+#: browsers/CollectionTreeView.cpp:226
+#: context/applets/albums/AlbumsView.cpp:255
+#: context/applets/wikipedia/WikipediaApplet.cpp:618
+#: dialogs/FilenameLayoutDialog.cpp:74 dialogs/FilenameLayoutDialog.cpp:463
+#: dialogs/transferdialog.cpp:89 musicbrainz/MusicBrainzTags.cpp:360
+#: playlist/view/PlaylistViewCommon.cpp:64 playlist/PlaylistModel.cpp:896
+#: services/jamendo/JamendoInfoParser.cpp:83
+#: services/magnatune/MagnatuneStore.cpp:224
+#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
+msgid "Album"
+msgstr "Albùm"
+
 #: browsers/CollectionTreeItemModelBase.cpp:984
 #: core/meta/support/MetaConstants.cpp:176 dialogs/FilenameLayoutDialog.cpp:66
 #: dialogs/FilenameLayoutDialog.cpp:442 playlist/PlaylistModel.cpp:894
@@ -8165,6 +8142,31 @@ msgid_plural "%1 tracks"
 msgstr[0] "1 sztëczk"
 msgstr[1] "%1 sztëcczi"
 msgstr[2] "%1 sztëczków"
+
+#: browsers/CollectionTreeView.cpp:246 configdialog/ConfigDialog.cpp:59
+msgid "Collection"
+msgstr "Kòlekcëjô"
+
+#: browsers/CollectionTreeView.cpp:563 services/lastfm/LastFmTreeView.cpp:201
+msgid "More..."
+msgstr "Wicy..."
+
+#: browsers/CollectionTreeView.cpp:912
+msgctxt "Organize Files"
+msgid "Organize Files"
+msgstr "Òrganizëjë lopczi"
+
+#: browsers/CollectionTreeView.cpp:1090
+#, fuzzy
+#| msgid "My Loved Tracks"
+msgid "Move Tracks to Trash"
+msgstr "Mòje lubòtné sztëcczi"
+
+#: browsers/CollectionTreeView.cpp:1096
+#, fuzzy
+#| msgid "&Delete Tracks"
+msgid "Delete Tracks"
+msgstr "&Rëmôj sztëcczi"
 
 #: browsers/BrowserCategoryList.cpp:52
 #, fuzzy
