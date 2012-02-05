@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-04 04:02+0100\n"
+"POT-Creation-Date: 2012-02-05 03:47+0100\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -10056,7 +10056,7 @@ msgid "Podcasts on %1"
 msgstr "Podcastë"
 
 #: core-impl/collections/mediadevicecollection/MediaDeviceCollection.cpp:249
-#: core-impl/collections/umscollection/UmsCollection.cpp:176
+#: core-impl/collections/umscollection/UmsCollection.cpp:180
 msgid "&Disconnect Device"
 msgstr "&Rozłączë ùrządzenié"
 
@@ -10295,8 +10295,38 @@ msgstr ""
 msgid "&Delete Channel and Episodes"
 msgstr "&Zladëjë epizod"
 
-#: core-impl/collections/umscollection/UmsCollectionLocation.cpp:106
-#: core-impl/collections/umscollection/UmsCollectionLocation.cpp:198
+#: core-impl/collections/umscollection/UmsCollection.cpp:171
+#, fuzzy, kde-format
+#| msgctxt "change options"
+#| msgid "Configure %1"
+msgid "&Configure %1"
+msgstr "Kònfigùrëjë %1"
+
+#: core-impl/collections/umscollection/UmsCollection.cpp:176
+#, fuzzy
+#| msgid "Update Collection"
+msgid "&Use as Collection"
+msgstr "Aktualizëjë kòlekcëjã"
+
+#: core-impl/collections/umscollection/UmsCollection.cpp:586
+#, fuzzy
+#| msgid "Configure Media Device"
+msgid "Configure USB Mass Storage Device"
+msgstr "Kònfigùrëjë ùrządzenié medium"
+
+#: core-impl/collections/umscollection/UmsCollectionLocation.cpp:116
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "'Group tracks' (number of tracks in group) playlist column name and token "
+#| "for playlist layouts"
+#| msgid "Group tracks"
+msgid "Moving one track to %2"
+msgid_plural "Moving %1 tracks to %2"
+msgstr[0] "Grëpa sztëczków"
+msgstr[1] "Grëpa sztëczków"
+msgstr[2] "Grëpa sztëczków"
+
+#: core-impl/collections/umscollection/UmsCollectionLocation.cpp:119
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "'Group tracks' (number of tracks in group) playlist column name and token "
@@ -10308,7 +10338,7 @@ msgstr[0] "Grëpa sztëczków"
 msgstr[1] "Grëpa sztëczków"
 msgstr[2] "Grëpa sztëczków"
 
-#: core-impl/collections/umscollection/UmsCollectionLocation.cpp:143
+#: core-impl/collections/umscollection/UmsCollectionLocation.cpp:137
 #, fuzzy, kde-format
 #| msgid "Removing Tracks from Device"
 msgid "Removing one track from %2"
@@ -10316,25 +10346,6 @@ msgid_plural "Removing %1 tracks from %2"
 msgstr[0] "Rëmanié traków z ùrządzenia"
 msgstr[1] "Rëmanié traków z ùrządzenia"
 msgstr[2] "Rëmanié traków z ùrządzenia"
-
-#: core-impl/collections/umscollection/UmsCollection.cpp:167
-#, fuzzy, kde-format
-#| msgctxt "change options"
-#| msgid "Configure %1"
-msgid "&Configure %1"
-msgstr "Kònfigùrëjë %1"
-
-#: core-impl/collections/umscollection/UmsCollection.cpp:172
-#, fuzzy
-#| msgid "Update Collection"
-msgid "&Use as Collection"
-msgstr "Aktualizëjë kòlekcëjã"
-
-#: core-impl/collections/umscollection/UmsCollection.cpp:556
-#, fuzzy
-#| msgid "Configure Media Device"
-msgid "Configure USB Mass Storage Device"
-msgstr "Kònfigùrëjë ùrządzenié medium"
 
 #: core-impl/collections/upnpcollection/UpnpBrowseCollection.cpp:118
 #, fuzzy, kde-format
