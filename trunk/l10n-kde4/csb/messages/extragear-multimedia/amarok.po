@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-05 03:47+0100\n"
+"POT-Creation-Date: 2012-02-06 03:31+0100\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -8143,7 +8143,7 @@ msgstr[0] "1 sztëczk"
 msgstr[1] "%1 sztëcczi"
 msgstr[2] "%1 sztëczków"
 
-#: browsers/CollectionTreeView.cpp:246 configdialog/ConfigDialog.cpp:59
+#: browsers/CollectionTreeView.cpp:246
 msgid "Collection"
 msgstr "Kòlekcëjô"
 
@@ -8205,20 +8205,6 @@ msgstr "Dodôj ùrządzenie..."
 msgid "Sound System - Amarok"
 msgstr "Sound System - Amarok"
 
-#: configdialog/dialogs/PluginsConfig.cpp:44
-msgid "Collections"
-msgstr "Kòlekcëje"
-
-#: configdialog/dialogs/PluginsConfig.cpp:48
-msgid "Internet Services"
-msgstr "Ùsłëżnotë Jinterneta"
-
-#: configdialog/dialogs/PluginsConfig.cpp:52
-#, fuzzy
-#| msgid "Media Devices"
-msgid "Devices"
-msgstr "Media"
-
 #: configdialog/dialogs/ScriptSelector.cpp:31 dialogs/ScriptSelector.cpp:30
 msgid "Search Scripts"
 msgstr "Szëkôj w skriptach"
@@ -8253,6 +8239,20 @@ msgid ""
 "remove the script.</p>"
 msgstr ""
 
+#: configdialog/dialogs/PluginsConfig.cpp:44
+msgid "Collections"
+msgstr "Kòlekcëje"
+
+#: configdialog/dialogs/PluginsConfig.cpp:48
+msgid "Internet Services"
+msgstr "Ùsłëżnotë Jinterneta"
+
+#: configdialog/dialogs/PluginsConfig.cpp:52
+#, fuzzy
+#| msgid "Local Collection"
+msgid "Local Collection Backends"
+msgstr "Môlowô kòlekcëjô"
+
 #: configdialog/ConfigDialog.cpp:58
 msgctxt "Miscellaneous settings"
 msgid "General"
@@ -8263,7 +8263,17 @@ msgid "Configure General Options"
 msgstr "Kònfigùracëjô òglowëch òptacëjów"
 
 #: configdialog/ConfigDialog.cpp:59
-msgid "Configure Collection"
+#: context/applets/currenttrack/CurrentTrack.cpp:104
+#: core-impl/collections/db/sql/mysqlecollection/MySqlEmbeddedCollection.cpp:35
+#: core-impl/collections/db/sql/mysqlservercollection/MySqlServerCollection.cpp:41
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:72
+msgid "Local Collection"
+msgstr "Môlowô kòlekcëjô"
+
+#: configdialog/ConfigDialog.cpp:59
+#, fuzzy
+#| msgid "Configure Collection"
+msgid "Configure Local Collection"
 msgstr "Kònfigùracëjô kòlekcëji"
 
 #: configdialog/ConfigDialog.cpp:60
@@ -8399,13 +8409,6 @@ msgstr "Niznóny artista"
 #: core/meta/Meta.cpp:444
 msgid "Unknown Album"
 msgstr "Nieznóny albùm"
-
-#: context/applets/currenttrack/CurrentTrack.cpp:104
-#: core-impl/collections/db/sql/mysqlecollection/MySqlEmbeddedCollection.cpp:35
-#: core-impl/collections/db/sql/mysqlservercollection/MySqlServerCollection.cpp:41
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:72
-msgid "Local Collection"
-msgstr "Môlowô kòlekcëjô"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:113
 msgctxt "What artist is this track by"
@@ -9145,24 +9148,24 @@ msgid "Append and &Play"
 msgstr "Dodôj ë &grôj"
 
 #: context/applets/videoclip/VideoclipApplet.cpp:102
-#: context/applets/videoclip/VideoclipApplet.cpp:279
-#: context/applets/videoclip/VideoclipApplet.cpp:333
+#: context/applets/videoclip/VideoclipApplet.cpp:281
+#: context/applets/videoclip/VideoclipApplet.cpp:335
 msgid "Video Clip"
 msgstr ""
 
-#: context/applets/videoclip/VideoclipApplet.cpp:314
+#: context/applets/videoclip/VideoclipApplet.cpp:316
 #, fuzzy
 #| msgid "Video Clip Settings"
 msgid "Video Clip: Fetching"
 msgstr "Ùstawë teledisków"
 
-#: context/applets/videoclip/VideoclipApplet.cpp:323
+#: context/applets/videoclip/VideoclipApplet.cpp:325
 #, fuzzy
 #| msgid "No information found..."
 msgid "Video Clip: No Information Found"
 msgstr "Ni ma nalazłi wedowiédzë..."
 
-#: context/applets/videoclip/VideoclipApplet.cpp:522
+#: context/applets/videoclip/VideoclipApplet.cpp:524
 msgid "Video Clip Settings"
 msgstr "Ùstawë teledisków"
 
@@ -10056,7 +10059,6 @@ msgid "Podcasts on %1"
 msgstr "Podcastë"
 
 #: core-impl/collections/mediadevicecollection/MediaDeviceCollection.cpp:249
-#: core-impl/collections/umscollection/UmsCollection.cpp:180
 msgid "&Disconnect Device"
 msgstr "&Rozłączë ùrządzenié"
 
@@ -10295,25 +10297,6 @@ msgstr ""
 msgid "&Delete Channel and Episodes"
 msgstr "&Zladëjë epizod"
 
-#: core-impl/collections/umscollection/UmsCollection.cpp:171
-#, fuzzy, kde-format
-#| msgctxt "change options"
-#| msgid "Configure %1"
-msgid "&Configure %1"
-msgstr "Kònfigùrëjë %1"
-
-#: core-impl/collections/umscollection/UmsCollection.cpp:176
-#, fuzzy
-#| msgid "Update Collection"
-msgid "&Use as Collection"
-msgstr "Aktualizëjë kòlekcëjã"
-
-#: core-impl/collections/umscollection/UmsCollection.cpp:586
-#, fuzzy
-#| msgid "Configure Media Device"
-msgid "Configure USB Mass Storage Device"
-msgstr "Kònfigùrëjë ùrządzenié medium"
-
 #: core-impl/collections/umscollection/UmsCollectionLocation.cpp:116
 #, fuzzy, kde-format
 #| msgctxt ""
@@ -10346,6 +10329,38 @@ msgid_plural "Removing %1 tracks from %2"
 msgstr[0] "Rëmanié traków z ùrządzenia"
 msgstr[1] "Rëmanié traków z ùrządzenia"
 msgstr[2] "Rëmanié traków z ùrządzenia"
+
+#: core-impl/collections/umscollection/UmsCollection.cpp:235
+#, fuzzy
+#| msgid "Configure Media Device"
+msgid "&Configure Device"
+msgstr "Kònfigùrëjë ùrządzenié medium"
+
+#: core-impl/collections/umscollection/UmsCollection.cpp:239
+#, fuzzy
+#| msgid "Update Collection"
+msgid "&Activate This Collection"
+msgstr "Aktualizëjë kòlekcëjã"
+
+#: core-impl/collections/umscollection/UmsCollection.cpp:243
+#, fuzzy
+#| msgid "&Read Device"
+msgid "&Eject Device"
+msgstr "Ù&rządzenie òdczëtu"
+
+#: core-impl/collections/umscollection/UmsCollection.cpp:423
+#, kde-format
+msgctxt ""
+"Name of the USB Mass Storage collection that has not yet been activated. See "
+"also the 'Activate This Collection' action; %1 is actual collection name"
+msgid "%1 (not activated)"
+msgstr ""
+
+#: core-impl/collections/umscollection/UmsCollection.cpp:644
+#, fuzzy
+#| msgid "Configure Media Device"
+msgid "Configure USB Mass Storage Device"
+msgstr "Kònfigùrëjë ùrządzenié medium"
 
 #: core-impl/collections/upnpcollection/UpnpBrowseCollection.cpp:118
 #, fuzzy, kde-format
@@ -16609,6 +16624,17 @@ msgid ""
 "Would you like to use that as a collection folder?"
 msgstr ""
 
+#, fuzzy
+#~| msgid "Media Devices"
+#~ msgid "Devices"
+#~ msgstr "Media"
+
+#, fuzzy
+#~| msgctxt "change options"
+#~| msgid "Configure %1"
+#~ msgid "&Configure %1"
+#~ msgstr "Kònfigùrëjë %1"
+
 #~ msgid "Initialize iPod"
 #~ msgstr "Jinicjalizëjë iPoda"
 
@@ -17669,9 +17695,6 @@ msgstr ""
 
 #~ msgid "Smart Playlist"
 #~ msgstr "Jinteligentnô lësta gróniô"
-
-#~ msgid "&Read Device"
-#~ msgstr "Ù&rządzenie òdczëtu"
 
 #~ msgid "Bookmarks"
 #~ msgstr "Załóżczi"
