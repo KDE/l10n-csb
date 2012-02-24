@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-23 11:28+0100\n"
+"POT-Creation-Date: 2012-02-24 11:19+0100\n"
 "PO-Revision-Date: 2009-12-09 23:08+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -827,78 +827,6 @@ msgstr[0] "Miara: 1 piksla"
 msgstr[1] "Miara: %1 piksle"
 msgstr[2] "Miara: %1 pikslów"
 
-#: views/dolphinview.cpp:517
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected"
-msgstr "<filename>%1</filename> wëbróné"
-
-#: views/dolphinview.cpp:520
-#, kde-format
-msgctxt "@info:status"
-msgid "1 Folder selected"
-msgid_plural "%1 Folders selected"
-msgstr[0] "1 katalog zaznaczony"
-msgstr[1] "%1 katalodżi zaznaczoné"
-msgstr[2] "%1 zaznaczonëch katalogów"
-
-#: views/dolphinview.cpp:521
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File selected"
-msgid_plural "%1 Files selected"
-msgstr[0] "1 lopk wëbróny"
-msgstr[1] "%1 lopczi zaznaczoné"
-msgstr[2] "%1 zaznaczonëch lopków"
-
-#: views/dolphinview.cpp:525
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "Folder"
-msgctxt "@info:status"
-msgid "1 Folder"
-msgid_plural "%1 Folders"
-msgstr[0] "Katalog"
-msgstr[1] "Katalog"
-msgstr[2] "Katalog"
-
-#: views/dolphinview.cpp:526
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File"
-msgid_plural "%1 Files"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
-#: views/dolphinview.cpp:530
-#, kde-format
-msgctxt "@info:status folders, files (size)"
-msgid "%1, %2 (%3)"
-msgstr "%1, %2 (%3)"
-
-#: views/dolphinview.cpp:533
-#, kde-format
-msgctxt "@info:status files (size)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: views/dolphinview.cpp:1077
-msgctxt "@info:status"
-msgid "Delete operation completed."
-msgstr "Rëmôj skùńczoné òperacëje."
-
-#: views/dolphinview.cpp:1152
-msgctxt "@info:status"
-msgid "The location is empty."
-msgstr "Lokacëjô je pùstô."
-
-#: views/dolphinview.cpp:1154
-#, kde-format
-msgctxt "@info:status"
-msgid "The location '%1' is invalid."
-msgstr "Lokacëjô '%1' je zmiłkòwô."
-
 #: views/draganddrophelper.cpp:34
 #, fuzzy, kde-format
 #| msgctxt "@label:textbox"
@@ -911,6 +839,78 @@ msgstr "Zmieni element <filename>%1</filename> na:"
 msgctxt "@info:status"
 msgid "A folder cannot be dropped into itself"
 msgstr "Katalog ni mòże bëc przesëniãti do se"
+
+#: views/dolphinview.cpp:519
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected"
+msgstr "<filename>%1</filename> wëbróné"
+
+#: views/dolphinview.cpp:522
+#, kde-format
+msgctxt "@info:status"
+msgid "1 Folder selected"
+msgid_plural "%1 Folders selected"
+msgstr[0] "1 katalog zaznaczony"
+msgstr[1] "%1 katalodżi zaznaczoné"
+msgstr[2] "%1 zaznaczonëch katalogów"
+
+#: views/dolphinview.cpp:523
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File selected"
+msgid_plural "%1 Files selected"
+msgstr[0] "1 lopk wëbróny"
+msgstr[1] "%1 lopczi zaznaczoné"
+msgstr[2] "%1 zaznaczonëch lopków"
+
+#: views/dolphinview.cpp:527
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Folder"
+msgctxt "@info:status"
+msgid "1 Folder"
+msgid_plural "%1 Folders"
+msgstr[0] "Katalog"
+msgstr[1] "Katalog"
+msgstr[2] "Katalog"
+
+#: views/dolphinview.cpp:528
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File"
+msgid_plural "%1 Files"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: views/dolphinview.cpp:532
+#, kde-format
+msgctxt "@info:status folders, files (size)"
+msgid "%1, %2 (%3)"
+msgstr "%1, %2 (%3)"
+
+#: views/dolphinview.cpp:535
+#, kde-format
+msgctxt "@info:status files (size)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: views/dolphinview.cpp:1095
+msgctxt "@info:status"
+msgid "Delete operation completed."
+msgstr "Rëmôj skùńczoné òperacëje."
+
+#: views/dolphinview.cpp:1170
+msgctxt "@info:status"
+msgid "The location is empty."
+msgstr "Lokacëjô je pùstô."
+
+#: views/dolphinview.cpp:1172
+#, kde-format
+msgctxt "@info:status"
+msgid "The location '%1' is invalid."
+msgstr "Lokacëjô '%1' je zmiłkòwô."
 
 #: views/versioncontrol/versioncontrolobserver.cpp:204
 msgctxt "@info:status"
@@ -1264,6 +1264,11 @@ msgstr[0] "%1 element wëbróny"
 msgstr[1] "%1 wëbróné elementë"
 msgstr[2] "%1 wëbrónëch elementów"
 
+#: kitemviews/kfileitemlistview.cpp:552
+msgctxt "@item:intable"
+msgid "items"
+msgstr ""
+
 #: kitemviews/kfileitemmodel.cpp:268
 #, fuzzy
 #| msgctxt "@action:inmenu Sort By"
@@ -1518,11 +1523,6 @@ msgctxt "@title:group Files and folders by permissions"
 msgid "User: %1 | Group: %2 | Others: %3"
 msgstr "(Brëkòwnik: %1) (Grëpa: %2) (Jinszé: %3)"
 
-#: kitemviews/kfileitemlistview.cpp:552
-msgctxt "@item:intable"
-msgid "items"
-msgstr ""
-
 #: main.cpp:35
 msgctxt "@title"
 msgid "Dolphin"
@@ -1624,6 +1624,119 @@ msgstr ""
 msgctxt "@info:shell"
 msgid "Document to open"
 msgstr "Dokùment do òtemkniãcô"
+
+#: dolphinpart.cpp:145
+msgctxt "@action:inmenu Edit"
+msgid "&Edit File Type..."
+msgstr "&Editëjë ôrt lopków..."
+
+#: dolphinpart.cpp:149
+msgctxt "@action:inmenu Edit"
+msgid "Select Items Matching..."
+msgstr "Wëbiérzë pasowné elementë..."
+
+#: dolphinpart.cpp:154
+msgctxt "@action:inmenu Edit"
+msgid "Unselect Items Matching..."
+msgstr "Copnani wëbiérk elementów..."
+
+#: dolphinpart.cpp:160
+msgctxt "@action:inmenu Edit"
+msgid "Unselect All"
+msgstr "Copni całowny wëbiérk"
+
+#: dolphinpart.cpp:164 dolphinmainwindow.cpp:1645
+msgctxt "@action:inmenu Edit"
+msgid "Invert Selection"
+msgstr "Zmieni wëbiérk"
+
+#: dolphinpart.cpp:177
+msgctxt "@action:inmenu Go"
+msgid "App&lications"
+msgstr "&Aplikacëje"
+
+#: dolphinpart.cpp:180
+msgctxt "@action:inmenu Go"
+msgid "&Network Folders"
+msgstr "&Sécowé katalodżi"
+
+#: dolphinpart.cpp:183
+msgctxt "@action:inmenu Go"
+msgid "Sett&ings"
+msgstr "Nastôwë"
+
+#: dolphinpart.cpp:186
+msgctxt "@action:inmenu Go"
+msgid "Trash"
+msgstr "Kòsz"
+
+#: dolphinpart.cpp:189
+msgctxt "@action:inmenu Go"
+msgid "Autostart"
+msgstr "Aùtostart"
+
+#: dolphinpart.cpp:194
+msgctxt "@action:inmenu Tools"
+msgid "Find File..."
+msgstr "Nalezë lopk..."
+
+#: dolphinpart.cpp:202
+msgctxt "@action:inmenu Tools"
+msgid "Open &Terminal"
+msgstr "Òtemkni &Terminal"
+
+#: dolphinpart.cpp:271
+msgctxt "@title"
+msgid "Dolphin Part"
+msgstr "Part Dolphina"
+
+#: dolphinpart.cpp:461
+msgctxt "@title:window"
+msgid "Select"
+msgstr "Wëbierzë"
+
+#: dolphinpart.cpp:462
+msgid "Select all items matching this pattern:"
+msgstr "Wëbierzë elementë pasëjącé do mùstra:"
+
+#: dolphinpart.cpp:468
+msgctxt "@title:window"
+msgid "Unselect"
+msgstr "Copni wëbiérk"
+
+#: dolphinpart.cpp:469
+msgid "Unselect all items matching this pattern:"
+msgstr "Copni wëbiérk elementów pasëjących do mùstra:"
+
+#: dolphinviewcontainer.cpp:338
+msgctxt "@info:progress"
+msgid "Loading folder..."
+msgstr "Ladowanié kataloga..."
+
+#: dolphinviewcontainer.cpp:349
+msgctxt "@info"
+msgid "Searching..."
+msgstr "Szëkba..."
+
+#: dolphinviewcontainer.cpp:369
+msgctxt "@info:status"
+msgid "No items found."
+msgstr "Nié nalazłé elementë."
+
+#: dolphinviewcontainer.cpp:512
+msgctxt "@info:status"
+msgid "Dolphin does not support web pages, the web browser has been launched"
+msgstr "Dolphin nie wspiérô internetowich starnów, przezérnik òstôł zrëszony"
+
+#: dolphinviewcontainer.cpp:524
+msgctxt "@info:status"
+msgid "Protocol not supported by Dolphin, Konqueror has been launched"
+msgstr "Protokół nie wspiéróny przez Dolphina, Konqueror òstôł zrëszony"
+
+#: dolphinviewcontainer.cpp:531
+msgctxt "@info:status"
+msgid "Invalid protocol"
+msgstr "Lëchi protokół"
 
 #: dolphinmainwindow.cpp:347
 msgctxt "@info:status"
@@ -1757,11 +1870,6 @@ msgstr "Wlepi"
 msgctxt "@action:inmenu Edit"
 msgid "Select All"
 msgstr "Wëbiérzë wszëtkò"
-
-#: dolphinmainwindow.cpp:1645 dolphinpart.cpp:164
-msgctxt "@action:inmenu Edit"
-msgid "Invert Selection"
-msgstr "Zmieni wëbiérk"
 
 #: dolphinmainwindow.cpp:1658
 msgctxt "@action:inmenu View"
@@ -1919,114 +2027,6 @@ msgstr "Rozdzélë"
 msgctxt "@info"
 msgid "Split view"
 msgstr "Rozdzélë wëzdrzatk"
-
-#: dolphinpart.cpp:145
-msgctxt "@action:inmenu Edit"
-msgid "&Edit File Type..."
-msgstr "&Editëjë ôrt lopków..."
-
-#: dolphinpart.cpp:149
-msgctxt "@action:inmenu Edit"
-msgid "Select Items Matching..."
-msgstr "Wëbiérzë pasowné elementë..."
-
-#: dolphinpart.cpp:154
-msgctxt "@action:inmenu Edit"
-msgid "Unselect Items Matching..."
-msgstr "Copnani wëbiérk elementów..."
-
-#: dolphinpart.cpp:160
-msgctxt "@action:inmenu Edit"
-msgid "Unselect All"
-msgstr "Copni całowny wëbiérk"
-
-#: dolphinpart.cpp:177
-msgctxt "@action:inmenu Go"
-msgid "App&lications"
-msgstr "&Aplikacëje"
-
-#: dolphinpart.cpp:180
-msgctxt "@action:inmenu Go"
-msgid "&Network Folders"
-msgstr "&Sécowé katalodżi"
-
-#: dolphinpart.cpp:183
-msgctxt "@action:inmenu Go"
-msgid "Sett&ings"
-msgstr "Nastôwë"
-
-#: dolphinpart.cpp:186
-msgctxt "@action:inmenu Go"
-msgid "Trash"
-msgstr "Kòsz"
-
-#: dolphinpart.cpp:189
-msgctxt "@action:inmenu Go"
-msgid "Autostart"
-msgstr "Aùtostart"
-
-#: dolphinpart.cpp:194
-msgctxt "@action:inmenu Tools"
-msgid "Find File..."
-msgstr "Nalezë lopk..."
-
-#: dolphinpart.cpp:202
-msgctxt "@action:inmenu Tools"
-msgid "Open &Terminal"
-msgstr "Òtemkni &Terminal"
-
-#: dolphinpart.cpp:271
-msgctxt "@title"
-msgid "Dolphin Part"
-msgstr "Part Dolphina"
-
-#: dolphinpart.cpp:461
-msgctxt "@title:window"
-msgid "Select"
-msgstr "Wëbierzë"
-
-#: dolphinpart.cpp:462
-msgid "Select all items matching this pattern:"
-msgstr "Wëbierzë elementë pasëjącé do mùstra:"
-
-#: dolphinpart.cpp:468
-msgctxt "@title:window"
-msgid "Unselect"
-msgstr "Copni wëbiérk"
-
-#: dolphinpart.cpp:469
-msgid "Unselect all items matching this pattern:"
-msgstr "Copni wëbiérk elementów pasëjących do mùstra:"
-
-#: dolphinviewcontainer.cpp:338
-msgctxt "@info:progress"
-msgid "Loading folder..."
-msgstr "Ladowanié kataloga..."
-
-#: dolphinviewcontainer.cpp:349
-msgctxt "@info"
-msgid "Searching..."
-msgstr "Szëkba..."
-
-#: dolphinviewcontainer.cpp:369
-msgctxt "@info:status"
-msgid "No items found."
-msgstr "Nié nalazłé elementë."
-
-#: dolphinviewcontainer.cpp:512
-msgctxt "@info:status"
-msgid "Dolphin does not support web pages, the web browser has been launched"
-msgstr "Dolphin nie wspiérô internetowich starnów, przezérnik òstôł zrëszony"
-
-#: dolphinviewcontainer.cpp:524
-msgctxt "@info:status"
-msgid "Protocol not supported by Dolphin, Konqueror has been launched"
-msgstr "Protokół nie wspiéróny przez Dolphina, Konqueror òstôł zrëszony"
-
-#: dolphinviewcontainer.cpp:531
-msgctxt "@info:status"
-msgid "Invalid protocol"
-msgstr "Lëchi protokół"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
