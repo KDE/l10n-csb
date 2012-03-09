@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-04 03:26+0100\n"
+"POT-Creation-Date: 2012-03-09 03:40+0100\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -1977,6 +1977,7 @@ msgid "&Edit Track Details"
 msgstr "&Editëjë detale sztëczka"
 
 #: browsers/filebrowser/FileView.cpp:573
+#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:39
 #, fuzzy
 #| msgid "Configure Playback"
 msgctxt "@title:window"
@@ -1993,7 +1994,7 @@ msgstr[1] "Na gwës chcesz rëmnąc %1?"
 msgstr[2] "Na gwës chcesz rëmnąc %1?"
 
 #: browsers/filebrowser/FileView.cpp:580
-#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:70
+#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:52
 msgctxt "@title:window"
 msgid "Confirm Move to Trash"
 msgstr ""
@@ -4671,19 +4672,32 @@ msgstr "Kòlekcëjô Proxy"
 msgid "Proxy Collection"
 msgstr "Kòlekcëjô Proxy"
 
-#: core-impl/collections/support/TrashCollectionLocation.cpp:47
-#, fuzzy
-#| msgid "Tracks"
-msgid "Trash"
-msgstr "Sztëcczi"
+#: core-impl/collections/support/ArtistHelper.cpp:31
+msgctxt "The genre name for classical music"
+msgid "Classical"
+msgstr ""
 
-#: core-impl/collections/support/TrashCollectionLocation.cpp:101
-#, fuzzy, kde-format
-#| msgid "Favorite tracks"
-msgid "Moving to trash: %1"
-msgstr "Lubòtny sztëcczi"
+#: core-impl/collections/support/TextualQueryFilter.cpp:279
+msgid "today"
+msgstr "dzysô"
 
-#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:40
+#: core-impl/collections/support/TextualQueryFilter.cpp:281
+msgid "last week"
+msgstr "w ùszłim tidzéniu"
+
+#: core-impl/collections/support/TextualQueryFilter.cpp:283
+msgid "last month"
+msgstr "w ùszłim miesącu"
+
+#: core-impl/collections/support/TextualQueryFilter.cpp:285
+msgid "two months ago"
+msgstr ""
+
+#: core-impl/collections/support/TextualQueryFilter.cpp:287
+msgid "three months ago"
+msgstr "trzë miesące dowslôdë"
+
+#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:35
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid ""
@@ -4694,11 +4708,11 @@ msgstr "Lubòtny sztëcczi"
 #| "disk as well as your collection."
 msgctxt "@info"
 msgid ""
-"Do you really want to delete this track? It will be removed from your "
-"collection."
+"Do you really want to delete this track? It will be removed from %1 and from "
+"underlying storage medium."
 msgid_plural ""
-"Do you really want to delete these %1 tracks? They will be removed from your "
-"collection."
+"Do you really want to delete these %2 tracks? They will be removed from %1 "
+"and from underlying storage medium."
 msgstr[0] ""
 "Na gwës chcesz rëmnąc nen titel? Òstanie rëmniãti tak z diskù jak ë z twòji "
 "kòlekcëji."
@@ -4709,11 +4723,7 @@ msgstr[2] ""
 "Na gwës chcesz rëmnąc ne %1 titlów? Òstaną rëmniãté tak z diskù jak ë z "
 "twòji kòlekcëji."
 
-#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:45
-msgid "Delete Files"
-msgstr "Rëmniãcé lopków"
-
-#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:61
+#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:48
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid ""
@@ -4725,10 +4735,10 @@ msgstr "Rëmniãcé lopków"
 msgctxt "@info"
 msgid ""
 "Do you really want to move this track to the trash? It will be removed from "
-"your collection."
+"%1."
 msgid_plural ""
-"Do you really want to move these %1 tracks to the trash? They will be "
-"removed from your collection."
+"Do you really want to move these %2 tracks to the trash? They will be "
+"removed from %1."
 msgstr[0] ""
 "Na gwës chcesz rëmnąc nen titel? Òstanie rëmniãti tak z diskù jak ë z twòji "
 "kòlekcëji."
@@ -4739,7 +4749,7 @@ msgstr[2] ""
 "Na gwës chcesz rëmnąc ne %1 titlów? Òstaną rëmniãté tak z diskù jak ë z "
 "twòji kòlekcëji."
 
-#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:82
+#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:62
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid ""
@@ -4765,13 +4775,21 @@ msgstr[2] ""
 "Na gwës chcesz rëmnąc ne %1 titlów? Òstaną rëmniãté tak z diskù jak ë z "
 "twòji kòlekcëji."
 
-#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:87
+#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:66
 #, fuzzy
 #| msgid "Files"
+msgctxt "@title:window"
 msgid "Move Files"
 msgstr "Lopczi"
 
-#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:98
+#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:66
+#, fuzzy
+#| msgid "&Rename"
+msgctxt "rename files button"
+msgid "&Rename"
+msgstr "&zmieni miono"
+
+#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:76
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -4784,49 +4802,57 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:103
+#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:79
 #, fuzzy
 #| msgid "Unable to retrieve Flickr : %1"
-msgid "Unable to be removed tracks"
+msgid "Unable to remove tracks"
 msgstr "Ni mòże wëdostac Flickr: %1"
 
-#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:110
+#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:87
 msgid ""
 "The collection does not have enough free space available or is not writable."
 msgstr ""
 
-#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:116
+#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:94
 msgid "Do you want to remove empty folders?"
 msgstr ""
 
-#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:117
+#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:95
 msgid "Remove empty folders?"
 msgstr ""
 
-#: core-impl/collections/support/ArtistHelper.cpp:31
-msgctxt "The genre name for classical music"
-msgid "Classical"
-msgstr ""
+#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:116
+#, fuzzy, kde-format
+#| msgid "%1 (x%2)"
+msgctxt "%1 is track url, %2 track title, %3 track artist"
+msgid "%1 (%2 by %3)"
+msgstr "%1 (x%2)"
 
-#: core-impl/collections/support/TextualQueryFilter.cpp:279
-msgid "today"
-msgstr "dzysô"
+#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:118
+#, fuzzy, kde-format
+#| msgid "%1 (x%2)"
+msgctxt "%1 is track url, %2 track name"
+msgid "%1 (%2)"
+msgstr "%1 (x%2)"
 
-#: core-impl/collections/support/TextualQueryFilter.cpp:281
-msgid "last week"
-msgstr "w ùszłim tidzéniu"
+#: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:120
+#, fuzzy, kde-format
+#| msgid "%1 (x%2)"
+msgctxt "%1 is track url, %2 artist name"
+msgid "%1 (by %2)"
+msgstr "%1 (x%2)"
 
-#: core-impl/collections/support/TextualQueryFilter.cpp:283
-msgid "last month"
-msgstr "w ùszłim miesącu"
+#: core-impl/collections/support/TrashCollectionLocation.cpp:47
+#, fuzzy
+#| msgid "Tracks"
+msgid "Trash"
+msgstr "Sztëcczi"
 
-#: core-impl/collections/support/TextualQueryFilter.cpp:285
-msgid "two months ago"
-msgstr ""
-
-#: core-impl/collections/support/TextualQueryFilter.cpp:287
-msgid "three months ago"
-msgstr "trzë miesące dowslôdë"
+#: core-impl/collections/support/TrashCollectionLocation.cpp:101
+#, fuzzy, kde-format
+#| msgid "Favorite tracks"
+msgid "Moving to trash: %1"
+msgstr "Lubòtny sztëcczi"
 
 #: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:184
 #, fuzzy
@@ -16644,6 +16670,9 @@ msgid ""
 "Would you like to use that as a collection folder?"
 msgstr ""
 
+#~ msgid "Delete Files"
+#~ msgstr "Rëmniãcé lopków"
+
 #, fuzzy
 #~| msgid "Media Devices"
 #~ msgid "Devices"
@@ -18843,9 +18872,6 @@ msgstr ""
 
 #~ msgid "iPod"
 #~ msgstr "iPod"
-
-#~ msgid "%1 (x%2)"
-#~ msgstr "%1 (x%2)"
 
 #~ msgid "&Remove"
 #~ msgstr "&Rëmôj"
