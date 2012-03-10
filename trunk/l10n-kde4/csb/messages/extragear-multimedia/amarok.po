@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-09 03:40+0100\n"
+"POT-Creation-Date: 2012-03-10 03:41+0100\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -4697,6 +4697,18 @@ msgstr ""
 msgid "three months ago"
 msgstr "trzë miesące dowslôdë"
 
+#: core-impl/collections/support/TrashCollectionLocation.cpp:47
+#, fuzzy
+#| msgid "Tracks"
+msgid "Trash"
+msgstr "Sztëcczi"
+
+#: core-impl/collections/support/TrashCollectionLocation.cpp:101
+#, fuzzy, kde-format
+#| msgid "Favorite tracks"
+msgid "Moving to trash: %1"
+msgstr "Lubòtny sztëcczi"
+
 #: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:35
 #, fuzzy, kde-format
 #| msgctxt "@info"
@@ -4708,10 +4720,10 @@ msgstr "trzë miesące dowslôdë"
 #| "disk as well as your collection."
 msgctxt "@info"
 msgid ""
-"Do you really want to delete this track? It will be removed from %1 and from "
+"Do you really want to delete this track? It will be removed from %2 and from "
 "underlying storage medium."
 msgid_plural ""
-"Do you really want to delete these %2 tracks? They will be removed from %1 "
+"Do you really want to delete these %1 tracks? They will be removed from %2 "
 "and from underlying storage medium."
 msgstr[0] ""
 "Na gwës chcesz rëmnąc nen titel? Òstanie rëmniãti tak z diskù jak ë z twòji "
@@ -4841,18 +4853,6 @@ msgstr "%1 (x%2)"
 msgctxt "%1 is track url, %2 artist name"
 msgid "%1 (by %2)"
 msgstr "%1 (x%2)"
-
-#: core-impl/collections/support/TrashCollectionLocation.cpp:47
-#, fuzzy
-#| msgid "Tracks"
-msgid "Trash"
-msgstr "Sztëcczi"
-
-#: core-impl/collections/support/TrashCollectionLocation.cpp:101
-#, fuzzy, kde-format
-#| msgid "Favorite tracks"
-msgid "Moving to trash: %1"
-msgstr "Lubòtny sztëcczi"
 
 #: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:184
 #, fuzzy
