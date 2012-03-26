@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-25 12:41+0200\n"
+"POT-Creation-Date: 2012-03-26 11:35+0200\n"
 "PO-Revision-Date: 2009-12-14 23:08+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -153,7 +153,7 @@ msgid "Sort Icons"
 msgstr "Zortëjë ikònë"
 
 #. i18n: file: folderviewDisplayConfig.ui:80
-#. i18n: ectx: property (text), widget (QLabel, label_7)
+#. i18n: ectx: property (text), widget (QLabel, iconsTitle)
 #: folderview.cpp:1561 rc.cpp:9
 msgid "Icons"
 msgstr "Ikònë"
@@ -198,7 +198,7 @@ msgstr[2] "%1 lopków."
 msgid "This folder is empty."
 msgstr "Nen katalog je pùsti."
 
-#: iconview.cpp:2188
+#: iconview.cpp:2187
 msgid "Set as &Wallpaper"
 msgstr "Nstôwi jakno &tapétã"
 
@@ -209,7 +209,7 @@ msgid "Header"
 msgstr ""
 
 #. i18n: file: folderviewDisplayConfig.ui:58
-#. i18n: ectx: property (text), widget (QLabel, lblCustomLabel)
+#. i18n: ectx: property (text), widget (QLabel, titleLabel)
 #: rc.cpp:6
 #, fuzzy
 #| msgid "Custom Title:"
@@ -234,7 +234,7 @@ msgstr ""
 "prawò abò z górë na dół."
 
 #. i18n: file: folderviewDisplayConfig.ui:123
-#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, sortLabel)
 #: rc.cpp:18
 msgid "Sorting:"
 msgstr "Zortowanié:"
@@ -250,7 +250,7 @@ msgstr ""
 "pòzortowóné ikònë w wëzdrzatkù."
 
 #. i18n: file: folderviewDisplayConfig.ui:156
-#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, sizeSliderLabel)
 #: rc.cpp:24 tooltipwidget.cpp:145
 msgid "Size:"
 msgstr "Miara:"
@@ -275,7 +275,7 @@ msgid "Large"
 msgstr "Wiôlgô"
 
 #. i18n: file: folderviewDisplayConfig.ui:212
-#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. i18n: ectx: property (text), widget (QLabel, previewsAdvancedLabel)
 #: rc.cpp:36
 msgid "Previews:"
 msgstr "Pòdzérczi:"
@@ -305,7 +305,7 @@ msgid "More Preview Options..."
 msgstr "Wicy pòtacëji pòdzérkù..."
 
 #. i18n: file: folderviewDisplayConfig.ui:259
-#. i18n: ectx: property (text), widget (QLabel, label_11)
+#. i18n: ectx: property (text), widget (QLabel, lockInPlaceLabel)
 #: rc.cpp:48
 msgid "Lock in place:"
 msgstr "Blokùjë pòłóżenié:"
@@ -324,7 +324,7 @@ msgstr ""
 "Je to prakticzné jak n.p. nie chceta bë ikònë òstałë niéchcało przeniosłé."
 
 #. i18n: file: folderviewDisplayConfig.ui:281
-#. i18n: ectx: property (text), widget (QLabel, label_12)
+#. i18n: ectx: property (text), widget (QLabel, alignToGridLabel)
 #: rc.cpp:56
 msgid "Align to grid:"
 msgstr "Wërôwnanié do mrzéżczi:"
@@ -344,13 +344,13 @@ msgstr ""
 "niewidzawny mrzéżczi."
 
 #. i18n: file: folderviewDisplayConfig.ui:303
-#. i18n: ectx: property (text), widget (QLabel, label_13)
+#. i18n: ectx: property (text), widget (QLabel, clickToViewLabel)
 #: rc.cpp:64
 msgid "Click to view folder:"
 msgstr ""
 
 #. i18n: file: folderviewDisplayConfig.ui:313
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, setClicktoView)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, clickToView)
 #: rc.cpp:67
 #, fuzzy
 #| msgid ""
@@ -369,7 +369,7 @@ msgstr ""
 "niewidzawny mrzéżczi."
 
 #. i18n: file: folderviewDisplayConfig.ui:335
-#. i18n: ectx: property (text), widget (QLabel, label_9)
+#. i18n: ectx: property (text), widget (QLabel, iconTextTitle)
 #: rc.cpp:70
 #, fuzzy
 #| msgid "Icon Settings"
@@ -377,7 +377,7 @@ msgid "Icon Text"
 msgstr "Nastôwë ikònów"
 
 #. i18n: file: folderviewDisplayConfig.ui:342
-#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, numLinesEditLabel)
 #: rc.cpp:73
 msgid "Lines:"
 msgstr "Réżczi:"
@@ -403,7 +403,7 @@ msgid " lines"
 msgstr " réżczi"
 
 #. i18n: file: folderviewDisplayConfig.ui:396
-#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, colorButtonLabel)
 #: rc.cpp:85
 msgid "Color:"
 msgstr "Farwa:"
@@ -417,7 +417,7 @@ msgid ""
 msgstr "Klëkni na tã knapã abë wëbrac farwã tekstu dlô òpisënka."
 
 #. i18n: file: folderviewDisplayConfig.ui:419
-#. i18n: ectx: property (text), widget (QLabel, label_10)
+#. i18n: ectx: property (text), widget (QLabel, drawShadowsLabel)
 #: rc.cpp:91
 msgid "Shadows:"
 msgstr "Ceniô:"
