@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-06 04:07+0200\n"
+"POT-Creation-Date: 2012-04-11 04:16+0200\n"
 "PO-Revision-Date: 2009-12-17 00:21+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: Application.cpp:420
+#: Application.cpp:426
 msgid "Toggle Background Window"
 msgstr ""
 
@@ -348,7 +348,7 @@ msgctxt "@info:status"
 msgid ""
 "When using this option, the scrollback data will be written unencrypted to "
 "temporary files. Those temporary files will be deleted automatically when "
-"quitting Konsole."
+"Konsole is closed in a normal manner."
 msgstr ""
 
 #: HistorySizeWidget.cpp:60
@@ -814,7 +814,7 @@ msgstr "Nowi profil"
 msgid "Manage Profiles..."
 msgstr "Sprôwiôj profilama..."
 
-#: Profile.cpp:133
+#: Profile.cpp:135
 msgid "Shell"
 msgstr "Pòwłoka"
 
@@ -2106,18 +2106,18 @@ msgstr ""
 "Wëstąpiła problema przë zapisywaniu wińdzeniô.\n"
 "%1"
 
-#: Session.cpp:376
+#: Session.cpp:377
 msgid "Could not find binary: "
 msgstr "Nié mòże nalezc binarnych. "
 
-#: Session.cpp:385
+#: Session.cpp:386
 #, fuzzy
 #| msgid "Warning: "
 msgctxt "@info:shell Alert the user with red color text"
 msgid "Warning: "
 msgstr "Òstrzega:"
 
-#: Session.cpp:442
+#: Session.cpp:443
 #, kde-format
 msgid ""
 "Could not find '%1', starting '%2' instead.  Please check your profile "
@@ -2126,59 +2126,59 @@ msgstr ""
 "NIé mòże nalezc '%1', zrëszoné je za to '%2'.  Proszã sprôwdzëc nastôwë "
 "twòjegò profilu."
 
-#: Session.cpp:445
+#: Session.cpp:446
 msgid "Could not find an interactive shell to start."
 msgstr "NIé mòże nalezc interaktiwny pòwłoczi do zrëszeniô."
 
-#: Session.cpp:485
+#: Session.cpp:489
 #, kde-format
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "NIé mòże zrëszëc programë '%1', z argùmentã '%2'."
 
-#: Session.cpp:591
+#: Session.cpp:595
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "Cëchòsc w sesëji '%1'"
 
-#: Session.cpp:638
+#: Session.cpp:642
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr "Brzãczk w sesëji '%1'"
 
-#: Session.cpp:641
+#: Session.cpp:645
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "Aktiwnota w sesëji '%1'"
 
-#: Session.cpp:809
+#: Session.cpp:814
 #, fuzzy
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "Skùńczony"
 
-#: Session.cpp:823 Session.cpp:835
+#: Session.cpp:828 Session.cpp:840
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "Programa '%1' niespòdzajno zakùńczëła dzejanié."
 
-#: Session.cpp:825
+#: Session.cpp:830
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "Programa '%1' zakùńcza dzejanié w stónie %2."
 
-#: Session.cpp:1164
+#: Session.cpp:1169
 msgid "ZModem Progress"
 msgstr "Pòstãp transmisëji ZModem"
 
-#: SessionManager.cpp:380
+#: SessionManager.cpp:384
 #, fuzzy
 #| msgid "Number"
 msgctxt "@item:intable The session index"
 msgid "Number"
 msgstr "Wielëna"
 
-#: SessionManager.cpp:382
+#: SessionManager.cpp:386
 #, fuzzy
 #| msgid "Title"
 msgctxt "@item:intable The session title"
@@ -2203,47 +2203,51 @@ msgstr "Biéżny katalog (krôtczé)"
 msgid "Current Directory (Long): %D"
 msgstr "Biéżny katalog (dłëdżé)"
 
-#: TabTitleFormatButton.cpp:36 TabTitleFormatButton.cpp:47
+#: TabTitleFormatButton.cpp:36 TabTitleFormatButton.cpp:48
 #, fuzzy
 #| msgid "Window Title Set by Shell"
 msgid "Window Title Set by Shell: %w"
 msgstr "Titel òkna ùstôwióny bez pòwłokã"
 
-#: TabTitleFormatButton.cpp:37 TabTitleFormatButton.cpp:48
+#: TabTitleFormatButton.cpp:37 TabTitleFormatButton.cpp:49
 #, fuzzy
 #| msgid "Session Number"
 msgid "Session Number: %#"
 msgstr "Wielëna sesëji"
 
-#: TabTitleFormatButton.cpp:38 TabTitleFormatButton.cpp:44
+#: TabTitleFormatButton.cpp:38 TabTitleFormatButton.cpp:45
 #, fuzzy, c-format
 #| msgid "User Name"
 msgid "User Name: %u"
 msgstr "Miono brëkòwnika"
 
-#: TabTitleFormatButton.cpp:45
+#: TabTitleFormatButton.cpp:39
+msgid "Local Host: %h"
+msgstr ""
+
+#: TabTitleFormatButton.cpp:46
 #, fuzzy
 #| msgid "Remote Host (Short)"
 msgid "Remote Host (Short): %h"
 msgstr "Daleczi kòmpùtr (krótczé)"
 
-#: TabTitleFormatButton.cpp:46
+#: TabTitleFormatButton.cpp:47
 #, fuzzy
 #| msgid "Remote Host (Long)"
 msgid "Remote Host (Long): %H"
 msgstr "Daleczi kòmpùtr (dlëdżé)"
 
-#: TabTitleFormatButton.cpp:57
+#: TabTitleFormatButton.cpp:58
 msgid "Insert"
 msgstr "Wpiszë"
 
-#: TabTitleFormatButton.cpp:82
+#: TabTitleFormatButton.cpp:83
 #, fuzzy
 #| msgid "Tab title format:"
 msgid "Insert title format"
 msgstr "Fòrmat titla kôrtë:"
 
-#: TabTitleFormatButton.cpp:86
+#: TabTitleFormatButton.cpp:87
 #, fuzzy
 #| msgid "Remote tab title format:"
 msgid "Insert remote title format"
