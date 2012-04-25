@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-22 04:19+0200\n"
+"POT-Creation-Date: 2012-04-25 04:23+0200\n"
 "PO-Revision-Date: 2009-12-09 23:08+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -529,6 +529,123 @@ msgstr "Kònfigùrëjë..."
 msgctxt "@label::textbox"
 msgid "Select which data should be shown in the information panel:"
 msgstr "Kònfigurëje pòdôwczi jaczé mają bëc wëskrzënioné w wëdowiédny listwie."
+
+#: panels/places/placespanel.cpp:159 panels/places/placespanel.cpp:262
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Places"
+msgctxt "@item"
+msgid "Places"
+msgstr "Place"
+
+#: panels/places/placespanel.cpp:160
+#, fuzzy
+#| msgid "Recently Closed Tabs"
+msgctxt "@item"
+msgid "Recently Accessed"
+msgstr "Prawie zamkłé kôrtë"
+
+#: panels/places/placespanel.cpp:161
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Search Bar"
+msgctxt "@item"
+msgid "Search For"
+msgstr "Listew szëkbë"
+
+#: panels/places/placespanel.cpp:167
+#, fuzzy
+#| msgid "Home URL"
+msgctxt "@item"
+msgid "Home"
+msgstr "Domôcô adresa URL"
+
+#: panels/places/placespanel.cpp:171
+#, fuzzy
+#| msgctxt "@action:inmenu Go"
+#| msgid "&Network Folders"
+msgctxt "@item"
+msgid "Network"
+msgstr "&Sécowé katalodżi"
+
+#: panels/places/placespanel.cpp:175
+msgctxt "@item"
+msgid "Root"
+msgstr ""
+
+#: panels/places/placespanel.cpp:179
+#, fuzzy
+#| msgctxt "@title:group"
+#| msgid "Trash"
+msgctxt "@item"
+msgid "Trash"
+msgstr "Kòsz"
+
+#: panels/places/placespanel.cpp:185
+#, fuzzy
+#| msgctxt "@title:group Date"
+#| msgid "Today"
+msgctxt "@item Recently Accessed"
+msgid "Today"
+msgstr "Dzysô"
+
+#: panels/places/placespanel.cpp:189
+#, fuzzy
+#| msgctxt "@title:group Date"
+#| msgid "Yesterday"
+msgctxt "@item Recently Accessed"
+msgid "Yesterday"
+msgstr "Wczora"
+
+#: panels/places/placespanel.cpp:193
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "This Month"
+msgctxt "@item Recently Accessed"
+msgid "This Month"
+msgstr "Nen miesãc"
+
+#: panels/places/placespanel.cpp:197
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "This Month"
+msgctxt "@item Recently Accessed"
+msgid "Last Month"
+msgstr "Nen miesãc"
+
+#: panels/places/placespanel.cpp:201
+#, fuzzy
+#| msgctxt "@info:credit"
+#| msgid "Documentation"
+msgctxt "@item Commonly Accessed"
+msgid "Documents"
+msgstr "Dokùmentacëjô"
+
+#: panels/places/placespanel.cpp:205
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Images"
+msgctxt "@item Commonly Accessed"
+msgid "Images"
+msgstr "Òbrôzczi"
+
+#: panels/places/placespanel.cpp:209
+msgctxt "@item Commonly Accessed"
+msgid "Music"
+msgstr ""
+
+#: panels/places/placespanel.cpp:213
+msgctxt "@item Commonly Accessed"
+msgid "Videos"
+msgstr ""
+
+#: panels/places/placespanel.cpp:260
+#, fuzzy
+#| msgctxt "@title:group"
+#| msgid "Services"
+msgctxt "@item"
+msgid "Devices"
+msgstr "Ùsłëżnotë"
 
 #: panels/search/searchpanel.cpp:144
 #, fuzzy
@@ -1081,19 +1198,6 @@ msgctxt "@title:group General settings"
 msgid "General"
 msgstr "Òglowé"
 
-#: settings/additionalinfodialog.cpp:40
-msgctxt "@title:window"
-msgid "Additional Information"
-msgstr "Dodôwnô wedowiédzô"
-
-#: settings/additionalinfodialog.cpp:49
-#, fuzzy
-#| msgctxt "@label::textbox"
-#| msgid "Configure which data should be shown"
-msgctxt "@label"
-msgid "Select which additional information should be shown:"
-msgstr "Kònfigurëje pòdôwczi chtërné mają bëc wëskrzënioné"
-
 #: settings/viewpropertiesdialog.cpp:78
 msgctxt "@title:window"
 msgid "View Properties"
@@ -1216,6 +1320,19 @@ msgid ""
 msgstr ""
 "Swòjiznë wëzdrzatkù wszëtczich katalogów òstaną zmienioné. Chcesz kòntiuòwac?"
 
+#: settings/additionalinfodialog.cpp:40
+msgctxt "@title:window"
+msgid "Additional Information"
+msgstr "Dodôwnô wedowiédzô"
+
+#: settings/additionalinfodialog.cpp:49
+#, fuzzy
+#| msgctxt "@label::textbox"
+#| msgid "Configure which data should be shown"
+msgctxt "@label"
+msgid "Select which additional information should be shown:"
+msgstr "Kònfigurëje pòdôwczi chtërné mają bëc wëskrzënioné"
+
 #: statusbar/statusbarspaceinfo.cpp:79 statusbar/statusbarspaceinfo.cpp:87
 msgctxt "@info:status"
 msgid "Unknown size"
@@ -1291,6 +1408,18 @@ msgstr "Felëje zaktualnienia wëdowiédzë ò wersëji."
 msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "Zaktualnienie wëdowiédzë ò wersëji..."
+
+#: views/dolphinremoteencoding.cpp:53
+msgid "Select Remote Charset"
+msgstr "Wëbiérzë daleczi zestôwk znaków"
+
+#: views/dolphinremoteencoding.cpp:117
+msgid "Reload"
+msgstr "Zladëjë znowa"
+
+#: views/dolphinremoteencoding.cpp:118
+msgid "Default"
+msgstr "Domëszlnô"
 
 #: views/dolphinview.cpp:527
 #, kde-format
@@ -1387,18 +1516,6 @@ msgstr "Lokacëjô je pùstô."
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
 msgstr "Lokacëjô '%1' je zmiłkòwô."
-
-#: views/dolphinremoteencoding.cpp:53
-msgid "Select Remote Charset"
-msgstr "Wëbiérzë daleczi zestôwk znaków"
-
-#: views/dolphinremoteencoding.cpp:117
-msgid "Reload"
-msgstr "Zladëjë znowa"
-
-#: views/dolphinremoteencoding.cpp:118
-msgid "Default"
-msgstr "Domëszlnô"
 
 #: views/draganddrophelper.cpp:34
 #, fuzzy, kde-format
@@ -3020,13 +3137,6 @@ msgstr "Rozdzélë wëzdrzatk"
 
 #, fuzzy
 #~| msgctxt "@label"
-#~| msgid "This Month"
-#~ msgctxt "@action:button"
-#~ msgid "This Month"
-#~ msgstr "Nen miesãc"
-
-#, fuzzy
-#~| msgctxt "@label"
 #~| msgid "This Year"
 #~ msgctxt "@action:button"
 #~ msgid "This Year"
@@ -3204,10 +3314,6 @@ msgstr "Rozdzélë wëzdrzatk"
 #~ msgctxt "@action:inmenu Tools"
 #~ msgid "Show Search Bar"
 #~ msgstr "Wëskrzëni listew szëkbë"
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "Search Bar"
-#~ msgstr "Listew szëkbë"
 
 #~ msgctxt "@title:menu"
 #~ msgid "Search Toolbar"
