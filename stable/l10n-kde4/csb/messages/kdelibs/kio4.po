@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-26 12:44+0200\n"
+"POT-Creation-Date: 2012-05-01 19:11+0200\n"
 "PO-Revision-Date: 2009-06-29 20:35+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -4042,30 +4042,6 @@ msgstr "&Jo"
 msgid "&No"
 msgstr "&Nié"
 
-#: kio/slaveinterface.cpp:415 kio/tcpslavebase.cpp:831 kssl/sslui.cpp:81
-msgid "&Details"
-msgstr "&Detale"
-
-#: kio/slaveinterface.cpp:417 kio/tcpslavebase.cpp:848 kssl/sslui.cpp:120
-msgid "&Forever"
-msgstr "&Wiedno"
-
-#: kio/slaveinterface.cpp:422 kio/tcpslavebase.cpp:831 kssl/sslui.cpp:82
-msgid "Co&ntinue"
-msgstr "Biéj &dali"
-
-#: kio/slaveinterface.cpp:424 kio/tcpslavebase.cpp:849 kssl/sslui.cpp:121
-msgid "&Current Session only"
-msgstr "Blós dlô &biéżny sesëji"
-
-#: kio/slaveinterface.cpp:483
-msgid "The peer SSL certificate chain appears to be corrupt."
-msgstr "Certifikat SSL wëzdrzi na zepsëti."
-
-#: kio/slaveinterface.cpp:485 kio/tcpslavebase.cpp:776
-msgid "SSL"
-msgstr "SSL"
-
 #: kio/tcpslavebase.cpp:328
 msgid ""
 "You are about to leave secure mode. Transmissions will no longer be "
@@ -4125,6 +4101,10 @@ msgstr "Ni mòże òtemknąc certifikatu.Spróbòwac jinszi parolë?"
 msgid "The procedure to set the client certificate for the session failed."
 msgstr "Òperacëjô ùstawieniô certifikatu klienta na nã sesëjã nie darzëła sã."
 
+#: kio/tcpslavebase.cpp:776 kio/slaveinterface.cpp:498
+msgid "SSL"
+msgstr "SSL"
+
 #: kio/tcpslavebase.cpp:820 kssl/sslui.cpp:71
 #, kde-format
 msgid ""
@@ -4139,12 +4119,28 @@ msgstr ""
 msgid "Server Authentication"
 msgstr "Ùwierzëtelnianié serwera"
 
+#: kio/tcpslavebase.cpp:831 kio/slaveinterface.cpp:427 kssl/sslui.cpp:81
+msgid "&Details"
+msgstr "&Detale"
+
+#: kio/tcpslavebase.cpp:831 kio/slaveinterface.cpp:434 kssl/sslui.cpp:82
+msgid "Co&ntinue"
+msgstr "Biéj &dali"
+
 #: kio/tcpslavebase.cpp:844 kssl/sslui.cpp:116
 msgid ""
 "Would you like to accept this certificate forever without being prompted?"
 msgstr ""
 "Chcesz akceptowac na wiedno certifikat, bez mùszebnotë dôlszegò "
 "pòcwierdzaniô?"
+
+#: kio/tcpslavebase.cpp:848 kio/slaveinterface.cpp:429 kssl/sslui.cpp:120
+msgid "&Forever"
+msgstr "&Wiedno"
+
+#: kio/tcpslavebase.cpp:849 kio/slaveinterface.cpp:436 kssl/sslui.cpp:121
+msgid "&Current Session only"
+msgstr "Blós dlô &biéżny sesëji"
 
 #: kio/tcpslavebase.cpp:948
 msgid ""
@@ -4313,6 +4309,10 @@ msgstr "Przepùszczenié"
 #: kio/skipdialog.cpp:47
 msgid "AutoSkip"
 msgstr "Aùtomatné przepùszczenié"
+
+#: kio/slaveinterface.cpp:496
+msgid "The peer SSL certificate chain appears to be corrupt."
+msgstr "Certifikat SSL wëzdrzi na zepsëti."
 
 #: kssl/kcm/displaycertdialog.cpp:54 kssl/ksslinfodialog.cpp:217
 #, fuzzy, kde-format
