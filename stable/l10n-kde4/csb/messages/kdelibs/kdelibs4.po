@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-01 19:10+0200\n"
+"POT-Creation-Date: 2012-05-05 12:43+0200\n"
 "PO-Revision-Date: 2009-12-04 22:09+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -11236,37 +11236,9 @@ msgstr "JavaScript"
 msgid "&Stop Script"
 msgstr "Òtemkni skript"
 
-#: khtml/ecma/kjs_html.cpp:2162 khtml/ecma/kjs_window.cpp:1650
+#: khtml/ecma/kjs_window.cpp:1650 khtml/ecma/kjs_html.cpp:2162
 msgid "Confirmation: JavaScript Popup"
 msgstr "Pòcwierdzenié: Òczénkò JavaScript"
-
-#: khtml/ecma/kjs_html.cpp:2164
-msgid ""
-"This site is submitting a form which will open up a new browser window via "
-"JavaScript.\n"
-"Do you want to allow the form to be submitted?"
-msgstr ""
-"Starna chce wësłac fòrmùlar, jaczi òtemknie sã w nowim òknie przezérnika z "
-"pòmòca Javascript.\n"
-"Dac zgòdã na to?"
-
-#: khtml/ecma/kjs_html.cpp:2167
-#, kde-format
-msgid ""
-"<qt>This site is submitting a form which will open <p>%1</p> in a new "
-"browser window via JavaScript.<br />Do you want to allow the form to be "
-"submitted?</qt>"
-msgstr ""
-"<qt>Starna chce wësłac fòrmùlar, jaczi òtemknie <p>%1</p> w nowim òknie "
-"przezérnika z pòmòca Javascript.<br />Dac zgòdã na to?</qt>"
-
-#: khtml/ecma/kjs_html.cpp:2169 khtml/ecma/kjs_window.cpp:1658
-msgid "Allow"
-msgstr "Pòzwôlë"
-
-#: khtml/ecma/kjs_html.cpp:2169 khtml/ecma/kjs_window.cpp:1658
-msgid "Do Not Allow"
-msgstr "Nie pòzwôlôj"
 
 #: khtml/ecma/kjs_window.cpp:1653
 msgid ""
@@ -11284,6 +11256,14 @@ msgid ""
 msgstr ""
 "<qt>Na starna żãdô òtemkniãcô<p>%1</p>w nowim òknie przezérnika brëkùjąc "
 "JavaScript.<br /> Pòzwôlëc na to?</qt>"
+
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2169
+msgid "Allow"
+msgstr "Pòzwôlë"
+
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2169
+msgid "Do Not Allow"
+msgstr "Nie pòzwôlôj"
 
 #: khtml/ecma/kjs_window.cpp:1971
 msgid "Close window?"
@@ -11319,6 +11299,26 @@ msgstr "Wstôwi"
 msgid "Disallow"
 msgstr "Nie dawôj zgòdë"
 
+#: khtml/ecma/kjs_html.cpp:2164
+msgid ""
+"This site is submitting a form which will open up a new browser window via "
+"JavaScript.\n"
+"Do you want to allow the form to be submitted?"
+msgstr ""
+"Starna chce wësłac fòrmùlar, jaczi òtemknie sã w nowim òknie przezérnika z "
+"pòmòca Javascript.\n"
+"Dac zgòdã na to?"
+
+#: khtml/ecma/kjs_html.cpp:2167
+#, kde-format
+msgid ""
+"<qt>This site is submitting a form which will open <p>%1</p> in a new "
+"browser window via JavaScript.<br />Do you want to allow the form to be "
+"submitted?</qt>"
+msgstr ""
+"<qt>Starna chce wësłac fòrmùlar, jaczi òtemknie <p>%1</p> w nowim òknie "
+"przezérnika z pòmòca Javascript.<br />Dac zgòdã na to?</qt>"
+
 #: khtml/ecma/debugger/consoledock.cpp:220
 msgid "Console"
 msgstr "Kònsola"
@@ -11334,14 +11334,6 @@ msgstr "Fela JavaScriptu"
 #: khtml/ecma/debugger/errordlg.cpp:49
 msgid "&Do not show this message again"
 msgstr "&Nie pòkazëjë tegò wiadła wicy"
-
-#: khtml/ecma/debugger/localvariabledock.cpp:43
-msgid "Local Variables"
-msgstr "Môlowé zmienne"
-
-#: khtml/ecma/debugger/localvariabledock.cpp:51
-msgid "Reference"
-msgstr "Òdniesenié"
 
 #: khtml/ecma/debugger/callstackdock.cpp:37
 msgid "Call Stack"
@@ -11443,6 +11435,14 @@ msgstr ""
 #: khtml/ecma/debugger/scriptsdock.cpp:43
 msgid "Loaded Scripts"
 msgstr "Wczëtóné skriptë"
+
+#: khtml/ecma/debugger/localvariabledock.cpp:43
+msgid "Local Variables"
+msgstr "Môlowé zmienne"
+
+#: khtml/ecma/debugger/localvariabledock.cpp:51
+msgid "Reference"
+msgstr "Òdniesenié"
 
 #: khtml/html/htmlparser.cpp:1938
 msgid "This is a searchable index. Enter search keywords: "
