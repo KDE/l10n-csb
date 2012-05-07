@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-02 04:20+0200\n"
+"POT-Creation-Date: 2012-05-07 04:24+0200\n"
 "PO-Revision-Date: 2009-12-19 02:07+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -646,61 +646,6 @@ msgid ""
 msgstr ""
 "Tuwò mòże òbôczëc wszëtczé pluginsë Kate. Zaznaczenié òznôczô, że są òne "
 "wladowóné ë òstaną téż wladowóné przë nôslédnym zrëszeniô Kate."
-
-#: app/katedocmanager.cpp:68
-msgid ""
-"A KDE text-editor component could not be found.\n"
-"Please check your KDE installation."
-msgstr ""
-
-#: app/katedocmanager.cpp:308
-#, kde-format
-msgid ""
-"The supposedly temporary file %1 has been modified. Do you want to delete it "
-"anyway?"
-msgstr ""
-
-#: app/katedocmanager.cpp:310
-msgid "Delete File?"
-msgstr "Rëmnąc lopk?"
-
-#: app/katedocmanager.cpp:450
-#, kde-format
-msgid ""
-"<p>The document '%1' has been modified, but not saved.</p><p>Do you want to "
-"save your changes or discard them?</p>"
-msgstr ""
-"<p>Dokùment '%1' òstôł zmieniony, równak nié zapisóny.</p><p>Chcesz zapisac "
-"zmianë, czë téż je pòcësnąc?</p>"
-
-#: app/katedocmanager.cpp:452
-msgid "Close Document"
-msgstr "Zamkni dokùment"
-
-#: app/katedocmanager.cpp:459
-msgid "Save As"
-msgstr "Zapiszë jakno"
-
-#: app/katedocmanager.cpp:485 app/katemainwindow.cpp:432
-msgid "New file opened while trying to close Kate, closing aborted."
-msgstr ""
-"Nowi lopk òstôł òtemkłi przë zamëkanim Kate, zamëkanié òstało òprzestóné."
-
-#: app/katedocmanager.cpp:486 app/katemainwindow.cpp:433
-msgid "Closing Aborted"
-msgstr "Niechano zamëkanié"
-
-#: app/katedocmanager.cpp:558
-msgid "Starting Up"
-msgstr "Zrëszanié"
-
-#: app/katedocmanager.cpp:559
-msgid "Reopening files from the last session..."
-msgstr "Òtmëkanié lopków ze slédny sesëji..."
-
-#: app/katedocmanager.cpp:738
-msgid "Errors/Warnings while opening documents"
-msgstr ""
 
 #: app/katemain.cpp:81
 msgid "Kate"
@@ -1743,6 +1688,15 @@ msgstr ""
 msgid "Close all documents"
 msgstr "Zamkni wszëtczé dokùmentë"
 
+#: app/katemainwindow.cpp:432 app/katedocmanager.cpp:486
+msgid "New file opened while trying to close Kate, closing aborted."
+msgstr ""
+"Nowi lopk òstôł òtemkłi przë zamëkanim Kate, zamëkanié òstało òprzestóné."
+
+#: app/katemainwindow.cpp:433 app/katedocmanager.cpp:487
+msgid "Closing Aborted"
+msgstr "Niechano zamëkanié"
+
 #: app/katemainwindow.cpp:725
 msgid "&Other..."
 msgstr "&Jinszé..."
@@ -1755,6 +1709,52 @@ msgstr "Aplikacëjô '%1' nie òstała nalazłô."
 #: app/katemainwindow.cpp:751
 msgid "Application not found"
 msgstr "Aplikacëjô nie òstała nalazłô"
+
+#: app/katedocmanager.cpp:68
+msgid ""
+"A KDE text-editor component could not be found.\n"
+"Please check your KDE installation."
+msgstr ""
+
+#: app/katedocmanager.cpp:309
+#, kde-format
+msgid ""
+"The supposedly temporary file %1 has been modified. Do you want to delete it "
+"anyway?"
+msgstr ""
+
+#: app/katedocmanager.cpp:311
+msgid "Delete File?"
+msgstr "Rëmnąc lopk?"
+
+#: app/katedocmanager.cpp:451
+#, kde-format
+msgid ""
+"<p>The document '%1' has been modified, but not saved.</p><p>Do you want to "
+"save your changes or discard them?</p>"
+msgstr ""
+"<p>Dokùment '%1' òstôł zmieniony, równak nié zapisóny.</p><p>Chcesz zapisac "
+"zmianë, czë téż je pòcësnąc?</p>"
+
+#: app/katedocmanager.cpp:453
+msgid "Close Document"
+msgstr "Zamkni dokùment"
+
+#: app/katedocmanager.cpp:460
+msgid "Save As"
+msgstr "Zapiszë jakno"
+
+#: app/katedocmanager.cpp:559
+msgid "Starting Up"
+msgstr "Zrëszanié"
+
+#: app/katedocmanager.cpp:560
+msgid "Reopening files from the last session..."
+msgstr "Òtmëkanié lopków ze slédny sesëji..."
+
+#: app/katedocmanager.cpp:739
+msgid "Errors/Warnings while opening documents"
+msgstr ""
 
 #: plugins/filetree/katefiletree.cpp:52
 msgid "Close"
