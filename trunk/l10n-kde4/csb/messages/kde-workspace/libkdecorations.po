@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin_lib\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-02 04:35+0200\n"
+"POT-Creation-Date: 2012-05-18 04:53+0200\n"
 "PO-Revision-Date: 2008-12-17 18:31+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -17,26 +17,6 @@ msgstr ""
 "X-Generator: Lokalize 0.2\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
-
-#: kdecoration_plugins_p.cpp:109
-#, fuzzy
-#| msgid "No window decoration plugin library was found."
-msgid "Loading of window decoration plugin library disabled in configuration."
-msgstr "Nie je nalazłi wtëkôcz dekòracëji òknów."
-
-#: kdecoration_plugins_p.cpp:129
-msgid "No window decoration plugin library was found."
-msgstr "Nie je nalazłi wtëkôcz dekòracëji òknów."
-
-#: kdecoration_plugins_p.cpp:154
-msgid "The default decoration plugin is corrupt and could not be loaded."
-msgstr ""
-"Domëslny wtëkôcz dekòracëji òknów je zepsëti ë nie mòżna bëło gò zladowac."
-
-#: kdecoration_plugins_p.cpp:166 kdecoration_plugins_p.cpp:171
-#, kde-format
-msgid "The library %1 is not a KWin plugin."
-msgstr "Bibloteka %1 nie je wtëkôczã KWin."
 
 #: kcommondecoration.cpp:290
 #, fuzzy, kde-format
@@ -101,3 +81,40 @@ msgstr "Rozwinie"
 #: kcommondecoration.cpp:500 kcommondecoration.cpp:619
 msgid "Shade"
 msgstr "Zwinie"
+
+#: kdecoration_plugins_p.cpp:109
+#, fuzzy
+#| msgid "No window decoration plugin library was found."
+msgid "Loading of window decoration plugin library disabled in configuration."
+msgstr "Nie je nalazłi wtëkôcz dekòracëji òknów."
+
+#: kdecoration_plugins_p.cpp:129
+msgid "No window decoration plugin library was found."
+msgstr "Nie je nalazłi wtëkôcz dekòracëji òknów."
+
+#: kdecoration_plugins_p.cpp:154
+msgid "The default decoration plugin is corrupt and could not be loaded."
+msgstr ""
+"Domëslny wtëkôcz dekòracëji òknów je zepsëti ë nie mòżna bëło gò zladowac."
+
+#: kdecoration_plugins_p.cpp:169
+#, fuzzy, kde-format
+#| msgid "The library %1 is not a KWin plugin."
+msgid "The library %1 has wrong API version %2"
+msgstr "Bibloteka %1 nie je wtëkôczã KWin."
+
+#: kdecoration_plugins_p.cpp:176
+#, kde-format
+msgid ""
+"******\n"
+"\n"
+"The library %1 has no API version\n"
+"Please use the KWIN_DECORATION or future versions of kwin will no longer "
+"load this decoration!\n"
+"*******"
+msgstr ""
+
+#: kdecoration_plugins_p.cpp:185 kdecoration_plugins_p.cpp:190
+#, kde-format
+msgid "The library %1 is not a KWin plugin."
+msgstr "Bibloteka %1 nie je wtëkôczã KWin."
