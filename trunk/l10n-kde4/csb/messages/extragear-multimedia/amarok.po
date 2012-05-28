@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-27 03:53+0200\n"
+"POT-Creation-Date: 2012-05-28 04:06+0200\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -2691,7 +2691,7 @@ msgid "Add to blacklist"
 msgstr "Dodôj do lëstë graniô"
 
 #: context/applets/labels/LabelsApplet.cpp:91
-#: context/applets/labels/LabelsApplet.cpp:183 dialogs/TagDialog.cpp:513
+#: context/applets/labels/LabelsApplet.cpp:184 dialogs/TagDialog.cpp:513
 msgid "Labels"
 msgstr "Eticzétë"
 
@@ -2700,43 +2700,43 @@ msgstr "Eticzétë"
 msgid "Reload"
 msgstr "Zladëjë znôù"
 
-#: context/applets/labels/LabelsApplet.cpp:195
+#: context/applets/labels/LabelsApplet.cpp:196
 #, fuzzy
 #| msgid "No track playing"
 msgid "Labels: No track playing"
 msgstr "Nick nie je gróné"
 
-#: context/applets/labels/LabelsApplet.cpp:517
+#: context/applets/labels/LabelsApplet.cpp:518
 #, fuzzy
 #| msgid "Fetching content.."
 msgid "Labels: Fetching..."
 msgstr "Ladowanié zamkłoscë.."
 
-#: context/applets/labels/LabelsApplet.cpp:527
+#: context/applets/labels/LabelsApplet.cpp:528
 #, fuzzy, kde-format
 #| msgid "Label"
 msgid "Labels: %1"
 msgstr "Eticzéta"
 
-#: context/applets/labels/LabelsApplet.cpp:575
+#: context/applets/labels/LabelsApplet.cpp:576
 #, fuzzy, kde-format
 #| msgid "Results for: %1"
 msgid "Labels for %1 by %2"
 msgstr "Rezultat dlô: %1"
 
-#: context/applets/labels/LabelsApplet.cpp:743
+#: context/applets/labels/LabelsApplet.cpp:744
 #, fuzzy
 #| msgid "General Options"
 msgid "General Settings"
 msgstr "Òglowé òptacëjë"
 
-#: context/applets/labels/LabelsApplet.cpp:744
+#: context/applets/labels/LabelsApplet.cpp:745
 #, fuzzy
 #| msgid "Settings"
 msgid "Blacklist Settings"
 msgstr "Ùstawë"
 
-#: context/applets/labels/LabelsApplet.cpp:745
+#: context/applets/labels/LabelsApplet.cpp:746
 #, fuzzy
 #| msgid "Photos Settings"
 msgid "Replacement Settings"
@@ -4228,7 +4228,7 @@ msgstr ""
 msgid "Cannot initialize iPod due to an unreported error."
 msgstr ""
 
-#: core-impl/collections/ipodcollection/support/IphoneMountPoint.cpp:54
+#: core-impl/collections/ipodcollection/support/IphoneMountPoint.cpp:56
 msgid "Connecting to iPhone, iPad or iPod touch failed."
 msgstr ""
 
@@ -7617,50 +7617,6 @@ msgctxt "Part bias representation"
 msgid "Partition"
 msgstr "Propòrcja:"
 
-#: dynamic/biases/AlbumPlayBias.cpp:38
-#, fuzzy
-#| msgid "album"
-msgctxt "Name of the \"AlbumPlay\" bias"
-msgid "Album play"
-msgstr "albùm"
-
-#: dynamic/biases/AlbumPlayBias.cpp:47
-msgctxt "Description of the \"AlbumPlay\" bias"
-msgid "The \"AlbumPlay\" bias adds tracks that belong to one album."
-msgstr ""
-
-#: dynamic/biases/AlbumPlayBias.cpp:108
-#, fuzzy
-#| msgid "Fetch the artwork for this album"
-#| msgid_plural "Fetch artwork for %1 albums"
-msgctxt "AlbumPlay bias representation"
-msgid "The next track from the album"
-msgstr "Zladëjë òbkłôdkã dlô tegò albùmù"
-
-#: dynamic/biases/AlbumPlayBias.cpp:111
-#, fuzzy
-#| msgid "Display artwork for this album"
-msgctxt "AlbumPlay bias representation"
-msgid "Any later track from the album"
-msgstr "Pòkażë òbkłôdkã dlô tegò albùmù"
-
-#: dynamic/biases/AlbumPlayBias.cpp:114
-msgctxt "AlbumPlay bias representation"
-msgid "Tracks from the same album"
-msgstr ""
-
-#: dynamic/biases/AlbumPlayBias.cpp:124
-msgid "Track directly follows previous track in album"
-msgstr ""
-
-#: dynamic/biases/AlbumPlayBias.cpp:126
-msgid "Track comes after previous track in album"
-msgstr ""
-
-#: dynamic/biases/AlbumPlayBias.cpp:128
-msgid "Track is in the same album as previous track"
-msgstr ""
-
 #: dynamic/biases/TagMatchBias.cpp:45
 #, fuzzy
 #| msgid "My Tags"
@@ -7765,6 +7721,50 @@ msgstr ""
 
 #: dynamic/biases/QuizPlayBias.cpp:147
 msgid "of the album name (Album quiz)"
+msgstr ""
+
+#: dynamic/biases/AlbumPlayBias.cpp:38
+#, fuzzy
+#| msgid "album"
+msgctxt "Name of the \"AlbumPlay\" bias"
+msgid "Album play"
+msgstr "albùm"
+
+#: dynamic/biases/AlbumPlayBias.cpp:47
+msgctxt "Description of the \"AlbumPlay\" bias"
+msgid "The \"AlbumPlay\" bias adds tracks that belong to one album."
+msgstr ""
+
+#: dynamic/biases/AlbumPlayBias.cpp:108
+#, fuzzy
+#| msgid "Fetch the artwork for this album"
+#| msgid_plural "Fetch artwork for %1 albums"
+msgctxt "AlbumPlay bias representation"
+msgid "The next track from the album"
+msgstr "Zladëjë òbkłôdkã dlô tegò albùmù"
+
+#: dynamic/biases/AlbumPlayBias.cpp:111
+#, fuzzy
+#| msgid "Display artwork for this album"
+msgctxt "AlbumPlay bias representation"
+msgid "Any later track from the album"
+msgstr "Pòkażë òbkłôdkã dlô tegò albùmù"
+
+#: dynamic/biases/AlbumPlayBias.cpp:114
+msgctxt "AlbumPlay bias representation"
+msgid "Tracks from the same album"
+msgstr ""
+
+#: dynamic/biases/AlbumPlayBias.cpp:124
+msgid "Track directly follows previous track in album"
+msgstr ""
+
+#: dynamic/biases/AlbumPlayBias.cpp:126
+msgid "Track comes after previous track in album"
+msgstr ""
+
+#: dynamic/biases/AlbumPlayBias.cpp:128
+msgid "Track is in the same album as previous track"
 msgstr ""
 
 #: dynamic/Bias.cpp:239
