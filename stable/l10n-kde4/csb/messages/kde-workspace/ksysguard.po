@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-26 12:50+0200\n"
+"POT-Creation-Date: 2012-06-07 14:20+0200\n"
 "PO-Revision-Date: 2009-12-15 23:20+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -757,71 +757,6 @@ msgstr "Nastôwë sekùndnika"
 msgid "Use update interval of worksheet"
 msgstr "Brëkùjë rozstãpù midze òdswiéżaniém robòczy bòdżi"
 
-#: WorkSheet.cpp:88
-#, kde-format
-msgid "Cannot open the file %1."
-msgstr "Nié mòże òtemknąc lopka %1."
-
-#: WorkSheet.cpp:96
-#, kde-format
-msgid "The file %1 does not contain valid XML."
-msgstr "Lopk %1 zamëkô w se zmiłkòwi fòrmat XML."
-
-#: WorkSheet.cpp:103
-#, kde-format
-msgid ""
-"The file %1 does not contain a valid worksheet definition, which must have a "
-"document type 'KSysGuardWorkSheet'."
-msgstr ""
-"Lopk %1 nie zamëkô w se bezzmiłkòwi definicëji robòczi bòdżi. Lopk mùszi bëc "
-"ôrtu 'KSysGuardWorkSheet'."
-
-#: WorkSheet.cpp:127
-#, kde-format
-msgid "The file %1 has an invalid worksheet size."
-msgstr "Lopk %1 zamëkô w se zmiłkòwą miarã robòczi bòdżi."
-
-#: WorkSheet.cpp:228
-#, kde-format
-msgid "Cannot save file %1"
-msgstr "Nié mòże zapisac lopka %1"
-
-#: WorkSheet.cpp:274
-msgid "The clipboard does not contain a valid display description."
-msgstr "Tacnik ni mô bezzmiłkòwigò òpisënka wëzdrzatkù."
-
-#: WorkSheet.cpp:375
-msgid "Select Display Type"
-msgstr "Wëbiérzë ôrt prezentacëji pòdôwków"
-
-#: WorkSheet.cpp:376
-msgid "&Line graph"
-msgstr "&Liniowô diagrama"
-
-#: WorkSheet.cpp:377
-msgid "&Digital display"
-msgstr "&Cyfrowy pòdzérk"
-
-#: WorkSheet.cpp:378
-msgid "&Bar graph"
-msgstr "&Stołpk"
-
-#: WorkSheet.cpp:379
-msgid "Log to a &file"
-msgstr "Zapiszë dniewnik do &lopka"
-
-#: WorkSheet.cpp:533
-msgid "Remove this display?"
-msgstr "Rëmnąc nen pòdzérk?"
-
-#: WorkSheet.cpp:534
-msgid "Remove Display"
-msgstr "Rëmôj pòdzérk"
-
-#: WorkSheet.cpp:575
-msgid "Dummy"
-msgstr "Domëslny"
-
 #: Workspace.cpp:113
 #, kde-format
 msgid "Sheet %1"
@@ -873,51 +808,116 @@ msgstr ""
 msgid "Upload custom System Monitor tab"
 msgstr "Dodôj swòją kôrtã Mònitora systemë"
 
-#: ksysguard.cpp:74
+#: WorkSheet.cpp:88
+#, kde-format
+msgid "Cannot open the file %1."
+msgstr "Nié mòże òtemknąc lopka %1."
+
+#: WorkSheet.cpp:96
+#, kde-format
+msgid "The file %1 does not contain valid XML."
+msgstr "Lopk %1 zamëkô w se zmiłkòwi fòrmat XML."
+
+#: WorkSheet.cpp:103
+#, kde-format
+msgid ""
+"The file %1 does not contain a valid worksheet definition, which must have a "
+"document type 'KSysGuardWorkSheet'."
+msgstr ""
+"Lopk %1 nie zamëkô w se bezzmiłkòwi definicëji robòczi bòdżi. Lopk mùszi bëc "
+"ôrtu 'KSysGuardWorkSheet'."
+
+#: WorkSheet.cpp:127
+#, kde-format
+msgid "The file %1 has an invalid worksheet size."
+msgstr "Lopk %1 zamëkô w se zmiłkòwą miarã robòczi bòdżi."
+
+#: WorkSheet.cpp:228
+#, kde-format
+msgid "Cannot save file %1"
+msgstr "Nié mòże zapisac lopka %1"
+
+#: WorkSheet.cpp:274
+msgid "The clipboard does not contain a valid display description."
+msgstr "Tacnik ni mô bezzmiłkòwigò òpisënka wëzdrzatkù."
+
+#: WorkSheet.cpp:374
+msgid "Select Display Type"
+msgstr "Wëbiérzë ôrt prezentacëji pòdôwków"
+
+#: WorkSheet.cpp:375
+msgid "&Line graph"
+msgstr "&Liniowô diagrama"
+
+#: WorkSheet.cpp:376
+msgid "&Digital display"
+msgstr "&Cyfrowy pòdzérk"
+
+#: WorkSheet.cpp:377
+msgid "&Bar graph"
+msgstr "&Stołpk"
+
+#: WorkSheet.cpp:378
+msgid "Log to a &file"
+msgstr "Zapiszë dniewnik do &lopka"
+
+#: WorkSheet.cpp:530
+msgid "Remove this display?"
+msgstr "Rëmnąc nen pòdzérk?"
+
+#: WorkSheet.cpp:531
+msgid "Remove Display"
+msgstr "Rëmôj pòdzérk"
+
+#: WorkSheet.cpp:572
+msgid "Dummy"
+msgstr "Domëslny"
+
+#: ksysguard.cpp:70
 msgid "KDE System Monitor"
 msgstr "Mònitora Systemë KDE "
 
-#: ksysguard.cpp:154 ksysguard.cpp:530
+#: ksysguard.cpp:158 ksysguard.cpp:529
 msgid "System Monitor"
 msgstr "Mònitora systemë"
 
-#: ksysguard.cpp:155
+#: ksysguard.cpp:159
 msgid "&Refresh Tab"
 msgstr "Ò&dswierzë kôrtã"
 
-#: ksysguard.cpp:156
+#: ksysguard.cpp:160
 msgid "&New Tab..."
 msgstr "&Nowô kôrta..."
 
-#: ksysguard.cpp:157
+#: ksysguard.cpp:161
 msgid "Import Tab Fr&om File..."
 msgstr "Impòrtëjë kôrtã &z lopka..."
 
-#: ksysguard.cpp:158
+#: ksysguard.cpp:162
 msgid "Save Tab &As..."
 msgstr "Z&apiszë kôrtã jakno..."
 
-#: ksysguard.cpp:159
+#: ksysguard.cpp:163
 msgid "&Close Tab"
 msgstr "&Zamkni kôrtã"
 
-#: ksysguard.cpp:160
+#: ksysguard.cpp:164
 msgid "Monitor &Remote Machine..."
 msgstr "Mònitorëjë daleczi kòmpùtr..."
 
-#: ksysguard.cpp:161
+#: ksysguard.cpp:165
 msgid "&Download New Tabs..."
 msgstr "Zlad&ëjë nową kôrtã..."
 
-#: ksysguard.cpp:162
+#: ksysguard.cpp:166
 msgid "&Upload Current Tab..."
 msgstr "&Dodôj nową kôrtã..."
 
-#: ksysguard.cpp:164
+#: ksysguard.cpp:168
 msgid "Tab &Properties"
 msgstr "&Swòjiznë"
 
-#: ksysguard.cpp:359
+#: ksysguard.cpp:363
 #, kde-format
 msgid "1 process1"
 msgid_plural "%1 processes%1"
@@ -925,80 +925,80 @@ msgstr[0] "1 proces1"
 msgstr[1] " %1 procesë%1"
 msgstr[2] " %1 procesów%1"
 
-#: ksysguard.cpp:443
+#: ksysguard.cpp:442
 #, kde-format
 msgid "CPU: %1%%1%"
 msgstr "Procesor: %1%%1%"
 
-#: ksysguard.cpp:458
+#: ksysguard.cpp:457
 #, kde-format
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid "Memory: %1 / %2Mem: %1 / %2Mem: %1%1"
 msgstr "Pamiãc: %1 / %2Pam: %1 / %2Pam: %1%1"
 
-#: ksysguard.cpp:485
+#: ksysguard.cpp:484
 msgid " No swap space available "
 msgstr " Felënk wòlny pamiãcë wëmianë "
 
-#: ksysguard.cpp:487
+#: ksysguard.cpp:486
 #, kde-format
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid "Swap: %1 / %2Swap: %1%1"
 msgstr "Pamiãc wëmianë: %1 / %2Pamiãc wëmianë: %1%1"
 
-#: ksysguard.cpp:532
+#: ksysguard.cpp:531
 msgid "(c) 1996-2008 The KDE System Monitor Developers"
 msgstr "(c) 1996-2008 Rozwijôrzë KDE System Monitor"
 
-#: ksysguard.cpp:533
+#: ksysguard.cpp:532
 msgid "John Tapsell"
 msgstr "John Tapsell"
 
-#: ksysguard.cpp:533
+#: ksysguard.cpp:532
 msgid "Current Maintainer"
 msgstr "Biéżny òpiekùn"
 
-#: ksysguard.cpp:534
+#: ksysguard.cpp:533
 msgid "Chris Schlaeger"
 msgstr "Chris Schlaeger"
 
-#: ksysguard.cpp:534
+#: ksysguard.cpp:533
 msgid "Previous Maintainer"
 msgstr "Pòprzédny òpiekùn"
 
-#: ksysguard.cpp:535
+#: ksysguard.cpp:534
 msgid "Greg Martyn"
 msgstr "Greg Martyn"
 
-#: ksysguard.cpp:536
+#: ksysguard.cpp:535
 msgid "Tobias Koenig"
 msgstr "Tobias Koenig"
 
-#: ksysguard.cpp:537
+#: ksysguard.cpp:536
 msgid "Nicolas Leclercq"
 msgstr "Nicolas Leclercq"
 
-#: ksysguard.cpp:538
+#: ksysguard.cpp:537
 msgid "Alex Sanda"
 msgstr "Alex Sanda"
 
-#: ksysguard.cpp:539
+#: ksysguard.cpp:538
 msgid "Bernd Johannes Wuebben"
 msgstr "Bernd Johannes Wuebben"
 
-#: ksysguard.cpp:540
+#: ksysguard.cpp:539
 msgid "Ralf Mueller"
 msgstr "Ralf Mueller"
 
-#: ksysguard.cpp:541
+#: ksysguard.cpp:540
 msgid "Hamish Rodda"
 msgstr "Hamish Rodda"
 
-#: ksysguard.cpp:542
+#: ksysguard.cpp:541
 msgid "Torsten Kasch"
 msgstr "Torsten Kasch"
 
-#: ksysguard.cpp:542
+#: ksysguard.cpp:541
 msgid ""
 "Solaris Support\n"
 "Parts derived (by permission) from the sunos5\n"
@@ -1008,7 +1008,7 @@ msgstr ""
 "Dzéle pòchôdôjącé (za pòzwòleniém) z mòduła\n"
 "sunos5 nôrzãdza \"top\" Williama LeFebvre'a."
 
-#: ksysguard.cpp:551
+#: ksysguard.cpp:550
 msgid "Optional worksheet files to load"
 msgstr "Dodôwné lopczi robòczëch bògów do wladowaniô"
 
