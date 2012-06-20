@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-16 05:09+0200\n"
+"POT-Creation-Date: 2012-06-20 05:49+0200\n"
 "PO-Revision-Date: 2009-12-14 23:28+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -20,60 +20,6 @@ msgstr ""
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
-
-#: contents/ui/PopupDialog.qml:50
-msgid "Battery:"
-msgstr "Baterëjô."
-
-#: contents/ui/PopupDialog.qml:55
-#, fuzzy
-#| msgid "AC Adapter:"
-msgid "AC Adapter:"
-msgstr "Zasëlôcz:"
-
-#: contents/ui/PopupDialog.qml:60
-#, fuzzy
-#| msgid "Power Management"
-msgctxt "Label for power management inhibition"
-msgid "Power management enabled:"
-msgstr "Sprôwianié mòcą"
-
-#: contents/ui/PopupDialog.qml:65
-#, fuzzy
-#| msgid "Screen Brightness"
-msgid "Screen Brightness:"
-msgstr "Jasnota ekranu"
-
-#: contents/ui/PopupDialog.qml:80 contents/ui/batterymonitor.qml:120
-msgctxt "Battery is not plugged in"
-msgid "Not present"
-msgstr "Felëje"
-
-#: contents/ui/PopupDialog.qml:85
-#, fuzzy
-#| msgid "Plugged in "
-msgid "Plugged in"
-msgstr "Pòdłączony "
-
-#: contents/ui/PopupDialog.qml:85
-#, fuzzy
-#| msgid "Not plugged in"
-msgid "Not plugged in"
-msgstr "Nié pòdłączony"
-
-#: contents/ui/PopupDialog.qml:115
-#, fuzzy
-#| msgid "Sleep"
-msgctxt "Suspend the computer to RAM; translation should be short"
-msgid "Sleep"
-msgstr "Ùspienié"
-
-#: contents/ui/PopupDialog.qml:124
-#, fuzzy
-#| msgid "Hibernate"
-msgctxt "Suspend the computer to disk; translation should be short"
-msgid "Hibernate"
-msgstr "Hibernacëjô"
 
 #: contents/ui/batterymonitor.qml:105
 #, kde-format
@@ -86,6 +32,11 @@ msgstr ""
 #| msgid "Battery"
 msgid "<b>Battery:</b>"
 msgstr "Baterjô"
+
+#: contents/ui/batterymonitor.qml:120 contents/ui/PopupDialog.qml:83
+msgctxt "Battery is not plugged in"
+msgid "Not present"
+msgstr "Felëje"
 
 #: contents/ui/batterymonitor.qml:122
 #, fuzzy
@@ -128,6 +79,55 @@ msgstr "%1 (rozladowanié)"
 #: contents/ui/batterymonitor.qml:188
 msgid "The battery applet has enabled system-wide inhibition"
 msgstr ""
+
+#: contents/ui/PopupDialog.qml:52
+msgid "Battery:"
+msgstr "Baterëjô."
+
+#: contents/ui/PopupDialog.qml:57
+#, fuzzy
+#| msgid "AC Adapter:"
+msgid "AC Adapter:"
+msgstr "Zasëlôcz:"
+
+#: contents/ui/PopupDialog.qml:63
+#, fuzzy
+#| msgid "Power Management"
+msgctxt "Label for power management inhibition"
+msgid "Power management enabled:"
+msgstr "Sprôwianié mòcą"
+
+#: contents/ui/PopupDialog.qml:68
+#, fuzzy
+#| msgid "Screen Brightness"
+msgid "Screen Brightness:"
+msgstr "Jasnota ekranu"
+
+#: contents/ui/PopupDialog.qml:88
+#, fuzzy
+#| msgid "Plugged in "
+msgid "Plugged in"
+msgstr "Pòdłączony "
+
+#: contents/ui/PopupDialog.qml:88
+#, fuzzy
+#| msgid "Not plugged in"
+msgid "Not plugged in"
+msgstr "Nié pòdłączony"
+
+#: contents/ui/PopupDialog.qml:119
+#, fuzzy
+#| msgid "Sleep"
+msgctxt "Suspend the computer to RAM; translation should be short"
+msgid "Sleep"
+msgstr "Ùspienié"
+
+#: contents/ui/PopupDialog.qml:128
+#, fuzzy
+#| msgid "Hibernate"
+msgctxt "Suspend the computer to disk; translation should be short"
+msgid "Hibernate"
+msgstr "Hibernacëjô"
 
 #. i18n: file: contents/ui/config.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, batteryConfig)
