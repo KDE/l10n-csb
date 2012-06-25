@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-24 12:03+0200\n"
+"POT-Creation-Date: 2012-06-25 12:35+0200\n"
 "PO-Revision-Date: 2009-12-04 22:09+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -10430,30 +10430,6 @@ msgstr "Zapiszë jaknò"
 msgid "Inactive"
 msgstr "Nie aktiwnô"
 
-#: khtml/khtmlimage.cpp:202
-#, kde-format
-msgid "%1 (%2 - %3x%4 Pixels)"
-msgstr "%1 (%2 - %3x%4 pikselów)"
-
-#: khtml/khtmlimage.cpp:204
-#, kde-format
-msgid "%1 - %2x%3 Pixels"
-msgstr "%1 - %2x%3 pikselów"
-
-#: khtml/khtmlimage.cpp:209
-#, kde-format
-msgid "%1 (%2x%3 Pixels)"
-msgstr "%1 (%2x%3 pikselów)"
-
-#: khtml/khtmlimage.cpp:211
-#, kde-format
-msgid "Image - %1x%2 Pixels"
-msgstr "Òbrôzk - %1x%2 pikselów"
-
-#: khtml/khtmlimage.cpp:217
-msgid "Done."
-msgstr "Parôt."
-
 #: khtml/khtml_part.cpp:252
 msgid "View Do&cument Source"
 msgstr "Pòkôżë zdrój do&kùmentu"
@@ -10956,6 +10932,30 @@ msgstr "&Dôwôj wiédzã ò blokòwónëch òknach"
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "&Kònfigùrëjë pòlitikã JavaScript dlô nowich òknów..."
 
+#: khtml/khtmlimage.cpp:202
+#, kde-format
+msgid "%1 (%2 - %3x%4 Pixels)"
+msgstr "%1 (%2 - %3x%4 pikselów)"
+
+#: khtml/khtmlimage.cpp:204
+#, kde-format
+msgid "%1 - %2x%3 Pixels"
+msgstr "%1 - %2x%3 pikselów"
+
+#: khtml/khtmlimage.cpp:209
+#, kde-format
+msgid "%1 (%2x%3 Pixels)"
+msgstr "%1 (%2x%3 pikselów)"
+
+#: khtml/khtmlimage.cpp:211
+#, kde-format
+msgid "Image - %1x%2 Pixels"
+msgstr "Òbrôzk - %1x%2 pikselów"
+
+#: khtml/khtmlimage.cpp:217
+msgid "Done."
+msgstr "Parôt."
+
 #: khtml/test_regression_gui_main.cpp:34
 msgid "TestRegressionGui"
 msgstr "TestRegressionGui"
@@ -11255,37 +11255,9 @@ msgstr "JavaScript"
 msgid "&Stop Script"
 msgstr "Òtemkni skript"
 
-#: khtml/ecma/kjs_html.cpp:2166 khtml/ecma/kjs_window.cpp:1660
+#: khtml/ecma/kjs_window.cpp:1660 khtml/ecma/kjs_html.cpp:2166
 msgid "Confirmation: JavaScript Popup"
 msgstr "Pòcwierdzenié: Òczénkò JavaScript"
-
-#: khtml/ecma/kjs_html.cpp:2168
-msgid ""
-"This site is submitting a form which will open up a new browser window via "
-"JavaScript.\n"
-"Do you want to allow the form to be submitted?"
-msgstr ""
-"Starna chce wësłac fòrmùlar, jaczi òtemknie sã w nowim òknie przezérnika z "
-"pòmòca Javascript.\n"
-"Dac zgòdã na to?"
-
-#: khtml/ecma/kjs_html.cpp:2171
-#, kde-format
-msgid ""
-"<qt>This site is submitting a form which will open <p>%1</p> in a new "
-"browser window via JavaScript.<br />Do you want to allow the form to be "
-"submitted?</qt>"
-msgstr ""
-"<qt>Starna chce wësłac fòrmùlar, jaczi òtemknie <p>%1</p> w nowim òknie "
-"przezérnika z pòmòca Javascript.<br />Dac zgòdã na to?</qt>"
-
-#: khtml/ecma/kjs_html.cpp:2173 khtml/ecma/kjs_window.cpp:1668
-msgid "Allow"
-msgstr "Pòzwôlë"
-
-#: khtml/ecma/kjs_html.cpp:2173 khtml/ecma/kjs_window.cpp:1668
-msgid "Do Not Allow"
-msgstr "Nie pòzwôlôj"
 
 #: khtml/ecma/kjs_window.cpp:1663
 msgid ""
@@ -11303,6 +11275,14 @@ msgid ""
 msgstr ""
 "<qt>Na starna żãdô òtemkniãcô<p>%1</p>w nowim òknie przezérnika brëkùjąc "
 "JavaScript.<br /> Pòzwôlëc na to?</qt>"
+
+#: khtml/ecma/kjs_window.cpp:1668 khtml/ecma/kjs_html.cpp:2173
+msgid "Allow"
+msgstr "Pòzwôlë"
+
+#: khtml/ecma/kjs_window.cpp:1668 khtml/ecma/kjs_html.cpp:2173
+msgid "Do Not Allow"
+msgstr "Nie pòzwôlôj"
 
 #: khtml/ecma/kjs_window.cpp:1981
 msgid "Close window?"
@@ -11337,6 +11317,26 @@ msgstr "Wstôwi"
 #: khtml/ecma/kjs_window.cpp:2899
 msgid "Disallow"
 msgstr "Nie dawôj zgòdë"
+
+#: khtml/ecma/kjs_html.cpp:2168
+msgid ""
+"This site is submitting a form which will open up a new browser window via "
+"JavaScript.\n"
+"Do you want to allow the form to be submitted?"
+msgstr ""
+"Starna chce wësłac fòrmùlar, jaczi òtemknie sã w nowim òknie przezérnika z "
+"pòmòca Javascript.\n"
+"Dac zgòdã na to?"
+
+#: khtml/ecma/kjs_html.cpp:2171
+#, kde-format
+msgid ""
+"<qt>This site is submitting a form which will open <p>%1</p> in a new "
+"browser window via JavaScript.<br />Do you want to allow the form to be "
+"submitted?</qt>"
+msgstr ""
+"<qt>Starna chce wësłac fòrmùlar, jaczi òtemknie <p>%1</p> w nowim òknie "
+"przezérnika z pòmòca Javascript.<br />Dac zgòdã na to?</qt>"
 
 #: khtml/ecma/debugger/consoledock.cpp:220
 msgid "Console"
