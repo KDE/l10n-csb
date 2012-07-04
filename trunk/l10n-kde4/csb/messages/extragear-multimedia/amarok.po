@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-26 06:14+0200\n"
+"POT-Creation-Date: 2012-07-04 04:19+0200\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -6596,6 +6596,28 @@ msgstr ""
 msgid "Could not open file \"%1\"."
 msgstr "ni mòże zrëszëc %1"
 
+#. i18n: file: dialogs/EditFilterDialog.ui:172
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAndOr)
+#: dialogs/EditFilterDialog.cpp:40 rc.cpp:1563
+msgid "AND"
+msgstr "AND"
+
+#. i18n: file: dialogs/EditFilterDialog.ui:177
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAndOr)
+#: dialogs/EditFilterDialog.cpp:41 rc.cpp:1566
+msgid "OR"
+msgstr "OR"
+
+#: dialogs/EditFilterDialog.cpp:42
+#, fuzzy
+#| msgid "Sample Rate"
+msgid "Simple text"
+msgstr "Próbkòwónié"
+
+#: dialogs/EditFilterDialog.cpp:50
+msgid "Edit Filter"
+msgstr "Editëjë filter"
+
 #: dialogs/FilenameLayoutDialog.cpp:240 dialogs/FilenameLayoutDialog.cpp:245
 #: dialogs/FilenameLayoutDialog.cpp:250 dialogs/FilenameLayoutDialog.cpp:255
 #: dialogs/FilenameLayoutDialog.cpp:260 dialogs/FilenameLayoutDialog.cpp:265
@@ -7283,108 +7305,6 @@ msgid ""
 "been discarded."
 msgstr "<b><font color='red'>Fela:</font></b> %1"
 
-#: dialogs/TagDialog.cpp:420
-msgid "Filename Layout Chooser"
-msgstr "Wëbiérk fòrmë miona lopka"
-
-#: dialogs/TagDialog.cpp:511
-msgid "Tags"
-msgstr "Tadżi"
-
-#: dialogs/TagDialog.cpp:667 dialogs/TagDialog.cpp:675
-msgctxt "The value for this tag is not known"
-msgid "Unknown"
-msgstr "Nieznóné"
-
-#: dialogs/TagDialog.cpp:712
-#, kde-format
-msgid "Track Details: %1 by %2"
-msgstr "Detale sztëczka: %1 wëkònywóny przez %2"
-
-#: dialogs/TagDialog.cpp:718
-#, kde-format
-msgctxt "The amount of tracks being edited"
-msgid "1 Track"
-msgid_plural "Information for %1 Tracks"
-msgstr[0] "Wëdowiédzô dlô %1 sztëczka"
-msgstr[1] "Wëdowiédzô dlô %1 sztëczków"
-msgstr[2] "Wëdowiédzô dlô %1 sztëczków"
-
-#: dialogs/TagDialog.cpp:747 dialogs/TagDialog.cpp:757
-#, kde-format
-msgid "<b>%1</b> by <b>%2</b>"
-msgstr "<b>%1</b> wëkònywóny przez <b>%2</b>"
-
-#: dialogs/TagDialog.cpp:749 dialogs/TagDialog.cpp:759
-#, kde-format
-msgid "<b>%1</b>"
-msgstr "<b>%1</b>"
-
-#: dialogs/TagDialog.cpp:755
-#, kde-format
-msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
-msgstr "<b>%1</b> wëkònywóny przez <b>%2</b> z albùmù <b>%3</b>"
-
-#: dialogs/TagDialog.cpp:765
-#, kde-format
-msgid "Editing 1 file"
-msgid_plural "Editing %1 files"
-msgstr[0] "Editëjë 1 lopk"
-msgstr[1] "Editëjë %1 lopczi"
-msgstr[2] "Editëjë %1 lopków"
-
-#: dialogs/TagDialog.cpp:797
-#, fuzzy
-#| msgid "Never"
-msgctxt "When this track first played"
-msgid "Never"
-msgstr "Nigdë"
-
-#: dialogs/TagDialog.cpp:802
-msgctxt "When this track was last played"
-msgid "Never"
-msgstr "Nigdë"
-
-#: dialogs/TagDialog.cpp:806
-msgctxt "The collection this track is part of"
-msgid "None"
-msgstr "Felënk"
-
-#: dialogs/TagDialog.cpp:1332
-msgid ""
-"Writing to file failed. Please check permissions and available disc space."
-msgstr ""
-
-#. i18n: file: dialogs/MusicBrainzTagger.ui:12
-#. i18n: ectx: property (windowTitle), widget (QWidget, MusicBrainzTagger)
-#: dialogs/TagDialog.cpp:1388 rc.cpp:1482
-#, fuzzy
-#| msgid "MusicBrainz Lookup"
-msgid "MusicBrainz Tagger"
-msgstr "Sprôwdzanié w MusicBraiz"
-
-#. i18n: file: dialogs/EditFilterDialog.ui:172
-#. i18n: ectx: property (text), item, widget (QComboBox, cbAndOr)
-#: dialogs/EditFilterDialog.cpp:40 rc.cpp:1563
-msgid "AND"
-msgstr "AND"
-
-#. i18n: file: dialogs/EditFilterDialog.ui:177
-#. i18n: ectx: property (text), item, widget (QComboBox, cbAndOr)
-#: dialogs/EditFilterDialog.cpp:41 rc.cpp:1566
-msgid "OR"
-msgstr "OR"
-
-#: dialogs/EditFilterDialog.cpp:42
-#, fuzzy
-#| msgid "Sample Rate"
-msgid "Simple text"
-msgstr "Próbkòwónié"
-
-#: dialogs/EditFilterDialog.cpp:50
-msgid "Edit Filter"
-msgstr "Editëjë filter"
-
 #: dialogs/EqualizerDialog.cpp:44
 #, fuzzy
 #| msgid "Configure Services"
@@ -7456,6 +7376,86 @@ msgstr ""
 #: dialogs/EqualizerDialog.cpp:331
 msgid "Error saving preset"
 msgstr ""
+
+#: dialogs/TagDialog.cpp:420
+msgid "Filename Layout Chooser"
+msgstr "Wëbiérk fòrmë miona lopka"
+
+#: dialogs/TagDialog.cpp:511
+msgid "Tags"
+msgstr "Tadżi"
+
+#: dialogs/TagDialog.cpp:667 dialogs/TagDialog.cpp:675
+msgctxt "The value for this tag is not known"
+msgid "Unknown"
+msgstr "Nieznóné"
+
+#: dialogs/TagDialog.cpp:712
+#, kde-format
+msgid "Track Details: %1 by %2"
+msgstr "Detale sztëczka: %1 wëkònywóny przez %2"
+
+#: dialogs/TagDialog.cpp:718
+#, kde-format
+msgctxt "The amount of tracks being edited"
+msgid "1 Track"
+msgid_plural "Information for %1 Tracks"
+msgstr[0] "Wëdowiédzô dlô %1 sztëczka"
+msgstr[1] "Wëdowiédzô dlô %1 sztëczków"
+msgstr[2] "Wëdowiédzô dlô %1 sztëczków"
+
+#: dialogs/TagDialog.cpp:747 dialogs/TagDialog.cpp:757
+#, kde-format
+msgid "<b>%1</b> by <b>%2</b>"
+msgstr "<b>%1</b> wëkònywóny przez <b>%2</b>"
+
+#: dialogs/TagDialog.cpp:749 dialogs/TagDialog.cpp:759
+#, kde-format
+msgid "<b>%1</b>"
+msgstr "<b>%1</b>"
+
+#: dialogs/TagDialog.cpp:755
+#, kde-format
+msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
+msgstr "<b>%1</b> wëkònywóny przez <b>%2</b> z albùmù <b>%3</b>"
+
+#: dialogs/TagDialog.cpp:765
+#, kde-format
+msgid "Editing 1 file"
+msgid_plural "Editing %1 files"
+msgstr[0] "Editëjë 1 lopk"
+msgstr[1] "Editëjë %1 lopczi"
+msgstr[2] "Editëjë %1 lopków"
+
+#: dialogs/TagDialog.cpp:797
+#, fuzzy
+#| msgid "Never"
+msgctxt "When this track first played"
+msgid "Never"
+msgstr "Nigdë"
+
+#: dialogs/TagDialog.cpp:802
+msgctxt "When this track was last played"
+msgid "Never"
+msgstr "Nigdë"
+
+#: dialogs/TagDialog.cpp:806
+msgctxt "The collection this track is part of"
+msgid "None"
+msgstr "Felënk"
+
+#: dialogs/TagDialog.cpp:1333
+msgid ""
+"Writing to file failed. Please check permissions and available disc space."
+msgstr ""
+
+#. i18n: file: dialogs/MusicBrainzTagger.ui:12
+#. i18n: ectx: property (windowTitle), widget (QWidget, MusicBrainzTagger)
+#: dialogs/TagDialog.cpp:1389 rc.cpp:1482
+#, fuzzy
+#| msgid "MusicBrainz Lookup"
+msgid "MusicBrainz Tagger"
+msgstr "Sprôwdzanié w MusicBraiz"
 
 #: dynamic/biases/EchoNestBias.cpp:47
 #, fuzzy
