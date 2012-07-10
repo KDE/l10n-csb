@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-22 05:19+0200\n"
+"POT-Creation-Date: 2012-07-10 08:59+0200\n"
 "PO-Revision-Date: 2009-12-14 21:59+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -47,66 +47,6 @@ msgctxt "General configuration page"
 msgid "General"
 msgstr "Òglowò"
 
-#: core/models.cpp:121
-msgid "Home Folder"
-msgstr "Domôcy katalog"
-
-#: core/models.cpp:124
-msgid "Network Folders"
-msgstr "Sécowé katalodżi"
-
-#: core/recentlyusedmodel.cpp:109
-msgid "Documents"
-msgstr "Dokùmentë"
-
-#: core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:74
-#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:123 ui/launcher.cpp:236
-msgid "Applications"
-msgstr "Aplikacëje"
-
-#: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:197
-#: ui/launcher.cpp:124 ui/launcher.cpp:249
-msgid "Recently Used"
-msgstr "Slédno brëkòwóne"
-
-#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:199
-msgid "Recently Used Documents"
-msgstr "Slédno brëkòwóné dokùmentë"
-
-#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:198
-msgid "Recently Used Applications"
-msgstr "Wszëtczé slédno brëkòwóné aplikacëje"
-
-#: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
-#: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:121 ui/launcher.cpp:191
-msgid "Favorites"
-msgstr "Ùlëbnicë"
-
-#: core/systemmodel.cpp:75
-msgid "Places"
-msgstr "Môle"
-
-#: core/systemmodel.cpp:76
-msgid "Removable Storage"
-msgstr "Zapisowny disk"
-
-#: core/systemmodel.cpp:77
-msgid "Storage"
-msgstr "Zbérnica"
-
-#: core/systemmodel.cpp:207 simpleapplet/simpleapplet.cpp:201
-msgid "Run Command..."
-msgstr "Zrëszë pòlét..."
-
-#: core/systemmodel.cpp:211
-msgid "Run a command or a search query"
-msgstr "Zrëszë pòlét abò szëkôj za zapëtanim"
-
-#: core/systemmodel.cpp:319 simpleapplet/simpleapplet.cpp:196
-#: ui/launcher.cpp:123 ui/launcher.cpp:270
-msgid "Computer"
-msgstr "Kòmpùtr"
-
 #: core/applicationmodel.cpp:334
 msgid "Games"
 msgstr "Grë"
@@ -114,6 +54,11 @@ msgstr "Grë"
 #: core/applicationmodel.cpp:428 ui/launcher.cpp:976
 msgid "All Applications"
 msgstr "Wszëtczé aplikacëje"
+
+#: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
+#: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:121 ui/launcher.cpp:191
+msgid "Favorites"
+msgstr "Ùlëbnicë"
 
 #: core/leavemodel.cpp:50 simpleapplet/simpleapplet.cpp:210
 #, fuzzy
@@ -212,6 +157,61 @@ msgstr "Sesëjô"
 msgid "System"
 msgstr "Systema"
 
+#: core/models.cpp:121
+msgid "Home Folder"
+msgstr "Domôcy katalog"
+
+#: core/models.cpp:124
+msgid "Network Folders"
+msgstr "Sécowé katalodżi"
+
+#: core/recentlyusedmodel.cpp:109
+msgid "Documents"
+msgstr "Dokùmentë"
+
+#: core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:74
+#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:123 ui/launcher.cpp:236
+msgid "Applications"
+msgstr "Aplikacëje"
+
+#: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:197
+#: ui/launcher.cpp:124 ui/launcher.cpp:249
+msgid "Recently Used"
+msgstr "Slédno brëkòwóne"
+
+#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:199
+msgid "Recently Used Documents"
+msgstr "Slédno brëkòwóné dokùmentë"
+
+#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:198
+msgid "Recently Used Applications"
+msgstr "Wszëtczé slédno brëkòwóné aplikacëje"
+
+#: core/systemmodel.cpp:75
+msgid "Places"
+msgstr "Môle"
+
+#: core/systemmodel.cpp:76
+msgid "Removable Storage"
+msgstr "Zapisowny disk"
+
+#: core/systemmodel.cpp:77
+msgid "Storage"
+msgstr "Zbérnica"
+
+#: core/systemmodel.cpp:207 simpleapplet/simpleapplet.cpp:201
+msgid "Run Command..."
+msgstr "Zrëszë pòlét..."
+
+#: core/systemmodel.cpp:211
+msgid "Run a command or a search query"
+msgstr "Zrëszë pòlét abò szëkôj za zapëtanim"
+
+#: core/systemmodel.cpp:319 simpleapplet/simpleapplet.cpp:196
+#: ui/launcher.cpp:123 ui/launcher.cpp:270
+msgid "Computer"
+msgstr "Kòmpùtr"
+
 #: main.cpp:32
 msgid "Kickoff"
 msgstr "Kickoff"
@@ -308,39 +308,6 @@ msgstr "Òptacëje"
 msgid "Actions"
 msgstr "Dzejania"
 
-#: ui/searchbar.cpp:70
-msgctxt "Label of the search bar textedit"
-msgid "Search:"
-msgstr "Szëkba:"
-
-#: ui/launcher.cpp:194
-msgid "Sort Alphabetically (A to Z)"
-msgstr "Zortëjë alfabétno (òd A do Z)"
-
-#: ui/launcher.cpp:197
-msgid "Sort Alphabetically (Z to A)"
-msgstr "Zortëjë alfabétno (òd Z do A)"
-
-#: ui/launcher.cpp:251
-msgid "Clear Recent Applications"
-msgstr "Wëczëszczë slédné aplikacëje"
-
-#: ui/launcher.cpp:252
-msgid "Clear Recent Documents"
-msgstr "Wëczëszczë slédné dokùmentë"
-
-#: ui/launcher.cpp:560
-#, kde-format
-msgctxt "login name, hostname"
-msgid "User <b>%1</b> on <b>%2</b>"
-msgstr "Brëkòwnik <b>%1</b> na <b>%2</b>"
-
-#: ui/launcher.cpp:562
-#, kde-format
-msgctxt "full name, login name, hostname"
-msgid "<b>%1 (%2)</b> on <b>%3</b>"
-msgstr "<b>%1 (%2)</b> na <b>%3</b>"
-
 #: ui/contextmenufactory.cpp:85
 msgid "Advanced"
 msgstr "Awansowóné"
@@ -372,6 +339,39 @@ msgstr "Wësënié"
 #: ui/contextmenufactory.cpp:263
 msgid "Safely Remove"
 msgstr "Rëmôj bezpieczno"
+
+#: ui/launcher.cpp:194
+msgid "Sort Alphabetically (A to Z)"
+msgstr "Zortëjë alfabétno (òd A do Z)"
+
+#: ui/launcher.cpp:197
+msgid "Sort Alphabetically (Z to A)"
+msgstr "Zortëjë alfabétno (òd Z do A)"
+
+#: ui/launcher.cpp:251
+msgid "Clear Recent Applications"
+msgstr "Wëczëszczë slédné aplikacëje"
+
+#: ui/launcher.cpp:252
+msgid "Clear Recent Documents"
+msgstr "Wëczëszczë slédné dokùmentë"
+
+#: ui/launcher.cpp:560
+#, kde-format
+msgctxt "login name, hostname"
+msgid "User <b>%1</b> on <b>%2</b>"
+msgstr "Brëkòwnik <b>%1</b> na <b>%2</b>"
+
+#: ui/launcher.cpp:562
+#, kde-format
+msgctxt "full name, login name, hostname"
+msgid "<b>%1 (%2)</b> on <b>%3</b>"
+msgstr "<b>%1 (%2)</b> na <b>%3</b>"
+
+#: ui/searchbar.cpp:70
+msgctxt "Label of the search bar textedit"
+msgid "Search:"
+msgstr "Szëkba:"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin_clients\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-08 08:21+0200\n"
+"POT-Creation-Date: 2012-07-10 08:58+0200\n"
 "PO-Revision-Date: 2009-12-15 21:57+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -18,6 +18,59 @@ msgstr ""
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
+
+#: b2/b2client.cpp:403 oxygen/oxygenclient.cpp:213
+msgid "Menu"
+msgstr "Menu"
+
+#: b2/b2client.cpp:405 b2/b2client.cpp:890
+msgid "Not on all desktops"
+msgstr "Nié na wszëtczich pùltach"
+
+#: b2/b2client.cpp:405 b2/b2client.cpp:890
+msgid "On all desktops"
+msgstr "Na wszëtczich pùltach"
+
+#: b2/b2client.cpp:406 oxygen/oxygenclient.cpp:219
+msgid "Minimize"
+msgstr "Minimalizëjë"
+
+#: b2/b2client.cpp:406 b2/b2client.cpp:901 oxygen/oxygenclient.cpp:222
+msgid "Maximize"
+msgstr "Maksymalizëjë"
+
+#: b2/b2client.cpp:407 oxygen/oxygenclient.cpp:225
+msgid "Close"
+msgstr "Zamkni"
+
+#: b2/b2client.cpp:407 oxygen/oxygenclient.cpp:216
+msgid "Help"
+msgstr "Pòmòc"
+
+#: b2/b2client.cpp:408 b2/b2client.cpp:933
+msgid "Unshade"
+msgstr "Rozwinie"
+
+#: b2/b2client.cpp:408 b2/b2client.cpp:933
+msgid "Shade"
+msgstr "Zwinie"
+
+#: b2/b2client.cpp:409
+msgid "Resize"
+msgstr "Zmieni miarã"
+
+#: b2/b2client.cpp:453
+msgid "<b><center>B II preview</center></b>"
+msgstr "<b><center>Pòzdérk B II</center></b>"
+
+#: b2/b2client.cpp:901
+msgid "Restore"
+msgstr "Przewrócë"
+
+#: b2/b2client.cpp:1143
+msgctxt "Help button label, one character"
+msgid "?"
+msgstr "?"
 
 #: b2/config/config.cpp:59
 msgid "Draw window frames using &titlebar colors"
@@ -87,59 +140,6 @@ msgid ""
 msgstr ""
 "Dzejanié przepisóné do dëbeltnégò klëkniãcô na knąpie menu. Jeżlë trëchlësz, "
 "nie zmieniwôj negò nastôwù."
-
-#: b2/b2client.cpp:403 oxygen/oxygenclient.cpp:213
-msgid "Menu"
-msgstr "Menu"
-
-#: b2/b2client.cpp:405 b2/b2client.cpp:890
-msgid "Not on all desktops"
-msgstr "Nié na wszëtczich pùltach"
-
-#: b2/b2client.cpp:405 b2/b2client.cpp:890
-msgid "On all desktops"
-msgstr "Na wszëtczich pùltach"
-
-#: b2/b2client.cpp:406 oxygen/oxygenclient.cpp:219
-msgid "Minimize"
-msgstr "Minimalizëjë"
-
-#: b2/b2client.cpp:406 b2/b2client.cpp:901 oxygen/oxygenclient.cpp:222
-msgid "Maximize"
-msgstr "Maksymalizëjë"
-
-#: b2/b2client.cpp:407 oxygen/oxygenclient.cpp:225
-msgid "Close"
-msgstr "Zamkni"
-
-#: b2/b2client.cpp:407 oxygen/oxygenclient.cpp:216
-msgid "Help"
-msgstr "Pòmòc"
-
-#: b2/b2client.cpp:408 b2/b2client.cpp:933
-msgid "Unshade"
-msgstr "Rozwinie"
-
-#: b2/b2client.cpp:408 b2/b2client.cpp:933
-msgid "Shade"
-msgstr "Zwinie"
-
-#: b2/b2client.cpp:409
-msgid "Resize"
-msgstr "Zmieni miarã"
-
-#: b2/b2client.cpp:453
-msgid "<b><center>B II preview</center></b>"
-msgstr "<b><center>Pòzdérk B II</center></b>"
-
-#: b2/b2client.cpp:901
-msgid "Restore"
-msgstr "Przewrócë"
-
-#: b2/b2client.cpp:1143
-msgctxt "Help button label, one character"
-msgid "?"
-msgstr "?"
 
 #: laptop/laptopclient.cpp:370
 msgid "Laptop"
@@ -214,6 +214,14 @@ msgctxt "outline window title"
 msgid "Disabled"
 msgstr "Wëłączoné"
 
+#: oxygen/config/oxygenexceptionlistwidget.cpp:201
+msgid "Remove selected exception?"
+msgstr "Rëmnąc wëbróné wëjimczi?"
+
+#: oxygen/config/oxygenexceptionlistwidget.cpp:335
+msgid "Regular Expression syntax is incorrect"
+msgstr "Lëchô syntaksa regùlarnegò wësłowia"
+
 #: oxygen/config/oxygenexceptionmodel.cpp:35
 msgid "Exception Type"
 msgstr "Ôrt wëjimka"
@@ -225,14 +233,6 @@ msgstr "Regùlarny wësłów"
 #: oxygen/config/oxygenexceptionmodel.cpp:67
 msgid "Enable/disable this exception"
 msgstr "Włączë/wëłączë nen wëjimk"
-
-#: oxygen/config/oxygenexceptionlistwidget.cpp:201
-msgid "Remove selected exception?"
-msgstr "Rëmnąc wëbróné wëjimczi?"
-
-#: oxygen/config/oxygenexceptionlistwidget.cpp:335
-msgid "Regular Expression syntax is incorrect"
-msgstr "Lëchô syntaksa regùlarnegò wësłowia"
 
 #: oxygen/demo/main.cpp:42 oxygen/demo/oxygenshadowdemodialog.cpp:47
 #, fuzzy
@@ -267,14 +267,6 @@ msgstr ""
 #| msgid "Enable window grouping"
 msgid "Draw window background"
 msgstr "Właczë grëpòwanié òknów"
-
-#: oxygen/oxygenexception.cpp:79
-msgid "Window Title"
-msgstr "Titel òkna"
-
-#: oxygen/oxygenexception.cpp:80
-msgid "Window Class Name"
-msgstr "Miono klasë òkna"
 
 #: oxygen/oxygenclient.cpp:82
 msgid "Oxygen"
@@ -436,6 +428,14 @@ msgstr "Tacë wiedno ekstra ùchwëtë miarë"
 msgid "Show Extra Size Grip When Needed"
 msgstr "Wëskrzëni, jeżlë nót, ekstra ùchwëtë miarë"
 
+#: oxygen/oxygenexception.cpp:79
+msgid "Window Title"
+msgstr "Titel òkna"
+
+#: oxygen/oxygenexception.cpp:80
+msgid "Window Class Name"
+msgstr "Miono klasë òkna"
+
 #: plastik/plastikclient.cpp:65
 msgid "Plastik"
 msgstr "Plastik"
@@ -450,45 +450,9 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mark@linuxcsb.org"
 
-#. i18n: file: oxygen/config/ui/oxygendetectwidget.ui:17
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:5
-msgid "Information about Selected Window"
-msgstr "Wëdowiédzô ò wëbrónym òknie"
-
-#. i18n: file: oxygen/config/ui/oxygendetectwidget.ui:23
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:8
-msgid "Class: "
-msgstr "Klasa: "
-
-#. i18n: file: oxygen/config/ui/oxygendetectwidget.ui:40
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:11
-msgid "Title: "
-msgstr "Titel: "
-
-#. i18n: file: oxygen/config/ui/oxygendetectwidget.ui:60
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:14
-msgid "Window Property Selection"
-msgstr "Wëbiérk swòjiznë òkna"
-
-#. i18n: file: oxygen/config/ui/oxygendetectwidget.ui:66
-#. i18n: ectx: property (text), widget (QRadioButton, windowClassCheckBox)
-#: rc.cpp:17
-msgid "Use window class (whole application)"
-msgstr "Brëkùjë klasë òkna (całownô aplikacëjô)"
-
-#. i18n: file: oxygen/config/ui/oxygendetectwidget.ui:76
-#. i18n: ectx: property (text), widget (QRadioButton, windowTitleCheckBox)
-#: rc.cpp:20
-msgid "Use window title"
-msgstr "Brëkùjë titla òkna"
-
 #. i18n: file: oxygen/config/ui/oxygenconfigurationui.ui:33
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:23
+#: rc.cpp:5
 msgid "General"
 msgstr "Òglowò"
 
@@ -496,55 +460,55 @@ msgstr "Òglowò"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: file: oxygen/config/ui/oxygenexceptiondialog.ui:75
 #. i18n: ectx: property (text), widget (QCheckBox, frameBorderCheckBox)
-#: rc.cpp:26 rc.cpp:92
+#: rc.cpp:8 rc.cpp:92
 msgid "Border size:"
 msgstr "Miara ramë:"
 
 #. i18n: file: oxygen/config/ui/oxygenconfigurationui.ui:55
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:29
+#: rc.cpp:11
 msgid "Title alignment:"
 msgstr "Czérënk titla"
 
 #. i18n: file: oxygen/config/ui/oxygenconfigurationui.ui:84
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:32
+#: rc.cpp:14
 msgid "Button size:"
 msgstr "Miara knąpë:"
 
 #. i18n: file: oxygen/config/ui/oxygenconfigurationui.ui:100
 #. i18n: ectx: property (text), widget (QCheckBox, animationsEnabled)
-#: rc.cpp:35
+#: rc.cpp:17
 msgid "Enable animations"
 msgstr ""
 
 #. i18n: file: oxygen/config/ui/oxygenconfigurationui.ui:121
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: rc.cpp:38
+#: rc.cpp:20
 msgid "Fine Tuning"
 msgstr "Akùratné dopasowanié"
 
 #. i18n: file: oxygen/config/ui/oxygenconfigurationui.ui:130
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:41
+#: rc.cpp:23
 msgid "Background style: "
 msgstr "Sztél spódka: "
 
 #. i18n: file: oxygen/config/ui/oxygenconfigurationui.ui:159
 #. i18n: ectx: property (text), widget (QCheckBox, titleOutline)
-#: rc.cpp:44
+#: rc.cpp:26
 msgid "Outline active window title"
 msgstr "Òbramùjë aktiwny titel òkna"
 
 #. i18n: file: oxygen/config/ui/oxygenconfigurationui.ui:166
 #. i18n: ectx: property (text), widget (QCheckBox, narrowButtonSpacing)
-#: rc.cpp:47
+#: rc.cpp:29
 msgid "Use narrow space between decoration buttons"
 msgstr ""
 
 #. i18n: file: oxygen/config/ui/oxygenconfigurationui.ui:189
 #. i18n: ectx: property (text), widget (QLabel, sizeGripModeLabel)
-#: rc.cpp:50
+#: rc.cpp:32
 msgid "Extra size grip display: "
 msgstr "Dodôwny ùchwët miarë: "
 
@@ -552,7 +516,7 @@ msgstr "Dodôwny ùchwët miarë: "
 #. i18n: ectx: property (text), item, widget (KComboBox, separatorMode)
 #. i18n: file: oxygen/config/ui/oxygenexceptiondialog.ui:140
 #. i18n: ectx: property (text), item, widget (KComboBox, separatorComboBox)
-#: rc.cpp:53 rc.cpp:110
+#: rc.cpp:35 rc.cpp:110
 msgid "Never Draw Separator"
 msgstr ""
 
@@ -560,7 +524,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, separatorMode)
 #. i18n: file: oxygen/config/ui/oxygenexceptiondialog.ui:145
 #. i18n: ectx: property (text), item, widget (KComboBox, separatorComboBox)
-#: rc.cpp:56 rc.cpp:113
+#: rc.cpp:38 rc.cpp:113
 msgid "Draw Separator When Window is Active"
 msgstr ""
 
@@ -568,7 +532,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, separatorMode)
 #. i18n: file: oxygen/config/ui/oxygenexceptiondialog.ui:150
 #. i18n: ectx: property (text), item, widget (KComboBox, separatorComboBox)
-#: rc.cpp:59 rc.cpp:116
+#: rc.cpp:41 rc.cpp:116
 msgid "Always Draw Separator"
 msgstr ""
 
@@ -576,33 +540,69 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: file: oxygen/config/ui/oxygenexceptiondialog.ui:96
 #. i18n: ectx: property (text), widget (QCheckBox, separatorCheckBox)
-#: rc.cpp:62 rc.cpp:101
+#: rc.cpp:44 rc.cpp:101
 msgid "Separator display:"
 msgstr ""
 
 #. i18n: file: oxygen/config/ui/oxygenconfigurationui.ui:235
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: rc.cpp:65
+#: rc.cpp:47
 msgid "Shadows"
 msgstr "Cénie"
 
 #. i18n: file: oxygen/config/ui/oxygenconfigurationui.ui:243
 #. i18n: ectx: property (title), widget (Oxygen::ShadowConfigurationUi, inactiveShadowConfiguration)
-#: rc.cpp:68
+#: rc.cpp:50
 msgid "Window Drop-Down Shadow"
 msgstr "Céniowanié òknów"
 
 #. i18n: file: oxygen/config/ui/oxygenconfigurationui.ui:253
 #. i18n: ectx: property (title), widget (Oxygen::ShadowConfigurationUi, activeShadowConfiguration)
-#: rc.cpp:71
+#: rc.cpp:53
 msgid "Active Window Glow"
 msgstr "Swiecënié dlô aktiwnëch òknów"
 
 #. i18n: file: oxygen/config/ui/oxygenconfigurationui.ui:279
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: rc.cpp:74
+#: rc.cpp:56
 msgid "Window-Specific Overrides"
 msgstr "Specyficzné nastôłë òkna"
+
+#. i18n: file: oxygen/config/ui/oxygendetectwidget.ui:17
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:59
+msgid "Information about Selected Window"
+msgstr "Wëdowiédzô ò wëbrónym òknie"
+
+#. i18n: file: oxygen/config/ui/oxygendetectwidget.ui:23
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:62
+msgid "Class: "
+msgstr "Klasa: "
+
+#. i18n: file: oxygen/config/ui/oxygendetectwidget.ui:40
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:65
+msgid "Title: "
+msgstr "Titel: "
+
+#. i18n: file: oxygen/config/ui/oxygendetectwidget.ui:60
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:68
+msgid "Window Property Selection"
+msgstr "Wëbiérk swòjiznë òkna"
+
+#. i18n: file: oxygen/config/ui/oxygendetectwidget.ui:66
+#. i18n: ectx: property (text), widget (QRadioButton, windowClassCheckBox)
+#: rc.cpp:71
+msgid "Use window class (whole application)"
+msgstr "Brëkùjë klasë òkna (całownô aplikacëjô)"
+
+#. i18n: file: oxygen/config/ui/oxygendetectwidget.ui:76
+#. i18n: ectx: property (text), widget (QRadioButton, windowTitleCheckBox)
+#: rc.cpp:74
+msgid "Use window title"
+msgstr "Brëkùjë titla òkna"
 
 #. i18n: file: oxygen/config/ui/oxygenexceptiondialog.ui:17
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
