@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-25 04:52+0200\n"
+"POT-Creation-Date: 2012-07-12 04:27+0200\n"
 "PO-Revision-Date: 2009-12-09 23:08+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -557,79 +557,36 @@ msgstr ""
 msgid "&Only show when using this application (%1)"
 msgstr ""
 
-#: panels/places/placespanel.cpp:157 dolphincontextmenu.cpp:174
-msgctxt "@action:inmenu"
-msgid "Empty Trash"
-msgstr "Wëczëszczë kòsz"
-
-#: panels/places/placespanel.cpp:161 panels/places/placespanel.cpp:167
-#: panels/places/placespanel.cpp:228
+#: panels/places/placesitem.cpp:150
 #, fuzzy
-#| msgctxt "@label"
-#| msgid "Add Comment..."
-msgctxt "@item:inmenu"
-msgid "Add Entry..."
-msgstr "Dodôj dopòwiesc..."
+#| msgctxt "@title:window"
+#| msgid "Places"
+msgctxt "@item"
+msgid "Places"
+msgstr "Place"
 
-#: panels/places/placespanel.cpp:163
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "Add Comment..."
-msgctxt "@item:inmenu"
-msgid "Edit '%1'..."
-msgstr "Dodôj dopòwiesc..."
+#: panels/places/placesitem.cpp:151
+#, fuzzy
+#| msgid "Recently Closed Tabs"
+msgctxt "@item"
+msgid "Recently Accessed"
+msgstr "Prawie zamkłé kôrtë"
 
-#: panels/places/placespanel.cpp:170
-#, fuzzy, kde-format
+#: panels/places/placesitem.cpp:152
+#, fuzzy
 #| msgctxt "@action:inmenu"
-#| msgid "Open in New Tab"
-msgctxt "@item:inmenu"
-msgid "Open '%1' in New Tab"
-msgstr "Òtemkni w nowi kôrce"
+#| msgid "Search Bar"
+msgctxt "@item"
+msgid "Search For"
+msgstr "Listew szëkbë"
 
-#: panels/places/placespanel.cpp:175
-#, fuzzy, kde-format
-#| msgctxt "@item::intable"
-#| msgid "Removed"
-msgctxt "@item:inmenu"
-msgid "Remove '%1'"
-msgstr "Rëmniãté"
-
-#: panels/places/placespanel.cpp:178
-#, kde-format
-msgctxt "@item:inmenu"
-msgid "Hide '%1'"
-msgstr ""
-
-#: panels/places/placespanel.cpp:187 panels/places/placespanel.cpp:232
+#: panels/places/placesitem.cpp:153
 #, fuzzy
-#| msgid "Show tooltips"
-msgctxt "@item:inmenu"
-msgid "Show All Entries"
-msgstr "Pòkażë pòdpòwiescë"
-
-#: panels/places/placespanel.cpp:298
-msgctxt "@info"
-msgid "Do you really want to empty the Trash? All items will be deleted."
-msgstr "Na gwës chcesz wëczëszczëc kòsz? Wszëtczé elementë òstaną rëmniãté."
-
-#: panels/places/placespanel.cpp:302
-msgctxt "@action:button"
-msgid "Empty Trash"
-msgstr "Wëczëszczë kòsz"
-
-#: panels/places/placespanel.cpp:322
-#, fuzzy
-#| msgctxt "@action:inmenu Add current folder to places"
-#| msgid "Add to Places"
-msgctxt "@title:window"
-msgid "Add Places Entry"
-msgstr "Dodôj do placów"
-
-#: panels/places/placespanel.cpp:338
-msgctxt "@title:window"
-msgid "Edit Places Entry"
-msgstr ""
+#| msgctxt "@title:group"
+#| msgid "Services"
+msgctxt "@item"
+msgid "Devices"
+msgstr "Ùsłëżnotë"
 
 #: panels/places/placesitemmodel.cpp:264
 #, fuzzy, kde-format
@@ -669,14 +626,14 @@ msgctxt "@info"
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:892
+#: panels/places/placesitemmodel.cpp:897
 #, fuzzy
 #| msgid "Home URL"
 msgctxt "KFile System Bookmarks"
 msgid "Home"
 msgstr "Domôcô adresa URL"
 
-#: panels/places/placesitemmodel.cpp:895
+#: panels/places/placesitemmodel.cpp:900
 #, fuzzy
 #| msgctxt "@action:inmenu Go"
 #| msgid "&Network Folders"
@@ -684,12 +641,12 @@ msgctxt "KFile System Bookmarks"
 msgid "Network"
 msgstr "&Sécowé katalodżi"
 
-#: panels/places/placesitemmodel.cpp:898
+#: panels/places/placesitemmodel.cpp:903
 msgctxt "KFile System Bookmarks"
 msgid "Root"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:901
+#: panels/places/placesitemmodel.cpp:906
 #, fuzzy
 #| msgctxt "@title:group"
 #| msgid "Trash"
@@ -697,7 +654,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Trash"
 msgstr "Kòsz"
 
-#: panels/places/placesitemmodel.cpp:906
+#: panels/places/placesitemmodel.cpp:911
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Today"
@@ -705,7 +662,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Today"
 msgstr "Dzysô"
 
-#: panels/places/placesitemmodel.cpp:909
+#: panels/places/placesitemmodel.cpp:914
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Yesterday"
@@ -713,7 +670,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Yesterday"
 msgstr "Wczora"
 
-#: panels/places/placesitemmodel.cpp:912
+#: panels/places/placesitemmodel.cpp:917
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "This Month"
@@ -721,7 +678,7 @@ msgctxt "KFile System Bookmarks"
 msgid "This Month"
 msgstr "Nen miesãc"
 
-#: panels/places/placesitemmodel.cpp:915
+#: panels/places/placesitemmodel.cpp:920
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "This Month"
@@ -729,7 +686,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Last Month"
 msgstr "Nen miesãc"
 
-#: panels/places/placesitemmodel.cpp:918
+#: panels/places/placesitemmodel.cpp:923
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -737,7 +694,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Documents"
 msgstr "Dokùmentacëjô"
 
-#: panels/places/placesitemmodel.cpp:921
+#: panels/places/placesitemmodel.cpp:926
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Images"
@@ -745,46 +702,89 @@ msgctxt "KFile System Bookmarks"
 msgid "Images"
 msgstr "Òbrôzczi"
 
-#: panels/places/placesitemmodel.cpp:924
+#: panels/places/placesitemmodel.cpp:929
 msgctxt "KFile System Bookmarks"
 msgid "Audio Files"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:927
+#: panels/places/placesitemmodel.cpp:932
 msgctxt "KFile System Bookmarks"
 msgid "Videos"
 msgstr ""
 
-#: panels/places/placesitem.cpp:150
-#, fuzzy
-#| msgctxt "@title:window"
-#| msgid "Places"
-msgctxt "@item"
-msgid "Places"
-msgstr "Place"
+#: panels/places/placespanel.cpp:158 dolphincontextmenu.cpp:174
+msgctxt "@action:inmenu"
+msgid "Empty Trash"
+msgstr "Wëczëszczë kòsz"
 
-#: panels/places/placesitem.cpp:151
+#: panels/places/placespanel.cpp:162 panels/places/placespanel.cpp:168
+#: panels/places/placespanel.cpp:229
 #, fuzzy
-#| msgid "Recently Closed Tabs"
-msgctxt "@item"
-msgid "Recently Accessed"
-msgstr "Prawie zamkłé kôrtë"
+#| msgctxt "@label"
+#| msgid "Add Comment..."
+msgctxt "@item:inmenu"
+msgid "Add Entry..."
+msgstr "Dodôj dopòwiesc..."
 
-#: panels/places/placesitem.cpp:152
-#, fuzzy
+#: panels/places/placespanel.cpp:164
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Add Comment..."
+msgctxt "@item:inmenu"
+msgid "Edit '%1'..."
+msgstr "Dodôj dopòwiesc..."
+
+#: panels/places/placespanel.cpp:171
+#, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
-#| msgid "Search Bar"
-msgctxt "@item"
-msgid "Search For"
-msgstr "Listew szëkbë"
+#| msgid "Open in New Tab"
+msgctxt "@item:inmenu"
+msgid "Open '%1' in New Tab"
+msgstr "Òtemkni w nowi kôrce"
 
-#: panels/places/placesitem.cpp:153
+#: panels/places/placespanel.cpp:176
+#, fuzzy, kde-format
+#| msgctxt "@item::intable"
+#| msgid "Removed"
+msgctxt "@item:inmenu"
+msgid "Remove '%1'"
+msgstr "Rëmniãté"
+
+#: panels/places/placespanel.cpp:179
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Hide '%1'"
+msgstr ""
+
+#: panels/places/placespanel.cpp:188 panels/places/placespanel.cpp:233
 #, fuzzy
-#| msgctxt "@title:group"
-#| msgid "Services"
-msgctxt "@item"
-msgid "Devices"
-msgstr "Ùsłëżnotë"
+#| msgid "Show tooltips"
+msgctxt "@item:inmenu"
+msgid "Show All Entries"
+msgstr "Pòkażë pòdpòwiescë"
+
+#: panels/places/placespanel.cpp:315
+msgctxt "@info"
+msgid "Do you really want to empty the Trash? All items will be deleted."
+msgstr "Na gwës chcesz wëczëszczëc kòsz? Wszëtczé elementë òstaną rëmniãté."
+
+#: panels/places/placespanel.cpp:319
+msgctxt "@action:button"
+msgid "Empty Trash"
+msgstr "Wëczëszczë kòsz"
+
+#: panels/places/placespanel.cpp:339
+#, fuzzy
+#| msgctxt "@action:inmenu Add current folder to places"
+#| msgid "Add to Places"
+msgctxt "@title:window"
+msgid "Add Places Entry"
+msgstr "Dodôj do placów"
+
+#: panels/places/placespanel.cpp:355
+msgctxt "@title:window"
+msgid "Edit Places Entry"
+msgstr ""
 
 #: search/dolphinsearchbox.cpp:110
 #, fuzzy, kde-format
@@ -1920,63 +1920,6 @@ msgctxt "@info"
 msgid "Details view mode"
 msgstr "Detale tribù wëzdrzatkù"
 
-#: dolphincontextmenu.cpp:196
-msgctxt "@action:inmenu"
-msgid "Restore"
-msgstr "Przëwrócë"
-
-#: dolphincontextmenu.cpp:235 dolphinmainwindow.cpp:1485
-msgctxt "@title:menu Create new folder, file, link, etc."
-msgid "Create New"
-msgstr "Ùsôdzë nowi"
-
-#: dolphincontextmenu.cpp:248
-msgctxt "@action:inmenu Add selected folder to places"
-msgid "Add to Places"
-msgstr "Dodôj do placów"
-
-#: dolphincontextmenu.cpp:255
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Window"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Window"
-msgstr "Òtemkni w nowim òknie"
-
-#: dolphincontextmenu.cpp:261
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Tab"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Tab"
-msgstr "Òtemkni w nowi kôrce"
-
-#: dolphincontextmenu.cpp:330
-msgctxt "@action:inmenu Add current folder to places"
-msgid "Add to Places"
-msgstr "Dodôj do placów"
-
-#: dolphincontextmenu.cpp:423
-msgctxt "@action:inmenu"
-msgid "Paste Into Folder"
-msgstr "Wlepi do kataloga"
-
-#: dolphincontextmenu.cpp:534
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Move to Trash"
-msgctxt "@action:inmenu"
-msgid "&Move to Trash"
-msgstr "Przeniesë do kòsza"
-
-#: dolphincontextmenu.cpp:537
-#, fuzzy
-#| msgctxt "@action:inmenu File"
-#| msgid "Delete"
-msgctxt "@action:inmenu"
-msgid "&Delete"
-msgstr "Rëmôj"
-
 #: dolphinmainwindow.cpp:318
 msgctxt "@info:status"
 msgid "Successfully copied."
@@ -2084,6 +2027,11 @@ msgstr "Nôrzãdza"
 msgctxt "@action:inmenu"
 msgid "Help"
 msgstr ""
+
+#: dolphinmainwindow.cpp:1485 dolphincontextmenu.cpp:235
+msgctxt "@title:menu Create new folder, file, link, etc."
+msgid "Create New"
+msgstr "Ùsôdzë nowi"
 
 #: dolphinmainwindow.cpp:1492
 msgctxt "@action:inmenu File"
@@ -2301,6 +2249,238 @@ msgstr "Protokół nie wspiéróny przez Dolphina, Konqueror òstôł zrëszony"
 msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr "Lëchi protokół"
+
+#: dolphincontextmenu.cpp:196
+msgctxt "@action:inmenu"
+msgid "Restore"
+msgstr "Przëwrócë"
+
+#: dolphincontextmenu.cpp:248
+msgctxt "@action:inmenu Add selected folder to places"
+msgid "Add to Places"
+msgstr "Dodôj do placów"
+
+#: dolphincontextmenu.cpp:255
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Window"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Window"
+msgstr "Òtemkni w nowim òknie"
+
+#: dolphincontextmenu.cpp:261
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Tab"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Tab"
+msgstr "Òtemkni w nowi kôrce"
+
+#: dolphincontextmenu.cpp:330
+msgctxt "@action:inmenu Add current folder to places"
+msgid "Add to Places"
+msgstr "Dodôj do placów"
+
+#: dolphincontextmenu.cpp:423
+msgctxt "@action:inmenu"
+msgid "Paste Into Folder"
+msgstr "Wlepi do kataloga"
+
+#: dolphincontextmenu.cpp:534
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Move to Trash"
+msgctxt "@action:inmenu"
+msgid "&Move to Trash"
+msgstr "Przeniesë do kòsza"
+
+#: dolphincontextmenu.cpp:537
+#, fuzzy
+#| msgctxt "@action:inmenu File"
+#| msgid "Delete"
+msgctxt "@action:inmenu"
+msgid "&Delete"
+msgstr "Rëmôj"
+
+#: dolphinpart.cpp:145
+msgctxt "@action:inmenu Edit"
+msgid "&Edit File Type..."
+msgstr "&Editëjë ôrt lopków..."
+
+#: dolphinpart.cpp:149
+msgctxt "@action:inmenu Edit"
+msgid "Select Items Matching..."
+msgstr "Wëbiérzë pasowné elementë..."
+
+#: dolphinpart.cpp:154
+msgctxt "@action:inmenu Edit"
+msgid "Unselect Items Matching..."
+msgstr "Copnani wëbiérk elementów..."
+
+#: dolphinpart.cpp:160
+msgctxt "@action:inmenu Edit"
+msgid "Unselect All"
+msgstr "Copni całowny wëbiérk"
+
+#: dolphinpart.cpp:177
+msgctxt "@action:inmenu Go"
+msgid "App&lications"
+msgstr "&Aplikacëje"
+
+#: dolphinpart.cpp:180
+msgctxt "@action:inmenu Go"
+msgid "&Network Folders"
+msgstr "&Sécowé katalodżi"
+
+#: dolphinpart.cpp:183
+msgctxt "@action:inmenu Go"
+msgid "Sett&ings"
+msgstr "Nastôwë"
+
+#: dolphinpart.cpp:186
+msgctxt "@action:inmenu Go"
+msgid "Trash"
+msgstr "Kòsz"
+
+#: dolphinpart.cpp:189
+msgctxt "@action:inmenu Go"
+msgid "Autostart"
+msgstr "Aùtostart"
+
+#: dolphinpart.cpp:194
+msgctxt "@action:inmenu Tools"
+msgid "Find File..."
+msgstr "Nalezë lopk..."
+
+#: dolphinpart.cpp:202
+msgctxt "@action:inmenu Tools"
+msgid "Open &Terminal"
+msgstr "Òtemkni &Terminal"
+
+#: dolphinpart.cpp:271
+msgctxt "@title"
+msgid "Dolphin Part"
+msgstr "Part Dolphina"
+
+#: dolphinpart.cpp:455
+msgctxt "@title:window"
+msgid "Select"
+msgstr "Wëbierzë"
+
+#: dolphinpart.cpp:456
+msgid "Select all items matching this pattern:"
+msgstr "Wëbierzë elementë pasëjącé do mùstra:"
+
+#: dolphinpart.cpp:462
+msgctxt "@title:window"
+msgid "Unselect"
+msgstr "Copni wëbiérk"
+
+#: dolphinpart.cpp:463
+msgid "Unselect all items matching this pattern:"
+msgstr "Copni wëbiérk elementów pasëjących do mùstra:"
+
+#: main.cpp:35
+msgctxt "@title"
+msgid "Dolphin"
+msgstr "Dolphin"
+
+#: main.cpp:37
+msgctxt "@title"
+msgid "File Manager"
+msgstr "Menadżer lopków"
+
+#: main.cpp:39
+#, fuzzy
+#| msgctxt "@info:credit"
+#| msgid "(C) 2006-2009 Peter Penz"
+msgctxt "@info:credit"
+msgid "(C) 2006-2012 Peter Penz"
+msgstr "(C) 2006-2009 Peter Penz"
+
+#: main.cpp:41
+msgctxt "@info:credit"
+msgid "Peter Penz"
+msgstr "Peter Penz"
+
+#: main.cpp:42
+#, fuzzy
+#| msgctxt "@info:credit"
+#| msgid "Maintainer and developer"
+msgctxt "@info:credit"
+msgid "Maintainer and developer"
+msgstr "Òpiekùn ë programista"
+
+#: main.cpp:44
+msgctxt "@info:credit"
+msgid "Frank Reininghaus"
+msgstr ""
+
+#: main.cpp:45 main.cpp:48 main.cpp:51 main.cpp:54 main.cpp:57 main.cpp:60
+#: main.cpp:63 main.cpp:66
+msgctxt "@info:credit"
+msgid "Developer"
+msgstr "Programista"
+
+#: main.cpp:47
+msgctxt "@info:credit"
+msgid "Sebastian Trüg"
+msgstr ""
+
+#: main.cpp:50
+msgctxt "@info:credit"
+msgid "David Faure"
+msgstr "David Faure"
+
+#: main.cpp:53
+msgctxt "@info:credit"
+msgid "Aaron J. Seigo"
+msgstr "Aaron J. Seigo"
+
+#: main.cpp:56
+msgctxt "@info:credit"
+msgid "Rafael Fernández López"
+msgstr "Rafael Fernández López"
+
+#: main.cpp:59
+msgctxt "@info:credit"
+msgid "Kevin Ottens"
+msgstr "Kevin Ottens"
+
+#: main.cpp:62
+msgctxt "@info:credit"
+msgid "Holger Freyther"
+msgstr "Holger Freythe"
+
+#: main.cpp:65
+msgctxt "@info:credit"
+msgid "Max Blazejak"
+msgstr "Max Blazeja"
+
+#: main.cpp:68
+msgctxt "@info:credit"
+msgid "Michael Austin"
+msgstr "Michael Austi"
+
+#: main.cpp:69
+msgctxt "@info:credit"
+msgid "Documentation"
+msgstr "Dokùmentacëjô"
+
+#: main.cpp:79
+msgctxt "@info:shell"
+msgid "The files and directories passed as arguments will be selected."
+msgstr ""
+
+#: main.cpp:81
+msgctxt "@info:shell"
+msgid "Dolphin will get started with a split view."
+msgstr ""
+
+#: main.cpp:82
+msgctxt "@info:shell"
+msgid "Document to open"
+msgstr "Dokùment do òtemkniãcô"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -2823,186 +3003,6 @@ msgstr "Nôrzãdza"
 msgctxt "@title:menu"
 msgid "Dolphin Toolbar"
 msgstr "Listew nôrzãdzów Dolphina"
-
-#: dolphinpart.cpp:145
-msgctxt "@action:inmenu Edit"
-msgid "&Edit File Type..."
-msgstr "&Editëjë ôrt lopków..."
-
-#: dolphinpart.cpp:149
-msgctxt "@action:inmenu Edit"
-msgid "Select Items Matching..."
-msgstr "Wëbiérzë pasowné elementë..."
-
-#: dolphinpart.cpp:154
-msgctxt "@action:inmenu Edit"
-msgid "Unselect Items Matching..."
-msgstr "Copnani wëbiérk elementów..."
-
-#: dolphinpart.cpp:160
-msgctxt "@action:inmenu Edit"
-msgid "Unselect All"
-msgstr "Copni całowny wëbiérk"
-
-#: dolphinpart.cpp:177
-msgctxt "@action:inmenu Go"
-msgid "App&lications"
-msgstr "&Aplikacëje"
-
-#: dolphinpart.cpp:180
-msgctxt "@action:inmenu Go"
-msgid "&Network Folders"
-msgstr "&Sécowé katalodżi"
-
-#: dolphinpart.cpp:183
-msgctxt "@action:inmenu Go"
-msgid "Sett&ings"
-msgstr "Nastôwë"
-
-#: dolphinpart.cpp:186
-msgctxt "@action:inmenu Go"
-msgid "Trash"
-msgstr "Kòsz"
-
-#: dolphinpart.cpp:189
-msgctxt "@action:inmenu Go"
-msgid "Autostart"
-msgstr "Aùtostart"
-
-#: dolphinpart.cpp:194
-msgctxt "@action:inmenu Tools"
-msgid "Find File..."
-msgstr "Nalezë lopk..."
-
-#: dolphinpart.cpp:202
-msgctxt "@action:inmenu Tools"
-msgid "Open &Terminal"
-msgstr "Òtemkni &Terminal"
-
-#: dolphinpart.cpp:271
-msgctxt "@title"
-msgid "Dolphin Part"
-msgstr "Part Dolphina"
-
-#: dolphinpart.cpp:455
-msgctxt "@title:window"
-msgid "Select"
-msgstr "Wëbierzë"
-
-#: dolphinpart.cpp:456
-msgid "Select all items matching this pattern:"
-msgstr "Wëbierzë elementë pasëjącé do mùstra:"
-
-#: dolphinpart.cpp:462
-msgctxt "@title:window"
-msgid "Unselect"
-msgstr "Copni wëbiérk"
-
-#: dolphinpart.cpp:463
-msgid "Unselect all items matching this pattern:"
-msgstr "Copni wëbiérk elementów pasëjących do mùstra:"
-
-#: main.cpp:35
-msgctxt "@title"
-msgid "Dolphin"
-msgstr "Dolphin"
-
-#: main.cpp:37
-msgctxt "@title"
-msgid "File Manager"
-msgstr "Menadżer lopków"
-
-#: main.cpp:39
-#, fuzzy
-#| msgctxt "@info:credit"
-#| msgid "(C) 2006-2009 Peter Penz"
-msgctxt "@info:credit"
-msgid "(C) 2006-2012 Peter Penz"
-msgstr "(C) 2006-2009 Peter Penz"
-
-#: main.cpp:41
-msgctxt "@info:credit"
-msgid "Peter Penz"
-msgstr "Peter Penz"
-
-#: main.cpp:42
-#, fuzzy
-#| msgctxt "@info:credit"
-#| msgid "Maintainer and developer"
-msgctxt "@info:credit"
-msgid "Maintainer and developer"
-msgstr "Òpiekùn ë programista"
-
-#: main.cpp:44
-msgctxt "@info:credit"
-msgid "Frank Reininghaus"
-msgstr ""
-
-#: main.cpp:45 main.cpp:48 main.cpp:51 main.cpp:54 main.cpp:57 main.cpp:60
-#: main.cpp:63 main.cpp:66
-msgctxt "@info:credit"
-msgid "Developer"
-msgstr "Programista"
-
-#: main.cpp:47
-msgctxt "@info:credit"
-msgid "Sebastian Trüg"
-msgstr ""
-
-#: main.cpp:50
-msgctxt "@info:credit"
-msgid "David Faure"
-msgstr "David Faure"
-
-#: main.cpp:53
-msgctxt "@info:credit"
-msgid "Aaron J. Seigo"
-msgstr "Aaron J. Seigo"
-
-#: main.cpp:56
-msgctxt "@info:credit"
-msgid "Rafael Fernández López"
-msgstr "Rafael Fernández López"
-
-#: main.cpp:59
-msgctxt "@info:credit"
-msgid "Kevin Ottens"
-msgstr "Kevin Ottens"
-
-#: main.cpp:62
-msgctxt "@info:credit"
-msgid "Holger Freyther"
-msgstr "Holger Freythe"
-
-#: main.cpp:65
-msgctxt "@info:credit"
-msgid "Max Blazejak"
-msgstr "Max Blazeja"
-
-#: main.cpp:68
-msgctxt "@info:credit"
-msgid "Michael Austin"
-msgstr "Michael Austi"
-
-#: main.cpp:69
-msgctxt "@info:credit"
-msgid "Documentation"
-msgstr "Dokùmentacëjô"
-
-#: main.cpp:79
-msgctxt "@info:shell"
-msgid "The files and directories passed as arguments will be selected."
-msgstr ""
-
-#: main.cpp:81
-msgctxt "@info:shell"
-msgid "Dolphin will get started with a split view."
-msgstr ""
-
-#: main.cpp:82
-msgctxt "@info:shell"
-msgid "Document to open"
-msgstr "Dokùment do òtemkniãcô"
 
 #, fuzzy
 #~| msgctxt "@title:group Date"
