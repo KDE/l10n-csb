@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-07-13 04:06+0200\n"
+"POT-Creation-Date: 2012-07-15 03:59+0200\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -7517,7 +7517,7 @@ msgstr "Wpiszë miono nowi grëpë:"
 
 #: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:333
 #: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:254
-#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:156
+#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:140
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:98
 #, fuzzy
 #| msgid "Configure Playback"
@@ -8943,7 +8943,7 @@ msgstr ""
 "kòntekstowégò widokù."
 
 #: context/engines/current/CurrentEngine.cpp:136 mac/GrowlInterface.cpp:43
-#: widgets/Osd.cpp:651 EngineController.cpp:1466
+#: widgets/Osd.cpp:651 EngineController.cpp:1479
 msgid "No track playing"
 msgstr "Nick nie je gróné"
 
@@ -9330,19 +9330,19 @@ msgstr "Wespółdzélonô mùzyka na %1"
 msgid "%1 - %2"
 msgstr "%1 - %2"
 
-#: core-impl/collections/db/sql/SqlCollection.cpp:162
+#: core-impl/collections/db/sql/SqlCollection.cpp:164
 msgid ""
 "Updating Amarok database schema. Please don't terminate Amarok now as it may "
 "result in database corruption."
 msgstr ""
 
-#: core-impl/collections/db/sql/SqlCollection.cpp:166
+#: core-impl/collections/db/sql/SqlCollection.cpp:168
 #, fuzzy
 #| msgid "Add to Database"
 msgid "Updating Amarok database schema"
 msgstr "Dodôj do bazë pòdôwków"
 
-#: core-impl/collections/db/sql/SqlCollection.cpp:200
+#: core-impl/collections/db/sql/SqlCollection.cpp:204
 #, kde-format
 msgid ""
 "The amarok database reported the following errors:\n"
@@ -9351,7 +9351,7 @@ msgid ""
 "properly."
 msgstr ""
 
-#: core-impl/collections/db/sql/SqlCollection.cpp:362
+#: core-impl/collections/db/sql/SqlCollection.cpp:374
 msgid "Scanning music"
 msgstr "Przeszukiwanié mùzyczi"
 
@@ -9807,7 +9807,7 @@ msgstr "Kòlekcëjô"
 
 #: core-impl/collections/ipodcollection/IpodMeta.cpp:203
 #: core-impl/collections/mediadevicecollection/MediaDeviceMeta.cpp:95
-#: EngineController.cpp:1445
+#: EngineController.cpp:1458
 msgid "Unknown track"
 msgstr "Nieznóny sztëczk"
 
@@ -10225,19 +10225,19 @@ msgstr "Nieznóné"
 msgid "Stream (%1)"
 msgstr "Strëga (%1)"
 
-#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:41
+#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:34
 #, fuzzy
 #| msgid "&Delete"
 msgid "&Delete..."
 msgstr "&Rëmôj"
 
-#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:49
+#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:42
 #, fuzzy
 #| msgid "&Rename"
 msgid "&Rename..."
 msgstr "&zmieni miono"
 
-#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:130
+#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:114
 #, fuzzy, kde-format
 #| msgid "Remove From Playlist"
 msgctxt "Number of playlists is >= 2"
@@ -10247,7 +10247,7 @@ msgstr[0] "Rëmôj z lëstë graniô"
 msgstr[1] "Rëmôj z lëstë graniô"
 msgstr[2] "Rëmôj z lëstë graniô"
 
-#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:136
+#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:120
 #, fuzzy, kde-format
 #| msgid "Removing Tracks from Device"
 msgctxt "%2 is saved playlist name"
@@ -10257,7 +10257,7 @@ msgstr[0] "Rëmanié traków z ùrządzenia"
 msgstr[1] "Rëmanié traków z ùrządzenia"
 msgstr[2] "Rëmanié traków z ùrządzenia"
 
-#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:158
+#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:142
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:100
 #, fuzzy, kde-format
 #| msgid "Do you really want to remove this %1?"
@@ -10267,7 +10267,7 @@ msgstr[0] "Na gwës chcesz rëmnąc %1?"
 msgstr[1] "Na gwës chcesz rëmnąc %1?"
 msgstr[2] "Na gwës chcesz rëmnąc %1?"
 
-#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:165
+#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:149
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:107
 #, fuzzy, kde-format
 #| msgid "Delete Files"
@@ -10474,31 +10474,31 @@ msgstr "Ladowanié podcastu \"%1\""
 msgid "Local Podcasts"
 msgstr "Môlowé podcastë"
 
-#: core/collections/CollectionLocation.cpp:373
+#: core/collections/CollectionLocation.cpp:377
 #, fuzzy
 #| msgid "Tracks Added"
 msgid "Organize tracks"
 msgstr "Title dodóné"
 
-#: core/collections/CollectionLocation.cpp:375
+#: core/collections/CollectionLocation.cpp:379
 #, fuzzy
 #| msgid "Transcoding"
 msgid "Transcode and organize tracks"
 msgstr "Kònwersëjô"
 
-#: core/collections/CollectionLocation.cpp:380
+#: core/collections/CollectionLocation.cpp:384
 #, fuzzy
 #| msgid "Repeat Track"
 msgid "Move tracks"
 msgstr "Pòwtórzë sztëczk"
 
-#: core/collections/CollectionLocation.cpp:382
+#: core/collections/CollectionLocation.cpp:386
 #, fuzzy
 #| msgid "Transcoding"
 msgid "Transcode and move tracks"
 msgstr "Kònwersëjô"
 
-#: core/collections/CollectionLocation.cpp:387
+#: core/collections/CollectionLocation.cpp:391
 #, fuzzy
 #| msgctxt ""
 #| "'Group tracks' (number of tracks in group) playlist column name and token "
@@ -10507,13 +10507,13 @@ msgstr "Kònwersëjô"
 msgid "Copy tracks"
 msgstr "Grëpa sztëczków"
 
-#: core/collections/CollectionLocation.cpp:389
+#: core/collections/CollectionLocation.cpp:393
 #, fuzzy
 #| msgid "Transcoding"
 msgid "Transcode and copy tracks"
 msgstr "Kònwersëjô"
 
-#: core/collections/CollectionLocation.cpp:402
+#: core/collections/CollectionLocation.cpp:406
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "'Group tracks' (number of tracks in group) playlist column name and token "
@@ -10525,7 +10525,7 @@ msgstr[0] "Grëpa sztëczków"
 msgstr[1] "Grëpa sztëczków"
 msgstr[2] "Grëpa sztëczków"
 
-#: core/collections/CollectionLocation.cpp:405
+#: core/collections/CollectionLocation.cpp:409
 #, fuzzy, kde-format
 #| msgid "Transcoding"
 msgid "Transcoding and organizing one track"
@@ -10534,7 +10534,7 @@ msgstr[0] "Kònwersëjô"
 msgstr[1] "Kònwersëjô"
 msgstr[2] "Kònwersëjô"
 
-#: core/collections/CollectionLocation.cpp:411
+#: core/collections/CollectionLocation.cpp:415
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "'Group tracks' (number of tracks in group) playlist column name and token "
@@ -10546,7 +10546,7 @@ msgstr[0] "Grëpa sztëczków"
 msgstr[1] "Grëpa sztëczków"
 msgstr[2] "Grëpa sztëczków"
 
-#: core/collections/CollectionLocation.cpp:414
+#: core/collections/CollectionLocation.cpp:418
 #, fuzzy, kde-format
 #| msgid "Transcoding"
 msgid "Transcoding and moving one track to %2"
@@ -10555,7 +10555,7 @@ msgstr[0] "Kònwersëjô"
 msgstr[1] "Kònwersëjô"
 msgstr[2] "Kònwersëjô"
 
-#: core/collections/CollectionLocation.cpp:420
+#: core/collections/CollectionLocation.cpp:424
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "'Group tracks' (number of tracks in group) playlist column name and token "
@@ -10567,7 +10567,7 @@ msgstr[0] "Grëpa sztëczków"
 msgstr[1] "Grëpa sztëczków"
 msgstr[2] "Grëpa sztëczków"
 
-#: core/collections/CollectionLocation.cpp:423
+#: core/collections/CollectionLocation.cpp:427
 #, fuzzy, kde-format
 #| msgid "Transcoding"
 msgid "Transcoding and copying one track to %2"
@@ -14751,6 +14751,12 @@ msgstr "Lopczi lëstë gróniô"
 msgid "The playlist file \"%1\" could not be loaded."
 msgstr "Nie mòże ùsôdzëc òbiektu"
 
+#: playlistmanager/sql/SqlPlaylist.cpp:41
+#, fuzzy
+#| msgid "Playlist name:"
+msgid "Playlist in database"
+msgstr "Miono lëstë òdegraniô"
+
 #: playlistmanager/sql/SqlUserPlaylistProvider.h:44
 #, fuzzy
 #| msgid "Add to Database"
@@ -14760,12 +14766,6 @@ msgstr "Dodôj do bazë pòdôwków"
 #: playlistmanager/sql/SqlUserPlaylistProvider.h:45
 msgid "Local playlists stored in the database"
 msgstr ""
-
-#: playlistmanager/sql/SqlPlaylist.cpp:41
-#, fuzzy
-#| msgid "Playlist name:"
-msgid "Playlist in database"
-msgstr "Miono lëstë òdegraniô"
 
 #: playlistmanager/SyncedPlaylist.cpp:42 playlistmanager/SyncedPlaylist.cpp:50
 #: playlistmanager/SyncedPlaylist.cpp:58
@@ -16565,7 +16565,7 @@ msgstr "Artista \"%1\""
 msgid "empty"
 msgstr ""
 
-#: PluginManager.cpp:256
+#: PluginManager.cpp:259
 msgid ""
 "<p>Amarok could not find any collection plugins. It is possible that Amarok "
 "is installed under the wrong prefix, please fix your installation using:<pre>"
@@ -16582,74 +16582,6 @@ msgstr ""
 "\"<br>$ kbuildsycoca4 --noincremental<br>$ amarok</pre>Wicy wëdowiédzë mòże "
 "nalezc w lopkù README. Abë zwëskac wicy pòmòcë przëłączë sã do naji na "
 "#amarok na irc.freenode.net.</p>"
-
-#: EngineController.cpp:299
-msgid ""
-"<p>Phonon claims it <b>cannot</b> play MP3 files. You may want to examine "
-"the installation of the backend that phonon uses.</p><p>You may find useful "
-"information in the <i>FAQ</i> section of the <i>Amarok Handbook</i>.</p>"
-msgstr ""
-
-#: EngineController.cpp:322
-msgid "Install MP3 Support"
-msgstr ""
-
-#: EngineController.cpp:324
-msgid ""
-"Amarok currently cannot play MP3 files. Do you want to install support for "
-"MP3?"
-msgstr ""
-
-#: EngineController.cpp:325
-msgid "No MP3 Support"
-msgstr ""
-
-#: EngineController.cpp:903
-#, fuzzy
-#| msgid "Stream"
-msgid "Preamp"
-msgstr "Strëga"
-
-#: EngineController.cpp:909
-msgid ""
-"%0\n"
-"Hz"
-msgstr ""
-
-#: EngineController.cpp:913
-msgid ""
-"%0\n"
-"kHz"
-msgstr ""
-
-#: EngineController.cpp:1212
-msgid "Too many errors encountered in playlist. Playback stopped."
-msgstr ""
-
-#: EngineController.cpp:1433
-#, kde-format
-msgctxt "track by artist on album"
-msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
-msgstr "<b>%1</b> wëkònywóné przez <b>%2</b> z albùmù <b>%3</b>"
-
-#: EngineController.cpp:1436
-#, kde-format
-msgctxt "track by artist"
-msgid "<b>%1</b> by <b>%2</b>"
-msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
-
-#: EngineController.cpp:1440
-#, kde-format
-msgctxt "track on album"
-msgid "<b>%1</b> on <b>%2</b>"
-msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
-
-#: EngineController.cpp:1452
-#, fuzzy, kde-format
-#| msgid " on <b>%1</b>"
-msgctxt "track from source"
-msgid "from <b>%1</b>"
-msgstr " przez <b>%1</b>"
 
 #: OpmlParser.cpp:109
 #, kde-format
@@ -17106,6 +17038,74 @@ msgid ""
 "A music path, %1, is set in System Settings.\n"
 "Would you like to use that as a collection folder?"
 msgstr ""
+
+#: EngineController.cpp:298
+msgid ""
+"<p>Phonon claims it <b>cannot</b> play MP3 files. You may want to examine "
+"the installation of the backend that phonon uses.</p><p>You may find useful "
+"information in the <i>FAQ</i> section of the <i>Amarok Handbook</i>.</p>"
+msgstr ""
+
+#: EngineController.cpp:332
+msgid "Install MP3 Support"
+msgstr ""
+
+#: EngineController.cpp:334
+msgid ""
+"Amarok currently cannot play MP3 files. Do you want to install support for "
+"MP3?"
+msgstr ""
+
+#: EngineController.cpp:335
+msgid "No MP3 Support"
+msgstr ""
+
+#: EngineController.cpp:918
+#, fuzzy
+#| msgid "Stream"
+msgid "Preamp"
+msgstr "Strëga"
+
+#: EngineController.cpp:924
+msgid ""
+"%0\n"
+"Hz"
+msgstr ""
+
+#: EngineController.cpp:928
+msgid ""
+"%0\n"
+"kHz"
+msgstr ""
+
+#: EngineController.cpp:1225
+msgid "Too many errors encountered in playlist. Playback stopped."
+msgstr ""
+
+#: EngineController.cpp:1446
+#, kde-format
+msgctxt "track by artist on album"
+msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
+msgstr "<b>%1</b> wëkònywóné przez <b>%2</b> z albùmù <b>%3</b>"
+
+#: EngineController.cpp:1449
+#, kde-format
+msgctxt "track by artist"
+msgid "<b>%1</b> by <b>%2</b>"
+msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
+
+#: EngineController.cpp:1453
+#, kde-format
+msgctxt "track on album"
+msgid "<b>%1</b> on <b>%2</b>"
+msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
+
+#: EngineController.cpp:1465
+#, fuzzy, kde-format
+#| msgid " on <b>%1</b>"
+msgctxt "track from source"
+msgid "from <b>%1</b>"
+msgstr " przez <b>%1</b>"
 
 #, fuzzy
 #~| msgid "Unable to retrieve Wikipedia information: %1"
