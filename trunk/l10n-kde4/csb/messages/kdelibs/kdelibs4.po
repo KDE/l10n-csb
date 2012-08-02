@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-07-27 04:25+0200\n"
+"POT-Creation-Date: 2012-08-02 04:35+0200\n"
 "PO-Revision-Date: 2009-12-04 22:09+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -4935,7 +4935,7 @@ msgid "Connection timed out"
 msgstr "Sparłãczenié przerwóne"
 
 #: kdecore/network/klocalsocket_unix.cpp:213
-#: kdecore/network/klocalsocket_unix.cpp:293 nepomuk/core/resource.cpp:538
+#: kdecore/network/klocalsocket_unix.cpp:293 nepomuk/core/resource.cpp:560
 msgid "Unknown error"
 msgstr "Nieznónô fela"
 
@@ -5487,6 +5487,18 @@ msgctxt "@info:tooltip"
 msgid "Display the window in full screen"
 msgstr ""
 
+#: kdeui/actions/kaction.cpp:122
+#, kde-format
+msgid ""
+"The key sequence '%1' is ambiguous. Use 'Configure Shortcuts'\n"
+"from the 'Settings' menu to solve the ambiguity.\n"
+"No action will be triggered."
+msgstr ""
+
+#: kdeui/actions/kaction.cpp:126
+msgid "Ambiguous shortcut detected"
+msgstr ""
+
 #: kdeui/actions/kstandardaction.cpp:93 kdeui/util/kstandardguiitem.cpp:210
 msgctxt "go back"
 msgid "&Back"
@@ -5530,18 +5542,6 @@ msgid ""
 msgstr ""
 "Pòkôżë listew stónu<br /><br />Pòkazëje listew stónu, to je listew w dole "
 "òkna, dze są biéżné wëdowiédze ò stónie programë."
-
-#: kdeui/actions/kaction.cpp:122
-#, kde-format
-msgid ""
-"The key sequence '%1' is ambiguous. Use 'Configure Shortcuts'\n"
-"from the 'Settings' menu to solve the ambiguity.\n"
-"No action will be triggered."
-msgstr ""
-
-#: kdeui/actions/kaction.cpp:126
-msgid "Ambiguous shortcut detected"
-msgstr ""
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:84
 msgid ""
@@ -9503,65 +9503,20 @@ msgstr "Separatora, akapit"
 msgid "Separator, Space"
 msgstr "Separatora, spacëjô"
 
-#. i18n: Placeholder text in line edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter search pattern").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
 #. i18n: Placeholder text in text edit widgets is the text appearing
 #. before any user input, briefly explaining to the user what to type
 #. (e.g. "Enter message").
 #. By default the text is set in italic, which may not be appropriate
 #. for some languages and scripts (e.g. for CJK ideographs).
-#: kdeui/widgets/klineedit.cpp:87 kdeui/widgets/ktextedit.cpp:79
+#. i18n: Placeholder text in line edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter search pattern").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#: kdeui/widgets/ktextedit.cpp:79 kdeui/widgets/klineedit.cpp:87
 msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
 msgid "1"
 msgstr "1"
-
-#: kdeui/widgets/klineedit.cpp:296
-msgctxt "@action:button Clear current text in the line edit"
-msgid "Clear text"
-msgstr "Wëczëszczë tekst"
-
-#: kdeui/widgets/klineedit.cpp:1216
-msgctxt "@title:menu"
-msgid "Text Completion"
-msgstr "Dofùlowanié tekstu"
-
-#: kdeui/widgets/klineedit.cpp:1223
-msgctxt "@item:inmenu Text Completion"
-msgid "None"
-msgstr "Felëjë"
-
-#: kdeui/widgets/klineedit.cpp:1224
-msgctxt "@item:inmenu Text Completion"
-msgid "Manual"
-msgstr "Rãczno"
-
-#: kdeui/widgets/klineedit.cpp:1225
-msgctxt "@item:inmenu Text Completion"
-msgid "Automatic"
-msgstr "Aùtomatno"
-
-#: kdeui/widgets/klineedit.cpp:1226
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List"
-msgstr "Rozwijnô lësta"
-
-#: kdeui/widgets/klineedit.cpp:1227
-msgctxt "@item:inmenu Text Completion"
-msgid "Short Automatic"
-msgstr "Półaùtomatno"
-
-#: kdeui/widgets/klineedit.cpp:1228
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List && Automatic"
-msgstr "Rozwijnô ë aùtomatnô lësta"
-
-#: kdeui/widgets/klineedit.cpp:1259
-msgctxt "@item:inmenu Text Completion"
-msgid "Default"
-msgstr "Domëszlné"
 
 #: kdeui/widgets/ktextedit.cpp:525
 msgid "Speak Text"
@@ -9900,6 +9855,51 @@ msgstr ""
 #| msgid "Do you want to reload KDE configuration?"
 msgid "You are not allowed to save the configuration"
 msgstr "Chcesz wczëtac znowa kònfigùracëjã KDE?"
+
+#: kdeui/widgets/klineedit.cpp:296
+msgctxt "@action:button Clear current text in the line edit"
+msgid "Clear text"
+msgstr "Wëczëszczë tekst"
+
+#: kdeui/widgets/klineedit.cpp:1216
+msgctxt "@title:menu"
+msgid "Text Completion"
+msgstr "Dofùlowanié tekstu"
+
+#: kdeui/widgets/klineedit.cpp:1223
+msgctxt "@item:inmenu Text Completion"
+msgid "None"
+msgstr "Felëjë"
+
+#: kdeui/widgets/klineedit.cpp:1224
+msgctxt "@item:inmenu Text Completion"
+msgid "Manual"
+msgstr "Rãczno"
+
+#: kdeui/widgets/klineedit.cpp:1225
+msgctxt "@item:inmenu Text Completion"
+msgid "Automatic"
+msgstr "Aùtomatno"
+
+#: kdeui/widgets/klineedit.cpp:1226
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List"
+msgstr "Rozwijnô lësta"
+
+#: kdeui/widgets/klineedit.cpp:1227
+msgctxt "@item:inmenu Text Completion"
+msgid "Short Automatic"
+msgstr "Półaùtomatno"
+
+#: kdeui/widgets/klineedit.cpp:1228
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List && Automatic"
+msgstr "Rozwijnô ë aùtomatnô lësta"
+
+#: kdeui/widgets/klineedit.cpp:1259
+msgctxt "@item:inmenu Text Completion"
+msgid "Default"
+msgstr "Domëszlné"
 
 #: kdeui/widgets/kpixmapregionselectorwidget.cpp:195
 msgid "Image Operations"
@@ -13257,15 +13257,15 @@ msgstr "Wëbierzë kòmpònentë"
 msgid "Enable component"
 msgstr "Właczë kòmpònent"
 
-#: nepomuk/core/resource.cpp:532
+#: nepomuk/core/resource.cpp:554
 msgid "Success"
 msgstr "Sukces"
 
-#: nepomuk/core/resource.cpp:534
+#: nepomuk/core/resource.cpp:556
 msgid "Communication error"
 msgstr "Fela kòmùnikacëji"
 
-#: nepomuk/core/resource.cpp:536
+#: nepomuk/core/resource.cpp:558
 msgid "Invalid type in Database"
 msgstr "Lëchi trib w baze pòdôwków"
 
