@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-07-27 04:26+0200\n"
+"POT-Creation-Date: 2012-08-07 21:43+0200\n"
 "PO-Revision-Date: 2009-12-15 18:43+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -20,6 +20,81 @@ msgstr ""
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
+
+#: eventmonitor.cpp:70
+msgid "Indexing files for fast searching. This process may take a while."
+msgstr "Indeksowanié lopków dlô chùtczi szëkbë. To mòże kąsk zbawic."
+
+#: eventmonitor.cpp:103 eventmonitor.cpp:133
+msgid "Resuming indexing of files for fast searching."
+msgstr "Kòntinuacëjô indeksowaniô lopków dlô chùtczi szëkbë. "
+
+#: eventmonitor.cpp:111
+msgid "Suspending the indexing of files to preserve resources."
+msgstr "Indeksowanié lopków zatrzëmóné dlô òbszczãdzenia dostónków systemë."
+
+#: eventmonitor.cpp:125
+#, kde-format
+msgid "Disk space is running low (%1 left). Suspending indexing of files."
+msgstr "Plac na diskù sã kùńczi (%1 òstało). Zatrzëmanié indeksowaniô."
+
+#: eventmonitor.cpp:153
+#, fuzzy, kde-format
+#| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
+#| msgid "Initial indexing of files for fast searching finished in %1"
+msgctxt "@info %1 is a duration formatted using KLocale::prettyFormatDuration"
+msgid "Initial indexing of files for fast searching finished in %1"
+msgstr "Pierszé indeksowanié lopków dlô chùtczi szëkbë zakùńczi sã za %1"
+
+#: fileindexer.cpp:176
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "File indexer is suspended"
+msgctxt "@info:status"
+msgid "File indexer is suspended."
+msgstr "Indeksownik lopków je zatrzëmóny"
+
+#: fileindexer.cpp:184
+#, fuzzy
+#| msgid "Resuming indexing of files for fast searching."
+msgctxt "@info:status"
+msgid "Scanning for recent changes in files for desktop search"
+msgstr "Kòntinuacëjô indeksowaniô lopków dlô chùtczi szëkbë. "
+
+#: fileindexer.cpp:187
+#, fuzzy
+#| msgid "Resuming indexing of files for fast searching."
+msgctxt "@info:status"
+msgid "Indexing files for desktop search."
+msgstr "Kòntinuacëjô indeksowaniô lopków dlô chùtczi szëkbë. "
+
+#: fileindexer.cpp:192
+#, kde-format
+msgctxt "@info:status"
+msgid "Scanning for recent changes in %1"
+msgstr ""
+
+#: fileindexer.cpp:196
+#, fuzzy, kde-format
+#| msgid "Indexed files:"
+msgctxt "@info:status"
+msgid "Indexing files in %1"
+msgstr "Indeksowóné lopczi:"
+
+#: fileindexer.cpp:198
+#, fuzzy, kde-format
+#| msgid "Indexed files:"
+msgctxt "@info:status"
+msgid "Indexing %1"
+msgstr "Indeksowóné lopczi:"
+
+#: fileindexer.cpp:203
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "File indexer is idle"
+msgctxt "@info:status"
+msgid "File indexer is idle."
+msgstr "Indeksownik lopków nie je aktiwny"
 
 #: indexer/main.cpp:47
 #, fuzzy
@@ -72,81 +147,6 @@ msgstr ""
 #: indexer/main.cpp:61
 msgid "Remove all indexed data of the URL provided"
 msgstr ""
-
-#: fileindexer.cpp:176
-#, fuzzy
-#| msgctxt "@info:status"
-#| msgid "File indexer is suspended"
-msgctxt "@info:status"
-msgid "File indexer is suspended."
-msgstr "Indeksownik lopków je zatrzëmóny"
-
-#: fileindexer.cpp:184
-#, fuzzy
-#| msgid "Resuming indexing of files for fast searching."
-msgctxt "@info:status"
-msgid "Scanning for recent changes in files for desktop search"
-msgstr "Kòntinuacëjô indeksowaniô lopków dlô chùtczi szëkbë. "
-
-#: fileindexer.cpp:187
-#, fuzzy
-#| msgid "Resuming indexing of files for fast searching."
-msgctxt "@info:status"
-msgid "Indexing files for desktop search."
-msgstr "Kòntinuacëjô indeksowaniô lopków dlô chùtczi szëkbë. "
-
-#: fileindexer.cpp:192
-#, kde-format
-msgctxt "@info:status"
-msgid "Scanning for recent changes in %1"
-msgstr ""
-
-#: fileindexer.cpp:196
-#, fuzzy, kde-format
-#| msgid "Indexed files:"
-msgctxt "@info:status"
-msgid "Indexing files in %1"
-msgstr "Indeksowóné lopczi:"
-
-#: fileindexer.cpp:198
-#, fuzzy, kde-format
-#| msgid "Indexed files:"
-msgctxt "@info:status"
-msgid "Indexing %1"
-msgstr "Indeksowóné lopczi:"
-
-#: fileindexer.cpp:203
-#, fuzzy
-#| msgctxt "@info:status"
-#| msgid "File indexer is idle"
-msgctxt "@info:status"
-msgid "File indexer is idle."
-msgstr "Indeksownik lopków nie je aktiwny"
-
-#: eventmonitor.cpp:70
-msgid "Indexing files for fast searching. This process may take a while."
-msgstr "Indeksowanié lopków dlô chùtczi szëkbë. To mòże kąsk zbawic."
-
-#: eventmonitor.cpp:103 eventmonitor.cpp:133
-msgid "Resuming indexing of files for fast searching."
-msgstr "Kòntinuacëjô indeksowaniô lopków dlô chùtczi szëkbë. "
-
-#: eventmonitor.cpp:111
-msgid "Suspending the indexing of files to preserve resources."
-msgstr "Indeksowanié lopków zatrzëmóné dlô òbszczãdzenia dostónków systemë."
-
-#: eventmonitor.cpp:125
-#, kde-format
-msgid "Disk space is running low (%1 left). Suspending indexing of files."
-msgstr "Plac na diskù sã kùńczi (%1 òstało). Zatrzëmanié indeksowaniô."
-
-#: eventmonitor.cpp:153
-#, fuzzy, kde-format
-#| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
-#| msgid "Initial indexing of files for fast searching finished in %1"
-msgctxt "@info %1 is a duration formatted using KLocale::prettyFormatDuration"
-msgid "Initial indexing of files for fast searching finished in %1"
-msgstr "Pierszé indeksowanié lopków dlô chùtczi szëkbë zakùńczi sã za %1"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin_effects\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-07-10 08:58+0200\n"
+"POT-Creation-Date: 2012-08-07 21:49+0200\n"
 "PO-Revision-Date: 2009-12-15 21:16+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -21,13 +21,6 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: coverswitch/coverswitch.cpp:1015 flipswitch/flipswitch.cpp:984
-#, fuzzy
-#| msgid "Show desktop"
-msgctxt "Special entry in alt+tab list for minimizing all windows"
-msgid "Show Desktop"
-msgstr "Wëskrzëni pùlt"
-
 #: coverswitch/coverswitch_config.cpp:72 cube/cube_config.cpp:124
 #: desktopgrid/desktopgrid_config.cpp:109 magiclamp/magiclamp_config.cpp:58
 #: translucency/translucency_config.cpp:80
@@ -37,17 +30,12 @@ msgstr[0] " milisekùnda"
 msgstr[1] " milisekùndë"
 msgstr[2] " milisekùndów"
 
-#: cube/cube.cpp:197 cube/cube_config.cpp:60
-msgid "Desktop Cube"
-msgstr "Kòstka pùltu"
-
-#: cube/cube.cpp:201 cube/cube_config.cpp:64
-msgid "Desktop Cylinder"
-msgstr "Cylinder pùltu"
-
-#: cube/cube.cpp:205 cube/cube_config.cpp:68
-msgid "Desktop Sphere"
-msgstr "Kùgla pùltu"
+#: coverswitch/coverswitch.cpp:1015 flipswitch/flipswitch.cpp:984
+#, fuzzy
+#| msgid "Show desktop"
+msgctxt "Special entry in alt+tab list for minimizing all windows"
+msgid "Show Desktop"
+msgstr "Wëskrzëni pùlt"
 
 #: cube/cube_config.cpp:50
 msgctxt "@title:tab Basic Settings"
@@ -59,7 +47,19 @@ msgctxt "@title:tab Advanced Settings"
 msgid "Advanced"
 msgstr "Awansowóné"
 
-#: desktopgrid/desktopgrid.cpp:72 desktopgrid/desktopgrid_config.cpp:57
+#: cube/cube_config.cpp:60 cube/cube.cpp:197
+msgid "Desktop Cube"
+msgstr "Kòstka pùltu"
+
+#: cube/cube_config.cpp:64 cube/cube.cpp:201
+msgid "Desktop Cylinder"
+msgstr "Cylinder pùltu"
+
+#: cube/cube_config.cpp:68 cube/cube.cpp:205
+msgid "Desktop Sphere"
+msgstr "Kùgla pùltu"
+
+#: desktopgrid/desktopgrid_config.cpp:57 desktopgrid/desktopgrid.cpp:72
 msgid "Show Desktop Grid"
 msgstr "Pòkażë mrzéżkã pùltu"
 
@@ -130,46 +130,46 @@ msgstr[0] " réżka"
 msgstr[1] " réżczi"
 msgstr[2] " réżków"
 
-#: flipswitch/flipswitch.cpp:60 flipswitch/flipswitch_config.cpp:51
+#: flipswitch/flipswitch_config.cpp:51 flipswitch/flipswitch.cpp:60
 msgid "Toggle Flip Switch (Current desktop)"
 msgstr "Przełączë trzëmiarowé sztaple (aktualny pùltu)"
 
-#: flipswitch/flipswitch.cpp:66 flipswitch/flipswitch_config.cpp:54
+#: flipswitch/flipswitch_config.cpp:54 flipswitch/flipswitch.cpp:66
 msgid "Toggle Flip Switch (All desktops)"
 msgstr "Przełączë trzëmiarowé sztaple (wszëtczé pùltu)"
 
-#: invert/invert.cpp:49 invert/invert_config.cpp:47
+#: invert/invert_config.cpp:47 invert/invert.cpp:49
 msgid "Toggle Invert Effect"
 msgstr "Włączë òbrôcony efekt"
 
-#: invert/invert.cpp:54 invert/invert_config.cpp:52
+#: invert/invert_config.cpp:52 invert/invert.cpp:54
 msgid "Toggle Invert Effect on Window"
 msgstr "Włączë òbrôcony efekt w òknie"
-
-#: mousemark/mousemark.cpp:49
-msgid "Clear All Mouse Marks"
-msgstr "Wëczëszczë wszëtczé szlachë mëszë"
-
-#: mousemark/mousemark.cpp:53 mousemark/mousemark_config.cpp:66
-msgid "Clear Last Mouse Mark"
-msgstr "Wëczëszczë slédné szlachë mëszë"
 
 #: mousemark/mousemark_config.cpp:61
 msgid "Clear Mouse Marks"
 msgstr "Wëczëszczë szlachë mëszë"
 
-#: presentwindows/presentwindows.cpp:81
-#: presentwindows/presentwindows_config.cpp:62
-msgid "Toggle Present Windows (Current desktop)"
-msgstr "Włączë òkna biéżnegò pùltu"
+#: mousemark/mousemark_config.cpp:66 mousemark/mousemark.cpp:53
+msgid "Clear Last Mouse Mark"
+msgstr "Wëczëszczë slédné szlachë mëszë"
 
-#: presentwindows/presentwindows.cpp:87
+#: mousemark/mousemark.cpp:49
+msgid "Clear All Mouse Marks"
+msgstr "Wëczëszczë wszëtczé szlachë mëszë"
+
 #: presentwindows/presentwindows_config.cpp:57
+#: presentwindows/presentwindows.cpp:87
 msgid "Toggle Present Windows (All desktops)"
 msgstr "Włączë òkna wszëtczich pùltów"
 
-#: presentwindows/presentwindows.cpp:93
+#: presentwindows/presentwindows_config.cpp:62
+#: presentwindows/presentwindows.cpp:81
+msgid "Toggle Present Windows (Current desktop)"
+msgstr "Włączë òkna biéżnegò pùltu"
+
 #: presentwindows/presentwindows_config.cpp:67
+#: presentwindows/presentwindows.cpp:93
 msgid "Toggle Present Windows (Window class)"
 msgstr "Przełączë prezentacëjã òknów (klasa òkna)"
 
@@ -182,8 +182,8 @@ msgstr ""
 "Filter:\n"
 "%1"
 
-#: thumbnailaside/thumbnailaside.cpp:38
 #: thumbnailaside/thumbnailaside_config.cpp:66
+#: thumbnailaside/thumbnailaside.cpp:38
 msgid "Toggle Thumbnail for Current Window"
 msgstr "Włączë miniaturkã dlô biéżnégò òkna"
 
@@ -193,39 +193,39 @@ msgstr "Włączë miniaturkã dlô biéżnégò òkna"
 msgid "Track mouse"
 msgstr "Òdwrócr mësz"
 
-#: windowgeometry/windowgeometry.cpp:60
-msgid "Toggle window geometry display (effect only)"
-msgstr ""
-
 #: windowgeometry/windowgeometry_config.cpp:46
 msgid "Toggle KWin composited geometry display"
 msgstr ""
 
-#: zoom/zoom.cpp:90 zoom/zoom_config.cpp:79
+#: windowgeometry/windowgeometry.cpp:60
+msgid "Toggle window geometry display (effect only)"
+msgstr ""
+
+#: zoom/zoom_config.cpp:79 zoom/zoom.cpp:90
 #, fuzzy
 #| msgid "Top Left"
 msgid "Move Left"
 msgstr "Góra-lewi"
 
-#: zoom/zoom.cpp:95 zoom/zoom_config.cpp:85
+#: zoom/zoom_config.cpp:85 zoom/zoom.cpp:95
 #, fuzzy
 #| msgid "Top Right"
 msgid "Move Right"
 msgstr "Góra-prawi"
 
-#: zoom/zoom.cpp:100 zoom/zoom_config.cpp:91
+#: zoom/zoom_config.cpp:91 zoom/zoom.cpp:100
 msgid "Move Up"
 msgstr ""
 
-#: zoom/zoom.cpp:105 zoom/zoom_config.cpp:97
+#: zoom/zoom_config.cpp:97 zoom/zoom.cpp:105
 msgid "Move Down"
 msgstr ""
 
-#: zoom/zoom.cpp:110 zoom/zoom_config.cpp:103
+#: zoom/zoom_config.cpp:103 zoom/zoom.cpp:110
 msgid "Move Mouse to Focus"
 msgstr ""
 
-#: zoom/zoom.cpp:115 zoom/zoom_config.cpp:109
+#: zoom/zoom_config.cpp:109 zoom/zoom.cpp:115
 msgid "Move Mouse to Center"
 msgstr ""
 
