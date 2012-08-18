@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonqhtml\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-19 04:38+0200\n"
+"POT-Creation-Date: 2012-08-18 04:12+0200\n"
 "PO-Revision-Date: 2009-05-13 19:46+0200\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -280,6 +280,41 @@ msgid ""
 msgstr ""
 "Wëbierzë domëszlny ôrt kòdowaniô. Zwëczajno sygô 'Brëkùjë kòdowaniô dlô "
 "wëbrónegò jãzëka' ë nie je nót tegò zjinaczac."
+
+#: css/kcmcss.cpp:57
+msgid ""
+"<h1>Konqueror Stylesheets</h1> This module allows you to apply your own "
+"color and font settings to Konqueror by using stylesheets (CSS). You can "
+"either specify options or apply your own self-written stylesheet by pointing "
+"to its location.<br /> Note that these settings will always have precedence "
+"before all other settings made by the site author. This can be useful to "
+"visually impaired people or for web pages that are unreadable due to bad "
+"design."
+msgstr ""
+
+#: css/kcmcss.cpp:346
+#, kde-format
+msgid ""
+"<html>\n"
+"<head>\n"
+"<style>\n"
+"<!--\n"
+"%1\n"
+"-->\n"
+"</style>\n"
+"</head>\n"
+"<body>\n"
+"<h1>Heading 1</h1>\n"
+"<h2>Heading 2</h2>\n"
+"<h3>Heading 3</h3>\n"
+"\n"
+"<p>User-defined stylesheets allow increased\n"
+"accessibility for visually handicapped\n"
+"people.</p>\n"
+"\n"
+"</body>\n"
+"</html>\n"
+msgstr ""
 
 #: domainlistview.cpp:48
 msgid "Host/Domain"
@@ -1191,12 +1226,12 @@ msgid "Accept character sets:"
 msgstr "Akceptëjë zestôwk céchów:"
 
 #: main.cpp:66
-msgid "kcmkonqhtml"
-msgstr "kcmkonqhtml"
-
-#: main.cpp:66
 msgid "Konqueror Browsing Control Module"
 msgstr "Nastôw przezérnika Konqueror"
+
+#: main.cpp:66
+msgid "kcmkonqhtml"
+msgstr "kcmkonqhtml"
 
 #: main.cpp:68
 msgid "(c) 1999 - 2001 The Konqueror Developers"
@@ -1231,16 +1266,16 @@ msgid "Wynn Wilkes"
 msgstr "Wynn Wilkes"
 
 #: main.cpp:78
-msgid "Leo Savernik"
-msgstr "Leo Savernik"
-
-#: main.cpp:78
 msgid ""
 "JavaScript access controls\n"
 "Per-domain policies extensions"
 msgstr ""
 "Kòntrola przëstãpù JavaScript\n"
 "Rozszérzënia pòliticzi dlô apartnëch domenów"
+
+#: main.cpp:78
+msgid "Leo Savernik"
+msgstr "Leo Savernik"
 
 #: main.cpp:90
 msgid "&Java"
@@ -2088,41 +2123,6 @@ msgstr ""
 #: rc.cpp:266
 msgid "Activate previously used tab when closing the current tab"
 msgstr "Aktiwùjë slédno brëkòwóną kôrtã pò zamkniãcô biéżny"
-
-#: css/kcmcss.cpp:57
-msgid ""
-"<h1>Konqueror Stylesheets</h1> This module allows you to apply your own "
-"color and font settings to Konqueror by using stylesheets (CSS). You can "
-"either specify options or apply your own self-written stylesheet by pointing "
-"to its location.<br /> Note that these settings will always have precedence "
-"before all other settings made by the site author. This can be useful to "
-"visually impaired people or for web pages that are unreadable due to bad "
-"design."
-msgstr ""
-
-#: css/kcmcss.cpp:346
-#, kde-format
-msgid ""
-"<html>\n"
-"<head>\n"
-"<style>\n"
-"<!--\n"
-"%1\n"
-"-->\n"
-"</style>\n"
-"</head>\n"
-"<body>\n"
-"<h1>Heading 1</h1>\n"
-"<h2>Heading 2</h2>\n"
-"<h3>Heading 3</h3>\n"
-"\n"
-"<p>User-defined stylesheets allow increased\n"
-"accessibility for visually handicapped\n"
-"people.</p>\n"
-"\n"
-"</body>\n"
-"</html>\n"
-msgstr ""
 
 #~ msgid "URL Expressions to Filter"
 #~ msgstr "Wësłowia URL do filtrowaniô"

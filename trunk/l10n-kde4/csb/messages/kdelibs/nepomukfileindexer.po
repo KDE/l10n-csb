@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-16 04:40+0200\n"
+"POT-Creation-Date: 2012-08-18 04:20+0200\n"
 "PO-Revision-Date: 2009-12-15 18:43+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -21,61 +21,30 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: indexer/main.cpp:47
-#, fuzzy
-#| msgid "Nepomuk Strigi File Indexing"
-msgid "NepomukIndexer"
-msgstr "Indeksownik lopków Stigi Nepomuka"
+#: eventmonitor.cpp:70
+msgid "Indexing files for fast searching. This process may take a while."
+msgstr "Indeksowanié lopków dlô chùtczi szëkbë. To mòże kąsk zbawic."
 
-#: indexer/main.cpp:49
-msgid ""
-"NepomukIndexer indexes the contents of a file and saves the results in "
-"Nepomuk"
-msgstr ""
+#: eventmonitor.cpp:103 eventmonitor.cpp:133
+msgid "Resuming indexing of files for fast searching."
+msgstr "Kòntinuacëjô indeksowaniô lopków dlô chùtczi szëkbë. "
 
-#: indexer/main.cpp:51
-#, fuzzy
-#| msgid "(c) 2008, Sebastian Trüg"
-msgid "(C) 2011, Vishesh Handa, Sebastian Trueg"
-msgstr "(c) 2008, Sebastian Trüg"
+#: eventmonitor.cpp:111
+msgid "Suspending the indexing of files to preserve resources."
+msgstr "Indeksowanié lopków zatrzëmóné dlô òbszczãdzenia dostónków systemë."
 
-#: indexer/main.cpp:52
-msgid "Vishesh Handa"
-msgstr ""
+#: eventmonitor.cpp:125
+#, kde-format
+msgid "Disk space is running low (%1 left). Suspending indexing of files."
+msgstr "Plac na diskù sã kùńczi (%1 òstało). Zatrzëmanié indeksowaniô."
 
-#: indexer/main.cpp:52
-#, fuzzy
-#| msgid "Maintainer"
-msgid "Current maintainer"
-msgstr "Òpiekùn"
-
-#: indexer/main.cpp:53
-msgid "Sebastian Trüg"
-msgstr "Sebastian Trüg"
-
-#: indexer/main.cpp:53
-msgid "Developer"
-msgstr ""
-
-#: indexer/main.cpp:58
-msgid "The URI provided will be forced on the resource"
-msgstr ""
-
-#: indexer/main.cpp:59
-msgid "The modification time of the resource in time_t format"
-msgstr ""
-
-#: indexer/main.cpp:60
-msgid "The URL of the file to be indexed"
-msgstr ""
-
-#: indexer/main.cpp:61
-msgid "Remove all indexed data of the URL provided"
-msgstr ""
-
-#: indexer/main.cpp:62
-msgid "Strigi plugins to disable."
-msgstr ""
+#: eventmonitor.cpp:153
+#, fuzzy, kde-format
+#| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
+#| msgid "Initial indexing of files for fast searching finished in %1"
+msgctxt "@info %1 is a duration formatted using KLocale::prettyFormatDuration"
+msgid "Initial indexing of files for fast searching finished in %1"
+msgstr "Pierszé indeksowanié lopków dlô chùtczi szëkbë zakùńczi sã za %1"
 
 #: fileindexer.cpp:176
 #, fuzzy
@@ -127,30 +96,61 @@ msgctxt "@info:status"
 msgid "File indexer is idle."
 msgstr "Indeksownik lopków nie je aktiwny"
 
-#: eventmonitor.cpp:70
-msgid "Indexing files for fast searching. This process may take a while."
-msgstr "Indeksowanié lopków dlô chùtczi szëkbë. To mòże kąsk zbawic."
+#: indexer/main.cpp:47
+#, fuzzy
+#| msgid "Nepomuk Strigi File Indexing"
+msgid "NepomukIndexer"
+msgstr "Indeksownik lopków Stigi Nepomuka"
 
-#: eventmonitor.cpp:103 eventmonitor.cpp:133
-msgid "Resuming indexing of files for fast searching."
-msgstr "Kòntinuacëjô indeksowaniô lopków dlô chùtczi szëkbë. "
+#: indexer/main.cpp:49
+msgid ""
+"NepomukIndexer indexes the contents of a file and saves the results in "
+"Nepomuk"
+msgstr ""
 
-#: eventmonitor.cpp:111
-msgid "Suspending the indexing of files to preserve resources."
-msgstr "Indeksowanié lopków zatrzëmóné dlô òbszczãdzenia dostónków systemë."
+#: indexer/main.cpp:51
+#, fuzzy
+#| msgid "(c) 2008, Sebastian Trüg"
+msgid "(C) 2011, Vishesh Handa, Sebastian Trueg"
+msgstr "(c) 2008, Sebastian Trüg"
 
-#: eventmonitor.cpp:125
-#, kde-format
-msgid "Disk space is running low (%1 left). Suspending indexing of files."
-msgstr "Plac na diskù sã kùńczi (%1 òstało). Zatrzëmanié indeksowaniô."
+#: indexer/main.cpp:52
+#, fuzzy
+#| msgid "Maintainer"
+msgid "Current maintainer"
+msgstr "Òpiekùn"
 
-#: eventmonitor.cpp:153
-#, fuzzy, kde-format
-#| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
-#| msgid "Initial indexing of files for fast searching finished in %1"
-msgctxt "@info %1 is a duration formatted using KLocale::prettyFormatDuration"
-msgid "Initial indexing of files for fast searching finished in %1"
-msgstr "Pierszé indeksowanié lopków dlô chùtczi szëkbë zakùńczi sã za %1"
+#: indexer/main.cpp:52
+msgid "Vishesh Handa"
+msgstr ""
+
+#: indexer/main.cpp:53
+msgid "Developer"
+msgstr ""
+
+#: indexer/main.cpp:53
+msgid "Sebastian Trüg"
+msgstr "Sebastian Trüg"
+
+#: indexer/main.cpp:58
+msgid "The URI provided will be forced on the resource"
+msgstr ""
+
+#: indexer/main.cpp:59
+msgid "The modification time of the resource in time_t format"
+msgstr ""
+
+#: indexer/main.cpp:60
+msgid "The URL of the file to be indexed"
+msgstr ""
+
+#: indexer/main.cpp:61
+msgid "Remove all indexed data of the URL provided"
+msgstr ""
+
+#: indexer/main.cpp:62
+msgid "Strigi plugins to disable."
+msgstr ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

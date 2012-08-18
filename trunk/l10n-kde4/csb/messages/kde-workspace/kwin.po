@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-11 06:33+0200\n"
+"POT-Creation-Date: 2012-08-18 04:26+0200\n"
 "PO-Revision-Date: 2009-12-15 22:22+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -56,6 +56,60 @@ msgstr "GLX/OpenGL nie je przëstãpné ë blós wspiarcé OpenGL je kòmpatibil
 #: compositingprefs.cpp:106
 msgid "GLX/OpenGL and XRender/XFixes are not available."
 msgstr "GLX/OpenGL ë XRender/XFixes nie są przëstãpné."
+
+#: killer/killer.cpp:42 main.cpp:489
+msgid "KWin"
+msgstr "KWin"
+
+#: killer/killer.cpp:43
+msgid "KWin helper utility"
+msgstr "Pòmòcnô programa KWin"
+
+#: killer/killer.cpp:46
+msgid "PID of the application to terminate"
+msgstr "PID aplikacëji do zamkniãcô"
+
+#: killer/killer.cpp:47
+msgid "Hostname on which the application is running"
+msgstr "Miono kòmpùtra na jaczim robi na aplikacëjô"
+
+#: killer/killer.cpp:48
+msgid "Caption of the window to be terminated"
+msgstr "Titel òkna do zamkniãcô"
+
+#: killer/killer.cpp:49
+msgid "Name of the application to be terminated"
+msgstr "Miono aplikacëji do zamkniãcô"
+
+#: killer/killer.cpp:50
+msgid "ID of resource belonging to the application"
+msgstr "ID dostónkù przënóleżacegò do ti aplikacrji"
+
+#: killer/killer.cpp:51
+msgid "Time of user action causing termination"
+msgstr "Czas dzéjaniô brëkòwnika, jaczi doprowôdzô do zakùńczeniô"
+
+#: killer/killer.cpp:68
+msgid "This helper utility is not supposed to be called directly."
+msgstr "Na pòmòcnô programa nie je namieniony do samòstójnegò zrëszaniô."
+
+#: killer/killer.cpp:75
+#, kde-format
+msgid ""
+"<p>The window \"<b>%2</b>\" is not responding. It belongs to the application "
+"<b>%1</b> (Process ID = %3, hostname = %4).</p><p>Do you wish to terminate "
+"the application process <em>including <b>all</b> of its child windows</em>?"
+"<br /><b>Any unsaved data will be lost.</b></p>"
+msgstr ""
+"<p>Òkno \"<b>%2</b>\" nie òdpòwiadô. Przënôlégò òno do programë <b>%1</b> "
+"(PID=%3, kòmpùtr=%4).</p><p>Czë zakùńczëc nã programã <em>włączającë w to "
+"<b>wszëtczé</b> jegò pòtomné ókna?</em>? <br /><b>Wszëtczé niezapisóné "
+"pòdôwczi òstaną rëmniãté.</b></p>"
+
+#: killer/killer.cpp:81
+#, kde-format
+msgid "&Terminate Application %1"
+msgstr "&Zakùńczë aplikacëjã %1"
 
 #: kwinbindings.cpp:48
 msgid "System"
@@ -387,10 +441,6 @@ msgstr ""
 msgid "KDE window manager"
 msgstr "Menadżera òknów KDE"
 
-#: main.cpp:489 killer/killer.cpp:42
-msgid "KWin"
-msgstr "KWin"
-
 #: main.cpp:493
 msgid "(c) 1999-2008, The KDE Developers"
 msgstr "(c) 1999-2008, The KDE Developers"
@@ -412,12 +462,12 @@ msgid "Luboš Luňák"
 msgstr "Luboš Luňák"
 
 #: main.cpp:498
-msgid "Martin Gräßlin"
-msgstr ""
-
-#: main.cpp:498
 msgid "Maintainer"
 msgstr "Òpiekùn"
+
+#: main.cpp:498
+msgid "Martin Gräßlin"
+msgstr ""
 
 #: main.cpp:503
 msgid "Disable configuration options"
@@ -444,6 +494,69 @@ msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
+
+#: tabbox/tabbox.cpp:329
+#, fuzzy
+#| msgid "Show Desktop"
+msgctxt "Special entry in alt+tab list for minimizing all windows"
+msgid "Show Desktop"
+msgstr "Wëskrzëni pùlt"
+
+#: tabbox/tabbox.cpp:474
+msgid "Walk Through Windows"
+msgstr "Przezérôj òkna"
+
+#: tabbox/tabbox.cpp:475
+msgid "Walk Through Windows (Reverse)"
+msgstr "Przezérôj òkna (w òpaczny pòsobicë)"
+
+#: tabbox/tabbox.cpp:476
+msgid "Walk Through Windows Alternative"
+msgstr "Przezérôj alternatiwné òkna (w òpaczny pòsobicë)"
+
+#: tabbox/tabbox.cpp:477
+msgid "Walk Through Windows Alternative (Reverse)"
+msgstr "Przezérôj alternatiwné òkna (w òpaczny pòsobicë)"
+
+#: tabbox/tabbox.cpp:478
+#, fuzzy
+#| msgid "Walk Through Windows Alternative"
+msgid "Walk Through Windows of Current Application"
+msgstr "Przezérôj alternatiwné òkna (w òpaczny pòsobicë)"
+
+#: tabbox/tabbox.cpp:479
+#, fuzzy
+#| msgid "Walk Through Windows Alternative (Reverse)"
+msgid "Walk Through Windows of Current Application (Reverse)"
+msgstr "Przezérôj alternatiwné òkna (w òpaczny pòsobicë)"
+
+#: tabbox/tabbox.cpp:480
+#, fuzzy
+#| msgid "Walk Through Windows Alternative"
+msgid "Walk Through Windows of Current Application Alternative"
+msgstr "Przezérôj alternatiwné òkna (w òpaczny pòsobicë)"
+
+#: tabbox/tabbox.cpp:481
+#, fuzzy
+#| msgid "Walk Through Windows Alternative (Reverse)"
+msgid "Walk Through Windows of Current Application Alternative (Reverse)"
+msgstr "Przezérôj alternatiwné òkna (w òpaczny pòsobicë)"
+
+#: tabbox/tabbox.cpp:482
+msgid "Walk Through Desktops"
+msgstr "Przezérôj pùltë"
+
+#: tabbox/tabbox.cpp:483
+msgid "Walk Through Desktops (Reverse)"
+msgstr "Przezérôj pùltë (w òpaczny pòsobicë)"
+
+#: tabbox/tabbox.cpp:484
+msgid "Walk Through Desktop List"
+msgstr "Przezérôj lëstã pùltów"
+
+#: tabbox/tabbox.cpp:485
+msgid "Walk Through Desktop List (Reverse)"
+msgstr "Przezérôj lëstã pùltów (w òpaczny pòsobicë)"
 
 #: useractions.cpp:86
 msgid "&Move"
@@ -628,119 +741,6 @@ msgid ""
 "paste bin service\n"
 "like http://paste.kde.org instead of pasting into support threads.\n"
 msgstr ""
-
-#: killer/killer.cpp:43
-msgid "KWin helper utility"
-msgstr "Pòmòcnô programa KWin"
-
-#: killer/killer.cpp:46
-msgid "PID of the application to terminate"
-msgstr "PID aplikacëji do zamkniãcô"
-
-#: killer/killer.cpp:47
-msgid "Hostname on which the application is running"
-msgstr "Miono kòmpùtra na jaczim robi na aplikacëjô"
-
-#: killer/killer.cpp:48
-msgid "Caption of the window to be terminated"
-msgstr "Titel òkna do zamkniãcô"
-
-#: killer/killer.cpp:49
-msgid "Name of the application to be terminated"
-msgstr "Miono aplikacëji do zamkniãcô"
-
-#: killer/killer.cpp:50
-msgid "ID of resource belonging to the application"
-msgstr "ID dostónkù przënóleżacegò do ti aplikacrji"
-
-#: killer/killer.cpp:51
-msgid "Time of user action causing termination"
-msgstr "Czas dzéjaniô brëkòwnika, jaczi doprowôdzô do zakùńczeniô"
-
-#: killer/killer.cpp:68
-msgid "This helper utility is not supposed to be called directly."
-msgstr "Na pòmòcnô programa nie je namieniony do samòstójnegò zrëszaniô."
-
-#: killer/killer.cpp:75
-#, kde-format
-msgid ""
-"<p>The window \"<b>%2</b>\" is not responding. It belongs to the application "
-"<b>%1</b> (Process ID = %3, hostname = %4).</p><p>Do you wish to terminate "
-"the application process <em>including <b>all</b> of its child windows</em>?"
-"<br /><b>Any unsaved data will be lost.</b></p>"
-msgstr ""
-"<p>Òkno \"<b>%2</b>\" nie òdpòwiadô. Przënôlégò òno do programë <b>%1</b> "
-"(PID=%3, kòmpùtr=%4).</p><p>Czë zakùńczëc nã programã <em>włączającë w to "
-"<b>wszëtczé</b> jegò pòtomné ókna?</em>? <br /><b>Wszëtczé niezapisóné "
-"pòdôwczi òstaną rëmniãté.</b></p>"
-
-#: killer/killer.cpp:81
-#, kde-format
-msgid "&Terminate Application %1"
-msgstr "&Zakùńczë aplikacëjã %1"
-
-#: tabbox/tabbox.cpp:329
-#, fuzzy
-#| msgid "Show Desktop"
-msgctxt "Special entry in alt+tab list for minimizing all windows"
-msgid "Show Desktop"
-msgstr "Wëskrzëni pùlt"
-
-#: tabbox/tabbox.cpp:474
-msgid "Walk Through Windows"
-msgstr "Przezérôj òkna"
-
-#: tabbox/tabbox.cpp:475
-msgid "Walk Through Windows (Reverse)"
-msgstr "Przezérôj òkna (w òpaczny pòsobicë)"
-
-#: tabbox/tabbox.cpp:476
-msgid "Walk Through Windows Alternative"
-msgstr "Przezérôj alternatiwné òkna (w òpaczny pòsobicë)"
-
-#: tabbox/tabbox.cpp:477
-msgid "Walk Through Windows Alternative (Reverse)"
-msgstr "Przezérôj alternatiwné òkna (w òpaczny pòsobicë)"
-
-#: tabbox/tabbox.cpp:478
-#, fuzzy
-#| msgid "Walk Through Windows Alternative"
-msgid "Walk Through Windows of Current Application"
-msgstr "Przezérôj alternatiwné òkna (w òpaczny pòsobicë)"
-
-#: tabbox/tabbox.cpp:479
-#, fuzzy
-#| msgid "Walk Through Windows Alternative (Reverse)"
-msgid "Walk Through Windows of Current Application (Reverse)"
-msgstr "Przezérôj alternatiwné òkna (w òpaczny pòsobicë)"
-
-#: tabbox/tabbox.cpp:480
-#, fuzzy
-#| msgid "Walk Through Windows Alternative"
-msgid "Walk Through Windows of Current Application Alternative"
-msgstr "Przezérôj alternatiwné òkna (w òpaczny pòsobicë)"
-
-#: tabbox/tabbox.cpp:481
-#, fuzzy
-#| msgid "Walk Through Windows Alternative (Reverse)"
-msgid "Walk Through Windows of Current Application Alternative (Reverse)"
-msgstr "Przezérôj alternatiwné òkna (w òpaczny pòsobicë)"
-
-#: tabbox/tabbox.cpp:482
-msgid "Walk Through Desktops"
-msgstr "Przezérôj pùltë"
-
-#: tabbox/tabbox.cpp:483
-msgid "Walk Through Desktops (Reverse)"
-msgstr "Przezérôj pùltë (w òpaczny pòsobicë)"
-
-#: tabbox/tabbox.cpp:484
-msgid "Walk Through Desktop List"
-msgstr "Przezérôj lëstã pùltów"
-
-#: tabbox/tabbox.cpp:485
-msgid "Walk Through Desktop List (Reverse)"
-msgstr "Przezérôj lëstã pùltów (w òpaczny pòsobicë)"
 
 #, fuzzy
 #~| msgid "Close Window"

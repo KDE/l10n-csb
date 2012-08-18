@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:37+0200\n"
+"POT-Creation-Date: 2012-08-18 04:26+0200\n"
 "PO-Revision-Date: 2009-12-20 18:09+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -19,22 +19,6 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 "X-Generator: Lokalize 1.0\n"
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
-
-#. i18n: file: viewpart/kfontviewpart.rc:4
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:5
-msgid "&Main Toolbar"
-msgstr "&Przédnô listew nôrzãdzów"
 
 #: apps/Installer.cpp:54 kcmfontinst/KCmFontInst.cpp:1023
 msgid ""
@@ -339,17 +323,36 @@ msgstr ""
 "<p>Na gwës chcesz rëmnąc '<b>%1</b>'?</p><p><i>To rëmnie blós karno, a nié "
 "aktualné fòntë.</i></p>"
 
-#: kcmfontinst/GroupList.cpp:579
-msgid "Remove Group"
-msgstr "Rëmôj karno"
-
 #: kcmfontinst/GroupList.cpp:579 kcmfontinst/GroupList.cpp:830
 msgid "Remove"
 msgstr "Rëmôj"
 
+#: kcmfontinst/GroupList.cpp:579
+msgid "Remove Group"
+msgstr "Rëmôj karno"
+
 #: kcmfontinst/GroupList.cpp:580 kcmfontinst/KCmFontInst.cpp:250
 msgid "Remove group"
 msgstr "Rëmôj karno"
+
+#: kcmfontinst/GroupList.cpp:625
+#, kde-format
+msgid ""
+"<h3>Font Groups</h3><p>This list displays the font groups available on your "
+"system. There are 2 main types of font groups:<ul><li><b>Standard</b> are "
+"special groups used by the font manager.<ul>%1</ul></li><li><b>Custom</b> "
+"are groups created by you. To add a font family to one of these groups "
+"simply drag it from the list of fonts, and drop onto the desired group. To "
+"remove a family from the group, drag the font onto the \"All Fonts\" group.</"
+"li></ul></p>"
+msgstr ""
+"<h3>Karna fòntów</h3><p>Na lësta zamëkô w se karna fòntów przëstãpnych w "
+"twòji systemie. To dô dwa przédné karna fòntów:<ul><li><b>Standardowé</b> to "
+"ekstra karna brëkòwóné przez menadżera fòntów <ul>%1</ul></li><li><b> Swòjé</"
+"b> to karna, chtërné môsz sóm ùsôdzone.Abë dodac familëjã fòntów do negò "
+"karna, sygnie le przecygnąc j z lëstë fòntów ë ùpùszczëc do wëbrónegò karna. "
+"Abë rëmnąc familëjã z karna przecygni jã do karna \"Wszëtczé fòntë\"</li></"
+"ul></p>"
 
 #: kcmfontinst/GroupList.cpp:634
 msgid ""
@@ -376,25 +379,6 @@ msgstr ""
 "brëkòwników fòntë).</li><li> <i>Òsobisté fòntë</i> zamëkają w se wszëtczé "
 "fòntë, chtërné są blós dlô ce przëstãpné.</li><li><i>Jinszé</i> zamëkają w "
 "se wszëtczé fòntë, chtërné nié przënôléżą do niżódnegò karna.</li>"
-
-#: kcmfontinst/GroupList.cpp:625
-#, kde-format
-msgid ""
-"<h3>Font Groups</h3><p>This list displays the font groups available on your "
-"system. There are 2 main types of font groups:<ul><li><b>Standard</b> are "
-"special groups used by the font manager.<ul>%1</ul></li><li><b>Custom</b> "
-"are groups created by you. To add a font family to one of these groups "
-"simply drag it from the list of fonts, and drop onto the desired group. To "
-"remove a family from the group, drag the font onto the \"All Fonts\" group.</"
-"li></ul></p>"
-msgstr ""
-"<h3>Karna fòntów</h3><p>Na lësta zamëkô w se karna fòntów przëstãpnych w "
-"twòji systemie. To dô dwa przédné karna fòntów:<ul><li><b>Standardowé</b> to "
-"ekstra karna brëkòwóné przez menadżera fòntów <ul>%1</ul></li><li><b> Swòjé</"
-"b> to karna, chtërné môsz sóm ùsôdzone.Abë dodac familëjã fòntów do negò "
-"karna, sygnie le przecygnąc j z lëstë fòntów ë ùpùszczëc do wëbrónegò karna. "
-"Abë rëmnąc familëjã z karna przecygni jã do karna \"Wszëtczé fòntë\"</li></"
-"ul></p>"
 
 #: kcmfontinst/GroupList.cpp:744
 #, kde-format
@@ -736,13 +720,13 @@ msgid ""
 "%3</i>?</p>"
 msgstr "<p>Czë na gwës chcesz przeniesc</p><p>'<b>'%1'</b>'?</p>"
 
-#: kcmfontinst/KCmFontInst.cpp:727
-msgid "Move Font"
-msgstr "Przeniesë fònt"
-
 #: kcmfontinst/KCmFontInst.cpp:727 kcmfontinst/KCmFontInst.cpp:736
 msgid "Move"
 msgstr "Przeniesë"
+
+#: kcmfontinst/KCmFontInst.cpp:727
+msgid "Move Font"
+msgstr "Przeniesë fònt"
 
 #: kcmfontinst/KCmFontInst.cpp:731
 #, fuzzy, kde-format
@@ -873,12 +857,12 @@ msgid "You did not select anything to disable."
 msgstr "Néi môsz wëbróné nick do wëłączëniô."
 
 #: kcmfontinst/KCmFontInst.cpp:1174
-msgid "Nothing to Enable"
-msgstr "Nie dô nick do włączeniô"
-
-#: kcmfontinst/KCmFontInst.cpp:1174
 msgid "Nothing to Disable"
 msgstr "Nie dô nick do wëłączeniô"
+
+#: kcmfontinst/KCmFontInst.cpp:1174
+msgid "Nothing to Enable"
+msgstr "Nie dô nick do włączeniô"
 
 #: kcmfontinst/KCmFontInst.cpp:1191
 #, kde-format
@@ -908,13 +892,13 @@ msgstr ""
 "<p>Chcesz na gwës wëłaczëc</p><p>'<b>%1</b>', chtërné je zamkłé w karnie  "
 "'<b>%2</b>'?</p>"
 
-#: kcmfontinst/KCmFontInst.cpp:1203 kcmfontinst/KCmFontInst.cpp:1204
-msgid "Enable Font"
-msgstr "Włączë fònt"
-
 #: kcmfontinst/KCmFontInst.cpp:1203 kcmfontinst/KCmFontInst.cpp:1205
 msgid "Disable Font"
 msgstr "Wëłączë fònt"
+
+#: kcmfontinst/KCmFontInst.cpp:1203 kcmfontinst/KCmFontInst.cpp:1204
+msgid "Enable Font"
+msgstr "Włączë fònt"
 
 #: kcmfontinst/KCmFontInst.cpp:1210
 #, kde-format
@@ -968,13 +952,13 @@ msgstr[2] ""
 "<p>Czë na gwës chcesz włączëc ne %1 fòntów, chtërné są zamkłé w karnie '<b>"
 "%2</b>'?</p>"
 
-#: kcmfontinst/KCmFontInst.cpp:1227 kcmfontinst/KCmFontInst.cpp:1228
-msgid "Enable Fonts"
-msgstr "Włączë fòntë"
-
 #: kcmfontinst/KCmFontInst.cpp:1227 kcmfontinst/KCmFontInst.cpp:1229
 msgid "Disable Fonts"
 msgstr "Wëłączë fòntë"
+
+#: kcmfontinst/KCmFontInst.cpp:1227 kcmfontinst/KCmFontInst.cpp:1228
+msgid "Enable Fonts"
+msgstr "Włączë fòntë"
 
 #: kcmfontinst/KCmFontInst.cpp:1235
 msgid "Enabling font(s)..."
@@ -1140,6 +1124,150 @@ msgid_plural "%2 [%1 pixels]"
 msgstr[0] "%2 [1 piksla]"
 msgstr[1] "%2 [%1 piksle]"
 msgstr[2] "%2 [%1 pikslów]"
+
+#: lib/KfiConstants.h:40
+msgid "Personal"
+msgstr "Òsobisté"
+
+#: lib/KfiConstants.h:41
+msgid "System"
+msgstr "Systema"
+
+#: lib/KfiConstants.h:42
+msgid "All"
+msgstr "Wszëtczé"
+
+#: lib/KfiConstants.h:56
+msgid "Administrator"
+msgstr "Sprôwnik"
+
+#: lib/KfiConstants.h:95
+msgid "Thin"
+msgstr "Cenczi"
+
+#: lib/KfiConstants.h:96
+msgid "Extra Light"
+msgstr "Ekstra letczi"
+
+#: lib/KfiConstants.h:97
+msgid "Ultra Light"
+msgstr "Ultra letczi"
+
+#: lib/KfiConstants.h:98
+msgid "Light"
+msgstr "Letczi"
+
+#: lib/KfiConstants.h:99
+msgid "Regular"
+msgstr "Regùlarny"
+
+#: lib/KfiConstants.h:100 lib/KfiConstants.h:118
+msgid "Normal"
+msgstr "Normalny"
+
+#: lib/KfiConstants.h:101
+msgid "Medium"
+msgstr "Strzédny"
+
+#: lib/KfiConstants.h:102
+msgid "Demi Bold"
+msgstr ""
+
+#: lib/KfiConstants.h:103
+msgid "Semi Bold"
+msgstr "Półtgrëbi"
+
+#: lib/KfiConstants.h:104
+msgid "Bold"
+msgstr "Grëbi"
+
+#: lib/KfiConstants.h:105
+msgid "Extra Bold"
+msgstr "Ekstra grëbi"
+
+#: lib/KfiConstants.h:106
+msgid "Ultra Bold"
+msgstr "Ultra grëbi"
+
+#: lib/KfiConstants.h:107
+msgid "Black"
+msgstr "Czôrny"
+
+#: lib/KfiConstants.h:108
+msgid "Heavy"
+msgstr "Cãżczi"
+
+#: lib/KfiConstants.h:110
+msgid "Roman"
+msgstr "Roman"
+
+#: lib/KfiConstants.h:111
+msgid "Italic"
+msgstr "Pòchilony"
+
+#: lib/KfiConstants.h:112
+msgid "Oblique"
+msgstr ""
+
+#: lib/KfiConstants.h:114
+msgid "Ultra Condensed"
+msgstr ""
+
+#: lib/KfiConstants.h:115
+msgid "Extra Condensed"
+msgstr ""
+
+#: lib/KfiConstants.h:116
+msgid "Condensed"
+msgstr ""
+
+#: lib/KfiConstants.h:117
+msgid "Semi Condensed"
+msgstr ""
+
+#: lib/KfiConstants.h:119
+msgid "Semi Expanded"
+msgstr ""
+
+#: lib/KfiConstants.h:120
+msgid "Expanded"
+msgstr ""
+
+#: lib/KfiConstants.h:121
+msgid "Extra Expanded"
+msgstr ""
+
+#: lib/KfiConstants.h:122
+msgid "Ultra Expanded"
+msgstr ""
+
+#: lib/KfiConstants.h:124
+msgid "Monospaced"
+msgstr ""
+
+#: lib/KfiConstants.h:125
+msgid "Charcell"
+msgstr ""
+
+#: lib/KfiConstants.h:126
+msgid "Proportional"
+msgstr "Propòrcjonalny"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
+
+#. i18n: file: viewpart/kfontviewpart.rc:4
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:5
+msgid "&Main Toolbar"
+msgstr "&Przédnô listew nôrzãdzów"
 
 #: viewpart/CharTip.cpp:65
 msgid "Other, Control"
@@ -1330,134 +1458,6 @@ msgstr "Blok unicode: %1"
 #, kde-format
 msgid "Unicode Script: %1"
 msgstr "Skript unicode: %1"
-
-#: lib/KfiConstants.h:40
-msgid "Personal"
-msgstr "Òsobisté"
-
-#: lib/KfiConstants.h:41
-msgid "System"
-msgstr "Systema"
-
-#: lib/KfiConstants.h:42
-msgid "All"
-msgstr "Wszëtczé"
-
-#: lib/KfiConstants.h:56
-msgid "Administrator"
-msgstr "Sprôwnik"
-
-#: lib/KfiConstants.h:95
-msgid "Thin"
-msgstr "Cenczi"
-
-#: lib/KfiConstants.h:96
-msgid "Extra Light"
-msgstr "Ekstra letczi"
-
-#: lib/KfiConstants.h:97
-msgid "Ultra Light"
-msgstr "Ultra letczi"
-
-#: lib/KfiConstants.h:98
-msgid "Light"
-msgstr "Letczi"
-
-#: lib/KfiConstants.h:99
-msgid "Regular"
-msgstr "Regùlarny"
-
-#: lib/KfiConstants.h:100 lib/KfiConstants.h:118
-msgid "Normal"
-msgstr "Normalny"
-
-#: lib/KfiConstants.h:101
-msgid "Medium"
-msgstr "Strzédny"
-
-#: lib/KfiConstants.h:102
-msgid "Demi Bold"
-msgstr ""
-
-#: lib/KfiConstants.h:103
-msgid "Semi Bold"
-msgstr "Półtgrëbi"
-
-#: lib/KfiConstants.h:104
-msgid "Bold"
-msgstr "Grëbi"
-
-#: lib/KfiConstants.h:105
-msgid "Extra Bold"
-msgstr "Ekstra grëbi"
-
-#: lib/KfiConstants.h:106
-msgid "Ultra Bold"
-msgstr "Ultra grëbi"
-
-#: lib/KfiConstants.h:107
-msgid "Black"
-msgstr "Czôrny"
-
-#: lib/KfiConstants.h:108
-msgid "Heavy"
-msgstr "Cãżczi"
-
-#: lib/KfiConstants.h:110
-msgid "Roman"
-msgstr "Roman"
-
-#: lib/KfiConstants.h:111
-msgid "Italic"
-msgstr "Pòchilony"
-
-#: lib/KfiConstants.h:112
-msgid "Oblique"
-msgstr ""
-
-#: lib/KfiConstants.h:114
-msgid "Ultra Condensed"
-msgstr ""
-
-#: lib/KfiConstants.h:115
-msgid "Extra Condensed"
-msgstr ""
-
-#: lib/KfiConstants.h:116
-msgid "Condensed"
-msgstr ""
-
-#: lib/KfiConstants.h:117
-msgid "Semi Condensed"
-msgstr ""
-
-#: lib/KfiConstants.h:119
-msgid "Semi Expanded"
-msgstr ""
-
-#: lib/KfiConstants.h:120
-msgid "Expanded"
-msgstr ""
-
-#: lib/KfiConstants.h:121
-msgid "Extra Expanded"
-msgstr ""
-
-#: lib/KfiConstants.h:122
-msgid "Ultra Expanded"
-msgstr ""
-
-#: lib/KfiConstants.h:124
-msgid "Monospaced"
-msgstr ""
-
-#: lib/KfiConstants.h:125
-msgid "Charcell"
-msgstr ""
-
-#: lib/KfiConstants.h:126
-msgid "Proportional"
-msgstr "Propòrcjonalny"
 
 #: viewpart/UnicodeBlocks.h:21
 msgid "Basic Latin"
