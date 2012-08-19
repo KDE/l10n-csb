@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bovo\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-08 04:20+0100\n"
+"POT-Creation-Date: 2012-08-19 15:37+0200\n"
 "PO-Revision-Date: 2009-10-19 17:05+0200\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -20,39 +20,53 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Michôł Òstrowsczi, Mark Kwidzińsczi"
 
-#: rc.cpp:2
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "michol@linuxcsb.org, mark@linuxcsb.org"
 
-#. i18n: file: gui/bovo.kcfg:9
 #. i18n: ectx: label, entry (theme), group (bovo)
-#: rc.cpp:5 gui/mainwindow.cc:191
+#: gui/bovo.kcfg:9 gui/mainwindow.cc:191
 msgid "Theme"
 msgstr "Téma"
 
-#. i18n: file: gui/bovo.kcfg:13
 #. i18n: ectx: label, entry (playbackSpeed), group (bovo)
-#: rc.cpp:8
+#: gui/bovo.kcfg:13
 msgid "Speed of demo and replay playback."
 msgstr ""
 
-#. i18n: file: gui/bovo.kcfg:19
 #. i18n: ectx: label, entry (animation), group (bovo)
-#: rc.cpp:11
+#: gui/bovo.kcfg:19
 msgid "Whether moves should be animated or not."
 msgstr ""
 
-#. i18n: file: gui/bovo.kcfg:23
 #. i18n: ectx: label, entry (ai), group (bovo)
-#: rc.cpp:14
+#: gui/bovo.kcfg:23
 msgid "AI engine to use."
 msgstr ""
+
+#: gui/main.cc:30
+msgid "KDE Five in a Row Board Game"
+msgstr "Planszowô gra KDE piãc w réze"
+
+#: gui/main.cc:35
+msgid "Bovo"
+msgstr "Bovo"
+
+#: gui/main.cc:37
+msgid "(c) 2002,2007 Aron Boström"
+msgstr "(c) 2002,2007 Aron Boström"
+
+#: gui/main.cc:38
+msgid "Aron Boström"
+msgstr "Aron Boström"
+
+#: gui/main.cc:38
+msgid "Author"
+msgstr "Ùsôdzca"
 
 #: gui/mainwindow.cc:70 gui/mainwindow.cc:348
 #, kde-format
@@ -111,26 +125,6 @@ msgstr "Pòwtórzenié grë"
 #: gui/mainwindow.cc:433
 msgid "Game replayed."
 msgstr "Gra òdegrónô."
-
-#: gui/main.cc:30
-msgid "KDE Five in a Row Board Game"
-msgstr "Planszowô gra KDE piãc w réze"
-
-#: gui/main.cc:35
-msgid "Bovo"
-msgstr "Bovo"
-
-#: gui/main.cc:37
-msgid "(c) 2002,2007 Aron Boström"
-msgstr "(c) 2002,2007 Aron Boström"
-
-#: gui/main.cc:38
-msgid "Aron Boström"
-msgstr "Aron Boström"
-
-#: gui/main.cc:38
-msgid "Author"
-msgstr "Ùsôdzca"
 
 #~ msgid "You won!"
 #~ msgstr "Môsz dobëté!"

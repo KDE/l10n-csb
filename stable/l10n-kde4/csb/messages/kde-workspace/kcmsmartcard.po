@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmartcard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:37+0200\n"
+"POT-Creation-Date: 2012-08-19 15:44+0200\n"
 "PO-Revision-Date: 2009-12-20 19:22+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -21,31 +21,26 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
 
-#: rc.cpp:2
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
 
-#. i18n: file: nosmartcardbase.ui:24
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:5
+#: nosmartcardbase.ui:24
 msgid "<b>Unable to contact the KDE smartcard service.</b>"
 msgstr "<b>Nie mòże skòntaktowac sã z ùsłëżnotą KDE smartcard.</b>"
 
-#. i18n: file: nosmartcardbase.ui:35
 #. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:8
+#: nosmartcardbase.ui:35
 msgid "Possible Reasons"
 msgstr "Mòżlewé òrądze"
 
-#. i18n: file: nosmartcardbase.ui:49
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:11
+#: nosmartcardbase.ui:49
 msgid ""
 "\n"
 "1) The KDE daemon, 'kded' is not running. You can restart it by running the "
@@ -61,103 +56,6 @@ msgstr ""
 "\n"
 "2) W biblotekach KDE felëje òbsłëżnotë smartcard. Nót je znowa skòmpilowac "
 "kdelibs pò zainstalowanim bibloteczi libpcsclite."
-
-#. i18n: file: smartcardbase.ui:31
-#. i18n: ectx: attribute (title), widget (QWidget)
-#: rc.cpp:17
-msgid "Smartcard Support"
-msgstr "Wspiarcé Smartcard"
-
-#. i18n: file: smartcardbase.ui:42
-#. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:20
-msgid "&Enable smartcard support"
-msgstr "&Włączë wspiarcé smartcard"
-
-#. i18n: file: smartcardbase.ui:61
-#. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:23
-msgid "Enable &polling to autodetect card events"
-msgstr "Włączë òd&pëtiwanié dlô aùtodetekcëji przëtrófków kôrtë"
-
-#. i18n: file: smartcardbase.ui:64
-#. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:26
-msgid ""
-"In most cases you should have this enabled. It allows KDE to automatically "
-"detect card insertion and reader hotplug events."
-msgstr ""
-"Zwëkòwò na òptacëjô mùszi bëc włączonô. Ùmòżebniô to aùtomatną detekcëjã "
-"wkłôdónëch kôrtów w KDE. "
-
-#. i18n: file: smartcardbase.ui:92
-#. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:29
-msgid "Automatically &launch card manager if inserted card is unclaimed"
-msgstr ""
-"&Aùtomatno zrëszë menadżera kôrtów, jeżlë włożonô je niewspierónô kôrta"
-
-#. i18n: file: smartcardbase.ui:95
-#. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:32
-msgid ""
-"When you insert a smartcard, KDE can automatically launch a management tool "
-"if no other application attempts to use the card."
-msgstr ""
-"Eżlë niżódnô programa nie wëzwëskùjë włożony kôrtë, KDE mòże aùtomatno "
-"zrëszëc nôrzãdze do sprôwiania kôrtama."
-
-#. i18n: file: smartcardbase.ui:106
-#. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:35
-msgid "&Beep on card insert and removal"
-msgstr "&Zwãk przë wkłôdanim/wëcygniãcym kôrtë"
-
-#. i18n: file: smartcardbase.ui:135
-#. i18n: ectx: attribute (title), widget (QWidget)
-#: rc.cpp:38
-msgid "Readers"
-msgstr "Czëtôrzë"
-
-#. i18n: file: smartcardbase.ui:152
-#. i18n: ectx: property (text), widget (K3ListView)
-#: rc.cpp:41
-msgid "Reader"
-msgstr "Czëtôrz"
-
-#. i18n: file: smartcardbase.ui:163
-#. i18n: ectx: property (text), widget (K3ListView)
-#: rc.cpp:44
-msgid "Type"
-msgstr "Ôrt"
-
-#. i18n: file: smartcardbase.ui:174
-#. i18n: ectx: property (text), widget (K3ListView)
-#: rc.cpp:47
-msgid "Subtype"
-msgstr "Pòdôrt"
-
-#. i18n: file: smartcardbase.ui:185
-#. i18n: ectx: property (text), widget (K3ListView)
-#: rc.cpp:50
-msgid "SubSubtype"
-msgstr "Pòdpòdôrt"
-
-#. i18n: file: smartcardbase.ui:228
-#. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:53
-msgid "PCSCLite Configuration"
-msgstr "Kònfigùracëjô PCSCLite"
-
-#. i18n: file: smartcardbase.ui:251
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:56
-msgid ""
-"To add new readers you have to modify /etc/readers.conf file and re-start "
-"pcscd"
-msgstr ""
-"Abë dodac nowé czëtającé ùrzãdzenie, zmòdifikùjë lopk /etc/readers.conf ë "
-"zrëszë znowa pcscd"
 
 #: smartcard.cpp:65
 msgid "kcmsmartcard"
@@ -216,3 +114,86 @@ msgstr ""
 "<h1>smartcard</h1>Nen mòduł ùmòżebnio kònfigùrowanié òbsłëżnotë smartcard w "
 "KDE. Kôrtë taczé mògą bëc brëkòwóné np. do trzëmaniô certifikatów SSL ë "
 "logòwaniô do KDE."
+
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: smartcardbase.ui:31
+msgid "Smartcard Support"
+msgstr "Wspiarcé Smartcard"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: smartcardbase.ui:42
+msgid "&Enable smartcard support"
+msgstr "&Włączë wspiarcé smartcard"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: smartcardbase.ui:61
+msgid "Enable &polling to autodetect card events"
+msgstr "Włączë òd&pëtiwanié dlô aùtodetekcëji przëtrófków kôrtë"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: smartcardbase.ui:64
+msgid ""
+"In most cases you should have this enabled. It allows KDE to automatically "
+"detect card insertion and reader hotplug events."
+msgstr ""
+"Zwëkòwò na òptacëjô mùszi bëc włączonô. Ùmòżebniô to aùtomatną detekcëjã "
+"wkłôdónëch kôrtów w KDE. "
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: smartcardbase.ui:92
+msgid "Automatically &launch card manager if inserted card is unclaimed"
+msgstr ""
+"&Aùtomatno zrëszë menadżera kôrtów, jeżlë włożonô je niewspierónô kôrta"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: smartcardbase.ui:95
+msgid ""
+"When you insert a smartcard, KDE can automatically launch a management tool "
+"if no other application attempts to use the card."
+msgstr ""
+"Eżlë niżódnô programa nie wëzwëskùjë włożony kôrtë, KDE mòże aùtomatno "
+"zrëszëc nôrzãdze do sprôwiania kôrtama."
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: smartcardbase.ui:106
+msgid "&Beep on card insert and removal"
+msgstr "&Zwãk przë wkłôdanim/wëcygniãcym kôrtë"
+
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: smartcardbase.ui:135
+msgid "Readers"
+msgstr "Czëtôrzë"
+
+#. i18n: ectx: property (text), widget (K3ListView)
+#: smartcardbase.ui:152
+msgid "Reader"
+msgstr "Czëtôrz"
+
+#. i18n: ectx: property (text), widget (K3ListView)
+#: smartcardbase.ui:163
+msgid "Type"
+msgstr "Ôrt"
+
+#. i18n: ectx: property (text), widget (K3ListView)
+#: smartcardbase.ui:174
+msgid "Subtype"
+msgstr "Pòdôrt"
+
+#. i18n: ectx: property (text), widget (K3ListView)
+#: smartcardbase.ui:185
+msgid "SubSubtype"
+msgstr "Pòdpòdôrt"
+
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: smartcardbase.ui:228
+msgid "PCSCLite Configuration"
+msgstr "Kònfigùracëjô PCSCLite"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: smartcardbase.ui:251
+msgid ""
+"To add new readers you have to modify /etc/readers.conf file and re-start "
+"pcscd"
+msgstr ""
+"Abë dodac nowé czëtającé ùrzãdzenie, zmòdifikùjë lopk /etc/readers.conf ë "
+"zrëszë znowa pcscd"

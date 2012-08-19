@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-07 21:49+0200\n"
+"POT-Creation-Date: 2012-08-19 15:44+0200\n"
 "PO-Revision-Date: 2009-12-14 21:59+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -20,6 +20,14 @@ msgstr ""
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Michôł Òstrowsczi,Mark Kwidzińsczi"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "michol@linuxcsb.org,mark@linuxcsb.org"
 
 #: applet/applet.cpp:84
 msgid "Kickoff Application Launcher"
@@ -47,65 +55,20 @@ msgctxt "General configuration page"
 msgid "General"
 msgstr "Òglowò"
 
-#: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
-#: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:121 ui/launcher.cpp:191
-msgid "Favorites"
-msgstr "Ùlëbnicë"
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: applet/kickoffConfig.ui:27
+msgid "Show applications by &name:"
+msgstr "Wëskrzëni aplikacëje wedle mionów:"
 
-#: core/models.cpp:121
-msgid "Home Folder"
-msgstr "Domôcy katalog"
+#. i18n: ectx: property (text), widget (QLabel, iconLabel)
+#: applet/kickoffConfig.ui:73
+msgid "&Icon:"
+msgstr "&Ikòna:"
 
-#: core/models.cpp:124
-msgid "Network Folders"
-msgstr "Sécowé katalodżi"
-
-#: core/recentlyusedmodel.cpp:109
-msgid "Documents"
-msgstr "Dokùmentë"
-
-#: core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:74
-#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:123 ui/launcher.cpp:236
-msgid "Applications"
-msgstr "Aplikacëje"
-
-#: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:197
-#: ui/launcher.cpp:124 ui/launcher.cpp:249
-msgid "Recently Used"
-msgstr "Slédno brëkòwóne"
-
-#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:199
-msgid "Recently Used Documents"
-msgstr "Slédno brëkòwóné dokùmentë"
-
-#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:198
-msgid "Recently Used Applications"
-msgstr "Wszëtczé slédno brëkòwóné aplikacëje"
-
-#: core/systemmodel.cpp:75
-msgid "Places"
-msgstr "Môle"
-
-#: core/systemmodel.cpp:76
-msgid "Removable Storage"
-msgstr "Zapisowny disk"
-
-#: core/systemmodel.cpp:77
-msgid "Storage"
-msgstr "Zbérnica"
-
-#: core/systemmodel.cpp:207 simpleapplet/simpleapplet.cpp:201
-msgid "Run Command..."
-msgstr "Zrëszë pòlét..."
-
-#: core/systemmodel.cpp:211
-msgid "Run a command or a search query"
-msgstr "Zrëszë pòlét abò szëkôj za zapëtanim"
-
-#: core/systemmodel.cpp:319 simpleapplet/simpleapplet.cpp:196
-#: ui/launcher.cpp:123 ui/launcher.cpp:270
-msgid "Computer"
-msgstr "Kòmpùtr"
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: applet/kickoffConfig.ui:86
+msgid "Switch &tabs on hover:"
+msgstr "Przełączë &kôrtë pò najachaniu na nie mëszą:"
 
 #: core/applicationmodel.cpp:334
 msgid "Games"
@@ -114,6 +77,11 @@ msgstr "Grë"
 #: core/applicationmodel.cpp:428 ui/launcher.cpp:976
 msgid "All Applications"
 msgstr "Wszëtczé aplikacëje"
+
+#: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
+#: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:121 ui/launcher.cpp:191
+msgid "Favorites"
+msgstr "Ùlëbnicë"
 
 #: core/leavemodel.cpp:50 simpleapplet/simpleapplet.cpp:210
 #, fuzzy
@@ -211,6 +179,61 @@ msgstr "Sesëjô"
 #: core/leavemodel.cpp:150
 msgid "System"
 msgstr "Systema"
+
+#: core/models.cpp:121
+msgid "Home Folder"
+msgstr "Domôcy katalog"
+
+#: core/models.cpp:124
+msgid "Network Folders"
+msgstr "Sécowé katalodżi"
+
+#: core/recentlyusedmodel.cpp:109
+msgid "Documents"
+msgstr "Dokùmentë"
+
+#: core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:74
+#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:123 ui/launcher.cpp:236
+msgid "Applications"
+msgstr "Aplikacëje"
+
+#: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:197
+#: ui/launcher.cpp:124 ui/launcher.cpp:249
+msgid "Recently Used"
+msgstr "Slédno brëkòwóne"
+
+#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:199
+msgid "Recently Used Documents"
+msgstr "Slédno brëkòwóné dokùmentë"
+
+#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:198
+msgid "Recently Used Applications"
+msgstr "Wszëtczé slédno brëkòwóné aplikacëje"
+
+#: core/systemmodel.cpp:75
+msgid "Places"
+msgstr "Môle"
+
+#: core/systemmodel.cpp:76
+msgid "Removable Storage"
+msgstr "Zapisowny disk"
+
+#: core/systemmodel.cpp:77
+msgid "Storage"
+msgstr "Zbérnica"
+
+#: core/systemmodel.cpp:207 simpleapplet/simpleapplet.cpp:201
+msgid "Run Command..."
+msgstr "Zrëszë pòlét..."
+
+#: core/systemmodel.cpp:211
+msgid "Run a command or a search query"
+msgstr "Zrëszë pòlét abò szëkôj za zapëtanim"
+
+#: core/systemmodel.cpp:319 simpleapplet/simpleapplet.cpp:196
+#: ui/launcher.cpp:123 ui/launcher.cpp:270
+msgid "Computer"
+msgstr "Kòmpùtr"
 
 #: main.cpp:32
 msgid "Kickoff"
@@ -340,11 +363,6 @@ msgstr "Wësënié"
 msgid "Safely Remove"
 msgstr "Rëmôj bezpieczno"
 
-#: ui/searchbar.cpp:70
-msgctxt "Label of the search bar textedit"
-msgid "Search:"
-msgstr "Szëkba:"
-
 #: ui/launcher.cpp:194
 msgid "Sort Alphabetically (A to Z)"
 msgstr "Zortëjë alfabétno (òd A do Z)"
@@ -373,33 +391,10 @@ msgctxt "full name, login name, hostname"
 msgid "<b>%1 (%2)</b> on <b>%3</b>"
 msgstr "<b>%1 (%2)</b> na <b>%3</b>"
 
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Michôł Òstrowsczi,Mark Kwidzińsczi"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "michol@linuxcsb.org,mark@linuxcsb.org"
-
-#. i18n: file: applet/kickoffConfig.ui:27
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:5
-msgid "Show applications by &name:"
-msgstr "Wëskrzëni aplikacëje wedle mionów:"
-
-#. i18n: file: applet/kickoffConfig.ui:73
-#. i18n: ectx: property (text), widget (QLabel, iconLabel)
-#: rc.cpp:8
-msgid "&Icon:"
-msgstr "&Ikòna:"
-
-#. i18n: file: applet/kickoffConfig.ui:86
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:11
-msgid "Switch &tabs on hover:"
-msgstr "Przełączë &kôrtë pò najachaniu na nie mëszą:"
+#: ui/searchbar.cpp:70
+msgctxt "Label of the search bar textedit"
+msgid "Search:"
+msgstr "Szëkba:"
 
 #~ msgid "Switch to Kickoff Menu Style"
 #~ msgstr "Przełączë do sztélu menu Kickoffa"
