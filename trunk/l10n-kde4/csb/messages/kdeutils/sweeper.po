@@ -17,6 +17,14 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
+
 #: main.cpp:28
 msgid "Sweeper"
 msgstr "Sweeper"
@@ -72,103 +80,6 @@ msgstr "Lopk òbstoji leno nie mòżé òstac rëmniãti."
 #: privacyfunctions.cpp:209
 msgid "A favicon could not be removed."
 msgstr "Ikòna favicon nie mòże òstac rëmniãtô."
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
-
-#. i18n: file: sweeperdialog.ui:27
-#. i18n: ectx: property (whatsThis), widget (QTreeWidget, privacyListView)
-#: rc.cpp:5
-#, fuzzy
-#| msgid ""
-#| "Check all cleanup actions you would like to perform. These will be "
-#| "executed by pressing the button below"
-msgid ""
-"Check all cleanup actions you would like to perform. These will be executed "
-"by pressing the button below."
-msgstr ""
-"Wëbierzë elementë do wëczëszczëniô. Òstaną òne wëczëszczone pò wcësniãcym "
-"knąpë niżi"
-
-#. i18n: file: sweeperdialog.ui:37
-#. i18n: ectx: property (text), widget (QTreeWidget, privacyListView)
-#: rc.cpp:8
-msgid "Privacy Settings"
-msgstr "Nastôwë priwatnosce"
-
-#. i18n: file: sweeperdialog.ui:42
-#. i18n: ectx: property (text), widget (QTreeWidget, privacyListView)
-#: rc.cpp:11
-msgid "Description"
-msgstr "Òpisënk"
-
-#. i18n: file: sweeperdialog.ui:58
-#. i18n: ectx: property (text), widget (KPushButton, selectAllButton)
-#: rc.cpp:14
-msgid "Select &All"
-msgstr "Wëbiérzë &wszëtkò"
-
-#. i18n: file: sweeperdialog.ui:65
-#. i18n: ectx: property (text), widget (KPushButton, selectNoneButton)
-#: rc.cpp:17
-msgid "Select &None"
-msgstr "Ò&dznaczë wszëtkò"
-
-#. i18n: file: sweeperdialog.ui:88
-#. i18n: ectx: property (whatsThis), widget (KPushButton, cleanupButton)
-#: rc.cpp:20
-msgid "Immediately performs the cleanup actions selected above"
-msgstr "Zarôzkù zrëszë wëbróne òperacëje czëszczëniô"
-
-#. i18n: file: sweeperdialog.ui:91
-#. i18n: ectx: property (text), widget (KPushButton, cleanupButton)
-#: rc.cpp:23
-msgid "&Clean Up"
-msgstr "Wë&czëszczë"
-
-#: sweeper.cpp:51
-#, fuzzy
-#| msgid "General"
-msgctxt "General system content"
-msgid "General"
-msgstr "Òglowi"
-
-#: sweeper.cpp:53
-#, fuzzy
-#| msgid "Web Browsing"
-msgctxt "Web browsing content"
-msgid "Web Browsing"
-msgstr "Przezéranié séce"
-
-#: sweeper.cpp:128
-msgid ""
-"You are deleting data that is potentially valuable to you. Are you sure?"
-msgstr "Na gwës rëmac wëbróne pòdôwczi?"
-
-#: sweeper.cpp:134
-msgid "Starting cleanup..."
-msgstr "Je napòczãté czëszczënié..."
-
-#: sweeper.cpp:140
-#, kde-format
-msgid "Clearing %1..."
-msgstr "Czëszczënié %1..."
-
-#: sweeper.cpp:145
-#, kde-format
-msgid "Clearing of %1 failed: %2"
-msgstr "Czëszczënié %1 nie darzëłô sã: %2"
-
-#: sweeper.cpp:151
-msgid "Clean up finished."
-msgstr "Czëszczënié zakùńczoné."
 
 #: privacyfunctions.h:36
 msgid "Cookies"
@@ -263,6 +174,86 @@ msgstr ""
 #| "Clears the list of recently used documents from the KDE applications menu"
 msgid "Clears the list of recently used applications from KDE menu"
 msgstr "Czëszczë lëstã slédno brëkòwónëch dokùmentów w menu KDE"
+
+#: sweeper.cpp:51
+#, fuzzy
+#| msgid "General"
+msgctxt "General system content"
+msgid "General"
+msgstr "Òglowi"
+
+#: sweeper.cpp:53
+#, fuzzy
+#| msgid "Web Browsing"
+msgctxt "Web browsing content"
+msgid "Web Browsing"
+msgstr "Przezéranié séce"
+
+#: sweeper.cpp:128
+msgid ""
+"You are deleting data that is potentially valuable to you. Are you sure?"
+msgstr "Na gwës rëmac wëbróne pòdôwczi?"
+
+#: sweeper.cpp:134
+msgid "Starting cleanup..."
+msgstr "Je napòczãté czëszczënié..."
+
+#: sweeper.cpp:140
+#, kde-format
+msgid "Clearing %1..."
+msgstr "Czëszczënié %1..."
+
+#: sweeper.cpp:145
+#, kde-format
+msgid "Clearing of %1 failed: %2"
+msgstr "Czëszczënié %1 nie darzëłô sã: %2"
+
+#: sweeper.cpp:151
+msgid "Clean up finished."
+msgstr "Czëszczënié zakùńczoné."
+
+#. i18n: ectx: property (whatsThis), widget (QTreeWidget, privacyListView)
+#: sweeperdialog.ui:27
+#, fuzzy
+#| msgid ""
+#| "Check all cleanup actions you would like to perform. These will be "
+#| "executed by pressing the button below"
+msgid ""
+"Check all cleanup actions you would like to perform. These will be executed "
+"by pressing the button below."
+msgstr ""
+"Wëbierzë elementë do wëczëszczëniô. Òstaną òne wëczëszczone pò wcësniãcym "
+"knąpë niżi"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, privacyListView)
+#: sweeperdialog.ui:37
+msgid "Privacy Settings"
+msgstr "Nastôwë priwatnosce"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, privacyListView)
+#: sweeperdialog.ui:42
+msgid "Description"
+msgstr "Òpisënk"
+
+#. i18n: ectx: property (text), widget (KPushButton, selectAllButton)
+#: sweeperdialog.ui:58
+msgid "Select &All"
+msgstr "Wëbiérzë &wszëtkò"
+
+#. i18n: ectx: property (text), widget (KPushButton, selectNoneButton)
+#: sweeperdialog.ui:65
+msgid "Select &None"
+msgstr "Ò&dznaczë wszëtkò"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, cleanupButton)
+#: sweeperdialog.ui:88
+msgid "Immediately performs the cleanup actions selected above"
+msgstr "Zarôzkù zrëszë wëbróne òperacëje czëszczëniô"
+
+#. i18n: ectx: property (text), widget (KPushButton, cleanupButton)
+#: sweeperdialog.ui:91
+msgid "&Clean Up"
+msgstr "Wë&czëszczë"
 
 #~ msgid "Network privacy level:"
 #~ msgstr "Równiô priwatnoscë sécë:"

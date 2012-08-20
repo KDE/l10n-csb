@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmaengineexplorer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 05:50+0200\n"
+"POT-Creation-Date: 2012-08-20 05:36+0200\n"
 "PO-Revision-Date: 2009-06-11 21:55+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -19,6 +19,14 @@ msgstr ""
 "X-Generator: Lokalize 0.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Michôł Òstrowsczi,Mark Kwidzińsczi"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "michol@linuxcsb.org,mark@linuxcsb.org"
 
 #: engineexplorer.cpp:55 main.cpp:68
 msgid "Plasma Engine Explorer"
@@ -40,15 +48,13 @@ msgstr "Zmaksymalizëjë wszëtczé"
 msgid "DataSource"
 msgstr "Zdrój pòdôwków"
 
-#. i18n: file: serviceviewer.ui:67
 #. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
-#: engineexplorer.cpp:170 rc.cpp:32 serviceviewer.cpp:148
+#: engineexplorer.cpp:170 serviceviewer.cpp:148 serviceviewer.ui:67
 msgid "Key"
 msgstr "Klucz"
 
-#. i18n: file: serviceviewer.ui:72
 #. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
-#: engineexplorer.cpp:170 rc.cpp:35 serviceviewer.cpp:148
+#: engineexplorer.cpp:170 serviceviewer.cpp:148 serviceviewer.ui:72
 msgid "Value"
 msgstr "Wôrtnota"
 
@@ -104,9 +110,8 @@ msgctxt ""
 msgid "<not displayable>"
 msgstr "<niewëskrzëniwólné>"
 
-#. i18n: file: engineexplorer.ui:17
 #. i18n: ectx: property (text), widget (KTitleWidget, m_title)
-#: engineexplorer.cpp:486 rc.cpp:5
+#: engineexplorer.cpp:486 engineexplorer.ui:17
 msgid "Plasma DataEngine Explorer"
 msgstr "Eksplorera mòtoru pòdôwków Plasmë"
 
@@ -118,6 +123,45 @@ msgid_plural "%1 Engine - %2 data sources"
 msgstr[0] "%1 mòtór - 1 zdrój pòdôwków"
 msgstr[1] "%1 mòtór - %2 zdroje pòdôwków"
 msgstr[2] "%1 mòtór - %2 zdrojów pòdôwków"
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, m_sourceRequester)
+#: engineexplorer.ui:38
+msgid "Source name"
+msgstr "Miono zdroju"
+
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, m_updateInterval)
+#: engineexplorer.ui:57
+msgid "Update on demand"
+msgstr "Aktualizacëjô na żądanié"
+
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, m_updateInterval)
+#: engineexplorer.ui:60
+msgid "ms"
+msgstr "ms"
+
+#. i18n: ectx: property (prefix), widget (KIntSpinBox, m_updateInterval)
+#: engineexplorer.ui:63
+msgid "Update every "
+msgstr "Aktualizëjë co "
+
+#. i18n: ectx: property (text), widget (QPushButton, m_sourceRequesterButton)
+#: engineexplorer.ui:85
+#, fuzzy
+#| msgid "Request"
+msgid "Request Source"
+msgstr "Zapëtanié"
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, m_serviceRequester)
+#: engineexplorer.ui:105
+#, fuzzy
+#| msgid "Remove source"
+msgid "Service for source"
+msgstr "Rëmôj zdroje"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_serviceRequesterButton)
+#: engineexplorer.ui:118
+msgid "Request Service for Source"
+msgstr ""
 
 #: ktreeviewsearchline.cpp:420
 msgid "Search Columns"
@@ -191,74 +235,6 @@ msgstr ""
 "Pòkazëje le mòtorë zrzëszoné z nôdrzãdnëma aplikacëjama. Mapùje do wpisënkù "
 "X-KDE-ParentApp w lopkù .desktop słëchającym do DataEngine. "
 
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Michôł Òstrowsczi,Mark Kwidzińsczi"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "michol@linuxcsb.org,mark@linuxcsb.org"
-
-#. i18n: file: engineexplorer.ui:38
-#. i18n: ectx: property (clickMessage), widget (KLineEdit, m_sourceRequester)
-#: rc.cpp:8
-msgid "Source name"
-msgstr "Miono zdroju"
-
-#. i18n: file: engineexplorer.ui:57
-#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, m_updateInterval)
-#: rc.cpp:11
-msgid "Update on demand"
-msgstr "Aktualizacëjô na żądanié"
-
-#. i18n: file: engineexplorer.ui:60
-#. i18n: ectx: property (suffix), widget (KIntSpinBox, m_updateInterval)
-#: rc.cpp:14
-msgid "ms"
-msgstr "ms"
-
-#. i18n: file: engineexplorer.ui:63
-#. i18n: ectx: property (prefix), widget (KIntSpinBox, m_updateInterval)
-#: rc.cpp:17
-msgid "Update every "
-msgstr "Aktualizëjë co "
-
-#. i18n: file: engineexplorer.ui:85
-#. i18n: ectx: property (text), widget (QPushButton, m_sourceRequesterButton)
-#: rc.cpp:20
-#, fuzzy
-#| msgid "Request"
-msgid "Request Source"
-msgstr "Zapëtanié"
-
-#. i18n: file: engineexplorer.ui:105
-#. i18n: ectx: property (clickMessage), widget (KLineEdit, m_serviceRequester)
-#: rc.cpp:23
-#, fuzzy
-#| msgid "Remove source"
-msgid "Service for source"
-msgstr "Rëmôj zdroje"
-
-#. i18n: file: engineexplorer.ui:118
-#. i18n: ectx: property (text), widget (QPushButton, m_serviceRequesterButton)
-#: rc.cpp:26
-msgid "Request Service for Source"
-msgstr ""
-
-#. i18n: file: serviceviewer.ui:33
-#. i18n: ectx: property (text), widget (QLabel, m_operationsLabel)
-#: rc.cpp:29
-msgid "&Operation:"
-msgstr "&Dzéjanié:"
-
-#. i18n: file: serviceviewer.ui:80
-#. i18n: ectx: property (text), widget (QLabel, m_operationStatus)
-#: rc.cpp:38
-msgid "Operation count"
-msgstr "Wielëna dzéjaniów"
-
 #: serviceviewer.cpp:46
 msgid "Start Operation"
 msgstr "Sztartëjë dzéjanié"
@@ -326,6 +302,16 @@ msgid_plural "%1 operations active ..."
 msgstr[0] "Jedno aktiwné dzejanié..."
 msgstr[1] "%1 aktwiné dzéjania"
 msgstr[2] "%1 aktiwnëch dzéjaniów"
+
+#. i18n: ectx: property (text), widget (QLabel, m_operationsLabel)
+#: serviceviewer.ui:33
+msgid "&Operation:"
+msgstr "&Dzéjanié:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_operationStatus)
+#: serviceviewer.ui:80
+msgid "Operation count"
+msgstr "Wielëna dzéjaniów"
 
 #: titlecombobox.h:53
 msgid "Data Engines"

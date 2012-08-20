@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:07+0200\n"
+"POT-Creation-Date: 2012-08-20 03:19+0200\n"
 "PO-Revision-Date: 2006-10-18 13:44+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -17,9 +17,82 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
+
 #: config.cpp:32
 msgid "Configuration"
 msgstr "Kònfigùracëjô"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_windowDragging)
+#: config.ui:17
+msgid "Enable window dragging"
+msgstr "Włączë przecyganié òknów"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showName)
+#: config.ui:31
+msgid "Show name"
+msgstr "Pòkażë miono"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showNumber)
+#: config.ui:38
+msgid "Show number"
+msgstr "Pòkażë numer"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showBackground)
+#: config.ui:45
+msgid "Show background"
+msgstr "Pòkażë spòdlé"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showWindows)
+#: config.ui:52
+msgid "Show windows"
+msgstr "Pòkażë òkna"
+
+#. i18n: ectx: property (title), widget (KButtonGroup, kcfg_windowDrawMode)
+#: config.ui:61
+msgid "Type of Window"
+msgstr "Ôrt òkna"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton)
+#: config.ui:67
+msgid "Plain"
+msgstr "Jednotne"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_2)
+#: config.ui:74
+msgid "Icon"
+msgstr "Ikòna"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_3)
+#: config.ui:81
+msgid "Pixmap"
+msgstr "Òbrôzk"
+
+#. i18n: ectx: property (title), widget (KButtonGroup, kcfg_layoutType)
+#: config.ui:91
+msgid "Layout"
+msgstr "Ùkłôd"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_4)
+#: config.ui:97
+msgid "Classical"
+msgstr "Klasykòwi"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_5)
+#: config.ui:104
+msgid "Horizontal"
+msgstr "Hòrizontalno"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_6)
+#: config.ui:111
+msgid "Vertical"
+msgstr "WErtikalno"
 
 #: kpager.cpp:335
 msgid "&To Desktop"
@@ -98,91 +171,3 @@ msgstr "Ùsadzë pòdzérk pùltu, le zatacë òkno"
 #: main.cpp:102
 msgid "Desktop Pager"
 msgstr "Pòdzérk pùltu"
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
-
-#. i18n: file: config.ui:17
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_windowDragging)
-#: rc.cpp:5
-msgid "Enable window dragging"
-msgstr "Włączë przecyganié òknów"
-
-#. i18n: file: config.ui:31
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showName)
-#: rc.cpp:8
-msgid "Show name"
-msgstr "Pòkażë miono"
-
-#. i18n: file: config.ui:38
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showNumber)
-#: rc.cpp:11
-msgid "Show number"
-msgstr "Pòkażë numer"
-
-#. i18n: file: config.ui:45
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showBackground)
-#: rc.cpp:14
-msgid "Show background"
-msgstr "Pòkażë spòdlé"
-
-#. i18n: file: config.ui:52
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showWindows)
-#: rc.cpp:17
-msgid "Show windows"
-msgstr "Pòkażë òkna"
-
-#. i18n: file: config.ui:61
-#. i18n: ectx: property (title), widget (KButtonGroup, kcfg_windowDrawMode)
-#: rc.cpp:20
-msgid "Type of Window"
-msgstr "Ôrt òkna"
-
-#. i18n: file: config.ui:67
-#. i18n: ectx: property (text), widget (QRadioButton, radioButton)
-#: rc.cpp:23
-msgid "Plain"
-msgstr "Jednotne"
-
-#. i18n: file: config.ui:74
-#. i18n: ectx: property (text), widget (QRadioButton, radioButton_2)
-#: rc.cpp:26
-msgid "Icon"
-msgstr "Ikòna"
-
-#. i18n: file: config.ui:81
-#. i18n: ectx: property (text), widget (QRadioButton, radioButton_3)
-#: rc.cpp:29
-msgid "Pixmap"
-msgstr "Òbrôzk"
-
-#. i18n: file: config.ui:91
-#. i18n: ectx: property (title), widget (KButtonGroup, kcfg_layoutType)
-#: rc.cpp:32
-msgid "Layout"
-msgstr "Ùkłôd"
-
-#. i18n: file: config.ui:97
-#. i18n: ectx: property (text), widget (QRadioButton, radioButton_4)
-#: rc.cpp:35
-msgid "Classical"
-msgstr "Klasykòwi"
-
-#. i18n: file: config.ui:104
-#. i18n: ectx: property (text), widget (QRadioButton, radioButton_5)
-#: rc.cpp:38
-msgid "Horizontal"
-msgstr "Hòrizontalno"
-
-#. i18n: file: config.ui:111
-#. i18n: ectx: property (text), widget (QRadioButton, radioButton_6)
-#: rc.cpp:41
-msgid "Vertical"
-msgstr "WErtikalno"

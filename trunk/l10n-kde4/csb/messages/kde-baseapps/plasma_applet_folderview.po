@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-26 04:59+0200\n"
+"POT-Creation-Date: 2012-08-20 03:23+0200\n"
 "PO-Revision-Date: 2009-12-14 23:08+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -162,9 +162,8 @@ msgstr "Wprzód katalodżi"
 msgid "Sort Icons"
 msgstr "Zortëjë ikònë"
 
-#. i18n: file: folderviewDisplayConfig.ui:80
 #. i18n: ectx: property (text), widget (QLabel, iconsTitle)
-#: folderview.cpp:1617 rc.cpp:9
+#: folderview.cpp:1617 folderviewDisplayConfig.ui:80
 msgid "Icons"
 msgstr "Ikònë"
 
@@ -204,37 +203,25 @@ msgstr[0] "1 lopk."
 msgstr[1] "%1 lopczi."
 msgstr[2] "%1 lopków."
 
-#: iconview.cpp:1241
-msgid "This folder is empty."
-msgstr "Nen katalog je pùsti."
-
-#: iconview.cpp:2195
-msgid "Set as &Wallpaper"
-msgstr "Nstôwi jakno &tapétã"
-
-#. i18n: file: folderviewDisplayConfig.ui:29
 #. i18n: ectx: property (text), widget (QLabel, headerTitle)
-#: rc.cpp:3
+#: folderviewDisplayConfig.ui:29
 msgid "Header"
 msgstr ""
 
-#. i18n: file: folderviewDisplayConfig.ui:58
 #. i18n: ectx: property (text), widget (QLabel, titleLabel)
-#: rc.cpp:6
+#: folderviewDisplayConfig.ui:58
 #, fuzzy
 #| msgid "Custom Title:"
 msgid "Custom title:"
 msgstr "Swój titel:"
 
-#. i18n: file: folderviewDisplayConfig.ui:103
 #. i18n: ectx: property (text), widget (QLabel, flowLabel)
-#: rc.cpp:12
+#: folderviewDisplayConfig.ui:103
 msgid "Arrangement:"
 msgstr "Ùłożenié:"
 
-#. i18n: file: folderviewDisplayConfig.ui:116
 #. i18n: ectx: property (whatsThis), widget (KComboBox, flowCombo)
-#: rc.cpp:15
+#: folderviewDisplayConfig.ui:116
 msgid ""
 "Use this control to choose if you want the icons to be arranged top to "
 "bottom starting on the left side of the view, or arranged left to right "
@@ -243,15 +230,13 @@ msgstr ""
 "W ti òptacëji mòżeta nastôwic to, czë ikònë mają bëc pòùkłôdóné z lewò na "
 "prawò abò z górë na dół."
 
-#. i18n: file: folderviewDisplayConfig.ui:123
 #. i18n: ectx: property (text), widget (QLabel, sortLabel)
-#: rc.cpp:18
+#: folderviewDisplayConfig.ui:123
 msgid "Sorting:"
 msgstr "Zortowanié:"
 
-#. i18n: file: folderviewDisplayConfig.ui:136
 #. i18n: ectx: property (whatsThis), widget (KComboBox, sortCombo)
-#: rc.cpp:21
+#: folderviewDisplayConfig.ui:136
 msgid ""
 "Use this control to choose the criteria by which the icons will be sorted in "
 "the view."
@@ -259,40 +244,34 @@ msgstr ""
 "W ti òptacëji mòżeta nastôwic to, wedle jaczich kriterów  mają bëc "
 "pòzortowóné ikònë w wëzdrzatkù."
 
-#. i18n: file: folderviewDisplayConfig.ui:156
 #. i18n: ectx: property (text), widget (QLabel, sizeSliderLabel)
-#: rc.cpp:24 tooltipwidget.cpp:145
+#: folderviewDisplayConfig.ui:156 tooltipwidget.cpp:145
 msgid "Size:"
 msgstr "Miara:"
 
-#. i18n: file: folderviewDisplayConfig.ui:171
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:27
+#: folderviewDisplayConfig.ui:171
 msgid "Small"
 msgstr "Môłô"
 
-#. i18n: file: folderviewDisplayConfig.ui:181
 #. i18n: ectx: property (whatsThis), widget (QSlider, sizeSlider)
-#: rc.cpp:30
+#: folderviewDisplayConfig.ui:181
 msgid ""
 "Use this slider to increase or decrease the size of the icons in the view."
 msgstr "Z pòmòcą tegò przestôwnika mòżeta zjinaczac miarë ikònów."
 
-#. i18n: file: folderviewDisplayConfig.ui:203
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:33
+#: folderviewDisplayConfig.ui:203
 msgid "Large"
 msgstr "Wiôlgô"
 
-#. i18n: file: folderviewDisplayConfig.ui:212
 #. i18n: ectx: property (text), widget (QLabel, previewsAdvancedLabel)
-#: rc.cpp:36
+#: folderviewDisplayConfig.ui:212
 msgid "Previews:"
 msgstr "Pòdzérczi:"
 
-#. i18n: file: folderviewDisplayConfig.ui:224
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, showPreviews)
-#: rc.cpp:39
+#: folderviewDisplayConfig.ui:224
 msgid ""
 "Check this option if you want to see previews of the file contents in the "
 "icons."
@@ -300,29 +279,25 @@ msgstr ""
 "Wëbierzë na òptacëjã jeżlë chcesz dobëc pòdzérk kònténera lopka na placu "
 "ikònë."
 
-#. i18n: file: folderviewDisplayConfig.ui:234
 #. i18n: ectx: property (whatsThis), widget (QPushButton, previewsAdvanced)
-#: rc.cpp:42
+#: folderviewDisplayConfig.ui:234
 msgid ""
 "Click this button to choose for which types of files previews will be shown."
 msgstr ""
 "Klëkni na tã knapã abë wëbrac ôrt lopka dlô jaczegò mô sã pòkôzac pòdzérk."
 
-#. i18n: file: folderviewDisplayConfig.ui:237
 #. i18n: ectx: property (text), widget (QPushButton, previewsAdvanced)
-#: rc.cpp:45
+#: folderviewDisplayConfig.ui:237
 msgid "More Preview Options..."
 msgstr "Wicy pòtacëji pòdzérkù..."
 
-#. i18n: file: folderviewDisplayConfig.ui:259
 #. i18n: ectx: property (text), widget (QLabel, lockInPlaceLabel)
-#: rc.cpp:48
+#: folderviewDisplayConfig.ui:259
 msgid "Lock in place:"
 msgstr "Blokùjë pòłóżenié:"
 
-#. i18n: file: folderviewDisplayConfig.ui:271
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, lockInPlace)
-#: rc.cpp:51
+#: folderviewDisplayConfig.ui:271
 msgid ""
 "Check this option if you do not want the icons to be moveable in the view.\n"
 "\n"
@@ -333,15 +308,13 @@ msgstr ""
 "\n"
 "Je to prakticzné jak n.p. nie chceta bë ikònë òstałë niéchcało przeniosłé."
 
-#. i18n: file: folderviewDisplayConfig.ui:281
 #. i18n: ectx: property (text), widget (QLabel, alignToGridLabel)
-#: rc.cpp:56
+#: folderviewDisplayConfig.ui:281
 msgid "Align to grid:"
 msgstr "Wërôwnanié do mrzéżczi:"
 
-#. i18n: file: folderviewDisplayConfig.ui:293
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, alignToGrid)
-#: rc.cpp:59
+#: folderviewDisplayConfig.ui:293
 msgid ""
 "Check this option if you want the icons to be arranged in a grid.\n"
 "\n"
@@ -353,15 +326,13 @@ msgstr ""
 "Jeżlë na òptacëjô je włączonô, to ikònë bãdą aùtomatno wërównóné do "
 "niewidzawny mrzéżczi."
 
-#. i18n: file: folderviewDisplayConfig.ui:303
 #. i18n: ectx: property (text), widget (QLabel, clickToViewLabel)
-#: rc.cpp:64
+#: folderviewDisplayConfig.ui:303
 msgid "Click to view folder:"
 msgstr ""
 
-#. i18n: file: folderviewDisplayConfig.ui:313
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, clickToView)
-#: rc.cpp:67
+#: folderviewDisplayConfig.ui:313
 #, fuzzy
 #| msgid ""
 #| "Check this option if you want the icons to be arranged in a grid.\n"
@@ -378,63 +349,54 @@ msgstr ""
 "Jeżlë na òptacëjô je włączonô, to ikònë bãdą aùtomatno wërównóné do "
 "niewidzawny mrzéżczi."
 
-#. i18n: file: folderviewDisplayConfig.ui:335
 #. i18n: ectx: property (text), widget (QLabel, iconTextTitle)
-#: rc.cpp:70
+#: folderviewDisplayConfig.ui:335
 #, fuzzy
 #| msgid "Icon Settings"
 msgid "Icon Text"
 msgstr "Nastôwë ikònów"
 
-#. i18n: file: folderviewDisplayConfig.ui:342
 #. i18n: ectx: property (text), widget (QLabel, numLinesEditLabel)
-#: rc.cpp:73
+#: folderviewDisplayConfig.ui:342
 msgid "Lines:"
 msgstr "Réżczi:"
 
-#. i18n: file: folderviewDisplayConfig.ui:361
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, numLinesEdit)
-#: rc.cpp:76
+#: folderviewDisplayConfig.ui:361
 msgid ""
 "Use this control to choose how many lines of text will be shown below the "
 "icons."
 msgstr "Tuwò mòżeta wëbrac jak wielë réżków mô miec tekst pòd ikòną."
 
-#. i18n: file: folderviewDisplayConfig.ui:364
 #. i18n: ectx: property (specialValueText), widget (KIntSpinBox, numLinesEdit)
-#: rc.cpp:79
+#: folderviewDisplayConfig.ui:364
 msgid "1 line"
 msgstr "1 réżka"
 
-#. i18n: file: folderviewDisplayConfig.ui:367
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, numLinesEdit)
-#: rc.cpp:82
+#: folderviewDisplayConfig.ui:367
 msgid " lines"
 msgstr " réżczi"
 
-#. i18n: file: folderviewDisplayConfig.ui:396
 #. i18n: ectx: property (text), widget (QLabel, colorButtonLabel)
-#: rc.cpp:85
+#: folderviewDisplayConfig.ui:396
 msgid "Color:"
 msgstr "Farwa:"
 
-#. i18n: file: folderviewDisplayConfig.ui:409
 #. i18n: ectx: property (whatsThis), widget (KColorButton, colorButton)
-#: rc.cpp:88
+#: folderviewDisplayConfig.ui:409
 msgid ""
 "Click this button to choose the color which is used for the text labels in "
 "the view."
 msgstr "Klëkni na tã knapã abë wëbrac farwã tekstu dlô òpisënka."
 
-#. i18n: file: folderviewDisplayConfig.ui:419
 #. i18n: ectx: property (text), widget (QLabel, drawShadowsLabel)
-#: rc.cpp:91
+#: folderviewDisplayConfig.ui:419
 msgid "Shadows:"
 msgstr "Ceniô:"
 
-#. i18n: file: folderviewDisplayConfig.ui:436
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, drawShadows)
-#: rc.cpp:94
+#: folderviewDisplayConfig.ui:436
 msgid ""
 "<html><body><p>Check this option if you want the text labels to cast a "
 "shadow on the background.</p>\n"
@@ -454,9 +416,8 @@ msgstr ""
 "<p><i>Równak przë cemnym tekscë wëskrzëni sã pòdskrzënianié na placu ceniô.</"
 "i></p></body></html>"
 
-#. i18n: file: folderviewFilterConfig.ui:34
 #. i18n: ectx: property (toolTip), widget (QComboBox, filterType)
-#: rc.cpp:101
+#: folderviewFilterConfig.ui:34
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -490,39 +451,33 @@ msgstr ""
 "dóné\"*\" jakno szëkóny szlach, ale ni môsz wëbróné ôrtów MIME, niżóden lopk "
 "nie bãdze pòkazóny.</p></body></html>"
 
-#. i18n: file: folderviewFilterConfig.ui:41
 #. i18n: ectx: property (text), item, widget (QComboBox, filterType)
-#: rc.cpp:109
+#: folderviewFilterConfig.ui:41
 msgid "Show All Files"
 msgstr "Wëskrzëni wszëtczé lopczi"
 
-#. i18n: file: folderviewFilterConfig.ui:46
 #. i18n: ectx: property (text), item, widget (QComboBox, filterType)
-#: rc.cpp:112
+#: folderviewFilterConfig.ui:46
 msgid "Show Files Matching"
 msgstr "Wëskrzëni pasowné lopczi"
 
-#. i18n: file: folderviewFilterConfig.ui:51
 #. i18n: ectx: property (text), item, widget (QComboBox, filterType)
-#: rc.cpp:115
+#: folderviewFilterConfig.ui:51
 msgid "Hide Files Matching"
 msgstr "Nie wëskrzëniwôj pasownëch lopków"
 
-#. i18n: file: folderviewFilterConfig.ui:96
 #. i18n: ectx: property (text), widget (QPushButton, selectAll)
-#: rc.cpp:118
+#: folderviewFilterConfig.ui:96
 msgid "Select All"
 msgstr "Wëbiérzë wszëtkò"
 
-#. i18n: file: folderviewFilterConfig.ui:103
 #. i18n: ectx: property (text), widget (QPushButton, deselectAll)
-#: rc.cpp:121
+#: folderviewFilterConfig.ui:103
 msgid "Deselect All"
 msgstr "Nié wëbierôj wszëtczegò"
 
-#. i18n: file: folderviewFilterConfig.ui:112
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
-#: rc.cpp:124
+#: folderviewFilterConfig.ui:112
 msgid ""
 "Note that if you have selected \"Show Files Matching\" or \"Hide Files "
 "Matching\",\n"
@@ -537,39 +492,33 @@ msgstr ""
 "Na przëmiôr, jeżlë môsz dóné\"*\" jakno szëkóny szlach, ale ni môsz wëbróné "
 "ôrtów MIME, niżóden lopk nie bãdze pòkazóny."
 
-#. i18n: file: folderviewFilterConfig.ui:115
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:129
+#: folderviewFilterConfig.ui:115
 msgid "<a href=\"null\">Cannot See Any Files?</a>"
 msgstr "<a href=\"null\">Nie widzysz lopków?</a>"
 
-#. i18n: file: folderviewFilterConfig.ui:142
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, searchMimetype)
-#: rc.cpp:132
+#: folderviewFilterConfig.ui:142
 msgid "Search file type"
 msgstr "Szëkôj za ôrtã lopka"
 
-#. i18n: file: folderviewFilterConfig.ui:152
 #. i18n: ectx: property (text), widget (QLabel, fileTypesLabel)
-#: rc.cpp:135
+#: folderviewFilterConfig.ui:152
 msgid "File types:"
 msgstr "Ôrtë lopka:"
 
-#. i18n: file: folderviewFilterConfig.ui:159
 #. i18n: ectx: property (text), widget (QLabel, fileNameLabel)
-#: rc.cpp:138
+#: folderviewFilterConfig.ui:159
 msgid "File name pattern:"
 msgstr "Mùster lopka:"
 
-#. i18n: file: folderviewFilterConfig.ui:172
 #. i18n: ectx: property (toolTip), widget (KLineEdit, filterFilesPattern)
-#: rc.cpp:141
+#: folderviewFilterConfig.ui:172
 msgid "Space-separated list of extensions, e.g. *.txt *.od*"
 msgstr "Lësta rozszérzeniów òddzélonô òdstãpama, np. *.txt *  .od*"
 
-#. i18n: file: folderviewFilterConfig.ui:175
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, filterFilesPattern)
-#: rc.cpp:144
+#: folderviewFilterConfig.ui:175
 msgid ""
 "Space-separated list of extensions, e.g. *.txt *.od* to display only office- "
 "and text-files"
@@ -577,47 +526,48 @@ msgstr ""
 "Lësta rozszérzeniów òddzélonô òdstãpama, np. *.txt *  .od* bë wëskrzënic "
 "blós biurowé ë tekstowé lopczi"
 
-#. i18n: file: folderviewFilterConfig.ui:184
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, filterFilesPattern)
-#: rc.cpp:147
+#: folderviewFilterConfig.ui:184
 msgid "Pattern filter"
 msgstr "Filter mùstra"
 
-#. i18n: file: folderviewLocationConfig.ui:17
 #. i18n: ectx: property (text), widget (QRadioButton, showDesktopFolder)
-#: rc.cpp:150
+#: folderviewLocationConfig.ui:17
 msgid "Show the Desktop folder"
 msgstr "Wëskrzëni katalog pùltu"
 
-#. i18n: file: folderviewLocationConfig.ui:24
 #. i18n: ectx: property (text), widget (QRadioButton, showActivity)
-#: rc.cpp:153
+#: folderviewLocationConfig.ui:24
 msgid "Show the files related to the current activity"
 msgstr ""
 
-#. i18n: file: folderviewLocationConfig.ui:31
 #. i18n: ectx: property (text), widget (QRadioButton, showPlace)
-#: rc.cpp:156
+#: folderviewLocationConfig.ui:31
 msgid "Show a place:"
 msgstr "Wëskrzëni môl:"
 
-#. i18n: file: folderviewLocationConfig.ui:61
 #. i18n: ectx: property (text), widget (QRadioButton, showCustomFolder)
-#: rc.cpp:159
+#: folderviewLocationConfig.ui:61
 msgid "Specify a folder:"
 msgstr "Wëbierzë katalog:"
 
-#. i18n: file: folderviewLocationConfig.ui:92
 #. i18n: ectx: property (clickMessage), widget (KUrlRequester, lineEdit)
-#: rc.cpp:162
+#: folderviewLocationConfig.ui:92
 msgid "Type a path or a URL here"
 msgstr "Wpiszë tuwò stegnã abò URL"
 
-#. i18n: file: folderviewPreviewConfig.ui:16
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:165
+#: folderviewPreviewConfig.ui:16
 msgid "Check the file types you want icon previews for:"
 msgstr "Wëbierzë ôrt lopka dlô jaczegò mô sã wëskrzënic pòdzérk lopka."
+
+#: iconview.cpp:1241
+msgid "This folder is empty."
+msgstr "Nen katalog je pùsti."
+
+#: iconview.cpp:2195
+msgid "Set as &Wallpaper"
+msgstr "Nstôwi jakno &tapétã"
 
 #: tooltipwidget.cpp:114
 msgctxt "Music"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 05:50+0200\n"
+"POT-Creation-Date: 2012-08-20 05:34+0200\n"
 "PO-Revision-Date: 2009-12-14 21:59+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -20,6 +20,14 @@ msgstr ""
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Michôł Òstrowsczi,Mark Kwidzińsczi"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "michol@linuxcsb.org,mark@linuxcsb.org"
 
 #: applet/applet.cpp:84
 msgid "Kickoff Application Launcher"
@@ -46,6 +54,21 @@ msgstr "Przełączë do klasikòwégò sztélu menu"
 msgctxt "General configuration page"
 msgid "General"
 msgstr "Òglowò"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: applet/kickoffConfig.ui:27
+msgid "Show applications by &name:"
+msgstr "Wëskrzëni aplikacëje wedle mionów:"
+
+#. i18n: ectx: property (text), widget (QLabel, iconLabel)
+#: applet/kickoffConfig.ui:73
+msgid "&Icon:"
+msgstr "&Ikòna:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: applet/kickoffConfig.ui:86
+msgid "Switch &tabs on hover:"
+msgstr "Przełączë &kôrtë pò najachaniu na nie mëszą:"
 
 #: core/applicationmodel.cpp:334
 msgid "Games"
@@ -372,34 +395,6 @@ msgstr "<b>%1 (%2)</b> na <b>%3</b>"
 msgctxt "Label of the search bar textedit"
 msgid "Search:"
 msgstr "Szëkba:"
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Michôł Òstrowsczi,Mark Kwidzińsczi"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "michol@linuxcsb.org,mark@linuxcsb.org"
-
-#. i18n: file: applet/kickoffConfig.ui:27
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:5
-msgid "Show applications by &name:"
-msgstr "Wëskrzëni aplikacëje wedle mionów:"
-
-#. i18n: file: applet/kickoffConfig.ui:73
-#. i18n: ectx: property (text), widget (QLabel, iconLabel)
-#: rc.cpp:8
-msgid "&Icon:"
-msgstr "&Ikòna:"
-
-#. i18n: file: applet/kickoffConfig.ui:86
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:11
-msgid "Switch &tabs on hover:"
-msgstr "Przełączë &kôrtë pò najachaniu na nie mëszą:"
 
 #~ msgid "Switch to Kickoff Menu Style"
 #~ msgstr "Przełączë do sztélu menu Kickoffa"
