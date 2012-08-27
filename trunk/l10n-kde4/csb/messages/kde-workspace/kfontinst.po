@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 05:29+0200\n"
+"POT-Creation-Date: 2012-08-27 04:54+0200\n"
 "PO-Revision-Date: 2009-12-20 18:09+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -189,10 +189,14 @@ msgstr "Copni wëbiérk do rëmniãcô"
 msgid "Mark for Deletion"
 msgstr "Wëbierzë do rëmniãcô"
 
-#: kcmfontinst/DuplicatesDialog.cpp:532 kcmfontinst/FontList.cpp:1868
-#, kde-format
-msgid "Open all %1 fonts in font viewer?"
-msgstr "Òtemknąc wszëtczé %1 fòntë w przezérnikù fòntów?"
+#: kcmfontinst/DuplicatesDialog.cpp:532
+#, fuzzy, kde-format
+#| msgid "Open all %1 fonts in font viewer?"
+msgid "Open font in font viewer?"
+msgid_plural "Open all %1 fonts in font viewer?"
+msgstr[0] "Òtemknąc wszëtczé %1 fòntë w przezérnikù fòntów?"
+msgstr[1] "Òtemknąc wszëtczé %1 fòntë w przezérnikù fòntów?"
+msgstr[2] "Òtemknąc wszëtczé %1 fòntë w przezérnikù fòntów?"
 
 #: kcmfontinst/FontFilter.cpp:127
 msgid "Set Criteria"
@@ -301,6 +305,11 @@ msgstr "Drëkùjë..."
 #: kcmfontinst/FontList.cpp:1429
 msgid "Reload"
 msgstr "Zladëjë znowa"
+
+#: kcmfontinst/FontList.cpp:1868
+#, kde-format
+msgid "Open all %1 fonts in font viewer?"
+msgstr "Òtemknąc wszëtczé %1 fòntë w przezérnikù fòntów?"
 
 #: kcmfontinst/GroupList.cpp:87
 msgid "All Fonts"
