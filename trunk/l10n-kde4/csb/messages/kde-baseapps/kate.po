@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-27 04:43+0200\n"
+"POT-Creation-Date: 2012-10-04 04:25+0200\n"
 "PO-Revision-Date: 2009-12-19 02:07+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -973,7 +973,9 @@ msgid "Documents Modified on Disk"
 msgstr "Dokùmentë zmienioné na diskù"
 
 #: app/katemwmodonhddialog.cpp:67
-msgid "&Ignore"
+#, fuzzy
+#| msgid "&Ignore"
+msgid "&Ignore Changes"
 msgstr "&Przepùszczë"
 
 #: app/katemwmodonhddialog.cpp:69
@@ -981,30 +983,25 @@ msgid "&Reload"
 msgstr "&Zladëjë znowa"
 
 #: app/katemwmodonhddialog.cpp:76
-msgid ""
-"Removes the modified flag from the selected documents and closes the dialog "
-"if there are no more unhandled documents."
+msgid "Remove modified flag from selected documents"
 msgstr ""
-"Rëmô znaczniczi mòdifikacëji z wëbrónëch dokùmentów  ë zamëkô dialogòwé òkna "
-"eżlë nie dô wicy òbsłëgiwónëch dokùmentów."
 
-#: app/katemwmodonhddialog.cpp:79
-msgid ""
-"Overwrite selected documents, discarding the disk changes and closes the "
-"dialog if there are no more unhandled documents."
+#: app/katemwmodonhddialog.cpp:78
+#, fuzzy
+#| msgid ""
+#| "Overwrite selected documents, discarding the disk changes and closes the "
+#| "dialog if there are no more unhandled documents."
+msgid "Overwrite selected documents, discarding disk changes"
 msgstr ""
 "Nôdpisëwô wëbróné dokùmentë, niechô zmianë na diskù ë zamëkô dialogòwé òkna "
 "eżlë nie dô wicy òbsłëgiwónëch dokùmentów."
 
-#: app/katemwmodonhddialog.cpp:82
-msgid ""
-"Reloads the selected documents from disk and closes the dialog if there are "
-"no more unhandled documents."
-msgstr ""
-"Ladëjë znowa wrbróné dokùmentë z diskù ë zamëkô dialogòwé òkna eżlë nie dô "
-"wicy òbsłëgiwónëch dokùmentów."
+#: app/katemwmodonhddialog.cpp:80
+#, fuzzy
+msgid "Reload selected documents from disk"
+msgstr "Zamkni wszëtczé dokùmentë"
 
-#: app/katemwmodonhddialog.cpp:96
+#: app/katemwmodonhddialog.cpp:93
 msgid ""
 "<qt>The documents listed below have changed on disk.<p>Select one or more at "
 "once, and press an action button until the list is empty.</p></qt>"
@@ -1012,31 +1009,31 @@ msgstr ""
 "<qt>Ùniższé dokùmentë òstałë zmienione na diskù.<p>Wëbierzë jeden abò wicy z "
 "lëstë ë wcësni kąpã dzejaniô aż lësta bãdze pùstô.</p></qt>"
 
-#: app/katemwmodonhddialog.cpp:103
+#: app/katemwmodonhddialog.cpp:100
 msgid "Filename"
 msgstr "Miono lopka"
 
-#: app/katemwmodonhddialog.cpp:103
+#: app/katemwmodonhddialog.cpp:100
 msgid "Status on Disk"
 msgstr "Stón na diskù"
 
-#: app/katemwmodonhddialog.cpp:109
+#: app/katemwmodonhddialog.cpp:106
 msgid "Modified"
 msgstr "Zmieniony"
 
-#: app/katemwmodonhddialog.cpp:109
+#: app/katemwmodonhddialog.cpp:106
 msgid "Created"
 msgstr "Ùsôdzony"
 
-#: app/katemwmodonhddialog.cpp:109
+#: app/katemwmodonhddialog.cpp:106
 msgid "Deleted"
 msgstr "Rëmniãti"
 
-#: app/katemwmodonhddialog.cpp:124
+#: app/katemwmodonhddialog.cpp:121
 msgid "&View Difference"
 msgstr "Òbôczë &nierównoscë"
 
-#: app/katemwmodonhddialog.cpp:127
+#: app/katemwmodonhddialog.cpp:124
 #, fuzzy
 #| msgid ""
 #| "Calculates the difference between the the editor contents and the disk "
@@ -1050,7 +1047,7 @@ msgstr ""
 "Òbrechiwô nierównoscë midzë zamkłoscą editora a lopkã na diskù, pò czim "
 "pòkazëjë je w domëszlny programie. Je nót pòlétu diff(1)."
 
-#: app/katemwmodonhddialog.cpp:187
+#: app/katemwmodonhddialog.cpp:184
 #, kde-format
 msgid ""
 "Could not save the document \n"
@@ -1059,7 +1056,7 @@ msgstr ""
 "Nie mòże zapisac dokùmentu \n"
 "'%1'"
 
-#: app/katemwmodonhddialog.cpp:285
+#: app/katemwmodonhddialog.cpp:282
 msgid ""
 "The diff command failed. Please make sure that diff(1) is installed and in "
 "your PATH."
@@ -1067,15 +1064,15 @@ msgstr ""
 "Zrëszony pòlét diff nie darzëł sã. Ùgwësni sã, czë pòlét diff(1) je "
 "winstalowóny ë że nachôdô sã na stegnie òznaczony zmienną PATH."
 
-#: app/katemwmodonhddialog.cpp:287
+#: app/katemwmodonhddialog.cpp:284
 msgid "Error Creating Diff"
 msgstr "Fela òbrechòwaniô nierównoscë"
 
-#: app/katemwmodonhddialog.cpp:296
+#: app/katemwmodonhddialog.cpp:293
 msgid "Besides white space changes, the files are identical."
 msgstr ""
 
-#: app/katemwmodonhddialog.cpp:297
+#: app/katemwmodonhddialog.cpp:294
 msgid "Diff Output"
 msgstr ""
 
@@ -2287,6 +2284,20 @@ msgstr ""
 "<p>Wcësni <strong>F8</strong> abò <strong>Shift+F8</strong>, bë przełączac \n"
 "wëzdrzatczi.</p>\n"
 
+#~ msgid ""
+#~ "Removes the modified flag from the selected documents and closes the "
+#~ "dialog if there are no more unhandled documents."
+#~ msgstr ""
+#~ "Rëmô znaczniczi mòdifikacëji z wëbrónëch dokùmentów  ë zamëkô dialogòwé "
+#~ "òkna eżlë nie dô wicy òbsłëgiwónëch dokùmentów."
+
+#~ msgid ""
+#~ "Reloads the selected documents from disk and closes the dialog if there "
+#~ "are no more unhandled documents."
+#~ msgstr ""
+#~ "Ladëjë znowa wrbróné dokùmentë z diskù ë zamëkô dialogòwé òkna eżlë nie "
+#~ "dô wicy òbsłëgiwónëch dokùmentów."
+
 #, fuzzy
 #~| msgid "Create a new document"
 #~ msgid "Cannot go to the document"
@@ -2373,10 +2384,6 @@ msgstr ""
 #~| msgid "&Save Selected"
 #~ msgid "Close Selected"
 #~ msgstr "&Zapiszë wëbróné"
-
-#, fuzzy
-#~ msgid "Close selected open documents."
-#~ msgstr "Zamkni wszëtczé dokùmentë"
 
 #, fuzzy
 #~| msgid "&Save Selected"
