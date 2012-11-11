@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 15:44+0200\n"
+"POT-Creation-Date: 2012-11-11 07:58+0100\n"
 "PO-Revision-Date: 2009-12-14 23:28+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -21,62 +21,13 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: contents/ui/batterymonitor.qml:108
+#: contents/ui/batterymonitor.qml:121
 #, kde-format
 msgctxt "overlay on the battery, needs to be really tiny"
 msgid "%1%"
 msgstr ""
 
-#: contents/ui/batterymonitor.qml:121
-#, fuzzy
-#| msgid "Battery"
-msgid "<b>Battery:</b>"
-msgstr "Baterjô"
-
-#: contents/ui/batterymonitor.qml:123 contents/ui/PopupDialog.qml:91
-msgctxt "Battery is not plugged in"
-msgid "Not present"
-msgstr "Felëje"
-
-#: contents/ui/batterymonitor.qml:125
-#, fuzzy
-#| msgid "<b>AC Adapter:</b> Plugged in"
-msgctxt "tooltip"
-msgid "<b>AC Adapter:</b>"
-msgstr "<b>Sztrómòwi kabel:</b> wetkniãti"
-
-#: contents/ui/batterymonitor.qml:127
-#, fuzzy
-#| msgid "Plugged in "
-msgctxt "tooltip"
-msgid "Plugged in"
-msgstr "Pòdłączony "
-
-#: contents/ui/batterymonitor.qml:127
-#, fuzzy
-#| msgid "Not plugged in"
-msgctxt "tooltip"
-msgid "Not plugged in"
-msgstr "Nié pòdłączony"
-
-#: contents/ui/batterymonitor.qml:164
-#, kde-format
-msgid "%1% (charging)"
-msgstr "%1% (ladowanié)"
-
-#: contents/ui/batterymonitor.qml:166
-#, fuzzy, kde-format
-#| msgctxt "Shown when a time estimate is not available"
-#| msgid "%1% (discharging)"
-msgid "%1% (discharging)"
-msgstr "%1 (rozladowanié)"
-
-#: contents/ui/batterymonitor.qml:168
-#, kde-format
-msgid "%1% (charged)"
-msgstr " %1% (naladowóné)"
-
-#: contents/ui/batterymonitor.qml:215
+#: contents/ui/batterymonitor.qml:221
 msgid "The battery applet has enabled system-wide inhibition"
 msgstr ""
 
@@ -95,57 +46,64 @@ msgstr "Wëskrzëni &wëdowiédzã ò ladowaniém"
 msgid "Show the state for &each battery present"
 msgstr "Wëskrzëni stón &kòżdi bëtny baterëji"
 
-#: contents/ui/PopupDialog.qml:54
+#: contents/ui/PopupDialog.qml:55
+#, fuzzy, kde-format
+#| msgid "Battery:"
+msgctxt "Placeholder is the battery ID"
+msgid "Battery %1:"
+msgstr "Baterëjô."
+
+#: contents/ui/PopupDialog.qml:55
 msgid "Battery:"
 msgstr "Baterëjô."
 
-#: contents/ui/PopupDialog.qml:59
+#: contents/ui/PopupDialog.qml:62
 #, fuzzy
 #| msgid "AC Adapter:"
 msgid "AC Adapter:"
 msgstr "Zasëlôcz:"
 
-#: contents/ui/PopupDialog.qml:65
+#: contents/ui/PopupDialog.qml:68
 #, fuzzy
 #| msgid "Time remaining: <b>%1</b><br />"
 msgctxt "Label for remaining time"
 msgid "Time Remaining:"
 msgstr "Òstôwô czasu: <b>%1</b><br />"
 
-#: contents/ui/PopupDialog.qml:71
+#: contents/ui/PopupDialog.qml:74
 #, fuzzy
 #| msgid "Power Management"
 msgctxt "Label for power management inhibition"
 msgid "Power management enabled:"
 msgstr "Sprôwianié mòcą"
 
-#: contents/ui/PopupDialog.qml:76
+#: contents/ui/PopupDialog.qml:79
 #, fuzzy
 #| msgid "Screen Brightness"
 msgid "Screen Brightness:"
 msgstr "Jasnota ekranu"
 
-#: contents/ui/PopupDialog.qml:96
+#: contents/ui/PopupDialog.qml:109
 #, fuzzy
 #| msgid "Plugged in "
 msgid "Plugged in"
 msgstr "Pòdłączony "
 
-#: contents/ui/PopupDialog.qml:96
+#: contents/ui/PopupDialog.qml:109
 #, fuzzy
 #| msgid "Not plugged in"
 msgid "Not plugged in"
 msgstr "Nié pòdłączony"
 
-#: contents/ui/PopupDialog.qml:129
+#: contents/ui/PopupDialog.qml:155
 #, kde-format
-msgid "1 hour"
-msgid_plural "%1 hours"
+msgid "1 hour "
+msgid_plural "%1 hours "
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: contents/ui/PopupDialog.qml:130
+#: contents/ui/PopupDialog.qml:156
 #, kde-format
 msgid "1 minute"
 msgid_plural "%1 minutes"
@@ -153,19 +111,58 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: contents/ui/PopupDialog.qml:144
+#: contents/ui/PopupDialog.qml:170
 #, fuzzy
 #| msgid "Sleep"
 msgctxt "Suspend the computer to RAM; translation should be short"
 msgid "Sleep"
 msgstr "Ùspienié"
 
-#: contents/ui/PopupDialog.qml:151
+#: contents/ui/PopupDialog.qml:177
 #, fuzzy
 #| msgid "Hibernate"
 msgctxt "Suspend the computer to disk; translation should be short"
 msgid "Hibernate"
 msgstr "Hibernacëjô"
+
+#, fuzzy
+#~| msgid "Battery"
+#~ msgid "<b>Battery:</b>"
+#~ msgstr "Baterjô"
+
+#~ msgctxt "Battery is not plugged in"
+#~ msgid "Not present"
+#~ msgstr "Felëje"
+
+#, fuzzy
+#~| msgid "<b>AC Adapter:</b> Plugged in"
+#~ msgctxt "tooltip"
+#~ msgid "<b>AC Adapter:</b>"
+#~ msgstr "<b>Sztrómòwi kabel:</b> wetkniãti"
+
+#, fuzzy
+#~| msgid "Plugged in "
+#~ msgctxt "tooltip"
+#~ msgid "Plugged in"
+#~ msgstr "Pòdłączony "
+
+#, fuzzy
+#~| msgid "Not plugged in"
+#~ msgctxt "tooltip"
+#~ msgid "Not plugged in"
+#~ msgstr "Nié pòdłączony"
+
+#~ msgid "%1% (charging)"
+#~ msgstr "%1% (ladowanié)"
+
+#, fuzzy
+#~| msgctxt "Shown when a time estimate is not available"
+#~| msgid "%1% (discharging)"
+#~ msgid "%1% (discharging)"
+#~ msgstr "%1 (rozladowanié)"
+
+#~ msgid "%1% (charged)"
+#~ msgstr " %1% (naladowóné)"
 
 #, fuzzy
 #~| msgid "Show the percentage of &charge on the battery"
@@ -185,12 +182,6 @@ msgstr "Hibernacëjô"
 #~ msgctxt "tooltip on the config button in the popup"
 #~ msgid "Configure Power Management..."
 #~ msgstr "Sprôwianié mòcą..."
-
-#, fuzzy
-#~| msgid "Battery:"
-#~ msgctxt "Placeholder is the battery ID"
-#~ msgid "Battery %1:"
-#~ msgstr "Baterëjô."
 
 #, fuzzy
 #~| msgid "Plugged in "
