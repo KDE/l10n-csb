@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-11-11 07:57+0100\n"
+"POT-Creation-Date: 2012-08-22 12:16+0200\n"
 "PO-Revision-Date: 2009-12-20 19:03+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -489,26 +489,26 @@ msgid "None"
 msgstr "Felënk"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
-#: colorsettings.ui:760
+#. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
+#: colorsettings.ui:760 colorsettings.ui:1010
 #, fuzzy
 #| msgid "Shade"
-msgctxt "inactive intensity effect"
 msgid "Shade"
 msgstr "Ceniëjë"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
-#: colorsettings.ui:765
+#. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
+#: colorsettings.ui:765 colorsettings.ui:1015
 #, fuzzy
 #| msgid "Darken"
-msgctxt "inactive intensity effect"
 msgid "Darken"
 msgstr "Cemnienié"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
-#: colorsettings.ui:770
+#. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
+#: colorsettings.ui:770 colorsettings.ui:1020
 #, fuzzy
 #| msgid "Lighten"
-msgctxt "inactive intensity effect"
 msgid "Lighten"
 msgstr "Rozwidnianié"
 
@@ -537,26 +537,32 @@ msgid "None"
 msgstr "Felënk"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
-#: colorsettings.ui:832
+#. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
+#: colorsettings.ui:832 colorsettings.ui:1082
 #, fuzzy
 #| msgid "Desaturate"
-msgctxt "inactive color effect"
 msgid "Desaturate"
 msgstr "Desaturacëjô"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
-#: colorsettings.ui:837
+#. i18n: ectx: property (text), item, widget (QComboBox, inactiveContrastBox)
+#. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
+#. i18n: ectx: property (text), item, widget (QComboBox, disabledContrastBox)
+#: colorsettings.ui:837 colorsettings.ui:898 colorsettings.ui:1087
+#: colorsettings.ui:1148
 #, fuzzy
 #| msgid "Fade"
-msgctxt "inactive color effect"
 msgid "Fade"
 msgstr "Zanikanié"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
-#: colorsettings.ui:842
+#. i18n: ectx: property (text), item, widget (QComboBox, inactiveContrastBox)
+#. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
+#. i18n: ectx: property (text), item, widget (QComboBox, disabledContrastBox)
+#: colorsettings.ui:842 colorsettings.ui:903 colorsettings.ui:1092
+#: colorsettings.ui:1153
 #, fuzzy
 #| msgid "Tint"
-msgctxt "inactive color effect"
 msgid "Tint"
 msgstr "Tinta"
 
@@ -589,22 +595,6 @@ msgctxt "no inactive contrast effect"
 msgid "None"
 msgstr "Felënk"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, inactiveContrastBox)
-#: colorsettings.ui:898
-#, fuzzy
-#| msgid "Fade"
-msgctxt "inactive contrast effect"
-msgid "Fade"
-msgstr "Zanikanié"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, inactiveContrastBox)
-#: colorsettings.ui:903
-#, fuzzy
-#| msgid "Tint"
-msgctxt "inactive contrast effect"
-msgid "Tint"
-msgstr "Tinta"
-
 #. i18n: ectx: property (toolTip), widget (QSlider, inactiveContrastSlider)
 #: colorsettings.ui:914
 msgid "Inactive contrast effect amount"
@@ -631,30 +621,6 @@ msgctxt "no disabled intensity effect"
 msgid "None"
 msgstr "Felënk"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
-#: colorsettings.ui:1010
-#, fuzzy
-#| msgid "Shade"
-msgctxt "disabled intensity effect"
-msgid "Shade"
-msgstr "Ceniëjë"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
-#: colorsettings.ui:1015
-#, fuzzy
-#| msgid "Darken"
-msgctxt "disabled intensity effect"
-msgid "Darken"
-msgstr "Cemnienié"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
-#: colorsettings.ui:1020
-#, fuzzy
-#| msgid "Lighten"
-msgctxt "disabled intensity effect"
-msgid "Lighten"
-msgstr "Rozwidnianié"
-
 #. i18n: ectx: property (toolTip), widget (QSlider, disabledIntensitySlider)
 #: colorsettings.ui:1031
 msgid "Disabled intensity effect amount"
@@ -672,30 +638,6 @@ msgstr "Wëłączony ôrt efektu farwë"
 msgctxt "no disabled color effect"
 msgid "None"
 msgstr "Felënk"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
-#: colorsettings.ui:1082
-#, fuzzy
-#| msgid "Desaturate"
-msgctxt "disabled color effect"
-msgid "Desaturate"
-msgstr "Desaturacëjô"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
-#: colorsettings.ui:1087
-#, fuzzy
-#| msgid "Fade"
-msgctxt "disabled color effect"
-msgid "Fade"
-msgstr "Zanikanié"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
-#: colorsettings.ui:1092
-#, fuzzy
-#| msgid "Tint"
-msgctxt "disabled color effect"
-msgid "Tint"
-msgstr "Tinta"
 
 #. i18n: ectx: property (toolTip), widget (QSlider, disabledColorSlider)
 #: colorsettings.ui:1103
@@ -719,22 +661,6 @@ msgstr "Wëłączony ôrt kòntrastu"
 msgctxt "no disabled contrast"
 msgid "None"
 msgstr "Felënk"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, disabledContrastBox)
-#: colorsettings.ui:1148
-#, fuzzy
-#| msgid "Fade"
-msgctxt "disabled contrast"
-msgid "Fade"
-msgstr "Zanikanié"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, disabledContrastBox)
-#: colorsettings.ui:1153
-#, fuzzy
-#| msgid "Tint"
-msgctxt "disabled contrast"
-msgid "Tint"
-msgstr "Tinta"
 
 #. i18n: ectx: property (toolTip), widget (QSlider, disabledContrastSlider)
 #: colorsettings.ui:1164
@@ -1116,6 +1042,66 @@ msgstr "Zwikszenié na zwëczajnym spòdlém"
 msgctxt "color-kcm-set-preview"
 msgid "focus"
 msgstr "zwikszenié"
+
+#, fuzzy
+#~| msgid "Fade"
+#~ msgctxt "inactive contrast effect"
+#~ msgid "Fade"
+#~ msgstr "Zanikanié"
+
+#, fuzzy
+#~| msgid "Tint"
+#~ msgctxt "inactive contrast effect"
+#~ msgid "Tint"
+#~ msgstr "Tinta"
+
+#, fuzzy
+#~| msgid "Shade"
+#~ msgctxt "disabled intensity effect"
+#~ msgid "Shade"
+#~ msgstr "Ceniëjë"
+
+#, fuzzy
+#~| msgid "Darken"
+#~ msgctxt "disabled intensity effect"
+#~ msgid "Darken"
+#~ msgstr "Cemnienié"
+
+#, fuzzy
+#~| msgid "Lighten"
+#~ msgctxt "disabled intensity effect"
+#~ msgid "Lighten"
+#~ msgstr "Rozwidnianié"
+
+#, fuzzy
+#~| msgid "Desaturate"
+#~ msgctxt "disabled color effect"
+#~ msgid "Desaturate"
+#~ msgstr "Desaturacëjô"
+
+#, fuzzy
+#~| msgid "Fade"
+#~ msgctxt "disabled color effect"
+#~ msgid "Fade"
+#~ msgstr "Zanikanié"
+
+#, fuzzy
+#~| msgid "Tint"
+#~ msgctxt "disabled color effect"
+#~ msgid "Tint"
+#~ msgstr "Tinta"
+
+#, fuzzy
+#~| msgid "Fade"
+#~ msgctxt "disabled contrast"
+#~ msgid "Fade"
+#~ msgstr "Zanikanié"
+
+#, fuzzy
+#~| msgid "Tint"
+#~ msgctxt "disabled contrast"
+#~ msgid "Tint"
+#~ msgstr "Tinta"
 
 #~ msgid "Contrast used for 3D objects"
 #~ msgstr "Kòntrast brëkòwóny w òbiektach 3D"
