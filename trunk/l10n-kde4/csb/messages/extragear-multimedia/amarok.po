@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-11-25 02:07+0100\n"
+"POT-Creation-Date: 2012-11-27 02:35+0100\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -329,22 +329,27 @@ msgstr "Wëbróné sztëcczi"
 msgid "Stop"
 msgstr "Zatrzëmôj"
 
-#: ActionClasses.cpp:520
+#: ActionClasses.cpp:514
 #, fuzzy
 #| msgid "Love Current Track"
 msgid "Stop after current Track"
 msgstr "Achtnij biéżny sztëczk"
 
+#: ActionClasses.cpp:527 context/engines/current/CurrentEngine.cpp:136
+#: EngineController.cpp:1420 mac/GrowlInterface.cpp:43 widgets/Osd.cpp:652
+msgid "No track playing"
+msgstr "Nick nie je gróné"
+
 #: ActionClasses.cpp:535
 #, fuzzy
 #| msgid "Love Current Track"
-msgid "Stop after current track: On"
+msgid "Stop after current track: Off"
 msgstr "Achtnij biéżny sztëczk"
 
 #: ActionClasses.cpp:541
 #, fuzzy
 #| msgid "Love Current Track"
-msgid "Stop after current track: Off"
+msgid "Stop after current track: On"
 msgstr "Achtnij biéżny sztëczk"
 
 #. i18n: ectx: label, entry, group (General Options)
@@ -4850,11 +4855,6 @@ msgstr ""
 #| msgid "Context"
 msgid "&Context"
 msgstr "Kòntekst"
-
-#: context/engines/current/CurrentEngine.cpp:136 EngineController.cpp:1420
-#: mac/GrowlInterface.cpp:43 widgets/Osd.cpp:652
-msgid "No track playing"
-msgstr "Nick nie je gróné"
 
 #: context/engines/current/CurrentEngine.cpp:227
 #, kde-format
