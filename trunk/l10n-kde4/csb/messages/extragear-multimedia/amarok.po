@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-12-11 02:29+0100\n"
+"POT-Creation-Date: 2012-12-13 02:12+0100\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -1924,7 +1924,7 @@ msgstr "Albùm"
 #: dialogs/transferdialog.cpp:88 musicbrainz/MusicBrainzTags.cpp:359
 #: playlist/PlaylistModel.cpp:896 services/amazon/AmazonInfoParser.cpp:157
 #: services/jamendo/JamendoInfoParser.cpp:51
-#: services/lastfm/LastFmService.cpp:431
+#: services/lastfm/LastFmService.cpp:465
 #: services/magnatune/MagnatuneStore.cpp:220
 #: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
 msgid "Artist"
@@ -7989,9 +7989,9 @@ msgid "Enter Custom Search"
 msgstr "Ùstôwi &swòją òbkłôdkã"
 
 #: covermanager/CoverFoundDialog.cpp:128
-#: services/lastfm/LastFmServiceCollection.cpp:132
-#: services/lastfm/ScrobblerAdapter.cpp:72
-#: services/lastfm/SynchronizationAdapter.cpp:56
+#: services/lastfm/LastFmServiceCollection.cpp:130
+#: services/lastfm/ScrobblerAdapter.cpp:71
+#: services/lastfm/SynchronizationAdapter.cpp:55
 #, fuzzy
 #| msgid "last.fm"
 msgid "Last.fm"
@@ -14717,7 +14717,7 @@ msgstr ""
 #: services/gpodder/GpodderServiceSettings.cpp:224
 #: services/gpodder/GpodderServiceSettings.cpp:253
 #: services/lastfm/LastFmConfigWidget.ui:100
-#: services/lastfm/LastFmServiceSettings.cpp:217
+#: services/lastfm/LastFmServiceSettings.cpp:213
 msgid "&Test Login"
 msgstr "&Testowi login"
 
@@ -14789,19 +14789,19 @@ msgstr ""
 #: services/gpodder/GpodderServiceSettings.cpp:185
 #: services/gpodder/GpodderServiceSettings.cpp:194
 #: services/gpodder/GpodderServiceSettings.cpp:209
-#: services/lastfm/LastFmServiceSettings.cpp:145
-#: services/lastfm/LastFmServiceSettings.cpp:170
+#: services/lastfm/LastFmServiceSettings.cpp:143
+#: services/lastfm/LastFmServiceSettings.cpp:166
 msgid "Failed"
 msgstr "Nie darzëło sã"
 
 #: services/gpodder/GpodderServiceSettings.cpp:128
-#: services/lastfm/LastFmServiceSettings.cpp:137
+#: services/lastfm/LastFmServiceSettings.cpp:135
 msgctxt "The operation completed as expected"
 msgid "Success"
 msgstr "Sukces"
 
 #: services/gpodder/GpodderServiceSettings.cpp:184
-#: services/lastfm/LastFmServiceSettings.cpp:145
+#: services/lastfm/LastFmServiceSettings.cpp:143
 msgid ""
 "Either the username or the password is incorrect, please correct and try "
 "again"
@@ -15051,11 +15051,11 @@ msgstr ""
 msgid "Announce correction suggestions for track tags"
 msgstr ""
 
-#: services/lastfm/LastFmService.cpp:109
+#: services/lastfm/LastFmService.cpp:110
 msgid "Last.fm: The social music revolution"
 msgstr "Last.fm: Spòlëznowa mùzycznô rewòlucëja"
 
-#: services/lastfm/LastFmService.cpp:111
+#: services/lastfm/LastFmService.cpp:112
 msgid ""
 "Last.fm is a popular online service that provides personal radio stations "
 "and music recommendations. A personal listening station is tailored based on "
@@ -15065,48 +15065,48 @@ msgid ""
 "friends or that Last.fm considers your musical \"neighbors\""
 msgstr ""
 
-#: services/lastfm/LastFmService.cpp:203
+#: services/lastfm/LastFmService.cpp:136
 #: services/lastfm/LoveTrackAction.cpp:24
 msgid "Last.fm: Love"
 msgstr "Last.fm: Lubòtné"
 
-#: services/lastfm/LastFmService.cpp:205
+#: services/lastfm/LastFmService.cpp:138
 msgid "Ctrl+L"
 msgstr "Ctrl+L"
 
-#: services/lastfm/LastFmService.cpp:263
+#: services/lastfm/LastFmService.cpp:300
 msgctxt "Last.fm: errorMessage"
 msgid "Either the username was not recognized, or the password was incorrect."
 msgstr "Abò miono brëkòwnika nie je rozpòznóné abò parola je ze zmiłką."
 
-#: services/lastfm/LastFmService.cpp:268
+#: services/lastfm/LastFmService.cpp:305
 msgctxt "Last.fm: errorMessage"
 msgid ""
 "There was a problem communicating with the Last.fm services. Please try "
 "again later."
 msgstr ""
 
-#: services/lastfm/LastFmService.cpp:355
+#: services/lastfm/LastFmService.cpp:390
 msgid "Enter an artist name"
 msgstr "Wpiszë miono artistë"
 
-#: services/lastfm/LastFmService.cpp:358
+#: services/lastfm/LastFmService.cpp:393
 msgid "Enter a tag"
 msgstr "Wpiszë tag"
 
-#: services/lastfm/LastFmService.cpp:361
+#: services/lastfm/LastFmService.cpp:396
 #, fuzzy
 #| msgid "Enter a last.fm user name"
 msgid "Enter a Last.fm user name"
 msgstr "Wpiszë miono brëkòwnika Last.fm"
 
-#: services/lastfm/LastFmService.cpp:374
+#: services/lastfm/LastFmService.cpp:409
 #, fuzzy, kde-format
 #| msgid "Username: "
 msgid "Username: %1"
 msgstr "Miono brëkòwnika:"
 
-#: services/lastfm/LastFmService.cpp:379
+#: services/lastfm/LastFmService.cpp:414
 #, kde-format
 msgid "Play Count: %1 play"
 msgid_plural "Play Count: %1 plays"
@@ -15114,72 +15114,66 @@ msgstr[0] "Rechòwnik graniô: %1 granié"
 msgstr[1] "Rechòwnik graniô: %1 grania"
 msgstr[2] "Rechòwnik graniô: %1 graniów"
 
-#: services/lastfm/LastFmService.cpp:428
+#: services/lastfm/LastFmService.cpp:462
 msgid "Create a Custom Last.fm Station"
 msgstr "ùsôdzë swòją stacëjã Last.fm"
 
-#: services/lastfm/LastFmService.cpp:431
+#: services/lastfm/LastFmService.cpp:465
 msgid "Tag"
 msgstr "Tag"
 
-#: services/lastfm/LastFmService.cpp:431
+#: services/lastfm/LastFmService.cpp:465
 msgid "User"
 msgstr "Brëkòwnik"
 
-#: services/lastfm/LastFmService.cpp:467
-#, kde-format
-msgctxt "As in, lastfm"
-msgid "Loved Track: %1"
-msgstr "Lubòtny sztëczk: %1"
-
-#: services/lastfm/LastFmServiceCollection.cpp:33
+#: services/lastfm/LastFmServiceCollection.cpp:32
 #, kde-format
 msgid "%1's Streams"
 msgstr "Strëdżi brekòwnika %1"
 
-#: services/lastfm/LastFmServiceCollection.cpp:37
+#: services/lastfm/LastFmServiceCollection.cpp:36
 msgid "Global Tags"
 msgstr "Òglowé tadżi"
 
-#: services/lastfm/LastFmServiceCollection.cpp:41
+#: services/lastfm/LastFmServiceCollection.cpp:40
 msgid "Neighbors' Loved Radio"
 msgstr "Lubòtné radio sąsadów"
 
-#: services/lastfm/LastFmServiceCollection.cpp:45
+#: services/lastfm/LastFmServiceCollection.cpp:44
 msgid "Neighbors' Personal Radio"
 msgstr "Personowé radio sąsadów"
 
-#: services/lastfm/LastFmServiceCollection.cpp:49
+#: services/lastfm/LastFmServiceCollection.cpp:48
 msgid "Friends' Loved Radio"
 msgstr "Lubòtné radio drëchów"
 
-#: services/lastfm/LastFmServiceCollection.cpp:53
+#: services/lastfm/LastFmServiceCollection.cpp:52
 msgid "Friends' Personal Radio"
 msgstr "Personowé radio drëchów"
 
-#: services/lastfm/LastFmServiceConfig.cpp:157
+#: services/lastfm/LastFmServiceConfig.cpp:236
 #, fuzzy
 #| msgid "Last.fm Profile"
 msgid "Last.fm credentials"
 msgstr "Profil Last.fm"
 
-#: services/lastfm/LastFmServiceConfig.cpp:158
+#: services/lastfm/LastFmServiceConfig.cpp:237
 msgid ""
 "No running KWallet found. Would you like Amarok to save your Last.fm "
 "credentials in plaintext?"
 msgstr ""
 
-#: services/lastfm/LastFmServiceSettings.cpp:132
+#: services/lastfm/LastFmServiceSettings.cpp:130
 msgctxt "The operation was rejected by the server"
 msgid "Failed"
 msgstr "Nie darzëło sã"
 
-#: services/lastfm/LastFmServiceSettings.cpp:146
-#: services/lastfm/LastFmServiceSettings.cpp:171
+#: services/lastfm/LastFmServiceSettings.cpp:144
+#: services/lastfm/LastFmServiceSettings.cpp:167
 msgid "Test Login"
 msgstr "Testowi login"
 
-#: services/lastfm/LastFmServiceSettings.cpp:170
+#: services/lastfm/LastFmServiceSettings.cpp:166
 #, fuzzy
 #| msgid "Unable to retrieve Flickr : %1"
 msgid "Unable to connect to Last.fm service."
@@ -15297,7 +15291,7 @@ msgstr "Grëpòwi radio: %1"
 msgid "Artist Radio"
 msgstr "Radio artistë"
 
-#: services/lastfm/meta/LastFmMeta.cpp:446
+#: services/lastfm/meta/LastFmMeta.cpp:437
 msgid "Last.fm is cool..."
 msgstr "Last.fm je fejn..."
 
@@ -15313,7 +15307,7 @@ msgstr ""
 msgid "Error starting track from Last.fm radio"
 msgstr "Dodôj nen sztëczk do lubòtnëch na Last.fm"
 
-#: services/lastfm/ScrobblerAdapter.cpp:144
+#: services/lastfm/ScrobblerAdapter.cpp:143
 #, fuzzy, kde-format
 #| msgctxt "As in, lastfm"
 #| msgid "Loved Track: %1"
@@ -15321,7 +15315,7 @@ msgctxt "As in Last.fm"
 msgid "Loved Track: %1"
 msgstr "Lubòtny sztëczk: %1"
 
-#: services/lastfm/ScrobblerAdapter.cpp:156
+#: services/lastfm/ScrobblerAdapter.cpp:155
 #, fuzzy, kde-format
 #| msgctxt "As in, lastfm"
 #| msgid "Loved Track: %1"
@@ -15329,7 +15323,7 @@ msgctxt "As in Last.fm"
 msgid "Banned Track: %1"
 msgstr "Lubòtny sztëczk: %1"
 
-#: services/lastfm/ScrobblerAdapter.cpp:239
+#: services/lastfm/ScrobblerAdapter.cpp:238
 #, fuzzy, kde-format
 #| msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgctxt ""
@@ -15338,14 +15332,14 @@ msgctxt ""
 msgid "%1 <b>%2</b> should be corrected to <b>%3</b>"
 msgstr "<b>%1</b> wëkònywóny przez <b>%2</b> z albùmù <b>%3</b>"
 
-#: services/lastfm/ScrobblerAdapter.cpp:255
+#: services/lastfm/ScrobblerAdapter.cpp:254
 #, fuzzy, kde-format
 #| msgid "%1 - %2"
 msgctxt "%1 is artist, %2 is title"
 msgid "%1 - %2"
 msgstr "%1 - %2"
 
-#: services/lastfm/ScrobblerAdapter.cpp:258
+#: services/lastfm/ScrobblerAdapter.cpp:257
 #, kde-format
 msgid "Last.fm suggests that some tags of track <b>%1</b> should be corrected:"
 msgstr ""
@@ -15354,7 +15348,7 @@ msgstr ""
 msgid "Play Similar Artists from Last.fm"
 msgstr "Grôj juwernëch artistów z Last.fm"
 
-#: services/lastfm/SynchronizationAdapter.cpp:63
+#: services/lastfm/SynchronizationAdapter.cpp:62
 #, fuzzy
 #| msgid "No track playing"
 msgctxt "description of the Last.fm statistics synchronization provider"
@@ -17227,6 +17221,10 @@ msgstr ""
 #| msgid "Volume: %1% %2"
 msgid "Volume: %1%"
 msgstr "Głosnosc: %1% %2"
+
+#~ msgctxt "As in, lastfm"
+#~ msgid "Loved Track: %1"
+#~ msgstr "Lubòtny sztëczk: %1"
 
 #~ msgid "Default Dynamic Playlist"
 #~ msgstr "Domëslné dinamiczné lëstë graniô"
