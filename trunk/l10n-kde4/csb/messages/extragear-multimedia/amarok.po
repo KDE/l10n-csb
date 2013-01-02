@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-01-01 02:23+0100\n"
+"POT-Creation-Date: 2013-01-02 02:22+0100\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -1504,7 +1504,7 @@ msgctxt "Load the view represented by this bookmark"
 msgid "&Load"
 msgstr "L&adëjë"
 
-#: amarokurls/BookmarkTreeView.cpp:118 browsers/filebrowser/FileView.cpp:404
+#: amarokurls/BookmarkTreeView.cpp:118 browsers/filebrowser/FileView.cpp:421
 msgid "&Delete"
 msgstr "&Rëmôj"
 
@@ -1900,6 +1900,10 @@ msgid "Various Artists"
 msgstr "Rozmajiti wëkònywaczë"
 
 #: browsers/CollectionTreeItemModelBase.cpp:978
+msgid "Year - Album"
+msgstr "Rok - Albùm"
+
+#: browsers/CollectionTreeItemModelBase.cpp:978
 #: browsers/CollectionTreeView.cpp:239
 #: context/applets/albums/AlbumsView.cpp:255
 #: context/applets/wikipedia/WikipediaApplet.cpp:631
@@ -1911,10 +1915,6 @@ msgstr "Rozmajiti wëkònywaczë"
 #: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
 msgid "Album"
 msgstr "Albùm"
-
-#: browsers/CollectionTreeItemModelBase.cpp:978
-msgid "Year - Album"
-msgstr "Rok - Albùm"
 
 #. i18n: ectx: property (text), widget (QLabel, artistLabel)
 #: browsers/CollectionTreeItemModelBase.cpp:979
@@ -1972,15 +1972,15 @@ msgstr "Eticzéta"
 msgid "Collection"
 msgstr "Kòlekcëjô"
 
-#: browsers/CollectionTreeView.cpp:285 browsers/filebrowser/FileView.cpp:132
+#: browsers/CollectionTreeView.cpp:285 browsers/filebrowser/FileView.cpp:130
 msgid "Copy to Collection"
 msgstr "Kòpiérëjë do kòlekcëji"
 
-#: browsers/CollectionTreeView.cpp:290 browsers/filebrowser/FileView.cpp:123
+#: browsers/CollectionTreeView.cpp:290 browsers/filebrowser/FileView.cpp:120
 msgid "Move to Collection"
 msgstr "Przeniesë do kòlekcëji"
 
-#: browsers/CollectionTreeView.cpp:302
+#: browsers/CollectionTreeView.cpp:302 browsers/filebrowser/FileView.cpp:133
 msgid "Press Shift key for move"
 msgstr ""
 
@@ -1990,7 +1990,7 @@ msgstr ""
 msgid "Move Tracks to Trash"
 msgstr "Mòje lubòtné sztëcczi"
 
-#: browsers/CollectionTreeView.cpp:318
+#: browsers/CollectionTreeView.cpp:318 browsers/filebrowser/FileView.cpp:412
 msgid "Press Shift key to delete"
 msgstr ""
 
@@ -2000,11 +2000,11 @@ msgstr ""
 msgid "Delete Tracks"
 msgstr "&Rëmôj sztëcczi"
 
-#: browsers/CollectionTreeView.cpp:652 services/lastfm/LastFmTreeView.cpp:186
+#: browsers/CollectionTreeView.cpp:653 services/lastfm/LastFmTreeView.cpp:186
 msgid "More..."
 msgstr "Wicy..."
 
-#: browsers/CollectionTreeView.cpp:950 browsers/filebrowser/FileView.cpp:363
+#: browsers/CollectionTreeView.cpp:951 browsers/filebrowser/FileView.cpp:386
 #: browsers/playlistbrowser/PlaylistBrowserModel.cpp:49
 #: context/applets/albums/AlbumsView.cpp:240
 #: services/lastfm/LastFmTreeView.cpp:96
@@ -2013,7 +2013,7 @@ msgstr "Wicy..."
 msgid "&Add to Playlist"
 msgstr "Dodôj do lëstë graniô"
 
-#: browsers/CollectionTreeView.cpp:964 browsers/filebrowser/FileView.cpp:375
+#: browsers/CollectionTreeView.cpp:965 browsers/filebrowser/FileView.cpp:399
 #: browsers/playlistbrowser/PlaylistBrowserModel.cpp:60
 #: context/applets/albums/AlbumsView.cpp:241
 #: services/lastfm/LastFmTreeView.cpp:105
@@ -2021,12 +2021,12 @@ msgctxt "Replace the currently loaded tracks with these"
 msgid "&Replace Playlist"
 msgstr "&Pòdmieni lëstã graniô"
 
-#: browsers/CollectionTreeView.cpp:1013
+#: browsers/CollectionTreeView.cpp:1014
 msgctxt "Organize Files"
 msgid "Organize Files"
 msgstr "Òrganizëjë lopczi"
 
-#: browsers/CollectionTreeView.cpp:1046 browsers/filebrowser/FileView.cpp:387
+#: browsers/CollectionTreeView.cpp:1047 browsers/filebrowser/FileView.cpp:434
 msgid "&Edit Track Details"
 msgstr "&Editëjë detale sztëczka"
 
@@ -2050,17 +2050,23 @@ msgid ""
 "these files to the playlist as well as perform basic file operations."
 msgstr ""
 
-#: browsers/filebrowser/FileBrowser.cpp:381 browsers/InfoProxy.cpp:164
+#: browsers/filebrowser/FileBrowser.cpp:349 browsers/InfoProxy.cpp:164
 msgid "Home"
 msgstr "Dodóm"
 
-#: browsers/filebrowser/FileBrowser.cpp:525
+#: browsers/filebrowser/FileBrowser.cpp:494
 #, fuzzy
 #| msgid "dates"
 msgid "Places"
 msgstr "datumë"
 
-#: browsers/filebrowser/FileView.cpp:538
+#: browsers/filebrowser/FileView.cpp:408
+#, fuzzy
+#| msgid "&Send to Trash"
+msgid "&Move to Trash"
+msgstr "Przeniesë do kòsza"
+
+#: browsers/filebrowser/FileView.cpp:576
 #: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:40
 #, fuzzy
 #| msgid "Configure Playback"
@@ -2068,7 +2074,7 @@ msgctxt "@title:window"
 msgid "Confirm Delete"
 msgstr "Kònfigùracëjô graniô"
 
-#: browsers/filebrowser/FileView.cpp:539
+#: browsers/filebrowser/FileView.cpp:577
 #, fuzzy, kde-format
 #| msgid "Do you really want to remove this %1?"
 msgid "Are you sure you want to delete this item?"
@@ -2077,13 +2083,13 @@ msgstr[0] "Na gwës chcesz rëmnąc %1?"
 msgstr[1] "Na gwës chcesz rëmnąc %1?"
 msgstr[2] "Na gwës chcesz rëmnąc %1?"
 
-#: browsers/filebrowser/FileView.cpp:545
+#: browsers/filebrowser/FileView.cpp:583
 #: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:53
 msgctxt "@title:window"
 msgid "Confirm Move to Trash"
 msgstr ""
 
-#: browsers/filebrowser/FileView.cpp:546
+#: browsers/filebrowser/FileView.cpp:584
 #, fuzzy, kde-format
 #| msgid "Do you really want to remove this %1?"
 msgid "Are you sure you want to move this item to trash?"
@@ -2092,7 +2098,7 @@ msgstr[0] "Na gwës chcesz rëmnąc %1?"
 msgstr[1] "Na gwës chcesz rëmnąc %1?"
 msgstr[2] "Na gwës chcesz rëmnąc %1?"
 
-#: browsers/filebrowser/FileView.cpp:572
+#: browsers/filebrowser/FileView.cpp:611
 #, fuzzy, kde-format
 #| msgid "Favorite tracks"
 msgctxt "@info:status"
