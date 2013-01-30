@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-01-23 02:40+0100\n"
+"POT-Creation-Date: 2013-01-30 03:55+0100\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -14388,11 +14388,14 @@ msgstr "Zajinstalowóno %1"
 msgid "Connection failure"
 msgstr "Pòłączenié"
 
-#: services/ampache/AmpacheAccountLogin.cpp:133
-msgid "Enter the server name and a password"
-msgstr "Wpiszë miono serwerë ë parolã"
+#: services/ampache/AmpacheAccountLogin.cpp:173
+#, fuzzy
+#| msgid "Authenticating"
+msgid "Authentication failed."
+msgstr "Ùdowiérzanié"
 
-#: services/ampache/AmpacheAccountLogin.cpp:223
+#: services/ampache/AmpacheAccountLogin.cpp:174
+#: services/ampache/AmpacheAccountLogin.cpp:245
 msgid "Authentication Error"
 msgstr "Fela ùdowiérzania"
 
@@ -17054,6 +17057,9 @@ msgstr ""
 #| msgid "Volume: %1% %2"
 msgid "Volume: %1%"
 msgstr "Głosnosc: %1% %2"
+
+#~ msgid "Enter the server name and a password"
+#~ msgstr "Wpiszë miono serwerë ë parolã"
 
 #~ msgid "&Equalizer"
 #~ msgstr "&Kòrektor"
