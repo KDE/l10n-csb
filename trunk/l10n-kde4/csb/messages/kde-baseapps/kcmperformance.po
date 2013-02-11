@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmperformance\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:39+0100\n"
+"POT-Creation-Date: 2012-08-20 03:23+0200\n"
 "PO-Revision-Date: 2009-01-08 18:55+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -120,6 +120,46 @@ msgstr ""
 "òtmekac sã chùtczi.</p><p><b>Bôczënk:</b> w niechtërnëch przëtrôfkach "
 "włączenié ti òptacëji mòże zmniészëc wigòdã robòtë.</p>"
 
+#. i18n: ectx: property (title), widget (QGroupBox, reuse_group)
+#: konqueror_ui.ui:16
+msgid "Minimize Memory Usage"
+msgstr "Minimalizëjë zbrëkòwanié pamiãcë"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rb_never_reuse)
+#: konqueror_ui.ui:22
+msgid "&Never"
+msgstr "&Nigdë"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rb_file_browsing_reuse)
+#: konqueror_ui.ui:29
+msgid "For &file browsing only (recommended)"
+msgstr "&Dlô menadżera lopków (zalécóné)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rb_always_reuse)
+#: konqueror_ui.ui:36
+msgid "Alwa&ys (use with care)"
+msgstr "&Wiedno (òbzérno!)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: konqueror_ui.ui:46
+msgid "Preloading"
+msgstr "Preladowanié"
+
+#. i18n: ectx: property (text), widget (QLabel, lb_preload_count)
+#: konqueror_ui.ui:57
+msgid "Maximum number of instances kept &preloaded:"
+msgstr "Maksymalnô lëczba kòpijów &preladowónëch:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cb_preload_on_startup)
+#: konqueror_ui.ui:91
+msgid "Preload an instance after KDE startup"
+msgstr "Wladëjë kòpijã pò zrëszenim KDE"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cb_always_have_preloaded)
+#: konqueror_ui.ui:98
+msgid "Always try to have at least one preloaded instance"
+msgstr "Wiedno trzëmôj jedną wòlną kòpijã w pamiãcë"
+
 #: system.cpp:34
 msgid ""
 "<p>During startup KDE needs to perform a check of its system configuration "
@@ -149,40 +189,21 @@ msgstr ""
 "sã przë instalowanim abò rëmanim programów. Zalécô sã tedë timczasné "
 "wëłączenié ti òptacëji òbczas instalowaniô abò rëmaniô programów.</p>"
 
-#~ msgid "Minimize Memory Usage"
-#~ msgstr "Minimalizëjë zbrëkòwanié pamiãcë"
+#. i18n: ectx: property (title), widget (QGroupBox, gb_)
+#: system_ui.ui:8
+msgid "System Configuration"
+msgstr "Kònfigùracëjô systemë"
 
-#~ msgid "&Never"
-#~ msgstr "&Nigdë"
+#. i18n: ectx: property (text), widget (QCheckBox, cb_disable_kbuildsycoca)
+#: system_ui.ui:14
+msgid "Disable &system configuration startup check"
+msgstr "Wëłączë &sprôwdzanié kònfigùracëji systemë przë zrëszanim"
 
-#~ msgid "For &file browsing only (recommended)"
-#~ msgstr "&Dlô menadżera lopków (zalécóné)"
-
-#~ msgid "Alwa&ys (use with care)"
-#~ msgstr "&Wiedno (òbzérno!)"
-
-#~ msgid "Preloading"
-#~ msgstr "Preladowanié"
-
-#~ msgid "Maximum number of instances kept &preloaded:"
-#~ msgstr "Maksymalnô lëczba kòpijów &preladowónëch:"
-
-#~ msgid "Preload an instance after KDE startup"
-#~ msgstr "Wladëjë kòpijã pò zrëszenim KDE"
-
-#~ msgid "Always try to have at least one preloaded instance"
-#~ msgstr "Wiedno trzëmôj jedną wòlną kòpijã w pamiãcë"
-
-#~ msgid "System Configuration"
-#~ msgstr "Kònfigùracëjô systemë"
-
-#~ msgid "Disable &system configuration startup check"
-#~ msgstr "Wëłączë &sprôwdzanié kònfigùracëji systemë przë zrëszanim"
-
-#~ msgid ""
-#~ "This option may in rare cases lead to various problems. Consult the "
-#~ "What's This (Shift+F1) help for details."
-#~ msgstr ""
-#~ "Ta òptacëjô w gwësnëch apartnëch lëżnoscach mòże sprawiac wszelejaczé "
-#~ "problemë. Proszã przeczëtac kòntekstową pòmòc (Shift+F1), abë pòznac "
-#~ "detale."
+#. i18n: ectx: property (text), widget (QLabel, label_kbuildsycoca)
+#: system_ui.ui:21
+msgid ""
+"This option may in rare cases lead to various problems. Consult the What's "
+"This (Shift+F1) help for details."
+msgstr ""
+"Ta òptacëjô w gwësnëch apartnëch lëżnoscach mòże sprawiac wszelejaczé "
+"problemë. Proszã przeczëtac kòntekstową pòmòc (Shift+F1), abë pòznac detale."

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:39+0100\n"
+"POT-Creation-Date: 2013-02-11 17:33+0100\n"
 "PO-Revision-Date: 2009-12-17 00:21+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -25,6 +25,41 @@ msgstr "Michôł Òstrowsczi, Mark Kwidzińsczi"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "michol@linuxcsb.org, mark@linuxcsb.org"
+
+#. i18n: ectx: Menu (file)
+#: ../desktop/konsoleui.rc:5
+msgid "File"
+msgstr "Lopk"
+
+#. i18n: ectx: Menu (edit)
+#: ../desktop/konsoleui.rc:15
+msgid "Edit"
+msgstr "Editcëjô"
+
+#. i18n: ectx: Menu (view)
+#: ../desktop/konsoleui.rc:18
+msgid "View"
+msgstr "Wëzdrzatk"
+
+#. i18n: ectx: Menu (view-split)
+#: ../desktop/konsoleui.rc:19
+msgid "Split View"
+msgstr "Pòdzélë wëzdrzatk"
+
+#. i18n: ectx: Menu (settings)
+#: ../desktop/konsoleui.rc:33
+msgid "Settings"
+msgstr "Nastôwë"
+
+#. i18n: ectx: Menu (help)
+#: ../desktop/konsoleui.rc:44
+msgid "Help"
+msgstr "Pòmòc"
+
+#. i18n: ectx: Menu (history)
+#: ../desktop/partui.rc:11
+msgid "S&crollback"
+msgstr "Liste&w przewijaniô"
 
 #: Application.cpp:437
 msgid "Toggle Background Window"
@@ -227,9 +262,72 @@ msgctxt "@info:tooltip"
 msgid "Click to choose color"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, discriptionLabel)
+#. i18n: ectx: property (text), widget (QLabel, descriptionLabel)
+#: ColorSchemeEditor.ui:22 KeyBindingEditor.ui:22
+msgid "Description:"
+msgstr "Òpisënk:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, randomizedBackgroundCheck)
+#: ColorSchemeEditor.ui:40
+msgid "Vary the background color for each tab"
+msgstr "Wszelejaczé farwë spódka dlô różnëch kôrtów"
+
+#. i18n: ectx: property (text), widget (QLabel, transparencyLabel)
+#: ColorSchemeEditor.ui:49
+msgid "Background transparency:"
+msgstr "Przezérnota spòdlégò:"
+
+#. i18n: ectx: property (text), widget (QLabel, transparencyPercentLabel)
+#: ColorSchemeEditor.ui:69
+msgid "Percent"
+msgstr "Procent"
+
+#. i18n: ectx: property (text), widget (QLabel, wallpaperLabel)
+#: ColorSchemeEditor.ui:83
+#, fuzzy
+#| msgid "Background"
+msgid "Background image:"
+msgstr "Farwa spódkù"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, wallpaperPath)
+#: ColorSchemeEditor.ui:90
+#, fuzzy
+#| msgid "Color Scheme && Background"
+msgid "Edit the path of the background image"
+msgstr "Schéma farwë ë spòdlé"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, wallpaperSelectButton)
+#: ColorSchemeEditor.ui:97
+#, fuzzy
+#| msgid "Color Scheme && Background"
+msgid "Choose the background image"
+msgstr "Schéma farwë ë spòdlé"
+
+#. i18n: ectx: property (text), widget (QToolButton, wallpaperSelectButton)
+#. i18n: ectx: property (text), widget (QToolButton, dirSelectButton)
+#: ColorSchemeEditor.ui:100 EditProfileDialog.ui:111
+msgid "..."
+msgstr "..."
+
 #: CopyInputDialog.cpp:34
 msgid "Copy Input"
 msgstr "Kòpérëjë weńdzenié"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: CopyInputDialog.ui:19
+msgid "Filter:"
+msgstr "Filter:"
+
+#. i18n: ectx: property (text), widget (QPushButton, selectAllButton)
+#: CopyInputDialog.ui:46
+msgid "Select All"
+msgstr "Wëbiérzë wszëtkò"
+
+#. i18n: ectx: property (text), widget (QPushButton, deselectAllButton)
+#: CopyInputDialog.ui:53
+msgid "Deselect All"
+msgstr "Òdznaczë wszëtkò"
 
 #: EditProfileDialog.cpp:73
 msgid "Edit Profile"
@@ -323,6 +421,623 @@ msgstr ""
 msgid "Select Fixed Width Font"
 msgstr ""
 
+#. i18n: ectx: attribute (title), widget (QWidget, generalTab)
+#: EditProfileDialog.ui:33
+#, fuzzy
+#| msgid "General"
+msgctxt "@title:tab Generic, common options"
+msgid "General"
+msgstr "Òglowé"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_10)
+#: EditProfileDialog.ui:39
+#, fuzzy
+#| msgid "General"
+msgctxt "@title:group Generic, common options"
+msgid "General"
+msgstr "Òglowé"
+
+#. i18n: ectx: property (text), widget (QLabel, profileNameLabel)
+#: EditProfileDialog.ui:48
+msgid "Profile name:"
+msgstr "Miono profilu:"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, profileNameEdit)
+#: EditProfileDialog.ui:58
+msgid "A descriptive name for the profile"
+msgstr "Òpisënkòwé miono dlô profilu"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: EditProfileDialog.ui:68
+msgid "Command:"
+msgstr "Pòlét:"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, commandEdit)
+#: EditProfileDialog.ui:78
+msgid ""
+"The command to execute when new terminal sessions are created using this "
+"profile"
+msgstr ""
+"Pòlét do zrëszeniô przë ùsôdzeniu nowi sesëji terminal brëkùjący negò profilu"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: EditProfileDialog.ui:88
+msgid "Initial directory:"
+msgstr "Zôczątkòwi katalog:"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, initialDirEdit)
+#: EditProfileDialog.ui:98
+msgid ""
+"The initial working directory for new terminal sessions using this profile"
+msgstr "Startowi katalog dlô nowi sesëji terminal brëkùjący negò profilu"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, dirSelectButton)
+#: EditProfileDialog.ui:108
+#, fuzzy
+#| msgid "Browse for initial directory"
+msgid "Choose the initial directory"
+msgstr "Szëkôj za zôczątkòwim katalogã"
+
+#. i18n: ectx: property (text), widget (QCheckBox, startInSameDirButton)
+#: EditProfileDialog.ui:118
+msgid "Start in same directory as current tab"
+msgstr "Startëjë w tim sómym katalogù co aktualnô kôrta"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: EditProfileDialog.ui:125
+msgid "Icon:"
+msgstr "Ikòna:"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, iconSelectButton)
+#: EditProfileDialog.ui:153
+msgid "Select the icon displayed on tabs using this profile"
+msgstr "Wëbierzë ikònã kôrtë brëkòwóną w tim profilu"
+
+#. i18n: ectx: property (text), widget (QLabel, environmentLabel)
+#: EditProfileDialog.ui:182
+msgid "Environment:"
+msgstr "Òkrãżé:"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, environmentEditButton)
+#: EditProfileDialog.ui:192
+msgid "Edit the list of environment variables and associated values"
+msgstr "Editëjë lëstã zmiennych òkrãżô ë przëpisónych wôrtnotów"
+
+#. i18n: ectx: property (text), widget (QPushButton, environmentEditButton)
+#. i18n: ectx: property (text), widget (QPushButton, editColorSchemeButton)
+#. i18n: ectx: property (text), widget (QPushButton, editKeyBindingsButton)
+#: EditProfileDialog.ui:195 EditProfileDialog.ui:381 EditProfileDialog.ui:667
+msgid "Edit..."
+msgstr "Editëjë..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_12)
+#: EditProfileDialog.ui:205
+msgid "Window"
+msgstr "Òkno"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, saveGeometryOnExitButton)
+#: EditProfileDialog.ui:220
+msgid "Set the window size and position for this profile when exiting"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SaveGeometryOnExit)
+#. i18n: ectx: property (text), widget (QCheckBox, saveGeometryOnExitButton)
+#: EditProfileDialog.ui:223 settings/GeneralSettings.ui:66
+msgid "Save window size and position on exit"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, showTerminalSizeHintButton)
+#. i18n: ectx: tooltip, entry (ShowTerminalSizeHint), group (KonsoleWindow)
+#: EditProfileDialog.ui:230 settings/konsole.kcfg:25
+msgid ""
+"Show terminal size in columns and lines in the center of window after "
+"resizing"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowTerminalSizeHint)
+#. i18n: ectx: property (text), widget (QCheckBox, showTerminalSizeHintButton)
+#. i18n: ectx: label, entry (ShowTerminalSizeHint), group (KonsoleWindow)
+#: EditProfileDialog.ui:233 settings/GeneralSettings.ui:53
+#: settings/konsole.kcfg:24
+msgid "Show hint for terminal size after resizing"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabsTab)
+#: EditProfileDialog.ui:257
+msgid "Tabs"
+msgstr "Kôrtë"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
+#: EditProfileDialog.ui:263
+msgid "Tab Titles"
+msgstr "Title kôrtów"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_13)
+#: EditProfileDialog.ui:278
+msgid "Tab Monitoring"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, silenceSecondsLabel)
+#: EditProfileDialog.ui:287
+msgid "Threshold for continuous silence:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, silenceSecondsSpinner)
+#: EditProfileDialog.ui:297
+msgid "The threshold for continuous silence to be detected by Konsole"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_1)
+#. i18n: ectx: attribute (title), widget (QWidget, appearanceTab)
+#: EditProfileDialog.ui:340 settings/TabBarSettings.ui:20
+msgid "Appearance"
+msgstr "Wëzdrzatk"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: EditProfileDialog.ui:352
+msgid "Color Scheme && Background"
+msgstr "Schéma farwë ë spòdlé"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, newColorSchemeButton)
+#: EditProfileDialog.ui:368
+msgid "Create a new color scheme based upon the selected scheme"
+msgstr "Ùsôdzë nową schémã farwów òpiartą na wëbróny"
+
+#. i18n: ectx: property (text), widget (QPushButton, newColorSchemeButton)
+#: EditProfileDialog.ui:371
+#, fuzzy
+#| msgid "New..."
+msgctxt "@action:button Create an alternate color scheme"
+msgid "New..."
+msgstr "Nowô..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, editColorSchemeButton)
+#: EditProfileDialog.ui:378
+msgid "Edit the selected color scheme"
+msgstr "Editëjë wëbróną schémã farwów"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, removeColorSchemeButton)
+#: EditProfileDialog.ui:388
+msgid "Delete the selected color scheme"
+msgstr "Rëmôj wëbróną schémã farwów"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeColorSchemeButton)
+#. i18n: ectx: property (text), widget (QPushButton, removeKeyBindingsButton)
+#. i18n: ectx: property (text), widget (QPushButton, removeEntryButton)
+#: EditProfileDialog.ui:391 EditProfileDialog.ui:677 KeyBindingEditor.ui:53
+msgid "Remove"
+msgstr "Rëmôj"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: EditProfileDialog.ui:417
+msgid "Font"
+msgstr "Fònt"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: EditProfileDialog.ui:428
+msgid "Preview:"
+msgstr "Pòdzérk:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: EditProfileDialog.ui:455
+msgid "Text size:"
+msgstr "Miara tekstu:"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, selectFontButton)
+#: EditProfileDialog.ui:481
+#, fuzzy
+#| msgid "Change the font used in this profile"
+msgid "Select the font used in this profile"
+msgstr "Zmieni fònt brëkòwóny w tim profilu"
+
+#. i18n: ectx: property (text), widget (QPushButton, selectFontButton)
+#: EditProfileDialog.ui:484
+#, fuzzy
+#| msgid "Edit Font..."
+msgid "Select Font..."
+msgstr "Editëjë fònt..."
+
+#. i18n: ectx: property (text), widget (QCheckBox, antialiasTextButton)
+#: EditProfileDialog.ui:506
+msgid "Smooth fonts"
+msgstr "Wëgładzóné fòntë"
+
+#. i18n: ectx: property (text), widget (QCheckBox, boldIntenseButton)
+#: EditProfileDialog.ui:513
+msgid "Draw intense colors in bold font"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, scrollingTab)
+#: EditProfileDialog.ui:524
+msgid "Scrolling"
+msgstr "Przewijanié"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
+#: EditProfileDialog.ui:530
+#, fuzzy
+#| msgid "S&crollback"
+msgid "Scrollback"
+msgstr "Liste&w przewijaniô"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_7)
+#: EditProfileDialog.ui:545
+msgid "Scroll Bar"
+msgstr "Listew przewijaniô"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, scrollBarLeftButton)
+#: EditProfileDialog.ui:560
+msgid "Show the scroll bar on the left side of the terminal window"
+msgstr "Wëskrzëni listew przewijaniô z lewi starnë òkna terminala"
+
+#. i18n: ectx: property (text), widget (QRadioButton, scrollBarLeftButton)
+#: EditProfileDialog.ui:563
+msgid "Show on left side"
+msgstr "Wëskrzëni z lewi starnë"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, scrollBarRightButton)
+#: EditProfileDialog.ui:576
+msgid "Show the scroll bar on the right side of the terminal window"
+msgstr "Wëskrzëni listew przewijaniô z prawi starnë òkna terminala"
+
+#. i18n: ectx: property (text), widget (QRadioButton, scrollBarRightButton)
+#: EditProfileDialog.ui:579
+msgid "Show on right side"
+msgstr "Wëskrzëni listew przewijaniô z lewi starnë òkna terminala"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, scrollBarHiddenButton)
+#: EditProfileDialog.ui:592
+msgid "Hide the scroll bar"
+msgstr "Wëskrzëni z prawi starnë"
+
+#. i18n: ectx: property (text), widget (QRadioButton, scrollBarHiddenButton)
+#: EditProfileDialog.ui:595
+msgctxt "@option:radio Hide the scroll bar"
+msgid "Hide"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, keyboardTab)
+#: EditProfileDialog.ui:619
+msgid "Keyboard"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, keyBindingsGroup)
+#: EditProfileDialog.ui:625
+msgid "Key Bindings"
+msgstr "Przëpisanié klawiszów"
+
+#. i18n: ectx: property (text), widget (QLabel, label_15)
+#: EditProfileDialog.ui:634
+#, fuzzy
+#| msgid ""
+#| "Key bindings control how combinations of key presses in the terminal "
+#| "window are converted into the stream of characters which is sent to the "
+#| "current terminal program."
+msgid ""
+"Key bindings control how combinations of keystrokes in the terminal window "
+"are converted into the stream of characters which are sent to the current "
+"terminal program."
+msgstr ""
+"Przëpisanié klawiszów kòntrolëje jakno kòmbinacëjô wcësniãtich w òknie "
+"terminala klawiszów mô sélac réżkã céchów do aktualny programë terminala."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, newKeyBindingsButton)
+#: EditProfileDialog.ui:654
+msgid "Create a new key bindings list based upon the selected bindings"
+msgstr "Ùsôdzë nową lëstã przëpisaniô klawiszów òpiartą na aktualnym wëbiérkù"
+
+#. i18n: ectx: property (text), widget (QPushButton, newKeyBindingsButton)
+#: EditProfileDialog.ui:657
+#, fuzzy
+#| msgid "New..."
+msgctxt "@action:button Create an alternate key binding"
+msgid "New..."
+msgstr "Nowô..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, editKeyBindingsButton)
+#: EditProfileDialog.ui:664
+msgid "Edit the selected key bindings list"
+msgstr "Editëjë wëbróną lëstã przëpisaniô klawiszów"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, removeKeyBindingsButton)
+#: EditProfileDialog.ui:674
+msgid "Delete the selected key bindings list"
+msgstr "Rëmôj wëbróną lëstã przëpisaniô klawiszów"
+
+#. i18n: ectx: attribute (title), widget (QWidget, mouseTab)
+#: EditProfileDialog.ui:701
+msgid "Mouse"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_9)
+#: EditProfileDialog.ui:707
+#, fuzzy
+#| msgid "Select"
+msgid "Select Text"
+msgstr "Wëbierzë"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: EditProfileDialog.ui:718
+#, fuzzy
+#| msgid ""
+#| "Characters which are considered part of a word when double-clicking to "
+#| "select whole words in the terminal"
+msgid "Characters considered part of a word when double clicking:"
+msgstr ""
+"Ne céchë bãdą przëjãté w terminalu, przë dëbeltnym klëkniãcô, jakno dzél "
+"słowa "
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, wordCharacterEdit)
+#: EditProfileDialog.ui:731
+msgid ""
+"Characters which are considered part of a word when double-clicking to "
+"select whole words in the terminal"
+msgstr ""
+"Ne céchë bãdą przëjãté w terminalu, przë dëbeltnym klëkniãcô, jakno dzél "
+"słowa "
+
+#. i18n: ectx: property (text), widget (QLabel, label_17)
+#: EditProfileDialog.ui:742
+msgid "Triple-click select:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, tripleClickModeCombo)
+#: EditProfileDialog.ui:749
+msgid "Which part of current line should be selected with triple click ."
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, tripleClickModeCombo)
+#: EditProfileDialog.ui:753
+#, fuzzy
+#| msgid "Save to current profile"
+msgid "The whole current line"
+msgstr "Zapiszë do biéżnegò profilu"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, tripleClickModeCombo)
+#: EditProfileDialog.ui:758
+msgid "From mouse position to the end of line"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_14)
+#: EditProfileDialog.ui:771
+#, fuzzy
+#| msgid "Confirm Close"
+msgid "Copy && Paste"
+msgstr "Pòcwierdzë zamkniãcé"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, copyTextToClipboardButton)
+#: EditProfileDialog.ui:780
+msgid "Automatically copy selected text into clipboard"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, copyTextToClipboardButton)
+#: EditProfileDialog.ui:783
+msgid "Copy on select"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, trimTrailingSpacesButton)
+#: EditProfileDialog.ui:790
+msgid "Trim trailing spaces in selected text, useful in some instances"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, trimTrailingSpacesButton)
+#: EditProfileDialog.ui:793
+msgid "Trim trailing spaces"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#: EditProfileDialog.ui:813
+msgid "Mouse middle button:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, pasteFromX11SelectionButton)
+#: EditProfileDialog.ui:820
+#, fuzzy
+#| msgid "Paste Selection"
+msgid "Paste from selection"
+msgstr "Wlepi wëbiérk"
+
+#. i18n: ectx: property (text), widget (QRadioButton, pasteFromClipboardButton)
+#: EditProfileDialog.ui:827
+#, fuzzy
+#| msgid "Paste Selection"
+msgid "Paste from clipboard"
+msgstr "Wlepi wëbiérk"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: EditProfileDialog.ui:837
+msgid "Miscellaneous"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, underlineLinksButton)
+#: EditProfileDialog.ui:846
+msgid ""
+"Text recognized as a link or an email address will be underlined when "
+"hovered by the mouse pointer."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, underlineLinksButton)
+#: EditProfileDialog.ui:849
+#, fuzzy
+#| msgctxt "The shape of the cursor"
+#| msgid "Underline"
+msgid "Underline links"
+msgstr "Pòdsztrëchniãti"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, openLinksByDirectClickButton)
+#: EditProfileDialog.ui:877
+msgid ""
+"Text recognized as a link or an email address can be opened by direct mouse "
+"click."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, openLinksByDirectClickButton)
+#: EditProfileDialog.ui:880
+msgid "Open links by direct click"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, ctrlRequiredForDragButton)
+#: EditProfileDialog.ui:889
+msgid "Selected text will require control key plus click to drag."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, ctrlRequiredForDragButton)
+#: EditProfileDialog.ui:892
+msgid "Require Ctrl key for drag and drop"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, enableMouseWheelZoomButton)
+#: EditProfileDialog.ui:899
+msgid "Pressing Ctrl+scrollwheel will increase/decrease the text size."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableMouseWheelZoomButton)
+#: EditProfileDialog.ui:902
+msgid "Allow Ctrl+scrollwheel to zoom text size"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, advancedTab)
+#: EditProfileDialog.ui:926
+#, fuzzy
+#| msgid "Advanced"
+msgctxt "@title:tab Complex options"
+msgid "Advanced"
+msgstr "Awansowóné"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: EditProfileDialog.ui:932
+msgid "Terminal Features"
+msgstr "Fùnkcëje terminala"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, enableBlinkingTextButton)
+#: EditProfileDialog.ui:947
+msgid "Allow terminal programs to create blinking sections of text"
+msgstr "Zezwòlë programie terminala ùsôdzac mërgającé dzéle tekstu"
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableBlinkingTextButton)
+#: EditProfileDialog.ui:950
+msgid "Allow blinking text"
+msgstr "Zezwòlë ma mërgający tekst"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, enableFlowControlButton)
+#: EditProfileDialog.ui:963
+msgid "Allow the output to be suspended by pressing Ctrl+S"
+msgstr "Zezwòlë ùspic wińdzenia przë klëkniãcu Ctrl+S"
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableFlowControlButton)
+#: EditProfileDialog.ui:966
+msgid "Enable flow control using Ctrl+S, Ctrl+Q"
+msgstr "Włączë kòntrolã przepłiwù brëkùjąc Ctrl+S, Ctrl+Q"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, enableBidiRenderingButton)
+#: EditProfileDialog.ui:979
+msgid ""
+"Enable Bi-Directional display on terminals (valid for Arabic, Farsi or "
+"Hebrew only)"
+msgstr ""
+"Włączë Bi-direktionalné wëskrzënianié w terminalu (mòżlëwé blós dlô "
+"arabsczégò, persczégò ë hebrajsczégò)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableBidiRenderingButton)
+#: EditProfileDialog.ui:982
+msgid "Enable Bi-Directional text rendering"
+msgstr "Włączë Bi-direktionalné wëskrzënianié ôrtów tekstu"
+
+#. i18n: ectx: property (text), widget (QLabel, lineSpacingLabel)
+#: EditProfileDialog.ui:991
+msgid "Line Spacing:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, lineSpacingSpinner)
+#: EditProfileDialog.ui:998
+msgid "The number of pixels between two lines"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_8)
+#: EditProfileDialog.ui:1029
+msgid "Cursor"
+msgstr "Kùrsor"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, enableBlinkingCursorButton)
+#: EditProfileDialog.ui:1044
+msgid "Make the cursor blink regularly"
+msgstr "Regùlarno mërgającu kùrsor"
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableBlinkingCursorButton)
+#: EditProfileDialog.ui:1047
+msgid "Blinking cursor"
+msgstr "Mërgający kùrsor"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: EditProfileDialog.ui:1056
+msgid "Cursor shape:"
+msgstr "Fòrma kùrsora:"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, cursorShapeCombo)
+#: EditProfileDialog.ui:1063
+msgid "Change the shape of the cursor"
+msgstr "Zmieni fòrmã kùrsora"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cursorShapeCombo)
+#: EditProfileDialog.ui:1067
+msgctxt "The shape of the cursor"
+msgid "Block"
+msgstr "Blokòwi"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cursorShapeCombo)
+#: EditProfileDialog.ui:1072
+msgctxt "The shape of the cursor, similar to a capital I"
+msgid "I-Beam"
+msgstr "Dëbeltné \"T\" (I)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cursorShapeCombo)
+#: EditProfileDialog.ui:1077
+msgctxt "The shape of the cursor"
+msgid "Underline"
+msgstr "Pòdsztrëchniãti"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, autoCursorColorButton)
+#: EditProfileDialog.ui:1106
+msgid "Set the cursor to match the color of the character underneath it."
+msgstr "Nastôwiô farwã kùrsorã do leżącegò pòd nim céchù."
+
+#. i18n: ectx: property (text), widget (QRadioButton, autoCursorColorButton)
+#: EditProfileDialog.ui:1109
+msgid "Set cursor color to match current character"
+msgstr "Nastôwiô farwã kùrsorã do aktualnegò céchù."
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, customCursorColorButton)
+#: EditProfileDialog.ui:1124
+msgid "Use a custom, fixed color for the cursor"
+msgstr "Brëkùjë swòji, stałi farwë dlô kùrsora"
+
+#. i18n: ectx: property (text), widget (QRadioButton, customCursorColorButton)
+#: EditProfileDialog.ui:1127
+msgid "Custom cursor color:"
+msgstr "Swòjô farwa kùrsora:"
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, customColorSelectButton)
+#: EditProfileDialog.ui:1140
+msgid "Select the color used to draw the cursor"
+msgstr "Wëbierzë farwã kùrsora"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_11)
+#: EditProfileDialog.ui:1168
+msgid "Encoding"
+msgstr "Kòdowanié"
+
+#. i18n: ectx: property (text), widget (QLabel, label_14)
+#: EditProfileDialog.ui:1177
+msgid "Default character encoding:"
+msgstr "Domëslné kòdowanié céchów"
+
+#. i18n: ectx: property (text), widget (QPushButton, selectEncodingButton)
+#: EditProfileDialog.ui:1197
+#, fuzzy
+#| msgid "Select"
+msgctxt "@action:button Pick an encoding"
+msgid "Select"
+msgstr "Wëbierzë"
+
 #: Filter.cpp:468
 msgid "Open Link"
 msgstr "Òtemkni lënk"
@@ -368,6 +1083,45 @@ msgid_plural " lines"
 msgstr[0] "réżczi"
 msgstr[1] "réżczi"
 msgstr[2] "réżczi"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, noHistoryButton)
+#: HistorySizeWidget.ui:29
+#, fuzzy
+#| msgid "Disable scroll bar and do not remember previous output"
+msgid "Do not remember previous output"
+msgstr "Wëłączë listew przewijaniô ë nié pamiãtôj rechlijszich wińdzeniów"
+
+#. i18n: ectx: property (text), widget (QRadioButton, noHistoryButton)
+#: HistorySizeWidget.ui:32
+msgid "No scrollback"
+msgstr "Bez lëstwë przewijaniô"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, fixedSizeHistoryButton)
+#: HistorySizeWidget.ui:50
+msgid "Limit the remembered output to a fixed number of lines"
+msgstr "Ògańczô pamiãtóné wińdzenia do stałi wielënë rézów"
+
+#. i18n: ectx: property (text), widget (QRadioButton, fixedSizeHistoryButton)
+#: HistorySizeWidget.ui:53
+#, fuzzy
+#| msgid "Fixed size scrollback: "
+msgid "Fixed size scrollback:"
+msgstr "Sztabilnô miara lëstwë przewijaniô"
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, historyLineSpinner)
+#: HistorySizeWidget.ui:60
+msgid "Number of lines of output to remember"
+msgstr "Wielëna rézów wińdzeniô do spamiãtaniô"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, unlimitedHistoryButton)
+#: HistorySizeWidget.ui:94
+msgid "Remember all output produced by the terminal"
+msgstr "Pamiãtôj wszëtczé wińdzenia terminala"
+
+#. i18n: ectx: property (text), widget (QRadioButton, unlimitedHistoryButton)
+#: HistorySizeWidget.ui:97
+msgid "Unlimited scrollback"
+msgstr "Lëstwa przewijaniô bez ògreńczeń"
 
 #: IncrementalSearchBar.cpp:51
 #, fuzzy
@@ -471,6 +1225,27 @@ msgstr "Kòmbinacëjô klawiszów"
 #: KeyBindingEditor.cpp:47
 msgid "Output"
 msgstr "Wińdzenié"
+
+#. i18n: ectx: property (text), widget (QPushButton, addEntryButton)
+#: KeyBindingEditor.ui:46
+msgid "Add"
+msgstr "Dodôj"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: KeyBindingEditor.ui:75
+msgctxt "Title of the area where you test your keys are properly configured"
+msgid "Test Area"
+msgstr "Testowé pòle"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: KeyBindingEditor.ui:84
+msgid "Input:"
+msgstr "Weńdzenié:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: KeyBindingEditor.ui:97
+msgid "Output:"
+msgstr "Wińdzenié:"
 
 #: main.cpp:56
 msgctxt "@title"
@@ -1034,11 +1809,79 @@ msgctxt "@item This will be used as part of the file name"
 msgid "New Profile"
 msgstr "Nowi profil"
 
+#. i18n: ectx: property (toolTip), widget (QPushButton, newProfileButton)
+#: ManageProfilesDialog.ui:20
+msgid "Create a new profile based upon the selected profile"
+msgstr "Ùsôdzë nowi profil òpiarti na wëbrónym"
+
+#. i18n: ectx: property (text), widget (QPushButton, newProfileButton)
+#: ManageProfilesDialog.ui:23
+#, fuzzy
+#| msgid "New Profile..."
+msgid "&New Profile..."
+msgstr "Nowi profil..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, editProfileButton)
+#: ManageProfilesDialog.ui:33
+msgid "Edit the selected profile(s)"
+msgstr "Editëjë wëbróny(-é) profil(e)"
+
+#. i18n: ectx: property (text), widget (QPushButton, editProfileButton)
+#: ManageProfilesDialog.ui:36
+#, fuzzy
+#| msgid "Edit Profile..."
+msgid "&Edit Profile..."
+msgstr "Editëjë profil..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, deleteProfileButton)
+#: ManageProfilesDialog.ui:46
+msgid "Delete the selected profile(s)"
+msgstr "Rëmôj wëbróny(-é) profil(e)"
+
+#. i18n: ectx: property (text), widget (QPushButton, deleteProfileButton)
+#: ManageProfilesDialog.ui:49
+#, fuzzy
+#| msgid "Delete Profile"
+msgid "&Delete Profile"
+msgstr "Rëmôj profil"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, setAsDefaultButton)
+#: ManageProfilesDialog.ui:59
+msgid "Set the selected profile as the default for new terminal sessions"
+msgstr "Nastôwi wëbróny profil jakno domëslny dlô nowi sesëji terminala"
+
+#. i18n: ectx: property (text), widget (QPushButton, setAsDefaultButton)
+#: ManageProfilesDialog.ui:62
+#, fuzzy
+#| msgid "Set as Default"
+msgid "&Set as Default"
+msgstr "Nastôwi jakno domëslny"
+
 #: Part.cpp:96
 #, fuzzy
 #| msgid "Manage Profiles"
 msgid "Manage Profiles..."
 msgstr "Sprôwiôj profilama..."
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, PrintOptions)
+#. i18n: ectx: property (title), widget (QGroupBox, OutputOptions)
+#: PrintOptions.ui:14 PrintOptions.ui:20
+#, fuzzy
+#| msgid "Output"
+msgid "Output Options"
+msgstr "Wińdzenié"
+
+#. i18n: ectx: property (text), widget (QCheckBox, printerFriendly)
+#. i18n: ectx: label, entry (PrinterFriendly), group (PrintOptions)
+#: PrintOptions.ui:39 settings/konsole.kcfg:71
+msgid "Printer &friendly mode (black text, no background)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, scaleOutput)
+#. i18n: ectx: label, entry (ScaleOutput), group (PrintOptions)
+#: PrintOptions.ui:46 settings/konsole.kcfg:75
+msgid "&Scale output"
+msgstr ""
 
 #: Profile.cpp:145
 msgid "Shell"
@@ -1053,6 +1896,30 @@ msgstr "Rëmôj profil"
 #: RenameTabDialog.cpp:31
 msgid "Rename Tab"
 msgstr "Zmieni miono kôrtë"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: RenameTabWidget.ui:26
+msgid "Tab title format:"
+msgstr "Fòrmat titla kôrtë:"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, tabTitleEdit)
+#: RenameTabWidget.ui:36
+msgid "Normal tab title format"
+msgstr "Zwëkòwi fòrmat titla kôrtë"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: RenameTabWidget.ui:46
+msgid "Remote tab title format:"
+msgstr "Daleczi fòrmat titla kôrtë"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, remoteTabTitleEdit)
+#: RenameTabWidget.ui:56
+msgid ""
+"Tab title format used when a remote command (e.g. connection to another "
+"computer via SSH) is being executed"
+msgstr ""
+"Brëkòwóny fòrmat titla dlô zrëszónych daleczich pòlétów (n.p. sparłãczenié z "
+"jinszim kòmpùtrã przez SSH)"
 
 #: schemas.cpp:1
 msgid "Black on Light Yellow"
@@ -1465,6 +2332,153 @@ msgctxt "@item:intable The session title"
 msgid "Title"
 msgstr "Titel"
 
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_1)
+#: settings/GeneralSettings.ui:28
+#, fuzzy
+#| msgid "Konsole"
+msgid "Konsole Window"
+msgstr "Kònsola"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMenuBarByDefault)
+#. i18n: ectx: label, entry (ShowMenuBarByDefault), group (KonsoleWindow)
+#: settings/GeneralSettings.ui:40 settings/konsole.kcfg:9
+#, fuzzy
+#| msgid "Show menu bar in new windows"
+msgid "Show menubar by default"
+msgstr "Wëskrzëni listew menu w nowim òknie"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AllowMenuAccelerators)
+#. i18n: ectx: label, entry (AllowMenuAccelerators), group (KonsoleWindow)
+#: settings/GeneralSettings.ui:79 settings/konsole.kcfg:19
+msgid "Enable menu accelerators"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowWindowTitleOnTitleBar)
+#. i18n: ectx: label, entry (ShowWindowTitleOnTitleBar), group (KonsoleWindow)
+#: settings/GeneralSettings.ui:92 settings/konsole.kcfg:14
+msgid "Show window title on the titlebar"
+msgstr ""
+
+#. i18n: ectx: tooltip, entry (ShowMenuBarByDefault), group (KonsoleWindow)
+#: settings/konsole.kcfg:10
+#, fuzzy
+#| msgid "Show menu bar in new windows"
+msgid "Show menubar by default in each Konsole window"
+msgstr "Wëskrzëni listew menu w nowim òknie"
+
+#. i18n: ectx: tooltip, entry (ShowWindowTitleOnTitleBar), group (KonsoleWindow)
+#: settings/konsole.kcfg:15
+msgid "Show window title set by escape sequence on the titlebar"
+msgstr ""
+
+#. i18n: ectx: tooltip, entry (AllowMenuAccelerators), group (KonsoleWindow)
+#: settings/konsole.kcfg:20
+msgid "Allow users to access top menu through Alt+Key combination"
+msgstr ""
+
+#. i18n: ectx: label, entry (SaveGeometryOnExit), group (KonsoleWindow)
+#: settings/konsole.kcfg:29
+msgid "Save window size on exit"
+msgstr ""
+
+#. i18n: ectx: tooltip, entry (SaveGeometryOnExit), group (KonsoleWindow)
+#: settings/konsole.kcfg:30
+msgid "The window size will be saved upon exiting Konsole"
+msgstr ""
+
+#. i18n: ectx: label, entry (TabBarVisibility), group (TabBar)
+#: settings/konsole.kcfg:36
+msgid "Control the visibility of the whole tab bar"
+msgstr ""
+
+#. i18n: ectx: label, entry (TabBarPosition), group (TabBar)
+#: settings/konsole.kcfg:45
+msgid "Control the position of the tab bar"
+msgstr ""
+
+#. i18n: ectx: label, entry (TabBarStyleSheet), group (TabBar)
+#: settings/konsole.kcfg:53
+msgid "Control the visual style of the tab bar"
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowQuickButtons), group (TabBar)
+#: settings/konsole.kcfg:57
+msgid "Control the visibility of quick buttons on the tab bar"
+msgstr ""
+
+#. i18n: ectx: label, entry (NewTabBehavior), group (TabBar)
+#: settings/konsole.kcfg:61
+msgid "Control where to put the new tab"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_1)
+#: settings/TabBarSettings.ui:26
+#, fuzzy
+#| msgid "Tab bar display:"
+msgid "Tab bar visibility:"
+msgstr "Wëskrzënianié listwë kôrtów:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabBarVisibility)
+#: settings/TabBarSettings.ui:43
+msgid "Always Show Tab Bar"
+msgstr "Wiedno pòkôżë lëstew kôrtë"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabBarVisibility)
+#: settings/TabBarSettings.ui:48
+msgid "Show Tab Bar When Needed"
+msgstr "Pòkôżë lëstew kôrtë czedë nót"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabBarVisibility)
+#: settings/TabBarSettings.ui:53
+msgid "Always Hide Tab Bar"
+msgstr "Wiedno zatacë lëstew kôrtë"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: settings/TabBarSettings.ui:61
+msgid "Tab bar position:"
+msgstr "Pòłożenié listwë kôrtów"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabBarPosition)
+#: settings/TabBarSettings.ui:78
+#, fuzzy
+#| msgid "Above Terminal Displays"
+msgid "Above Terminal Area"
+msgstr "Wëżi ekranu terminala"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabBarPosition)
+#: settings/TabBarSettings.ui:83
+#, fuzzy
+#| msgid "Below Terminal Displays"
+msgid "Below Terminal Area"
+msgstr "Niżi ekranu terminala"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowQuickButtons)
+#: settings/TabBarSettings.ui:91
+#, fuzzy
+#| msgid "Show 'New Tab' and 'Close Tab' buttons in tab bar"
+msgid "Show 'New Tab' and 'Close Tab' buttons"
+msgstr "Wëskrzëni 'Nowô kôrta' ë 'Zamkni kôrtã' w listwie kôrtów"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: settings/TabBarSettings.ui:101
+msgid "Behavior"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: settings/TabBarSettings.ui:107
+msgid "New tab behavior:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NewTabBehavior)
+#: settings/TabBarSettings.ui:124
+msgid "Put New Tab At The End"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NewTabBehavior)
+#: settings/TabBarSettings.ui:129
+msgid "Put New Tab After Current Tab"
+msgstr ""
+
 #: TabTitleFormatButton.cpp:33
 #, fuzzy, c-format
 #| msgid "Program Name"
@@ -1731,487 +2745,6 @@ msgstr ""
 #: ZModemDialog.cpp:36
 msgid "&Stop"
 msgstr "&Zatrzëmôj"
-
-#~ msgid "File"
-#~ msgstr "Lopk"
-
-#~ msgid "Edit"
-#~ msgstr "Editcëjô"
-
-#~ msgid "View"
-#~ msgstr "Wëzdrzatk"
-
-#~ msgid "Split View"
-#~ msgstr "Pòdzélë wëzdrzatk"
-
-#~ msgid "Settings"
-#~ msgstr "Nastôwë"
-
-#~ msgid "Help"
-#~ msgstr "Pòmòc"
-
-#~ msgid "S&crollback"
-#~ msgstr "Liste&w przewijaniô"
-
-#~ msgid "Description:"
-#~ msgstr "Òpisënk:"
-
-#~ msgid "Vary the background color for each tab"
-#~ msgstr "Wszelejaczé farwë spódka dlô różnëch kôrtów"
-
-#~ msgid "Background transparency:"
-#~ msgstr "Przezérnota spòdlégò:"
-
-#~ msgid "Percent"
-#~ msgstr "Procent"
-
-#, fuzzy
-#~| msgid "Background"
-#~ msgid "Background image:"
-#~ msgstr "Farwa spódkù"
-
-#, fuzzy
-#~| msgid "Color Scheme && Background"
-#~ msgid "Choose the background image"
-#~ msgstr "Schéma farwë ë spòdlé"
-
-#~ msgid "..."
-#~ msgstr "..."
-
-#~ msgid "Filter:"
-#~ msgstr "Filter:"
-
-#~ msgid "Select All"
-#~ msgstr "Wëbiérzë wszëtkò"
-
-#~ msgid "Deselect All"
-#~ msgstr "Òdznaczë wszëtkò"
-
-#, fuzzy
-#~| msgid "General"
-#~ msgctxt "@title:tab Generic, common options"
-#~ msgid "General"
-#~ msgstr "Òglowé"
-
-#, fuzzy
-#~| msgid "General"
-#~ msgctxt "@title:group Generic, common options"
-#~ msgid "General"
-#~ msgstr "Òglowé"
-
-#~ msgid "Profile name:"
-#~ msgstr "Miono profilu:"
-
-#~ msgid "A descriptive name for the profile"
-#~ msgstr "Òpisënkòwé miono dlô profilu"
-
-#~ msgid "Command:"
-#~ msgstr "Pòlét:"
-
-#~ msgid ""
-#~ "The command to execute when new terminal sessions are created using this "
-#~ "profile"
-#~ msgstr ""
-#~ "Pòlét do zrëszeniô przë ùsôdzeniu nowi sesëji terminal brëkùjący negò "
-#~ "profilu"
-
-#~ msgid "Initial directory:"
-#~ msgstr "Zôczątkòwi katalog:"
-
-#~ msgid ""
-#~ "The initial working directory for new terminal sessions using this profile"
-#~ msgstr "Startowi katalog dlô nowi sesëji terminal brëkùjący negò profilu"
-
-#, fuzzy
-#~| msgid "Browse for initial directory"
-#~ msgid "Choose the initial directory"
-#~ msgstr "Szëkôj za zôczątkòwim katalogã"
-
-#~ msgid "Start in same directory as current tab"
-#~ msgstr "Startëjë w tim sómym katalogù co aktualnô kôrta"
-
-#~ msgid "Icon:"
-#~ msgstr "Ikòna:"
-
-#~ msgid "Select the icon displayed on tabs using this profile"
-#~ msgstr "Wëbierzë ikònã kôrtë brëkòwóną w tim profilu"
-
-#~ msgid "Environment:"
-#~ msgstr "Òkrãżé:"
-
-#~ msgid "Edit the list of environment variables and associated values"
-#~ msgstr "Editëjë lëstã zmiennych òkrãżô ë przëpisónych wôrtnotów"
-
-#~ msgid "Edit..."
-#~ msgstr "Editëjë..."
-
-#~ msgid "Window"
-#~ msgstr "Òkno"
-
-#~ msgid "Tabs"
-#~ msgstr "Kôrtë"
-
-#~ msgid "Tab Titles"
-#~ msgstr "Title kôrtów"
-
-#~ msgid "Appearance"
-#~ msgstr "Wëzdrzatk"
-
-#~ msgid "Color Scheme && Background"
-#~ msgstr "Schéma farwë ë spòdlé"
-
-#~ msgid "Create a new color scheme based upon the selected scheme"
-#~ msgstr "Ùsôdzë nową schémã farwów òpiartą na wëbróny"
-
-#, fuzzy
-#~| msgid "New..."
-#~ msgctxt "@action:button Create an alternate color scheme"
-#~ msgid "New..."
-#~ msgstr "Nowô..."
-
-#~ msgid "Edit the selected color scheme"
-#~ msgstr "Editëjë wëbróną schémã farwów"
-
-#~ msgid "Delete the selected color scheme"
-#~ msgstr "Rëmôj wëbróną schémã farwów"
-
-#~ msgid "Remove"
-#~ msgstr "Rëmôj"
-
-#~ msgid "Font"
-#~ msgstr "Fònt"
-
-#~ msgid "Preview:"
-#~ msgstr "Pòdzérk:"
-
-#~ msgid "Text size:"
-#~ msgstr "Miara tekstu:"
-
-#, fuzzy
-#~| msgid "Change the font used in this profile"
-#~ msgid "Select the font used in this profile"
-#~ msgstr "Zmieni fònt brëkòwóny w tim profilu"
-
-#, fuzzy
-#~| msgid "Edit Font..."
-#~ msgid "Select Font..."
-#~ msgstr "Editëjë fònt..."
-
-#~ msgid "Smooth fonts"
-#~ msgstr "Wëgładzóné fòntë"
-
-#~ msgid "Scrolling"
-#~ msgstr "Przewijanié"
-
-#, fuzzy
-#~| msgid "S&crollback"
-#~ msgid "Scrollback"
-#~ msgstr "Liste&w przewijaniô"
-
-#~ msgid "Scroll Bar"
-#~ msgstr "Listew przewijaniô"
-
-#~ msgid "Show the scroll bar on the left side of the terminal window"
-#~ msgstr "Wëskrzëni listew przewijaniô z lewi starnë òkna terminala"
-
-#~ msgid "Show on left side"
-#~ msgstr "Wëskrzëni z lewi starnë"
-
-#~ msgid "Show the scroll bar on the right side of the terminal window"
-#~ msgstr "Wëskrzëni listew przewijaniô z prawi starnë òkna terminala"
-
-#~ msgid "Show on right side"
-#~ msgstr "Wëskrzëni listew przewijaniô z lewi starnë òkna terminala"
-
-#~ msgid "Hide the scroll bar"
-#~ msgstr "Wëskrzëni z prawi starnë"
-
-#~ msgid "Key Bindings"
-#~ msgstr "Przëpisanié klawiszów"
-
-#, fuzzy
-#~| msgid ""
-#~| "Key bindings control how combinations of key presses in the terminal "
-#~| "window are converted into the stream of characters which is sent to the "
-#~| "current terminal program."
-#~ msgid ""
-#~ "Key bindings control how combinations of keystrokes in the terminal "
-#~ "window are converted into the stream of characters which are sent to the "
-#~ "current terminal program."
-#~ msgstr ""
-#~ "Przëpisanié klawiszów kòntrolëje jakno kòmbinacëjô wcësniãtich w òknie "
-#~ "terminala klawiszów mô sélac réżkã céchów do aktualny programë terminala."
-
-#~ msgid "Create a new key bindings list based upon the selected bindings"
-#~ msgstr ""
-#~ "Ùsôdzë nową lëstã przëpisaniô klawiszów òpiartą na aktualnym wëbiérkù"
-
-#, fuzzy
-#~| msgid "New..."
-#~ msgctxt "@action:button Create an alternate key binding"
-#~ msgid "New..."
-#~ msgstr "Nowô..."
-
-#~ msgid "Edit the selected key bindings list"
-#~ msgstr "Editëjë wëbróną lëstã przëpisaniô klawiszów"
-
-#~ msgid "Delete the selected key bindings list"
-#~ msgstr "Rëmôj wëbróną lëstã przëpisaniô klawiszów"
-
-#, fuzzy
-#~| msgid "Select"
-#~ msgid "Select Text"
-#~ msgstr "Wëbierzë"
-
-#, fuzzy
-#~| msgid ""
-#~| "Characters which are considered part of a word when double-clicking to "
-#~| "select whole words in the terminal"
-#~ msgid "Characters considered part of a word when double clicking:"
-#~ msgstr ""
-#~ "Ne céchë bãdą przëjãté w terminalu, przë dëbeltnym klëkniãcô, jakno dzél "
-#~ "słowa "
-
-#~ msgid ""
-#~ "Characters which are considered part of a word when double-clicking to "
-#~ "select whole words in the terminal"
-#~ msgstr ""
-#~ "Ne céchë bãdą przëjãté w terminalu, przë dëbeltnym klëkniãcô, jakno dzél "
-#~ "słowa "
-
-#, fuzzy
-#~| msgid "Save to current profile"
-#~ msgid "The whole current line"
-#~ msgstr "Zapiszë do biéżnegò profilu"
-
-#, fuzzy
-#~| msgid "Paste Selection"
-#~ msgid "Paste from selection"
-#~ msgstr "Wlepi wëbiérk"
-
-#, fuzzy
-#~| msgctxt "The shape of the cursor"
-#~| msgid "Underline"
-#~ msgid "Underline links"
-#~ msgstr "Pòdsztrëchniãti"
-
-#, fuzzy
-#~| msgid "Advanced"
-#~ msgctxt "@title:tab Complex options"
-#~ msgid "Advanced"
-#~ msgstr "Awansowóné"
-
-#~ msgid "Terminal Features"
-#~ msgstr "Fùnkcëje terminala"
-
-#~ msgid "Allow terminal programs to create blinking sections of text"
-#~ msgstr "Zezwòlë programie terminala ùsôdzac mërgającé dzéle tekstu"
-
-#~ msgid "Allow blinking text"
-#~ msgstr "Zezwòlë ma mërgający tekst"
-
-#~ msgid "Allow the output to be suspended by pressing Ctrl+S"
-#~ msgstr "Zezwòlë ùspic wińdzenia przë klëkniãcu Ctrl+S"
-
-#~ msgid "Enable flow control using Ctrl+S, Ctrl+Q"
-#~ msgstr "Włączë kòntrolã przepłiwù brëkùjąc Ctrl+S, Ctrl+Q"
-
-#~ msgid ""
-#~ "Enable Bi-Directional display on terminals (valid for Arabic, Farsi or "
-#~ "Hebrew only)"
-#~ msgstr ""
-#~ "Włączë Bi-direktionalné wëskrzënianié w terminalu (mòżlëwé blós dlô "
-#~ "arabsczégò, persczégò ë hebrajsczégò)"
-
-#~ msgid "Enable Bi-Directional text rendering"
-#~ msgstr "Włączë Bi-direktionalné wëskrzënianié ôrtów tekstu"
-
-#~ msgid "Cursor"
-#~ msgstr "Kùrsor"
-
-#~ msgid "Make the cursor blink regularly"
-#~ msgstr "Regùlarno mërgającu kùrsor"
-
-#~ msgid "Blinking cursor"
-#~ msgstr "Mërgający kùrsor"
-
-#~ msgid "Cursor shape:"
-#~ msgstr "Fòrma kùrsora:"
-
-#~ msgid "Change the shape of the cursor"
-#~ msgstr "Zmieni fòrmã kùrsora"
-
-#~ msgctxt "The shape of the cursor"
-#~ msgid "Block"
-#~ msgstr "Blokòwi"
-
-#~ msgctxt "The shape of the cursor, similar to a capital I"
-#~ msgid "I-Beam"
-#~ msgstr "Dëbeltné \"T\" (I)"
-
-#~ msgctxt "The shape of the cursor"
-#~ msgid "Underline"
-#~ msgstr "Pòdsztrëchniãti"
-
-#~ msgid "Set the cursor to match the color of the character underneath it."
-#~ msgstr "Nastôwiô farwã kùrsorã do leżącegò pòd nim céchù."
-
-#~ msgid "Set cursor color to match current character"
-#~ msgstr "Nastôwiô farwã kùrsorã do aktualnegò céchù."
-
-#~ msgid "Use a custom, fixed color for the cursor"
-#~ msgstr "Brëkùjë swòji, stałi farwë dlô kùrsora"
-
-#~ msgid "Custom cursor color:"
-#~ msgstr "Swòjô farwa kùrsora:"
-
-#~ msgid "Select the color used to draw the cursor"
-#~ msgstr "Wëbierzë farwã kùrsora"
-
-#~ msgid "Encoding"
-#~ msgstr "Kòdowanié"
-
-#~ msgid "Default character encoding:"
-#~ msgstr "Domëslné kòdowanié céchów"
-
-#, fuzzy
-#~| msgid "Select"
-#~ msgctxt "@action:button Pick an encoding"
-#~ msgid "Select"
-#~ msgstr "Wëbierzë"
-
-#, fuzzy
-#~| msgid "Disable scroll bar and do not remember previous output"
-#~ msgid "Do not remember previous output"
-#~ msgstr "Wëłączë listew przewijaniô ë nié pamiãtôj rechlijszich wińdzeniów"
-
-#~ msgid "No scrollback"
-#~ msgstr "Bez lëstwë przewijaniô"
-
-#~ msgid "Limit the remembered output to a fixed number of lines"
-#~ msgstr "Ògańczô pamiãtóné wińdzenia do stałi wielënë rézów"
-
-#, fuzzy
-#~| msgid "Fixed size scrollback: "
-#~ msgid "Fixed size scrollback:"
-#~ msgstr "Sztabilnô miara lëstwë przewijaniô"
-
-#~ msgid "Number of lines of output to remember"
-#~ msgstr "Wielëna rézów wińdzeniô do spamiãtaniô"
-
-#~ msgid "Remember all output produced by the terminal"
-#~ msgstr "Pamiãtôj wszëtczé wińdzenia terminala"
-
-#~ msgid "Unlimited scrollback"
-#~ msgstr "Lëstwa przewijaniô bez ògreńczeń"
-
-#~ msgid "Add"
-#~ msgstr "Dodôj"
-
-#~ msgctxt "Title of the area where you test your keys are properly configured"
-#~ msgid "Test Area"
-#~ msgstr "Testowé pòle"
-
-#~ msgid "Input:"
-#~ msgstr "Weńdzenié:"
-
-#~ msgid "Output:"
-#~ msgstr "Wińdzenié:"
-
-#~ msgid "Create a new profile based upon the selected profile"
-#~ msgstr "Ùsôdzë nowi profil òpiarti na wëbrónym"
-
-#, fuzzy
-#~| msgid "New Profile..."
-#~ msgid "&New Profile..."
-#~ msgstr "Nowi profil..."
-
-#~ msgid "Edit the selected profile(s)"
-#~ msgstr "Editëjë wëbróny(-é) profil(e)"
-
-#, fuzzy
-#~| msgid "Edit Profile..."
-#~ msgid "&Edit Profile..."
-#~ msgstr "Editëjë profil..."
-
-#~ msgid "Delete the selected profile(s)"
-#~ msgstr "Rëmôj wëbróny(-é) profil(e)"
-
-#, fuzzy
-#~| msgid "Delete Profile"
-#~ msgid "&Delete Profile"
-#~ msgstr "Rëmôj profil"
-
-#~ msgid "Set the selected profile as the default for new terminal sessions"
-#~ msgstr "Nastôwi wëbróny profil jakno domëslny dlô nowi sesëji terminala"
-
-#, fuzzy
-#~| msgid "Set as Default"
-#~ msgid "&Set as Default"
-#~ msgstr "Nastôwi jakno domëslny"
-
-#, fuzzy
-#~| msgid "Output"
-#~ msgid "Output Options"
-#~ msgstr "Wińdzenié"
-
-#~ msgid "Tab title format:"
-#~ msgstr "Fòrmat titla kôrtë:"
-
-#~ msgid "Normal tab title format"
-#~ msgstr "Zwëkòwi fòrmat titla kôrtë"
-
-#~ msgid "Remote tab title format:"
-#~ msgstr "Daleczi fòrmat titla kôrtë"
-
-#~ msgid ""
-#~ "Tab title format used when a remote command (e.g. connection to another "
-#~ "computer via SSH) is being executed"
-#~ msgstr ""
-#~ "Brëkòwóny fòrmat titla dlô zrëszónych daleczich pòlétów (n.p. "
-#~ "sparłãczenié z jinszim kòmpùtrã przez SSH)"
-
-#, fuzzy
-#~| msgid "Konsole"
-#~ msgid "Konsole Window"
-#~ msgstr "Kònsola"
-
-#, fuzzy
-#~| msgid "Show menu bar in new windows"
-#~ msgid "Show menubar by default in each Konsole window"
-#~ msgstr "Wëskrzëni listew menu w nowim òknie"
-
-#, fuzzy
-#~| msgid "Tab bar display:"
-#~ msgid "Tab bar visibility:"
-#~ msgstr "Wëskrzënianié listwë kôrtów:"
-
-#~ msgid "Always Show Tab Bar"
-#~ msgstr "Wiedno pòkôżë lëstew kôrtë"
-
-#~ msgid "Show Tab Bar When Needed"
-#~ msgstr "Pòkôżë lëstew kôrtë czedë nót"
-
-#~ msgid "Always Hide Tab Bar"
-#~ msgstr "Wiedno zatacë lëstew kôrtë"
-
-#~ msgid "Tab bar position:"
-#~ msgstr "Pòłożenié listwë kôrtów"
-
-#, fuzzy
-#~| msgid "Above Terminal Displays"
-#~ msgid "Above Terminal Area"
-#~ msgstr "Wëżi ekranu terminala"
-
-#, fuzzy
-#~| msgid "Below Terminal Displays"
-#~ msgid "Below Terminal Area"
-#~ msgstr "Niżi ekranu terminala"
-
-#, fuzzy
-#~| msgid "Show 'New Tab' and 'Close Tab' buttons in tab bar"
-#~ msgid "Show 'New Tab' and 'Close Tab' buttons"
-#~ msgstr "Wëskrzëni 'Nowô kôrta' ë 'Zamkni kôrtã' w listwie kôrtów"
 
 #, fuzzy
 #~| msgid "Accessible Color Scheme"

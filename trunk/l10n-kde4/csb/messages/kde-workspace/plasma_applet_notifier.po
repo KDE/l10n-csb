@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_devicenotifier\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:51+0100\n"
+"POT-Creation-Date: 2013-02-07 03:44+0100\n"
 "PO-Revision-Date: 2009-12-14 23:19+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -20,6 +20,21 @@ msgstr ""
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_removableDevices)
+#: package/contents/ui/config.ui:17
+msgid "Removable devices only"
+msgstr "Blós przenosné ùrządzenia"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_nonRemovableDevices)
+#: package/contents/ui/config.ui:24
+msgid "Non-removable devices only"
+msgstr "Blós nieprzenosné ùrządzenia"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_allDevices)
+#: package/contents/ui/config.ui:44
+msgid "All devices"
+msgstr "Wszëtczé ùrządzenia"
 
 #: package/contents/ui/DeviceItem.qml:164
 msgctxt ""
@@ -121,15 +136,6 @@ msgstr "Wszëtczé ùrządzenia"
 #: package/contents/ui/devicenotifier.qml:191
 msgid "No Devices Available"
 msgstr ""
-
-#~ msgid "Removable devices only"
-#~ msgstr "Blós przenosné ùrządzenia"
-
-#~ msgid "Non-removable devices only"
-#~ msgstr "Blós nieprzenosné ùrządzenia"
-
-#~ msgid "All devices"
-#~ msgstr "Wszëtczé ùrządzenia"
 
 #, fuzzy
 #~| msgid "Display:"

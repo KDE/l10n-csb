@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:39+0100\n"
+"POT-Creation-Date: 2013-02-06 03:18+0100\n"
 "PO-Revision-Date: 2009-12-14 23:08+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -166,7 +166,8 @@ msgstr "Wprzód katalodżi"
 msgid "Sort Icons"
 msgstr "Zortëjë ikònë"
 
-#: folderview.cpp:1597
+#. i18n: ectx: property (text), widget (QLabel, iconsTitle)
+#: folderview.cpp:1597 folderviewDisplayConfig.ui:80
 msgid "Icons"
 msgstr "Ikònë"
 
@@ -206,6 +207,364 @@ msgstr[0] "1 lopk."
 msgstr[1] "%1 lopczi."
 msgstr[2] "%1 lopków."
 
+#. i18n: ectx: property (text), widget (QLabel, headerTitle)
+#: folderviewDisplayConfig.ui:29
+msgid "Header"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, titleLabel)
+#: folderviewDisplayConfig.ui:58
+#, fuzzy
+#| msgid "Custom Title:"
+msgid "Custom title:"
+msgstr "Swój titel:"
+
+#. i18n: ectx: property (text), widget (QLabel, flowLabel)
+#: folderviewDisplayConfig.ui:103
+msgid "Arrangement:"
+msgstr "Ùłożenié:"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, flowCombo)
+#: folderviewDisplayConfig.ui:116
+msgid ""
+"Use this control to choose if you want the icons to be arranged top to "
+"bottom starting on the left side of the view, or arranged left to right "
+"starting at the top of the view."
+msgstr ""
+"W ti òptacëji mòżeta nastôwic to, czë ikònë mają bëc pòùkłôdóné z lewò na "
+"prawò abò z górë na dół."
+
+#. i18n: ectx: property (text), widget (QLabel, sortLabel)
+#: folderviewDisplayConfig.ui:123
+msgid "Sorting:"
+msgstr "Zortowanié:"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, sortCombo)
+#: folderviewDisplayConfig.ui:136
+msgid ""
+"Use this control to choose the criteria by which the icons will be sorted in "
+"the view."
+msgstr ""
+"W ti òptacëji mòżeta nastôwic to, wedle jaczich kriterów  mają bëc "
+"pòzortowóné ikònë w wëzdrzatkù."
+
+#. i18n: ectx: property (text), widget (QLabel, sizeSliderLabel)
+#: folderviewDisplayConfig.ui:156 tooltipwidget.cpp:145
+msgid "Size:"
+msgstr "Miara:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: folderviewDisplayConfig.ui:171
+msgid "Small"
+msgstr "Môłô"
+
+#. i18n: ectx: property (whatsThis), widget (QSlider, sizeSlider)
+#: folderviewDisplayConfig.ui:181
+msgid ""
+"Use this slider to increase or decrease the size of the icons in the view."
+msgstr "Z pòmòcą tegò przestôwnika mòżeta zjinaczac miarë ikònów."
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: folderviewDisplayConfig.ui:203
+msgid "Large"
+msgstr "Wiôlgô"
+
+#. i18n: ectx: property (text), widget (QLabel, previewsAdvancedLabel)
+#: folderviewDisplayConfig.ui:212
+msgid "Previews:"
+msgstr "Pòdzérczi:"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, showPreviews)
+#: folderviewDisplayConfig.ui:224
+msgid ""
+"Check this option if you want to see previews of the file contents in the "
+"icons."
+msgstr ""
+"Wëbierzë na òptacëjã jeżlë chcesz dobëc pòdzérk kònténera lopka na placu "
+"ikònë."
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, previewsAdvanced)
+#: folderviewDisplayConfig.ui:234
+msgid ""
+"Click this button to choose for which types of files previews will be shown."
+msgstr ""
+"Klëkni na tã knapã abë wëbrac ôrt lopka dlô jaczegò mô sã pòkôzac pòdzérk."
+
+#. i18n: ectx: property (text), widget (QPushButton, previewsAdvanced)
+#: folderviewDisplayConfig.ui:237
+msgid "More Preview Options..."
+msgstr "Wicy pòtacëji pòdzérkù..."
+
+#. i18n: ectx: property (text), widget (QLabel, lockInPlaceLabel)
+#: folderviewDisplayConfig.ui:259
+msgid "Lock in place:"
+msgstr "Blokùjë pòłóżenié:"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, lockInPlace)
+#: folderviewDisplayConfig.ui:271
+msgid ""
+"Check this option if you do not want the icons to be moveable in the view.\n"
+"\n"
+"This option is useful if you want to avoid accidentally moving the icons "
+"while interacting with them."
+msgstr ""
+"Wëbierzë na òptacëjã, jeżlë chcesz bë ikònë nie bëłë przenoszoné.\n"
+"\n"
+"Je to prakticzné jak n.p. nie chceta bë ikònë òstałë niéchcało przeniosłé."
+
+#. i18n: ectx: property (text), widget (QLabel, alignToGridLabel)
+#: folderviewDisplayConfig.ui:281
+msgid "Align to grid:"
+msgstr "Wërôwnanié do mrzéżczi:"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, alignToGrid)
+#: folderviewDisplayConfig.ui:293
+msgid ""
+"Check this option if you want the icons to be arranged in a grid.\n"
+"\n"
+"When this option is checked, icons will automatically snap to the nearest "
+"grid cell when you move them around in the view."
+msgstr ""
+"Wëbierzë na òptacëjã, jeżlë ikònë mają bëc ùłożoné przë mrzéżce .\n"
+"\n"
+"Jeżlë na òptacëjô je włączonô, to ikònë bãdą aùtomatno wërównóné do "
+"niewidzawny mrzéżczi."
+
+#. i18n: ectx: property (text), widget (QLabel, clickToViewLabel)
+#: folderviewDisplayConfig.ui:303
+msgid "Click to view folder:"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, clickToView)
+#: folderviewDisplayConfig.ui:313
+#, fuzzy
+#| msgid ""
+#| "Check this option if you want the icons to be arranged in a grid.\n"
+#| "\n"
+#| "When this option is checked, icons will automatically snap to the nearest "
+#| "grid cell when you move them around in the view."
+msgid ""
+"Check this option if you want folder previews to appear only when clicked. "
+"When this option is turned off, folder previews will appear automatically "
+"when the mouse hovers over a folder."
+msgstr ""
+"Wëbierzë na òptacëjã, jeżlë ikònë mają bëc ùłożoné przë mrzéżce .\n"
+"\n"
+"Jeżlë na òptacëjô je włączonô, to ikònë bãdą aùtomatno wërównóné do "
+"niewidzawny mrzéżczi."
+
+#. i18n: ectx: property (text), widget (QLabel, iconTextTitle)
+#: folderviewDisplayConfig.ui:335
+#, fuzzy
+#| msgid "Icon Settings"
+msgid "Icon Text"
+msgstr "Nastôwë ikònów"
+
+#. i18n: ectx: property (text), widget (QLabel, numLinesEditLabel)
+#: folderviewDisplayConfig.ui:342
+msgid "Lines:"
+msgstr "Réżczi:"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, numLinesEdit)
+#: folderviewDisplayConfig.ui:361
+msgid ""
+"Use this control to choose how many lines of text will be shown below the "
+"icons."
+msgstr "Tuwò mòżeta wëbrac jak wielë réżków mô miec tekst pòd ikòną."
+
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, numLinesEdit)
+#: folderviewDisplayConfig.ui:364
+msgid "1 line"
+msgstr "1 réżka"
+
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, numLinesEdit)
+#: folderviewDisplayConfig.ui:367
+msgid " lines"
+msgstr " réżczi"
+
+#. i18n: ectx: property (text), widget (QLabel, colorButtonLabel)
+#: folderviewDisplayConfig.ui:396
+msgid "Color:"
+msgstr "Farwa:"
+
+#. i18n: ectx: property (whatsThis), widget (KColorButton, colorButton)
+#: folderviewDisplayConfig.ui:409
+msgid ""
+"Click this button to choose the color which is used for the text labels in "
+"the view."
+msgstr "Klëkni na tã knapã abë wëbrac farwã tekstu dlô òpisënka."
+
+#. i18n: ectx: property (text), widget (QLabel, drawShadowsLabel)
+#: folderviewDisplayConfig.ui:419
+msgid "Shadows:"
+msgstr "Ceniô:"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, drawShadows)
+#: folderviewDisplayConfig.ui:436
+msgid ""
+"<html><body><p>Check this option if you want the text labels to cast a "
+"shadow on the background.</p>\n"
+"<p></p>\n"
+"<p>Shadows help make the text easier to read by making it stand out more "
+"from the background.</p>\n"
+"<p></p>\n"
+"<p><i>Note that with dark text colors, this option will cause the text to "
+"glow with a bright halo, instead of casting a shadow.</i></p></body></html>"
+msgstr ""
+"<html><body><p>Wëbierzë na òptacëjã abë wëskrzrniwóné tekstë bëłë ceniowóné."
+"</p>\n"
+"<p></p>\n"
+"<p>Dzãka ceniowaniô bãdą tekstë barżi czëtné, bò lepi sã òne wëprzédniają òd "
+"spódkù.</p>\n"
+"<p></p>\n"
+"<p><i>Równak przë cemnym tekscë wëskrzëni sã pòdskrzënianié na placu ceniô.</"
+"i></p></body></html>"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, filterType)
+#: folderviewFilterConfig.ui:34
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">If you have selected "
+"\"Show Files Matching\" or \"Hide Files Matching\", only the files matching "
+"BOTH the conditions will be shown or hidden respectively.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">For example, if you have "
+"\"*\" as your pattern, but have nothing selected in the MIME types, no files "
+"will be shown.</p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Jeżlë môsz wëbróné\"Pòkażë "
+"dopasowanié lopków\" abò \"Zatacë dopasowanié lopków\", blós lopczi "
+"spełniwającé ÒBA warënczi òstaną pòkazóné abò zataconé.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Na przëmiôr, jeżlë môsz "
+"dóné\"*\" jakno szëkóny szlach, ale ni môsz wëbróné ôrtów MIME, niżóden lopk "
+"nie bãdze pòkazóny.</p></body></html>"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, filterType)
+#: folderviewFilterConfig.ui:41
+msgid "Show All Files"
+msgstr "Wëskrzëni wszëtczé lopczi"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, filterType)
+#: folderviewFilterConfig.ui:46
+msgid "Show Files Matching"
+msgstr "Wëskrzëni pasowné lopczi"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, filterType)
+#: folderviewFilterConfig.ui:51
+msgid "Hide Files Matching"
+msgstr "Nie wëskrzëniwôj pasownëch lopków"
+
+#. i18n: ectx: property (text), widget (QPushButton, selectAll)
+#: folderviewFilterConfig.ui:96
+msgid "Select All"
+msgstr "Wëbiérzë wszëtkò"
+
+#. i18n: ectx: property (text), widget (QPushButton, deselectAll)
+#: folderviewFilterConfig.ui:103
+msgid "Deselect All"
+msgstr "Nié wëbierôj wszëtczegò"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label)
+#: folderviewFilterConfig.ui:112
+msgid ""
+"Note that if you have selected \"Show Files Matching\" or \"Hide Files "
+"Matching\",\n"
+"only the files matching BOTH the conditions will be shown or hidden "
+"respectively.\n"
+"For example, if you have \"*\" as your pattern, but have nothing selected in "
+"the MIME types, no files will be shown."
+msgstr ""
+"Jeżlë môsz wëbróné\"Pòkażë dopasowanié lopków\" abò \"Zatacë dopasowanié "
+"lopków\", blós lopczi spełniwającé ÒBA warënczi òstaną pòkazóné abò "
+"zataconé.\n"
+"Na przëmiôr, jeżlë môsz dóné\"*\" jakno szëkóny szlach, ale ni môsz wëbróné "
+"ôrtów MIME, niżóden lopk nie bãdze pòkazóny."
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: folderviewFilterConfig.ui:115
+msgid "<a href=\"null\">Cannot See Any Files?</a>"
+msgstr "<a href=\"null\">Nie widzysz lopków?</a>"
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, searchMimetype)
+#: folderviewFilterConfig.ui:142
+msgid "Search file type"
+msgstr "Szëkôj za ôrtã lopka"
+
+#. i18n: ectx: property (text), widget (QLabel, fileTypesLabel)
+#: folderviewFilterConfig.ui:152
+msgid "File types:"
+msgstr "Ôrtë lopka:"
+
+#. i18n: ectx: property (text), widget (QLabel, fileNameLabel)
+#: folderviewFilterConfig.ui:159
+msgid "File name pattern:"
+msgstr "Mùster lopka:"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, filterFilesPattern)
+#: folderviewFilterConfig.ui:172
+msgid "Space-separated list of extensions, e.g. *.txt *.od*"
+msgstr "Lësta rozszérzeniów òddzélonô òdstãpama, np. *.txt *  .od*"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, filterFilesPattern)
+#: folderviewFilterConfig.ui:175
+msgid ""
+"Space-separated list of extensions, e.g. *.txt *.od* to display only office- "
+"and text-files"
+msgstr ""
+"Lësta rozszérzeniów òddzélonô òdstãpama, np. *.txt *  .od* bë wëskrzënic "
+"blós biurowé ë tekstowé lopczi"
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, filterFilesPattern)
+#: folderviewFilterConfig.ui:184
+msgid "Pattern filter"
+msgstr "Filter mùstra"
+
+#. i18n: ectx: property (text), widget (QRadioButton, showDesktopFolder)
+#: folderviewLocationConfig.ui:17
+msgid "Show the Desktop folder"
+msgstr "Wëskrzëni katalog pùltu"
+
+#. i18n: ectx: property (text), widget (QRadioButton, showActivity)
+#: folderviewLocationConfig.ui:24
+msgid "Show the files related to the current activity"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, showPlace)
+#: folderviewLocationConfig.ui:31
+msgid "Show a place:"
+msgstr "Wëskrzëni môl:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, showCustomFolder)
+#: folderviewLocationConfig.ui:61
+msgid "Specify a folder:"
+msgstr "Wëbierzë katalog:"
+
+#. i18n: ectx: property (clickMessage), widget (KUrlRequester, lineEdit)
+#: folderviewLocationConfig.ui:92
+msgid "Type a path or a URL here"
+msgstr "Wpiszë tuwò stegnã abò URL"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: folderviewPreviewConfig.ui:16
+msgid "Check the file types you want icon previews for:"
+msgstr "Wëbierzë ôrt lopka dlô jaczegò mô sã wëskrzënic pòdzérk lopka."
+
 #: iconview.cpp:1240
 msgid "This folder is empty."
 msgstr "Nen katalog je pùsti."
@@ -235,10 +594,6 @@ msgstr "Albùm:"
 #| msgid_plural "%1 MPixels"
 msgid "%1 MPixels"
 msgstr "1 MPiksel"
-
-#: tooltipwidget.cpp:145
-msgid "Size:"
-msgstr "Miara:"
 
 #: tooltipwidget.cpp:148
 msgid "Camera:"
@@ -312,257 +667,6 @@ msgid_plural "%1 items"
 msgstr[0] "1 element"
 msgstr[1] "%1 elementë"
 msgstr[2] "%1 elementów"
-
-#, fuzzy
-#~| msgid "Custom Title:"
-#~ msgid "Custom title:"
-#~ msgstr "Swój titel:"
-
-#~ msgid "Arrangement:"
-#~ msgstr "Ùłożenié:"
-
-#~ msgid ""
-#~ "Use this control to choose if you want the icons to be arranged top to "
-#~ "bottom starting on the left side of the view, or arranged left to right "
-#~ "starting at the top of the view."
-#~ msgstr ""
-#~ "W ti òptacëji mòżeta nastôwic to, czë ikònë mają bëc pòùkłôdóné z lewò na "
-#~ "prawò abò z górë na dół."
-
-#~ msgid "Sorting:"
-#~ msgstr "Zortowanié:"
-
-#~ msgid ""
-#~ "Use this control to choose the criteria by which the icons will be sorted "
-#~ "in the view."
-#~ msgstr ""
-#~ "W ti òptacëji mòżeta nastôwic to, wedle jaczich kriterów  mają bëc "
-#~ "pòzortowóné ikònë w wëzdrzatkù."
-
-#~ msgid "Small"
-#~ msgstr "Môłô"
-
-#~ msgid ""
-#~ "Use this slider to increase or decrease the size of the icons in the view."
-#~ msgstr "Z pòmòcą tegò przestôwnika mòżeta zjinaczac miarë ikònów."
-
-#~ msgid "Large"
-#~ msgstr "Wiôlgô"
-
-#~ msgid "Previews:"
-#~ msgstr "Pòdzérczi:"
-
-#~ msgid ""
-#~ "Check this option if you want to see previews of the file contents in the "
-#~ "icons."
-#~ msgstr ""
-#~ "Wëbierzë na òptacëjã jeżlë chcesz dobëc pòdzérk kònténera lopka na placu "
-#~ "ikònë."
-
-#~ msgid ""
-#~ "Click this button to choose for which types of files previews will be "
-#~ "shown."
-#~ msgstr ""
-#~ "Klëkni na tã knapã abë wëbrac ôrt lopka dlô jaczegò mô sã pòkôzac pòdzérk."
-
-#~ msgid "More Preview Options..."
-#~ msgstr "Wicy pòtacëji pòdzérkù..."
-
-#~ msgid "Lock in place:"
-#~ msgstr "Blokùjë pòłóżenié:"
-
-#~ msgid ""
-#~ "Check this option if you do not want the icons to be moveable in the "
-#~ "view.\n"
-#~ "\n"
-#~ "This option is useful if you want to avoid accidentally moving the icons "
-#~ "while interacting with them."
-#~ msgstr ""
-#~ "Wëbierzë na òptacëjã, jeżlë chcesz bë ikònë nie bëłë przenoszoné.\n"
-#~ "\n"
-#~ "Je to prakticzné jak n.p. nie chceta bë ikònë òstałë niéchcało przeniosłé."
-
-#~ msgid "Align to grid:"
-#~ msgstr "Wërôwnanié do mrzéżczi:"
-
-#~ msgid ""
-#~ "Check this option if you want the icons to be arranged in a grid.\n"
-#~ "\n"
-#~ "When this option is checked, icons will automatically snap to the nearest "
-#~ "grid cell when you move them around in the view."
-#~ msgstr ""
-#~ "Wëbierzë na òptacëjã, jeżlë ikònë mają bëc ùłożoné przë mrzéżce .\n"
-#~ "\n"
-#~ "Jeżlë na òptacëjô je włączonô, to ikònë bãdą aùtomatno wërównóné do "
-#~ "niewidzawny mrzéżczi."
-
-#, fuzzy
-#~| msgid ""
-#~| "Check this option if you want the icons to be arranged in a grid.\n"
-#~| "\n"
-#~| "When this option is checked, icons will automatically snap to the "
-#~| "nearest grid cell when you move them around in the view."
-#~ msgid ""
-#~ "Check this option if you want folder previews to appear only when "
-#~ "clicked. When this option is turned off, folder previews will appear "
-#~ "automatically when the mouse hovers over a folder."
-#~ msgstr ""
-#~ "Wëbierzë na òptacëjã, jeżlë ikònë mają bëc ùłożoné przë mrzéżce .\n"
-#~ "\n"
-#~ "Jeżlë na òptacëjô je włączonô, to ikònë bãdą aùtomatno wërównóné do "
-#~ "niewidzawny mrzéżczi."
-
-#, fuzzy
-#~| msgid "Icon Settings"
-#~ msgid "Icon Text"
-#~ msgstr "Nastôwë ikònów"
-
-#~ msgid "Lines:"
-#~ msgstr "Réżczi:"
-
-#~ msgid ""
-#~ "Use this control to choose how many lines of text will be shown below the "
-#~ "icons."
-#~ msgstr "Tuwò mòżeta wëbrac jak wielë réżków mô miec tekst pòd ikòną."
-
-#~ msgid "1 line"
-#~ msgstr "1 réżka"
-
-#~ msgid " lines"
-#~ msgstr " réżczi"
-
-#~ msgid "Color:"
-#~ msgstr "Farwa:"
-
-#~ msgid ""
-#~ "Click this button to choose the color which is used for the text labels "
-#~ "in the view."
-#~ msgstr "Klëkni na tã knapã abë wëbrac farwã tekstu dlô òpisënka."
-
-#~ msgid "Shadows:"
-#~ msgstr "Ceniô:"
-
-#~ msgid ""
-#~ "<html><body><p>Check this option if you want the text labels to cast a "
-#~ "shadow on the background.</p>\n"
-#~ "<p></p>\n"
-#~ "<p>Shadows help make the text easier to read by making it stand out more "
-#~ "from the background.</p>\n"
-#~ "<p></p>\n"
-#~ "<p><i>Note that with dark text colors, this option will cause the text to "
-#~ "glow with a bright halo, instead of casting a shadow.</i></p></body></"
-#~ "html>"
-#~ msgstr ""
-#~ "<html><body><p>Wëbierzë na òptacëjã abë wëskrzrniwóné tekstë bëłë "
-#~ "ceniowóné.</p>\n"
-#~ "<p></p>\n"
-#~ "<p>Dzãka ceniowaniô bãdą tekstë barżi czëtné, bò lepi sã òne wëprzédniają "
-#~ "òd spódkù.</p>\n"
-#~ "<p></p>\n"
-#~ "<p><i>Równak przë cemnym tekscë wëskrzëni sã pòdskrzënianié na placu "
-#~ "ceniô.</i></p></body></html>"
-
-#~ msgid ""
-#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
-#~ "REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">If you have selected "
-#~ "\"Show Files Matching\" or \"Hide Files Matching\", only the files "
-#~ "matching BOTH the conditions will be shown or hidden respectively.</p>\n"
-#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">For example, if you "
-#~ "have \"*\" as your pattern, but have nothing selected in the MIME types, "
-#~ "no files will be shown.</p></body></html>"
-#~ msgstr ""
-#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
-#~ "REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Jeżlë môsz wëbróné"
-#~ "\"Pòkażë dopasowanié lopków\" abò \"Zatacë dopasowanié lopków\", blós "
-#~ "lopczi spełniwającé ÒBA warënczi òstaną pòkazóné abò zataconé.</p>\n"
-#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Na przëmiôr, jeżlë môsz "
-#~ "dóné\"*\" jakno szëkóny szlach, ale ni môsz wëbróné ôrtów MIME, niżóden "
-#~ "lopk nie bãdze pòkazóny.</p></body></html>"
-
-#~ msgid "Show All Files"
-#~ msgstr "Wëskrzëni wszëtczé lopczi"
-
-#~ msgid "Show Files Matching"
-#~ msgstr "Wëskrzëni pasowné lopczi"
-
-#~ msgid "Hide Files Matching"
-#~ msgstr "Nie wëskrzëniwôj pasownëch lopków"
-
-#~ msgid "Select All"
-#~ msgstr "Wëbiérzë wszëtkò"
-
-#~ msgid "Deselect All"
-#~ msgstr "Nié wëbierôj wszëtczegò"
-
-#~ msgid ""
-#~ "Note that if you have selected \"Show Files Matching\" or \"Hide Files "
-#~ "Matching\",\n"
-#~ "only the files matching BOTH the conditions will be shown or hidden "
-#~ "respectively.\n"
-#~ "For example, if you have \"*\" as your pattern, but have nothing selected "
-#~ "in the MIME types, no files will be shown."
-#~ msgstr ""
-#~ "Jeżlë môsz wëbróné\"Pòkażë dopasowanié lopków\" abò \"Zatacë dopasowanié "
-#~ "lopków\", blós lopczi spełniwającé ÒBA warënczi òstaną pòkazóné abò "
-#~ "zataconé.\n"
-#~ "Na przëmiôr, jeżlë môsz dóné\"*\" jakno szëkóny szlach, ale ni môsz "
-#~ "wëbróné ôrtów MIME, niżóden lopk nie bãdze pòkazóny."
-
-#~ msgid "<a href=\"null\">Cannot See Any Files?</a>"
-#~ msgstr "<a href=\"null\">Nie widzysz lopków?</a>"
-
-#~ msgid "Search file type"
-#~ msgstr "Szëkôj za ôrtã lopka"
-
-#~ msgid "File types:"
-#~ msgstr "Ôrtë lopka:"
-
-#~ msgid "File name pattern:"
-#~ msgstr "Mùster lopka:"
-
-#~ msgid "Space-separated list of extensions, e.g. *.txt *.od*"
-#~ msgstr "Lësta rozszérzeniów òddzélonô òdstãpama, np. *.txt *  .od*"
-
-#~ msgid ""
-#~ "Space-separated list of extensions, e.g. *.txt *.od* to display only "
-#~ "office- and text-files"
-#~ msgstr ""
-#~ "Lësta rozszérzeniów òddzélonô òdstãpama, np. *.txt *  .od* bë wëskrzënic "
-#~ "blós biurowé ë tekstowé lopczi"
-
-#~ msgid "Pattern filter"
-#~ msgstr "Filter mùstra"
-
-#~ msgid "Show the Desktop folder"
-#~ msgstr "Wëskrzëni katalog pùltu"
-
-#~ msgid "Show a place:"
-#~ msgstr "Wëskrzëni môl:"
-
-#~ msgid "Specify a folder:"
-#~ msgstr "Wëbierzë katalog:"
-
-#~ msgid "Type a path or a URL here"
-#~ msgstr "Wpiszë tuwò stegnã abò URL"
-
-#~ msgid "Check the file types you want icon previews for:"
-#~ msgstr "Wëbierzë ôrt lopka dlô jaczegò mô sã wëskrzënic pòdzérk lopka."
 
 #, fuzzy
 #~| msgid ""
