@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmbackground\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 05:29+0200\n"
+"POT-Creation-Date: 2013-02-11 03:51+0100\n"
 "PO-Revision-Date: 2009-10-19 14:18+0200\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -49,8 +49,7 @@ msgstr "Na gwës rëmnąc programã \"%1\"?"
 msgid "Remove Background Program"
 msgstr "Rëmôj programã ùsôdzającą spòdlé"
 
-#. i18n: ectx: property (text), widget (QPushButton, m_buttonRemove)
-#: bgadvanced.cpp:256 bgadvanced_ui.ui:47 bgwallpaper_ui.ui:115
+#: bgadvanced.cpp:256
 msgid "&Remove"
 msgstr "&Rëmôj"
 
@@ -131,193 +130,6 @@ msgid ""
 msgstr ""
 "Felënk wëdowiédzë w pòlu 'Pòlét'.\n"
 "Pòle mùszi bëc wëfùlowóné."
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_groupProgram)
-#: bgadvanced_ui.ui:16
-msgid "Background Program"
-msgstr "Programa ùsôdzającô spòdlé"
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonAdd)
-#: bgadvanced_ui.ui:31
-msgid ""
-"<qt>\n"
-"<p>Click here if you want to add a program to the listbox. This button opens "
-"a dialog where you are asked to give details about the program you want to "
-"run. To successfully add a program, you must know if it is compatible, the "
-"name of the executable file and, if necessary, its options.</p>\n"
-"<p>You usually can get the available options to a suitable program by typing "
-"in a terminal emulator the name of the executable file plus --help (foobar --"
-"help).</p>\n"
-"</qt>"
-msgstr ""
-"<qt>\n"
-"<p> Klëkni tuwò, jeżlë chcesz dodac programã do lëstë. Na knąpa òtmëkô òkno, "
-"w jaczim mòże pòdac detale tikające sã programë, jaką chcesz zrëszëc. Bë "
-"dodac programã, mùszisz znac ji miono ë - jeżlë nót - òptacëje.</p>\n"
-"<p> Òptacëje programë mòże òbôczëc, zrëszjąc programã w terminalu z òptacëją "
-"--help.</p>\n"
-"</qt>"
-
-#. i18n: ectx: property (text), widget (QPushButton, m_buttonAdd)
-#: bgadvanced_ui.ui:34 bgwallpaper_ui.ui:92
-msgid "&Add..."
-msgstr "&Dodôj..."
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonRemove)
-#: bgadvanced_ui.ui:44
-msgid ""
-"Click here to remove programs from this list. Please note that it does not "
-"remove the program from your system, it only removes it from the available "
-"options in the background drawing programs list."
-msgstr ""
-"Klëkni tuwò, bë rëmnąc programë z ti lëstë. Programë rëmniãté z lëstë nie "
-"bãdą przistãpné jakno programë do ùsôdzaniô spòdla."
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonModify)
-#: bgadvanced_ui.ui:59
-#, fuzzy
-#| msgid ""
-#| "<qt>\n"
-#| "<p>Click here if you want to add a program to the listbox. This button "
-#| "opens a dialog where you are asked to give details about the program you "
-#| "want to run. To successfully add a program, you must know if it is "
-#| "compatible, the name of the executable file and, if necessary, its "
-#| "options.</p>\n"
-#| "<p>You usually can get the available options to a suitable program by "
-#| "typing in a terminal emulator the name of the executable file plus --help "
-#| "(foobar --help).</p>\n"
-#| "</qt>"
-msgid ""
-"<qt>\n"
-"<p>Click here to modify the programs options. You usually can get the "
-"available options to a suitable program by typing in a terminal emulator the "
-"name of the executable file plus --help. (example: kwebdesktop --help).</p>\n"
-"</qt>"
-msgstr ""
-"<qt>\n"
-"<p> Klëkni tuwò, jeżlë chcesz dodac programã do lëstë. Na knąpa òtmëkô òkno, "
-"w jaczim mòże pòdac detale tikające sã programë, jaką chcesz zrëszëc. Bë "
-"dodac programã, mùszisz znac ji miono ë - jeżlë nót - òptacëje.</p>\n"
-"<p> Òptacëje programë mòże òbôczëc, zrëszjąc programã w terminalu z òptacëją "
-"--help.</p>\n"
-"</qt>"
-
-#. i18n: ectx: property (text), widget (QPushButton, m_buttonModify)
-#: bgadvanced_ui.ui:62
-msgid "&Modify..."
-msgstr "&Mòdifikùjë..."
-
-#. i18n: ectx: property (whatsThis), widget (QTreeWidget, m_listPrograms)
-#: bgadvanced_ui.ui:101
-#, fuzzy
-#| msgid ""
-#| "<qt>\n"
-#| "<p>Select from this listbox the program you want to use to draw your "
-#| "desktop background.</p>\n"
-#| "<p>The <b>Program</b> column shows the name of the program.<br>\n"
-#| "The <b>Comment</b> column brings a short description.<br>\n"
-#| "The <b>Refresh</b> column indicates the time interval between redraws of "
-#| "the desktop.</p>\n"
-#| "<p>The <b>K Web Desktop</b> program (kwebdesktop) is worth noting: it "
-#| "draws a specified page of the web in your desktop. You can modify it, and "
-#| "the webpage it draws by selecting it here, then clicking on the "
-#| "<b>Modify</b> button.<br>\n"
-#| "You can also add new compliant programs. To do that, click on the <b>Add</"
-#| "b> button.<br>\n"
-#| "You can also remove programs from this list clicking on the <b>Remove</b> "
-#| "button. Please note that it does not remove the program from your system, "
-#| "it only removes it from the available options in this listbox.</p>\n"
-#| "</qt>"
-msgid ""
-"<qt>\n"
-"<p>Select from this listbox the program you want to use to draw your desktop "
-"background.</p>\n"
-"<p>The <b>Program</b> column shows the name of the program.<br>\n"
-"The <b>Comment</b> column brings a short description.<br>\n"
-"The <b>Refresh</b> column indicates the time interval between redraws of the "
-"desktop.</p>\n"
-"<p>You can also add new compliant programs. To do that, click on the <b>Add</"
-"b> button.<br>\n"
-"You can also remove programs from this list clicking on the <b>Remove</b> "
-"button. Please note that it does not remove the program from your system, it "
-"only removes it from the available options in this listbox.</p>\n"
-"</qt>"
-msgstr ""
-"<qt>\n"
-"<p>Z ti lëstë mòże wëbracć programã do céchòwaniô spòdla.</p>\n"
-"<p>Kòlumna <b>Programa</b> zamëkô w se miono programë.<br>\n"
-"Kòlumna <b>Dopòwiesc</b> dôwô krótczi òpisënk.<br>\n"
-"Kòlumna <b>Òdświeżanié</b> òznôczô czasowi przistãp midzë pòsobnyma "
-"céchùnkama spòdla.</p>\n"
-"<p>Programa <b>K Web Desktop</b> je wôrtnô wspòmnieniô: céchùje òna na "
-"pùlpce gwësną starnã WWW. Mòżne jã zmòdifikòwac, zmieniając wëskrzeniwaną "
-"starnã, przez wëbranié programë z lëstë ë klëkniãce knąpë <b>Mòdifikùjë<b>.</"
-"p>\n"
-"<p>Mòże téż dodawac swòje programë - sygnie klëknąc knąpã <b>Dodôj</b>.<br>\n"
-"Programë mòże téż rëmnąc z lëstë knąpą <b>Rëmôj</b>. Programë bãdą rëmóné "
-"blós z lëstë, nié z systemë.</p>\n"
-"</qt>"
-
-#. i18n: ectx: property (text), widget (QTreeWidget, m_listPrograms)
-#: bgadvanced_ui.ui:105
-msgid "Program"
-msgstr "Programa"
-
-#. i18n: ectx: property (text), widget (QTreeWidget, m_listPrograms)
-#: bgadvanced_ui.ui:110
-msgid "Comment"
-msgstr "Dopòwiesc"
-
-#. i18n: ectx: property (text), widget (QTreeWidget, m_listPrograms)
-#: bgadvanced_ui.ui:115
-msgid "Refresh"
-msgstr "Òdswieżë"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_cbProgram)
-#: bgadvanced_ui.ui:123
-msgid ""
-"Check here if you want to allow a program to draw your desktop background. "
-"Below you can find the list of programs currently available for drawing the "
-"background. You may use one of the available programs, add new ones or "
-"modify the existing ones to fit your needs."
-msgstr ""
-"Klëkni tuwò, jeżlë chcesz zezwòlëc programòm na céchòwanié spòdla. Niżi "
-"przistãpnô je lësta taczich programów. Mòże brëkòwac jedny z programów na ti "
-"lësce, abò dodac nowi czë téż zmòdifikòwóny jistnieniowi."
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_cbProgram)
-#: bgadvanced_ui.ui:126
-msgid "Use the following program for drawing the background:"
-msgstr "Brëkùjë wëbróny programë do céchòwaniô spòdla:"
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_groupCache)
-#: bgadvanced_ui.ui:136
-msgid "Memory Usage"
-msgstr "Brëkùnk pamiãce"
-
-#. i18n: ectx: property (whatsThis), widget (QLabel, m_lblCache)
-#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, m_spinCache)
-#: bgadvanced_ui.ui:142 bgadvanced_ui.ui:155
-msgid ""
-"In this box you can enter how much memory KDE should use for caching the "
-"background(s). If you have different backgrounds for the different desktops "
-"caching can make switching desktops smoother at the expense of higher memory "
-"use."
-msgstr ""
-"W tim pòlu mòże pòdac wielënã pamiãce, jaką KDE mô przeznaczëc na "
-"bùforowanié spòdla. Jeżlé môsz rozmajité spòdla na wszelejaczich pùlptach, "
-"zwikszanié wielënë bùfora przërëchli przełączanié pùltów kòsztã wikszegò "
-"zùżëcô pamiãce."
-
-#. i18n: ectx: property (text), widget (QLabel, m_lblCache)
-#: bgadvanced_ui.ui:145
-msgid "Size of background cache:"
-msgstr "Miara bùfòra spòdla:"
-
-#. i18n: ectx: property (suffix), widget (KIntSpinBox, m_spinCache)
-#: bgadvanced_ui.ui:158
-msgid " KiB"
-msgstr " KiB"
 
 #: bgdialog.cpp:110
 msgid "Open file dialog"
@@ -460,224 +272,6 @@ msgstr "Przesënienié farwë"
 msgid "Select Wallpaper"
 msgstr "Wëbierzë tapétã"
 
-#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonIdentifyScreens)
-#: bgdialog_ui.ui:80
-msgid "Click this button to show the identifying number for each screen."
-msgstr "Wcësni nã knąpã bë wëskrzënic numerë identifikùjącé apartné ekranë."
-
-#. i18n: ectx: property (text), widget (QPushButton, m_buttonIdentifyScreens)
-#: bgdialog_ui.ui:83
-msgid "Identify Screens"
-msgstr "Numerë ekranów"
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonAdvanced)
-#: bgdialog_ui.ui:132
-msgid ""
-"Click this button to set the icon text colors and shadow, set up a program "
-"to run for the background picture or control the size of the background "
-"cache."
-msgstr ""
-"Klëkni na nã knąpã, bë nastôwic farwã ë cenienié tekstów ikònów, wëbrac "
-"programã do céchòwaniô spòdla abò zmienic miarã bùfora òbrôzków."
-
-#. i18n: ectx: property (text), widget (QPushButton, m_buttonAdvanced)
-#: bgdialog_ui.ui:135
-msgid "Advanced Options"
-msgstr "Awansowòné òptacëje"
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonGetNew)
-#: bgdialog_ui.ui:184
-msgid ""
-"Click this button to give you a list of new wallpapers to download from the "
-"Internet."
-msgstr ""
-"Klëkni na nã knąpã, bë òbôczëc lëstã nowich tapétów do zladënkù z Internetu."
-
-#. i18n: ectx: property (text), widget (QPushButton, m_buttonGetNew)
-#: bgdialog_ui.ui:187
-msgid "Get New Wallpapers"
-msgstr "Pòbierzë nowé tapétë"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
-#: bgdialog_ui.ui:232
-msgid "Options"
-msgstr "Òptacëje"
-
-#. i18n: ectx: property (whatsThis), widget (QLabel, m_lblWallpaperPos)
-#. i18n: ectx: property (whatsThis), widget (QComboBox, m_comboWallpaperPos)
-#: bgdialog_ui.ui:247 bgdialog_ui.ui:438
-msgid ""
-"<qt>You can choose here how a background picture is shown on the desktop:\n"
-"<ul>\n"
-"<li><em>Centered:</em> Center the picture on the desktop.</li>\n"
-" <li><em>Tiled:</em> Tile the picture beginning at the top left of the "
-"desktop, so the desktop is totally covered up.</li>\n"
-"<li><em>Center Tiled:</em> Center the picture on the desktop and then tile "
-"around it so that the background is totally covered up.</li>\n"
-"<li><em>Centered Maxpect:</em> Magnify the picture without distorting it "
-"until it fills either the width or height of the desktop, and then center it "
-"on the desktop.</li>\n"
-"<li><em>Scaled:</em> Magnify the picture, until the entire desktop is "
-"covered. This may result in some distortion of the picture.</li>\n"
-"<li><em>Centered Auto Fit:</em> If the picture fits the desktop this mode "
-"works like the Centered option. If the picture is larger than the desktop it "
-"is scaled down to fit while keeping the aspect ratio.</li>\n"
-"<li><em>Scale and Crop:</em> Magnify the picture without distorting it until "
-"it fills both the width and height of the desktop (cropping the picture if "
-"necessary), and then center it on the desktop.</li>\n"
-"</ul></qt>"
-msgstr ""
-"<qt>Mòżesz wëbrac jedną z niższëch metodów wëskrzëniô tapétów na pùlpce:\n"
-"<ul>\n"
-"<li><em>Na westrzódkù:</em> Wkłôdanié tapétë na westrzódkù pùlptu.</li> "
-"<li><em>Kachelkowanié:</em> Zwielokrotnienié tapétë na całi ekran òd lewegò "
-"górnegò rogù.</li> <li><em>Kachelkowanié òd westrzódka:</em> Wkłôdanié "
-"tapétë na westrzódkù ë zwielokrotnienié ji do zataceniô załostałich dzélów "
-"pùltu.</li> <li><em>Rozcygniãce:</em> Zwikszenié òbrôzka, bez jegò "
-"zesztôłceniô, aż wëfùlëje szérz abò wiżë pùltu, a pòsobno wëstrzódkowanié gò "
-"na pùlce.</li>\n"
-"<li><em>Skalowanié:</em> zwikszenié òbrôzka do miarëu całegò pùltu. Mòże "
-"doprowadzëc do zesztôłceniô òbrôzka.</li>\n"
-"<li><em>Wëstrzódkòwanié z dopasowaniém:</em> Jeżlë òbrôzk mô dosc placu na "
-"pùlce, dzéjô jakno òptacëjó \"Wëstrzodkowanié\". Jeżlë òbrôzk je wikszi jak "
-"pùlt, je skalowóny tak, bë sã miec plac, z zachowaniém propòrcëji boków.</"
-"li>\n"
-"<li><em>Skalowanié z przëcãcem:</em> Zwikszenié òbrôzka, bez zesztôłceniô "
-"gò, tak bë wëfùlowac wiżã ë szérz pùltu (przëcynając gò, jeżlë je nót), a "
-"pòsobno wëstrzódkowanié.</li>\n"
-"</ul></qt>"
-
-#. i18n: ectx: property (text), widget (QLabel, m_lblWallpaperPos)
-#: bgdialog_ui.ui:250
-msgid "Posi&tion:"
-msgstr "&Pòłożenié:"
-
-#. i18n: ectx: property (whatsThis), widget (QComboBox, m_comboBlend)
-#: bgdialog_ui.ui:266
-msgid ""
-"If you have selected to use a background picture you can choose various "
-"methods of blending the background colors with the picture. The default "
-"option of \"No Blending\" means that the picture simply obscures the "
-"background colors below."
-msgstr ""
-"Jeżlë môsz wëbróną tapétã, mòżesz włączëc różnorodné efektë przechôdaniô "
-"midzy farwą spòdla a tapétą. Domëszlnô òptacëja \"Bez przechôdaniô\" "
-"òznôczô, że tapéta bãdze zwëczajno zakrëwac spòdlé."
-
-#. i18n: ectx: property (whatsThis), widget (KColorButton, m_colorPrimary)
-#: bgdialog_ui.ui:275
-msgid "Click to choose the primary background color."
-msgstr "Klëkni, bë wëbrac pierszą farwã spòdla."
-
-#. i18n: ectx: property (whatsThis), widget (KColorButton, m_colorSecondary)
-#: bgdialog_ui.ui:285
-msgid ""
-"Click to choose the secondary background color. If no secondary color is "
-"required by the pattern selected this button will be disabled."
-msgstr ""
-"Klëkni, bë wëbrac drëgą farwã spòdla. Jeżlë wëbróny trib nie wëmôgô drëdżi "
-"farwë, na knąpa je nieaktiwnô."
-
-#. i18n: ectx: property (text), widget (QLabel, m_lblColors)
-#: bgdialog_ui.ui:297
-msgid "Co&lors:"
-msgstr "&Farwë:"
-
-#. i18n: ectx: property (text), widget (QLabel, m_lblBlending)
-#: bgdialog_ui.ui:313
-msgid "&Blending:"
-msgstr "Przechô&danié:"
-
-#. i18n: ectx: property (whatsThis), widget (QLabel, m_lblBlendBalance)
-#. i18n: ectx: property (whatsThis), widget (QSlider, m_sliderBlend)
-#: bgdialog_ui.ui:331 bgdialog_ui.ui:347
-msgid ""
-"You can use this slider to control the degree of blending. You can "
-"experiment by moving the slider and looking at the effects in the preview "
-"image."
-msgstr ""
-"Przë pòmocë tegò suwaka mòże òznaczëc grad przechôdaniô. Pòdzérk zezwôlô na "
-"eksperimentalné dobranié ti wôrtnotë."
-
-#. i18n: ectx: property (text), widget (QLabel, m_lblBlendBalance)
-#: bgdialog_ui.ui:334
-msgid "Balance:"
-msgstr "Balans:"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_cbBlendReverse)
-#: bgdialog_ui.ui:374
-msgid ""
-"For some types of blending, you can reverse the role of the background and "
-"the picture by checking this option."
-msgstr ""
-"Pò wëbraniu ti òptacëji, dlô niejednëch metodów przechôdzenié lédżi spòdla ë "
-"tapétë òstaną òbróconé."
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_cbBlendReverse)
-#: bgdialog_ui.ui:377
-msgid "Reverse roles"
-msgstr "Zamieni lédżi"
-
-#. i18n: ectx: property (title), widget (KButtonGroup, m_buttonGroupBackground)
-#: bgdialog_ui.ui:448
-msgid "Background"
-msgstr "Spòdlé"
-
-#. i18n: ectx: property (toolTip), widget (QRadioButton, m_radioNoPicture)
-#: bgdialog_ui.ui:454
-msgid "No picture, color only"
-msgstr "Felënk òbrôzka, blós farwa"
-
-#. i18n: ectx: property (text), widget (QRadioButton, m_radioNoPicture)
-#: bgdialog_ui.ui:457
-msgid "&No picture"
-msgstr "&Felënk òbrôzka"
-
-#. i18n: ectx: property (text), widget (QRadioButton, m_radioSlideShow)
-#: bgdialog_ui.ui:464
-msgid "&Slide show:"
-msgstr "&Pòkôz slajdów:"
-
-#. i18n: ectx: property (text), widget (QRadioButton, m_radioPicture)
-#: bgdialog_ui.ui:471
-msgid "&Picture:"
-msgstr "&Òbrôzk:"
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonSetupWallpapers)
-#: bgdialog_ui.ui:497
-msgid ""
-"Click this button to select a set of images to be used as background "
-"pictures. One picture at a time will be shown for a specified amount of "
-"time, after which another image from the set will be shown. Images can be "
-"shown at random or in the order you specify them."
-msgstr ""
-"Klëkni na nã knąpã, bë wëbrac zestôwk òbrôzków do brëkòłnaiô jakno òbrôzczi "
-"spòdla. Kòżdi z òbrôzków wëskrzëniwóny bãdze przez pòdóny czas, a pòzdze "
-"òstanie zmieniony na pòsobny. Òbrôzczi mògą bëc wëskrzëniwané w pòdóny "
-"pòsobnicë abòprzëtrôfkòwò."
-
-#. i18n: ectx: property (text), widget (QPushButton, m_buttonSetupWallpapers)
-#: bgdialog_ui.ui:500
-msgid "Set&up..."
-msgstr "Ù&stôw..."
-
-#. i18n: ectx: property (whatsThis), widget (KComboBox, m_comboScreen)
-#: bgdialog_ui.ui:558
-msgid ""
-"Choose the screen you wish to configure the background for from this list."
-msgstr ""
-"Z ti lëstë mòże wëbrac ekran, dlô jaczégò mô bëc skònfigùrowóné spòdlé."
-
-#. i18n: ectx: property (text), item, widget (KComboBox, m_comboScreen)
-#: bgdialog_ui.ui:562
-msgid "Across All Screens"
-msgstr "Przez wszëtczé pùltë"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, m_comboScreen)
-#: bgdialog_ui.ui:567
-msgid "On Each Screen"
-msgstr "Na kòżdim ekranie"
-
 #: bgmonitor.cpp:51
 msgid ""
 "This picture of a monitor contains a preview of what the current settings "
@@ -699,30 +293,342 @@ msgstr[2] " minut"
 msgid "Select Image"
 msgstr "Wëbierzë òbrôzk"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: bgwallpaper_ui.ui:19
-msgid "Show the following pictures:"
-msgstr "Pòkôżë pòsobné òbrôzczi:"
+#~ msgid "Background Program"
+#~ msgstr "Programa ùsôdzającô spòdlé"
 
-#. i18n: ectx: property (text), widget (QCheckBox, m_cbRandom)
-#: bgwallpaper_ui.ui:29
-msgid "&Show pictures in random order"
-msgstr "&Pòkôżë òbrôzczi w przëtrôfkòwi pòsobnicë:"
+#~ msgid ""
+#~ "<qt>\n"
+#~ "<p>Click here if you want to add a program to the listbox. This button "
+#~ "opens a dialog where you are asked to give details about the program you "
+#~ "want to run. To successfully add a program, you must know if it is "
+#~ "compatible, the name of the executable file and, if necessary, its "
+#~ "options.</p>\n"
+#~ "<p>You usually can get the available options to a suitable program by "
+#~ "typing in a terminal emulator the name of the executable file plus --help "
+#~ "(foobar --help).</p>\n"
+#~ "</qt>"
+#~ msgstr ""
+#~ "<qt>\n"
+#~ "<p> Klëkni tuwò, jeżlë chcesz dodac programã do lëstë. Na knąpa òtmëkô "
+#~ "òkno, w jaczim mòże pòdac detale tikające sã programë, jaką chcesz "
+#~ "zrëszëc. Bë dodac programã, mùszisz znac ji miono ë - jeżlë nót - "
+#~ "òptacëje.</p>\n"
+#~ "<p> Òptacëje programë mòże òbôczëc, zrëszjąc programã w terminalu z "
+#~ "òptacëją --help.</p>\n"
+#~ "</qt>"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: bgwallpaper_ui.ui:38
-msgid "Change &picture after:"
-msgstr "Zmieni òbrôzk &pò:"
+#~ msgid "&Add..."
+#~ msgstr "&Dodôj..."
 
-#. i18n: ectx: property (text), widget (QPushButton, m_buttonMoveDown)
-#: bgwallpaper_ui.ui:122
-msgid "Move &Down"
-msgstr "Przeniesë &niżi"
+#~ msgid ""
+#~ "Click here to remove programs from this list. Please note that it does "
+#~ "not remove the program from your system, it only removes it from the "
+#~ "available options in the background drawing programs list."
+#~ msgstr ""
+#~ "Klëkni tuwò, bë rëmnąc programë z ti lëstë. Programë rëmniãté z lëstë nie "
+#~ "bãdą przistãpné jakno programë do ùsôdzaniô spòdla."
 
-#. i18n: ectx: property (text), widget (QPushButton, m_buttonMoveUp)
-#: bgwallpaper_ui.ui:129
-msgid "Move &Up"
-msgstr "Przeniesë &wëżi"
+#, fuzzy
+#~| msgid ""
+#~| "<qt>\n"
+#~| "<p>Click here if you want to add a program to the listbox. This button "
+#~| "opens a dialog where you are asked to give details about the program you "
+#~| "want to run. To successfully add a program, you must know if it is "
+#~| "compatible, the name of the executable file and, if necessary, its "
+#~| "options.</p>\n"
+#~| "<p>You usually can get the available options to a suitable program by "
+#~| "typing in a terminal emulator the name of the executable file plus --"
+#~| "help (foobar --help).</p>\n"
+#~| "</qt>"
+#~ msgid ""
+#~ "<qt>\n"
+#~ "<p>Click here to modify the programs options. You usually can get the "
+#~ "available options to a suitable program by typing in a terminal emulator "
+#~ "the name of the executable file plus --help. (example: kwebdesktop --"
+#~ "help).</p>\n"
+#~ "</qt>"
+#~ msgstr ""
+#~ "<qt>\n"
+#~ "<p> Klëkni tuwò, jeżlë chcesz dodac programã do lëstë. Na knąpa òtmëkô "
+#~ "òkno, w jaczim mòże pòdac detale tikające sã programë, jaką chcesz "
+#~ "zrëszëc. Bë dodac programã, mùszisz znac ji miono ë - jeżlë nót - "
+#~ "òptacëje.</p>\n"
+#~ "<p> Òptacëje programë mòże òbôczëc, zrëszjąc programã w terminalu z "
+#~ "òptacëją --help.</p>\n"
+#~ "</qt>"
+
+#~ msgid "&Modify..."
+#~ msgstr "&Mòdifikùjë..."
+
+#, fuzzy
+#~| msgid ""
+#~| "<qt>\n"
+#~| "<p>Select from this listbox the program you want to use to draw your "
+#~| "desktop background.</p>\n"
+#~| "<p>The <b>Program</b> column shows the name of the program.<br>\n"
+#~| "The <b>Comment</b> column brings a short description.<br>\n"
+#~| "The <b>Refresh</b> column indicates the time interval between redraws of "
+#~| "the desktop.</p>\n"
+#~| "<p>The <b>K Web Desktop</b> program (kwebdesktop) is worth noting: it "
+#~| "draws a specified page of the web in your desktop. You can modify it, "
+#~| "and the webpage it draws by selecting it here, then clicking on the "
+#~| "<b>Modify</b> button.<br>\n"
+#~| "You can also add new compliant programs. To do that, click on the "
+#~| "<b>Add</b> button.<br>\n"
+#~| "You can also remove programs from this list clicking on the <b>Remove</"
+#~| "b> button. Please note that it does not remove the program from your "
+#~| "system, it only removes it from the available options in this listbox.</"
+#~| "p>\n"
+#~| "</qt>"
+#~ msgid ""
+#~ "<qt>\n"
+#~ "<p>Select from this listbox the program you want to use to draw your "
+#~ "desktop background.</p>\n"
+#~ "<p>The <b>Program</b> column shows the name of the program.<br>\n"
+#~ "The <b>Comment</b> column brings a short description.<br>\n"
+#~ "The <b>Refresh</b> column indicates the time interval between redraws of "
+#~ "the desktop.</p>\n"
+#~ "<p>You can also add new compliant programs. To do that, click on the "
+#~ "<b>Add</b> button.<br>\n"
+#~ "You can also remove programs from this list clicking on the <b>Remove</b> "
+#~ "button. Please note that it does not remove the program from your system, "
+#~ "it only removes it from the available options in this listbox.</p>\n"
+#~ "</qt>"
+#~ msgstr ""
+#~ "<qt>\n"
+#~ "<p>Z ti lëstë mòże wëbracć programã do céchòwaniô spòdla.</p>\n"
+#~ "<p>Kòlumna <b>Programa</b> zamëkô w se miono programë.<br>\n"
+#~ "Kòlumna <b>Dopòwiesc</b> dôwô krótczi òpisënk.<br>\n"
+#~ "Kòlumna <b>Òdświeżanié</b> òznôczô czasowi przistãp midzë pòsobnyma "
+#~ "céchùnkama spòdla.</p>\n"
+#~ "<p>Programa <b>K Web Desktop</b> je wôrtnô wspòmnieniô: céchùje òna na "
+#~ "pùlpce gwësną starnã WWW. Mòżne jã zmòdifikòwac, zmieniając wëskrzeniwaną "
+#~ "starnã, przez wëbranié programë z lëstë ë klëkniãce knąpë "
+#~ "<b>Mòdifikùjë<b>.</p>\n"
+#~ "<p>Mòże téż dodawac swòje programë - sygnie klëknąc knąpã <b>Dodôj</b>."
+#~ "<br>\n"
+#~ "Programë mòże téż rëmnąc z lëstë knąpą <b>Rëmôj</b>. Programë bãdą rëmóné "
+#~ "blós z lëstë, nié z systemë.</p>\n"
+#~ "</qt>"
+
+#~ msgid "Program"
+#~ msgstr "Programa"
+
+#~ msgid "Comment"
+#~ msgstr "Dopòwiesc"
+
+#~ msgid "Refresh"
+#~ msgstr "Òdswieżë"
+
+#~ msgid ""
+#~ "Check here if you want to allow a program to draw your desktop "
+#~ "background. Below you can find the list of programs currently available "
+#~ "for drawing the background. You may use one of the available programs, "
+#~ "add new ones or modify the existing ones to fit your needs."
+#~ msgstr ""
+#~ "Klëkni tuwò, jeżlë chcesz zezwòlëc programòm na céchòwanié spòdla. Niżi "
+#~ "przistãpnô je lësta taczich programów. Mòże brëkòwac jedny z programów na "
+#~ "ti lësce, abò dodac nowi czë téż zmòdifikòwóny jistnieniowi."
+
+#~ msgid "Use the following program for drawing the background:"
+#~ msgstr "Brëkùjë wëbróny programë do céchòwaniô spòdla:"
+
+#~ msgid "Memory Usage"
+#~ msgstr "Brëkùnk pamiãce"
+
+#~ msgid ""
+#~ "In this box you can enter how much memory KDE should use for caching the "
+#~ "background(s). If you have different backgrounds for the different "
+#~ "desktops caching can make switching desktops smoother at the expense of "
+#~ "higher memory use."
+#~ msgstr ""
+#~ "W tim pòlu mòże pòdac wielënã pamiãce, jaką KDE mô przeznaczëc na "
+#~ "bùforowanié spòdla. Jeżlé môsz rozmajité spòdla na wszelejaczich "
+#~ "pùlptach, zwikszanié wielënë bùfora przërëchli przełączanié pùltów kòsztã "
+#~ "wikszegò zùżëcô pamiãce."
+
+#~ msgid "Size of background cache:"
+#~ msgstr "Miara bùfòra spòdla:"
+
+#~ msgid " KiB"
+#~ msgstr " KiB"
+
+#~ msgid "Click this button to show the identifying number for each screen."
+#~ msgstr "Wcësni nã knąpã bë wëskrzënic numerë identifikùjącé apartné ekranë."
+
+#~ msgid "Identify Screens"
+#~ msgstr "Numerë ekranów"
+
+#~ msgid ""
+#~ "Click this button to set the icon text colors and shadow, set up a "
+#~ "program to run for the background picture or control the size of the "
+#~ "background cache."
+#~ msgstr ""
+#~ "Klëkni na nã knąpã, bë nastôwic farwã ë cenienié tekstów ikònów, wëbrac "
+#~ "programã do céchòwaniô spòdla abò zmienic miarã bùfora òbrôzków."
+
+#~ msgid "Advanced Options"
+#~ msgstr "Awansowòné òptacëje"
+
+#~ msgid ""
+#~ "Click this button to give you a list of new wallpapers to download from "
+#~ "the Internet."
+#~ msgstr ""
+#~ "Klëkni na nã knąpã, bë òbôczëc lëstã nowich tapétów do zladënkù z "
+#~ "Internetu."
+
+#~ msgid "Get New Wallpapers"
+#~ msgstr "Pòbierzë nowé tapétë"
+
+#~ msgid "Options"
+#~ msgstr "Òptacëje"
+
+#~ msgid ""
+#~ "<qt>You can choose here how a background picture is shown on the "
+#~ "desktop:\n"
+#~ "<ul>\n"
+#~ "<li><em>Centered:</em> Center the picture on the desktop.</li>\n"
+#~ " <li><em>Tiled:</em> Tile the picture beginning at the top left of the "
+#~ "desktop, so the desktop is totally covered up.</li>\n"
+#~ "<li><em>Center Tiled:</em> Center the picture on the desktop and then "
+#~ "tile around it so that the background is totally covered up.</li>\n"
+#~ "<li><em>Centered Maxpect:</em> Magnify the picture without distorting it "
+#~ "until it fills either the width or height of the desktop, and then center "
+#~ "it on the desktop.</li>\n"
+#~ "<li><em>Scaled:</em> Magnify the picture, until the entire desktop is "
+#~ "covered. This may result in some distortion of the picture.</li>\n"
+#~ "<li><em>Centered Auto Fit:</em> If the picture fits the desktop this mode "
+#~ "works like the Centered option. If the picture is larger than the desktop "
+#~ "it is scaled down to fit while keeping the aspect ratio.</li>\n"
+#~ "<li><em>Scale and Crop:</em> Magnify the picture without distorting it "
+#~ "until it fills both the width and height of the desktop (cropping the "
+#~ "picture if necessary), and then center it on the desktop.</li>\n"
+#~ "</ul></qt>"
+#~ msgstr ""
+#~ "<qt>Mòżesz wëbrac jedną z niższëch metodów wëskrzëniô tapétów na pùlpce:\n"
+#~ "<ul>\n"
+#~ "<li><em>Na westrzódkù:</em> Wkłôdanié tapétë na westrzódkù pùlptu.</li> "
+#~ "<li><em>Kachelkowanié:</em> Zwielokrotnienié tapétë na całi ekran òd "
+#~ "lewegò górnegò rogù.</li> <li><em>Kachelkowanié òd westrzódka:</em> "
+#~ "Wkłôdanié tapétë na westrzódkù ë zwielokrotnienié ji do zataceniô "
+#~ "załostałich dzélów pùltu.</li> <li><em>Rozcygniãce:</em> Zwikszenié "
+#~ "òbrôzka, bez jegò zesztôłceniô, aż wëfùlëje szérz abò wiżë pùltu, a "
+#~ "pòsobno wëstrzódkowanié gò na pùlce.</li>\n"
+#~ "<li><em>Skalowanié:</em> zwikszenié òbrôzka do miarëu całegò pùltu. Mòże "
+#~ "doprowadzëc do zesztôłceniô òbrôzka.</li>\n"
+#~ "<li><em>Wëstrzódkòwanié z dopasowaniém:</em> Jeżlë òbrôzk mô dosc placu "
+#~ "na pùlce, dzéjô jakno òptacëjó \"Wëstrzodkowanié\". Jeżlë òbrôzk je "
+#~ "wikszi jak pùlt, je skalowóny tak, bë sã miec plac, z zachowaniém "
+#~ "propòrcëji boków.</li>\n"
+#~ "<li><em>Skalowanié z przëcãcem:</em> Zwikszenié òbrôzka, bez zesztôłceniô "
+#~ "gò, tak bë wëfùlowac wiżã ë szérz pùltu (przëcynając gò, jeżlë je nót), a "
+#~ "pòsobno wëstrzódkowanié.</li>\n"
+#~ "</ul></qt>"
+
+#~ msgid "Posi&tion:"
+#~ msgstr "&Pòłożenié:"
+
+#~ msgid ""
+#~ "If you have selected to use a background picture you can choose various "
+#~ "methods of blending the background colors with the picture. The default "
+#~ "option of \"No Blending\" means that the picture simply obscures the "
+#~ "background colors below."
+#~ msgstr ""
+#~ "Jeżlë môsz wëbróną tapétã, mòżesz włączëc różnorodné efektë przechôdaniô "
+#~ "midzy farwą spòdla a tapétą. Domëszlnô òptacëja \"Bez przechôdaniô\" "
+#~ "òznôczô, że tapéta bãdze zwëczajno zakrëwac spòdlé."
+
+#~ msgid "Click to choose the primary background color."
+#~ msgstr "Klëkni, bë wëbrac pierszą farwã spòdla."
+
+#~ msgid ""
+#~ "Click to choose the secondary background color. If no secondary color is "
+#~ "required by the pattern selected this button will be disabled."
+#~ msgstr ""
+#~ "Klëkni, bë wëbrac drëgą farwã spòdla. Jeżlë wëbróny trib nie wëmôgô "
+#~ "drëdżi farwë, na knąpa je nieaktiwnô."
+
+#~ msgid "Co&lors:"
+#~ msgstr "&Farwë:"
+
+#~ msgid "&Blending:"
+#~ msgstr "Przechô&danié:"
+
+#~ msgid ""
+#~ "You can use this slider to control the degree of blending. You can "
+#~ "experiment by moving the slider and looking at the effects in the preview "
+#~ "image."
+#~ msgstr ""
+#~ "Przë pòmocë tegò suwaka mòże òznaczëc grad przechôdaniô. Pòdzérk zezwôlô "
+#~ "na eksperimentalné dobranié ti wôrtnotë."
+
+#~ msgid "Balance:"
+#~ msgstr "Balans:"
+
+#~ msgid ""
+#~ "For some types of blending, you can reverse the role of the background "
+#~ "and the picture by checking this option."
+#~ msgstr ""
+#~ "Pò wëbraniu ti òptacëji, dlô niejednëch metodów przechôdzenié lédżi "
+#~ "spòdla ë tapétë òstaną òbróconé."
+
+#~ msgid "Reverse roles"
+#~ msgstr "Zamieni lédżi"
+
+#~ msgid "Background"
+#~ msgstr "Spòdlé"
+
+#~ msgid "No picture, color only"
+#~ msgstr "Felënk òbrôzka, blós farwa"
+
+#~ msgid "&No picture"
+#~ msgstr "&Felënk òbrôzka"
+
+#~ msgid "&Slide show:"
+#~ msgstr "&Pòkôz slajdów:"
+
+#~ msgid "&Picture:"
+#~ msgstr "&Òbrôzk:"
+
+#~ msgid ""
+#~ "Click this button to select a set of images to be used as background "
+#~ "pictures. One picture at a time will be shown for a specified amount of "
+#~ "time, after which another image from the set will be shown. Images can be "
+#~ "shown at random or in the order you specify them."
+#~ msgstr ""
+#~ "Klëkni na nã knąpã, bë wëbrac zestôwk òbrôzków do brëkòłnaiô jakno "
+#~ "òbrôzczi spòdla. Kòżdi z òbrôzków wëskrzëniwóny bãdze przez pòdóny czas, "
+#~ "a pòzdze òstanie zmieniony na pòsobny. Òbrôzczi mògą bëc wëskrzëniwané w "
+#~ "pòdóny pòsobnicë abòprzëtrôfkòwò."
+
+#~ msgid "Set&up..."
+#~ msgstr "Ù&stôw..."
+
+#~ msgid ""
+#~ "Choose the screen you wish to configure the background for from this list."
+#~ msgstr ""
+#~ "Z ti lëstë mòże wëbrac ekran, dlô jaczégò mô bëc skònfigùrowóné spòdlé."
+
+#~ msgid "Across All Screens"
+#~ msgstr "Przez wszëtczé pùltë"
+
+#~ msgid "On Each Screen"
+#~ msgstr "Na kòżdim ekranie"
+
+#~ msgid "Show the following pictures:"
+#~ msgstr "Pòkôżë pòsobné òbrôzczi:"
+
+#~ msgid "&Show pictures in random order"
+#~ msgstr "&Pòkôżë òbrôzczi w przëtrôfkòwi pòsobnicë:"
+
+#~ msgid "Change &picture after:"
+#~ msgstr "Zmieni òbrôzk &pò:"
+
+#~ msgid "Move &Down"
+#~ msgstr "Przeniesë &niżi"
+
+#~ msgid "Move &Up"
+#~ msgstr "Przeniesë &wëżi"
 
 #~ msgid ""
 #~ "<qt>\n"

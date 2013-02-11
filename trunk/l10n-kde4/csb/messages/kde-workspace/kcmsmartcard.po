@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmartcard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 05:29+0200\n"
+"POT-Creation-Date: 2013-02-11 03:51+0100\n"
 "PO-Revision-Date: 2009-12-20 19:22+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -28,34 +28,6 @@ msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
-
-#. i18n: ectx: property (text), widget (QLabel)
-#: nosmartcardbase.ui:24
-msgid "<b>Unable to contact the KDE smartcard service.</b>"
-msgstr "<b>Nie mòże skòntaktowac sã z ùsłëżnotą KDE smartcard.</b>"
-
-#. i18n: ectx: property (title), widget (QGroupBox)
-#: nosmartcardbase.ui:35
-msgid "Possible Reasons"
-msgstr "Mòżlewé òrądze"
-
-#. i18n: ectx: property (text), widget (QLabel)
-#: nosmartcardbase.ui:49
-msgid ""
-"\n"
-"1) The KDE daemon, 'kded' is not running. You can restart it by running the "
-"command 'kdeinit' and then try reloading the KDE System Settings to see if "
-"this message goes away.\n"
-"\n"
-"2) You do not appear to have smartcard support in the KDE libraries. You "
-"will need to recompile the kdelibs package with libpcsclite installed."
-msgstr ""
-"\n"
-"1) Demòn KDE 'kded' nie je zrëszony. Mòże gò zrëszëc znowa pòlétã 'kdeinit' "
-"ë jesz rôz spróbòwac zrëszëc nen mòduł Centróm kòntrolë.\n"
-"\n"
-"2) W biblotekach KDE felëje òbsłëżnotë smartcard. Nót je znowa skòmpilowac "
-"kdelibs pò zainstalowanim bibloteczi libpcsclite."
 
 #: smartcard.cpp:65
 msgid "kcmsmartcard"
@@ -115,85 +87,79 @@ msgstr ""
 "KDE. Kôrtë taczé mògą bëc brëkòwóné np. do trzëmaniô certifikatów SSL ë "
 "logòwaniô do KDE."
 
-#. i18n: ectx: attribute (title), widget (QWidget)
-#: smartcardbase.ui:31
-msgid "Smartcard Support"
-msgstr "Wspiarcé Smartcard"
+#~ msgid "<b>Unable to contact the KDE smartcard service.</b>"
+#~ msgstr "<b>Nie mòże skòntaktowac sã z ùsłëżnotą KDE smartcard.</b>"
 
-#. i18n: ectx: property (text), widget (QCheckBox)
-#: smartcardbase.ui:42
-msgid "&Enable smartcard support"
-msgstr "&Włączë wspiarcé smartcard"
+#~ msgid "Possible Reasons"
+#~ msgstr "Mòżlewé òrądze"
 
-#. i18n: ectx: property (text), widget (QCheckBox)
-#: smartcardbase.ui:61
-msgid "Enable &polling to autodetect card events"
-msgstr "Włączë òd&pëtiwanié dlô aùtodetekcëji przëtrófków kôrtë"
+#~ msgid ""
+#~ "\n"
+#~ "1) The KDE daemon, 'kded' is not running. You can restart it by running "
+#~ "the command 'kdeinit' and then try reloading the KDE System Settings to "
+#~ "see if this message goes away.\n"
+#~ "\n"
+#~ "2) You do not appear to have smartcard support in the KDE libraries. You "
+#~ "will need to recompile the kdelibs package with libpcsclite installed."
+#~ msgstr ""
+#~ "\n"
+#~ "1) Demòn KDE 'kded' nie je zrëszony. Mòże gò zrëszëc znowa pòlétã "
+#~ "'kdeinit' ë jesz rôz spróbòwac zrëszëc nen mòduł Centróm kòntrolë.\n"
+#~ "\n"
+#~ "2) W biblotekach KDE felëje òbsłëżnotë smartcard. Nót je znowa "
+#~ "skòmpilowac kdelibs pò zainstalowanim bibloteczi libpcsclite."
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: smartcardbase.ui:64
-msgid ""
-"In most cases you should have this enabled. It allows KDE to automatically "
-"detect card insertion and reader hotplug events."
-msgstr ""
-"Zwëkòwò na òptacëjô mùszi bëc włączonô. Ùmòżebniô to aùtomatną detekcëjã "
-"wkłôdónëch kôrtów w KDE. "
+#~ msgid "Smartcard Support"
+#~ msgstr "Wspiarcé Smartcard"
 
-#. i18n: ectx: property (text), widget (QCheckBox)
-#: smartcardbase.ui:92
-msgid "Automatically &launch card manager if inserted card is unclaimed"
-msgstr ""
-"&Aùtomatno zrëszë menadżera kôrtów, jeżlë włożonô je niewspierónô kôrta"
+#~ msgid "&Enable smartcard support"
+#~ msgstr "&Włączë wspiarcé smartcard"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: smartcardbase.ui:95
-msgid ""
-"When you insert a smartcard, KDE can automatically launch a management tool "
-"if no other application attempts to use the card."
-msgstr ""
-"Eżlë niżódnô programa nie wëzwëskùjë włożony kôrtë, KDE mòże aùtomatno "
-"zrëszëc nôrzãdze do sprôwiania kôrtama."
+#~ msgid "Enable &polling to autodetect card events"
+#~ msgstr "Włączë òd&pëtiwanié dlô aùtodetekcëji przëtrófków kôrtë"
 
-#. i18n: ectx: property (text), widget (QCheckBox)
-#: smartcardbase.ui:106
-msgid "&Beep on card insert and removal"
-msgstr "&Zwãk przë wkłôdanim/wëcygniãcym kôrtë"
+#~ msgid ""
+#~ "In most cases you should have this enabled. It allows KDE to "
+#~ "automatically detect card insertion and reader hotplug events."
+#~ msgstr ""
+#~ "Zwëkòwò na òptacëjô mùszi bëc włączonô. Ùmòżebniô to aùtomatną detekcëjã "
+#~ "wkłôdónëch kôrtów w KDE. "
 
-#. i18n: ectx: attribute (title), widget (QWidget)
-#: smartcardbase.ui:135
-msgid "Readers"
-msgstr "Czëtôrzë"
+#~ msgid "Automatically &launch card manager if inserted card is unclaimed"
+#~ msgstr ""
+#~ "&Aùtomatno zrëszë menadżera kôrtów, jeżlë włożonô je niewspierónô kôrta"
 
-#. i18n: ectx: property (text), widget (K3ListView)
-#: smartcardbase.ui:152
-msgid "Reader"
-msgstr "Czëtôrz"
+#~ msgid ""
+#~ "When you insert a smartcard, KDE can automatically launch a management "
+#~ "tool if no other application attempts to use the card."
+#~ msgstr ""
+#~ "Eżlë niżódnô programa nie wëzwëskùjë włożony kôrtë, KDE mòże aùtomatno "
+#~ "zrëszëc nôrzãdze do sprôwiania kôrtama."
 
-#. i18n: ectx: property (text), widget (K3ListView)
-#: smartcardbase.ui:163
-msgid "Type"
-msgstr "Ôrt"
+#~ msgid "&Beep on card insert and removal"
+#~ msgstr "&Zwãk przë wkłôdanim/wëcygniãcym kôrtë"
 
-#. i18n: ectx: property (text), widget (K3ListView)
-#: smartcardbase.ui:174
-msgid "Subtype"
-msgstr "Pòdôrt"
+#~ msgid "Readers"
+#~ msgstr "Czëtôrzë"
 
-#. i18n: ectx: property (text), widget (K3ListView)
-#: smartcardbase.ui:185
-msgid "SubSubtype"
-msgstr "Pòdpòdôrt"
+#~ msgid "Reader"
+#~ msgstr "Czëtôrz"
 
-#. i18n: ectx: property (title), widget (QGroupBox)
-#: smartcardbase.ui:228
-msgid "PCSCLite Configuration"
-msgstr "Kònfigùracëjô PCSCLite"
+#~ msgid "Type"
+#~ msgstr "Ôrt"
 
-#. i18n: ectx: property (text), widget (QLabel)
-#: smartcardbase.ui:251
-msgid ""
-"To add new readers you have to modify /etc/readers.conf file and re-start "
-"pcscd"
-msgstr ""
-"Abë dodac nowé czëtającé ùrzãdzenie, zmòdifikùjë lopk /etc/readers.conf ë "
-"zrëszë znowa pcscd"
+#~ msgid "Subtype"
+#~ msgstr "Pòdôrt"
+
+#~ msgid "SubSubtype"
+#~ msgstr "Pòdpòdôrt"
+
+#~ msgid "PCSCLite Configuration"
+#~ msgstr "Kònfigùracëjô PCSCLite"
+
+#~ msgid ""
+#~ "To add new readers you have to modify /etc/readers.conf file and re-start "
+#~ "pcscd"
+#~ msgstr ""
+#~ "Abë dodac nowé czëtającé ùrzãdzenie, zmòdifikùjë lopk /etc/readers.conf ë "
+#~ "zrëszë znowa pcscd"

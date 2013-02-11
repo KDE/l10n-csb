@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmaengineexplorer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-01-23 03:32+0100\n"
+"POT-Creation-Date: 2013-02-11 03:36+0100\n"
 "PO-Revision-Date: 2009-06-11 21:55+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -48,13 +48,11 @@ msgstr "Zmaksymalizëjë wszëtczé"
 msgid "DataSource"
 msgstr "Zdrój pòdôwków"
 
-#. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
-#: engineexplorer.cpp:170 serviceviewer.cpp:147 serviceviewer.ui:67
+#: engineexplorer.cpp:170 serviceviewer.cpp:147
 msgid "Key"
 msgstr "Klucz"
 
-#. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
-#: engineexplorer.cpp:170 serviceviewer.cpp:147 serviceviewer.ui:72
+#: engineexplorer.cpp:170 serviceviewer.cpp:147
 msgid "Value"
 msgstr "Wôrtnota"
 
@@ -110,8 +108,7 @@ msgctxt ""
 msgid "<not displayable>"
 msgstr "<niewëskrzëniwólné>"
 
-#. i18n: ectx: property (text), widget (KTitleWidget, m_title)
-#: engineexplorer.cpp:491 engineexplorer.ui:17
+#: engineexplorer.cpp:491
 msgid "Plasma DataEngine Explorer"
 msgstr "Eksplorera mòtoru pòdôwków Plasmë"
 
@@ -123,45 +120,6 @@ msgid_plural "%1 Engine - %2 data sources"
 msgstr[0] "%1 mòtór - 1 zdrój pòdôwków"
 msgstr[1] "%1 mòtór - %2 zdroje pòdôwków"
 msgstr[2] "%1 mòtór - %2 zdrojów pòdôwków"
-
-#. i18n: ectx: property (clickMessage), widget (KLineEdit, m_sourceRequester)
-#: engineexplorer.ui:38
-msgid "Source name"
-msgstr "Miono zdroju"
-
-#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, m_updateInterval)
-#: engineexplorer.ui:57
-msgid "Update on demand"
-msgstr "Aktualizacëjô na żądanié"
-
-#. i18n: ectx: property (suffix), widget (KIntSpinBox, m_updateInterval)
-#: engineexplorer.ui:60
-msgid "ms"
-msgstr "ms"
-
-#. i18n: ectx: property (prefix), widget (KIntSpinBox, m_updateInterval)
-#: engineexplorer.ui:63
-msgid "Update every "
-msgstr "Aktualizëjë co "
-
-#. i18n: ectx: property (text), widget (QPushButton, m_sourceRequesterButton)
-#: engineexplorer.ui:85
-#, fuzzy
-#| msgid "Request"
-msgid "Request Source"
-msgstr "Zapëtanié"
-
-#. i18n: ectx: property (clickMessage), widget (KLineEdit, m_serviceRequester)
-#: engineexplorer.ui:105
-#, fuzzy
-#| msgid "Remove source"
-msgid "Service for source"
-msgstr "Rëmôj zdroje"
-
-#. i18n: ectx: property (text), widget (QPushButton, m_serviceRequesterButton)
-#: engineexplorer.ui:118
-msgid "Request Service for Source"
-msgstr ""
 
 #: ktreeviewsearchline.cpp:420
 msgid "Search Columns"
@@ -305,19 +263,37 @@ msgstr[0] "Jedno aktiwné dzejanié..."
 msgstr[1] "%1 aktwiné dzéjania"
 msgstr[2] "%1 aktiwnëch dzéjaniów"
 
-#. i18n: ectx: property (text), widget (QLabel, m_operationsLabel)
-#: serviceviewer.ui:33
-msgid "&Operation:"
-msgstr "&Dzéjanié:"
-
-#. i18n: ectx: property (text), widget (QLabel, m_operationStatus)
-#: serviceviewer.ui:80
-msgid "Operation count"
-msgstr "Wielëna dzéjaniów"
-
 #: titlecombobox.h:53
 msgid "Data Engines"
 msgstr "Mòtorë pòdôwków"
+
+#~ msgid "Source name"
+#~ msgstr "Miono zdroju"
+
+#~ msgid "Update on demand"
+#~ msgstr "Aktualizacëjô na żądanié"
+
+#~ msgid "ms"
+#~ msgstr "ms"
+
+#~ msgid "Update every "
+#~ msgstr "Aktualizëjë co "
+
+#, fuzzy
+#~| msgid "Request"
+#~ msgid "Request Source"
+#~ msgstr "Zapëtanié"
+
+#, fuzzy
+#~| msgid "Remove source"
+#~ msgid "Service for source"
+#~ msgstr "Rëmôj zdroje"
+
+#~ msgid "&Operation:"
+#~ msgstr "&Dzéjanié:"
+
+#~ msgid "Operation count"
+#~ msgstr "Wielëna dzéjaniów"
 
 #~ msgid "%1 service for %2 DataEngine source %3"
 #~ msgstr "%1 òsłëżnota dlô %2 Zdoju pòdôwków %3"
