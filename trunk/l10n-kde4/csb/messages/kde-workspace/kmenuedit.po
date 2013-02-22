@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmenuedit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-12-09 03:02+0100\n"
+"POT-Creation-Date: 2013-02-22 13:00+0100\n"
 "PO-Revision-Date: 2009-05-15 21:33+0200\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -127,27 +127,47 @@ msgstr ""
 "Ni mòże dobëc khotkeys. Twòje zjinaczi òstałë zapisóné, le ni mògą bëz "
 "aktiwòwóné."
 
-#: kmenuedit.cpp:78
+#: kmenuedit.cpp:79
 msgid "&New Submenu..."
 msgstr "&Nowé pòdmenu..."
 
-#: kmenuedit.cpp:82
+#: kmenuedit.cpp:83
 msgid "New &Item..."
 msgstr "Nowi &element..."
 
-#: kmenuedit.cpp:86
+#: kmenuedit.cpp:87
 msgid "New S&eparator"
 msgstr "Nowi &separator"
 
-#: kmenuedit.cpp:95
+#: kmenuedit.cpp:90
+msgid "&Sort All By ..."
+msgstr ""
+
+#: kmenuedit.cpp:94 kmenuedit.cpp:104
+#, fuzzy
+#| msgid "&Name:"
+msgid "&Name"
+msgstr "&Miono:"
+
+#: kmenuedit.cpp:97 kmenuedit.cpp:107
+#, fuzzy
+#| msgid "&Description:"
+msgid "&Description"
+msgstr "Ò&pisënk:"
+
+#: kmenuedit.cpp:100
+msgid "&Sort By ..."
+msgstr ""
+
+#: kmenuedit.cpp:116
 msgid "Restore to System Menu"
 msgstr "Dostónié nazôd do systemòwégò menu"
 
-#: kmenuedit.cpp:175
+#: kmenuedit.cpp:196
 msgid "&Delete"
 msgstr "&Rëmôj"
 
-#: kmenuedit.cpp:199
+#: kmenuedit.cpp:220
 msgid ""
 "You have made changes to the menu.\n"
 "Do you want to save the changes or discard them?"
@@ -155,7 +175,7 @@ msgstr ""
 "Môsz wprowadzóné zmianë do menu.\n"
 "Zapisac zmianë, czë je òprzestac?"
 
-#: kmenuedit.cpp:201
+#: kmenuedit.cpp:222
 msgid "Save Menu Changes?"
 msgstr "Zapisac zmianë w menu?"
 
@@ -170,7 +190,7 @@ msgid "&Edit"
 msgstr "&Edicëjô"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: kmenueditui.rc:28
+#: kmenueditui.rc:31
 msgid "Main Toolbar"
 msgstr "Przédnô lëstwa nôrzãdzów"
 
@@ -239,36 +259,36 @@ msgstr "Òptacëje sprôwdzania pisënkù"
 msgid "Show hidden entries"
 msgstr "Pòkażë zataconé wpisënczi"
 
-#: treeview.cpp:142
+#: treeview.cpp:192
 msgid " [Hidden]"
 msgstr " [Zatacôné]"
 
-#: treeview.cpp:1048
+#: treeview.cpp:1123
 msgid "New Submenu"
 msgstr "Nowé pòdmenu"
 
-#: treeview.cpp:1049
+#: treeview.cpp:1124
 msgid "Submenu name:"
 msgstr "Miono pòdmenu:"
 
-#: treeview.cpp:1118
+#: treeview.cpp:1193
 msgid "New Item"
 msgstr "Nowi element"
 
-#: treeview.cpp:1119
+#: treeview.cpp:1194
 msgid "Item name:"
 msgstr "Miono elementu:"
 
-#: treeview.cpp:1429
+#: treeview.cpp:1604
 #, kde-format
 msgid "All submenus of '%1' will be removed. Do you want to continue?"
 msgstr "Całowné pòdmenu %1 bãdze rëmniãté. Chcesz to zrobic?"
 
-#: treeview.cpp:1595
+#: treeview.cpp:1770
 msgid "Menu changes could not be saved because of the following problem:"
 msgstr "Zmianë w menu nie mògłe òstac zapisóné przez felã:"
 
-#: treeview.cpp:1640
+#: treeview.cpp:1815
 msgid ""
 "Do you want to restore the system menu? Warning: This will remove all custom "
 "menus."
