@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-20 02:23+0000\n"
+"POT-Creation-Date: 2013-04-21 02:24+0000\n"
 "PO-Revision-Date: 2009-12-13 21:28+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -5790,7 +5790,7 @@ msgstr "SaverDesktop"
 #| msgctxt "Comment"
 #| msgid "Display Settings"
 msgctxt "Name"
-msgid "Display Brightness"
+msgid "Screen Brightness"
 msgstr "Ùstôw ekranu"
 
 #: powerdevil/daemon/actions/bundled/powerdevilbrightnesscontrolaction.desktop:64
@@ -5801,10 +5801,10 @@ msgstr ""
 #: powerdevil/daemon/actions/bundled/powerdevildimdisplayaction.desktop:6
 #, fuzzy
 #| msgctxt "Name"
-#| msgid "Display"
+#| msgid "PrintScreen"
 msgctxt "Name"
-msgid "Dim Display"
-msgstr "Ekran"
+msgid "Dim Screen"
+msgstr "Drëkùjë ekran"
 
 #: powerdevil/daemon/actions/bundled/powerdevildimdisplayaction.desktop:63
 msgctxt "Comment"
@@ -5932,6 +5932,19 @@ msgstr "Ùstôw ekranu"
 #| msgid "System policies prevent you from saving the date/time settings."
 msgctxt "Description"
 msgid "System policies prevent you from setting the brightness level."
+msgstr "Przez systemòwi nastôw nié mòżé zapisac nastôwù datuma ë czasu."
+
+#: powerdevil/daemon/backends/upower/backlight_helper_actions.actions:293
+msgctxt "Name"
+msgid "Get syspath"
+msgstr ""
+
+#: powerdevil/daemon/backends/upower/backlight_helper_actions.actions:294
+#, fuzzy
+#| msgctxt "Description"
+#| msgid "System policies prevent you from saving the date/time settings."
+msgctxt "Description"
+msgid "System policies prevent you from getting the syspath"
 msgstr "Przez systemòwi nastôw nié mòżé zapisac nastôwù datuma ë czasu."
 
 #: powerdevil/daemon/backends/upower/powerdevilupowerbackend.desktop:7
@@ -6755,6 +6768,20 @@ msgstr "Wëzdrzatk ikònów"
 msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr "Sztél KDE 4 wëzdrzatkù ikònów"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Display Settings"
+#~ msgctxt "Name"
+#~ msgid "Display Brightness"
+#~ msgstr "Ùstôw ekranu"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Display"
+#~ msgctxt "Name"
+#~ msgid "Dim Display"
+#~ msgstr "Ekran"
 
 #~ msgctxt "Name"
 #~ msgid "Fake Net"
