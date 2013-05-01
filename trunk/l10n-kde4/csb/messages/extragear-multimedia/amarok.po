@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-30 03:22+0200\n"
+"POT-Creation-Date: 2013-05-01 03:11+0200\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -1926,7 +1926,7 @@ msgstr "Rok - Albùm"
 #: browsers/CollectionTreeView.cpp:218
 #: context/applets/albums/AlbumsView.cpp:255
 #: context/applets/wikipedia/WikipediaApplet.cpp:631
-#: dialogs/transferdialog.cpp:89 musicbrainz/MusicBrainzTags.cpp:360
+#: dialogs/transferdialog.cpp:89 musicbrainz/MusicBrainzTagsModel.cpp:38
 #: playlist/PlaylistModel.cpp:916 playlist/view/PlaylistViewCommon.cpp:63
 #: services/jamendo/JamendoInfoParser.cpp:83
 #: services/magnatune/MagnatuneStore.cpp:224
@@ -1938,7 +1938,7 @@ msgstr "Albùm"
 #: browsers/CollectionTreeItemModelBase.cpp:974
 #: context/applets/tabs/ReloadEditDialog.ui:73
 #: context/applets/wikipedia/WikipediaApplet.cpp:619
-#: dialogs/transferdialog.cpp:88 musicbrainz/MusicBrainzTags.cpp:359
+#: dialogs/transferdialog.cpp:88 musicbrainz/MusicBrainzTagsModel.cpp:37
 #: playlist/PlaylistModel.cpp:912 services/amazon/AmazonInfoParser.cpp:157
 #: services/jamendo/JamendoInfoParser.cpp:51
 #: services/lastfm/LastFmService.cpp:466
@@ -1949,7 +1949,7 @@ msgstr "Artista"
 
 #. i18n: ectx: property (text), widget (QLabel, label_29)
 #: browsers/CollectionTreeItemModelBase.cpp:975 dialogs/TagGuessOptions.ui:253
-#: musicbrainz/MusicBrainzTags.cpp:361 playlist/PlaylistModel.cpp:913
+#: musicbrainz/MusicBrainzTagsModel.cpp:39 playlist/PlaylistModel.cpp:913
 msgid "Album Artist"
 msgstr "Artista albùmù"
 
@@ -1966,7 +1966,8 @@ msgstr "Kòmpòzytor"
 msgid "Genre"
 msgstr "Zort"
 
-#: browsers/CollectionTreeItemModelBase.cpp:978 playlist/PlaylistModel.cpp:915
+#: browsers/CollectionTreeItemModelBase.cpp:978
+#: musicbrainz/MusicBrainzTagsModel.cpp:40 playlist/PlaylistModel.cpp:915
 #: widgets/SmartPlaylistEditor.cpp:184 widgets/SmartPlaylistEditor.cpp:197
 #: widgets/SmartPlaylistEditor.cpp:921
 msgid "Year"
@@ -2552,7 +2553,7 @@ msgstr[2] "&Zaktualni kanał"
 #. i18n: ectx: property (text), widget (QLabel, titleLabel)
 #: browsers/playlistbrowser/PodcastModel.cpp:300
 #: context/applets/tabs/ReloadEditDialog.ui:86
-#: musicbrainz/MusicBrainzTags.cpp:358 playlist/PlaylistModel.cpp:911
+#: musicbrainz/MusicBrainzTagsModel.cpp:36 playlist/PlaylistModel.cpp:911
 #: widgets/SmartPlaylistEditor.cpp:183
 msgid "Title"
 msgstr "Titel"
@@ -9144,23 +9145,45 @@ msgstr "Strëga"
 msgid "Hz"
 msgstr "Hz"
 
-#: dialogs/MusicBrainzTagger.cpp:67 statsyncing/ui/MatchedTracksPage.cpp:160
+#: dialogs/MusicBrainzTagger.cpp:87
+msgid "Choose Best Matches"
+msgstr ""
+
+#: dialogs/MusicBrainzTagger.cpp:88
+msgid ""
+"Use the top result for each undecided track. Alternatively, you can click on "
+"<b>Choose Best Matches from This Album</b> in the context menu of a good "
+"suggestion; it may give even better results because it prevents mixing "
+"different album releases together."
+msgstr ""
+
+#: dialogs/MusicBrainzTagger.cpp:89
+#, fuzzy
+#| msgid "Clear the filter"
+msgid "Clear Choices"
+msgstr "Wëczëszczë filter"
+
+#: dialogs/MusicBrainzTagger.cpp:90
+msgid "Clear all choices, even manually made ones."
+msgstr ""
+
+#: dialogs/MusicBrainzTagger.cpp:95
+msgid "Collapse Chosen"
+msgstr ""
+
+#: dialogs/MusicBrainzTagger.cpp:99 statsyncing/ui/MatchedTracksPage.cpp:168
+msgid "Collapse All"
+msgstr ""
+
+#: dialogs/MusicBrainzTagger.cpp:106
+msgid "Expand Unchosen"
+msgstr ""
+
+#: dialogs/MusicBrainzTagger.cpp:110 statsyncing/ui/MatchedTracksPage.cpp:160
 #, fuzzy
 #| msgid "Expand by"
 msgid "Expand All"
 msgstr "Rozszérzë przez"
-
-#: dialogs/MusicBrainzTagger.cpp:68 statsyncing/ui/MatchedTracksPage.cpp:168
-msgid "Collapse All"
-msgstr ""
-
-#: dialogs/MusicBrainzTagger.cpp:69
-msgid "Expand Unchosen"
-msgstr ""
-
-#: dialogs/MusicBrainzTagger.cpp:70
-msgid "Collapse Chosen"
-msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, MusicBrainzTagger)
 #: dialogs/MusicBrainzTagger.ui:12 dialogs/TagDialog.cpp:1402
@@ -11941,38 +11964,41 @@ msgstr "Paùza :: %1"
 msgid "%1 - %2  ::  %3"
 msgstr "%1 - %2  ::  %3"
 
-#: musicbrainz/MusicBrainzTags.cpp:447 musicbrainz/MusicBrainzTags.cpp:453
+#: musicbrainz/MusicBrainzTagsModel.cpp:161
 #, fuzzy, kde-format
 #| msgid "MusicBrainz Lookup"
 msgid "MusicBrainz match ratio: %1%"
 msgstr "Sprôwdzanié w MusicBraiz"
 
-#: musicbrainz/MusicBrainzTags.cpp:449 musicbrainz/MusicBrainzTags.cpp:456
+#: musicbrainz/MusicBrainzTagsModel.cpp:164
 #, fuzzy, kde-format
 #| msgid "Music share at %1"
 msgid "MusicDNS match ratio: %1%"
 msgstr "Wespółdzélonô mùzyka na %1"
 
-#: musicbrainz/MusicBrainzTags.cpp:499
-msgid "Click here to choose best matches"
-msgstr ""
+#: musicbrainz/MusicBrainzTagsView.cpp:79
+#, fuzzy
+#| msgid "Fetch the artwork for this album"
+#| msgid_plural "Fetch artwork for %1 albums"
+msgid "Choose Best Matches from This Album"
+msgstr "Zladëjë òbkłôdkã dlô tegò albùmù"
 
-#: musicbrainz/MusicBrainzTags.cpp:666
+#: musicbrainz/MusicBrainzTagsView.cpp:90
 #, fuzzy
 #| msgid "Playlist name:"
-msgid "Artist page"
+msgid "Go to Artist Page"
 msgstr "Miono lëstë òdegraniô"
 
-#: musicbrainz/MusicBrainzTags.cpp:672
+#: musicbrainz/MusicBrainzTagsView.cpp:111
 #, fuzzy
 #| msgid "album"
-msgid "Album page"
+msgid "Go to Album Page"
 msgstr "albùm"
 
-#: musicbrainz/MusicBrainzTags.cpp:678
+#: musicbrainz/MusicBrainzTagsView.cpp:118
 #, fuzzy
 #| msgid "Track #"
-msgid "Track page"
+msgid "Go to Track Page"
 msgstr "Sztëczk #"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, NetworkRequestsDialog)
@@ -18252,9 +18278,6 @@ msgstr "Głosnosc: %1% %2"
 #~ msgstr ""
 #~ "<p>Klëkającë tuwò wëczëszczësz filter. Jeżlë môsz chãc copnąc slédno "
 #~ "dodóny filter, prosto klëkni knąpã \"Copni\".</p>"
-
-#~ msgid "Clear the filter"
-#~ msgstr "Wëczëszczë filter"
 
 #~ msgctxt ""
 #~ "this \"undo\" will undo the last appended filter... be careful how you "
