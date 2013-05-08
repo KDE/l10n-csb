@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-11 02:25+0200\n"
+"POT-Creation-Date: 2013-05-08 02:15+0200\n"
 "PO-Revision-Date: 2009-12-17 00:21+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -221,21 +221,26 @@ msgstr "Farwa 8 (intensywnota)"
 msgid "Un-named Color Scheme"
 msgstr "Nienazwóny zestôwk farwów"
 
-#: ColorSchemeEditor.cpp:79
+#: ColorSchemeEditor.cpp:87
 #, fuzzy
 #| msgid "Name"
 msgctxt "@label:listbox Column header text for color names"
 msgid "Name"
 msgstr "Miono"
 
-#: ColorSchemeEditor.cpp:79
+#: ColorSchemeEditor.cpp:88
 #, fuzzy
 #| msgid "Color"
 msgctxt "@label:listbox Column header text for the actual colors"
 msgid "Color"
 msgstr "Farwa"
 
-#: ColorSchemeEditor.cpp:101
+#: ColorSchemeEditor.cpp:89
+msgctxt "@label:listbox Column header text for the actual intense colors"
+msgid "Intense color"
+msgstr ""
+
+#: ColorSchemeEditor.cpp:114
 #, fuzzy
 #| msgid ""
 #| "The background transparency setting will not be used because your desktop "
@@ -248,14 +253,19 @@ msgstr ""
 "Przezérnota spódkù ni bãdzë nastôwionô tak dołgò, aż twój pùlt nie dostanie "
 "wspiarcô dlô przezérnëch òknów."
 
-#: ColorSchemeEditor.cpp:135
+#: ColorSchemeEditor.cpp:151
 msgctxt "@action:button"
 msgid "Select wallpaper image file"
 msgstr ""
 
-#: ColorSchemeEditor.cpp:205
+#: ColorSchemeEditor.cpp:221
 msgctxt "@info:tooltip"
 msgid "Click to choose color"
+msgstr ""
+
+#: ColorSchemeEditor.cpp:226
+msgctxt "@info:tooltip"
+msgid "Click to choose intense color"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, discriptionLabel)
