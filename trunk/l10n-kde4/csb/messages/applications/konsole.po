@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-19 02:19+0200\n"
+"POT-Creation-Date: 2013-05-21 01:41+0000\n"
 "PO-Revision-Date: 2009-12-17 00:21+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -221,26 +221,26 @@ msgstr "Farwa 8 (intensywnota)"
 msgid "Un-named Color Scheme"
 msgstr "Nienazwóny zestôwk farwów"
 
-#: ColorSchemeEditor.cpp:87
+#: ColorSchemeEditor.cpp:88
 #, fuzzy
 #| msgid "Name"
 msgctxt "@label:listbox Column header text for color names"
 msgid "Name"
 msgstr "Miono"
 
-#: ColorSchemeEditor.cpp:88
+#: ColorSchemeEditor.cpp:89
 #, fuzzy
 #| msgid "Color"
 msgctxt "@label:listbox Column header text for the actual colors"
 msgid "Color"
 msgstr "Farwa"
 
-#: ColorSchemeEditor.cpp:89
+#: ColorSchemeEditor.cpp:90
 msgctxt "@label:listbox Column header text for the actual intense colors"
 msgid "Intense color"
 msgstr ""
 
-#: ColorSchemeEditor.cpp:114
+#: ColorSchemeEditor.cpp:115
 #, fuzzy
 #| msgid ""
 #| "The background transparency setting will not be used because your desktop "
@@ -253,23 +253,28 @@ msgstr ""
 "Przezérnota spódkù ni bãdzë nastôwionô tak dołgò, aż twój pùlt nie dostanie "
 "wspiarcô dlô przezérnëch òknów."
 
-#: ColorSchemeEditor.cpp:151
+#: ColorSchemeEditor.cpp:155
 msgctxt "@action:button"
 msgid "Select wallpaper image file"
 msgstr ""
 
-#: ColorSchemeEditor.cpp:221
+#: ColorSchemeEditor.cpp:195 EditProfileDialog.cpp:703
+#: EditProfileDialog.cpp:712
+msgid "New Color Scheme"
+msgstr "Nowi zestôwk farwów"
+
+#: ColorSchemeEditor.cpp:231
 msgctxt "@info:tooltip"
 msgid "Click to choose color"
 msgstr ""
 
-#: ColorSchemeEditor.cpp:226
+#: ColorSchemeEditor.cpp:236
 msgctxt "@info:tooltip"
 msgid "Click to choose intense color"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, discriptionLabel)
 #. i18n: ectx: property (text), widget (QLabel, descriptionLabel)
+#. i18n: ectx: property (text), widget (QLabel, discriptionLabel)
 #: ColorSchemeEditor.ui:22 KeyBindingEditor.ui:22
 msgid "Description:"
 msgstr "Òpisënk:"
@@ -310,8 +315,8 @@ msgstr "Schéma farwë ë spòdlé"
 msgid "Choose the background image"
 msgstr "Schéma farwë ë spòdlé"
 
-#. i18n: ectx: property (text), widget (QToolButton, wallpaperSelectButton)
 #. i18n: ectx: property (text), widget (QToolButton, dirSelectButton)
+#. i18n: ectx: property (text), widget (QToolButton, wallpaperSelectButton)
 #: ColorSchemeEditor.ui:100 EditProfileDialog.ui:111
 msgid "..."
 msgstr "..."
@@ -389,15 +394,11 @@ msgstr "Wëbiérzë zaczątkòwi katalog"
 msgid "%1"
 msgstr "%1"
 
-#: EditProfileDialog.cpp:702 EditProfileDialog.cpp:711
-msgid "New Color Scheme"
-msgstr "Nowi zestôwk farwów"
-
-#: EditProfileDialog.cpp:704
+#: EditProfileDialog.cpp:705
 msgid "Edit Color Scheme"
 msgstr "Editëjë zëstôwk farwów"
 
-#: EditProfileDialog.cpp:775
+#: EditProfileDialog.cpp:776
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
 "supported on your desktop"
@@ -405,25 +406,25 @@ msgstr ""
 "Nen schemat farwë brëkùje przezérnegò spódka, chtëren nie je wspieróny przez "
 "twój pùlt."
 
-#: EditProfileDialog.cpp:780
+#: EditProfileDialog.cpp:781
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
 "Konsole to see transparent background."
 msgstr ""
 
-#: EditProfileDialog.cpp:883 EditProfileDialog.cpp:894
+#: EditProfileDialog.cpp:884 EditProfileDialog.cpp:895
 msgid "New Key Binding List"
 msgstr "Nowô lësta dopasowaniô knapów"
 
-#: EditProfileDialog.cpp:885
+#: EditProfileDialog.cpp:886
 msgid "Edit Key Binding List"
 msgstr "Editëjë lëstã dopasowaniô knapów"
 
-#: EditProfileDialog.cpp:1220
+#: EditProfileDialog.cpp:1221
 msgid "--- Type anything in this box ---"
 msgstr ""
 
-#: EditProfileDialog.cpp:1224
+#: EditProfileDialog.cpp:1225
 msgid "Select Fixed Width Font"
 msgstr ""
 
