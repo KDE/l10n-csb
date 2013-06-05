@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-17 04:15+0200\n"
+"POT-Creation-Date: 2013-06-05 02:14+0000\n"
 "PO-Revision-Date: 2009-12-14 23:28+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -21,115 +21,66 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: contents/code/logic.js:61
-#, fuzzy, kde-format
-#| msgid "%1% (charged)"
-msgid "%1% (charged)"
-msgstr " %1% (naladowóné)"
-
-#: contents/code/logic.js:62
-#, fuzzy, kde-format
-#| msgctxt "Shown when a time estimate is not available"
-#| msgid "%1% (discharging)"
-msgid "%1% (discharging)"
-msgstr "%1 (rozladowanié)"
-
-#: contents/code/logic.js:63
-#, fuzzy, kde-format
+#: contents/code/logic.js:99
+#, fuzzy
 #| msgid "%1% (charging)"
-msgid "%1% (charging)"
+msgid "Not Charging"
 msgstr "%1% (ladowanié)"
 
-#: contents/code/logic.js:66
-#, kde-format
-msgid "%1%"
-msgstr ""
+#: contents/code/logic.js:100
+#, fuzzy
+#| msgctxt "Shown when a time estimate is not available"
+#| msgid "%1% (discharging)"
+msgid "Discharging"
+msgstr "%1 (rozladowanié)"
 
-#: contents/code/logic.js:69
-msgctxt "Battery is not plugged in"
+#: contents/code/logic.js:101
+#, fuzzy
+#| msgid "<b>Battery:</b> %1% (fully charged)<br />"
+msgid "Fully Charged"
+msgstr "<b>Baterëjô:</b> %1% (fùl naladowanié)<br />"
+
+#: contents/code/logic.js:102
+#, fuzzy
+#| msgid "%1% (charging)"
+msgid "Charging"
+msgstr "%1% (ladowanié)"
+
+#: contents/code/logic.js:105
+#, fuzzy
+#| msgctxt "Battery is not plugged in"
+#| msgid "Not present"
+msgctxt "Battery is currently not present in the bay"
 msgid "Not present"
 msgstr "Felëje"
 
-#: contents/code/logic.js:96
-#, fuzzy
-#| msgid "AC Adapter:"
-msgctxt "tooltip"
-msgid "AC Adapter:"
-msgstr "Zasëlôcz:"
+#: contents/code/logic.js:154
+msgid "No batteries available"
+msgstr ""
 
-#: contents/code/logic.js:97
-#, fuzzy
-#| msgid "Plugged in "
-msgctxt "tooltip"
-msgid "<b>Plugged in</b>"
-msgstr "Pòdłączony "
-
-#: contents/code/logic.js:97
-#, fuzzy
-#| msgid "Not plugged in"
-msgctxt "tooltip"
-msgid "<b>Not plugged in</b>"
-msgstr "Nié pòdłączony"
-
-#: contents/ui/batterymonitor.qml:122
+#: contents/code/logic.js:163
 #, kde-format
-msgctxt "overlay on the battery, needs to be really tiny"
+msgctxt "Placeholder is battery name"
+msgid "%1:"
+msgstr ""
+
+#: contents/code/logic.js:166 contents/ui/BatteryItem.qml:180
+#, kde-format
+msgctxt "Placeholder is battery percentage"
 msgid "%1%"
 msgstr ""
 
-#: contents/ui/batterymonitor.qml:243
-msgid "The battery applet has enabled system-wide inhibition"
+#: contents/code/logic.js:168
+msgid "N/A"
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, batteryConfig)
-#: contents/ui/config.ui:14
-msgid "Configure Battery Monitor"
-msgstr "Kònfigùrëjë pòdzérôcz stónu baterëji"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showBatteryString)
-#: contents/ui/config.ui:23
-msgid "Show charge &information"
-msgstr "Wëskrzëni &wëdowiédzã ò ladowaniém"
-
-#: contents/ui/PopupDialog.qml:62
-#, fuzzy
-#| msgid "AC Adapter:"
-msgid "AC Adapter:"
-msgstr "Zasëlôcz:"
-
-#: contents/ui/PopupDialog.qml:68
-#, fuzzy
-#| msgid "Time remaining: <b>%1</b><br />"
-msgctxt "Label for remaining time"
-msgid "Time Remaining:"
-msgstr "Òstôwô czasu: <b>%1</b><br />"
-
-#: contents/ui/PopupDialog.qml:74
+#: contents/code/logic.js:189
 #, fuzzy
 #| msgid "Power Management"
-msgctxt "Label for power management inhibition"
-msgid "Power management enabled:"
+msgid "Power management is disabled"
 msgstr "Sprôwianié mòcą"
 
-#: contents/ui/PopupDialog.qml:79
-#, fuzzy
-#| msgid "Screen Brightness"
-msgid "Screen Brightness:"
-msgstr "Jasnota ekranu"
-
-#: contents/ui/PopupDialog.qml:110
-#, fuzzy
-#| msgid "Plugged in "
-msgid "Plugged in"
-msgstr "Pòdłączony "
-
-#: contents/ui/PopupDialog.qml:110
-#, fuzzy
-#| msgid "Not plugged in"
-msgid "Not plugged in"
-msgstr "Nié pòdłączony"
-
-#: contents/ui/PopupDialog.qml:157
+#: contents/code/logic.js:220
 #, kde-format
 msgid "1 hour "
 msgid_plural "%1 hours "
@@ -137,7 +88,7 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: contents/ui/PopupDialog.qml:158
+#: contents/code/logic.js:221
 #, kde-format
 msgid "1 minute"
 msgid_plural "%1 minutes"
@@ -145,19 +96,142 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: contents/ui/PopupDialog.qml:172
+#: contents/ui/AcAdapterItem.qml:58
 #, fuzzy
-#| msgid "Sleep"
-msgctxt "Suspend the computer to RAM; translation should be short"
-msgid "Sleep"
-msgstr "Ùspienié"
+#| msgid "AC Adapter:"
+msgid "AC Adapter"
+msgstr "Zasëlôcz:"
 
-#: contents/ui/PopupDialog.qml:179
+#: contents/ui/AcAdapterItem.qml:70
 #, fuzzy
-#| msgid "Hibernate"
-msgctxt "Suspend the computer to disk; translation should be short"
-msgid "Hibernate"
-msgstr "Hibernacëjô"
+#| msgid "Plugged in "
+msgid "Plugged In"
+msgstr "Pòdłączony "
+
+#: contents/ui/AcAdapterItem.qml:70
+#, fuzzy
+#| msgid "Not plugged in"
+msgid "Not Plugged In"
+msgstr "Nié pòdłączony"
+
+#: contents/ui/AcAdapterItem.qml:83
+#, fuzzy, kde-format
+#| msgid "Time remaining: <b>%1</b><br />"
+msgid "Time remaining until full: %1"
+msgstr "Òstôwô czasu: <b>%1</b><br />"
+
+#: contents/ui/AcAdapterItem.qml:83
+#, fuzzy, kde-format
+#| msgid "Time remaining: <b>%1</b><br />"
+msgid "Time remaining until empty: %1"
+msgstr "Òstôwô czasu: <b>%1</b><br />"
+
+#: contents/ui/BatteryItem.qml:224
+msgid "Time To Full:"
+msgstr ""
+
+#: contents/ui/BatteryItem.qml:224
+msgid "Time To Empty:"
+msgstr ""
+
+#: contents/ui/BatteryItem.qml:236
+msgid "Capacity:"
+msgstr ""
+
+#: contents/ui/BatteryItem.qml:248
+msgid "Vendor:"
+msgstr ""
+
+#: contents/ui/BatteryItem.qml:260
+msgid "Model:"
+msgstr ""
+
+#: contents/ui/BatteryItem.qml:283
+#, kde-format
+msgctxt "Placeholder is battery capacity"
+msgid "%1%"
+msgstr ""
+
+#: contents/ui/batterymonitor.qml:156
+msgid "The battery applet has enabled system-wide inhibition"
+msgstr ""
+
+#: contents/ui/BrightnessItem.qml:86
+#, kde-format
+msgctxt "Placeholder is brightness percentage"
+msgid "%1%"
+msgstr ""
+
+#: contents/ui/CompactRepresentation.qml:92
+#, kde-format
+msgctxt "battery percentage below battery icon"
+msgid "%1%"
+msgstr ""
+
+#: contents/ui/PopupDialog.qml:86
+#, fuzzy
+#| msgid "Screen Brightness"
+msgid "Display Brightness"
+msgstr "Jasnota ekranu"
+
+#: contents/ui/PopupDialog.qml:95
+#, fuzzy
+#| msgid "Screen Brightness"
+msgid "Keyboard Brightness"
+msgstr "Jasnota ekranu"
+
+#: contents/ui/PowerManagementItem.qml:54
+#, fuzzy
+#| msgctxt "tooltip on the config button in the popup"
+#| msgid "Configure Power Management..."
+msgid "Enable Power Management"
+msgstr "Sprôwianié mòcą..."
+
+#, fuzzy
+#~| msgid "%1% (charged)"
+#~ msgid "%1% (charged)"
+#~ msgstr " %1% (naladowóné)"
+
+#, fuzzy
+#~| msgid "AC Adapter:"
+#~ msgctxt "tooltip"
+#~ msgid "AC Adapter:"
+#~ msgstr "Zasëlôcz:"
+
+#, fuzzy
+#~| msgid "Plugged in "
+#~ msgctxt "tooltip"
+#~ msgid "<b>Plugged in</b>"
+#~ msgstr "Pòdłączony "
+
+#, fuzzy
+#~| msgid "Not plugged in"
+#~ msgctxt "tooltip"
+#~ msgid "<b>Not plugged in</b>"
+#~ msgstr "Nié pòdłączony"
+
+#~ msgid "Configure Battery Monitor"
+#~ msgstr "Kònfigùrëjë pòdzérôcz stónu baterëji"
+
+#~ msgid "Show charge &information"
+#~ msgstr "Wëskrzëni &wëdowiédzã ò ladowaniém"
+
+#, fuzzy
+#~| msgid "Screen Brightness"
+#~ msgid "Screen Brightness:"
+#~ msgstr "Jasnota ekranu"
+
+#, fuzzy
+#~| msgid "Sleep"
+#~ msgctxt "Suspend the computer to RAM; translation should be short"
+#~ msgid "Sleep"
+#~ msgstr "Ùspienié"
+
+#, fuzzy
+#~| msgid "Hibernate"
+#~ msgctxt "Suspend the computer to disk; translation should be short"
+#~ msgid "Hibernate"
+#~ msgstr "Hibernacëjô"
 
 #, fuzzy
 #~| msgid "%1% (charged)"
@@ -238,10 +312,6 @@ msgstr "Hibernacëjô"
 #~ msgid "General"
 #~ msgstr "Òglowé"
 
-#~ msgctxt "tooltip on the config button in the popup"
-#~ msgid "Configure Power Management..."
-#~ msgstr "Sprôwianié mòcą..."
-
 #, fuzzy
 #~| msgid "Power Profile"
 #~ msgid "Power Profile:"
@@ -254,9 +324,6 @@ msgstr "Hibernacëjô"
 
 #~ msgid "<b>Battery:</b> "
 #~ msgstr "<b>Baterëjô.</b> "
-
-#~ msgid "Screen Brightness"
-#~ msgstr "Jasnota ekranu"
 
 #, fuzzy
 #~| msgctxt "Shown when a time estimate is not available"
@@ -278,11 +345,6 @@ msgstr "Hibernacëjô"
 
 #~ msgid "Actions"
 #~ msgstr "Dzejania"
-
-#, fuzzy
-#~| msgid "<b>Battery:</b> %1% (fully charged)<br />"
-#~ msgid "1% (fully charged)"
-#~ msgstr "<b>Baterëjô:</b> %1% (fùl naladowanié)<br />"
 
 #~ msgid "<b>Battery:</b> %1% (charging)<br />"
 #~ msgstr "<b>Baterëjô:</b> %1% (ladowanié)<br />"
