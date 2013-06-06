@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-17 04:15+0200\n"
+"POT-Creation-Date: 2013-06-06 01:33+0000\n"
 "PO-Revision-Date: 2009-06-10 23:53+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -20,63 +20,57 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: taskgroupitem.cpp:304
-#, kde-format
-msgctxt "@title:group Name of a group of windows"
-msgid "%1"
-msgstr ""
-
-#: taskgroupitem.cpp:309 windowtaskitem.cpp:224
-#, kde-format
-msgctxt "Which virtual desktop a window is currently on"
+#: package/contents/ui/main.qml:89
+#, fuzzy
+#| msgctxt "Which virtual desktop a window is currently on"
+#| msgid "On %1"
 msgid "On %1"
 msgstr "Na %1"
 
-#: taskgroupitem.cpp:430
-msgid "Collapse Group"
-msgstr "Złożë grëpã"
+#: package/contents/ui/main.qml:94
+msgctxt "Which virtual desktop a window is currently on"
+msgid "Available on all activities"
+msgstr ""
 
-#: taskgroupitem.cpp:433
-msgid "Expand Group"
-msgstr "Rozłożë grëpã"
+#: package/contents/ui/main.qml:97
+msgctxt "Activities a window is currently on (apart from the current one)"
+msgid "Also available on %1"
+msgstr ""
 
-#: taskgroupitem.cpp:981
-msgid "Edit Group"
-msgstr "Editëje grëpã"
+#: package/contents/ui/main.qml:101
+msgctxt "Which activities a window is currently on"
+msgid "Available on %1"
+msgstr ""
 
-#: taskgroupitem.cpp:982
-msgid "New Group Name: "
-msgstr "Miono nowi grëpë:"
-
-#: tasks.cpp:364
+#: tasks.cpp:464
 msgid "General"
 msgstr "Òglowé"
 
-#: tasks.cpp:374
+#: tasks.cpp:474
 msgid "Do Not Group"
 msgstr "Nié grëpùjë"
 
-#: tasks.cpp:375 tasks.cpp:399
+#: tasks.cpp:475 tasks.cpp:497
 msgid "Manually"
 msgstr "Rãczno"
 
-#: tasks.cpp:376
+#: tasks.cpp:476
 msgid "By Program Name"
 msgstr "Zortëjë wedle miona"
 
-#: tasks.cpp:398
+#: tasks.cpp:496
 msgid "Do Not Sort"
 msgstr "Nie zortëjë"
 
-#: tasks.cpp:400
+#: tasks.cpp:498
 msgid "Alphabetically"
 msgstr "Alfabétno"
 
-#: tasks.cpp:401
+#: tasks.cpp:499
 msgid "By Desktop"
 msgstr "Wedle pùltu"
 
-#: tasks.cpp:402
+#: tasks.cpp:500
 msgid "By Activity"
 msgstr ""
 
@@ -158,22 +152,17 @@ msgstr "Wëskrzëni blós dzejania z bieżnégò ekranu"
 msgid "Only show tasks that are minimized"
 msgstr "Wëskrzëni blós zminimalizowóné dzejania"
 
-#: windowtaskitem.cpp:229
-msgid "Available on all activities"
-msgstr ""
+#~ msgid "Collapse Group"
+#~ msgstr "Złożë grëpã"
 
-#: windowtaskitem.cpp:234
-#, kde-format
-msgctxt "Activities a window is currently on (appart from the current one)"
-msgid "Also available on %1"
-msgstr ""
+#~ msgid "Expand Group"
+#~ msgstr "Rozłożë grëpã"
 
-#: windowtaskitem.cpp:237
-#, kde-format
-msgctxt "Which activities a window is currently on"
-msgid "Available on %1"
-msgstr ""
+#~ msgid "Edit Group"
+#~ msgstr "Editëje grëpã"
 
-#: windowtaskitem.cpp:336
-msgid "Collapse Parent Group"
-msgstr "Złożë nôdrzãdną grëpã"
+#~ msgid "New Group Name: "
+#~ msgstr "Miono nowi grëpë:"
+
+#~ msgid "Collapse Parent Group"
+#~ msgstr "Złożë nôdrzãdną grëpã"
