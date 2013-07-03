@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-02 01:32+0000\n"
+"POT-Creation-Date: 2013-07-03 01:30+0000\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -2273,7 +2273,7 @@ msgctxt "default name for new folder"
 msgid "New Folder"
 msgstr "Katalog"
 
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:123
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:119
 #, fuzzy, kde-format
 #| msgid "Playlist"
 msgctxt "number of playlists from one source"
@@ -2283,7 +2283,7 @@ msgstr[0] "Lësta graniô"
 msgstr[1] "Lësta graniô"
 msgstr[2] "Lësta graniô"
 
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:128
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:124
 #, fuzzy
 #| msgid "Rating"
 msgctxt "normally number of playlists, but they are still loading"
@@ -13624,11 +13624,22 @@ msgstr "Lopczi lëstë gróniô"
 msgid "The playlist file \"%1\" could not be loaded."
 msgstr "Nie mòże ùsôdzëc òbiektu"
 
-#: playlistmanager/sql/SqlPlaylist.cpp:41
-#, fuzzy
-#| msgid "Playlist name:"
-msgid "Playlist in database"
-msgstr "Miono lëstë òdegraniô"
+#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:286
+#, kde-format
+msgid ""
+"Version %1 of playlist database schema encountered, however this Amarok "
+"version only supports version %2 (and previous versions starting with %2. "
+"Playlists saved in the Amarok Database probably will not work and any write "
+"operations with them may result in losing them. Perhaps you have started an "
+"older version of Amarok with a database written by newer version?"
+msgstr ""
+
+#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:293
+msgctxt ""
+"the user's 'database version' is newer and unsupported by this software "
+"version"
+msgid "Future version of Playlist Database?"
+msgstr ""
 
 #: playlistmanager/sql/SqlUserPlaylistProvider.h:44
 #, fuzzy
@@ -13641,13 +13652,7 @@ msgid "Local playlists stored in the database"
 msgstr ""
 
 #: playlistmanager/SyncedPlaylist.cpp:43 playlistmanager/SyncedPlaylist.cpp:51
-#: playlistmanager/SyncedPlaylist.cpp:59
 msgid "<Empty>"
-msgstr ""
-
-#: playlistmanager/SyncedPlaylist.cpp:66
-#, kde-format
-msgid "Synchronized on: %1"
 msgstr ""
 
 #: PluginManager.cpp:250
@@ -16746,6 +16751,11 @@ msgstr ""
 #| msgid "Volume: %1% %2"
 msgid "Volume: %1%"
 msgstr "Głosnosc: %1% %2"
+
+#, fuzzy
+#~| msgid "Playlist name:"
+#~ msgid "Playlist in database"
+#~ msgstr "Miono lëstë òdegraniô"
 
 #, fuzzy
 #~| msgid "Comment"
