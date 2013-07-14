@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-04 01:38+0000\n"
+"POT-Creation-Date: 2013-07-14 01:42+0000\n"
 "PO-Revision-Date: 2009-06-29 20:35+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -58,7 +58,7 @@ msgstr ""
 msgid "Delete File"
 msgstr "Rëmôj lopk"
 
-#: ../kfile/kdiroperator.cpp:810 kio/jobuidelegate.cpp:149
+#: ../kfile/kdiroperator.cpp:810 kio/jobuidelegate.cpp:152
 #, kde-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
@@ -66,7 +66,7 @@ msgstr[0] "Na gwës rëmnąc %1 element?"
 msgstr[1] "Na gwës rëmnąc %1 elementë?"
 msgstr[2] "Na gwës rëmnąc %1 elementów?"
 
-#: ../kfile/kdiroperator.cpp:812 kio/jobuidelegate.cpp:151
+#: ../kfile/kdiroperator.cpp:812 kio/jobuidelegate.cpp:154
 msgid "Delete Files"
 msgstr "Rëmôj lopczi"
 
@@ -132,7 +132,7 @@ msgstr "Zladëjë znowa"
 msgid "New Folder..."
 msgstr "Nowi katalog..."
 
-#: ../kfile/kdiroperator.cpp:1857 kio/jobuidelegate.cpp:172
+#: ../kfile/kdiroperator.cpp:1857 kio/jobuidelegate.cpp:175
 msgid "Move to Trash"
 msgstr "Przesënié do kòsza"
 
@@ -505,7 +505,7 @@ msgctxt "@info"
 msgid "Do you really want to empty the Trash? All items will be deleted."
 msgstr "Na gwës rëmnąc %1 element?"
 
-#: ../kfile/kfileplacesview.cpp:644 kio/jobuidelegate.cpp:161
+#: ../kfile/kfileplacesview.cpp:644 kio/jobuidelegate.cpp:164
 #, fuzzy
 #| msgid "Trash"
 msgctxt "@action:button"
@@ -3395,7 +3395,7 @@ msgid "Folder Already Exists"
 msgstr "Katalog ju je"
 
 #: kio/copyjob.cpp:1398 kio/copyjob.cpp:1981 kio/global.cpp:669
-#: kio/job.cpp:2224 kio/paste.cpp:116
+#: kio/job.cpp:2240 kio/paste.cpp:116
 msgid "File Already Exists"
 msgstr "Lopk ju je"
 
@@ -5322,14 +5322,14 @@ msgctxt "@title job"
 msgid "Unmounting"
 msgstr "Òdmòntowanié"
 
-#: kio/jobuidelegate.cpp:159
+#: kio/jobuidelegate.cpp:162
 msgctxt "@info"
 msgid ""
 "Do you want to permanently delete all items from Trash? This action cannot "
 "be undone."
 msgstr ""
 
-#: kio/jobuidelegate.cpp:170
+#: kio/jobuidelegate.cpp:173
 #, kde-format
 msgid "Do you really want to move this item to the trash?"
 msgid_plural "Do you really want to move these %1 items to the trash?"
@@ -5337,10 +5337,18 @@ msgstr[0] "Na gwës rëmnąc nen element do kòsza?"
 msgstr[1] "Na gwës rëmnąc ne %1 elementë do kòsza?"
 msgstr[2] "Na gwës rëmnąc nëch %1 elementów do kòsza?"
 
-#: kio/jobuidelegate.cpp:173
+#: kio/jobuidelegate.cpp:176
 msgctxt "Verb"
 msgid "&Trash"
 msgstr "&Kòsz"
+
+#: kio/jobuidelegate.cpp:268
+msgid "The peer SSL certificate chain appears to be corrupt."
+msgstr "Certifikat SSL wëzdrzi na zepsëti."
+
+#: kio/jobuidelegate.cpp:269 kio/tcpslavebase.cpp:766
+msgid "SSL"
+msgstr "SSL"
 
 #: kio/kbuildsycocaprogressdialog.cpp:44
 msgid "Updating System Configuration"
@@ -5870,29 +5878,21 @@ msgstr "&Jo"
 msgid "&No"
 msgstr "&Nié"
 
-#: kio/slaveinterface.cpp:427 kio/tcpslavebase.cpp:821 kssl/sslui.cpp:81
+#: kio/slaveinterface.cpp:422 kio/tcpslavebase.cpp:821 kssl/sslui.cpp:81
 msgid "&Details"
 msgstr "&Detale"
 
-#: kio/slaveinterface.cpp:429 kio/tcpslavebase.cpp:838 kssl/sslui.cpp:120
+#: kio/slaveinterface.cpp:424 kio/tcpslavebase.cpp:838 kssl/sslui.cpp:120
 msgid "&Forever"
 msgstr "&Wiedno"
 
-#: kio/slaveinterface.cpp:434 kio/tcpslavebase.cpp:821 kssl/sslui.cpp:82
+#: kio/slaveinterface.cpp:428 kio/tcpslavebase.cpp:821 kssl/sslui.cpp:82
 msgid "Co&ntinue"
 msgstr "Biéj &dali"
 
-#: kio/slaveinterface.cpp:436 kio/tcpslavebase.cpp:839 kssl/sslui.cpp:121
+#: kio/slaveinterface.cpp:430 kio/tcpslavebase.cpp:839 kssl/sslui.cpp:121
 msgid "&Current Session only"
 msgstr "Blós dlô &biéżny sesëji"
-
-#: kio/slaveinterface.cpp:496
-msgid "The peer SSL certificate chain appears to be corrupt."
-msgstr "Certifikat SSL wëzdrzi na zepsëti."
-
-#: kio/slaveinterface.cpp:498 kio/tcpslavebase.cpp:766
-msgid "SSL"
-msgstr "SSL"
 
 #: kio/tcpslavebase.cpp:334
 msgid ""
