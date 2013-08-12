@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-11 01:34+0000\n"
+"POT-Creation-Date: 2013-08-12 01:33+0000\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -14348,17 +14348,7 @@ msgstr "Felëje òpisënkù..."
 msgid "From Jamendo.com"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, downloadButton)
-#: services/jamendo/JamendoMeta.cpp:135 services/jamendo/JamendoMeta.cpp:345
-#: services/magnatune/MagnatuneDownloadDialogBase.ui:83
-msgid "&Download"
-msgstr "&Zladënk"
-
-#: services/jamendo/JamendoMeta.cpp:153
-msgid "Jamendo.com: &Download"
-msgstr "Jamendo.com: &Ladëjë"
-
-#: services/jamendo/JamendoMeta.cpp:172
+#: services/jamendo/JamendoMeta.cpp:132
 msgid "A site where artists can freely share their music"
 msgstr "Starna na chtërny artistowie mògą dzelec sã swòją mùzyką"
 
@@ -15151,6 +15141,11 @@ msgstr ""
 msgid "Magnatune info"
 msgstr "Infò Magnatune"
 
+#. i18n: ectx: property (text), widget (QPushButton, downloadButton)
+#: services/magnatune/MagnatuneDownloadDialogBase.ui:83
+msgid "&Download"
+msgstr "&Zladënk"
+
 #: services/magnatune/MagnatuneDownloadHandler.cpp:83
 msgid "Processing download"
 msgstr "Przerobiónié zladënkù"
@@ -15220,24 +15215,9 @@ msgstr "Ladowanié twòji nôlepszi starnë Magnatune..."
 msgid "Loading your personal Magnatune.com recommendations page..."
 msgstr "Ladowanié twòji nôlepszi starnë Magnatune..."
 
-#: services/magnatune/MagnatuneMeta.cpp:218
-#: services/magnatune/MagnatuneMeta.cpp:426
-msgid "&Download Album"
-msgstr "&Zladëjë albùm"
-
-#: services/magnatune/MagnatuneMeta.cpp:240
-msgid "Magnatune.com: &Download Album"
-msgstr "Magnatune.com: &zladëjë albùm"
-
-#: services/magnatune/MagnatuneMeta.cpp:262
+#: services/magnatune/MagnatuneMeta.cpp:215
 msgid "The non evil record label that is fair to artists and customers alike"
 msgstr ""
-
-#: services/magnatune/MagnatuneMeta.cpp:432
-#, fuzzy
-#| msgid "Loading your Magnatune.com favorites page..."
-msgid "Add to Magnatune.com &favorites"
-msgstr "Ladowanié twòji nôlepszi starnë Magnatune..."
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: services/magnatune/MagnatuneNeedUpdateWidget.ui:39
@@ -15426,7 +15406,7 @@ msgstr "Ladowanié bazë pòdôwków Magnatune"
 msgid "Updating the local Magnatune database."
 msgstr "Zaktualnianié môlowi bazë pòdôwków Magnatune."
 
-#: services/magnatune/MagnatuneStore.cpp:671
+#: services/magnatune/MagnatuneStore.cpp:626
 #, c-format
 msgid ""
 "The Magnatune.com service accepts the following messages: \n"
@@ -15436,23 +15416,23 @@ msgid ""
 "with %%20"
 msgstr ""
 
-#: services/magnatune/MagnatuneStore.cpp:682
+#: services/magnatune/MagnatuneStore.cpp:637
 msgid "ERROR: No arguments supplied"
 msgstr "FELA: Nie są pòdóné niżódné argùmentë"
 
-#: services/magnatune/MagnatuneStore.cpp:687
+#: services/magnatune/MagnatuneStore.cpp:642
 msgid "ERROR: Wrong number of arguments for addMoodyTracks"
 msgstr "FELA: Lëchô lëczba argùmentów dlô addMoodyTracks"
 
-#: services/magnatune/MagnatuneStore.cpp:697
+#: services/magnatune/MagnatuneStore.cpp:652
 msgid "ERROR: Parse error for argument 2 ( count )"
 msgstr "FELA: Fela parosowaniô dlô 2 argùmentu (rechòwanié )"
 
-#: services/magnatune/MagnatuneStore.cpp:701
+#: services/magnatune/MagnatuneStore.cpp:656
 msgid "ok"
 msgstr "ok"
 
-#: services/magnatune/MagnatuneStore.cpp:704
+#: services/magnatune/MagnatuneStore.cpp:659
 msgid "ERROR: Unknown argument."
 msgstr "FELA: Nieznóny argùment."
 
@@ -16769,6 +16749,20 @@ msgstr ""
 #| msgid "Volume: %1% %2"
 msgid "Volume: %1%"
 msgstr "Głosnosc: %1% %2"
+
+#~ msgid "Jamendo.com: &Download"
+#~ msgstr "Jamendo.com: &Ladëjë"
+
+#~ msgid "&Download Album"
+#~ msgstr "&Zladëjë albùm"
+
+#~ msgid "Magnatune.com: &Download Album"
+#~ msgstr "Magnatune.com: &zladëjë albùm"
+
+#, fuzzy
+#~| msgid "Loading your Magnatune.com favorites page..."
+#~ msgid "Add to Magnatune.com &favorites"
+#~ msgstr "Ladowanié twòji nôlepszi starnë Magnatune..."
 
 #, fuzzy
 #~| msgid "Playlist name:"
