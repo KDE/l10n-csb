@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-16 01:27+0000\n"
+"POT-Creation-Date: 2013-08-20 01:29+0000\n"
 "PO-Revision-Date: 2009-12-19 02:07+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -1269,17 +1269,17 @@ msgstr "Miono dokùmentu"
 msgid "Open File"
 msgstr "Òtemkni lopk"
 
-#: app/kateviewspace.cpp:277 app/kateviewspace.cpp:390
+#: app/kateviewspace.cpp:277
 #, kde-format
 msgid " Line: %1 Col: %2 "
 msgstr " Réżka: %1 Kòl: %2 "
 
-#: app/kateviewspace.cpp:285 app/kateviewspace.cpp:396
+#: app/kateviewspace.cpp:285 app/kateviewspace.cpp:401
 #, kde-format
 msgid " Characters: %1 "
 msgstr ""
 
-#: app/kateviewspace.cpp:298 app/kateviewspace.cpp:405
+#: app/kateviewspace.cpp:298 app/kateviewspace.cpp:410
 msgid " LINE "
 msgstr " RÉŻKA "
 
@@ -1287,7 +1287,13 @@ msgstr " RÉŻKA "
 msgid " INS "
 msgstr " WST "
 
-#: app/kateviewspace.cpp:405
+#: app/kateviewspace.cpp:391
+#, fuzzy, kde-format
+#| msgid " Line: %1 Col: %2 "
+msgid " Line: %1 of %2 Col: %3 "
+msgstr " Réżka: %1 Kòl: %2 "
+
+#: app/kateviewspace.cpp:410
 msgid " BLOCK "
 msgstr " BLOK "
 
