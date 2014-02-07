@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-01-22 01:21+0000\n"
+"POT-Creation-Date: 2014-02-07 01:30+0000\n"
 "PO-Revision-Date: 2009-12-09 23:08+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -930,42 +930,37 @@ msgctxt "@label"
 msgid "User Group"
 msgstr "Grëpë"
 
-#: kitemviews/private/kfileitemmodeldirlister.cpp:41
-msgctxt "@info:status"
-msgid "Unknown error."
-msgstr "Nieznónô fela."
-
-#: kitemviews/private/knepomukrolesprovider.cpp:181
+#: kitemviews/private/kbaloorolesprovider.cpp:164
 msgctxt "@item:intable Image orientation"
 msgid "Unchanged"
 msgstr ""
 
-#: kitemviews/private/knepomukrolesprovider.cpp:182
+#: kitemviews/private/kbaloorolesprovider.cpp:165
 msgctxt "@item:intable Image orientation"
 msgid "Horizontally flipped"
 msgstr ""
 
-#: kitemviews/private/knepomukrolesprovider.cpp:183
+#: kitemviews/private/kbaloorolesprovider.cpp:166
 msgctxt "@item:intable image orientation"
 msgid "180° rotated"
 msgstr ""
 
-#: kitemviews/private/knepomukrolesprovider.cpp:184
+#: kitemviews/private/kbaloorolesprovider.cpp:167
 msgctxt "@item:intable image orientation"
 msgid "Vertically flipped"
 msgstr ""
 
-#: kitemviews/private/knepomukrolesprovider.cpp:185
+#: kitemviews/private/kbaloorolesprovider.cpp:168
 msgctxt "@item:intable image orientation"
 msgid "Transposed"
 msgstr ""
 
-#: kitemviews/private/knepomukrolesprovider.cpp:186
+#: kitemviews/private/kbaloorolesprovider.cpp:169
 msgctxt "@item:intable image orientation"
 msgid "90° rotated"
 msgstr ""
 
-#: kitemviews/private/knepomukrolesprovider.cpp:187
+#: kitemviews/private/kbaloorolesprovider.cpp:170
 #, fuzzy
 #| msgctxt "@item::intable"
 #| msgid "Unversioned"
@@ -973,10 +968,15 @@ msgctxt "@item:intable image orientation"
 msgid "Transversed"
 msgstr "Bez wersëji"
 
-#: kitemviews/private/knepomukrolesprovider.cpp:188
+#: kitemviews/private/kbaloorolesprovider.cpp:171
 msgctxt "@item:intable image orientation"
 msgid "270° rotated"
 msgstr ""
+
+#: kitemviews/private/kfileitemmodeldirlister.cpp:41
+msgctxt "@info:status"
+msgid "Unknown error."
+msgstr "Nieznónô fela."
 
 #: main.cpp:35
 msgctxt "@title"
@@ -1276,7 +1276,7 @@ msgstr ""
 msgid "&Only show when using this application (%1)"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:269
+#: panels/places/placesitemmodel.cpp:257
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Add Comment..."
@@ -1284,7 +1284,7 @@ msgctxt "@item"
 msgid "Eject '%1'"
 msgstr "Dodôj dopòwiesc..."
 
-#: panels/places/placesitemmodel.cpp:305
+#: panels/places/placesitemmodel.cpp:293
 #, fuzzy, kde-format
 #| msgctxt "@item::intable"
 #| msgid "Removed"
@@ -1292,7 +1292,7 @@ msgctxt "@item"
 msgid "Release '%1'"
 msgstr "Rëmniãté"
 
-#: panels/places/placesitemmodel.cpp:307
+#: panels/places/placesitemmodel.cpp:295
 #, fuzzy, kde-format
 #| msgctxt "@item::intable"
 #| msgid "Removed"
@@ -1300,7 +1300,7 @@ msgctxt "@item"
 msgid "Safely Remove '%1'"
 msgstr "Rëmniãté"
 
-#: panels/places/placesitemmodel.cpp:310
+#: panels/places/placesitemmodel.cpp:298
 #, fuzzy, kde-format
 #| msgctxt "@item::intable"
 #| msgid "Removed"
@@ -1308,32 +1308,32 @@ msgctxt "@item"
 msgid "Unmount '%1'"
 msgstr "Rëmniãté"
 
-#: panels/places/placesitemmodel.cpp:332
+#: panels/places/placesitemmodel.cpp:320
 #, kde-format
 msgctxt "@info"
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:621
+#: panels/places/placesitemmodel.cpp:609
 #, kde-format
 msgctxt "@info"
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:625
+#: panels/places/placesitemmodel.cpp:613
 #, kde-format
 msgctxt "@info"
 msgid "An error occurred while accessing '%1'"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:914
+#: panels/places/placesitemmodel.cpp:902
 #, fuzzy
 #| msgid "Home URL"
 msgctxt "KFile System Bookmarks"
 msgid "Home"
 msgstr "Domôcô adresa URL"
 
-#: panels/places/placesitemmodel.cpp:917
+#: panels/places/placesitemmodel.cpp:905
 #, fuzzy
 #| msgctxt "@action:inmenu Go"
 #| msgid "&Network Folders"
@@ -1341,12 +1341,12 @@ msgctxt "KFile System Bookmarks"
 msgid "Network"
 msgstr "&Sécowé katalodżi"
 
-#: panels/places/placesitemmodel.cpp:920
+#: panels/places/placesitemmodel.cpp:908
 msgctxt "KFile System Bookmarks"
 msgid "Root"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:923
+#: panels/places/placesitemmodel.cpp:911
 #, fuzzy
 #| msgctxt "@title:group"
 #| msgid "Trash"
@@ -1354,7 +1354,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Trash"
 msgstr "Kòsz"
 
-#: panels/places/placesitemmodel.cpp:928
+#: panels/places/placesitemmodel.cpp:916
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Today"
@@ -1362,7 +1362,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Today"
 msgstr "Dzysô"
 
-#: panels/places/placesitemmodel.cpp:931
+#: panels/places/placesitemmodel.cpp:919
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Yesterday"
@@ -1370,7 +1370,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Yesterday"
 msgstr "Wczora"
 
-#: panels/places/placesitemmodel.cpp:934
+#: panels/places/placesitemmodel.cpp:922
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "This Month"
@@ -1378,7 +1378,7 @@ msgctxt "KFile System Bookmarks"
 msgid "This Month"
 msgstr "Nen miesãc"
 
-#: panels/places/placesitemmodel.cpp:937
+#: panels/places/placesitemmodel.cpp:925
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "This Month"
@@ -1386,7 +1386,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Last Month"
 msgstr "Nen miesãc"
 
-#: panels/places/placesitemmodel.cpp:940
+#: panels/places/placesitemmodel.cpp:928
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -1394,7 +1394,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Documents"
 msgstr "Dokùmentacëjô"
 
-#: panels/places/placesitemmodel.cpp:943
+#: panels/places/placesitemmodel.cpp:931
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Images"
@@ -1402,12 +1402,12 @@ msgctxt "KFile System Bookmarks"
 msgid "Images"
 msgstr "Òbrôzczi"
 
-#: panels/places/placesitemmodel.cpp:946
+#: panels/places/placesitemmodel.cpp:934
 msgctxt "KFile System Bookmarks"
 msgid "Audio Files"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:949
+#: panels/places/placesitemmodel.cpp:937
 msgctxt "KFile System Bookmarks"
 msgid "Videos"
 msgstr ""
@@ -1531,7 +1531,7 @@ msgstr "Céż"
 msgid "Show facets widget"
 msgstr "Wëskrzëni wprzód katalodżi "
 
-#: search/dolphinfacetswidget.cpp:61
+#: search/dolphinfacetswidget.cpp:49
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -1539,7 +1539,7 @@ msgctxt "@option:check"
 msgid "Documents"
 msgstr "Dokùmentacëjô"
 
-#: search/dolphinfacetswidget.cpp:62
+#: search/dolphinfacetswidget.cpp:50
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Images"
@@ -1547,17 +1547,17 @@ msgctxt "@option:check"
 msgid "Images"
 msgstr "Òbrôzczi"
 
-#: search/dolphinfacetswidget.cpp:63
+#: search/dolphinfacetswidget.cpp:51
 msgctxt "@option:check"
 msgid "Audio Files"
 msgstr ""
 
-#: search/dolphinfacetswidget.cpp:64
+#: search/dolphinfacetswidget.cpp:52
 msgctxt "@option:check"
 msgid "Videos"
 msgstr ""
 
-#: search/dolphinfacetswidget.cpp:75
+#: search/dolphinfacetswidget.cpp:63
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Anytime"
@@ -1565,7 +1565,7 @@ msgctxt "@option:option"
 msgid "Anytime"
 msgstr "Wiedno"
 
-#: search/dolphinfacetswidget.cpp:76
+#: search/dolphinfacetswidget.cpp:64
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Today"
@@ -1573,7 +1573,7 @@ msgctxt "@option:option"
 msgid "Today"
 msgstr "Dzysô"
 
-#: search/dolphinfacetswidget.cpp:77
+#: search/dolphinfacetswidget.cpp:65
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Yesterday"
@@ -1581,7 +1581,7 @@ msgctxt "@option:option"
 msgid "Yesterday"
 msgstr "Wczora"
 
-#: search/dolphinfacetswidget.cpp:78
+#: search/dolphinfacetswidget.cpp:66
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "This Week"
@@ -1589,7 +1589,7 @@ msgctxt "@option:option"
 msgid "This Week"
 msgstr "Nen tidzéń"
 
-#: search/dolphinfacetswidget.cpp:79
+#: search/dolphinfacetswidget.cpp:67
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "This Month"
@@ -1597,7 +1597,7 @@ msgctxt "@option:option"
 msgid "This Month"
 msgstr "Nen miesãc"
 
-#: search/dolphinfacetswidget.cpp:80
+#: search/dolphinfacetswidget.cpp:68
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "This Year"
@@ -1605,7 +1605,7 @@ msgctxt "@option:option"
 msgid "This Year"
 msgstr "Nen rok"
 
-#: search/dolphinfacetswidget.cpp:93
+#: search/dolphinfacetswidget.cpp:81
 #, fuzzy
 #| msgctxt "@item::inlistbox"
 #| msgid "Rating"
@@ -1613,32 +1613,32 @@ msgctxt "@option:option"
 msgid "Any Rating"
 msgstr "Taksa"
 
-#: search/dolphinfacetswidget.cpp:94
+#: search/dolphinfacetswidget.cpp:82
 msgctxt "@option:option"
 msgid "1 or more"
 msgstr ""
 
-#: search/dolphinfacetswidget.cpp:95
+#: search/dolphinfacetswidget.cpp:83
 msgctxt "@option:option"
 msgid "2 or more"
 msgstr ""
 
-#: search/dolphinfacetswidget.cpp:96
+#: search/dolphinfacetswidget.cpp:84
 msgctxt "@option:option"
 msgid "3 or more"
 msgstr ""
 
-#: search/dolphinfacetswidget.cpp:97
+#: search/dolphinfacetswidget.cpp:85
 msgctxt "@option:option"
 msgid "4 or more"
 msgstr ""
 
-#: search/dolphinfacetswidget.cpp:98
+#: search/dolphinfacetswidget.cpp:86
 msgctxt "@option:option"
 msgid "Highest Rating"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:111
+#: search/dolphinsearchbox.cpp:103
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "From Here"
@@ -1646,7 +1646,7 @@ msgctxt "action:button"
 msgid "From Here (%1)"
 msgstr "Òd tądka"
 
-#: search/dolphinsearchbox.cpp:326
+#: search/dolphinsearchbox.cpp:318
 #, fuzzy
 #| msgctxt "@info"
 #| msgid "Start searching"
@@ -1654,7 +1654,7 @@ msgctxt "@info:tooltip"
 msgid "Quit searching"
 msgstr "Startëjë szëkbã"
 
-#: search/dolphinsearchbox.cpp:352
+#: search/dolphinsearchbox.cpp:344
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Filenames"
@@ -1662,7 +1662,7 @@ msgctxt "action:button"
 msgid "Filename"
 msgstr "Miona lopków"
 
-#: search/dolphinsearchbox.cpp:356
+#: search/dolphinsearchbox.cpp:348
 #, fuzzy
 #| msgctxt "@item::inlistbox"
 #| msgid "Comment"
@@ -1670,7 +1670,7 @@ msgctxt "action:button"
 msgid "Content"
 msgstr "Dopòwiesc"
 
-#: search/dolphinsearchbox.cpp:367
+#: search/dolphinsearchbox.cpp:359
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "From Here"
@@ -1678,7 +1678,7 @@ msgctxt "action:button"
 msgid "From Here"
 msgstr "Òd tądka"
 
-#: search/dolphinsearchbox.cpp:371
+#: search/dolphinsearchbox.cpp:363
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Everywhere"
@@ -1686,7 +1686,7 @@ msgctxt "action:button"
 msgid "Everywhere"
 msgstr "Wszãdze"
 
-#: search/dolphinsearchbox.cpp:477
+#: search/dolphinsearchbox.cpp:452
 #, kde-format
 msgctxt ""
 "@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
@@ -1694,12 +1694,12 @@ msgctxt ""
 msgid "Query Results from '%1'"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:493
+#: search/dolphinsearchbox.cpp:467
 msgctxt "@label:textbox"
 msgid "Find:"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:511
+#: search/dolphinsearchbox.cpp:485
 #, fuzzy
 #| msgctxt "@item::inlistbox"
 #| msgid "Permissions"
@@ -1707,7 +1707,7 @@ msgctxt "action:button"
 msgid "Fewer Options"
 msgstr "Prawa przistãpù"
 
-#: search/dolphinsearchbox.cpp:511
+#: search/dolphinsearchbox.cpp:485
 msgctxt "action:button"
 msgid "More Options"
 msgstr ""
@@ -2574,87 +2574,87 @@ msgstr[0] "Miara: 1 piksla"
 msgstr[1] "Miara: %1 piksle"
 msgstr[2] "Miara: %1 pikslów"
 
-#: settings/viewpropertiesdialog.cpp:78
+#: settings/viewpropertiesdialog.cpp:75
 msgctxt "@title:window"
 msgid "View Properties"
 msgstr "Swòjiznë wëzdrzatkù"
 
-#: settings/viewpropertiesdialog.cpp:91
+#: settings/viewpropertiesdialog.cpp:88
 msgctxt "@title:group"
 msgid "Properties"
 msgstr "Swòjizna"
 
-#: settings/viewpropertiesdialog.cpp:96
+#: settings/viewpropertiesdialog.cpp:93
 msgctxt "@label:listbox"
 msgid "View mode:"
 msgstr "Trib wëzdrzatkù:"
 
-#: settings/viewpropertiesdialog.cpp:98
+#: settings/viewpropertiesdialog.cpp:95
 msgctxt "@item:inlistbox"
 msgid "Icons"
 msgstr "Ikònë"
 
-#: settings/viewpropertiesdialog.cpp:99
+#: settings/viewpropertiesdialog.cpp:96
 msgctxt "@item:inlistbox"
 msgid "Compact"
 msgstr ""
 
-#: settings/viewpropertiesdialog.cpp:100
+#: settings/viewpropertiesdialog.cpp:97
 msgctxt "@item:inlistbox"
 msgid "Details"
 msgstr "Detale"
 
-#: settings/viewpropertiesdialog.cpp:102
+#: settings/viewpropertiesdialog.cpp:99
 msgctxt "@label:listbox"
 msgid "Sorting:"
 msgstr "Zortowanié:"
 
-#: settings/viewpropertiesdialog.cpp:106
+#: settings/viewpropertiesdialog.cpp:103
 msgctxt "@item:inlistbox Sort"
 msgid "Ascending"
 msgstr "Roscąco"
 
-#: settings/viewpropertiesdialog.cpp:107
+#: settings/viewpropertiesdialog.cpp:104
 msgctxt "@item:inlistbox Sort"
 msgid "Descending"
 msgstr "Malejąco"
 
-#: settings/viewpropertiesdialog.cpp:115
+#: settings/viewpropertiesdialog.cpp:112
 msgctxt "@option:check"
 msgid "Show folders first"
 msgstr "Wëskrzëni wprzód katalodżi "
 
-#: settings/viewpropertiesdialog.cpp:116
+#: settings/viewpropertiesdialog.cpp:113
 msgctxt "@option:check"
 msgid "Show preview"
 msgstr "Wëskrzëni pòdzérk"
 
-#: settings/viewpropertiesdialog.cpp:117
+#: settings/viewpropertiesdialog.cpp:114
 msgctxt "@option:check"
 msgid "Show in groups"
 msgstr "Wëskrzëni w grëpach"
 
-#: settings/viewpropertiesdialog.cpp:118
+#: settings/viewpropertiesdialog.cpp:115
 msgctxt "@option:check"
 msgid "Show hidden files"
 msgstr "Wëskrzëni zataconé lopczi"
 
-#: settings/viewpropertiesdialog.cpp:120
+#: settings/viewpropertiesdialog.cpp:117
 msgctxt "@action:button"
 msgid "Additional Information"
 msgstr "Dodôwnô wedowiédzô"
 
-#: settings/viewpropertiesdialog.cpp:168
+#: settings/viewpropertiesdialog.cpp:165
 msgctxt "@title:group"
 msgid "Apply View Properties To"
 msgstr "Akceptëjë swòjiznë wëzdrzatkù do"
 
-#: settings/viewpropertiesdialog.cpp:171
+#: settings/viewpropertiesdialog.cpp:168
 msgctxt "@option:radio Apply View Properties To"
 msgid "Current folder"
 msgstr "Biéżny katalog"
 
-#: settings/viewpropertiesdialog.cpp:174
+#: settings/viewpropertiesdialog.cpp:171
 #, fuzzy
 #| msgctxt "@option:radio Apply View Properties To"
 #| msgid "Current folder including all sub folders"
@@ -2662,12 +2662,12 @@ msgctxt "@option:radio Apply View Properties To"
 msgid "Current folder including all sub-folders"
 msgstr "Biéżny katalog włączô wszëtczé pòdkatalodżi"
 
-#: settings/viewpropertiesdialog.cpp:176
+#: settings/viewpropertiesdialog.cpp:173
 msgctxt "@option:radio Apply View Properties To"
 msgid "All folders"
 msgstr "Wszëtczé katalodżi"
 
-#: settings/viewpropertiesdialog.cpp:188
+#: settings/viewpropertiesdialog.cpp:185
 #, fuzzy
 #| msgctxt "@option:radio"
 #| msgid "Use common view properties for all folders"
@@ -2675,7 +2675,7 @@ msgctxt "@option:check"
 msgid "Use these view properties as default"
 msgstr "Ùżëjë domëslny swòjiznë wëzdrzatkù dlô wszëtczich katalogów"
 
-#: settings/viewpropertiesdialog.cpp:323
+#: settings/viewpropertiesdialog.cpp:320
 #, fuzzy
 #| msgctxt "@info"
 #| msgid ""
@@ -2689,7 +2689,7 @@ msgstr ""
 "Swòjiznë wëzdrzatkù wszëtczich pòdkatalogów òstaną zmienioné. Chcesz "
 "kòntinuòwac?"
 
-#: settings/viewpropertiesdialog.cpp:355
+#: settings/viewpropertiesdialog.cpp:352
 msgctxt "@info"
 msgid ""
 "The view properties of all folders will be changed. Do you want to continue?"
@@ -2843,7 +2843,7 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: views/dolphinview.cpp:922
+#: views/dolphinview.cpp:918
 #, fuzzy
 #| msgctxt "@title:group"
 #| msgid "Column Width"
@@ -2851,7 +2851,7 @@ msgctxt "@action:inmenu"
 msgid "Automatic Column Widths"
 msgstr "Szérz kòlumnë"
 
-#: views/dolphinview.cpp:927
+#: views/dolphinview.cpp:923
 #, fuzzy
 #| msgctxt "@title:group"
 #| msgid "Column Width"
@@ -2859,17 +2859,17 @@ msgctxt "@action:inmenu"
 msgid "Custom Column Widths"
 msgstr "Szérz kòlumnë"
 
-#: views/dolphinview.cpp:1374
+#: views/dolphinview.cpp:1370
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "Rëmôj skùńczoné òperacëje."
 
-#: views/dolphinview.cpp:1505
+#: views/dolphinview.cpp:1501
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "Lokacëjô je pùstô."
 
-#: views/dolphinview.cpp:1507
+#: views/dolphinview.cpp:1503
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
@@ -2967,22 +2967,22 @@ msgctxt "@action:inmenu View"
 msgid "Adjust View Properties..."
 msgstr "Dopasëjë swòjiznë wëzdrzatkù..."
 
-#: views/dolphinviewactionhandler.cpp:496
+#: views/dolphinviewactionhandler.cpp:492
 msgctxt "@action:inmenu View Mode"
 msgid "Icons"
 msgstr "Ikònë"
 
-#: views/dolphinviewactionhandler.cpp:497
+#: views/dolphinviewactionhandler.cpp:493
 msgctxt "@info"
 msgid "Icons view mode"
 msgstr "Ikònë tribù wëzdrzatkù"
 
-#: views/dolphinviewactionhandler.cpp:507
+#: views/dolphinviewactionhandler.cpp:503
 msgctxt "@action:inmenu View Mode"
 msgid "Compact"
 msgstr ""
 
-#: views/dolphinviewactionhandler.cpp:508
+#: views/dolphinviewactionhandler.cpp:504
 #, fuzzy
 #| msgctxt "@info"
 #| msgid "Columns view mode"
@@ -2990,12 +2990,12 @@ msgctxt "@info"
 msgid "Compact view mode"
 msgstr "Kòlumnë tribù wëzdrzatkù"
 
-#: views/dolphinviewactionhandler.cpp:518
+#: views/dolphinviewactionhandler.cpp:514
 msgctxt "@action:inmenu View Mode"
 msgid "Details"
 msgstr "Detale"
 
-#: views/dolphinviewactionhandler.cpp:519
+#: views/dolphinviewactionhandler.cpp:515
 msgctxt "@info"
 msgid "Details view mode"
 msgstr "Detale tribù wëzdrzatkù"
