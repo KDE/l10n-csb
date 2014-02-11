@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_devicenotifier\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-02-07 01:46+0000\n"
+"POT-Creation-Date: 2014-02-11 01:46+0000\n"
 "PO-Revision-Date: 2009-12-14 23:19+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -21,21 +21,27 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: package/contents/ui/DeviceItem.qml:164
+#: package/contents/ui/DeviceItem.qml:135
+#, kde-format
+msgctxt "@info:status Free disk space"
+msgid "%1 free"
+msgstr "%1 wòlné"
+
+#: package/contents/ui/DeviceItem.qml:165
 msgctxt ""
 "Accessing is a less technical word for Mounting; translation should be short "
 "and mean 'Currently mounting this device'"
 msgid "Accessing..."
 msgstr ""
 
-#: package/contents/ui/DeviceItem.qml:164
+#: package/contents/ui/DeviceItem.qml:165
 msgctxt ""
 "Removing is a less technical word for Unmounting; translation shoud be short "
 "and mean 'Currently unmounting this device'"
 msgid "Removing..."
 msgstr ""
 
-#: package/contents/ui/DeviceItem.qml:177
+#: package/contents/ui/DeviceItem.qml:178
 #, fuzzy, kde-format
 #| msgid "1 action for this device"
 #| msgid_plural "%1 actions for this device"
@@ -45,80 +51,74 @@ msgstr[0] "1 dzejanié dlô negò ùrządzeniô"
 msgstr[1] "1 dzejanié dlô negò ùrządzeniô"
 msgstr[2] "1 dzejanié dlô negò ùrządzeniô"
 
-#: package/contents/ui/DeviceItem.qml:186
-#, kde-format
-msgctxt "@info:status Free disk space"
-msgid "%1 free"
-msgstr "%1 wòlné"
-
-#: package/contents/ui/DeviceItem.qml:225
+#: package/contents/ui/DeviceItem.qml:212
 #, fuzzy
 #| msgid "Click to safely remove this device from the computer."
 msgid "Click to mount this device."
 msgstr "Klëkni bezpbezpieczno ieczno abë òdłączëc ùrządzenié òd kòmpùtra."
 
-#: package/contents/ui/DeviceItem.qml:227
+#: package/contents/ui/DeviceItem.qml:214
 #, fuzzy
 #| msgid "Click to safely remove this device from the computer."
 msgid "Click to eject this disc."
 msgstr "Klëkni bezpbezpieczno ieczno abë òdłączëc ùrządzenié òd kòmpùtra."
 
-#: package/contents/ui/DeviceItem.qml:229
+#: package/contents/ui/DeviceItem.qml:216
 #, fuzzy
 #| msgid "Click to safely remove this device from the computer."
 msgid "Click to safely remove this device."
 msgstr "Klëkni bezpbezpieczno ieczno abë òdłączëc ùrządzenié òd kòmpùtra."
 
-#: package/contents/ui/DeviceItem.qml:231
+#: package/contents/ui/DeviceItem.qml:218
 msgid "Click to access this device from other applications."
 msgstr "Klëkni dlô przëstãpù jinszą aplikacëją do negò ùrządzenia."
 
-#: package/contents/ui/DeviceItem.qml:241
+#: package/contents/ui/DeviceItem.qml:237
 msgid ""
 "It is currently <b>not safe</b> to remove this device: applications may be "
 "accessing it. Click the eject button to safely remove this device."
 msgstr ""
 
-#: package/contents/ui/DeviceItem.qml:243
+#: package/contents/ui/DeviceItem.qml:239
 msgid "This device is currently accessible."
 msgstr ""
 
-#: package/contents/ui/DeviceItem.qml:248
+#: package/contents/ui/DeviceItem.qml:244
 msgid ""
 "It is currently <b>not safe</b> to remove this device: applications may be "
 "accessing other volumes on this device. Click the eject button on these "
 "other volumes to safely remove this device."
 msgstr ""
 
-#: package/contents/ui/DeviceItem.qml:250
+#: package/contents/ui/DeviceItem.qml:246
 #, fuzzy
 #| msgid "Click to safely remove this device from the computer."
 msgid "It is currently safe to remove this device."
 msgstr "Klëkni bezpbezpieczno ieczno abë òdłączëc ùrządzenié òd kòmpùtra."
 
-#: package/contents/ui/DeviceItem.qml:253
+#: package/contents/ui/DeviceItem.qml:249
 msgid "This device is not currently accessible."
 msgstr ""
 
-#: package/contents/ui/devicenotifier.qml:173
+#: package/contents/ui/devicenotifier.qml:41
 #, fuzzy
 #| msgid "No devices plugged in."
 msgid "No devices available"
 msgstr "Felëją dodóné ùrządzenia."
 
-#: package/contents/ui/devicenotifier.qml:176
+#: package/contents/ui/devicenotifier.qml:41
 #, fuzzy
 #| msgid "Last plugged in device: %1"
 msgid "Most recent device"
 msgstr "Slédno dodóné ùrządzenié: %1"
 
-#: package/contents/ui/devicenotifier.qml:231
+#: package/contents/ui/devicenotifier.qml:200
 #, fuzzy
 #| msgid "All devices"
 msgid "Available Devices"
 msgstr "Wszëtczé ùrządzenia"
 
-#: package/contents/ui/devicenotifier.qml:231
+#: package/contents/ui/devicenotifier.qml:200
 msgid "No Devices Available"
 msgstr ""
 
