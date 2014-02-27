@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-02-10 01:29+0000\n"
+"POT-Creation-Date: 2014-02-27 01:33+0000\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -334,7 +334,7 @@ msgstr "Biéżnô lësta òdgrëwaniô"
 msgid "Selected Tracks"
 msgstr "Wëbróné sztëcczi"
 
-#: ActionClasses.cpp:421
+#: ActionClasses.cpp:421 scripting/scriptconsole/ScriptConsole.cpp:100
 msgid "Stop"
 msgstr "Zatrzëmôj"
 
@@ -357,7 +357,7 @@ msgid "Stop after current track: On"
 msgstr "Achtnij biéżny sztëczk"
 
 #: ActionClasses.cpp:493 context/engines/current/CurrentEngine.cpp:143
-#: EngineController.cpp:1452 mac/GrowlInterface.cpp:43 widgets/Osd.cpp:668
+#: EngineController.cpp:1327 mac/GrowlInterface.cpp:43 widgets/Osd.cpp:668
 msgid "No track playing"
 msgstr "Nick nie je gróné"
 
@@ -1391,30 +1391,50 @@ msgstr ""
 msgid "Enable/Disable automatic update for built-in scripts."
 msgstr ""
 
+#. i18n: ectx: label, entry, group (ScriptManager)
+#. i18n: ectx: whatsthis, entry, group (ScriptManager)
+#: amarokconfig.kcfg:592 amarokconfig.kcfg:593
+msgid "Whether to enable the script console."
+msgstr ""
+
+#. i18n: ectx: label, entry, group (ScriptManager)
+#. i18n: ectx: whatsthis, entry, group (ScriptManager)
+#: amarokconfig.kcfg:597 amarokconfig.kcfg:598
+msgid "Whether to display a warning about scripts accessing deprecated APIs."
+msgstr ""
+
+#. i18n: ectx: label, entry, group (ScriptConsole)
+#. i18n: ectx: whatsthis, entry, group (ScriptConsole)
+#: amarokconfig.kcfg:605 amarokconfig.kcfg:606
+#, fuzzy
+#| msgid "Queue URLs after the currently playing track"
+msgid "Whether to save the current session on exit."
+msgstr "Ùstawi adresë URL w réze za biéżnym sztëczkã"
+
 #. i18n: ectx: label, entry, group (Moodbar)
-#: amarokconfig.kcfg:595
+#: amarokconfig.kcfg:613
 msgid ""
 "Whether to show the moodbar of the current track, if available, in the "
 "progress slider"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (Moodbar)
-#: amarokconfig.kcfg:596
+#: amarokconfig.kcfg:614
 msgid "Enable/Disable showing moodbar, if available, in the progress slider."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (Moodbar)
-#: amarokconfig.kcfg:600
+#: amarokconfig.kcfg:618
 msgid "The style to use when painting the moodbar"
 msgstr ""
 
 #. i18n: ectx: label, entry, group (PlaylistGenerator)
-#: amarokconfig.kcfg:607
+#: amarokconfig.kcfg:625
 msgid "Quality factor for Automated Playlist Generator"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (PlaylistGenerator)
-#: amarokconfig.kcfg:608
+#: amarokconfig.kcfg:626
 msgid ""
 "A value between 0 and 10 that controls whether the Automated Playlist "
 "Generator tries to optimize for speed (0) or accuracy (10)."
@@ -1610,100 +1630,100 @@ msgctxt ""
 msgid "Play"
 msgstr "Grónié"
 
-#: App.cpp:356
+#: App.cpp:357
 msgid "Files/URLs to open"
 msgstr "Lopczi/adresë do òtemkniãcô"
 
-#: App.cpp:357
+#: App.cpp:358
 msgid "Immediately start playing an audio cd"
 msgstr ""
 
-#: App.cpp:359
+#: App.cpp:360
 msgid "Skip backwards in playlist"
 msgstr "Skóknié dowslôdë na lësce graniô"
 
-#: App.cpp:361
+#: App.cpp:362
 msgid "Start playing current playlist"
 msgstr "Naczni òdgrëwac biéżną lëstã"
 
-#: App.cpp:363
+#: App.cpp:364
 msgid "Play if stopped, pause if playing"
 msgstr "Grôj czedë zatrzëmóné, zatrzëmôj czedë gróné"
 
-#: App.cpp:364
+#: App.cpp:365
 msgid "Pause playback"
 msgstr "Paùzëjë grónié"
 
-#: App.cpp:366
+#: App.cpp:367
 msgid "Stop playback"
 msgstr "Zakùńczë grónié"
 
-#: App.cpp:368
+#: App.cpp:369
 msgid "Skip forwards in playlist"
 msgstr "Skóknié w przódk na lësce graniô"
 
-#: App.cpp:369
+#: App.cpp:370
 msgid "Additional options:"
 msgstr "Dodôwné òptacëje:"
 
-#: App.cpp:371
+#: App.cpp:372
 msgid "Append files/URLs to playlist"
 msgstr "Dodôj lopczi/adresë URL do lëstë graniô"
 
-#: App.cpp:372
+#: App.cpp:373
 msgid "Queue URLs after the currently playing track"
 msgstr "Ùstawi adresë URL w réze za biéżnym sztëczkã"
 
-#: App.cpp:374
+#: App.cpp:375
 msgid "Load URLs, replacing current playlist"
 msgstr "Ladëjë URL-ë, pòdmieniającë biéżną lëstã graniô"
 
-#: App.cpp:376
+#: App.cpp:377
 msgid "Print verbose debugging information"
 msgstr "Wëdrëkùjë wëdowiédzã ò przebiégù procesu"
 
-#: App.cpp:377
+#: App.cpp:378
 #, fuzzy
 #| msgid "Print verbose debugging information"
 msgid "Print verbose debugging information from the audio system"
 msgstr "Wëdrëkùjë wëdowiédzã ò przebiégù procesu"
 
-#: App.cpp:379
+#: App.cpp:380
 msgid "Disable colorization for debug output."
 msgstr ""
 
-#: App.cpp:381
+#: App.cpp:382
 msgid "Allow running multiple Amarok instances"
 msgstr ""
 
-#: App.cpp:382
+#: App.cpp:383
 msgid "Base for relative filenames/URLs"
 msgstr "Baza dlô wzglãdnëch mionów lopków/adresów URL"
 
-#: App.cpp:510
+#: App.cpp:516
 msgid ""
 "The embedded database was not found; you must set up a database server "
 "connection.\n"
 "You must restart Amarok after doing this."
 msgstr ""
 
-#: App.cpp:511
+#: App.cpp:517
 msgid ""
 "The connection details for the database server were invalid.\n"
 "You must enter correct settings and restart Amarok after doing this."
 msgstr ""
 
-#: App.cpp:512
+#: App.cpp:518
 #, fuzzy
 #| msgid "Database:"
 msgid "Database Error"
 msgstr "Baza pòdôwków:"
 
-#: App.cpp:557
+#: App.cpp:563
 msgid "Moving files to trash"
 msgstr ""
 
-#: App.cpp:624
+#: App.cpp:630
 #, kde-format
 msgid ""
 "A music path, %1, is set in System Settings.\n"
@@ -1859,7 +1879,7 @@ msgid "Various Artists"
 msgstr "Rozmajiti wëkònywaczë"
 
 #: browsers/CollectionTreeItemModelBase.cpp:987
-#: browsers/CollectionTreeView.cpp:218
+#: browsers/CollectionTreeView.cpp:219
 #: context/applets/albums/AlbumsView.cpp:256
 #: context/applets/wikipedia/WikipediaApplet.cpp:634
 #: dialogs/transferdialog.cpp:89 musicbrainz/MusicBrainzTagsModel.cpp:38
@@ -1910,35 +1930,35 @@ msgstr "Eticzéta"
 msgid "None"
 msgstr "Felënk"
 
-#: browsers/CollectionTreeView.cpp:238
+#: browsers/CollectionTreeView.cpp:239
 msgid "Collection"
 msgstr "Kòlekcëjô"
 
-#: browsers/CollectionTreeView.cpp:262 browsers/filebrowser/FileView.cpp:117
+#: browsers/CollectionTreeView.cpp:263 browsers/filebrowser/FileView.cpp:117
 msgid "Copy to Collection"
 msgstr "Kòpiérëjë do kòlekcëji"
 
-#: browsers/CollectionTreeView.cpp:271 browsers/filebrowser/FileView.cpp:127
+#: browsers/CollectionTreeView.cpp:272 browsers/filebrowser/FileView.cpp:127
 msgid "Move to Collection"
 msgstr "Przeniesë do kòlekcëji"
 
-#: browsers/CollectionTreeView.cpp:285
+#: browsers/CollectionTreeView.cpp:286
 #, fuzzy
 #| msgid "My Loved Tracks"
 msgid "Move Tracks to Trash"
 msgstr "Mòje lubòtné sztëcczi"
 
-#: browsers/CollectionTreeView.cpp:296
+#: browsers/CollectionTreeView.cpp:297
 #, fuzzy
 #| msgid "&Delete Tracks"
 msgid "Delete Tracks"
 msgstr "&Rëmôj sztëcczi"
 
-#: browsers/CollectionTreeView.cpp:573 services/lastfm/LastFmTreeView.cpp:187
+#: browsers/CollectionTreeView.cpp:575 services/lastfm/LastFmTreeView.cpp:187
 msgid "More..."
 msgstr "Wicy..."
 
-#: browsers/CollectionTreeView.cpp:944 browsers/filebrowser/FileView.cpp:384
+#: browsers/CollectionTreeView.cpp:946 browsers/filebrowser/FileView.cpp:384
 #: browsers/playlistbrowser/PlaylistBrowserView.cpp:71
 #: context/applets/albums/AlbumsView.cpp:241
 #: services/lastfm/LastFmTreeView.cpp:97
@@ -1947,7 +1967,7 @@ msgstr "Wicy..."
 msgid "&Add to Playlist"
 msgstr "Dodôj do lëstë graniô"
 
-#: browsers/CollectionTreeView.cpp:955 browsers/filebrowser/FileView.cpp:395
+#: browsers/CollectionTreeView.cpp:957 browsers/filebrowser/FileView.cpp:395
 #: browsers/playlistbrowser/PlaylistBrowserView.cpp:76
 #: context/applets/albums/AlbumsView.cpp:242
 #: services/lastfm/LastFmTreeView.cpp:106
@@ -1955,12 +1975,12 @@ msgctxt "Replace the currently loaded tracks with these"
 msgid "&Replace Playlist"
 msgstr "&Pòdmieni lëstã graniô"
 
-#: browsers/CollectionTreeView.cpp:1004
+#: browsers/CollectionTreeView.cpp:1006
 msgctxt "Organize Files"
 msgid "Organize Files"
 msgstr "Òrganizëjë lopczi"
 
-#: browsers/CollectionTreeView.cpp:1037 browsers/filebrowser/FileView.cpp:428
+#: browsers/CollectionTreeView.cpp:1039 browsers/filebrowser/FileView.cpp:428
 msgid "&Edit Track Details"
 msgstr "&Editëjë detale sztëczka"
 
@@ -2669,6 +2689,7 @@ msgid "Configure Plugins"
 msgstr "Kònfigùracëjô kòlekcëji"
 
 #: configdialog/ConfigDialog.cpp:65
+#: scripting/scriptconsole/ScriptConsole.cpp:345
 #, fuzzy
 #| msgid "Search Scripts"
 msgid "Scripts"
@@ -3394,63 +3415,128 @@ msgstr "Ùsłëżnotë Jinterneta"
 msgid "Statistics importers"
 msgstr "Statisticzi"
 
-#: configdialog/dialogs/ScriptsConfig.cpp:50
+#: configdialog/dialogs/ScriptsConfig.cpp:126
+msgid "Manually installed scripts cannot be automatically updated, continue?"
+msgstr ""
+
+#: configdialog/dialogs/ScriptsConfig.cpp:132
+#, fuzzy
+#| msgid "Search Scripts"
+msgid "Select Archived Script"
+msgstr "Szëkôj w skriptach"
+
+#: configdialog/dialogs/ScriptsConfig.cpp:146
+#, fuzzy
+#| msgid "Invalid gift card code"
+msgid "Invalid Archive"
+msgstr "Zmiłkòwi kòd prezentowi kartë"
+
+#: configdialog/dialogs/ScriptsConfig.cpp:156
+#: configdialog/dialogs/ScriptsConfig.cpp:170
+#, fuzzy
+#| msgid "&Install Script"
+msgid "Invalid Script File"
+msgstr "&Jinstalëjë skript"
+
+#: configdialog/dialogs/ScriptsConfig.cpp:177
+#, kde-format
+msgid ""
+"Another script with the name %1 already exists\n"
+"Existing Script's Version: %1\n"
+"Selected Script's Version: %2"
+msgstr ""
+
+#: configdialog/dialogs/ScriptsConfig.cpp:188
+#, fuzzy, kde-format
+#| msgid "The iPod was successfully initialized."
+msgid "The script %1 was successfully installed"
+msgstr "iPod òstôł zajinicjalizowóny."
+
+#: configdialog/dialogs/ScriptsConfig.cpp:200
 #, fuzzy
 #| msgid "General"
 msgid "Generic"
 msgstr "Òglowé"
 
-#: configdialog/dialogs/ScriptsConfig.cpp:54
+#: configdialog/dialogs/ScriptsConfig.cpp:204
 #: context/applets/lyrics/LyricsApplet.cpp:441
 #: context/applets/lyrics/LyricsApplet.cpp:567 dialogs/TagDialog.cpp:502
 msgid "Lyrics"
 msgstr "Tekstë"
 
-#: configdialog/dialogs/ScriptsConfig.cpp:58
+#: configdialog/dialogs/ScriptsConfig.cpp:208
 #, fuzzy
 #| msgid "Simple Search"
 msgid "Scriptable Service"
 msgstr "Prostô szëkba"
 
-#: configdialog/dialogs/ScriptsConfig.cpp:76
+#: configdialog/dialogs/ScriptsConfig.cpp:242
 msgid ""
-"<p>Script successfully installed.</p><p>Please restart Amarok to start the "
-"script.</p>"
+"You are advised to only uninstall manually installed scripts using this "
+"button."
 msgstr ""
 
-#: configdialog/dialogs/ScriptsConfig.cpp:79
-msgid ""
-"<p>Script successfully uninstalled.</p><p>Please restart Amarok to totally "
-"remove the script.</p>"
-msgstr ""
+#. i18n: ectx: property (text), widget (KPushButton, uninstallButton)
+#: configdialog/dialogs/ScriptsConfig.ui:36
+msgid "Uninstall Script"
+msgstr "Òdjinstalëjë skript"
+
+#. i18n: ectx: property (text), widget (KPushButton, installButton)
+#: configdialog/dialogs/ScriptsConfig.ui:43
+#, fuzzy
+#| msgid "&Install Script"
+msgid "Install Local Script"
+msgstr "&Jinstalëjë skript"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoUpdateScripts)
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoUpdateScripts)
-#: configdialog/dialogs/ScriptsConfig.ui:36
-#: configdialog/dialogs/ScriptsConfig.ui:39
+#: configdialog/dialogs/ScriptsConfig.ui:54
+#: configdialog/dialogs/ScriptsConfig.ui:57
 msgid ""
 "Automatically download and install updates for the built-in scripts from the "
 "Amarok website if available"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoUpdateScripts)
-#: configdialog/dialogs/ScriptsConfig.ui:42
+#: configdialog/dialogs/ScriptsConfig.ui:60
 msgid "Automatically update built-in scripts"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, manageButton)
-#: configdialog/dialogs/ScriptsConfig.ui:62
+#: configdialog/dialogs/ScriptsConfig.ui:80
 msgid "Browse, install, and uninstall scripts"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, manageButton)
-#: configdialog/dialogs/ScriptsConfig.ui:65
+#: configdialog/dialogs/ScriptsConfig.ui:83
 #, fuzzy
 #| msgid "Main Script File"
 msgid "Manage Scripts"
 msgstr "Przédny lopk skriptów"
 
-#: configdialog/dialogs/ScriptSelector.cpp:30
+#. i18n: ectx: property (title), widget (QGroupBox, m_scriptConsoleGroup)
+#: configdialog/dialogs/ScriptsConfig.ui:107
+#: scripting/scriptconsole/ScriptConsole.cpp:73
+#, fuzzy
+#| msgid "Search Scripts"
+msgid "Script Console"
+msgstr "Szëkôj w skriptach"
+
+#. i18n: ectx: property (statusTip), widget (QCheckBox, kcfg_EnableScriptConsole)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_EnableScriptConsole)
+#: configdialog/dialogs/ScriptsConfig.ui:116
+#: configdialog/dialogs/ScriptsConfig.ui:119
+msgid "Enable the script console."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableScriptConsole)
+#: configdialog/dialogs/ScriptsConfig.ui:122
+#, fuzzy
+#| msgid "Executable Scripts"
+msgid "Enable Script Console"
+msgstr "Rëszëniowé skriptë"
+
+#: configdialog/dialogs/ScriptSelector.cpp:36
 msgid "Search Scripts"
 msgstr "Szëkôj w skriptach"
 
@@ -5381,7 +5467,7 @@ msgstr "Kòlekcëjô"
 
 #: core-impl/collections/ipodcollection/IpodMeta.cpp:183
 #: core-impl/collections/mediadevicecollection/MediaDeviceMeta.cpp:93
-#: EngineController.cpp:1430
+#: EngineController.cpp:1305
 msgid "Unknown track"
 msgstr "Nieznóny sztëczk"
 
@@ -8735,7 +8821,7 @@ msgstr "Wëczëszczë filter"
 msgid "Configure Equalizer"
 msgstr "Kònfigùrëjë ùsłëżnotë"
 
-#: dialogs/EqualizerDialog.cpp:92
+#: dialogs/EqualizerDialog.cpp:93
 #, fuzzy
 #| msgid "0 dB"
 msgid ""
@@ -10080,47 +10166,47 @@ msgctxt "Inverted condition in tag match bias"
 msgid "Not %1"
 msgstr "Ò %1"
 
-#: dynamic/BiasFactory.cpp:50
+#: dynamic/BiasFactory.cpp:51
 #, fuzzy
 #| msgid "Random"
 msgctxt "Name of the random bias"
 msgid "Random"
 msgstr "Kawlowò"
 
-#: dynamic/BiasFactory.cpp:57
+#: dynamic/BiasFactory.cpp:58
 msgctxt "Description of the random bias"
 msgid ""
 "The random bias adds random tracks from the\n"
 "whole collection without any bias."
 msgstr ""
 
-#: dynamic/BiasFactory.cpp:68
+#: dynamic/BiasFactory.cpp:69
 #, fuzzy
 #| msgid "and"
 msgctxt "Name of the \"And\" bias"
 msgid "And"
 msgstr "ë"
 
-#: dynamic/BiasFactory.cpp:75
+#: dynamic/BiasFactory.cpp:76
 msgctxt "Description of the \"And\" bias"
 msgid ""
 "The \"And\" bias adds tracks that match all\n"
 "of the sub biases."
 msgstr ""
 
-#: dynamic/BiasFactory.cpp:86
+#: dynamic/BiasFactory.cpp:87
 msgctxt "Name of the \"Or\" bias"
 msgid "Or"
 msgstr ""
 
-#: dynamic/BiasFactory.cpp:93
+#: dynamic/BiasFactory.cpp:94
 msgctxt "Description of the \"Or\" bias"
 msgid ""
 "The \"Or\" bias adds tracks that match at\n"
 "least one of the sub biases."
 msgstr ""
 
-#: dynamic/BiasFactory.cpp:182 dynamic/BiasFactory.cpp:188
+#: dynamic/BiasFactory.cpp:183 dynamic/BiasFactory.cpp:189
 #, fuzzy, kde-format
 #| msgid "Photos Settings"
 msgid "Replacement for bias %1"
@@ -10137,13 +10223,13 @@ msgstr "Nowi wëzdrzatk lëstë graniô"
 msgid "Rock and Pop"
 msgstr ""
 
-#: dynamic/DynamicModel.cpp:920 equalizer/EqualizerPresets.cpp:98
+#: dynamic/DynamicModel.cpp:920 equalizer/EqualizerPresets.cpp:93
 #, fuzzy
 #| msgid "ok"
 msgid "Rock"
 msgstr "ok"
 
-#: dynamic/DynamicModel.cpp:924 equalizer/EqualizerPresets.cpp:96
+#: dynamic/DynamicModel.cpp:924 equalizer/EqualizerPresets.cpp:91
 msgid "Pop"
 msgstr ""
 
@@ -10160,127 +10246,115 @@ msgctxt "Name of a dynamic playlist"
 msgid "Rating"
 msgstr "Notowania"
 
-#: EngineController.cpp:856
-msgid ""
-"%0\n"
-"Hz"
-msgstr ""
-
-#: EngineController.cpp:858
-msgid ""
-"%0\n"
-"kHz"
-msgstr ""
-
-#: EngineController.cpp:1219
+#: EngineController.cpp:1094
 msgid "Too many errors encountered in playlist. Playback stopped."
 msgstr ""
 
-#: EngineController.cpp:1420
+#: EngineController.cpp:1295
 #, kde-format
 msgctxt "track by artist on album"
 msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgstr "<b>%1</b> wëkònywóné przez <b>%2</b> z albùmù <b>%3</b>"
 
-#: EngineController.cpp:1422
+#: EngineController.cpp:1297
 #, kde-format
 msgctxt "track by artist"
 msgid "<b>%1</b> by <b>%2</b>"
 msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
 
-#: EngineController.cpp:1425
+#: EngineController.cpp:1300
 #, kde-format
 msgctxt "track on album"
 msgid "<b>%1</b> on <b>%2</b>"
 msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
 
-#: EngineController.cpp:1437
+#: EngineController.cpp:1312
 #, fuzzy, kde-format
 #| msgid " on <b>%1</b>"
 msgctxt "track from source"
 msgid "from <b>%1</b>"
 msgstr " przez <b>%1</b>"
 
-#: equalizer/EqualizerPresets.cpp:85
+#: equalizer/EqualizerPresets.cpp:80
 msgid "Manual"
 msgstr ""
 
-#: equalizer/EqualizerPresets.cpp:86
+#: equalizer/EqualizerPresets.cpp:81
 msgid "Classical"
 msgstr ""
 
-#: equalizer/EqualizerPresets.cpp:87
+#: equalizer/EqualizerPresets.cpp:82
 msgid "Club"
 msgstr ""
 
-#: equalizer/EqualizerPresets.cpp:88
+#: equalizer/EqualizerPresets.cpp:83
 #, fuzzy
 #| msgid "France"
 msgid "Dance"
 msgstr "Francëjô"
 
-#: equalizer/EqualizerPresets.cpp:89
+#: equalizer/EqualizerPresets.cpp:84
 #, fuzzy
 #| msgid "and"
 msgid "Full Bass"
 msgstr "ë"
 
-#: equalizer/EqualizerPresets.cpp:90
+#: equalizer/EqualizerPresets.cpp:85
 msgid "Full Treble"
 msgstr ""
 
-#: equalizer/EqualizerPresets.cpp:91
+#: equalizer/EqualizerPresets.cpp:86
 #, fuzzy
 #| msgid "and"
 msgid "Full Bass + Treble"
 msgstr "ë"
 
-#: equalizer/EqualizerPresets.cpp:92
+#: equalizer/EqualizerPresets.cpp:87
 msgid "Laptop/Headphones"
 msgstr ""
 
-#: equalizer/EqualizerPresets.cpp:93
+#: equalizer/EqualizerPresets.cpp:88
 #, fuzzy
 #| msgid "Larger Than"
 msgid "Large Hall"
 msgstr "Wikszi jak"
 
-#: equalizer/EqualizerPresets.cpp:94
+#: equalizer/EqualizerPresets.cpp:89
 #, fuzzy
 #| msgid "Love"
 msgid "Live"
 msgstr "Lubiã"
 
-#: equalizer/EqualizerPresets.cpp:95
+#: equalizer/EqualizerPresets.cpp:90
 #, fuzzy
 #| msgctxt "state, as in playing"
 #| msgid "Play"
 msgid "Party"
 msgstr "Grónié"
 
-#: equalizer/EqualizerPresets.cpp:97
+#: equalizer/EqualizerPresets.cpp:92
 #, fuzzy
 #| msgid "Replace"
 msgid "Reggae"
 msgstr "Zamieni"
 
-#: equalizer/EqualizerPresets.cpp:99
+#: equalizer/EqualizerPresets.cpp:94
 msgid "Soft"
 msgstr ""
 
-#: equalizer/EqualizerPresets.cpp:100
+#: equalizer/EqualizerPresets.cpp:95
 msgid "Ska"
 msgstr ""
 
-#: equalizer/EqualizerPresets.cpp:101
+#: equalizer/EqualizerPresets.cpp:96
 msgid "Soft Rock"
 msgstr ""
 
-#: equalizer/EqualizerPresets.cpp:102
+#: equalizer/EqualizerPresets.cpp:97
 msgid "Techno"
 msgstr ""
 
-#: equalizer/EqualizerPresets.cpp:103
+#: equalizer/EqualizerPresets.cpp:98
 #, fuzzy
 #| msgid "Zero"
 msgid "Zero"
@@ -11672,6 +11746,18 @@ msgstr "Głosnosc"
 #: OpmlParser.cpp:107
 #, kde-format
 msgid "Reading OPML podcast from %1 failed with error:\n"
+msgstr ""
+
+#: playback/EqualizerController.cpp:133
+msgid ""
+"%0\n"
+"Hz"
+msgstr ""
+
+#: playback/EqualizerController.cpp:135
+msgid ""
+"%0\n"
+"kHz"
 msgstr ""
 
 #: playback/PowerManager.cpp:79
@@ -13740,22 +13826,159 @@ msgstr ""
 "<p>Żôl, le skanowanié kòlekcëji mùszi bëc òprzestóné.</p><p>Za wiele felów "
 "òbczas skanownaiô.</p>"
 
-#: scriptengine/AmarokNetworkScript.cpp:64
+#: scripting/scriptconsole/ScriptConsole.cpp:63
+msgid ""
+"A KDE text-editor component could not be found.\n"
+"Please check your KDE installation.  Exiting the console!"
+msgstr ""
+
+#: scripting/scriptconsole/ScriptConsole.cpp:79
+msgid "Console"
+msgstr ""
+
+#: scripting/scriptconsole/ScriptConsole.cpp:80
+msgid "Error"
+msgstr ""
+
+#: scripting/scriptconsole/ScriptConsole.cpp:81
+msgid "Debug Output"
+msgstr ""
+
+#: scripting/scriptconsole/ScriptConsole.cpp:82
+#, fuzzy
+#| msgid "Main Script File"
+msgid "Loaded Scripts"
+msgstr "Przédny lopk skriptów"
+
+#: scripting/scriptconsole/ScriptConsole.cpp:83
+msgid "Breakpoints"
+msgstr ""
+
+#: scripting/scriptconsole/ScriptConsole.cpp:84
+msgid "Stack"
+msgstr ""
+
+#: scripting/scriptconsole/ScriptConsole.cpp:85
+#, fuzzy
+#| msgid "Local Podcasts"
+msgid "Locals"
+msgstr "Môlowé podcastë"
+
+#: scripting/scriptconsole/ScriptConsole.cpp:104
+#, fuzzy
+#| msgid "Executable Scripts"
+msgid "Execute Script"
+msgstr "Rëszëniowé skriptë"
+
+#: scripting/scriptconsole/ScriptConsole.cpp:108
+#, fuzzy
+#| msgid "Search Scripts"
+msgid "&New Script"
+msgstr "Szëkôj w skriptach"
+
+#: scripting/scriptconsole/ScriptConsole.cpp:112
+#, fuzzy
+#| msgid "&Delete group"
+msgid "&Delete Script"
+msgstr "&Rëmôj grëpã"
+
+#: scripting/scriptconsole/ScriptConsole.cpp:115
+#, fuzzy
+#| msgid "Search Scripts"
+msgid "&Clear All Scripts"
+msgstr "Szëkôj w skriptach"
+
+#: scripting/scriptconsole/ScriptConsole.cpp:118
+#, fuzzy
+#| msgid "Previous Group"
+msgid "Previous Script"
+msgstr "Pòprzédnô grëpa"
+
+#: scripting/scriptconsole/ScriptConsole.cpp:122
+#, fuzzy
+#| msgid "Search Scripts"
+msgid "Next Script"
+msgstr "Szëkôj w skriptach"
+
+#: scripting/scriptconsole/ScriptConsole.cpp:130
+#, fuzzy
+#| msgctxt "@title buttontext for popup-menu"
+#| msgid "View"
+msgid "&View"
+msgstr "Òbezdrzë"
+
+#: scripting/scriptconsole/ScriptConsole.cpp:185
+#, kde-format
+msgid ""
+"Syntax error at line %1, continue anyway?\n"
+"Error: %2"
+msgstr ""
+
+#: scripting/scriptconsole/ScriptConsole.cpp:187
+#, fuzzy
+#| msgid "Database:"
+msgid "Syntax Error"
+msgstr "Baza pòdôwków:"
+
+#: scripting/scriptconsole/ScriptConsole.cpp:213
+msgid "This will stop this script! Continue?"
+msgstr ""
+
+#: scripting/scriptconsole/ScriptConsole.cpp:225
+msgid "Choose where to save your scripts"
+msgstr ""
+
+#: scripting/scriptconsole/ScriptConsole.cpp:370
+#, fuzzy
+#| msgid "&Remove Subscription"
+msgid "Remove script file from disk?"
+msgstr "&Rëmôj subskripcëjã"
+
+#: scripting/scriptconsole/ScriptConsole.cpp:370
+#, fuzzy
+#| msgid "&Remove Subscription"
+msgid "Remove Script"
+msgstr "&Rëmôj subskripcëjã"
+
+#: scripting/scriptconsole/ScriptConsole.cpp:400
+msgid "Are you absolutely certain?"
+msgstr ""
+
+#: scripting/scriptengine/AmarokNetworkScript.cpp:57
 msgctxt "do not translate 'DataDownloader' or 'qt.core'"
 msgid "qt.core must be loaded to use DataDownloader"
 msgstr ""
 
-#: ScriptManager.cpp:82
+#: scripting/scriptmanager/ScriptItem.cpp:90
+msgid "Terminate"
+msgstr ""
+
+#: scripting/scriptmanager/ScriptItem.cpp:175
+#, kde-format
+msgid "Script %1 has been evaluating for over 5 seconds now, terminate?"
+msgstr ""
+
+#: scripting/scriptmanager/ScriptItem.cpp:317
+#, kde-format
+msgctxt ""
+"%1 is the name of the offending script, %2 the name of the script author, "
+"and %3 the author's email"
+msgid ""
+"The script %1 uses deprecated scripting API calls. Please contact the script "
+"author, %2 at %3, and ask him to upgrade it before the next Amarok release."
+msgstr ""
+
+#: scripting/scriptmanager/ScriptManager.cpp:62
 msgid ""
 "Scripts have been disabled since you are missing the QtScriptQtBindings "
 "package. Please install the package and restart Amarok for scripts to work."
 msgstr ""
 
-#: ScriptManager.cpp:84
+#: scripting/scriptmanager/ScriptManager.cpp:64
 msgid "Scripts Disabled!"
 msgstr ""
 
-#: ScriptManager.cpp:339
+#: scripting/scriptmanager/ScriptManager.cpp:277
 #, kde-format
 msgid ""
 "Script error reported by: %1\n"
@@ -17173,11 +17396,6 @@ msgstr "Głosnosc: %1% %2"
 #~ msgstr "print() mô miec dwa argùmentë"
 
 #, fuzzy
-#~| msgid "Invalid gift card code"
-#~ msgid "Invalid encoder"
-#~ msgstr "Zmiłkòwi kòd prezentowi kartë"
-
-#, fuzzy
 #~| msgctxt "monthname year"
 #~| msgid "%1 %2"
 #~ msgctxt "%1 example: 'MP3' %2 example: 'VBR 175kb/s'"
@@ -17701,9 +17919,6 @@ msgstr "Głosnosc: %1% %2"
 #~ msgid "iPod Models"
 #~ msgstr "Mòdele iPoda"
 
-#~ msgid "The iPod was successfully initialized."
-#~ msgstr "iPod òstôł zajinicjalizowóny."
-
 #~ msgid "iPod Initialized"
 #~ msgstr "iPod zajinicjalizowóny"
 
@@ -17980,9 +18195,6 @@ msgstr "Głosnosc: %1% %2"
 #~ msgid "Are you sure you want to uninstall the script '%1'?"
 #~ msgstr "Czë na gwës chcesz òdjinstalowac skript '%1'?"
 
-#~ msgid "Uninstall Script"
-#~ msgstr "Òdjinstalëjë skript"
-
 #~ msgid "Uninstall"
 #~ msgstr "Òdjinstalëjë"
 
@@ -17993,9 +18205,6 @@ msgstr "Głosnosc: %1% %2"
 
 #~ msgid "Installed Amarok Scripts:"
 #~ msgstr "Zajinstalowóné skriptë Amaroka:"
-
-#~ msgid "&Install Script"
-#~ msgstr "&Jinstalëjë skript"
 
 #~ msgid "&Uninstall"
 #~ msgstr "Ò&djinstalëjë"
@@ -18166,9 +18375,6 @@ msgstr "Głosnosc: %1% %2"
 
 #~ msgid "Next Group"
 #~ msgstr "Pòstãpnô grëpa"
-
-#~ msgid "Previous Group"
-#~ msgstr "Pòprzédnô grëpa"
 
 #, fuzzy
 #~| msgid "Video Clip Settings"
@@ -19059,9 +19265,6 @@ msgstr "Głosnosc: %1% %2"
 #~ msgid "Amazon Locale"
 #~ msgstr "Regionalné ùstawë Amazona"
 
-#~ msgid "&Delete group"
-#~ msgstr "&Rëmôj grëpã"
-
 #~ msgid "Add Stream Location"
 #~ msgstr "Dodôj môl strëdżi"
 
@@ -19444,9 +19647,6 @@ msgstr "Głosnosc: %1% %2"
 
 #~ msgid "Images"
 #~ msgstr "Òbrôzczi"
-
-#~ msgid "Executable Scripts"
-#~ msgstr "Rëszëniowé skriptë"
 
 #~ msgid "Main Config UI File"
 #~ msgstr "Przédny lopk kònfigùracëji jinterfejsu brëkòwnika"
