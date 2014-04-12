@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdesu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 04:51+0200\n"
+"POT-Creation-Date: 2014-04-11 02:17+0000\n"
 "PO-Revision-Date: 2009-05-13 19:55+0200\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -27,88 +27,88 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
 
-#: kdesu.cpp:85
+#: kdesu.cpp:84
 msgid "KDE su"
 msgstr "KDE su"
 
-#: kdesu.cpp:86
+#: kdesu.cpp:85
 msgid "Runs a program with elevated privileges."
 msgstr "Zrëszô programã z wëższim pioritetã."
 
-#: kdesu.cpp:88
+#: kdesu.cpp:87
 msgid "Copyright (c) 1998-2000 Geert Jansen, Pietro Iglio"
 msgstr "Copyright (c) 1998-2000 Geert Jansen, Pietro Iglio"
 
-#: kdesu.cpp:89
+#: kdesu.cpp:88
 msgid "Geert Jansen"
 msgstr "Geert Jansen"
 
-#: kdesu.cpp:89
+#: kdesu.cpp:88
 msgid "Maintainer"
 msgstr "Òpiekùn"
 
-#: kdesu.cpp:91
+#: kdesu.cpp:90
 msgid "Pietro Iglio"
 msgstr "Pietro Iglio"
 
-#: kdesu.cpp:91
+#: kdesu.cpp:90
 msgid "Original author"
 msgstr "Ùsôdzca pierszi wersëji"
 
-#: kdesu.cpp:100
+#: kdesu.cpp:99
 #, fuzzy
 #| msgid "Specifies the command to run"
 msgid "Specifies the command to run as separate arguments"
 msgstr "Pòlét do zrëszeniô"
 
-#: kdesu.cpp:101
+#: kdesu.cpp:100
 #, fuzzy
 #| msgid "Specifies the command to run"
 msgid "Specifies the command to run as one string"
 msgstr "Pòlét do zrëszeniô"
 
-#: kdesu.cpp:102
+#: kdesu.cpp:101
 msgid "Run command under target uid if <file> is not writable"
 msgstr ""
 "Zrëszë pòlét z pòdónym ID brëkòwnika, eżle <lopk> je do blós do czëtaniô"
 
-#: kdesu.cpp:103
+#: kdesu.cpp:102
 msgid "Specifies the target uid"
 msgstr "Òtaksowùjë docélowy uid"
 
-#: kdesu.cpp:104
+#: kdesu.cpp:103
 msgid "Do not keep password"
 msgstr "Nie trzëmôj parolë"
 
-#: kdesu.cpp:105
+#: kdesu.cpp:104
 msgid "Stop the daemon (forgets all passwords)"
 msgstr "Zatrzëmôj ùsłëżnotã (zabëjë wszëtczé parole)"
 
-#: kdesu.cpp:106
+#: kdesu.cpp:105
 msgid "Enable terminal output (no password keeping)"
 msgstr "Włączë wińdzenié na terminal (bez trzëmaniô paroli)"
 
-#: kdesu.cpp:107
+#: kdesu.cpp:106
 msgid "Set priority value: 0 <= prio <= 100, 0 is lowest"
 msgstr "Nastôwi pioritet midze 0 a 100 (0 - nômiészi)"
 
-#: kdesu.cpp:108
+#: kdesu.cpp:107
 msgid "Use realtime scheduling"
 msgstr "Brëkùjë régòwaniô w jawernym czasie"
 
-#: kdesu.cpp:109
+#: kdesu.cpp:108
 msgid "Do not display ignore button"
 msgstr "Nie wëskrzeniwôj knąpë Òprzestóń"
 
-#: kdesu.cpp:110
+#: kdesu.cpp:109
 msgid "Specify icon to use in the password dialog"
 msgstr "Ikòna do wëzwëskaniô w òknie paroli"
 
-#: kdesu.cpp:111
+#: kdesu.cpp:110
 msgid "Do not show the command to be run in the dialog"
 msgstr "Nie pòkazëjë pòlétu zrëszanegò w òknie"
 
-#: kdesu.cpp:115
+#: kdesu.cpp:114
 msgctxt ""
 "Transient means that the kdesu app will be attached to the app specified by "
 "the winid so that it is like a dialog box rather than some separate program"
@@ -117,17 +117,21 @@ msgstr ""
 "Robi nen dialog transparentnym na jaczis czas dlô òkna wskazónegò przez "
 "winid "
 
-#: kdesu.cpp:142
+#: kdesu.cpp:115
+msgid "Embed into a window"
+msgstr ""
+
+#: kdesu.cpp:143
 #, kde-format
 msgid "Cannot execute command '%1'."
 msgstr ""
 
-#: kdesu.cpp:224
+#: kdesu.cpp:223
 #, kde-format
 msgid "Illegal priority: %1"
 msgstr "Zmiłkòwi prioritet: %1"
 
-#: kdesu.cpp:249
+#: kdesu.cpp:248
 msgid "No command specified."
 msgstr "Felëje pòlétu."
 
@@ -146,10 +150,6 @@ msgstr "jawerny czas: "
 #: kdesu.cpp:394
 msgid "Priority:"
 msgstr "Prioritet:"
-
-#: sudlg.cpp:23
-msgid "Ignore"
-msgstr "Òprzestóń"
 
 #: sudlg.cpp:30
 #, kde-format
@@ -197,10 +197,6 @@ msgstr ""
 "Pòlét, jaczégò chcesz brëkòwac, wëmògô dodôwnëch praw. Wpiszë niżi parolã "
 "brëkòwnika <b>%1</b>."
 
-#: sudlg.cpp:60
-msgid "&Ignore"
-msgstr "Ò&przestóń"
-
 #: sudlg.cpp:77
 msgid "Conversation with su failed."
 msgstr "Łączba z su zascygónô."
@@ -222,6 +218,12 @@ msgstr ""
 #: sudlg.cpp:101
 msgid "Internal error: illegal return from SuProcess::checkInstall()"
 msgstr "Bënowô fela: lëchi wińdzenié z SuProcess::checkInstall()"
+
+#~ msgid "Ignore"
+#~ msgstr "Òprzestóń"
+
+#~ msgid "&Ignore"
+#~ msgstr "Ò&przestóń"
 
 #~ msgid "Command '%1' not found."
 #~ msgstr "Pòlét '%1' nie òstôł nalazłi."
