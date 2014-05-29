@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: filetypes\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-27 20:55+0000\n"
+"POT-Creation-Date: 2014-05-29 07:46+0000\n"
 "PO-Revision-Date: 2009-12-09 22:55+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -20,15 +20,23 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2)\n"
 "n%100>=20) ? 1 : 2);\n"
 
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
+
 #: filegroupdetails.cpp:35
 msgid "Left Click Action (only for Konqueror file manager)"
 msgstr "Dzéjanié Lewé-klëkniãcé (blós dlô menadżera lopków Konqueror)"
 
-#: filegroupdetails.cpp:39 filetypedetails.cpp:155
+#: filegroupdetails.cpp:39 filetypedetails.cpp:146
 msgid "Show file in embedded viewer"
 msgstr "Wëskrzëni lopk we wbùdowónym przezérnikù"
 
-#: filegroupdetails.cpp:40 filetypedetails.cpp:156
+#: filegroupdetails.cpp:40 filetypedetails.cpp:147
 msgid "Show file in separate viewer"
 msgstr "Wëskrzëni lopk w apartnym òknie"
 
@@ -46,7 +54,7 @@ msgstr ""
 "Nen nastôw mòże zmienic dlô dónegò ôrtu lopków w załóżce 'Òbsadzanié' przë "
 "kònfigùracëji tegò lopka. Dolphin wëskrzëniô lopczi wiedno w aprtnym òknie."
 
-#: filetypedetails.cpp:73
+#: filetypedetails.cpp:72
 msgid ""
 "This button displays the icon associated with the selected file type. Click "
 "on it to choose a different icon."
@@ -54,19 +62,11 @@ msgstr ""
 "Na knąpa wëskrzeni ikònã sparłączoną z wëbrónym ôrtã lopka. Klëkni na niã bë "
 "wëbrac nową ikònã."
 
-#: filetypedetails.cpp:81
-msgid ""
-"This is the icon associated with the selected file type. Choosing a "
-"different icon requires shared-mime-info to be at least version 0.40."
-msgstr ""
-"Je to ikònã sparłãczonô z wëbrónym ôrtã lopka. Bë zmienic ikònã je nót "
-"paczétu \"shared-mime-info\" w wersëji 0.40 abò nowszi."
-
-#: filetypedetails.cpp:87
+#: filetypedetails.cpp:78
 msgid "Filename Patterns"
 msgstr "Mùstrë lopków"
 
-#: filetypedetails.cpp:99
+#: filetypedetails.cpp:90
 msgid ""
 "This box contains a list of patterns that can be used to identify files of "
 "the selected type. For example, the pattern *.txt is associated with the "
@@ -78,27 +78,27 @@ msgstr ""
 "\"text/plain\", wszëtczé lopczi kùńczącé sã na \".txt\" òstóną rozpòznóné "
 "jakno tekstowé lopczi."
 
-#: filetypedetails.cpp:107 filetypesview.cpp:121 kservicelistwidget.cpp:129
+#: filetypedetails.cpp:98 filetypesview.cpp:120 kservicelistwidget.cpp:121
 msgid "Add..."
 msgstr "Dodôj..."
 
-#: filetypedetails.cpp:113
+#: filetypedetails.cpp:104
 msgid "Add a new pattern for the selected file type."
 msgstr "Dodôj nowi mùster dlô wëbrónëch ôrtów lopków."
 
-#: filetypedetails.cpp:115 kservicelistwidget.cpp:145
+#: filetypedetails.cpp:106 kservicelistwidget.cpp:137
 msgid "Remove"
 msgstr "Rëmôj"
 
-#: filetypedetails.cpp:121
+#: filetypedetails.cpp:112
 msgid "Remove the selected filename pattern."
 msgstr "Rëmôj wëbróny mùster lopków."
 
-#: filetypedetails.cpp:133
+#: filetypedetails.cpp:124
 msgid "Description:"
 msgstr "Òpisënk:"
 
-#: filetypedetails.cpp:137
+#: filetypedetails.cpp:128
 msgid ""
 "You can enter a short description for files of the selected file type (e.g. "
 "'HTML Page'). This description will be used by applications like Konqueror "
@@ -108,17 +108,17 @@ msgstr ""
 "\"). Nen òpis bãdze brëkòwóny w progarmach taczich jakno Konqueror do "
 "wëskrzëniwaniô zamkłoscë katalogów."
 
-#: filetypedetails.cpp:150
+#: filetypedetails.cpp:141
 #, fuzzy
 #| msgid "Left Click Action"
 msgid "Left Click Action in Konqueror"
 msgstr "Pò klëkniãcym lewą knąpą"
 
-#: filetypedetails.cpp:159
+#: filetypedetails.cpp:150
 msgid "Ask whether to save to disk instead (only for Konqueror browser)"
 msgstr "Pëtôj, czë zapisac na disk (blós dlô Konquerora)"
 
-#: filetypedetails.cpp:174
+#: filetypedetails.cpp:165
 msgid ""
 "Here you can configure what the Konqueror file manager will do when you "
 "click on a file of this type. Konqueror can either display the file in an "
@@ -135,33 +135,33 @@ msgstr ""
 "do karna 'òbrôzk' dlô lopków ôrtu image/png). Dolphin wëskrzëniô lopczi "
 "wiedno w aprtnym òknie."
 
-#: filetypedetails.cpp:186
+#: filetypedetails.cpp:177
 msgid "&General"
 msgstr "Ò&glowé"
 
-#: filetypedetails.cpp:187
+#: filetypedetails.cpp:178
 msgid "&Embedding"
 msgstr "Ò&bsadzanié"
 
-#: filetypedetails.cpp:224
+#: filetypedetails.cpp:216
 msgid "Add New Extension"
 msgstr "Dodôj nowé rozszérzenié"
 
-#: filetypedetails.cpp:225
+#: filetypedetails.cpp:216
 msgid "Extension:"
 msgstr "Rozszérzenié:"
 
-#: filetypedetails.cpp:335
+#: filetypedetails.cpp:328
 #, kde-format
 msgid "File type %1"
 msgstr "Ôrt lopka %1"
 
-#: filetypedetails.cpp:341
+#: filetypedetails.cpp:334
 #, kde-format
 msgid "Use settings for '%1' group"
 msgstr "Brëkùjë nastôwów dlô karna '%1'"
 
-#: filetypesview.cpp:61
+#: filetypesview.cpp:60
 msgid ""
 "<p><h1>File Associations</h1> This module allows you to choose which "
 "applications are associated with a given type of file. File types are also "
@@ -197,11 +197,11 @@ msgstr ""
 "sparłączonëch mùstrów mionów. W taczich przëtrôfkach KDE je w sztãdze "
 "rozpòznac ôrt lopka, badérejąc jegò zamkłosc.</p>"
 
-#: filetypesview.cpp:91
+#: filetypesview.cpp:90
 msgid "Find file type or filename pattern"
 msgstr "Nalé&zë mùstrë mionów abò ôrtów lopków"
 
-#: filetypesview.cpp:97
+#: filetypesview.cpp:96
 msgid ""
 "Enter a part of a filename pattern, and only file types with a matching file "
 "pattern will appear in the list. Alternatively, enter a part of a file type "
@@ -211,11 +211,11 @@ msgstr ""
 "do niegò pasëją. Abò wpiszë le dzélk miona ôrtu lopka w miarã jak pòkazëjë "
 "sã na lëscë."
 
-#: filetypesview.cpp:105
+#: filetypesview.cpp:104
 msgid "Known Types"
 msgstr "Znóné ôrtë"
 
-#: filetypesview.cpp:112
+#: filetypesview.cpp:111
 msgid ""
 "Here you can see a hierarchical list of the file types which are known on "
 "your system. Click on the '+' sign to expand a category, or the '-' sign to "
@@ -227,15 +227,15 @@ msgstr ""
 "jã zamknąc. Zaznaczë ôrt lopka (np. text/html dlô lopków HTML) bë przezdrzec/"
 "zmienic wëdowiédzã ò nym ôrce lopka z pòmòcą kòntrolków z prawi starnë."
 
-#: filetypesview.cpp:126
+#: filetypesview.cpp:125
 msgid "Click here to add a new file type."
 msgstr "Klëkni tuwò, bë dodac nowi ôrt lopka."
 
-#: filetypesview.cpp:128 filetypesview.cpp:389
+#: filetypesview.cpp:127 filetypesview.cpp:389
 msgid "&Remove"
 msgstr "&Rëmôj"
 
-#: filetypesview.cpp:155
+#: filetypesview.cpp:154
 msgid "Select a file type by name or by extension"
 msgstr "Wëbierzë ôrt lopka wedle miona abò rozszérzenia"
 
@@ -281,68 +281,68 @@ msgstr ""
 "brëkòwóny. Nimò tegò mòże dońc do tegò, że przez zamkłosc lopka bãdze òn "
 "ùżëwóny."
 
-#: keditfiletype.cpp:122
+#: keditfiletype.cpp:133
 msgid "KEditFileType"
 msgstr "KEditFileType"
 
-#: keditfiletype.cpp:123
+#: keditfiletype.cpp:134
 msgid ""
 "KDE file type editor - simplified version for editing a single file type"
 msgstr ""
 "Editora ôrtów lopków KDE - wersëjô ùprosconô do edicëji ôrtu pòjedińczëch "
 "lopków"
 
-#: keditfiletype.cpp:125
+#: keditfiletype.cpp:136
 msgid "(c) 2000, KDE developers"
 msgstr "(c) 2000, ùsôdzcë KDE"
 
-#: keditfiletype.cpp:126
+#: keditfiletype.cpp:137
 msgid "Preston Brown"
 msgstr "Preston Brown"
 
-#: keditfiletype.cpp:127
+#: keditfiletype.cpp:138
 msgid "David Faure"
 msgstr "David Faure"
 
-#: keditfiletype.cpp:133
+#: keditfiletype.cpp:146
 msgid "Makes the dialog transient for the window specified by winid"
 msgstr ""
 "Sprôwiô, że dialogòwé òczénkò je terôczasnym dlô òknów ò gwësnym "
 "identifikatorze"
 
-#: keditfiletype.cpp:134
+#: keditfiletype.cpp:147
 msgid "File type to edit (e.g. text/html)"
 msgstr "Ôrt lopka do edicëji (np. text/html)"
 
-#: keditfiletype.cpp:162
+#: keditfiletype.cpp:176
 #, kde-format
 msgid "%1 File"
 msgstr "Lopk %1"
 
-#: keditfiletype.cpp:189
+#: keditfiletype.cpp:202
 #, kde-format
 msgid "Edit File Type %1"
 msgstr "Editëjë ôrt lopka %1"
 
-#: keditfiletype.cpp:191
+#: keditfiletype.cpp:204
 #, kde-format
 msgid "Create New File Type %1"
 msgstr "Ùsôdzë nowi ôrt lopka %1"
 
-#: kservicelistwidget.cpp:54
+#: kservicelistwidget.cpp:50
 #, kde-format
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: kservicelistwidget.cpp:72
+#: kservicelistwidget.cpp:64
 msgid "Application Preference Order"
 msgstr "Hierarchijô programów"
 
-#: kservicelistwidget.cpp:73
+#: kservicelistwidget.cpp:65
 msgid "Services Preference Order"
 msgstr "Hierarchijô ùsłëżnotów"
 
-#: kservicelistwidget.cpp:85
+#: kservicelistwidget.cpp:77
 msgid ""
 "This is a list of applications associated with files of the selected file "
 "type. This list is shown in Konqueror's context menus when you select \"Open "
@@ -356,7 +356,7 @@ msgstr ""
 "zortowónô wedle prioritetów, nôwëżi nachôdô sã programa o nôwikszëm "
 "prioritece."
 
-#: kservicelistwidget.cpp:90
+#: kservicelistwidget.cpp:82
 msgid ""
 "This is a list of services associated with files of the selected file type. "
 "This list is shown in Konqueror's context menus when you select a \"Preview "
@@ -370,11 +370,11 @@ msgstr ""
 "lësta je zortowónô wedle prioritetów, nôwëżi nachôdô sã element ò nôwikszëm "
 "prioritece."
 
-#: kservicelistwidget.cpp:102
+#: kservicelistwidget.cpp:94
 msgid "Move &Up"
 msgstr "Przeniesë w &górã"
 
-#: kservicelistwidget.cpp:109
+#: kservicelistwidget.cpp:101
 msgid ""
 "Assigns a higher priority to the selected\n"
 "application, moving it up in the list. Note:  This\n"
@@ -385,18 +385,18 @@ msgstr ""
 "lëstë. Bôczë, że tikô sã to blós zaznaczonegò ôrtu lopków, nawetka eżlë na "
 "samô programa je sparłączonô téż z jinszëma ôrtama lopków."
 
-#: kservicelistwidget.cpp:113
+#: kservicelistwidget.cpp:105
 msgid ""
 "Assigns a higher priority to the selected\n"
 "service, moving it up in the list."
 msgstr ""
 "Przëpisëje wikszi prioritet zaznaczony ùsłëżnoce, przenosząc jã w górã lëstë."
 
-#: kservicelistwidget.cpp:116
+#: kservicelistwidget.cpp:108
 msgid "Move &Down"
 msgstr "Przeniesë w &dół"
 
-#: kservicelistwidget.cpp:122
+#: kservicelistwidget.cpp:114
 msgid ""
 "Assigns a lower priority to the selected\n"
 "application, moving it down in the list. Note: This \n"
@@ -407,44 +407,40 @@ msgstr ""
 "Bôczë, że tikô sã to blós zaznaczonrgò ôrtu lopków, nawetka eżlë na samô "
 "programa je sparłączonô téż z jinszëma ôrtama lopków."
 
-#: kservicelistwidget.cpp:126
+#: kservicelistwidget.cpp:118
 msgid ""
 "Assigns a lower priority to the selected\n"
 "service, moving it down in the list."
 msgstr ""
 "Przëpisëje niższi prioritet zaznaczony ùsłëżnoce, przenosząc jã w górã lëstë."
 
-#: kservicelistwidget.cpp:134
+#: kservicelistwidget.cpp:126
 msgid "Add a new application for this file type."
 msgstr "Sparłączë nową programã z nym ôrtã lopków."
 
-#: kservicelistwidget.cpp:137
+#: kservicelistwidget.cpp:129
 msgid "Edit..."
 msgstr "Editëjë..."
 
-#: kservicelistwidget.cpp:142
+#: kservicelistwidget.cpp:134
 msgid "Edit command line of the selected application."
 msgstr "Editëjë pòlét zrëszający wëbróną programã."
 
-#: kservicelistwidget.cpp:150
+#: kservicelistwidget.cpp:142
 msgid "Remove the selected application from the list."
 msgstr "Rëmôj zaznaczoną programã z lëstë."
 
-#: kservicelistwidget.cpp:174
+#: kservicelistwidget.cpp:166
 msgctxt "No applications associated with this file type"
 msgid "None"
 msgstr "Felënk"
 
-#: kservicelistwidget.cpp:176
+#: kservicelistwidget.cpp:168
 msgctxt "No components associated with this file type"
 msgid "None"
 msgstr "Felënk"
 
-#: kservicelistwidget.cpp:372
-msgid "You are not authorized to remove this service."
-msgstr "Nié môsz dosc praw do rëmaniô ti ùsłëżnotë."
-
-#: kserviceselectdlg.cpp:31
+#: kserviceselectdlg.cpp:33
 msgid "Add Service"
 msgstr "Dodôj ùsłëżnotã"
 
@@ -452,23 +448,23 @@ msgstr "Dodôj ùsłëżnotã"
 msgid "Select service:"
 msgstr "Wëbierzë ùsłëżnotã:"
 
-#: newtypedlg.cpp:41
+#: newtypedlg.cpp:42
 msgid "Create New File Type"
 msgstr "Ùsôdzë nowi ôrt lopka"
 
-#: newtypedlg.cpp:48
+#: newtypedlg.cpp:47
 msgid "Group:"
 msgstr "Karno:"
 
-#: newtypedlg.cpp:56
+#: newtypedlg.cpp:55
 msgid "Select the category under which the new file type should be added."
 msgstr "Wëbierzë kategòrëjã, do jaczi nowi ôrt lopka mô òstac dodóny."
 
-#: newtypedlg.cpp:61
+#: newtypedlg.cpp:60
 msgid "Type name:"
 msgstr "Miono ôrtu:"
 
-#: newtypedlg.cpp:66
+#: newtypedlg.cpp:65
 msgid ""
 "Type the name of the file type. For instance, if you selected 'image' as "
 "category and you type 'custom' here, the file type 'image/custom' will be "
@@ -478,13 +474,15 @@ msgstr ""
 "kategòrëjã a wpiszësz 'custom' tuwò, ôrt lopkù 'image/custom' òstanie "
 "ùsôdzony."
 
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
+#~ msgid ""
+#~ "This is the icon associated with the selected file type. Choosing a "
+#~ "different icon requires shared-mime-info to be at least version 0.40."
+#~ msgstr ""
+#~ "Je to ikònã sparłãczonô z wëbrónym ôrtã lopka. Bë zmienic ikònã je nót "
+#~ "paczétu \"shared-mime-info\" w wersëji 0.40 abò nowszi."
 
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
+#~ msgid "You are not authorized to remove this service."
+#~ msgstr "Nié môsz dosc praw do rëmaniô ti ùsłëżnotë."
 
 #~ msgid "Click here to remove the selected file type."
 #~ msgstr "Klëkni tuwò, bë rëmnąc wëbróny ôrt lopka."
