@@ -1,0 +1,2578 @@
+# translation of kate.po to Kashubian
+#
+# Mark Kwidzińsczi <mark@linuxcsb.org>, 2006, 2007.
+# Michôł Òstrowsczi <michol@linuxcsb.org>, 2007.
+# Mark Kwidzińśczi <mark@linuxcsb.org>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kate\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-07-26 08:27+0000\n"
+"PO-Revision-Date: 2009-12-19 02:07+0100\n"
+"Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
+"Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2)\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mark Kwidzińsczi"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mark@linuxcsb.org"
+
+#. i18n: ectx: Menu (file)
+#: data/kateui.rc:6
+msgid "&File"
+msgstr "&Lopk"
+
+#. i18n: ectx: Menu (edit)
+#: data/kateui.rc:32
+msgid "&Edit"
+msgstr "&Editëjô"
+
+#. i18n: ectx: Menu (view)
+#: data/kateui.rc:43
+msgid "&View"
+msgstr "&Wëzdrzatczi"
+
+#. i18n: ectx: Menu (view-split)
+#: data/kateui.rc:51
+msgid "Split View"
+msgstr "Rozdzëlë wëzdrzatczi"
+
+#. i18n: ectx: Menu (tools)
+#: data/kateui.rc:77
+msgid "&Tools"
+msgstr "&Nôrzãdza"
+
+#. i18n: ectx: Menu (sessions)
+#: data/kateui.rc:85
+msgid "Sess&ions"
+msgstr "Sesë&je"
+
+#. i18n: ectx: Menu (settings)
+#: data/kateui.rc:96
+msgid "&Settings"
+msgstr "&Nastôwë"
+
+#. i18n: ectx: Menu (help)
+#: data/kateui.rc:101
+msgid "&Help"
+msgstr "&Pòmòc"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: data/kateui.rc:106
+msgid "Main Toolbar"
+msgstr "Przédnô listew"
+
+#. i18n: ectx: Menu (viewspace_popup_statusbar)
+#: data/kateui.rc:139
+msgid "&Status Bar Items"
+msgstr ""
+
+#: src/kateapp.cpp:203 src/kateapp.cpp:316
+#, kde-format
+msgid ""
+"The file '%1' could not be opened: it is not a normal file, it is a folder."
+msgstr ""
+"Plik '%1' nie mógł òstac òtemkłi, to nie je zwëczajny lopk, to katalog."
+
+#: src/kateconfigdialog.cpp:57
+msgid "Configure"
+msgstr "Kònfigùracëjô"
+
+#: src/kateconfigdialog.cpp:66
+msgid "Application"
+msgstr "Aplikacëjô"
+
+#: src/kateconfigdialog.cpp:68
+msgid "Application Options"
+msgstr "Òptacëjô aplikacëji"
+
+#: src/kateconfigdialog.cpp:73
+msgid "General"
+msgstr "Òglowé"
+
+#: src/kateconfigdialog.cpp:74
+msgid "General Options"
+msgstr "Òglowé òptacëje"
+
+#: src/kateconfigdialog.cpp:82
+msgid "&Behavior"
+msgstr "&Zachòwanié"
+
+#: src/kateconfigdialog.cpp:88
+msgid "Wa&rn about files modified by foreign processes"
+msgstr "Òst&rzégôj ò zmienionëch przez bùtnowé procesë lopkach."
+
+#: src/kateconfigdialog.cpp:91
+#, fuzzy
+#| msgid ""
+#| "If enabled, when Kate receives focus you will be asked what to do with "
+#| "files that have been modified on the hard disk. If not enabled, you will "
+#| "be asked what to do with a file that has been modified on the hard disk "
+#| "only when that file gains focus inside Kate."
+msgid ""
+"If enabled, when Kate receives focus you will be asked what to do with files "
+"that have been modified on the hard disk. If not enabled, you will be asked "
+"what to do with a file that has been modified on the hard disk only when "
+"that file is tried to be saved."
+msgstr ""
+"Jeżlë na òtacëjô je włączonô, bãdzesz pëtóny co zrobic ze zmienionëma na "
+"diskù lopkama, czéj programa Kate bãdze aktiwnô. Jeżlë bãdze na òptacëjô "
+"wëłączonô, òstóniesz pëtóny blós przë wëbraniém dokùmentu w Kate."
+
+#: src/kateconfigdialog.cpp:102
+msgid "Meta-Information"
+msgstr "Dodôwnô wëdowiédzô"
+
+#: src/kateconfigdialog.cpp:108
+msgid "Keep &meta-information past sessions"
+msgstr "Zatrzëmôj &dodôwną wëdowiédzã midzë sesëjama"
+
+#: src/kateconfigdialog.cpp:111
+msgid ""
+"Check this if you want document configuration like for example bookmarks to "
+"be saved past editor sessions. The configuration will be restored if the "
+"document has not changed when reopened."
+msgstr ""
+"Zaznaczë jeżlë chcesz ùtrzëmac kònfigùracëjã dokùmentu (na przëmiôr "
+"załóżczi) midzë sesëjama editorë. Kònfigùracëjô bãdze doprowadzonô nazôd "
+"przë òtemkniãcu eżlë dokùment w midzëczasu nie òstôł zmieniony."
+
+#: src/kateconfigdialog.cpp:123
+msgid "&Delete unused meta-information after:"
+msgstr "&Rëmôj nie ùżëwaną dodôwna wëdowiédzã pò:"
+
+#: src/kateconfigdialog.cpp:127
+msgid "(never)"
+msgstr "(nigdë)"
+
+#: src/kateconfigdialog.cpp:142
+msgid "Sessions"
+msgstr "Sesëje"
+
+#: src/kateconfigdialog.cpp:143
+msgid "Session Management"
+msgstr "Sprôwianié sesëjama"
+
+#: src/kateconfigdialog.cpp:179
+msgid "Plugins"
+msgstr "Wtëkôczë"
+
+#: src/kateconfigdialog.cpp:180
+msgid "Plugin Manager"
+msgstr "Menadżera wtëkôczów"
+
+#: src/kateconfigdialog.cpp:192
+msgid "Editor Component"
+msgstr "Editora kòmpònenta"
+
+#: src/kateconfigdialog.cpp:194
+msgid "Editor Component Options"
+msgstr "Òptacëje editora kòmpònentów"
+
+#: src/kateconfigdialog.cpp:359
+msgctxt "The suffix of 'Delete unused meta-information after'"
+msgid " day"
+msgid_plural " days"
+msgstr[0] " dzéń"
+msgstr[1] " dni"
+msgstr[2] " dniów"
+
+#: src/kateconfigplugindialogpage.cpp:78
+msgid "Name"
+msgstr "Miono"
+
+#: src/kateconfigplugindialogpage.cpp:78
+msgid "Comment"
+msgstr "Dopòwiesc"
+
+#: src/kateconfigplugindialogpage.cpp:80
+msgid ""
+"Here you can see all available Kate plugins. Those with a check mark are "
+"loaded, and will be loaded again the next time Kate is started."
+msgstr ""
+"Tuwò mòże òbôczëc wszëtczé pluginsë Kate. Zaznaczenié òznôczô, że są òne "
+"wladowóné ë òstaną téż wladowóné przë nôslédnym zrëszeniô Kate."
+
+#: src/katedocmanager.cpp:227
+#, kde-format
+msgid ""
+"The supposedly temporary file %1 has been modified. Do you want to delete it "
+"anyway?"
+msgstr ""
+
+#: src/katedocmanager.cpp:229
+msgid "Delete File?"
+msgstr "Rëmnąc lopk?"
+
+#: src/katedocmanager.cpp:336
+#, kde-format
+msgid ""
+"<p>The document '%1' has been modified, but not saved.</p><p>Do you want to "
+"save your changes or discard them?</p>"
+msgstr ""
+"<p>Dokùment '%1' òstôł zmieniony, równak nié zapisóny.</p><p>Chcesz zapisac "
+"zmianë, czë téż je pòcësnąc?</p>"
+
+#: src/katedocmanager.cpp:338 src/katetabbutton.cpp:44
+msgid "Close Document"
+msgstr "Zamkni dokùment"
+
+#: src/katedocmanager.cpp:345
+msgid "Save As"
+msgstr "Zapiszë jakno"
+
+#: src/katedocmanager.cpp:369 src/katemainwindow.cpp:475
+msgid "New file opened while trying to close Kate, closing aborted."
+msgstr ""
+"Nowi lopk òstôł òtemkłi przë zamëkanim Kate, zamëkanié òstało òprzestóné."
+
+#: src/katedocmanager.cpp:370 src/katemainwindow.cpp:476
+msgid "Closing Aborted"
+msgstr "Niechano zamëkanié"
+
+#: src/katedocmanager.cpp:445
+msgid "Starting Up"
+msgstr "Zrëszanié"
+
+#: src/katedocmanager.cpp:446
+msgid "Reopening files from the last session..."
+msgstr "Òtmëkanié lopków ze slédny sesëji..."
+
+#: src/katedocmanager.cpp:614
+msgid "Errors/Warnings while opening documents"
+msgstr ""
+
+#: src/katemainwindow.cpp:241
+msgid "Use this command to show or hide the view's statusbar"
+msgstr "Brëkùjë tegò pòletu do tacëniô lëstwë stónu wëzdrzatkù"
+
+#: src/katemainwindow.cpp:244
+#, fuzzy
+#| msgid "Show Side&bars"
+msgid "Show &Tabs"
+msgstr "&Pòkôżë bòczné lëstwë"
+
+#: src/katemainwindow.cpp:247
+#, fuzzy
+#| msgid "Use this command to show or hide the view's statusbar"
+msgid "Use this command to show or hide the tabs for the views"
+msgstr "Brëkùjë tegò pòletu do tacëniô lëstwë stónu wëzdrzatkù"
+
+#: src/katemainwindow.cpp:249
+#, fuzzy
+#| msgid "Sho&w Path"
+msgid "Sho&w Path in Titlebar"
+msgstr "Pòkôżë s&tegnã"
+
+#: src/katemainwindow.cpp:252
+msgid "Show the complete document path in the window caption"
+msgstr "Pòkôżë fùl stegnã do dokùmentu w titlowé lëstwie òkna"
+
+#: src/katemainwindow.cpp:257
+msgid "&Quick Open"
+msgstr "&Chùtczé òtmëkanié"
+
+#: src/katemainwindow.cpp:263
+#, fuzzy
+msgid "Open a form to quick open documents."
+msgstr "Zamkni wszëtczé dokùmentë"
+
+#: src/katemainwindow.cpp:296
+msgid "Create a new document"
+msgstr "Ùsôdzë nowi dokùment"
+
+#: src/katemainwindow.cpp:298
+msgid "Open an existing document for editing"
+msgstr "Òtemkni do edicëji jinstniejący dokùment"
+
+#: src/katemainwindow.cpp:303
+msgid ""
+"This lists files which you have opened recently, and allows you to easily "
+"open them again."
+msgstr ""
+"Lësta slédno òtemkłëch lopków, zezwôlô na prosté òtemkniãcé znowa jednegò z "
+"nich."
+
+#: src/katemainwindow.cpp:307
+msgid "Save A&ll"
+msgstr "Zapiszë w&szëtkò"
+
+#: src/katemainwindow.cpp:310
+msgid "Save all open, modified documents to disk."
+msgstr "Zapiszë wszëtczé òtemkłé abò zmienioné lopczi na disk."
+
+#: src/katemainwindow.cpp:313
+msgid "&Reload All"
+msgstr "&Zladëjë wszëtkò znowa"
+
+#: src/katemainwindow.cpp:315
+msgid "Reload all open documents."
+msgstr "Zladëjë wszëtczé òtemkłé dokùmentë znowa."
+
+#: src/katemainwindow.cpp:318
+#, fuzzy
+msgid "Close Orphaned"
+msgstr "Zamkni biéżną kartã"
+
+#: src/katemainwindow.cpp:320
+msgid ""
+"Close all documents in the file list that could not be reopened, because "
+"they are not accessible anymore."
+msgstr ""
+
+#: src/katemainwindow.cpp:323
+msgid "Close the current document."
+msgstr "Zamkni aktualny dokùment."
+
+#: src/katemainwindow.cpp:326
+msgid "Close Other"
+msgstr "Zamkni jinszé"
+
+#: src/katemainwindow.cpp:328
+#, fuzzy
+msgid "Close other open documents."
+msgstr "Zamkni wszëtczé dokùmentë"
+
+#: src/katemainwindow.cpp:331
+msgid "Clos&e All"
+msgstr "Za&mkni wszëtkò"
+
+#: src/katemainwindow.cpp:333
+msgid "Close all open documents."
+msgstr "Zamkni wszëtczé dokùmentë"
+
+#: src/katemainwindow.cpp:338
+msgid "Close this window"
+msgstr "Zamkni òkno"
+
+#: src/katemainwindow.cpp:342
+msgid "&New Window"
+msgstr "&Nowé òkno"
+
+#: src/katemainwindow.cpp:344
+msgid "Create a new Kate view (a new window with the same document list)."
+msgstr "Ùsôdzë nowi wëzdrzatk Kate (nowé òkno z tima sómëma dokùmentama)."
+
+#: src/katemainwindow.cpp:350
+msgid "Open W&ith"
+msgstr "Òt&emkni w"
+
+#: src/katemainwindow.cpp:352
+msgid ""
+"Open the current document using another application registered for its file "
+"type, or an application of your choice."
+msgstr ""
+"Òtemkni biéżny dokùment, brëkùjąc programë sparłączony z tim ôrtã lopka abò "
+"wëbróny programë."
+
+#: src/katemainwindow.cpp:357
+msgid "Configure the application's keyboard shortcut assignments."
+msgstr "Kònfigùracëjô klawiszowich skrodzënów."
+
+#: src/katemainwindow.cpp:360
+msgid "Configure which items should appear in the toolbar(s)."
+msgstr "Elementë widzawné w lëstwie (lëstwach) nôrzãdzów."
+
+#: src/katemainwindow.cpp:363
+msgid ""
+"Configure various aspects of this application and the editing component."
+msgstr "Kònfigùracëjô różnëch òptacëji programë."
+
+#: src/katemainwindow.cpp:367
+msgid "&Plugins Handbook"
+msgstr "&Pòdrãcznik plug-insów"
+
+#: src/katemainwindow.cpp:369
+msgid "This shows help files for various available plugins."
+msgstr "Wëskrzëniwô lopczi pòmòcë dlô przëstãpnëch plug-insów."
+
+#: src/katemainwindow.cpp:373
+#, fuzzy
+msgid "&About Editor Component"
+msgstr "Wëbierzë kòmpònent editora tekstu"
+
+#: src/katemainwindow.cpp:390
+msgctxt "Menu entry Session->New"
+msgid "&New"
+msgstr "&Nowi"
+
+#: src/katemainwindow.cpp:395
+#, fuzzy
+#| msgid "Open Session"
+msgid "&Open Session"
+msgstr "Òtemkni sesëjã"
+
+#: src/katemainwindow.cpp:400
+#, fuzzy
+#| msgid "&Save session"
+msgid "&Save Session"
+msgstr "Zapiszë &sesëjã"
+
+#: src/katemainwindow.cpp:404
+#, fuzzy
+#| msgid "Save Session?"
+msgid "Save Session &As..."
+msgstr "Zapisac sesëjã?"
+
+#: src/katemainwindow.cpp:408
+#, fuzzy
+#| msgid "Manage Sessions"
+msgid "&Manage Sessions..."
+msgstr "Sprôwianié sesëjama"
+
+#: src/katemainwindow.cpp:413
+#, fuzzy
+#| msgid "Open Session"
+msgid "&Quick Open Session"
+msgstr "Òtemkni sesëjã"
+
+#: src/katemainwindow.cpp:420
+msgid "This will close all open documents. Are you sure you want to continue?"
+msgstr ""
+
+#: src/katemainwindow.cpp:421
+#, fuzzy
+#| msgid "Close all open documents."
+msgid "Close all documents"
+msgstr "Zamkni wszëtczé dokùmentë"
+
+#: src/katemainwindow.cpp:592
+#, kde-format
+msgid ""
+"This will hide the menu bar completely. You can show it again by typing %1."
+msgstr ""
+
+#: src/katemainwindow.cpp:594
+#, fuzzy
+#| msgid "Hide Side&bars"
+msgid "Hide menu bar"
+msgstr "&Zatacë bòczné lëstwë"
+
+#: src/katemainwindow.cpp:837
+msgid "&Other..."
+msgstr "&Jinszé..."
+
+#: src/katemainwindow.cpp:860
+#, kde-format
+msgid "Application '%1' not found."
+msgstr "Aplikacëjô '%1' nie òstała nalazłô."
+
+#: src/katemainwindow.cpp:860
+msgid "Application not found"
+msgstr "Aplikacëjô nie òstała nalazłô"
+
+#: src/katemainwindow.cpp:961
+msgid " [read only]"
+msgstr ""
+
+#: src/katemdi.cpp:112
+msgid "Tool &Views"
+msgstr "&Wëzdrzatczi nôrzãdzów"
+
+#: src/katemdi.cpp:114
+msgid "Show Side&bars"
+msgstr "&Pòkôżë bòczné lëstwë"
+
+#: src/katemdi.cpp:158
+#, kde-format
+msgid "Show %1"
+msgstr "Pòkôżë %1"
+
+#: src/katemdi.cpp:487
+#, fuzzy
+#| msgid "Configure"
+msgid "Configure ..."
+msgstr "Kònfigùracëjô"
+
+#: src/katemdi.cpp:491
+msgid "Behavior"
+msgstr "Zachòwanié"
+
+#: src/katemdi.cpp:494
+msgid "Make Non-Persistent"
+msgstr "Niétrwałé"
+
+#: src/katemdi.cpp:494
+msgid "Make Persistent"
+msgstr "Trwałé"
+
+#: src/katemdi.cpp:496
+msgid "Move To"
+msgstr "Przeniesë do"
+
+#: src/katemdi.cpp:499
+msgid "Left Sidebar"
+msgstr "Lewô listew"
+
+#: src/katemdi.cpp:503
+msgid "Right Sidebar"
+msgstr "Prawô listew"
+
+#: src/katemdi.cpp:507
+msgid "Top Sidebar"
+msgstr "Górnô listew"
+
+#: src/katemdi.cpp:511
+msgid "Bottom Sidebar"
+msgstr "Dolnô listew"
+
+#: src/katemdi.cpp:852
+#, fuzzy
+#| msgid ""
+#| "<qt>You are about to hide the sidebars. With hidden sidebars it is not "
+#| "possible to directly access the tool views with the mouse anymore, so if "
+#| "you need to access the sidebars again invoke <b>Window &gt; Tool Views "
+#| "&gt; Show Sidebars</b> in the menu. It is still possible to show/hide the "
+#| "tool views with the assigned shortcuts.</qt>"
+msgid ""
+"<qt>You are about to hide the sidebars. With hidden sidebars it is not "
+"possible to directly access the tool views with the mouse anymore, so if you "
+"need to access the sidebars again invoke <b>View &gt; Tool Views &gt; Show "
+"Sidebars</b> in the menu. It is still possible to show/hide the tool views "
+"with the assigned shortcuts.</qt>"
+msgstr ""
+"<qt>Chcesz zatacëc lëstwë. Jeżlë lëstwë są zataconé felëje prosti przëstãp "
+"mëszą do wëzdrzatkù nôrządzów. Jeżlë chcesz dostac sã do nich znowa "
+"wëbierzë<b>Òkno &gt; Wëzdrzatk nôrzãdzów &gt; Pòkôżë lëstwë</b> w menu. Całi "
+"czas je mòżlëwé wëskrzenianié/tacënié wëzdrzatków nôrzãdzów przez wëbróné "
+"klawiszowé skrodzënë.</qt>"
+
+#: src/katemwmodonhddialog.cpp:66
+msgid "Documents Modified on Disk"
+msgstr "Dokùmentë zmienioné na diskù"
+
+#: src/katemwmodonhddialog.cpp:83
+msgid ""
+"<qt>The documents listed below have changed on disk.<p>Select one or more at "
+"once, and press an action button until the list is empty.</p></qt>"
+msgstr ""
+"<qt>Ùniższé dokùmentë òstałë zmienione na diskù.<p>Wëbierzë jeden abò wicy z "
+"lëstë ë wcësni kąpã dzejaniô aż lësta bãdze pùstô.</p></qt>"
+
+#: src/katemwmodonhddialog.cpp:92
+msgid "Filename"
+msgstr "Miono lopka"
+
+#: src/katemwmodonhddialog.cpp:92
+msgid "Status on Disk"
+msgstr "Stón na diskù"
+
+#: src/katemwmodonhddialog.cpp:97
+msgid "Modified"
+msgstr "Zmieniony"
+
+#: src/katemwmodonhddialog.cpp:97
+msgid "Created"
+msgstr "Ùsôdzony"
+
+#: src/katemwmodonhddialog.cpp:97
+msgid "Deleted"
+msgstr "Rëmniãti"
+
+#: src/katemwmodonhddialog.cpp:111
+msgid "&View Difference"
+msgstr "Òbôczë &nierównoscë"
+
+#: src/katemwmodonhddialog.cpp:113
+#, fuzzy
+#| msgid ""
+#| "Calculates the difference between the the editor contents and the disk "
+#| "file for the selected document, and shows the difference with the default "
+#| "application. Requires diff(1)."
+msgid ""
+"Calculates the difference between the editor contents and the disk file for "
+"the selected document, and shows the difference with the default "
+"application. Requires diff(1)."
+msgstr ""
+"Òbrechiwô nierównoscë midzë zamkłoscą editora a lopkã na diskù, pò czim "
+"pòkazëjë je w domëszlny programie. Je nót pòlétu diff(1)."
+
+#: src/katemwmodonhddialog.cpp:123
+#, fuzzy
+#| msgid "&Ignore"
+msgid "&Ignore Changes"
+msgstr "&Przepùszczë"
+
+#: src/katemwmodonhddialog.cpp:124
+msgid "Remove modified flag from selected documents"
+msgstr ""
+
+#: src/katemwmodonhddialog.cpp:130
+#, fuzzy
+#| msgid ""
+#| "Overwrite selected documents, discarding the disk changes and closes the "
+#| "dialog if there are no more unhandled documents."
+msgid "Overwrite selected documents, discarding disk changes"
+msgstr ""
+"Nôdpisëwô wëbróné dokùmentë, niechô zmianë na diskù ë zamëkô dialogòwé òkna "
+"eżlë nie dô wicy òbsłëgiwónëch dokùmentów."
+
+#: src/katemwmodonhddialog.cpp:133
+msgid "&Reload"
+msgstr "&Zladëjë znowa"
+
+#: src/katemwmodonhddialog.cpp:135
+#, fuzzy
+msgid "Reload selected documents from disk"
+msgstr "Zamkni wszëtczé dokùmentë"
+
+#: src/katemwmodonhddialog.cpp:187
+#, kde-format
+msgid ""
+"Could not save the document \n"
+"'%1'"
+msgstr ""
+"Nie mòże zapisac dokùmentu \n"
+"'%1'"
+
+#: src/katemwmodonhddialog.cpp:292
+msgid ""
+"The diff command failed. Please make sure that diff(1) is installed and in "
+"your PATH."
+msgstr ""
+"Zrëszony pòlét diff nie darzëł sã. Ùgwësni sã, czë pòlét diff(1) je "
+"winstalowóny ë że nachôdô sã na stegnie òznaczony zmienną PATH."
+
+#: src/katemwmodonhddialog.cpp:294
+msgid "Error Creating Diff"
+msgstr "Fela òbrechòwaniô nierównoscë"
+
+#: src/katemwmodonhddialog.cpp:302
+msgid "Ignoring amount of white space changed, the files are identical."
+msgstr ""
+
+#: src/katemwmodonhddialog.cpp:303
+msgid "Diff Output"
+msgstr ""
+
+#: src/katequickopen.cpp:64
+#, fuzzy
+#| msgid "Open Session"
+msgid "Quick Open Search"
+msgstr "Òtemkni sesëjã"
+
+#: src/katesavemodifieddialog.cpp:84
+#, kde-format
+msgid "Save As (%1)"
+msgstr "Zapiszë jakno (%1)"
+
+#: src/katesavemodifieddialog.cpp:94
+#, kde-format
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr ""
+
+#: src/katesavemodifieddialog.cpp:96
+#, fuzzy
+#| msgid "Delete File?"
+msgid "Overwrite File?"
+msgstr "Rëmnąc lopk?"
+
+#: src/katesavemodifieddialog.cpp:155
+msgid "Save Documents"
+msgstr "Zapiszë dokùmentë"
+
+#: src/katesavemodifieddialog.cpp:163
+msgid ""
+"<qt>The following documents have been modified. Do you want to save them "
+"before closing?</qt>"
+msgstr ""
+"<qt>Nôslédny dokùmentë òstałë zmienioné. Chcesz je zapisac przed zamkniãcem?"
+"</qt>"
+
+#: src/katesavemodifieddialog.cpp:170
+msgid "Documents"
+msgstr "Dokùmentë"
+
+#: src/katesavemodifieddialog.cpp:170
+msgid "Location"
+msgstr "Pòłożenié"
+
+#: src/katesavemodifieddialog.cpp:180
+msgid "Se&lect All"
+msgstr "Wë&bierzë wszëtkò"
+
+#: src/katesavemodifieddialog.cpp:252
+msgid ""
+"Data you requested to be saved could not be written. Please choose how you "
+"want to proceed."
+msgstr ""
+"Dostónczi jaczé të chcôł zapisac nie mògłë òstac zapisóné. Proszã wëbrac co "
+"dali robic."
+
+#: src/katetabbutton.cpp:191
+#, fuzzy
+#| msgid "Highlighting for Scheme"
+msgid "&Highlight Tab"
+msgstr "Pòdskrzënianié syntaksë Scheme"
+
+#: src/katetabbutton.cpp:192
+#, fuzzy
+#| msgid "None"
+msgid "&None"
+msgstr "Felënk"
+
+#: src/katetabbutton.cpp:195
+msgid "&Red"
+msgstr ""
+
+#: src/katetabbutton.cpp:197
+msgid "&Yellow"
+msgstr ""
+
+#: src/katetabbutton.cpp:199
+msgid "&Green"
+msgstr ""
+
+#: src/katetabbutton.cpp:201
+msgid "&Cyan"
+msgstr ""
+
+#: src/katetabbutton.cpp:203
+msgid "&Blue"
+msgstr ""
+
+#: src/katetabbutton.cpp:205
+msgid "&Magenta"
+msgstr ""
+
+#: src/katetabbutton.cpp:208
+msgid "C&ustom Color..."
+msgstr ""
+
+#: src/katetabbutton.cpp:211
+#, fuzzy
+#| msgid "Close Document"
+msgid "&Close Document"
+msgstr "Zamkni dokùment"
+
+#: src/kateviewmanager.cpp:133
+msgid "Split Ve&rtical"
+msgstr "Pò&dzelë wertikalno"
+
+#: src/kateviewmanager.cpp:137
+msgid "Split the currently active view vertically into two views."
+msgstr "Pòdzelë biéżny wëzdrzatk wertikalno na dwa."
+
+#: src/kateviewmanager.cpp:141
+msgid "Split &Horizontal"
+msgstr "Pòd&zelë knôdno"
+
+#: src/kateviewmanager.cpp:145
+msgid "Split the currently active view horizontally into two views."
+msgstr "Pòdzelë biéżny wëzdrzatk knôdno na dwa."
+
+#: src/kateviewmanager.cpp:149
+msgid "Cl&ose Current View"
+msgstr "Zamk&ni biéżny wëzdrzatk"
+
+#: src/kateviewmanager.cpp:153
+#, fuzzy
+#| msgid "Close the currently active splitted view"
+msgid "Close the currently active split view"
+msgstr "Zamkni biéżny, pòdzelony wëzdrzatk"
+
+#: src/kateviewmanager.cpp:157
+#, fuzzy
+#| msgid "Cl&ose Current View"
+msgid "Close Inactive Views"
+msgstr "Zamk&ni biéżny wëzdrzatk"
+
+#: src/kateviewmanager.cpp:160
+#, fuzzy
+#| msgid "Make the next split view the active one."
+msgid "Close every view but the active one"
+msgstr "Aktiwùjë nôslédny pòdwëzdrzatk."
+
+#: src/kateviewmanager.cpp:164
+#, fuzzy
+#| msgid "Cl&ose Current View"
+msgid "Hide Inactive Views"
+msgstr "Zamk&ni biéżny wëzdrzatk"
+
+#: src/kateviewmanager.cpp:168
+#, fuzzy
+#| msgid "Make the next split view the active one."
+msgid "Hide every view but the active one"
+msgstr "Aktiwùjë nôslédny pòdwëzdrzatk."
+
+#: src/kateviewmanager.cpp:171
+msgid "Next Split View"
+msgstr "Nôslédny pòdzelony wëzdrzatk"
+
+#: src/kateviewmanager.cpp:175
+msgid "Make the next split view the active one."
+msgstr "Aktiwùjë nôslédny pòdwëzdrzatk."
+
+#: src/kateviewmanager.cpp:178
+msgid "Previous Split View"
+msgstr "Wczasniészi pòdzelony wëzdrzatk"
+
+#: src/kateviewmanager.cpp:182
+msgid "Make the previous split view the active one."
+msgstr "Aktiwùjë wczasniészi pòdwëzdrzatk."
+
+#: src/kateviewmanager.cpp:185
+msgid "Move Splitter Right"
+msgstr ""
+
+#: src/kateviewmanager.cpp:188
+msgid "Move the splitter of the current view to the right"
+msgstr ""
+
+#: src/kateviewmanager.cpp:191
+msgid "Move Splitter Left"
+msgstr ""
+
+#: src/kateviewmanager.cpp:194
+msgid "Move the splitter of the current view to the left"
+msgstr ""
+
+#: src/kateviewmanager.cpp:197
+msgid "Move Splitter Up"
+msgstr ""
+
+#: src/kateviewmanager.cpp:200
+msgid "Move the splitter of the current view up"
+msgstr ""
+
+#: src/kateviewmanager.cpp:203
+msgid "Move Splitter Down"
+msgstr ""
+
+#: src/kateviewmanager.cpp:206
+#, fuzzy
+#| msgid "Make the next split view the active one."
+msgid "Move the splitter of the current view down"
+msgstr "Aktiwùjë nôslédny pòdwëzdrzatk."
+
+#: src/kateviewmanager.cpp:232
+msgid "Open File"
+msgstr "Òtemkni lopk"
+
+#: src/kateviewmanager.cpp:248
+#, kde-format
+msgid ""
+"<p>You are attempting to open one or more large files:</p><ul>%1</ul><p>Do "
+"you want to proceed?</p><p><strong>Beware that kate may stop responding for "
+"some time when opening large files.</strong></p>"
+msgstr ""
+
+#: src/kateviewmanager.cpp:250
+#, fuzzy
+#| msgid "Open File"
+msgid "Opening Large File"
+msgstr "Òtemkni lopk"
+
+#: src/kateviewspace.cpp:78 src/kateviewspace.cpp:529
+#, kde-format
+msgctxt "indicator for more documents"
+msgid "+%1"
+msgstr ""
+
+#: src/kateviewspace.cpp:83 src/kateviewspace.cpp:145
+msgid "Click here to switch to the Quick Open view."
+msgstr ""
+
+#: src/kateviewspace.cpp:96
+msgid "Control view space splitting"
+msgstr ""
+
+#: src/kateviewspace.cpp:146
+#, kde-format
+msgid ""
+"Currently, there is one more document open. To see all open documents, "
+"switch to the Quick Open view by clicking here."
+msgid_plural ""
+"Currently, there are %1 more documents open. To see all open documents, "
+"switch to the Quick Open view by clicking here."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: src/main.cpp:51
+msgid "Kate"
+msgstr "Kate"
+
+#: src/main.cpp:52
+msgid "Kate - Advanced Text Editor"
+msgstr "Kate - Awansowóny editora tekstu"
+
+#: src/main.cpp:53
+#, fuzzy
+#| msgid "(c) 2000-2005 The Kate Authors"
+msgid "(c) 2000-2014 The Kate Authors"
+msgstr "(c) 2000-2005, ùsôdzcë Kate"
+
+#: src/main.cpp:60
+msgid "Christoph Cullmann"
+msgstr "Christoph Cullmann"
+
+#: src/main.cpp:60
+msgid "Maintainer"
+msgstr "Òpiekùn"
+
+#: src/main.cpp:61
+msgid "Anders Lund"
+msgstr "Anders Lund"
+
+#: src/main.cpp:61 src/main.cpp:62 src/main.cpp:63 src/main.cpp:70
+msgid "Core Developer"
+msgstr "Rozwijôrz ze spòdlowégò karna"
+
+#: src/main.cpp:62
+msgid "Joseph Wenninger"
+msgstr "Joseph Wenninger"
+
+#: src/main.cpp:63
+msgid "Hamish Rodda"
+msgstr "Hamish Rodda"
+
+#: src/main.cpp:64
+msgid "Dominik Haumann"
+msgstr "Dominik Haumann"
+
+#: src/main.cpp:64
+msgid "Developer & Highlight wizard"
+msgstr "Programòwanié, asystenta pòdskrzënianiô"
+
+#: src/main.cpp:65
+#, fuzzy
+#| msgid "Anders Lund"
+msgid "Alexander Neundorf"
+msgstr "Anders Lund"
+
+#: src/main.cpp:65
+#, fuzzy
+#| msgid "Core Developer"
+msgid "Developer"
+msgstr "Rozwijôrz ze spòdlowégò karna"
+
+#: src/main.cpp:66
+msgid "Waldo Bastian"
+msgstr "Waldo Bastian"
+
+#: src/main.cpp:66
+msgid "The cool buffersystem"
+msgstr "Dobrô systema bùforowaniô"
+
+#: src/main.cpp:67
+msgid "Charles Samuels"
+msgstr "Charles Samuels"
+
+#: src/main.cpp:67
+msgid "The Editing Commands"
+msgstr "Pòlétë edicëji"
+
+#: src/main.cpp:68
+msgid "Matt Newell"
+msgstr "Matt Newell"
+
+#: src/main.cpp:68
+msgid "Testing, ..."
+msgstr "Testowanié, ..."
+
+#: src/main.cpp:69
+msgid "Michael Bartl"
+msgstr "Michael Bartl"
+
+#: src/main.cpp:69
+msgid "Former Core Developer"
+msgstr "Rëchliszi programista ze spòdlowegò karna"
+
+#: src/main.cpp:70
+msgid "Michael McCallum"
+msgstr "Michael McCallum"
+
+#: src/main.cpp:71
+msgid "Jochen Wilhemly"
+msgstr "Jochen Wilhemly"
+
+#: src/main.cpp:71
+msgid "KWrite Author"
+msgstr "Ùsôdzca KWrite"
+
+#: src/main.cpp:72
+msgid "Michael Koch"
+msgstr "Michael Koch"
+
+#: src/main.cpp:72
+msgid "KWrite port to KParts"
+msgstr "Pòrt Kwrite do KParts"
+
+#: src/main.cpp:73
+msgid "Christian Gebauer"
+msgstr "Christian Gebauer"
+
+#: src/main.cpp:74
+msgid "Simon Hausmann"
+msgstr "Simon Hausmann"
+
+#: src/main.cpp:75
+msgid "Glen Parker"
+msgstr "Glen Parker"
+
+#: src/main.cpp:75
+msgid "KWrite Undo History, Kspell integration"
+msgstr "Wielorówniowé copanié, integracëjô KSpella"
+
+#: src/main.cpp:76
+msgid "Scott Manson"
+msgstr "Scott Manson"
+
+#: src/main.cpp:76
+msgid "KWrite XML Syntax highlighting support"
+msgstr "Wspiarce pòdskrzënianiô syntaksë XML"
+
+#: src/main.cpp:77
+msgid "John Firebaugh"
+msgstr "John Firebaugh"
+
+#: src/main.cpp:77
+msgid "Patches and more"
+msgstr "Łatë ë wicy"
+
+#: src/main.cpp:78
+msgid "Pablo Martín"
+msgstr ""
+
+#: src/main.cpp:78
+#, fuzzy
+#| msgid "Plugins"
+msgid "Python Plugin Developer"
+msgstr "Wtëkôczë"
+
+#: src/main.cpp:79
+msgid "Gerald Senarclens de Grancy"
+msgstr ""
+
+#: src/main.cpp:79
+msgid "QA and Scripting"
+msgstr ""
+
+#: src/main.cpp:81
+msgid "Matteo Merli"
+msgstr "Matteo Merli"
+
+#: src/main.cpp:81
+msgid "Highlighting for RPM Spec-Files, Perl, Diff and more"
+msgstr "Pòdskrzënianié lopków RPM Spec, Perla, Diffa ë jinszëch"
+
+#: src/main.cpp:82
+msgid "Rocky Scaletta"
+msgstr "Rocky Scaletta"
+
+#: src/main.cpp:82
+msgid "Highlighting for VHDL"
+msgstr "Pòdskrzënianié syntaksë VHDL"
+
+#: src/main.cpp:83
+msgid "Yury Lebedev"
+msgstr "Yury Lebedev"
+
+#: src/main.cpp:83
+msgid "Highlighting for SQL"
+msgstr "Pòdskrzënianié syntaksë SQL"
+
+#: src/main.cpp:84
+msgid "Chris Ross"
+msgstr "Chris Ross"
+
+#: src/main.cpp:84
+msgid "Highlighting for Ferite"
+msgstr "Pòdskrzënianié syntaksë Ferite"
+
+#: src/main.cpp:85
+msgid "Nick Roux"
+msgstr "Nick Roux"
+
+#: src/main.cpp:85
+msgid "Highlighting for ILERPG"
+msgstr "Pòdskrzënianié syntaksë ILERPG"
+
+#: src/main.cpp:86
+msgid "Carsten Niehaus"
+msgstr "Carsten Niehaus"
+
+#: src/main.cpp:86
+msgid "Highlighting for LaTeX"
+msgstr "Pòdskrzënianié syntaksë LateX-a"
+
+#: src/main.cpp:87
+msgid "Per Wigren"
+msgstr "Per Wigren"
+
+#: src/main.cpp:87
+msgid "Highlighting for Makefiles, Python"
+msgstr "Pòdskrzënianié syntaksë Makefile ë Pythona"
+
+#: src/main.cpp:88
+msgid "Jan Fritz"
+msgstr "Jan Fritz"
+
+#: src/main.cpp:88
+msgid "Highlighting for Python"
+msgstr "Pòdskrzënianié syntaksë Pythona"
+
+#: src/main.cpp:89
+msgid "Daniel Naber"
+msgstr "Daniel Naber"
+
+#: src/main.cpp:90
+msgid "Roland Pabel"
+msgstr "Roland Pabel"
+
+#: src/main.cpp:90
+msgid "Highlighting for Scheme"
+msgstr "Pòdskrzënianié syntaksë Scheme"
+
+#: src/main.cpp:91
+msgid "Cristi Dumitrescu"
+msgstr "Cristi Dumitrescu"
+
+#: src/main.cpp:91
+msgid "PHP Keyword/Datatype list"
+msgstr "Lësta kluczowich słów ë ôrtów pòdôwków PHP"
+
+#: src/main.cpp:92
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#: src/main.cpp:92
+msgid "Very nice help"
+msgstr "Miłô pòmòc"
+
+#: src/main.cpp:93
+msgid "All people who have contributed and I have forgotten to mention"
+msgstr "Wszëtcë, chtërny pòmòglë ë ò jaczich jô zabëł wspòmnąc"
+
+#: src/main.cpp:119
+#, fuzzy
+#| msgid "Start Kate with a given session"
+msgid "Start Kate with a given session."
+msgstr "Zrëszë Kate z pòdaną sesëją"
+
+#: src/main.cpp:123
+#, fuzzy
+#| msgid "Start Kate with a new anonymous session, implies '-n'"
+msgid "Start Kate with a new anonymous session, implies '-n'."
+msgstr "Zrëszë Kate z nową anonimòwą sesëją, dodôwôjąc  '-n'"
+
+#: src/main.cpp:127
+msgid ""
+"Force start of a new kate instance (is ignored if start is used and another "
+"kate instance already has the given session opened), forced if no parameters "
+"and no URLs are given at all."
+msgstr ""
+
+#: src/main.cpp:131
+msgid ""
+"If using an already running kate instance, block until it exits, if URLs "
+"given to open."
+msgstr ""
+
+#: src/main.cpp:135
+msgid ""
+"Only try to reuse kate instance with this pid (is ignored if start is used "
+"and another kate instance already has the given session opened)."
+msgstr ""
+
+#: src/main.cpp:139
+#, fuzzy
+#| msgid "Set encoding for the file to open"
+msgid "Set encoding for the file to open."
+msgstr "Nastôwi kòdowanié dlô òtmëkanegò lopka"
+
+#: src/main.cpp:143
+#, fuzzy
+#| msgid "Navigate to this line"
+msgid "Navigate to this line."
+msgstr "Biéj do ti réżczi"
+
+#: src/main.cpp:147
+#, fuzzy
+#| msgid "Navigate to this column"
+msgid "Navigate to this column."
+msgstr "Biéj do ti szpaltë"
+
+#: src/main.cpp:151
+#, fuzzy
+#| msgid "Read the contents of stdin"
+msgid "Read the contents of stdin."
+msgstr "Czëtôj zamkłosc STDIN"
+
+#: src/main.cpp:155
+msgid "The files/URLs opened by the application will be deleted after use"
+msgstr ""
+
+#: src/main.cpp:159
+#, fuzzy
+#| msgid "Document to open"
+msgid "Documents to open."
+msgstr "Dokùment do òtemkniãcô"
+
+#: src/session/katesessionchooser.cpp:44
+msgid "Session Chooser"
+msgstr "Wëbiérk sesëji"
+
+#: src/session/katesessionchooser.cpp:51
+#: src/session/katesessionmanagedialog.cpp:55
+#: src/session/katesessionopendialog.cpp:49
+msgid "Session Name"
+msgstr "Miono sesëji"
+
+#: src/session/katesessionchooser.cpp:52
+#: src/session/katesessionmanagedialog.cpp:56
+#: src/session/katesessionopendialog.cpp:50
+msgctxt "The number of open documents"
+msgid "Open Documents"
+msgstr "Òtemkni dokùmentë"
+
+#: src/session/katesessionchooser.cpp:75
+#, fuzzy
+#| msgid "No session selected to open."
+msgid "Clone session settings"
+msgstr "Nie wëbrano sesëji do òtemkniãcô"
+
+#: src/session/katesessionchooser.cpp:78
+#, fuzzy
+#| msgid "Default Session"
+msgid "Delete this session"
+msgstr "Domëslnô sesëjô"
+
+#: src/session/katesessionchooser.cpp:97
+msgid "&Always use this choice"
+msgstr "&Wiedno brëkùjë ny òptacëji"
+
+#: src/session/katesessionchooser.cpp:109
+#: src/session/katesessionopendialog.cpp:39
+msgid "Open Session"
+msgstr "Òtemkni sesëjã"
+
+#: src/session/katesessionchooser.cpp:116
+msgid "New Session"
+msgstr "Nowô sesëjô"
+
+#: src/session/katesessionmanagedialog.cpp:42
+msgid "Manage Sessions"
+msgstr "Sprôwianié sesëjama"
+
+#: src/session/katesessionmanagedialog.cpp:74
+msgid "&Rename..."
+msgstr "&Zmieni miono..."
+
+#: src/session/katesessionmanagedialog.cpp:93
+#: src/session/katesessionopendialog.cpp:79
+msgid "&Open"
+msgstr "Ò&temkni"
+
+#: src/session/katesessionmanagedialog.cpp:128
+msgid "Specify New Name for Session"
+msgstr "Wëbierzë nowi miono dlô sesëji"
+
+#: src/session/katesessionmanagedialog.cpp:128
+#: src/session/katesessionmanager.cpp:454
+msgid "Session name:"
+msgstr "Miono sesëji:"
+
+#: src/session/katesessionmanagedialog.cpp:136
+#: src/session/katesessionmanager.cpp:462
+msgid "To save a session, you must specify a name."
+msgstr "Bë zapisac sesëjã, mùsz je ji dac miono."
+
+#: src/session/katesessionmanagedialog.cpp:136
+#: src/session/katesessionmanager.cpp:462
+msgid "Missing Session Name"
+msgstr "Felënk miona sesëji"
+
+#: src/session/katesessionmanager.cpp:123
+msgid ""
+"Internal error: there is more than one instance open for a given session."
+msgstr ""
+
+#: src/session/katesessionmanager.cpp:128
+#, kde-format
+msgid ""
+"Session '%1' is already opened in another kate instance, change there "
+"instead of reopening?"
+msgstr ""
+
+#: src/session/katesessionmanager.cpp:266
+#, kde-format
+msgid ""
+"The session could not be renamed to \"%1\", there already exists another "
+"session with the same name"
+msgstr ""
+
+#: src/session/katesessionmanager.cpp:267
+#: src/session/katesessionmanager.cpp:280
+msgid "Session Renaming"
+msgstr "Zmienioné miono sesëji"
+
+#: src/session/katesessionmanager.cpp:279
+#, kde-format
+msgid "The session could not be renamed to \"%1\". Failed to write to \"%2\""
+msgstr ""
+
+#: src/session/katesessionmanager.cpp:453
+msgid "Specify New Name for Current Session"
+msgstr "Wëbierzë nowé miono dlô aktualny sesëji"
+
+#: src/session/katesessionmanager.cpp:454
+msgid ""
+"There is already an existing session with your chosen name.\n"
+"Please choose a different one\n"
+"Session name:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbElements)
+#: src/ui/sessionconfigwidget.ui:17
+#, fuzzy
+#| msgid "Session Management"
+msgid "Session elements"
+msgstr "Sprôwianié sesëjama"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/ui/sessionconfigwidget.ui:23
+msgid ""
+"The session contains the list of open documents, recently opened files list, "
+"bookmarks, cursor position etc. When the session is loaded all elements are "
+"restored."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/ui/sessionconfigwidget.ui:35
+msgid "Maximum number of entries in recent file list:"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, restoreVC)
+#: src/ui/sessionconfigwidget.ui:63
+#, fuzzy
+#| msgid ""
+#| "Check this if you want all your views and frames restored each time you "
+#| "open Kate"
+msgid ""
+"Check this if you want all your views and frames restored each time you open "
+"Kate."
+msgstr ""
+"Włączë nã òptacëjã, jeżlë wszëtczé òkna ë wëzdrzatczi mają òstac òdzwëskóné "
+"przë zrëszaniém Kate"
+
+#. i18n: ectx: property (text), widget (QCheckBox, restoreVC)
+#: src/ui/sessionconfigwidget.ui:66
+msgid "Include &window configuration"
+msgstr "Dodôj &kònfigùracëjã òknów"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbAppStartup)
+#: src/ui/sessionconfigwidget.ui:76
+#, fuzzy
+#| msgid "Behavior on Application Startup"
+msgid "Behaviour on Application Startup"
+msgstr "Zachòwanié przë sztarce programë"
+
+#. i18n: ectx: property (text), widget (QRadioButton, startNewSessionRadioButton)
+#: src/ui/sessionconfigwidget.ui:82
+msgid "&Start new session"
+msgstr "Zrëszë nową &sesëjã"
+
+#. i18n: ectx: property (text), widget (QRadioButton, loadLastUserSessionRadioButton)
+#: src/ui/sessionconfigwidget.ui:89
+#, fuzzy
+#| msgid "&Load last-used session"
+msgid "&Load last used session"
+msgstr "&Wladëjë slédną sesëjã"
+
+#. i18n: ectx: property (text), widget (QRadioButton, manuallyChooseSessionRadioButton)
+#: src/ui/sessionconfigwidget.ui:96
+msgid "&Manually choose a session"
+msgstr "Wë&bierzë sesëjã rãczno"
+
+#~ msgid "All documents written to disk"
+#~ msgstr "Dokùmentë zapisóné na diskù"
+
+#~ msgid "Document written to disk"
+#~ msgstr "Dokùmentë zapisóné na diskù"
+
+#~ msgid "Elements of Sessions"
+#~ msgstr "Elementë sesëjów"
+
+#~ msgid "This shows useful tips on the use of this application."
+#~ msgstr "Pòdpòwiescë ò dzejaniô programë."
+
+#~ msgid "No Session Selected"
+#~ msgstr "Nie wëbrano sesëji"
+
+#~ msgid "No session selected to copy."
+#~ msgstr "Nié wëbróno sesëji do kòpérowaniô."
+
+#, fuzzy
+#~| msgid "Document Name"
+#~ msgid "Show Document Name"
+#~ msgstr "Miono dokùmentu"
+
+#~ msgid " Line: %1 Col: %2 "
+#~ msgstr " Réżka: %1 Kòl: %2 "
+
+#~ msgid " LINE "
+#~ msgstr " RÉŻKA "
+
+#~ msgid " INS "
+#~ msgstr " WST "
+
+#, fuzzy
+#~| msgid " Line: %1 Col: %2 "
+#~ msgid " Line: %1 of %2 Col: %3 "
+#~ msgstr " Réżka: %1 Kòl: %2 "
+
+#~ msgid " BLOCK "
+#~ msgstr " BLOK "
+
+#~ msgid "Close"
+#~ msgstr "Zamkni"
+
+#, fuzzy
+#~| msgid "Filename"
+#~ msgid "Copy Filename"
+#~ msgstr "Miono lopka"
+
+#~ msgid "Document Name"
+#~ msgstr "Miono dokùmentu"
+
+#, fuzzy
+#~| msgid "Document Name"
+#~ msgid "Sort by Document Name"
+#~ msgstr "Miono dokùmentu"
+
+#, fuzzy
+#~| msgid "Document List"
+#~ msgid "Document Path"
+#~ msgstr "Lësta dokùmentów"
+
+#, fuzzy
+#~| msgid "&Show All Documents >>"
+#~ msgid "Sort by Document Path"
+#~ msgstr "&Pòkôżë wszëtczé dokùmentë >>"
+
+#~ msgid "Opening Order"
+#~ msgstr "Pòsobnica òtmëkaniô"
+
+#, fuzzy
+#~| msgid "Opening Order"
+#~ msgid "Sort by Opening Order"
+#~ msgstr "Pòsobnica òtmëkaniô"
+
+#, fuzzy
+#~| msgid "Open W&ith"
+#~ msgid "Open With"
+#~ msgstr "Òt&emkni w"
+
+#, fuzzy
+#~| msgid "Sort &By"
+#~ msgid "Sort By"
+#~ msgstr "Zortëjë we&dle"
+
+#~ msgid "&Sort by:"
+#~ msgstr "Zortëjë we&dle:"
+
+#~ msgid "Url"
+#~ msgstr "Adresë url"
+
+#, fuzzy
+#~| msgid "&View"
+#~ msgid "&View Mode:"
+#~ msgstr "&Wëzdrzatczi"
+
+#, fuzzy
+#~| msgid "Tool &Views"
+#~ msgid "Tree View"
+#~ msgstr "&Wëzdrzatczi nôrzãdzów"
+
+#, fuzzy
+#~| msgid "Split View"
+#~ msgid "List View"
+#~ msgstr "Rozdzëlë wëzdrzatczi"
+
+#, fuzzy
+#~| msgid "Sho&w Path"
+#~ msgid "&Show Full Path"
+#~ msgstr "Pòkôżë s&tegnã"
+
+#, fuzzy
+#~| msgid "Document Name"
+#~ msgid "Document Tree"
+#~ msgstr "Miono dokùmentu"
+
+#, fuzzy
+#~| msgid "Current Document"
+#~ msgid "Configure Documents"
+#~ msgstr "Biéżny dokùment"
+
+#, fuzzy
+#~| msgid "&Document"
+#~ msgid "Previous Document"
+#~ msgstr "&Dokùment"
+
+#, fuzzy
+#~| msgid "&Document"
+#~ msgid "Next Document"
+#~ msgstr "&Dokùment"
+
+#~ msgid ""
+#~ "<p>Kate comes with a nice set of plugins, providing simple\n"
+#~ "and advanced features of all sorts.</p>\n"
+#~ "<p>You can enable/disable plugins to suit your needs in the configuration "
+#~ "dialog,\n"
+#~ "choose <strong>Settings -&gt;configure</strong> to launch that.</p>\n"
+#~ msgstr ""
+#~ "<p>Kate zamëkô w se zestôwk pluginsów, wprowôdzającëch nowé prosté ë "
+#~ "awansowóné fùnkcëje różnëch ôrtów.</p>\n"
+#~ "<p>Pluginsë mòże włączac/blokòwac w òczénkù konfigùracëji,\n"
+#~ "òtmëkónym przez <strong>Nastôwë -&gt;kònfigùracëjô</strong>.</p>\n"
+
+#~ msgid ""
+#~ "<p>You can swap the characters on each side of the cursor just by "
+#~ "pressing\n"
+#~ "<strong>Ctrl+T</strong></p>\n"
+#~ msgstr ""
+#~ "<p>Mòże zamienic znaczi pò òbù starnach kùrsora wcëskając\n"
+#~ "<strong>Ctrl+T</strong></p>\n"
+
+#~ msgid ""
+#~ "<p>You can export the current document as a HTML file, including\n"
+#~ "syntax highlighting.</p>\n"
+#~ "<p>Just choose <strong>File -&gt; Export -&gt; HTML...</strong></p>\n"
+#~ msgstr ""
+#~ "<p>Mòże zapisac biéżny lopk w fòrmace HTML, z zachòwaniém\n"
+#~ "syntaksë.</p>\n"
+#~ "<p>Je nót wëbrac <strong>Lopk -&gt; Ekspòrtëje jakno -&gt; HTML...</"
+#~ "strong></p>\n"
+
+#, fuzzy
+#~| msgid ""
+#~| "<p>You can split the Kate editor as many times as you like and\n"
+#~| "in either direction. Each frame has its own status bar and\n"
+#~| "can display any open document.</p>\n"
+#~| "<p>Just choose <br><strong>View -&gt; Split [ Horizontal | Vertical ]</"
+#~| "strong></p>\n"
+#~ msgid ""
+#~ "<p>You can split the Kate editor as many times as you like and\n"
+#~ "in either direction. Each frame has its own status bar and\n"
+#~ "can display any open document.</p>\n"
+#~ "<p>Just choose <br><strong>View -&gt; Split View -&gt; Split [ Horizontal "
+#~ "| Vertical ]</strong></p>\n"
+#~ msgstr ""
+#~ "<p>Òkno editora Kate mòże rozpartérowacc wiele razë\n"
+#~ "w równo jaczim czérënkù. Kòżdé òczénkò mô swòją lëstew stónu\n"
+#~ "ë wëskrzëniwac równo jaczi, òtemkłi lopk.</p>\n"
+#~ "<p>Je nót wëbrac <br><strong>Wëzdrzatk -&gt; Rozpartérëje [ w równi | "
+#~ "knôdno]</strong></p>\n"
+
+#~ msgid ""
+#~ "<p>Kate has a built-in terminal emulator, just click on <strong>\"Terminal"
+#~ "\"</strong> at\n"
+#~ "the bottom to show or hide it as you desire.</p>\n"
+#~ msgstr ""
+#~ "<p>Kate zamëkô w se wbùdowóny emùlator terminala, sygnie wsësnąc <strong>"
+#~ "\"Terminal\"</strong> na spódkù bë gò pokazac abò zatacëc.</p>\n"
+
+#~ msgid ""
+#~ "<p>Kate can highlight the current line with a\n"
+#~ "<table bgcolor=\"yellow\" border=\"0\" cellspacing=\"0\" cellpadding="
+#~ "\"0\" width=\"100%\"><tr><td>different\n"
+#~ "background color.<strong>|</strong></td></tr></table></p>\n"
+#~ "<p>You can set the color in the <em>Colors</em> page of the "
+#~ "configuration\n"
+#~ "dialog.</p>\n"
+#~ msgstr ""
+#~ "<p>Kate mòże podkrzënic biéżną réżkã \n"
+#~ "<table bgcolor=\"yellow\" border=\"0\" cellspacing=\"0\" cellpadding="
+#~ "\"0\" width=\"100%\"><tr><td>jinszą \n"
+#~ "farwą spódkù.<strong>|</strong></td></tr></table></p>\n"
+#~ "<p>Farwa mòże nastôwic w karce <em>Farwë</em> kònfigùracëjnegò \n"
+#~ "òczénka.</p>\n"
+
+#~ msgid ""
+#~ "<p>You can open the currently edited file in any other application from "
+#~ "within\n"
+#~ "Kate.</p>\n"
+#~ "<p>Choose <strong>File -&gt; Open With</strong> for the list of programs\n"
+#~ "configured\n"
+#~ "for the document type. There is also an option <strong>Other...</strong> "
+#~ "to\n"
+#~ "choose any application on your system.</p>\n"
+#~ msgstr ""
+#~ "<p>Mòżne òtemknąc równo jaczi editowóny lopk jinszą programą\n"
+#~ "zrëszając gò prosto z Kate.</p>\n"
+#~ "<p>Wëbierzë <strong>Lopk -&gt; Òtemkni z</strong> bë wëskrzënic lëstã \n"
+#~ "programów skònfigùrowónëch\n"
+#~ "z ôrtã editowónegò dokùmentu. Je téż mòżnota zrëszaniô\n"
+#~ "jinszy programë obsłëgùjący lopk optacëją menu <strong>Jinszé...</strong>."
+#~ "</p>\n"
+
+#, fuzzy
+#~| msgid ""
+#~| "<p>You can configure the editor to always display the line numbers and/"
+#~| "or\n"
+#~| "bookmark panes when started from the <strong>View Defaults</strong> page "
+#~| "of the\n"
+#~| "configuration dialog.</p>\n"
+#~ msgid ""
+#~ "<p>You can configure the editor to always display the line numbers and/"
+#~ "or\n"
+#~ "bookmark panes when started from the <strong>Appearance</strong> page of "
+#~ "the\n"
+#~ "configuration dialog.</p>\n"
+#~ msgstr ""
+#~ "<p>Editora mòże wëskrzëniac numerë réżków ë/abò\n"
+#~ "załóżczi, jeżlë òstałë wëbróné optacëje w kôrce <strong>Domëslny "
+#~ "Wëzdrzatk</strong>\n"
+#~ "w kònfigùracëjnym òczenkù.</p>\n"
+
+#, fuzzy
+#~| msgid ""
+#~| "<p>You can download new or updated <em>Syntax highlight definitions</em> "
+#~| "from\n"
+#~| "the <strong>Highlighting</strong> page in the configuration dialog.</p>\n"
+#~| "<p>Just click the <em>Download...</em> button on the <em>Highlight "
+#~| "Modes</em>\n"
+#~| "tab (You have to be online, of course...).</p>\n"
+#~ msgid ""
+#~ "<p>You can download new or updated <em>Syntax highlight definitions</em> "
+#~ "from\n"
+#~ "the <strong>Open/Save</strong> page in the configuration dialog.</p>\n"
+#~ "<p>Just click the <em>Download...</em> button on the <em>Open/Save -&gt; "
+#~ "Modes &amp; Filetypes</em>\n"
+#~ "tab (You have to be online, of course...).</p>\n"
+#~ msgstr ""
+#~ "<p>Mòże zladowac nowé abò zaktualnioné <em>definicëje podsztrëchaniô "
+#~ "syntaksë</em> z kartë\n"
+#~ "<strong>Podskrzënianié</strong> w kònfigùracëjnym òczénkù.</p>\n"
+#~ "<p>Sygnie wcësnąc knąpã <em>Zladëje...</em> w załóżce <em>Órtë "
+#~ "pòdskrzënianiô</em>\n"
+#~ " (Je nót równak bëc sparłączonym z sécą...).</p>\n"
+
+#~ msgid ""
+#~ "<p>You can cycle through all open documents by pressing <strong>Alt+Left</"
+#~ "strong>\n"
+#~ "or <strong>Alt+Right</strong>. The next/previous document will "
+#~ "immediately be displayed\n"
+#~ "in the active frame.</p>\n"
+#~ msgstr ""
+#~ "<p>Mòże przeńc przez wszëtczé dokùmentë wcëskając<strong>Alt+Lewi</"
+#~ "strong> \n"
+#~ "abò <strong>Alt+Prawi</strong>. Nôslédny/wczasniészi dokùment bãdze zarô "
+#~ "wëskrzëniony \n"
+#~ "w aktiwnym òczénkù.</p>\n"
+
+#~ msgid ""
+#~ "<p>You can do cool sed-like regular expression replacements using "
+#~ "<em>Command Line</em>.</p>\n"
+#~ "<p>For example, press <strong>F7</strong> and enter <code>s /oldtext/"
+#~ "newtext/g</code>\n"
+#~ "to replace &quot;oldtext&quot; with &quot;newtext&quot; throughout the "
+#~ "current\n"
+#~ "line.</p>\n"
+#~ msgstr ""
+#~ "<p>Mòże brëkòwac zastãpòwanié wëjimków tekstu ùżéwając regùlarnëch "
+#~ "wësłowiów (w sztélu seda) przë pòmocë\n"
+#~ "<em>Pòlétë edicëji</em>.</p>\n"
+#~ "<p>Na przëmiôr, wcësni <strong>F7</strong> ë wpiszë <code>s/stôritekst/"
+#~ "nowitekst/g</code>,\n"
+#~ "bë zastãpic &quot;stôritekst&quot; na &quot;nowitekst&quot; w biéżny\n"
+#~ "réżce.</p>\n"
+
+#~ msgid ""
+#~ "<p>You can repeat your last search by just pressing <strong>F3</strong>, "
+#~ "or\n"
+#~ "<strong>Shift+F3</strong> if you want to search backwards.</p>\n"
+#~ msgstr ""
+#~ "<p>Wczasniészą szëkbã mòże znowic wcëskając <strong>F3</strong>, abò \n"
+#~ "<strong>Shift+F3</strong>, bë szëkac w starnã zôczątkù tekstu.</p>\n"
+
+#, fuzzy
+#~| msgid ""
+#~| "<p>You can filter the files displayed in the <em>File Selector</em> tool "
+#~| "view.\n"
+#~| "</p>\n"
+#~| "<p>Simply enter your filter in the filter entry at the bottom, for "
+#~| "example:\n"
+#~| "<code>*.html *.php</code> if you only want to see HTML and PHP files in "
+#~| "the\n"
+#~| "current folder.</p>\n"
+#~| "<p>The File Selector will even remember your filters for you.</strong></"
+#~| "p>\n"
+#~ msgid ""
+#~ "<p>You can filter the files displayed in the <em>Filesystem Browser</em> "
+#~ "tool view.\n"
+#~ "</p>\n"
+#~ "<p>Simply enter your filter in the filter entry at the bottom, for "
+#~ "example:\n"
+#~ "<code>*.html *.php</code> if you only want to see HTML and PHP files in "
+#~ "the\n"
+#~ "current folder.</p>\n"
+#~ "<p>The Filesystem Browser will even remember your filters for you.</p>\n"
+#~ msgstr ""
+#~ "<p>Je mòżno ograńczëc lëczbã lopków wëskrzënianëch w <em>Selektorze "
+#~ "Lopków</em>\n"
+#~ "</p>\n"
+#~ "<p>Sygnie pòdac filter, w òczénkù na spódkù, na przëmiôr: \n"
+#~ "<code>*.html *.php</code>, bë wëskrzënic blós lopczi HTML ë PHP\n"
+#~ "w biéżnym katalogù.</p>\n"
+#~ "<p>Selektor lopków pamiãtô slédno wpisóné filtrë.</strong></p>\n"
+
+#~ msgid ""
+#~ "<p>You can have two views - or even more - of the same document in Kate. "
+#~ "Editing\n"
+#~ "in either will be reflected in both.</p>\n"
+#~ "<p>So if you find yourself scrolling up and down to look at text at the "
+#~ "other\n"
+#~ "end of a document, just press <strong>Ctrl+Shift+T</strong> to split\n"
+#~ "horizontally.</p>\n"
+#~ msgstr ""
+#~ "<p>Mòże miec dwa wëzdrzatczi - abò nawetka wicy - tegò sómegò dokùmentu w "
+#~ "Kate. Zmianë wprowadzoné w jednym \n"
+#~ "bãdze zarôw widzec w òbù.</p>\n"
+#~ "<p>Dlôte w môlu przewijaniô tekstu midzë wëjimkama tekstu na dwóch "
+#~ "kùńcach dokùmentu,\n"
+#~ "sygnie rozpartérowac <strong>Ctrl+Shift+T</strong> wëzdrzatk\n"
+#~ "w równi.</p>\n"
+
+#~ msgid ""
+#~ "<p>Press <strong>F8</strong> or <strong>Shift+F8</strong> to switch to "
+#~ "the\n"
+#~ "next/previous frame.</p>\n"
+#~ msgstr ""
+#~ "<p>Wcësni <strong>F8</strong> abò <strong>Shift+F8</strong>, bë "
+#~ "przełączac \n"
+#~ "wëzdrzatczi.</p>\n"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "C++ Source File (GPL)"
+#~ msgstr "C++ Zdrojowi lopk (GPL)"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "Source Code"
+#~ msgstr "Zdrojowi kòd"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "A very simple GPL C++ source file"
+#~ msgstr "Baro prosti GPL C++ zdrojowi lopk"
+
+#~ msgctxt "@info:credit"
+#~ msgid "Anders Lund <anders@alweb.dk>"
+#~ msgstr "Anders Lund <anders@alweb.dk>"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "C++ Header (GPL)"
+#~ msgstr "C++ Nagłówk (GPL)"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "A very simple GPL C++ header file"
+#~ msgstr "Baro prosti GPL C++ lopk nagłówka"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "C++ Source File (LGPL)"
+#~ msgstr "C++ Zdrojowi lopk (LGPL)"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "A very simple LGPL C++ source file"
+#~ msgstr "Baro prosti LGPL C++ zdrojowi lopk"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "Documentation"
+#~ msgstr "Dokùmentacëjô"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "HTML 4.01 Strict Document"
+#~ msgstr "HTML 4.01 Strict Document"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "Internet"
+#~ msgstr "Internet"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "This will create a very basic HTML file with the HTML 4.01 strict DTD."
+#~ msgstr "To ùsôdzy prosti lopk HTML jakno HTML 4.01 strict DTD."
+
+#, fuzzy
+#~ msgctxt "@item:inmenu"
+#~ msgid "Kate Highlight Definition"
+#~ msgstr "Pòdskrzënianié syntaksë SQL"
+
+#~ msgctxt "@info:credit"
+#~ msgid "Dominik Haumann <dhdev@gmx.de>"
+#~ msgstr "Dominik Haumann <dhdev@gmx.de>"
+
+#, fuzzy
+#~| msgid "Location"
+#~ msgid "Actions"
+#~ msgstr "Lokalizacëjô"
+
+#, fuzzy
+#~| msgid "Location"
+#~ msgid "Description:"
+#~ msgstr "Lokalizacëjô"
+
+#, fuzzy
+#~| msgid "Location"
+#~ msgid "Action:"
+#~ msgstr "Lokalizacëjô"
+
+#, fuzzy
+#~| msgid "Configure"
+#~ msgid "Configuration Pages"
+#~ msgstr "Kònfigùracëjô"
+
+#, fuzzy
+#~| msgid "Title"
+#~ msgid "Title:"
+#~ msgstr "Titel"
+
+#, fuzzy
+#~| msgid "Name"
+#~ msgid "Name:"
+#~ msgstr "Miono"
+
+#, fuzzy
+#~| msgid "&Manage..."
+#~ msgid "Manager"
+#~ msgstr "&Sprôwiôj"
+
+#, fuzzy
+#~| msgid "Plugins"
+#~ msgid "Reload Plugins"
+#~ msgstr "Wtëkôczë"
+
+#, fuzzy
+#~| msgid "Plugins"
+#~ msgid "Python Plugins"
+#~ msgstr "Wtëkôczë"
+
+#, fuzzy
+#~| msgctxt "@item:inmenu"
+#~| msgid "Documentation"
+#~ msgid "Documentation"
+#~ msgstr "Dokùmentacëjô"
+
+#, fuzzy
+#~| msgid "Current Document Folder"
+#~ msgid "Rescan current document for #colors"
+#~ msgstr "Biéżny katalog dokùmentu"
+
+#, fuzzy
+#~| msgid "Pattern:"
+#~ msgid "Pattern Model"
+#~ msgstr "Mùster:"
+
+#, fuzzy
+#~| msgid "Filename"
+#~ msgid "Transform Filenames"
+#~ msgstr "Miono lopka"
+
+#, fuzzy
+#~ msgid "Highlight definitions using etags(1):"
+#~ msgstr "Pòdskrzënianié syntaksë SQL"
+
+#, fuzzy
+#~| msgid "&Settings"
+#~ msgid "Settings..."
+#~ msgstr "&Nastôwë"
+
+#, fuzzy
+#~ msgid "Filter:"
+#~ msgstr "Lopczi:"
+
+#, fuzzy
+#~| msgid "&New..."
+#~ msgid "..."
+#~ msgstr "&Nowi..."
+
+#, fuzzy
+#~| msgid "Configure"
+#~ msgid "Continuation Prompt:"
+#~ msgstr "Kònfigùracëjô"
+
+#, fuzzy
+#~| msgid "Highlighting for SQL"
+#~ msgid "Highlighting"
+#~ msgstr "Pòdskrzënianié syntaksë SQL"
+
+#, fuzzy
+#~| msgctxt "@item:inmenu"
+#~| msgid "Internet"
+#~ msgid "Integer:"
+#~ msgstr "Internet"
+
+#, fuzzy
+#~| msgid "&Help"
+#~ msgid "Help:"
+#~ msgstr "&Pòmòc"
+
+#, fuzzy
+#~| msgid "Location"
+#~ msgid "Exception:"
+#~ msgstr "Lokalizacëjô"
+
+#, fuzzy
+#~| msgid "Document List"
+#~ msgid "Drop List"
+#~ msgstr "Lësta dokùmentów"
+
+#, fuzzy
+#~| msgid "&New Window"
+#~ msgid "New Line"
+#~ msgstr "&Nowé òkno"
+
+#, fuzzy
+#~| msgid "Configure"
+#~ msgid "ConfigWidget"
+#~ msgstr "Kònfigùracëjô"
+
+#, fuzzy
+#~| msgid "&View Difference"
+#~ msgid "Reference"
+#~ msgstr "Òbôczë &nierównoscë"
+
+#, fuzzy
+#~| msgid "Name"
+#~ msgid "Full Name:"
+#~ msgstr "Miono"
+
+#, fuzzy
+#~| msgid "&Reload"
+#~ msgid "Reload"
+#~ msgstr "&Zladëjë znowa"
+
+#~ msgid ""
+#~ "<p>You can drag the Tool views (<em>File List</em> and <em>File Selector</"
+#~ "em>)\n"
+#~ "to any side that you want them in Kate, or stack them, or even tear them "
+#~ "off the\n"
+#~ "main window.</p>\n"
+#~ msgstr ""
+#~ "<p>Dodôwné nôrzãdza (<em>Lësta lopków</em> i <em>Selektor plików</em>) "
+#~ "można przenieść\n"
+#~ "w dowolne miejsce w oknie Kate, poza nim, lub położyć\n"
+#~ "jedno na drugim.</p>\n"
+
+#~ msgid "&Save Selected"
+#~ msgstr "&Zapiszë wëbróné"
+
+#~ msgid "Do &Not Close"
+#~ msgstr "&Nié zamëkôj"
+
+#~ msgid ""
+#~ "Removes the modified flag from the selected documents and closes the "
+#~ "dialog if there are no more unhandled documents."
+#~ msgstr ""
+#~ "Rëmô znaczniczi mòdifikacëji z wëbrónëch dokùmentów  ë zamëkô dialogòwé "
+#~ "òkna eżlë nie dô wicy òbsłëgiwónëch dokùmentów."
+
+#~ msgid ""
+#~ "Reloads the selected documents from disk and closes the dialog if there "
+#~ "are no more unhandled documents."
+#~ msgstr ""
+#~ "Ladëjë znowa wrbróné dokùmentë z diskù ë zamëkô dialogòwé òkna eżlë nie "
+#~ "dô wicy òbsłëgiwónëch dokùmentów."
+
+#, fuzzy
+#~| msgid "Create a new document"
+#~ msgid "Cannot go to the document"
+#~ msgstr "Ùsôdzë nowi dokùment"
+
+#, fuzzy
+#~| msgid "Configure"
+#~ msgid "Configure Tree View"
+#~ msgstr "Kònfigùracëjô"
+
+#~ msgctxt "'document name [*]', [*] means modified"
+#~ msgid "%1 [*]"
+#~ msgstr "%1 [*]"
+
+#~ msgid "Projects"
+#~ msgstr "Projektë"
+
+#~ msgid "&Go"
+#~ msgstr "&Biéj"
+
+#, fuzzy
+#~| msgid "Save as &Default..."
+#~ msgid "Save Session as &Default..."
+#~ msgstr "Zapiszë j&akno domëslné"
+
+#, fuzzy
+#~| msgid "Plugins"
+#~ msgid "GDB Plugin"
+#~ msgstr "Wtëkôczë"
+
+#, fuzzy
+#~| msgid "General Options"
+#~ msgid "GDB Integration"
+#~ msgstr "Òglowé òptacëje"
+
+#, fuzzy
+#~| msgid "Tool &Views"
+#~ msgid "Debug View"
+#~ msgstr "&Wëzdrzatczi nôrzãdzów"
+
+#, fuzzy
+#~| msgid "Name"
+#~ msgid "Frame"
+#~ msgstr "Miono"
+
+#, fuzzy
+#~| msgid "Starting Up"
+#~ msgid "Start Debugging"
+#~ msgstr "Zrëszanié"
+
+#, fuzzy
+#~| msgid "Move To"
+#~ msgid "Move PC"
+#~ msgstr "Przeniesë do"
+
+#, fuzzy
+#~| msgid "Configure"
+#~ msgid "Continue"
+#~ msgstr "Kònfigùracëjô"
+
+#~ msgid "Document List Settings"
+#~ msgstr "Rëmanié lëstë dokùmentów"
+
+#, fuzzy
+#~| msgid "&Save Selected"
+#~ msgid "Close Selected"
+#~ msgstr "&Zapiszë wëbróné"
+
+#, fuzzy
+#~| msgid "&Save Selected"
+#~ msgid "Save Selected"
+#~ msgstr "&Zapiszë wëbróné"
+
+#, fuzzy
+#~ msgid "Save selected open documents."
+#~ msgstr "Zamkni wszëtczé dokùmentë"
+
+#~ msgid "Sort &By"
+#~ msgstr "Zortëjë we&dle"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Custom"
+#~ msgstr "Swòjé"
+
+#, fuzzy
+#~| msgid "Plugins"
+#~ msgid "Tabify Plugin"
+#~ msgstr "Wtëkôczë"
+
+#, fuzzy
+#~| msgid "Plugins"
+#~ msgid "TabifyPlugin"
+#~ msgstr "Wtëkôczë"
+
+#~ msgid "Filesystem Browser"
+#~ msgstr "Przezérnik systemë lopków"
+
+#~ msgid "&Open..."
+#~ msgstr "Ò&temkni..."
+
+#~ msgid "&Save"
+#~ msgstr "&Zapiszë"
+
+#~ msgid "Save &As..."
+#~ msgstr "Zapiszë j&akno..."
+
+#~ msgid "Only try to reuse kate instance with this pid"
+#~ msgstr "Spróbùjë ùżëc sesëji Kate blós z tim PID"
+
+#~ msgid "&Abort Closing"
+#~ msgstr "Niechôj z&amëkanié"
+
+#~ msgid "Behavior on Application Exit or Session Switch"
+#~ msgstr "Zachòwanié przë wińdzeniém z programë abò przë zmianié sesëji"
+
+#~ msgid "&Do not save session"
+#~ msgstr "&Nie zapisëjë sesëji"
+
+#~ msgid "&Ask user"
+#~ msgstr "&Pëtôj brëkòwnika"
+
+#~ msgid "Use a already running kate instance (if possible)"
+#~ msgstr "Ùżëjë ju zrëszoną sesëjã Kate (eżlë mòżlëwé)"
+
+#~ msgid "Save current session?"
+#~ msgstr "Zapisac biéżną sesëjã?"
+
+#~ msgid "Do not ask again"
+#~ msgstr "Nie pëtôj znowa"
+
+#~ msgid "&Window"
+#~ msgstr "Òkn&o"
+
+#~ msgid "File Selector"
+#~ msgstr "Wëbiérk lopków"
+
+#~ msgid "File Selector Settings"
+#~ msgstr "Rëmanié wëbiérkù lopków"
+
+#, fuzzy
+#~| msgid "Clear filter"
+#~ msgid "Search folders"
+#~ msgstr "Wëczëszczë filter"
+
+#, fuzzy
+#~| msgid "&Mime types:"
+#~ msgid "File types:"
+#~ msgstr "Ôrtë &MIME:"
+
+#, fuzzy
+#~ msgid "File"
+#~ msgstr "Lopczi:"
+
+#, fuzzy
+#~| msgid "&Mail..."
+#~ msgid "Load File..."
+#~ msgstr "&Wëslë"
+
+#, fuzzy
+#~| msgid "Find in Files"
+#~ msgid "Indexing files..."
+#~ msgstr "Nalezë w lopkach"
+
+#, fuzzy
+#~| msgid "Open File"
+#~ msgid "Opened file: %1"
+#~ msgstr "Òtemkni lopk"
+
+#, fuzzy
+#~ msgid "Start Kate (no arguments)"
+#~ msgstr "Zrëszë Kate z pòdaną sesëją"
+
+#, fuzzy
+#~ msgid "New Kate Session"
+#~ msgstr "Nowô sesëjô"
+
+#, fuzzy
+#~ msgid "New Anonymous Session"
+#~ msgstr "Nowô sesëjô"
+
+#, fuzzy
+#~ msgid "Reload Session List"
+#~ msgstr "Nowô sesëjô"
+
+#, fuzzy
+#~ msgid "Session exists"
+#~ msgstr "Sesëje"
+
+#~ msgid "Hide Path"
+#~ msgstr "Zatacë stegnã"
+
+#~ msgid "Hide %1"
+#~ msgstr "Zatacë %1"
+
+#~ msgid " NORM "
+#~ msgstr " NORM "
+
+#~ msgid "Folder:"
+#~ msgstr "Katalog:"
+
+#~ msgid "Case sensitive"
+#~ msgstr "Rozeznôwôj midzë wiôldżéma a môłëma lëterama"
+
+#~ msgid "Recursive"
+#~ msgstr "Rekùrencyjno"
+
+#, fuzzy
+#~ msgid "Files:"
+#~ msgstr "Lopczi:"
+
+#, fuzzy
+#~| msgid "Close the current document."
+#~ msgid "Use the current document's path."
+#~ msgstr "Zamkni biéżny dokùment."
+
+#~ msgid "Terminal"
+#~ msgstr "Kònsola"
+
+#~ msgid "&Pipe to Console"
+#~ msgstr "&Strëga do kònsolë"
+
+#~ msgid ""
+#~ "Do you really want to pipe the text to the console? This will execute any "
+#~ "contained commands with your user rights."
+#~ msgstr ""
+#~ "Pò prôwdze chcesz przekazac strëgą tekstu do kònsolë? Wszëtczé pòlétë w "
+#~ "nim zamkłé òstóną wëkònané z twòjima prawama brëkòwnika."
+
+#~ msgid "Pipe to Console?"
+#~ msgstr "Strëga do kònsolë?"
+
+#~ msgid "Pipe to Console"
+#~ msgstr "Strëga do kònsolë"
+
+#~ msgid ""
+#~ "<p>Enter the expression you want to search for here.<p>If 'regular "
+#~ "expression' is unchecked, any non-space letters in your expression will "
+#~ "be escaped with a backslash character.<p>Possible meta characters are:"
+#~ "<br><b>.</b> - Matches any character<br><b>^</b> - Matches the beginning "
+#~ "of a line<br><b>$</b> - Matches the end of a line<br><b>\\&lt;</b> - "
+#~ "Matches the beginning of a word<br><b>\\&gt;</b> - Matches the end of a "
+#~ "word<p>The following repetition operators exist:<br><b>?</b> - The "
+#~ "preceding item is matched at most once<br><b>*</b> - The preceding item "
+#~ "is matched zero or more times<br><b>+</b> - The preceding item is matched "
+#~ "one or more times<br><b>{<i>n</i>}</b> - The preceding item is matched "
+#~ "exactly <i>n</i> times<br><b>{<i>n</i>,}</b> - The preceding item is "
+#~ "matched <i>n</i> or more times<br><b>{,<i>n</i>}</b> - The preceding item "
+#~ "is matched at most <i>n</i> times<br><b>{<i>n</i>,<i>m</i>}</b> - The "
+#~ "preceding item is matched at least <i>n</i>, but at most <i>m</i> times."
+#~ "<p>Furthermore, backreferences to bracketed subexpressions are available "
+#~ "via the notation <code>\\#</code>.<p>See the grep(1) documentation for "
+#~ "the full documentation."
+#~ msgstr ""
+#~ "<p>Wpiszë szëkóny wësłów.<p> Jeżlë 'regùlarny wësłów' nie je òznaczony, "
+#~ "kòżdi znak jaczi nie je wòlnym rumã òstônie ùnikniãti backslashã."
+#~ "<p>Mòżlëwé òsoblëwé znaczi:<br><b>.</b> - pasëje do równo jaczégò "
+#~ "znakù<br><b>^</b> - pasëje do zôczątkù réżczi<br><b>$</b> - pasëje do "
+#~ "kùńca réżczi<br><b>\\&lt;</b> - pasëje do zôczątkù słowa<br><b>\\&gt;</b> "
+#~ "- pasëje do kùńca słowa<br><br>Przëstãpné òperatorë pòwtórzeniô:<br><b>?</"
+#~ "b> - Nôprzódny element pasëje nie wicy jakno rôz<br><b>*</b> - Nôprzódny "
+#~ "element pasëje zero abò wicy razë<br><b>+</b> - Nôprzódny element pasëje "
+#~ "przënômni rôz<br><b>{<i>n</i>}</b> - Nôprzódny element pasëje dokładno "
+#~ "<i>n</i> razë<br><b>{<i>n</i>,}</b> - Nôprzódny element pasëje <i>n</i> "
+#~ "abò wicy razë<br><b>{,<i>n</i>}</b> - Nôprzódny element pasëje nôwëżi "
+#~ "<i>n</i> razë<br><b>{<i>n</i>,<i>m</i>}</b> - Nôprzódny element pasëje "
+#~ "przënômni <i>n</i> razë,<br>   le nôwëżi <i>m</i> razë.<br><br>Króm tegò "
+#~ "òdwòłania do tëłu do elementów w klamrach<br>zapisëje sã w notacëji <code>"
+#~ "\\#</code>. <p>Fùlwôrtnô dokùmentacëjô w grep(1)."
+
+#~ msgid ""
+#~ "Enter the file name pattern of the files to search here.\n"
+#~ "You may give several patterns separated by commas."
+#~ msgstr ""
+#~ "Pòdôj mùster miona szëkanegò lopka.\n"
+#~ "Mòże pòdac wicy mùstrów, rozdzelonëch rozczidnikama."
+
+#~ msgid ""
+#~ "Enter the folder which contains the files in which you want to search."
+#~ msgstr "Pòdôj katalog zamëkający w se lopczi dlô szëkbë."
+
+#~ msgid "Check this box to search in all subfolders."
+#~ msgstr "Włączë nã òptacëjã, bë szëkac we wszëtczich pòdkatalogach."
+
+#~ msgid ""
+#~ "If this option is enabled (the default), the search will be case "
+#~ "sensitive."
+#~ msgstr ""
+#~ "Jeżlë òznaczoné (domëszlno), szëkba bãdze rozeznôwac midzë wiôldżima a "
+#~ "môłima lëterama."
+
+#~ msgid ""
+#~ "The results of the grep run are listed here. Select a\n"
+#~ "filename/line number combination and press Enter or doubleclick\n"
+#~ "on the item to show the respective line in the editor."
+#~ msgstr ""
+#~ "Wëskrzënioné są wińdzenia zrëszonegò pòletu 'grep'.\n"
+#~ "Wëbierzë sparłaczenié miona lopka/numere réżczi ë wcësni Enter abò\n"
+#~ "dwa razë klëkni na element lrstë, bë pòkôzac pasowną réżkã w editorze."
+
+#, fuzzy
+#~| msgid "Use this to close the current document"
+#~ msgid "Click to close the current search results."
+#~ msgstr "Brëkòwóné do zamëkaniô biéżnegò dokùmentu."
+
+#~ msgid "You must enter an existing local folder in the 'Folder' entry."
+#~ msgstr "Je nót pòdac môlowi katalog jaczi to ju dô, w pòlu 'Katalog'."
+
+#~ msgid "Invalid Folder"
+#~ msgstr "Lëchi katalog"
+
+#~ msgid ""
+#~ "<p>Here you can enter a path for a folder to display.<p>To go to a folder "
+#~ "previously entered, press the arrow on the right and choose one. <p>The "
+#~ "entry has folder completion. Right-click to choose how completion should "
+#~ "behave."
+#~ msgstr ""
+#~ "<p>Stegna do katalogù jaczi mô òstac wëskrzëniony.<p> Bë przeńc do "
+#~ "wczasni pòdónegò katalogù, sygnie wcësnąc na strzélkã z prawi starnie ë "
+#~ "wëbrac katalog. <p>Pòle wpisëwaniô katalogù òbsłużiwô aùtomatno "
+#~ "dofùlowanié pasownegò miona. Prawą knąpą mëszë mòże òznaczëc ôrt "
+#~ "dofùlowaniô."
+
+#~ msgid ""
+#~ "<p>Here you can enter a name filter to limit which files are displayed."
+#~ "<p>To clear the filter, toggle off the filter button to the left.<p>To "
+#~ "reapply the last filter used, toggle on the filter button."
+#~ msgstr ""
+#~ "<p>Plac na filter miona lopków, jaczé mają bëc wëskrzëniané. "
+#~ "<p>Wëłączenié knąpë z prawi starnë wëczësczë pòle filtera.<p>Włączenié "
+#~ "knąpë doprowôdzy nazôd slédno brëkòwóny filter."
+
+#~ msgid ""
+#~ "<p>This button clears the name filter when toggled off, or reapplies the "
+#~ "last filter used when toggled on."
+#~ msgstr ""
+#~ "<p>Knąpa czësczë pòle filtera (przë wëłączaniém) abò doprowôdzô nazôd "
+#~ "slédno wpisóny filter (przë włączaniém)."
+
+#~ msgid "Apply last filter (\"%1\")"
+#~ msgstr "Ùżëjë slédny filter (\"%1\")"
+
+#~ msgid "Toolbar"
+#~ msgstr "Lëstew nôrzãdzów"
+
+#~ msgid "A&vailable actions:"
+#~ msgstr "Pr&zëstãpné dzéjaniô:"
+
+#~ msgid "S&elected actions:"
+#~ msgstr "Wë&bróné dzéjaniô:"
+
+#~ msgid "Auto Synchronization"
+#~ msgstr "Aùtomatnô synchronizacëjô"
+
+#~ msgid "When a docu&ment becomes active"
+#~ msgstr "Przë aktiwacëji dokù&mentu"
+
+#~ msgid "When the file selector becomes visible"
+#~ msgstr "Jak wëbiérk lopka stôwô sã widzałi"
+
+#~ msgid "Remember &locations:"
+#~ msgstr "Spamiãtóné &lokalizacëje:"
+
+#~ msgid "Remember &filters:"
+#~ msgstr "Spamiãtóné &filtrë:"
+
+#~ msgid "Session"
+#~ msgstr "Sesëjô"
+
+#~ msgid "Restore loca&tion"
+#~ msgstr "&Doprowôdzë lokalizacëjã nazôd"
+
+#~ msgid "Restore last f&ilter"
+#~ msgstr "Doprowôdzë slédny filter nazôd"
+
+#~ msgid ""
+#~ "<p>Decides how many locations to keep in the history of the location "
+#~ "combo box."
+#~ msgstr ""
+#~ "<p>Òznôczô jak wiele lokalizacëjów nachôdô sã w lësce lokalizacëjów."
+
+#~ msgid ""
+#~ "<p>Decides how many filters to keep in the history of the filter combo "
+#~ "box."
+#~ msgstr ""
+#~ "<p>Òznôczô jak wiele filterów nachôdô sã w lësce historëji pòla filtera."
+
+#~ msgid ""
+#~ "<p>These options allow you to have the File Selector automatically change "
+#~ "location to the folder of the active document on certain events.<p>Auto "
+#~ "synchronization is <em>lazy</em>, meaning it will not take effect until "
+#~ "the file selector is visible.<p>None of these are enabled by default, but "
+#~ "you can always sync the location by pressing the sync button in the "
+#~ "toolbar."
+#~ msgstr ""
+#~ "<p>Ne òptacëje zezwôlają na aùtomatną zmianã lokalizacëji na katalog w "
+#~ "jaczim je aktiwny dokùment, przë różnëch przëtrôfkach. <p>Automatnô "
+#~ "synchronizacëjô dzéjô wedle reglë <em>nôpózdzé jakno to mòżlëwé </em>, co "
+#~ "òznôczô tëli, żé bãdze ùsôdzonô dopiérze jak sektor lopków bãdze widzałi. "
+#~ "<p>Ne òptacëje są domëslno wëłączoné, le mòże téż synchronizowac katalog "
+#~ "dzãka knąpie na lëstwie nôrzãdzów."
+
+#~ msgid ""
+#~ "<p>If this option is enabled (default), the location will be restored "
+#~ "when you start Kate.<p><strong>Note</strong> that if the session is "
+#~ "handled by the KDE session manager, the location is always restored."
+#~ msgstr ""
+#~ "<p>Jeżlë na òptacëjô je włączonô (domëslno), to lokalizacëjô òstónié "
+#~ "òdzwëskanô przë zrëszaniô Kate. <p><strong>Bôczënk</strong> Jeżlë aktiwnô "
+#~ "je Menedżera sesëji KDE, to lokalizacëjô je ë tak òdzwëskiwónô."
+
+#~ msgid ""
+#~ "<p>If this option is enabled (default), the current filter will be "
+#~ "restored when you start Kate.<p><strong>Note</strong> that if the session "
+#~ "is handled by the KDE session manager, the filter is always restored."
+#~ "<p><strong>Note</strong> that some of the autosync settings may override "
+#~ "the restored location if on."
+#~ msgstr ""
+#~ "<p>Jeżlë na òptacëjô je włączonô (domëslno), to biéżny filter òstónié "
+#~ "òdzwëskóny przë zrëszaniô Kate. <p> <strong>Bôczënk</strong> Jeżlë "
+#~ "aktiwny je Menedżer sesëji KDE, to filter je ë tak òdzwëskiwóny. <p> "
+#~ "<strong>Bôczënk</strong> Niejedné nastôwë automatny synchronizacëji mògą "
+#~ "nôdpisac òdzwëskóną lokalizacëjã."
+
+#, fuzzy
+#~ msgid "Document Quick Switch"
+#~ msgstr "Lësta dokùmentów"
+
+#~ msgid "Failed to expand the command '%1'."
+#~ msgstr "Rozwiniãcé pòlétu '%1' nie darzeło sã."
+
+#~ msgid "Kate External Tools"
+#~ msgstr "Bùtnowé nôrzãdza Kate"
+
+#~ msgid "Edit External Tool"
+#~ msgstr "Editëjë bùtnowé nôrzãdza"
+
+#~ msgid "&Label:"
+#~ msgstr "&Miono:"
+
+#~ msgid "The name will be displayed in the 'Tools->External' menu"
+#~ msgstr "Miono wëskrzëni sã w menu 'Nôrzãdza->Bùtnowé'"
+
+#~ msgid "S&cript:"
+#~ msgstr "Skri&pt:"
+
+#~ msgid ""
+#~ "<p>The script to execute to invoke the tool. The script is passed to /bin/"
+#~ "sh for execution. The following macros will be expanded:</p><ul><li><code>"
+#~ "%URL</code> - the URL of the current document.<li><code>%URLs</code> - a "
+#~ "list of the URLs of all open documents.<li><code>%directory</code> - the "
+#~ "URL of the directory containing the current document.<li><code>%filename</"
+#~ "code> - the filename of the current document.<li><code>%line</code> - the "
+#~ "current line of the text cursor in the current view.<li><code>%column</"
+#~ "code> - the column of the text cursor in the current view.<li><code>"
+#~ "%selection</code> - the selected text in the current view.<li><code>"
+#~ "%text</code> - the text of the current document.</ul>"
+#~ msgstr ""
+#~ "<p>Skript zrëszający bùtnowé nôrzãdze. Skript je przesłóny do /bin/sh. Je "
+#~ "mòżno ùżëc nôslédnych makro:</p><ul><li><code>%URL</code> - URL biéżnegò "
+#~ "dokùmentu.<li><code>%URLs</code> - lësta URL- ë wszëtczich òtemkłëch "
+#~ "dokùmentów.<li><code>%directory</code> - URL katalogù zamëkającëch w se "
+#~ "biéżny dokùment.<li><code>%filename</code> - miono lopka biéżnegò "
+#~ "dokùmentu.<li><code>%line</code> - numer réżczi w jaczi je kùrsor w "
+#~ "biéżnym wëzdrzatkù.<li><code>%column</code> - numer szpaltë w jaczi je "
+#~ "kùrsor w aktualnym wëzdrzatkù.<li><code>%selection</code> -òznaczony "
+#~ "tekst w biéżnym wëzdrzatkù.<li><code>%text</code> - tekst biéżnegò "
+#~ "dokùmentu.</ul>"
+
+#~ msgid "&Executable:"
+#~ msgstr "&Wëkònëwólny lopk:"
+
+#~ msgid ""
+#~ "The executable used by the command. This is used to check if a tool "
+#~ "should be displayed; if not set, the first word of <em>command</em> will "
+#~ "be used."
+#~ msgstr ""
+#~ "Wëkònëwólny lopk ùżëti w pòléce. Na nen ôrt bãdze sprôwdzoné, czë "
+#~ "programa mô òstac pòkôzanô, eżlë nie òstało nick wëbróné, ùżëté bãdze "
+#~ "pierszé słowò <em>pòlétu</em>."
+
+#~ msgid ""
+#~ "A semicolon-separated list of mime types for which this tool should be "
+#~ "available; if this is left empty, the tool is always available. To choose "
+#~ "from known mimetypes, press the button on the right."
+#~ msgstr ""
+#~ "Rozdzelonô przeczidnikama lësta ôrtów MIME, dlô jaczich nôrzãdze mùszało "
+#~ "bë bëc przëstãpné. Jeżlë òstôwioné pùsté, nôrzãdze bãdze wiedno "
+#~ "przëstãpné. Bë wëbrac ôrt znaków MIME wcësni knąpã z prawi."
+
+#~ msgid "Click for a dialog that can help you creating a list of mimetypes."
+#~ msgstr "Klëkni bë òbôczëc òczénkò pòmôgôjącé ùsôdzëc lëstã ôrtów MIME."
+
+#~ msgid "&Save:"
+#~ msgstr "&Zapiszë:"
+
+#~ msgid "All Documents"
+#~ msgstr "Wszëtczé dokùmentë"
+
+#~ msgid ""
+#~ "You can elect to save the current or all [modified] documents prior to "
+#~ "running the command. This is helpful if you want to pass URLs to an "
+#~ "application like, for example, an FTP client."
+#~ msgstr ""
+#~ "Mòżesz wëbrac zôpisanié biéżnegò abò wszëtczich (zjinaczonëch) dokùmentów "
+#~ "przed zrëszeniém pòléta. Je to pòmòcné eżlë chcesz przekazac URL-e do "
+#~ "programë jakno n.p. klient FTP."
+
+#~ msgid "&Command line name:"
+#~ msgstr "Miono réżczi pòlét&ów:"
+
+#~ msgid ""
+#~ "If you specify a name here, you can invoke the command from the view "
+#~ "command lines with exttool-the_name_you_specified_here. Please do not use "
+#~ "spaces or tabs in the name."
+#~ msgstr ""
+#~ "Jeżlë pòdôsz tuwò miono, bãdzesz miôł mòżnotã zrëszaniô tegò pòléta z "
+#~ "réżczi pòlétów wëzdrzatków przez exttool-miono_jaczé_të_pòdôł. Proszã nie "
+#~ "brëkòwac w miono ruma czë tabsów."
+
+#~ msgid "You must specify at least a name and a command"
+#~ msgstr "Mùszisz òznaczëc przënômni miono ë pòlét"
+
+#~ msgid "Select the MimeTypes for which to enable this tool."
+#~ msgstr "Wëbierzë ôrtë MIME dlô jaczich òstónie włączoné to nôrzãdze"
+
+#~ msgid "Select Mime Types"
+#~ msgstr "Wëbierzë ôrt MIME"
+
+#~ msgid "&Edit..."
+#~ msgstr "&Editëjë..."
+
+#~ msgid "Insert &Separator"
+#~ msgstr "Wstôwi &rozdzelôcz"
+
+#~ msgid ""
+#~ "This list shows all the configured tools, represented by their menu text."
+#~ msgstr ""
+#~ "Lësta pòkazëwô wszëtczé skònfigùrowóné nôrzãdza, przedstôwióné wedle jich "
+#~ "tekstowégò menu"
+
+#~ msgid "Send one or more of the open documents as email attachments."
+#~ msgstr "Wësli jeden abò cziles dokùmentów pòcztą jakno przëdôwk."
+
+#~ msgid ""
+#~ "<p>The current document has not been saved, and cannot be attached to an "
+#~ "email message.<p>Do you want to save it and proceed?"
+#~ msgstr ""
+#~ "<p>Biéżny dokùment nie òstôł zapisóny ë nié mòże òstac przëdóny do e-"
+#~ "mailowégò wiadła.<p>Chcesz gò zapisac ë jisc dali?"
+
+#~ msgid "Cannot Send Unsaved File"
+#~ msgstr "Nie je mòżno wësłac niezapisónëch lopków"
+
+#~ msgid ""
+#~ "The file could not be saved. Please check if you have write permission."
+#~ msgstr ""
+#~ "Nen lopk nie mòże òstac zapisóny. Ùgwësni sã, czë môsz prawò do zôpisu "
+#~ "tegò lopka."
+
+#~ msgid ""
+#~ "<p>The current file:<br><strong>%1</strong><br>has been modified. "
+#~ "Modifications will not be available in the attachment.<p>Do you want to "
+#~ "save it before sending it?"
+#~ msgstr ""
+#~ "<p>Biéżny lopk<br><strong>%1</strong><br>òstôł zmieniony. Zmianów nie "
+#~ "bãdze widzec w przëdôwkù. <p>Chcesz zapisac zmianë przed wësłaniém?"
+
+#~ msgid "Save Before Sending?"
+#~ msgstr "Zapisac przes wësłaniém?"
+
+#~ msgid "Email Files"
+#~ msgstr "Wëslë lopk/lopczi e-mailą"
+
+#~ msgid ""
+#~ "<p>Press <strong>Mail...</strong> to email the current document.<p>To "
+#~ "select more documents to send, press <strong>Show All Documents&nbsp;&gt;"
+#~ "&gt;</strong>."
+#~ msgstr ""
+#~ "<p>Wcësni knąpã <strong>Wëslë...</strong>, bë wësłac pòcztą biéżny "
+#~ "dokùment.<p>Bë wëbrac wicy lopków do wësłaniô wcësni <strong>Pòkôżé "
+#~ "wszëtczé dokùmentë&nbsp;&gt;&gt;</strong>."
+
+#~ msgid "&Hide Document List <<"
+#~ msgstr "&Zatacë lëstã dokùmentów <<"
+
+#~ msgid "Press <strong>Mail...</strong> to send selected documents"
+#~ msgstr ""
+#~ "Wcësni <strong>Wëslë...</strong>, bë wësłac pòcztą wëbróné dokùmentë"
