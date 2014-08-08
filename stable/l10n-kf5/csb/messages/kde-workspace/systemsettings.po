@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-07 08:44+0000\n"
+"POT-Creation-Date: 2014-08-08 09:23+0000\n"
 "PO-Revision-Date: 2009-12-12 12:21+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -28,6 +28,16 @@ msgstr "Michôł Òstrowsczi,Mark Kwidzińsczi"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "michol@linuxcsb.org,mark@linuxcsb.org"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GbViewStyle)
+#: app/configDialog.ui:17
+msgid "View Style"
+msgstr "Sztél wëzdrzatkù"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ChTooltips)
+#: app/configDialog.ui:24
+msgid "Show detailed tooltips"
+msgstr "Pòkażë pòdpòwiescë z detalama"
 
 #: app/main.cpp:38 app/SettingsBase.cpp:55 classic/CategoryList.cpp:38
 msgid "System Settings"
@@ -116,6 +126,21 @@ msgstr "Ò biéżnym wëzdrzatków"
 msgid "About %1"
 msgstr "Ò %1"
 
+#. i18n: ectx: label, entry (ShowToolTips), group (Main)
+#: app/systemsettings.kcfg:9
+msgid "Determines whether detailed tooltips should be used"
+msgstr "Przë włączonyn bãdą wëskrzënioné pòdpòwiescë z detalama"
+
+#. i18n: ectx: label, entry (ActiveView), group (Main)
+#: app/systemsettings.kcfg:13
+msgid "Internal name for the view used"
+msgstr "Bënowé miono brëkòwónegò wëzdrzatka"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: app/systemsettingsui.rc:16
+msgid "About System Settings"
+msgstr "Ò Systemòwëch nastôwch"
+
 #: app/ToolTips/tooltipmanager.cpp:227
 #, kde-format
 msgid "<i>Contains 1 item</i>"
@@ -148,6 +173,11 @@ msgstr "Dôwô klasykòwi wëzdrzatk drzewa dlô kòntrolowónëch mòdułów."
 msgid "Author"
 msgstr "Ùsôdzca"
 
+#. i18n: ectx: property (text), widget (QCheckBox, CbExpand)
+#: classic/configClassic.ui:17
+msgid "Expand the first level automatically"
+msgstr "Rozłożë pierszą légã aùtomatno"
+
 #: core/ExternalAppModule.cpp:34
 #, kde-format
 msgid "%1 is an external application and has been automatically launched"
@@ -157,6 +187,11 @@ msgstr "%1 je bùtnową aplikacëją ë òsta aùtomatno zrëszonô"
 #, kde-format
 msgid "Relaunch %1"
 msgstr "Zrëszë znowa %1"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ExternalModule)
+#: core/externalModule.ui:14
+msgid "Dialog"
+msgstr "Dialog"
 
 #: core/ModuleView.cpp:85
 msgid "Reset all current changes to previous values"
@@ -190,27 +225,6 @@ msgstr "Pòdzérk"
 #, kde-format
 msgid "Keyboard Shortcut: %1"
 msgstr "Klawiaturowô skrodzëna: %1"
-
-#~ msgid "View Style"
-#~ msgstr "Sztél wëzdrzatkù"
-
-#~ msgid "Show detailed tooltips"
-#~ msgstr "Pòkażë pòdpòwiescë z detalama"
-
-#~ msgid "Determines whether detailed tooltips should be used"
-#~ msgstr "Przë włączonyn bãdą wëskrzënioné pòdpòwiescë z detalama"
-
-#~ msgid "Internal name for the view used"
-#~ msgstr "Bënowé miono brëkòwónegò wëzdrzatka"
-
-#~ msgid "About System Settings"
-#~ msgstr "Ò Systemòwëch nastôwch"
-
-#~ msgid "Expand the first level automatically"
-#~ msgstr "Rozłożë pierszą légã aùtomatno"
-
-#~ msgid "Dialog"
-#~ msgstr "Dialog"
 
 #~ msgid ""
 #~ "Below you can select your preferred style for viewing System Settings"
