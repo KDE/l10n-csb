@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-10-13 08:02+0000\n"
+"POT-Creation-Date: 2014-10-14 10:42+0000\n"
 "PO-Revision-Date: 2009-12-15 23:20+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -309,7 +309,7 @@ msgstr "Kréz"
 #. i18n: ectx: property (title), widget (QGroupBox, titleFrame)
 #: SensorDisplayLib/DancingBarsSettings.cpp:56
 #: SensorDisplayLib/ListViewSettingsWidget.ui:16
-#: SensorDisplayLib/SensorLoggerSettingsWidget.ui:16 WorkSheetSettings.cpp:49
+#: SensorDisplayLib/SensorLoggerSettingsWidget.ui:16 WorkSheetSettings.cpp:60
 msgid "Title"
 msgstr "Titel"
 
@@ -962,7 +962,7 @@ msgstr "Sztoper"
 
 #. i18n: ectx: property (suffix), widget (KIntNumInput, m_timerInterval)
 #: SensorDisplayLib/SensorLoggerDlgWidget.ui:49 TimerSettings.cpp:57
-#: WorkSheetSettings.cpp:93
+#: WorkSheetSettings.cpp:104
 msgid " sec"
 msgstr " sekùnda"
 
@@ -1045,11 +1045,11 @@ msgstr "Nastôwë sekùndnika"
 msgid "Use update interval of worksheet"
 msgstr "Brëkùjë rozstãpù midze òdswiéżaniém robòczy bòdżi"
 
-#: TimerSettings.cpp:50 WorkSheetSettings.cpp:89
+#: TimerSettings.cpp:50 WorkSheetSettings.cpp:100
 msgid "Update interval:"
 msgstr "Rozstãp midze òdswiéżaniém:"
 
-#: TimerSettings.cpp:60 WorkSheetSettings.cpp:99
+#: TimerSettings.cpp:60 WorkSheetSettings.cpp:110
 msgid "All displays of the sheet are updated at the rate specified here."
 msgstr ""
 "Wszëtczé ùzérôczë na ti bòdżi są aktalnioné z òtaksowóną tu czãstotlëwòtą."
@@ -1119,40 +1119,40 @@ msgstr "Rëmôj pòdzérk"
 msgid "Dummy"
 msgstr "Domëslny"
 
-#: WorkSheetSettings.cpp:39
+#: WorkSheetSettings.cpp:42
 msgid "Tab Properties"
 msgstr "Swòjiznë kôrtë"
 
-#: WorkSheetSettings.cpp:60
+#: WorkSheetSettings.cpp:71
 msgid "Properties"
 msgstr "Swòjiznë"
 
-#: WorkSheetSettings.cpp:69
+#: WorkSheetSettings.cpp:80
 msgid "Rows:"
 msgstr "Rézë:"
 
-#: WorkSheetSettings.cpp:78
+#: WorkSheetSettings.cpp:89
 msgid "Columns:"
 msgstr "Kòlumnë:"
 
-#: WorkSheetSettings.cpp:86
+#: WorkSheetSettings.cpp:97
 msgid "Enter the number of rows the sheet should have."
 msgstr "Wprowadzë lëczbã rézów, jaczé bë mùszałe nalezc sã w bòdze."
 
-#: WorkSheetSettings.cpp:87
+#: WorkSheetSettings.cpp:98
 msgid "Enter the number of columns the sheet should have."
 msgstr "Wprowadzë lëczbã kòlumnów, jaczé bë mùszałe nalezc sã w bòdze."
 
-#: WorkSheetSettings.cpp:100
+#: WorkSheetSettings.cpp:111
 msgid "Enter the title of the worksheet here."
 msgstr "Wprowadzë w tim môlu titel bòdżi."
 
-#: Workspace.cpp:113
+#: Workspace.cpp:114
 #, kde-format
 msgid "Sheet %1"
 msgstr "Bòga %1"
 
-#: Workspace.cpp:172
+#: Workspace.cpp:173
 #, kde-format
 msgid ""
 "The tab '%1' contains unsaved data.\n"
@@ -1161,27 +1161,27 @@ msgstr ""
 "Kôrta '%1' zamëkô w se niezapisóné pòdôwczi.\n"
 "Chcesz je zapisac?"
 
-#: Workspace.cpp:187
+#: Workspace.cpp:188
 msgid "*.sgrd|Sensor Files (*.sgrd)"
 msgstr "*.sgrd|Lopk ùzérôcza (*.sgrd)"
 
-#: Workspace.cpp:187
+#: Workspace.cpp:188
 msgid "Select Tab File to Import"
 msgstr "Wëbierzë lopk kôrtë do impòrtowaniô "
 
-#: Workspace.cpp:215 Workspace.cpp:236
+#: Workspace.cpp:216 Workspace.cpp:237
 msgid "You do not have a tab that could be saved."
 msgstr "Ni môsz kôrtë, jakô bë mògła bëc zapisónô."
 
-#: Workspace.cpp:243
+#: Workspace.cpp:244
 msgid "Export Tab"
 msgstr "Ekspòrtëjë kôrtã"
 
-#: Workspace.cpp:261
+#: Workspace.cpp:262
 msgid "There are no tabs that could be deleted."
 msgstr "Ni môsz kôrtë, jaką mòże rëmnąc."
 
-#: Workspace.cpp:301
+#: Workspace.cpp:302
 #, kde-format
 msgid ""
 "<qt>To propose the current custom tab as a new System Monitor tab, email "
@@ -1194,7 +1194,7 @@ msgstr ""
 "org?subject='System Monitor Tab'&attach='file://%2'\">john.tapsell@kde.org</"
 "a></qt>"
 
-#: Workspace.cpp:301
+#: Workspace.cpp:302
 msgid "Upload custom System Monitor tab"
 msgstr "Dodôj swòją kôrtã Mònitora systemë"
 
