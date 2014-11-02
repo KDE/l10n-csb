@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-01 08:15+0000\n"
+"POT-Creation-Date: 2014-11-02 20:56+0000\n"
 "PO-Revision-Date: 2009-06-29 20:35+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -5784,7 +5784,7 @@ msgstr "%1 (%2)"
 msgid "Open file dialog"
 msgstr ""
 
-#: widgets/paste.cpp:79 widgets/paste.cpp:148
+#: widgets/paste.cpp:79 widgets/paste.cpp:148 widgets/pastejob.cpp:108
 msgid "Filename for clipboard content:"
 msgstr "Miono lopka dlô zamkłoscë tacnika:"
 
@@ -5822,7 +5822,7 @@ msgstr[2] "&Wlepi %1 URL-ów"
 msgid "&Paste Clipboard Contents"
 msgstr "&Wlepi zamkłosc tacnika"
 
-#: widgets/paste.cpp:317
+#: widgets/paste.cpp:320
 #, fuzzy
 #| msgid "One Folder"
 #| msgid_plural "%1 Folders"
@@ -5830,7 +5830,7 @@ msgctxt "@action:inmenu"
 msgid "Paste One Folder"
 msgstr "Jeden katalog"
 
-#: widgets/paste.cpp:318
+#: widgets/paste.cpp:321
 #, fuzzy
 #| msgid "&Paste File"
 #| msgid_plural "&Paste %1 Files"
@@ -5838,7 +5838,7 @@ msgctxt "@action:inmenu"
 msgid "Paste One File"
 msgstr "&Wlepi lopk"
 
-#: widgets/paste.cpp:320
+#: widgets/paste.cpp:323
 #, fuzzy, kde-format
 #| msgid "One Item"
 #| msgid_plural "%1 Items"
@@ -5849,14 +5849,14 @@ msgstr[0] "Jeden element"
 msgstr[1] "%1 elementë"
 msgstr[2] "%1 elementów"
 
-#: widgets/paste.cpp:322
+#: widgets/paste.cpp:325
 #, fuzzy
 #| msgid "&Paste Clipboard Contents"
 msgctxt "@action:inmenu"
 msgid "Paste Clipboard Contents..."
 msgstr "&Wlepi zamkłosc tacnika"
 
-#: widgets/paste.cpp:326
+#: widgets/paste.cpp:329
 #, fuzzy
 #| msgid "Paste"
 msgctxt "@action:inmenu"
@@ -5866,6 +5866,12 @@ msgstr "Wlepi"
 #: widgets/pastedialog.cpp:57
 msgid "Data format:"
 msgstr "Fòrmat pòdôwków:"
+
+#: widgets/pastejob.cpp:108
+#, fuzzy
+#| msgid "Filename for clipboard content:"
+msgid "Filename for dropped contents:"
+msgstr "Miono lopka dlô zamkłoscë tacnika:"
 
 #: widgets/renamedialog.cpp:134
 msgid "Appl&y to All"
