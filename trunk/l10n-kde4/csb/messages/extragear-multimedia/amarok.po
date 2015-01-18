@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-23 01:55+0000\n"
+"POT-Creation-Date: 2015-01-18 01:48+0000\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -357,7 +357,7 @@ msgid "Stop after current track: On"
 msgstr "Achtnij biéżny sztëczk"
 
 #: ActionClasses.cpp:493 context/engines/current/CurrentEngine.cpp:143
-#: EngineController.cpp:1326 mac/GrowlInterface.cpp:43 widgets/Osd.cpp:669
+#: EngineController.cpp:1322 mac/GrowlInterface.cpp:43 widgets/Osd.cpp:669
 msgid "No track playing"
 msgstr "Nick nie je gróné"
 
@@ -1621,7 +1621,7 @@ msgstr "Lubòtny"
 msgid "Bookmark Track Position"
 msgstr "Załóżczi"
 
-#: amarokurls/PlayUrlRunner.cpp:85
+#: amarokurls/PlayUrlRunner.cpp:86
 #, fuzzy
 #| msgctxt "state, as in playing"
 #| msgid "Play"
@@ -1630,100 +1630,96 @@ msgctxt ""
 msgid "Play"
 msgstr "Grónié"
 
-#: App.cpp:359
+#: App.cpp:356
 msgid "Files/URLs to open"
 msgstr "Lopczi/adresë do òtemkniãcô"
 
-#: App.cpp:360
+#: App.cpp:357
 msgid "Immediately start playing an audio cd"
 msgstr ""
 
-#: App.cpp:362
+#: App.cpp:359
 msgid "Skip backwards in playlist"
 msgstr "Skóknié dowslôdë na lësce graniô"
 
-#: App.cpp:364
+#: App.cpp:361
 msgid "Start playing current playlist"
 msgstr "Naczni òdgrëwac biéżną lëstã"
 
-#: App.cpp:366
+#: App.cpp:363
 msgid "Play if stopped, pause if playing"
 msgstr "Grôj czedë zatrzëmóné, zatrzëmôj czedë gróné"
 
-#: App.cpp:367
+#: App.cpp:364
 msgid "Pause playback"
 msgstr "Paùzëjë grónié"
 
-#: App.cpp:369
+#: App.cpp:366
 msgid "Stop playback"
 msgstr "Zakùńczë grónié"
 
-#: App.cpp:371
+#: App.cpp:368
 msgid "Skip forwards in playlist"
 msgstr "Skóknié w przódk na lësce graniô"
 
-#: App.cpp:372
+#: App.cpp:369
 msgid "Additional options:"
 msgstr "Dodôwné òptacëje:"
 
-#: App.cpp:374
+#: App.cpp:371
 msgid "Append files/URLs to playlist"
 msgstr "Dodôj lopczi/adresë URL do lëstë graniô"
 
-#: App.cpp:375
+#: App.cpp:372
 msgid "Queue URLs after the currently playing track"
 msgstr "Ùstawi adresë URL w réze za biéżnym sztëczkã"
 
-#: App.cpp:377
+#: App.cpp:374
 msgid "Load URLs, replacing current playlist"
 msgstr "Ladëjë URL-ë, pòdmieniającë biéżną lëstã graniô"
 
-#: App.cpp:379
+#: App.cpp:376
 msgid "Print verbose debugging information"
 msgstr "Wëdrëkùjë wëdowiédzã ò przebiégù procesu"
 
-#: App.cpp:380
+#: App.cpp:377
 #, fuzzy
 #| msgid "Print verbose debugging information"
 msgid "Print verbose debugging information from the audio system"
 msgstr "Wëdrëkùjë wëdowiédzã ò przebiégù procesu"
 
-#: App.cpp:382
+#: App.cpp:379
 msgid "Disable colorization for debug output."
 msgstr ""
 
-#: App.cpp:384
+#: App.cpp:381
 msgid "Allow running multiple Amarok instances"
 msgstr ""
 
-#: App.cpp:385
+#: App.cpp:382
 msgid "Base for relative filenames/URLs"
 msgstr "Baza dlô wzglãdnëch mionów lopków/adresów URL"
 
-#: App.cpp:518
+#: App.cpp:502 configdialog/dialogs/DatabaseConfig.cpp:109
+#, kde-format
 msgid ""
-"The embedded database was not found; you must set up a database server "
-"connection.\n"
-"You must restart Amarok after doing this."
+"The amarok database reported the following errors:\n"
+"%1\n"
+"In most cases you will need to resolve these errors before Amarok will run "
+"properly."
 msgstr ""
 
-#: App.cpp:519
-msgid ""
-"The connection details for the database server were invalid.\n"
-"You must enter correct settings and restart Amarok after doing this."
-msgstr ""
-
-#: App.cpp:520
+#: App.cpp:506 configdialog/dialogs/DatabaseConfig.cpp:113
 #, fuzzy
 #| msgid "Database:"
 msgid "Database Error"
 msgstr "Baza pòdôwków:"
 
-#: App.cpp:565
+#: App.cpp:551
 msgid "Moving files to trash"
 msgstr ""
 
-#: App.cpp:632
+#: App.cpp:618
 #, kde-format
 msgid ""
 "A music path, %1, is set in System Settings.\n"
@@ -1834,7 +1830,7 @@ msgid "Merged View"
 msgstr ""
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:274
-#: services/jamendo/JamendoService.cpp:160
+#: services/jamendo/JamendoService.cpp:167
 #: services/magnatune/MagnatuneStore.cpp:233
 msgid "Sort Options"
 msgstr "Zortëjë òptacëje"
@@ -2742,7 +2738,30 @@ msgstr ""
 msgid "Transcode tracks:"
 msgstr "Dodôj do lëstë graniô"
 
-#: configdialog/dialogs/DatabaseConfig.cpp:93
+#: configdialog/dialogs/DatabaseConfig.cpp:106
+msgid "Amarok was able to connect succesfull to the database."
+msgstr ""
+
+#: configdialog/dialogs/DatabaseConfig.cpp:107
+#, fuzzy
+#| msgctxt "The operation completed as expected"
+#| msgid "Success"
+msgid "Success"
+msgstr "Sukces"
+
+#: configdialog/dialogs/DatabaseConfig.cpp:139
+msgid ""
+"Changes to database settings only take\n"
+"effect after Amarok is restarted."
+msgstr ""
+
+#: configdialog/dialogs/DatabaseConfig.cpp:140
+#, fuzzy
+#| msgid "Rating changed"
+msgid "Database settings changed"
+msgstr "Notowanié zmienioné"
+
+#: configdialog/dialogs/DatabaseConfig.cpp:159
 #, fuzzy
 #| msgid "Password"
 msgctxt ""
@@ -2837,16 +2856,23 @@ msgstr "Baza pòdôwków:"
 msgid "Enter the name of the database. Default preset is amarokdb.\n"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QPushButton, button_Test)
+#: configdialog/dialogs/DatabaseConfig.ui:188
+#, fuzzy
+#| msgid "Database Location"
+msgid "Test database connection"
+msgstr "Môl bazë pòdôwków"
+
 #. i18n: ectx: property (text), widget (QLabel, label_Info)
-#: configdialog/dialogs/DatabaseConfig.ui:199
+#: configdialog/dialogs/DatabaseConfig.ui:206
 msgid ""
 "Amarok expects the above database and user account to already exist. This "
-"user also requires full access to the database. You MUST restart Amarok "
-"after changing these settings."
+"user also requires full access to the database. Changes only take effect "
+"after Amarok is restarted."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_SQL)
-#: configdialog/dialogs/DatabaseConfig.ui:209
+#: configdialog/dialogs/DatabaseConfig.ui:216
 msgid ""
 "If your database is not already set up, you can use the following S&QL "
 "commands (after replacing the password with the correct one):"
@@ -5377,26 +5403,17 @@ msgstr ""
 msgid "Music share at %1"
 msgstr "Wespółdzélonô mùzyka na %1"
 
-#: core-impl/collections/db/sql/SqlCollection.cpp:239
+#: core-impl/collections/db/sql/SqlCollection.cpp:238
 msgid ""
 "Updating Amarok database schema. Please don't terminate Amarok now as it may "
 "result in database corruption."
 msgstr ""
 
-#: core-impl/collections/db/sql/SqlCollection.cpp:243
+#: core-impl/collections/db/sql/SqlCollection.cpp:242
 #, fuzzy
 #| msgid "Add to Database"
 msgid "Updating Amarok database schema"
 msgstr "Dodôj do bazë pòdôwków"
-
-#: core-impl/collections/db/sql/SqlCollection.cpp:284
-#, kde-format
-msgid ""
-"The amarok database reported the following errors:\n"
-"%1\n"
-"In most cases you will need to resolve these errors before Amarok will run "
-"properly."
-msgstr ""
 
 #: core-impl/collections/db/sql/SqlCollectionLocation.cpp:527
 #, kde-format
@@ -5511,7 +5528,7 @@ msgstr "Kòlekcëjô"
 
 #: core-impl/collections/ipodcollection/IpodMeta.cpp:183
 #: core-impl/collections/mediadevicecollection/MediaDeviceMeta.cpp:93
-#: EngineController.cpp:1304
+#: EngineController.cpp:1300
 msgid "Unknown track"
 msgstr "Nieznóny sztëczk"
 
@@ -6056,7 +6073,7 @@ msgid ""
 "loaded unless Nepomuk is enabled."
 msgstr ""
 
-#: core-impl/collections/playdarcollection/PlaydarCollection.cpp:125
+#: core-impl/collections/playdarcollection/PlaydarCollection.cpp:126
 #, fuzzy
 #| msgid "Proxy Collection"
 msgid "Playdar Collection"
@@ -6583,7 +6600,7 @@ msgstr[0] "Elementë"
 msgstr[1] "Elementë"
 msgstr[2] "Elementë"
 
-#: core-impl/podcasts/sql/SqlPodcastMeta.cpp:425
+#: core-impl/podcasts/sql/SqlPodcastMeta.cpp:429
 #: core/podcasts/PodcastMeta.h:382
 msgid "Podcast"
 msgstr "Podcast"
@@ -6813,6 +6830,10 @@ msgid ""
 "When a podcast channel is added <base directory>/<channel name> is used as "
 "the download directory.\n"
 "This can be changed for each channel individually."
+msgstr ""
+
+#: core-impl/storage/StorageManager.cpp:167
+msgid "The configured database plugin could be loaded."
 msgstr ""
 
 #: core/collections/CollectionLocation.cpp:380
@@ -8753,21 +8774,21 @@ msgstr "&Statisticzi"
 msgid "Copy to Clipboard"
 msgstr "Kòpiérëjë do kòlekcëji"
 
-#: dialogs/DiagnosticDialog.cpp:107
+#: dialogs/DiagnosticDialog.cpp:108
 #, fuzzy
 #| msgid "Yes"
 msgctxt "Usage"
 msgid "Yes"
 msgstr "Jo"
 
-#: dialogs/DiagnosticDialog.cpp:107
+#: dialogs/DiagnosticDialog.cpp:108
 #, fuzzy
 #| msgid "No"
 msgctxt "Usage"
 msgid "No"
 msgstr "Nié"
 
-#: dialogs/DiagnosticDialog.cpp:110
+#: dialogs/DiagnosticDialog.cpp:111
 #, kde-format
 msgid ""
 "%1 Diagnostics\n"
@@ -8782,7 +8803,7 @@ msgid ""
 "\n"
 msgstr ""
 
-#: dialogs/DiagnosticDialog.cpp:126
+#: dialogs/DiagnosticDialog.cpp:127
 #, kde-format
 msgid ""
 "Enabled Scripts:\n"
@@ -10276,29 +10297,29 @@ msgctxt "Name of a dynamic playlist"
 msgid "Rating"
 msgstr "Notowania"
 
-#: EngineController.cpp:1094
+#: EngineController.cpp:1090
 msgid "Too many errors encountered in playlist. Playback stopped."
 msgstr ""
 
-#: EngineController.cpp:1294
+#: EngineController.cpp:1290
 #, kde-format
 msgctxt "track by artist on album"
 msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgstr "<b>%1</b> wëkònywóné przez <b>%2</b> z albùmù <b>%3</b>"
 
-#: EngineController.cpp:1296
+#: EngineController.cpp:1292
 #, kde-format
 msgctxt "track by artist"
 msgid "<b>%1</b> by <b>%2</b>"
 msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
 
-#: EngineController.cpp:1299
+#: EngineController.cpp:1295
 #, kde-format
 msgctxt "track on album"
 msgid "<b>%1</b> on <b>%2</b>"
 msgstr "<b>%1</b> wëkònywóné przez <b>%2</b>"
 
-#: EngineController.cpp:1311
+#: EngineController.cpp:1307
 #, fuzzy, kde-format
 #| msgid " on <b>%1</b>"
 msgctxt "track from source"
@@ -12025,7 +12046,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: playlist/layouts/PlaylistLayoutEditDialog.ui:267
-#: services/ServiceBase.cpp:164
+#: services/ServiceBase.cpp:163
 msgid "Group By"
 msgstr "Grëpòwóny"
 
@@ -13786,7 +13807,7 @@ msgstr ""
 msgid "<Empty>"
 msgstr ""
 
-#: PluginManager.cpp:283
+#: PluginManager.cpp:287
 msgid ""
 "Amarok could not find any plugins. This indicates an installation problem."
 msgstr ""
@@ -14604,34 +14625,34 @@ msgid ""
 "com contents from within Amarok."
 msgstr ""
 
-#: services/jamendo/JamendoService.cpp:120
+#: services/jamendo/JamendoService.cpp:127
 msgctxt "Fetch new information from the website"
 msgid "Update"
 msgstr "Aktualizacëjô"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, typeComboBox)
-#: services/jamendo/JamendoService.cpp:126
+#: services/jamendo/JamendoService.cpp:133
 #: services/magnatune/MagnatuneConfigWidget.ui:121
 msgid "Download"
 msgstr "Zladënk"
 
-#: services/jamendo/JamendoService.cpp:154
+#: services/jamendo/JamendoService.cpp:161
 #: services/magnatune/MagnatuneStore.cpp:227
 msgid "Genre / Artist"
 msgstr "Zort / Artista"
 
-#: services/jamendo/JamendoService.cpp:157
+#: services/jamendo/JamendoService.cpp:164
 #: services/magnatune/MagnatuneStore.cpp:230
 msgid "Genre / Artist / Album"
 msgstr "Zort / Artista / Albùm"
 
-#: services/jamendo/JamendoService.cpp:192
+#: services/jamendo/JamendoService.cpp:199
 #, fuzzy
 #| msgid "Downloading Jamendo.com Database"
 msgid "Downloading Jamendo.com database..."
 msgstr "Ladowanié bazë pòdôwków Jamendo"
 
-#: services/jamendo/JamendoService.cpp:214
+#: services/jamendo/JamendoService.cpp:221
 msgid "Updating the local Jamendo database."
 msgstr "Zaktualnianié môlowi bazë pòdôwków Jamendo."
 
@@ -15905,20 +15926,20 @@ msgstr "Ùdowiérzanié"
 msgid "MP3tunes failed to Authenticate."
 msgstr "Nie darzëło sã ùdowiérzanié do MP3Tunes."
 
-#: services/mp3tunes/Mp3tunesService.cpp:300
+#: services/mp3tunes/Mp3tunesService.cpp:299
 msgid "MP3tunes Harmony: Disconnected"
 msgstr "MP3tunes Harmony: Rozłączoné"
 
-#: services/mp3tunes/Mp3tunesService.cpp:307
-#: services/mp3tunes/Mp3tunesService.cpp:320
+#: services/mp3tunes/Mp3tunesService.cpp:306
+#: services/mp3tunes/Mp3tunesService.cpp:319
 msgid "MP3tunes Harmony: Waiting for PIN Input"
 msgstr "MP3Tunes Harmony: Żdónié na wprowadzenié PIN-a"
 
-#: services/mp3tunes/Mp3tunesService.cpp:332
+#: services/mp3tunes/Mp3tunesService.cpp:331
 msgid "MP3tunes Harmony: Successfully Connected"
 msgstr "MP3Tunes Harmony: Szczestlewé pòłączenié"
 
-#: services/mp3tunes/Mp3tunesService.cpp:347
+#: services/mp3tunes/Mp3tunesService.cpp:346
 #, fuzzy, kde-format
 #| msgid ""
 #| "Mp3tunes Harmony Error\n"
@@ -16015,11 +16036,11 @@ msgstr "Wpiszë miono dlô lëstë graniô:"
 msgid "Loading info..."
 msgstr "Ladowanié wëdowiédzë..."
 
-#: services/ServiceBase.cpp:338
+#: services/ServiceBase.cpp:337
 msgid "This service does not accept any messages"
 msgstr "Nen serwis nie akceptëje niżódnëch wiadłów"
 
-#: services/ServiceBase.cpp:345
+#: services/ServiceBase.cpp:344
 msgid "ERROR: unknown message"
 msgstr "FELA: nienóné wiadło"
 
@@ -16027,8 +16048,8 @@ msgstr "FELA: nienóné wiadło"
 msgid "Neither playable nor downloadable url specified."
 msgstr ""
 
-#: services/ServicePluginManager.cpp:156 services/ServicePluginManager.cpp:173
-#: services/ServicePluginManager.cpp:190
+#: services/ServicePluginManager.cpp:146 services/ServicePluginManager.cpp:163
+#: services/ServicePluginManager.cpp:180
 #, kde-format
 msgid "No service named %1 is currently loaded"
 msgstr "Niżódnô ùsłëżnota ò mionie %1 nie je terô zaladowónô"
@@ -16047,7 +16068,7 @@ msgid ""
 "You can always change the decision in Amarok configuration."
 msgstr ""
 
-#: statsyncing/Controller.cpp:377
+#: statsyncing/Controller.cpp:376
 msgid ""
 "You only seem to have the Local Collection. Statistics synchronization only "
 "makes sense if there is more than one collection."
