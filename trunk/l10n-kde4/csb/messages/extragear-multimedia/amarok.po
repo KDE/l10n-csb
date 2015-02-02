@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-01 01:49+0000\n"
+"POT-Creation-Date: 2015-02-02 01:51+0000\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -1494,7 +1494,7 @@ msgstr "Grëpòwóny"
 
 #: amarokurls/BookmarkModel.cpp:262
 #: browsers/playlistbrowser/PodcastModel.cpp:300
-#: playlist/PlaylistModel.cpp:937
+#: playlist/PlaylistModel.cpp:939
 msgid "Type"
 msgstr "Ôrt"
 
@@ -1869,7 +1869,7 @@ msgstr "Nieznóné"
 #: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:153
 #: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:701
 #: core-impl/collections/support/ArtistHelper.cpp:40
-#: core/support/Amarok.cpp:213 covermanager/CoverManager.cpp:821
+#: core/support/Amarok.cpp:215 covermanager/CoverManager.cpp:822
 #: dialogs/TrackOrganizer.cpp:56 widgets/AlbumBreadcrumbWidget.cpp:62
 msgid "Various Artists"
 msgstr "Rozmajiti wëkònywaczë"
@@ -1879,7 +1879,7 @@ msgstr "Rozmajiti wëkònywaczë"
 #: context/applets/albums/AlbumsView.cpp:256
 #: context/applets/wikipedia/WikipediaApplet.cpp:634
 #: dialogs/transferdialog.cpp:89 musicbrainz/MusicBrainzTagsModel.cpp:38
-#: playlist/PlaylistModel.cpp:930 playlist/view/PlaylistViewCommon.cpp:64
+#: playlist/PlaylistModel.cpp:932 playlist/view/PlaylistViewCommon.cpp:64
 #: services/jamendo/JamendoInfoParser.cpp:83
 #: services/magnatune/MagnatuneStore.cpp:224
 msgid "Album"
@@ -1897,23 +1897,23 @@ msgstr "Wëpalë wszëtczé sztëcczi negò artistë"
 
 #. i18n: ectx: property (text), widget (QLabel, label_29)
 #: browsers/CollectionTreeItemModelBase.cpp:995 dialogs/TagGuessOptions.ui:253
-#: musicbrainz/MusicBrainzTagsModel.cpp:39 playlist/PlaylistModel.cpp:927
+#: musicbrainz/MusicBrainzTagsModel.cpp:39 playlist/PlaylistModel.cpp:929
 msgid "Album Artist"
 msgstr "Artista albùmù"
 
 #: browsers/CollectionTreeItemModelBase.cpp:997
 #: context/applets/wikipedia/WikipediaApplet.cpp:628
-#: playlist/PlaylistModel.cpp:928
+#: playlist/PlaylistModel.cpp:930
 msgid "Composer"
 msgstr "Kòmpòzytor"
 
 #: browsers/CollectionTreeItemModelBase.cpp:999 dialogs/transferdialog.cpp:90
-#: playlist/PlaylistModel.cpp:934 playlist/ProgressiveSearchWidget.cpp:93
+#: playlist/PlaylistModel.cpp:936 playlist/ProgressiveSearchWidget.cpp:93
 msgid "Genre"
 msgstr "Zort"
 
 #: browsers/CollectionTreeItemModelBase.cpp:1001
-#: musicbrainz/MusicBrainzTagsModel.cpp:40 playlist/PlaylistModel.cpp:929
+#: musicbrainz/MusicBrainzTagsModel.cpp:40 playlist/PlaylistModel.cpp:931
 msgid "Year"
 msgstr "Rok"
 
@@ -2369,15 +2369,34 @@ msgstr "&Ekspòrtëjë lëstã graniô jakno..."
 
 #: browsers/playlistbrowser/PlaylistBrowserView.cpp:374
 #, fuzzy, kde-format
-#| msgid "Remove From Playlist"
-msgctxt "Number of playlists is >= 2"
-msgid "Remove a Track From %2 Playlists"
-msgid_plural "Remove %1 Tracks From %2 Playlists"
-msgstr[0] "Rëmôj z lëstë graniô"
-msgstr[1] "Rëmôj z lëstë graniô"
-msgstr[2] "Rëmôj z lëstë graniô"
+#| msgctxt "The amount of tracks being edited"
+#| msgid "1 Track"
+#| msgid_plural "Information for %1 Tracks"
+msgctxt "First part of 'Remove %1 From %2'"
+msgid "a Track"
+msgid_plural "%1 Tracks"
+msgstr[0] "Wëdowiédzô dlô %1 sztëczka"
+msgstr[1] "Wëdowiédzô dlô %1 sztëczków"
+msgstr[2] "Wëdowiédzô dlô %1 sztëczków"
 
-#: browsers/playlistbrowser/PlaylistBrowserView.cpp:378
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:374
+#, fuzzy, kde-format
+#| msgid "Remove %1"
+msgctxt "%1: number of tracks. %2: number of playlists"
+msgid "Remove %1 From %2"
+msgstr "Rëmôj %1"
+
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:375
+#, fuzzy, kde-format
+#| msgid "Playlist"
+msgctxt "Second part of 'Remove %1 From %2'"
+msgid "1 Playlist"
+msgid_plural "%1 Playlists"
+msgstr[0] "Lësta graniô"
+msgstr[1] "Lësta graniô"
+msgstr[2] "Lësta graniô"
+
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:379
 #, fuzzy, kde-format
 #| msgid "Removing Tracks from Device"
 msgctxt "%2 is saved playlist name"
@@ -2387,13 +2406,13 @@ msgstr[0] "Rëmanié traków z ùrządzenia"
 msgstr[1] "Rëmanié traków z ùrządzenia"
 msgstr[2] "Rëmanié traków z ùrządzenia"
 
-#: browsers/playlistbrowser/PlaylistBrowserView.cpp:469
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:470
 #, fuzzy
 #| msgid "Configure Playlist Info Applet"
 msgid "Confirm Playlist Deletion"
 msgstr "Kònfigùracëjô apleta jinfòrmacëji ò lësce graniô"
 
-#: browsers/playlistbrowser/PlaylistBrowserView.cpp:471
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:472
 #, fuzzy, kde-format
 #| msgid "Do you really want to remove this %1?"
 msgid "Are you sure you want to delete this playlist?"
@@ -2402,18 +2421,18 @@ msgstr[0] "Na gwës chcesz rëmnąc %1?"
 msgstr[1] "Na gwës chcesz rëmnąc %1?"
 msgstr[2] "Na gwës chcesz rëmnąc %1?"
 
-#: browsers/playlistbrowser/PlaylistBrowserView.cpp:476
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:477
 #, fuzzy, kde-format
 #| msgid "Delete Files"
 msgctxt "%1 is playlist provider pretty name"
 msgid "Yes, delete from %1."
 msgstr "Rëmniãcé lopków"
 
-#: browsers/playlistbrowser/PlaylistBrowserView.cpp:514 MainWindow.cpp:455
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:515 MainWindow.cpp:455
 msgid "Use relative path for &saving"
 msgstr ""
 
-#: browsers/playlistbrowser/PlaylistBrowserView.cpp:528
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:529
 #: covermanager/CoverFoundDialog.cpp:355 MainWindow.cpp:469
 msgid "Save As"
 msgstr ""
@@ -2564,7 +2583,7 @@ msgstr[2] "&Zaktualni kanał"
 #. i18n: ectx: property (text), widget (QLabel, titleLabel)
 #: browsers/playlistbrowser/PodcastModel.cpp:301
 #: context/applets/tabs/ReloadEditDialog.ui:86
-#: musicbrainz/MusicBrainzTagsModel.cpp:36 playlist/PlaylistModel.cpp:925
+#: musicbrainz/MusicBrainzTagsModel.cpp:36 playlist/PlaylistModel.cpp:927
 msgid "Title"
 msgstr "Titel"
 
@@ -3750,7 +3769,7 @@ msgid "Recently Played Tracks"
 msgstr "Slédno gróné sztëcczi"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:447
-#: playlist/PlaylistModel.cpp:943
+#: playlist/PlaylistModel.cpp:945
 msgid "Play Count"
 msgstr "Rechòwnik graniô"
 
@@ -3760,7 +3779,7 @@ msgid "Tracks"
 msgstr "Sztëcczi"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:448
-#: playlist/PlaylistModel.cpp:941
+#: playlist/PlaylistModel.cpp:943
 msgid "Score"
 msgstr "Pùnktacëjô"
 
@@ -4532,7 +4551,7 @@ msgstr ""
 #: context/applets/tabs/ReloadEditDialog.ui:73
 #: context/applets/wikipedia/WikipediaApplet.cpp:622
 #: dialogs/transferdialog.cpp:88 musicbrainz/MusicBrainzTagsModel.cpp:37
-#: playlist/PlaylistModel.cpp:926 services/amazon/AmazonInfoParser.cpp:157
+#: playlist/PlaylistModel.cpp:928 services/amazon/AmazonInfoParser.cpp:157
 #: services/jamendo/JamendoInfoParser.cpp:51
 #: services/lastfm/LastFmService.cpp:467
 #: services/magnatune/MagnatuneStore.cpp:218
@@ -7578,26 +7597,26 @@ msgstr ""
 msgid "unknown type"
 msgstr "Nieznóny titel"
 
-#: core/support/Amarok.cpp:46 core/support/Amarok.cpp:91
-#: playlist/PlaylistModel.cpp:501
+#: core/support/Amarok.cpp:48 core/support/Amarok.cpp:93
+#: playlist/PlaylistModel.cpp:499
 msgctxt "The amount of time since last played"
 msgid "Never"
 msgstr "Nigdë"
 
-#: core/support/Amarok.cpp:54
+#: core/support/Amarok.cpp:56 playlist/PlaylistModel.cpp:503
 #, fuzzy
 #| msgid "Unknown"
 msgctxt "When this track was last played"
 msgid "Unknown"
 msgstr "Nieznóny"
 
-#: core/support/Amarok.cpp:59
+#: core/support/Amarok.cpp:61
 #, kde-format
 msgctxt "monthname year"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: core/support/Amarok.cpp:66
+#: core/support/Amarok.cpp:68
 #, kde-format
 msgid "One week ago"
 msgid_plural "%1 weeks ago"
@@ -7605,11 +7624,11 @@ msgstr[0] "Tidzéń nazôd"
 msgstr[1] "%1 tidzénie nazôd"
 msgstr[2] "%1 tidzéniów nazôd"
 
-#: core/support/Amarok.cpp:72
+#: core/support/Amarok.cpp:74
 msgid "Yesterday"
 msgstr "Wczora"
 
-#: core/support/Amarok.cpp:73
+#: core/support/Amarok.cpp:75
 #, kde-format
 msgid "One day ago"
 msgid_plural "%1 days ago"
@@ -7617,7 +7636,7 @@ msgstr[0] "Jeden dzén nazôd"
 msgstr[1] "%1 dni nazôd"
 msgstr[2] "%1 dniów nazôd"
 
-#: core/support/Amarok.cpp:76
+#: core/support/Amarok.cpp:78
 #, kde-format
 msgid "One hour ago"
 msgid_plural "%1 hours ago"
@@ -7625,7 +7644,7 @@ msgstr[0] "Jedna gòdzëna nazôd"
 msgstr[1] "%1 gòdzënë nazôd"
 msgstr[2] "%1 gòdzënów nazôd"
 
-#: core/support/Amarok.cpp:82
+#: core/support/Amarok.cpp:84
 #, kde-format
 msgid "One minute ago"
 msgid_plural "%1 minutes ago"
@@ -7633,43 +7652,43 @@ msgstr[0] "Jedna minuta nazôd"
 msgstr[1] "%1 minutë nazôd"
 msgstr[2] "%1 minutów nazôd"
 
-#: core/support/Amarok.cpp:83
+#: core/support/Amarok.cpp:85
 msgid "Within the last minute"
 msgstr "Òb slédną minutã"
 
-#: core/support/Amarok.cpp:85
+#: core/support/Amarok.cpp:87
 msgid "The future"
 msgstr "Przińdnota"
 
-#: core/support/Amarok.cpp:101
+#: core/support/Amarok.cpp:103
 msgctxt "The amount of time since last played"
 msgid "0"
 msgstr "0"
 
-#: core/support/Amarok.cpp:110
+#: core/support/Amarok.cpp:112
 #, kde-format
 msgctxt "number of months ago"
 msgid "%1M"
 msgstr "%1M"
 
-#: core/support/Amarok.cpp:114
+#: core/support/Amarok.cpp:116
 #, kde-format
 msgctxt "w for weeks"
 msgid "%1w"
 msgstr "%1w"
 
-#: core/support/Amarok.cpp:117
+#: core/support/Amarok.cpp:119
 msgctxt "When this track was last played"
 msgid "Tomorrow"
 msgstr "Witro"
 
-#: core/support/Amarok.cpp:123
+#: core/support/Amarok.cpp:125
 #, no-c-format, kde-format
 msgctxt "d for days"
 msgid "%1d"
 msgstr "%1d"
 
-#: core/support/Amarok.cpp:126
+#: core/support/Amarok.cpp:128
 #, kde-format
 msgctxt "h for hours"
 msgid "%1h"
@@ -7692,7 +7711,7 @@ msgstr "%1h"
 #. i18n: ectx: property (text), widget (QLabel, eqBand7Value)
 #. i18n: ectx: property (text), widget (QLabel, eqBand8Value)
 #. i18n: ectx: property (text), widget (QLabel, eqBand9Value)
-#: core/support/Amarok.cpp:135 dialogs/EqualizerDialog.ui:122
+#: core/support/Amarok.cpp:137 dialogs/EqualizerDialog.ui:122
 #: dialogs/EqualizerDialog.ui:132 dialogs/EqualizerDialog.ui:142
 #: dialogs/EqualizerDialog.ui:152 dialogs/EqualizerDialog.ui:162
 #: dialogs/EqualizerDialog.ui:172 dialogs/EqualizerDialog.ui:182
@@ -7704,7 +7723,7 @@ msgstr "%1h"
 msgid "0"
 msgstr "0"
 
-#: core/support/Amarok.cpp:170
+#: core/support/Amarok.cpp:172
 #, fuzzy, kde-format
 #| msgid "Playlist_%1"
 msgctxt ""
@@ -7713,7 +7732,7 @@ msgctxt ""
 msgid "Empty Playlist (%1)"
 msgstr "Lësta_gróniô_%1"
 
-#: core/support/Amarok.cpp:198
+#: core/support/Amarok.cpp:200
 #, fuzzy, kde-format
 #| msgid "Previous Track"
 msgctxt ""
@@ -7722,25 +7741,25 @@ msgctxt ""
 msgid "Various Tracks (%1)"
 msgstr "Piprzédny sztëczk"
 
-#: core/support/Amarok.cpp:205
+#: core/support/Amarok.cpp:207
 #, fuzzy
 #| msgid "Unknown Artist"
 msgid "Unknown Artist(s)"
 msgstr "Niznóny artista"
 
-#: core/support/Amarok.cpp:221
+#: core/support/Amarok.cpp:223
 #, fuzzy
 #| msgid "Unknown Album"
 msgid "Unknown Album(s)"
 msgstr "Nieznóny albùm"
 
-#: core/support/Amarok.cpp:225
+#: core/support/Amarok.cpp:227
 #, fuzzy
 #| msgid "Various Artists"
 msgid "Various Albums"
 msgstr "Rozmajiti wëkònywaczë"
 
-#: core/support/Amarok.cpp:228
+#: core/support/Amarok.cpp:230
 #, fuzzy, kde-format
 #| msgid "%1 - %2"
 msgctxt "A saved playlist titled <artist> - <album>"
@@ -8436,24 +8455,35 @@ msgstr[1] "%1 albùmë"
 msgstr[2] "%1 albùmów"
 
 #: covermanager/CoverManager.cpp:693
-msgid " by "
-msgstr " wëkònywóny przez "
+msgctxt "Separator for artists"
+msgid ", "
+msgstr ""
+
+#: covermanager/CoverManager.cpp:693
+#, fuzzy, kde-format
+#| msgid "%1 (x%2)"
+msgid "%1 by %2"
+msgstr "%1 (x%2)"
 
 #: covermanager/CoverManager.cpp:698
-#, kde-format
-msgid " - ( <b>%1</b> without cover )"
-msgstr " - ( <b>%1</b> bez òbkłôdczi )"
+#, fuzzy, kde-format
+#| msgid " - ( <b>%1</b> without cover )"
+msgid "%2 - ( <b>1</b> without cover )"
+msgid_plural "%2 - ( <b>%1</b> without cover )"
+msgstr[0] " - ( <b>%1</b> bez òbkłôdczi )"
+msgstr[1] " - ( <b>%1</b> bez òbkłôdczi )"
+msgstr[2] " - ( <b>%1</b> bez òbkłôdczi )"
 
-#: covermanager/CoverManager.cpp:747
+#: covermanager/CoverManager.cpp:748
 msgid "Cover Image"
 msgstr "Òbkłôdka"
 
-#: covermanager/CoverManager.cpp:822
+#: covermanager/CoverManager.cpp:823
 #, kde-format
 msgid "%1 - %2"
 msgstr "%1 - %2"
 
-#: covermanager/CoverManager.cpp:839
+#: covermanager/CoverManager.cpp:840
 msgid "No Artist"
 msgstr "Felëje artistë"
 
@@ -9041,7 +9071,7 @@ msgid "Expand All"
 msgstr "Rozszérzë przez"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, MusicBrainzTagger)
-#: dialogs/MusicBrainzTagger.ui:12 dialogs/TagDialog.cpp:1388
+#: dialogs/MusicBrainzTagger.ui:12 dialogs/TagDialog.cpp:1385
 #, fuzzy
 #| msgid "MusicBrainz Lookup"
 msgid "MusicBrainz Tagger"
@@ -9469,24 +9499,12 @@ msgstr[0] "Editëjë 1 lopk"
 msgstr[1] "Editëjë %1 lopczi"
 msgstr[2] "Editëjë %1 lopków"
 
-#: dialogs/TagDialog.cpp:787
-#, fuzzy
-#| msgid "Never"
-msgctxt "When this track first played"
-msgid "Never"
-msgstr "Nigdë"
-
-#: dialogs/TagDialog.cpp:792
-msgctxt "When this track was last played"
-msgid "Never"
-msgstr "Nigdë"
-
-#: dialogs/TagDialog.cpp:796
+#: dialogs/TagDialog.cpp:793
 msgctxt "The collection this track is part of"
 msgid "None"
 msgstr "Felënk"
 
-#: dialogs/TagDialog.cpp:962
+#: dialogs/TagDialog.cpp:959
 #, kde-format
 msgid "The track is not playable. %1"
 msgstr ""
@@ -10008,7 +10026,7 @@ msgctxt "Description of the \"AlbumPlay\" bias"
 msgid "The \"AlbumPlay\" bias adds tracks that belong to one album."
 msgstr ""
 
-#: dynamic/biases/AlbumPlayBias.cpp:106
+#: dynamic/biases/AlbumPlayBias.cpp:107
 #, fuzzy
 #| msgid "Fetch the artwork for this album"
 #| msgid_plural "Fetch artwork for %1 albums"
@@ -10016,27 +10034,27 @@ msgctxt "AlbumPlay bias representation"
 msgid "The next track from the album"
 msgstr "Zladëjë òbkłôdkã dlô tegò albùmù"
 
-#: dynamic/biases/AlbumPlayBias.cpp:109
+#: dynamic/biases/AlbumPlayBias.cpp:110
 #, fuzzy
 #| msgid "Display artwork for this album"
 msgctxt "AlbumPlay bias representation"
 msgid "Any later track from the album"
 msgstr "Pòkażë òbkłôdkã dlô tegò albùmù"
 
-#: dynamic/biases/AlbumPlayBias.cpp:112
+#: dynamic/biases/AlbumPlayBias.cpp:113
 msgctxt "AlbumPlay bias representation"
 msgid "Tracks from the same album"
 msgstr ""
 
-#: dynamic/biases/AlbumPlayBias.cpp:122
+#: dynamic/biases/AlbumPlayBias.cpp:123
 msgid "Track directly follows previous track in album"
 msgstr ""
 
-#: dynamic/biases/AlbumPlayBias.cpp:124
+#: dynamic/biases/AlbumPlayBias.cpp:125
 msgid "Track comes after previous track in album"
 msgstr ""
 
-#: dynamic/biases/AlbumPlayBias.cpp:126
+#: dynamic/biases/AlbumPlayBias.cpp:127
 msgid "Track is in the same album as previous track"
 msgstr ""
 
@@ -11746,7 +11764,7 @@ msgid "Response"
 msgstr "Detale"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, requestList)
-#: network/NetworkRequests.ui:56 playlist/PlaylistModel.cpp:938
+#: network/NetworkRequests.ui:56 playlist/PlaylistModel.cpp:940
 msgid "Length"
 msgstr "Długòta"
 
@@ -12340,55 +12358,55 @@ msgstr ""
 msgid "No extra information available"
 msgstr "Felënk wëdowiédzé dlô tegò titla"
 
-#: playlist/PlaylistModel.cpp:924
+#: playlist/PlaylistModel.cpp:926
 msgctxt "The name of the file this track is stored in"
 msgid "Filename"
 msgstr "Miono lopka"
 
-#: playlist/PlaylistModel.cpp:931
+#: playlist/PlaylistModel.cpp:933
 msgid "Disc Number"
 msgstr "Numer diskù"
 
-#: playlist/PlaylistModel.cpp:932
+#: playlist/PlaylistModel.cpp:934
 msgctxt "The Track number for this item"
 msgid "Track"
 msgstr "Sztëczk"
 
-#: playlist/PlaylistModel.cpp:933
+#: playlist/PlaylistModel.cpp:935
 msgid "BPM"
 msgstr "BPM"
 
-#: playlist/PlaylistModel.cpp:935
+#: playlist/PlaylistModel.cpp:937
 msgid "Comment"
 msgstr "Dopòwiesc"
 
-#: playlist/PlaylistModel.cpp:936
+#: playlist/PlaylistModel.cpp:938
 msgctxt "The location on disc of this track"
 msgid "Directory"
 msgstr "Katalog"
 
-#: playlist/PlaylistModel.cpp:939
+#: playlist/PlaylistModel.cpp:941
 msgid "Bitrate"
 msgstr "Chùtkòsc transmisëji"
 
-#: playlist/PlaylistModel.cpp:940
+#: playlist/PlaylistModel.cpp:942
 msgid "Sample Rate"
 msgstr "Próbkòwónié"
 
-#: playlist/PlaylistModel.cpp:942 playlist/ProgressiveSearchWidget.cpp:107
+#: playlist/PlaylistModel.cpp:944 playlist/ProgressiveSearchWidget.cpp:107
 msgid "Rating"
 msgstr "Notowania"
 
-#: playlist/PlaylistModel.cpp:944
+#: playlist/PlaylistModel.cpp:946
 msgctxt "Column name"
 msgid "Last Played"
 msgstr "Slédno gróné"
 
-#: playlist/PlaylistModel.cpp:945
+#: playlist/PlaylistModel.cpp:947
 msgid "Mood"
 msgstr "Òdczëcé"
 
-#: playlist/PlaylistModel.cpp:946
+#: playlist/PlaylistModel.cpp:948
 msgid "File Size"
 msgstr "Miara lopka"
 
@@ -13010,24 +13028,33 @@ msgstr "Dodôwô nã zastrzégã filtrowóniô do lëstë"
 #, fuzzy, kde-format
 #| msgid "Playlist_%1"
 msgctxt "%1 is a number"
-msgid "Playlist length: %1 tracks"
-msgstr "Lësta_gróniô_%1"
+msgid "Playlist length: 1 track"
+msgid_plural "Playlist length: %1 tracks"
+msgstr[0] "Lësta_gróniô_%1"
+msgstr[1] "Lësta_gróniô_%1"
+msgstr[2] "Lësta_gróniô_%1"
 
 #: playlistgenerator/constraints/PlaylistLength.cpp:120
 #, fuzzy, kde-format
 #| msgid "Playlist_%1"
 msgctxt "%1 is a number"
-msgid "Playlist length: more than %1 tracks"
-msgstr "Lësta_gróniô_%1"
+msgid "Playlist length: more than 1 track"
+msgid_plural "Playlist length: more than %1 tracks"
+msgstr[0] "Lësta_gróniô_%1"
+msgstr[1] "Lësta_gróniô_%1"
+msgstr[2] "Lësta_gróniô_%1"
 
-#: playlistgenerator/constraints/PlaylistLength.cpp:122
+#: playlistgenerator/constraints/PlaylistLength.cpp:123
 #, fuzzy, kde-format
 #| msgid "Playlist_%1"
 msgctxt "%1 is a number"
-msgid "Playlist length: less than %1 tracks"
-msgstr "Lësta_gróniô_%1"
+msgid "Playlist length: less than 1 track"
+msgid_plural "Playlist length: less than %1 tracks"
+msgstr[0] "Lësta_gróniô_%1"
+msgstr[1] "Lësta_gróniô_%1"
+msgstr[2] "Lësta_gróniô_%1"
 
-#: playlistgenerator/constraints/PlaylistLength.cpp:124
+#: playlistgenerator/constraints/PlaylistLength.cpp:126
 #, fuzzy
 #| msgid "Playlist"
 msgid "Playlist length: unknown"
@@ -17074,6 +17101,28 @@ msgstr "Artista \"%1\""
 msgid "empty"
 msgstr ""
 
+#, fuzzy
+#~| msgid "Remove From Playlist"
+#~ msgctxt "Number of playlists is >= 2"
+#~ msgid "Remove a Track From %2 Playlists"
+#~ msgid_plural "Remove %1 Tracks From %2 Playlists"
+#~ msgstr[0] "Rëmôj z lëstë graniô"
+#~ msgstr[1] "Rëmôj z lëstë graniô"
+#~ msgstr[2] "Rëmôj z lëstë graniô"
+
+#~ msgid " by "
+#~ msgstr " wëkònywóny przez "
+
+#, fuzzy
+#~| msgid "Never"
+#~ msgctxt "When this track first played"
+#~ msgid "Never"
+#~ msgstr "Nigdë"
+
+#~ msgctxt "When this track was last played"
+#~ msgid "Never"
+#~ msgstr "Nigdë"
+
 #~ msgid "Flac"
 #~ msgstr "Flac"
 
@@ -18007,12 +18056,6 @@ msgstr ""
 #~ msgstr "Pòwtórzë sztëczk"
 
 #, fuzzy
-#~| msgid "Remove %1"
-#~ msgctxt "Remove a track from a saved playlist"
-#~ msgid "Remove From \"%1\""
-#~ msgstr "Rëmôj %1"
-
-#, fuzzy
 #~| msgid "Configure Playback"
 #~ msgid "Confirm Rename"
 #~ msgstr "Kònfigùracëjô graniô"
@@ -18191,9 +18234,6 @@ msgstr ""
 
 #~ msgid "Current Track"
 #~ msgstr "Biéżny sztëczk"
-
-#~ msgid "Playlist"
-#~ msgstr "Lësta graniô"
 
 #~ msgid "Recommendations by Echo Nest."
 #~ msgstr "Rekòmendowóné przez Echo Nest."
@@ -19543,16 +19583,6 @@ msgstr ""
 
 #~ msgid "Playcount:"
 #~ msgstr "Rechòwnik òdegraniô:"
-
-#, fuzzy
-#~| msgctxt "The amount of tracks being edited"
-#~| msgid "1 Track"
-#~| msgid_plural "Information for %1 Tracks"
-#~ msgid "1 Track"
-#~ msgid_plural "%1 Tracks"
-#~ msgstr[0] "Wëdowiédzô dlô %1 sztëczka"
-#~ msgstr[1] "Wëdowiédzô dlô %1 sztëczków"
-#~ msgstr[2] "Wëdowiédzô dlô %1 sztëczków"
 
 #, fuzzy
 #~| msgid "%1 track"
