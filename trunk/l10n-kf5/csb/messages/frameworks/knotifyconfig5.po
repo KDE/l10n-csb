@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-08 08:32+0000\n"
+"POT-Creation-Date: 2015-02-18 08:40+0000\n"
 "PO-Revision-Date: 2009-12-04 22:09+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -54,14 +54,50 @@ msgstr "Zrëszë &pòlét"
 msgid "Select the command to run"
 msgstr "Wëbierzë pòlét do zrëszeniô"
 
-#. i18n: ectx: property (text), widget (QCheckBox, KTTS_check)
+#. i18n: ectx: property (text), widget (QCheckBox, TTS_check)
 #: knotifyconfigactionswidgetbase.ui:106
 msgid "Sp&eech"
 msgstr "&Gôdôj:"
 
-#. i18n: ectx: property (whatsThis), widget (KComboBox, KTTS_combo)
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, KTTS_select)
-#: knotifyconfigactionswidgetbase.ui:119 knotifyconfigactionswidgetbase.ui:141
+#. i18n: ectx: property (whatsThis), widget (KComboBox, TTS_combo)
+#: knotifyconfigactionswidgetbase.ui:119
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<qt>Specifies how KTTS should speak the event when received.  If you "
+#| "select \"Speak custom text\", enter the text in the box.  You may use the "
+#| "following substitution strings in the text:<dl><dt>%e</dt><dd>Name of the "
+#| "event</dd><dt>%a</dt><dd>Application that sent the event</dd><dt>%m</"
+#| "dt><dd>The message sent by the application</dd></dl></qt>"
+msgid ""
+"<qt>Specifies how knotify should speak the event when received.  If you "
+"select \"Speak custom text\", enter the text in the box.  You may use the "
+"following substitution strings in the text:<dl><dt>%e</dt><dd>Name of the "
+"event</dd><dt>%a</dt><dd>Application that sent the event</dd><dt>%m</"
+"dt><dd>The message sent by the application</dd></dl></qt>"
+msgstr ""
+"<qt>Òpisëje, jak KTTS mùszi gôdac ò dzejaniém. Jeżlë wëbiérzesz \"Gôdôj swòj "
+"tekst\", napiszë tekst w ramie. Mòżesz ùżëc nëch paramétrów w teksce: "
+"<dl><dt>%e</dt><dd>Miono dzejania</dd><dt>%a</dt><dd>Programa, chtërna  "
+"wësła dzejanié</dd><dt>%m</dt><dd>Wiadło wësłóné przez programã</dd></dl></"
+"qt>"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, TTS_combo)
+#: knotifyconfigactionswidgetbase.ui:123
+msgid "Speak Event Message"
+msgstr "Gôdôj wiadło dzejania"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, TTS_combo)
+#: knotifyconfigactionswidgetbase.ui:128
+msgid "Speak Event Name"
+msgstr "Gôdôj miono dzejania"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, TTS_combo)
+#: knotifyconfigactionswidgetbase.ui:133
+msgid "Speak Custom Text"
+msgstr "Gôdôj swój tekst"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, TTS_select)
+#: knotifyconfigactionswidgetbase.ui:141
 #, fuzzy, no-c-format
 #| msgid ""
 #| "<qt>Specifies how KTTS should speak the event when received.  If you "
@@ -81,21 +117,6 @@ msgstr ""
 "<dl><dt>%e</dt><dd>Miono dzejania</dd><dt>%a</dt><dd>Programa, chtërna  "
 "wësła dzejanié</dd><dt>%m</dt><dd>Wiadło wësłóné przez programã</dd></dl></"
 "qt>"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, KTTS_combo)
-#: knotifyconfigactionswidgetbase.ui:123
-msgid "Speak Event Message"
-msgstr "Gôdôj wiadło dzejania"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, KTTS_combo)
-#: knotifyconfigactionswidgetbase.ui:128
-msgid "Speak Event Name"
-msgstr "Gôdôj miono dzejania"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, KTTS_combo)
-#: knotifyconfigactionswidgetbase.ui:133
-msgid "Speak Custom Text"
-msgstr "Gôdôj swój tekst"
 
 #: knotifyconfigwidget.cpp:101
 msgid "Configure Notifications"
