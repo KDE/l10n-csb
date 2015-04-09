@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+"POT-Creation-Date: 2015-03-24 11:30+0000\n"
 "PO-Revision-Date: 2009-12-16 23:31+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -76,6 +76,7 @@ msgstr "Rëmôj dzejanié"
 #. i18n: ectx: property (text), widget (QPushButton, pbAdvanced)
 #: actionsconfig.ui:85
 #, fuzzy
+#| msgid "Advanced"
 msgid "Advanced..."
 msgstr "Awansowóné"
 
@@ -118,6 +119,7 @@ msgstr "Òglowi"
 
 #: configdialog.cpp:287
 #, fuzzy
+#| msgid "General Config"
 msgid "General Configuration"
 msgstr "Òglowô kònfigùracjô"
 
@@ -128,6 +130,7 @@ msgstr "Dzejania"
 
 #: configdialog.cpp:288
 #, fuzzy
+#| msgid "Actions Config"
 msgid "Actions Configuration"
 msgstr "Kònfigùracjô dzejania"
 
@@ -138,6 +141,7 @@ msgstr "Klawiszowe skrodzënë"
 
 #: configdialog.cpp:292
 #, fuzzy
+#| msgid "Shortcuts Config"
 msgid "Shortcuts Configuration"
 msgstr "Kònfigùracjô klawiszowëch skrodzënów"
 
@@ -251,12 +255,14 @@ msgstr "Ignorëjë òbrôzczi"
 #. i18n: ectx: property (title), widget (QGroupBox, selection_group)
 #: generalconfig.ui:38
 #, fuzzy
+#| msgid "Selection and clipboard"
 msgid "Selection and Clipboard"
 msgstr "Wëbiérk ë tacnik"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreSelection)
 #: generalconfig.ui:44
 #, fuzzy
+#| msgid "Ignore Selection"
 msgid "Ignore selection"
 msgstr "Ignorëjë wëbiérk"
 
@@ -280,53 +286,60 @@ msgstr "Czas wëskrzëniwaniô menu dzejaniów:"
 msgid "Clipboard history size:"
 msgstr "Miara historëji tacnika:"
 
-#: klipper.cpp:124
+#: klipper.cpp:125
 msgid "Enable Clipboard Actions"
 msgstr "Włączë dzejania tacnika"
 
-#: klipper.cpp:151
+#: klipper.cpp:152
 msgid "C&lear Clipboard History"
 msgstr "&Wëczëszczë historëjã tacnika"
 
-#: klipper.cpp:158
+#: klipper.cpp:160
 msgid "&Configure Klipper..."
 msgstr "&Kònfigùracëjô Klippera..."
 
-#: klipper.cpp:164
+#: klipper.cpp:166
 #, fuzzy
+#| msgid "&Quit"
 msgctxt "@item:inmenu Quit Klipper"
 msgid "&Quit"
 msgstr "&Zakùńczë"
 
-#: klipper.cpp:169
+#: klipper.cpp:171
 msgid "Manually Invoke Action on Current Clipboard"
 msgstr "Rãczno wëwòłôj dzejanié na zamkłoscë tacnika"
 
-#: klipper.cpp:177
+#: klipper.cpp:179
 msgid "&Edit Contents..."
 msgstr "&Editëjë zamkłosc..."
 
-#: klipper.cpp:189
+#: klipper.cpp:191
 msgid "&Show Barcode..."
 msgstr ""
 
-#: klipper.cpp:201
+#: klipper.cpp:203
 #, fuzzy
+#| msgid "Next history item"
 msgid "Next History Item"
 msgstr "Nôslédny element historëji"
 
-#: klipper.cpp:205
+#: klipper.cpp:207
 #, fuzzy
+#| msgid "Previous history item"
 msgid "Previous History Item"
 msgstr "wczasniészi element historëji"
 
-#: klipper.cpp:211
+#: klipper.cpp:213
 #, fuzzy
+#| msgid "Popup at mouse position"
 msgid "Open Klipper at Mouse Position"
 msgstr "Menu w placu kùrsora mëszë"
 
-#: klipper.cpp:478
+#: klipper.cpp:496
 #, fuzzy
+#| msgid ""
+#| "You can enable URL actions later by right-clicking on the Klipper icon "
+#| "and selecting 'Enable Actions'"
 msgid ""
 "You can enable URL actions later by left-clicking on the Klipper icon and "
 "selecting 'Enable Clipboard Actions'"
@@ -334,51 +347,51 @@ msgstr ""
 "Mòżesz wëłãczëc dzejania URL pózdni, klëkając prawą knąpą mëszë na ikònie "
 "Klippera ë wëbierając 'Włączë dzejania'"
 
-#: klipper.cpp:506
+#: klipper.cpp:524
 msgid "Should Klipper start automatically when you login?"
 msgstr "Czë zrëszac Klippera aùtomatno przë logòwaniu?"
 
-#: klipper.cpp:507
+#: klipper.cpp:525
 msgid "Automatically Start Klipper?"
 msgstr "Aùtomatno zrëszëc Klippera?"
 
-#: klipper.cpp:507
+#: klipper.cpp:525
 msgid "Start"
 msgstr "Zrëszë"
 
-#: klipper.cpp:508
+#: klipper.cpp:526
 msgid "Do Not Start"
 msgstr "Ni zrësziwôj"
 
-#: klipper.cpp:856
+#: klipper.cpp:874
 msgid "Edit Contents"
 msgstr "Editëjë zamkłoscë"
 
-#: klipper.cpp:903
+#: klipper.cpp:940
 msgid "Mobile Barcode"
 msgstr ""
 
-#: klipper.cpp:941
+#: klipper.cpp:978
 msgid "Really delete entire clipboard history?"
 msgstr "Pò prôwdze wëczëszczëc historëjã tacnika?"
 
-#: klipper.cpp:942
+#: klipper.cpp:979
 msgid "Delete clipboard history?"
 msgstr "Rëmnąc historëjã tacnika?"
 
-#: klipper.cpp:960 klipper.cpp:969
+#: klipper.cpp:997 klipper.cpp:1006
 msgid "Clipboard history"
 msgstr "Historëja tacnika"
 
-#: klipper.cpp:986
+#: klipper.cpp:1023
 msgid "up"
 msgstr "w górã"
 
-#: klipper.cpp:993
+#: klipper.cpp:1030
 msgid "current"
 msgstr "aktualné"
 
-#: klipper.cpp:1000
+#: klipper.cpp:1037
 msgid "down"
 msgstr "w dół"
 
@@ -531,6 +544,10 @@ msgstr "Klipper"
 
 #: main.cpp:45
 #, fuzzy
+#| msgid ""
+#| "(c) 1998, Andrew Stanley-Jones\n"
+#| "1998-2002, Carsten Pfeiffer\n"
+#| "2001, Patrick Dubroy"
 msgid ""
 "(c) 1998, Andrew Stanley-Jones\n"
 "1998-2002, Carsten Pfeiffer\n"
@@ -578,6 +595,7 @@ msgstr "Esben Mose Hansen"
 
 #: main.cpp:65
 #, fuzzy
+#| msgid "Maintainer"
 msgid "Previous Maintainer"
 msgstr "Òpiekùn"
 
@@ -593,25 +611,26 @@ msgstr "Òpiekùn"
 msgid "&More"
 msgstr "&Wicy"
 
-#: tray.cpp:38
+#: tray.cpp:39
 #, fuzzy
+#| msgid "Keep clipboard contents"
 msgid "Clipboard Contents"
 msgstr "Zatrzëmôj zamkłoscë tacnika"
 
-#: tray.cpp:38 tray.cpp:55
+#: tray.cpp:39 tray.cpp:56
 msgid "Clipboard is empty"
 msgstr "Tacnik je pùsti"
 
-#: urlgrabber.cpp:218
+#: urlgrabber.cpp:219
 #, kde-format
 msgid "%1 - Actions For: %2"
 msgstr "%1 - Dzejania dlô: %2"
 
-#: urlgrabber.cpp:246
+#: urlgrabber.cpp:247
 msgid "Disable This Popup"
 msgstr "Wëłączë to òkno"
 
-#: urlgrabber.cpp:252
+#: urlgrabber.cpp:253
 msgid "&Cancel"
 msgstr "&Anulëjë"
 
@@ -656,6 +675,7 @@ msgstr "&Anulëjë"
 #~ msgstr "Klipper - nôrzãdze tacnika"
 
 #, fuzzy
+#~| msgid "Action &list (right click to add/remove commands):"
 #~ msgid "Action list (right click to add/remove commands):"
 #~ msgstr "&Lësta dzejaniów (prawô knąpa mëszë dodôwô/rëmô pòlétë):"
 

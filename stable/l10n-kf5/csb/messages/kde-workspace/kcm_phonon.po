@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_phonon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-13 12:18+0000\n"
+"POT-Creation-Date: 2014-11-13 07:53+0000\n"
 "PO-Revision-Date: 2008-12-10 21:35+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -53,6 +53,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, profileLabel)
 #: audiosetup.ui:44
 #, fuzzy
+#| msgid "Prefer"
 msgid "Profile"
 msgstr "W górã"
 
@@ -74,6 +75,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, deviceLabel)
 #: audiosetup.ui:103
 #, fuzzy
+#| msgid "Show advanced devices"
 msgid "Sound Device"
 msgstr "Wëskrzëni awansowóné ùrzadzenia"
 
@@ -132,6 +134,7 @@ msgstr ""
 
 #: devicepreference.cpp:152
 #, fuzzy
+#| msgid "prefer the selected device"
 msgid "Test the selected device"
 msgstr "wëbierzë naznaczoné ùrządzenié"
 
@@ -145,36 +148,45 @@ msgstr ""
 
 #: devicepreference.cpp:306
 #, fuzzy
+#| msgid "Default Capture Device Preference"
 msgid "Default Audio Playback Device Preference"
 msgstr "Preferowóné ùrządzenié do nagrëwaniô"
 
 #: devicepreference.cpp:309
 #, fuzzy
+#| msgid "Default Capture Device Preference"
 msgid "Default Audio Recording Device Preference"
 msgstr "Preferowóné ùrządzenié do nagrëwaniô"
 
 #: devicepreference.cpp:312
 #, fuzzy
+#| msgid "Default Capture Device Preference"
 msgid "Default Video Recording Device Preference"
 msgstr "Preferowóné ùrządzenié do nagrëwaniô"
 
 #: devicepreference.cpp:319
 #, fuzzy, kde-format
+#| msgid "Capture Device Preference for the '%1' Category"
 msgid "Audio Playback Device Preference for the '%1' Category"
 msgstr "Preferowóné ùrządzenié nagrëwaniô dlô kategòrëji '%1'"
 
 #: devicepreference.cpp:323
 #, fuzzy, kde-format
+#| msgid "Capture Device Preference for the '%1' Category"
 msgid "Audio Recording Device Preference for the '%1' Category"
 msgstr "Preferowóné ùrządzenié nagrëwaniô dlô kategòrëji '%1'"
 
 #: devicepreference.cpp:327
 #, fuzzy, kde-format
+#| msgid "Capture Device Preference for the '%1' Category"
 msgid "Video Recording Device Preference for the '%1' Category "
 msgstr "Preferowóné ùrządzenié nagrëwaniô dlô kategòrëji '%1'"
 
 #: devicepreference.cpp:752
 #, fuzzy
+#| msgid ""
+#| "Apply the currently shown device preference list to the following other "
+#| "audio output categories:"
 msgid ""
 "Apply the currently shown device preference list to the following other "
 "audio playback categories:"
@@ -188,6 +200,7 @@ msgstr "Sztandardowé/Niésprecizowónô kategòrëjô"
 
 #: devicepreference.cpp:869
 #, fuzzy
+#| msgid "prefer the selected device"
 msgid "Failed to set the selected audio output device"
 msgstr "wëbierzë naznaczoné ùrządzenié"
 
@@ -208,6 +221,9 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QTreeView, categoryTree)
 #: devicepreference.ui:29 devicepreference.ui:32
 #, fuzzy
+#| msgid ""
+#| "Various categories of outputs.  For each category you may choose what "
+#| "device you wish to output to."
 msgid ""
 "Various categories of media use cases.  For each category, you may choose "
 "what device you prefer to be used by the Phonon applications."
@@ -224,6 +240,9 @@ msgstr "Wëskrzëni awansowóné ùrzadzenia"
 #. i18n: ectx: property (whatsThis), widget (QPushButton, applyPreferencesButton)
 #: devicepreference.ui:77 devicepreference.ui:80
 #, fuzzy
+#| msgid ""
+#| "Apply the currently shown device preference list to the following other "
+#| "audio output categories:"
 msgid "Use the currently shown device list for more categories."
 msgstr ""
 "Ùzëjë tã wëskrzrnioną lëstã preferencëji ùrządzeniów dlô nôslédnëch "
@@ -237,6 +256,9 @@ msgstr "Ùżëjë lëstã ùrządzeniów na..."
 #. i18n: ectx: property (toolTip), widget (QTreeView, deviceList)
 #: devicepreference.ui:113
 #, fuzzy
+#| msgid ""
+#| "Audio Outputs found on your system.  Choose the device that you wish "
+#| "sound to come out of."
 msgid ""
 "Devices found on your system, suitable for the selected category.  Choose "
 "the device that you wish to be used by the applications."
@@ -247,6 +269,11 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QTreeView, deviceList)
 #: devicepreference.ui:116
 #, fuzzy
+#| msgid ""
+#| "The order determines the preference of the output devices. If for some "
+#| "reason the first device cannot be used Phonon will try to use the second, "
+#| "and\n"
+#| "so on."
 msgid ""
 "The order determines the preference of the devices. If for some reason the "
 "first device cannot be used Phonon will try to use the second, and so on."
@@ -358,14 +385,17 @@ msgstr ""
 #~ msgstr "Nagrëwanié aùdio"
 
 #, fuzzy
+#~| msgid "Audio Capture"
 #~ msgid "Video Capture"
 #~ msgstr "Nagrëwanié aùdio"
 
 #, fuzzy
+#~| msgid "Default Output Device Preference"
 #~ msgid "Default Audio Output Device Preference"
 #~ msgstr "Preferowóné ùrządzenié wińdzénia"
 
 #, fuzzy
+#~| msgid "Output Device Preference for the '%1' Category"
 #~ msgid "Audio Output Device Preference for the '%1' Category"
 #~ msgstr "Preferowóné ùrządzenié wińdzenia dlô kategòrëji '%1'"
 
@@ -373,10 +403,12 @@ msgstr ""
 #~ msgstr "Rëmôj"
 
 #, fuzzy
+#~| msgid "Audio Output"
 #~ msgid "Output"
 #~ msgstr "Wińdzenié aùdio"
 
 #, fuzzy
+#~| msgid "Audio Output"
 #~ msgid "Sound Output"
 #~ msgstr "Wińdzenié aùdio"
 
@@ -384,5 +416,6 @@ msgstr ""
 #~ msgstr "Grajë testowim zwãk na naznaczonëm ùrządzeniô"
 
 #, fuzzy
+#~| msgid "Device Preference"
 #~ msgid "Default %1 Preference:"
 #~ msgstr "Preferowóné ùrządzenia"

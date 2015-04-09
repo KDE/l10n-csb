@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-13 12:18+0000\n"
+"POT-Creation-Date: 2014-12-30 09:51+0000\n"
 "PO-Revision-Date: 2009-12-10 21:09+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -70,6 +70,11 @@ msgstr "Prowôdnik asystenta rapòrtowaniô felów."
 
 #: aboutbugreportingdialog.cpp:64
 #, fuzzy
+#| msgctxt "@info/rich"
+#| msgid ""
+#| "This assistant will guide you through the crash reporting process for the "
+#| "KDE Bug Reports Database Site. All the information you enter on the bug "
+#| "report must be in English, if possible, as KDE is formed internationally."
 msgctxt "@info/rich"
 msgid ""
 "This assistant will guide you through the crash reporting process for the "
@@ -287,6 +292,13 @@ msgstr "Dodôj mòżlëwé duplikatë rapòrtów"
 
 #: aboutbugreportingdialog.cpp:147
 #, fuzzy
+#| msgctxt "@info/rich"
+#| msgid ""
+#| "This page will search the bug report database for similar crashes which "
+#| "are possible duplicates of your bug. If there are similar bug reports "
+#| "found, you can double click on them to see details. Then, read the "
+#| "current bug report information so you can check to see if they are "
+#| "similar. "
 msgctxt "@info/rich"
 msgid ""
 "This page will search the bug report system for similar crashes which are "
@@ -363,6 +375,8 @@ msgstr ""
 
 #: aboutbugreportingdialog.cpp:178
 #, fuzzy
+#| msgctxt "@info/rich"
+#| msgid "<note>You should write in English.</note>"
 msgctxt "@info/rich"
 msgid ""
 "<note>You should <strong>write those information in English</strong>.</note>"
@@ -389,6 +403,12 @@ msgstr ""
 
 #: aboutbugreportingdialog.cpp:188
 #, fuzzy
+#| msgctxt "@info/rich"
+#| msgid ""
+#| "If the process fails, you can click <interface>Retry</interface> to try "
+#| "sending the bug report again. If the report cannot be sent because the "
+#| "bug tracking database has a problem, you can save it to a file to "
+#| "manually report later."
 msgctxt "@info/rich"
 msgid ""
 "If the process fails, you can click <interface>Retry</interface> to try "
@@ -527,6 +547,8 @@ msgstr "Ladowanié..."
 
 #: backtracewidget.cpp:133
 #, fuzzy
+#| msgctxt "@info:status"
+#| msgid "Loading crash information... (this may take some time)"
 msgctxt "@info:status"
 msgid "Generating backtrace... (this may take some time)"
 msgstr "Ladowanié wëdowiédzë ò załómaniu... (to mòże kąsk zbawic)"
@@ -547,6 +569,12 @@ msgstr "Ni dało sã zladowac wëdowiédzë ò załómaniu."
 
 #: backtracewidget.cpp:189
 #, fuzzy
+#| msgctxt "@info/rich"
+#| msgid ""
+#| "Another debugging process is attached to the crashed application. "
+#| "Therefore, the DrKonqi debugger cannot fetch the backtrace. Please close "
+#| "the other debugger and click <interface>Reload Crash Information</"
+#| "interface>."
 msgctxt "@info/rich"
 msgid ""
 "Another debugging process is attached to the crashed application. Therefore, "
@@ -559,30 +587,42 @@ msgstr ""
 
 #: backtracewidget.cpp:226
 #, fuzzy
+#| msgctxt "@info"
+#| msgid "This crash information is useful"
 msgctxt "@info"
 msgid "The generated crash information is useful"
 msgstr "To brëkòwnô wëdowiédzô ò załómaniu."
 
 #: backtracewidget.cpp:229
 #, fuzzy
+#| msgctxt "@info"
+#| msgid "This crash information may be useful"
 msgctxt "@info"
 msgid "The generated crash information may be useful"
 msgstr "To mòże bëc brëkòwnô wëdowiédzô ò załómaniu."
 
 #: backtracewidget.cpp:232
 #, fuzzy
+#| msgctxt "@info"
+#| msgid "This crash information is probably not useful"
 msgctxt "@info"
 msgid "The generated crash information is probably not useful"
 msgstr "To wëdôwô sã bëc mało brëkòwnô wëdowiédzô ò załómaniu."
 
 #: backtracewidget.cpp:235
 #, fuzzy
+#| msgctxt "@info"
+#| msgid "This crash information is not useful"
 msgctxt "@info"
 msgid "The generated crash information is not useful"
 msgstr "To nie je brëkòwnô wëdowiédzô ò załómaniu."
 
 #: backtracewidget.cpp:239
 #, fuzzy
+#| msgctxt "@info"
+#| msgid ""
+#| "The rating of this crash information is invalid. This is a bug in drkonqi "
+#| "itself."
 msgctxt "@info"
 msgid ""
 "The rating of this crash information is invalid. This is a bug in DrKonqi "
@@ -591,6 +631,14 @@ msgstr "Lëchô taksa wëdowiédzë ò załómaniu. Bënowô fela drkonqi."
 
 #: backtracewidget.cpp:250
 #, fuzzy, kde-format
+#| msgctxt "@info/rich"
+#| msgid ""
+#| "You can click the <interface>Install Debug Symbols</interface> button in "
+#| "order to automatically install the missing debugging information "
+#| "packages. If this method does not work: please read <link url='%1'>How to "
+#| "create useful crash reports</link> to learn how to get a useful "
+#| "backtrace; install the needed packages and click the <interface>Reload "
+#| "Crash Information</interface> button."
 msgctxt "@info/rich"
 msgid ""
 "You can click the <interface>Install Debug Symbols</interface> button in "
@@ -608,6 +656,14 @@ msgstr ""
 
 #: backtracewidget.cpp:267
 #, fuzzy, kde-format
+#| msgctxt "@info/rich"
+#| msgid ""
+#| "You can click the <interface>Install Debug Symbols</interface> button in "
+#| "order to automatically install the missing debugging information "
+#| "packages. If this method does not work: please read <link url='%1'>How to "
+#| "create useful crash reports</link> to learn how to get a useful "
+#| "backtrace; install the needed packages and click the <interface>Reload "
+#| "Crash Information</interface> button."
 msgctxt "@info/rich"
 msgid ""
 "Please read <link url='%1'>How to create useful crash reports</link> to "
@@ -633,6 +689,10 @@ msgstr "Ni dało sã wëgenerowac wëdowiédzë ò załómaniu."
 
 #: backtracewidget.cpp:289
 #, fuzzy
+#| msgctxt "@info/rich"
+#| msgid ""
+#| "You could try to regenerate the backtrace by clicking the "
+#| "<interface>Reload Crash Information</interface> button."
 msgctxt "@info/rich"
 msgid ""
 "You could try to regenerate the backtrace by clicking the <interface>Reload</"
@@ -643,6 +703,8 @@ msgstr ""
 
 #: backtracewidget.cpp:297
 #, fuzzy
+#| msgctxt "@info:status"
+#| msgid "The debugger application is missing or could not be launched."
 msgctxt "@info:status"
 msgid ""
 "<strong>The debugger application is missing or could not be launched.</"
@@ -651,6 +713,10 @@ msgstr "Felëje aplikacëjô debùggera abò ni mòże òna bëc zrëszonô."
 
 #: backtracewidget.cpp:303
 #, fuzzy, kde-format
+#| msgctxt "@info/rich"
+#| msgid ""
+#| "You need to install the debugger package (%1) and click the "
+#| "<interface>Reload Crash Information</interface> button."
 msgctxt "@info/rich"
 msgid ""
 "<strong>You need to first install the debugger application (%1) then click "
@@ -672,6 +738,8 @@ msgstr ""
 
 #: backtracewidget.cpp:400
 #, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Missing debug symbols"
 msgctxt "messagebox title"
 msgid "Missing debug information packages"
 msgstr "Felëją symbòle debùgòwaniô"
@@ -697,6 +765,8 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantdialog.cpp:41
 #, fuzzy
+#| msgctxt "@title"
+#| msgid "KDE Bug Tracking System Login"
 msgid "the KDE Bug Tracking System"
 msgstr "Logòwanié do systemë szlachòwaniô felów KDE"
 
@@ -728,6 +798,8 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantdialog.cpp:126
 #, fuzzy
+#| msgctxt "@title"
+#| msgid "List of possible duplicate reports"
 msgctxt "@title"
 msgid "Look for Possible Duplicate Reports"
 msgstr "Dodôj mòżlëwé duplikatë rapòrtów"
@@ -739,6 +811,8 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantdialog.cpp:145
 #, fuzzy
+#| msgctxt "@title"
+#| msgid "Preview Report"
 msgctxt "@title"
 msgid "Preview the Report"
 msgstr "Pòdzérk rapòrtu"
@@ -760,6 +834,10 @@ msgstr "Zapiszë wëdowiédzã ë zamkni"
 
 #: bugzillaintegration/reportassistantdialog.cpp:352
 #, fuzzy
+#| msgctxt "@info"
+#| msgid ""
+#| "Do you really want to close the bug assistant without submitting the bug "
+#| "report?"
 msgctxt "@info"
 msgid ""
 "Do you really want to close the bug reporting assistant? <note>The crash "
@@ -808,6 +886,8 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_base.cpp:217
 #, fuzzy
+#| msgctxt "@action:button"
+#| msgid "Sho&w Contents of the Report"
 msgctxt "@action:button"
 msgid "&Show Contents of the Report"
 msgstr "&Wëskrzëni zamkłosc rapòrtu"
@@ -884,6 +964,8 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_base.cpp:326
 #, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "The program has already been restarted"
 msgctxt "@info"
 msgid "Your problem has already been reported as bug %1."
 msgstr "Na programa òsta ju zrëszonô"
@@ -933,6 +1015,11 @@ msgstr "Jeżlë chcesz, mòżesz warcëc sã ë zmienić swòjé òdpòwiescë."
 
 #: bugzillaintegration/reportassistantpages_base.cpp:381
 #, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid ""
+#| "This application is supported in the KDE bug tracking system. You can "
+#| "manually report this bug at <link>%1</link>. Click <interface>Finish</"
+#| "interface> to close the assistant."
 msgctxt "@info"
 msgid ""
 "You can manually report this bug at <link>%1</link>. Click "
@@ -944,6 +1031,11 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_base.cpp:387
 #, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid ""
+#| "This application is not supported in the KDE bug tracking system. You can "
+#| "manually report this bug to its maintainer at <link>%1</link>. Click "
+#| "<interface>Finish</interface> to close the assistant."
 msgctxt "@info"
 msgid ""
 "You can manually report this bug to its maintainer at <link>%1</link>. Click "
@@ -955,6 +1047,8 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_base.cpp:406
 #, fuzzy, kde-format
+#| msgctxt "@info/plain report to url/mail address"
+#| msgid "Report to %1"
 msgctxt "@info report to url/mail address"
 msgid "Report to %1"
 msgstr "Rapòrt do %1"
@@ -980,6 +1074,8 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:78
 #, fuzzy, kde-format
+#| msgctxt "@info:status '1' is replaced with \"bugs.kde.org\""
+#| msgid "You need to login with your %1 account in order to proceed."
 msgctxt "@info:status '1' is replaced with the short URL of the bugzilla "
 msgid "You need to login with your %1 account in order to proceed."
 msgstr "Je nót sã wlogòwac na twòje kònto %1, abë jisc dali."
@@ -1000,6 +1096,12 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:97
 #, fuzzy, kde-format
+#| msgctxt "@info/rich"
+#| msgid ""
+#| "<note>You need a user account on the <link url='%1'>KDE bug tracking "
+#| "system</link> in order to file a bug report, because we may need to "
+#| "contact you later for requesting further information. If you do not have "
+#| "one, you can freely <link url='%2'>create one here</link>.</note>"
 msgctxt "@info/rich"
 msgid ""
 "<note>You need a user account on the <link url='%1'>KDE bug tracking system</"
@@ -1064,6 +1166,8 @@ msgstr "Zrëchtowanié logòwaniô w %1 jakno %2."
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:367
 #, fuzzy
+#| msgctxt "@info:status/rich"
+#| msgid "<b>Error: Invalid username or password</b>"
 msgctxt "@info:status"
 msgid "<b>Error: Invalid username or password</b>"
 msgstr "<b>Fela: Lëché miono brëkòwnika abò parola</b>"
@@ -1125,6 +1229,8 @@ msgstr "Mandriva"
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:444
 #, fuzzy
+#| msgctxt "@label:listbox KDE distribution method"
+#| msgid "SuSE/OpenSUSE"
 msgctxt "@label:listbox KDE distribution method"
 msgid "OpenSUSE"
 msgstr "SuSE/OpenSUSE"
@@ -1146,6 +1252,8 @@ msgstr "Slackware"
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:452
 #, fuzzy
+#| msgctxt "@label:listbox KDE distribution method"
+#| msgid "Kubuntu/Ubuntu (and derivatives)"
 msgctxt "@label:listbox KDE distribution method"
 msgid "Ubuntu (and derivatives)"
 msgstr "Kubuntu/Ubuntu (ë sostrné)"
@@ -1182,12 +1290,18 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:535
 #, fuzzy
+#| msgctxt "@title:window"
+#| msgid "We need more information"
 msgctxt "the minimum required length of a text wasn't reached yet"
 msgid "Provide more information"
 msgstr "Nama je nót wicy wëdowiédzë"
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:555
 #, fuzzy
+#| msgctxt "@info"
+#| msgid ""
+#| "The description about the crash details does not provide enough "
+#| "information."
 msgctxt "@info"
 msgid ""
 "The description about the crash details does not provide enough information "
@@ -1218,6 +1332,8 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:575
 #, fuzzy
+#| msgctxt "@title:window"
+#| msgid "We need more information"
 msgid "Yes, let me add more information"
 msgstr "Nama je nót wicy wëdowiédzë"
 
@@ -1247,6 +1363,8 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:638
 #, fuzzy
+#| msgctxt "@info/rich crash situation example"
+#| msgid "actions you were taking inside or outside the application"
 msgctxt "@info:tooltip help and examples of good bug descriptions"
 msgid ""
 "- Detail which actions were you taking inside and outside the application an "
@@ -1262,6 +1380,8 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:650
 #, fuzzy
+#| msgctxt "@info/rich crash situation example"
+#| msgid "configuration details of the application"
 msgctxt "@info:tooltip help and examples of good bug descriptions"
 msgid "- Note any non-default configuration in the application."
 msgstr "kònfigùracjowé detale ti aplikacëji"
@@ -1314,6 +1434,8 @@ msgstr "Fela sélaniô rapòrtu załomaniô:  <message>%1.</message>"
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:772
 #, fuzzy, kde-format
+#| msgctxt "@info/plain report to url/mail address"
+#| msgid "Report to %1"
 msgctxt "@info report to KDE bugtracker address"
 msgid "Report to %1"
 msgstr "Rapòrt do %1"
@@ -1325,6 +1447,8 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:795
 #, fuzzy
+#| msgctxt "@action:button"
+#| msgid "&Save to File..."
 msgctxt "@action:button save html to a file"
 msgid "Save to a file"
 msgstr "&Zapiszë do lopka..."
@@ -1361,6 +1485,8 @@ msgstr "Rãczné dodôwanié identifikatora rapòrtu ò felë "
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:72
 #, fuzzy
+#| msgctxt "@info:tooltip"
+#| msgid "Use this button to retry loading the bug report."
 msgctxt "@info:tooltip / whatsthis"
 msgid "Select this option to manually load a specific bug report"
 msgstr "Brëkùjë ti knąpë abë òbaczëc wëdowiédzã ò wëbrónym rapòrce."
@@ -1434,6 +1560,8 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:188
 #, fuzzy
+#| msgctxt "@action:button"
+#| msgid "Search for more reports"
 msgid "Let me check more reports"
 msgstr "Szëkôj za wicy rapòrtama"
 
@@ -1481,24 +1609,32 @@ msgstr "Wëskrzënianié skùtków òd %1 do %2"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:321
 #, fuzzy
+#| msgctxt "@info/plain bug status"
+#| msgid "[Open]"
 msgctxt "@info bug status"
 msgid "[Open]"
 msgstr "[Òtemkłé]"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:324
 #, fuzzy
+#| msgctxt "@info/plain bug resolution"
+#| msgid "[Fixed]"
 msgctxt "@info bug resolution"
 msgid "[Fixed]"
 msgstr "[Parôt]"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:326
 #, fuzzy
+#| msgctxt "@info/plain bug resolution"
+#| msgid "[Non-reproducible]"
 msgctxt "@info bug resolution"
 msgid "[Non-reproducible]"
 msgstr "[Niereproduktiwné]"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:328
 #, fuzzy
+#| msgctxt "@action:button"
+#| msgid "Open selected report"
 msgctxt "@info bug resolution"
 msgid "[Duplicate report]"
 msgstr "Òtemkni wëbróny rapòrt"
@@ -1510,6 +1646,8 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:333
 #, fuzzy
+#| msgctxt "@info/plain bug resolution"
+#| msgid "[External problem]"
 msgctxt "@info bug resolution"
 msgid "[External problem]"
 msgstr "[Bùtnowô problema]"
@@ -1591,6 +1729,10 @@ msgstr "Wpiszë numer rapòrtu ò felë jaczi chcesz sprôwdzëc"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:542
 #, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid ""
+#| "The report is going to be <strong>attached</strong> to bug <numid>%1</"
+#| "numid>. <a href=\"#\">Cancel</a>"
 msgctxt "@label"
 msgid ""
 "The report is going to be <strong>attached</strong> to bug %1. <a href=\"#"
@@ -1616,6 +1758,8 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:583
 #, fuzzy
+#| msgctxt "@info:tooltip"
+#| msgid "Use this button to view the information of the selected bug report."
 msgctxt "@info:tooltip"
 msgid ""
 "Use this button to suggest that the crash you experienced is related to this "
@@ -1624,6 +1768,8 @@ msgstr "Brëkùjë ti knąpë abë òbaczëc wëdowiédzã ò wëbrónym rapòrc
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:632
 #, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "<link url='%1'>Bug report page at the KDE bug tracking system</link>"
 msgctxt "@info"
 msgid "<link url='%1'>Report's webpage</link>"
 msgstr ""
@@ -1632,12 +1778,16 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:635
 #, fuzzy, kde-format
+#| msgctxt "@info:status"
+#| msgid "Loading information about bug <numid>%1</numid> from %2...."
 msgctxt "@info:status"
 msgid "Loading information about bug %1 from %2...."
 msgstr "Ladowanié wëdowiédzë ò felë <numid>%1</numid> z %2..."
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:641
 #, fuzzy
+#| msgctxt "@label:textbox"
+#| msgid "Backtrace of the crash I am sending:"
 msgctxt "@info"
 msgid ""
 "Backtrace of the crash I experienced:\n"
@@ -1793,18 +1943,24 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:799
 #, fuzzy, kde-format
+#| msgctxt "@info bug report label and value"
+#| msgid "<h2>Description of the bug</h2><p>%1</p>"
 msgctxt "@info bug report description"
 msgid "<h3>Description of the bug</h3><p>%1</p>"
 msgstr "<h2>Òpisënk felë</h2><p>%1</p>"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:804
 #, fuzzy, kde-format
+#| msgctxt "@label:textbox bug report label and value"
+#| msgid "<h2>Additional Comments</h2>%1"
 msgctxt "@label:textbox bug report comments (already formatted)"
 msgid "<h2>Additional Comments</h2>%1"
 msgstr "<h2>Dodôwné dopòwiescë</h2>%1"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:813
 #, fuzzy, kde-format
+#| msgctxt "@info:status"
+#| msgid "Showing report <numid>%1</numid>"
 msgctxt "@info:status"
 msgid "Showing bug %1"
 msgstr "Wëskrzënianié rapòrtu <numid>%1</numid>"
@@ -1831,6 +1987,8 @@ msgstr "Fela ladowaniô rapòrtu ò felë"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:895
 #, fuzzy
+#| msgctxt "@title"
+#| msgid "Details of the Bug Report"
 msgctxt "@title:window"
 msgid "Related Bug Report"
 msgstr "Detale rapòrtu ò felë"
@@ -1870,6 +2028,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, m_rememberLabel)
 #: bugzillaintegration/ui/assistantpage_bugawareness.ui:17
 #, fuzzy
+#| msgid ""
+#| "<strong>Do you remember what you were doing prior to the crash?</strong>"
 msgctxt "@label question"
 msgid ""
 "<strong>Do you remember what you were doing prior to the crash?</strong>"
@@ -1878,6 +2038,7 @@ msgstr "<strong>Pamiãtôsz co të robił przë tim załômaniu?</strong>"
 #. i18n: ectx: property (text), widget (QRadioButton, m_rememberCrashSituationYes)
 #: bugzillaintegration/ui/assistantpage_bugawareness.ui:44
 #, fuzzy
+#| msgid "Yes"
 msgctxt ""
 "@option:radio \"yes\" to the question \"do you remember what were you doing "
 "prior to the crash?\""
@@ -1887,6 +2048,7 @@ msgstr "Jo"
 #. i18n: ectx: property (text), widget (QRadioButton, m_rememberCrashSituationNo)
 #: bugzillaintegration/ui/assistantpage_bugawareness.ui:54
 #, fuzzy
+#| msgid "No"
 msgctxt ""
 "@option:radio \"No\" to the question \"do you remember what were you doing "
 "prior to the crash?\""
@@ -1896,6 +2058,8 @@ msgstr "Nié"
 #. i18n: ectx: property (text), widget (QLabel, m_reproducibleLabel)
 #: bugzillaintegration/ui/assistantpage_bugawareness.ui:90
 #, fuzzy
+#| msgid ""
+#| "<strong>Do you remember what you were doing prior to the crash?</strong>"
 msgctxt "@label question"
 msgid ""
 "<strong>Does the application crash again if you repeat the same situation?</"
@@ -1927,6 +2091,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, m_reproducibleBox)
 #: bugzillaintegration/ui/assistantpage_bugawareness.ui:130
 #, fuzzy
+#| msgid "Never"
 msgctxt "@item:inlistbox the crash cannot be reproduce. reproduciblity->never"
 msgid "Never"
 msgstr "Nigdë"
@@ -1934,6 +2099,7 @@ msgstr "Nigdë"
 #. i18n: ectx: property (text), item, widget (KComboBox, m_reproducibleBox)
 #: bugzillaintegration/ui/assistantpage_bugawareness.ui:135
 #, fuzzy
+#| msgid "Sometimes"
 msgctxt "@item:inlistbox the bug can be reproduced sometimes"
 msgid "Sometimes"
 msgstr "Tej sej"
@@ -1941,6 +2107,7 @@ msgstr "Tej sej"
 #. i18n: ectx: property (text), item, widget (KComboBox, m_reproducibleBox)
 #: bugzillaintegration/ui/assistantpage_bugawareness.ui:140
 #, fuzzy
+#| msgid "Every time"
 msgctxt "@item:inlistbox the bug can be reproduced every time"
 msgid "Every time"
 msgstr "Wiedno"
@@ -1948,6 +2115,8 @@ msgstr "Wiedno"
 #. i18n: ectx: property (text), widget (QLabel, m_informationLabel)
 #: bugzillaintegration/ui/assistantpage_bugawareness.ui:182
 #, fuzzy
+#| msgctxt "@info/rich"
+#| msgid "<note>You should write in English.</note>"
 msgctxt "@label question"
 msgid ""
 "<strong>Please select which additional information you can provide:</strong>"
@@ -1956,6 +2125,10 @@ msgstr "<note>Je nót pisac pò anielskù.</note>"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_actionsInsideApp)
 #: bugzillaintegration/ui/assistantpage_bugawareness.ui:212
 #, fuzzy
+#| msgctxt "@info/rich"
+#| msgid ""
+#| "In this page you need to describe how much do you know about the desktop "
+#| "and the application state before it crashed."
 msgctxt "@info:tooltip"
 msgid ""
 "Check this option if you can describe what were you doing inside the "
@@ -1967,6 +2140,10 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_actionsInsideApp)
 #: bugzillaintegration/ui/assistantpage_bugawareness.ui:215
 #, fuzzy
+#| msgctxt "@info/rich"
+#| msgid ""
+#| "In this page you need to describe how much do you know about the desktop "
+#| "and the application state before it crashed."
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this option if you can describe what were you doing inside the "
@@ -1978,6 +2155,10 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_unusualSituation)
 #: bugzillaintegration/ui/assistantpage_bugawareness.ui:225
 #, fuzzy
+#| msgctxt "@info/rich"
+#| msgid ""
+#| "In this page you need to describe how much do you know about the desktop "
+#| "and the application state before it crashed."
 msgctxt "@info:tooltip"
 msgid ""
 "Check this option if you can describe any unusual behavior or appearance in "
@@ -1989,6 +2170,10 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_unusualSituation)
 #: bugzillaintegration/ui/assistantpage_bugawareness.ui:228
 #, fuzzy
+#| msgctxt "@info/rich"
+#| msgid ""
+#| "In this page you need to describe how much do you know about the desktop "
+#| "and the application state before it crashed."
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this option if you can describe any unusual behavior or appearance in "
@@ -2040,6 +2225,11 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, m_explanationLabel)
 #: bugzillaintegration/ui/assistantpage_bugzilla_duplicates.ui:17
 #, fuzzy
+#| msgctxt "@info/rich"
+#| msgid ""
+#| "See if your bug has already been reported. Double click a report in the "
+#| "list and compare it to yours. You can suggest that your crash is a "
+#| "duplicate of that report or directly attach your information to it."
 msgctxt "@info"
 msgid ""
 "See if your bug has already been reported. Double click a report in the list "
@@ -2072,6 +2262,8 @@ msgstr "Mòżlëwé duplikatë:"
 #. i18n: ectx: property (text), widget (QCheckBox, m_showOwnBacktraceCheckBox)
 #: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog.ui:81
 #, fuzzy
+#| msgctxt "@label:textbox"
+#| msgid "Backtrace of the crash I am sending:"
 msgctxt ""
 "@option:check user must check this to preview the own backtrace (in order to "
 "compare it with the one in the showed report)"
@@ -2089,6 +2281,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, proceedLabel)
 #: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog_confirmation.ui:115
 #, fuzzy
+#| msgid ""
+#| "<strong>Do you remember what you were doing prior to the crash?</strong>"
 msgid "<strong>Do you want to proceed with the reporting process?</strong>"
 msgstr "<strong>Pamiãtôsz co të robił przë tim załômaniu?</strong>"
 
@@ -2105,24 +2299,31 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, areYouSureLabel)
 #: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog_confirmation.ui:182
 #, fuzzy
+#| msgid ""
+#| "<strong>Do you remember what you were doing prior to the crash?</strong>"
 msgid "<strong>Are you sure this report matches your crash situation?</strong>"
 msgstr "<strong>Pamiãtôsz co të robił przë tim załômaniu?</strong>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, markAsDuplicateCheck)
 #: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog_confirmation.ui:209
 #, fuzzy
+#| msgctxt "@action:button"
+#| msgid "Add as a possible duplicate"
 msgid "Not &really sure: mark as a possible duplicate"
 msgstr "Dodôj mòżlëwé duplikatë"
 
 #. i18n: ectx: property (text), widget (QRadioButton, attachToBugReportCheck)
 #: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog_confirmation.ui:219
 #, fuzzy
+#| msgid "Please attach the following information to your bug report:"
 msgid "Completely sure: attach my &information to this report"
 msgstr "Proszã dodôj ne jinfòrmacrje do rapòrtu ò feli:"
 
 #. i18n: ectx: property (text), widget (QLabel, m_explanationLabel)
 #: bugzillaintegration/ui/assistantpage_bugzilla_information.ui:17
 #, fuzzy
+#| msgctxt "@info/rich"
+#| msgid "<note>You should write in English.</note>"
 msgctxt "@info"
 msgid "<strong>Please provide the following information in English.</strong>"
 msgstr "<note>Je nót pisac pò anielskù.</note>"
@@ -2136,6 +2337,9 @@ msgstr "<strong>Titel rapòrtu ò felë:</strong> (<a href=\"#\">przëmiôr</a>"
 #. i18n: ectx: property (text), widget (QLabel, m_detailsLabel)
 #: bugzillaintegration/ui/assistantpage_bugzilla_information.ui:39
 #, fuzzy
+#| msgctxt "@label:textbox"
+#| msgid ""
+#| "<strong>Title of the bug report:</strong> (<a href=\"#\">examples</a>)"
 msgctxt "@label:textbox"
 msgid ""
 "<strong>Information about the crash:</strong> (<a href=\"#\">help and "
@@ -2157,6 +2361,10 @@ msgstr "Kòmpilacëjô KDE ze zdroju"
 #. i18n: ectx: property (text), widget (QLabel, m_crashInfoLabel)
 #: bugzillaintegration/ui/assistantpage_bugzilla_information.ui:94
 #, fuzzy
+#| msgctxt "@info/rich"
+#| msgid ""
+#| "<note>The crash and system information will be automatically added to the "
+#| "bug report.</note>"
 msgctxt "@info"
 msgid ""
 "<i>Note</i>: The crash and system information will be automatically added to "
@@ -2186,6 +2394,10 @@ msgstr "Zapiszë wëdowiédzã logòwaniô z pòmòcą systemë KDE Wallet"
 #. i18n: ectx: property (text), widget (QLabel, m_previewDescriptionLabel)
 #: bugzillaintegration/ui/assistantpage_bugzilla_preview.ui:19
 #, fuzzy
+#| msgctxt "@label"
+#| msgid ""
+#| "This is a preview of the report's contents which will be sent. <nl />\n"
+#| "If you want to modify it go the previous pages."
 msgctxt "@label"
 msgid ""
 "This is a preview of the report's contents which will be sent. \n"
@@ -2239,6 +2451,8 @@ msgstr "Żądónô instalacëjô felëjących paczétów symbòlów..."
 
 #: debugpackageinstaller.cpp:63
 #, fuzzy
+#| msgctxt "@action:button"
+#| msgid "Cancel"
 msgid "Cancel"
 msgstr "Òprzestóń"
 
@@ -2291,6 +2505,11 @@ msgstr ""
 
 #: drkonqidialog.cpp:111
 #, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid ""
+#| "<para>The reporting assistant is disabled because the crash handler "
+#| "dialog was started in safe mode.<nl />You can manually report this bug to "
+#| "%1 (including the backtrace from the Developer Information tab.)</para>"
 msgctxt "@info"
 msgid ""
 "<para>As the Crash Handler itself has failed, the automatic reporting "
@@ -2305,6 +2524,11 @@ msgstr ""
 
 #: drkonqidialog.cpp:120
 #, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid ""
+#| "<para>The reporting assistant is disabled because the crash handler "
+#| "dialog was started in safe mode.<nl />You can manually report this bug to "
+#| "%1 (including the backtrace from the Developer Information tab.)</para>"
 msgctxt "@info"
 msgid ""
 "<para>The reporting assistant is disabled because the crash handler dialog "
@@ -2318,6 +2542,12 @@ msgstr ""
 
 #: drkonqidialog.cpp:127
 #, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid ""
+#| "<para>You can help us improve KDE Software by reporting this error.<nl /"
+#| "><link url='#aboutbugreporting'>Learn more about bug reporting.</link></"
+#| "para><para><note>It is safe to close this dialog if you do not want to "
+#| "report this bug.</note></para>"
 msgctxt "@info"
 msgid ""
 "<para>You can help us improve KDE Software by reporting this error.<nl /"
@@ -2332,6 +2562,10 @@ msgstr ""
 
 #: drkonqidialog.cpp:135
 #, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid ""
+#| "<para>You cannot report this error, because the application does not "
+#| "provide a bug reporting address.</para>"
 msgctxt "@info"
 msgid ""
 "<para>You cannot report this error, because <application>%1</application> "
@@ -2347,6 +2581,10 @@ msgstr "Detale:"
 
 #: drkonqidialog.cpp:150
 #, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid ""
+#| "<para>Executable: <application>%1</application> PID: <numid>%2</numid> "
+#| "Signal: %3 (%4)</para>"
 msgctxt "@info Note the time information is divided into date and time parts"
 msgid ""
 "<para>Executable: <application>%1</application> PID: %2 Signal: %3 (%4) "
@@ -2357,6 +2595,8 @@ msgstr ""
 
 #: drkonqidialog.cpp:178
 #, fuzzy
+#| msgctxt "@action:button"
+#| msgid "Report Bug"
 msgctxt "@action:button"
 msgid "Report &Bug"
 msgstr "Sélôj rapòrt ò felë"
@@ -2368,6 +2608,10 @@ msgstr "Zrëszô asystenta raportowaniô felów."
 
 #: drkonqidialog.cpp:195
 #, fuzzy
+#| msgctxt ""
+#| "@action:button this is the debug menu button label which contains the "
+#| "debugging applications"
+#| msgid "Debug"
 msgctxt ""
 "@action:button this is the debug menu button label which contains the "
 "debugging applications"
@@ -2381,6 +2625,8 @@ msgstr "Zrëszô programã do debùgòwaniô załómónëch aplikacëjów."
 
 #: drkonqidialog.cpp:215
 #, fuzzy
+#| msgctxt "@action:button"
+#| msgid "Restart Application"
 msgctxt "@action:button"
 msgid "&Restart Application"
 msgstr "Zrëszë apliakcëjã znowa"
@@ -2441,48 +2687,64 @@ msgstr "A. L. Spehr"
 
 #: main.cpp:87
 #, fuzzy
+#| msgctxt "@info:shell"
+#| msgid "The signal number that was caught"
 msgctxt "@info:shell"
 msgid "The signal <number> that was caught"
 msgstr "Numer ùchwëconegò sygnalu"
 
 #: main.cpp:88
 #, fuzzy
+#| msgctxt "@info:shell"
+#| msgid "Name of the program"
 msgctxt "@info:shell"
 msgid "<Name> of the program"
 msgstr "Miono programë"
 
 #: main.cpp:89
 #, fuzzy
+#| msgctxt "@info:shell"
+#| msgid "Path to the executable"
 msgctxt "@info:shell"
 msgid "<Path> to the executable"
 msgstr "Stegna do programë"
 
 #: main.cpp:90
 #, fuzzy
+#| msgctxt "@info:shell"
+#| msgid "The version of the program"
 msgctxt "@info:shell"
 msgid "The <version> of the program"
 msgstr "Numer wersëji programë"
 
 #: main.cpp:91
 #, fuzzy
+#| msgctxt "@info:shell"
+#| msgid "The bug address to use"
 msgctxt "@info:shell"
 msgid "The bug <address> to use"
 msgstr "Adresa sélaniô rapòrtu felë"
 
 #: main.cpp:92
 #, fuzzy
+#| msgctxt "@info:shell"
+#| msgid "Translated name of the program"
 msgctxt "@info:shell"
 msgid "Translated <name> of the program"
 msgstr "Przedolmaczoné miono programë"
 
 #: main.cpp:93
 #, fuzzy
+#| msgctxt "@info:shell"
+#| msgid "The PID of the program"
 msgctxt "@info:shell"
 msgid "The <PID> of the program"
 msgstr "Identifikatora programë (PID)"
 
 #: main.cpp:94
 #, fuzzy
+#| msgctxt "@info:shell"
+#| msgid "Startup ID of the program"
 msgctxt "@info:shell"
 msgid "Startup <ID> of the program"
 msgstr "Startowô identifikatora (ID) programë"
@@ -2515,6 +2777,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, m_toggleBacktraceCheckBox)
 #: ui/backtracewidget.ui:100
 #, fuzzy
+#| msgctxt "@label:textbox"
+#| msgid "Backtrace of the crash I am sending:"
 msgid "Show backtrace content (advanced)"
 msgstr "Mój sélóny szlach załômaniô:"
 
@@ -2532,6 +2796,8 @@ msgstr "Mój sélóny szlach załômaniô:"
 #~ "Wëfùlëjë pòla rapòrtu ò felë: <nl/><note>Brëkùjë anielsczégò.</note>"
 
 #, fuzzy
+#~| msgctxt "@title"
+#~| msgid "Login into the bug tracking system"
 #~ msgctxt "@title"
 #~ msgid "Login into the KDE Bugtracking System"
 #~ msgstr "Wlogòwanié do systemë szlachòwaniô"
@@ -2553,11 +2819,15 @@ msgstr "Mój sélóny szlach załômaniô:"
 #~ msgstr "Fela przë dodôwaniu pòdôwków do rapòrtu felë: %1"
 
 #, fuzzy
+#~| msgctxt "@info"
+#~| msgid "Error while attaching the data to the bug report: %1"
 #~ msgctxt "@info"
 #~ msgid "Error while adding a new comment into the bug report: %1"
 #~ msgstr "Fela przë dodôwaniu pòdôwków do rapòrtu felë: %1"
 
 #, fuzzy
+#~| msgctxt "@info"
+#~| msgid "Error while attaching the data to the bug report: %1"
 #~ msgctxt "@info"
 #~ msgid "Unknown error while adding a new comment into the bug report"
 #~ msgstr "Fela przë dodôwaniu pòdôwków do rapòrtu felë: %1"
@@ -2597,6 +2867,8 @@ msgstr "Mój sélóny szlach załômaniô:"
 #~ msgstr "Nen rapòrt je ju zamkłi"
 
 #, fuzzy
+#~| msgctxt "@info/rich"
+#~| msgid "This is an optional step."
 #~ msgctxt "@title:window"
 #~ msgid "This is a common crash"
 #~ msgstr "To je òptacjowi szlach."
@@ -2631,6 +2903,10 @@ msgstr "Mój sélóny szlach załômaniô:"
 #~ msgstr "Lëchi rapòrt felów: zepsëté pòdôwczi"
 
 #, fuzzy
+#~| msgctxt "@info/rich"
+#~| msgid ""
+#~| "In this page you need to describe how much do you know about the desktop "
+#~| "and the application state before it crashed."
 #~ msgctxt "what's this text"
 #~ msgid ""
 #~ "Check this option if you can describe what were you doing inside the "
@@ -2644,6 +2920,7 @@ msgstr "Mój sélóny szlach załômaniô:"
 #~ msgstr "<strong>Wëdowiédzô ò załômaniu:</strong>"
 
 #, fuzzy
+#~| msgid "Loading backtrace..."
 #~ msgid "Show backtrace"
 #~ msgstr "Ladowanié szlachù dzejnotë..."
 
@@ -2664,6 +2941,8 @@ msgstr "Mój sélóny szlach załômaniô:"
 #~ msgstr "Sélôj rapòrt ò załómaniu"
 
 #, fuzzy
+#~| msgctxt "@info"
+#~| msgid "Invalid bug report: corrupted data"
 #~ msgctxt "@info"
 #~ msgid "Invalid report information (malformed data)"
 #~ msgstr "Lëchi rapòrt felów: zepsëté pòdôwczi"
@@ -2697,6 +2976,8 @@ msgstr "Mój sélóny szlach załômaniô:"
 #~ msgstr "Jes të gwës?"
 
 #, fuzzy
+#~| msgctxt "@label:textbox"
+#~| msgid "Details about the crash"
 #~ msgctxt ""
 #~ "@option:check kind of information the user can provide about the crash"
 #~ msgid "Details about the application configuration"
@@ -2707,6 +2988,8 @@ msgstr "Mój sélóny szlach załômaniô:"
 #~ msgstr "Rapòrt do %1"
 
 #, fuzzy
+#~| msgctxt "@info bug resolution"
+#~| msgid "Not a KDE bug"
 #~ msgctxt "@info/plain bug resolution"
 #~ msgid "[Not a KDE bug]"
 #~ msgstr "To nie je fela KDE"
@@ -2790,6 +3073,8 @@ msgstr "Mój sélóny szlach załômaniô:"
 #~ "chcesz bë rozwijôrze sparłãczëlë sã z tobą dlô dobëcô wicy wëdowiédzë."
 
 #, fuzzy
+#~| msgctxt "@title"
+#~| msgid "What do you know about the crash?"
 #~ msgctxt "@title"
 #~ msgid "What do you know about the crash ?"
 #~ msgstr "Co wiész ò tim załómaniu?"
@@ -2881,6 +3166,7 @@ msgstr "Mój sélóny szlach załômaniô:"
 # Michôł Òstrowsczi <michol@linuxcsb.org>, 2006, 2008.
 # Mark Kwidzińśczi <mark@linuxcsb.org>, 2009.
 #, fuzzy
+#~| msgid ""
 #~ msgctxt "@action:button"
 #~ msgid ""
 #~ msgstr ""

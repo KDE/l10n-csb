@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxkb\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-13 12:18+0000\n"
+"POT-Creation-Date: 2015-03-19 08:45+0000\n"
 "PO-Revision-Date: 2009-12-15 19:24+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -32,21 +32,23 @@ msgstr "Przestôwi do pòstãpnégò ùstôwù klawiaturë"
 
 #: bindings.cpp:34
 #, fuzzy
+#| msgid "Keyboard Layout"
 msgid "KDE Keyboard Layout Switcher"
 msgstr "Ùstôw klawiaturë"
 
 #: bindings.cpp:67
 #, fuzzy, kde-format
+#| msgid "Error changing keyboard layout to '%1'"
 msgid "Switch keyboard layout to %1"
 msgstr "Fela przestôwianiô do ùstôwù klawiaturë '%1'"
 
-#: flags.cpp:141
+#: flags.cpp:172
 #, kde-format
 msgctxt "short layout label - full layout name"
 msgid "%1 - %2"
 msgstr ""
 
-#: flags.cpp:149
+#: flags.cpp:180
 #, kde-format
 msgctxt "layout - variant"
 msgid "%1 - %2"
@@ -58,6 +60,8 @@ msgstr ""
 
 #: kcm_add_layout_dialog.cpp:139 kcm_view_models.cpp:308
 #, fuzzy
+#| msgctxt "Default variant"
+#| msgid "Default"
 msgctxt "variant"
 msgid "Default"
 msgstr "Domëslny"
@@ -65,24 +69,28 @@ msgstr "Domëslny"
 #. i18n: ectx: property (windowTitle), widget (QDialog, AddLayoutDialog)
 #: kcm_add_layout_dialog.ui:14
 #, fuzzy
+#| msgid "Layout"
 msgid "Add Layout"
 msgstr "Ùstôw"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: kcm_add_layout_dialog.ui:30
 #, fuzzy
+#| msgid "Layout"
 msgid "Layout:"
 msgstr "Ùstôw"
 
 #. i18n: ectx: property (text), widget (QLabel, labelLabel_2)
 #: kcm_add_layout_dialog.ui:47
 #, fuzzy
+#| msgid "Main shortcuts:"
 msgid "Shortcut:"
 msgstr "Przédné skrodzënë:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: kcm_add_layout_dialog.ui:54
 #, fuzzy
+#| msgid "Variant"
 msgid "Variant:"
 msgstr "Wariant"
 
@@ -104,11 +112,13 @@ msgstr ""
 
 #: kcm_keyboard.cpp:49
 #, fuzzy
+#| msgid "KDE Keyboard Layout Switcher"
 msgid "KDE Keyboard Control Module"
 msgstr "Przestôwnik ùstôwów klawiaturów KDE"
 
 #: kcm_keyboard.cpp:51
 #, fuzzy
+#| msgid "Copyright (C) 2006-2007 Andriy Rysin"
 msgid "(c) 2010 Andriy Rysin"
 msgstr "Copyright (C) 2006-2007 Andriy Rysin"
 
@@ -147,12 +157,14 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tabLayouts)
 #: kcm_keyboard.ui:94
 #, fuzzy
+#| msgid "Layout"
 msgid "Layouts"
 msgstr "Ùstôw"
 
 #. i18n: ectx: property (title), widget (QGroupBox, kbuttongroup)
 #: kcm_keyboard.ui:102
 #, fuzzy
+#| msgid "Layout variant:"
 msgid "Layout Indicator"
 msgstr "Wariant ùstôwù:"
 
@@ -164,12 +176,14 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, showSingleChk)
 #: kcm_keyboard.ui:115
 #, fuzzy
+#| msgid "Show indicator for single layout"
 msgid "Show for single layout"
 msgstr "Wëskrzëni indikatorã dlô pòjedińczégò ùstôwù"
 
 #. i18n: ectx: property (text), widget (QRadioButton, showFlagRadioBtn)
 #: kcm_keyboard.ui:122
 #, fuzzy
+#| msgid "Show country flag"
 msgid "Show flag"
 msgstr "Wëskrzëni fanã kraju"
 
@@ -181,6 +195,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, showLabelOnFlagRadioBtn)
 #: kcm_keyboard.ui:136
 #, fuzzy
+#| msgid "Show country flag"
 msgid "Show label on flag"
 msgstr "Wëskrzëni fanã kraju"
 
@@ -226,6 +241,7 @@ msgstr "Skrodzëna dlô przełączaniô ùstôwów"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: kcm_keyboard.ui:207
 #, fuzzy
+#| msgid "Main shortcuts:"
 msgid "Main shortcuts:"
 msgstr "Przédné skrodzënë:"
 
@@ -242,6 +258,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, xkb3rdLevelShortcutBtn)
 #: kcm_keyboard.ui:223 kcm_keyboard.ui:253
 #, fuzzy
+#| msgid "None"
 msgctxt "no shortcut defined"
 msgid "None"
 msgstr "Felënk"
@@ -285,6 +302,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, layoutsGroupBox)
 #: kcm_keyboard.ui:298
 #, fuzzy
+#| msgid "Active layouts:"
 msgid "Configure layouts"
 msgstr "Aktiwné ùstôwë:"
 
@@ -311,6 +329,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, layoutLoopingCheckBox)
 #: kcm_keyboard.ui:387
 #, fuzzy
+#| msgid "Available layouts:"
 msgid "Spare layouts"
 msgstr "Przistãpny ùstôwë:"
 
@@ -327,6 +346,7 @@ msgstr "Awansowóné"
 #. i18n: ectx: property (text), widget (QCheckBox, configureKeyboardOptionsChk)
 #: kcm_keyboard.ui:455
 #, fuzzy
+#| msgid "&Enable keyboard layouts"
 msgid "&Configure keyboard options"
 msgstr "&Włączë ùstôwë klawiaturë"
 
@@ -351,12 +371,14 @@ msgstr[2] ""
 
 #: kcm_keyboard_widget.cpp:612
 #, fuzzy
+#| msgid "None"
 msgctxt "no shortcuts defined"
 msgid "None"
 msgstr "Felënk"
 
 #: kcm_keyboard_widget.cpp:628
 #, fuzzy, kde-format
+#| msgid "Main shortcuts:"
 msgid "%1 shortcut"
 msgid_plural "%1 shortcuts"
 msgstr[0] "Przédné skrodzënë:"
@@ -365,6 +387,7 @@ msgstr[2] "Przédné skrodzënë:"
 
 #: kcm_view_models.cpp:224
 #, fuzzy
+#| msgid "Map"
 msgctxt "layout map name"
 msgid "Map"
 msgstr "Mapa"
@@ -383,6 +406,7 @@ msgstr "Òpisënk"
 
 #: kcm_view_models.cpp:224
 #, fuzzy
+#| msgid "Main shortcuts:"
 msgid "Shortcut"
 msgstr "Przédné skrodzënë:"
 
@@ -418,6 +442,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, keyboardRepeatGroupBox)
 #: kcmmiscwidget.ui:59
 #, fuzzy
+#| msgid "Keyboard Layout"
 msgid "Keyboard Repeat"
 msgstr "Ùstôw klawiaturë"
 
@@ -482,6 +507,7 @@ msgstr ""
 
 #: layout_tray_icon.cpp:46 layout_tray_icon.cpp:47
 #, fuzzy
+#| msgid "Keyboard Layout"
 msgctxt "tooltip title"
 msgid "Keyboard Layout"
 msgstr "Ùstôw klawiaturë"
