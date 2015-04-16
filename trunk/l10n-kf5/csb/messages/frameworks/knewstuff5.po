@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-12 07:56+0000\n"
+"POT-Creation-Date: 2015-04-16 08:32+0000\n"
 "PO-Revision-Date: 2009-12-04 22:09+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -368,6 +368,113 @@ msgstr "Bãdzë fanã"
 #: ui/itemsviewdelegate.cpp:148
 msgid "Install"
 msgstr "Instalëjë"
+
+#: kmoretools/kmoretools.cpp:590
+#, fuzzy
+#| msgid "Choose..."
+msgctxt "@action:inmenu"
+msgid "More"
+msgstr "Wëbierzë..."
+
+#: kmoretools/kmoretools.cpp:605
+#, fuzzy
+#| msgid "Installed"
+msgctxt "@action:inmenu"
+msgid "Not installed:"
+msgstr "Instalacëjô"
+
+#: kmoretools/kmoretools.cpp:641
+#, fuzzy
+#| msgid "Confi&gure..."
+msgctxt "@action:inmenu"
+msgid "Configure..."
+msgstr "&Kònfigùrëjë..."
+
+#: kmoretools/kmoretools_p.h:370
+#, fuzzy
+#| msgctxt "A link to the description of this Get Hot New Stuff item"
+#| msgid "Visit homepage..."
+msgctxt "@action:inmenu"
+msgid "Visit homepage"
+msgstr "Òbôczë domôcą starnã..."
+
+#: kmoretools/kmoretools_p.h:377
+#, fuzzy
+#| msgid "There is no matching item available.\n"
+msgctxt "@action:inmenu"
+msgid "No further information available."
+msgstr "Felënk pasownëch elementów.\n"
+
+#: kmoretools/kmoretoolsconfigdialog_p.cpp:191
+#, fuzzy
+#| msgid "Configure"
+msgid "Configure menu"
+msgstr "Kònfigùracëjô"
+
+#: kmoretools/kmoretoolsconfigdialog_p.cpp:193
+#, fuzzy, kde-format
+#| msgid "&Configure %1..."
+msgid "Configure menu - %1"
+msgstr "&Kònfigùracëjô %1..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMainSection)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:25
+#, fuzzy
+#| msgid "MainWindow"
+msgid "Main section"
+msgstr "MainWindow"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveDown)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:58
+#, fuzzy
+#| msgid "Move &Down"
+msgid "Move down"
+msgstr "Przeniesë w &dół"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveUp)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:79
+#, fuzzy
+#| msgid "Move &Up"
+msgid "Move up"
+msgstr "Przeniesë w &górã"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMain)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:100
+msgid "Move to Main section"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMore)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:121
+#, fuzzy
+#| msgid "More Actions"
+msgid "Move to More section"
+msgstr "Wicy dzejaniów"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonReset)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:142
+msgid "Reset"
+msgstr "Doprowôdzë nazôd"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMoreSection)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:161
+#, fuzzy
+#| msgid "More Actions"
+msgid "More section"
+msgstr "Wicy dzejaniów"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:213
+msgid ""
+"For this menu there are some more tools suggested which are currently not "
+"installed:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonNotInstalledTools)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:223
+#, fuzzy
+#| msgid "Choose..."
+msgid "More tools..."
+msgstr "Wëbierzë..."
 
 #: ui/entrydetailsdialog.cpp:91
 #, kde-format
@@ -3606,9 +3713,6 @@ msgstr "Naczni zamianã"
 #~ msgid "Configure S&hortcuts..."
 #~ msgstr "Kònfigùracëjô s&krodzënów..."
 
-#~ msgid "&Configure %1..."
-#~ msgstr "&Kònfigùracëjô %1..."
-
 #~ msgid "Configure Tool&bars..."
 #~ msgstr "Kònfigùracëjô listwów nô&rzãdzy..."
 
@@ -3797,12 +3901,6 @@ msgstr "Naczni zamianã"
 #~ msgctxt "Action to send an email to a contributor"
 #~ msgid "Email contributor"
 #~ msgstr "Jiny ùsôdzcë"
-
-#, fuzzy
-#~| msgctxt "A link to the description of this Get Hot New Stuff item"
-#~| msgid "Visit homepage..."
-#~ msgid "Visit contributor's homepage"
-#~ msgstr "Òbôczë domôcą starnã..."
 
 #, fuzzy
 #~| msgid "Other Contributors:"
@@ -4213,9 +4311,6 @@ msgstr "Naczni zamianã"
 #~ msgid "Close Message"
 #~ msgstr "Zamkni wiadło"
 
-#~ msgid "Configure"
-#~ msgstr "Kònfigùracëjô"
-
 #~ msgid "Job"
 #~ msgstr "Robòta"
 
@@ -4401,9 +4496,6 @@ msgstr "Naczni zamianã"
 #~ msgid "Reset Toolbars"
 #~ msgstr "Doprowôdzë listew nôrzãdzów nazôd"
 
-#~ msgid "Reset"
-#~ msgstr "Doprowôdzë nazôd"
-
 #~ msgid "&Toolbar:"
 #~ msgstr "Listëw &nôrzãdzów:"
 
@@ -4548,9 +4640,6 @@ msgstr "Naczni zamianã"
 
 #~ msgid "Delete"
 #~ msgstr "Rëmôj"
-
-#~ msgid "More Actions"
-#~ msgstr "Wicy dzejaniów"
 
 #~ msgid "Save as Scheme Defaults"
 #~ msgstr "Zapiszë jakno domëszlna schemã"
@@ -5734,9 +5823,6 @@ msgstr "Naczni zamianã"
 #~ "Dofùlowanié nie je jednoznaczeniowé, je czile\n"
 #~ "pasownëch elementów.\n"
 
-#~ msgid "There is no matching item available.\n"
-#~ msgstr "Felënk pasownëch elementów.\n"
-
 #~ msgid "Backspace"
 #~ msgstr "Backspace"
 
@@ -5927,9 +6013,6 @@ msgstr "Naczni zamianã"
 #~ msgctxt "Verb"
 #~ msgid "&Insert"
 #~ msgstr "&Wstawi"
-
-#~ msgid "Confi&gure..."
-#~ msgstr "&Kònfigùrëjë..."
 
 #~ msgid "Add"
 #~ msgstr "Dodôj"
@@ -6967,12 +7050,6 @@ msgstr "Naczni zamianã"
 
 #~ msgid "&Remove"
 #~ msgstr "&Rëmôj"
-
-#~ msgid "Move &Up"
-#~ msgstr "Przeniesë w &górã"
-
-#~ msgid "Move &Down"
-#~ msgstr "Przeniesë w &dół"
 
 #~ msgid "&Help"
 #~ msgstr "Pòmò&c"
@@ -9733,11 +9810,6 @@ msgstr "Naczni zamianã"
 #~ msgstr "Sebastian Sauer"
 
 #, fuzzy
-#~| msgid "MainWindow"
-#~ msgid "Maintainer"
-#~ msgstr "MainWindow"
-
-#, fuzzy
 #~| msgid "Tobias Anton"
 #~ msgid "Tobias Koenig"
 #~ msgstr "Tobias Anton"
@@ -9861,14 +9933,6 @@ msgstr "Naczni zamianã"
 #~| msgid "Enter"
 #~ msgid "After"
 #~ msgstr "Wpiszë"
-
-#, fuzzy
-#~| msgid "Choose..."
-#~ msgctxt ""
-#~ "@option:check An item in a list of resources that allows to query for "
-#~ "more resources to put in the list"
-#~ msgid "More..."
-#~ msgstr "Wëbierzë..."
 
 #, fuzzy
 #~| msgctxt "@action"
