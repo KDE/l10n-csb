@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-04-28 12:09+0000\n"
+"POT-Creation-Date: 2015-05-07 08:50+0000\n"
 "PO-Revision-Date: 2009-12-15 22:22+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -27,7 +27,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
 
-#: composite.cpp:544
+#: composite.cpp:550
 #, fuzzy, kde-format
 #| msgid ""
 #| "Compositing has been suspended by another application.<br/>You can resume "
@@ -59,10 +59,6 @@ msgstr "GLX/OpenGL nie je przëstãpné ë blós wspiarcé OpenGL je kòmpatibil
 #: compositingprefs.cpp:114
 msgid "GLX/OpenGL and XRender/XFixes are not available."
 msgstr "GLX/OpenGL ë XRender/XFixes nie są przëstãpné."
-
-#: drm_backend.cpp:616 drm_backend.cpp:628
-msgid "unknown"
-msgstr ""
 
 #: killer/killer.cpp:44
 #, fuzzy
@@ -487,13 +483,7 @@ msgstr "Wëłączë òptacëjë kònfigùracëji"
 msgid "Indicate that KWin has recently crashed n times"
 msgstr "Pòkôżë, że KWin załamôl sã przed sztëkã n-razë."
 
-#: main_wayland.cpp:110
-msgid ""
-"kwin_wayland: could not connect to Wayland Server, ensure WAYLAND_DISPLAY is "
-"set.\n"
-msgstr ""
-
-#: main_wayland.cpp:235
+#: main_wayland.cpp:187
 #, fuzzy
 #| msgid ""
 #| "kwin: unable to claim manager selection, another wm running? (try using --"
@@ -503,54 +493,54 @@ msgstr ""
 "kwin nie mòże przejimnąc sprôwianiô òknama. Czë dzejô ju jiny menedżera "
 "òknów? (proszã spróbòwac òptacëji --replace)\n"
 
-#: main_wayland.cpp:424
+#: main_wayland.cpp:376
 msgid "Start a rootless Xwayland server."
 msgstr ""
 
-#: main_wayland.cpp:426
+#: main_wayland.cpp:378
 msgid ""
 "Name of the Wayland socket to listen on. If not set \"wayland-0\" is used."
 msgstr ""
 
-#: main_wayland.cpp:429
+#: main_wayland.cpp:381
 msgid "Use a nested compositor in windowed mode."
 msgstr ""
 
-#: main_wayland.cpp:431
+#: main_wayland.cpp:383
 msgid "Render to framebuffer."
 msgstr ""
 
-#: main_wayland.cpp:433
+#: main_wayland.cpp:385
 msgid "The framebuffer device to render to."
 msgstr ""
 
-#: main_wayland.cpp:437
+#: main_wayland.cpp:389
 msgid "The X11 Display to use in windowed mode on platform X11."
 msgstr ""
 
-#: main_wayland.cpp:440
+#: main_wayland.cpp:392
 msgid "The Wayland Display to use in windowed mode on platform Wayland."
 msgstr ""
 
-#: main_wayland.cpp:443
+#: main_wayland.cpp:395
 msgid "The width for windowed mode. Default width is 1024."
 msgstr ""
 
-#: main_wayland.cpp:447
+#: main_wayland.cpp:399
 msgid "The height for windowed mode. Default height is 768."
 msgstr ""
 
-#: main_wayland.cpp:464
+#: main_wayland.cpp:416
 msgid ""
 "Enable libinput support for input events processing. Note: never use in a "
 "nested session."
 msgstr ""
 
-#: main_wayland.cpp:468
+#: main_wayland.cpp:420
 msgid "Render through drm node."
 msgstr ""
 
-#: main_wayland.cpp:472
+#: main_wayland.cpp:424
 msgid "Applications to start once Wayland and Xwayland server are started"
 msgstr ""
 
@@ -954,7 +944,7 @@ msgstr "Przełączë na pùlt niżi"
 msgid "Switch to Desktop %1"
 msgstr "Przełączë na pùlt 1"
 
-#: workspace.cpp:1251
+#: workspace.cpp:1248
 msgctxt "Introductory text shown in the support information."
 msgid ""
 "KWin Support Information:\n"
