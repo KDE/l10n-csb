@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-06-07 08:42+0000\n"
+"POT-Creation-Date: 2015-07-04 08:59+0000\n"
 "PO-Revision-Date: 2009-12-17 00:21+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -1977,14 +1977,24 @@ msgid "&Scale output"
 msgstr ""
 
 #: Profile.cpp:145
-msgid "Shell"
-msgstr "Pòwłoka"
+#, fuzzy
+#| msgid "Set as Default"
+msgctxt "Name of the default/builtin profile"
+msgid "Default"
+msgstr "Nastôwi jakno domëslny"
 
 #: ProfileList.cpp:47
 #, fuzzy
 #| msgid "Delete Profile"
 msgid "Default profile"
 msgstr "Rëmôj profil"
+
+#: ProfileManager.cpp:366
+#, fuzzy, kde-format
+#| msgid "Edit Profile \"%1\""
+msgctxt "The default name of a profile"
+msgid "Profile #%1"
+msgstr "Editëjë profil \"%1\""
 
 #: RenameTabDialog.cpp:37
 msgid "Rename Tab"
@@ -2919,6 +2929,9 @@ msgstr ""
 #: ZModemDialog.cpp:48
 msgid "&Stop"
 msgstr "&Zatrzëmôj"
+
+#~ msgid "Shell"
+#~ msgstr "Pòwłoka"
 
 #, fuzzy
 #~| msgid "Accessible Color Scheme"
