@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-07-30 08:43+0000\n"
+"POT-Creation-Date: 2015-10-06 09:58+0000\n"
 "PO-Revision-Date: 2009-12-19 02:07+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -236,12 +236,12 @@ msgstr "Zamkni dokùment"
 msgid "Save As"
 msgstr "Zapiszë jakno"
 
-#: src/katedocmanager.cpp:361 src/katemainwindow.cpp:460
+#: src/katedocmanager.cpp:361 src/katemainwindow.cpp:465
 msgid "New file opened while trying to close Kate, closing aborted."
 msgstr ""
 "Nowi lopk òstôł òtemkłi przë zamëkanim Kate, zamëkanié òstało òprzestóné."
 
-#: src/katedocmanager.cpp:362 src/katemainwindow.cpp:461
+#: src/katedocmanager.cpp:362 src/katemainwindow.cpp:466
 msgid "Closing Aborted"
 msgstr "Niechano zamëkanié"
 
@@ -469,32 +469,44 @@ msgstr ""
 msgid "Close all documents"
 msgstr "Zamkni wszëtczé dokùmentë"
 
-#: src/katemainwindow.cpp:577
+#: src/katemainwindow.cpp:419
+msgid ""
+"This will close all open documents beside the current one. Are you sure you "
+"want to continue?"
+msgstr ""
+
+#: src/katemainwindow.cpp:420
+#, fuzzy
+#| msgid "Close all open documents."
+msgid "Close all documents beside current one"
+msgstr "Zamkni wszëtczé dokùmentë"
+
+#: src/katemainwindow.cpp:582
 #, kde-format
 msgid ""
 "This will hide the menu bar completely. You can show it again by typing %1."
 msgstr ""
 
-#: src/katemainwindow.cpp:579
+#: src/katemainwindow.cpp:584
 #, fuzzy
 #| msgid "Hide Side&bars"
 msgid "Hide menu bar"
 msgstr "&Zatacë bòczné lëstwë"
 
-#: src/katemainwindow.cpp:822
+#: src/katemainwindow.cpp:827
 msgid "&Other..."
 msgstr "&Jinszé..."
 
-#: src/katemainwindow.cpp:845
+#: src/katemainwindow.cpp:850
 #, kde-format
 msgid "Application '%1' not found."
 msgstr "Aplikacëjô '%1' nie òstała nalazłô."
 
-#: src/katemainwindow.cpp:845
+#: src/katemainwindow.cpp:850
 msgid "Application not found"
 msgstr "Aplikacëjô nie òstała nalazłô"
 
-#: src/katemainwindow.cpp:952
+#: src/katemainwindow.cpp:957
 msgid " [read only]"
 msgstr ""
 
