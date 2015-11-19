@@ -1,0 +1,1529 @@
+# translation of kwin.po to Kashubian
+#
+# Michôł Òstrowsczi <michol@linuxcsb.org>, 2006, 2007, 2009.
+# Mark Kwidzińsczi <mark@linuxcsb.org>, 2008.
+# Mark Kwidzińśczi <mark@linuxcsb.org>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kwin\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2015-11-17 10:37+0000\n"
+"PO-Revision-Date: 2009-12-15 22:22+0100\n"
+"Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
+"Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2)\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
+
+#: composite.cpp:555
+#, fuzzy, kde-format
+#| msgid ""
+#| "Compositing has been suspended by another application.<br/>You can resume "
+#| "using the '%1' shortcut."
+msgid ""
+"Desktop effects have been suspended by another application.<br/>You can "
+"resume using the '%1' shortcut."
+msgstr ""
+"Compositing òstôł zastãpiony przez jinszą aplikacëjã.<br/>Mòżesz gò zrëszëc "
+"skrodzëną '%1' ."
+
+#: compositingprefs.cpp:102
+msgid ""
+"<b>OpenGL compositing (the default) has crashed KWin in the past.</"
+"b><br>This was most likely due to a driver bug.<p>If you think that you have "
+"meanwhile upgraded to a stable driver,<br>you can reset this protection but "
+"<b>be aware that this might result in an immediate crash!</b></"
+"p><p>Alternatively, you might want to use the XRender backend instead.</p>"
+msgstr ""
+
+#: compositingprefs.cpp:109
+msgid "Required X extensions (XComposite and XDamage) are not available."
+msgstr "Wëmagóné rozszérzenié X (XComposite ë XDamage) nie je przëstãpné."
+
+#: compositingprefs.cpp:113
+msgid "GLX/OpenGL are not available and only OpenGL support is compiled."
+msgstr "GLX/OpenGL nie je przëstãpné ë blós wspiarcé OpenGL je kòmpatibilne."
+
+#: compositingprefs.cpp:117
+msgid "GLX/OpenGL and XRender/XFixes are not available."
+msgstr "GLX/OpenGL ë XRender/XFixes nie są przëstãpné."
+
+#: killer/killer.cpp:44
+#, fuzzy
+#| msgid "KDE window manager"
+msgid "Window Manager"
+msgstr "Menadżera òknów KDE"
+
+#: killer/killer.cpp:49
+msgid "PID of the application to terminate"
+msgstr "PID aplikacëji do zamkniãcô"
+
+#: killer/killer.cpp:49
+msgid "pid"
+msgstr ""
+
+#: killer/killer.cpp:51
+msgid "Hostname on which the application is running"
+msgstr "Miono kòmpùtra na jaczim robi na aplikacëjô"
+
+#: killer/killer.cpp:51
+msgid "hostname"
+msgstr ""
+
+#: killer/killer.cpp:53
+msgid "Caption of the window to be terminated"
+msgstr "Titel òkna do zamkniãcô"
+
+#: killer/killer.cpp:53
+msgid "caption"
+msgstr ""
+
+#: killer/killer.cpp:55
+msgid "Name of the application to be terminated"
+msgstr "Miono aplikacëji do zamkniãcô"
+
+#: killer/killer.cpp:55
+msgid "name"
+msgstr ""
+
+#: killer/killer.cpp:57
+msgid "ID of resource belonging to the application"
+msgstr "ID dostónkù przënóleżacegò do ti aplikacrji"
+
+#: killer/killer.cpp:57
+msgid "id"
+msgstr ""
+
+#: killer/killer.cpp:59
+msgid "Time of user action causing termination"
+msgstr "Czas dzéjaniô brëkòwnika, jaczi doprowôdzô do zakùńczeniô"
+
+#: killer/killer.cpp:59
+msgid "time"
+msgstr ""
+
+#: killer/killer.cpp:61
+msgid "KWin helper utility"
+msgstr "Pòmòcnô programa KWin"
+
+#: killer/killer.cpp:85
+msgid "This helper utility is not supposed to be called directly."
+msgstr "Na pòmòcnô programa nie je namieniony do samòstójnegò zrëszaniô."
+
+#: killer/killer.cpp:95
+#, kde-format
+msgctxt "@info"
+msgid "<b>Application \"%1\" is not responding</b>"
+msgstr ""
+
+#: killer/killer.cpp:97
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>You tried to close window \"%1\" from application \"%2\" (Process ID: "
+"%3) but the application is not responding.</para>"
+msgstr ""
+
+#: killer/killer.cpp:99
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>You tried to close window \"%1\" from application \"%2\" (Process ID: "
+"%3), running on host \"%4\", but the application is not responding.</para>"
+msgstr ""
+
+#: killer/killer.cpp:102
+msgctxt "@info"
+msgid ""
+"<para>Do you want to terminate this application?</"
+"para><para><warning>Terminating the application will close all of its child "
+"windows. Any unsaved data will be lost.</warning></para>"
+msgstr ""
+
+#: killer/killer.cpp:106
+#, kde-format
+msgid "&Terminate Application %1"
+msgstr "&Zakùńczë aplikacëjã %1"
+
+#: killer/killer.cpp:107
+msgid "Wait Longer"
+msgstr ""
+
+#: kwinbindings.cpp:40
+msgid "Walk Through Window Tabs"
+msgstr "Przezérôj kôrtë òknów"
+
+#: kwinbindings.cpp:41
+msgid "Walk Through Window Tabs (Reverse)"
+msgstr "Przezérôj kôrtë òknów (w òpaczny pòsobicë)"
+
+#: kwinbindings.cpp:42
+msgid "Remove Window From Group"
+msgstr "Rëmôj òkno z karna"
+
+#: kwinbindings.cpp:44
+msgid "Window Operations Menu"
+msgstr "Menu òperacëji na òknie"
+
+#: kwinbindings.cpp:46
+msgid "Close Window"
+msgstr "Zamkni òkno"
+
+#: kwinbindings.cpp:48
+msgid "Maximize Window"
+msgstr "Maksymalizëjë òkno"
+
+#: kwinbindings.cpp:50
+msgid "Maximize Window Vertically"
+msgstr "Maskymalizëjë òkno wertikalno"
+
+#: kwinbindings.cpp:52
+msgid "Maximize Window Horizontally"
+msgstr "Maskymalizëjë òkno hòrizontalno"
+
+#: kwinbindings.cpp:54
+msgid "Minimize Window"
+msgstr "Minimazëjë òkno"
+
+#: kwinbindings.cpp:56
+msgid "Shade Window"
+msgstr "Zwinie òkno"
+
+#: kwinbindings.cpp:58
+msgid "Move Window"
+msgstr "Przeniesë òkno"
+
+#: kwinbindings.cpp:60
+msgid "Resize Window"
+msgstr "Zmieni miarã òkna"
+
+#: kwinbindings.cpp:62
+msgid "Raise Window"
+msgstr "Zawòłôj òkno"
+
+#: kwinbindings.cpp:64
+msgid "Lower Window"
+msgstr "Òdwòłôj òkno"
+
+#: kwinbindings.cpp:66
+msgid "Toggle Window Raise/Lower"
+msgstr "Copni abò zawòłôj òkno"
+
+#: kwinbindings.cpp:68
+msgid "Make Window Fullscreen"
+msgstr "Zwikszë òkno na fùl ekran"
+
+#: kwinbindings.cpp:70
+msgid "Hide Window Border"
+msgstr "Zatacë grańcë òkna"
+
+#: kwinbindings.cpp:72
+msgid "Keep Window Above Others"
+msgstr "Wiedno na wiérzkù"
+
+#: kwinbindings.cpp:74
+msgid "Keep Window Below Others"
+msgstr "Wiedno w spòdkù"
+
+#: kwinbindings.cpp:76
+msgid "Activate Window Demanding Attention"
+msgstr "Zaktiwùjë òkno żądającé reakcëji"
+
+#: kwinbindings.cpp:78
+msgid "Setup Window Shortcut"
+msgstr "Kònfigùrëjë skrodzënã òkna"
+
+#: kwinbindings.cpp:80
+msgid "Pack Window to the Right"
+msgstr "Wsôdzë òkno z prawa"
+
+#: kwinbindings.cpp:82
+msgid "Pack Window to the Left"
+msgstr "Wsôdzë òkno z lewa"
+
+#: kwinbindings.cpp:84
+msgid "Pack Window Up"
+msgstr "Wsôdzë òkno w górze"
+
+#: kwinbindings.cpp:86
+msgid "Pack Window Down"
+msgstr "Wsôdzë òkno w dole"
+
+#: kwinbindings.cpp:88
+msgid "Pack Grow Window Horizontally"
+msgstr "Wsôdze pòsobné òkna hòrizontalno"
+
+#: kwinbindings.cpp:90
+msgid "Pack Grow Window Vertically"
+msgstr "Wsôdzë pòsobné òkna wertikalno"
+
+#: kwinbindings.cpp:92
+msgid "Pack Shrink Window Horizontally"
+msgstr "Wsôdzë pòsobné òkna hòrizontalno"
+
+#: kwinbindings.cpp:94
+msgid "Pack Shrink Window Vertically"
+msgstr "Wsôdzë pòsobné òkna wertikalno"
+
+#: kwinbindings.cpp:96
+msgid "Quick Tile Window to the Left"
+msgstr "Wstôwi titel òkna z lewi"
+
+#: kwinbindings.cpp:98
+msgid "Quick Tile Window to the Right"
+msgstr "Wstôwi titel òkna z prawi"
+
+#: kwinbindings.cpp:100
+#, fuzzy
+#| msgid "Quick Tile Window to the Left"
+msgid "Quick Tile Window to the Top"
+msgstr "Wstôwi titel òkna z lewi"
+
+#: kwinbindings.cpp:102
+#, fuzzy
+#| msgid "Quick Tile Window to the Left"
+msgid "Quick Tile Window to the Bottom"
+msgstr "Wstôwi titel òkna z lewi"
+
+#: kwinbindings.cpp:104
+#, fuzzy
+#| msgid "Quick Tile Window to the Left"
+msgid "Quick Tile Window to the Top Left"
+msgstr "Wstôwi titel òkna z lewi"
+
+#: kwinbindings.cpp:106
+#, fuzzy
+#| msgid "Quick Tile Window to the Left"
+msgid "Quick Tile Window to the Bottom Left"
+msgstr "Wstôwi titel òkna z lewi"
+
+#: kwinbindings.cpp:108
+#, fuzzy
+#| msgid "Quick Tile Window to the Right"
+msgid "Quick Tile Window to the Top Right"
+msgstr "Wstôwi titel òkna z prawi"
+
+#: kwinbindings.cpp:110
+#, fuzzy
+#| msgid "Quick Tile Window to the Right"
+msgid "Quick Tile Window to the Bottom Right"
+msgstr "Wstôwi titel òkna z prawi"
+
+#: kwinbindings.cpp:112
+msgid "Switch to Window Above"
+msgstr "Biéj do òkna wëżi"
+
+#: kwinbindings.cpp:114
+msgid "Switch to Window Below"
+msgstr "Biéj do òkna niżi"
+
+#: kwinbindings.cpp:116
+msgid "Switch to Window to the Right"
+msgstr "Biéj do òkna z prawi"
+
+#: kwinbindings.cpp:118
+msgid "Switch to Window to the Left"
+msgstr "Biéj do òkna z lewi"
+
+#: kwinbindings.cpp:120
+msgid "Increase Opacity of Active Window by 5 %"
+msgstr ""
+
+#: kwinbindings.cpp:122
+msgid "Decrease Opacity of Active Window by 5 %"
+msgstr ""
+
+#: kwinbindings.cpp:125
+msgid "Keep Window on All Desktops"
+msgstr "Na wszëtczich pùltach"
+
+#: kwinbindings.cpp:129
+#, fuzzy, kde-format
+#| msgid "Window to Desktop 1"
+msgid "Window to Desktop %1"
+msgstr "Òkno na pùlt 1"
+
+#: kwinbindings.cpp:131
+msgid "Window to Next Desktop"
+msgstr "Przełączë na zôstny pùlt"
+
+#: kwinbindings.cpp:132
+msgid "Window to Previous Desktop"
+msgstr "Przełączë na pòprzédny pùlt"
+
+#: kwinbindings.cpp:133
+msgid "Window One Desktop to the Right"
+msgstr "Òkno na pùlt z prawa"
+
+#: kwinbindings.cpp:134
+msgid "Window One Desktop to the Left"
+msgstr "Òkno na pùlt z lewa"
+
+#: kwinbindings.cpp:135
+msgid "Window One Desktop Up"
+msgstr "Òkno na pùlt wëżi"
+
+#: kwinbindings.cpp:136
+msgid "Window One Desktop Down"
+msgstr "Òkno na pùlt niżi"
+
+#: kwinbindings.cpp:139
+#, fuzzy, kde-format
+#| msgid "Window to Screen 1"
+msgid "Window to Screen %1"
+msgstr "Òkno na ekran 1"
+
+#: kwinbindings.cpp:141
+msgid "Window to Next Screen"
+msgstr "Przełączë na zôstny ekran"
+
+#: kwinbindings.cpp:142
+#, fuzzy
+#| msgid "Window to Previous Desktop"
+msgid "Window to Previous Screen"
+msgstr "Przełączë na pòprzédny pùlt"
+
+#: kwinbindings.cpp:143
+msgid "Show Desktop"
+msgstr "Wëskrzëni pùlt"
+
+#: kwinbindings.cpp:146
+#, fuzzy, kde-format
+#| msgid "Switch to Screen 1"
+msgid "Switch to Screen %1"
+msgstr "Przełączë na ekran 1"
+
+#: kwinbindings.cpp:149
+msgid "Switch to Next Screen"
+msgstr "Przełączë na zôstny ekran"
+
+#: kwinbindings.cpp:150
+#, fuzzy
+#| msgid "Switch to Previous Desktop"
+msgid "Switch to Previous Screen"
+msgstr "Przełączë na pòprzédny pùlt"
+
+#: kwinbindings.cpp:152
+msgid "Kill Window"
+msgstr "Rëmôj òkno"
+
+#: kwinbindings.cpp:153
+msgid "Suspend Compositing"
+msgstr "Òdstawic Compositing"
+
+#: kwinbindings.cpp:154
+msgid "Invert Screen Colors"
+msgstr ""
+
+#: main.cpp:89
+msgid ""
+"KWin is unstable.\n"
+"It seems to have crashed several times in a row.\n"
+"You can select another window manager to run:"
+msgstr ""
+"KWin je niesztabilny.\n"
+"Wëzdrzi za tim, że sã slédnno czile razë załamôł.\n"
+"Mòżesz ùżëc jinszegò menadżera òknów:"
+
+#: main.cpp:277 main.cpp:304
+msgid "KDE window manager"
+msgstr "Menadżera òknów KDE"
+
+#: main.cpp:282
+msgid "KWin"
+msgstr "KWin"
+
+#: main.cpp:286
+#, fuzzy
+#| msgid "(c) 1999-2008, The KDE Developers"
+msgid "(c) 1999-2013, The KDE Developers"
+msgstr "(c) 1999-2008, The KDE Developers"
+
+#: main.cpp:288
+msgid "Matthias Ettrich"
+msgstr "Matthias Ettrich"
+
+#: main.cpp:289
+msgid "Cristian Tibirna"
+msgstr "Cristian Tibirna"
+
+#: main.cpp:290
+msgid "Daniel M. Duley"
+msgstr "Daniel M. Duley"
+
+#: main.cpp:291
+msgid "Luboš Luňák"
+msgstr "Luboš Luňák"
+
+#: main.cpp:292
+msgid "Martin Gräßlin"
+msgstr ""
+
+#: main.cpp:292
+msgid "Maintainer"
+msgstr "Òpiekùn"
+
+#: main.cpp:301
+msgid "Disable configuration options"
+msgstr "Wëłączë òptacëjë kònfigùracëji"
+
+#: main.cpp:302
+msgid "Indicate that KWin has recently crashed n times"
+msgstr "Pòkôżë, że KWin załamôl sã przed sztëkã n-razë."
+
+#: main_wayland.cpp:188
+#, fuzzy
+#| msgid ""
+#| "kwin: unable to claim manager selection, another wm running? (try using --"
+#| "replace)\n"
+msgid "kwin_wayland: an X11 window manager is running on the X11 Display.\n"
+msgstr ""
+"kwin nie mòże przejimnąc sprôwianiô òknama. Czë dzejô ju jiny menedżera "
+"òknów? (proszã spróbòwac òptacëji --replace)\n"
+
+#: main_wayland.cpp:433
+msgid "Start a rootless Xwayland server."
+msgstr ""
+
+#: main_wayland.cpp:435
+msgid ""
+"Name of the Wayland socket to listen on. If not set \"wayland-0\" is used."
+msgstr ""
+
+#: main_wayland.cpp:438
+msgid "Use a nested compositor in windowed mode."
+msgstr ""
+
+#: main_wayland.cpp:440
+msgid "Render to framebuffer."
+msgstr ""
+
+#: main_wayland.cpp:442
+msgid "The framebuffer device to render to."
+msgstr ""
+
+#: main_wayland.cpp:446
+msgid "The X11 Display to use in windowed mode on platform X11."
+msgstr ""
+
+#: main_wayland.cpp:449
+msgid "The Wayland Display to use in windowed mode on platform Wayland."
+msgstr ""
+
+#: main_wayland.cpp:451
+msgid "Render to a virtual framebuffer."
+msgstr ""
+
+#: main_wayland.cpp:453
+msgid "The width for windowed mode. Default width is 1024."
+msgstr ""
+
+#: main_wayland.cpp:457
+msgid "The height for windowed mode. Default height is 768."
+msgstr ""
+
+#: main_wayland.cpp:486
+msgid "Use libhybris hwcomposer"
+msgstr ""
+
+#: main_wayland.cpp:493
+msgid ""
+"Enable libinput support for input events processing. Note: never use in a "
+"nested session."
+msgstr ""
+
+#: main_wayland.cpp:497
+msgid "Render through drm node."
+msgstr ""
+
+#: main_wayland.cpp:504
+msgid "Input method that KWin starts."
+msgstr ""
+
+#: main_wayland.cpp:509
+msgid "List all available backends and quit."
+msgstr ""
+
+#: main_wayland.cpp:513
+msgid "Starts the session in locked mode."
+msgstr ""
+
+#: main_wayland.cpp:517
+msgid "Applications to start once Wayland and Xwayland server are started"
+msgstr ""
+
+#: main_x11.cpp:158
+msgid ""
+"kwin: unable to claim manager selection, another wm running? (try using --"
+"replace)\n"
+msgstr ""
+"kwin nie mòże przejimnąc sprôwianiô òknama. Czë dzejô ju jiny menedżera "
+"òknów? (proszã spróbòwac òptacëji --replace)\n"
+
+#: main_x11.cpp:175
+#, fuzzy
+#| msgid ""
+#| "kwin: unable to claim manager selection, another wm running? (try using --"
+#| "replace)\n"
+msgid "kwin: another window manager is running (try using --replace)\n"
+msgstr ""
+"kwin nie mòże przejimnąc sprôwianiô òknama. Czë dzejô ju jiny menedżera "
+"òknów? (proszã spróbòwac òptacëji --replace)\n"
+
+#: main_x11.cpp:278
+msgid "Replace already-running ICCCM2.0-compliant window manager"
+msgstr "Zastãpi ju dzejającegò menedżerã òknów zgódnegò z ICCCM2.0"
+
+#: scene_opengl.cpp:675
+msgid "Desktop effects were restarted due to a graphics reset"
+msgstr ""
+
+#: scene_opengl.cpp:865
+#, kde-format
+msgid ""
+"<h1>OpenGL desktop effects not possible</h1>Your system cannot perform "
+"OpenGL Desktop Effects at the current resolution<br><br>You can try to "
+"select the XRender backend, but it might be very slow for this resolution as "
+"well.<br>Alternatively, lower the combined resolution of all screens to %1x"
+"%2 "
+msgstr ""
+
+#: scene_opengl.cpp:872
+msgid ""
+"The demanded resolution exceeds the GL_MAX_VIEWPORT_DIMS limitation of your "
+"GPU and is therefore not compatible with the OpenGL compositor.<br>XRender "
+"does not know such limitation, but the performance will usually be impacted "
+"by the hardware limitations that restrict the OpenGL viewport size."
+msgstr ""
+
+#: scene_opengl.cpp:897
+#, kde-format
+msgid ""
+"<h1>OpenGL desktop effects might be unusable</h1>OpenGL Desktop Effects at "
+"the current resolution are supported but might be exceptionally slow."
+"<br>Also large windows will turn entirely black.<br><br>Consider to suspend "
+"compositing, switch to the XRender backend or lower the resolution to %1x%1."
+msgstr ""
+
+#: scene_opengl.cpp:903
+msgid ""
+"The demanded resolution exceeds the GL_MAX_TEXTURE_SIZE limitation of your "
+"GPU, thus windows of that size cannot be assigned to textures and will be "
+"entirely black.<br>Also this limit will often be a performance level barrier "
+"despite below GL_MAX_VIEWPORT_DIMS, because the driver might fall back to "
+"software rendering in this case."
+msgstr ""
+
+#: scripting/genericscriptedconfig.cpp:81
+msgctxt "Error message"
+msgid "Plugin does not provide configuration file in expected location"
+msgstr ""
+
+#: scripting/scripting.cpp:127
+#, kde-format
+msgctxt "Assertion failed in KWin script with given value"
+msgid "Assertion failed: %1 is not null"
+msgstr ""
+
+#: scripting/scripting.cpp:145
+msgctxt "Assertion failed in KWin script"
+msgid "Assertion failed: argument is null"
+msgstr ""
+
+#: scripting/scripting.cpp:172
+msgctxt "Error in KWin Script"
+msgid ""
+"Invalid number of arguments. At least service, path, interface and method "
+"need to be provided"
+msgstr ""
+
+#: scripting/scripting.cpp:178
+msgctxt "Error in KWin Script"
+msgid ""
+"Invalid type. Service, path, interface and method need to be string values"
+msgstr ""
+
+#: scripting/scriptingutils.cpp:28
+msgctxt "syntax error in KWin script"
+msgid "Invalid number of arguments"
+msgstr ""
+
+#: scripting/scriptingutils.cpp:41
+#, kde-format
+msgctxt "KWin Scripting function received incorrect value for an expected type"
+msgid "%1 is not a variant type"
+msgstr ""
+
+#: tabbox/tabbox.cpp:364
+#, fuzzy
+#| msgid "Show Desktop"
+msgctxt "Special entry in alt+tab list for minimizing all windows"
+msgid "Show Desktop"
+msgstr "Wëskrzëni pùlt"
+
+#: tabbox/tabbox.cpp:514
+msgid "Walk Through Windows"
+msgstr "Przezérôj òkna"
+
+#: tabbox/tabbox.cpp:515
+msgid "Walk Through Windows (Reverse)"
+msgstr "Przezérôj òkna (w òpaczny pòsobicë)"
+
+#: tabbox/tabbox.cpp:516
+msgid "Walk Through Windows Alternative"
+msgstr "Przezérôj alternatiwné òkna (w òpaczny pòsobicë)"
+
+#: tabbox/tabbox.cpp:517
+msgid "Walk Through Windows Alternative (Reverse)"
+msgstr "Przezérôj alternatiwné òkna (w òpaczny pòsobicë)"
+
+#: tabbox/tabbox.cpp:518
+#, fuzzy
+#| msgid "Walk Through Windows Alternative"
+msgid "Walk Through Windows of Current Application"
+msgstr "Przezérôj alternatiwné òkna (w òpaczny pòsobicë)"
+
+#: tabbox/tabbox.cpp:519
+#, fuzzy
+#| msgid "Walk Through Windows Alternative (Reverse)"
+msgid "Walk Through Windows of Current Application (Reverse)"
+msgstr "Przezérôj alternatiwné òkna (w òpaczny pòsobicë)"
+
+#: tabbox/tabbox.cpp:520
+#, fuzzy
+#| msgid "Walk Through Windows Alternative"
+msgid "Walk Through Windows of Current Application Alternative"
+msgstr "Przezérôj alternatiwné òkna (w òpaczny pòsobicë)"
+
+#: tabbox/tabbox.cpp:521
+#, fuzzy
+#| msgid "Walk Through Windows Alternative (Reverse)"
+msgid "Walk Through Windows of Current Application Alternative (Reverse)"
+msgstr "Przezérôj alternatiwné òkna (w òpaczny pòsobicë)"
+
+#: tabbox/tabbox.cpp:522
+msgid "Walk Through Desktops"
+msgstr "Przezérôj pùltë"
+
+#: tabbox/tabbox.cpp:523
+msgid "Walk Through Desktops (Reverse)"
+msgstr "Przezérôj pùltë (w òpaczny pòsobicë)"
+
+#: tabbox/tabbox.cpp:524
+msgid "Walk Through Desktop List"
+msgstr "Przezérôj lëstã pùltów"
+
+#: tabbox/tabbox.cpp:525
+msgid "Walk Through Desktop List (Reverse)"
+msgstr "Przezérôj lëstã pùltów (w òpaczny pòsobicë)"
+
+#: tabbox/tabboxhandler.cpp:292
+msgid ""
+"The Window Switcher installation is broken, resources are missing.\n"
+"Contact your distribution about this."
+msgstr ""
+
+#: useractions.cpp:200
+#, kde-format
+msgid ""
+"You have selected to show a window without its border.\n"
+"Without the border, you will not be able to enable the border again using "
+"the mouse: use the window operations menu instead, activated using the %1 "
+"keyboard shortcut."
+msgstr ""
+"Môsz wëbróną òptacëjã wëskrzëniwaniô òkna bez grańców.\n"
+"Bez grańców òkna nie mdze mòżlewòtë włączeniô znowa grańców brëkùjąc mëszë; "
+"nót mdze brëkòwac menu òperacëji na òknie, jaczé wëwołôsz klawiszową "
+"skrodzëną %1."
+
+#: useractions.cpp:208
+#, kde-format
+msgid ""
+"You have selected to show a window in fullscreen mode.\n"
+"If the application itself does not have an option to turn the fullscreen "
+"mode off you will not be able to disable it again using the mouse: use the "
+"window operations menu instead, activated using the %1 keyboard shortcut."
+msgstr ""
+"Môsz wëbróny òptacëjã wëskrzëniwaniô òkna na fùl ekran.\n"
+"jeżlë programa nie mô òptacëji przëwraceniô zwëkòwégò tribù, przińdzenie "
+"nazôd do niegò brëkùjąc mëszë nie mdze mòżlewé, nót mdze brëkòwac menu "
+"òperacëji na òknie, jaczé wëwołôsz klawiszową skrodzëną %1."
+
+#: useractions.cpp:271
+msgid "&Move"
+msgstr "&Przeniesë"
+
+#: useractions.cpp:276
+#, fuzzy
+#| msgid "Re&size"
+msgid "&Resize"
+msgstr "&Zmieni miarã"
+
+#: useractions.cpp:280
+msgid "Keep &Above Others"
+msgstr "Wiedno na &wiérzkù"
+
+#: useractions.cpp:286
+msgid "Keep &Below Others"
+msgstr "Wiedno w &spòdkù"
+
+#: useractions.cpp:292
+msgid "&Fullscreen"
+msgstr "&Fùl ekran"
+
+#: useractions.cpp:298
+#, fuzzy
+#| msgid "Shade"
+msgid "&Shade"
+msgstr "Zwinie"
+
+#: useractions.cpp:303
+msgid "&No Border"
+msgstr "&Felënk grańców òkna"
+
+#: useractions.cpp:310
+#, fuzzy
+#| msgid "Window &Shortcut..."
+msgid "Window Short&cut..."
+msgstr "&Skrodzënë òkna..."
+
+#: useractions.cpp:315
+#, fuzzy
+#| msgid "&Special Window Settings..."
+msgid "Special &Window Settings..."
+msgstr "&Dodôwné nastôwë òkna..."
+
+#: useractions.cpp:319
+#, fuzzy
+#| msgid "&Special Application Settings..."
+msgid "S&pecial Application Settings..."
+msgstr "&Dodôwné nastôwë programë..."
+
+#: useractions.cpp:326
+#, fuzzy
+#| msgid "&Special Window Settings..."
+msgctxt ""
+"Entry in context menu of window decoration to open the configuration module "
+"of KWin"
+msgid "Window Manager S&ettings..."
+msgstr "&Dodôwné nastôwë òkna..."
+
+#: useractions.cpp:350
+msgid "Mi&nimize"
+msgstr "&Minimalizëjë"
+
+#: useractions.cpp:354
+msgid "Ma&ximize"
+msgstr "Ma&ksymalizëjë"
+
+#: useractions.cpp:363
+msgid "&Untab"
+msgstr ""
+
+#: useractions.cpp:367
+#, fuzzy
+#| msgid "Close entire &group"
+msgid "Close Entire &Group"
+msgstr "Zamkni całowné &karno"
+
+#: useractions.cpp:378
+msgid "&More Actions"
+msgstr ""
+
+#: useractions.cpp:382
+msgid "&Close"
+msgstr "&Zamkni"
+
+#: useractions.cpp:456
+msgid "&Extensions"
+msgstr ""
+
+#: useractions.cpp:511
+msgctxt "Switch to tab -> Previous"
+msgid "Previous"
+msgstr ""
+
+#: useractions.cpp:512
+msgctxt "Switch to tab -> Next"
+msgid "Next"
+msgstr ""
+
+#: useractions.cpp:554
+msgctxt "There's no window available to be attached as tab to this one"
+msgid "None available"
+msgstr ""
+
+#: useractions.cpp:563
+#, fuzzy
+#| msgid "Switch to window tab"
+msgid "Switch to Tab"
+msgstr "Biéj do kôrtë òkna"
+
+#: useractions.cpp:574
+msgid "&Attach as tab to"
+msgstr ""
+
+#: useractions.cpp:597
+#, fuzzy
+#| msgid "To &Desktop"
+msgid "Move To &Desktop"
+msgstr "Na &pùlt"
+
+#: useractions.cpp:613
+#, fuzzy
+#| msgid "To &Desktop"
+msgid "Move To &Screen"
+msgstr "Na &pùlt"
+
+#: useractions.cpp:628
+msgid "Ac&tivities"
+msgstr ""
+
+#: useractions.cpp:640
+msgid "&All Desktops"
+msgstr "&Wszëtczé pùltë"
+
+#: useractions.cpp:666
+#, fuzzy
+#| msgid "Show Desktop"
+msgctxt "Create a new desktop and move there the window"
+msgid "&New Desktop"
+msgstr "Wëskrzëni pùlt"
+
+#: useractions.cpp:686
+#, fuzzy, kde-format
+#| msgid "Window to Screen 1"
+msgctxt ""
+"@item:inmenu List of all Screens to send a window to. First argument is a "
+"number, second the output identifier. E.g. Screen 1 (HDMI1)"
+msgid "Screen &%1 (%2)"
+msgstr "Òkno na ekran 1"
+
+#: useractions.cpp:707
+msgid "&All Activities"
+msgstr ""
+
+#: useractions.cpp:922
+#, kde-format
+msgctxt "'%1' is a keyboard shortcut like 'ctrl+w'"
+msgid "<b>%1</b> is already in use"
+msgstr ""
+
+#: useractions.cpp:924
+#, kde-format
+msgctxt "keyboard shortcut '%1' is used by action '%2' in application '%3'"
+msgid "<b>%1</b> is used by %2 in %3"
+msgstr ""
+
+#: useractions.cpp:1046
+#, kde-format
+msgid "Activate Window (%1)"
+msgstr "Aktiwùjë òkno (%1)"
+
+#: useractions.cpp:1267
+msgid ""
+"The window manager is configured to consider the screen with the mouse on it "
+"as active one.\n"
+"Therefore it is not possible to switch to a screen explicitly."
+msgstr ""
+
+#: virtualdesktops.cpp:334 virtualdesktops.cpp:396
+#, kde-format
+msgid "Desktop %1"
+msgstr "Pùlt %1"
+
+#: virtualdesktops.cpp:427
+msgid "Switch to Next Desktop"
+msgstr "Przełączë na zôstny pùlt"
+
+#: virtualdesktops.cpp:428
+msgid "Switch to Previous Desktop"
+msgstr "Przełączë na pòprzédny pùlt"
+
+#: virtualdesktops.cpp:429
+msgid "Switch One Desktop to the Right"
+msgstr "Przełączë na pùlt z prawa"
+
+#: virtualdesktops.cpp:430
+msgid "Switch One Desktop to the Left"
+msgstr "Przełączë na pùlt z lewa"
+
+#: virtualdesktops.cpp:431
+msgid "Switch One Desktop Up"
+msgstr "Przełączë na pùlt wëżi"
+
+#: virtualdesktops.cpp:432
+msgid "Switch One Desktop Down"
+msgstr "Przełączë na pùlt niżi"
+
+#: virtualdesktops.cpp:444
+#, fuzzy, kde-format
+#| msgid "Switch to Desktop 1"
+msgid "Switch to Desktop %1"
+msgstr "Przełączë na pùlt 1"
+
+#: workspace.cpp:1306
+msgctxt "Introductory text shown in the support information."
+msgid ""
+"KWin Support Information:\n"
+"The following information should be used when requesting support on e.g. "
+"http://forum.kde.org.\n"
+"It provides information about the currently running instance, which options "
+"are used,\n"
+"what OpenGL driver and which effects are running.\n"
+"Please post the information provided underneath this introductory text to a "
+"paste bin service\n"
+"like http://paste.kde.org instead of pasting into support threads.\n"
+msgstr ""
+
+#~ msgid "Sh&ade"
+#~ msgstr "&Zwinie"
+
+#~ msgid "KWin: "
+#~ msgstr "KWin: "
+
+#~ msgid "System"
+#~ msgstr "Systema"
+
+#~ msgid "Navigation"
+#~ msgstr "Nawigacëjô"
+
+#~ msgid "Windows"
+#~ msgstr "Òkna"
+
+#~ msgid "Window & Desktop"
+#~ msgstr "Òkno ë pùlt"
+
+#~ msgid "Miscellaneous"
+#~ msgstr "Jinë"
+
+#~ msgid "Desktop Switching"
+#~ msgstr "Przełączanié pùltów"
+
+#~ msgid ""
+#~ "kwin: it looks like there's already a window manager running. kwin not "
+#~ "started.\n"
+#~ msgstr ""
+#~ "kwin: wëzdrzi na to, że je ju zrëszony jiny menedżera òknów. kwin nie "
+#~ "òstanié zrëszony.\n"
+
+#~ msgid "Block Global Shortcuts"
+#~ msgstr "Blokùjë òglowé skrodzënë"
+
+#~ msgid ""
+#~ "<p>The window \"<b>%2</b>\" is not responding. It belongs to the "
+#~ "application <b>%1</b> (Process ID = %3, hostname = %4).</p><p>Do you wish "
+#~ "to terminate the application process <em>including <b>all</b> of its "
+#~ "child windows</em>?<br /><b>Any unsaved data will be lost.</b></p>"
+#~ msgstr ""
+#~ "<p>Òkno \"<b>%2</b>\" nie òdpòwiadô. Przënôlégò òno do programë <b>%1</b> "
+#~ "(PID=%3, kòmpùtr=%4).</p><p>Czë zakùńczëc nã programã <em>włączającë w to "
+#~ "<b>wszëtczé</b> jegò pòtomné ókna?</em>? <br /><b>Wszëtczé niezapisóné "
+#~ "pòdôwczi òstaną rëmniãté.</b></p>"
+
+#~ msgid "Window '%1' demands attention."
+#~ msgstr "Òkno '%1' żądô reakcëji."
+
+#, fuzzy
+#~| msgid "Close Window"
+#~ msgctxt "Floating layout, windows aren't tiled at all"
+#~ msgid "Floating"
+#~ msgstr "Zamkni òkno"
+
+#, fuzzy
+#~| msgid "Close Window"
+#~ msgctxt "When in tiling mode, toggle's the window's floating/tiled state"
+#~ msgid "&Float Window"
+#~ msgstr "Zamkni òkno"
+
+#~ msgid "Ad&vanced"
+#~ msgstr "&Awansowóné"
+
+#~ msgid "Configur&e Window Behavior..."
+#~ msgstr "&Kònfigùracëjô ùtrzëmaniô òkna..."
+
+#~ msgid "*** No Windows ***"
+#~ msgstr "*** Felëjë òknów ***"
+
+#, fuzzy
+#~| msgid "Remove &from group"
+#~ msgid "Remove &From Group"
+#~ msgstr "Rëmôj &z karna"
+
+#, fuzzy
+#~| msgid "To the left"
+#~ msgid "To the Left"
+#~ msgstr "Na lewò"
+
+#, fuzzy
+#~| msgid "To the right"
+#~ msgid "To the Right"
+#~ msgstr "Na prawò"
+
+#, fuzzy
+#~| msgid "Move window to group"
+#~ msgid "Move Window to Group"
+#~ msgstr "Przeniesë òkno do karna"
+
+#~ msgid "&Opacity"
+#~ msgstr "&Przezérnota"
+
+#~ msgid ""
+#~ "XRender/XFixes extensions are not available and only XRender support is "
+#~ "compiled."
+#~ msgstr ""
+#~ "Roszérzenia XRender/XFixes nie są przëstãpné ë wspiarce XRender nie je "
+#~ "kòmpatibilne."
+
+#~ msgid ""
+#~ "Compositing was disabled at compile time.\n"
+#~ "It is likely Xorg development headers were not installed."
+#~ msgstr ""
+#~ "Compositing bëł wëłączony w czase kòmpilacëji.\n"
+#~ "Mòżlëwé, że nagłówczi Xorg nie bëłë winstalowóné."
+
+#, fuzzy
+#~| msgid "Switch to Desktop 1"
+#~ msgid "Switch Focus Left"
+#~ msgstr "Przełączë na pùlt 1"
+
+#, fuzzy
+#~| msgid "Switch One Desktop Up"
+#~ msgid "Switch Focus Up"
+#~ msgstr "Przełączë na pùlt wëżi"
+
+#, fuzzy
+#~| msgid "Switch One Desktop Down"
+#~ msgid "Switch Focus Down"
+#~ msgstr "Przełączë na pùlt niżi"
+
+#, fuzzy
+#~| msgid "Move Window"
+#~ msgid "Move Window Left"
+#~ msgstr "Przeniesë òkno"
+
+#, fuzzy
+#~| msgid "Move Window"
+#~ msgid "Move Window Right"
+#~ msgstr "Przeniesë òkno"
+
+#, fuzzy
+#~| msgid "Move Window"
+#~ msgid "Move Window Up"
+#~ msgstr "Przeniesë òkno"
+
+#, fuzzy
+#~| msgid "Move Window"
+#~ msgid "Move Window Down"
+#~ msgstr "Przeniesë òkno"
+
+#, fuzzy
+#~| msgid "Disabled"
+#~ msgid "Tiling Disabled"
+#~ msgstr "Wëłączoné"
+
+#, fuzzy
+#~| msgid ""
+#~| "Compositing was too slow and has been suspended.\n"
+#~| "You can disable functionality checks in advanced compositing settings."
+#~ msgid ""
+#~ "Desktop effects were too slow and have been suspended.\n"
+#~ "You can disable functionality checks in System Settings (on the Advanced "
+#~ "tab in Desktop Effects)."
+#~ msgstr ""
+#~ "Compositing bëł za wòlny ë òstôł zastãpiony.\n"
+#~ "Mòżesz wëłączëc nã fùkcëjã w awanoswóny nastôwie efektów pùltu."
+
+#, fuzzy
+#~| msgid ""
+#~| "Compositing was too slow and has been suspended.\n"
+#~| "If this was only a temporary problem, you can resume using the '%1' "
+#~| "shortcut.\n"
+#~| "You can also disable functionality checks in advanced compositing "
+#~| "settings."
+#~ msgid ""
+#~ "Desktop effects were too slow and have been suspended.\n"
+#~ "If this was only a temporary problem, you can resume using the '%1' "
+#~ "shortcut.\n"
+#~ "You can disable functionality checks in System Settings (on the Advanced "
+#~ "tab in Desktop Effects)."
+#~ msgstr ""
+#~ "Compositing bëł za wòlny ë òstôł zastãpiony.\n"
+#~ "Jeżlë to bëła le doraznô problema, to mòżesz gò zrëszëc skrodzëną '%1' \n"
+#~ "Mòżesz wëłączëc nã fùkcëjã w awanoswóny nastôwie efektów pùltu."
+
+#~ msgid "Mouse Emulation"
+#~ msgstr "Emùlacëjô mëszë"
+
+#~ msgid ""
+#~ "\n"
+#~ "KWin will now exit..."
+#~ msgstr ""
+#~ "\n"
+#~ "KWin sã terô skùńczë..."
+
+#~ msgid "Window to Desktop 2"
+#~ msgstr "Òkno na pùlt 2"
+
+#~ msgid "Window to Desktop 3"
+#~ msgstr "Òkno na pùlt 3"
+
+#~ msgid "Window to Desktop 4"
+#~ msgstr "Òkno na pùlt 4"
+
+#~ msgid "Window to Desktop 5"
+#~ msgstr "Òkno na pùlt 5"
+
+#~ msgid "Window to Desktop 6"
+#~ msgstr "Òkno na pùlt 6"
+
+#~ msgid "Window to Desktop 7"
+#~ msgstr "Òkno na pùlt 7"
+
+#~ msgid "Window to Desktop 8"
+#~ msgstr "Òkno na pùlt 8"
+
+#~ msgid "Window to Desktop 9"
+#~ msgstr "Òkno na pùlt 9"
+
+#~ msgid "Window to Desktop 10"
+#~ msgstr "Òkno na pùlt 10"
+
+#~ msgid "Window to Desktop 11"
+#~ msgstr "Òkno na pùlt 11"
+
+#~ msgid "Window to Desktop 12"
+#~ msgstr "Òkno na pùlt 12"
+
+#~ msgid "Window to Desktop 13"
+#~ msgstr "Òkno na pùlt 13"
+
+#~ msgid "Window to Desktop 14"
+#~ msgstr "Òkno na pùlt 14"
+
+#~ msgid "Window to Desktop 15"
+#~ msgstr "Òkno na pùlt 15"
+
+#~ msgid "Window to Desktop 16"
+#~ msgstr "Òkno na pùlt 16"
+
+#~ msgid "Window to Desktop 17"
+#~ msgstr "Òkno na pùlt 17"
+
+#~ msgid "Window to Desktop 18"
+#~ msgstr "Òkno na pùlt 18"
+
+#~ msgid "Window to Desktop 19"
+#~ msgstr "Òkno na pùlt 19"
+
+#~ msgid "Window to Desktop 20"
+#~ msgstr "Òkno na pùlt 20"
+
+#~ msgid "Window to Screen 0"
+#~ msgstr "Òkno na ekran 0"
+
+#~ msgid "Window to Screen 2"
+#~ msgstr "Òkno na ekran 2"
+
+#~ msgid "Window to Screen 3"
+#~ msgstr "Òkno na ekran 3"
+
+#~ msgid "Window to Screen 4"
+#~ msgstr "Òkno na ekran 4"
+
+#~ msgid "Window to Screen 5"
+#~ msgstr "Òkno na ekran 5"
+
+#~ msgid "Window to Screen 6"
+#~ msgstr "Òkno na ekran 6"
+
+#~ msgid "Window to Screen 7"
+#~ msgstr "Òkno na ekran 7"
+
+#~ msgid "Switch to Desktop 2"
+#~ msgstr "Przełączë na pùlt 2"
+
+#~ msgid "Switch to Desktop 3"
+#~ msgstr "Przełączë na pùlt 3"
+
+#~ msgid "Switch to Desktop 4"
+#~ msgstr "Przełączë na pùlt 4"
+
+#~ msgid "Switch to Desktop 5"
+#~ msgstr "Przełączë na pùlt 5"
+
+#~ msgid "Switch to Desktop 6"
+#~ msgstr "Przełączë na pùlt 6"
+
+#~ msgid "Switch to Desktop 7"
+#~ msgstr "Przełączë na pùlt 7"
+
+#~ msgid "Switch to Desktop 8"
+#~ msgstr "Przełączë na pùlt 8"
+
+#~ msgid "Switch to Desktop 9"
+#~ msgstr "Przełączë na pùlt 9"
+
+#~ msgid "Switch to Desktop 10"
+#~ msgstr "Przełączë na pùlt 10"
+
+#~ msgid "Switch to Desktop 11"
+#~ msgstr "Przełączë na pùlt 11"
+
+#~ msgid "Switch to Desktop 12"
+#~ msgstr "Przełączë na pùlt 12"
+
+#~ msgid "Switch to Desktop 13"
+#~ msgstr "Przełączë na pùlt 13"
+
+#~ msgid "Switch to Desktop 14"
+#~ msgstr "Przełączë na pùlt 14"
+
+#~ msgid "Switch to Desktop 15"
+#~ msgstr "Przełączë na pùlt 15"
+
+#~ msgid "Switch to Desktop 16"
+#~ msgstr "Przełączë na pùlt 16"
+
+#~ msgid "Switch to Desktop 17"
+#~ msgstr "Przełączë na pùlt 17"
+
+#~ msgid "Switch to Desktop 18"
+#~ msgstr "Przełączë na pùlt 18"
+
+#~ msgid "Switch to Desktop 19"
+#~ msgstr "Przełączë na pùlt 19"
+
+#~ msgid "Switch to Desktop 20"
+#~ msgstr "Przełączë na pùlt 20"
+
+#~ msgid "Switch to Screen 0"
+#~ msgstr "Przełączë na ekran 0"
+
+#~ msgid "Switch to Screen 2"
+#~ msgstr "Przełączë na ekran 2"
+
+#~ msgid "Switch to Screen 3"
+#~ msgstr "Przełączë na ekran 3"
+
+#~ msgid "Switch to Screen 4"
+#~ msgstr "Przełączë na ekran 4"
+
+#~ msgid "Switch to Screen 5"
+#~ msgstr "Przełączë na ekran 5"
+
+#~ msgid "Switch to Screen 6"
+#~ msgstr "Przełączë na ekran 6"
+
+#~ msgid "Switch to Screen 7"
+#~ msgstr "Przełączë na ekran 7"
+
+#, fuzzy
+#~| msgid "<center><b>%1 preview</b></center>"
+#~ msgid "<center><b>%1</b></center>"
+#~ msgstr "<center><b>Pòdzérk %1</b></center>"
+
+#~ msgid "Menu"
+#~ msgstr "Menu"
+
+#~ msgid "Not on all desktops"
+#~ msgstr "Nié na wszëtczich pùltach"
+
+#~ msgid "On all desktops"
+#~ msgstr "Na wszëtczich pùltach"
+
+#~ msgid "Help"
+#~ msgstr "Pòmòc"
+
+#~ msgid "Minimize"
+#~ msgstr "Minimalizëjë"
+
+#~ msgid "Restore"
+#~ msgstr "Doprowôdzë nazôd"
+
+#~ msgid "Maximize"
+#~ msgstr "Makymalizëjë"
+
+#~ msgid "Close"
+#~ msgstr "Zamkni"
+
+#~ msgid "Do not keep above others"
+#~ msgstr "Nie trzëmôj na wiérzkù"
+
+#~ msgid "Keep above others"
+#~ msgstr "Trzëmôj na wiérzkù"
+
+#~ msgid "Do not keep below others"
+#~ msgstr "Nie trzëmôj w spòdkù"
+
+#~ msgid "Keep below others"
+#~ msgstr "Trzëmôj w spòdkù"
+
+#~ msgid "Unshade"
+#~ msgstr "Rozwinie"
+
+#~ msgid "No window decoration plugin library was found."
+#~ msgstr "Nie są nalazłé bibloteczi wtëkôczów do òbstrojënków òknów."
+
+#~ msgid "The default decoration plugin is corrupt and could not be loaded."
+#~ msgstr "Domëslny wtëkôcz òbstrojenkù je ùszkòdzony ë nié mòże gò wladowac."
+
+#~ msgid "The library %1 is not a KWin plugin."
+#~ msgstr "Bibloteka %1 nie je wtëkôczã KWin."
+
+#~ msgid "Window Screenshot to Clipboard"
+#~ msgstr "Zdrzucënk òkna do tacnika"
+
+#~ msgid "Desktop Screenshot to Clipboard"
+#~ msgstr "Zdrzucënk pùltu do tacnika"
+
+#, fuzzy
+#~| msgid "Toggle Video Recording"
+#~ msgid "Toggle Tiling"
+#~ msgstr "Włączë nagriwanié wideò"
+
+#, fuzzy
+#~| msgid "Left"
+#~ msgid "Move Left"
+#~ msgstr "Lewò"
+
+#, fuzzy
+#~| msgid "Right"
+#~ msgid "Move Right"
+#~ msgstr "Prawò"
+
+#, fuzzy
+#~| msgid "&Move"
+#~ msgid "Move Up"
+#~ msgstr "&Przeniesë"
+
+#, fuzzy
+#~| msgid "Move Window"
+#~ msgid "Move Down"
+#~ msgstr "Przeniesë òkno"
+
+#, fuzzy
+#~| msgid "Walk Through Windows"
+#~ msgid "Walk Through Grouped Windows"
+#~ msgstr "Przezérôj òkna"
+
+#, fuzzy
+#~| msgid "Walk Through Windows (Reverse)"
+#~ msgid "Walk Through Grouped Windows (Reverse)"
+#~ msgstr "Przezérôj òkna (w òpaczny pòsobicë)"
+
+#, fuzzy
+#~| msgid "Switch to Screen 0"
+#~ msgid "Switch to group window"
+#~ msgstr "Przełączë na ekran 0"
+
+#~ msgid "kwin: failure during initialization; aborting"
+#~ msgstr "kwin: felô òbczas inicjalizacëji, òprzestanié"
+
+#~ msgid "Terminate"
+#~ msgstr "Zakùńczë"
+
+#~ msgid "Keep Running"
+#~ msgstr "Nie kùńczë"
+
+#~ msgid "Desktop Cube"
+#~ msgstr "Kòstka pùlt"
+
+#~ msgctxt "@title:tab Basic Settings"
+#~ msgid "Basic"
+#~ msgstr "Spòdlowé"
+
+#~ msgctxt "@title:tab Advanced Settings"
+#~ msgid "Advanced"
+#~ msgstr "&Awansowóné"
+
+#~ msgid "Top"
+#~ msgstr "Góra"
+
+#~ msgid "Top-Right"
+#~ msgstr "Góra-prawò"
+
+#~ msgid "Bottom-Right"
+#~ msgstr "Dół-prawò"
+
+#~ msgid "Bottom"
+#~ msgstr "Dół"
+
+#~ msgid "Bottom-Left"
+#~ msgstr "Dół-lewò"
+
+#~ msgid "Top-Left"
+#~ msgstr "Góra-lewò"
+
+#~ msgid "Center"
+#~ msgstr "Westrzódk"
+
+#~ msgid "Toggle Invert Effect"
+#~ msgstr "Przełączë efektë inwertowaniô"
+
+#~ msgid "Toggle Invert Effect on Window"
+#~ msgstr "Przełączë efektë inwertowaniô dlô òknów"
+
+#~ msgid "Clear All Mouse Marks"
+#~ msgstr "Wëczëszczë wszëtczé szlachë mëszë"
+
+#~ msgid "Clear Last Mouse Mark"
+#~ msgstr "Wëczëszczë slédné szlachë mëszë"
+
+#~ msgid "Clear Mouse Marks"
+#~ msgstr "Wëczëszczë szlachë mëszë"
+
+#~ msgid "Toggle Present Windows (Current desktop)"
+#~ msgstr "Przełączë òkna biéżnegò pùltu"
+
+#~ msgid "Toggle Present Windows (All desktops)"
+#~ msgstr "Przełączë òkna na wszëtczich pùltach"
+
+#~ msgid ""
+#~ "Filter:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "Filter:\n"
+#~ "%1"
+
+#~ msgctxt "@action Enables/Disables an effect that makes windows more sharp"
+#~ msgid "Toggle Sharpen Effect"
+#~ msgstr "Przełączë efekt wëòstrzeniô"
+
+#~ msgid "Snow"
+#~ msgstr "Sniég"
+
+#~ msgid "Toggle Snow on Desktop"
+#~ msgstr "Przełączë sniég pùlce"
+
+#~ msgid "Toggle Thumbnail for Current Window"
+#~ msgstr "Przełączë òbrôżczi pòdzérkù dlô biéżnegò òkna"
+
+#~ msgid "Hold Ctrl+Meta keys to see where the mouse cursor is."
+#~ msgstr "Trzëmôj knąpë Ctrl+Meta bë òbôczëc dze je wskazëwôcz mëszë."
+
+#~ msgid "Path to save video:"
+#~ msgstr "Stegna so zapisu wideò:"
+
+#~ msgid "for windows on all desktops: "
+#~ msgstr "dlô òknów na wszrtczich pùltach: "
+
+#, fuzzy
+#~| msgid "Raise Window"
+#~ msgid "Inactive windows:"
+#~ msgstr "Zawòłôj òkno"
+
+#~ msgid "Moved/resized windows:"
+#~ msgstr "Òkna przesëniãté/ze zmienionëma miarama:"
