@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-25 08:04+0000\n"
+"POT-Creation-Date: 2016-03-09 07:28+0000\n"
 "PO-Revision-Date: 2009-12-13 14:08+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -50,21 +50,21 @@ msgstr "w nôslédnym przezérnikù:"
 msgid "..."
 msgstr "..."
 
-#: componentchooser.cpp:138
+#: componentchooser.cpp:134
 msgid "Unknown"
 msgstr "NIeznóny"
 
-#: componentchooser.cpp:154
+#: componentchooser.cpp:150
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
 "change now ?</qt>"
 msgstr "<qt>Môsz zmieniony domëslny kòmpònent. Chcesz zapisac ne zmianë?</qt>"
 
-#: componentchooser.cpp:158
+#: componentchooser.cpp:154
 msgid "No description available"
 msgstr "Felënk òpisënkù"
 
-#: componentchooser.cpp:169 componentchooser.cpp:174
+#: componentchooser.cpp:165 componentchooser.cpp:170
 #, kde-format
 msgid ""
 "Choose from the list below which component should be used by default for the "
@@ -129,79 +129,6 @@ msgstr "Wëbierzë domëslnegò klienta e-mail:"
 #: componentchooserterminal.cpp:103
 msgid "Select preferred terminal application:"
 msgstr "Wëbierzë domëslną aplikacëjã terminala:"
-
-#: componentchooserwm.cpp:91
-#, fuzzy
-#| msgid ""
-#| "The new window manager will be used when KDE is started the next time."
-msgid ""
-"The new window manager will be used when Plasma is started the next time."
-msgstr "Nowi menadżer òknów bãdzë brëkòwóny przy nôslédnym zrëszeniu KDE."
-
-#: componentchooserwm.cpp:92 componentchooserwm.cpp:145
-msgid "Window Manager Change"
-msgstr "Zmiana menadżera òczén"
-
-#: componentchooserwm.cpp:105
-msgid ""
-"A new window manager is running.\n"
-"It is still recommended to restart this KDE session to make sure all running "
-"applications adjust for this change."
-msgstr ""
-"Zrëszono nowégò menadżera oczén.\n"
-"Zamòdlëwô sã dali zrëszenié KDE znowa,abë sã ùgwësniz, że wszëtczé "
-"aplikacëje przëjãłe nã zjinakã."
-
-#: componentchooserwm.cpp:108
-msgid "Window Manager Replaced"
-msgstr "Zastãpiono menadżera òczén"
-
-#: componentchooserwm.cpp:144
-msgid ""
-"Your running window manager will be now replaced with the configured one."
-msgstr "Twój robiący menadżera òczén bãdze zastãpiony nowò skònfigùrowónym."
-
-#: componentchooserwm.cpp:153
-msgid "Config Window Manager Change"
-msgstr "Zmiana wëbrónegò menadżera òczén"
-
-#: componentchooserwm.cpp:155
-msgid "&Accept Change"
-msgstr "&Zacwierdzë zmianë"
-
-#: componentchooserwm.cpp:156
-msgid "&Revert to Previous"
-msgstr "&Doprowôdzë do pòprzédnegò"
-
-#: componentchooserwm.cpp:158
-msgid ""
-"The configured window manager is being launched.\n"
-"Please check it has started properly and confirm the change.\n"
-"The launch will be automatically reverted in 20 seconds."
-msgstr ""
-"Skònfigùrowóny menadżera òczén je zrëszany.\n"
-"Proszã sprôwdzëc czë wësztartowôł òn pòprôwno ë zacwierdzëc zmianë.\n"
-"Poprzédny menadżera bãdze aùtomatno doprowadzony nazôd pò 20 sekùndach."
-
-#: componentchooserwm.cpp:173
-msgid ""
-"The running window manager has been reverted to the default KDE window "
-"manager KWin."
-msgstr ""
-"Robiący menadżera òczén je zastãpiony domëslnym menadżerã òczéń KDE KWin."
-
-#: componentchooserwm.cpp:180
-msgid ""
-"The new window manager has failed to start.\n"
-"The running window manager has been reverted to the default KDE window "
-"manager KWin."
-msgstr ""
-"Nowi menadżera òczén ni zrëszëł sã.\n"
-"Robiący menadżera òczén je zastãpiony domëslnym menadżerã òczéń KDE KWin."
-
-#: componentchooserwm.cpp:302
-msgid "Running the configuration tool failed"
-msgstr "Zrëszenie kònfigùracjowégò nôrzãdza ni darzëło sã"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, kmailCB)
 #: emailclientconfig_ui.ui:12
@@ -329,29 +256,82 @@ msgstr ""
 msgid "Click here to browse for terminal program."
 msgstr "Klëkni tuwò bë wëbrac programã terminala."
 
-#. i18n: ectx: property (text), widget (QRadioButton, kwinRB)
-#: wmconfig_ui.ui:12
-msgid "&Use the default KDE window manager (KWin)"
-msgstr "&Brëkùjë domëslnegò menadżera òczén KDE (KWin)"
+#, fuzzy
+#~| msgid ""
+#~| "The new window manager will be used when KDE is started the next time."
+#~ msgid ""
+#~ "The new window manager will be used when Plasma is started the next time."
+#~ msgstr "Nowi menadżer òknów bãdzë brëkòwóny przy nôslédnym zrëszeniu KDE."
 
-#. i18n: ectx: property (text), widget (QRadioButton, differentRB)
-#: wmconfig_ui.ui:19
-msgid "Use a different &window manager:"
-msgstr "Brëkùje jinegò &menedżera òczén:"
+#~ msgid "Window Manager Change"
+#~ msgstr "Zmiana menadżera òczén"
 
-#. i18n: ectx: property (text), widget (QPushButton, configureButton)
-#: wmconfig_ui.ui:60
-msgid "Configure"
-msgstr "Kònfigùrëjë"
+#~ msgid ""
+#~ "A new window manager is running.\n"
+#~ "It is still recommended to restart this KDE session to make sure all "
+#~ "running applications adjust for this change."
+#~ msgstr ""
+#~ "Zrëszono nowégò menadżera oczén.\n"
+#~ "Zamòdlëwô sã dali zrëszenié KDE znowa,abë sã ùgwësniz, że wszëtczé "
+#~ "aplikacëje przëjãłe nã zjinakã."
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: wmconfig_ui.ui:87
-msgid ""
-"Note: Most window managers have their own configuration and do not follow "
-"KDE settings."
-msgstr ""
-"Bôczënk: wikszosc menedżerów òczén mô swòją kònfigùracëjã ë ni trzëmô sã "
-"nastôwów KDE."
+#~ msgid "Window Manager Replaced"
+#~ msgstr "Zastãpiono menadżera òczén"
+
+#~ msgid ""
+#~ "Your running window manager will be now replaced with the configured one."
+#~ msgstr "Twój robiący menadżera òczén bãdze zastãpiony nowò skònfigùrowónym."
+
+#~ msgid "Config Window Manager Change"
+#~ msgstr "Zmiana wëbrónegò menadżera òczén"
+
+#~ msgid "&Accept Change"
+#~ msgstr "&Zacwierdzë zmianë"
+
+#~ msgid "&Revert to Previous"
+#~ msgstr "&Doprowôdzë do pòprzédnegò"
+
+#~ msgid ""
+#~ "The configured window manager is being launched.\n"
+#~ "Please check it has started properly and confirm the change.\n"
+#~ "The launch will be automatically reverted in 20 seconds."
+#~ msgstr ""
+#~ "Skònfigùrowóny menadżera òczén je zrëszany.\n"
+#~ "Proszã sprôwdzëc czë wësztartowôł òn pòprôwno ë zacwierdzëc zmianë.\n"
+#~ "Poprzédny menadżera bãdze aùtomatno doprowadzony nazôd pò 20 sekùndach."
+
+#~ msgid ""
+#~ "The running window manager has been reverted to the default KDE window "
+#~ "manager KWin."
+#~ msgstr ""
+#~ "Robiący menadżera òczén je zastãpiony domëslnym menadżerã òczéń KDE KWin."
+
+#~ msgid ""
+#~ "The new window manager has failed to start.\n"
+#~ "The running window manager has been reverted to the default KDE window "
+#~ "manager KWin."
+#~ msgstr ""
+#~ "Nowi menadżera òczén ni zrëszëł sã.\n"
+#~ "Robiący menadżera òczén je zastãpiony domëslnym menadżerã òczéń KDE KWin."
+
+#~ msgid "Running the configuration tool failed"
+#~ msgstr "Zrëszenie kònfigùracjowégò nôrzãdza ni darzëło sã"
+
+#~ msgid "&Use the default KDE window manager (KWin)"
+#~ msgstr "&Brëkùjë domëslnegò menadżera òczén KDE (KWin)"
+
+#~ msgid "Use a different &window manager:"
+#~ msgstr "Brëkùje jinegò &menedżera òczén:"
+
+#~ msgid "Configure"
+#~ msgstr "Kònfigùrëjë"
+
+#~ msgid ""
+#~ "Note: Most window managers have their own configuration and do not follow "
+#~ "KDE settings."
+#~ msgstr ""
+#~ "Bôczënk: wikszosc menedżerów òczén mô swòją kònfigùracëjã ë ni trzëmô sã "
+#~ "nastôwów KDE."
 
 #~ msgid "kcmcomponentchooser"
 #~ msgstr "kcmcomponentchooser"
