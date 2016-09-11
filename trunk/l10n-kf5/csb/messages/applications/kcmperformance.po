@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmperformance\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-08-03 07:04+0000\n"
+"POT-Creation-Date: 2016-09-11 07:05+0000\n"
 "PO-Revision-Date: 2009-01-08 18:55+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -46,42 +46,6 @@ msgstr ""
 
 #: konqueror.cpp:34
 msgid ""
-"Disables the minimization of memory usage and allows you to make each "
-"browsing activity independent from the others"
-msgstr ""
-"Wëłącza minimalizacëjã zbrëkòwaniô pamiãcë ë pòzwôlô na ùsamòjistnienié "
-"apartnëch òperacëjów przezéraniô"
-
-#: konqueror.cpp:37
-msgid ""
-"<p>With this option activated, only one instance of Konqueror used for file "
-"browsing will exist in the memory of your computer at any moment, no matter "
-"how many file browsing windows you open, thus reducing resource requirements."
-"</p><p>Be aware that this also means that, if something goes wrong, all your "
-"file browsing windows will be closed simultaneously</p>"
-msgstr ""
-"<p>Jeżlë na òptacëjô je włączonô, w kòmpùtrze naleze sã blós jedna kòpija "
-"menadżera lopków, samòbëtno òd lëczbë òtemkłëch katalogów. Dzãka temù "
-"zbrëkòwanié dostónków mdze mniészé. </p><p>Bôczënk: wëbiérk ti òptacëji "
-"sprawi, że w przëtrôfkù awarëji Konquerora wszëtczé òkna òstaną zarôzkù "
-"zamkniãté!</p>"
-
-#: konqueror.cpp:45
-msgid ""
-"<p>With this option activated, only one instance of Konqueror will exist in "
-"the memory of your computer at any moment, no matter how many browsing "
-"windows you open, thus reducing resource requirements.</p><p>Be aware that "
-"this also means that, if something goes wrong, all your browsing windows "
-"will be closed simultaneously.</p>"
-msgstr ""
-"<p>Jeżlë na òptacëjô je włączonô, w kòmpùtrze naleze sã blós jedna kòpija "
-"Konquerora, samòbëtno òd lëczbë òtemkłëch òknów przezérnika.  od liczby "
-"otwartych okien przeglądarki. Dzãka temù zbrëkòwanié dostónków mdze mniészé. "
-"</p><p>Bôczënk: wëbiérk ti òptacëji sprawi, że w przëtrôfkù awarëji "
-"Konquerora wszëtczé òkna òstaną zarôzkù zamkniãté!</p>"
-
-#: konqueror.cpp:57
-msgid ""
 "<p>If non-zero, this option allows keeping Konqueror instances in memory "
 "after all their windows have been closed, up to the number specified in this "
 "option.</p><p>When a new Konqueror instance is needed, one of these "
@@ -94,7 +58,7 @@ msgstr ""
 "taczich kòpiji w pamiãcë. Sprawi to schùtczenié dzejania kòsztã zbrëkòwania "
 "pamiãcë.</p>"
 
-#: konqueror.cpp:66
+#: konqueror.cpp:43
 msgid ""
 "<p>If enabled, an instance of Konqueror will be preloaded after the ordinary "
 "KDE startup sequence.</p><p>This will make the first Konqueror window open "
@@ -107,7 +71,7 @@ msgstr ""
 "òkna Konquerora, leno kòsztã zwikszeniô czasu zrëszaniô KDE (bò robòta w "
 "cządze zrëszaniô je mòżlewô, òpòzdzenié mòże bëc niezmerkóné.</p>"
 
-#: konqueror.cpp:72
+#: konqueror.cpp:49
 msgid ""
 "<p>If enabled, KDE will always try to have one preloaded Konqueror instance "
 "ready; preloading a new instance in the background whenever there is not one "
@@ -120,43 +84,25 @@ msgstr ""
 "òtmekac sã chùtczi.</p><p><b>Bôczënk:</b> w niechtërnëch przëtrôfkach "
 "włączenié ti òptacëji mòże zmniészëc wigòdã robòtë.</p>"
 
-#. i18n: ectx: property (title), widget (QGroupBox, reuse_group)
-#: konqueror_ui.ui:16
-msgid "Minimize Memory Usage"
-msgstr "Minimalizëjë zbrëkòwanié pamiãcë"
-
-#. i18n: ectx: property (text), widget (QRadioButton, rb_never_reuse)
-#: konqueror_ui.ui:22
-msgid "&Never"
-msgstr "&Nigdë"
-
-#. i18n: ectx: property (text), widget (QRadioButton, rb_file_browsing_reuse)
-#: konqueror_ui.ui:29
-msgid "For &file browsing only (recommended)"
-msgstr "&Dlô menadżera lopków (zalécóné)"
-
-#. i18n: ectx: property (text), widget (QRadioButton, rb_always_reuse)
-#: konqueror_ui.ui:36
-msgid "Alwa&ys (use with care)"
-msgstr "&Wiedno (òbzérno!)"
-
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: konqueror_ui.ui:46
+#: konqueror_ui.ui:17
 msgid "Preloading"
 msgstr "Preladowanié"
 
 #. i18n: ectx: property (text), widget (QLabel, lb_preload_count)
-#: konqueror_ui.ui:57
-msgid "Maximum number of instances kept &preloaded:"
+#: konqueror_ui.ui:37
+#, fuzzy
+#| msgid "Maximum number of instances kept &preloaded:"
+msgid "&Maximum number of instances kept preloaded:"
 msgstr "Maksymalnô lëczba kòpijów &preladowónëch:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cb_preload_on_startup)
-#: konqueror_ui.ui:91
+#: konqueror_ui.ui:71
 msgid "Preload an instance after KDE startup"
 msgstr "Wladëjë kòpijã pò zrëszenim KDE"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cb_always_have_preloaded)
-#: konqueror_ui.ui:98
+#: konqueror_ui.ui:78
 msgid "Always try to have at least one preloaded instance"
 msgstr "Wiedno trzëmôj jedną wòlną kòpijã w pamiãcë"
 
@@ -207,3 +153,48 @@ msgid ""
 msgstr ""
 "Ta òptacëjô w gwësnëch apartnëch lëżnoscach mòże sprawiac wszelejaczé "
 "problemë. Proszã przeczëtac kòntekstową pòmòc (Shift+F1), abë pòznac detale."
+
+#~ msgid ""
+#~ "Disables the minimization of memory usage and allows you to make each "
+#~ "browsing activity independent from the others"
+#~ msgstr ""
+#~ "Wëłącza minimalizacëjã zbrëkòwaniô pamiãcë ë pòzwôlô na ùsamòjistnienié "
+#~ "apartnëch òperacëjów przezéraniô"
+
+#~ msgid ""
+#~ "<p>With this option activated, only one instance of Konqueror used for "
+#~ "file browsing will exist in the memory of your computer at any moment, no "
+#~ "matter how many file browsing windows you open, thus reducing resource "
+#~ "requirements.</p><p>Be aware that this also means that, if something goes "
+#~ "wrong, all your file browsing windows will be closed simultaneously</p>"
+#~ msgstr ""
+#~ "<p>Jeżlë na òptacëjô je włączonô, w kòmpùtrze naleze sã blós jedna kòpija "
+#~ "menadżera lopków, samòbëtno òd lëczbë òtemkłëch katalogów. Dzãka temù "
+#~ "zbrëkòwanié dostónków mdze mniészé. </p><p>Bôczënk: wëbiérk ti òptacëji "
+#~ "sprawi, że w przëtrôfkù awarëji Konquerora wszëtczé òkna òstaną zarôzkù "
+#~ "zamkniãté!</p>"
+
+#~ msgid ""
+#~ "<p>With this option activated, only one instance of Konqueror will exist "
+#~ "in the memory of your computer at any moment, no matter how many browsing "
+#~ "windows you open, thus reducing resource requirements.</p><p>Be aware "
+#~ "that this also means that, if something goes wrong, all your browsing "
+#~ "windows will be closed simultaneously.</p>"
+#~ msgstr ""
+#~ "<p>Jeżlë na òptacëjô je włączonô, w kòmpùtrze naleze sã blós jedna kòpija "
+#~ "Konquerora, samòbëtno òd lëczbë òtemkłëch òknów przezérnika.  od liczby "
+#~ "otwartych okien przeglądarki. Dzãka temù zbrëkòwanié dostónków mdze "
+#~ "mniészé. </p><p>Bôczënk: wëbiérk ti òptacëji sprawi, że w przëtrôfkù "
+#~ "awarëji Konquerora wszëtczé òkna òstaną zarôzkù zamkniãté!</p>"
+
+#~ msgid "Minimize Memory Usage"
+#~ msgstr "Minimalizëjë zbrëkòwanié pamiãcë"
+
+#~ msgid "&Never"
+#~ msgstr "&Nigdë"
+
+#~ msgid "For &file browsing only (recommended)"
+#~ msgstr "&Dlô menadżera lopków (zalécóné)"
+
+#~ msgid "Alwa&ys (use with care)"
+#~ msgstr "&Wiedno (òbzérno!)"
