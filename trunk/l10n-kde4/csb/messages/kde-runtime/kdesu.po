@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdesu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 04:51+0200\n"
+"POT-Creation-Date: 2016-11-19 11:45+0100\n"
 "PO-Revision-Date: 2009-05-13 19:55+0200\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -19,96 +19,116 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Mark Kwidzińsczi, Michôł Òstrowsczi"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
 
 #: kdesu.cpp:85
+#, kde-format
 msgid "KDE su"
 msgstr "KDE su"
 
 #: kdesu.cpp:86
+#, kde-format
 msgid "Runs a program with elevated privileges."
 msgstr "Zrëszô programã z wëższim pioritetã."
 
 #: kdesu.cpp:88
+#, kde-format
 msgid "Copyright (c) 1998-2000 Geert Jansen, Pietro Iglio"
 msgstr "Copyright (c) 1998-2000 Geert Jansen, Pietro Iglio"
 
 #: kdesu.cpp:89
+#, kde-format
 msgid "Geert Jansen"
 msgstr "Geert Jansen"
 
 #: kdesu.cpp:89
+#, kde-format
 msgid "Maintainer"
 msgstr "Òpiekùn"
 
 #: kdesu.cpp:91
+#, kde-format
 msgid "Pietro Iglio"
 msgstr "Pietro Iglio"
 
 #: kdesu.cpp:91
+#, kde-format
 msgid "Original author"
 msgstr "Ùsôdzca pierszi wersëji"
 
 #: kdesu.cpp:100
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Specifies the command to run"
 msgid "Specifies the command to run as separate arguments"
 msgstr "Pòlét do zrëszeniô"
 
 #: kdesu.cpp:101
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Specifies the command to run"
 msgid "Specifies the command to run as one string"
 msgstr "Pòlét do zrëszeniô"
 
 #: kdesu.cpp:102
+#, kde-format
 msgid "Run command under target uid if <file> is not writable"
 msgstr ""
 "Zrëszë pòlét z pòdónym ID brëkòwnika, eżle <lopk> je do blós do czëtaniô"
 
 #: kdesu.cpp:103
+#, kde-format
 msgid "Specifies the target uid"
 msgstr "Òtaksowùjë docélowy uid"
 
 #: kdesu.cpp:104
+#, kde-format
 msgid "Do not keep password"
 msgstr "Nie trzëmôj parolë"
 
 #: kdesu.cpp:105
+#, kde-format
 msgid "Stop the daemon (forgets all passwords)"
 msgstr "Zatrzëmôj ùsłëżnotã (zabëjë wszëtczé parole)"
 
 #: kdesu.cpp:106
+#, kde-format
 msgid "Enable terminal output (no password keeping)"
 msgstr "Włączë wińdzenié na terminal (bez trzëmaniô paroli)"
 
 #: kdesu.cpp:107
+#, kde-format
 msgid "Set priority value: 0 <= prio <= 100, 0 is lowest"
 msgstr "Nastôwi pioritet midze 0 a 100 (0 - nômiészi)"
 
 #: kdesu.cpp:108
+#, kde-format
 msgid "Use realtime scheduling"
 msgstr "Brëkùjë régòwaniô w jawernym czasie"
 
 #: kdesu.cpp:109
+#, kde-format
 msgid "Do not display ignore button"
 msgstr "Nie wëskrzeniwôj knąpë Òprzestóń"
 
 #: kdesu.cpp:110
+#, kde-format
 msgid "Specify icon to use in the password dialog"
 msgstr "Ikòna do wëzwëskaniô w òknie paroli"
 
 #: kdesu.cpp:111
+#, kde-format
 msgid "Do not show the command to be run in the dialog"
 msgstr "Nie pòkazëjë pòlétu zrëszanegò w òknie"
 
 #: kdesu.cpp:115
+#, kde-format
 msgctxt ""
 "Transient means that the kdesu app will be attached to the app specified by "
 "the winid so that it is like a dialog box rather than some separate program"
@@ -128,26 +148,32 @@ msgid "Illegal priority: %1"
 msgstr "Zmiłkòwi prioritet: %1"
 
 #: kdesu.cpp:249
+#, kde-format
 msgid "No command specified."
 msgstr "Felëje pòlétu."
 
 #: kdesu.cpp:360
+#, kde-format
 msgid "Su returned with an error.\n"
 msgstr "'su' zwrócëło felã.\n"
 
 #: kdesu.cpp:383
+#, kde-format
 msgid "Command:"
 msgstr "Pòlét:"
 
 #: kdesu.cpp:391
+#, kde-format
 msgid "realtime: "
 msgstr "jawerny czas: "
 
 #: kdesu.cpp:394
+#, kde-format
 msgid "Priority:"
 msgstr "Prioritet:"
 
 #: sudlg.cpp:23
+#, kde-format
 msgid "Ignore"
 msgstr "Òprzestóń"
 
@@ -157,10 +183,12 @@ msgid "Run as %1"
 msgstr "Zrëszë jakno %1"
 
 #: sudlg.cpp:34
+#, kde-format
 msgid "Please enter your password below."
 msgstr "Proszã pòdac parolã."
 
 #: sudlg.cpp:38
+#, kde-format
 msgid ""
 "The action you requested needs <b>root privileges</b>. Please enter "
 "<b>root's</b> password below or click Ignore to continue with your current "
@@ -171,6 +199,7 @@ msgstr ""
 "prawama."
 
 #: sudlg.cpp:42
+#, kde-format
 msgid ""
 "The action you requested needs <b>root privileges</b>. Please enter "
 "<b>root's</b> password below."
@@ -198,14 +227,17 @@ msgstr ""
 "brëkòwnika <b>%1</b>."
 
 #: sudlg.cpp:60
+#, kde-format
 msgid "&Ignore"
 msgstr "Ò&przestóń"
 
 #: sudlg.cpp:77
+#, kde-format
 msgid "Conversation with su failed."
 msgstr "Łączba z su zascygónô."
 
 #: sudlg.cpp:84
+#, kde-format
 msgid ""
 "The program 'su' could not be found.<br />Ensure your PATH is set correctly."
 msgstr ""
@@ -213,6 +245,7 @@ msgstr ""
 "dobri nastôw."
 
 #: sudlg.cpp:94
+#, kde-format
 msgid ""
 "Permission denied.<br />Possibly incorrect password, please try again.<br /"
 ">On some systems, you need to be in a special group (often: wheel) to use "
@@ -220,6 +253,7 @@ msgid ""
 msgstr ""
 
 #: sudlg.cpp:101
+#, kde-format
 msgid "Internal error: illegal return from SuProcess::checkInstall()"
 msgstr "Bënowô fela: lëchi wińdzenié z SuProcess::checkInstall()"
 
