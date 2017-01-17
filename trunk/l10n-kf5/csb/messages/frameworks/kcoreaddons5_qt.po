@@ -628,10 +628,7 @@ msgstr "%1 sek."
 #| msgid_plural "%1 milliseconds"
 msgctxt "KFormat|"
 msgid "%n millisecond(s)"
-msgid_plural "%n millisecond(s)"
-msgstr[0] "%1 milisek."
-msgstr[1] "%1 milisek."
-msgstr[2] "%1 milisek."
+msgstr "%1 milisek."
 
 #. @item:intext %n is a whole number
 #: lib/util/kformatprivate.cpp:300
@@ -640,10 +637,7 @@ msgstr[2] "%1 milisek."
 #| msgid "%1 days"
 msgctxt "KFormat|"
 msgid "%n day(s)"
-msgid_plural "%n day(s)"
-msgstr[0] "%1 dni"
-msgstr[1] "%1 dni"
-msgstr[2] "%1 dni"
+msgstr "%1 dni"
 
 #. @item:intext %n is a whole number
 #: lib/util/kformatprivate.cpp:305
@@ -652,10 +646,7 @@ msgstr[2] "%1 dni"
 #| msgid "%1 hours"
 msgctxt "KFormat|"
 msgid "%n hour(s)"
-msgid_plural "%n hour(s)"
-msgstr[0] "%1 gòdz."
-msgstr[1] "%1 gòdz."
-msgstr[2] "%1 gòdz."
+msgstr "%1 gòdz."
 
 #. @item:intext %n is a whole number
 #: lib/util/kformatprivate.cpp:310
@@ -664,10 +655,7 @@ msgstr[2] "%1 gòdz."
 #| msgid "%1 minutes"
 msgctxt "KFormat|"
 msgid "%n minute(s)"
-msgid_plural "%n minute(s)"
-msgstr[0] "%1 min."
-msgstr[1] "%1 min."
-msgstr[2] "%1 min."
+msgstr "%1 min."
 
 #. @item:intext %n is a whole number
 #: lib/util/kformatprivate.cpp:315
@@ -676,10 +664,7 @@ msgstr[2] "%1 min."
 #| msgid "%1 seconds"
 msgctxt "KFormat|"
 msgid "%n second(s)"
-msgid_plural "%n second(s)"
-msgstr[0] "%1 sek."
-msgstr[1] "%1 sek."
-msgstr[2] "%1 sek."
+msgstr "%1 sek."
 
 #. @item:intext days and hours. This uses the previous item:intext messages. If this does not fit the grammar of your language please contact the i18n team to solve the problem
 #. ----------
@@ -698,48 +683,152 @@ msgctxt "KFormat|"
 msgid "%1 and %2"
 msgstr "%1 ë %2"
 
-#: lib/util/kformatprivate.cpp:372
+#: lib/util/kformatprivate.cpp:366
+#, fuzzy
+#| msgctxt "@item Calendar system"
+#| msgid "Invalid Calendar Type"
+msgctxt ""
+"KFormat|used when a relative date string can't be generated because the date "
+"is invalid"
+msgid "Invalid date"
+msgstr "Lëchi ôrt kalãdôrza"
+
+#: lib/util/kformatprivate.cpp:376
 msgctxt "KFormat|"
 msgid "Tomorrow"
 msgstr ""
 
-#: lib/util/kformatprivate.cpp:374
+#: lib/util/kformatprivate.cpp:378
 #, fuzzy
 #| msgid "Today"
 msgctxt "KFormat|"
 msgid "Today"
 msgstr "Dzysô"
 
-#: lib/util/kformatprivate.cpp:376
+#: lib/util/kformatprivate.cpp:380
 #, fuzzy
 #| msgid "Yesterday"
 msgctxt "KFormat|"
 msgid "Yesterday"
 msgstr "Wczora"
 
-#: lib/util/kformatprivate.cpp:383
-#, fuzzy, qt-format
-#| msgid "&Last Page"
-msgctxt "KFormat|"
-msgid "Last %1"
-msgstr "&Slédnô starna"
+#: lib/util/kformatprivate.cpp:386
+#, fuzzy
+msgctxt "KFormat|most recent such day before today"
+msgid "Last Monday"
+msgstr "Zôstny miesąc"
 
 #: lib/util/kformatprivate.cpp:388
-#, fuzzy, qt-format
-#| msgctxt "Opposite to Back"
-#| msgid "Next"
-msgctxt "KFormat|"
-msgid "Next %1"
-msgstr "Pòstãpny"
+#, fuzzy
+#| msgid "Tuesday"
+msgctxt "KFormat|most recent such day before today"
+msgid "Last Tuesday"
+msgstr "wtórk"
+
+#: lib/util/kformatprivate.cpp:390
+#, fuzzy
+#| msgid "Wednesday"
+msgctxt "KFormat|most recent such day before today"
+msgid "Last Wednesday"
+msgstr "strzoda"
+
+#: lib/util/kformatprivate.cpp:392
+#, fuzzy
+#| msgid "Thursday"
+msgctxt "KFormat|most recent such day before today"
+msgid "Last Thursday"
+msgstr "czwiôrtk"
+
+#: lib/util/kformatprivate.cpp:394
+#, fuzzy
+#| msgid "Friday"
+msgctxt "KFormat|most recent such day before today"
+msgid "Last Friday"
+msgstr "piątk"
+
+#: lib/util/kformatprivate.cpp:396
+#, fuzzy
+#| msgid "Saturday"
+msgctxt "KFormat|most recent such day before today"
+msgid "Last Saturday"
+msgstr "sobòta"
+
+#: lib/util/kformatprivate.cpp:398
+#, fuzzy
+#| msgid "Sunday"
+msgctxt "KFormat|most recent such day before today"
+msgid "Last Sunday"
+msgstr "niedzela"
+
+#: lib/util/kformatprivate.cpp:403
+#, fuzzy
+msgctxt "KFormat|the next such day after today"
+msgid "Next Monday"
+msgstr "Zôstny miesąc"
+
+#: lib/util/kformatprivate.cpp:405
+#, fuzzy
+#| msgid "Tuesday"
+msgctxt "KFormat|the next such day after today"
+msgid "Next Tuesday"
+msgstr "wtórk"
+
+#: lib/util/kformatprivate.cpp:407
+#, fuzzy
+#| msgid "Wednesday"
+msgctxt "KFormat|the next such day after today"
+msgid "Next Wednesday"
+msgstr "strzoda"
+
+#: lib/util/kformatprivate.cpp:409
+#, fuzzy
+#| msgid "Thursday"
+msgctxt "KFormat|the next such day after today"
+msgid "Next Thursday"
+msgstr "czwiôrtk"
+
+#: lib/util/kformatprivate.cpp:411
+#, fuzzy
+#| msgid "Friday"
+msgctxt "KFormat|the next such day after today"
+msgid "Next Friday"
+msgstr "piątk"
+
+#: lib/util/kformatprivate.cpp:413
+#, fuzzy
+#| msgid "Saturday"
+msgctxt "KFormat|the next such day after today"
+msgid "Next Saturday"
+msgstr "sobòta"
+
+#: lib/util/kformatprivate.cpp:415
+#, fuzzy
+#| msgid "Sunday"
+msgctxt "KFormat|the next such day after today"
+msgid "Next Sunday"
+msgstr "niedzela"
 
 #. relative datetime with %1 result of formatReleativeDate() and %2 the formatted time If this does not fit the grammar of your language please contact the i18n team to solve the problem
-#: lib/util/kformatprivate.cpp:402
+#: lib/util/kformatprivate.cpp:430
 #, fuzzy, qt-format
 #| msgctxt "concatenation of dates and time"
 #| msgid "%1 %2"
 msgctxt "KFormat|"
 msgid "%1, %2"
 msgstr "%1 %2"
+
+#, fuzzy
+#~| msgid "&Last Page"
+#~ msgctxt "KFormat|"
+#~ msgid "Last %1"
+#~ msgstr "&Slédnô starna"
+
+#, fuzzy
+#~| msgctxt "Opposite to Back"
+#~| msgid "Next"
+#~ msgctxt "KFormat|"
+#~ msgid "Next %1"
+#~ msgstr "Pòstãpny"
 
 #, fuzzy
 #~ msgctxt "KPluginLoader|"
@@ -6449,11 +6538,6 @@ msgstr "%1 %2"
 #~ msgstr "Zôstny rok"
 
 #, fuzzy
-#~ msgctxt "@option next month"
-#~ msgid "Next Month"
-#~ msgstr "Zôstny miesąc"
-
-#, fuzzy
 #~ msgctxt "@option next week"
 #~ msgid "Next Week"
 #~ msgstr "Zôstny rok"
@@ -6467,11 +6551,6 @@ msgstr "%1 %2"
 #~ msgctxt "@option yesterday"
 #~ msgid "Yesterday"
 #~ msgstr "Wczora"
-
-#, fuzzy
-#~ msgctxt "@option last month"
-#~ msgid "Last Month"
-#~ msgstr "Zôstny miesąc"
 
 #, fuzzy
 #~ msgctxt "@option last year"
@@ -10295,24 +10374,6 @@ msgstr "%1 %2"
 #~ msgid "Monday"
 #~ msgstr "pòniedzôłk"
 
-#~ msgid "Tuesday"
-#~ msgstr "wtórk"
-
-#~ msgid "Wednesday"
-#~ msgstr "strzoda"
-
-#~ msgid "Thursday"
-#~ msgstr "czwiôrtk"
-
-#~ msgid "Friday"
-#~ msgstr "piątk"
-
-#~ msgid "Saturday"
-#~ msgstr "sobòta"
-
-#~ msgid "Sunday"
-#~ msgstr "niedzela"
-
 #~ msgctxt "Indian National month 1 - ShortNamePossessive"
 #~ msgid "of Cha"
 #~ msgstr "Cha"
@@ -11051,10 +11112,6 @@ msgstr "%1 %2"
 #~ msgctxt "@item Calendar system"
 #~ msgid "Julian"
 #~ msgstr "Juliańsczi"
-
-#~ msgctxt "@item Calendar system"
-#~ msgid "Invalid Calendar Type"
-#~ msgstr "Lëchi ôrt kalãdôrza"
 
 #~ msgctxt "Coptic month 1 - ShortNamePossessive"
 #~ msgid "of Tho"
