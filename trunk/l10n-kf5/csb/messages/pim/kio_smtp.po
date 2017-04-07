@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_smtp\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-19 20:18+0100\n"
+"POT-Creation-Date: 2017-04-07 02:53+0200\n"
 "PO-Revision-Date: 2007-02-18 19:41+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: command.cpp:150
+#: command.cpp:148
 #, kde-format
 msgid ""
 "The server rejected both EHLO and HELO commands as unknown or "
@@ -27,7 +27,7 @@ msgstr ""
 "Serwera òdcëskô pòlétë EHLO ë HELO jakò nieznóne abò niezaimplementowóne.\n"
 "Proszã skòntaktowac sã ze sprôwnikã."
 
-#: command.cpp:164
+#: command.cpp:162
 #, kde-format
 msgid ""
 "Unexpected server response to %1 command.\n"
@@ -36,7 +36,7 @@ msgstr ""
 "Nieżdónô òdpòwiesc serwera na pòlét %1.\n"
 "%2"
 
-#: command.cpp:188
+#: command.cpp:186
 #, kde-format
 msgid ""
 "Your SMTP server does not support TLS. Disable TLS, if you want to connect "
@@ -45,7 +45,7 @@ msgstr ""
 "Twòjô serwera SMTP nie mô òbsłëdżi TLS. Wëłączë TLS, eżle chcesz pòłączëc sã "
 "bez zabezpiéczeniô."
 
-#: command.cpp:199
+#: command.cpp:197
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your SMTP server claims to support TLS, but negotiation was "
@@ -59,22 +59,22 @@ msgstr ""
 "sã.\n"
 "Mòżesz wëłączëc TLS w KDE brëkùjąc nastôwów mòdułu kriptografëji."
 
-#: command.cpp:203
+#: command.cpp:201
 #, kde-format
 msgid "Connection Failed"
 msgstr "Pòłączënié nie darzëło sã"
 
-#: command.cpp:209
+#: command.cpp:207
 #, kde-format
 msgid "An error occurred during authentication: %1"
 msgstr "Wëstãpiła fela òbczas ùdowiérzaniô: %1"
 
-#: command.cpp:280
+#: command.cpp:274
 #, kde-format
 msgid "No authentication details supplied."
 msgstr "Nie są pòdóné detale do ùdowierzënia."
 
-#: command.cpp:388
+#: command.cpp:384
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your SMTP server does not support %1.\n"
@@ -86,7 +86,7 @@ msgstr ""
 "Wëbiérzë jiną metodã ùdowierzaniô.\n"
 "%2"
 
-#: command.cpp:390
+#: command.cpp:386
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your SMTP server does not support authentication.\n"
@@ -96,7 +96,7 @@ msgstr ""
 "Twòjô serwera SMTP nie òbłëgùje ùdowierzaniô.\n"
 "  %1"
 
-#: command.cpp:391
+#: command.cpp:387
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your SMTP server does not support authentication.\n"
@@ -106,7 +106,7 @@ msgstr ""
 "Twòjô serwera SMTP nie òbłëgùje ùdowierzaniô.\n"
 "  %1"
 
-#: command.cpp:395
+#: command.cpp:391
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your SMTP server does not support authentication.\n"
@@ -118,7 +118,7 @@ msgstr ""
 "Twòjô serwera SMTP nie òbłëgùje ùdowierzaniô.\n"
 "  %1"
 
-#: command.cpp:400
+#: command.cpp:396
 #, kde-format
 msgid ""
 "Authentication failed.\n"
@@ -129,12 +129,12 @@ msgstr ""
 "Gwësno parola je lëchò.\n"
 "%1"
 
-#: command.cpp:557
+#: command.cpp:553
 #, kde-format
 msgid "Could not read data from application."
 msgstr "Nie mòże òdczëtac pòdôwków z programë."
 
-#: command.cpp:575
+#: command.cpp:571
 #, kde-format
 msgid ""
 "The message content was not accepted.\n"
@@ -143,7 +143,7 @@ msgstr ""
 "Zamkłosc wiadła nie òsta zaakceptowónô.\n"
 "%1"
 
-#: response.cpp:113
+#: response.cpp:110
 #, kde-format
 msgid ""
 "The server responded:\n"
@@ -152,32 +152,32 @@ msgstr ""
 "Òdpòwiesc serwerë:\n"
 "%1"
 
-#: response.cpp:115
+#: response.cpp:112
 #, kde-format
 msgid "The server responded: \"%1\""
 msgstr "Serwera òdpòwiedzała: \"%1\""
 
-#: response.cpp:118
+#: response.cpp:115
 #, kde-format
 msgid "This is a temporary failure. You may try again later."
 msgstr "To je timczasowô fela. Mòżesz spróbòwac znowa pózdni."
 
-#: smtp.cpp:148
+#: smtp.cpp:146
 #, kde-format
 msgid "The application sent an invalid request."
 msgstr "Programa wësła zmiłkòwi żãdanié."
 
-#: smtp.cpp:210
+#: smtp.cpp:208
 #, kde-format
 msgid "The sender address is missing."
 msgstr "Adresa wësélôrza nie òsta pòdónô."
 
-#: smtp.cpp:217
+#: smtp.cpp:215
 #, kde-format
 msgid "SMTPProtocol::smtp_open failed (%1)"
 msgstr "Protokół SMTP::smtp_open nie darzëł sã (%1)"
 
-#: smtp.cpp:225
+#: smtp.cpp:223
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your server does not support sending of 8-bit messages.\n"
@@ -189,17 +189,17 @@ msgstr ""
 "Twòjô serwera nie òbsłëgùje wësëłania 8-bitowëch wiadłow.\n"
 "Proszã brëkòwac kòdowania base64 abò quoted-printable."
 
-#: smtp.cpp:275
+#: smtp.cpp:272
 #, kde-format
 msgid "Writing to socket failed."
 msgstr "Pisanié do gniôzda nie darzëło sã."
 
-#: smtp.cpp:315
+#: smtp.cpp:311
 #, kde-format
 msgid "Invalid SMTP response (%1) received."
 msgstr "Dostónô zmiłkòwą òdpòwiesc SMTP (%1)."
 
-#: smtp.cpp:544
+#: smtp.cpp:537
 #, fuzzy, kde-format
 #| msgid ""
 #| "The server did not accept the connection.\n"
@@ -211,12 +211,12 @@ msgstr ""
 "Serwera nie zaakceptowa pòłączenia.\n"
 "%1"
 
-#: smtp.cpp:610
+#: smtp.cpp:602
 #, kde-format
 msgid "Username and password for your SMTP account:"
 msgstr "Miono brëkòwnika ë parola dla kònta SMTP:"
 
-#: transactionstate.cpp:52
+#: transactionstate.cpp:50
 #, kde-format
 msgid ""
 "The server did not accept a blank sender address.\n"
@@ -225,7 +225,7 @@ msgstr ""
 "Serwera nie zaakceptowa pùsti adresë wësëlôrza.\n"
 "%1"
 
-#: transactionstate.cpp:55
+#: transactionstate.cpp:53
 #, kde-format
 msgid ""
 "The server did not accept the sender address \"%1\".\n"
@@ -234,7 +234,7 @@ msgstr ""
 "Serwera nie zaakceptowa adresë wësëlôrza \"%1\".\n"
 "%2"
 
-#: transactionstate.cpp:114
+#: transactionstate.cpp:112
 #, kde-format
 msgid ""
 "Message sending failed since the following recipients were rejected by the "
@@ -245,7 +245,7 @@ msgstr ""
 "serwerã:\n"
 "%1"
 
-#: transactionstate.cpp:119
+#: transactionstate.cpp:117
 #, kde-format
 msgid ""
 "The attempt to start sending the message content failed.\n"
@@ -254,7 +254,7 @@ msgstr ""
 "Nie darzëła sã próba naczãca wësłania zamkłoscë wiadła.\n"
 "%1"
 
-#: transactionstate.cpp:124
+#: transactionstate.cpp:122
 #, kde-format
 msgid "Unhandled error condition. Please send a bug report."
 msgstr "Nieòbsłëgiwónô fela. Proszã wësłac zgłoszënk feli w programie."
