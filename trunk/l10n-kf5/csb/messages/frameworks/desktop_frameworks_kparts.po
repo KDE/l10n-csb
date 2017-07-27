@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-13 08:00+0000\n"
+"POT-Creation-Date: 2017-07-27 01:38+0000\n"
 "PO-Revision-Date: 2009-06-29 21:08+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -26,6 +26,29 @@ msgstr "Wëzdrzatk przezérnika"
 msgctxt "Comment"
 msgid "KDE Component"
 msgstr "Kòmpònent KDE"
+
+#: templates/kpartsapp/kpartsapp.kdevtemplate:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Application"
+msgctxt "Name"
+msgid "KParts Application"
+msgstr "Programa"
+
+#: templates/kpartsapp/kpartsapp.kdevtemplate:4
+msgctxt "Comment"
+msgid "Generate an application built on the KParts framwork. using CMake."
+msgstr ""
+
+#: templates/kpartsapp/src/part/%{APPNAMELC}part.desktop:3
+msgctxt "Name"
+msgid "%{APPNAME}Part"
+msgstr ""
+
+#: templates/kpartsapp/src/shell/%{APPNAMELC}.desktop:3
+msgctxt "Name"
+msgid "%{APPNAME}"
+msgstr ""
 
 #~ msgctxt "Name"
 #~ msgid "Notepad (example)"
@@ -889,10 +912,6 @@ msgstr "Kòmpònent KDE"
 #~ msgctxt "Comment"
 #~ msgid "QImageIOHandler plugin"
 #~ msgstr "Wtëkôcz QImageIOHandler"
-
-#~ msgctxt "Name"
-#~ msgid "Application"
-#~ msgstr "Programa"
 
 #~ msgctxt "Description"
 #~ msgid "A kioslave for data URIs (rfc2397)"
