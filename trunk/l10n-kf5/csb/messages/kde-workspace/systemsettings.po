@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-07-12 06:58+0200\n"
+"POT-Creation-Date: 2017-08-01 03:22+0200\n"
 "PO-Revision-Date: 2009-12-12 12:21+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -170,10 +170,12 @@ msgstr "Bënowé miono brëkòwónegò wëzdrzatka"
 msgid "About System Settings"
 msgstr "Ò Systemòwëch nastôwch"
 
-#: app/ToolTips/tooltipmanager.cpp:191 sidebar/ToolTips/tooltipmanager.cpp:186
-#, kde-format
-msgid "<i>Contains 1 item</i>"
-msgid_plural "<i>Contains %1 items</i>"
+#: app/ToolTips/tooltipmanager.cpp:191
+#, fuzzy, kde-format
+#| msgid "<i>Contains 1 item</i>"
+#| msgid_plural "<i>Contains %1 items</i>"
+msgid "Contains 1 item"
+msgid_plural "Contains %1 items"
 msgstr[0] "<i>Zamëkô w se 1 element</i>"
 msgstr[1] "<i>Zamëkô w se %1 elementë</i>"
 msgstr[2] "<i>Zamëkô w se %1 elementów</i>"
@@ -290,6 +292,14 @@ msgstr ""
 #, kde-format
 msgid "Marco Martin"
 msgstr ""
+
+#: sidebar/ToolTips/tooltipmanager.cpp:186
+#, kde-format
+msgid "<i>Contains 1 item</i>"
+msgid_plural "<i>Contains %1 items</i>"
+msgstr[0] "<i>Zamëkô w se 1 element</i>"
+msgstr[1] "<i>Zamëkô w se %1 elementë</i>"
+msgstr[2] "<i>Zamëkô w se %1 elementów</i>"
 
 #~ msgid "Overview"
 #~ msgstr "Pòdzérk"
