@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmaccess\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-19 20:21+0100\n"
+"POT-Creation-Date: 2017-09-12 03:29+0200\n"
 "PO-Revision-Date: 2009-01-08 18:50+0100\n"
 "Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -201,7 +201,7 @@ msgstr " msek"
 #: accessibility.ui:224
 #, fuzzy, kde-format
 #| msgid "&Modifier Keys"
-msgid "Modifier Keys"
+msgid "&Modifier Keys"
 msgstr "Klawisze &zjinaczi"
 
 #. i18n: ectx: property (title), widget (QGroupBox, sticky)
@@ -328,7 +328,7 @@ msgstr "Brëkùjë brzãczka przë kòżdëm òdrzëceniô klawiszë"
 #: accessibility.ui:564
 #, fuzzy, kde-format
 #| msgid "Activation Gestures"
-msgid "&Activation Gestures"
+msgid "Activation &Gestures"
 msgstr "Aktiwùjącé gestë"
 
 #. i18n: ectx: property (title), widget (QGroupBox, activationgestures)
@@ -425,8 +425,14 @@ msgstr ""
 msgid "Screen reader enabled"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QPushButton, launchOrcaConfiguration)
+#: accessibility.ui:760
+#, kde-format
+msgid "&Launch Orca Configuration"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: accessibility.ui:758
+#: accessibility.ui:785
 #, kde-format
 msgid ""
 "Please note that you may have to log out once to allow the screen reader to "
@@ -535,6 +541,21 @@ msgstr ""
 "Emùlacëjô mëszë: %1\n"
 "Klawisze przëlepieniô: Wcësni Shift 5 razë pò se\n"
 "Pòwólne klawisze: Trzëmôj Shift 8 sekùnd wcësniãté"
+
+#: kcmaccess.cpp:260
+#, kde-format
+msgid "Could not set gesttings for Orca: \"%1\" failed"
+msgstr ""
+
+#: kcmaccess.cpp:267
+#, kde-format
+msgid "Error: Could not launch \"orca --setup\""
+msgstr ""
+
+#, fuzzy
+#~| msgid "Activation Gestures"
+#~ msgid "&Activation Gestures"
+#~ msgstr "Aktiwùjącé gestë"
 
 #~ msgid "Acceptance dela&y:"
 #~ msgstr "Ò&pòzdzenié pòcwierdzeniô:"
