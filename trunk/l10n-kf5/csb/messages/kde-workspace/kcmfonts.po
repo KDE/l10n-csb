@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-09-16 03:34+0200\n"
+"POT-Creation-Date: 2017-10-20 03:10+0200\n"
 "PO-Revision-Date: 2009-10-20 13:20+0200\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -241,7 +241,12 @@ msgstr ""
 "wëzdrzą dobrze przë prôwdzëwi wôrtnoscë DPI value, to lepi jebrëkòwac "
 "lepszich fòntów ë sprôwdzëc kònfigùracëjã hintingu.</p>"
 
-#: fonts.cpp:833
+#: fonts.cpp:685
+#, kde-format
+msgid "This property has no effect on this platform"
+msgstr ""
+
+#: fonts.cpp:838
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p>Some changes such as anti-aliasing will only affect newly started "
@@ -253,12 +258,12 @@ msgstr ""
 "<p>Niejedné zmianë, m.jin tikającé sã antyaliasingù, bãdą robiłe blós w nowò "
 "zrëszanych aplikacëjach.</p>"
 
-#: fonts.cpp:834 fonts.cpp:844
+#: fonts.cpp:839 fonts.cpp:849
 #, kde-format
 msgid "Font Settings Changed"
 msgstr "Zmieniony nastôw fòntów"
 
-#: fonts.cpp:843
+#: fonts.cpp:848
 #, kde-format
 msgid ""
 "<p>Some changes such as DPI will only affect newly started applications.</p>"
