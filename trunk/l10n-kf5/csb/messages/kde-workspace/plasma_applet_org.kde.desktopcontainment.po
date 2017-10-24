@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-09-29 03:32+0200\n"
+"POT-Creation-Date: 2017-10-24 03:18+0200\n"
 "PO-Revision-Date: 2009-12-14 23:08+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -22,7 +22,6 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2)\n"
 
 #: package/contents/config/config.qml:29
-#: package/contents/ui/ConfigLocation.qml:79
 #, fuzzy
 #| msgctxt ""
 #| "Title of the page that lets the user choose which location should the "
@@ -300,52 +299,61 @@ msgstr "Pòdzérczi:"
 msgid "More Preview Options..."
 msgstr "Wicy pòtacëji pòdzérkù..."
 
-#: package/contents/ui/ConfigLocation.qml:97
+#: package/contents/ui/ConfigLocation.qml:93
+#, fuzzy
+#| msgctxt ""
+#| "Title of the page that lets the user choose which location should the "
+#| "folderview show"
+#| msgid "Location"
+msgid "Location:"
+msgstr "Pòłóżenié"
+
+#: package/contents/ui/ConfigLocation.qml:101
 msgid "Show the Desktop folder"
 msgstr "Wëskrzëni katalog pùltu"
 
-#: package/contents/ui/ConfigLocation.qml:104
+#: package/contents/ui/ConfigLocation.qml:113
 msgid "Show files linked to the current activity"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:129
+#: package/contents/ui/ConfigLocation.qml:123
 msgid "Show a place:"
 msgstr "Wëskrzëni môl:"
 
-#: package/contents/ui/ConfigLocation.qml:173
+#: package/contents/ui/ConfigLocation.qml:171
 msgid "Specify a folder:"
 msgstr "Wëbierzë katalog:"
 
-#: package/contents/ui/ConfigLocation.qml:185
+#: package/contents/ui/ConfigLocation.qml:182
 msgid "Type a path or a URL here"
 msgstr "Wpiszë tuwò stegnã abò URL"
 
-#: package/contents/ui/ConfigLocation.qml:228
+#: package/contents/ui/ConfigLocation.qml:232
 #, fuzzy
 #| msgctxt "Music"
 #| msgid "Title:"
-msgid "Title"
+msgid "Title:"
 msgstr "Titel:"
 
-#: package/contents/ui/ConfigLocation.qml:238
+#: package/contents/ui/ConfigLocation.qml:244
 msgid "None"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:238
+#: package/contents/ui/ConfigLocation.qml:244
 msgid "Default"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:238
+#: package/contents/ui/ConfigLocation.qml:244
 msgid "Full path"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:238
+#: package/contents/ui/ConfigLocation.qml:244
 #, fuzzy
 #| msgid "Custom Title:"
 msgid "Custom title"
 msgstr "Swój titel:"
 
-#: package/contents/ui/ConfigLocation.qml:248
+#: package/contents/ui/ConfigLocation.qml:257
 #, fuzzy
 #| msgid "Enter a customized title"
 msgid "Enter custom title here"
@@ -521,6 +529,12 @@ msgstr ""
 #, kde-format
 msgid "Locked"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Music"
+#~| msgid "Title:"
+#~ msgid "Title"
+#~ msgstr "Titel:"
 
 #, fuzzy
 #~| msgid "Show the Desktop folder"
@@ -975,10 +989,6 @@ msgstr ""
 #~ msgctxt "Music"
 #~ msgid "Artist:"
 #~ msgstr "Artista:"
-
-#~ msgctxt "Music"
-#~ msgid "Title:"
-#~ msgstr "Titel:"
 
 #~ msgctxt "Music"
 #~ msgid "Album:"
