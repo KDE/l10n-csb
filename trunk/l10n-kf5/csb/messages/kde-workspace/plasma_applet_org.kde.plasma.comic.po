@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_comic\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-02-01 03:29+0100\n"
+"POT-Creation-Date: 2018-04-19 03:39+0200\n"
 "PO-Revision-Date: 2009-06-29 20:47+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -226,7 +226,6 @@ msgid "General"
 msgstr "Òglowé"
 
 #: package/contents/config/config.qml:30
-#: package/contents/ui/configAppearance.qml:58
 #, kde-format
 msgid "Appearance"
 msgstr "Wëzdrzatk"
@@ -243,12 +242,14 @@ msgstr "Òbaczë starnã kòmiksu"
 
 #: package/contents/ui/configAdvanced.qml:53
 #, kde-format
+msgctxt "@title:group"
 msgid "Cache"
 msgstr ""
 
 #: package/contents/ui/configAdvanced.qml:59
 #, fuzzy, kde-format
 #| msgid "C&omic:"
+msgctxt "@label:spinbox"
 msgid "Comic cache:"
 msgstr "&Kòmiks:"
 
@@ -259,74 +260,96 @@ msgstr ""
 
 #: package/contents/ui/configAdvanced.qml:73
 #, kde-format
+msgctxt "@title:group"
 msgid "Error Handling"
 msgstr ""
 
 #: package/contents/ui/configAdvanced.qml:79
 #, kde-format
+msgctxt "@option:check"
 msgid "Display error when getting comic failed"
 msgstr ""
 
+#: package/contents/ui/configAppearance.qml:58
+#, fuzzy, kde-format
+#| msgid "Appearance"
+msgctxt "@title:group"
+msgid "Appearance"
+msgstr "Wëzdrzatk"
+
 #: package/contents/ui/configAppearance.qml:64
 #, kde-format
-msgid "Show arrows only on mouse over"
+msgctxt "@option:check"
+msgid "Show arrows only on mouse-over"
 msgstr ""
 
 #: package/contents/ui/configAppearance.qml:72
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Information"
+msgctxt "@title:group"
 msgid "Information"
 msgstr "Wëdowiédzô"
 
 #: package/contents/ui/configAppearance.qml:78
 #, fuzzy, kde-format
 #| msgid "Show comic &title:"
+msgctxt "@option:check"
 msgid "Show comic title"
 msgstr "Pòkażë &titel kòmiksa:"
 
 #: package/contents/ui/configAppearance.qml:83
 #, fuzzy, kde-format
 #| msgid "Show comic &identifier:"
+msgctxt "@option:check"
 msgid "Show comic identifier"
 msgstr "Pòkażë &jidentifikator kòmiksa:"
 
 #: package/contents/ui/configAppearance.qml:88
 #, fuzzy, kde-format
 #| msgid "Show comic &author:"
+msgctxt "@option:check"
 msgid "Show comic author"
 msgstr "Pòkażë &aùtora kòmiksa:"
 
 #: package/contents/ui/configAppearance.qml:93
 #, fuzzy, kde-format
 #| msgid "Show comic &URL:"
+msgctxt "@option:check"
 msgid "Show comic URL"
 msgstr "Pòkażë adresã &URL kòmiksa:"
 
 #: package/contents/ui/configGeneral.qml:63
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Comic"
+msgctxt "@title:group"
 msgid "Comic"
 msgstr "Kòmiks"
 
 #: package/contents/ui/configGeneral.qml:90
 #, fuzzy, kde-format
 #| msgid "&Get New Comics..."
+msgctxt "@action:button"
 msgid "Get New Comics..."
 msgstr "&Zladëjë nowé kòmiksë..."
 
 #: package/contents/ui/configGeneral.qml:95
 #, fuzzy, kde-format
 #| msgid "&Middle-click on the comic to show it at its original size"
+msgctxt "@option:check"
 msgid "Middle-click on the comic to show it at its original size"
 msgstr ""
 "&Wcësni wëstrzédną knąpã mëszë na kòmiksu żebë pòkazac jegò òriginalną miarã"
 
 #: package/contents/ui/configGeneral.qml:103
 #, kde-format
+msgctxt "@title:group"
 msgid "Update"
 msgstr ""
 
 #: package/contents/ui/configGeneral.qml:110
 #, fuzzy, kde-format
 #| msgid "Automatically &switch tabs:"
+msgctxt "@label:spinbox"
 msgid "Automatically update comic plugins:"
 msgstr "&Aùtomatno przełącziwô kôrtë:"
 
@@ -338,6 +361,7 @@ msgstr ""
 #: package/contents/ui/configGeneral.qml:123
 #, fuzzy, kde-format
 #| msgid "Choose a comic strip"
+msgctxt "@label:spinbox"
 msgid "Check for new comic strips:"
 msgstr "Wëbiérzë kòmiksowi sztripk"
 
@@ -348,6 +372,7 @@ msgstr ""
 
 #: package/contents/ui/main.qml:191
 #, kde-format
+msgctxt "@action:button"
 msgid "Configure..."
 msgstr ""
 
