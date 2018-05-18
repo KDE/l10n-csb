@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_fifteenPuzzle\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-01-12 03:59+0100\n"
+"POT-Creation-Date: 2018-05-01 03:40+0200\n"
 "PO-Revision-Date: 2007-12-30 17:56+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -20,55 +20,63 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2)\n"
 
 #: package/contents/config/config.qml:27
-#: package/contents/ui/configAppearance.qml:45
 #, kde-format
+msgctxt "@title"
 msgid "Appearance"
 msgstr ""
 
-#: package/contents/ui/configAppearance.qml:58
+#: package/contents/ui/configAppearance.qml:45
 #, fuzzy, kde-format
 #| msgid "File:"
-msgid "Size"
+msgctxt "@label:spinbox"
+msgid "Size:"
 msgstr "Lopk:ｏｐｋ："
 
-#: package/contents/ui/configAppearance.qml:67
+#: package/contents/ui/configAppearance.qml:54
 #, kde-format
-msgid "Piece color"
+msgctxt "@label:chooser"
+msgid "Piece color:"
 msgstr ""
 
-#: package/contents/ui/configAppearance.qml:76
+#: package/contents/ui/configAppearance.qml:63
 #, kde-format
-msgid "Number color"
+msgctxt "@label:chooser"
+msgid "Number color:"
 msgstr ""
 
-#: package/contents/ui/configAppearance.qml:86
+#: package/contents/ui/configAppearance.qml:73
 #, kde-format
+msgctxt "@option:check"
 msgid "Use custom image"
 msgstr ""
 
-#: package/contents/ui/configAppearance.qml:95
+#: package/contents/ui/configAppearance.qml:81
 #, kde-format
+msgctxt "@info:placeholder"
 msgid "Path to custom image"
 msgstr ""
 
-#: package/contents/ui/configAppearance.qml:101
+#: package/contents/ui/configAppearance.qml:87
 #, kde-format
+msgctxt "@info:tooltip"
 msgid "Browse..."
 msgstr ""
 
-#: package/contents/ui/configAppearance.qml:108
+#: package/contents/ui/configAppearance.qml:94
 #, kde-format
-msgid "Choose an image"
+msgctxt "@title:window"
+msgid "Choose an Image"
 msgstr ""
 
-#: package/contents/ui/configAppearance.qml:113
+#: package/contents/ui/configAppearance.qml:99
 #, kde-format
 msgid "Image Files (*.png *.jpg *.jpeg *.bmp *.svg *.svgz)"
 msgstr ""
 
-#: package/contents/ui/configAppearance.qml:125
+#: package/contents/ui/configAppearance.qml:111
 #, fuzzy, kde-format
 #| msgid "Show Numerals"
+msgctxt "@option:check"
 msgid "Show numerals"
 msgstr "Pòkażë lëczbë"
 
@@ -81,21 +89,23 @@ msgstr ""
 #: package/contents/ui/FifteenPuzzle.qml:193
 #, fuzzy, kde-format
 #| msgid "Shuffle Pieces"
+msgctxt "@action:button"
 msgid "Shuffle"
 msgstr "Wëmiészôj elementë"
 
 #: package/contents/ui/FifteenPuzzle.qml:230
 #, kde-format
+msgctxt "@info"
 msgid "Solved! Try again."
 msgstr ""
 
-#: package/contents/ui/main.qml:40
+#: package/contents/ui/main.qml:41
 #, fuzzy, kde-format
 #| msgid "Configure Fifteen Puzzle"
 msgid "Fifteen Puzzle"
 msgstr "Kònfigùrëje Piãtnôsce Pùzzlów"
 
-#: package/contents/ui/main.qml:41
+#: package/contents/ui/main.qml:42
 #, kde-format
 msgid "Solve by arranging in order"
 msgstr ""
