@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-19 22:53+0100\n"
+"POT-Creation-Date: 2017-10-11 07:06+0200\n"
 "PO-Revision-Date: 2009-12-13 14:08+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -29,29 +29,37 @@ msgid "Your emails"
 msgstr "mark@linuxcsb.org"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: browserconfig_ui.ui:12
+#: browserconfig_ui.ui:29
 #, kde-format
 msgid "<qt>Open <b>http</b> and <b>https</b> URLs</qt>"
 msgstr "<qt>Òtemkni adresë <b>http</b> i <b>https</b></qt>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioKIO)
-#: browserconfig_ui.ui:19
+#: browserconfig_ui.ui:36
 #, kde-format
 msgid "in an application based on the contents of the URL"
 msgstr "w aplikacëji òpiarti na zamkłoscë URL"
 
-#. i18n: ectx: property (text), widget (QRadioButton, radioExec)
-#: browserconfig_ui.ui:29
-#, kde-format
-msgid "in the following browser:"
+#. i18n: ectx: property (text), widget (QRadioButton, radioService)
+#: browserconfig_ui.ui:46
+#, fuzzy, kde-format
+#| msgid "in the following browser:"
+msgid "in the following application:"
 msgstr "w nôslédnym przezérnikù:"
 
-#. i18n: ectx: property (text), widget (QToolButton, btnSelectBrowser)
+#. i18n: ectx: property (text), widget (QRadioButton, radioExec)
+#: browserconfig_ui.ui:80
+#, fuzzy, kde-format
+#| msgid "in the following browser:"
+msgid "with the following command:"
+msgstr "w nôslédnym przezérnikù:"
+
+#. i18n: ectx: property (text), widget (QToolButton, btnSelectApplication)
 #. i18n: ectx: property (text), widget (QToolButton, btnSelectEmail)
 #. i18n: ectx: property (text), widget (QToolButton, btnSelectFileManager)
 #. i18n: ectx: property (text), widget (QToolButton, btnSelectTerminal)
-#: browserconfig_ui.ui:64 emailclientconfig_ui.ui:69 filemanagerconfig_ui.ui:41
-#: terminalemulatorconfig_ui.ui:60
+#: browserconfig_ui.ui:115 emailclientconfig_ui.ui:69
+#: filemanagerconfig_ui.ui:41 terminalemulatorconfig_ui.ui:60
 #, kde-format
 msgid "..."
 msgstr "..."
@@ -130,12 +138,12 @@ msgstr ""
 "wëbrac tuwò.</p>\n"
 "</qt>"
 
-#: componentchooserbrowser.cpp:110
+#: componentchooserbrowser.cpp:147
 #, kde-format
 msgid "Select preferred Web browser application:"
 msgstr "Wëbierzë preferowóny przezérnik:"
 
-#: componentchooseremail.cpp:82
+#: componentchooseremail.cpp:83
 #, kde-format
 msgid "Select preferred email client:"
 msgstr "Wëbierzë domëslnegò klienta e-mail:"
@@ -147,8 +155,9 @@ msgstr "Wëbierzë domëslną aplikacëjã terminala:"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, kmailCB)
 #: emailclientconfig_ui.ui:12
-#, kde-format
-msgid "Kmail is the standard Mail program for the KDE desktop."
+#, fuzzy, kde-format
+#| msgid "Kmail is the standard Mail program for the KDE desktop."
+msgid "Kmail is the standard Mail program for the Plasma desktop."
 msgstr "Kmail je sztandardową pòcztową programą òkrãżô KDE."
 
 #. i18n: ectx: property (text), widget (QRadioButton, kmailCB)

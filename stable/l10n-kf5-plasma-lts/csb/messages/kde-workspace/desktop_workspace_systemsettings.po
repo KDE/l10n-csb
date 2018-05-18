@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-07-17 08:28+0000\n"
+"POT-Creation-Date: 2018-01-27 04:50+0000\n"
 "PO-Revision-Date: 2009-12-13 21:28+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -26,7 +26,7 @@ msgctxt "GenericName"
 msgid "KDE System Settings"
 msgstr "Systemòwé ùstôwë"
 
-#: app/kdesystemsettings.desktop:64
+#: app/kdesystemsettings.desktop:63
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "System Settings"
@@ -34,20 +34,20 @@ msgctxt "Name"
 msgid "KDE System Settings"
 msgstr "Systemòwé ùstôwë"
 
+#: app/kdesystemsettings.desktop:118 app/systemsettings.desktop:175
+msgctxt "Comment"
+msgid "Configuration tools for your computer"
+msgstr ""
+
 #: app/systemsettings.desktop:9
 msgctxt "GenericName"
 msgid "System Settings"
 msgstr "Systemòwé ùstôwë"
 
-#: app/systemsettings.desktop:91
+#: app/systemsettings.desktop:90
 msgctxt "Name"
 msgid "System Settings"
 msgstr "Systemòwé ùstôwë"
-
-#: categories/old/settings-accessibility.desktop:8
-msgctxt "Name"
-msgid "Accessibility"
-msgstr "Pòmòce przëstãpù"
 
 #: categories/old/settings-account-details.desktop:8
 #: categories/settings-personalization-accountdetails.desktop:9
@@ -94,7 +94,7 @@ msgctxt "Name"
 msgid "Workspace Appearance"
 msgstr "Zrëszôcz programów"
 
-#: categories/old/settings-desktop-appearance.desktop:73
+#: categories/old/settings-desktop-appearance.desktop:72
 msgctxt "Comment"
 msgid "Customize the appearance of your desktop"
 msgstr ""
@@ -108,8 +108,8 @@ msgctxt "Name"
 msgid "Display and Monitor"
 msgstr "Sprôwianié lopkama"
 
-#: categories/old/settings-display.desktop:70
-#: categories/settings-hardware-display.desktop:71
+#: categories/old/settings-display.desktop:69
+#: categories/settings-hardware-display.desktop:70
 msgctxt "Comment"
 msgid "Display Settings"
 msgstr "Ùstôw ekranu"
@@ -238,7 +238,7 @@ msgstr "Zrëszôcz programów"
 
 #: categories/settings-appearance-color.desktop:9
 msgctxt "Name"
-msgid "Color"
+msgid "Colors"
 msgstr ""
 
 #: categories/settings-appearance.desktop:9
@@ -251,7 +251,7 @@ msgstr "Zrëszôcz programów"
 
 #: categories/settings-appearance-font.desktop:9
 msgctxt "Name"
-msgid "Font"
+msgid "Fonts"
 msgstr ""
 
 #: categories/settings-appearance-icons.desktop:9
@@ -303,6 +303,11 @@ msgstr "Sécowi nastôw"
 msgctxt "Name"
 msgid "Settings"
 msgstr "Systemòwé ùstôwë"
+
+#: categories/settings-personalization-accessibility.desktop:8
+msgctxt "Name"
+msgid "Accessibility"
+msgstr "Pòmòce przëstãpù"
 
 #: categories/settings-personalization-applications.desktop:9
 #, fuzzy
@@ -376,6 +381,7 @@ msgid "System Settings Category"
 msgstr "Kategòrëjô systemòwégò nastôwù"
 
 #: classic/settings-classic-view.desktop:7 icons/settings-icon-view.desktop:7
+#: sidebar/settings-sidebar-view.desktop:7
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "System Settings"
@@ -383,12 +389,15 @@ msgctxt "X-KDE-Keywords"
 msgid "System Settings"
 msgstr "Systemòwé ùstôwë"
 
-#: classic/settings-classic-view.desktop:65
+#: classic/settings-classic-view.desktop:64
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Classic Tree View"
 msgctxt "Name"
-msgid "Classic Tree View"
+msgid "Tree View"
 msgstr "Klasykòwi wëzdrzatk drzewiã"
 
-#: classic/settings-classic-view.desktop:135
+#: classic/settings-classic-view.desktop:98
 msgctxt "Comment"
 msgid "A Classic KDE 3 KControl style system settings view."
 msgstr "Systemòwi nastôw w klasykòwim sztélu KDE 3"
@@ -403,15 +412,26 @@ msgctxt "Name"
 msgid "System Settings View"
 msgstr "Wëzdrzatk systemòwégò nastôwù"
 
-#: icons/settings-icon-view.desktop:65
+#: icons/settings-icon-view.desktop:64
 msgctxt "Name"
 msgid "Icon View"
 msgstr "Wëzdrzatk ikònów"
 
-#: icons/settings-icon-view.desktop:143
+#: icons/settings-icon-view.desktop:141
 msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr "Sztél KDE 4 wëzdrzatkù ikònów"
+
+#: sidebar/package/metadata.desktop:2 sidebar/settings-sidebar-view.desktop:64
+msgctxt "Name"
+msgid "Sidebar View"
+msgstr ""
+
+#: sidebar/package/metadata.desktop:39
+#: sidebar/settings-sidebar-view.desktop:101
+msgctxt "Comment"
+msgid "Categorized sidebar style"
+msgstr ""
 
 #, fuzzy
 #~| msgctxt "Name"
