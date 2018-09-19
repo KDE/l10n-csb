@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-09-18 03:39+0200\n"
+"POT-Creation-Date: 2018-09-19 03:41+0200\n"
 "PO-Revision-Date: 2009-12-17 00:21+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -704,18 +704,18 @@ msgid ""
 "Konsole to see transparent background."
 msgstr ""
 
-#: EditProfileDialog.cpp:1645
+#: EditProfileDialog.cpp:1654
 #, fuzzy, kde-format
 #| msgid "Select All"
 msgid "Select Any Font"
 msgstr "Wëbiérzë wszëtkò"
 
-#: EditProfileDialog.cpp:1648
+#: EditProfileDialog.cpp:1657
 #, kde-format
 msgid "Select Fixed Width Font"
 msgstr ""
 
-#: EditProfileDialog.cpp:1700
+#: EditProfileDialog.cpp:1709
 #, kde-format
 msgid "AaZz09..."
 msgstr ""
@@ -1477,32 +1477,45 @@ msgstr ""
 msgid "Meta"
 msgstr ""
 
+#. i18n: ectx: property (toolTip), widget (QCheckBox, enableReverseUrlHints)
+#: EditProfileDialog.ui:1240
+#, fuzzy, kde-format
+#| msgid "Find the next match for the current search phrase"
+msgid "Number URL hints in reverse, starting from the bottom"
+msgstr "Nalézë pòstãpny skùtk dlô szëkónegò wësłowia"
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableReverseUrlHints)
+#: EditProfileDialog.ui:1243
+#, kde-format
+msgid "Reverse URL hint numbering"
+msgstr ""
+
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableBlinkingTextButton)
-#: EditProfileDialog.ui:1246
+#: EditProfileDialog.ui:1256
 #, kde-format
 msgid "Allow terminal programs to create blinking sections of text"
 msgstr "Zezwòlë programie terminala ùsôdzac mërgającé dzéle tekstu"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableBlinkingTextButton)
-#: EditProfileDialog.ui:1249
+#: EditProfileDialog.ui:1259
 #, kde-format
 msgid "Allow blinking text"
 msgstr "Zezwòlë ma mërgający tekst"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableFlowControlButton)
-#: EditProfileDialog.ui:1262
+#: EditProfileDialog.ui:1272
 #, kde-format
 msgid "Allow the output to be suspended by pressing Ctrl+S"
 msgstr "Zezwòlë ùspic wińdzenia przë klëkniãcu Ctrl+S"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableFlowControlButton)
-#: EditProfileDialog.ui:1265
+#: EditProfileDialog.ui:1275
 #, kde-format
 msgid "Enable flow control using Ctrl+S, Ctrl+Q"
 msgstr "Włączë kòntrolã przepłiwù brëkùjąc Ctrl+S, Ctrl+Q"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableBidiRenderingButton)
-#: EditProfileDialog.ui:1278
+#: EditProfileDialog.ui:1288
 #, kde-format
 msgid ""
 "Enable Bi-Directional display on terminals (valid for Arabic, Farsi or "
@@ -1512,118 +1525,118 @@ msgstr ""
 "arabsczégò, persczégò ë hebrajsczégò)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableBidiRenderingButton)
-#: EditProfileDialog.ui:1281
+#: EditProfileDialog.ui:1291
 #, kde-format
 msgid "Enable Bi-Directional text rendering"
 msgstr "Włączë Bi-direktionalné wëskrzënianié ôrtów tekstu"
 
 #. i18n: ectx: property (text), widget (QLabel, lineSpacingLabel)
-#: EditProfileDialog.ui:1290
+#: EditProfileDialog.ui:1300
 #, kde-format
 msgid "Line Spacing:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, lineSpacingSpinner)
-#: EditProfileDialog.ui:1297
+#: EditProfileDialog.ui:1307
 #, kde-format
 msgid "The number of pixels between two lines"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_8)
-#: EditProfileDialog.ui:1328
+#: EditProfileDialog.ui:1338
 #, kde-format
 msgid "Cursor"
 msgstr "Kùrsor"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableBlinkingCursorButton)
-#: EditProfileDialog.ui:1343
+#: EditProfileDialog.ui:1353
 #, kde-format
 msgid "Make the cursor blink regularly"
 msgstr "Regùlarno mërgającu kùrsor"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableBlinkingCursorButton)
-#: EditProfileDialog.ui:1346
+#: EditProfileDialog.ui:1356
 #, kde-format
 msgid "Blinking cursor"
 msgstr "Mërgający kùrsor"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: EditProfileDialog.ui:1355
+#: EditProfileDialog.ui:1365
 #, kde-format
 msgid "Cursor shape:"
 msgstr "Fòrma kùrsora:"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1362
+#: EditProfileDialog.ui:1372
 #, kde-format
 msgid "Change the shape of the cursor"
 msgstr "Zmieni fòrmã kùrsora"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1366
+#: EditProfileDialog.ui:1376
 #, kde-format
 msgctxt "The shape of the cursor"
 msgid "Block"
 msgstr "Blokòwi"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1371
+#: EditProfileDialog.ui:1381
 #, kde-format
 msgctxt "The shape of the cursor, similar to a capital I"
 msgid "I-Beam"
 msgstr "Dëbeltné \"T\" (I)"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1376
+#: EditProfileDialog.ui:1386
 #, kde-format
 msgctxt "The shape of the cursor"
 msgid "Underline"
 msgstr "Pòdsztrëchniãti"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, autoCursorColorButton)
-#: EditProfileDialog.ui:1407
+#: EditProfileDialog.ui:1417
 #, kde-format
 msgid "Set the cursor to match the color of the character underneath it."
 msgstr "Nastôwiô farwã kùrsorã do leżącegò pòd nim céchù."
 
 #. i18n: ectx: property (text), widget (QRadioButton, autoCursorColorButton)
-#: EditProfileDialog.ui:1410
+#: EditProfileDialog.ui:1420
 #, kde-format
 msgid "Set cursor color to match current character"
 msgstr "Nastôwiô farwã kùrsorã do aktualnegò céchù."
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, customCursorColorButton)
-#: EditProfileDialog.ui:1425
+#: EditProfileDialog.ui:1435
 #, kde-format
 msgid "Use a custom, fixed color for the cursor"
 msgstr "Brëkùjë swòji, stałi farwë dlô kùrsora"
 
 #. i18n: ectx: property (text), widget (QRadioButton, customCursorColorButton)
-#: EditProfileDialog.ui:1428
+#: EditProfileDialog.ui:1438
 #, kde-format
 msgid "Custom cursor color:"
 msgstr "Swòjô farwa kùrsora:"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, customColorSelectButton)
-#: EditProfileDialog.ui:1441
+#: EditProfileDialog.ui:1451
 #, kde-format
 msgid "Select the color used to draw the cursor"
 msgstr "Wëbierzë farwã kùrsora"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_11)
-#: EditProfileDialog.ui:1471
+#: EditProfileDialog.ui:1481
 #, kde-format
 msgid "Encoding"
 msgstr "Kòdowanié"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: EditProfileDialog.ui:1480
+#: EditProfileDialog.ui:1490
 #, kde-format
 msgid "Default character encoding:"
 msgstr "Domëslné kòdowanié céchów"
 
 #. i18n: ectx: property (text), widget (QPushButton, selectEncodingButton)
-#: EditProfileDialog.ui:1500
+#: EditProfileDialog.ui:1510
 #, fuzzy, kde-format
 #| msgid "Select"
 msgctxt "@action:button Pick an encoding"
@@ -2371,7 +2384,7 @@ msgstr ""
 msgid "&Scale output"
 msgstr ""
 
-#: Profile.cpp:155
+#: Profile.cpp:156
 #, fuzzy, kde-format
 #| msgid "Set as Default"
 msgctxt "Name of the default/builtin profile"
@@ -3522,17 +3535,17 @@ msgctxt "@info:tooltip"
 msgid "Insert remote title format"
 msgstr "Daleczi fòrmat titla kôrtë"
 
-#: TerminalDisplay.cpp:1450 TerminalDisplay.cpp:1451
+#: TerminalDisplay.cpp:1451 TerminalDisplay.cpp:1452
 #, kde-format
 msgid "Size: XXX x XXX"
 msgstr "Miara: XXX x XXX"
 
-#: TerminalDisplay.cpp:1462
+#: TerminalDisplay.cpp:1463
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "Miara: %1 x %2"
 
-#: TerminalDisplay.cpp:3290
+#: TerminalDisplay.cpp:3298
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
@@ -3540,13 +3553,13 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: TerminalDisplay.cpp:3293
+#: TerminalDisplay.cpp:3301
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgid "Confirm Paste"
 msgstr "Pòcwierdzë zamkniãcé"
 
-#: TerminalDisplay.cpp:3505
+#: TerminalDisplay.cpp:3513
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
@@ -3560,18 +3573,18 @@ msgstr ""
 "\">zawieszoné</a> przez wcësniãcé Ctrl+S.  Wcësni <b>Ctrl+Q</b> bë znowic.</"
 "qt>"
 
-#: TerminalDisplay.cpp:3543
+#: TerminalDisplay.cpp:3551
 #, kde-format
 msgid "This terminal is read-only."
 msgstr ""
 
-#: TerminalDisplay.cpp:3835
+#: TerminalDisplay.cpp:3847
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgid "&Paste Location"
 msgstr "Wlepi wëbiérk"
 
-#: TerminalDisplay.cpp:3852
+#: TerminalDisplay.cpp:3864
 #, kde-format
 msgid "Change &Directory To"
 msgstr ""
