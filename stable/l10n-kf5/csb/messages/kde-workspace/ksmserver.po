@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksmserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-09-14 06:49+0200\n"
+"POT-Creation-Date: 2018-10-02 06:50+0200\n"
 "PO-Revision-Date: 2009-05-26 20:46+0200\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -161,7 +161,24 @@ msgstr ""
 msgid "Reboot Without Confirmation"
 msgstr ""
 
-#: shutdown.cpp:484
+#. i18nd is used as this patch was backported to an LTS with stable translations
+#: shutdown.cpp:229
+#, kde-format
+msgid "Shutdown"
+msgstr ""
+
+#: shutdown.cpp:232
+#, kde-format
+msgid "Reboot"
+msgstr ""
+
+#: shutdown.cpp:237
+#, fuzzy, kde-format
+#| msgid "&Logout"
+msgid "Logout"
+msgstr "&Wëlogòwanié"
+
+#: shutdown.cpp:511
 #, kde-format
 msgid "Logout canceled by '%1'"
 msgstr "Wëlogòwanié rëmniãté òb '%1'"
@@ -192,11 +209,6 @@ msgstr "Wëlogòwanié rëmniãté òb '%1'"
 #~ msgstr[0] "Zrësztartowanié kòmpùtra za 1 sekùndã."
 #~ msgstr[1] "Zrëstartëjë kòmpùtr w %1 sekùndë."
 #~ msgstr[2] "Zrëstartëjë kòmpùtr w %1 sekùndów."
-
-#, fuzzy
-#~| msgid "&Logout"
-#~ msgid "Logout"
-#~ msgstr "&Wëlogòwanié"
 
 #, fuzzy
 #~| msgid "&Turn Off Computer"
