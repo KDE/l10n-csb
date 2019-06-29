@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-28 03:18+0200\n"
+"POT-Creation-Date: 2019-06-29 03:18+0200\n"
 "PO-Revision-Date: 2009-12-10 21:09+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -595,7 +595,7 @@ msgid ""
 msgstr ""
 
 #: backtracewidget.cpp:130
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:622
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:648
 #, kde-format
 msgctxt "@info:status"
 msgid "Loading..."
@@ -806,27 +806,6 @@ msgctxt "messagebox title"
 msgid "Missing debug information packages"
 msgstr "Felëją symbòle debùgòwaniô"
 
-#: bugzillaintegration/bugzillalib.cpp:317
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:809
-#, kde-format
-msgctxt "@info"
-msgid ""
-"Invalid report information (malformed data). This could mean that the bug "
-"report does not exist, or the bug tracking site is experiencing a problem."
-msgstr ""
-
-#: bugzillaintegration/bugzillalib.cpp:339
-#, kde-format
-msgctxt "@info"
-msgid "Invalid bug list: corrupted data"
-msgstr "Lëchi lesta felów: zepsëté pòdôwczi"
-
-#: bugzillaintegration/bugzillalib.cpp:455
-#, kde-format
-msgctxt "@info"
-msgid "Received unexpected error code %1 from bugzilla. Error message was: %2"
-msgstr ""
-
 #: bugzillaintegration/reportassistantdialog.cpp:41
 #, fuzzy, kde-format
 #| msgctxt "@title"
@@ -946,7 +925,7 @@ msgctxt "@title:window"
 msgid "Crash Information is not useful enough"
 msgstr "Wëdowiédzô ò załómaniu nie je dosc zdatnô"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:141
+#: bugzillaintegration/reportassistantpages_base.cpp:148
 #, kde-format
 msgctxt ""
 "@option:check kind of information the user can provide about the crash, %1 "
@@ -954,13 +933,13 @@ msgctxt ""
 msgid "What I was doing when the application \"%1\" crashed"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_base.cpp:151
+#: bugzillaintegration/reportassistantpages_base.cpp:158
 #, kde-format
 msgctxt "@label examples about information the user can provide"
 msgid "Examples: %1"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_base.cpp:218
+#: bugzillaintegration/reportassistantpages_base.cpp:214
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Sho&w Contents of the Report"
@@ -968,8 +947,8 @@ msgctxt "@action:button"
 msgid "&Show Contents of the Report"
 msgstr "&Wëskrzëni zamkłosc rapòrtu"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:220
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:699
+#: bugzillaintegration/reportassistantpages_base.cpp:216
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:629
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -978,13 +957,13 @@ msgstr ""
 "Brëkùjë ti knąpë, abë wëskrzënic wëgenerowóną wëdowiédzã z rapòrtu ò tim "
 "załómaniu."
 
-#: bugzillaintegration/reportassistantpages_base.cpp:277
+#: bugzillaintegration/reportassistantpages_base.cpp:273
 #, kde-format
 msgctxt "@info"
 msgid "The automatically generated crash information is useful."
 msgstr "Na aùtomatno wëgenerowónô wëdowiédzô ò załómaniu je zdatnô."
 
-#: bugzillaintegration/reportassistantpages_base.cpp:282
+#: bugzillaintegration/reportassistantpages_base.cpp:278
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -994,7 +973,7 @@ msgstr ""
 "W ti aùtomatno wëgenerowóny wëdowiédzë ò załómaniu felëje jesz detalów, mòże "
 "bëc òna równak zdatnô."
 
-#: bugzillaintegration/reportassistantpages_base.cpp:289
+#: bugzillaintegration/reportassistantpages_base.cpp:285
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1004,13 +983,13 @@ msgstr ""
 "W ti aùtomatno wëgenerowóny wëdowiédzë ò załómaniu felëje jesz wiele wôżnych "
 "detalów ë wëzdrzi za tim, że nie je òna zdatnô."
 
-#: bugzillaintegration/reportassistantpages_base.cpp:299
+#: bugzillaintegration/reportassistantpages_base.cpp:295
 #, kde-format
 msgctxt "@info"
 msgid "The crash information was not generated because it was not needed."
 msgstr "Na wëdowiédzô ò załómaniu ni òsta wëgenerowónô bò nie je ji nót."
 
-#: bugzillaintegration/reportassistantpages_base.cpp:303
+#: bugzillaintegration/reportassistantpages_base.cpp:299
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1020,7 +999,7 @@ msgstr ""
 "Aùtomatno wëgenerowónô wëdowiédza ò załómaniu zamëkô w se za mało bë stac sã "
 "brëkòwną."
 
-#: bugzillaintegration/reportassistantpages_base.cpp:306
+#: bugzillaintegration/reportassistantpages_base.cpp:302
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1033,13 +1012,13 @@ msgstr ""
 "rapòrtowaniô felów, chtërny òtemknie sã pò klëkniãcu knąpë <interface>Pòmòc</"
 "interface>.</note>"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:320
+#: bugzillaintegration/reportassistantpages_base.cpp:316
 #, kde-format
 msgctxt "@info"
 msgid "The information you can provide could be considered helpful."
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_base.cpp:323
+#: bugzillaintegration/reportassistantpages_base.cpp:319
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1047,7 +1026,7 @@ msgid ""
 "case."
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_base.cpp:328
+#: bugzillaintegration/reportassistantpages_base.cpp:324
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:shell"
 #| msgid "The program has already been restarted"
@@ -1055,13 +1034,13 @@ msgctxt "@info"
 msgid "Your problem has already been reported as bug %1."
 msgstr "Na programa òsta ju zrëszonô"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:340
+#: bugzillaintegration/reportassistantpages_base.cpp:336
 #, kde-format
 msgctxt "@info"
 msgid "This report is considered helpful."
 msgstr "Nen rapòrt trzëmóny je za pòmòcny."
 
-#: bugzillaintegration/reportassistantpages_base.cpp:345
+#: bugzillaintegration/reportassistantpages_base.cpp:341
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1073,7 +1052,7 @@ msgstr ""
 "<interface>Dali</interface>, abë nacząc proces rapòrtowaniô. Mòżesz "
 "rãcznorapòrtowac tuwò: <link>%1</link>"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:356
+#: bugzillaintegration/reportassistantpages_base.cpp:352
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1085,7 +1064,7 @@ msgstr ""
 "<interface>Zakùńczë</interface>, abë wësłac rapòrt ò felë ti programë jegò "
 "dozérôczowi. Mòżesz rãczno rapòrtowac tuwò: <link>%1</link>."
 
-#: bugzillaintegration/reportassistantpages_base.cpp:371
+#: bugzillaintegration/reportassistantpages_base.cpp:367
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1095,13 +1074,13 @@ msgstr ""
 "Nen rapòrt ni zamëkô w se dosc wëdowiédzë dlô rozwijôrzów, wic proces "
 "aùtomatnegò rapòrtowaniô felów je dlô negò załómaniô wëłączony. "
 
-#: bugzillaintegration/reportassistantpages_base.cpp:374
+#: bugzillaintegration/reportassistantpages_base.cpp:370
 #, kde-format
 msgctxt "@info"
 msgid "If you wish, you can go back and change your answers. "
 msgstr "Jeżlë chcesz, mòżesz warcëc sã ë zmienić swòjé òdpòwiescë."
 
-#: bugzillaintegration/reportassistantpages_base.cpp:383
+#: bugzillaintegration/reportassistantpages_base.cpp:379
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid ""
@@ -1117,7 +1096,7 @@ msgstr ""
 "ùsôdzëc rapòrt ò felë tuwò: <link>%1</link>. Klëkni na <interface>Zakùńczë</"
 "interface>, abë zamknąc asystenta."
 
-#: bugzillaintegration/reportassistantpages_base.cpp:389
+#: bugzillaintegration/reportassistantpages_base.cpp:385
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid ""
@@ -1133,7 +1112,7 @@ msgstr ""
 "rãczno wësłąc rapòrt ò felë do dozérôcza tuwò: <link>%1</link>. Klëkni na "
 "<interface>Zakùńczë</interface>, abë zamknąc asystenta."
 
-#: bugzillaintegration/reportassistantpages_base.cpp:408
+#: bugzillaintegration/reportassistantpages_base.cpp:404
 #, fuzzy, kde-format
 #| msgctxt "@info/plain report to url/mail address"
 #| msgid "Report to %1"
@@ -1141,19 +1120,19 @@ msgctxt "@info report to url/mail address"
 msgid "Report to %1"
 msgstr "Rapòrt do %1"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:431
+#: bugzillaintegration/reportassistantpages_base.cpp:427
 #, kde-format
 msgctxt "@title:window"
 msgid "Contents of the Report"
 msgstr "Zamkłosc rapòrtu"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:437
+#: bugzillaintegration/reportassistantpages_base.cpp:433
 #, kde-format
 msgctxt "@action:button"
 msgid "&Save to File..."
 msgstr "&Zapiszë do lopka..."
 
-#: bugzillaintegration/reportassistantpages_base.cpp:439
+#: bugzillaintegration/reportassistantpages_base.cpp:435
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -1209,9 +1188,11 @@ msgstr ""
 "to mòżesz je <link url='%2'>założëc tuwò</link>.</note>"
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:129
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Error when trying to login: <message>%1.</message>"
 msgctxt "@info:status"
-msgid "Error when trying to login: <message>%1.</message>"
+msgid "Error when trying to login: <message>%1</message>"
 msgstr "Fela logòwaniô: <message>%1.</message>"
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:158
@@ -1220,48 +1201,13 @@ msgctxt "@info:status the user is logged at the bugtracker site as USERNAME"
 msgid "Logged in at the KDE bug tracking system (%1) as: %2."
 msgstr "Wlogòwanié do systemë szlachòwaniô KDE (%1) jakno: %2."
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:246
-#, kde-format
-msgid "Failed to communicate with kded. Make sure it is running."
-msgstr ""
-
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:249
-#, kde-format
-msgid "Failed to load KCookieServer. Check your KDE installation."
-msgstr ""
-
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:261
-#, kde-format
-msgid "Failed to communicate with KCookieServer."
-msgstr ""
-
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:269
-#, kde-format
-msgctxt "@info 1 is the bugzilla website url"
-msgid ""
-"Cookies are not allowed in your KDE network settings. In order to proceed, "
-"you need to allow %1 to set cookies."
-msgstr ""
-
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:274
-#, kde-format
-msgctxt "@action:button 1 is the bugzilla website url"
-msgid "Allow %1 to set cookies"
-msgstr ""
-
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:278
-#, kde-format
-msgctxt "@action:button do not allow the bugzilla website to set cookies"
-msgid "No, do not allow"
-msgstr ""
-
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:337
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:267
 #, kde-format
 msgctxt "@info:status '1' is a url, '2' the username"
 msgid "Performing login at %1 as %2..."
 msgstr "Zrëchtowanié logòwaniô w %1 jakno %2."
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:372
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:302
 #, fuzzy, kde-format
 #| msgctxt "@info:status/rich"
 #| msgid "<b>Error: Invalid username or password</b>"
@@ -1269,79 +1215,79 @@ msgctxt "@info:status"
 msgid "<b>Error: Invalid username or password</b>"
 msgstr "<b>Fela: Lëché miono brëkòwnika abò parola</b>"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:421
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:351
 #, kde-format
 msgctxt "@label:listbox KDE distribution method"
 msgid "Unspecified"
 msgstr "Nieznónô"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:423
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:353
 #, kde-format
 msgctxt "@label:listbox KDE distribution method"
 msgid "Archlinux"
 msgstr "Archlinux"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:425
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:355
 #, kde-format
 msgctxt "@label:listbox KDE distribution method"
 msgid "Chakra"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:427
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:357
 #, kde-format
 msgctxt "@label:listbox KDE distribution method"
 msgid "Debian stable"
 msgstr "Sztabilny Debian"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:429
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:359
 #, kde-format
 msgctxt "@label:listbox KDE distribution method"
 msgid "Debian testing"
 msgstr "Testowi Debian"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:431
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:361
 #, kde-format
 msgctxt "@label:listbox KDE distribution method"
 msgid "Debian unstable"
 msgstr "Niesztabilny Debian"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:433
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:363
 #, kde-format
 msgctxt "@label:listbox KDE distribution method"
 msgid "Exherbo"
 msgstr "Exherbo"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:435
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:365
 #, kde-format
 msgctxt "@label:listbox KDE distribution method"
 msgid "Fedora"
 msgstr "Fedora"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:437
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:367
 #, kde-format
 msgctxt "@label:listbox KDE distribution method"
 msgid "Gentoo"
 msgstr "Gentoo"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:439
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:369
 #, kde-format
 msgctxt "@label:listbox KDE distribution method"
 msgid "Mageia"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:441
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:371
 #, kde-format
 msgctxt "@label:listbox KDE distribution method"
 msgid "Mandriva"
 msgstr "Mandriva"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:443
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:373
 #, kde-format
 msgctxt "@label:listbox KDE distribution method"
 msgid "Neon"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:445
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:375
 #, fuzzy, kde-format
 #| msgctxt "@label:listbox KDE distribution method"
 #| msgid "SuSE/OpenSUSE"
@@ -1349,25 +1295,25 @@ msgctxt "@label:listbox KDE distribution method"
 msgid "OpenSUSE"
 msgstr "SuSE/OpenSUSE"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:447
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:377
 #, kde-format
 msgctxt "@label:listbox KDE distribution method"
 msgid "Pardus"
 msgstr "Pardus"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:449
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:379
 #, kde-format
 msgctxt "@label:listbox KDE distribution method"
 msgid "RedHat"
 msgstr "RedHat"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:451
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:381
 #, kde-format
 msgctxt "@label:listbox KDE distribution method"
 msgid "Slackware"
 msgstr "Slackware"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:453
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:383
 #, fuzzy, kde-format
 #| msgctxt "@label:listbox KDE distribution method"
 #| msgid "Kubuntu/Ubuntu (and derivatives)"
@@ -1375,43 +1321,43 @@ msgctxt "@label:listbox KDE distribution method"
 msgid "Ubuntu (and derivatives)"
 msgstr "Kubuntu/Ubuntu (ë sostrné)"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:456
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:386
 #, kde-format
 msgctxt "@label:listbox KDE distribution method"
 msgid "FreeBSD (Ports)"
 msgstr "FreeBSD (Pòrtë)"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:458
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:388
 #, kde-format
 msgctxt "@label:listbox KDE distribution method"
 msgid "NetBSD (pkgsrc)"
 msgstr "NetBSD (pkgsrc)"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:460
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:390
 #, kde-format
 msgctxt "@label:listbox KDE distribution method"
 msgid "OpenBSD"
 msgstr "OpenBSD"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:462
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:392
 #, kde-format
 msgctxt "@label:listbox KDE distribution method"
 msgid "Mac OS X"
 msgstr "Mac OS X"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:464
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:394
 #, kde-format
 msgctxt "@label:listbox KDE distribution method"
 msgid "Solaris"
 msgstr "Solaris"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:533
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:463
 #, kde-format
 msgctxt "the minimum required length of a text was reached"
 msgid "Minimum length reached"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:536
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:466
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "We need more information"
@@ -1419,7 +1365,7 @@ msgctxt "the minimum required length of a text wasn't reached yet"
 msgid "Provide more information"
 msgstr "Nama je nót wicy wëdowiédzë"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:556
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:486
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid ""
@@ -1431,7 +1377,7 @@ msgid ""
 "yet.<br /><br />"
 msgstr "Òpisënk załómaniô ni zamëkô w se wszëtczi wëdowiédzë jakô je nót."
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:559
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:489
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1439,7 +1385,7 @@ msgid ""
 "other information like the backtrace or the reproducibility rate.<br /><br />"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:567
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:497
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1448,7 +1394,7 @@ msgid ""
 "ones could help us.)<br /><br />"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:572
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:502
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1456,25 +1402,25 @@ msgid ""
 "developers' time. Can you tell us more?"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:576
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:506
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "We need more information"
 msgid "Yes, let me add more information"
 msgstr "Nama je nót wicy wëdowiédzë"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:579
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:509
 #, kde-format
 msgid "No, I cannot add any other information"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:582
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:512
 #, kde-format
 msgctxt "@title:window"
 msgid "We need more information"
 msgstr "Nama je nót wicy wëdowiédzë"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:624
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:554
 #, kde-kuit-format
 msgctxt "@info:tooltip examples of good bug report titles"
 msgid ""
@@ -1485,13 +1431,13 @@ msgid ""
 "log file and pressing the Delete key a couple of times\""
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:635
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:565
 #, kde-format
 msgctxt "@info:tooltip help and examples of good bug descriptions"
 msgid "Describe in as much detail as possible the crash circumstances:"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:639
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:569
 #, fuzzy, kde-format
 #| msgctxt "@info/rich crash situation example"
 #| msgid "actions you were taking inside or outside the application"
@@ -1501,7 +1447,7 @@ msgid ""
 "instant before the crash."
 msgstr "dzejania robioné bënë abò bùten aplikacëji"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:645
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:575
 #, kde-format
 msgctxt "@info:tooltip help and examples of good bug descriptions"
 msgid ""
@@ -1509,7 +1455,7 @@ msgid ""
 "whole environment."
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:651
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:581
 #, fuzzy, kde-format
 #| msgctxt "@info/rich crash situation example"
 #| msgid "configuration details of the application"
@@ -1517,7 +1463,7 @@ msgctxt "@info:tooltip help and examples of good bug descriptions"
 msgid "- Note any non-default configuration in the application."
 msgstr "kònfigùracjowé detale ti aplikacëji"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:656
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:586
 #, kde-format
 msgctxt ""
 "@info:tooltip examples of configuration details. the examples are already "
@@ -1525,33 +1471,33 @@ msgctxt ""
 msgid "Examples: %1"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:691
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:572
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:621
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:594
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry..."
 msgstr "Spróbùjë znowa..."
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:693
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:623
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Use this button to retry sending the crash report if it failed before."
 msgstr ""
 "Brëkùjë ti knąpë abë wësłac rapòrt znowa, jeżlë rëchli sã to ni darzeło."
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:697
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:627
 #, kde-format
 msgctxt "@action:button"
 msgid "Sho&w Contents of the Report"
 msgstr "&Wëskrzëni zamkłosc rapòrtu"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:720
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:650
 #, kde-format
 msgctxt "@info:status"
 msgid "Sending crash report... (please wait)"
 msgstr "Sélanié rapòrtu załómaniô...(proszã żdac)"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:737
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:667
 #, kde-kuit-format
 msgctxt "@info/rich"
 msgid ""
@@ -1561,13 +1507,13 @@ msgstr ""
 "Rapòrt załómaniô òstôł wësłóny. <nl/>URL: <link>%1</link><nl/>Dzãkùjë za "
 "pòmòc w rozwiju KDE. Mòżesz zamknąc terô to òkno."
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:747
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:677
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Error sending the crash report:  <message>%1.</message>"
 msgstr "Fela sélaniô rapòrtu załomaniô:  <message>%1.</message>"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:773
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:703
 #, fuzzy, kde-format
 #| msgctxt "@info/plain report to url/mail address"
 #| msgid "Report to %1"
@@ -1575,13 +1521,13 @@ msgctxt "@info report to KDE bugtracker address"
 msgid "Report to %1"
 msgstr "Rapòrt do %1"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:792
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:722
 #, kde-format
 msgctxt "@title:window"
 msgid "Unhandled Bugzilla Error"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:796
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:726
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "&Save to File..."
@@ -1589,7 +1535,7 @@ msgctxt "@action:button save html to a file"
 msgid "Save to a file"
 msgstr "&Zapiszë do lopka..."
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:829
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:759
 #, kde-format
 msgctxt "@label"
 msgid ""
@@ -1598,31 +1544,31 @@ msgid ""
 "submit a bug against DrKonqi."
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:843 drkonqi.cpp:172
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:773 drkonqi.cpp:172
 #, kde-format
 msgctxt "@title:window"
 msgid "Select Filename"
 msgstr "Wëbierzë miono lopka"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:866 drkonqi.cpp:198
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:796 drkonqi.cpp:198
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cannot open file <filename>%1</filename> for writing."
 msgstr "Ni mòże òtemknąc lopka <filename>%1</filename> do zôpisu."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:64
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:62
 #, kde-format
 msgctxt "@item:intable custom/manaul bug report number"
 msgid "Manual"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:66
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:64
 #, kde-format
 msgctxt "@item:intable custom bug report number description"
 msgid "Manually enter a bug report ID"
 msgstr "Rãczné dodôwanié identifikatora rapòrtu ò felë "
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:71
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:69
 #, fuzzy, kde-format
 #| msgctxt "@info:tooltip"
 #| msgid "Use this button to retry loading the bug report."
@@ -1630,28 +1576,30 @@ msgctxt "@info:tooltip / whatsthis"
 msgid "Select this option to manually load a specific bug report"
 msgstr "Brëkùjë ti knąpë abë òbaczëc wëdowiédzã ò wëbrónym rapòrce."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:79
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:77
 #, kde-format
 msgctxt "@action:button"
 msgid "Search for more reports"
 msgstr "Szëkôj za wicy rapòrtama"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:81
-#, kde-format
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:79
+#, fuzzy, kde-format
+#| msgctxt "@info:tooltip"
+#| msgid ""
+#| "Use this button to search for more similar bug reports on an earlier date."
 msgctxt "@info:tooltip"
-msgid ""
-"Use this button to search for more similar bug reports on an earlier date."
+msgid "Use this button to search for more similar bug reports"
 msgstr ""
 "Brëkùjë ti knąpë, abë zrëszëc szëkbã w zblëżonych rapòrtach ò felach "
 "wësłónych rëchli."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:87
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:84
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry search"
 msgstr "Znowi szëkbã"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:89
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:86
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Use this button to retry the search that previously failed."
@@ -1659,48 +1607,48 @@ msgstr ""
 "Brëkùjë ti knąpë, abë znowa spróbòwac nalezc to, czegò ni darzëło ce sã "
 "nalezc rëchli."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:93
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:90
 #, kde-format
 msgctxt "@action:button"
 msgid "Open selected report"
 msgstr "Òtemkni wëbróny rapòrt"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:95
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:92
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Use this button to view the information of the selected bug report."
 msgstr "Brëkùjë ti knąpë abë òbaczëc wëdowiédzã ò wëbrónym rapòrce."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:99
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:96
 #, kde-format
 msgctxt "@action:button"
 msgid "Stop searching"
 msgstr "Zatrzëmôj szëkbã"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:101
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:98
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Use this button to stop the current search."
 msgstr "Brëkùjë ti knąpë do zatrzëmaniô szëkbë."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:113
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:110
 #, kde-format
 msgctxt "@action:button remove the selected item from a list"
 msgid "Remove"
 msgstr "Rëmôj"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:115
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:112
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Use this button to remove a selected possible duplicate"
 msgstr "Brëkùjë ti knąpë do rëmniãcô wëbrónych mòżlëwich duplikatów."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:178
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:175
 #, kde-format
 msgid "There are no real duplicates"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:179
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:176
 #, kde-format
 msgid ""
 "Press this button to declare that, in your opinion and according to your "
@@ -1709,21 +1657,21 @@ msgid ""
 "found after further review."
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:187
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:184
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Search for more reports"
 msgid "Let me check more reports"
 msgstr "Szëkôj za wicy rapòrtama"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:188
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:185
 #, kde-format
 msgid ""
 "Press this button if you would rather review more reports in order to find a "
 "match for the crash you have experienced."
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:194
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:191
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1732,37 +1680,35 @@ msgid ""
 "confirm that there are no real duplicates?"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:197
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:194
 #, kde-format
 msgctxt "@title:window"
 msgid "No selected possible duplicates"
 msgstr "Nié wëbróno mòżlëwich duplikatów"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:223
-#, kde-format
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:220
+#, fuzzy, kde-format
+#| msgctxt "@info:status"
+#| msgid "Searching for duplicates (from %1 to %2)..."
 msgctxt "@info:status"
-msgid "Searching for duplicates (from %1 to %2)..."
+msgid "Searching for duplicates..."
 msgstr "Szëkba za duplikatama (òd %1 do %2)..."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:251
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:239
 #, kde-format
 msgctxt "@info:status"
 msgid "Search stopped."
 msgstr "Szëkba zatrzëmanô."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:253
-#, kde-format
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:241
+#, fuzzy, kde-format
+#| msgctxt "@info:status"
+#| msgid "Search stopped. Showing results from %1 to %2"
 msgctxt "@info:status"
-msgid "Search stopped. Showing results from %1 to %2"
+msgid "Search stopped. Showing results."
 msgstr "Szëkba zatrzëmanô. Wëskrzëni skùtczi òd %1 do %2"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:299
-#, kde-format
-msgctxt "@info:status"
-msgid "Showing results from %1 to %2"
-msgstr "Wëskrzënianié skùtków òd %1 do %2"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:320
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:284
 #, fuzzy, kde-format
 #| msgctxt "@info/plain bug status"
 #| msgid "[Open]"
@@ -1770,7 +1716,7 @@ msgctxt "@info bug status"
 msgid "[Open]"
 msgstr "[Òtemkłé]"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:323
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:291
 #, fuzzy, kde-format
 #| msgctxt "@info/plain bug resolution"
 #| msgid "[Fixed]"
@@ -1778,7 +1724,7 @@ msgctxt "@info bug resolution"
 msgid "[Fixed]"
 msgstr "[Parôt]"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:325
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:293
 #, fuzzy, kde-format
 #| msgctxt "@info/plain bug resolution"
 #| msgid "[Non-reproducible]"
@@ -1786,7 +1732,7 @@ msgctxt "@info bug resolution"
 msgid "[Non-reproducible]"
 msgstr "[Niereproduktiwné]"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:327
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:295
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Open selected report"
@@ -1794,13 +1740,13 @@ msgctxt "@info bug resolution"
 msgid "[Duplicate report]"
 msgstr "Òtemkni wëbróny rapòrt"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:329
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:297
 #, kde-format
 msgctxt "@info bug resolution"
 msgid "[Invalid]"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:332
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:300
 #, fuzzy, kde-format
 #| msgctxt "@info/plain bug resolution"
 #| msgid "[External problem]"
@@ -1808,19 +1754,27 @@ msgctxt "@info bug resolution"
 msgid "[External problem]"
 msgstr "[Bùtnowô problema]"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:335
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:315
 #, kde-format
 msgctxt "@info bug status"
 msgid "[Incomplete]"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:372
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:334
+#, fuzzy, kde-format
+#| msgctxt "@info:status"
+#| msgid "Showing results from %1 to %2"
+msgctxt "@info:status"
+msgid "Showing results."
+msgstr "Wëskrzënianié skùtków òd %1 do %2"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:374
 #, kde-format
 msgctxt "@info:status"
 msgid "Search Finished. No reports found."
 msgstr "Szëkba zakùńczonô. Felëją rapòrtë."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:408
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:435
 #, kde-format
 msgctxt "@label"
 msgid ""
@@ -1828,7 +1782,7 @@ msgid ""
 "<a href=\"%1\">Bug %1</a>."
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:409
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:436
 #, kde-format
 msgctxt "@label"
 msgid ""
@@ -1836,7 +1790,7 @@ msgid ""
 "a <strong>duplicate</strong> of <a href=\"%2\">Bug %2</a>"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:410
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:437
 #, kde-format
 msgctxt "@label"
 msgid ""
@@ -1844,7 +1798,7 @@ msgid ""
 "information to the bug report."
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:412
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:439
 #, kde-format
 msgctxt "@label"
 msgid ""
@@ -1852,7 +1806,7 @@ msgid ""
 "been <strong>closed</strong>."
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:413
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:440
 #, kde-format
 msgctxt "@label"
 msgid ""
@@ -1860,13 +1814,13 @@ msgid ""
 "a duplicate of the <strong>closed</strong> <a href=\"%2\">Bug %2</a>."
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:436
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:463
 #, kde-format
 msgctxt "@info:status"
 msgid "Error fetching the bug report list"
 msgstr "Fela ladowaniô lëstë rapòrtów ò felach"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:438
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:465
 #, kde-kuit-format
 msgctxt "@info/rich"
 msgid ""
@@ -1876,19 +1830,19 @@ msgstr ""
 "Fela ladowaniô lëstë rapòrtów ò felach<nl/><message>%1.</message><nl/> "
 "Proszã kąsk pòżdac ë spróbòwac znowa."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:467
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:489
 #, kde-format
 msgctxt "@title:window"
 msgid "Enter a custom bug report number"
 msgstr "Wpiszë swój numer rapòrtu ò felë"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:468
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:490
 #, kde-format
 msgctxt "@label"
 msgid "Enter the number of the bug report you want to check"
 msgstr "Wpiszë numer rapòrtu ò felë jaczi chcesz sprôwdzëc"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:541
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:563
 #, fuzzy, kde-kuit-format
 #| msgctxt "@label"
 #| msgid ""
@@ -1902,25 +1856,25 @@ msgstr ""
 "Rapòrt wësłóny do <strong>dodaniô</strong> do felë <numid>%1</numid>. <a "
 "href=\"#\">Òprzestóń</a>"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:568
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:590
 #, kde-format
 msgctxt "@title:window"
 msgid "Bug Description"
 msgstr "Òpisënk felë"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:574
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:596
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Use this button to retry loading the bug report."
 msgstr "Brëkùjë ti knąpë abë òbaczëc wëdowiédzã ò wëbrónym rapòrce."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:581
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:603
 #, kde-format
 msgctxt "@action:button"
 msgid "Suggest this crash is related"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:582
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:604
 #, fuzzy, kde-format
 #| msgctxt "@info:tooltip"
 #| msgid "Use this button to view the information of the selected bug report."
@@ -1930,7 +1884,7 @@ msgid ""
 "bug report"
 msgstr "Brëkùjë ti knąpë abë òbaczëc wëdowiédzã ò wëbrónym rapòrce."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:625
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:651
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid "<link url='%1'>Bug report page at the KDE bug tracking system</link>"
@@ -1940,7 +1894,7 @@ msgstr ""
 "<link url='%1'>Starna rapòrtowaniô felów w systemie szlachòwania felów KDE</"
 "link>"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:628
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:654
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:status"
 #| msgid "Loading information about bug <numid>%1</numid> from %2...."
@@ -1948,7 +1902,7 @@ msgctxt "@info:status"
 msgid "Loading information about bug %1 from %2...."
 msgstr "Ladowanié wëdowiédzë ò felë <numid>%1</numid> z %2..."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:634
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:660
 #, fuzzy, kde-format
 #| msgctxt "@label:textbox"
 #| msgid "Backtrace of the crash I am sending:"
@@ -1958,99 +1912,67 @@ msgid ""
 "\n"
 msgstr "Mój sélóny szlach załômaniô:"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:662
-#, kde-format
-msgctxt "@action:button let the user to choose to read the main report"
-msgid "Yes, read the main report"
-msgstr ""
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:666
-#, kde-format
-msgctxt "@action:button let the user choose to read the original report"
-msgid "No, let me read the report I selected"
-msgstr ""
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:669
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"The report you selected (bug %1) is already marked as duplicate of bug %2. "
-"Do you want to read that report instead? (recommended)"
-msgstr ""
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:673
-#, kde-format
-msgctxt "@title:window"
-msgid "Nested duplicate detected"
-msgstr ""
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:691
-#, kde-format
-msgctxt "comment $number to use as subtitle"
-msgid "<h4>Comment %1:</h4>"
-msgstr ""
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:710
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:683
 #, kde-format
 msgctxt "@info bug status"
 msgid "Opened (Unconfirmed)"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:712
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:687
 #, kde-format
 msgctxt "@info bug status"
 msgid "Opened (Unfixed)"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:718
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:697
 #, kde-format
 msgctxt "@info bug resolution, fixed in version"
 msgid "Fixed in version \"%1\""
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:721
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:700
 #, kde-format
 msgctxt "@info bug resolution, fixed by kde devs in version"
 msgid "the bug was fixed by KDE developers in version \"%1\""
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:724
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:705
 #, kde-format
 msgctxt "@info bug resolution"
 msgid "Fixed"
 msgstr "Parôt"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:725
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:706
 #, kde-format
 msgctxt "@info bug resolution"
 msgid "the bug was fixed by KDE developers"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:728
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:711
 #, kde-format
 msgctxt "@info bug resolution"
 msgid "Non-reproducible"
 msgstr "Niereproduktiwné"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:730
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:713
 #, kde-format
 msgctxt "@info bug resolution"
 msgid "Duplicate report (Already reported before)"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:733
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:715
 #, kde-format
 msgctxt "@info bug resolution"
 msgid "Not a valid report/crash"
 msgstr "Lëchi rapòrt/załómanié"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:735
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:718
 #, kde-format
 msgctxt "@info bug resolution"
 msgid "Not caused by a problem in the KDE's Applications or libraries"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:737
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:719
 #, kde-format
 msgctxt "@info bug resolution"
 msgid ""
@@ -2058,19 +1980,53 @@ msgid ""
 "a distribution or packaging issue"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:744
-#, kde-format
-msgctxt "@info bug status, %1 is the resolution"
-msgid "Closed (%1)"
-msgstr "Zamkłé (%1)"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:747
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:735
 #, kde-format
 msgctxt "@info bug status"
 msgid "Temporarily closed, because of a lack of information"
 msgstr "Czasowò zamkłé przez felënk wëdowiédzë"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:754
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:750
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Invalid report information (malformed data). This could mean that the bug "
+"report does not exist, or the bug tracking site is experiencing a problem."
+msgstr ""
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:764
+#, kde-format
+msgctxt "@action:button let the user to choose to read the main report"
+msgid "Yes, read the main report"
+msgstr ""
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:768
+#, kde-format
+msgctxt "@action:button let the user choose to read the original report"
+msgid "No, let me read the report I selected"
+msgstr ""
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:772
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The report you selected (bug %1) is already marked as duplicate of bug %2. "
+"Do you want to read that report instead? (recommended)"
+msgstr ""
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:776
+#, kde-format
+msgctxt "@title:window"
+msgid "Nested duplicate detected"
+msgstr ""
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:817
+#, kde-format
+msgctxt "comment $number to use as subtitle"
+msgid "<h4>Comment %1:</h4>"
+msgstr ""
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:837
 #, kde-kuit-format
 msgid ""
 "<p><note>The bug report's title is often written by its reporter and may not "
@@ -2079,7 +2035,7 @@ msgid ""
 "comments below.</note></p>"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:760
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:843
 #, kde-kuit-format
 msgid ""
 "<p><note>This bug report has %1 duplicate report. That means this is "
@@ -2095,32 +2051,32 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:777
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:860
 #, kde-kuit-format
 msgid ""
 "<p><note>This bug report is not about a crash or about any other critical "
 "bug.</note></p>"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:784
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:867
 #, kde-format
 msgctxt "@info bug report title (quoted)"
 msgid "<h3>\"%1\"</h3>"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:787
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:870
 #, kde-format
 msgctxt "@info bug report status"
 msgid "<h4>Bug Report Status: %1</h4>"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:789
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:872
 #, kde-format
 msgctxt "@info bug report product and component"
 msgid "<h4>Affected Component: %1 (%2)</h4>"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:792
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:876
 #, fuzzy, kde-format
 #| msgctxt "@info bug report label and value"
 #| msgid "<h2>Description of the bug</h2><p>%1</p>"
@@ -2128,7 +2084,7 @@ msgctxt "@info bug report description"
 msgid "<h3>Description of the bug</h3><p>%1</p>"
 msgstr "<h2>Òpisënk felë</h2><p>%1</p>"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:797
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:881
 #, fuzzy, kde-format
 #| msgctxt "@label:textbox bug report label and value"
 #| msgid "<h2>Additional Comments</h2>%1"
@@ -2136,7 +2092,7 @@ msgctxt "@label:textbox bug report comments (already formatted)"
 msgid "<h2>Additional Comments</h2>%1"
 msgstr "<h2>Dodôwné dopòwiescë</h2>%1"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:806
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:890
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:status"
 #| msgid "Showing report <numid>%1</numid>"
@@ -2144,7 +2100,7 @@ msgctxt "@info:status"
 msgid "Showing bug %1"
 msgstr "Wëskrzënianié rapòrtu <numid>%1</numid>"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:845
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:923
 #, kde-kuit-format
 msgctxt "@info/rich"
 msgid ""
@@ -2154,19 +2110,19 @@ msgstr ""
 "Fela ladowaniô rapòrtu ò felë <nl/><message>%1.</message><nl/>Proszã kąsk "
 "pòżdac ë spróbòwac znowa."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:849
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:927
 #, kde-format
 msgctxt "@info"
 msgid "Error fetching the bug report"
 msgstr "Fela ladowaniô rapòrtu ò felë"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:850
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:928
 #, kde-format
 msgctxt "@info:status"
 msgid "Error fetching the bug report"
 msgstr "Fela ladowaniô rapòrtu ò felë"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:888
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:966
 #, fuzzy, kde-format
 #| msgctxt "@title"
 #| msgid "Details of the Bug Report"
@@ -2174,24 +2130,24 @@ msgctxt "@title:window"
 msgid "Related Bug Report"
 msgstr "Detale rapòrtu ò felë"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:891
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:969
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel (Go back to the report)"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:893
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:971
 #, kde-format
 msgctxt "@action:button continue with the selected option and close the dialog"
 msgid "Continue"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:902
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:980
 #, kde-format
 msgid "You are going to mark your crash as related to bug %1"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:915
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:993
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -3092,6 +3048,14 @@ msgstr "Zrëszë apliakcëjã znowa"
 #| msgid "Backtrace of the crash I am sending:"
 msgid "Show backtrace content (advanced)"
 msgstr "Mój sélóny szlach załômaniô:"
+
+#~ msgctxt "@info"
+#~ msgid "Invalid bug list: corrupted data"
+#~ msgstr "Lëchi lesta felów: zepsëté pòdôwczi"
+
+#~ msgctxt "@info bug status, %1 is the resolution"
+#~ msgid "Closed (%1)"
+#~ msgstr "Zamkłé (%1)"
 
 #~ msgctxt "@info/plain report to KDE bugtracker address"
 #~ msgid "Report to %1"
