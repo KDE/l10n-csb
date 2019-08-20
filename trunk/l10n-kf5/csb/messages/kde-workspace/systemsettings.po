@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 03:27+0200\n"
+"POT-Creation-Date: 2019-08-20 03:20+0200\n"
 "PO-Revision-Date: 2009-12-12 12:21+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -44,7 +44,7 @@ msgid "Show detailed tooltips"
 msgstr "Pòkażë pòdpòwiescë z detalama"
 
 #: app/main.cpp:48 app/SettingsBase.cpp:56 classic/CategoryList.cpp:40
-#: sidebar/package/contents/ui/introPage.qml:54
+#: sidebar/package/contents/ui/introPage.qml:55
 #, kde-format
 msgid "System Settings"
 msgstr "Systemòwé nastôwë"
@@ -61,7 +61,7 @@ msgid "(c) 2009, Ben Cooksley"
 msgstr "(c) 2009, Ben Cooksley"
 
 #: app/main.cpp:49 classic/ClassicMode.cpp:72 icons/IconMode.cpp:62
-#: sidebar/SidebarMode.cpp:263
+#: sidebar/SidebarMode.cpp:273
 #, kde-format
 msgid "Ben Cooksley"
 msgstr "Ben Cooksley"
@@ -72,13 +72,13 @@ msgid "Maintainer"
 msgstr "Òpiekùn"
 
 #: app/main.cpp:50 classic/ClassicMode.cpp:73 icons/IconMode.cpp:63
-#: sidebar/SidebarMode.cpp:264
+#: sidebar/SidebarMode.cpp:274
 #, kde-format
 msgid "Mathias Soeken"
 msgstr "Mathias Soeken"
 
 #: app/main.cpp:50 classic/ClassicMode.cpp:73 icons/IconMode.cpp:63
-#: sidebar/SidebarMode.cpp:264
+#: sidebar/SidebarMode.cpp:274
 #, kde-format
 msgid "Developer"
 msgstr "Rozwijôrz"
@@ -99,28 +99,29 @@ msgctxt "Search through a list of control modules"
 msgid "Search"
 msgstr "Szëkba:"
 
-#: app/SettingsBase.cpp:144
-#, kde-format
-msgid "Configure"
+#: app/SettingsBase.cpp:143
+#, fuzzy, kde-format
+#| msgid "Configure"
+msgid "Configure..."
 msgstr "Kònfigùracëjô"
 
-#: app/SettingsBase.cpp:171
+#: app/SettingsBase.cpp:170
 #, kde-format
 msgid "Help"
 msgstr "Pòmòc"
 
-#: app/SettingsBase.cpp:176 app/SettingsBase.cpp:371
+#: app/SettingsBase.cpp:175 app/SettingsBase.cpp:370
 #, kde-format
 msgid "About Active Module"
 msgstr "Ò biéżnym mòdule"
 
-#: app/SettingsBase.cpp:190
+#: app/SettingsBase.cpp:189
 #, kde-format
 msgctxt "General config for System Settings"
 msgid "General"
 msgstr "Spòdlowé"
 
-#: app/SettingsBase.cpp:282
+#: app/SettingsBase.cpp:281
 #, kde-format
 msgid ""
 "System Settings was unable to find any views, and hence nothing is available "
@@ -129,12 +130,12 @@ msgstr ""
 "Systemòwé nastôwë ni mògłë nalezc niżódnëch wëzdrzatków, téj nick nie je "
 "przëstãpné do kònfigùracëji."
 
-#: app/SettingsBase.cpp:282 app/SettingsBase.cpp:320
+#: app/SettingsBase.cpp:281 app/SettingsBase.cpp:319
 #, kde-format
 msgid "No views found"
 msgstr "Ni ma nalazłëch wëzdrzatków"
 
-#: app/SettingsBase.cpp:320
+#: app/SettingsBase.cpp:319
 #, kde-format
 msgid ""
 "System Settings was unable to find any views, and hence has nothing to "
@@ -143,12 +144,12 @@ msgstr ""
 "Systemòwé nastawë ni mògłë nalezc niżódnëch wëzdrzatków, téj nick ni mòże "
 "wëskrzënic."
 
-#: app/SettingsBase.cpp:353
+#: app/SettingsBase.cpp:352
 #, kde-format
 msgid "About Active View"
 msgstr "Ò biéżnym wëzdrzatków"
 
-#: app/SettingsBase.cpp:414
+#: app/SettingsBase.cpp:413
 #, kde-format
 msgid "About %1"
 msgstr "Ò %1"
@@ -205,8 +206,8 @@ msgstr "Wëzdrzatk drzewa"
 msgid "Provides a classic tree-based view of control modules."
 msgstr "Dôwô klasykòwi wëzdrzatk drzewa dlô kòntrolowónëch mòdułów."
 
-#: classic/ClassicMode.cpp:72 icons/IconMode.cpp:62 sidebar/SidebarMode.cpp:262
-#: sidebar/SidebarMode.cpp:263
+#: classic/ClassicMode.cpp:72 icons/IconMode.cpp:62 sidebar/SidebarMode.cpp:272
+#: sidebar/SidebarMode.cpp:273
 #, kde-format
 msgid "Author"
 msgstr "Ùsôdzca"
@@ -273,14 +274,12 @@ msgstr "Systemòwé nastôwë"
 msgid "Keyboard Shortcut: %1"
 msgstr "Klawiaturowô skrodzëna: %1"
 
-#: sidebar/package/contents/ui/CategoriesPage.qml:61
-#, fuzzy, kde-format
-#| msgctxt "Search through a list of control modules"
-#| msgid "Search"
-msgid "Search..."
-msgstr "Szëkba:"
+#: sidebar/package/contents/ui/CategoriesPage.qml:56
+#, kde-format
+msgid "Show menu"
+msgstr ""
 
-#: sidebar/package/contents/ui/CategoriesPage.qml:91
+#: sidebar/package/contents/ui/CategoriesPage.qml:88
 #, kde-format
 msgctxt "A search yielded no results"
 msgid "No items matching your search"
@@ -291,43 +290,43 @@ msgstr ""
 msgid "Most used module number %1"
 msgstr ""
 
-#: sidebar/package/contents/ui/introPage.qml:73
+#: sidebar/package/contents/ui/introPage.qml:74
 #, kde-format
 msgid "Frequently used:"
 msgstr ""
 
-#: sidebar/package/contents/ui/SubCategoryPage.qml:53
+#: sidebar/package/contents/ui/SubCategoryPage.qml:52
 #, kde-format
 msgid "Back"
 msgstr ""
 
-#: sidebar/SidebarMode.cpp:259
+#: sidebar/SidebarMode.cpp:269
 #, kde-format
 msgid "Sidebar View"
 msgstr ""
 
-#: sidebar/SidebarMode.cpp:260
+#: sidebar/SidebarMode.cpp:270
 #, fuzzy, kde-format
 #| msgid "Provides a categorized icons view of control modules."
 msgid "Provides a categorized sidebar for control modules."
 msgstr "Dôwô skategòrizowóné wëzdrzatczi ikònów dlô kòntrolowónëch mòdułów."
 
-#: sidebar/SidebarMode.cpp:261
+#: sidebar/SidebarMode.cpp:271
 #, kde-format
 msgid "(c) 2017, Marco Martin"
 msgstr ""
 
-#: sidebar/SidebarMode.cpp:262
+#: sidebar/SidebarMode.cpp:272
 #, kde-format
 msgid "Marco Martin"
 msgstr ""
 
-#: sidebar/SidebarMode.cpp:483
+#: sidebar/SidebarMode.cpp:513
 #, kde-format
 msgid "Sidebar"
 msgstr ""
 
-#: sidebar/SidebarMode.cpp:526
+#: sidebar/SidebarMode.cpp:556
 #, kde-format
 msgid "Most Used"
 msgstr ""
@@ -339,6 +338,12 @@ msgid_plural "<i>Contains %1 items</i>"
 msgstr[0] "<i>Zamëkô w se 1 element</i>"
 msgstr[1] "<i>Zamëkô w se %1 elementë</i>"
 msgstr[2] "<i>Zamëkô w se %1 elementów</i>"
+
+#, fuzzy
+#~| msgctxt "Search through a list of control modules"
+#~| msgid "Search"
+#~ msgid "Search..."
+#~ msgstr "Szëkba:"
 
 #, fuzzy
 #~| msgid "System Settings"
