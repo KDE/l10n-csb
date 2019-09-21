@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-18 02:53+0200\n"
+"POT-Creation-Date: 2019-09-21 02:54+0200\n"
 "PO-Revision-Date: 2009-08-03 17:47+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -2376,98 +2376,6 @@ msgstr "Nieznónô fela"
 #| msgid "Writing to %1 is not supported."
 msgid "Operation not supported"
 msgstr "Zapisëwanié do %1 nie je òbsłëgiwóné."
-
-#: core/ktcpsocket.cpp:237
-#, kde-format
-msgctxt "SSL error"
-msgid "No error"
-msgstr ""
-
-#: core/ktcpsocket.cpp:240
-#, kde-format
-msgctxt "SSL error"
-msgid "The certificate authority's certificate is invalid"
-msgstr ""
-
-#: core/ktcpsocket.cpp:245
-#, fuzzy, kde-format
-#| msgid "Enter the certificate password:"
-msgctxt "SSL error"
-msgid "The certificate has expired"
-msgstr "Wpiszë parolã certifikatu:"
-
-#: core/ktcpsocket.cpp:249
-#, fuzzy, kde-format
-#| msgid "SSL Certificate Password"
-msgctxt "SSL error"
-msgid "The certificate is invalid"
-msgstr "Parola certifikatu SSL"
-
-#: core/ktcpsocket.cpp:252
-#, kde-format
-msgctxt "SSL error"
-msgid "The certificate is not signed by any trusted certificate authority"
-msgstr ""
-
-#: core/ktcpsocket.cpp:254
-#, fuzzy, kde-format
-#| msgid "Enter the certificate password:"
-msgctxt "SSL error"
-msgid "The certificate has been revoked"
-msgstr "Wpiszë parolã certifikatu:"
-
-#: core/ktcpsocket.cpp:256
-#, kde-format
-msgctxt "SSL error"
-msgid "The certificate is unsuitable for this purpose"
-msgstr ""
-
-#: core/ktcpsocket.cpp:258
-#, kde-format
-msgctxt "SSL error"
-msgid ""
-"The root certificate authority's certificate is not trusted for this purpose"
-msgstr ""
-
-#: core/ktcpsocket.cpp:260
-#, kde-format
-msgctxt "SSL error"
-msgid ""
-"The certificate authority's certificate is marked to reject this "
-"certificate's purpose"
-msgstr ""
-
-#: core/ktcpsocket.cpp:262
-#, kde-format
-msgctxt "SSL error"
-msgid "The peer did not present any certificate"
-msgstr ""
-
-#: core/ktcpsocket.cpp:264
-#, kde-format
-msgctxt "SSL error"
-msgid "The certificate does not apply to the given host"
-msgstr ""
-
-#: core/ktcpsocket.cpp:269
-#, kde-format
-msgctxt "SSL error"
-msgid "The certificate cannot be verified for internal reasons"
-msgstr ""
-
-#: core/ktcpsocket.cpp:271
-#, fuzzy, kde-format
-#| msgid "The peer SSL certificate chain appears to be corrupt."
-msgctxt "SSL error"
-msgid "The certificate chain is too long"
-msgstr "Certifikat SSL wëzdrzi na zepsëti."
-
-#: core/ktcpsocket.cpp:275
-#, fuzzy, kde-format
-#| msgid "Unknown Error"
-msgctxt "SSL error"
-msgid "Unknown error"
-msgstr "Nieznónô fela"
 
 #: core/slave.cpp:477
 #, fuzzy, kde-format
@@ -9414,6 +9322,36 @@ msgid ""
 "The remote host did not send any SSL certificates.\n"
 "Aborting because the identity of the host cannot be established."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Enter the certificate password:"
+#~ msgctxt "SSL error"
+#~ msgid "The certificate has expired"
+#~ msgstr "Wpiszë parolã certifikatu:"
+
+#, fuzzy
+#~| msgid "SSL Certificate Password"
+#~ msgctxt "SSL error"
+#~ msgid "The certificate is invalid"
+#~ msgstr "Parola certifikatu SSL"
+
+#, fuzzy
+#~| msgid "Enter the certificate password:"
+#~ msgctxt "SSL error"
+#~ msgid "The certificate has been revoked"
+#~ msgstr "Wpiszë parolã certifikatu:"
+
+#, fuzzy
+#~| msgid "The peer SSL certificate chain appears to be corrupt."
+#~ msgctxt "SSL error"
+#~ msgid "The certificate chain is too long"
+#~ msgstr "Certifikat SSL wëzdrzi na zepsëti."
+
+#, fuzzy
+#~| msgid "Unknown Error"
+#~ msgctxt "SSL error"
+#~ msgid "Unknown error"
+#~ msgstr "Nieznónô fela"
 
 #, fuzzy
 #~| msgid "Root"
