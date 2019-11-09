@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-08 02:56+0100\n"
+"POT-Creation-Date: 2019-11-09 02:48+0100\n"
 "PO-Revision-Date: 2009-12-04 22:09+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -485,21 +485,22 @@ msgid "Configure menu - %1"
 msgstr "&Kònfigùracëjô %1..."
 
 #: kmoretools/kmoretoolsmenufactory.cpp:185
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "$GenericName - current folder"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Path to documents folder"
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - current folder"
+msgstr "Stegna do kataloga dokùmentów"
 
 #: kmoretools/kmoretoolsmenufactory.cpp:193
 #, kde-format
-msgctxt "@action:inmenu"
-msgid "$GenericName - current device"
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - current device"
 msgstr ""
 
 #: kmoretools/kmoretoolsmenufactory.cpp:208
 #, kde-format
-msgctxt "@action:inmenu"
-msgid "$GenericName - all devices"
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - all devices"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbMainSection)
@@ -753,13 +754,13 @@ msgctxt "Request installation of this item"
 msgid "Install"
 msgstr "Instalëjë"
 
-#: qtquick/qml/NewStuffList.qml:83 qtquick/qml/Page.qml:166
+#: qtquick/qml/NewStuffList.qml:83 qtquick/qml/Page.qml:179
 #, kde-format
 msgctxt "List option which will set the filter to show everything"
 msgid "Show Everything"
 msgstr ""
 
-#: qtquick/qml/NewStuffList.qml:84 qtquick/qml/Page.qml:167
+#: qtquick/qml/NewStuffList.qml:84 qtquick/qml/Page.qml:180
 #, fuzzy, kde-format
 #| msgid "Install"
 msgctxt ""
@@ -767,7 +768,7 @@ msgctxt ""
 msgid "Installed Only"
 msgstr "Instalëjë"
 
-#: qtquick/qml/NewStuffList.qml:85 qtquick/qml/Page.qml:168
+#: qtquick/qml/NewStuffList.qml:85 qtquick/qml/Page.qml:181
 #, kde-format
 msgctxt ""
 "List option which will set the filter so only installed items with updates "
@@ -775,7 +776,7 @@ msgctxt ""
 msgid "Updateable Only"
 msgstr ""
 
-#: qtquick/qml/NewStuffList.qml:97 qtquick/qml/Page.qml:180
+#: qtquick/qml/NewStuffList.qml:97 qtquick/qml/Page.qml:193
 #, fuzzy, kde-format
 #| msgid "Show directories first"
 msgctxt ""
@@ -784,7 +785,7 @@ msgctxt ""
 msgid "Show most recent first"
 msgstr "Pòkôżë wprzód katalodżi"
 
-#: qtquick/qml/NewStuffList.qml:98 qtquick/qml/Page.qml:181
+#: qtquick/qml/NewStuffList.qml:98 qtquick/qml/Page.qml:194
 #, kde-format
 msgctxt ""
 "List option which will set the sort order to be alphabetical based on the "
@@ -792,14 +793,14 @@ msgctxt ""
 msgid "Sort alphabetically"
 msgstr ""
 
-#: qtquick/qml/NewStuffList.qml:99 qtquick/qml/Page.qml:182
+#: qtquick/qml/NewStuffList.qml:99 qtquick/qml/Page.qml:195
 #, fuzzy, kde-format
 #| msgid "Show directories first"
 msgctxt "List option which will set the sort order to based on user ratings"
 msgid "Show highest rated first"
 msgstr "Pòkôżë wprzód katalodżi"
 
-#: qtquick/qml/NewStuffList.qml:100 qtquick/qml/Page.qml:183
+#: qtquick/qml/NewStuffList.qml:100 qtquick/qml/Page.qml:196
 #, fuzzy, kde-format
 #| msgid "Most Downloads"
 msgctxt ""
@@ -815,11 +816,19 @@ msgctxt ""
 msgid "Use"
 msgstr ""
 
-#: qtquick/qml/Page.qml:133
+#: qtquick/qml/Page.qml:146
 #, fuzzy, kde-format
 #| msgid "&Search"
 msgid "Search..."
 msgstr "&Szëkba"
+
+#: qtquick/qml/Page.qml:243
+#, fuzzy, kde-format
+#| msgid "Loading preview..."
+msgctxt ""
+"A text shown beside a busy indicator suggesting that data is being fetched"
+msgid "Loading more..."
+msgstr "Ladëje pòdzérk..."
 
 #: qtquick/qml/private/EntryCommentDelegate.qml:125
 #, fuzzy, kde-format
@@ -910,7 +919,7 @@ msgstr "Detale..."
 msgid "None"
 msgstr "Felëjë"
 
-#: qtquick/quickengine.cpp:97
+#: qtquick/quickengine.cpp:111
 #, kde-format
 msgctxt ""
 "An informational message which is shown to inform the user they are not "
@@ -920,7 +929,7 @@ msgid ""
 "please contact the person in charge of your permissions."
 msgstr ""
 
-#: qtquick/quickitemsmodel.cpp:418
+#: qtquick/quickitemsmodel.cpp:428
 #, fuzzy, kde-format
 #| msgctxt "Label showing the file name of a file that is about to be uploaded"
 #| msgid "Uploading: %1"
@@ -10730,9 +10739,6 @@ msgstr "Naczni zamianã"
 #~ msgid "Tag Exists"
 #~ msgstr "Merk ju je"
 
-#~ msgid "Loading preview..."
-#~ msgstr "Ladëje pòdzérk..."
-
 #~ msgid "Error: HOME environment variable not set.\n"
 #~ msgstr "Fela: Nie je ùstawionô zmiennô òkrãżégò HOME.\n"
 
@@ -12473,9 +12479,6 @@ msgstr "Naczni zamianã"
 
 #~ msgid "Directory where the files on the desktop are stored"
 #~ msgstr "Katalog w jaczim trzëmóné są lopczi z pùltu"
-
-#~ msgid "Path to documents folder"
-#~ msgstr "Stegna do kataloga dokùmentów"
 
 #~ msgid ""
 #~ "<b>Changes in this section require root access.</b><br />On applying your "
