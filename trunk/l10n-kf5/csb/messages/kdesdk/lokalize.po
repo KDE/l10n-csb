@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-20 03:09+0200\n"
+"POT-Creation-Date: 2019-12-26 03:08+0100\n"
 "PO-Revision-Date: 2009-12-19 02:29+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -889,27 +889,35 @@ msgid "Context"
 msgstr ""
 
 #: src/cataloglistview/catalogmodel.cpp:131
+#, fuzzy, kde-format
+#| msgctxt "@title actions category"
+#| msgid "File"
+msgctxt "@title:column"
+msgid "Files"
+msgstr "Lopk"
+
+#: src/cataloglistview/catalogmodel.cpp:133
 #: src/filesearch/filesearchtab.cpp:337 src/tm/tmtab.cpp:84
 #, kde-format
 msgctxt "@title:column"
 msgid "Translation Status"
 msgstr ""
 
-#: src/cataloglistview/catalogmodel.cpp:167 src/editortab.cpp:1083
+#: src/cataloglistview/catalogmodel.cpp:169 src/editortab.cpp:1083
 #: src/editortab.cpp:1286 src/tm/tmtab.cpp:246
 #, kde-format
 msgctxt "@info:status 'non-fuzzy' in gettext terminology"
 msgid "Ready"
 msgstr ""
 
-#: src/cataloglistview/catalogmodel.cpp:169 src/editortab.cpp:1084
+#: src/cataloglistview/catalogmodel.cpp:171 src/editortab.cpp:1084
 #: src/editortab.cpp:1281 src/tm/tmtab.cpp:247
 #, kde-format
 msgctxt "@info:status 'fuzzy' in gettext terminology"
 msgid "Needs review"
 msgstr ""
 
-#: src/cataloglistview/catalogmodel.cpp:171 src/editortab.cpp:1082
+#: src/cataloglistview/catalogmodel.cpp:173 src/editortab.cpp:1082
 #: src/tm/tmtab.cpp:248
 #, kde-format
 msgctxt "@info:status"
