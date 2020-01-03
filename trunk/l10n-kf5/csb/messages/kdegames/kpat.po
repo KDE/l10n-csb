@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-30 03:05+0100\n"
+"POT-Creation-Date: 2020-01-03 03:06+0100\n"
 "PO-Revision-Date: 2008-01-01 11:12+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -79,7 +79,7 @@ msgstr "Ta gra je przerzniãtô."
 msgid "Solver: Calculating..."
 msgstr "&Kalkùlacëje"
 
-#: dealer.cpp:1937
+#: dealer.cpp:1944
 #, kde-format
 msgid ""
 "A new game has been requested, but there is already a game in progress.\n"
@@ -87,13 +87,13 @@ msgid ""
 "A loss will be recorded in the statistics if the current game is abandoned."
 msgstr ""
 
-#: dealer.cpp:1939
+#: dealer.cpp:1946
 #, fuzzy, kde-format
 #| msgid "Abort Current Game?"
 msgid "Abandon Current Game?"
 msgstr "Òprzestac nã grã?"
 
-#: dealer.cpp:1940
+#: dealer.cpp:1947
 #, fuzzy, kde-format
 #| msgid "Abort Current Game"
 msgid "Abandon Current Game"
@@ -757,7 +757,7 @@ msgstr ""
 msgid "%1 (%2%)"
 msgstr "%1% (%2)"
 
-#: statisticsdialog.cpp:127
+#: statisticsdialog.cpp:132
 #, kde-format
 msgid "1 loss"
 msgid_plural "%1 losses"
@@ -765,7 +765,7 @@ msgstr[0] "1 przerzniãtô"
 msgstr[1] "%1 przerzniãté"
 msgstr[2] "%1 przerzniãtëch"
 
-#: statisticsdialog.cpp:129
+#: statisticsdialog.cpp:134
 #, kde-format
 msgid "1 win"
 msgid_plural "%1 wins"
@@ -802,6 +802,12 @@ msgstr "Dobëté grë:"
 #, kde-format
 msgid "Current streak:"
 msgstr "Biéżnô seriô:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: statisticsdialog.ui:147
+#, kde-format
+msgid "Minimal number of moves:"
+msgstr ""
 
 #: yukon.cpp:132
 #, fuzzy, kde-format
