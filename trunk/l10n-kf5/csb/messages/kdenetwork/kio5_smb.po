@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_smb\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-14 03:22+0100\n"
+"POT-Creation-Date: 2020-02-15 03:21+0100\n"
 "PO-Revision-Date: 2007-02-18 19:39+0100\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: kio_smb_auth.cpp:142
+#: kio_smb_auth.cpp:159
 #, kde-format
 msgid "<qt>Please enter authentication information for <b>%1</b></qt>"
 msgstr "<qt>Proszã ò pòdanié pòdôwków do ùdowierzëniô dlô <b>%1</b></qt>"
 
-#: kio_smb_auth.cpp:146
+#: kio_smb_auth.cpp:163
 #, kde-format
 msgid ""
 "Please enter authentication information for:\n"
@@ -33,12 +33,12 @@ msgstr ""
 "Serwera = %1\n"
 "Dostónk = %2"
 
-#: kio_smb_auth.cpp:189
+#: kio_smb_auth.cpp:206
 #, kde-format
 msgid "libsmbclient failed to create context"
 msgstr "libsmbclient nie mògł ùsadzëc kòntekstu"
 
-#: kio_smb_auth.cpp:217
+#: kio_smb_auth.cpp:233
 #, kde-format
 msgid "libsmbclient failed to initialize context"
 msgstr "libsmbclient nie mògł inicjalizowac kòntekstu"
@@ -52,7 +52,7 @@ msgstr ""
 "%1:\n"
 "Nieznóny ôrt lopkù, ani katalog, ani lopk."
 
-#: kio_smb_browse.cpp:257
+#: kio_smb_browse.cpp:278
 #, kde-format
 msgid ""
 "Unable to find any workgroups in your local network. This might be caused by "
@@ -61,33 +61,33 @@ msgstr ""
 "Nie mòże nalezc niżódnëch robòczëch karnów w Twòji môlowi sécë. Mòże to bëc "
 "sprawioné bez zablokòwanié pòrtów na firewallu."
 
-#: kio_smb_browse.cpp:262
+#: kio_smb_browse.cpp:283
 #, kde-format
 msgid "No media in device for %1"
 msgstr "Felënk mediów w ùrządzenim przë przistãpnie do %1"
 
-#: kio_smb_browse.cpp:268
+#: kio_smb_browse.cpp:289
 #, kde-format
 msgid "Could not connect to host for %1"
 msgstr "Nie mòże pòłączëc sã z serwerã przë przistãpie do %1"
 
-#: kio_smb_browse.cpp:281
+#: kio_smb_browse.cpp:302
 #, kde-format
 msgid "Error while connecting to server responsible for %1"
 msgstr "Wëstąpiła fela òbczas łączeniô sã z serwerã òdpòwiedzalnym za %1"
 
-#: kio_smb_browse.cpp:287
+#: kio_smb_browse.cpp:308
 #, kde-format
 msgid "Share could not be found on given server"
 msgstr "Nie mòże nalezc dostónkù na pòdónym serwerze"
 
-#: kio_smb_browse.cpp:289
+#: kio_smb_browse.cpp:310
 #, fuzzy, kde-format
 #| msgid "BAD File descriptor"
 msgid "Bad file descriptor"
 msgstr "LËCHI deskryptor lopkù"
 
-#: kio_smb_browse.cpp:296
+#: kio_smb_browse.cpp:317
 #, kde-format
 msgid ""
 "The given name could not be resolved to a unique server. Make sure your "
@@ -98,7 +98,15 @@ msgstr ""
 "sã, że w Twòji sécë nié mô kònfliktów midze systemama mionów brëkòwónëch òb "
 "Windows a systemama mionów brëkòwónëch òb UNIX."
 
-#: kio_smb_browse.cpp:301
+#: kio_smb_browse.cpp:326
+#, kde-format
+msgctxt ""
+"@info:status smb failed to reach the server (e.g. server offline or network "
+"failure). %1 is an ip address or hostname"
+msgid "%1: Host unreachable"
+msgstr ""
+
+#: kio_smb_browse.cpp:329
 #, kde-format
 msgid ""
 "libsmbclient reported an error, but did not specify what the problem is. "
@@ -118,12 +126,12 @@ msgstr ""
 "jes të gwës czë je mô - mòżesz wëslac gò do programistów, eżle ò niegò "
 "pòproszą)"
 
-#: kio_smb_browse.cpp:311
+#: kio_smb_browse.cpp:339
 #, kde-format
 msgid "Unknown error condition in stat: %1"
 msgstr "Nieznónô fela w stat: %1"
 
-#: kio_smb_browse.cpp:327
+#: kio_smb_browse.cpp:355
 #, kde-kuit-format
 msgid "Error occurred while trying to access %1<nl/>%2"
 msgstr ""
