@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-03-28 03:05+0000\n"
+"POT-Creation-Date: 2020-04-16 02:03+0000\n"
 "PO-Revision-Date: 2009-12-13 21:28+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -272,7 +272,7 @@ msgid "Allows the detected UserAgent to be modified"
 msgstr ""
 
 #: settings/bookmarks/bookmarks.desktop:12
-#: sidebar/default_entries/bookmarks.desktop:5
+#: sidebar/default_entries/bookmarks.desktop:12
 #: sidebar/trees/init/bookmarks_module.desktop:5
 msgctxt "Name"
 msgid "Bookmarks"
@@ -457,19 +457,37 @@ msgctxt "X-KDE-Keywords"
 msgid "performance,speed,memory,improve"
 msgstr ""
 
-#: sidebar/default_entries/bookmarks.desktop:97
+#: sidebar/bookmarks_module/konqsidebar_bookmarks.desktop:4
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Web SideBar Module"
+msgctxt "Name"
+msgid "Bookmarks SideBar Module"
+msgstr "Moduł bòczny lëstwë WWW"
+
+#: sidebar/default_entries/bookmarks.desktop:104
 #: sidebar/trees/init/bookmarks_module.desktop:97
 msgctxt "Comment"
 msgid "This is the list of your bookmarks, for a faster access"
 msgstr "To je lësta załóżków, dlô chùtczégò przëstãpù"
 
-#: sidebar/default_entries/history.desktop:5
+#: sidebar/default_entries/fonts.desktop:11
+msgctxt "Name"
+msgid "Fonts"
+msgstr "Fòntë"
+
+#: sidebar/default_entries/fonts.desktop:12
+msgctxt "Comment"
+msgid "Personal and System fonts list."
+msgstr ""
+
+#: sidebar/default_entries/history.desktop:8
 #: sidebar/history_module/kcmhistory.desktop:11
 msgctxt "Name"
 msgid "History"
 msgstr "Historëjô"
 
-#: sidebar/default_entries/history.desktop:98
+#: sidebar/default_entries/history.desktop:101
 msgctxt "Comment"
 msgid ""
 "This is the history of the URLs you have recently visited. You can sort them "
@@ -478,22 +496,22 @@ msgstr ""
 "Historëjô slédno òbzérónëch adresów URL. Mòże jã na wszelejaczé ôrte "
 "zortowac."
 
-#: sidebar/default_entries/home.desktop:5
+#: sidebar/default_entries/home.desktop:9
 msgctxt "Name"
 msgid "Home Folder"
 msgstr "Domôcy katalog"
 
-#: sidebar/default_entries/home.desktop:97
+#: sidebar/default_entries/home.desktop:101
 msgctxt "Comment"
 msgid "This folder contains your personal files"
 msgstr "Nen katalog zamëkô w se wszëtczé twòje priwatné lopczi"
 
-#: sidebar/default_entries/places.desktop:4
+#: sidebar/default_entries/places.desktop:9
 msgctxt "Name"
 msgid "Places"
 msgstr "Place"
 
-#: sidebar/default_entries/places.desktop:80
+#: sidebar/default_entries/places.desktop:85
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "This is the root of the filesystem"
@@ -501,27 +519,43 @@ msgctxt "Comment"
 msgid "This is the list of places."
 msgstr "Je to kòrzéń systemë lopków (przédny katalog - root)"
 
-#: sidebar/default_entries/remote.desktop:2
-#: sidebar/trees/init/remote/.directory:2
+#: sidebar/default_entries/remote.desktop:11
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Removable"
 msgctxt "Name"
-msgid "Network"
-msgstr "Séc"
+msgid "Remote"
+msgstr "Przenosné"
 
-#: sidebar/default_entries/root.desktop:5
+#: sidebar/default_entries/root.desktop:10
 msgctxt "Name"
 msgid "Root Folder"
 msgstr "Przédny katalog (root)"
 
-#: sidebar/default_entries/root.desktop:96
+#: sidebar/default_entries/root.desktop:101
 msgctxt "Comment"
 msgid "This is the root of the filesystem"
 msgstr "Je to kòrzéń systemë lopków (przédny katalog - root)"
 
-#: sidebar/default_entries/services.desktop:4
+#: sidebar/default_entries/services.desktop:10
 #: sidebar/trees/init/services/.directory:3
 msgctxt "Name"
 msgid "Services"
 msgstr "Ùsłëżnotë"
+
+#: sidebar/default_entries/settings.desktop:11
+#: sidebar/trees/init/services/settings.desktop:5
+msgctxt "Name"
+msgid "Settings"
+msgstr "Ùstôw"
+
+#: sidebar/default_entries/settings.desktop:12
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "System Settings View"
+msgctxt "Comment"
+msgid "System settings options."
+msgstr "Wëzdrzatk systemòwégò nastôwù"
 
 #: sidebar/history_module/kcmhistory.desktop:104
 msgctxt "Comment"
@@ -538,12 +572,12 @@ msgctxt "Name"
 msgid "History SideBar Module"
 msgstr "Mòduł historëji bòczny listwë"
 
-#: sidebar/konq_sidebartng.desktop:4
+#: sidebar/konq_sidebartng.desktop:16
 msgctxt "Name"
 msgid "Sidebar"
 msgstr "Bòcznô listew"
 
-#: sidebar/places_module/konqsidebar_places.desktop:4
+#: sidebar/places_module/konqsidebar_places.desktop:3
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Web SideBar Module"
@@ -551,11 +585,24 @@ msgctxt "Name"
 msgid "Places SideBar Module"
 msgstr "Moduł bòczny lëstwë WWW"
 
+#: sidebar/tree_module/konqsidebar_tree.desktop:4
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Web SideBar Module"
+msgctxt "Name"
+msgid "Tree SideBar Module"
+msgstr "Moduł bòczny lëstwë WWW"
+
 #: sidebar/trees/init/dirtree_module.desktop:5
 #: sidebar/trees/konqsidebar_tree.desktop:4
 msgctxt "Name"
 msgid "Folder"
 msgstr "Katalog"
+
+#: sidebar/trees/init/remote/.directory:2
+msgctxt "Name"
+msgid "Network"
+msgstr "Séc"
 
 #: sidebar/trees/init/remote/ftp/.directory:2
 msgctxt "Name"
@@ -601,11 +648,6 @@ msgstr "Programë"
 msgctxt "Name"
 msgid "Print System Browser"
 msgstr "Przezérnik systemë drëkù"
-
-#: sidebar/trees/init/services/settings.desktop:5
-msgctxt "Name"
-msgid "Settings"
-msgstr "Ùstôw"
 
 #: sidebar/web_module/konqsidebar_web.desktop:4
 msgctxt "Name"
@@ -5787,10 +5829,6 @@ msgstr "Szëkôrz"
 #~ msgid "Desktop Theme"
 #~ msgstr "Wëdowiédzô ò témie pùltu"
 
-#~ msgctxt "Name"
-#~ msgid "Fonts"
-#~ msgstr "Fòntë"
-
 #~ msgctxt "Comment"
 #~ msgid "Font settings"
 #~ msgstr "Nastôw fòntów"
@@ -9372,10 +9410,6 @@ msgstr "Szëkôrz"
 #~ msgstr "Chùtkòsc czëtaniô"
 
 #~ msgctxt "Name"
-#~ msgid "Removable"
-#~ msgstr "Przenosné"
-
-#~ msgctxt "Name"
 #~ msgid "Supported Media"
 #~ msgstr "Wspiéróné media"
 
@@ -9595,10 +9629,6 @@ msgstr "Szëkôrz"
 #~ msgctxt "Name"
 #~ msgid "System Settings External Application"
 #~ msgstr "Systemòwi nastôw bùtnowich aplikacëjów"
-
-#~ msgctxt "Name"
-#~ msgid "System Settings View"
-#~ msgstr "Wëzdrzatk systemòwégò nastôwù"
 
 #~ msgctxt "Name"
 #~ msgid "Icon View"

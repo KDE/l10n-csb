@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-04-15 03:01+0200\n"
+"POT-Creation-Date: 2020-04-16 03:02+0200\n"
 "PO-Revision-Date: 2009-08-03 17:47+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -31,13 +31,13 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "michol@linuxcsb.org, mark@linuxcsb.org"
 
-#: core/chmodjob.cpp:205
+#: core/chmodjob.cpp:207
 #, fuzzy, kde-format
 #| msgid "Could not change ownership for %1."
 msgid "Could not modify the ownership of file %1"
 msgstr "Ni mòze zmienic miéwcë %1."
 
-#: core/chmodjob.cpp:207
+#: core/chmodjob.cpp:209
 #, kde-format
 msgid ""
 "<qt>Could not modify the ownership of file <b>%1</b>. You have insufficient "
@@ -46,7 +46,7 @@ msgstr ""
 "<qt>Ni mòże zmienic miéwcë lopka <b>%1</b>. Felënk pasownëch prawów "
 "przistãpù do lopka.</qt>"
 
-#: core/connectionbackend.cpp:144
+#: core/connectionbackend.cpp:120
 #, kde-format
 msgid "Unable to create io-slave: %1"
 msgstr ""
@@ -2293,91 +2293,6 @@ msgstr ""
 msgid " (Points to %1)"
 msgstr ""
 
-#: core/klocalsocket_unix.cpp:192 core/klocalsocket_unix.cpp:260
-#, kde-format
-msgid "Specified socket path is invalid"
-msgstr ""
-
-#: core/klocalsocket_unix.cpp:201 core/klocalsocket_unix.cpp:248
-#: core/klocalsocket_unix.cpp:269
-#, fuzzy, kde-format
-#| msgid "The protocol %1 is not supported."
-msgid "The socket operation is not supported"
-msgstr "Protokół %1 nie je wspieróny"
-
-#: core/klocalsocket_unix.cpp:214
-#, fuzzy, kde-format
-#| msgid "Connection to Server Refused"
-msgid "Connection refused"
-msgstr "Pòcësniãté sparłãczenié z serwerã"
-
-#: core/klocalsocket_unix.cpp:219 core/klocalsocket_unix.cpp:282
-#, fuzzy, kde-format
-#| msgid "Access Denied"
-msgid "Permission denied"
-msgstr "Felënk przistãpù"
-
-#: core/klocalsocket_unix.cpp:223
-#, fuzzy, kde-format
-#| msgid "Connection to Server Refused"
-msgid "Connection timed out"
-msgstr "Pòcësniãté sparłãczenié z serwerã"
-
-#: core/klocalsocket_unix.cpp:227 core/klocalsocket_unix.cpp:307
-#, fuzzy, kde-format
-#| msgid "Unknown Error"
-msgid "Unknown error"
-msgstr "Nieznónô fela"
-
-#: core/klocalsocket_unix.cpp:235 core/klocalsocket_unix.cpp:315
-#, kde-format
-msgid "Could not set non-blocking mode"
-msgstr ""
-
-#: core/klocalsocket_unix.cpp:286
-#, kde-format
-msgid "Address is already in use"
-msgstr ""
-
-#: core/klocalsocket_unix.cpp:291
-#, fuzzy, kde-format
-#| msgid ""
-#| "URL cannot be listed\n"
-#| "%1"
-msgid "Path cannot be used"
-msgstr ""
-"URL ni mòże bëc wëskrzëniony\n"
-"%1"
-
-#: core/klocalsocket_unix.cpp:295
-#, kde-format
-msgid "No such file or directory"
-msgstr ""
-
-#: core/klocalsocket_unix.cpp:299
-#, fuzzy, kde-format
-#| msgctxt "@title job"
-#| msgid "Creating directory"
-msgid "Not a directory"
-msgstr "Ùsôdzanié katalogów"
-
-#: core/klocalsocket_unix.cpp:303
-#, kde-format
-msgid "Read-only filesystem"
-msgstr ""
-
-#: core/klocalsocket_unix.cpp:370 core/klocalsocket_unix.cpp:404
-#, fuzzy, kde-format
-#| msgid "Unknown Error"
-msgid "Unknown socket error"
-msgstr "Nieznónô fela"
-
-#: core/klocalsocket_win.cpp:31 core/klocalsocket_win.cpp:36
-#, fuzzy, kde-format
-#| msgid "Writing to %1 is not supported."
-msgid "Operation not supported"
-msgstr "Zapisëwanié do %1 nie je òbsłëgiwóné."
-
 #: core/slave.cpp:485
 #, fuzzy, kde-format
 #| msgid "Could not create socket for accessing %1."
@@ -3779,7 +3694,7 @@ msgstr ""
 "Ùsôdzë nowi katalog w:\n"
 "%1"
 
-#: filewidgets/kstatusbarofflineindicator.cpp:57
+#: filewidgets/kstatusbarofflineindicator.cpp:59
 #, kde-format
 msgid "The desktop is offline"
 msgstr "Pùlt je òdłączony"
@@ -7726,43 +7641,43 @@ msgstr ""
 msgid "Unmount"
 msgstr ""
 
-#: widgets/kdirmodel.cpp:1181
+#: widgets/kdirmodel.cpp:1182
 #, kde-format
 msgctxt "@title:column"
 msgid "Name"
 msgstr ""
 
-#: widgets/kdirmodel.cpp:1183
+#: widgets/kdirmodel.cpp:1184
 #, kde-format
 msgctxt "@title:column"
 msgid "Size"
 msgstr ""
 
-#: widgets/kdirmodel.cpp:1185
+#: widgets/kdirmodel.cpp:1186
 #, kde-format
 msgctxt "@title:column"
 msgid "Date"
 msgstr ""
 
-#: widgets/kdirmodel.cpp:1187
+#: widgets/kdirmodel.cpp:1188
 #, kde-format
 msgctxt "@title:column"
 msgid "Permissions"
 msgstr ""
 
-#: widgets/kdirmodel.cpp:1189
+#: widgets/kdirmodel.cpp:1190
 #, kde-format
 msgctxt "@title:column"
 msgid "Owner"
 msgstr ""
 
-#: widgets/kdirmodel.cpp:1191
+#: widgets/kdirmodel.cpp:1192
 #, kde-format
 msgctxt "@title:column"
 msgid "Group"
 msgstr ""
 
-#: widgets/kdirmodel.cpp:1193
+#: widgets/kdirmodel.cpp:1194
 #, kde-format
 msgctxt "@title:column"
 msgid "Type"
@@ -9495,6 +9410,56 @@ msgid ""
 "The remote host did not send any SSL certificates.\n"
 "Aborting because the identity of the host cannot be established."
 msgstr ""
+
+#, fuzzy
+#~| msgid "The protocol %1 is not supported."
+#~ msgid "The socket operation is not supported"
+#~ msgstr "Protokół %1 nie je wspieróny"
+
+#, fuzzy
+#~| msgid "Connection to Server Refused"
+#~ msgid "Connection refused"
+#~ msgstr "Pòcësniãté sparłãczenié z serwerã"
+
+#, fuzzy
+#~| msgid "Access Denied"
+#~ msgid "Permission denied"
+#~ msgstr "Felënk przistãpù"
+
+#, fuzzy
+#~| msgid "Connection to Server Refused"
+#~ msgid "Connection timed out"
+#~ msgstr "Pòcësniãté sparłãczenié z serwerã"
+
+#, fuzzy
+#~| msgid "Unknown Error"
+#~ msgid "Unknown error"
+#~ msgstr "Nieznónô fela"
+
+#, fuzzy
+#~| msgid ""
+#~| "URL cannot be listed\n"
+#~| "%1"
+#~ msgid "Path cannot be used"
+#~ msgstr ""
+#~ "URL ni mòże bëc wëskrzëniony\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgctxt "@title job"
+#~| msgid "Creating directory"
+#~ msgid "Not a directory"
+#~ msgstr "Ùsôdzanié katalogów"
+
+#, fuzzy
+#~| msgid "Unknown Error"
+#~ msgid "Unknown socket error"
+#~ msgstr "Nieznónô fela"
+
+#, fuzzy
+#~| msgid "Writing to %1 is not supported."
+#~ msgid "Operation not supported"
+#~ msgstr "Zapisëwanié do %1 nie je òbsłëgiwóné."
 
 #~ msgid "AutoSkip"
 #~ msgstr "Aùtomatné przepùszczenié"
