@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_runner_powerdevil\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 09:39+0200\n"
+"POT-Creation-Date: 2019-05-20 03:26+0200\n"
 "PO-Revision-Date: 2009-12-13 00:37+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -19,13 +19,13 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: PowerDevilRunner.cpp:55 PowerDevilRunner.cpp:73 PowerDevilRunner.cpp:184
+#: PowerDevilRunner.cpp:55 PowerDevilRunner.cpp:73 PowerDevilRunner.cpp:194
 #, kde-format
 msgctxt "Note this is a KRunner keyword"
 msgid "suspend"
 msgstr "ùspióny"
 
-#: PowerDevilRunner.cpp:56 PowerDevilRunner.cpp:80 PowerDevilRunner.cpp:194
+#: PowerDevilRunner.cpp:56 PowerDevilRunner.cpp:80 PowerDevilRunner.cpp:184
 #, kde-format
 msgctxt "Note this is a KRunner keyword"
 msgid "sleep"
@@ -121,14 +121,37 @@ msgid "Dim screen by half"
 msgstr "Scemni ò pòłowã ekran"
 
 #: PowerDevilRunner.cpp:216
+#, fuzzy, kde-format
+#| msgctxt "Note this is a KRunner keyword"
+#| msgid "sleep"
+msgctxt "Suspend to RAM"
+msgid "Sleep"
+msgstr "ùspióny"
+
+#: PowerDevilRunner.cpp:217
 #, kde-format
 msgid "Suspend to RAM"
 msgstr "Ùspi w pamiãcë RAM"
 
-#: PowerDevilRunner.cpp:221
-#, kde-format
-msgid "Suspend to Disk"
+#: PowerDevilRunner.cpp:222
+#, fuzzy, kde-format
+#| msgctxt "Note this is a KRunner keyword"
+#| msgid "hibernate"
+msgctxt "Suspend to disk"
+msgid "Hibernate"
+msgstr "zahibernetowóny"
+
+#: PowerDevilRunner.cpp:223
+#, fuzzy, kde-format
+#| msgid "Suspend to Disk"
+msgid "Suspend to disk"
 msgstr "Ùspi na cwiardim diskù"
+
+#, fuzzy
+#~| msgctxt "Note this is a KRunner keyword"
+#~| msgid "suspend"
+#~ msgid "Suspend"
+#~ msgstr "ùspióny"
 
 #~ msgctxt "Note this is a KRunner keyword"
 #~ msgid "power profile"
