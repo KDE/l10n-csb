@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-05-06 02:53+0200\n"
+"POT-Creation-Date: 2020-05-31 18:05+0200\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -2100,6 +2100,7 @@ msgstr "Rozmajiti wëkònywaczë"
 #: browsers/CollectionTreeItemModelBase.cpp:1099
 #: browsers/CollectionTreeView.cpp:342
 #: context/applets/albums/plugin/AlbumsEngine.cpp:271
+#: context/applets/wikipedia/package/contents/ui/main.qml:78
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:635
 #: dialogs/transferdialog.cpp:104 musicbrainz/MusicBrainzTagsModel.cpp:38
 #: playlist/PlaylistModel.cpp:930 playlist/view/PlaylistViewCommon.cpp:65
@@ -2128,6 +2129,7 @@ msgid "Album Artist"
 msgstr "Artista albùmù"
 
 #: browsers/CollectionTreeItemModelBase.cpp:1105
+#: context/applets/wikipedia/package/contents/ui/main.qml:71
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:629
 #: playlist/PlaylistModel.cpp:928
 #, kde-format
@@ -2219,6 +2221,7 @@ msgid "&Edit Track Details"
 msgstr "&Editëjë detale sztëczka"
 
 #: browsers/filebrowser/FileBrowser.cpp:70
+#: context/applets/wikipedia/package/contents/ui/main.qml:54
 #, fuzzy, kde-format
 #| msgid "&Refresh"
 msgid "Refresh"
@@ -3999,6 +4002,12 @@ msgstr ""
 msgid "Images"
 msgstr "Òbrôzczi"
 
+#: context/applets/albums/package/contents/ui/main.qml:76
+#, fuzzy, kde-format
+#| msgid "First Played"
+msgid "Display"
+msgstr "Pierszi rôz gróné"
+
 #: context/applets/albums/plugin/AlbumItem.cpp:109
 #: statsyncing/ui/MatchedTracksPage.cpp:378
 #, kde-format
@@ -4023,6 +4032,71 @@ msgstr "&Régùjë"
 #, kde-format
 msgid "Edit Track Details"
 msgstr "Editëjë detale sztëczka"
+
+#: context/applets/analyzer/package/contents/ui/main.qml:38
+#, kde-format
+msgctxt "The title of the analyzer config dialog"
+msgid "%1 config"
+msgstr ""
+
+#: context/applets/analyzer/package/contents/ui/main.qml:64
+#, fuzzy, kde-format
+#| msgid "with"
+msgid "Bar width:"
+msgstr "z"
+
+#: context/applets/analyzer/package/contents/ui/main.qml:79
+#, kde-format
+msgid "%1 pixel"
+msgid_plural "%1 pixels"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: context/applets/analyzer/package/contents/ui/main.qml:91
+#, fuzzy, kde-format
+#| msgid "Show Years"
+msgid "Show fadebars:"
+msgstr "Pòkażë rok"
+
+#: context/applets/analyzer/package/contents/ui/main.qml:106
+#, kde-format
+msgid "Bars fall speed:"
+msgstr ""
+
+#: context/applets/analyzer/package/contents/ui/main.qml:124
+#, kde-format
+msgid "Frequency range:"
+msgstr ""
+
+#: context/applets/analyzer/package/contents/ui/main.qml:142
+#: context/applets/analyzer/package/contents/ui/main.qml:147
+#, kde-format
+msgid "%1 Hz"
+msgstr ""
+
+#: context/applets/analyzer/package/contents/ui/main.qml:158
+#, fuzzy, kde-format
+#| msgid "Sample rate:"
+msgid "Sample size:"
+msgstr "Probkòwanié:"
+
+#: context/applets/currenttrack/package/contents/ui/StatsItem.qml:32
+#: playlist/PlaylistModel.cpp:943
+#, kde-format
+msgid "Play Count"
+msgstr "Rechòwnik graniô"
+
+#: context/applets/currenttrack/package/contents/ui/StatsItem.qml:42
+#: playlist/PlaylistModel.cpp:941
+#, kde-format
+msgid "Score"
+msgstr "Pùnktacëjô"
+
+#: context/applets/currenttrack/package/contents/ui/StatsItem.qml:52
+#, kde-format
+msgid "Last played"
+msgstr "Slédno gróné"
 
 #: context/applets/currenttrack/plugin/CurrentEngine.cpp:258
 #: transcoding/TranscodingSelectConfigWidget.cpp:35
@@ -4305,6 +4379,86 @@ msgstr "Zamieni"
 msgid "Remove selected"
 msgstr "Rëmôj aplet"
 
+#: context/applets/lyrics/package/contents/ui/ConfigDialog.qml:46
+#, fuzzy, kde-format
+#| msgid "Settings"
+msgid "Lyrics config"
+msgstr "Ùstawë"
+
+#: context/applets/lyrics/package/contents/ui/ConfigDialog.qml:57
+#, fuzzy, kde-format
+#| msgid "Format:"
+msgid "Font size:"
+msgstr "Fòrmat:"
+
+#: context/applets/lyrics/package/contents/ui/ConfigDialog.qml:73
+#, fuzzy, kde-format
+#| msgid "Alignment"
+msgid "Text alignment:"
+msgstr "Pòłożenié"
+
+#: context/applets/lyrics/package/contents/ui/ConfigDialog.qml:80
+#, fuzzy, kde-format
+#| msgid "Alignment"
+msgid "Align left"
+msgstr "Pòłożenié"
+
+#: context/applets/lyrics/package/contents/ui/ConfigDialog.qml:80
+#, fuzzy, kde-format
+#| msgid "Alignment"
+msgid "Align right"
+msgstr "Pòłożenié"
+
+#: context/applets/lyrics/package/contents/ui/ConfigDialog.qml:80
+#, fuzzy, kde-format
+#| msgid "Alignment"
+msgid "Align center"
+msgstr "Pòłożenié"
+
+#: context/applets/lyrics/package/contents/ui/ConfigDialog.qml:99
+#, fuzzy, kde-format
+#| msgid "Format:"
+msgid "Font:"
+msgstr "Fòrmat:"
+
+#: context/applets/lyrics/package/contents/ui/main.qml:83
+#, kde-format
+msgid "Toggle auto scroll"
+msgstr ""
+
+#: context/applets/lyrics/package/contents/ui/main.qml:90
+#, fuzzy, kde-format
+#| msgid "Reload Lyrics"
+msgid "Reload lyrics"
+msgstr "Ladejë tekstë znôù"
+
+#: context/applets/lyrics/package/contents/ui/main.qml:98
+#, fuzzy, kde-format
+#| msgid "No cover found"
+msgid "No lyrics found"
+msgstr "Nie je nalazłô niżódnô òbkłôdka"
+
+#: context/applets/lyrics/package/contents/ui/main.qml:113
+#, kde-format
+msgid "Suggestions: "
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_21)
+#. i18n: ectx: property (text), widget (QLabel, titleLabel)
+#: context/applets/lyrics/package/contents/ui/main.qml:122
+#: dialogs/TagGuessOptions.ui:101 services/opmldirectory/AddOpmlWidget.ui:78
+#, fuzzy, kde-format
+#| msgid "T&itle:"
+msgid "Title:"
+msgstr "T&itel:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_22)
+#: context/applets/lyrics/package/contents/ui/main.qml:125
+#: dialogs/TagGuessOptions.ui:127
+#, kde-format
+msgid "Artist:"
+msgstr "Artista:"
+
 #: context/applets/playlistinfo/PlaylistInfo.cpp:155
 #, kde-format
 msgid "Configure Playlist Info Applet"
@@ -4500,6 +4654,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, artistLabel)
 #: context/applets/tabs/ReloadEditDialog.ui:73
+#: context/applets/wikipedia/package/contents/ui/main.qml:64
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:623
 #: dialogs/transferdialog.cpp:103 musicbrainz/MusicBrainzTagsModel.cpp:37
 #: playlist/PlaylistModel.cpp:926 services/jamendo/JamendoInfoParser.cpp:51
@@ -4955,6 +5110,26 @@ msgctxt "@info:tooltip"
 msgid "<strong>Location:</strong><nl/>%1"
 msgstr ""
 
+#: context/applets/wikipedia/package/contents/ui/main.qml:38
+#, kde-format
+msgid "Previous"
+msgstr "Pòprzédny"
+
+#: context/applets/wikipedia/package/contents/ui/main.qml:46
+#: statsyncing/ui/ChooseProvidersPage.cpp:35
+#, fuzzy, kde-format
+#| msgid "&Next"
+msgid "Next"
+msgstr "&Pòstãpny"
+
+#: context/applets/wikipedia/package/contents/ui/main.qml:85
+#: context/applets/wikipedia/plugin/WikipediaApplet.cpp:641
+#: core-impl/collections/audiocd/AudioCdCollection.cpp:366
+#: services/jamendo/JamendoInfoParser.cpp:109
+#, kde-format
+msgid "Track"
+msgstr "Sztëczk"
+
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:368
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:444
 #, kde-format
@@ -4972,13 +5147,6 @@ msgstr ""
 #, kde-format
 msgid "Wikipedia"
 msgstr "Wikipedia"
-
-#: context/applets/wikipedia/plugin/WikipediaApplet.cpp:641
-#: core-impl/collections/audiocd/AudioCdCollection.cpp:366
-#: services/jamendo/JamendoInfoParser.cpp:109
-#, kde-format
-msgid "Track"
-msgstr "Sztëczk"
 
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:737
 #, fuzzy, kde-format
@@ -5047,6 +5215,11 @@ msgstr ""
 #| msgid "Lang"
 msgid "Choose Language"
 msgstr "Jãzëk"
+
+#: context/context_qml_package/contents/ui/toolbar/AppletToolbar.qml:128
+#, kde-format
+msgid "Configure Applets..."
+msgstr "Kònfigùrëjë apletë..."
 
 #: context/ContextDock.cpp:27
 #, fuzzy, kde-format
@@ -9963,14 +10136,6 @@ msgstr "Zmieni spacëje na pòdsztrichniãca"
 msgid "Result Preview"
 msgstr "Pòdzérk célu"
 
-#. i18n: ectx: property (text), widget (QLabel, label_21)
-#. i18n: ectx: property (text), widget (QLabel, titleLabel)
-#: dialogs/TagGuessOptions.ui:101 services/opmldirectory/AddOpmlWidget.ui:78
-#, fuzzy, kde-format
-#| msgid "T&itle:"
-msgid "Title:"
-msgstr "T&itel:"
-
 #. i18n: ectx: property (text), widget (QLabel, Title_result)
 #. i18n: ectx: property (text), widget (QLabel, Artist_result)
 #. i18n: ectx: property (text), widget (QLabel, Composer_result)
@@ -9988,12 +10153,6 @@ msgstr "T&itel:"
 #, kde-format
 msgid "<empty>"
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_22)
-#: dialogs/TagGuessOptions.ui:127
-#, kde-format
-msgid "Artist:"
-msgstr "Artista:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_23)
 #: dialogs/TagGuessOptions.ui:153
@@ -12862,20 +13021,10 @@ msgstr "Chùtkòsc transmisëji"
 msgid "Sample Rate"
 msgstr "Próbkòwónié"
 
-#: playlist/PlaylistModel.cpp:941
-#, kde-format
-msgid "Score"
-msgstr "Pùnktacëjô"
-
 #: playlist/PlaylistModel.cpp:942 playlist/ProgressiveSearchWidget.cpp:108
 #, kde-format
 msgid "Rating"
 msgstr "Notowania"
-
-#: playlist/PlaylistModel.cpp:943
-#, kde-format
-msgid "Play Count"
-msgstr "Rechòwnik graniô"
 
 #: playlist/PlaylistModel.cpp:944
 #, kde-format
@@ -16684,12 +16833,6 @@ msgstr[2] ""
 msgid "Configure Synchronization..."
 msgstr "Kònfigùracëjô kòlekcëji"
 
-#: statsyncing/ui/ChooseProvidersPage.cpp:35
-#, fuzzy, kde-format
-#| msgid "&Next"
-msgid "Next"
-msgstr "&Pòstãpny"
-
 #: statsyncing/ui/ChooseProvidersPage.cpp:146
 #, fuzzy, kde-format
 #| msgid "Transferring: %1"
@@ -17758,9 +17901,6 @@ msgstr ""
 #~ msgid "Scroll automatically"
 #~ msgstr "aùtomatno"
 
-#~ msgid "Reload Lyrics"
-#~ msgstr "Ladejë tekstë znôù"
-
 #, fuzzy
 #~| msgid "No lyrics script is running."
 #~ msgid "Lyrics: No script is running"
@@ -17810,19 +17950,9 @@ msgstr ""
 #~ "twòji kòlekcëji."
 
 #, fuzzy
-#~| msgid "Settings"
-#~ msgid "Lyrics Settings"
-#~ msgstr "Ùstawë"
-
-#, fuzzy
 #~| msgid "Format:"
 #~ msgid "Font"
 #~ msgstr "Fòrmat:"
-
-#, fuzzy
-#~| msgid "Alignment"
-#~ msgid "Alignment"
-#~ msgstr "Pòłożenié"
 
 #, fuzzy
 #~| msgid "Left"
@@ -17929,9 +18059,6 @@ msgstr ""
 
 #~ msgid "no applet name"
 #~ msgstr "ni ma miona apletu"
-
-#~ msgid "Configure Applets..."
-#~ msgstr "Kònfigùrëjë apletë..."
 
 #~ msgid "Install, list, remove Amarok applets"
 #~ msgstr "&Jinstalëjë, lëstëjë, rëmôj apletë Amaroka"
@@ -19192,9 +19319,6 @@ msgstr ""
 #~ msgid "Album Artist:"
 #~ msgstr "Artista albùmù"
 
-#~ msgid "Last played"
-#~ msgstr "Slédno gróné"
-
 #~ msgid "Play count"
 #~ msgstr "Rechòwnik òdegraniô"
 
@@ -19860,11 +19984,6 @@ msgstr ""
 #~ msgstr "Wôrtnota atribùta"
 
 #, fuzzy
-#~| msgid "No cover found"
-#~ msgid "No covers found."
-#~ msgstr "Nie je nalazłô niżódnô òbkłôdka"
-
-#, fuzzy
 #~| msgid "Text color:"
 #~ msgid "Text completion"
 #~ msgstr "Farwa tekstu"
@@ -20039,11 +20158,6 @@ msgstr ""
 #~ msgstr "Nie mògã zapisac lëstë graniô (%1)."
 
 #, fuzzy
-#~| msgid "with"
-#~ msgid "width"
-#~ msgstr "z"
-
-#, fuzzy
 #~| msgid "Disc Number"
 #~ msgid "Disk Number"
 #~ msgstr "Numer diskù"
@@ -20083,9 +20197,6 @@ msgstr ""
 
 #~ msgid "Canada"
 #~ msgstr "Kanada"
-
-#~ msgid "Previous"
-#~ msgstr "Pòprzédny"
 
 #~ msgid "Cannot rename one of the default layouts."
 #~ msgstr "Ni mòże zmienic miona domëslnégò wëzdrzatkòwi."
