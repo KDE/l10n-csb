@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-06-16 02:28+0200\n"
+"POT-Creation-Date: 2020-06-20 02:17+0200\n"
 "PO-Revision-Date: 2009-12-17 00:21+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -1119,7 +1119,9 @@ msgstr "Editëjë profil \"%1\""
 
 #: EditProfileDialog.cpp:455
 #, kde-format
-msgctxt "Suffix of the number of columns (N columns)"
+msgctxt ""
+"Suffix of the number of columns (N columns). The leading space is needed to "
+"separate it from the number value."
 msgid " column"
 msgid_plural " columns"
 msgstr[0] ""
@@ -1128,7 +1130,9 @@ msgstr[2] ""
 
 #: EditProfileDialog.cpp:456
 #, kde-format
-msgctxt "Suffix of the number of rows (N rows)"
+msgctxt ""
+"Suffix of the number of rows (N rows). The leading space is needed to "
+"separate it from the number value."
 msgid " row"
 msgid_plural " rows"
 msgstr[0] ""
@@ -2476,9 +2480,10 @@ msgid "Profile #%1"
 msgstr "Editëjë profil \"%1\""
 
 #: RenameTabDialog.cpp:38
-#, kde-format
-msgid "Rename Tab"
-msgstr "Zmieni miono kôrtë"
+#, fuzzy, kde-format
+#| msgid "Default character encoding:"
+msgid "Current Tab Settings"
+msgstr "Domëslné kòdowanié céchów"
 
 #: RenameTabWidget.cpp:47
 #, fuzzy, kde-format
@@ -2806,8 +2811,8 @@ msgstr ""
 
 #: SessionController.cpp:719
 #, kde-format
-msgid "&Rename Tab..."
-msgstr "&Zmieni miono kôrtë..."
+msgid "&Current Tab Settings..."
+msgstr ""
 
 #: SessionController.cpp:725
 #, kde-format
@@ -3928,11 +3933,10 @@ msgid "&Detach Tab"
 msgstr "Ò&dłączë wëzdrzatk"
 
 #: ViewContainer.cpp:122
-#, fuzzy, kde-format
-#| msgid "&Rename Tab..."
+#, kde-format
 msgctxt "@action:inmenu"
-msgid "&Rename Tab..."
-msgstr "&Zmieni miono kôrtë..."
+msgid "&Current Tab Settings..."
+msgstr ""
 
 #: ViewContainer.cpp:129
 #, fuzzy, kde-format
@@ -4087,6 +4091,18 @@ msgstr ""
 "wcësniãté klawisze mają bëc zmianiané w lëterë bë ne pòzdze sélac do "
 "terminala."
 
+#~ msgid "Rename Tab"
+#~ msgstr "Zmieni miono kôrtë"
+
+#~ msgid "&Rename Tab..."
+#~ msgstr "&Zmieni miono kôrtë..."
+
+#, fuzzy
+#~| msgid "&Rename Tab..."
+#~ msgctxt "@action:inmenu"
+#~ msgid "&Rename Tab..."
+#~ msgstr "&Zmieni miono kôrtë..."
+
 #, fuzzy
 #~| msgid "Open File Manager"
 #~ msgid "Open File"
@@ -4132,11 +4148,6 @@ msgstr ""
 #~| msgid "Konsole"
 #~ msgid "Konsole Window"
 #~ msgstr "Kònsola"
-
-#, fuzzy
-#~| msgid "Default character encoding:"
-#~ msgid "Default Search Settings"
-#~ msgstr "Domëslné kòdowanié céchów"
 
 #, fuzzy
 #~| msgid "Name"
