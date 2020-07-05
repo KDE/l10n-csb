@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-04-24 03:58+0200\n"
+"POT-Creation-Date: 2020-07-05 02:17+0200\n"
 "PO-Revision-Date: 2009-12-18 21:12+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -108,7 +108,7 @@ msgstr "Òkno dzejania"
 msgid "Application:"
 msgstr "Aplikacëjô:"
 
-#. i18n: ectx: property (text), widget (KPushButton, applicationButton)
+#. i18n: ectx: property (text), widget (QPushButton, applicationButton)
 #: kcm_hotkeys/actions/menuentry_action_widget.ui:30
 #, kde-format
 msgid "Select Application ..."
@@ -172,7 +172,7 @@ msgstr "Edicëjô..."
 
 #. i18n: ectx: property (text), widget (QPushButton, delete_button)
 #: kcm_hotkeys/conditions/conditions_widget.ui:44
-#: kcm_hotkeys/hotkeys_context_menu.cpp:136
+#: kcm_hotkeys/hotkeys_context_menu.cpp:135
 #, kde-format
 msgid "Delete"
 msgstr "Rëmôj"
@@ -201,7 +201,7 @@ msgstr "Gestë"
 msgid "Timeout:"
 msgstr "Czas zlecôł"
 
-#. i18n: ectx: property (suffix), widget (KIntSpinBox, gestures_timeout)
+#. i18n: ectx: property (suffix), widget (QSpinBox, gestures_timeout)
 #: kcm_hotkeys/global_settings_widget.ui:70
 #, fuzzy, kde-format
 #| msgid "ms"
@@ -214,7 +214,7 @@ msgstr "ms"
 msgid "Mouse button:"
 msgstr "Knąpa mëszë:"
 
-#: kcm_hotkeys/helper_widgets/edit_gesture_dialog.cpp:32
+#: kcm_hotkeys/helper_widgets/edit_gesture_dialog.cpp:33
 #, kde-format
 msgid "Edit Gesture"
 msgstr "Editëjë gestë"
@@ -411,87 +411,87 @@ msgstr "Dialogòwé"
 msgid "Dock"
 msgstr "Przërzeszë"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:43
-#: kcm_hotkeys/hotkeys_context_menu.cpp:55
+#: kcm_hotkeys/hotkeys_context_menu.cpp:42
+#: kcm_hotkeys/hotkeys_context_menu.cpp:54
 #, kde-format
 msgid "Test"
 msgstr "Test"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:129
-#: kcm_hotkeys/hotkeys_context_menu.cpp:142 kcm_hotkeys/hotkeys_model.cpp:91
+#: kcm_hotkeys/hotkeys_context_menu.cpp:128
+#: kcm_hotkeys/hotkeys_context_menu.cpp:141 kcm_hotkeys/hotkeys_model.cpp:91
 #, kde-format
 msgid "New Group"
 msgstr "Nowé karno"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:146
+#: kcm_hotkeys/hotkeys_context_menu.cpp:145
 #, kde-format
 msgid "Export Group..."
 msgstr "Ekspòrt karna..."
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:147
+#: kcm_hotkeys/hotkeys_context_menu.cpp:146
 #, kde-format
 msgid "Import..."
 msgstr "Impòrtëjë ..."
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:155
+#: kcm_hotkeys/hotkeys_context_menu.cpp:154
 #, fuzzy, kde-format
 #| msgid "New"
 msgctxt "@title:menu create various trigger types"
 msgid "New"
 msgstr "Nowi"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:161
+#: kcm_hotkeys/hotkeys_context_menu.cpp:160
 #, kde-format
 msgid "Global Shortcut"
 msgstr "Globalnô skrodzëna"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:174
+#: kcm_hotkeys/hotkeys_context_menu.cpp:173
 #, kde-format
 msgid "Window Action"
 msgstr "Dzejanié òkna"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:187
+#: kcm_hotkeys/hotkeys_context_menu.cpp:186
 #, kde-format
 msgid "Mouse Gesture Action"
 msgstr "Gest dzejaniô mëszë:"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:268
+#: kcm_hotkeys/hotkeys_context_menu.cpp:267
 #, kde-format
 msgid "Command/URL"
 msgstr "Pòlét/URL"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:275
+#: kcm_hotkeys/hotkeys_context_menu.cpp:274
 #, kde-format
 msgid "D-Bus Command"
 msgstr "Pòlét D-Bus"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:282
+#: kcm_hotkeys/hotkeys_context_menu.cpp:281
 #, kde-format
 msgid "K-Menu Entry"
 msgstr "Môl K-menu"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:289
+#: kcm_hotkeys/hotkeys_context_menu.cpp:288
 #, kde-format
 msgid "Send Keyboard Input"
 msgstr "Sélôj wprowadzenié z klawiaturë"
 
 #. i18n: ectx: attribute (title), widget (QWidget, comment_tab)
-#: kcm_hotkeys/hotkeys_context_menu.cpp:311
-#: kcm_hotkeys/hotkeys_context_menu.cpp:340
-#: kcm_hotkeys/hotkeys_context_menu.cpp:369 kcm_hotkeys/hotkeys_model.cpp:91
+#: kcm_hotkeys/hotkeys_context_menu.cpp:310
+#: kcm_hotkeys/hotkeys_context_menu.cpp:339
+#: kcm_hotkeys/hotkeys_context_menu.cpp:368 kcm_hotkeys/hotkeys_model.cpp:91
 #: kcm_hotkeys/hotkeys_widget_base.ui:23
 #, kde-format
 msgid "Comment"
 msgstr "Dopòwiesc"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:311
-#: kcm_hotkeys/hotkeys_context_menu.cpp:340
-#: kcm_hotkeys/hotkeys_context_menu.cpp:369
+#: kcm_hotkeys/hotkeys_context_menu.cpp:310
+#: kcm_hotkeys/hotkeys_context_menu.cpp:339
+#: kcm_hotkeys/hotkeys_context_menu.cpp:368
 #, kde-format
 msgid "New Action"
 msgstr "Nowé dzejanié"
 
-#: kcm_hotkeys/hotkeys_export_widget.cpp:37
+#: kcm_hotkeys/hotkeys_export_widget.cpp:39
 #, kde-format
 msgid "Export Group"
 msgstr "Ekspòrt karna"
@@ -835,7 +835,7 @@ msgstr "Abò"
 msgid "Menu Editor entries"
 msgstr "Môlë Editora menu"
 
-#: libkhotkeysprivate/settings.cpp:320
+#: libkhotkeysprivate/settings.cpp:321
 #, kde-format
 msgid ""
 "This \"actions\" file has already been imported before. Are you sure you "
@@ -844,7 +844,7 @@ msgstr ""
 "Nen lopk \"dzejaniów\" òstôł ju chùtczi zaimpòrtowóny. Na gwës zaimpòrtowac "
 "gògò znowa?"
 
-#: libkhotkeysprivate/settings.cpp:348
+#: libkhotkeysprivate/settings.cpp:349
 #, kde-format
 msgid ""
 "This \"actions\" file has no ImportId field and therefore it cannot be "
