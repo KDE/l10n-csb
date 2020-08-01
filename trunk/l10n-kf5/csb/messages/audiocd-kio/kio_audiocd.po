@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_audiocd\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-03-05 03:17+0100\n"
+"POT-Creation-Date: 2020-08-01 02:16+0200\n"
 "PO-Revision-Date: 2007-07-28 17:06+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -35,17 +35,17 @@ msgstr "michol@linuxcsb.org"
 msgid "CDDB Information"
 msgstr "Wëdowiedzô"
 
-#: audiocd.cpp:120
+#: audiocd.cpp:121
 #, kde-format
 msgid "Information"
 msgstr "Wëdowiedzô"
 
-#: audiocd.cpp:120
+#: audiocd.cpp:121
 #, kde-format
 msgid "Full CD"
 msgstr "Fùl CD"
 
-#: audiocd.cpp:285
+#: audiocd.cpp:509
 #, kde-format
 msgid ""
 "You cannot specify a host with this protocol. Please use the audiocd:/ "
@@ -53,7 +53,12 @@ msgid ""
 msgstr ""
 "Nie mòżesz wëbrac kòmpùtra tim protokòłã. Proszã brëkùjë fòrmat audiocd:/."
 
-#: audiocd.cpp:879
+#: audiocd.cpp:922
+#, kde-format
+msgid "Missing device specification"
+msgstr ""
+
+#: audiocd.cpp:932
 #, kde-format
 msgid ""
 "Device does not have read permissions for this account.  Check the read "
@@ -62,7 +67,7 @@ msgstr ""
 "Ùrządzenié nie mô praw czëtaniô dlô tegò kònta. Sprôwdzë prawa czëtania na "
 "tim ùrządzeniu."
 
-#: audiocd.cpp:881
+#: audiocd.cpp:934
 #, kde-format
 msgid ""
 "Device does not have write permissions for this account.  Check the write "
@@ -71,7 +76,7 @@ msgstr ""
 "Ùrządzenié nie mô praw pisania dlô tegò kònta. Sprôwdzë prawa pisania na tim "
 "ùrządzeniu."
 
-#: audiocd.cpp:885
+#: audiocd.cpp:938
 #, kde-format
 msgid ""
 "Unknown error.  If you have a cd in the drive try running cdparanoia -vsQ as "
@@ -91,23 +96,23 @@ msgstr ""
 "to wcyg nie pòmògô, wpiszë audiocd:/?device=/dev/sg0 (abò juwerne), bë rzec "
 "kio_audiocd dze twòj CD-ROM je pòdpiãti."
 
-#: audiocd.cpp:959
+#: audiocd.cpp:1011
 #, kde-format
 msgid "AudioCD: Disk damage detected on this track, risk of data corruption."
 msgstr ""
 "AudioCD: Òdkrëtô zëpsëté pòdôwczi w tim sztëczkù, rizykò ùtraceniô pòdôwków."
 
-#: audiocd.cpp:965
+#: audiocd.cpp:1017
 #, kde-format
 msgid "Error reading audio data for %1 from the CD"
 msgstr "Fela czëtaniô pòdôwków aùdio dlô %1 z CD"
 
-#: audiocd.cpp:975 audiocd.cpp:1053
+#: audiocd.cpp:1027 audiocd.cpp:1105
 #, kde-format
 msgid "Could not read %1: encoding failed"
 msgstr "Nie mòże czëtac %1: rozkòdowanié nie darzëło sã"
 
-#: audiocd.cpp:1184
+#: audiocd.cpp:1237
 #, kde-format
 msgid "Track %1"
 msgstr "Sztëczk %1"
