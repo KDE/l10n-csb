@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmserver\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-17 02:36+0100\n"
+"POT-Creation-Date: 2021-01-13 03:39+0100\n"
 "PO-Revision-Date: 2009-05-13 19:49+0200\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -68,19 +68,117 @@ msgstr ""
 msgid "Carl Schwan"
 msgstr ""
 
+#: package/contents/ui/main.qml:38
+#, kde-format
+msgid "Failed to request restart to firmware setup: %1"
+msgstr ""
+
+#: package/contents/ui/main.qml:39
+#, kde-format
+msgid ""
+"Next time the computer is restarted, it will enter the UEFI setup screen."
+msgstr ""
+
+#: package/contents/ui/main.qml:40
+#, kde-format
+msgid ""
+"Next time the computer is restarted, it will enter the firmware setup screen."
+msgstr ""
+
+#: package/contents/ui/main.qml:45
+#, fuzzy, kde-format
+#| msgid "&Restart computer"
+msgid "Restart Now"
+msgstr "Zrëszë &znowa"
+
+#: package/contents/ui/main.qml:51
+#, fuzzy, kde-format
+#| msgid "General"
+msgid "General:"
+msgstr "Òglowé"
+
 #. i18n: ectx: label, entry (confirmLogout), group (General)
-#: smserversettings.kcfg:9
+#: package/contents/ui/main.qml:52 smserversettings.kcfg:9
 #, fuzzy, kde-format
 #| msgid "Conf&irm logout"
 msgid "Confirm logout"
 msgstr "Pòcwierdzë &wëlogòwanié"
 
 #. i18n: ectx: label, entry (offerShutdown), group (General)
-#: smserversettings.kcfg:13
+#: package/contents/ui/main.qml:61 smserversettings.kcfg:13
 #, fuzzy, kde-format
 #| msgid "O&ffer shutdown options"
 msgid "Offer shutdown options"
 msgstr "Ù&przistãpni òptacëjã zamëkaniô systemë"
+
+#: package/contents/ui/main.qml:78
+#, fuzzy, kde-format
+#| msgid "Default Leave Option"
+msgid "Default leave option:"
+msgstr "Domëszlné òptacëje òpùszczaniô systemë"
+
+#: package/contents/ui/main.qml:79
+#, fuzzy, kde-format
+#| msgid "&End current session"
+msgid "End current session"
+msgstr "&Zakùńczë biéżną sesëjã"
+
+#: package/contents/ui/main.qml:89
+#, fuzzy, kde-format
+#| msgid "&Restart computer"
+msgid "Restart computer"
+msgstr "Zrëszë &znowa"
+
+#: package/contents/ui/main.qml:99
+#, fuzzy, kde-format
+#| msgid "&Turn off computer"
+msgid "Turn off computer"
+msgstr "Wëłączë &kòmpùtr"
+
+#: package/contents/ui/main.qml:115
+#, kde-format
+msgid "When logging in:"
+msgstr ""
+
+#: package/contents/ui/main.qml:116
+#, fuzzy, kde-format
+#| msgid "Restore &manually saved session"
+msgid "Restore previous saved session"
+msgstr "Przëwrócë &zapisóną sesëjã"
+
+#: package/contents/ui/main.qml:126
+#, fuzzy, kde-format
+#| msgid "Restore &manually saved session"
+msgid "Restore manually saved session"
+msgstr "Przëwrócë &zapisóną sesëjã"
+
+#: package/contents/ui/main.qml:136
+#, fuzzy, kde-format
+#| msgid "Start with an empty &session"
+msgid "Start with an empty session"
+msgstr "Zrëszë &pùstą sesëjã"
+
+#: package/contents/ui/main.qml:149
+#, kde-format
+msgid "Don't restore these applications:"
+msgstr ""
+
+#: package/contents/ui/main.qml:155
+#, kde-format
+msgid ""
+"Here you can enter a colon or comma separated list of applications that "
+"should not be saved in sessions, and therefore will not be started when "
+"restoring a session. For example 'xterm:konsole' or 'xterm,konsole'."
+msgstr ""
+"Tuwò mòże pòdac lëstã programów, co nie mdą zapisywóné w sesëjach, a w parce "
+"z tim nie mdą przëwracóné przë pòstãpnym logòwanim. Zôstné programë nót je "
+"òddzelec dwapùnktã, abò pùnktã np 'xterm:xconsole' czë 'xterm,konsole'."
+"xconsole'."
+
+#: package/contents/ui/main.qml:169
+#, kde-format
+msgid "Enter firmware setup screen on next restart"
+msgstr ""
 
 #. i18n: ectx: label, entry (shutdownType), group (General)
 #: smserversettings.kcfg:17
@@ -102,14 +200,6 @@ msgstr "Przë wlogòwaniu"
 #| msgid "Applications to be e&xcluded from sessions:"
 msgid "Applications to be excluded from session"
 msgstr "&Programë wëłączoné ze sprôwiania sesëjama:"
-
-#, fuzzy
-#~| msgid "&Restart computer"
-#~ msgid "Restart Now"
-#~ msgstr "Zrëszë &znowa"
-
-#~ msgid "General"
-#~ msgstr "Òglowé"
 
 #~ msgid ""
 #~ "Check this option if you want the session manager to display a logout "
@@ -133,15 +223,6 @@ msgstr "&Programë wëłączoné ze sprôwiania sesëjama:"
 
 #~ msgid "Default Leave Option"
 #~ msgstr "Domëszlné òptacëje òpùszczaniô systemë"
-
-#~ msgid "&End current session"
-#~ msgstr "&Zakùńczë biéżną sesëjã"
-
-#~ msgid "&Restart computer"
-#~ msgstr "Zrëszë &znowa"
-
-#~ msgid "&Turn off computer"
-#~ msgstr "Wëłączë &kòmpùtr"
 
 #~ msgid ""
 #~ "<ul>\n"
@@ -168,24 +249,8 @@ msgstr "&Programë wëłączoné ze sprôwiania sesëjama:"
 #~ msgid "On Login"
 #~ msgstr "Przë wlogòwaniu"
 
-#~ msgid "Restore &manually saved session"
-#~ msgstr "Przëwrócë &zapisóną sesëjã"
-
-#~ msgid "Start with an empty &session"
-#~ msgstr "Zrëszë &pùstą sesëjã"
-
 #~ msgid "Applications to be e&xcluded from sessions:"
 #~ msgstr "&Programë wëłączoné ze sprôwiania sesëjama:"
-
-#~ msgid ""
-#~ "Here you can enter a colon or comma separated list of applications that "
-#~ "should not be saved in sessions, and therefore will not be started when "
-#~ "restoring a session. For example 'xterm:konsole' or 'xterm,konsole'."
-#~ msgstr ""
-#~ "Tuwò mòże pòdac lëstã programów, co nie mdą zapisywóné w sesëjach, a w "
-#~ "parce z tim nie mdą przëwracóné przë pòstãpnym logòwanim. Zôstné programë "
-#~ "nót je òddzelec dwapùnktã, abò pùnktã np 'xterm:xconsole' czë 'xterm,"
-#~ "konsole'.xconsole'."
 
 #~ msgid "Session Manager"
 #~ msgstr "Menadżera sesëji"
