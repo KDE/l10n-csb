@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-03 02:46+0100\n"
+"POT-Creation-Date: 2021-02-06 02:22+0100\n"
 "PO-Revision-Date: 2009-12-04 22:09+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -512,7 +512,7 @@ msgstr "Ni mòże winstalowac '%1'"
 msgid "Get Hot New Stuff!"
 msgstr "Pòbierzë nowé paczétë!"
 
-#: downloadwidget.cpp:263 qtquick/qml/Page.qml:199
+#: downloadwidget.cpp:263
 #, kde-format
 msgid "Icons view mode"
 msgstr ""
@@ -541,7 +541,7 @@ msgstr "Dowòznik:"
 
 #. i18n: ectx: property (text), widget (QLabel, m_categoryLabel)
 #. i18n: ectx: property (text), widget (QLabel, mCategoryLabel)
-#: downloadwidget.ui:71 uploaddialog.ui:304
+#: downloadwidget.ui:71 qtquick/qml/Page.qml:347 uploaddialog.ui:304
 #, kde-format
 msgid "Category:"
 msgstr "Kategòrëjô:"
@@ -560,13 +560,13 @@ msgid "Newest"
 msgstr "Nowòsc"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ratingRadio)
-#: downloadwidget.ui:110
+#: downloadwidget.ui:110 qtquick/qml/Page.qml:274
 #, kde-format
 msgid "Rating"
 msgstr "Òbtaksowanié"
 
 #. i18n: ectx: property (text), widget (QRadioButton, installedRadio)
-#: downloadwidget.ui:117
+#: downloadwidget.ui:117 qtquick/qml/Page.qml:223
 #, kde-format
 msgid "Installed"
 msgstr "Instalacëjô"
@@ -584,7 +584,7 @@ msgid "Search:"
 msgstr "Szëkba:"
 
 #. i18n: ectx: property (placeholderText), widget (KLineEdit, m_searchEdit)
-#: downloadwidget.ui:217 qtquick/qml/Page.qml:213
+#: downloadwidget.ui:217 qtquick/qml/Page.qml:327 qtquick/qml/Page.qml:332
 #, fuzzy, kde-format
 #| msgid "&Search"
 msgid "Search..."
@@ -976,7 +976,7 @@ msgctxt "List option which will set the filter to show everything"
 msgid "Show Everything"
 msgstr ""
 
-#: qtquick/qml/NewStuffList.qml:69 qtquick/qml/Page.qml:253
+#: qtquick/qml/NewStuffList.qml:69
 #, fuzzy, kde-format
 #| msgid "Install"
 msgctxt ""
@@ -984,7 +984,7 @@ msgctxt ""
 msgid "Installed Only"
 msgstr "Instalëjë"
 
-#: qtquick/qml/NewStuffList.qml:70 qtquick/qml/Page.qml:254
+#: qtquick/qml/NewStuffList.qml:70
 #, kde-format
 msgctxt ""
 "List option which will set the filter so only installed items with updates "
@@ -1034,62 +1034,124 @@ msgid ""
 "not be found."
 msgstr ""
 
-#: qtquick/qml/Page.qml:190
+#: qtquick/qml/Page.qml:176
+#, fuzzy, kde-format
+#| msgid "File"
+msgid "Tiles"
+msgstr "Lopk"
+
+#: qtquick/qml/Page.qml:178
 #, kde-format
-msgid "Tiles view mode"
+msgid "Icons"
+msgstr "Ikònë"
+
+#: qtquick/qml/Page.qml:180
+#, fuzzy, kde-format
+#| msgid "Previews"
+msgid "Preview"
+msgstr "Pòdzérczi"
+
+#: qtquick/qml/Page.qml:195
+#, kde-format
+msgid "Detailed Tiles View Mode"
 msgstr ""
 
-#: qtquick/qml/Page.qml:208
+#: qtquick/qml/Page.qml:203
+#, fuzzy, kde-format
+#| msgid "Icons Only"
+msgid "Icons Only View Mode"
+msgstr "Blós ikonë"
+
+#: qtquick/qml/Page.qml:211
 #, fuzzy, kde-format
 #| msgid "Preview Image:"
-msgid "Preview view mode"
+msgid "Large Preview View Mode"
 msgstr "Pòdzerk òbrôzka:"
 
-#: qtquick/qml/Page.qml:234
-#, fuzzy, kde-format
-#| msgid "Show %1"
-msgid "Show:"
-msgstr "Pòkôżë %1"
-
-#: qtquick/qml/Page.qml:252
+#: qtquick/qml/Page.qml:221
 #, kde-format
-msgctxt "List option which will set the filter to show everything"
 msgid "Everything"
 msgstr ""
 
-#: qtquick/qml/Page.qml:266
+#: qtquick/qml/Page.qml:225
+#, fuzzy, kde-format
+#| msgid "Update"
+msgid "Updateable"
+msgstr "Aktualizëjë"
+
+#: qtquick/qml/Page.qml:244
+#, fuzzy, kde-format
+#| msgid "All Categories"
+msgctxt "List option which will set the filter to show everything"
+msgid "Show All Entries"
+msgstr "Wszëtczé kategòrëje"
+
+#: qtquick/qml/Page.qml:252
+#, kde-format
+msgctxt ""
+"List option which will set the filter so only installed items are shown"
+msgid "Show Only Installed Entries"
+msgstr ""
+
+#: qtquick/qml/Page.qml:260
+#, kde-format
+msgctxt ""
+"List option which will set the filter so only installed items with updates "
+"available are shown"
+msgid "Show Only Updateable Entries"
+msgstr ""
+
+#: qtquick/qml/Page.qml:270
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Open Recent"
+msgid "Recent"
+msgstr "Òtemkni wczasniészi"
+
+#: qtquick/qml/Page.qml:272
+#, kde-format
+msgid "Alphabetical"
+msgstr ""
+
+#: qtquick/qml/Page.qml:276
+#, fuzzy, kde-format
+#| msgid "Download"
+msgid "Downloads"
+msgstr "Ladëjë"
+
+#: qtquick/qml/Page.qml:295
 #, fuzzy, kde-format
 #| msgid "Show directories first"
 msgctxt ""
 "List option which will set the sort order to based on when items were most "
 "recently updated"
-msgid "Most recent first"
+msgid "Show Most Recent First"
 msgstr "Pòkôżë wprzód katalodżi"
 
-#: qtquick/qml/Page.qml:267
+#: qtquick/qml/Page.qml:303
 #, kde-format
 msgctxt ""
 "List option which will set the sort order to be alphabetical based on the "
 "name"
-msgid "A-Z"
+msgid "Sort Alphabetically By Name"
 msgstr ""
 
-#: qtquick/qml/Page.qml:268
+#: qtquick/qml/Page.qml:311
 #, fuzzy, kde-format
 #| msgid "Show directories first"
 msgctxt "List option which will set the sort order to based on user ratings"
-msgid "Highest rated first"
+msgid "Show Highest Rated First"
 msgstr "Pòkôżë wprzód katalodżi"
 
-#: qtquick/qml/Page.qml:269
+#: qtquick/qml/Page.qml:319
 #, fuzzy, kde-format
 #| msgid "Most Downloads"
 msgctxt ""
 "List option which will set the sort order to based on number of downloads"
-msgid "Most downloaded first"
+msgid "Show Most Downloaded First"
 msgstr "Nôczãsci zladowóné"
 
-#: qtquick/qml/Page.qml:344
+#: qtquick/qml/Page.qml:426
 #, fuzzy, kde-format
 #| msgid "Loading preview..."
 msgctxt ""
@@ -1097,7 +1159,7 @@ msgctxt ""
 msgid "Loading more..."
 msgstr "Ladëje pòdzérk..."
 
-#: qtquick/qml/Page.qml:355
+#: qtquick/qml/Page.qml:437
 #, kde-format
 msgctxt ""
 "A message shown when there are no entries in the list, and when it is not "
@@ -1716,6 +1778,32 @@ msgid "Start Upload"
 msgstr "Naczni zamianã"
 
 #, fuzzy
+#~| msgid "Show %1"
+#~ msgid "Show:"
+#~ msgstr "Pòkôżë %1"
+
+#, fuzzy
+#~| msgid "Show directories first"
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on when items were "
+#~ "most recently updated"
+#~ msgid "Most recent first"
+#~ msgstr "Pòkôżë wprzód katalodżi"
+
+#, fuzzy
+#~| msgid "Show directories first"
+#~ msgctxt "List option which will set the sort order to based on user ratings"
+#~ msgid "Highest rated first"
+#~ msgstr "Pòkôżë wprzód katalodżi"
+
+#, fuzzy
+#~| msgid "Most Downloads"
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on number of downloads"
+#~ msgid "Most downloaded first"
+#~ msgstr "Nôczãsci zladowóné"
+
+#, fuzzy
 #~| msgctxt ""
 #~| "Label showing the file name of a file that is about to be uploaded"
 #~| msgid "Uploading: %1"
@@ -1727,13 +1815,6 @@ msgstr "Naczni zamianã"
 #~ msgctxt "Show a page with details for this item"
 #~ msgid "Details..."
 #~ msgstr "Detale..."
-
-#, fuzzy
-#~| msgid "All Categories"
-#~ msgctxt ""
-#~ "The first entry in the category selection list (also the default value)"
-#~ msgid "Show All Categories"
-#~ msgstr "Wszëtczé kategòrëje"
 
 #~ msgid "Enter search phrase here"
 #~ msgstr "Wpiszë tuwò szëkóny tekst"
@@ -2566,9 +2647,6 @@ msgstr "Naczni zamianã"
 
 #~ msgid "HTML documentation"
 #~ msgstr "Dokùmentacëjô HTML"
-
-#~ msgid "Icons"
-#~ msgstr "Ikònë"
 
 #~ msgid "Configuration description files"
 #~ msgstr "Òpisënczi kònfigùracjowëch lopków"
@@ -6487,10 +6565,6 @@ msgstr "Naczni zamianã"
 #~ msgstr "Pòstãpny element w lësce"
 
 #~ msgctxt "@action"
-#~ msgid "Open Recent"
-#~ msgstr "Òtemkni wczasniészi"
-
-#~ msgctxt "@action"
 #~ msgid "Save As"
 #~ msgstr "Zapiszë jaknò"
 
@@ -8219,9 +8293,6 @@ msgstr "Naczni zamianã"
 #~ msgid "Text Position"
 #~ msgstr "Pòłożenié tekstu"
 
-#~ msgid "Icons Only"
-#~ msgstr "Blós ikonë"
-
 #~ msgid "Text Only"
 #~ msgstr "Blós tekst"
 
@@ -8560,9 +8631,6 @@ msgstr "Naczni zamianã"
 
 #~ msgid "Missing Plugin"
 #~ msgstr "Felëjący wtëkôcz"
-
-#~ msgid "Download"
-#~ msgstr "Ladëjë"
 
 #~ msgid "Do Not Download"
 #~ msgstr "Nie ladëjë"
@@ -10839,12 +10907,6 @@ msgstr "Naczni zamianã"
 #~ msgstr "Dzejanié"
 
 #, fuzzy
-#~| msgid "File"
-#~ msgctxt "@option:check Do filter on type - show only files"
-#~ msgid "Files"
-#~ msgstr "Lopk"
-
-#, fuzzy
 #~| msgctxt "@item Text character set"
 #~| msgid "Other"
 #~ msgctxt "@option:check Do filter on type - show everything but files"
@@ -11119,11 +11181,6 @@ msgstr "Naczni zamianã"
 
 #~ msgid "Community"
 #~ msgstr "Spòlëzna"
-
-#, fuzzy
-#~| msgid "Previews"
-#~ msgid "Preview"
-#~ msgstr "Pòdzérczi"
 
 #, fuzzy
 #~| msgid "BSD"
