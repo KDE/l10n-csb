@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-01 03:12+0100\n"
+"POT-Creation-Date: 2021-03-03 03:35+0100\n"
 "PO-Revision-Date: 2009-12-19 02:07+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -137,7 +137,7 @@ msgstr "(nigdë)"
 msgid "Error"
 msgstr ""
 
-#: kateconfigdialog.cpp:90 kateconfigdialog.cpp:439
+#: kateconfigdialog.cpp:90 kateconfigdialog.cpp:438
 #, kde-format
 msgid "Warning"
 msgstr ""
@@ -154,8 +154,8 @@ msgstr ""
 
 #: kateconfigdialog.cpp:96
 #, kde-format
-msgid "Wa&rn about files modified by foreign processes"
-msgstr "Òst&rzégôj ò zmienionëch przez bùtnowé procesë lopkach."
+msgid "Use a separate &dialog for handling externally modified files"
+msgstr ""
 
 #: kateconfigdialog.cpp:99
 #, fuzzy, kde-format
@@ -165,92 +165,91 @@ msgstr "Òst&rzégôj ò zmienionëch przez bùtnowé procesë lopkach."
 #| "be asked what to do with a file that has been modified on the hard disk "
 #| "only when that file gains focus inside Kate."
 msgid ""
-"If enabled, when Kate receives focus you will be asked what to do with files "
-"that have been modified on the hard disk. If not enabled, you will be asked "
-"what to do with a file that has been modified on the hard disk only when "
-"that file is tried to be saved."
+"If enabled, a modal dialog will be used to show all of the modified files. "
+"If not enabled, you will be individually asked what to do for each modified "
+"file only when that file's view receives focus."
 msgstr ""
 "Jeżlë na òtacëjô je włączonô, bãdzesz pëtóny co zrobic ze zmienionëma na "
 "diskù lopkama, czéj programa Kate bãdze aktiwnô. Jeżlë bãdze na òptacëjô "
 "wëłączonô, òstóniesz pëtóny blós przë wëbraniém dokùmentu w Kate."
 
-#: kateconfigdialog.cpp:110
+#: kateconfigdialog.cpp:109
 #, fuzzy, kde-format
 #| msgid "Show Side&bars"
 msgid "&Tabs"
 msgstr "&Pòkôżë bòczné lëstwë"
 
-#: kateconfigdialog.cpp:114
+#: kateconfigdialog.cpp:113
 #, kde-format
 msgid "&Limit number of tabs:"
 msgstr ""
 
-#: kateconfigdialog.cpp:120
+#: kateconfigdialog.cpp:119
 #, kde-format
 msgid "Unlimited"
 msgstr ""
 
-#: kateconfigdialog.cpp:125
+#: kateconfigdialog.cpp:124
 #, kde-format
 msgid "&Show close button"
 msgstr ""
 
-#: kateconfigdialog.cpp:127
+#: kateconfigdialog.cpp:126
 #, kde-format
 msgid "When checked each tab will display a close button."
 msgstr ""
 
-#: kateconfigdialog.cpp:131
+#: kateconfigdialog.cpp:130
 #, kde-format
 msgid "&Expand tabs"
 msgstr ""
 
-#: kateconfigdialog.cpp:133
+#: kateconfigdialog.cpp:132
 #, kde-format
 msgid "When checked tabs take as much size as possible."
 msgstr ""
 
-#: kateconfigdialog.cpp:137
+#: kateconfigdialog.cpp:136
 #, fuzzy, kde-format
 #| msgid "Create a new document"
 msgid "&Double click opens a new document"
 msgstr "Ùsôdzë nowi dokùment"
 
-#: kateconfigdialog.cpp:139
+#: kateconfigdialog.cpp:138
 #, kde-format
 msgid "When checked double click opens a new document."
 msgstr ""
 
-#: kateconfigdialog.cpp:143
+#: kateconfigdialog.cpp:142
 #, fuzzy, kde-format
 #| msgid "Close all open documents."
 msgid "&Middle click closes a document"
 msgstr "Zamkni wszëtczé dokùmentë"
 
-#: kateconfigdialog.cpp:145
+#: kateconfigdialog.cpp:144
 #, kde-format
 msgid "When checked middle click closes a document."
 msgstr ""
 
-#: kateconfigdialog.cpp:160
+#: kateconfigdialog.cpp:159
 #, fuzzy, kde-format
 #| msgid "Sessions"
 msgid "Session"
 msgstr "Sesëje"
 
-#: kateconfigdialog.cpp:161
+#: kateconfigdialog.cpp:160
 #, kde-format
 msgid "Session Management"
 msgstr "Sprôwianié sesëjama"
 
-#: kateconfigdialog.cpp:172
+#: kateconfigdialog.cpp:171
 #, fuzzy, kde-format
 #| msgid "(never)"
 msgctxt "The special case of 'Delete unused meta-information after'"
 msgid "(never)"
 msgstr "(nigdë)"
 
-#: kateconfigdialog.cpp:173
+#: kateconfigdialog.cpp:172
 #, kde-format
 msgctxt "The suffix of 'Delete unused meta-information after'"
 msgid " day"
@@ -259,22 +258,22 @@ msgstr[0] " dzéń"
 msgstr[1] " dni"
 msgstr[2] " dniów"
 
-#: kateconfigdialog.cpp:216
+#: kateconfigdialog.cpp:215
 #, kde-format
 msgid "Plugins"
 msgstr "Wtëkôczë"
 
-#: kateconfigdialog.cpp:217
+#: kateconfigdialog.cpp:216
 #, kde-format
 msgid "Plugin Manager"
 msgstr "Menadżera wtëkôczów"
 
-#: kateconfigdialog.cpp:235 kateconfigdialog.cpp:236
+#: kateconfigdialog.cpp:234 kateconfigdialog.cpp:235
 #, kde-format
 msgid "User Feedback"
 msgstr ""
 
-#: kateconfigdialog.cpp:438
+#: kateconfigdialog.cpp:437
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p>The document '%1' has been modified, but not saved.</p><p>Do you want "
@@ -1917,6 +1916,9 @@ msgstr "Zatrzëmôj &dodôwną wëdowiédzã midzë sesëjama"
 #| msgid "&Delete unused meta-information after:"
 msgid "Delete unused meta-information after:"
 msgstr "&Rëmôj nie ùżëwaną dodôwna wëdowiédzã pò:"
+
+#~ msgid "Wa&rn about files modified by foreign processes"
+#~ msgstr "Òst&rzégôj ò zmienionëch przez bùtnowé procesë lopkach."
 
 #~ msgid "Application '%1' not found."
 #~ msgstr "Aplikacëjô '%1' nie òstała nalazłô."
