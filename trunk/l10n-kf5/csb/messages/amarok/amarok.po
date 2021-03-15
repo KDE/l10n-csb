@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-14 17:29+0000\n"
+"POT-Creation-Date: 2021-03-15 03:04+0100\n"
 "PO-Revision-Date: 2009-12-21 00:36+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -296,11 +296,11 @@ msgstr ""
 msgid "Visit contributor's StackOverflow profile"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QTableWidget, serverList)
-#. i18n: ectx: property (text), widget (QLabel, labelName)
+#. i18n: ectx: property (text), widget (QLabel, m_textLabel)
 #. i18n: ectx: property (text), widget (QTreeWidget, requestDetails)
 #. i18n: ectx: property (text), widget (QTreeWidget, responseDetails)
-#. i18n: ectx: property (text), widget (QLabel, m_textLabel)
+#. i18n: ectx: property (text), widget (QLabel, labelName)
+#. i18n: ectx: property (text), widget (QTableWidget, serverList)
 #: aboutdialog/OcsPersonItem.ui:137 amarokurls/BookmarkModel.cpp:258
 #: browsers/playlistbrowser/PlaylistBrowserModel.cpp:397
 #: network/NetworkRequests.ui:89 network/NetworkRequests.ui:103
@@ -614,8 +614,8 @@ msgstr "Kòntekst"
 msgid "Play the first run jingle"
 msgstr "Òptacëje listë graniô"
 
-#. i18n: ectx: label, entry, group (General Options)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AnimateAppletCollapse)
+#. i18n: ectx: label, entry, group (General Options)
 #: amarokconfig.kcfg:116 configdialog/dialogs/GeneralConfig.ui:61
 #, kde-format
 msgid "Enable context applets collapse animations"
@@ -1139,15 +1139,15 @@ msgid ""
 "and Center."
 msgstr ""
 
-#. i18n: ectx: label, entry, group (OSD)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_OsdHideOnFullscreen)
+#. i18n: ectx: label, entry, group (OSD)
 #: amarokconfig.kcfg:366 configdialog/dialogs/NotificationsConfig.ui:264
 #, kde-format
 msgid "Don't show when a fullscreen application is active"
 msgstr ""
 
-#. i18n: ectx: whatsthis, entry, group (OSD)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_OsdHideOnFullscreen)
+#. i18n: ectx: whatsthis, entry, group (OSD)
 #: amarokconfig.kcfg:367 configdialog/dialogs/NotificationsConfig.ui:261
 #, kde-format
 msgid ""
@@ -1305,10 +1305,10 @@ msgstr "Miono brëkòwnika"
 msgid "The username to use for connecting to Audioscrobbler"
 msgstr ""
 
-#. i18n: ectx: label, entry, group (Scrobbler)
-#. i18n: ectx: property (text), widget (QTableWidget, serverList)
-#. i18n: ectx: property (text), widget (QLabel, labelPassword)
 #. i18n: ectx: property (text), widget (QLabel, m_passwordLabel)
+#. i18n: ectx: property (text), widget (QLabel, labelPassword)
+#. i18n: ectx: property (text), widget (QTableWidget, serverList)
+#. i18n: ectx: label, entry, group (Scrobbler)
 #: amarokconfig.kcfg:457 importers/amarok/AmarokConfigWidget.ui:38
 #: importers/fastforward/FastForwardConfigWidget.ui:46
 #: services/ampache/AmpacheConfigWidget.ui:68
@@ -3130,8 +3130,8 @@ msgstr "Pòrt"
 msgid "Enter the port number to access the server. Default is port 3306.\n"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, labelUsername)
 #. i18n: ectx: property (text), widget (QLabel, label_User)
+#. i18n: ectx: property (text), widget (QLabel, labelUsername)
 #: configdialog/dialogs/DatabaseConfig.ui:101
 #: services/gpodder/GpodderConfigWidget.ui:32
 #: services/lastfm/LastFmConfigWidget.ui:54
@@ -3145,8 +3145,8 @@ msgstr "&Miono brëkòwnika"
 msgid "Enter the password for the default user.\n"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, labelPassword)
 #. i18n: ectx: property (text), widget (QLabel, label_Password)
+#. i18n: ectx: property (text), widget (QLabel, labelPassword)
 #: configdialog/dialogs/DatabaseConfig.ui:134
 #: services/gpodder/GpodderConfigWidget.ui:45
 #: services/lastfm/LastFmConfigWidget.ui:67
@@ -3582,8 +3582,8 @@ msgstr ""
 msgid "Use &On-Screen-Display"
 msgstr "&Brëkùjë wëskrzëniwaniô-na-ekranie (OSD)"
 
-#. i18n: ectx: property (text), widget (QLabel, fadeoutLengthLabel)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: ectx: property (text), widget (QLabel, fadeoutLengthLabel)
 #: configdialog/dialogs/NotificationsConfig.ui:43
 #: configdialog/dialogs/PlaybackConfig.ui:95
 #, kde-format
@@ -3606,8 +3606,8 @@ msgstr ""
 msgid "Forever"
 msgstr "Wiedno"
 
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_FadeoutLength)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_OsdDuration)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_FadeoutLength)
 #: configdialog/dialogs/NotificationsConfig.ui:74
 #: configdialog/dialogs/PlaybackConfig.ui:114
 #, kde-format
@@ -4298,16 +4298,16 @@ msgstr "Farwa tekstu"
 msgid "Replace downloaded label"
 msgstr "&Zladëjë epizod"
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, replaceLabel2)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
 #: context/applets/labels/labelsReplacementSettings.ui:36
 #: dialogs/OrganizeCollectionOptions.ui:178
 #, kde-format
 msgid "with"
 msgstr "z"
 
-#. i18n: ectx: property (text), widget (QPushButton, addPushButton)
 #. i18n: ectx: property (text), widget (QPushButton, addButton)
+#. i18n: ectx: property (text), widget (QPushButton, addPushButton)
 #: context/applets/labels/labelsReplacementSettings.ui:69
 #: dialogs/TagDialogBase.ui:1005
 #, kde-format
@@ -4409,8 +4409,8 @@ msgstr "Nie je nalazłô niżódnô òbkłôdka"
 msgid "Suggestions: "
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, titleLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_21)
+#. i18n: ectx: property (text), widget (QLabel, titleLabel)
 #: context/applets/lyrics/package/contents/ui/main.qml:122
 #: dialogs/TagGuessOptions.ui:101 services/opmldirectory/AddOpmlWidget.ui:78
 #, fuzzy, kde-format
@@ -4955,9 +4955,9 @@ msgstr "Miono:"
 msgid "City:"
 msgstr "Z:"
 
-#. i18n: ectx: property (text), widget (QLabel, UrlLabel)
 #. i18n: ectx: property (text), widget (QLabel, urlLabel)
 #. i18n: ectx: property (text), widget (QLabel, m_urlLabel)
+#. i18n: ectx: property (text), widget (QLabel, UrlLabel)
 #: context/applets/upcomingevents/upcomingEventsVenueSettings.ui:223
 #: core-impl/podcasts/sql/PodcastSettingsBase.ui:52
 #: services/opmldirectory/AddOpmlWidget.ui:65
@@ -7816,12 +7816,6 @@ msgctxt "h for hours"
 msgid "%1h"
 msgstr "%1h"
 
-#. i18n: ectx: property (text), widget (QLabel, qLabel_collection)
-#. i18n: ectx: property (text), widget (QLabel, qLabel_length)
-#. i18n: ectx: property (text), widget (QLabel, qLabel_bitrate)
-#. i18n: ectx: property (text), widget (QLabel, qLabel_samplerate)
-#. i18n: ectx: property (text), widget (QLabel, qLabel_size)
-#. i18n: ectx: property (text), widget (QLabel, qLabel_playcount)
 #. i18n: ectx: property (text), widget (QLabel, eqPreampValue)
 #. i18n: ectx: property (text), widget (QLabel, eqBand0Value)
 #. i18n: ectx: property (text), widget (QLabel, eqBand1Value)
@@ -7833,6 +7827,12 @@ msgstr "%1h"
 #. i18n: ectx: property (text), widget (QLabel, eqBand7Value)
 #. i18n: ectx: property (text), widget (QLabel, eqBand8Value)
 #. i18n: ectx: property (text), widget (QLabel, eqBand9Value)
+#. i18n: ectx: property (text), widget (QLabel, qLabel_collection)
+#. i18n: ectx: property (text), widget (QLabel, qLabel_length)
+#. i18n: ectx: property (text), widget (QLabel, qLabel_bitrate)
+#. i18n: ectx: property (text), widget (QLabel, qLabel_samplerate)
+#. i18n: ectx: property (text), widget (QLabel, qLabel_size)
+#. i18n: ectx: property (text), widget (QLabel, qLabel_playcount)
 #: core/support/Amarok.cpp:133 dialogs/EqualizerDialog.ui:122
 #: dialogs/EqualizerDialog.ui:132 dialogs/EqualizerDialog.ui:142
 #: dialogs/EqualizerDialog.ui:152 dialogs/EqualizerDialog.ui:162
@@ -9309,8 +9309,8 @@ msgstr "&Zaktualni wszëtkò"
 msgid "Exit without saving"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, cancelButton)
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_cancel)
+#. i18n: ectx: property (text), widget (QPushButton, cancelButton)
 #: dialogs/MusicBrainzTagger.ui:68 dialogs/TagDialogBase.ui:1146
 #: services/magnatune/MagnatuneRedownloadDialogBase.ui:36
 #, fuzzy, kde-format
@@ -9423,8 +9423,8 @@ msgid ""
 "on their metadata.</html>"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QToolButton, optionsButton)
 #. i18n: ectx: property (title), widget (QGroupBox, optionsFrame)
+#. i18n: ectx: property (text), widget (QToolButton, optionsButton)
 #: dialogs/OrganizeCollectionDialogBase.ui:64 dialogs/TagGuessOptions.ui:17
 #: dialogs/transferdialog.cpp:126
 #, kde-format
@@ -10794,9 +10794,9 @@ msgctxt "Database type"
 msgid "external"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QTableWidget, serverList)
-#. i18n: ectx: property (text), widget (QLabel, labelUsername)
 #. i18n: ectx: property (text), widget (QLabel, m_usernameLabel)
+#. i18n: ectx: property (text), widget (QLabel, labelUsername)
+#. i18n: ectx: property (text), widget (QTableWidget, serverList)
 #: importers/amarok/AmarokConfigWidget.ui:9
 #: importers/fastforward/FastForwardConfigWidget.ui:17
 #: services/ampache/AmpacheConfigWidget.ui:63
@@ -13342,9 +13342,9 @@ msgid ""
 "specify is 24 hours."
 msgstr ""
 
-#. i18n: ectx: property (displayFormat), widget (QTimeEdit, timeEdit_Duration)
-#. i18n: ectx: property (displayFormat), widget (QTimeEdit, timeEdit_TimeValue)
 #. i18n: ectx: property (displayFormat), widget (QTimeEdit, timeEdit_Position)
+#. i18n: ectx: property (displayFormat), widget (QTimeEdit, timeEdit_TimeValue)
+#. i18n: ectx: property (displayFormat), widget (QTimeEdit, timeEdit_Duration)
 #: playlistgenerator/constraints/CheckpointEditWidget.ui:72
 #: playlistgenerator/constraints/PlaylistDurationEditWidget.ui:65
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:507
@@ -13380,12 +13380,12 @@ msgstr ""
 msgid "Match:"
 msgstr "datumë"
 
+#. i18n: ectx: property (text), widget (QLabel, label_FuzzyPos)
 #. i18n: ectx: property (text), widget (QLabel, label_Fuzzy)
 #. i18n: ectx: property (text), widget (QLabel, label_FuzzyInt)
 #. i18n: ectx: property (text), widget (QLabel, label_FuzzyDate)
 #. i18n: ectx: property (text), widget (QLabel, label_FuzzyTime)
 #. i18n: ectx: property (text), widget (QLabel, label_FuzzyRating)
-#. i18n: ectx: property (text), widget (QLabel, label_FuzzyPos)
 #: playlistgenerator/constraints/CheckpointEditWidget.ui:122
 #: playlistgenerator/constraints/PlaylistDurationEditWidget.ui:109
 #: playlistgenerator/constraints/PlaylistFileSizeEditWidget.ui:135
@@ -13398,12 +13398,12 @@ msgstr "datumë"
 msgid "fuzzy"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, label_ExactPos)
 #. i18n: ectx: property (text), widget (QLabel, label_Exact)
 #. i18n: ectx: property (text), widget (QLabel, label_ExactInt)
 #. i18n: ectx: property (text), widget (QLabel, label_ExactDate)
 #. i18n: ectx: property (text), widget (QLabel, label_ExactTime)
 #. i18n: ectx: property (text), widget (QLabel, label_ExactRating)
-#. i18n: ectx: property (text), widget (QLabel, label_ExactPos)
 #: playlistgenerator/constraints/CheckpointEditWidget.ui:154
 #: playlistgenerator/constraints/PlaylistDurationEditWidget.ui:135
 #: playlistgenerator/constraints/PlaylistFileSizeEditWidget.ui:161
@@ -13569,8 +13569,8 @@ msgstr "Dodôj do lëstë graniô"
 msgid "Total file size of playlist: unknown"
 msgstr "Dodôj do lëstë graniô"
 
-#. i18n: ectx: property (whatsThis), widget (QWidget, PlaylistFileSizeEditWidget)
 #. i18n: ectx: property (whatsThis), widget (QWidget, PlaylistLengthEditWidget)
+#. i18n: ectx: property (whatsThis), widget (QWidget, PlaylistFileSizeEditWidget)
 #: playlistgenerator/constraints/PlaylistFileSizeEditWidget.ui:15
 #: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:15
 #, kde-format
@@ -13596,10 +13596,10 @@ msgid ""
 "than, equal to, or more than the specified value."
 msgstr ""
 
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Comparison)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonInt)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonTime)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonRating)
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Comparison)
 #: playlistgenerator/constraints/PlaylistFileSizeEditWidget.ui:39
 #: playlistgenerator/constraints/TagMatch.cpp:342
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:113
@@ -14769,8 +14769,8 @@ msgstr "Serwera"
 msgid "Remove Server"
 msgstr "Rëmôj aplet"
 
-#. i18n: ectx: property (text), widget (QTableWidget, serverList)
 #. i18n: ectx: property (text), widget (QLabel, labelServerAddress)
+#. i18n: ectx: property (text), widget (QTableWidget, serverList)
 #: services/ampache/AmpacheConfigWidget.ui:58
 #: services/ampache/NewServerWidget.ui:27
 #, fuzzy, kde-format
@@ -15685,8 +15685,8 @@ msgid ""
 "updates and download them automatically."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, autoUpdate)
 #. i18n: ectx: property (text), widget (QCheckBox, autoUpdateDatabase)
+#. i18n: ectx: property (text), widget (QCheckBox, autoUpdate)
 #: services/magnatune/MagnatuneConfigWidget.ui:33
 #: services/magnatune/MagnatuneNeedUpdateWidget.ui:32
 #, fuzzy, kde-format
