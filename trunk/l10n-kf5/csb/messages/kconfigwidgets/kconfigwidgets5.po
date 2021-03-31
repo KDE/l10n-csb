@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-28 02:21+0100\n"
+"POT-Creation-Date: 2021-03-31 00:15+0000\n"
 "PO-Revision-Date: 2009-12-04 22:09+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -71,6 +71,34 @@ msgstr "Schemë skrodzënów"
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "Kònfigùracëjô"
+
+#: khamburgermenu.cpp:126
+#, fuzzy, kde-format
+#| msgctxt "keyboard-key-name"
+#| msgid "Menu"
+msgctxt "@action:inmenu General purpose menu"
+msgid "&Menu"
+msgstr "Menu"
+
+#: khamburgermenu.cpp:337
+#, fuzzy, kde-format
+#| msgid "Shortcut(s) '%1' for action '%2'\n"
+msgctxt "@action:inmenu A menu text advertising its contents (more features)."
+msgid "For %1 more action:"
+msgid_plural "For %1 more actions:"
+msgstr[0] "Skrodzëna(ë) '%1' dlô dzejaniô '%2'\n"
+msgstr[1] "Skrodzëna(ë) '%1' dlô dzejaniô '%2'\n"
+msgstr[2] "Skrodzëna(ë) '%1' dlô dzejaniô '%2'\n"
+
+#: khamburgermenu.cpp:340
+#, kde-format
+msgctxt ""
+"@action:inmenu A section heading advertising the contents of the menu bar"
+msgid "%1 Menu Bar Exclusive Action"
+msgid_plural "%1 Menu Bar Exclusive Actions"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: krecentfilesaction.cpp:68
 #, kde-format
@@ -643,6 +671,12 @@ msgstr ""
 #, kde-format
 msgid "&Donate"
 msgstr ""
+
+#: kstandardaction_p.h:114
+#, fuzzy, kde-format
+#| msgid "Open &Recent"
+msgid "Open &Menu"
+msgstr "Òtemkni wcza&sniészi"
 
 #: ktipdialog.cpp:217
 #, fuzzy, kde-format
@@ -2662,10 +2696,6 @@ msgstr "&Dali"
 #~ msgctxt "keyboard-key-name"
 #~ msgid "Left"
 #~ msgstr "Lewò"
-
-#~ msgctxt "keyboard-key-name"
-#~ msgid "Menu"
-#~ msgstr "Menu"
 
 #~ msgctxt "keyboard-key-name"
 #~ msgid "Meta"
@@ -6573,11 +6603,6 @@ msgstr "&Dali"
 #~ msgstr[0] "Zwada skrodzëné"
 #~ msgstr[1] "Zwada skrodzëné"
 #~ msgstr[2] "Zwada skrodzëné"
-
-#, fuzzy
-#~| msgid "Shortcut(s) '%1' for action '%2'\n"
-#~ msgid "Shortcut '%1' for action '%2'\n"
-#~ msgstr "Skrodzëna(ë) '%1' dlô dzejaniô '%2'\n"
 
 #, fuzzy
 #~| msgid ""
