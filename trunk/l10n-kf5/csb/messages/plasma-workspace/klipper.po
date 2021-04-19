@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-02 00:19+0000\n"
+"POT-Creation-Date: 2021-04-19 00:21+0000\n"
 "PO-Revision-Date: 2009-12-16 23:31+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -594,14 +594,15 @@ msgstr ""
 msgid "Replay action in history"
 msgstr "Zrëszë z historëji dzejanié znowa"
 
-#: klipperpopup.cpp:72
+#: klipperpopup.cpp:72 tray.cpp:38 tray.cpp:54
 #, kde-format
-msgid "<empty clipboard>"
-msgstr "<pùsti tacnik>"
+msgid "Clipboard is empty"
+msgstr "Tacnik je pùsti"
 
 #: klipperpopup.cpp:73
-#, kde-format
-msgid "<no matches>"
+#, fuzzy, kde-format
+#| msgid "<no matches>"
+msgid "No matches"
 msgstr "<felënk dopasowań>"
 
 #: klipperpopup.cpp:121
@@ -723,11 +724,6 @@ msgstr "&Wicy"
 msgid "Clipboard Contents"
 msgstr "Zatrzëmôj zamkłoscë tacnika"
 
-#: tray.cpp:38 tray.cpp:54
-#, kde-format
-msgid "Clipboard is empty"
-msgstr "Tacnik je pùsti"
-
 #: urlgrabber.cpp:185
 #, kde-format
 msgid "%1 - Actions For: %2"
@@ -742,6 +738,9 @@ msgstr "Wëłączë to òkno"
 #, kde-format
 msgid "&Cancel"
 msgstr "&Anulëjë"
+
+#~ msgid "<empty clipboard>"
+#~ msgstr "<pùsti tacnik>"
 
 #, fuzzy
 #~| msgid ""
