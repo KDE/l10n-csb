@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-05 00:16+0000\n"
+"POT-Creation-Date: 2021-05-07 00:15+0000\n"
 "PO-Revision-Date: 2009-08-03 17:47+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -5191,7 +5191,6 @@ msgstr "Miono serwera"
 #. i18n: ectx: property (text), widget (QPushButton, pbDelete)
 #. i18n: ectx: property (text), widget (QPushButton, deleteButton)
 #: kcms/kio/kcookiesmanagement.ui:56 kcms/kio/kcookiespolicies.ui:190
-#: kcms/kio/useragentdlg.ui:202
 #, kde-format
 msgid "D&elete"
 msgstr "&Rëmôj"
@@ -5199,7 +5198,6 @@ msgstr "&Rëmôj"
 #. i18n: ectx: property (text), widget (QPushButton, pbDeleteAll)
 #. i18n: ectx: property (text), widget (QPushButton, deleteAllButton)
 #: kcms/kio/kcookiesmanagement.ui:63 kcms/kio/kcookiespolicies.ui:197
-#: kcms/kio/useragentdlg.ui:212
 #, kde-format
 msgid "Delete A&ll"
 msgstr "Rë&môj wszëtczé"
@@ -5252,7 +5250,7 @@ msgctxt "@title:window"
 msgid "Duplicate Policy"
 msgstr "Duplikùjë pòlitikã"
 
-#: kcms/kio/kcookiespolicies.cpp:208 kcms/kio/useragentdlg.cpp:174
+#: kcms/kio/kcookiespolicies.cpp:208
 #, kde-format
 msgid "Replace"
 msgstr "Zastãpi"
@@ -5553,17 +5551,13 @@ msgid "Domain"
 msgstr "Domena"
 
 #. i18n: ectx: property (text), widget (QPushButton, pbNew)
-#. i18n: ectx: property (text), widget (QPushButton, newButton)
-#: kcms/kio/kcookiespolicies.ui:176 kcms/kio/useragentdlg.ui:182
-#: urifilters/ikws/ikwsopts_ui.ui:74
+#: kcms/kio/kcookiespolicies.ui:176 urifilters/ikws/ikwsopts_ui.ui:74
 #, kde-format
 msgid "&New..."
 msgstr "&Nowô..."
 
 #. i18n: ectx: property (text), widget (QPushButton, pbChange)
-#. i18n: ectx: property (text), widget (QPushButton, changeButton)
-#: kcms/kio/kcookiespolicies.ui:183 kcms/kio/useragentdlg.ui:192
-#: urifilters/ikws/ikwsopts_ui.ui:87
+#: kcms/kio/kcookiespolicies.ui:183 urifilters/ikws/ikwsopts_ui.ui:87
 #, kde-format
 msgid "Chan&ge..."
 msgstr "&Zmieni..."
@@ -6404,341 +6398,6 @@ msgid ""
 "may not want to do that, as entries with passwords are clearly indicated as "
 "such.</p>"
 msgstr ""
-
-#: kcms/kio/useragentdlg.cpp:82
-#, fuzzy, kde-format
-#| msgid "Add Identification"
-msgctxt "@title:window"
-msgid "Add Identification"
-msgstr "Dodôj identifikacëjã"
-
-#: kcms/kio/useragentdlg.cpp:123
-#, fuzzy, kde-format
-#| msgid "Modify Identification"
-msgctxt "@title:window"
-msgid "Modify Identification"
-msgstr "Zmieni identifikacëjã"
-
-#: kcms/kio/useragentdlg.cpp:169
-#, kde-format
-msgid ""
-"<qt><center>Found an existing identification for<br/><b>%1</b><br/>Do you "
-"want to replace it?</center></qt>"
-msgstr ""
-"<qt> <center>Pòlitika dlô<br/><b>%1</b><br/>òsta ju òpisónô. Zmienic jã?</"
-"center></qt>"
-
-#: kcms/kio/useragentdlg.cpp:174
-#, fuzzy, kde-format
-#| msgid "Duplicate Identification"
-msgctxt "@title:window"
-msgid "Duplicate Identification"
-msgstr "Dëbeltno identifikacëjô"
-
-#: kcms/kio/useragentdlg.cpp:341
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p><h1>Browser Identification</h1> The browser-identification module "
-#| "allows you to have full control over how Konqueror will identify itself "
-#| "to web sites you browse.</p><p>This ability to fake identification is "
-#| "necessary because some web sites do not display properly when they detect "
-#| "that they are not talking to current versions of either Netscape "
-#| "Navigator or Internet Explorer, even if the browser actually supports all "
-#| "the necessary features to render those pages properly. For such sites, "
-#| "you can use this feature to try to browse them. Please understand that "
-#| "this might not always work, since such sites might be using non-standard "
-#| "web protocols and or specifications.</p><p><u>NOTE:</u> To obtain "
-#| "specific help on a particular section of the dialog box, simply click on "
-#| "the quick help button on the window title bar, then click on the section "
-#| "for which you are seeking help.</p>"
-msgid ""
-"<h1>Browser Identification</h1><p>The browser-identification module allows "
-"you to have full control over how KDE applications using the HTTP protocol "
-"(like Konqueror) will identify itself to web sites you browse.</p><p>This "
-"ability to fake identification is necessary because some web sites do not "
-"display properly when they detect that they are not talking to current "
-"versions of either Netscape Navigator or Internet Explorer, even if the "
-"browser actually supports all the necessary features to render those pages "
-"properly. For such sites, you can use this feature to try to browse them. "
-"Please understand that this might not always work, since such sites might be "
-"using non-standard web protocols and or specifications.</p><p><u>NOTE:</u> "
-"To obtain specific help on a particular section of the dialog box, simply "
-"click on the quick help button on the window title bar, then click on the "
-"section for which you are seeking help.</p>"
-msgstr ""
-"<h1>Identifikacëjô przezérnika</h1><p>Dialogòwé òkno inedtifikacëji "
-"przezérnika zezwôlô fùl skòfigùrowac, na jaczi ôrt Konqueror przedstôwiô sã "
-"serwerom WWW.</p><p>Możlëwòta wësłaniô falszëwi identifikacëji je czasã "
-"mùszebnô dlôte, że niejedné witrinë w sécë ni wëskrzëniają starnów pòprôwno, "
-"jak wëkrëją, że nie są sparłãczoné z nowima wersëjama Netscape Navigatora "
-"abò Internet Explorera, nawetka jeżlë przezérnik rozmieje pòprôwno "
-"wëskrzënic taczé starnë. Dlôte dlô taczich witrinów mòże skònfigùrowac swój "
-"identifikùjący tekst. Bòdôj, to nie wiedno sygô, bò taczé serwerë mògą "
-"brëkòwac niesztandardowich protokòlów ë specyfikacëji.</p> <p><u>Bôczënk:</"
-"u> Abë dobëc wicy wëdowiédzë ò òptacëjach w dialogòwim òczénkù, sygnie "
-"klëknąc na knąpã wãzłowati pòmòcë titlowi listwie òczenka, a pòzdze klëknąc "
-"w pasownëm pòlu.</p>"
-
-#. i18n: ectx: property (whatsThis), widget (QWidget, UserAgentUI)
-#: kcms/kio/useragentdlg.ui:17
-#, kde-format
-msgid ""
-"<qt>\n"
-"Here you can modify the default browser-identification text or set a site "
-"<code>(eg. www.kde.org)</code> or a domain <code>(eg. kde.org)</code> "
-"specific identification text.<p>\n"
-"To add a new site-specific identification text, click the <code>New</code> "
-"button and supply the necessary information. To change an existing site-"
-"specific entry, click on the <code>Change</code> button. The <code>Delete</"
-"code> button will remove the selected site-specific identification text, "
-"causing the default setting to be used for that site or domain.\n"
-"</qt>"
-msgstr ""
-"<qt>\n"
-"Tuwò mòże mòdifikòwac domëszlną identifikacëjã przezérnika, abò tã dlô "
-"dónegò serwera, np. <code>www.kde.org</code> abò domenë, np. <code>kde.org</"
-"code>.\n"
-"<p>Bë dodac nową identifikacëjô dla wëbrónegò serwera, je nót klëknąc "
-"<code>Nowô</code> ë wpisac pasowną wëdowiédzã. Bë zmienic identifikacëjãjaką "
-"ju dô, je nót ùżëc knąpë <code>Zmieni</code>. Knapa <code>Rëmôj</code> "
-"zezwôlô rëmnąc identifikacëjã dlô dónegò serwera abò domenëy.\n"
-"</qt>"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, sendUACheckBox)
-#: kcms/kio/useragentdlg.ui:27
-#, kde-format
-msgid ""
-"<qt>\n"
-"Send the browser identification to web sites.<p>\n"
-"<u>NOTE:</u> Many sites rely on this information to display pages properly, "
-"hence, it is highly recommended that you do not totally disable this feature "
-"but rather customize it.<p>\n"
-"By default, only minimal identification information is sent to remote sites. "
-"The identification text that will be sent is shown below.\n"
-"</qt>"
-msgstr ""
-"<qt>\n"
-"Sélôj identifikacëjã przezérnika do serwerów.<p>\n"
-"<u>BÔCZËNK:</u> Wiele serwerów wëmôgô ti wëdowiédzë, bë pòprôwno "
-"przërëchtowac starnã, dlôte lepi je dopasowac sélanié identifikacëji a nié "
-"całowno je wëłączëc.</p><p>Domëszlno sélóné je minimùm identifikùjącëch "
-"wëdowiédzów. Tekst sélóny identifikacëji je wëskrzëniony niżi.</p> </qt>"
-
-#. i18n: ectx: property (text), widget (QCheckBox, sendUACheckBox)
-#: kcms/kio/useragentdlg.ui:30
-#, kde-format
-msgid "&Send identification"
-msgstr "Wëslë &identifikacëjã"
-
-#. i18n: ectx: property (whatsThis), widget (QGroupBox, defaultIdGroupBox)
-#: kcms/kio/useragentdlg.ui:43
-#, kde-format
-msgid ""
-"The browser identification text sent to the sites you visit. Use the "
-"provided options to customize it."
-msgstr ""
-"Tekst identifikacëji przezérnika. Mòże gò zjinaczëc z pòmòcą przëstãpnëch "
-"optacëji."
-
-#. i18n: ectx: property (title), widget (QGroupBox, defaultIdGroupBox)
-#: kcms/kio/useragentdlg.ui:46
-#, kde-format
-msgid "Default Identification"
-msgstr "Domëszlnô identifikacëjô"
-
-#. i18n: ectx: property (whatsThis), widget (KSqueezedTextLabel, defaultIdLineEdit)
-#: kcms/kio/useragentdlg.ui:58
-#, kde-format
-msgid ""
-"The browser identification text sent to the sites you visit. You can "
-"customize it using the options provided below."
-msgstr ""
-"Tekst identifikacëji przezérnika, sélóny do odwiedzónëch serwerów. Mòże gò "
-"zjinaczëc z pòmòcą przëstãpnëch optacëji."
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, osNameCheckBox)
-#: kcms/kio/useragentdlg.ui:71
-#, kde-format
-msgid ""
-"Includes your operating system's name in the browser identification text."
-msgstr "Dodôwô miono òperacjowi systemë do tekstu identifikacëji przezérnika."
-
-#. i18n: ectx: property (text), widget (QCheckBox, osNameCheckBox)
-#: kcms/kio/useragentdlg.ui:74
-#, kde-format
-msgid "Add operating s&ystem name"
-msgstr "Dodôj miono òperacjowi s&ystemë"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, osVersionCheckBox)
-#: kcms/kio/useragentdlg.ui:102
-#, kde-format
-msgid ""
-"Includes your operating system's version number in the browser "
-"identification text."
-msgstr ""
-"Dodôwô wersëjã òperacjowi systemë do tekstu identifikacëji przezérnika."
-
-#. i18n: ectx: property (text), widget (QCheckBox, osVersionCheckBox)
-#: kcms/kio/useragentdlg.ui:105
-#, kde-format
-msgid "Add operating system &version"
-msgstr "Dodôj &wersëjã òperacjowi systemë"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, processorTypeCheckBox)
-#: kcms/kio/useragentdlg.ui:115
-#, kde-format
-msgid "Includes your machine's CPU type in the browser identification text."
-msgstr "Dodôwô ôrt procesora do tekstu identifikacëji przezérnika."
-
-#. i18n: ectx: property (text), widget (QCheckBox, processorTypeCheckBox)
-#: kcms/kio/useragentdlg.ui:118
-#, kde-format
-msgid "Add &machine (processor) type"
-msgstr "Dodôj ôrt &kòmpùtra (procesora)"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, languageCheckBox)
-#: kcms/kio/useragentdlg.ui:127
-#, kde-format
-msgid ""
-"Includes your language settings in the browser identification text to obtain "
-"localized versions of the page."
-msgstr ""
-"Dodôwô jãzëk do tekstu identifikacëji przezérnika, co zezwôlô na ùzwëskanie "
-"przedolmaczony wersëji starnë."
-
-#. i18n: ectx: property (text), widget (QCheckBox, languageCheckBox)
-#: kcms/kio/useragentdlg.ui:130
-#, kde-format
-msgid "Add lang&uage information"
-msgstr "Dodôj nastôw &jãzëka"
-
-#. i18n: ectx: property (title), widget (QGroupBox, domainPolicyGroupBox)
-#: kcms/kio/useragentdlg.ui:143
-#, kde-format
-msgid "Site Specific Identification"
-msgstr "Identifikacëjô dlô wëbranëch serwerów"
-
-#. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
-#: kcms/kio/useragentdlg.ui:156
-#, kde-format
-msgid "Site Name"
-msgstr "Miono serwera"
-
-#. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
-#: kcms/kio/useragentdlg.ui:161
-#, kde-format
-msgid "Identification"
-msgstr "Identifikacëjô"
-
-#. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
-#: kcms/kio/useragentdlg.ui:166
-#, kde-format
-msgid "User Agent"
-msgstr "Przezérnik"
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, newButton)
-#: kcms/kio/useragentdlg.ui:179
-#, kde-format
-msgid "Add new identification text for a site."
-msgstr "Dodôwô nowi tekst identifikacëji. dlô serwera."
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, changeButton)
-#: kcms/kio/useragentdlg.ui:189
-#, kde-format
-msgid "Change the selected identifier text."
-msgstr "Zjinaczô wëbróny tekst identifikacëji."
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, deleteButton)
-#: kcms/kio/useragentdlg.ui:199
-#, kde-format
-msgid "Delete the selected identifier text."
-msgstr "Rëmô wëbróny tekst identifikacëji."
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, deleteAllButton)
-#: kcms/kio/useragentdlg.ui:209
-#, kde-format
-msgid "Delete all identifiers."
-msgstr "Rëmôj wszëtczé tekstë identifikacëji."
-
-#. i18n: ectx: property (whatsThis), widget (QLabel, siteLabel)
-#. i18n: ectx: property (whatsThis), widget (QLineEdit, siteLineEdit)
-#: kcms/kio/useragentselectordlg.ui:19 kcms/kio/useragentselectordlg.ui:38
-#, fuzzy, kde-format
-#| msgid ""
-#| "<qt>\n"
-#| "Enter the site or domain name where a fake browser identification should "
-#| "be used.<p>\n"
-#| "<u>NOTE:</u> Wildcard syntax such as \\\"*,?\\\" is NOT allowed: instead, "
-#| "use the top level address of a site to make generic matches; for example, "
-#| "if you want all KDE sites to receive a fake browser identification, you "
-#| "would enter <code>.kde.org</code> - the fake identity would then be sent "
-#| "to any KDE site that ends with <code>kde.org</code>.\n"
-#| "</qt>"
-msgid ""
-"<qt>\n"
-"Enter the site or domain name where a fake browser identification should be "
-"used.<p>\n"
-"<u>NOTE:</u> Wildcard syntax such as \\\"*,?\\\" is NOT allowed: instead, "
-"use the top level address of a site to make generic matches; for example, if "
-"you want all KDE sites to receive a fake browser identification, you would "
-"enter <code>kde.org</code> - the fake identity would then be sent to any KDE "
-"site that ends with <code>kde.org</code>.</p>\n"
-"</qt>"
-msgstr ""
-"<qt>Pòdôj miono serwera abò domenë, dla jaczich mô bëc przesélónô fałlszëwô "
-"identifikacëjô. <p><u>BÔCZËNK:</u>W mionie NIE mòże ùżëwac masków taczich "
-"jak \"*,?\". W môlu tegò mòże pòdac demenë wëższi równi (krótszą), do jaczi "
-"bãdą pasowac wszëtczé pòddomenë. Na przëmiôr, bë wszëtczé serwerë KDE "
-"dostałë falaszëwą identyfikacëjã, sygnie podac <code>.kde.org</code>. "
-"Falszëwô interpretacëjô òstanie tédë wësłónô do wszëtczich serwerów, jaczich "
-"adresë kùńczą sã na <code>kde.org</code>.\n"
-"</p></qt>"
-
-#. i18n: ectx: property (text), widget (QLabel, siteLabel)
-#: kcms/kio/useragentselectordlg.ui:22
-#, kde-format
-msgid "&When browsing the following site:"
-msgstr "Przë sparłãczeniu &z:"
-
-#. i18n: ectx: property (whatsThis), widget (QLabel, aliasLabel)
-#. i18n: ectx: property (whatsThis), widget (QComboBox, aliasComboBox)
-#: kcms/kio/useragentselectordlg.ui:47 kcms/kio/useragentselectordlg.ui:65
-#, kde-format
-msgid ""
-"<qt>\n"
-"Select the browser identification to use whenever contacting the site you "
-"specified above.\n"
-"</qt>"
-msgstr ""
-"<qt>\n"
-"Wëbierzë identyifkacëjã sélóną do pòdónegò wëżi serwera.\n"
-"</qt>"
-
-#. i18n: ectx: property (text), widget (QLabel, aliasLabel)
-#: kcms/kio/useragentselectordlg.ui:50
-#, kde-format
-msgid "&Use the following identification:"
-msgstr "Brëkùjë nôslédny &identyfikacëji:"
-
-#. i18n: ectx: property (whatsThis), widget (QLabel, identityLabel)
-#. i18n: ectx: property (whatsThis), widget (QLineEdit, identityLineEdit)
-#: kcms/kio/useragentselectordlg.ui:74 kcms/kio/useragentselectordlg.ui:89
-#, kde-format
-msgid ""
-"<qt>\n"
-"The actual browser identification text that will be sent to the remote "
-"machine.\n"
-"</qt>"
-msgstr ""
-"<qt>\n"
-"Tekst identifikacëji przezérnika wësłóny do serwera.\n"
-"</qt>"
-
-#. i18n: ectx: property (text), widget (QLabel, identityLabel)
-#: kcms/kio/useragentselectordlg.ui:77
-#, kde-format
-msgid "Real identification:"
-msgstr "Prôwdzëwô identifikacëjô:"
 
 #: kcms/webshortcuts/main.cpp:29
 #, fuzzy, kde-format
@@ -9619,6 +9278,255 @@ msgstr ""
 #, kde-format
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Add Identification"
+#~ msgctxt "@title:window"
+#~ msgid "Add Identification"
+#~ msgstr "Dodôj identifikacëjã"
+
+#, fuzzy
+#~| msgid "Modify Identification"
+#~ msgctxt "@title:window"
+#~ msgid "Modify Identification"
+#~ msgstr "Zmieni identifikacëjã"
+
+#~ msgid ""
+#~ "<qt><center>Found an existing identification for<br/><b>%1</b><br/>Do you "
+#~ "want to replace it?</center></qt>"
+#~ msgstr ""
+#~ "<qt> <center>Pòlitika dlô<br/><b>%1</b><br/>òsta ju òpisónô. Zmienic jã?</"
+#~ "center></qt>"
+
+#, fuzzy
+#~| msgid "Duplicate Identification"
+#~ msgctxt "@title:window"
+#~ msgid "Duplicate Identification"
+#~ msgstr "Dëbeltno identifikacëjô"
+
+#, fuzzy
+#~| msgid ""
+#~| "<p><h1>Browser Identification</h1> The browser-identification module "
+#~| "allows you to have full control over how Konqueror will identify itself "
+#~| "to web sites you browse.</p><p>This ability to fake identification is "
+#~| "necessary because some web sites do not display properly when they "
+#~| "detect that they are not talking to current versions of either Netscape "
+#~| "Navigator or Internet Explorer, even if the browser actually supports "
+#~| "all the necessary features to render those pages properly. For such "
+#~| "sites, you can use this feature to try to browse them. Please understand "
+#~| "that this might not always work, since such sites might be using non-"
+#~| "standard web protocols and or specifications.</p><p><u>NOTE:</u> To "
+#~| "obtain specific help on a particular section of the dialog box, simply "
+#~| "click on the quick help button on the window title bar, then click on "
+#~| "the section for which you are seeking help.</p>"
+#~ msgid ""
+#~ "<h1>Browser Identification</h1><p>The browser-identification module "
+#~ "allows you to have full control over how KDE applications using the HTTP "
+#~ "protocol (like Konqueror) will identify itself to web sites you browse.</"
+#~ "p><p>This ability to fake identification is necessary because some web "
+#~ "sites do not display properly when they detect that they are not talking "
+#~ "to current versions of either Netscape Navigator or Internet Explorer, "
+#~ "even if the browser actually supports all the necessary features to "
+#~ "render those pages properly. For such sites, you can use this feature to "
+#~ "try to browse them. Please understand that this might not always work, "
+#~ "since such sites might be using non-standard web protocols and or "
+#~ "specifications.</p><p><u>NOTE:</u> To obtain specific help on a "
+#~ "particular section of the dialog box, simply click on the quick help "
+#~ "button on the window title bar, then click on the section for which you "
+#~ "are seeking help.</p>"
+#~ msgstr ""
+#~ "<h1>Identifikacëjô przezérnika</h1><p>Dialogòwé òkno inedtifikacëji "
+#~ "przezérnika zezwôlô fùl skòfigùrowac, na jaczi ôrt Konqueror przedstôwiô "
+#~ "sã serwerom WWW.</p><p>Możlëwòta wësłaniô falszëwi identifikacëji je "
+#~ "czasã mùszebnô dlôte, że niejedné witrinë w sécë ni wëskrzëniają starnów "
+#~ "pòprôwno, jak wëkrëją, że nie są sparłãczoné z nowima wersëjama Netscape "
+#~ "Navigatora abò Internet Explorera, nawetka jeżlë przezérnik rozmieje "
+#~ "pòprôwno wëskrzënic taczé starnë. Dlôte dlô taczich witrinów mòże "
+#~ "skònfigùrowac swój identifikùjący tekst. Bòdôj, to nie wiedno sygô, bò "
+#~ "taczé serwerë mògą brëkòwac niesztandardowich protokòlów ë specyfikacëji."
+#~ "</p> <p><u>Bôczënk:</u> Abë dobëc wicy wëdowiédzë ò òptacëjach w "
+#~ "dialogòwim òczénkù, sygnie klëknąc na knąpã wãzłowati pòmòcë titlowi "
+#~ "listwie òczenka, a pòzdze klëknąc w pasownëm pòlu.</p>"
+
+#~ msgid ""
+#~ "<qt>\n"
+#~ "Here you can modify the default browser-identification text or set a site "
+#~ "<code>(eg. www.kde.org)</code> or a domain <code>(eg. kde.org)</code> "
+#~ "specific identification text.<p>\n"
+#~ "To add a new site-specific identification text, click the <code>New</"
+#~ "code> button and supply the necessary information. To change an existing "
+#~ "site-specific entry, click on the <code>Change</code> button. The "
+#~ "<code>Delete</code> button will remove the selected site-specific "
+#~ "identification text, causing the default setting to be used for that site "
+#~ "or domain.\n"
+#~ "</qt>"
+#~ msgstr ""
+#~ "<qt>\n"
+#~ "Tuwò mòże mòdifikòwac domëszlną identifikacëjã przezérnika, abò tã dlô "
+#~ "dónegò serwera, np. <code>www.kde.org</code> abò domenë, np. <code>kde."
+#~ "org</code>.\n"
+#~ "<p>Bë dodac nową identifikacëjô dla wëbrónegò serwera, je nót klëknąc "
+#~ "<code>Nowô</code> ë wpisac pasowną wëdowiédzã. Bë zmienic "
+#~ "identifikacëjãjaką ju dô, je nót ùżëc knąpë <code>Zmieni</code>. Knapa "
+#~ "<code>Rëmôj</code> zezwôlô rëmnąc identifikacëjã dlô dónegò serwera abò "
+#~ "domenëy.\n"
+#~ "</qt>"
+
+#~ msgid ""
+#~ "<qt>\n"
+#~ "Send the browser identification to web sites.<p>\n"
+#~ "<u>NOTE:</u> Many sites rely on this information to display pages "
+#~ "properly, hence, it is highly recommended that you do not totally disable "
+#~ "this feature but rather customize it.<p>\n"
+#~ "By default, only minimal identification information is sent to remote "
+#~ "sites. The identification text that will be sent is shown below.\n"
+#~ "</qt>"
+#~ msgstr ""
+#~ "<qt>\n"
+#~ "Sélôj identifikacëjã przezérnika do serwerów.<p>\n"
+#~ "<u>BÔCZËNK:</u> Wiele serwerów wëmôgô ti wëdowiédzë, bë pòprôwno "
+#~ "przërëchtowac starnã, dlôte lepi je dopasowac sélanié identifikacëji a "
+#~ "nié całowno je wëłączëc.</p><p>Domëszlno sélóné je minimùm "
+#~ "identifikùjącëch wëdowiédzów. Tekst sélóny identifikacëji je wëskrzëniony "
+#~ "niżi.</p> </qt>"
+
+#~ msgid "&Send identification"
+#~ msgstr "Wëslë &identifikacëjã"
+
+#~ msgid ""
+#~ "The browser identification text sent to the sites you visit. Use the "
+#~ "provided options to customize it."
+#~ msgstr ""
+#~ "Tekst identifikacëji przezérnika. Mòże gò zjinaczëc z pòmòcą przëstãpnëch "
+#~ "optacëji."
+
+#~ msgid "Default Identification"
+#~ msgstr "Domëszlnô identifikacëjô"
+
+#~ msgid ""
+#~ "The browser identification text sent to the sites you visit. You can "
+#~ "customize it using the options provided below."
+#~ msgstr ""
+#~ "Tekst identifikacëji przezérnika, sélóny do odwiedzónëch serwerów. Mòże "
+#~ "gò zjinaczëc z pòmòcą przëstãpnëch optacëji."
+
+#~ msgid ""
+#~ "Includes your operating system's name in the browser identification text."
+#~ msgstr ""
+#~ "Dodôwô miono òperacjowi systemë do tekstu identifikacëji przezérnika."
+
+#~ msgid "Add operating s&ystem name"
+#~ msgstr "Dodôj miono òperacjowi s&ystemë"
+
+#~ msgid ""
+#~ "Includes your operating system's version number in the browser "
+#~ "identification text."
+#~ msgstr ""
+#~ "Dodôwô wersëjã òperacjowi systemë do tekstu identifikacëji przezérnika."
+
+#~ msgid "Add operating system &version"
+#~ msgstr "Dodôj &wersëjã òperacjowi systemë"
+
+#~ msgid "Includes your machine's CPU type in the browser identification text."
+#~ msgstr "Dodôwô ôrt procesora do tekstu identifikacëji przezérnika."
+
+#~ msgid "Add &machine (processor) type"
+#~ msgstr "Dodôj ôrt &kòmpùtra (procesora)"
+
+#~ msgid ""
+#~ "Includes your language settings in the browser identification text to "
+#~ "obtain localized versions of the page."
+#~ msgstr ""
+#~ "Dodôwô jãzëk do tekstu identifikacëji przezérnika, co zezwôlô na "
+#~ "ùzwëskanie przedolmaczony wersëji starnë."
+
+#~ msgid "Add lang&uage information"
+#~ msgstr "Dodôj nastôw &jãzëka"
+
+#~ msgid "Site Specific Identification"
+#~ msgstr "Identifikacëjô dlô wëbranëch serwerów"
+
+#~ msgid "Site Name"
+#~ msgstr "Miono serwera"
+
+#~ msgid "Identification"
+#~ msgstr "Identifikacëjô"
+
+#~ msgid "User Agent"
+#~ msgstr "Przezérnik"
+
+#~ msgid "Add new identification text for a site."
+#~ msgstr "Dodôwô nowi tekst identifikacëji. dlô serwera."
+
+#~ msgid "Change the selected identifier text."
+#~ msgstr "Zjinaczô wëbróny tekst identifikacëji."
+
+#~ msgid "Delete the selected identifier text."
+#~ msgstr "Rëmô wëbróny tekst identifikacëji."
+
+#~ msgid "Delete all identifiers."
+#~ msgstr "Rëmôj wszëtczé tekstë identifikacëji."
+
+#, fuzzy
+#~| msgid ""
+#~| "<qt>\n"
+#~| "Enter the site or domain name where a fake browser identification should "
+#~| "be used.<p>\n"
+#~| "<u>NOTE:</u> Wildcard syntax such as \\\"*,?\\\" is NOT allowed: "
+#~| "instead, use the top level address of a site to make generic matches; "
+#~| "for example, if you want all KDE sites to receive a fake browser "
+#~| "identification, you would enter <code>.kde.org</code> - the fake "
+#~| "identity would then be sent to any KDE site that ends with <code>kde."
+#~| "org</code>.\n"
+#~| "</qt>"
+#~ msgid ""
+#~ "<qt>\n"
+#~ "Enter the site or domain name where a fake browser identification should "
+#~ "be used.<p>\n"
+#~ "<u>NOTE:</u> Wildcard syntax such as \\\"*,?\\\" is NOT allowed: instead, "
+#~ "use the top level address of a site to make generic matches; for example, "
+#~ "if you want all KDE sites to receive a fake browser identification, you "
+#~ "would enter <code>kde.org</code> - the fake identity would then be sent "
+#~ "to any KDE site that ends with <code>kde.org</code>.</p>\n"
+#~ "</qt>"
+#~ msgstr ""
+#~ "<qt>Pòdôj miono serwera abò domenë, dla jaczich mô bëc przesélónô "
+#~ "fałlszëwô identifikacëjô. <p><u>BÔCZËNK:</u>W mionie NIE mòże ùżëwac "
+#~ "masków taczich jak \"*,?\". W môlu tegò mòże pòdac demenë wëższi równi "
+#~ "(krótszą), do jaczi bãdą pasowac wszëtczé pòddomenë. Na przëmiôr, bë "
+#~ "wszëtczé serwerë KDE dostałë falaszëwą identyfikacëjã, sygnie podac "
+#~ "<code>.kde.org</code>. Falszëwô interpretacëjô òstanie tédë wësłónô do "
+#~ "wszëtczich serwerów, jaczich adresë kùńczą sã na <code>kde.org</code>.\n"
+#~ "</p></qt>"
+
+#~ msgid "&When browsing the following site:"
+#~ msgstr "Przë sparłãczeniu &z:"
+
+#~ msgid ""
+#~ "<qt>\n"
+#~ "Select the browser identification to use whenever contacting the site you "
+#~ "specified above.\n"
+#~ "</qt>"
+#~ msgstr ""
+#~ "<qt>\n"
+#~ "Wëbierzë identyifkacëjã sélóną do pòdónegò wëżi serwera.\n"
+#~ "</qt>"
+
+#~ msgid "&Use the following identification:"
+#~ msgstr "Brëkùjë nôslédny &identyfikacëji:"
+
+#~ msgid ""
+#~ "<qt>\n"
+#~ "The actual browser identification text that will be sent to the remote "
+#~ "machine.\n"
+#~ "</qt>"
+#~ msgstr ""
+#~ "<qt>\n"
+#~ "Tekst identifikacëji przezérnika wësłóny do serwera.\n"
+#~ "</qt>"
+
+#~ msgid "Real identification:"
+#~ msgstr "Prôwdzëwô identifikacëjô:"
 
 #~ msgid ""
 #~ "URL cannot be listed\n"
