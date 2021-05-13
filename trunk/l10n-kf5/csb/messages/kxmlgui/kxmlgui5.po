@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-30 00:15+0000\n"
+"POT-Creation-Date: 2021-05-13 00:15+0000\n"
 "PO-Revision-Date: 2009-12-04 22:09+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -346,36 +346,31 @@ msgctxt "@title:tab"
 msgid "&Support KDE"
 msgstr "W&spòmòżë KDE"
 
-#: kabstractaboutdialog_p.cpp:35
+#: kabstractaboutdialog_p.cpp:36
 #, fuzzy, kde-format
-#| msgid ""
-#| "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />&nbsp;</html>"
-msgid "<html><font size=\"5\">%1</font><br />Version %2</html>"
-msgstr ""
-"<html><font size=\"5\">%1</font><br /><b>Wersëjô %2</b><br />&nbsp;</html>"
+#| msgid "Version %1"
+msgctxt "Version version-number"
+msgid "Version %1"
+msgstr "Wersëjô %1"
 
 #: kabstractaboutdialog_p.cpp:79
 #, kde-format
 msgid "License: %1"
 msgstr "Licencëjô: %1"
 
-#: kabstractaboutdialog_p.cpp:111
+#: kabstractaboutdialog_p.cpp:112
 #, fuzzy, kde-format
-#| msgid ""
-#| "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to "
-#| "report bugs.\n"
-msgid ""
-"Please use <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> to "
-"report bugs.\n"
-msgstr ""
-"Do zgłôszaniô felów proszã brëkòwac starnã <a href=\"http://bugs.kde.org"
-"\">http://bugs.kde.org</a>.\n"
+#| msgid "Please use http://bugs.kde.org to report bugs.\n"
+msgctxt "Reference to website"
+msgid "Please use %1 to report bugs.\n"
+msgstr "Do zgłôszaniô felów proszã brëkòwac starnã http://bugs.kde.org.\n"
 
-#: kabstractaboutdialog_p.cpp:117
+#: kabstractaboutdialog_p.cpp:120
 #, fuzzy, kde-format
-#| msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
-msgid "Please report bugs to <a href=\"%1\">%2</a>.\n"
-msgstr "Proszã zgłôszac fele do <a href=\"mailto:%1\">%2</a>.\n"
+#| msgid "Please report bugs to %1.\n"
+msgctxt "Reference to email address"
+msgid "Please report bugs to %1.\n"
+msgstr "Zgłoszë rapòrtë ò felach do %1.\n"
 
 #: kactionconflictdetector.cpp:38
 #, kde-format
@@ -1686,6 +1681,30 @@ msgid "Main Toolbar"
 msgstr "Przédnô listew nôrzãdzów"
 
 #, fuzzy
+#~| msgid ""
+#~| "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />&nbsp;</"
+#~| "html>"
+#~ msgid "<html><font size=\"5\">%1</font><br />Version %2</html>"
+#~ msgstr ""
+#~ "<html><font size=\"5\">%1</font><br /><b>Wersëjô %2</b><br />&nbsp;</html>"
+
+#, fuzzy
+#~| msgid ""
+#~| "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to "
+#~| "report bugs.\n"
+#~ msgid ""
+#~ "Please use <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> to "
+#~ "report bugs.\n"
+#~ msgstr ""
+#~ "Do zgłôszaniô felów proszã brëkòwac starnã <a href=\"http://bugs.kde.org"
+#~ "\">http://bugs.kde.org</a>.\n"
+
+#, fuzzy
+#~| msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
+#~ msgid "Please report bugs to <a href=\"%1\">%2</a>.\n"
+#~ msgstr "Proszã zgłôszac fele do <a href=\"mailto:%1\">%2</a>.\n"
+
+#, fuzzy
 #~| msgid "Unsupported Key"
 #~ msgctxt "@title:window"
 #~ msgid "Unsupported Key"
@@ -2917,12 +2936,6 @@ msgstr "Przédnô listew nôrzãdzów"
 #~ msgid ""
 #~ "This application was written by somebody who wants to remain anonymous."
 #~ msgstr "Na programa ùsôdzëł człowiek co chcôł òstac anonimòwi."
-
-#~ msgid "Please use http://bugs.kde.org to report bugs.\n"
-#~ msgstr "Do zgłôszaniô felów proszã brëkòwac starnã http://bugs.kde.org.\n"
-
-#~ msgid "Please report bugs to %1.\n"
-#~ msgstr "Zgłoszë rapòrtë ò felach do %1.\n"
 
 #~ msgid "Unexpected argument '%1'."
 #~ msgstr "Niespòdzajny argùment '%1'."
@@ -9164,9 +9177,6 @@ msgstr "Przédnô listew nôrzãdzów"
 
 #~ msgid "This operation requires authentication."
 #~ msgstr "Na òperacëjô wëmôgô aùtorizacëji."
-
-#~ msgid "Version %1"
-#~ msgstr "Wersëjô %1"
 
 #~ msgid "Leave a comment"
 #~ msgstr "Òstôwi dopòwiesc"
