@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-28 00:21+0000\n"
+"POT-Creation-Date: 2021-07-22 00:18+0000\n"
 "PO-Revision-Date: 2009-12-12 12:21+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -43,7 +43,7 @@ msgstr "Sztél wëzdrzatkù"
 msgid "Show detailed tooltips"
 msgstr "Pòkażë pòdpòwiescë z detalama"
 
-#: app/main.cpp:82 app/SettingsBase.cpp:59
+#: app/main.cpp:82 app/SettingsBase.cpp:64
 #, kde-format
 msgid "Info Center"
 msgstr ""
@@ -58,7 +58,7 @@ msgstr ""
 msgid "(c) 2009, Ben Cooksley"
 msgstr "(c) 2009, Ben Cooksley"
 
-#: app/main.cpp:93 app/SettingsBase.cpp:62
+#: app/main.cpp:93 app/SettingsBase.cpp:67
 #: sidebar/package/contents/ui/introPage.qml:63
 #, kde-format
 msgid "System Settings"
@@ -70,7 +70,7 @@ msgstr "Systemòwé nastôwë"
 msgid "Central configuration center by KDE."
 msgstr "Przédny môl kònfigùracëjów dlô KDE."
 
-#: app/main.cpp:108 icons/IconMode.cpp:61 sidebar/SidebarMode.cpp:295
+#: app/main.cpp:108 icons/IconMode.cpp:61 sidebar/SidebarMode.cpp:287
 #, kde-format
 msgid "Ben Cooksley"
 msgstr "Ben Cooksley"
@@ -80,12 +80,12 @@ msgstr "Ben Cooksley"
 msgid "Maintainer"
 msgstr "Òpiekùn"
 
-#: app/main.cpp:109 icons/IconMode.cpp:62 sidebar/SidebarMode.cpp:296
+#: app/main.cpp:109 icons/IconMode.cpp:62 sidebar/SidebarMode.cpp:288
 #, kde-format
 msgid "Mathias Soeken"
 msgstr "Mathias Soeken"
 
-#: app/main.cpp:109 icons/IconMode.cpp:62 sidebar/SidebarMode.cpp:296
+#: app/main.cpp:109 icons/IconMode.cpp:62 sidebar/SidebarMode.cpp:288
 #, kde-format
 msgid "Developer"
 msgstr "Rozwijôrz"
@@ -125,35 +125,35 @@ msgstr ""
 msgid "No description available"
 msgstr ""
 
-#: app/SettingsBase.cpp:51
+#: app/SettingsBase.cpp:56
 #, kde-format
 msgctxt "Search through a list of control modules"
 msgid "Search"
 msgstr "Szëkba:"
 
-#: app/SettingsBase.cpp:160
+#: app/SettingsBase.cpp:165
 #, fuzzy, kde-format
 #| msgid "Configure"
 msgid "Configure…"
 msgstr "Kònfigùracëjô"
 
-#: app/SettingsBase.cpp:191
+#: app/SettingsBase.cpp:196
 #, kde-format
 msgid "Help"
 msgstr "Pòmòc"
 
-#: app/SettingsBase.cpp:196 app/SettingsBase.cpp:456
+#: app/SettingsBase.cpp:201 app/SettingsBase.cpp:459
 #, kde-format
 msgid "About Active Module"
 msgstr "Ò biéżnym mòdule"
 
-#: app/SettingsBase.cpp:210
+#: app/SettingsBase.cpp:215
 #, kde-format
 msgctxt "General config for System Settings"
 msgid "General"
 msgstr "Spòdlowé"
 
-#: app/SettingsBase.cpp:339
+#: app/SettingsBase.cpp:342
 #, kde-format
 msgid ""
 "System Settings was unable to find any views, and hence nothing is available "
@@ -162,12 +162,12 @@ msgstr ""
 "Systemòwé nastôwë ni mògłë nalezc niżódnëch wëzdrzatków, téj nick nie je "
 "przëstãpné do kònfigùracëji."
 
-#: app/SettingsBase.cpp:339 app/SettingsBase.cpp:402
+#: app/SettingsBase.cpp:342 app/SettingsBase.cpp:405
 #, kde-format
 msgid "No views found"
 msgstr "Ni ma nalazłëch wëzdrzatków"
 
-#: app/SettingsBase.cpp:402
+#: app/SettingsBase.cpp:405
 #, kde-format
 msgid ""
 "System Settings was unable to find any views, and hence has nothing to "
@@ -176,12 +176,12 @@ msgstr ""
 "Systemòwé nastawë ni mògłë nalezc niżódnëch wëzdrzatków, téj nick ni mòże "
 "wëskrzënic."
 
-#: app/SettingsBase.cpp:436
+#: app/SettingsBase.cpp:439
 #, kde-format
 msgid "About Active View"
 msgstr "Ò biéżnym wëzdrzatków"
 
-#: app/SettingsBase.cpp:506
+#: app/SettingsBase.cpp:509
 #, kde-format
 msgid "About %1"
 msgstr "Ò %1"
@@ -214,12 +214,12 @@ msgstr[0] "<i>Zamëkô w se 1 element</i>"
 msgstr[1] "<i>Zamëkô w se %1 elementë</i>"
 msgstr[2] "<i>Zamëkô w se %1 elementów</i>"
 
-#: core/ExternalAppModule.cpp:20
+#: core/ExternalAppModule.cpp:27
 #, kde-format
 msgid "%1 is an external application and has been automatically launched"
 msgstr "%1 je bùtnową aplikacëją ë òsta aùtomatno zrëszonô"
 
-#: core/ExternalAppModule.cpp:21
+#: core/ExternalAppModule.cpp:28
 #, kde-format
 msgid "Relaunch %1"
 msgstr "Zrëszë znowa %1"
@@ -259,8 +259,8 @@ msgstr "Wëzdrzatk ikònów"
 msgid "Provides a categorized icons view of control modules."
 msgstr "Dôwô skategòrizowóné wëzdrzatczi ikònów dlô kòntrolowónëch mòdułów."
 
-#: icons/IconMode.cpp:61 sidebar/SidebarMode.cpp:294
-#: sidebar/SidebarMode.cpp:295
+#: icons/IconMode.cpp:61 sidebar/SidebarMode.cpp:286
+#: sidebar/SidebarMode.cpp:287
 #, kde-format
 msgid "Author"
 msgstr "Ùsôdzca"
@@ -326,33 +326,33 @@ msgctxt "Action to show indicators for settings with custom data"
 msgid "Highlight Changed Settings"
 msgstr ""
 
-#: sidebar/SidebarMode.cpp:289
+#: sidebar/SidebarMode.cpp:281
 #, kde-format
 msgid "Sidebar View"
 msgstr ""
 
-#: sidebar/SidebarMode.cpp:291
+#: sidebar/SidebarMode.cpp:283
 #, fuzzy, kde-format
 #| msgid "Provides a categorized icons view of control modules."
 msgid "Provides a categorized sidebar for control modules."
 msgstr "Dôwô skategòrizowóné wëzdrzatczi ikònów dlô kòntrolowónëch mòdułów."
 
-#: sidebar/SidebarMode.cpp:293
+#: sidebar/SidebarMode.cpp:285
 #, kde-format
 msgid "(c) 2017, Marco Martin"
 msgstr ""
 
-#: sidebar/SidebarMode.cpp:294
+#: sidebar/SidebarMode.cpp:286
 #, kde-format
 msgid "Marco Martin"
 msgstr ""
 
-#: sidebar/SidebarMode.cpp:782
+#: sidebar/SidebarMode.cpp:774
 #, kde-format
 msgid "Sidebar"
 msgstr ""
 
-#: sidebar/SidebarMode.cpp:824
+#: sidebar/SidebarMode.cpp:816
 #, kde-format
 msgid "Most Used"
 msgstr ""
