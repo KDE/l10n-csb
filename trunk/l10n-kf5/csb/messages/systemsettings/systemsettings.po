@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-28 00:19+0000\n"
+"POT-Creation-Date: 2021-07-30 00:18+0000\n"
 "PO-Revision-Date: 2009-12-12 12:21+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -43,7 +43,7 @@ msgstr "Sztél wëzdrzatkù"
 msgid "Show detailed tooltips"
 msgstr "Pòkażë pòdpòwiescë z detalama"
 
-#: app/main.cpp:82 app/SettingsBase.cpp:64
+#: app/main.cpp:82 app/SettingsBase.cpp:63
 #, kde-format
 msgid "Info Center"
 msgstr ""
@@ -58,7 +58,7 @@ msgstr ""
 msgid "(c) 2009, Ben Cooksley"
 msgstr "(c) 2009, Ben Cooksley"
 
-#: app/main.cpp:93 app/SettingsBase.cpp:67
+#: app/main.cpp:93 app/SettingsBase.cpp:66 runner/systemsettingsrunner.cpp:215
 #: sidebar/package/contents/ui/introPage.qml:63
 #, kde-format
 msgid "System Settings"
@@ -125,35 +125,30 @@ msgstr ""
 msgid "No description available"
 msgstr ""
 
-#: app/SettingsBase.cpp:56
+#: app/SettingsBase.cpp:55
 #, kde-format
 msgctxt "Search through a list of control modules"
 msgid "Search"
 msgstr "Szëkba:"
 
-#: app/SettingsBase.cpp:165
+#: app/SettingsBase.cpp:164
 #, fuzzy, kde-format
 #| msgid "Configure"
 msgid "Configure…"
 msgstr "Kònfigùracëjô"
 
-#: app/SettingsBase.cpp:196
+#: app/SettingsBase.cpp:195
 #, kde-format
 msgid "Help"
 msgstr "Pòmòc"
 
-#: app/SettingsBase.cpp:201 app/SettingsBase.cpp:459
-#, kde-format
-msgid "About Active Module"
-msgstr "Ò biéżnym mòdule"
-
-#: app/SettingsBase.cpp:215
+#: app/SettingsBase.cpp:212
 #, kde-format
 msgctxt "General config for System Settings"
 msgid "General"
 msgstr "Spòdlowé"
 
-#: app/SettingsBase.cpp:342
+#: app/SettingsBase.cpp:339
 #, kde-format
 msgid ""
 "System Settings was unable to find any views, and hence nothing is available "
@@ -162,12 +157,12 @@ msgstr ""
 "Systemòwé nastôwë ni mògłë nalezc niżódnëch wëzdrzatków, téj nick nie je "
 "przëstãpné do kònfigùracëji."
 
-#: app/SettingsBase.cpp:342 app/SettingsBase.cpp:405
+#: app/SettingsBase.cpp:339 app/SettingsBase.cpp:400
 #, kde-format
 msgid "No views found"
 msgstr "Ni ma nalazłëch wëzdrzatków"
 
-#: app/SettingsBase.cpp:405
+#: app/SettingsBase.cpp:400
 #, kde-format
 msgid ""
 "System Settings was unable to find any views, and hence has nothing to "
@@ -176,12 +171,12 @@ msgstr ""
 "Systemòwé nastawë ni mògłë nalezc niżódnëch wëzdrzatków, téj nick ni mòże "
 "wëskrzënic."
 
-#: app/SettingsBase.cpp:439
+#: app/SettingsBase.cpp:434
 #, kde-format
 msgid "About Active View"
 msgstr "Ò biéżnym wëzdrzatków"
 
-#: app/SettingsBase.cpp:509
+#: app/SettingsBase.cpp:503
 #, kde-format
 msgid "About %1"
 msgstr "Ò %1"
@@ -199,7 +194,7 @@ msgid "Internal name for the view used"
 msgstr "Bënowé miono brëkòwónegò wëzdrzatka"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: app/systemsettingsui.rc:16
+#: app/systemsettingsui.rc:15
 #, kde-format
 msgid "About System Settings"
 msgstr "Ò Systemòwëch nastôwch"
@@ -235,7 +230,7 @@ msgstr "Dialog"
 msgid "Reset all current changes to previous values"
 msgstr "Resetëje wszëtczé zmianë do pòprzédnëch wôrtnotów"
 
-#: core/ModuleView.cpp:335
+#: core/ModuleView.cpp:325
 #, kde-format
 msgid ""
 "The settings of the current module have changed.\n"
@@ -244,7 +239,7 @@ msgstr ""
 "Są niezapisóné zmianë w aktiwnym mòdule.\n"
 "Chcesz je zacwierdzëc czë rëmnąc?"
 
-#: core/ModuleView.cpp:337
+#: core/ModuleView.cpp:327
 #, kde-format
 msgid "Apply Settings"
 msgstr "Systemòwé nastôwë"
@@ -275,6 +270,17 @@ msgstr "Systemòwé nastôwë"
 #, kde-format
 msgid "Keyboard Shortcut: %1"
 msgstr "Klawiaturowô skrodzëna: %1"
+
+#: runner/systemsettingsrunner.cpp:213
+#, fuzzy, kde-format
+#| msgid "System Settings"
+msgid "System Information"
+msgstr "Systemòwé nastôwë"
+
+#: runner/systemsettingsrunner.cpp:241
+#, kde-format
+msgid "Finds system settings modules whose names or descriptions match :q:"
+msgstr ""
 
 #: sidebar/package/contents/ui/CategoriesPage.qml:54
 #, kde-format
@@ -364,6 +370,9 @@ msgid_plural "<i>Contains %1 items</i>"
 msgstr[0] "<i>Zamëkô w se 1 element</i>"
 msgstr[1] "<i>Zamëkô w se %1 elementë</i>"
 msgstr[2] "<i>Zamëkô w se %1 elementów</i>"
+
+#~ msgid "About Active Module"
+#~ msgstr "Ò biéżnym mòdule"
 
 #~ msgid "Configure your system"
 #~ msgstr "Kònfigùrëje swòją systemã"
