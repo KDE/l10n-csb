@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-23 00:20+0000\n"
+"POT-Creation-Date: 2021-09-30 00:18+0000\n"
 "PO-Revision-Date: 2009-12-17 00:21+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -623,7 +623,7 @@ msgstr "Schéma farwë ë spòdlé"
 
 #. i18n: ectx: property (text), widget (QToolButton, wallpaperSelectButton)
 #. i18n: ectx: property (text), widget (QToolButton, dirSelectButton)
-#: colorscheme/ColorSchemeEditor.ui:120 widgets/EditProfileGeneralPage.ui:152
+#: colorscheme/ColorSchemeEditor.ui:120 widgets/EditProfileGeneralPage.ui:179
 #, kde-format
 msgid "..."
 msgstr "..."
@@ -1551,7 +1551,7 @@ msgctxt "Name of the default/builtin profile"
 msgid "Default"
 msgstr "Nastôwi jakno domëslny"
 
-#: profile/ProfileList.cpp:37
+#: profile/ProfileList.cpp:37 widgets/EditProfileDialog.cpp:483
 #, fuzzy, kde-format
 #| msgid "Delete Profile"
 msgid "Default profile"
@@ -3291,7 +3291,7 @@ msgstr "Editëjë wëbróną schémã farwów"
 #. i18n: ectx: property (text), widget (QPushButton, textEditorCustomBtn)
 #. i18n: ectx: property (text), widget (QPushButton, editColorSchemeButton)
 #: widgets/EditProfileAppearancePage.ui:79
-#: widgets/EditProfileGeneralPage.ui:193 widgets/EditProfileKeyboardPage.ui:85
+#: widgets/EditProfileGeneralPage.ui:220 widgets/EditProfileKeyboardPage.ui:85
 #: widgets/EditProfileMousePage.ui:310
 #, kde-format
 msgid "Edit..."
@@ -3641,7 +3641,7 @@ msgctxt "@title:tab Complex options"
 msgid "Advanced"
 msgstr "Awansowóné"
 
-#: widgets/EditProfileDialog.cpp:289
+#: widgets/EditProfileDialog.cpp:301
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3650,19 +3650,19 @@ msgid ""
 "the settings to a new profile."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:306
+#: widgets/EditProfileDialog.cpp:318
 #, kde-format
 msgctxt "@info"
 msgid "Profile Name was empty; please set a name to be able to save settings."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:314
+#: widgets/EditProfileDialog.cpp:326
 #, kde-format
 msgctxt "@info"
 msgid "A profile with the name \"%1\" already exists."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:349
+#: widgets/EditProfileDialog.cpp:361
 #, kde-format
 msgid "Editing profile: %2"
 msgid_plural "Editing %1 profiles: %2"
@@ -3670,18 +3670,18 @@ msgstr[0] "Edicëjô profilu: %2"
 msgstr[1] "Edicëjô %1 profilë: %2"
 msgstr[2] "Edicëjô %1 profilów: %2"
 
-#: widgets/EditProfileDialog.cpp:352
+#: widgets/EditProfileDialog.cpp:364
 #, fuzzy, kde-format
 #| msgid "New Profile..."
 msgid "Create New Profile"
 msgstr "Nowi profil..."
 
-#: widgets/EditProfileDialog.cpp:354
+#: widgets/EditProfileDialog.cpp:366
 #, kde-format
 msgid "Edit Profile \"%1\""
 msgstr "Editëjë profil \"%1\""
 
-#: widgets/EditProfileDialog.cpp:451
+#: widgets/EditProfileDialog.cpp:463
 #, kde-format
 msgctxt ""
 "Suffix of the number of columns (N columns). The leading space is needed to "
@@ -3692,7 +3692,7 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: widgets/EditProfileDialog.cpp:453
+#: widgets/EditProfileDialog.cpp:465
 #, kde-format
 msgctxt ""
 "Suffix of the number of rows (N rows). The leading space is needed to "
@@ -3703,39 +3703,45 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: widgets/EditProfileDialog.cpp:463
+#: widgets/EditProfileDialog.cpp:475
 #, kde-format
 msgid "System Bell"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:463
+#: widgets/EditProfileDialog.cpp:475
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgid "System Notifications"
 msgstr "Wlepi wëbiérk"
 
-#: widgets/EditProfileDialog.cpp:463
+#: widgets/EditProfileDialog.cpp:475
 #, fuzzy, kde-format
 #| msgid "Visual effects"
 msgid "Visual Bell"
 msgstr "Wizualné efektë"
 
-#: widgets/EditProfileDialog.cpp:463
+#: widgets/EditProfileDialog.cpp:475
 #, kde-format
 msgid "Ignore Bell Events"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:501
+#: widgets/EditProfileDialog.cpp:486
+#, fuzzy, kde-format
+#| msgid "Set the selected profile as the default for new terminal sessions"
+msgid "Default profile for new terminal sessions in %1"
+msgstr "Nastôwi wëbróny profil jakno domëslny dlô nowi sesëji terminala"
+
+#: widgets/EditProfileDialog.cpp:525
 #, kde-format
 msgid "Edit Environment"
 msgstr "Editëjë òkrãże"
 
-#: widgets/EditProfileDialog.cpp:502
+#: widgets/EditProfileDialog.cpp:526
 #, kde-format
 msgid "One environment variable per line"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:533
+#: widgets/EditProfileDialog.cpp:557
 #, kde-format
 msgctxt "Unit of time"
 msgid " second"
@@ -3744,18 +3750,18 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: widgets/EditProfileDialog.cpp:622
+#: widgets/EditProfileDialog.cpp:646
 #, kde-format
 msgid "Select Initial Directory"
 msgstr "Wëbiérzë zaczątkòwi katalog"
 
-#: widgets/EditProfileDialog.cpp:1134
+#: widgets/EditProfileDialog.cpp:1158
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Scheme <resource>%1</resource> failed to load."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1313
+#: widgets/EditProfileDialog.cpp:1337
 #, kde-format
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
@@ -3764,14 +3770,14 @@ msgstr ""
 "Nen schemat farwë brëkùje przezérnegò spódka, chtëren nie je wspieróny przez "
 "twój pùlt."
 
-#: widgets/EditProfileDialog.cpp:1319
+#: widgets/EditProfileDialog.cpp:1343
 #, kde-format
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
 "Konsole to see transparent background."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1706
+#: widgets/EditProfileDialog.cpp:1734
 #, kde-format
 msgid ""
 "The format is e.g. 'editorExec PATH:LINE:COLUMN'\n"
@@ -3788,7 +3794,7 @@ msgid ""
 "editor."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1719
+#: widgets/EditProfileDialog.cpp:1747
 #, kde-format
 msgid "Text Editor Custom Command"
 msgstr ""
@@ -3800,27 +3806,34 @@ msgid "Select the icon displayed on tabs using this profile"
 msgstr "Wëbierzë ikònã kôrtë brëkòwóną w tim profilu"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, profileNameEdit)
-#: widgets/EditProfileGeneralPage.ui:75
+#: widgets/EditProfileGeneralPage.ui:77
 #, kde-format
 msgid "A descriptive name for the profile"
 msgstr "Òpisënkòwé miono dlô profilu"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, profileNameEdit)
-#: widgets/EditProfileGeneralPage.ui:78
+#: widgets/EditProfileGeneralPage.ui:80
 #, fuzzy, kde-format
 #| msgid "Profile name:"
 msgctxt "@label:textbox"
 msgid "Profile name"
 msgstr "Miono profilu:"
 
+#. i18n: ectx: property (text), widget (QCheckBox, setAsDefaultButton)
+#: widgets/EditProfileGeneralPage.ui:87
+#, fuzzy, kde-format
+#| msgid "Delete Profile"
+msgid "Default Profile"
+msgstr "Rëmôj profil"
+
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: widgets/EditProfileGeneralPage.ui:91
+#: widgets/EditProfileGeneralPage.ui:118
 #, kde-format
 msgid "Command:"
 msgstr "Pòlét:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, commandEdit)
-#: widgets/EditProfileGeneralPage.ui:104
+#: widgets/EditProfileGeneralPage.ui:131
 #, kde-format
 msgid ""
 "The command to execute when new terminal sessions are created using this "
@@ -3829,65 +3842,65 @@ msgstr ""
 "Pòlét do zrëszeniô przë ùsôdzeniu nowi sesëji terminal brëkùjący negò profilu"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, commandEdit)
-#: widgets/EditProfileGeneralPage.ui:110
+#: widgets/EditProfileGeneralPage.ui:137
 #, kde-format
 msgid "/bin/sh"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: widgets/EditProfileGeneralPage.ui:123
+#: widgets/EditProfileGeneralPage.ui:150
 #, kde-format
 msgid "Initial directory:"
 msgstr "Zôczątkòwi katalog:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, initialDirEdit)
-#: widgets/EditProfileGeneralPage.ui:136
+#: widgets/EditProfileGeneralPage.ui:163
 #, kde-format
 msgid ""
 "The initial working directory for new terminal sessions using this profile"
 msgstr "Startowi katalog dlô nowi sesëji terminal brëkùjący negò profilu"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, initialDirEdit)
-#: widgets/EditProfileGeneralPage.ui:142
+#: widgets/EditProfileGeneralPage.ui:169
 #, kde-format
 msgid "/home/username"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, dirSelectButton)
-#: widgets/EditProfileGeneralPage.ui:149
+#: widgets/EditProfileGeneralPage.ui:176
 #, fuzzy, kde-format
 #| msgid "Browse for initial directory"
 msgid "Choose the initial directory"
 msgstr "Szëkôj za zôczątkòwim katalogã"
 
 #. i18n: ectx: property (text), widget (QCheckBox, startInSameDirButton)
-#: widgets/EditProfileGeneralPage.ui:159
+#: widgets/EditProfileGeneralPage.ui:186
 #, fuzzy, kde-format
 #| msgid "Start in same directory as current tab"
 msgid "Start in same directory as current session"
 msgstr "Startëjë w tim sómym katalogù co aktualnô kôrta"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: widgets/EditProfileGeneralPage.ui:172
+#: widgets/EditProfileGeneralPage.ui:199
 #, kde-format
 msgid "Environment:"
 msgstr "Òkrãżé:"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, environmentEditButton)
-#: widgets/EditProfileGeneralPage.ui:190
+#: widgets/EditProfileGeneralPage.ui:217
 #, kde-format
 msgid "Edit the list of environment variables and associated values"
 msgstr "Editëjë lëstã zmiennych òkrãżô ë przëpisónych wôrtnotów"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: widgets/EditProfileGeneralPage.ui:237
+#: widgets/EditProfileGeneralPage.ui:264
 #, fuzzy, kde-format
 #| msgid "Terminal Features"
 msgid "Initial terminal size:"
 msgstr "Fùnkcëje terminala"
 
 #. i18n: ectx: property (text), widget (QLabel, useCurrentWindowSizeNote)
-#: widgets/EditProfileGeneralPage.ui:312
+#: widgets/EditProfileGeneralPage.ui:339
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -3897,7 +3910,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, terminalBellLabel)
-#: widgets/EditProfileGeneralPage.ui:325
+#: widgets/EditProfileGeneralPage.ui:352
 #, fuzzy, kde-format
 #| msgid "Terminal emulator"
 msgid "Terminal bell mode:"
