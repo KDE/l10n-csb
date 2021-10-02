@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxkb\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-26 00:19+0000\n"
+"POT-Creation-Date: 2021-10-02 00:18+0000\n"
 "PO-Revision-Date: 2009-12-15 19:24+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -117,19 +117,19 @@ msgstr ""
 msgid "Preview"
 msgstr ""
 
-#: kcm_keyboard.cpp:33
+#: kcm_keyboard.cpp:32
 #, fuzzy, kde-format
 #| msgid "KDE Keyboard Layout Switcher"
 msgid "KDE Keyboard Control Module"
 msgstr "Przestôwnik ùstôwów klawiaturów KDE"
 
-#: kcm_keyboard.cpp:37
+#: kcm_keyboard.cpp:36
 #, fuzzy, kde-format
 #| msgid "Copyright (C) 2006-2007 Andriy Rysin"
 msgid "(c) 2010 Andriy Rysin"
 msgstr "Copyright (C) 2006-2007 Andriy Rysin"
 
-#: kcm_keyboard.cpp:41
+#: kcm_keyboard.cpp:40
 #, kde-format
 msgid ""
 "<h1>Keyboard</h1> This control module can be used to configure keyboard "
@@ -289,7 +289,7 @@ msgstr ""
 "skrodzënów a téż mòże nie robic w niechtërnëch lëżnoscach (np. jeżlë aktiwny "
 "je popup abò w czasu dzejanégò wëgaszacza ekrana)."
 
-#. i18n: ectx: property (title), widget (QGroupBox, layoutsGroupBox)
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_configureLayouts)
 #: kcm_keyboard.ui:261
 #, fuzzy, kde-format
 #| msgid "Active layouts:"
@@ -339,26 +339,26 @@ msgstr ""
 msgid "Advanced"
 msgstr "Awansowóné"
 
-#. i18n: ectx: property (text), widget (QCheckBox, configureKeyboardOptionsChk)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_resetOldXkbOptions)
 #: kcm_keyboard.ui:418
 #, fuzzy, kde-format
 #| msgid "&Enable keyboard layouts"
 msgid "&Configure keyboard options"
 msgstr "&Włączë ùstôwë klawiaturë"
 
-#: kcm_keyboard_widget.cpp:184
+#: kcm_keyboard_widget.cpp:208
 #, kde-format
 msgctxt "unknown keyboard model vendor"
 msgid "Unknown"
 msgstr ""
 
-#: kcm_keyboard_widget.cpp:186
+#: kcm_keyboard_widget.cpp:210
 #, kde-format
 msgctxt "vendor | keyboard model"
 msgid "%1 | %2"
 msgstr ""
 
-#: kcm_keyboard_widget.cpp:197
+#: kcm_keyboard_widget.cpp:222
 #, kde-format
 msgid "Only up to %1 keyboard layout is supported"
 msgid_plural "Only up to %1 keyboard layouts are supported"
@@ -366,14 +366,14 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: kcm_keyboard_widget.cpp:572
+#: kcm_keyboard_widget.cpp:640
 #, fuzzy, kde-format
 #| msgid "None"
 msgctxt "no shortcuts defined"
 msgid "None"
 msgstr "Felënk"
 
-#: kcm_keyboard_widget.cpp:586
+#: kcm_keyboard_widget.cpp:654
 #, fuzzy, kde-format
 #| msgid "Main shortcuts:"
 msgid "%1 shortcut"
@@ -488,7 +488,7 @@ msgid "&Rate:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QSlider, delaySlider)
-#. i18n: ectx: property (whatsThis), widget (QSpinBox, delay)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_repeatDelay)
 #: kcmmiscwidget.ui:164 kcmmiscwidget.ui:202
 #, kde-format
 msgid ""
@@ -497,7 +497,7 @@ msgid ""
 "frequency of these keycodes."
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, rate)
+#. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, kcfg_repeatRate)
 #. i18n: ectx: property (whatsThis), widget (QSlider, rateSlider)
 #: kcmmiscwidget.ui:192 kcmmiscwidget.ui:212
 #, kde-format
@@ -506,13 +506,13 @@ msgid ""
 "generated while a key is pressed."
 msgstr ""
 
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, rate)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, kcfg_repeatRate)
 #: kcmmiscwidget.ui:195
 #, kde-format
 msgid " repeats/s"
 msgstr ""
 
-#. i18n: ectx: property (suffix), widget (QSpinBox, delay)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_repeatDelay)
 #: kcmmiscwidget.ui:205
 #, kde-format
 msgid " ms"
