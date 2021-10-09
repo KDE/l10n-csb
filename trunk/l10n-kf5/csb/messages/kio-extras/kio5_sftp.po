@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_sftp\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-30 00:17+0000\n"
+"POT-Creation-Date: 2021-10-09 00:19+0000\n"
 "PO-Revision-Date: 2009-12-17 22:44+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -19,70 +19,70 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: kio_sftp.cpp:217
+#: kio_sftp.cpp:216
 #, fuzzy, kde-format
 #| msgid "Incorrect username or password"
 msgid "Incorrect or invalid passphrase"
 msgstr "Lëché miono brëkòwnika abò parolã"
 
-#: kio_sftp.cpp:267
+#: kio_sftp.cpp:266
 #, kde-format
 msgid "Could not allocate callbacks"
 msgstr ""
 
-#: kio_sftp.cpp:280
+#: kio_sftp.cpp:279
 #, kde-format
 msgid "Could not set log verbosity."
 msgstr ""
 
-#: kio_sftp.cpp:285
+#: kio_sftp.cpp:284
 #, fuzzy, kde-format
 #| msgid "Could not read SFTP packet"
 msgid "Could not set log userdata."
 msgstr "Nie mòżé òdczëtac paczétu SFTP"
 
-#: kio_sftp.cpp:290
+#: kio_sftp.cpp:289
 #, fuzzy, kde-format
 #| msgid "Could not read SFTP packet"
 msgid "Could not set log callback."
 msgstr "Nie mòżé òdczëtac paczétu SFTP"
 
-#: kio_sftp.cpp:359 kio_sftp.cpp:361 kio_sftp.cpp:891 kio_sftp.cpp:1185
+#: kio_sftp.cpp:358 kio_sftp.cpp:360 kio_sftp.cpp:892
 #, kde-format
 msgid "SFTP Login"
 msgstr "Logòwanié SFTP"
 
-#: kio_sftp.cpp:376
+#: kio_sftp.cpp:375
 #, kde-format
 msgid "Use the username input field to answer this question."
 msgstr ""
 "Brëkùjë miona brëkòwnika w pòlu weńdzeniô abë òdpòwiedzëc na zapëtanié."
 
-#: kio_sftp.cpp:389
+#: kio_sftp.cpp:388
 #, fuzzy, kde-format
 #| msgid "Please enter your username and password."
 msgid "Please enter your password."
 msgstr "Proszã pòdac miono brëkòwnika ë parolã."
 
-#: kio_sftp.cpp:394 kio_sftp.cpp:894 kio_sftp.cpp:1188
+#: kio_sftp.cpp:393 kio_sftp.cpp:895
 #, fuzzy, kde-format
 #| msgid "site:"
 msgid "Site:"
 msgstr "serwer:"
 
-#: kio_sftp.cpp:581
+#: kio_sftp.cpp:582
 #, fuzzy, kde-format
 #| msgid "Could not initialize the SFTP session."
 msgid "Could not create a new SSH session."
 msgstr "NIé mòże zrëszëc sesëji SFTP."
 
-#: kio_sftp.cpp:591 kio_sftp.cpp:595
+#: kio_sftp.cpp:593 kio_sftp.cpp:597
 #, fuzzy, kde-format
 #| msgid "Could not read SFTP packet"
 msgid "Could not set a timeout."
 msgstr "Nie mòżé òdczëtac paczétu SFTP"
 
-#: kio_sftp.cpp:603
+#: kio_sftp.cpp:604
 #, fuzzy, kde-format
 #| msgid "Could not read SFTP packet"
 msgid "Could not disable Nagle's Algorithm."
@@ -121,22 +121,22 @@ msgstr ""
 msgid "Opening SFTP connection to host %1:%2"
 msgstr "Òtmëkanié spłãczenia SFTP z kòmpùtrã %1:%2"
 
-#: kio_sftp.cpp:734
+#: kio_sftp.cpp:699
 #, kde-format
 msgid "Could not get server public key type name"
 msgstr ""
 
-#: kio_sftp.cpp:745 kio_sftp.cpp:1053
+#: kio_sftp.cpp:712
 #, kde-format
 msgid "Could not create hash from server public key"
 msgstr ""
 
-#: kio_sftp.cpp:755
+#: kio_sftp.cpp:721
 #, kde-format
 msgid "Could not create fingerprint for server public key"
 msgstr ""
 
-#: kio_sftp.cpp:765
+#: kio_sftp.cpp:781
 #, fuzzy, kde-format
 #| msgid ""
 #| "The host key for this server was not found, but another type of key "
@@ -160,7 +160,7 @@ msgstr ""
 "Proszã sparłãczë sã ze sprôwnikã systemë.\n"
 "%1"
 
-#: kio_sftp.cpp:777
+#: kio_sftp.cpp:792
 #, fuzzy, kde-format
 #| msgid ""
 #| "The host key for the server %1 has changed.\n"
@@ -187,12 +187,12 @@ msgstr ""
 "Proszã sparłãczë sã ze sprôwnikã systemë.\n"
 "%3"
 
-#: kio_sftp.cpp:793 kio_sftp.cpp:1094
+#: kio_sftp.cpp:806
 #, kde-format
 msgid "Warning: Cannot verify host's identity."
 msgstr "Bôczënk: Nie mòże zwerifikòwac identifikacëji hòsta."
 
-#: kio_sftp.cpp:794
+#: kio_sftp.cpp:808
 #, fuzzy, kde-format
 #| msgid ""
 #| "The authenticity of host %1 cannot be established.\n"
@@ -207,30 +207,29 @@ msgstr ""
 "Òdcësk pôlca dlô klucza to: %2\n"
 "Jes gwës tegò, że chcesz jisc dali ze sparłãczeniém?"
 
-#: kio_sftp.cpp:831 kio_sftp.cpp:852 kio_sftp.cpp:868 kio_sftp.cpp:883
-#: kio_sftp.cpp:939 kio_sftp.cpp:949 kio_sftp.cpp:1125 kio_sftp.cpp:1146
-#: kio_sftp.cpp:1162 kio_sftp.cpp:1177 kio_sftp.cpp:1233 kio_sftp.cpp:1243
+#: kio_sftp.cpp:838 kio_sftp.cpp:856 kio_sftp.cpp:871 kio_sftp.cpp:884
+#: kio_sftp.cpp:936 kio_sftp.cpp:946
 #, kde-format
 msgid "Authentication failed."
 msgstr "Aùtorizacëjô nie darzëła sã."
 
-#: kio_sftp.cpp:838 kio_sftp.cpp:1132
+#: kio_sftp.cpp:844
 #, kde-format
 msgid ""
 "Authentication failed. The server didn't send any authentication methods"
 msgstr ""
 
-#: kio_sftp.cpp:892 kio_sftp.cpp:1186
+#: kio_sftp.cpp:893
 #, kde-format
 msgid "Please enter your username and password."
 msgstr "Proszã pòdac miono brëkòwnika ë parolã."
 
-#: kio_sftp.cpp:903 kio_sftp.cpp:1197
+#: kio_sftp.cpp:904
 #, kde-format
 msgid "Incorrect username or password"
 msgstr "Lëché miono brëkòwnika abò parolã"
 
-#: kio_sftp.cpp:957 kio_sftp.cpp:1251
+#: kio_sftp.cpp:953
 #, kde-format
 msgid ""
 "Unable to request the SFTP subsystem. Make sure SFTP is enabled on the "
@@ -239,79 +238,74 @@ msgstr ""
 "Nié mòże òdwòłac pòdsystemë SFTP. Ùgwësni sã czë SFTP je właczony na "
 "serwerze."
 
-#: kio_sftp.cpp:964 kio_sftp.cpp:1258
+#: kio_sftp.cpp:958
 #, kde-format
 msgid "Could not initialize the SFTP session."
 msgstr "NIé mòże zrëszëc sesëji SFTP."
 
-#: kio_sftp.cpp:968 kio_sftp.cpp:1262
+#: kio_sftp.cpp:962
 #, kde-format
 msgid "Successfully connected to %1"
 msgstr "Ùdałé sparłãczenié z %1"
 
-#: kio_sftp.cpp:1065
-#, kde-format
-msgid ""
-"The host key for this server was not found, but another type of key exists.\n"
-"An attacker might change the default server key to confuse your client into "
-"thinking the key does not exist.\n"
-"Please contact your system administrator.\n"
-"%1"
-msgstr ""
-"Klucz hòsta dlô negò serwera nié mòże bëc nalazłi, to dô równak jinszi ôrt "
-"klucza.\n"
-"Mòżlëwé je, że napôdôcz próbùje zmienic domëslny klucz serwera abë ùdôwac "
-"twòjemù klientowi to, że klucza nie dô.\n"
-"Proszã sparłãczë sã ze sprôwnikã systemë.\n"
-"%1"
-
-#: kio_sftp.cpp:1078
-#, kde-format
-msgid ""
-"The host key for the server %1 has changed.\n"
-"This could either mean that DNS SPOOFING is happening or the IP address for "
-"the host and its host key have changed at the same time.\n"
-"The fingerprint for the key sent by the remote host is:\n"
-" %2\n"
-"Please contact your system administrator.\n"
-"%3"
-msgstr ""
-"Klucz hòsta dlô serwera %1 òstôł zmieniony .\n"
-"To mòże òznôczac, że je przeprowôdzany DNS SPOOFING abò adresa IP dlô negò "
-"hòsta ë jegò klucz zmienioné òstałé w tim samym czasu.\n"
-"Òdcësk pôlca dlô klucza, sélóny do daleczégò hòsta to:\n"
-" %2\n"
-"Proszã sparłãczë sã ze sprôwnikã systemë.\n"
-"%3"
-
-#: kio_sftp.cpp:1095
-#, kde-format
-msgid ""
-"The authenticity of host %1 cannot be established.\n"
-"The key fingerprint is: %2\n"
-"Are you sure you want to continue connecting?"
-msgstr ""
-"Aùtorizacëjô hòsta %1 nié mòże bëc ùstanowionô.\n"
-"Òdcësk pôlca dlô klucza to: %2\n"
-"Jes gwës tegò, że chcesz jisc dali ze sparłãczeniém?"
-
-#: kio_sftp.cpp:1307
+#: kio_sftp.cpp:1015
 #, kde-format
 msgid "Invalid sftp context"
 msgstr ""
 
-#: kio_sftp.cpp:1878
+#: kio_sftp.cpp:1580
 #, kde-format
 msgid ""
 "Could not change permissions for\n"
 "%1"
 msgstr ""
 
-#: kio_sftp.cpp:2245
+#: kio_sftp.cpp:1947
 #, fuzzy, kde-format
 #| msgid "Could not read SFTP packet"
 msgid "Could not read link: %1"
 msgstr "Nie mòżé òdczëtac paczétu SFTP"
+
+#~ msgid ""
+#~ "The host key for this server was not found, but another type of key "
+#~ "exists.\n"
+#~ "An attacker might change the default server key to confuse your client "
+#~ "into thinking the key does not exist.\n"
+#~ "Please contact your system administrator.\n"
+#~ "%1"
+#~ msgstr ""
+#~ "Klucz hòsta dlô negò serwera nié mòże bëc nalazłi, to dô równak jinszi "
+#~ "ôrt klucza.\n"
+#~ "Mòżlëwé je, że napôdôcz próbùje zmienic domëslny klucz serwera abë ùdôwac "
+#~ "twòjemù klientowi to, że klucza nie dô.\n"
+#~ "Proszã sparłãczë sã ze sprôwnikã systemë.\n"
+#~ "%1"
+
+#~ msgid ""
+#~ "The host key for the server %1 has changed.\n"
+#~ "This could either mean that DNS SPOOFING is happening or the IP address "
+#~ "for the host and its host key have changed at the same time.\n"
+#~ "The fingerprint for the key sent by the remote host is:\n"
+#~ " %2\n"
+#~ "Please contact your system administrator.\n"
+#~ "%3"
+#~ msgstr ""
+#~ "Klucz hòsta dlô serwera %1 òstôł zmieniony .\n"
+#~ "To mòże òznôczac, że je przeprowôdzany DNS SPOOFING abò adresa IP dlô "
+#~ "negò hòsta ë jegò klucz zmienioné òstałé w tim samym czasu.\n"
+#~ "Òdcësk pôlca dlô klucza, sélóny do daleczégò hòsta to:\n"
+#~ " %2\n"
+#~ "Proszã sparłãczë sã ze sprôwnikã systemë.\n"
+#~ "%3"
+
+#~ msgid ""
+#~ "The authenticity of host %1 cannot be established.\n"
+#~ "The key fingerprint is: %2\n"
+#~ "Are you sure you want to continue connecting?"
+#~ msgstr ""
+#~ "Aùtorizacëjô hòsta %1 nié mòże bëc ùstanowionô.\n"
+#~ "Òdcësk pôlca dlô klucza to: %2\n"
+#~ "Jes gwës tegò, że chcesz jisc dali ze sparłãczeniém?"
 
 #, fuzzy
 #~| msgid "No hostname specified"
