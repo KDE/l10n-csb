@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-20 00:40+0000\n"
+"POT-Creation-Date: 2021-12-23 00:40+0000\n"
 "PO-Revision-Date: 2009-08-03 17:47+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -7482,23 +7482,47 @@ msgid "&Actions"
 msgstr "&Dzejania"
 
 #: widgets/kfileitemactions.cpp:860
+#, fuzzy, kde-format
+#| msgid ""
+#| "Create new folder in:\n"
+#| "%1"
+msgid "&Open folder with %1"
+msgstr ""
+"Ùsôdzë nowi katalog w:\n"
+"%1"
+
+#: widgets/kfileitemactions.cpp:860
 #, kde-format
 msgid "&Open with %1"
 msgstr ""
 
-#: widgets/kfileitemactions.cpp:882
+#: widgets/kfileitemactions.cpp:884
+#, fuzzy, kde-format
+#| msgid "New Folder..."
+msgctxt "@title:menu"
+msgid "&Open Folder With..."
+msgstr "Nowi katalog..."
+
+#: widgets/kfileitemactions.cpp:885
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open With..."
 msgstr ""
 
-#: widgets/kfileitemactions.cpp:895
+#: widgets/kfileitemactions.cpp:898
+#, fuzzy, kde-format
+#| msgid "File"
+msgctxt "@title:menu"
+msgid "&Open Folder With"
+msgstr "Lopk"
+
+#: widgets/kfileitemactions.cpp:898
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open With"
 msgstr ""
 
-#: widgets/kfileitemactions.cpp:906
+#: widgets/kfileitemactions.cpp:909
 #, kde-format
 msgctxt "@action:inmenu Open With"
 msgid "&Other Application..."
