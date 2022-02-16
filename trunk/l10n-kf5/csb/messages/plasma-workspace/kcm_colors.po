@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-13 00:45+0000\n"
+"POT-Creation-Date: 2022-02-16 00:47+0000\n"
 "PO-Revision-Date: 2009-12-20 19:03+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -879,38 +879,52 @@ msgstr "Zastosëjë &efektë farwë nieaktiwnégò òkna"
 msgid "Use different colors for in&active selections"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, shadeSortedColumn)
+#. i18n: ectx: property (text), widget (QCheckBox, accentActiveTitlebar)
 #: editor/scmeditoroptions.ui:31
+#, fuzzy, kde-format
+#| msgid "Apply inactive window color &effects"
+msgid "Apply a&ccent color to active window titlebars"
+msgstr "Zastosëjë &efektë farwë nieaktiwnégò òkna"
+
+#. i18n: ectx: property (text), widget (QCheckBox, accentInactiveTitlebar)
+#: editor/scmeditoroptions.ui:38
+#, fuzzy, kde-format
+#| msgid "Apply inactive window color &effects"
+msgid "Apply acce&nt color to inactive window titlebars"
+msgstr "Zastosëjë &efektë farwë nieaktiwnégò òkna"
+
+#. i18n: ectx: property (text), widget (QCheckBox, shadeSortedColumn)
+#: editor/scmeditoroptions.ui:45
 #, kde-format
 msgid "Shade sorted column &in lists"
 msgstr "Wëceniôj pòzortowóny kòlumnë &w lëstach"
 
 #. i18n: ectx: property (toolTip), widget (QGroupBox, groupBox_5)
-#: editor/scmeditoroptions.ui:38
+#: editor/scmeditoroptions.ui:52
 #, kde-format
 msgid "Shading of frames and lighting (\"3D\") effects"
 msgstr "Ceniô na ramach ë efektë (\"3D\") rozwidlaniô"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
-#: editor/scmeditoroptions.ui:41
+#: editor/scmeditoroptions.ui:55
 #, kde-format
 msgid "Shading"
 msgstr "Ceniô"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: editor/scmeditoroptions.ui:53
+#: editor/scmeditoroptions.ui:67
 #, kde-format
 msgid "Minimum"
 msgstr "Minimùm"
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: editor/scmeditoroptions.ui:73
+#: editor/scmeditoroptions.ui:87
 #, kde-format
 msgid "Maximum"
 msgstr "Maksymùm"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: editor/scmeditoroptions.ui:80
+#: editor/scmeditoroptions.ui:94
 #, kde-format
 msgid "Contrast"
 msgstr "Kòntrast"
@@ -1188,27 +1202,27 @@ msgstr ""
 msgid "Choose custom accent color"
 msgstr ""
 
-#: package/contents/ui/main.qml:325
+#: package/contents/ui/main.qml:324
 #, fuzzy, kde-format
 #| msgid "Window Text"
 msgid "Window Title"
 msgstr "Test òkna"
 
-#: package/contents/ui/main.qml:347
+#: package/contents/ui/main.qml:346
 #, fuzzy, kde-format
 #| msgctxt "color-kcm-preview"
 #| msgid "Window text"
 msgid "Window text"
 msgstr "Tekst òkna"
 
-#: package/contents/ui/main.qml:354
+#: package/contents/ui/main.qml:353
 #, fuzzy, kde-format
 #| msgctxt "color-sets"
 #| msgid "Button"
 msgid "Button"
 msgstr "Knąpa"
 
-#: package/contents/ui/main.qml:388
+#: package/contents/ui/main.qml:387
 #, fuzzy, kde-format
 #| msgctxt "color-kcm-preview"
 #| msgid "link"
@@ -1216,7 +1230,7 @@ msgctxt "Hyperlink"
 msgid "link"
 msgstr "lënk"
 
-#: package/contents/ui/main.qml:390
+#: package/contents/ui/main.qml:389
 #, fuzzy, kde-format
 #| msgctxt "color-kcm-preview"
 #| msgid "visited"
@@ -1224,61 +1238,61 @@ msgctxt "Visited hyperlink"
 msgid "visited"
 msgstr "ju òbzéróny"
 
-#: package/contents/ui/main.qml:397
+#: package/contents/ui/main.qml:396
 #, fuzzy, kde-format
 #| msgctxt "color-kcm-preview"
 #| msgid "Normal text"
 msgid "Normal text"
 msgstr "Zwëczajny tekst"
 
-#: package/contents/ui/main.qml:405
+#: package/contents/ui/main.qml:404
 #, fuzzy, kde-format
 #| msgid "Visited Text"
 msgid "Highlighted text"
 msgstr "Przezdrzóny tekst"
 
-#: package/contents/ui/main.qml:412
+#: package/contents/ui/main.qml:411
 #, fuzzy, kde-format
 #| msgid "Disabled"
 msgid "Disabled text"
 msgstr "Wëłączony"
 
-#: package/contents/ui/main.qml:430
+#: package/contents/ui/main.qml:429
 #, fuzzy, kde-format
 #| msgid "Import Scheme..."
 msgid "Edit Color Scheme…"
 msgstr "Impòrtëjë palétã ..."
 
-#: package/contents/ui/main.qml:436
+#: package/contents/ui/main.qml:435
 #, fuzzy, kde-format
 #| msgid "Save Color Scheme"
 msgid "Remove Color Scheme"
 msgstr "Zapiszë palétã farwów"
 
-#: package/contents/ui/main.qml:443
+#: package/contents/ui/main.qml:442
 #, fuzzy, kde-format
 #| msgid "Import Color Scheme"
 msgid "Restore Color Scheme"
 msgstr "Impòrtëjë palétã farwów"
 
-#: package/contents/ui/main.qml:487
+#: package/contents/ui/main.qml:486
 #, kde-format
 msgid "Install from File…"
 msgstr ""
 
-#: package/contents/ui/main.qml:492
+#: package/contents/ui/main.qml:491
 #, fuzzy, kde-format
 #| msgid "Get &New Schemes..."
 msgid "Get New Color Schemes…"
 msgstr "&Zladëjë nowé palétë..."
 
-#: package/contents/ui/main.qml:510
+#: package/contents/ui/main.qml:509
 #, fuzzy, kde-format
 #| msgid "Save Color Scheme"
 msgid "Open Color Scheme"
 msgstr "Zapiszë palétã farwów"
 
-#: package/contents/ui/main.qml:512
+#: package/contents/ui/main.qml:511
 #, kde-format
 msgid "Color Scheme Files (*.colors)"
 msgstr ""
