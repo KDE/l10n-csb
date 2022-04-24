@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-30 00:41+0000\n"
+"POT-Creation-Date: 2022-04-24 00:40+0000\n"
 "PO-Revision-Date: 2009-12-04 22:09+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -138,7 +138,7 @@ msgstr ""
 msgid "Apply Settings"
 msgstr "Nastôwë"
 
-#: kcmultidialog.cpp:258 kpluginselector.cpp:809 kpluginwidget.cpp:365
+#: kcmultidialog.cpp:258 kpluginselector.cpp:809 kpluginwidget.cpp:327
 #, kde-format
 msgid "Configure"
 msgstr "Kònfigùracëjô"
@@ -205,13 +205,13 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: kpluginselector.cpp:264 kpluginwidget.cpp:57
+#: kpluginselector.cpp:264 kpluginwidget.cpp:59
 #, fuzzy, kde-format
 #| msgid "&Search"
 msgid "Search..."
 msgstr "&Szëkba"
 
-#: kpluginselector.cpp:804 kpluginwidget.cpp:360
+#: kpluginselector.cpp:804 kpluginwidget.cpp:322
 #, fuzzy, kde-format
 #| msgid "&About"
 msgid "About"
@@ -221,6 +221,73 @@ msgstr "Ò &KDE"
 #, kde-format
 msgid "Enable component"
 msgstr "Właczë kòmpònent"
+
+#: qml/components/KPluginDelegate.qml:45
+#, fuzzy, kde-format
+#| msgid "&About"
+msgctxt "@info:tooltip"
+msgid "About"
+msgstr "Ò &KDE"
+
+#: qml/components/KPluginDelegate.qml:56
+#, fuzzy, kde-format
+#| msgid "Confi&gure..."
+msgctxt "@info:tooltip"
+msgid "Configure..."
+msgstr "&Kònfigùrëjë..."
+
+#: qml/components/KPluginSelector.qml:78
+#, kde-format
+msgid "No matches"
+msgstr ""
+
+#: qml/components/KPluginSelector.qml:78
+#, fuzzy, kde-format
+#| msgid "Not found"
+msgid "No plugins found"
+msgstr "Nie nalazłé"
+
+#: qml/components/private/AboutPlugin.qml:42
+#, fuzzy, kde-format
+#| msgctxt "concatenation of dates and time"
+#| msgid "%1 %2"
+msgctxt "Plugin name and plugin version"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: qml/components/private/AboutPlugin.qml:64
+#, fuzzy, kde-format
+#| msgid "Copy"
+msgid "Copyright"
+msgstr "Kòpérëjë"
+
+#: qml/components/private/AboutPlugin.qml:81
+#, kde-format
+msgid "License:"
+msgstr "Licencëjô:"
+
+#: qml/components/private/AboutPlugin.qml:100
+#, fuzzy, kde-format
+#| msgid "A&uthors"
+msgid "Authors"
+msgstr "Ùsôd&zcë"
+
+#: qml/components/private/AboutPlugin.qml:117
+#, kde-format
+msgid "Credits"
+msgstr ""
+
+#: qml/components/private/AboutPlugin.qml:134
+#, fuzzy, kde-format
+#| msgid "Translation"
+msgid "Translators"
+msgstr "Dolmaczënk"
+
+#: qml/components/private/AboutPlugin.qml:161
+#, fuzzy, kde-format
+#| msgid "&Send Email"
+msgid "Send an email to %1"
+msgstr "Wëslë &e-mail"
 
 #~ msgid "Distance between desktop icons"
 #~ msgstr "Òdstãp midze ikonama"
@@ -480,9 +547,6 @@ msgstr "Właczë kòmpònent"
 
 #~ msgid "A&uthor"
 #~ msgstr "Ùsôd&zca"
-
-#~ msgid "A&uthors"
-#~ msgstr "Ùsôd&zcë"
 
 #~ msgid ""
 #~ "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to "
@@ -2068,10 +2132,6 @@ msgstr "Właczë kòmpònent"
 
 #~ msgid "Yesterday"
 #~ msgstr "Wczora"
-
-#~ msgctxt "concatenation of dates and time"
-#~ msgid "%1 %2"
-#~ msgstr "%1 %2"
 
 #~ msgctxt "concatenation of date/time and time zone"
 #~ msgid "%1 %2"
@@ -3712,9 +3772,6 @@ msgstr "Właczë kòmpònent"
 
 #~ msgid "Wishlist"
 #~ msgstr "Żëczba"
-
-#~ msgid "Translation"
-#~ msgstr "Dolmaczënk"
 
 #~ msgid "S&ubject: "
 #~ msgstr "&Téma: "
@@ -5392,9 +5449,6 @@ msgstr "Właczë kòmpònent"
 #~ msgid "Front"
 #~ msgstr "Przódk"
 
-#~ msgid "Copy"
-#~ msgstr "Kòpérëjë"
-
 #~ msgid "Open"
 #~ msgstr "Òtemkni"
 
@@ -5549,9 +5603,6 @@ msgstr "Właczë kòmpònent"
 #~ msgctxt "Verb"
 #~ msgid "&Insert"
 #~ msgstr "&Wstawi"
-
-#~ msgid "Confi&gure..."
-#~ msgstr "&Kònfigùrëjë..."
 
 #~ msgid "Add"
 #~ msgstr "Dodôj"
@@ -7795,9 +7846,6 @@ msgstr "Właczë kòmpònent"
 #~ "Starna chce wësłac pòdôwczi przez e-mail.\n"
 #~ "Zezwòlëc na to?"
 
-#~ msgid "&Send Email"
-#~ msgstr "Wëslë &e-mail"
-
 #~ msgid ""
 #~ "<qt>The form will be submitted to <br /><b>%1</b><br />on your local "
 #~ "filesystem.<br />Do you want to submit the form?</qt>"
@@ -8161,9 +8209,6 @@ msgstr "Właczë kòmpònent"
 #~| msgid "Find Links as You Type"
 #~ msgid "Find &links only"
 #~ msgstr "Nalezë lënk òbczas pisaniô"
-
-#~ msgid "Not found"
-#~ msgstr "Nie nalazłé"
 
 #~ msgid "F&ind:"
 #~ msgstr "&Nalezë:"
@@ -8821,9 +8866,6 @@ msgstr "Właczë kòmpònent"
 
 #~ msgid "Email address:"
 #~ msgstr "Adresa e-mail:"
-
-#~ msgid "License:"
-#~ msgstr "Licencëjô:"
 
 #~ msgid "GPL"
 #~ msgstr "GPL"
