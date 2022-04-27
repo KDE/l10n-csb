@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_audiocd\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-11 00:17+0000\n"
+"POT-Creation-Date: 2022-04-27 00:45+0000\n"
 "PO-Revision-Date: 2007-07-28 17:06+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian\n"
@@ -29,23 +29,24 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "michol@linuxcsb.org"
 
-#: audiocd.cpp:75
+#: audiocd.cpp:116
+#, kde-format
+msgid "Information"
+msgstr "Wëdowiedzô"
+
+#: audiocd.cpp:117
+#, kde-format
+msgid "Full CD"
+msgstr "Fùl CD"
+
+#: audiocd.cpp:448 audiocd.cpp:452 audiocd.cpp:521 audiocd.cpp:539
+#: audiocd.cpp:667 audiocd.cpp:772 audiocd.cpp:774 audiocd.cpp:780
 #, fuzzy, kde-format
 #| msgid "Information"
 msgid "CDDB Information"
 msgstr "Wëdowiedzô"
 
-#: audiocd.cpp:117
-#, kde-format
-msgid "Information"
-msgstr "Wëdowiedzô"
-
-#: audiocd.cpp:118
-#, kde-format
-msgid "Full CD"
-msgstr "Fùl CD"
-
-#: audiocd.cpp:493
+#: audiocd.cpp:492
 #, kde-format
 msgid ""
 "You cannot specify a host with this protocol. Please use the audiocd:/ "
@@ -53,13 +54,13 @@ msgid ""
 msgstr ""
 "Nie mòżesz wëbrac kòmpùtra tim protokòłã. Proszã brëkùjë fòrmat audiocd:/."
 
-#: audiocd.cpp:890
+#: audiocd.cpp:889
 #, kde-format
 msgctxt "The URL does not include a device name"
 msgid "Missing device specification"
 msgstr ""
 
-#: audiocd.cpp:901
+#: audiocd.cpp:900
 #, kde-format
 msgid ""
 "Device does not have read permissions for this account.  Check the read "
@@ -68,7 +69,7 @@ msgstr ""
 "Ùrządzenié nie mô praw czëtaniô dlô tegò kònta. Sprôwdzë prawa czëtania na "
 "tim ùrządzeniu."
 
-#: audiocd.cpp:905
+#: audiocd.cpp:904
 #, kde-format
 msgid ""
 "Device does not have write permissions for this account.  Check the write "
@@ -77,7 +78,7 @@ msgstr ""
 "Ùrządzenié nie mô praw pisania dlô tegò kònta. Sprôwdzë prawa pisania na tim "
 "ùrządzeniu."
 
-#: audiocd.cpp:911
+#: audiocd.cpp:910
 #, kde-format
 msgid ""
 "Unknown error.  If you have a cd in the drive try running cdparanoia -vsQ as "
@@ -97,23 +98,23 @@ msgstr ""
 "to wcyg nie pòmògô, wpiszë audiocd:/?device=/dev/sg0 (abò juwerne), bë rzec "
 "kio_audiocd dze twòj CD-ROM je pòdpiãti."
 
-#: audiocd.cpp:989
+#: audiocd.cpp:988
 #, kde-format
 msgid "AudioCD: Disk damage detected on this track, risk of data corruption."
 msgstr ""
 "AudioCD: Òdkrëtô zëpsëté pòdôwczi w tim sztëczkù, rizykò ùtraceniô pòdôwków."
 
-#: audiocd.cpp:996
+#: audiocd.cpp:995
 #, kde-format
 msgid "Error reading audio data for %1 from the CD"
 msgstr "Fela czëtaniô pòdôwków aùdio dlô %1 z CD"
 
-#: audiocd.cpp:1006 audiocd.cpp:1085
+#: audiocd.cpp:1005 audiocd.cpp:1084
 #, kde-format
 msgid "Could not read %1: encoding failed"
 msgstr "Nie mòże czëtac %1: rozkòdowanié nie darzëło sã"
 
-#: audiocd.cpp:1210
+#: audiocd.cpp:1209
 #, kde-format
 msgid "Track %1"
 msgstr "Sztëczk %1"
