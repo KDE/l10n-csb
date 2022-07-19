@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-05 00:46+0000\n"
+"POT-Creation-Date: 2022-07-19 00:46+0000\n"
 "PO-Revision-Date: 2009-12-10 21:09+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -1396,7 +1396,7 @@ msgid ""
 "</list>"
 msgstr ""
 
-#: qml/ReportPage.qml:59
+#: qml/ReportPage.qml:60
 #, fuzzy
 #| msgctxt "@label:textbox"
 #| msgid "<strong>Information about the crash:</strong>"
@@ -1404,7 +1404,7 @@ msgctxt "@info"
 msgid "Information about the crash:"
 msgstr "<strong>Wëdowiédzô ò załômaniu:</strong>"
 
-#: qml/ReportPage.qml:64
+#: qml/ReportPage.qml:65
 msgctxt "@info"
 msgid ""
 "<subtitle>Describe in as much detail as possible the crash circumstances:</"
@@ -1418,12 +1418,12 @@ msgid ""
 "</list>"
 msgstr ""
 
-#: qml/ReportPage.qml:78
+#: qml/ReportPage.qml:79
 msgctxt "the minimum required length of a text was reached"
 msgid "Minimum length reached"
 msgstr ""
 
-#: qml/ReportPage.qml:80
+#: qml/ReportPage.qml:81
 #, fuzzy
 #| msgctxt "@title:window"
 #| msgid "We need more information"
@@ -1431,7 +1431,7 @@ msgctxt "the minimum required length of a text wasn't reached yet"
 msgid "Provide more information"
 msgstr "Nama je nót wicy wëdowiédzë"
 
-#: qml/ReportPage.qml:102
+#: qml/ReportPage.qml:103
 #, fuzzy
 #| msgctxt "@title:group"
 #| msgid "Distribution method:"
@@ -1439,7 +1439,7 @@ msgctxt "@info"
 msgid "Distribution method:"
 msgstr "Metoda distribùcëji:"
 
-#: qml/ReportPage.qml:125
+#: qml/ReportPage.qml:126
 #, fuzzy
 #| msgctxt "@option:check"
 #| msgid "KDE Platform is compiled from sources"
@@ -1447,7 +1447,7 @@ msgctxt "@option:check"
 msgid "KDE Platform is compiled from source"
 msgstr "Kòmpilacëjô KDE ze zdroju"
 
-#: qml/ReportPage.qml:133
+#: qml/ReportPage.qml:134
 #, fuzzy
 #| msgctxt "@info/rich"
 #| msgid ""
@@ -1461,7 +1461,7 @@ msgstr ""
 "<note>Wëdowiédzô ò załómaniu ë systemie bãdą aùtoamtno dodóné do rapòrtu ò "
 "felë.</note>"
 
-#: qml/ReportPage.qml:142
+#: qml/ReportPage.qml:143
 #, fuzzy
 #| msgctxt "@title"
 #| msgid "Preview Report"
@@ -1469,7 +1469,24 @@ msgctxt "@action:button"
 msgid "Preview Report"
 msgstr "Pòdzérk rapòrtu"
 
-#: qml/SendingPage.qml:53
+#: qml/SendingPage.qml:45
+#, fuzzy
+#| msgctxt "@action:button"
+#| msgid "&Save to File..."
+msgctxt "@action:button"
+msgid "Save Report to File"
+msgstr "&Zapiszë do lopka..."
+
+#: qml/SendingPage.qml:46
+#, fuzzy
+#| msgctxt "@info:tooltip"
+#| msgid "Use this button to view the information of the selected bug report."
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to save the crash information to a file for manual reporting."
+msgstr "Brëkùjë ti knąpë abë òbaczëc wëdowiédzã ò wëbrónym rapòrce."
+
+#: qml/SendingPage.qml:63
 #, fuzzy
 #| msgctxt "@info:status"
 #| msgid "Error sending the crash report:  <message>%1.</message>"
@@ -1477,12 +1494,12 @@ msgctxt "@info"
 msgid "Failed to submit bug report: <message>%1</message>"
 msgstr "Fela sélaniô rapòrtu załomaniô:  <message>%1.</message>"
 
-#: qml/SendingPage.qml:57
+#: qml/SendingPage.qml:67
 msgctxt "@action retry submitting bug report"
 msgid "Retry Submission"
 msgstr ""
 
-#: qml/SendingPage.qml:71
+#: qml/SendingPage.qml:81
 msgctxt "@info"
 msgid "Submitting bug report..."
 msgstr ""
@@ -2423,10 +2440,6 @@ msgstr ""
 #~ msgid "Open selected report"
 #~ msgstr "Òtemkni wëbróny rapòrt"
 
-#~ msgctxt "@info:tooltip"
-#~ msgid "Use this button to view the information of the selected bug report."
-#~ msgstr "Brëkùjë ti knąpë abë òbaczëc wëdowiédzã ò wëbrónym rapòrce."
-
 #~ msgctxt "@action:button"
 #~ msgid "Stop searching"
 #~ msgstr "Zatrzëmôj szëkbã"
@@ -2531,10 +2544,6 @@ msgstr ""
 #~ msgctxt "@title:window"
 #~ msgid "Contents of the Report"
 #~ msgstr "Zamkłosc rapòrtu"
-
-#~ msgctxt "@action:button"
-#~ msgid "&Save to File..."
-#~ msgstr "&Zapiszë do lopka..."
 
 #~ msgctxt "@info:tooltip"
 #~ msgid ""
