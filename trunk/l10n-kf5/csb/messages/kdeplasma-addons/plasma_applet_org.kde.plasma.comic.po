@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_comic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-05 00:46+0000\n"
+"POT-Creation-Date: 2022-07-21 00:45+0000\n"
 "PO-Revision-Date: 2009-06-29 20:47+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -19,61 +19,74 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
 
-#: comic.cpp:86
+#: comic.cpp:88
 #, kde-format
 msgctxt "@action comic strip"
 msgid "&Next Tab with a New Strip"
 msgstr ""
 
-#: comic.cpp:92
+#: comic.cpp:94
 #, fuzzy, kde-format
 #| msgid "Jump to &first Strip"
 msgctxt "@action"
 msgid "Jump to &First Strip"
 msgstr "Skóknié do &pierszégò sztripka"
 
-#: comic.cpp:96
+#: comic.cpp:98
 #, fuzzy, kde-format
 #| msgid "Jump to &current Strip"
 msgctxt "@action"
 msgid "Jump to &Current Strip"
 msgstr "Skóknié do biéżnégò sztripka"
 
-#: comic.cpp:100
+#: comic.cpp:102
 #, fuzzy, kde-format
 #| msgid "Jump to Strip ..."
 msgctxt "@action"
 msgid "Jump to Strip…"
 msgstr "Skóknié do sztripka..."
 
-#: comic.cpp:104
+#: comic.cpp:106
+#, fuzzy, kde-format
+#| msgid "Visit the shop &website"
+msgctxt "@action"
+msgid "Visit the Website"
+msgstr "Òbaczë króm &starnë"
+
+#: comic.cpp:110
+#, kde-format
+msgctxt "@action:inmenu %1 is the name of a web browser"
+msgid "View in %1"
+msgstr ""
+
+#: comic.cpp:118
 #, fuzzy, kde-format
 #| msgid "Visit the shop &website"
 msgctxt "@action"
 msgid "Visit the Shop &Website"
 msgstr "Òbaczë króm &starnë"
 
-#: comic.cpp:109
+#: comic.cpp:123
 #, fuzzy, kde-format
 #| msgid "&Save Comic As..."
 msgctxt "@action"
 msgid "&Save Comic As…"
 msgstr "&Zapiszë kòmiks jakno..."
 
-#: comic.cpp:113
+#: comic.cpp:127
 #, fuzzy, kde-format
 #| msgid "&Save Comic As..."
 msgctxt "@action"
 msgid "&Create Comic Book Archive…"
 msgstr "&Zapiszë kòmiks jakno..."
 
-#: comic.cpp:118
+#: comic.cpp:132
 #, kde-format
 msgctxt "@option:check Context menu of comic image"
 msgid "&Actual Size"
 msgstr "&Aktualnô miara"
 
-#: comic.cpp:126
+#: comic.cpp:140
 #, fuzzy, kde-format
 #| msgctxt "@option:check Context menu of comic image"
 #| msgid "Store current &Position"
@@ -81,7 +94,7 @@ msgctxt "@option:check Context menu of comic image"
 msgid "Store Current &Position"
 msgstr "Trzëmôj terné &pòłożenié"
 
-#: comic.cpp:459
+#: comic.cpp:477
 #, kde-format
 msgid "Archiving comic failed"
 msgstr ""
@@ -199,7 +212,7 @@ msgstr ""
 msgid "Could not create the archive at the specified location."
 msgstr ""
 
-#: comicdata.cpp:85
+#: comicdata.cpp:86
 #, fuzzy, kde-format
 #| msgctxt "an abbrevation for Number"
 #| msgid "# %1"
@@ -207,12 +220,12 @@ msgctxt "an abbreviation for Number"
 msgid "# %1"
 msgstr "# %1"
 
-#: comicdata.cpp:114
+#: comicdata.cpp:115
 #, kde-format
 msgid "Getting comic strip failed:"
 msgstr ""
 
-#: comicdata.cpp:117
+#: comicdata.cpp:118
 #, kde-format
 msgid ""
 "Maybe there is no Internet connection.\n"
@@ -221,7 +234,7 @@ msgid ""
 "so choosing a different one might work."
 msgstr ""
 
-#: comicdata.cpp:127
+#: comicdata.cpp:128
 #, kde-format
 msgid ""
 "\n"
