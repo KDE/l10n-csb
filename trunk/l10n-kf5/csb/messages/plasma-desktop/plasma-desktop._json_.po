@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-24 00:57+0000\n"
+"POT-Creation-Date: 2022-07-30 00:59+0000\n"
 "PO-Revision-Date: 2009-12-13 21:28+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -17,6 +17,14 @@ msgstr ""
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
+
+#: applets/activitypager/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Service Manager"
+msgctxt "Name"
+msgid "Activity Pager"
+msgstr "Menadżera ùsłëżnotów"
 
 #: applets/icontasks/metadata.json
 #, fuzzy
@@ -345,6 +353,11 @@ msgctxt "Name"
 msgid "Panel Toolbox"
 msgstr "Analizatora netë"
 
+#: applets/activitypager/metadata.json
+msgctxt "Description"
+msgid "Switch between activities"
+msgstr ""
+
 #: applets/icontasks/metadata.json
 msgctxt "Description"
 msgid "Modern dock-style window switcher displaying only icons"
@@ -667,6 +680,14 @@ msgctxt "Description"
 msgid "Manage Plasma panel"
 msgstr "Ùczbòwnik plazmë"
 
+#: applets/activitypager/metadata.json applets/pager/package/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Cursor Files"
+msgctxt "Authors Name"
+msgid "The Plasma Team"
+msgstr "Lopczi kùrsorów"
+
 #: applets/icontasks/metadata.json applets/kicker/package/metadata.json
 #: applets/taskmanager/package/metadata.json applets/window-list/metadata.json
 #: containments/desktop/package/metadata.json containments/folder/metadata.json
@@ -705,14 +726,6 @@ msgstr ""
 msgctxt "Authors Name"
 msgid "Sebastian Kügler"
 msgstr ""
-
-#: applets/pager/package/metadata.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Cursor Files"
-msgctxt "Authors Name"
-msgid "The Plasma Team"
-msgstr "Lopczi kùrsorów"
 
 #: applets/showActivityManager/package/metadata.json
 msgctxt "Authors Name"
