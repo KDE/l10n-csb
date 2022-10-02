@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-30 00:40+0000\n"
+"POT-Creation-Date: 2022-10-02 00:43+0000\n"
 "PO-Revision-Date: 2009-08-03 17:47+0200\n"
 "Last-Translator: Michôł Òstrowsczi <michol@linuxcsb.org>\n"
 "Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
@@ -2824,7 +2824,7 @@ msgstr "Pòkôżë pòdzérk"
 msgid "Open Containing Folder"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2262 filewidgets/kfileplacesview.cpp:1122
+#: filewidgets/kdiroperator.cpp:2262 filewidgets/kfileplacesview.cpp:1165
 #, kde-format
 msgid "Properties"
 msgstr ""
@@ -3047,47 +3047,47 @@ msgstr ""
 "programë (%1).<br /><br />Jinaczi bãdze przistãpné we wszëtczich programach."
 "</qt>"
 
-#: filewidgets/kfileplacesitem.cpp:162
+#: filewidgets/kfileplacesitem.cpp:177
 #, fuzzy, kde-format
 #| msgid "Replace"
 msgctxt "@item"
 msgid "Places"
 msgstr "Zastãpi"
 
-#: filewidgets/kfileplacesitem.cpp:165
+#: filewidgets/kfileplacesitem.cpp:180
 #, fuzzy, kde-format
 #| msgid "&Remove"
 msgctxt "@item"
 msgid "Remote"
 msgstr "&Rëmôj"
 
-#: filewidgets/kfileplacesitem.cpp:168
+#: filewidgets/kfileplacesitem.cpp:183
 #, kde-format
 msgctxt "@item The place group section name for recent dynamic lists"
 msgid "Recent"
 msgstr ""
 
-#: filewidgets/kfileplacesitem.cpp:171
+#: filewidgets/kfileplacesitem.cpp:186
 #, fuzzy, kde-format
 #| msgid "Search"
 msgctxt "@item"
 msgid "Search For"
 msgstr "&Szëkôj:"
 
-#: filewidgets/kfileplacesitem.cpp:174
+#: filewidgets/kfileplacesitem.cpp:189
 #, fuzzy, kde-format
 #| msgid "Device"
 msgctxt "@item"
 msgid "Devices"
 msgstr "Ùrządzenié"
 
-#: filewidgets/kfileplacesitem.cpp:177
+#: filewidgets/kfileplacesitem.cpp:192
 #, kde-format
 msgctxt "@item"
 msgid "Removable Devices"
 msgstr ""
 
-#: filewidgets/kfileplacesitem.cpp:180
+#: filewidgets/kfileplacesitem.cpp:195
 #, kde-format
 msgctxt "@item"
 msgid "Tags"
@@ -3190,34 +3190,56 @@ msgctxt "KFile System Bookmarks"
 msgid "Audio"
 msgstr "*|Wszëtczé lopczi"
 
-#: filewidgets/kfileplacesmodel.cpp:1148
+#: filewidgets/kfileplacesmodel.cpp:1159
 #, fuzzy, kde-format
 #| msgid "Could not delete file %1."
 msgctxt "Placeholder is error message"
 msgid "Could not add to the Places panel: %1"
 msgstr "Ni mòże rëmnąc lopka %1."
 
-#: filewidgets/kfileplacesmodel.cpp:1155
+#: filewidgets/kfileplacesmodel.cpp:1166
 #, fuzzy, kde-format
 #| msgid "The file or folder %1 does not exist."
 msgid "Only folders can be added to the Places panel."
 msgstr "Felëje lopk, abò katalog %1."
 
-#: filewidgets/kfileplacesmodel.cpp:1414
+#: filewidgets/kfileplacesmodel.cpp:1430
+#, fuzzy, kde-format
+#| msgid "&Remove '%1'"
+msgctxt "@action:inmenu"
+msgid "Releasing…"
+msgstr "&Rëmôj '%1'"
+
+#: filewidgets/kfileplacesmodel.cpp:1432
 #, fuzzy, kde-format
 #| msgid "&Remove '%1'"
 msgctxt "@action:inmenu"
 msgid "&Release"
 msgstr "&Rëmôj '%1'"
 
-#: filewidgets/kfileplacesmodel.cpp:1416
+#: filewidgets/kfileplacesmodel.cpp:1436
+#, fuzzy, kde-format
+#| msgid "&Safely remove '%1'"
+msgctxt "@action:inmenu"
+msgid "Safely Removing…"
+msgstr "Rëmôj na bezpieczny ôrt '%1'"
+
+#: filewidgets/kfileplacesmodel.cpp:1438
 #, fuzzy, kde-format
 #| msgid "&Safely remove '%1'"
 msgctxt "@action:inmenu"
 msgid "&Safely Remove"
 msgstr "Rëmôj na bezpieczny ôrt '%1'"
 
-#: filewidgets/kfileplacesmodel.cpp:1419
+#: filewidgets/kfileplacesmodel.cpp:1443
+#, fuzzy, kde-format
+#| msgctxt "@title job"
+#| msgid "Unmounting"
+msgctxt "@action:inmenu"
+msgid "Unmounting…"
+msgstr "Òdmòntowanié"
+
+#: filewidgets/kfileplacesmodel.cpp:1445
 #, fuzzy, kde-format
 #| msgctxt "@title job"
 #| msgid "Unmounting"
@@ -3225,43 +3247,43 @@ msgctxt "@action:inmenu"
 msgid "&Unmount"
 msgstr "Òdmòntowanié"
 
-#: filewidgets/kfileplacesmodel.cpp:1438
+#: filewidgets/kfileplacesmodel.cpp:1469
 #, fuzzy, kde-format
 #| msgid "&Reject"
 msgctxt "@action:inmenu"
 msgid "&Eject"
 msgstr "&Òdrzucë"
 
-#: filewidgets/kfileplacesmodel.cpp:1474
+#: filewidgets/kfileplacesmodel.cpp:1505
 #, fuzzy, kde-format
 #| msgid "The specified resource may not exist."
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr "Mòżlëwé, że to nie dô pòdónegò dostónka."
 
-#: filewidgets/kfileplacesmodel.cpp:1509
+#: filewidgets/kfileplacesmodel.cpp:1540
 #, fuzzy, kde-format
 #| msgid "An error occurred while accessing '%1', the system said: %2"
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr "Fela przë próbie ùzwëskaniô przistãpù do '%1', systema gôdô: %2"
 
-#: filewidgets/kfileplacesmodel.cpp:1511
+#: filewidgets/kfileplacesmodel.cpp:1542
 #, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr "Fela przë próbie ùzwëskaniô przistãpù do '%1'"
 
-#: filewidgets/kfileplacesview.cpp:568
+#: filewidgets/kfileplacesview.cpp:595
 #, kde-format
 msgid "%1 (hidden)"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1091
+#: filewidgets/kfileplacesview.cpp:1132
 #, fuzzy, kde-format
 #| msgid "Trash"
 msgctxt "@action:inmenu"
 msgid "Empty Trash"
 msgstr "Kòsz"
 
-#: filewidgets/kfileplacesview.cpp:1109
+#: filewidgets/kfileplacesview.cpp:1152
 #, fuzzy, kde-format
 #| msgctxt "@title job"
 #| msgid "Mounting"
@@ -3269,72 +3291,72 @@ msgctxt "@action:inmenu"
 msgid "Mount"
 msgstr "Mòntowanié"
 
-#: filewidgets/kfileplacesview.cpp:1115
+#: filewidgets/kfileplacesview.cpp:1158
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Open in New Tab"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1118
+#: filewidgets/kfileplacesview.cpp:1161
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Open in New Window"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1127
+#: filewidgets/kfileplacesview.cpp:1170
 #, fuzzy, kde-format
 #| msgid "Edit Places Entry"
 msgctxt "@action:inmenu"
 msgid "Add Entry…"
 msgstr "Zmieni wpisënk chùtczégò przistãpù"
 
-#: filewidgets/kfileplacesview.cpp:1133
+#: filewidgets/kfileplacesview.cpp:1176
 #, fuzzy, kde-format
 #| msgid "Edit"
 msgctxt "@action:inmenu"
 msgid "&Edit…"
 msgstr "Editëjë"
 
-#: filewidgets/kfileplacesview.cpp:1138
+#: filewidgets/kfileplacesview.cpp:1181
 #, fuzzy, kde-format
 #| msgid "&Remove"
 msgctxt "@action:inmenu"
 msgid "Remove"
 msgstr "&Rëmôj"
 
-#: filewidgets/kfileplacesview.cpp:1142
+#: filewidgets/kfileplacesview.cpp:1185
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Hide"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1150
+#: filewidgets/kfileplacesview.cpp:1193
 #, fuzzy, kde-format
 #| msgid "&Hide '%1'"
 msgctxt "@item:inmenu"
 msgid "Hide Section '%1'"
 msgstr "&Zatacë '%1'"
 
-#: filewidgets/kfileplacesview.cpp:1150
+#: filewidgets/kfileplacesview.cpp:1193
 #, fuzzy, kde-format
 #| msgid "&Hide '%1'"
 msgctxt "@item:inmenu"
 msgid "Hide Section"
 msgstr "&Zatacë '%1'"
 
-#: filewidgets/kfileplacesview.cpp:1158
+#: filewidgets/kfileplacesview.cpp:1201
 #, kde-format
 msgid "&Show All Entries"
 msgstr "Wëskrzëni &wszëtczé wpisënczi"
 
-#: filewidgets/kfileplacesview.cpp:1163
+#: filewidgets/kfileplacesview.cpp:1206
 #, fuzzy, kde-format
 #| msgid "Short View"
 msgctxt "@item:inmenu"
 msgid "Icon Size"
 msgstr "Skrodzony wëzdrzatk"
 
-#: filewidgets/kfileplacesview.cpp:1266
+#: filewidgets/kfileplacesview.cpp:1309
 #, fuzzy, kde-format
 #| msgid "Auto &Detect"
 msgctxt ""
@@ -3343,26 +3365,26 @@ msgctxt ""
 msgid "Auto Resize"
 msgstr "Aùtomatné &rozpòznanié"
 
-#: filewidgets/kfileplacesview.cpp:1286
+#: filewidgets/kfileplacesview.cpp:1329
 #, kde-format
 msgctxt "Small icon size"
 msgid "Small (%1x%1)"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1289
+#: filewidgets/kfileplacesview.cpp:1332
 #, kde-format
 msgctxt "Medium icon size"
 msgid "Medium (%1x%1)"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1292
+#: filewidgets/kfileplacesview.cpp:1335
 #, fuzzy, kde-format
 #| msgid "Drive: %1"
 msgctxt "Large icon size"
 msgid "Large (%1x%1)"
 msgstr "Nëk: %1"
 
-#: filewidgets/kfileplacesview.cpp:1295
+#: filewidgets/kfileplacesview.cpp:1338
 #, kde-format
 msgctxt "Huge icon size"
 msgid "Huge (%1x%1)"
