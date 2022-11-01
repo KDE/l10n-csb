@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_extragear-multimedia_k3b\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-25 00:59+0000\n"
+"POT-Creation-Date: 2022-11-01 01:00+0000\n"
 "PO-Revision-Date: 2009-12-21 10:35+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -17,6 +17,11 @@ msgstr ""
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2)\n"
+
+#: plugins/decoder/ffmpeg/k3bffmpegdecoder.json
+msgctxt "Name"
+msgid "K3b FFMpeg Decoder"
+msgstr "Dekòder FFMpeg dlô K3b"
 
 #: plugins/decoder/flac/k3bflacdecoder.json
 msgctxt "Name"
@@ -94,6 +99,14 @@ msgctxt "Name"
 msgid "K3b CDDB Audio Plugin"
 msgstr "Wtëkôcz aùdio Cddb dlô K3b"
 
+#: plugins/decoder/ffmpeg/k3bffmpegdecoder.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Decoding module to decode FLAC files"
+msgctxt "Description"
+msgid "Decoding module to decode WMA files"
+msgstr "Mòdul dekòdërëjący lopczi FLAC"
+
 #: plugins/decoder/flac/k3bflacdecoder.json
 msgctxt "Description"
 msgid "Decoding module to decode FLAC files"
@@ -167,16 +180,7 @@ msgctxt "Description"
 msgid "Plugin to query a CDDB server for information about an audio project."
 msgstr ""
 
-#: plugins/decoder/flac/k3bflacdecoder.json
-msgctxt "Authors Name"
-msgid "John Steele Scott"
-msgstr ""
-
-#: plugins/decoder/libsndfile/k3blibsndfiledecoder.json
-msgctxt "Authors Name"
-msgid "Matthieu Bedouet"
-msgstr ""
-
+#: plugins/decoder/ffmpeg/k3bffmpegdecoder.json
 #: plugins/decoder/mp3/k3bmaddecoder.json
 #: plugins/decoder/musepack/k3bmpcdecoder.json
 #: plugins/decoder/ogg/k3boggvorbisdecoder.json
@@ -191,21 +195,20 @@ msgctxt "Authors Name"
 msgid "Sebastian Trueg"
 msgstr ""
 
+#: plugins/decoder/flac/k3bflacdecoder.json
+msgctxt "Authors Name"
+msgid "John Steele Scott"
+msgstr ""
+
+#: plugins/decoder/libsndfile/k3blibsndfiledecoder.json
+msgctxt "Authors Name"
+msgid "Matthieu Bedouet"
+msgstr ""
+
 #: plugins/decoder/skeleton.json plugins/encoder/skeleton.json
 msgctxt "Authors Name"
 msgid "???"
 msgstr ""
-
-#~ msgctxt "Name"
-#~ msgid "K3b FFMpeg Decoder"
-#~ msgstr "Dekòder FFMpeg dlô K3b"
-
-#, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Decoding module to decode FLAC files"
-#~ msgctxt "Description"
-#~ msgid "Decoding module to decode WMA files"
-#~ msgstr "Mòdul dekòdërëjący lopczi FLAC"
 
 #~ msgctxt "Name"
 #~ msgid "Video DVD Browser"
