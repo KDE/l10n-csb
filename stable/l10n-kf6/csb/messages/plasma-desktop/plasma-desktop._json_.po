@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-17 00:54+0000\n"
+"POT-Creation-Date: 2026-09-03 00:54+0000\n"
 "PO-Revision-Date: 2009-12-13 21:28+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -25,6 +25,11 @@ msgstr ""
 msgctxt "Name"
 msgid "Activity Pager"
 msgstr "Menadżera ùsłëżnotów"
+
+#: applets/dwellclicker/metadata.json
+msgctxt "Name"
+msgid "Dwell Clicker"
+msgstr ""
 
 #: applets/icontasks/metadata.json
 #, fuzzy
@@ -177,14 +182,6 @@ msgctxt "Name"
 msgid "Keyboard"
 msgstr "Klawiatura"
 
-#: kcms/keyboard/kded_keyboard.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Keyboard Layout"
-msgctxt "Name"
-msgid "Keyboard Daemon"
-msgstr "Ùstôw klawiaturë"
-
 #: kcms/keys/kcm_keys.json
 #, fuzzy
 #| msgctxt "Name"
@@ -253,7 +250,7 @@ msgctxt "Name"
 msgid "Device Actions"
 msgstr "Dzejanié ùrządzenia"
 
-#: kcms/spellchecking/kcmspellchecking.json
+#: kcms/spellchecking/kcm_spellchecking.json
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Spell Checker"
@@ -266,7 +263,7 @@ msgctxt "Name"
 msgid "Drawing Tablet"
 msgstr ""
 
-#: kcms/touchpad/kcm_touchpad.json kcms/touchpad/kded/kded_touchpad.json
+#: kcms/touchpad/kcm_touchpad.json
 msgctxt "Name"
 msgid "Touchpad"
 msgstr ""
@@ -279,6 +276,11 @@ msgstr ""
 #: kcms/workspaceoptions/kcm_workspace.json
 msgctxt "Name"
 msgid "General Behavior"
+msgstr ""
+
+#: kded/screenreader/metadata.json
+msgctxt "Name"
+msgid "Screenreader"
 msgstr ""
 
 #: layout-templates/org.kde.plasma.desktop.appmenubar/metadata.json
@@ -350,6 +352,11 @@ msgstr "Analizatora netë"
 #: applets/activitypager/metadata.json
 msgctxt "Description"
 msgid "Switch between activities"
+msgstr ""
+
+#: applets/dwellclicker/metadata.json
+msgctxt "Description"
+msgid "Automatically click when pointer remains still for a set amount of time"
 msgstr ""
 
 #: applets/icontasks/metadata.json
@@ -494,11 +501,6 @@ msgctxt "Description"
 msgid "Keyboard Hardware and Layout"
 msgstr "Ùstôw klawiaturë"
 
-#: kcms/keyboard/kded_keyboard.json
-msgctxt "Description"
-msgid "Enables switching keyboard layout through shortcuts or system tray"
-msgstr ""
-
 #: kcms/keys/kcm_keys.json
 #, fuzzy
 #| msgctxt "Name"
@@ -562,7 +564,7 @@ msgctxt "Description"
 msgid "Manage actions available to the user when connecting new devices"
 msgstr ""
 
-#: kcms/spellchecking/kcmspellchecking.json
+#: kcms/spellchecking/kcm_spellchecking.json
 msgctxt "Description"
 msgid "Spell Checker Dictionaries and Options"
 msgstr ""
@@ -583,11 +585,6 @@ msgctxt "Description"
 msgid "Touchpad settings"
 msgstr "Nastôw mëszë"
 
-#: kcms/touchpad/kded/kded_touchpad.json
-msgctxt "Description"
-msgid "Enables or disables touchpad"
-msgstr ""
-
 #: kcms/workspaceoptions/kcm_workspace.json
 #, fuzzy
 #| msgctxt "Comment"
@@ -595,6 +592,11 @@ msgstr ""
 msgctxt "Description"
 msgid "Configure general workspace behavior"
 msgstr "Kònfigùracëjô programë sprôwdzaniô pisënkù"
+
+#: kded/screenreader/metadata.json
+msgctxt "Description"
+msgid "Manages Screenreader"
+msgstr ""
 
 #: layout-templates/org.kde.plasma.desktop.appmenubar/metadata.json
 msgctxt "Description"
@@ -658,6 +660,11 @@ msgstr "Ùczbòwnik plazmë"
 msgctxt "Authors Name"
 msgid "The Plasma Team"
 msgstr "Lopczi kùrsorów"
+
+#: applets/dwellclicker/metadata.json
+msgctxt "Authors Name"
+msgid "Sebastian Sauer"
+msgstr ""
 
 #: applets/icontasks/metadata.json applets/kicker/metadata.json
 #: applets/taskmanager/metadata.json applets/window-list/metadata.json
@@ -867,7 +874,7 @@ msgid ""
 "Solid Devices Actions,device actions,open with,play,download,browse,transfer"
 msgstr ""
 
-#: kcms/spellchecking/kcmspellchecking.json
+#: kcms/spellchecking/kcm_spellchecking.json
 msgctxt "X-KDE-Keywords"
 msgid ""
 "spell,spellings,grammar check,grammatical check,spell check,autocorrect,auto "
@@ -909,8 +916,15 @@ msgstr ""
 
 #: solid-device-automounter/kcm/device_automounter_kcm.json
 msgctxt "X-KDE-Keywords"
-msgid "Automount,Mount,Disk,Disks,Removable,Device,Devices,Automatic"
+msgid "Automount,Mount,Disk,Disks,Removable,Device,Devices,Automatic,usb"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Keyboard Layout"
+#~ msgctxt "Name"
+#~ msgid "Keyboard Daemon"
+#~ msgstr "Ùstôw klawiaturë"
 
 #~ msgctxt "Name"
 #~ msgid "Default Applications"
